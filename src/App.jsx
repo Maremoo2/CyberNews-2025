@@ -93,6 +93,7 @@ function App() {
       params.set('r', selectedRegion.toLowerCase())
     }
     
+    // Only support single tag in URL for simplicity of shareable links
     if (selectedTags.length === 1) {
       params.set('t', selectedTags[0])
     }
@@ -131,8 +132,6 @@ function App() {
     })
     return counts
   }, [selectedMonth])
-
-
 
   // Filter and sort incidents
   const filteredIncidents = useMemo(() => {
@@ -384,7 +383,7 @@ function App() {
 
       <footer className="footer">
         <p>
-          Dekker 2025 • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO', { day: 'numeric', month: 'numeric', year: 'numeric' })}
+          Dekker 2025 • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
         </p>
       </footer>
     </div>
