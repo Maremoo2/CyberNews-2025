@@ -1,0 +1,102 @@
+.year-wheel-container {
+  padding: 2rem 1rem;
+  background: white;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.year-wheel-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #495057;
+  margin: 0 0 0.5rem 0;
+}
+
+.year-wheel-subtitle {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin: 0 0 1.5rem 0;
+}
+
+.year-wheel-svg {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.month-segment {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.month-segment:hover {
+  filter: brightness(0.95);
+  stroke: #667eea;
+  stroke-width: 2;
+}
+
+.month-segment.selected {
+  filter: brightness(1);
+}
+
+.month-label {
+  font-size: 14px;
+  font-weight: 700;
+  fill: #495057;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.month-label.selected {
+  fill: white;
+  font-size: 16px;
+}
+
+.center-text-year {
+  font-size: 24px;
+  font-weight: 700;
+  fill: #667eea;
+  pointer-events: none;
+}
+
+.center-text-count {
+  font-size: 12px;
+  font-weight: 600;
+  fill: #6c757d;
+  pointer-events: none;
+}
+
+.reset-wheel-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border: 2px solid #667eea;
+  color: #667eea;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reset-wheel-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .year-wheel-container {
+    padding: 3rem 1rem;
+  }
+
+  .year-wheel-title {
+    font-size: 1.75rem;
+  }
+
+  .year-wheel-subtitle {
+    font-size: 1rem;
+  }
+}
