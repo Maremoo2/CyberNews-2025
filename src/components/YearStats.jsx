@@ -25,8 +25,8 @@ function YearStats({ incidents }) {
         })
       }
     })
-    const mostCommonTag = Object.entries(tagCounts)
-      .sort((a, b) => b[1] - a[1])[0]
+    const tagEntries = Object.entries(tagCounts).sort((a, b) => b[1] - a[1])
+    const mostCommonTag = tagEntries.length > 0 ? tagEntries[0][0] : 'N/A'
 
     // Find busiest month
     const monthCounts = Array(12).fill(0)
@@ -38,13 +38,14 @@ function YearStats({ incidents }) {
         }
       }
     })
-    const busiestMonthIndex = monthCounts.indexOf(Math.max(...monthCounts))
+    const maxMonthCount = Math.max(...monthCounts)
+    const busiestMonthIndex = maxMonthCount > 0 ? monthCounts.indexOf(maxMonthCount) : -1
 
     return {
       totalIncidents: incidents.length,
       regionsCount: regions.size,
-      mostCommonTag: mostCommonTag ? mostCommonTag[0] : 'N/A',
-      busiestMonth: MONTHS_NO[busiestMonthIndex] || 'N/A'
+      mostCommonTag,
+      busiestMonth: busiestMonthIndex >= 0 ? MONTHS_NO[busiestMonthIndex] : 'N/A'
     }
   }, [incidents])
 

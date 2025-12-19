@@ -22,8 +22,10 @@ function InteractiveTagCloud({ incidents, selectedTags, onTagClick }) {
 
   // Calculate font size based on frequency (normalized)
   const getTagSize = (count) => {
-    const maxCount = Math.max(...tagFrequencies.map(t => t.count))
-    const minCount = Math.min(...tagFrequencies.map(t => t.count))
+    if (tagFrequencies.length === 0) return 0.9
+    const counts = tagFrequencies.map(t => t.count)
+    const maxCount = Math.max(...counts)
+    const minCount = Math.min(...counts)
     const range = maxCount - minCount || 1
     const normalized = (count - minCount) / range
     // Size between 0.9rem and 2rem
