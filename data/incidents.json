@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "date": "2025-12-15",
+    "title": "Major Ransomware Attack on Healthcare Provider",
+    "summary": "A significant ransomware attack targeted a major healthcare provider, compromising patient data and disrupting hospital operations across multiple facilities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberSecurity News",
+    "sourceUrl": "https://example.com/ransomware-healthcare",
+    "tags": ["ransomware", "healthcare", "data breach"]
+  },
+  {
+    "id": "2",
+    "date": "2025-12-10",
+    "title": "Critical Zero-Day Vulnerability in Popular Software",
+    "summary": "Security researchers discovered a critical zero-day vulnerability affecting millions of users worldwide. Patch has been released urgently.",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "EU Security Watch",
+    "sourceUrl": "https://example.com/zero-day-vuln",
+    "tags": ["zero-day", "vulnerability", "software"]
+  },
+  {
+    "id": "3",
+    "date": "2025-12-08",
+    "title": "State-Sponsored APT Group Targets Financial Sector",
+    "summary": "An advanced persistent threat group linked to state actors has been targeting financial institutions with sophisticated phishing campaigns.",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "Asia Pacific Security",
+    "sourceUrl": "https://example.com/apt-financial",
+    "tags": ["apt", "financial", "phishing", "state-sponsored"]
+  },
+  {
+    "id": "4",
+    "date": "2025-12-05",
+    "title": "Norwegian Government Agencies Hit by DDoS Attack",
+    "summary": "Multiple Norwegian government websites experienced prolonged downtime due to coordinated distributed denial-of-service attacks.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Norge IT-sikkerhet",
+    "sourceUrl": "https://example.com/norway-ddos",
+    "tags": ["ddos", "government", "infrastructure"]
+  },
+  {
+    "id": "5",
+    "date": "2025-12-01",
+    "title": "Supply Chain Attack Affects Major Tech Companies",
+    "summary": "A sophisticated supply chain attack compromised a widely-used development tool, affecting numerous technology companies globally.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Tech Security Today",
+    "sourceUrl": "https://example.com/supply-chain",
+    "tags": ["supply chain", "malware", "enterprise"]
+  },
+  {
+    "id": "6",
+    "date": "2025-11-28",
+    "title": "Data Breach Exposes Millions of User Records",
+    "summary": "A major data breach at a European social media platform exposed personal information of millions of users including emails and phone numbers.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "European Data Protection",
+    "sourceUrl": "https://example.com/data-breach-social",
+    "tags": ["data breach", "social media", "privacy"]
+  },
+  {
+    "id": "7",
+    "date": "2025-11-25",
+    "title": "Banking Trojans Target Mobile Users in Asia",
+    "summary": "New variant of banking trojan discovered targeting mobile banking apps across Asian countries with advanced evasion techniques.",
+    "region": "ASIA",
+    "country": "Japan",
+    "sourceName": "Mobile Security Asia",
+    "sourceUrl": "https://example.com/banking-trojan",
+    "tags": ["trojan", "mobile", "banking", "malware"]
+  },
+  {
+    "id": "8",
+    "date": "2025-11-20",
+    "title": "Critical Infrastructure Attack in Norway",
+    "summary": "Attempted cyberattack on critical infrastructure systems detected and prevented by Norwegian cybersecurity agencies.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM - Nasjonal sikkerhetsmyndighet",
+    "sourceUrl": "https://example.com/norway-infrastructure",
+    "tags": ["critical infrastructure", "prevention", "national security"]
+  },
+  {
+    "id": "9",
+    "date": "2025-11-15",
+    "title": "Phishing Campaign Targets Cloud Service Users",
+    "summary": "Widespread phishing campaign using fake cloud service login pages to steal credentials from enterprise users.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cloud Security Alliance",
+    "sourceUrl": "https://example.com/phishing-cloud",
+    "tags": ["phishing", "cloud", "credentials"]
+  },
+  {
+    "id": "10",
+    "date": "2025-11-10",
+    "title": "GDPR Violation Results in Record Fine",
+    "summary": "European data protection authority issues record-breaking fine for GDPR violations related to inadequate data security measures.",
+    "region": "EU",
+    "country": "Ireland",
+    "sourceName": "Data Protection Commission",
+    "sourceUrl": "https://example.com/gdpr-fine",
+    "tags": ["gdpr", "compliance", "fine", "privacy"]
+  },
+  {
+    "id": "11",
+    "date": "2025-11-05",
+    "title": "Cryptocurrency Exchange Suffers Security Breach",
+    "summary": "Major cryptocurrency exchange reports security breach resulting in theft of millions in digital assets.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Crypto Security News",
+    "sourceUrl": "https://example.com/crypto-breach",
+    "tags": ["cryptocurrency", "breach", "financial"]
+  },
+  {
+    "id": "12",
+    "date": "2025-10-30",
+    "title": "New Malware Campaign Targets Norwegian Businesses",
+    "summary": "Security researchers identify new malware campaign specifically targeting small and medium-sized businesses in Norway.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NorCERT",
+    "sourceUrl": "https://example.com/norway-malware",
+    "tags": ["malware", "business", "targeted attack"]
+  }
+]
