@@ -1,0 +1,89 @@
+.year-stats-container {
+  padding: 1.5rem 1rem;
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-bottom: 1px solid #e9ecef;
+}
+
+.year-stats-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #495057;
+  margin: 0 0 1.5rem 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.stat-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #667eea;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #667eea;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .year-stats-container {
+    padding: 2rem 1rem;
+  }
+
+  .year-stats-title {
+    font-size: 1.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .stat-item {
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+  }
+
+  .stat-text {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+  }
+}

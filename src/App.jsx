@@ -1,6 +1,9 @@
 import { useState, useEffect, useMemo } from 'react'
 import './App.css'
 import incidentsData from '../data/incidents.json'
+import InteractiveTagCloud from './components/InteractiveTagCloud'
+import YearWheel from './components/YearWheel'
+import YearStats from './components/YearStats'
 
 // Month helpers
 const MONTHS_NO = [
@@ -218,6 +221,23 @@ function App() {
         <p className="subtitle">Oversikt over cybersikkerhetshendelser</p>
       </header>
 
+      {/* Year Stats */}
+      <YearStats incidents={incidentsData} />
+
+      {/* Year Wheel */}
+      <YearWheel 
+        incidents={incidentsData}
+        selectedMonth={selectedMonth}
+        onMonthClick={setSelectedMonth}
+      />
+
+      {/* Interactive Tag Cloud */}
+      <InteractiveTagCloud 
+        incidents={incidentsData}
+        selectedTags={selectedTags}
+        onTagClick={handleTagClick}
+      />
+
       {/* Region Filter */}
       <div className="region-filter">
         <button 
@@ -382,7 +402,13 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>
+        <div className="footer-reflection">
+          <p className="footer-quote">
+            Årshjulet viser hvor tett nyhetsbildet var.<br />
+            Men konsekvensene varer ofte lenger enn overskriftene.
+          </p>
+        </div>
+        <p className="footer-meta">
           Dekker 2025 • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
         </p>
       </footer>
