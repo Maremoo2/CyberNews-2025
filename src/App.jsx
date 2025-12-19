@@ -17,7 +17,7 @@ function App() {
       ALL: incidentsData.length
     }
     incidentsData.forEach(incident => {
-      if (counts.hasOwnProperty(incident.region)) {
+      if (incident.region in counts) {
         counts[incident.region]++
       }
     })
