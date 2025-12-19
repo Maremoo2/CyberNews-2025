@@ -8,7 +8,8 @@
     "country": "United States",
     "sourceName": "CyberSecurity News",
     "sourceUrl": "https://example.com/ransomware-healthcare",
-    "tags": ["ransomware", "healthcare", "data breach"]
+    "tags": ["ransomware", "healthcare", "data breach"],
+    "impact": 5
   },
   {
     "id": "2",
@@ -19,7 +20,8 @@
     "country": "Germany",
     "sourceName": "EU Security Watch",
     "sourceUrl": "https://example.com/zero-day-vuln",
-    "tags": ["zero-day", "vulnerability", "software"]
+    "tags": ["zero-day", "vulnerability", "software"],
+    "impact": 5
   },
   {
     "id": "3",
@@ -30,7 +32,8 @@
     "country": "Singapore",
     "sourceName": "Asia Pacific Security",
     "sourceUrl": "https://example.com/apt-financial",
-    "tags": ["apt", "financial", "phishing", "state-sponsored"]
+    "tags": ["apt", "financial", "phishing", "state-sponsored"],
+    "impact": 4
   },
   {
     "id": "4",
@@ -41,7 +44,8 @@
     "country": "Norway",
     "sourceName": "Norge IT-sikkerhet",
     "sourceUrl": "https://example.com/norway-ddos",
-    "tags": ["ddos", "government", "infrastructure"]
+    "tags": ["ddos", "government", "infrastructure"],
+    "impact": 3
   },
   {
     "id": "5",
@@ -52,7 +56,8 @@
     "country": "United States",
     "sourceName": "Tech Security Today",
     "sourceUrl": "https://example.com/supply-chain",
-    "tags": ["supply chain", "malware", "enterprise"]
+    "tags": ["supply chain", "malware", "enterprise"],
+    "impact": 5
   },
   {
     "id": "6",
@@ -63,7 +68,8 @@
     "country": "France",
     "sourceName": "European Data Protection",
     "sourceUrl": "https://example.com/data-breach-social",
-    "tags": ["data breach", "social media", "privacy"]
+    "tags": ["data breach", "social media", "privacy"],
+    "impact": 4
   },
   {
     "id": "7",
@@ -74,7 +80,8 @@
     "country": "Japan",
     "sourceName": "Mobile Security Asia",
     "sourceUrl": "https://example.com/banking-trojan",
-    "tags": ["trojan", "mobile", "banking", "malware"]
+    "tags": ["trojan", "mobile", "banking", "malware"],
+    "impact": 3
   },
   {
     "id": "8",
@@ -85,7 +92,8 @@
     "country": "Norway",
     "sourceName": "NSM - Nasjonal sikkerhetsmyndighet",
     "sourceUrl": "https://example.com/norway-infrastructure",
-    "tags": ["critical infrastructure", "prevention", "national security"]
+    "tags": ["critical infrastructure", "prevention", "national security"],
+    "impact": 4
   },
   {
     "id": "9",
@@ -96,7 +104,8 @@
     "country": "United States",
     "sourceName": "Cloud Security Alliance",
     "sourceUrl": "https://example.com/phishing-cloud",
-    "tags": ["phishing", "cloud", "credentials"]
+    "tags": ["phishing", "cloud", "credentials"],
+    "impact": 2
   },
   {
     "id": "10",
@@ -107,7 +116,8 @@
     "country": "Ireland",
     "sourceName": "Data Protection Commission",
     "sourceUrl": "https://example.com/gdpr-fine",
-    "tags": ["gdpr", "compliance", "fine", "privacy"]
+    "tags": ["gdpr", "compliance", "fine", "privacy"],
+    "impact": 3
   },
   {
     "id": "11",
@@ -118,7 +128,8 @@
     "country": "South Korea",
     "sourceName": "Crypto Security News",
     "sourceUrl": "https://example.com/crypto-breach",
-    "tags": ["cryptocurrency", "breach", "financial"]
+    "tags": ["cryptocurrency", "breach", "financial"],
+    "impact": 4
   },
   {
     "id": "12",
@@ -129,6 +140,7 @@
     "country": "Norway",
     "sourceName": "NorCERT",
     "sourceUrl": "https://example.com/norway-malware",
-    "tags": ["malware", "business", "targeted attack"]
+    "tags": ["malware", "business", "targeted attack"],
+    "impact": 2
   }
 ]

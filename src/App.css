@@ -67,6 +67,18 @@
   border-bottom: 1px solid #e9ecef;
 }
 
+.month-summary {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #495057;
+  font-weight: 500;
+}
+
 .month-dropdown {
   width: 100%;
   padding: 0.75rem 1rem;
@@ -111,6 +123,36 @@
   background: #667eea;
   color: white;
   border-color: #667eea;
+}
+
+/* Major Filter */
+.major-filter-container {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  justify-content: center;
+}
+
+.major-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.major-toggle input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.toggle-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #495057;
 }
 
 /* Search Bar */

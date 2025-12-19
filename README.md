@@ -16,6 +16,9 @@ Live URL: https://maremoo2.github.io/CyberNews-2025/
 
 - 📊 **Regionsfiltrering**: Filtrer hendelser etter US, Europa, Asia, Norge eller vis alle
 - 📅 **Månedsfilter**: Velg spesifikk måned eller se alle måneder (dropdown på mobil, knapper på desktop)
+- 📰 **Månedlige sammendrag**: Kontekstuelle sammendrag for hver måned som gir oversikt over hovedtrender
+- 🔥 **Største saker-filter**: Toggle for å vise kun hendelser med høy impact (≥ 4)
+- 🔗 **Delbare lenker**: URL-parametre for enkel deling av filtrerte visninger
 - 🔍 **Søkefunksjon**: Søk i titler, sammendrag og tags
 - 🏷️ **Tag-filtrering**: Klikk på tags for å filtrere hendelser
 - 📱 **Responsivt design**: Mobil-først design som fungerer på alle enheter
@@ -109,9 +112,10 @@ Hendelser lagres i `data/incidents.json`. For å legge til en ny hendelse, følg
 1. **id**: Må være unik (bruk tall eller UUID)
 2. **date**: Må være i formatet YYYY-MM-DD
 3. **region**: Må være en av: `"US"`, `"EU"`, `"ASIA"`, eller `"NO"`
-4. **title** og **summary**: Kan inneholde norsk tekst
-5. **tags**: Array av strings (valgfritt, men anbefalt)
-6. **country**: Valgfritt felt for å spesifisere land
+4. **impact**: Tall fra 1-5 som indikerer alvorlighetsgrad (1=lav, 5=kritisk). Hendelser med impact ≥ 4 vises når "største saker"-filteret er aktivt
+5. **title** og **summary**: Kan inneholde norsk tekst
+6. **tags**: Array av strings (valgfritt, men anbefalt)
+7. **country**: Valgfritt felt for å spesifisere land
 
 ## Deployment
 
@@ -158,6 +162,33 @@ CyberNews-2025/
 ├── package.json               # Avhengigheter og scripts
 ├── vite.config.js             # Vite konfigurasjon
 └── README.md                  # Denne filen
+```
+
+## Delbare lenker
+
+Nettsiden støtter URL-parametre for enkel deling av filtrerte visninger:
+
+### URL-parametre
+
+- `m` eller `month`: Måned (jan, feb, mar, apr, mai, jun, jul, aug, sep, okt, nov, des)
+- `r` eller `region`: Region (us, eu, asia, no)
+- `t` eller `tag`: Tag-filter (f.eks. ransomware)
+- `major`: Vis kun største saker (true eller 1)
+
+### Eksempler på delbare lenker
+
+```
+# Januar hendelser i Norge
+https://maremoo2.github.io/CyberNews-2025/?m=jan&r=no
+
+# November hendelser med ransomware-tag
+https://maremoo2.github.io/CyberNews-2025/?m=nov&t=ransomware
+
+# Kun største saker fra desember
+https://maremoo2.github.io/CyberNews-2025/?m=des&major=true
+
+# Norge hendelser fra november
+https://maremoo2.github.io/CyberNews-2025/?m=nov&r=no
 ```
 
 ## Bidra
