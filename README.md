@@ -2,16 +2,25 @@
 
 En statisk nettside for oversikt over cybersikkerhetshendelser i 2025. Bygget med Vite + React og hostet på GitHub Pages.
 
-🔗 **Live URL**: [https://maremoo2.github.io/CyberNews-2025/](https://maremoo2.github.io/CyberNews-2025/)
+---
+
+## 🌐 Se nettsiden live
+
+**👉 [Klikk her for å se Security News Year in Review 2025](https://maremoo2.github.io/CyberNews-2025/)**
+
+Live URL: https://maremoo2.github.io/CyberNews-2025/
+
+---
 
 ## Funksjoner
 
 - 📊 **Regionsfiltrering**: Filtrer hendelser etter US, Europa, Asia, Norge eller vis alle
+- 📅 **Månedsfilter**: Velg spesifikk måned eller se alle måneder (dropdown på mobil, knapper på desktop)
 - 🔍 **Søkefunksjon**: Søk i titler, sammendrag og tags
 - 🏷️ **Tag-filtrering**: Klikk på tags for å filtrere hendelser
 - 📱 **Responsivt design**: Mobil-først design som fungerer på alle enheter
-- 📅 **Sortert etter dato**: Nyeste hendelser vises først
-- 🔢 **Tellere**: Antall hendelser per region vises på filterknappene
+- 🔢 **Dynamiske tellere**: Antall hendelser per region oppdateres basert på valgt måned
+- ⏱️ **Sortert etter dato**: Nyeste hendelser vises først
 
 ## Tech Stack
 

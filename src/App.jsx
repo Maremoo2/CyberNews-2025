@@ -10,8 +10,12 @@ const MONTHS_NO = [
 
 function getMonthIndex(dateStr) {
   // dateStr: "YYYY-MM-DD"
-  const d = new Date(dateStr);
-  return Number.isNaN(d.getTime()) ? null : d.getMonth(); // 0-11
+  // Validate format and extract month directly from string
+  if (!dateStr || !/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+    return null;
+  }
+  const month = parseInt(dateStr.substring(5, 7), 10) - 1; // Convert to 0-11
+  return (month >= 0 && month <= 11) ? month : null;
 }
 
 function App() {
@@ -178,7 +182,7 @@ function App() {
         <select 
           className="month-dropdown"
           value={selectedMonth}
-          onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value))}
+          onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
         >
           <option value="ALL">Alle måneder</option>
           {MONTHS_NO.map((month, index) => (
