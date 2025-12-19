@@ -18,11 +18,93 @@ function getMonthIndex(dateStr) {
   return (month >= 0 && month <= 11) ? month : null;
 }
 
+// Monthly summaries
+const MONTH_SUMMARIES = {
+  11: "Desember 2025: Ransomware dominerte helsesektoren, samtidig som flere statlige aktører var involvert i målrettede angrep.",
+  10: "November 2025: Massive datainnbrudd og statsstøttede trusler preget måneden, med særlig fokus på finanssektoren.",
+  9: "Oktober 2025: Målrettede angrep mot norske bedrifter og kritisk infrastruktur.",
+};
+
+// Helper to parse initial state from URL
+function getInitialStateFromURL() {
+  const params = new URLSearchParams(window.location.search)
+  const state = {
+    month: 'ALL',
+    region: 'ALL',
+    tags: [],
+    major: false
+  }
+  
+  // Month parameter (m=jan, m=0-11, or month=january)
+  const monthParam = params.get('m') || params.get('month')
+  if (monthParam) {
+    const monthMap = {
+      'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3, 'mai': 4, 'jun': 5,
+      'jul': 6, 'aug': 7, 'sep': 8, 'okt': 9, 'nov': 10, 'des': 11
+    }
+    const monthIndex = monthMap[monthParam.toLowerCase()] ?? parseInt(monthParam, 10)
+    if (monthIndex >= 0 && monthIndex <= 11) {
+      state.month = monthIndex
+    }
+  }
+  
+  // Region parameter (r=no, region=NO)
+  const regionParam = params.get('r') || params.get('region')
+  if (regionParam) {
+    const region = regionParam.toUpperCase()
+    if (['US', 'EU', 'ASIA', 'NO'].includes(region)) {
+      state.region = region
+    }
+  }
+  
+  // Tag parameter (t=ransomware or tag=ransomware)
+  const tagParam = params.get('t') || params.get('tag')
+  if (tagParam) {
+    state.tags = [tagParam]
+  }
+  
+  // Major filter parameter (major=true)
+  const majorParam = params.get('major')
+  if (majorParam === 'true' || majorParam === '1') {
+    state.major = true
+  }
+  
+  return state
+}
+
 function App() {
-  const [selectedRegion, setSelectedRegion] = useState('ALL')
+  const initialState = getInitialStateFromURL()
+  const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedTags, setSelectedTags] = useState([])
-  const [selectedMonth, setSelectedMonth] = useState('ALL') // "ALL" | 0..11
+  const [selectedTags, setSelectedTags] = useState(initialState.tags)
+  const [selectedMonth, setSelectedMonth] = useState(initialState.month)
+  const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
+
+  // Update URL when filters change
+  useEffect(() => {
+    const params = new URLSearchParams()
+    
+    if (selectedMonth !== 'ALL') {
+      const monthNames = ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des']
+      params.set('m', monthNames[selectedMonth])
+    }
+    
+    if (selectedRegion !== 'ALL') {
+      params.set('r', selectedRegion.toLowerCase())
+    }
+    
+    // Only support single tag in URL for simplicity of shareable links
+    if (selectedTags.length === 1) {
+      params.set('t', selectedTags[0])
+    }
+    
+    if (showMajorOnly) {
+      params.set('major', 'true')
+    }
+    
+    const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname
+    window.history.replaceState({}, '', newUrl)
+  }, [selectedMonth, selectedRegion, selectedTags, showMajorOnly])
 
   // Get region counts (filtered by month if selected)
   const regionCounts = useMemo(() => {
@@ -51,17 +133,6 @@ function App() {
     return counts
   }, [selectedMonth])
 
-  // Get all unique tags
-  const allTags = useMemo(() => {
-    const tagsSet = new Set()
-    incidentsData.forEach(incident => {
-      if (incident.tags) {
-        incident.tags.forEach(tag => tagsSet.add(tag))
-      }
-    })
-    return Array.from(tagsSet).sort()
-  }, [])
-
   // Filter and sort incidents
   const filteredIncidents = useMemo(() => {
     let filtered = incidentsData
@@ -77,6 +148,11 @@ function App() {
     // Filter by region
     if (selectedRegion !== 'ALL') {
       filtered = filtered.filter(incident => incident.region === selectedRegion)
+    }
+
+    // Filter by major incidents only
+    if (showMajorOnly) {
+      filtered = filtered.filter(incident => incident.impact >= 4)
     }
 
     // Filter by search query
@@ -99,7 +175,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [selectedMonth, selectedRegion, searchQuery, selectedTags])
+  }, [selectedMonth, selectedRegion, searchQuery, selectedTags, showMajorOnly])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -178,6 +254,13 @@ function App() {
 
       {/* Month Filter */}
       <div className="month-filter-container">
+        {/* Monthly Summary */}
+        {selectedMonth !== 'ALL' && MONTH_SUMMARIES[selectedMonth] && (
+          <div className="month-summary">
+            {MONTH_SUMMARIES[selectedMonth]}
+          </div>
+        )}
+
         {/* Dropdown for mobile */}
         <select 
           className="month-dropdown"
@@ -208,6 +291,18 @@ function App() {
             </button>
           ))}
         </div>
+      </div>
+
+      {/* Major Incidents Toggle */}
+      <div className="major-filter-container">
+        <label className="major-toggle">
+          <input
+            type="checkbox"
+            checked={showMajorOnly}
+            onChange={(e) => setShowMajorOnly(e.target.checked)}
+          />
+          <span className="toggle-label">Kun største saker (impact ≥ 4)</span>
+        </label>
       </div>
 
       {/* Search Bar */}
@@ -287,7 +382,9 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Security News Year in Review 2025 • Oppdatert {new Date().toLocaleDateString('nb-NO')}</p>
+        <p>
+          Dekker 2025 • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
+        </p>
       </footer>
     </div>
   )
