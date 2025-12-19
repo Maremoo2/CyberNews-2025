@@ -60,6 +60,59 @@
   border-color: #667eea;
 }
 
+/* Month Filter */
+.month-filter-container {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.month-dropdown {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 2px solid #dee2e6;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #495057;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.month-dropdown:focus {
+  border-color: #667eea;
+}
+
+.month-buttons {
+  display: none;
+}
+
+.month-buttons button {
+  padding: 0.65rem 1rem;
+  border: 2px solid #dee2e6;
+  background: white;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  color: #495057;
+}
+
+.month-buttons button:hover {
+  border-color: #667eea;
+  background: #f8f9ff;
+}
+
+.month-buttons button.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
 /* Search Bar */
 .search-container {
   padding: 1rem;
@@ -291,6 +344,18 @@
   .region-filter button {
     font-size: 1rem;
     padding: 0.875rem 1.5rem;
+  }
+
+  /* Month filter - desktop */
+  .month-dropdown {
+    display: none;
+  }
+
+  .month-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .search-container {
