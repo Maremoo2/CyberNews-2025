@@ -10,6 +10,8 @@ En statisk nettside for oversikt over cybersikkerhetshendelser i 2025. Bygget me
 
 Live URL: https://maremoo2.github.io/CyberNews-2025/
 
+> **⚠️ Viktig:** Hvis lenken ikke fungerer, må GitHub Pages aktiveres i repository settings. Se [Aktivere GitHub Pages](#aktivere-github-pages-første-gang) for instruksjoner. Etter aktivering vil nettsiden automatisk være online 24/7 uten ytterligere konfigurasjon.
+
 ---
 
 ## Funksjoner
@@ -137,10 +139,103 @@ git push origin main
 
 ### Aktivere GitHub Pages (første gang)
 
-1. Gå til repository Settings
-2. Velg "Pages" i sidemenyen
-3. Under "Source", velg "GitHub Actions"
-4. Workflow vil kjøre ved neste push til main
+⚠️ **Viktig: Nettsiden vil ikke være tilgjengelig før GitHub Pages er konfigurert!**
+
+Følg disse trinnene nøye for å aktivere GitHub Pages:
+
+1. **Gå til repository Settings**
+   - Klikk på "Settings" fanen øverst i repositoryet
+   
+2. **Velg "Pages" i sidemenyen**
+   - I venstre sidemeny under Settings ser du flere seksjoner:
+     - Access
+     - **Code and automation** ← Se etter denne seksjonen
+     - Security
+     - Integrations
+   - Under "Code and automation" seksjonen, scroll ned til du finner **"Pages"**
+   - Klikk på "Pages"
+   
+3. **Konfigurer Source**
+   - Når du er på Pages settings siden, ser du en seksjon kalt **"Build and deployment"**
+   - I denne seksjonen finner du **"Source"**
+   
+   **Hva du kan se:**
+   
+   **Alternativ A - Dropdown meny:**
+   - En dropdown som viser "None" eller "Deploy from a branch"
+   - Klikk på den og velg **"GitHub Actions"**
+   
+   **Alternativ B - Workflow forslag:**
+   - Tekst som sier "Use a suggested workflow, browse all workflows, or create your own"
+   - Workflow kort som "GitHub Pages Jekyll" eller "Static HTML"
+   - **IKKE velg disse workflow templates!**
+   - Se etter en mulighet til å velge **"GitHub Actions"** som deployment metode
+   - Eller se etter en lenke til "Configure" eller sette opp GitHub Actions deployment
+   
+   - Målet er å sette Source til **"GitHub Actions"** (ikke en spesifikk workflow template)
+   - Ikke velg "Deploy from a branch"
+   - Ikke velg workflow templates (Jekyll, Static HTML, etc.)
+   - Du MÅ aktivere "GitHub Actions" som deployment source
+   - Repositoryet ditt har allerede riktig workflow fil på `.github/workflows/deploy.yml`
+   
+4. **Lagre og vent**
+   - Innstillingene lagres automatisk
+   - Workflow vil kjøre automatisk ved neste push til main-branchen
+   - Du kan også kjøre workflowen manuelt fra "Actions" fanen
+   
+5. **Verifiser deployment**
+   - Gå til "Actions" fanen i repositoryet
+   - Sjekk at "Deploy to GitHub Pages" workflow kjører uten feil
+   - Når workflowen er ferdig (grønn hake), vil nettsiden være live på:
+     https://maremoo2.github.io/CyberNews-2025/
+
+**Merk:** Når GitHub Pages er aktivert, vil nettsiden automatisk være online 24/7. Du trenger ikke å kjøre noen servere eller betale for hosting. GitHub Pages er gratis for offentlige repositories og håndterer all hosting automatisk.
+
+## Feilsøking (Troubleshooting)
+
+### Nettsiden åpner ikke / 404 Error
+
+**Problem:** Når du går til https://maremoo2.github.io/CyberNews-2025/ får du en 404-feil eller siden lastes ikke.
+
+**Løsning:**
+1. **Sjekk at GitHub Pages er aktivert:**
+   - Gå til Settings → Pages
+   - Verifiser at "Source" er satt til "GitHub Actions"
+   
+2. **Sjekk workflow status:**
+   - Gå til "Actions" fanen
+   - Se etter "Deploy to GitHub Pages" workflow
+   - Hvis den viser rød X (feilet):
+     - Klikk på den feilede kjøringen
+     - Les feilmeldingen i "Setup Pages" steget
+     - Vanligvis betyr dette at GitHub Pages ikke er aktivert i Settings
+   
+3. **Kjør workflow på nytt:**
+   - Gå til "Actions" fanen
+   - Klikk på "Deploy to GitHub Pages" i venstre meny
+   - Klikk på "Run workflow" knappen
+   - Velg "main" branch og klikk "Run workflow"
+
+4. **Vent på deployment:**
+   - Det kan ta 1-2 minutter før endringer blir synlige
+   - Prøv å refresh siden eller clear browser cache
+
+### Workflow feiler på "Setup Pages" steget
+
+**Problem:** GitHub Actions workflow feiler med feilmelding om at Pages ikke er konfigurert.
+
+**Løsning:**
+Dette betyr at GitHub Pages ikke er aktivert i repository settings. Følg instruksjonene under "Aktivere GitHub Pages (første gang)" ovenfor.
+
+### Endringer vises ikke på nettsiden
+
+**Problem:** Du har pushet endringer til main, men de vises ikke på den live nettsiden.
+
+**Løsning:**
+1. Sjekk at workflow har kjørt etter din siste push
+2. Vent 1-2 minutter (caching)
+3. Hard refresh i nettleseren (Ctrl+Shift+R eller Cmd+Shift+R)
+4. Sjekk at build-steget i workflow fullførte uten feil
 
 ## Prosjektstruktur
 
