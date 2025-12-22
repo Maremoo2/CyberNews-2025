@@ -25,20 +25,31 @@ All 7 deployment attempts have failed at the "Setup Pages" step. This is expecte
 
 ### Step 2: Navigate to Pages Settings
 
-1. In the left sidebar, scroll down to find the **"Code and automation"** section
-2. Click on **"Pages"**
+1. In the left sidebar under **Settings**, you'll see several sections including:
+   - Access
+   - **Code and automation** ← Look for this section
+   - Security
+   - Integrations
+
+2. Under the **"Code and automation"** section, scroll down to find **"Pages"**
+3. Click on **"Pages"**
 
 ### Step 3: Configure GitHub Pages Source
 
 This is the **most important step**:
 
-1. Under the **"Build and deployment"** section
-2. Look for **"Source"** dropdown menu
-3. Select **"GitHub Actions"** from the dropdown
+1. Once you're on the Pages settings page, you'll see a section called **"Build and deployment"**
+2. In this section, look for a dropdown labeled **"Source"**
+   - It will show a button/dropdown that currently says either "None" or "Deploy from a branch"
+3. Click on the **"Source"** dropdown menu
+4. From the dropdown options, select **"GitHub Actions"**
 
-   **⚠️ Important:** Do NOT select "Deploy from a branch" - you must select "GitHub Actions"
+   **⚠️ Important:** 
+   - Do NOT select "Deploy from a branch" 
+   - You MUST select "GitHub Actions"
+   - The dropdown should show "GitHub Actions" after selection
 
-4. The settings will save automatically (you'll see a blue banner confirming the change)
+5. The settings will save automatically (you'll see a blue banner confirming the change)
 
 ### Step 4: Trigger Deployment
 

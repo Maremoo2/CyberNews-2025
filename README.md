@@ -147,12 +147,21 @@ Følg disse trinnene nøye for å aktivere GitHub Pages:
    - Klikk på "Settings" fanen øverst i repositoryet
    
 2. **Velg "Pages" i sidemenyen**
-   - Scroll ned i venstre sidemeny til du finner "Pages" under "Code and automation"
+   - I venstre sidemeny under Settings ser du flere seksjoner:
+     - Access
+     - **Code and automation** ← Se etter denne seksjonen
+     - Security
+     - Integrations
+   - Under "Code and automation" seksjonen, scroll ned til du finner **"Pages"**
+   - Klikk på "Pages"
    
 3. **Konfigurer Source**
-   - Under "Build and deployment" seksjonen
-   - Ved "Source", velg **"GitHub Actions"** fra dropdown-menyen
+   - Når du er på Pages settings siden, ser du en seksjon kalt **"Build and deployment"**
+   - I denne seksjonen finner du en dropdown meny merket **"Source"**
+   - Klikk på "Source" dropdown-menyen (den viser sannsynligvis "None" eller "Deploy from a branch")
+   - Fra dropdown-alternativene, velg **"GitHub Actions"**
    - Ikke velg "Deploy from a branch" - velg "GitHub Actions"
+   - Dropdown-menyen skal vise "GitHub Actions" etter du har valgt det
    
 4. **Lagre og vent**
    - Innstillingene lagres automatisk
