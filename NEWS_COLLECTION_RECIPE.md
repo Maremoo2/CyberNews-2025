@@ -86,17 +86,22 @@ Search for cybersecurity news from [START DATE] to [END DATE] for:
 Provide incident summaries with dates and credible sources.
 ```
 
-## 4. File Naming Convention
+## 4. File Organization Structure
+
+Files are organized in regional subdirectories within each month:
 
 ```
-YYYY-MM-region-summary.md
+/[month]
+  /[region]
+    - summary.md
+    - major-incidents.md
 ```
 
 Examples:
-- `2025-01-eu-summary.md`
-- `2025-01-us-summary.md`
-- `2025-01-asia-summary.md`
-- `2025-01-norway-summary.md`
+- `/01-january/eu/summary.md`
+- `/01-january/us/summary.md`
+- `/01-january/asia/summary.md`
+- `/01-january/norway/summary.md`
 
 ## 5. Standard Article Format
 
@@ -157,7 +162,7 @@ Create a comprehensive summary organized by region with statistics and trends."
 4. Commit to GitHub:
 
 ```bash
-git add news/2025/[month]/[region]-summary.md
+git add news/2025/[month]/[region]/summary.md
 git commit -m "Add [region] cyber news for [month] [year]"
 git push
 ```
