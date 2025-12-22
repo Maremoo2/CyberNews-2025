@@ -6,8 +6,8 @@ No major new cyber incidents specific to Norway were publicly reported in Februa
 
 However, Norwegian authorities warned that the absence of headline-grabbing attacks does not imply a low threat level. Ongoing covert cyber activities – particularly espionage and reconnaissance – are believed to be targeting Norway continuously.
 
-### Context
-Recent context: just a few months later in April 2025, a major incident would come to light when a Norwegian dam's controls were sabotaged by hackers, illustrating the kind of threat that was looming in the background. In February, Norway's National Security Authority (NSM) and security service PST remained on high alert for such scenarios, even if no significant event materialized in that specific month.
+### Threat Context
+Norway's National Security Authority (NSM) and security service PST remained on high alert for potential attacks on critical infrastructure, including threats to dam controls, power grids, and telecom networks. The absence of major incidents in February likely reflects both improved defensive measures and ongoing vigilance, though security experts emphasized that Norway's critical infrastructure remains a prime target for hostile actors.
 
 ## Norwegian Company Breaches
 
