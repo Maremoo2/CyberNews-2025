@@ -157,11 +157,26 @@ Følg disse trinnene nøye for å aktivere GitHub Pages:
    
 3. **Konfigurer Source**
    - Når du er på Pages settings siden, ser du en seksjon kalt **"Build and deployment"**
-   - I denne seksjonen finner du en dropdown meny merket **"Source"**
-   - Klikk på "Source" dropdown-menyen (den viser sannsynligvis "None" eller "Deploy from a branch")
-   - Fra dropdown-alternativene, velg **"GitHub Actions"**
-   - Ikke velg "Deploy from a branch" - velg "GitHub Actions"
-   - Dropdown-menyen skal vise "GitHub Actions" etter du har valgt det
+   - I denne seksjonen finner du **"Source"**
+   
+   **Hva du kan se:**
+   
+   **Alternativ A - Dropdown meny:**
+   - En dropdown som viser "None" eller "Deploy from a branch"
+   - Klikk på den og velg **"GitHub Actions"**
+   
+   **Alternativ B - Workflow forslag:**
+   - Tekst som sier "Use a suggested workflow, browse all workflows, or create your own"
+   - Workflow kort som "GitHub Pages Jekyll" eller "Static HTML"
+   - **IKKE velg disse workflow templates!**
+   - Se etter en mulighet til å velge **"GitHub Actions"** som deployment metode
+   - Eller se etter en lenke til "Configure" eller sette opp GitHub Actions deployment
+   
+   - Målet er å sette Source til **"GitHub Actions"** (ikke en spesifikk workflow template)
+   - Ikke velg "Deploy from a branch"
+   - Ikke velg workflow templates (Jekyll, Static HTML, etc.)
+   - Du MÅ aktivere "GitHub Actions" som deployment source
+   - Repositoryet ditt har allerede riktig workflow fil på `.github/workflows/deploy.yml`
    
 4. **Lagre og vent**
    - Innstillingene lagres automatisk

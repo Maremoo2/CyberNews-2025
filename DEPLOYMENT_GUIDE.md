@@ -39,17 +39,30 @@ All 7 deployment attempts have failed at the "Setup Pages" step. This is expecte
 This is the **most important step**:
 
 1. Once you're on the Pages settings page, you'll see a section called **"Build and deployment"**
-2. In this section, look for a dropdown labeled **"Source"**
-   - It will show a button/dropdown that currently says either "None" or "Deploy from a branch"
-3. Click on the **"Source"** dropdown menu
-4. From the dropdown options, select **"GitHub Actions"**
+2. In this section, look for **"Source"**
+
+   **What you might see:**
+   
+   **Option A - Dropdown menu:**
+   - A dropdown that says "None" or "Deploy from a branch"
+   - Click it and select **"GitHub Actions"**
+   
+   **Option B - Workflow suggestions:**
+   - Text saying "Use a suggested workflow, browse all workflows, or create your own"
+   - Workflow cards like "GitHub Pages Jekyll" or "Static HTML"
+   - **DO NOT select these workflow templates!**
+   - Look for an option to select **"GitHub Actions"** as the deployment method
+   - Or look for a link to "Configure" or set up GitHub Actions deployment
+
+3. The goal is to set the Source to **"GitHub Actions"** (not a specific workflow template)
 
    **⚠️ Important:** 
-   - Do NOT select "Deploy from a branch" 
-   - You MUST select "GitHub Actions"
-   - The dropdown should show "GitHub Actions" after selection
+   - Do NOT select "Deploy from a branch"
+   - Do NOT select the workflow templates (Jekyll, Static HTML, etc.)
+   - You MUST enable "GitHub Actions" as the deployment source
+   - Your repository already has the correct workflow file at `.github/workflows/deploy.yml`
 
-5. The settings will save automatically (you'll see a blue banner confirming the change)
+4. The settings will save automatically (you'll see a blue banner confirming the change)
 
 ### Step 4: Trigger Deployment
 
@@ -103,6 +116,25 @@ git push origin main
 - No manual intervention required for keeping the site running
 
 ## Troubleshooting
+
+### Problem: I see workflow templates instead of a "GitHub Actions" option
+
+**What you see:**
+- Under "Source", you see text like "Use a suggested workflow, browse all workflows, or create your own"
+- Workflow cards for "GitHub Pages Jekyll" or "Static HTML"
+
+**Solution:**
+1. **DO NOT** select the workflow template cards (Jekyll, Static HTML, etc.)
+2. Your repository already has the correct workflow file at `.github/workflows/deploy.yml`
+3. Look for a way to enable "GitHub Actions" deployment without selecting a template:
+   - Some GitHub interfaces show a link like "set up a workflow yourself" or "use an existing workflow"
+   - Or there might be a dropdown/toggle to switch the source to "GitHub Actions"
+4. If you can't find the option, try:
+   - Refreshing the page
+   - Going to Actions tab first, then back to Pages settings
+   - Checking if your repository's workflow file is visible under Actions → Workflows
+
+Once GitHub Actions is enabled as the source (not a template), your existing workflow will run automatically.
 
 ### Problem: Workflow still fails after enabling Pages
 
