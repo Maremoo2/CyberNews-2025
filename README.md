@@ -10,7 +10,7 @@ En statisk nettside for oversikt over cybersikkerhetshendelser i 2025. Bygget me
 
 Live URL: https://maremoo2.github.io/CyberNews-2025/
 
-> **⚠️ Viktig:** Hvis lenken ikke fungerer, må GitHub Pages aktiveres i repository settings. Se [Aktivere GitHub Pages](#️-viktig-aktivere-github-pages-første-gang) for instruksjoner. Etter aktivering vil nettsiden automatisk være online 24/7 uten ytterligere konfigurasjon.
+> **⚠️ Viktig:** Hvis lenken ikke fungerer, må GitHub Pages aktiveres i repository settings. Se [Aktivere GitHub Pages](#viktig-aktivere-github-pages-første-gang) for instruksjoner. Etter aktivering vil nettsiden automatisk være online 24/7 uten ytterligere konfigurasjon.
 
 ---
 
