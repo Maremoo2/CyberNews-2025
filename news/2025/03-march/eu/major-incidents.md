@@ -25,7 +25,11 @@
 
 - **Date:** March 2025
 - **Initiative:** Digital Omnibus Package
-- **Details:** The European Commission in March proposed a "Digital Omnibus" package to streamline overlapping tech regulations (covering data, AI, and cybersecurity). A key element is a Single Reporting Portal for cyber incidents, merging requirements under NIS2, GDPR, DORA, etc., into one interface. This "report-once, share-many" approach (with harmonized templates and extended timelines) is expected to save businesses up to €5 billion by 2029 and reduce compliance burdens. The proposal, which includes revisions to the Cybersecurity Act, was under discussion by EU bodies in early 2025 as part of efforts to modernize and simplify digital compliance. A new Article 23a NIS2 will establish the single-entry point and the European Union Agency for Cybersecurity's (ENISA) role, and set interoperability, access, and compatibility requirements (e.g., with European Business Wallets), enabling re-use of a single notification to satisfy multiple legal obligations.
+- **Details:** The European Commission in March proposed a "Digital Omnibus" package to streamline overlapping tech regulations (covering data, AI, and cybersecurity). A key element is a Single Reporting Portal for cyber incidents, merging requirements under NIS2, GDPR, DORA, etc., into one interface. 
+
+  This "report-once, share-many" approach (with harmonized templates and extended timelines) is expected to save businesses up to €5 billion by 2029 and reduce compliance burdens. The proposal, which includes revisions to the Cybersecurity Act, was under discussion by EU bodies in early 2025 as part of efforts to modernize and simplify digital compliance. 
+
+  A new Article 23a NIS2 will establish the single-entry point and the European Union Agency for Cybersecurity's (ENISA) role, and set interoperability, access, and compatibility requirements (e.g., with European Business Wallets), enabling re-use of a single notification to satisfy multiple legal obligations.
 - **Source:** [Lexology - Digital Omnibus package: Single EU harmonised incident reporting regime](https://lexology.com), [Bayfor - Simplified EU rules and new business wallets set to save companies](https://bayfor.org)
 
 ## Notable Attacks on EU Organizations

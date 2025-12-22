@@ -9,7 +9,11 @@
 - **Attack Type:** Website breach, data leak, defacement
 - **Impact:** Data on over 3 million applicants leaked, including personal information (names, addresses, GPAs, demographics) from as far back as 1989
 - **Attribution:** Unknown hacktivist (claimed previous university hacks)
-- **Details:** A hacker defaced NYU's website, replacing the homepage with charts of student test scores and leaking data categorizing standardized testing scores based on race. The attacker accessed an internal data warehouse. While the hacker claimed personal information was redacted, cybersecurity expert Zack Ganot found that over 1 million people's personal information was exposed, including full names, addresses, phone numbers, grade point averages, email addresses, citizenship status, and financial aid information. NYU restored the site within hours and is investigating with law enforcement. A class-action lawsuit has been filed alleging security failures. The cybercriminal claims these attacks are in response to the Supreme Court decision in 2023 striking down affirmative action.
+- **Details:** A hacker defaced NYU's website, replacing the homepage with charts of student test scores and leaking data categorizing standardized testing scores based on race. The attacker accessed an internal data warehouse. 
+
+  While the hacker claimed personal information was redacted, cybersecurity expert Zack Ganot found that over 1 million people's personal information was exposed, including full names, addresses, phone numbers, grade point averages, email addresses, citizenship status, and financial aid information. 
+
+  NYU restored the site within hours and is investigating with law enforcement. A class-action lawsuit has been filed alleging security failures. The cybercriminal claims these attacks are in response to the Supreme Court decision in 2023 striking down affirmative action.
 - **Source:** [The Record - Hacker defaces NYU website, exposing admissions data](https://therecord.media)
 
 ### 21 Mar 2025 – Western Alliance Bank (Arizona) – Third-Party Breach

@@ -2,7 +2,9 @@
 
 ## Overview
 
-March 2025 was a tumultuous month for U.S. cybersecurity, marked by high-profile data breaches affecting millions, ransomware attacks crippling critical services, and significant policy developments at the federal level. The month saw breaches at major institutions including NYU (3 million+ records), attacks on healthcare providers, banks, and food supply chains, plus controversial changes at CISA that raised concerns about national cyber defense capabilities.
+March 2025 was a tumultuous month for U.S. cybersecurity, marked by high-profile data breaches affecting millions, ransomware attacks crippling critical services, and significant policy developments at the federal level. 
+
+The month saw breaches at major institutions including NYU (3 million+ records), attacks on healthcare providers, banks, and food supply chains, plus controversial changes at CISA that raised concerns about national cyber defense capabilities.
 
 ## Key Trends
 

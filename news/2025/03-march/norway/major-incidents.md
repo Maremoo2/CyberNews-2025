@@ -9,7 +9,11 @@
 - **Attack Type:** Data breach and ransomware
 - **Impact:** Approximately 10 GB of data stolen and two servers encrypted; ransom demanded
 - **Attribution:** Previously unknown hacker group
-- **Details:** A previously unknown hacker group breached the Norwegian port authority of Narvik in March, stealing ~10 GB of data and encrypting two servers. The attackers demanded a ransom after copying out the data (about 10 out of 151 GB in the system). The breach wasn't discovered publicly until June when Narvik's data appeared on dark web leak sites. Fortunately, the stolen documents were 10-15-year-old files and not of sensitive value (no critical security plans were compromised). Narvik Havn, a key NATO logistics port, worked with NorCERT and police to investigate. This incident, along with recent attacks on other Norwegian entities (like media outlet Altaposten and Gran municipality), underscores that even Scandinavia's essential services are not immune to cyber threats.
+- **Details:** A previously unknown hacker group breached the Norwegian port authority of Narvik in March, stealing ~10 GB of data and encrypting two servers. The attackers demanded a ransom after copying out the data (about 10 out of 151 GB in the system). 
+
+  The breach wasn't discovered publicly until June when Narvik's data appeared on dark web leak sites. Fortunately, the stolen documents were 10-15-year-old files and not of sensitive value (no critical security plans were compromised). 
+
+  Narvik Havn, a key NATO logistics port, worked with NorCERT and police to investigate. This incident, along with recent attacks on other Norwegian entities (like media outlet Altaposten and Gran municipality), underscores that even Scandinavia's essential services are not immune to cyber threats.
 - **Source:** [Kode24 - Narvik havn rammet av datainnbrudd – krevde løsepenger](https://kode24.no)
 
 ## Threat Landscape 2025

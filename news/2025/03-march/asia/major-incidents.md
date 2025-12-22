@@ -60,7 +60,9 @@
 - **Attack Type:** Supply chain attack via third-party wallet supplier
 - **Impact:** $1.5 billion in cryptocurrency stolen (largest crypto hack ever)
 - **Attribution:** North Korea's Lazarus Group (alleged)
-- **Details:** A staggering $1.5 billion in crypto was stolen from Bybit (a leading exchange with many Asian users) in what is being called the largest crypto hack ever. Intelligence reports allege North Korea's Lazarus Group infiltrated a third-party wallet supplier for Bybit, altering deposit addresses to siphon funds. Bybit's CEO affirmed the hack and noted much of the loot is traceable on the blockchain, with efforts underway to freeze or recover assets. The hack's scale propelled North Korea to be the world's third-largest holder of Bitcoin overnight. This incident exemplifies an emerging trend where state-backed hackers target cryptocurrency at unprecedented scale to evade sanctions – a major concern for Asia-Pacific financial regulators.
+- **Details:** A staggering $1.5 billion in crypto was stolen from Bybit (a leading exchange with many Asian users) in what is being called the largest crypto hack ever. Intelligence reports allege North Korea's Lazarus Group infiltrated a third-party wallet supplier for Bybit, altering deposit addresses to siphon funds. 
+
+  Bybit's CEO affirmed the hack and noted much of the loot is traceable on the blockchain, with efforts underway to freeze or recover assets. The hack's scale propelled North Korea to be the world's third-largest holder of Bitcoin overnight. This incident exemplifies an emerging trend where state-backed hackers target cryptocurrency at unprecedented scale to evade sanctions – a major concern for Asia-Pacific financial regulators.
 - **Source:** [SWK Technologies - March 2025 Cyber News Recap](https://swktech.com)
 
 ### Late Mar 2025 – Pakistan & India CERTs – Critical Vulnerability Alerts
