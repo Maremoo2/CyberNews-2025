@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import './App.css'
 import incidentsData from '../data/incidents.json'
 import InteractiveTagCloud from './components/InteractiveTagCloud'
@@ -95,9 +95,21 @@ function App() {
   const initialState = getInitialStateFromURL()
   const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
+  const [debouncedSearch, setDebouncedSearch] = useState('')
   const [selectedTags, setSelectedTags] = useState(initialState.tags)
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
   const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
+
+  // Debounce search input
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearch(searchQuery)
+    }, 300)
+    
+    return () => {
+      clearTimeout(handler)
+    }
+  }, [searchQuery])
 
   // Update URL when filters change
   useEffect(() => {
@@ -174,9 +186,9 @@ function App() {
       filtered = filtered.filter(incident => incident.impact >= 4)
     }
 
-    // Filter by search query
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase()
+    // Filter by search query (using debounced value)
+    if (debouncedSearch.trim()) {
+      const query = debouncedSearch.toLowerCase()
       filtered = filtered.filter(incident => {
         const matchesTitle = incident.title.toLowerCase().includes(query)
         const matchesSummary = incident.summary.toLowerCase().includes(query)
@@ -194,7 +206,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [selectedMonth, selectedRegion, searchQuery, selectedTags, showMajorOnly])
+  }, [selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -203,6 +215,15 @@ function App() {
       setSelectedTags([...selectedTags, tag])
     }
   }
+
+  const resetAllFilters = useCallback(() => {
+    setSelectedMonth('ALL')
+    setSelectedRegion('ALL')
+    setSearchQuery('')
+    setDebouncedSearch('')
+    setSelectedTags([])
+    setShowMajorOnly(false)
+  }, [])
 
   const formatDate = (dateString) => {
     const date = new Date(dateString)
@@ -221,6 +242,13 @@ function App() {
 
   // Generate empty state message based on active filters
   const getEmptyStateMessage = () => {
+    if (debouncedSearch.trim()) {
+      return {
+        title: `Ingen treff for "${debouncedSearch}"`,
+        suggestions: ['Prøv et annet søkeord', 'Fjern søket for å se alle hendelser', 'Søk etter "ransomware", "breach" eller "apt"']
+      }
+    }
+    
     const filters = []
     if (selectedMonth !== 'ALL') filters.push(MONTHS_NO[selectedMonth])
     if (selectedRegion !== 'ALL') {
@@ -228,16 +256,28 @@ function App() {
       filters.push(regionNames[selectedRegion])
     }
     if (selectedTags.length > 0) filters.push(`tag: ${selectedTags.join(', ')}`)
-    if (searchQuery.trim()) filters.push(`søk: "${searchQuery}"`)
+    if (showMajorOnly) filters.push('kun største saker')
     
     if (filters.length > 0) {
-      return `Ingen treff for ${filters.join(' + ')}`
+      return {
+        title: `Ingen treff for ${filters.join(' + ')}`,
+        suggestions: ['Prøv å velge en annen måned', 'Velg en annen region', 'Fjern noen filtre']
+      }
     }
-    return 'Ingen hendelser funnet'
+    
+    return {
+      title: 'Ingen hendelser funnet',
+      suggestions: []
+    }
   }
 
   return (
     <div className="app">
+      {/* Skip to main content link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Hopp til hovedinnhold
+      </a>
+      
       <header className="header">
         <h1>Security News Year in Review 2025</h1>
         <p className="subtitle">Oversikt over cybersikkerhetshendelser</p>
@@ -261,48 +301,59 @@ function App() {
       />
 
       {/* Filters Section - Grouped for better UX */}
-      <div className="filters-section">
+      <div className="filters-section" role="region" aria-label="Filtre for hendelser">
         {/* Region Filter */}
-        <div className="region-filter">
+        <div className="region-filter" role="group" aria-label="Regionfilter">
           <button 
             className={selectedRegion === 'ALL' ? 'active' : ''}
             onClick={() => setSelectedRegion('ALL')}
+            aria-label="Vis alle regioner"
+            aria-pressed={selectedRegion === 'ALL'}
           >
             Alle ({regionCounts.ALL})
           </button>
           <button 
             className={selectedRegion === 'US' ? 'active' : ''}
             onClick={() => setSelectedRegion('US')}
+            aria-label="Filtrer på USA"
+            aria-pressed={selectedRegion === 'US'}
           >
             USA ({regionCounts.US})
           </button>
           <button 
             className={selectedRegion === 'EU' ? 'active' : ''}
             onClick={() => setSelectedRegion('EU')}
+            aria-label="Filtrer på Europa"
+            aria-pressed={selectedRegion === 'EU'}
           >
             Europa ({regionCounts.EU})
           </button>
           <button 
             className={selectedRegion === 'ASIA' ? 'active' : ''}
             onClick={() => setSelectedRegion('ASIA')}
+            aria-label="Filtrer på Asia"
+            aria-pressed={selectedRegion === 'ASIA'}
           >
             Asia ({regionCounts.ASIA})
           </button>
           <button 
             className={selectedRegion === 'NO' ? 'active' : ''}
             onClick={() => setSelectedRegion('NO')}
+            aria-label="Filtrer på Norge"
+            aria-pressed={selectedRegion === 'NO'}
           >
             Norge ({regionCounts.NO})
           </button>
         </div>
 
         {/* Month Filter */}
-        <div className="month-filter-container">
+        <div className="month-filter-container" role="group" aria-label="Månedsfilter">
           {/* Dropdown for mobile */}
           <select 
             className="month-dropdown"
             value={selectedMonth}
             onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
+            aria-label="Velg måned"
           >
             <option value="ALL">📅 Alle måneder</option>
             {MONTHS_NO.map((month, index) => (
@@ -315,6 +366,8 @@ function App() {
             <button 
               className={selectedMonth === 'ALL' ? 'active' : ''}
               onClick={() => setSelectedMonth('ALL')}
+              aria-label="Vis alle måneder"
+              aria-pressed={selectedMonth === 'ALL'}
             >
               Alle
             </button>
@@ -323,6 +376,8 @@ function App() {
                 key={index}
                 className={selectedMonth === index ? 'active' : ''}
                 onClick={() => setSelectedMonth(index)}
+                aria-label={`Filtrer på ${month}`}
+                aria-pressed={selectedMonth === index}
               >
                 {month.substring(0, 3)}
               </button>
@@ -337,8 +392,11 @@ function App() {
               type="checkbox"
               checked={showMajorOnly}
               onChange={(e) => setShowMajorOnly(e.target.checked)}
+              aria-label="Vis kun største saker med impact 4 eller høyere"
             />
-            <span className="toggle-label">⚠️ Kun største saker (impact ≥ 4)</span>
+            <span className="toggle-label" aria-label="Kun største saker, impact 4 eller høyere">
+              ⚠️ Kun største saker (impact ≥ 4)
+            </span>
           </label>
         </div>
       </div>
@@ -352,24 +410,38 @@ function App() {
 
       {/* Search Bar */}
       <div className="search-container">
-        <input 
-          type="text"
-          className="search-input"
-          placeholder="🔍 Søk i tittel, sammendrag eller tags..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
+        <div className="search-wrapper">
+          <input 
+            type="text"
+            className="search-input"
+            placeholder="🔍 Søk i tittel, sammendrag eller tags..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            aria-label="Søk i cybersikkerhetshendelser"
+          />
+          {searchQuery && (
+            <button 
+              className="search-clear-btn"
+              onClick={() => setSearchQuery('')}
+              aria-label="Fjern søketekst"
+              title="Fjern søk"
+            >
+              ×
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Tag Chips */}
       {selectedTags.length > 0 && (
         <div className="selected-tags">
-          <span className="tag-label">🏷️ Valgte tags:</span>
+          <span className="tag-label" aria-label="Valgte emneord">🏷️ Valgte tags:</span>
           {selectedTags.map(tag => (
             <button 
               key={tag} 
               className="tag-chip selected"
               onClick={() => handleTagClick(tag)}
+              aria-label={`Fjern filter: ${tag}`}
             >
               {tag} ×
             </button>
@@ -378,12 +450,25 @@ function App() {
       )}
 
       {/* Incidents List */}
-      <main className="incidents-container">
+      <main id="main-content" className="incidents-container">
         {filteredIncidents.length === 0 ? (
           <div className="empty-state">
             <div className="empty-icon">🔍</div>
-            <h2>{getEmptyStateMessage()}</h2>
-            <p>Prøv å endre søkekriteriene eller velg en annen måned/region.</p>
+            <h2>{getEmptyStateMessage().title}</h2>
+            {getEmptyStateMessage().suggestions.length > 0 && (
+              <ul className="empty-suggestions">
+                {getEmptyStateMessage().suggestions.map((suggestion, idx) => (
+                  <li key={idx}>{suggestion}</li>
+                ))}
+              </ul>
+            )}
+            <button 
+              className="reset-filters-btn"
+              onClick={resetAllFilters}
+              aria-label="Tilbakestill alle filtre"
+            >
+              Tilbakestill alle filtre
+            </button>
           </div>
         ) : (
           <div className="incidents-list">
@@ -392,14 +477,21 @@ function App() {
               return (
               <article key={incident.id} className="incident-card">
                 <div className="incident-header">
-                  <time className="incident-date">📅 {formatDate(incident.date)}</time>
-                  <span className={`region-badge ${incident.region.toLowerCase()}`}>
+                  <time className="incident-date" aria-label={`Dato: ${formatDate(incident.date)}`}>
+                    📅 {formatDate(incident.date)}
+                  </time>
+                  <span className={`region-badge ${incident.region.toLowerCase()}`} aria-label={`Region: ${incident.region}`}>
                     {incident.region}
                   </span>
                 </div>
                 <h2 className="incident-title">
                   {impactBadge && (
-                    <span className={`impact-badge ${impactBadge.className}`} title={impactBadge.label}>
+                    <span 
+                      className={`impact-badge ${impactBadge.className}`} 
+                      title={impactBadge.label}
+                      aria-label={`Alvorlighetsgrad: ${impactBadge.label}`}
+                      role="img"
+                    >
                       {impactBadge.emoji}
                     </span>
                   )}
@@ -414,12 +506,14 @@ function App() {
                     {incident.country && ` • ${incident.country}`}
                   </span>
                   {incident.tags && incident.tags.length > 0 && (
-                    <div className="tags">
+                    <div className="tags" role="group" aria-label="Emneord">
                       {incident.tags.map(tag => (
                         <button
                           key={tag}
                           className={`tag-chip ${selectedTags.includes(tag) ? 'selected' : ''}`}
                           onClick={() => handleTagClick(tag)}
+                          aria-label={selectedTags.includes(tag) ? `Fjern filter: ${tag}` : `Filtrer på: ${tag}`}
+                          aria-pressed={selectedTags.includes(tag)}
                         >
                           {tag}
                         </button>
