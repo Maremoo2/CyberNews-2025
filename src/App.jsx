@@ -11,6 +11,13 @@ const MONTHS_NO = [
   "Juli", "August", "September", "Oktober", "November", "Desember"
 ];
 
+// Impact badge configuration
+const IMPACT_STYLES = {
+  5: { label: 'Kritisk', className: 'impact-critical', emoji: '🔴' },
+  4: { label: 'Alvorlig', className: 'impact-high', emoji: '🟠' },
+  3: { label: 'Moderat', className: 'impact-moderate', emoji: '⚪' }
+};
+
 function getMonthIndex(dateStr) {
   // dateStr: "YYYY-MM-DD"
   // Validate format and extract month directly from string
@@ -21,7 +28,7 @@ function getMonthIndex(dateStr) {
   return (month >= 0 && month <= 11) ? month : null;
 }
 
-// Monthly summaries - concise 1-sentence overview per month
+// Monthly summaries - concise overview per month
 const MONTH_SUMMARIES = {
   0: "Året startet med store kryptovalutaangrep og økende ransomware-aktivitet.",
   1: "Rekordstore kryptoinnbrudd og eskalerende statsstøttede cyberangrep.",
@@ -209,14 +216,7 @@ function App() {
   // Get impact badge styling
   const getImpactBadge = (impact) => {
     if (!impact || impact < 3) return null
-    
-    const impactStyles = {
-      5: { label: 'Kritisk', className: 'impact-critical', emoji: '🔴' },
-      4: { label: 'Alvorlig', className: 'impact-high', emoji: '🟠' },
-      3: { label: 'Moderat', className: 'impact-moderate', emoji: '⚪' }
-    }
-    
-    return impactStyles[impact] || null
+    return IMPACT_STYLES[impact] || null
   }
 
   // Generate empty state message based on active filters
