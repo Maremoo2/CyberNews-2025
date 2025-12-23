@@ -21,11 +21,20 @@ function getMonthIndex(dateStr) {
   return (month >= 0 && month <= 11) ? month : null;
 }
 
-// Monthly summaries
+// Monthly summaries - concise 1-sentence overview per month
 const MONTH_SUMMARIES = {
-  11: "Desember 2025: Ransomware dominerte helsesektoren, samtidig som flere statlige aktører var involvert i målrettede angrep.",
-  10: "November 2025: Massive datainnbrudd og statsstøttede trusler preget måneden, med særlig fokus på finanssektoren.",
-  9: "Oktober 2025: Målrettede angrep mot norske bedrifter og kritisk infrastruktur.",
+  0: "Året startet med store kryptovalutaangrep og økende ransomware-aktivitet.",
+  1: "Rekordstore kryptoinnbrudd og eskalerende statsstøttede cyberangrep.",
+  2: "Cloud-tjenester og forsyningskjeder ble rammet av omfattende datainnbrudd.",
+  3: "Phishing og utpressing dominerte, med store saksrettede angrep mot idrettsbransjen.",
+  4: "Ransomware rammet store detaljhandelskjeder med milliardtap.",
+  5: "Historisk lekkasje av 16 milliarder innloggingsdetaljer.",
+  6: "Zero-day angrep og statsstøttede kampanjer mot kritisk infrastruktur.",
+  7: "Forsyningskjeder og cloud-plattformer kompromittert av sofistikerte aktører.",
+  8: "Ransomware lammet europeiske flyplasser og global transport.",
+  9: "Sikkerhetsleverandører ble selv ofre for omfattende datainnbrudd.",
+  10: "Oracle-sårbarheter utnyttet mot universiteter og store bedrifter over hele verden.",
+  11: "Massive datainnbrudd rammet millioner av forbrukere i Asia og globalt.",
 };
 
 // Helper to parse initial state from URL
@@ -197,6 +206,19 @@ function App() {
     })
   }
 
+  // Get impact badge styling
+  const getImpactBadge = (impact) => {
+    if (!impact || impact < 3) return null
+    
+    const impactStyles = {
+      5: { label: 'Kritisk', className: 'impact-critical', emoji: '🔴' },
+      4: { label: 'Alvorlig', className: 'impact-high', emoji: '🟠' },
+      3: { label: 'Moderat', className: 'impact-moderate', emoji: '⚪' }
+    }
+    
+    return impactStyles[impact] || null
+  }
+
   // Generate empty state message based on active filters
   const getEmptyStateMessage = () => {
     const filters = []
@@ -238,99 +260,102 @@ function App() {
         onTagClick={handleTagClick}
       />
 
-      {/* Region Filter */}
-      <div className="region-filter">
-        <button 
-          className={selectedRegion === 'ALL' ? 'active' : ''}
-          onClick={() => setSelectedRegion('ALL')}
-        >
-          Alle ({regionCounts.ALL})
-        </button>
-        <button 
-          className={selectedRegion === 'US' ? 'active' : ''}
-          onClick={() => setSelectedRegion('US')}
-        >
-          USA ({regionCounts.US})
-        </button>
-        <button 
-          className={selectedRegion === 'EU' ? 'active' : ''}
-          onClick={() => setSelectedRegion('EU')}
-        >
-          Europa ({regionCounts.EU})
-        </button>
-        <button 
-          className={selectedRegion === 'ASIA' ? 'active' : ''}
-          onClick={() => setSelectedRegion('ASIA')}
-        >
-          Asia ({regionCounts.ASIA})
-        </button>
-        <button 
-          className={selectedRegion === 'NO' ? 'active' : ''}
-          onClick={() => setSelectedRegion('NO')}
-        >
-          Norge ({regionCounts.NO})
-        </button>
-      </div>
-
-      {/* Month Filter */}
-      <div className="month-filter-container">
-        {/* Monthly Summary */}
-        {selectedMonth !== 'ALL' && MONTH_SUMMARIES[selectedMonth] && (
-          <div className="month-summary">
-            {MONTH_SUMMARIES[selectedMonth]}
-          </div>
-        )}
-
-        {/* Dropdown for mobile */}
-        <select 
-          className="month-dropdown"
-          value={selectedMonth}
-          onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
-        >
-          <option value="ALL">Alle måneder</option>
-          {MONTHS_NO.map((month, index) => (
-            <option key={index} value={index}>{month}</option>
-          ))}
-        </select>
-
-        {/* Buttons for desktop */}
-        <div className="month-buttons">
+      {/* Filters Section - Grouped for better UX */}
+      <div className="filters-section">
+        {/* Region Filter */}
+        <div className="region-filter">
           <button 
-            className={selectedMonth === 'ALL' ? 'active' : ''}
-            onClick={() => setSelectedMonth('ALL')}
+            className={selectedRegion === 'ALL' ? 'active' : ''}
+            onClick={() => setSelectedRegion('ALL')}
           >
-            Alle
+            Alle ({regionCounts.ALL})
           </button>
-          {MONTHS_NO.map((month, index) => (
-            <button
-              key={index}
-              className={selectedMonth === index ? 'active' : ''}
-              onClick={() => setSelectedMonth(index)}
+          <button 
+            className={selectedRegion === 'US' ? 'active' : ''}
+            onClick={() => setSelectedRegion('US')}
+          >
+            USA ({regionCounts.US})
+          </button>
+          <button 
+            className={selectedRegion === 'EU' ? 'active' : ''}
+            onClick={() => setSelectedRegion('EU')}
+          >
+            Europa ({regionCounts.EU})
+          </button>
+          <button 
+            className={selectedRegion === 'ASIA' ? 'active' : ''}
+            onClick={() => setSelectedRegion('ASIA')}
+          >
+            Asia ({regionCounts.ASIA})
+          </button>
+          <button 
+            className={selectedRegion === 'NO' ? 'active' : ''}
+            onClick={() => setSelectedRegion('NO')}
+          >
+            Norge ({regionCounts.NO})
+          </button>
+        </div>
+
+        {/* Month Filter */}
+        <div className="month-filter-container">
+          {/* Dropdown for mobile */}
+          <select 
+            className="month-dropdown"
+            value={selectedMonth}
+            onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
+          >
+            <option value="ALL">📅 Alle måneder</option>
+            {MONTHS_NO.map((month, index) => (
+              <option key={index} value={index}>📅 {month}</option>
+            ))}
+          </select>
+
+          {/* Buttons for desktop */}
+          <div className="month-buttons">
+            <button 
+              className={selectedMonth === 'ALL' ? 'active' : ''}
+              onClick={() => setSelectedMonth('ALL')}
             >
-              {month.substring(0, 3)}
+              Alle
             </button>
-          ))}
+            {MONTHS_NO.map((month, index) => (
+              <button
+                key={index}
+                className={selectedMonth === index ? 'active' : ''}
+                onClick={() => setSelectedMonth(index)}
+              >
+                {month.substring(0, 3)}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Major Incidents Toggle */}
+        <div className="major-filter-container">
+          <label className="major-toggle">
+            <input
+              type="checkbox"
+              checked={showMajorOnly}
+              onChange={(e) => setShowMajorOnly(e.target.checked)}
+            />
+            <span className="toggle-label">⚠️ Kun største saker (impact ≥ 4)</span>
+          </label>
         </div>
       </div>
 
-      {/* Major Incidents Toggle */}
-      <div className="major-filter-container">
-        <label className="major-toggle">
-          <input
-            type="checkbox"
-            checked={showMajorOnly}
-            onChange={(e) => setShowMajorOnly(e.target.checked)}
-          />
-          <span className="toggle-label">Kun største saker (impact ≥ 4)</span>
-        </label>
-      </div>
+      {/* Monthly Summary */}
+      {selectedMonth !== 'ALL' && MONTH_SUMMARIES[selectedMonth] && (
+        <div className="month-summary">
+          {MONTH_SUMMARIES[selectedMonth]}
+        </div>
+      )}
 
       {/* Search Bar */}
       <div className="search-container">
         <input 
           type="text"
           className="search-input"
-          placeholder="Søk i tittel, sammendrag eller tags..."
+          placeholder="🔍 Søk i tittel, sammendrag eller tags..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -339,7 +364,7 @@ function App() {
       {/* Tag Chips */}
       {selectedTags.length > 0 && (
         <div className="selected-tags">
-          <span className="tag-label">Valgte tags:</span>
+          <span className="tag-label">🏷️ Valgte tags:</span>
           {selectedTags.map(tag => (
             <button 
               key={tag} 
@@ -362,15 +387,22 @@ function App() {
           </div>
         ) : (
           <div className="incidents-list">
-            {filteredIncidents.map(incident => (
+            {filteredIncidents.map(incident => {
+              const impactBadge = getImpactBadge(incident.impact)
+              return (
               <article key={incident.id} className="incident-card">
                 <div className="incident-header">
-                  <time className="incident-date">{formatDate(incident.date)}</time>
+                  <time className="incident-date">📅 {formatDate(incident.date)}</time>
                   <span className={`region-badge ${incident.region.toLowerCase()}`}>
                     {incident.region}
                   </span>
                 </div>
                 <h2 className="incident-title">
+                  {impactBadge && (
+                    <span className={`impact-badge ${impactBadge.className}`} title={impactBadge.label}>
+                      {impactBadge.emoji}
+                    </span>
+                  )}
                   <a href={incident.sourceUrl} target="_blank" rel="noopener noreferrer">
                     {incident.title}
                   </a>
@@ -396,7 +428,8 @@ function App() {
                   )}
                 </div>
               </article>
-            ))}
+            )}
+            )}
           </div>
         )}
       </main>
