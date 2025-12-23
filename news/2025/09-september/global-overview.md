@@ -6,7 +6,15 @@
 
 September 2025 was one of the most turbulent months in cybersecurity, with record-high ransomware, supply chain attacks, and data breaches reported worldwide. Critical infrastructure and industries faced major disruptions: for example, a ransomware attack on Jaguar Land Rover (JLR) forced multi-week factory shutdowns across the UK, Slovakia, India, and Brazil. The slow recovery even prompted the UK government to underwrite a $2 billion loan guarantee to help JLR resume operations. Meanwhile, a cyber attack on aviation IT provider Collins Aerospace halted airline check-ins across multiple countries (including major European airports) on the weekend of Sept 19, underscoring cross-border supply-chain risk. Authorities later arrested a suspect and confirmed the HardBit ransomware was used in the airport attack.
 
-### Rising Attack Volumes & Costs
+### September 19, 2025 – Collins Aerospace Ransomware Attack (vMUSE)
+
+- **Attack Type:** Ransomware attack on critical aviation infrastructure
+- **Impact:** Major European airport disruptions; thousands of passengers affected with manual check-in processing
+- **Attribution:** HardBit ransomware group (confirmed by authorities)
+- **Details:** A ransomware attack on Collins Aerospace's vMUSE check-in software paralyzed flight operations at major European airports including Heathrow, Brussels, Berlin, and Dublin. The shared check-in/boarding platform went offline, forcing thousands of passengers to be processed manually and causing widespread delays and flight cancellations. Collins Aerospace (owned by RTX Corp) confirmed the "cyber-related disruption" and worked with security agencies. The EU's cybersecurity agency confirmed it was a ransomware incident. This attack demonstrated how a single vendor compromise can cascade through multiple countries and businesses, having international ripple effects on global travel.
+- **Source:** [Wikipedia - Collins Aerospace cyberattack](https://en.wikipedia.org)
+
+### September 2025 – Rising Attack Volumes & Costs
 
 The onslaught of cyber incidents continued to grow in scale. Cloudflare observed the largest DDoS attack ever recorded in late September, peaking at 22.2 Tbps (twice the previous record from early September). In the public sector, Panama's Ministry of Economy and Finance suffered a ransomware breach stealing 1.5 terabytes of sensitive data. A German industry survey quantified the economic toll: cyberattacks over the past year cost the German economy ~€300 billion (≃$352 billion), nearly double the previous year's figure. These trends illustrate that no region or sector was spared in September's global cybercrime wave.
 

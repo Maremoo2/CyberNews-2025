@@ -8,7 +8,10 @@
     "country": "United States",
     "sourceName": "NCC Group",
     "sourceUrl": "https://www.nccgroup.com",
-    "tags": ["ransomware", "global"],
+    "tags": [
+      "ransomware",
+      "global"
+    ],
     "impact": 4
   },
   {
@@ -20,7 +23,11 @@
     "country": "France",
     "sourceName": "CERT-EU",
     "sourceUrl": "https://cert.europa.eu",
-    "tags": ["data breach", "healthcare", "privacy"],
+    "tags": [
+      "data breach",
+      "healthcare",
+      "privacy"
+    ],
     "impact": 4
   },
   {
@@ -32,7 +39,11 @@
     "country": "Japan",
     "sourceName": "Asia Pacific Security",
     "sourceUrl": "https://example.com/apt-asia",
-    "tags": ["apt", "financial", "state-sponsored"],
+    "tags": [
+      "apt",
+      "financial",
+      "state-sponsored"
+    ],
     "impact": 3
   },
   {
@@ -44,7 +55,10 @@
     "country": "Norway",
     "sourceName": "NSM",
     "sourceUrl": "https://nsm.no",
-    "tags": ["local government", "infrastructure"],
+    "tags": [
+      "local government",
+      "infrastructure"
+    ],
     "impact": 2
   },
   {
@@ -56,7 +70,12 @@
     "country": "Global",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["cryptocurrency", "theft", "lazarus group", "state-sponsored"],
+    "tags": [
+      "cryptocurrency",
+      "theft",
+      "lazarus group",
+      "state-sponsored"
+    ],
     "impact": 5
   },
   {
@@ -68,7 +87,11 @@
     "country": "United States",
     "sourceName": "BleepingComputer",
     "sourceUrl": "https://bleepingcomputer.com",
-    "tags": ["data breach", "financial", "personal data"],
+    "tags": [
+      "data breach",
+      "financial",
+      "personal data"
+    ],
     "impact": 4
   },
   {
@@ -80,7 +103,12 @@
     "country": "United States",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["apt", "supply chain", "telecommunications", "state-sponsored"],
+    "tags": [
+      "apt",
+      "supply chain",
+      "telecommunications",
+      "state-sponsored"
+    ],
     "impact": 5
   },
   {
@@ -92,7 +120,11 @@
     "country": "United States",
     "sourceName": "BleepingComputer",
     "sourceUrl": "https://bleepingcomputer.com",
-    "tags": ["ransomware", "media", "qilin"],
+    "tags": [
+      "ransomware",
+      "media",
+      "qilin"
+    ],
     "impact": 4
   },
   {
@@ -104,7 +136,11 @@
     "country": "European Union",
     "sourceName": "CERT-EU",
     "sourceUrl": "https://cert.europa.eu",
-    "tags": ["ransomware", "law enforcement", "8base"],
+    "tags": [
+      "ransomware",
+      "law enforcement",
+      "8base"
+    ],
     "impact": 3
   },
   {
@@ -116,7 +152,10 @@
     "country": "Norway",
     "sourceName": "NorCERT",
     "sourceUrl": "https://norcert.no",
-    "tags": ["ransomware", "business"],
+    "tags": [
+      "ransomware",
+      "business"
+    ],
     "impact": 2
   },
   {
@@ -128,7 +167,11 @@
     "country": "United States",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["cloud", "data breach", "supply chain"],
+    "tags": [
+      "cloud",
+      "data breach",
+      "supply chain"
+    ],
     "impact": 5
   },
   {
@@ -140,7 +183,11 @@
     "country": "United States",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["supply chain", "ci/cd", "github"],
+    "tags": [
+      "supply chain",
+      "ci/cd",
+      "github"
+    ],
     "impact": 4
   },
   {
@@ -152,7 +199,10 @@
     "country": "United States",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["ddos", "social media"],
+    "tags": [
+      "ddos",
+      "social media"
+    ],
     "impact": 3
   },
   {
@@ -164,7 +214,11 @@
     "country": "South Korea",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["cryptocurrency", "blockchain", "theft"],
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "theft"
+    ],
     "impact": 4
   },
   {
@@ -176,7 +230,11 @@
     "country": "Global",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["malware", "malvertising", "credentials"],
+    "tags": [
+      "malware",
+      "malvertising",
+      "credentials"
+    ],
     "impact": 5
   },
   {
@@ -188,7 +246,11 @@
     "country": "Norway",
     "sourceName": "SecurityWeek",
     "sourceUrl": "https://securityweek.com",
-    "tags": ["critical infrastructure", "cyber-physical", "sabotage"],
+    "tags": [
+      "critical infrastructure",
+      "cyber-physical",
+      "sabotage"
+    ],
     "impact": 4
   },
   {
@@ -200,7 +262,11 @@
     "country": "Norway",
     "sourceName": "Kode24",
     "sourceUrl": "https://kode24.no",
-    "tags": ["ransomware", "infrastructure", "logistics"],
+    "tags": [
+      "ransomware",
+      "infrastructure",
+      "logistics"
+    ],
     "impact": 3
   },
   {
@@ -212,7 +278,11 @@
     "country": "Global",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["phishing", "supply chain", "cryptocurrency"],
+    "tags": [
+      "phishing",
+      "supply chain",
+      "cryptocurrency"
+    ],
     "impact": 4
   },
   {
@@ -224,7 +294,11 @@
     "country": "United States",
     "sourceName": "Healthcare Security",
     "sourceUrl": "https://example.com",
-    "tags": ["healthcare", "data breach", "medical records"],
+    "tags": [
+      "healthcare",
+      "data breach",
+      "medical records"
+    ],
     "impact": 5
   },
   {
@@ -236,7 +310,11 @@
     "country": "United Kingdom",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["supply chain", "data breach", "third-party"],
+    "tags": [
+      "supply chain",
+      "data breach",
+      "third-party"
+    ],
     "impact": 3
   },
   {
@@ -248,7 +326,11 @@
     "country": "Global",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["ransomware", "manufacturing", "supply chain"],
+    "tags": [
+      "ransomware",
+      "manufacturing",
+      "supply chain"
+    ],
     "impact": 4
   },
   {
@@ -260,7 +342,11 @@
     "country": "Global",
     "sourceName": "Cyber Security News",
     "sourceUrl": "https://example.com",
-    "tags": ["phishing", "ai", "malware"],
+    "tags": [
+      "phishing",
+      "ai",
+      "malware"
+    ],
     "impact": 3
   },
   {
@@ -272,7 +358,11 @@
     "country": "Norway",
     "sourceName": "NorCERT",
     "sourceUrl": "https://norcert.no",
-    "tags": ["ransomware", "business", "targeted attack"],
+    "tags": [
+      "ransomware",
+      "business",
+      "targeted attack"
+    ],
     "impact": 3
   },
   {
@@ -284,7 +374,11 @@
     "country": "United States",
     "sourceName": "Healthcare Security",
     "sourceUrl": "https://example.com",
-    "tags": ["ransomware", "healthcare", "interlock"],
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "interlock"
+    ],
     "impact": 5
   },
   {
@@ -296,7 +390,11 @@
     "country": "United States",
     "sourceName": "Healthcare Security",
     "sourceUrl": "https://example.com",
-    "tags": ["healthcare", "ransomware", "infrastructure"],
+    "tags": [
+      "healthcare",
+      "ransomware",
+      "infrastructure"
+    ],
     "impact": 4
   },
   {
@@ -308,7 +406,11 @@
     "country": "United States",
     "sourceName": "Government Security",
     "sourceUrl": "https://example.com",
-    "tags": ["government", "data breach", "personal data"],
+    "tags": [
+      "government",
+      "data breach",
+      "personal data"
+    ],
     "impact": 3
   },
   {
@@ -320,7 +422,11 @@
     "country": "Russia",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["ddos", "infrastructure", "telecommunications"],
+    "tags": [
+      "ddos",
+      "infrastructure",
+      "telecommunications"
+    ],
     "impact": 3
   },
   {
@@ -332,7 +438,12 @@
     "country": "Ukraine",
     "sourceName": "CERT-EU",
     "sourceUrl": "https://cert.europa.eu",
-    "tags": ["apt", "state-sponsored", "espionage", "government"],
+    "tags": [
+      "apt",
+      "state-sponsored",
+      "espionage",
+      "government"
+    ],
     "impact": 4
   },
   {
@@ -344,7 +455,11 @@
     "country": "United States",
     "sourceName": "CM Alliance",
     "sourceUrl": "https://cm-alliance.com",
-    "tags": ["ransomware", "data leak", "corporate"],
+    "tags": [
+      "ransomware",
+      "data leak",
+      "corporate"
+    ],
     "impact": 3
   },
   {
@@ -356,7 +471,11 @@
     "country": "United States",
     "sourceName": "Security News",
     "sourceUrl": "https://example.com",
-    "tags": ["data breach", "personal data", "data broker"],
+    "tags": [
+      "data breach",
+      "personal data",
+      "data broker"
+    ],
     "impact": 4
   },
   {
@@ -368,7 +487,11 @@
     "country": "Singapore",
     "sourceName": "Crypto Security",
     "sourceUrl": "https://example.com",
-    "tags": ["cryptocurrency", "theft", "defi"],
+    "tags": [
+      "cryptocurrency",
+      "theft",
+      "defi"
+    ],
     "impact": 5
   },
   {
@@ -380,7 +503,12 @@
     "country": "China",
     "sourceName": "Cyber Security News",
     "sourceUrl": "https://example.com",
-    "tags": ["apt", "vulnerability", "state-sponsored", "mobile"],
+    "tags": [
+      "apt",
+      "vulnerability",
+      "state-sponsored",
+      "mobile"
+    ],
     "impact": 4
   },
   {
@@ -392,7 +520,11 @@
     "country": "Norway",
     "sourceName": "NSM",
     "sourceUrl": "https://nsm.no",
-    "tags": ["ransomware", "healthcare", "patient data"],
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "patient data"
+    ],
     "impact": 4
   },
   {
@@ -404,7 +536,12 @@
     "country": "Global",
     "sourceName": "Cyber Security News",
     "sourceUrl": "https://example.com",
-    "tags": ["data breach", "credentials", "malware", "infostealer"],
+    "tags": [
+      "data breach",
+      "credentials",
+      "malware",
+      "infostealer"
+    ],
     "impact": 5
   },
   {
@@ -416,7 +553,12 @@
     "country": "China",
     "sourceName": "Security News",
     "sourceUrl": "https://example.com",
-    "tags": ["data breach", "financial", "database", "misconfiguration"],
+    "tags": [
+      "data breach",
+      "financial",
+      "database",
+      "misconfiguration"
+    ],
     "impact": 5
   },
   {
@@ -428,7 +570,11 @@
     "country": "Global",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["ransomware", "qilin", "vulnerability"],
+    "tags": [
+      "ransomware",
+      "qilin",
+      "vulnerability"
+    ],
     "impact": 4
   },
   {
@@ -440,7 +586,12 @@
     "country": "United States",
     "sourceName": "Telecom Security",
     "sourceUrl": "https://example.com",
-    "tags": ["apt", "telecommunications", "state-sponsored", "china"],
+    "tags": [
+      "apt",
+      "telecommunications",
+      "state-sponsored",
+      "china"
+    ],
     "impact": 4
   },
   {
@@ -452,7 +603,12 @@
     "country": "United States",
     "sourceName": "Media Security",
     "sourceUrl": "https://example.com",
-    "tags": ["espionage", "media", "state-sponsored", "email"],
+    "tags": [
+      "espionage",
+      "media",
+      "state-sponsored",
+      "email"
+    ],
     "impact": 3
   },
   {
@@ -464,7 +620,11 @@
     "country": "Global",
     "sourceName": "SOCRadar",
     "sourceUrl": "https://socradar.io",
-    "tags": ["ransomware", "professional services", "business"],
+    "tags": [
+      "ransomware",
+      "professional services",
+      "business"
+    ],
     "impact": 3
   },
   {
@@ -476,7 +636,11 @@
     "country": "Global",
     "sourceName": "Healthcare Security",
     "sourceUrl": "https://example.com",
-    "tags": ["ransomware", "healthcare", "patient care"],
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "patient care"
+    ],
     "impact": 4
   },
   {
@@ -488,7 +652,11 @@
     "country": "Norway",
     "sourceName": "NSM",
     "sourceUrl": "https://nsm.no",
-    "tags": ["critical infrastructure", "energy", "ot security"],
+    "tags": [
+      "critical infrastructure",
+      "energy",
+      "ot security"
+    ],
     "impact": 4
   },
   {
@@ -500,7 +668,11 @@
     "country": "United States",
     "sourceName": "CyberSecurity News",
     "sourceUrl": "https://example.com/ransomware-healthcare",
-    "tags": ["ransomware", "healthcare", "data breach"],
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "data breach"
+    ],
     "impact": 5
   },
   {
@@ -512,7 +684,11 @@
     "country": "Germany",
     "sourceName": "EU Security Watch",
     "sourceUrl": "https://example.com/zero-day-vuln",
-    "tags": ["zero-day", "vulnerability", "software"],
+    "tags": [
+      "zero-day",
+      "vulnerability",
+      "software"
+    ],
     "impact": 5
   },
   {
@@ -524,7 +700,12 @@
     "country": "Singapore",
     "sourceName": "Asia Pacific Security",
     "sourceUrl": "https://example.com/apt-financial",
-    "tags": ["apt", "financial", "phishing", "state-sponsored"],
+    "tags": [
+      "apt",
+      "financial",
+      "phishing",
+      "state-sponsored"
+    ],
     "impact": 4
   },
   {
@@ -536,7 +717,11 @@
     "country": "Norway",
     "sourceName": "Norge IT-sikkerhet",
     "sourceUrl": "https://example.com/norway-ddos",
-    "tags": ["ddos", "government", "infrastructure"],
+    "tags": [
+      "ddos",
+      "government",
+      "infrastructure"
+    ],
     "impact": 3
   },
   {
@@ -548,7 +733,11 @@
     "country": "United States",
     "sourceName": "Tech Security Today",
     "sourceUrl": "https://example.com/supply-chain",
-    "tags": ["supply chain", "malware", "enterprise"],
+    "tags": [
+      "supply chain",
+      "malware",
+      "enterprise"
+    ],
     "impact": 5
   },
   {
@@ -560,7 +749,11 @@
     "country": "France",
     "sourceName": "European Data Protection",
     "sourceUrl": "https://example.com/data-breach-social",
-    "tags": ["data breach", "social media", "privacy"],
+    "tags": [
+      "data breach",
+      "social media",
+      "privacy"
+    ],
     "impact": 4
   },
   {
@@ -572,7 +765,12 @@
     "country": "Japan",
     "sourceName": "Mobile Security Asia",
     "sourceUrl": "https://example.com/banking-trojan",
-    "tags": ["trojan", "mobile", "banking", "malware"],
+    "tags": [
+      "trojan",
+      "mobile",
+      "banking",
+      "malware"
+    ],
     "impact": 3
   },
   {
@@ -584,7 +782,11 @@
     "country": "Norway",
     "sourceName": "NSM - Nasjonal sikkerhetsmyndighet",
     "sourceUrl": "https://example.com/norway-infrastructure",
-    "tags": ["critical infrastructure", "prevention", "national security"],
+    "tags": [
+      "critical infrastructure",
+      "prevention",
+      "national security"
+    ],
     "impact": 4
   },
   {
@@ -596,7 +798,11 @@
     "country": "United States",
     "sourceName": "Cloud Security Alliance",
     "sourceUrl": "https://example.com/phishing-cloud",
-    "tags": ["phishing", "cloud", "credentials"],
+    "tags": [
+      "phishing",
+      "cloud",
+      "credentials"
+    ],
     "impact": 2
   },
   {
@@ -608,7 +814,12 @@
     "country": "Ireland",
     "sourceName": "Data Protection Commission",
     "sourceUrl": "https://example.com/gdpr-fine",
-    "tags": ["gdpr", "compliance", "fine", "privacy"],
+    "tags": [
+      "gdpr",
+      "compliance",
+      "fine",
+      "privacy"
+    ],
     "impact": 3
   },
   {
@@ -620,7 +831,11 @@
     "country": "South Korea",
     "sourceName": "Crypto Security News",
     "sourceUrl": "https://example.com/crypto-breach",
-    "tags": ["cryptocurrency", "breach", "financial"],
+    "tags": [
+      "cryptocurrency",
+      "breach",
+      "financial"
+    ],
     "impact": 4
   },
   {
@@ -632,7 +847,212 @@
     "country": "Norway",
     "sourceName": "NorCERT",
     "sourceUrl": "https://example.com/norway-malware",
-    "tags": ["malware", "business", "targeted attack"],
+    "tags": [
+      "malware",
+      "business",
+      "targeted attack"
+    ],
     "impact": 2
+  },
+  {
+    "id": "609",
+    "date": "2025-01-15",
+    "title": "Phemex Cryptocurrency Exchange Hack",
+    "summary": "Singapore-based crypto platform Phemex was breached with attackers stealing at least $69 million. The hack forced Phemex to halt withdrawals and deposits while assessing damage. Investigation found hackers compromised Phemex's systems, leading to loss of user funds and widespread service disruption.",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "The Record",
+    "sourceUrl": "https://therecord.media",
+    "tags": [
+      "cryptocurrency",
+      "breach",
+      "lazarus",
+      "financial",
+      "nation-state"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "610",
+    "date": "2025-03-10",
+    "title": "Oracle Cloud IAM Data Breach",
+    "summary": "Threat actor 'rose87168' claimed to breach Oracle Cloud's Identity and Access Management service. About 6 million user records (usernames, emails, hashed passwords) were allegedly stolen from roughly 140,000 Oracle cloud tenant accounts. Oracle denied customer data compromise, but security firms warned this could be one of the year's most significant cloud supply-chain attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cloud Security Alliance",
+    "sourceUrl": "https://cloudsecurityalliance.org",
+    "tags": [
+      "cloud",
+      "data breach",
+      "supply-chain",
+      "iam",
+      "oracle"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "611",
+    "date": "2025-04-15",
+    "title": "NASCAR Ransomware Attack",
+    "summary": "Medusa ransomware group infiltrated NASCAR's systems, claiming to have exfiltrated roughly 1 terabyte of data including personal information like names and Social Security numbers. The group demanded a $4 million ransom. NASCAR confirmed the cybersecurity incident affecting operations and notified individuals that personal data was stolen.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "ransomware",
+      "medusa",
+      "data breach",
+      "sports",
+      "extortion"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "612",
+    "date": "2025-05-20",
+    "title": "Marks & Spencer Supply-Chain Ransomware Attack",
+    "summary": "UK retail giant Marks & Spencer suffered a large cyberattack by Scattered Spider group, who deployed DragonForce ransomware. The attackers encrypted M&S's critical systems and stole sensitive customer data. The disruption was severe with M&S projecting a £320 million ($400 million) hit to profits due to lost sales and recovery costs.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "PKWARE",
+    "sourceUrl": "https://pkware.com",
+    "tags": [
+      "ransomware",
+      "dragonforce",
+      "scattered-spider",
+      "retail",
+      "supply-chain"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "613",
+    "date": "2025-06-15",
+    "title": "Historic 16 Billion-Credential Leak",
+    "summary": "Unprecedented data dump of ~16 billion stolen credentials surfaced. Not a single breach but a compilation of stolen usernames, emails, and passwords gathered over years by infostealer malware on over 750 million infected devices. Dataset included logins for Google, Facebook, Apple, Netflix, and numerous government portals, enabling massive credential-stuffing and phishing campaigns worldwide.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Strobes Security",
+    "sourceUrl": "https://strobes.co",
+    "tags": [
+      "data breach",
+      "credentials",
+      "infostealer",
+      "global",
+      "password"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "614",
+    "date": "2025-07-15",
+    "title": "Microsoft SharePoint 'ToolShell' Zero-Day Attacks",
+    "summary": "Series of attacks exploited zero-day vulnerabilities in on-premises Microsoft SharePoint servers. Over 400 organizations including U.S. government agencies were compromised in this campaign. Attackers deployed web shells to gain admin access and exfiltrated sensitive internal data (documents, credentials). Intrusions attributed to advanced threat groups likely based in China.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CRN",
+    "sourceUrl": "https://crn.com",
+    "tags": [
+      "zero-day",
+      "sharepoint",
+      "nation-state",
+      "china",
+      "web-shell",
+      "apt"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "615",
+    "date": "2025-08-10",
+    "title": "Google Salesforce Data Breach",
+    "summary": "Google disclosed that hackers from ShinyHunters group breached one of its Salesforce customer databases using social-engineering (voice-phishing). The attackers accessed a database of small and medium-business contact information. The breach exposed basic company contact details (names, emails, phone numbers) for millions of Google's customers, but reportedly not financial or login credentials.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Axios",
+    "sourceUrl": "https://axios.com",
+    "tags": [
+      "data breach",
+      "shinyhunters",
+      "social-engineering",
+      "salesforce",
+      "voice-phishing"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "616",
+    "date": "2025-09-19",
+    "title": "Collins Aerospace Ransomware Attack (vMUSE)",
+    "summary": "Ransomware attack on Collins Aerospace's vMUSE check-in software paralyzed flight operations at major European airports (Heathrow, Brussels, Berlin, Dublin). The shared check-in/boarding platform went offline, forcing thousands of passengers to be processed manually causing widespread delays and flight cancellations. EU's cybersecurity agency confirmed it was a ransomware incident.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org",
+    "tags": [
+      "ransomware",
+      "aviation",
+      "critical-infrastructure",
+      "supply-chain",
+      "collins-aerospace"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "617",
+    "date": "2025-10-15",
+    "title": "F5 Networks Cyberattack (BIG-IP Source Code Theft)",
+    "summary": "F5 Networks announced that a sophisticated nation-state actor breached its internal systems, stealing portions of proprietary BIG-IP source code and details of undisclosed vulnerabilities. The attacker maintained long-term access to F5's networks. U.S. CISA issued emergency directive warning of urgent patching for F5 products. The theft potentially empowered attackers to develop new exploits against hundreds of thousands of enterprise networks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Strobes Security",
+    "sourceUrl": "https://strobes.co",
+    "tags": [
+      "nation-state",
+      "source-code",
+      "vulnerability",
+      "supply-chain",
+      "f5",
+      "cisa"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "618",
+    "date": "2025-11-15",
+    "title": "Oracle EBS Hack - University of Pennsylvania Data Breach",
+    "summary": "Cl0p ransomware group's Oracle E-Business Suite (EBS) hack campaign hit University of Pennsylvania and University of Phoenix. UPenn attack exposed personal data (names, SSNs) of thousands of individuals after hackers exploited an EBS zero-day. Over 100 organizations including Harvard, Dartmouth, Canon, Mazda, and Logitech were named as victims of the same Oracle EBS exploit.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "ransomware",
+      "cl0p",
+      "zero-day",
+      "oracle",
+      "education",
+      "healthcare"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "619",
+    "date": "2025-12-20",
+    "title": "Coupang Data Breach (33 Million Customers)",
+    "summary": "South Korean e-commerce leader Coupang revealed a massive data breach affecting over 33 million users. The incident exposed personal information (names, contact details, possibly payment data) of roughly two-thirds of Korea's population. Korean regulators launched special audits and investigations into Coupang's data practices. The attack caused public outcry and led to legal and financial scrutiny including government-ordered tax audit.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com",
+    "tags": [
+      "data breach",
+      "e-commerce",
+      "privacy",
+      "south-korea",
+      "regulatory"
+    ],
+    "impact": 5
   }
 ]

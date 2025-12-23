@@ -22,6 +22,14 @@ Several overarching trends characterized the threat landscape in October:
 - [Security World Market - Norwegian Companies Most Attacked in Nordics](https://securityworldmarket.com)
 - [CM Alliance - October 2025 Cyber Attacks](https://cm-alliance.com)
 
+### October 15, 2025 – F5 Networks Cyberattack (BIG-IP Source Code Theft)
+
+- **Attack Type:** Nation-state breach targeting security vendor
+- **Impact:** BIG-IP source code stolen; undisclosed vulnerabilities exposed; emergency CISA directive issued
+- **Attribution:** Sophisticated nation-state actor (Chinese threat actor UNC5221)
+- **Details:** F5 Networks announced that a sophisticated nation-state actor breached its internal systems, stealing portions of the proprietary BIG-IP source code and details of undisclosed vulnerabilities. The attacker maintained long-term access to F5's networks, and U.S. CISA issued an emergency directive warning of urgent patching for F5 products. The theft of source code and vulnerability data meant that attackers could develop new exploits against hundreds of thousands of enterprise networks using F5 devices. This vendor supply-chain breach had far-reaching implications for network security worldwide.
+- **Source:** [Strobes - Top Data Breaches of October 2025](https://strobes.co), [CM Alliance - October 2025 Cyber Attacks](https://cm-alliance.com)
+
 ### State Actors and Vulnerabilities
 
 State-sponsored hacking groups also intensified their activity:

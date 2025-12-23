@@ -28,6 +28,16 @@ The month demonstrated several concerning patterns:
 - **Details:** Attackers exploited smart contract vulnerabilities in Balancer's protocol to drain approximately $120 million from liquidity pools across multiple blockchain networks. The exploit leveraged the interconnectedness of Balancer v2 pools to maximize the theft.
 - **Source:** [Halborn - Explained: The Balancer Hack](https://halborn.com)
 
+### November 15, 2025 – Oracle EBS Hack - University of Pennsylvania Data Breach
+
+- **Date:** November 15, 2025
+- **Target:** University of Pennsylvania, University of Phoenix, and 100+ other organizations
+- **Attack Type:** Zero-day exploitation (Oracle E-Business Suite)
+- **Impact:** Thousands of individuals' personal data exposed (names, SSNs); over 100 organizations affected
+- **Attribution:** Cl0p ransomware group
+- **Details:** The Cl0p ransomware group's Oracle E-Business Suite (EBS) hack campaign hit the University of Pennsylvania and the University of Phoenix. The UPenn attack exposed personal data (names, SSNs, etc.) of thousands of individuals after hackers exploited an EBS zero-day. Security filings showed nearly 1,500 Pennsylvania residents were affected. This was part of a broader campaign: over 100 organizations (including Harvard, Dartmouth, Canon, Mazda, Logitech) were named as victims of the same Oracle EBS exploit. These breaches underscored how a single vulnerability could cascade through different industries.
+- **Source:** [SecurityWeek - Penn and Phoenix Universities Disclose Data Breach](https://securityweek.com)
+
 ### November 21 – Gainsight (Salesforce Platform)
 
 - **Date:** November 21, 2025
