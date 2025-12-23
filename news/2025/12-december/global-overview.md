@@ -84,6 +84,18 @@ December 2025 saw unprecedented coordination in law enforcement actions against 
 
 **Source:** [Check Point Research - 22nd December Threat Intelligence Report](https://research.checkpoint.com)
 
+**Coupang Data Breach (December 2025):**
+- South Korean e-commerce leader Coupang revealed massive data breach affecting over 33 million users
+- Personal information exposed including names, contact details, possibly payment data
+- Roughly two-thirds of Korea's population affected
+- Korean regulators launched special audits and investigations into Coupang's data practices
+- Public outcry over data security and privacy concerns
+- Led to legal and financial scrutiny including government-ordered tax audit
+- One of the largest consumer data breaches in history
+- Major national crisis in South Korea
+
+**Source:** [Digital Forensics Magazine - Coupang Data Breach](https://digitalforensicsmagazine.com)
+
 ### State-Sponsored APT Campaigns
 
 **Ink Dragon (China-Aligned) - Multi-Country Campaign:**

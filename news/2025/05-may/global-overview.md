@@ -12,6 +12,14 @@ These incidents underscore that healthcare and finance were among the most targe
 
 ## Major Global Incidents
 
+### May 20, 2025 – Marks & Spencer Supply-Chain Ransomware Attack
+
+- **Attack Type:** Ransomware (DragonForce)
+- **Impact:** £320 million (~$400 million) projected profit loss; critical systems encrypted; customer data stolen
+- **Attribution:** Scattered Spider group deploying DragonForce ransomware
+- **Details:** UK retail giant Marks & Spencer suffered a major cyberattack attributed to the Scattered Spider group, who deployed DragonForce ransomware to encrypt virtual machines and steal customer data, severely disrupting online retail systems. The breach, potentially linked to vulnerabilities in M&S's IT outsourcing partner Tata Consultancy Services, is expected to cause a £300 million profit loss, with recovery projected to extend into July 2025. This attack on a major multinational retailer demonstrated how organized threat actors are targeting supply chains and high-value commercial networks.
+- **Source:** [PKWARE - Data Breaches 2025](https://pkware.com)
+
 ### May 2025 – Kettering Health (Ohio, USA)
 
 - **Attack Type:** Ransomware (Interlock strain)

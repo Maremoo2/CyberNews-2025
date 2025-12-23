@@ -6,9 +6,9 @@
 
 July 2025 was marked by a surge in cyber incidents across the globe, impacting millions of individuals and numerous organizations. Key trends included widespread exploitation of software vulnerabilities, aggressive state-sponsored campaigns, and high-impact ransomware attacks. Notably, over 3 million people had their personal data exposed in major breaches during the month. Threat actors cast a wide net – from critical infrastructure and government agencies to corporations and nonprofits – underscoring that no sector was off-limits.
 
-### Zero-Day Exploits on the Rise
+### Zero-Day Exploits on the Rise - "ToolShell" Campaign
 
-Chinese state-linked hackers (codenamed Storm-2603/Linen Typhoon) exploited critical zero-day vulnerabilities in Microsoft SharePoint servers to conduct espionage and even deploy ransomware. Around 75–100 organizations worldwide – including banks, universities, hospitals, and government agencies – were compromised via these SharePoint flaws. This campaign blended nation-state spying with financial extortion, illustrating an evolution in tactics where state actors also engage in ransomware.
+Chinese state-linked hackers (codenamed Storm-2603/Linen Typhoon) exploited critical zero-day vulnerabilities in Microsoft SharePoint servers, dubbed the "ToolShell" attacks, to conduct espionage and even deploy ransomware. Over 400 organizations worldwide – including banks, universities, hospitals, and U.S. government agencies – were compromised via these SharePoint flaws. The attackers deployed web shells to gain admin access on affected systems and exfiltrated sensitive internal data including documents and credentials. This campaign blended nation-state spying with financial extortion, illustrating an evolution in tactics where state actors also engage in ransomware.
 
 ### Major Ransomware Disruptions
 
