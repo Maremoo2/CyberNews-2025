@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import './App.css'
-import incidentsData from '../data/incidents.json'
+import incidents2025 from '../data/incidents-2025.json'
+import incidents2026 from '../data/incidents-2026.json'
 import InteractiveTagCloud from './components/InteractiveTagCloud'
 import YearWheel from './components/YearWheel'
 import YearStats from './components/YearStats'
@@ -93,12 +94,21 @@ function getInitialStateFromURL() {
 
 function App() {
   const initialState = getInitialStateFromURL()
+  // Year selection state (default to 2025 to allow early 2026 data addition)
+  const [selectedYear, setSelectedYear] = useState(2025)
   const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
   const [selectedTags, setSelectedTags] = useState(initialState.tags)
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
   const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
+
+  // Get incidents data based on selected year using object lookup for maintainability
+  const yearDataMap = {
+    2025: incidents2025,
+    2026: incidents2026
+  }
+  const incidentsData = yearDataMap[selectedYear] || incidents2025
 
   // Debounce search input
   useEffect(() => {
@@ -162,7 +172,7 @@ function App() {
       }
     })
     return counts
-  }, [selectedMonth])
+  }, [incidentsData, selectedMonth])
 
   // Filter and sort incidents
   const filteredIncidents = useMemo(() => {
@@ -206,7 +216,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly])
+  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -279,8 +289,30 @@ function App() {
       </a>
       
       <header className="header">
-        <h1>Security News Year in Review 2025</h1>
-        <p className="subtitle">Oversikt over cybersikkerhetshendelser</p>
+        <div className="header-content">
+          <div className="header-text">
+            <h1>Security News Year in Review {selectedYear}</h1>
+            <p className="subtitle">Oversikt over cybersikkerhetshendelser</p>
+          </div>
+          <div className="year-selector">
+            <button 
+              className={selectedYear === 2025 ? 'year-btn active' : 'year-btn'}
+              onClick={() => setSelectedYear(2025)}
+              aria-label="Vis 2025 hendelser"
+              aria-pressed={selectedYear === 2025}
+            >
+              2025
+            </button>
+            <button 
+              className={selectedYear === 2026 ? 'year-btn active' : 'year-btn'}
+              onClick={() => setSelectedYear(2026)}
+              aria-label="Vis 2026 hendelser"
+              aria-pressed={selectedYear === 2026}
+            >
+              2026
+            </button>
+          </div>
+        </div>
       </header>
 
       {/* Year Stats */}
@@ -536,7 +568,7 @@ function App() {
           </p>
         </div>
         <p className="footer-meta">
-          Dekker 2025 • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
+          Dekker {selectedYear} • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
         </p>
       </footer>
     </div>

@@ -39,6 +39,17 @@ select:focus-visible {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-text {
+  flex: 1;
+}
+
 .header h1 {
   margin: 0 0 0.5rem 0;
   font-size: 1.75rem;
@@ -49,6 +60,41 @@ select:focus-visible {
   margin: 0;
   font-size: 1rem;
   opacity: 0.95;
+}
+
+/* Year Selector */
+.year-selector {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.year-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.year-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.year-btn.active {
+  background: white;
+  color: #667eea;
+  border-color: white;
 }
 
 /* Filters Section - Grouped */
@@ -537,6 +583,17 @@ select:focus-visible {
 
   .subtitle {
     font-size: 1.125rem;
+  }
+
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header-text {
+    text-align: left;
   }
 
   .region-filter {
