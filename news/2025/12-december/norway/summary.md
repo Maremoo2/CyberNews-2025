@@ -223,6 +223,85 @@ December continued to reinforce the shared security challenges facing Nordic and
 - Water systems security after dam attack
 - National support mechanisms needed
 
+## Notable Incidents and Privacy Rulings
+
+### Grindr Data Privacy Ruling Upheld (November 2025)
+
+**Court Decision:**
+- Norway's appeals court (Borgarting) affirmed NOK 65 million fine against dating app Grindr
+- Final verdict after earlier appeals to District Court
+- Upholds Norwegian Data Protection Authority (Datatilsynet) decision
+- Privacy Appeal Board assessments confirmed on all points
+
+**GDPR Violations:**
+- Grindr lacked valid user consent when sharing location and usage data with advertisers
+- Court ruled simply being a Grindr user implies revealing "special category" sexual orientation data
+- Sharing such data without explicit consent violates GDPR Article 9
+- User consent mechanism was insufficient and not freely given
+- Data processing not transparent to users
+
+**Significance:**
+- Reinforces Norwegian data protection enforcement
+- Misuse of app data without clear consent incurs steep penalties
+- Sets precedent for handling of special category data in apps
+- Dating app users' privacy rights strongly protected
+- Demonstrates serious consequences for GDPR non-compliance
+
+**Sources:** [Datatilsynet - The Court of Appeal upholds the fine against Grindr](https://datatilsynet.no)
+
+### Visma Server Hacked for Bitcoin Mining (November 2025)
+
+**Incident Details:**
+- Software firm Visma disclosed server infiltration used for Bitcoin mining
+- Compromised server: Used by legal reference service
+- Data at risk: ~17,000 user records (names, emails, firm information)
+- Intrusion timeline: 2021–2022
+- Discovery: July 2025 (significant detection delay)
+
+**Attack Characteristics:**
+- Cryptojacking operation using company server resources
+- Potential unauthorized access to customer data
+- Mining operations shut down upon discovery
+- No clear evidence of data theft emerged yet
+- Demonstrates risk of undetected long-term compromises
+
+**Implications:**
+- Third-party service providers present supply chain risk
+- Extended dwell time allowed prolonged unauthorized access
+- Monitoring and detection capabilities crucial
+- Customer data at risk even in cryptojacking incidents
+- Legal reference services hold sensitive professional information
+
+**Sources:** [Aftenposten - Visma-server hacket og brukt til bitcoin-mining](https://aftenposten.no)
+
+### OT/IoT Security Gaps in Critical Infrastructure (December 2025)
+
+**Security Agency Review:**
+- Recent assessment by Norwegian security agencies
+- Found vulnerabilities in poorly secured IoT and OT systems
+- Critical infrastructure at risk: Energy grids, traffic control, utilities
+- Industrial networks have lax protections
+
+**Dam Control System Incident:**
+- Hackers briefly commandeered dam control systems
+- Exploitation method: Default passwords
+- Demonstrates inadequate security in industrial networks
+- Similar to earlier Bremanger dam attack concerns
+
+**Recommendations:**
+- Stricter procurement standards for public-sector contracts
+- Network segmentation for industrial systems
+- Elimination of default credentials
+- Enhanced security requirements in tender specifications
+- Improved OT security practices across critical infrastructure
+
+**Significance:**
+- Highlights systemic weaknesses in Norwegian infrastructure
+- Procurement policies need security requirements
+- Basic security hygiene still lacking in many systems
+- Government contracts can drive security improvements
+- Lessons from dam attack not yet fully implemented
+
 ## Threat Landscape
 
 ### Primary Adversary: Russia
@@ -369,6 +448,8 @@ The lessons from Norway's 2025 experience—particularly the dam attack and the 
 - [Phosphorus - xIoT Security Lessons Learned from Norway's Dam Breach](https://phosphorus.io)
 - [The Guardian - Russian hackers seized control of Norwegian dam](https://theguardian.com)
 - [Reuters - Norway spy chief blames Russian hackers](https://reuters.com)
+- [Datatilsynet - The Court of Appeal upholds the fine against Grindr](https://datatilsynet.no)
+- [Aftenposten - Visma-server hacket og brukt til bitcoin-mining](https://aftenposten.no)
 - Norwegian National Security Authority (NSM) publications and guidance
 - PST (Police Security Service) threat assessments
 - Norwegian government cybersecurity policy documents

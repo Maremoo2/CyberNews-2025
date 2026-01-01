@@ -96,6 +96,20 @@ December 2025 saw unprecedented coordination in law enforcement actions against 
 
 **Source:** [Digital Forensics Magazine - Coupang Data Breach](https://digitalforensicsmagazine.com)
 
+### Mobile Malware and Banking Threats
+
+**NGate Android ATM Malware (November 6, 2025, disclosed in December):**
+- Sophisticated Android Trojan disclosed by CERT Polska
+- Captures NFC payment data and PINs for instant ATM withdrawals
+- Infection vector: Fake banking apps distributed to victims
+- Relays dynamic card codes and PINs to accomplice at ATM
+- Enables cash withdrawal without stealing physical card
+- Attackers use spoofed phone or similar device at ATM
+- Demonstrates evolution of mobile banking threats
+- Highlights risks of NFC technology exploitation
+
+**Source:** [Malwarebytes - Android malware steals your card details and PIN](https://malwarebytes.com)
+
 ### State-Sponsored APT Campaigns
 
 **Ink Dragon (China-Aligned) - Multi-Country Campaign:**
@@ -207,6 +221,18 @@ December 2025 saw unprecedented coordination in law enforcement actions against 
 
 **Sources:** [Cyble - Deepfake-as-a-Service Financial Impact](https://cyble.com), [F-Secure - AI-driven scams](https://f-secure.com)
 
+**Agentic AI Authentication Risks (December 23, 2025):**
+- Security analysts warn of new risks from autonomous "agentic" AI agents
+- ~95% of enterprises deployed AI agents without strong identity/authentication controls
+- Creates "authentication concern without precedent"
+- Rogue agents could hijack chains of automated tasks
+- Difficult to detect and stop attacks before widespread damage
+- Expanding cyber attack surface significantly
+- Identity and authentication frameworks not designed for autonomous agents
+- Potential for cascading failures across interconnected systems
+
+**Source:** [CSO Online - Agentic AI already hinting at cybersecurity's pending identity crisis](https://csoonline.com)
+
 ### Critical Infrastructure Attacks
 
 **Denmark Water Utility Attack (December 2024, announced December 2025):**
@@ -219,6 +245,18 @@ December 2025 saw unprecedented coordination in law enforcement actions against 
 - Hybrid warfare implications
 
 **Source:** [Check Point Research - Denmark's water utility cyberattack](https://research.checkpoint.com)
+
+**Romanian Water Authority Ransomware (December 2025):**
+- Romania's national water management agency suffered ransomware attack
+- ~1,000 office computers encrypted across regional facilities
+- Files encrypted using Microsoft BitLocker tool
+- Water supply operations continued manually despite IT disruption
+- No interruption to water delivery services
+- Demonstrates cybercriminals targeting critical infrastructure
+- Highlights risks to essential public services
+- Administrative infrastructure paralyzed while operations maintained
+
+**Source:** [Cybersecurity Insiders - Top Ransomware Attacks of 2025](https://cybersecurity-insiders.com)
 
 ## Statistics (December 2025 Global Overview)
 
@@ -274,3 +312,7 @@ Based on December 2025's global threat landscape, security experts emphasize:
 - [AWS Security Blog - China-nexus cyber threat groups rapidly exploit React2Shell vulnerability (CVE-2025-55182)](https://aws.amazon.com)
 - [Cyble - Deepfake-as-a-Service Exploded In 2025: 2026 Threats Ahead](https://cyble.com)
 - [F-Secure - F-Alert US Cyber Threats Bulletin December 2025](https://f-secure.com)
+- [Malwarebytes - Android malware steals your card details and PIN to make instant ATM withdrawals](https://malwarebytes.com)
+- [Cybersecurity Insiders - Top Ransomware Attacks of 2025: Major Incidents & Impacts](https://cybersecurity-insiders.com)
+- [CSO Online - Agentic AI already hinting at cybersecurity's pending identity crisis](https://csoonline.com)
+- [Digital Forensics Magazine - Coupang Data Breach](https://digitalforensicsmagazine.com)

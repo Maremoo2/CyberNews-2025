@@ -4,7 +4,7 @@
 
 December 2025 presented a sobering conclusion to the year for European cybersecurity, characterized by critical infrastructure attacks on essential services, major data breaches affecting millions of citizens, and the formal attribution of state-sponsored sabotage operations. The month saw ransomware encryption of Romania's national water management systems, a suspected DDoS attack crippling France's postal and banking services, and Denmark's public attribution of Russian cyber sabotage against municipal water infrastructure. Italy's national railway operator suffered a massive 2.3 TB data breach through its IT provider, highlighting persistent supply chain vulnerabilities.
 
-These incidents occurred against a backdrop of significant regulatory evolution, with the EU's Cyber Resilience Act reaching final agreement, the NIS2 Directive continuing its rollout across member states, and the Digital Operational Resilience Act (DORA) entering enforcement for the financial sector. The combination of sophisticated attacks on critical infrastructure and advancing regulatory frameworks underscored Europe's position at the forefront of both cyber threats and cybersecurity governance.
+These incidents occurred against a backdrop of significant regulatory evolution, with the EU's Cyber Resilience Act reaching final agreement, the NIS2 Directive continuing its rollout across member states, and the Digital Operational Resilience Act (DORA) entering enforcement for the financial sector. December also marked major policy milestones including the European Commission's first Digital Services Act enforcement action (€120M fine on X), the European Parliament's call for age-16 minimum for social media access, publication of the AI Act transparency code of practice, and proposed AI Act amendments to ease implementation. The combination of sophisticated attacks on critical infrastructure and advancing regulatory frameworks underscored Europe's position at the forefront of both cyber threats and cybersecurity governance.
 
 ## Key Trends
 
@@ -182,6 +182,64 @@ Attackers continued exploiting known weaknesses throughout the European supply c
 **Source:** [Hornet Security - Monthly Threat Report December 2025](https://hornetsecurity.com)
 
 ## Legislation & Policy Updates
+
+### Digital Services Act Enforcement: €120M Fine on X
+
+**Landmark DSA Penalty (December 5, 2025):**
+- European Commission issued first Digital Services Act penalty
+- €120 million fine levied on platform X (formerly Twitter)
+- Violations: Deceptive design and transparency breaches
+- Paid "blue checkmark" system misled users about verification status
+- Ads archive failed to disclose key information
+- Hindered research on disinformation and scams
+- Signals stricter enforcement of platform accountability in EU
+- Sets precedent for future DSA enforcement actions
+- Demonstrates EU commitment to online platform regulation
+
+**Source:** [European Commission - Commission fines X €120 million under the Digital Services Act](https://digital-strategy.ec.europa.eu)
+
+### Child Protection and Age Verification
+
+**MEPs Call for Age-16 Social Media Access (November 26, 2025):**
+- European Parliament adopted resolution on age restrictions for online platforms
+- Harmonized EU-wide minimum age of 16 for social media access
+- Parental consent required for users ages 13–16
+- Applies to social media, video sharing, and AI companions
+- Endorsed EU's planned age-verification app
+- Digital ID wallet for privacy-preserving verification
+- Demands platforms improve by-design child safety
+- Calls for banning addictive algorithms targeting minors
+- Part of broader EU push to protect children's health online
+
+**Source:** [European Parliament - Children should be at least 16 to access social media, say MEPs](https://europarl.europa.eu)
+
+### AI Regulation Developments
+
+**EU AI Transparency Code of Practice (December 17, 2025):**
+- Draft Code of Practice on Transparency of AI-Generated Content published
+- Developed under forthcoming AI Act framework
+- Multi-stakeholder input process
+- Proposes machine-readable watermarks on deepfakes and AI outputs
+- Icons to identify AI-generated content
+- Clear user disclosures required
+- Compliance frameworks for AI providers
+- Aims to help users and regulators distinguish AI-synthesized content
+- Bolsters trust in media and public information
+
+**Source:** [Simmons & Simmons - AI View: December 2025](https://simmons-simmons.com)
+
+**AI Act "Digital Omnibus" Amendments (November 19, 2025):**
+- European Commission unveiled targeted AI Act amendments
+- Goal: Ease implementation delays and reduce compliance burdens
+- Extended grace periods for high-risk AI systems
+- "Readiness-based" applicability approach
+- Extra time for generative AI models
+- Reduced compliance burdens on smaller companies
+- Clarifies deadlines (pushing final deadlines to 2027–2028)
+- Reflects industry feedback on implementation challenges
+- Preserves core AI risk management safeguards
+
+**Source:** [Compliance and Risks - EU AI Act: Proposed Amendments to Simplify AI Regulation](https://complianceandrisks.com)
 
 ### Cyber Resilience Act: Security-by-Design Requirements
 
