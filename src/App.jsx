@@ -94,7 +94,8 @@ function getInitialStateFromURL() {
 
 function App() {
   const initialState = getInitialStateFromURL()
-  const [selectedYear, setSelectedYear] = useState(2025) // Default to 2025
+  // Year selection state (default to 2025 to allow early 2026 data addition)
+  const [selectedYear, setSelectedYear] = useState(2025)
   const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
@@ -102,8 +103,12 @@ function App() {
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
   const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
 
-  // Get incidents data based on selected year
-  const incidentsData = selectedYear === 2026 ? incidents2026 : incidents2025
+  // Get incidents data based on selected year using object lookup for maintainability
+  const yearDataMap = {
+    2025: incidents2025,
+    2026: incidents2026
+  }
+  const incidentsData = yearDataMap[selectedYear] || incidents2025
 
   // Debounce search input
   useEffect(() => {
