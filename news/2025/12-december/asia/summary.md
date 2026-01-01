@@ -234,6 +234,44 @@ December's disclosures revealed that Asia's large population and concentrated te
 - Limited cross-border cooperation mechanisms
 - Geopolitical tensions hinder coordination
 
+**Japanese Firms and Ransomware Impact (December 10, 2025):**
+
+**Continuing Disruptions:**
+- Major Japanese companies still suffering from mid-2025 ransomware wave
+- Asahi Holdings: Back-office systems remain disrupted months after attack
+- Possible data breach affecting ~1.9 million people announced
+- Askul (retailer): Only resumed corporate orders after six-week outage
+- Supply-chain delays persist long after initial incident
+
+**Attack Vectors:**
+- Exploited unpatched VPN vulnerabilities
+- Targeted key industries central to global supply chains
+- Demonstrates Japan's elevated cyber extortion risks
+- Highlights importance of timely patching
+
+**Economic Impact:**
+- Extended operational disruption beyond typical recovery timelines
+- Supply chain effects ripple internationally
+- Major corporations with global reach affected
+- Recovery complexity in large enterprise environments
+
+**Source:** [Dark Reading - Japanese Firms Suffer Long Tail of Ransomware Damage](https://darkreading.com)
+
+**Age Verification and Content Control Trends:**
+
+**Regional Patterns:**
+- Authorities across Asia eyeing age verification laws similar to Europe
+- Governments from India to Southeast Asia proposing stricter rules
+- Aim to verify online users' ages and limit harmful content for minors
+- Content controls for children mirroring European child protection push
+
+**China AI and IoT Guidelines:**
+- Chinese regulators announced new cybersecurity guidelines for AI and IoT
+- Emphasis on domestic data security in emerging technologies
+- Strengthening requirements for AI system security
+- IoT device security standards being tightened
+- Data sovereignty considerations in technology regulation
+
 ## Sector-Specific Analysis
 
 ### Telecommunications
@@ -650,4 +688,5 @@ The Asian cyber landscape will continue to be shaped by the complex interplay of
 - [The Record - New China-linked hacker group spies on governments in Southeast Asia, Japan](https://therecord.media)
 - [Check Point Research - 22nd December Threat Intelligence Report](https://research.checkpoint.com)
 - [Xage - Cyber Attack News December 2025 (Water Saci AI usage)](https://xage.com)
+- [Dark Reading - Japanese Firms Suffer Long Tail of Ransomware Damage](https://darkreading.com)
 - Regional CERT advisories and national cybersecurity agency publications

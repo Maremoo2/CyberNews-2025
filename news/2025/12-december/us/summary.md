@@ -206,6 +206,56 @@ On the defensive side, the University of Phoenix disclosed a massive breach affe
 
 ## Legislation & Policy Updates
 
+### National AI Executive Order (December 11, 2025)
+
+**Pre-emption of State AI Laws:**
+- President Trump signed executive order establishing federal AI framework
+- Aims to pre-empt patchwork of conflicting state AI laws
+- "Minimally burdensome" approach to AI regulation
+- Focuses on U.S. AI leadership and innovation
+- Creates unified federal approach to AI governance
+
+**AI Litigation Task Force:**
+- Established within 30 days of order
+- Sole responsibility: Challenge state AI laws inconsistent with federal policy
+- Grounds for challenges:
+  - Unconstitutional regulation of interstate commerce
+  - Pre-emption by existing federal regulations
+  - Other unlawful grounds per Attorney General's judgment
+- Target: Onerous state regulations (e.g., AI bias mitigation mandates)
+- Goal: Prevent stifling of innovation
+
+**Federal Agency Alignment:**
+- Directs agencies to align on AI standards
+- Conditions some federal funds on state AI policies
+- Harmonizes rules across government
+- Bars conflicting state laws
+- Emphasizes U.S. AI competitiveness
+
+**Source:** [The White House - Ensuring a National Policy Framework for Artificial Intelligence](https://whitehouse.gov)
+
+### NIST $20M Initiative for AI & Critical Infrastructure (December 22, 2025)
+
+**New AI Centers Announced:**
+- U.S. Department of Commerce's NIST investing $20 million
+- Partnership with nonprofit MITRE Corporation
+- Two new centers established for AI advancement
+
+**Focus Areas:**
+- AI in manufacturing: Productivity improvements and automation
+- Critical infrastructure cybersecurity: AI-driven defense tools
+- Development of AI-powered "agents" for industrial applications
+- Supply chain strengthening through AI
+
+**Strategic Alignment:**
+- Aligned with NIST's American Technology Leadership strategy
+- Part of efforts to ensure U.S. AI leadership
+- Accelerates AI adoption in key sectors (factories to power grids)
+- Infrastructure resilience enhancement
+- Manufacturing competitiveness improvement
+
+**Source:** [NIST - NIST Launches Centers for AI in Manufacturing and Critical Infrastructure](https://nist.gov)
+
 ### CISA Cybersecurity Performance Goals 2.0 (December 11, 2025)
 
 **Release and Purpose:**
