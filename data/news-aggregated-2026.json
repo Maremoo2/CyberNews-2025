@@ -1,0 +1,72 @@
+{
+  "2026": {
+    "january": {
+      "norway": {
+        "totalIncidents": 1,
+        "mostTargetedSector": "Offentlig forvaltning (kommuner)",
+        "mostCommonAttackType": "Øvelse (simulert cyberangrep)",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 1
+        },
+        "incidents": [
+          {
+            "date": "2026-01-13",
+            "target": "Kommuner i Vestland fylke (Bergen kommune)",
+            "attackType": "Øvelse / simulert cyberangrep",
+            "impact": "Trening av kommunal kriseledelse i håndtering av et alvorlig digitalt angrep",
+            "attribution": "(Øvelse)",
+            "status": "Fullført (øvelse for hele kriseledelsen)",
+            "source": "Statsforvaltaran i Vestland - https://www.statsforvalteren.no"
+          }
+        ],
+        "trends": [
+          "Økt fokus på kompetansebygging: NTNU-koordinerte \"Cyberlandslaget\" deltar i europeiske CTF-konkurranser – 2025-laget tok 11. plass i EU-finalen. Flere kommuner øver nå sammen på digitale angreps-scenarioer (f.eks. Vestland fylkes øvelse i januar). Kilde: https://www.statsforvalteren.no",
+          "Utdatert infrastruktur skaper sårbarheter: Cisco/Cybersecurity-eksperter advarer om at nær 48% av globale nettverk er foreldet, noe som kan gjøre systemene ekstra utsatt for fremtidige angrep. Kilde: https://www.digi.no",
+          "Skjerpet trusselbilde: Telenors rapport peker på økt risiko for «destruktive cyberangrep» og sabotasje mot kritisk infrastruktur. Rapporten varsler også om stigende trussel fra løsepengevirus og avanserte nettverksangrep mot norske virksomheter. Kilde: https://kommunikasjon.ntb.no",
+          "Praktisk beredskap styrkes: Offentlige aktører samarbeider tettere om cyberøvelser, og kommunene får økt støtte til håndtering av digitale hendelser. Kilde: https://www.statsforvalteren.no"
+        ],
+        "legislation": [
+          "Cybersikkerhetssertifisering: NSM har sendt på høring et forslag til forskrift om «cybersikkerhetssertifisering» (implementering av EU-forordningen) med frist 26. januar 2026. Kilde: https://nsm.no",
+          "Digitaliseringsløft: Digitaliseringsministeren melder at dagens Altinn-plattform er «sikkerhetsmessig utdatert» og må fases ut. Ny Altinn forventes klar sommer 2026 for å imøtekomme moderne sikkerhetskrav. Kilde: https://frifagbevegelse.no",
+          "Digitaltjenesteloven (DSA): Regjeringen utarbeider lov om digitale tjenester (implementering av EUs DSA), med høring igangsatt. Ifølge departementet vil den nye loven tre i kraft fra sommeren 2026 for å skjerpe internett-sikkerheten. Kilde: https://www.regjeringen.no"
+        ],
+        "threatActors": [
+          {
+            "name": "Prorussisk hacktivistgruppe",
+            "activity": "PST kobler et dataangrep på Østlandet til samme prorussiske aktører som tidligere gjennomførte dam-sabotasje. Angrepet påvirket fysiske systemer, men skadepotensialet var begrenset. Kilde: https://www.aftenposten.no"
+          },
+          {
+            "name": "Organiserte kriminelle (ransomware)",
+            "activity": "Telenors årlige trusselvurdering viser at avanserte løsepengangrep mot norsk kritisk infrastruktur er økende. Kriminelle grupper betraktes nå som en av de største truslene mot landets digitale samfunnsstøtte. Kilde: https://kommunikasjon.ntb.no"
+          }
+        ],
+        "keyTakeaways": [
+          "Norge styrker cyberkompetansen: Både utdanningstiltak som Cyberlandslaget og omfattende øvelser (kommunale simulerte angrep) er etablert for å bygge digital beredskap. Kilde: https://www.statsforvalteren.no",
+          "Kritisk infrastruktur er sårbar: Eksperter peker på at mye av vår nettverks- og ICS-infrastruktur er utdatert og må oppgraderes for å møte kommende trusselbildet. Kilde: https://www.digi.no",
+          "Trusselbildet er stadig alvorligere: Myndigheter og næringsliv varsler om økt risiko for statlige cyberoperasjoner og cyberkriminalitet (sabotasje, løsepenger, osv.) mot Norge. Kilder: https://kommunikasjon.ntb.no",
+          "Nye lover og standarder på vei: Gjennom EUs Cybersecurity Act og Digital Services Act tilpasses Norge strengere regelverk (sertifisering av IKT-produkter, digitaltjenestelov) for å heve sikkerhetsnivået. Kilder: https://nsm.no, https://www.regjeringen.no"
+        ],
+        "buzzwords": [
+          "infrastruktur",
+          "digitale",
+          "statsforvalteren",
+          "sabotasje",
+          "kritisk",
+          "kommunikasjon",
+          "norge",
+          "cyberlandslaget",
+          "utdatert",
+          "cybersecurity",
+          "eksperter",
+          "angrep",
+          "digi",
+          "telenors",
+          "peker"
+        ]
+      }
+    }
+  }
+}
