@@ -1,0 +1,72 @@
+{
+  "2026": {
+    "january": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "Offentlig forvaltning",
+        "mostCommonAttackType": "type: Øvelse (planned)",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 1
+        },
+        "incidents": [
+          {
+            "date": "2026-01-13",
+            "target": "Kommuner i Vestland fylke",
+            "attackType": "Øvelse / simulert cyberangrep",
+            "impact": "Trening av kommunal kriseledelse",
+            "attribution": "(Øvelse)",
+            "status": "Fullført",
+            "source": "statsforvalteren.no"
+          }
+        ],
+        "trends": [
+          "Increased Focus on Competency Building: Norwegian municipalities and organizations are actively working to strengthen their cybersecurity competency through training programs and simulated attack exercises. The goal is to ensure that both t...",
+          "Outdated Infrastructure Creates Vulnerabilities: Many Norwegian organizations still rely on legacy systems that haven't received security updates in years. This creates significant vulnerabilities that threat actors could exploit, particularly in cr...",
+          "Collaboration Between Public and Private Sectors: There is increased collaboration between government agencies, private companies, and educational institutions to share threat intelligence and develop best practices for cybersecurity defense...."
+        ],
+        "legislation": [
+          "Cybersecurity Certification: NSM (Nasjonal sikkerhetsmyndighet) is rolling out a new cybersecurity certification program for critical infrastructure operators. The program aims to standardize security practices across essential s...",
+          "Digitalization Boost: Dagens Altinn platform is being upgraded with enhanced security features including zero-trust architecture and improved authentication mechanisms. This modernization effort is part of Norway's broader..."
+        ],
+        "threatActors": [
+          {
+            "name": "Pro-Russian Hacktivist Group",
+            "activity": "PST kobler et dataangrep mot norske offentlige nettsider til prorussiske hacktivistgrupper. Angrepet ble raskt oppdaget og avverget, men understreker den fortsatte trusselen fra statsstøttede aktører."
+          }
+        ],
+        "keyTakeaways": [
+          "Norge styrker cyberkompetansen gjennom øvelser og opplæring",
+          "Kritisk infrastruktur er sårbar på grunn av utdaterte systemer",
+          "Samarbeid mellom offentlig og privat sektor er essensielt",
+          "Kontinuerlig overvåking og rask respons er nødvendig",
+          "Modernisering av Altinn-plattformen forbedrer sikkerhet",
+          "Implement NSM certification program",
+          "Continue municipal training exercises",
+          "Upgrade legacy systems in critical infrastructure",
+          "Enhance threat intelligence sharing",
+          "Strengthen defenses against state-sponsored threats"
+        ],
+        "buzzwords": [
+          "threat",
+          "increased",
+          "competency",
+          "norwegian",
+          "organizations",
+          "strengthen",
+          "cybersecurity",
+          "training",
+          "exercises",
+          "infrastructure",
+          "creates",
+          "vulnerabilities",
+          "legacy",
+          "systems",
+          "collaboration"
+        ]
+      }
+    }
+  }
+}
