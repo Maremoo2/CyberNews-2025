@@ -162,7 +162,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
               {dashboardData.threatActors.map((actor, index) => (
                 <li key={index} className="threat-actor-item">
                   <strong>{actor.name}</strong>
-                  <p>{actor.activity.substring(0, 150)}...</p>
+                  <p>{actor.activity?.substring(0, 150) || 'No activity description available'}...</p>
                 </li>
               ))}
             </ul>
@@ -193,7 +193,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
 
         {/* Attack Types */}
         <div className="dashboard-card attack-types-card">
-          <h3>⚔️ Angrepstyprer</h3>
+          <h3>⚔️ Angrepstyper</h3>
           {Object.keys(dashboardData.stats.attackTypes).length > 0 ? (
             <ul className="attack-type-list">
               {Object.entries(dashboardData.stats.attackTypes)
