@@ -337,7 +337,7 @@ function extractBuzzwords(texts) {
   
   // Sort by frequency and return top 15
   const sorted = Object.entries(wordFreq)
-    .filter(([_, count]) => count >= 2) // Must appear at least twice
+    .filter(([, count]) => count >= 2) // Must appear at least twice
     .sort((a, b) => b[1] - a[1])
     .slice(0, 15)
     .map(([word]) => word);

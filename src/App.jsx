@@ -5,6 +5,7 @@ import incidents2026 from '../data/incidents-2026.json'
 import InteractiveTagCloud from './components/InteractiveTagCloud'
 import YearWheel from './components/YearWheel'
 import YearStats from './components/YearStats'
+import TrendDashboard from './components/TrendDashboard'
 
 // Month helpers
 const MONTHS_NO = [
@@ -317,6 +318,13 @@ function App() {
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} />
+
+      {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
+      <TrendDashboard 
+        selectedYear={selectedYear}
+        selectedMonth={selectedMonth}
+        selectedRegion={selectedRegion}
+      />
 
       {/* Year Wheel */}
       <YearWheel 
