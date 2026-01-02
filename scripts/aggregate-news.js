@@ -204,7 +204,7 @@ function extractBuzzwords(texts) {
   
   // Extract words (alphanumeric, including Norwegian characters)
   const words = combinedText.toLowerCase()
-    .match(/[a-zæøåäöé]+/gi) || [];
+    .match(/[a-zæøåäöé]+/g) || [];
   
   // Count word frequencies
   for (const word of words) {

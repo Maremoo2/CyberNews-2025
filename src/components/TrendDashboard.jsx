@@ -216,7 +216,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
                     <div 
                       className="attack-type-bar-fill" 
                       style={{ 
-                        width: `${(count / stats.totalIncidents) * 100}%` 
+                        width: `${stats.totalIncidents > 0 ? (count / stats.totalIncidents) * 100 : 0}%` 
                       }}
                     />
                   </div>
