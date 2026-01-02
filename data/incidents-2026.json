@@ -32,5 +32,340 @@
       "government"
     ],
     "impact": 3
+  },
+  {
+    "id": "2026003",
+    "date": "2026-01-02",
+    "title": "Two U.S. Cybersecurity Professionals Plead Guilty Over ALPHV/BlackCat Ransomware",
+    "summary": "Two former cybersecurity professionals admitted to working as affiliates for the ALPHV/BlackCat ransomware operation. The case has significant symbolic value for trust in the cybersecurity industry, highlighting insider threats and the ethical challenges facing security practitioners.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Department of Justice",
+    "sourceUrl": "https://justice.gov",
+    "tags": [
+      "ransomware",
+      "insider-threat",
+      "alphv",
+      "blackcat",
+      "arrest"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026004",
+    "date": "2026-01-02",
+    "title": "Transparent Tribe Launches New RAT Attacks Against Indian Government",
+    "summary": "State-sponsored APT group Transparent Tribe launched sophisticated Remote Access Trojan (RAT) campaigns targeting Indian government agencies and academic institutions. The campaign demonstrates continued APT focus on Indian critical infrastructure and intelligence gathering operations.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com",
+    "tags": [
+      "apt",
+      "rat",
+      "transparent-tribe",
+      "state-sponsored",
+      "government",
+      "academia"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026005",
+    "date": "2026-01-02",
+    "title": "Silver Fox and Mustang Panda Target India with ToneShell Malware",
+    "summary": "Multiple state-linked APT groups including Silver Fox and Mustang Panda deployed ToneShell malware in coordinated campaigns against Indian targets. The attacks represent escalating cyber operations focused on Indian government and academic sectors.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyberscoop",
+    "sourceUrl": "https://cyberscoop.com",
+    "tags": [
+      "apt",
+      "silver-fox",
+      "mustang-panda",
+      "toneshell",
+      "state-sponsored",
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026006",
+    "date": "2026-01-02",
+    "title": "ManageMyHealth Data Breach Affects New Zealand Patients",
+    "summary": "Major patient portal ManageMyHealth in New Zealand was compromised, exposing sensitive patient health records. The incident has drawn criticism for lack of transparency and inadequate information sharing with affected patients and healthcare providers.",
+    "region": "ASIA",
+    "country": "New Zealand",
+    "sourceName": "Stuff.co.nz",
+    "sourceUrl": "https://stuff.co.nz",
+    "tags": [
+      "data-breach",
+      "healthcare",
+      "patient-data",
+      "privacy"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026007",
+    "date": "2026-01-02",
+    "title": "Cognizant Faces Multiple Class-Action Lawsuits After TriZetto Data Breach",
+    "summary": "Cognizant hit with multiple U.S. class-action lawsuits following a major data breach at TriZetto, its healthcare platform. The incident exemplifies supplier risk in the healthcare sector and the legal consequences of third-party security failures.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "data-breach",
+      "healthcare",
+      "supply-chain",
+      "lawsuit",
+      "trizetto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026008",
+    "date": "2026-01-02",
+    "title": "Belgium Cyber Chief Warns Europe Has 'Lost the Internet'",
+    "summary": "Belgium's cybersecurity chief issued stark warning that Europe has 'lost the internet' amid escalating attacks on critical infrastructure. The statement reflects growing concerns about physical and digital security convergence in European infrastructure protection.",
+    "region": "EU",
+    "country": "Belgium",
+    "sourceName": "The Register",
+    "sourceUrl": "https://theregister.com",
+    "tags": [
+      "critical-infrastructure",
+      "policy",
+      "european-union",
+      "geopolitical"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026009",
+    "date": "2026-01-02",
+    "title": "Finland Seizes Ship Suspected of Damaging Subsea Cable",
+    "summary": "Finnish authorities seized a ship suspected of deliberately damaging undersea telecommunications cables in the Baltic Sea. The incident is being investigated as gross sabotage, highlighting physical threats to critical digital infrastructure.",
+    "region": "EU",
+    "country": "Finland",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://reuters.com",
+    "tags": [
+      "critical-infrastructure",
+      "sabotage",
+      "subsea-cable",
+      "geopolitical"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026010",
+    "date": "2026-01-02",
+    "title": "Multiple Baltic Sea Cable Breaks Under Investigation as Sabotage",
+    "summary": "Several undersea cable breaks in the Baltic Sea are being investigated as deliberate acts of sabotage. The incidents demonstrate how physical and digital security are merging, with infrastructure becoming geopolitical targets.",
+    "region": "EU",
+    "country": "Sweden",
+    "sourceName": "NRK",
+    "sourceUrl": "https://nrk.no",
+    "tags": [
+      "critical-infrastructure",
+      "sabotage",
+      "subsea-cable",
+      "geopolitical",
+      "baltic-sea"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026011",
+    "date": "2026-01-02",
+    "title": "New York City Bans Flipper Zero at Official Events",
+    "summary": "NYC banned Flipper Zero devices and Raspberry Pi at mayoral inauguration, reflecting government struggles to distinguish between hobbyist equipment and actual security threats. The ban highlights tensions between maker culture and security policy.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com",
+    "tags": [
+      "policy",
+      "flipper-zero",
+      "regulation",
+      "hardware"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "2026012",
+    "date": "2026-01-02",
+    "title": "DarkSpectre Campaign Infects 8.8 Million Browser Users",
+    "summary": "Massive DarkSpectre/Shai-Hulud malware campaign infected 8.8 million users through compromised browser extensions. The supply-chain attack demonstrates browser extensions as a highly scalable attack surface for credential theft and data harvesting.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Bleeping Computer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "browser-extension",
+      "darkspectre",
+      "credential-theft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026013",
+    "date": "2026-01-02",
+    "title": "Trust Wallet Chrome Extension Hack Drains $8.5 Million",
+    "summary": "Attackers compromised Trust Wallet's Chrome extension, draining $8.5 million in cryptocurrency from users. The incident is linked to the broader DarkSpectre browser extension supply-chain attack campaign.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://coindesk.com",
+    "tags": [
+      "cryptocurrency",
+      "supply-chain",
+      "browser-extension",
+      "trust-wallet",
+      "theft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026014",
+    "date": "2026-01-02",
+    "title": "Unleash Protocol Hackers Drain $3.9 Million in DeFi Attack",
+    "summary": "Attackers exploited multisig wallet vulnerabilities to drain $3.9 million from Unleash Protocol. The attack highlights classic DeFi security weaknesses in smart contract implementations and multisignature wallet configurations.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Block",
+    "sourceUrl": "https://theblock.co",
+    "tags": [
+      "cryptocurrency",
+      "defi",
+      "multisig",
+      "smart-contract",
+      "theft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026015",
+    "date": "2026-01-02",
+    "title": "Critical Apache NuttX Vulnerability Enables Remote Attacks",
+    "summary": "Security researchers disclosed critical vulnerability in Apache NuttX RTOS that allows remote code execution. The flaw affects embedded systems and IoT devices, requiring immediate patching.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Security Week",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "vulnerability",
+      "apache",
+      "rce",
+      "iot",
+      "embedded-systems"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026016",
+    "date": "2026-01-02",
+    "title": "Critical Apache StreamPipes Vulnerability Discovered",
+    "summary": "Critical security vulnerability found in Apache StreamPipes IoT analytics platform. The vulnerability could allow attackers to compromise industrial IoT data pipelines and analytics systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Apache Security",
+    "sourceUrl": "https://apache.org/security",
+    "tags": [
+      "vulnerability",
+      "apache",
+      "iot",
+      "industrial"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026017",
+    "date": "2026-01-02",
+    "title": "IBM Issues Urgent Warning Over API Connect Auth Bypass",
+    "summary": "IBM issued urgent security advisory for critical authentication bypass vulnerability in API Connect. The enterprise middleware flaw could allow attackers to bypass authentication and access sensitive systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "IBM Security",
+    "sourceUrl": "https://ibm.com/security",
+    "tags": [
+      "vulnerability",
+      "ibm",
+      "authentication-bypass",
+      "api",
+      "enterprise"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026018",
+    "date": "2026-01-02",
+    "title": "MongoBleed Vulnerability Exposes MongoDB Databases",
+    "summary": "Critical MongoBleed vulnerability discovered affecting MongoDB implementations, potentially exposing sensitive data from databases worldwide. The vulnerability highlights ongoing security challenges in open-source database systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Security Affairs",
+    "sourceUrl": "https://securityaffairs.com",
+    "tags": [
+      "vulnerability",
+      "mongodb",
+      "database",
+      "data-exposure"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026019",
+    "date": "2026-01-02",
+    "title": "RondoDox Botnet Exploits React2Shell Flaw in Next.js Servers",
+    "summary": "RondoDox botnet actively exploiting React2Shell vulnerability to compromise Next.js servers. The campaign targets modern web frameworks, demonstrating that popular JavaScript frameworks are high-value targets for attackers.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cybersecurity News",
+    "sourceUrl": "https://cybersecuritynews.com",
+    "tags": [
+      "botnet",
+      "vulnerability",
+      "react2shell",
+      "nextjs",
+      "web-framework"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026020",
+    "date": "2026-01-02",
+    "title": "European Space Agency Confirms Data Breach",
+    "summary": "The European Space Agency (ESA) confirmed a cybersecurity breach affecting internal systems. While details remain limited, the incident raises concerns about security of space and scientific research organizations.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "ESA",
+    "sourceUrl": "https://esa.int",
+    "tags": [
+      "data-breach",
+      "government",
+      "space",
+      "research"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026021",
+    "date": "2026-01-02",
+    "title": "Knownsec Suffers Data Breach Exposing Security Research Data",
+    "summary": "Chinese cybersecurity firm Knownsec suffered a data breach exposing security research data and threat intelligence. The incident highlights that even security companies remain vulnerable to sophisticated attacks.",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "DataBreaches.net",
+    "sourceUrl": "https://databreaches.net",
+    "tags": [
+      "data-breach",
+      "security-vendor",
+      "threat-intelligence"
+    ],
+    "impact": 3
   }
 ]
