@@ -1,0 +1,77 @@
+.buzzword-cloud-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d5a7b 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buzzword-cloud-title {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.buzzword-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cloud-buzzword {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+
+.cloud-buzzword:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cloud-buzzword.selected {
+  background: #4CAF50;
+  border-color: #45a049;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.cloud-buzzword.selected:hover {
+  background: #45a049;
+  border-color: #3d8b40;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .buzzword-cloud-container {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .buzzword-cloud-title {
+    font-size: 1.3rem;
+  }
+
+  .buzzword-cloud {
+    gap: 0.6rem;
+    padding: 0.5rem;
+  }
+
+  .cloud-buzzword {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+  }
+}
