@@ -6,7 +6,7 @@ const MONTHS_NO = [
   "Jul", "Aug", "Sep", "Okt", "Nov", "Des"
 ]
 
-function YearWheel({ incidents, selectedMonth, onMonthClick }) {
+function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
   // Calculate incidents per month
   const monthCounts = useMemo(() => {
     const counts = Array(12).fill(0)
@@ -67,7 +67,7 @@ function YearWheel({ incidents, selectedMonth, onMonthClick }) {
 
   return (
     <div className="year-wheel-container">
-      <h3 className="year-wheel-title">Årshjul 2025</h3>
+      <h3 className="year-wheel-title">Årshjul {selectedYear}</h3>
       <p className="year-wheel-subtitle">Klikk på en måned for å filtrere</p>
       
       <svg className="year-wheel-svg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +125,7 @@ function YearWheel({ incidents, selectedMonth, onMonthClick }) {
           textAnchor="middle"
           dominantBaseline="middle"
         >
-          2025
+          {selectedYear}
         </text>
         <text
           x="150"

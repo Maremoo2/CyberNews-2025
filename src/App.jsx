@@ -317,7 +317,7 @@ function App() {
       </header>
 
       {/* Year Stats */}
-      <YearStats incidents={incidentsData} />
+      <YearStats incidents={incidentsData} selectedYear={selectedYear} />
 
       {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
       <TrendDashboard 
@@ -331,6 +331,7 @@ function App() {
         incidents={incidentsData}
         selectedMonth={selectedMonth}
         onMonthClick={setSelectedMonth}
+        selectedYear={selectedYear}
       />
 
       {/* Interactive Tag Cloud */}
@@ -338,6 +339,7 @@ function App() {
         incidents={incidentsData}
         selectedTags={selectedTags}
         onTagClick={handleTagClick}
+        selectedYear={selectedYear}
       />
 
       {/* Filters Section - Grouped for better UX */}
