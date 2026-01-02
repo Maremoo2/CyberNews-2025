@@ -319,7 +319,7 @@ function App() {
       {/* Year Stats */}
       <YearStats incidents={incidentsData} />
 
-      {/* Trend Dashboard - Only for 2026 */}
+      {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
       <TrendDashboard 
         selectedYear={selectedYear}
         selectedMonth={selectedMonth}

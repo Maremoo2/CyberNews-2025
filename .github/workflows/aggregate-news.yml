@@ -29,7 +29,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --quiet data/news-aggregated-2026.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --exit-code data/news-aggregated-2026.json || echo "changed=true" >> $GITHUB_OUTPUT
       
       - name: Commit aggregated data
         if: steps.git-check.outputs.changed == 'true'

@@ -1,77 +1,83 @@
 .buzzword-cloud-container {
-  margin: 2rem 0;
+  margin: 2rem auto;
   padding: 2rem;
-  background: linear-gradient(135deg, #1e3a5f 0%, #2d5a7b 100%);
+  max-width: 1200px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .buzzword-cloud-title {
-  margin: 0 0 1.5rem 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #ffffff;
+  color: white;
   text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .buzzword-cloud {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  min-height: 150px;
 }
 
 .cloud-buzzword {
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  color: #ffffff;
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-weight: 500;
-  text-transform: lowercase;
-  white-space: nowrap;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cloud-buzzword:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.4);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1) translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 1);
+  border-color: currentColor;
 }
 
 .cloud-buzzword.selected {
-  background: #4CAF50;
-  border-color: #45a049;
-  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+  background: rgba(255, 255, 255, 1);
+  border-color: currentColor;
+  border-width: 3px;
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
-.cloud-buzzword.selected:hover {
-  background: #45a049;
-  border-color: #3d8b40;
+.no-buzzwords {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem;
+  font-style: italic;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .buzzword-cloud-container {
-    padding: 1.5rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem 1rem;
+    margin: 1.5rem auto;
   }
 
   .buzzword-cloud-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .buzzword-cloud {
-    gap: 0.6rem;
+    gap: 0.75rem;
     padding: 0.5rem;
   }
 
   .cloud-buzzword {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem !important;
   }
 }
