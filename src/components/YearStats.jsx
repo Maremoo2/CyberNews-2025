@@ -6,7 +6,7 @@ const MONTHS_NO = [
   "Juli", "August", "September", "Oktober", "November", "Desember"
 ]
 
-function YearStats({ incidents }) {
+function YearStats({ incidents, selectedYear }) {
   const stats = useMemo(() => {
     // Count by region
     const regions = new Set()
@@ -51,7 +51,7 @@ function YearStats({ incidents }) {
 
   return (
     <div className="year-stats-container">
-      <h3 className="year-stats-title">2025 i korte trekk</h3>
+      <h3 className="year-stats-title">{selectedYear} i korte trekk</h3>
       <div className="stats-grid">
         <div className="stat-item">
           <div className="stat-number">{stats.totalIncidents}</div>

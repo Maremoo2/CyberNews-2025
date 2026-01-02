@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import './InteractiveTagCloud.css'
 
-function InteractiveTagCloud({ incidents, selectedTags, onTagClick }) {
+function InteractiveTagCloud({ incidents, selectedTags, onTagClick, selectedYear }) {
   // Calculate tag frequencies
   const tagFrequencies = useMemo(() => {
     const frequencies = {}
@@ -38,7 +38,7 @@ function InteractiveTagCloud({ incidents, selectedTags, onTagClick }) {
 
   return (
     <div className="tag-cloud-container">
-      <h3 className="tag-cloud-title">Nøkkelord 2025</h3>
+      <h3 className="tag-cloud-title">Nøkkelord {selectedYear}</h3>
       <div className="tag-cloud">
         {tagFrequencies.map(({ tag, count }) => (
           <button

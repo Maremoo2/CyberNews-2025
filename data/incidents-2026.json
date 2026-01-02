@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "2026001",
+    "date": "2026-01-13",
+    "title": "Vestland Municipalities Conduct Cybersecurity Exercise",
+    "summary": "Municipalities in Vestland county conducted a simulated ransomware attack exercise to test crisis management protocols and inter-agency coordination. The exercise involved IT staff, municipal leadership, and emergency services.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Statsforvalteren",
+    "sourceUrl": "https://statsforvalteren.no",
+    "tags": [
+      "exercise",
+      "ransomware",
+      "training",
+      "municipal"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "2026002",
+    "date": "2026-01-15",
+    "title": "Pro-Russian Hacktivist Group Targets Norwegian Government Websites",
+    "summary": "PST kobler et dataangrep mot norske offentlige nettsider til prorussiske hacktivistgrupper. Angrepet ble raskt oppdaget og avverget, men understreker den fortsatte trusselen fra statsstøttede aktører.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "PST",
+    "sourceUrl": "https://pst.no",
+    "tags": [
+      "ddos",
+      "hacktivist",
+      "state-sponsored",
+      "government"
+    ],
+    "impact": 3
+  }
+]
