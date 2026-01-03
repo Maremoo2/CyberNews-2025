@@ -367,5 +367,216 @@
       "threat-intelligence"
     ],
     "impact": 3
+  },
+  {
+    "id": "2026022",
+    "date": "2026-01-02",
+    "title": "Over 10,000 Fortinet Firewalls Exposed to Ongoing 2FA/MFA Bypass Attacks",
+    "summary": "Large numbers of Internet-exposed Fortinet firewalls remain vulnerable to a years-old 2FA/MFA bypass (CVE-2020-12812), with reports of active exploitation. The vulnerability allows attackers to bypass authentication and take over networks, underscoring the importance of patch hygiene and perimeter hardening.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-10-000-fortinet-firewalls-exposed-to-ongoing-2fa-bypass-attacks/",
+    "tags": [
+      "fortinet",
+      "vulnerability",
+      "2fa-bypass",
+      "mfa",
+      "exploitation",
+      "perimeter-security",
+      "patching"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026023",
+    "date": "2026-01-02",
+    "title": "Covenant Health Says May Data Breach Impacted Nearly 478,000 Patients",
+    "summary": "Covenant Health revised its estimate of people impacted by a data breach discovered in May 2025, after additional analysis increased the total to nearly 478,000 affected individuals. The healthcare breach exposed sensitive patient information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/covenant-health-says-may-data-breach-impacted-nearly-478-000-patients/",
+    "tags": [
+      "healthcare",
+      "data-breach",
+      "patient-data",
+      "phi",
+      "notification"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026024",
+    "date": "2026-01-02",
+    "title": "Sedgwick Confirms Cyber Incident Affecting Federal Contractor Subsidiary",
+    "summary": "Sedgwick confirmed a cybersecurity incident affecting its government-focused subsidiary after the TridentLocker ransomware group claimed responsibility and alleged data theft. The incident affects a major federal contractor subsidiary that provides services to sensitive government agencies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Record",
+    "sourceUrl": "https://therecord.media/sedgwick-cyber-incident-ransomware",
+    "tags": [
+      "ransomware",
+      "federal-contractor",
+      "tridentlocker",
+      "government",
+      "data-theft-claimed"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026025",
+    "date": "2026-01-02",
+    "title": "Aflac Notifies 22.6 Million People of June Data Theft Attack",
+    "summary": "Aflac issued notifications affecting 22.6 million people after a June incident involving unauthorized access and data theft. The massive notification volume underscores the scale of exposure possible in insurance and healthcare data ecosystems.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "GovInfoSecurity",
+    "sourceUrl": "https://www.govinfosecurity.com/aflac-notifies-226-million-people-june-data-theft-attack-a-30434",
+    "tags": [
+      "data-breach",
+      "data-theft",
+      "insurance",
+      "healthcare-data",
+      "phi",
+      "pii",
+      "mass-notification"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026026",
+    "date": "2026-01-02",
+    "title": "DD-USA Provides Update on Cybersecurity Issue",
+    "summary": "DD-USA (Daedong-USA / KIOTI Tractor Division) published an update describing the scope of information potentially affected in a cybersecurity incident, including personal and sensitive data categories such as names, contact information, dates of birth, and copies of government-issued IDs.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PR Newswire",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/dd-usa-provides-update-on-cybersecurity-issue-302651788.html",
+    "tags": [
+      "data-breach",
+      "breach-notification",
+      "pii",
+      "manufacturing",
+      "disclosure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026027",
+    "date": "2026-01-02",
+    "title": "Hackers Abuse Google Tasks Notifications in Sophisticated Phishing Attacks",
+    "summary": "Cybercriminals abused Google Tasks notification flows to lend legitimacy to phishing messages, targeting over 3,000 organizations primarily in the manufacturing sector. The campaign aims to harvest credentials by bypassing traditional email trust signals and exploiting Google's trusted infrastructure.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "CybersecurityNews.com",
+    "sourceUrl": "https://cybersecuritynews.com/google-tasks-abused/",
+    "tags": [
+      "phishing",
+      "google-tasks",
+      "social-engineering",
+      "credential-theft",
+      "trusted-service-abuse",
+      "manufacturing"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026028",
+    "date": "2026-01-02",
+    "title": "Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign",
+    "summary": "Attackers abused Google Cloud Application Integration's 'Send Email' feature to deliver phishing messages from Google-branded addresses. The multi-stage campaign pushed victims through captcha lures to credential-harvesting pages, demonstrating sophisticated abuse of trusted cloud services.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html",
+    "tags": [
+      "phishing",
+      "google-cloud",
+      "application-integration",
+      "cloud-abuse",
+      "credential-theft",
+      "trusted-infrastructure"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026029",
+    "date": "2026-01-02",
+    "title": "Cryptocurrency Theft Attacks Traced to 2022 LastPass Breach",
+    "summary": "Investigators linked ongoing cryptocurrency wallet thefts to material stolen in the 2022 LastPass breach. The incidents illustrate the long-tail risk of encrypted vault theft combined with later cracking, credential reuse, or targeted follow-on activity against crypto holders.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cryptocurrency-theft-attacks-traced-to-2022-lastpass-breach/",
+    "tags": [
+      "cryptocurrency",
+      "lastpass",
+      "breach-aftermath",
+      "credential-theft",
+      "wallet-theft",
+      "long-tail-risk"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026030",
+    "date": "2026-01-02",
+    "title": "Kimwolf Botnet Spreads Across Consumer Devices and Stalks Local Networks",
+    "summary": "Researchers described Kimwolf as a large Android-based botnet affecting approximately 1.8 million consumer devices including smart TVs, set-top boxes, and tablets. The botnet has significant DDoS capacity and uses Ethereum Name Service (ENS) for infrastructure resilience, with infections concentrated in Brazil, India, US, Argentina, South Africa, and Philippines.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "TechRadar",
+    "sourceUrl": "https://www.techradar.com/pro/security/a-massive-new-ddos-botnet-has-already-snared-1-8-million-devices-heres-what-we-know-about-kimwolf",
+    "tags": [
+      "botnet",
+      "ddos",
+      "android",
+      "iot",
+      "smart-tv",
+      "consumer-devices",
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026031",
+    "date": "2026-01-02",
+    "title": "European Regulators Take Aim at X After Grok Creates Deepfake of Minor",
+    "summary": "European regulators weighed action against X (formerly Twitter) after its Grok AI was reportedly used to create sexually explicit deepfake images of a minor. The incident reflects escalating regulatory scrutiny of generative AI misuse and platform controls for preventing AI-generated child abuse material.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "The Record",
+    "sourceUrl": "https://therecord.media/europe-regulators-grok-france",
+    "tags": [
+      "ai-abuse",
+      "deepfake",
+      "grok",
+      "regulation",
+      "child-safety",
+      "csam",
+      "platform-liability"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026032",
+    "date": "2026-01-02",
+    "title": "GNU Wget2 Vulnerability Could Allow Overwrite of Sensitive Files (CVE-2025-69194)",
+    "summary": "A security flaw in GNU Wget2's handling of Metalink documents can enable path traversal issues that may allow attackers to overwrite arbitrary files on the system. Vendors have published advisories and fixes for the vulnerability affecting this widely-used command-line download utility.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "Red Hat CVE Portal",
+    "sourceUrl": "https://access.redhat.com/security/cve/cve-2025-69194",
+    "tags": [
+      "vulnerability",
+      "wget2",
+      "cve-2025-69194",
+      "file-overwrite",
+      "path-traversal",
+      "gnu",
+      "patching"
+    ],
+    "impact": 4
   }
 ]
