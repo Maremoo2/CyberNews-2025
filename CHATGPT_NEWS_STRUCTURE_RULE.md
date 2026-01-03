@@ -167,7 +167,7 @@ Many Norwegian organizations still rely on legacy systems...
 
 ## Major Incidents
 
-### January 13 – Municipal Cyber Exercise
+### January 1 – Municipal Cyber Exercise
 
 - **Date:** 2026-01-01
 - **Target:** Kommuner i Vestland fylke
