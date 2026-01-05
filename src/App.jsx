@@ -334,13 +334,13 @@ function App() {
         selectedYear={selectedYear}
       />
 
-      {/* Interactive Tag Cloud */}
-      <InteractiveTagCloud 
+      {/* Interactive Tag Cloud - Commented out as buzzwords are shown in TrendDashboard above */}
+      {/* <InteractiveTagCloud 
         incidents={incidentsData}
         selectedTags={selectedTags}
         onTagClick={handleTagClick}
         selectedYear={selectedYear}
-      />
+      /> */}
 
       {/* Filters Section - Grouped for better UX */}
       <div className="filters-section" role="region" aria-label="Filtre for hendelser">
