@@ -34,7 +34,8 @@
         "threatActors": [
           {
             "name": "Pro-Russian Hacktivist Group",
-            "activity": "PST kobler et dataangrep mot norske offentlige nettsider til prorussiske hacktivistgrupper. Angrepet ble raskt oppdaget og avverget, men understreker den fortsatte trusselen fra statsstøttede aktører."
+            "activity": "PST kobler et dataangrep mot norske offentlige nettsider til prorussiske hacktivistgrupper. Angrepet ble raskt oppdaget og avverget, men understreker den fortsatte trusselen fra statsstøttede aktører.",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -50,21 +51,14 @@
           "Strengthen defenses against state-sponsored threats"
         ],
         "buzzwords": [
-          "threat",
-          "increased",
-          "competency",
           "norwegian",
-          "organizations",
-          "strengthen",
-          "cybersecurity",
-          "training",
           "exercises",
-          "infrastructure",
           "creates",
-          "vulnerabilities",
           "legacy",
-          "systems",
-          "collaboration"
+          "collaboration",
+          "between",
+          "private",
+          "intelligence"
         ]
       },
       "eu": {
@@ -151,23 +145,28 @@
         "threatActors": [
           {
             "name": "NoName057(16)",
-            "activity": "Pro-Russian hacktivist group NoName057(16) launched DDoS attacks against France's La Poste postal and banking services on January 1, marking their second attack on French infrastructure after a late D"
+            "activity": "Pro-Russian hacktivist group NoName057(16) launched DDoS attacks against France's La Poste postal and banking services on January 1, marking their second attack on French infrastructure after a late D",
+            "date": "January 2026"
           },
           {
             "name": "Hacker Group \"888\"",
-            "activity": "The hacker group \"888\" claimed responsibility for breaching the European Space Agency's science servers and stealing 200GB of data including source code, access tokens, and credentials. Little is know"
+            "activity": "The hacker group \"888\" claimed responsibility for breaching the European Space Agency's science servers and stealing 200GB of data including source code, access tokens, and credentials. Little is know",
+            "date": "January 2026"
           },
           {
             "name": "Unknown State-Backed Actors (TikTok Disinformation)",
-            "activity": "Unknown state-backed content creators launched an AI-generated disinformation campaign on TikTok promoting \"Polexit\" (Poland leaving the EU) ahead of EU elections. Poland formally requested EU investi"
+            "activity": "Unknown state-backed content creators launched an AI-generated disinformation campaign on TikTok promoting \"Polexit\" (Poland leaving the EU) ahead of EU elections. Poland formally requested EU investi",
+            "date": "January 2026"
           },
           {
             "name": "Malicious Grok Users",
-            "activity": "While not traditional cybercriminals or state-sponsored actors, individuals who abused the Grok AI system to create non-consensual intimate images represent a new category of digital threat actor. The"
+            "activity": "While not traditional cybercriminals or state-sponsored actors, individuals who abused the Grok AI system to create non-consensual intimate images represent a new category of digital threat actor. The",
+            "date": "January 2026"
           },
           {
             "name": "Social Media Distributors",
-            "activity": "In addition to those creating the deepfake images, individuals who shared and distributed the images on social media platforms contributed to the harm. This distributed abuse pattern makes attribution"
+            "activity": "In addition to those creating the deepfake images, individuals who shared and distributed the images on social media platforms contributed to the harm. This distributed abuse pattern makes attribution",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -183,21 +182,21 @@
           "Enhance AI content moderation and safety filters across platforms"
         ],
         "buzzwords": [
-          "data",
           "ddos",
           "russian",
-          "infrastructure",
           "launched",
           "france",
           "including",
           "generated",
           "content",
           "space",
-          "attacks",
-          "critical",
-          "group",
-          "january",
-          "services"
+          "gdpr",
+          "protection",
+          "poland",
+          "sector",
+          "european",
+          "sanitisation",
+          "state"
         ]
       },
       "us": {
@@ -257,19 +256,23 @@
         "threatActors": [
           {
             "name": "BlackCat/ALPHV",
-            "activity": "Two U.S. cybersecurity professionals (an incident response manager and digital forensics expert) were prosecuted for deploying BlackCat/ALPHV ransomware in attacks during 2023. They admitted to hackin"
+            "activity": "Two U.S. cybersecurity professionals (an incident response manager and digital forensics expert) were prosecuted for deploying BlackCat/ALPHV ransomware in attacks during 2023. They admitted to hackin",
+            "date": "January 2026"
           },
           {
             "name": "TridentLocker",
-            "activity": "The TridentLocker ransomware group claimed responsibility for the Sedgwick breach on New Year's Eve. The group exfiltrated 3.4GB of data before the breach was confirmed, following the typical double-e"
+            "activity": "The TridentLocker ransomware group claimed responsibility for the Sedgwick breach on New Year's Eve. The group exfiltrated 3.4GB of data before the breach was confirmed, following the typical double-e",
+            "date": "January 2026"
           },
           {
             "name": "Qilin",
-            "activity": "The Qilin ransomware group was attributed to the Covenant Health breach that occurred in July 2025. The group's successful attack resulted in the exposure of nearly half a million patient records, mak"
+            "activity": "The Qilin ransomware group was attributed to the Covenant Health breach that occurred in July 2025. The group's successful attack resulted in the exposure of nearly half a million patient records, mak",
+            "date": "July 2025"
           },
           {
             "name": "Tren de Aragua Gang",
-            "activity": "A Venezuelan criminal organization designated as a terrorist group, 54 members of Tren de Aragua were indicted for deploying Ploutus malware in ATM jackpotting attacks across the United States. The ga"
+            "activity": "A Venezuelan criminal organization designated as a terrorist group, 54 members of Tren de Aragua were indicted for deploying Ploutus malware in ATM jackpotting attacks across the United States. The ga",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -286,20 +289,20 @@
         ],
         "buzzwords": [
           "ransomware",
-          "group",
-          "breach",
           "insider",
           "covenant",
-          "health",
-          "healthcare",
-          "attacks",
           "professionals",
-          "cybersecurity",
-          "groups",
           "sector",
           "remains",
-          "data",
-          "crime"
+          "crime",
+          "blackcat",
+          "alphv",
+          "compromised",
+          "sedgwick",
+          "federal",
+          "contractors",
+          "sophisticated",
+          "qilin"
         ]
       },
       "asia": {
@@ -386,19 +389,23 @@
         "threatActors": [
           {
             "name": "China's Military Cyber Units",
-            "activity": "Taiwan's National Security Bureau attributes the sustained campaign of 2.63 million daily cyberattacks to China's military cyber units. The attacks target Taiwan's critical infrastructure including en"
+            "activity": "Taiwan's National Security Bureau attributes the sustained campaign of 2.63 million daily cyberattacks to China's military cyber units. The attacks target Taiwan's critical infrastructure including en",
+            "date": "January 2026"
           },
           {
             "name": "APT42 (Charming Kitten)",
-            "activity": "Iranian state-backed threat operation APT42, also known as Charming Kitten, conducted a sophisticated spear-phishing campaign on January 2 targeting Israeli security and defense workers. The group use"
+            "activity": "Iranian state-backed threat operation APT42, also known as Charming Kitten, conducted a sophisticated spear-phishing campaign on January 2 targeting Israeli security and defense workers. The group use",
+            "date": "January 2026"
           },
           {
             "name": "Unknown Threat Actor (Manage My Health)",
-            "activity": "An unidentified threat actor conducted unauthorized access to the Manage My Health patient portal in New Zealand, demanding a $60,000 ransom. The attacker accessed private health documents of approxim"
+            "activity": "An unidentified threat actor conducted unauthorized access to the Manage My Health patient portal in New Zealand, demanding a $60,000 ransom. The attacker accessed private health documents of approxim",
+            "date": "January 2026"
           },
           {
             "name": "Opportunistic Attackers (SmarterMail)",
-            "activity": "With exploit code for CVE-2025-52691 publicly available, opportunistic attackers across the region are targeting vulnerable SmarterMail email servers. The unauthenticated remote code execution flaw al"
+            "activity": "With exploit code for CVE-2025-52691 publicly available, opportunistic attackers across the region are targeting vulnerable SmarterMail email servers. The unauthenticated remote code execution flaw al",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -415,20 +422,20 @@
         ],
         "buzzwords": [
           "china",
-          "critical",
-          "cybersecurity",
-          "targeting",
-          "security",
-          "infrastructure",
           "state",
           "taiwan",
-          "attacks",
-          "health",
           "spear",
           "phishing",
-          "campaign",
-          "january",
-          "hong"
+          "hong",
+          "kong",
+          "also",
+          "sponsored",
+          "million",
+          "sustained",
+          "zealand",
+          "iranian",
+          "israeli",
+          "whatsapp"
         ]
       }
     }

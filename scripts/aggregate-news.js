@@ -46,7 +46,16 @@ const STOP_WORDS = new Set([
   'on', 'are', 'be', 'this', 'by', 'at', 'or', 'from', 'an', 'have', 'has', 'had',
   'their', 'more', 'been', 'other', 'were', 'which', 'they', 'all', 'when', 'there',
   'can', 'will', 'if', 'who', 'what', 'so', 'up', 'out', 'about', 'into', 'than',
-  'them', 'may', 'its', 'only', 'over', 'such', 'some', 'could', 'would', 'should'
+  'them', 'may', 'its', 'only', 'over', 'such', 'some', 'could', 'would', 'should',
+  // Generic cybersecurity terms to exclude
+  'cybersecurity', 'cyber', 'security', 'infrastructure', 'attacks', 'attack', 'data',
+  'critical', 'group', 'groups', 'threat', 'threats', 'increased', 'increase', 
+  'competency', 'organizations', 'organization', 'strengthen', 'training', 'health',
+  'healthcare', 'system', 'systems', 'incident', 'incidents', 'breach', 'breaches',
+  'vulnerability', 'vulnerabilities', 'campaign', 'campaigns', 'targeting', 'target',
+  'affected', 'impact', 'impacts', 'response', 'services', 'service', 'reported',
+  'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
+  'september', 'october', 'november', 'december', 'month', 'year', 'week', 'day'
 ]);
 
 /**
@@ -248,8 +257,16 @@ function parseLegislation(content) {
 /**
  * Parse threat actor activity
  */
-function parseThreatActors(content) {
+function parseThreatActors(content, defaultDate = null) {
   const threatActors = [];
+  
+  // Generate default date if not provided
+  if (!defaultDate) {
+    const now = new Date();
+    const currentMonth = now.toLocaleString('en-US', { month: 'long' });
+    const currentYear = now.getFullYear();
+    defaultDate = `${currentMonth} ${currentYear}`;
+  }
   
   // Look for threat actor section specifically
   const threatActorSection = parseSection(content, 'Threat Actor Activity');
@@ -261,11 +278,33 @@ function parseThreatActors(content) {
     
     while ((match = subsectionRegex.exec(threatActorSection)) !== null) {
       const name = match[1].trim();
-      const activity = match[2].trim().substring(0, 200);
+      const activity = match[2].trim();
+      
+      // Extract date from activity text
+      let date = null;
+      // Try to find dates in format "January 2, 2026" or "2026-01-02" or "July 2025"
+      const datePatterns = [
+        /(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}/,
+        /\d{4}-\d{2}-\d{2}/,
+        /(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}/,
+        /\d{1,2}(?:st|nd|rd|th)?\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}/
+      ];
+      
+      for (const pattern of datePatterns) {
+        const dateMatch = activity.match(pattern);
+        if (dateMatch) {
+          date = dateMatch[0];
+          break;
+        }
+      }
       
       // Filter out section-like headers
       if (!name.includes('\n') && name.length < 100) {
-        threatActors.push({ name, activity });
+        threatActors.push({ 
+          name, 
+          activity: activity.substring(0, 200),
+          date: date || defaultDate
+        });
       }
     }
   }
@@ -278,7 +317,11 @@ function parseThreatActors(content) {
       const matches = content.match(regex);
       if (matches) {
         for (const match of matches.slice(0, 5)) {
-          threatActors.push({ name: match.substring(0, 50), activity: 'Activity detected in threat landscape' });
+          threatActors.push({ 
+            name: match.substring(0, 50), 
+            activity: 'Activity detected in threat landscape',
+            date: defaultDate
+          });
         }
       }
     }
@@ -348,15 +391,29 @@ function extractBuzzwords(texts) {
 /**
  * Parse a single markdown file
  */
-function parseMarkdownFile(filePath) {
+function parseMarkdownFile(filePath, monthName = null) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
+    
+    // Determine default date for threat actors based on file path or current date
+    let defaultDate = null;
+    if (monthName) {
+      // Capitalize first letter of month
+      const monthCapitalized = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+      defaultDate = `${monthCapitalized} 2026`;
+    } else {
+      // Fallback to current date if month not provided
+      const now = new Date();
+      const currentMonth = now.toLocaleString('en-US', { month: 'long' });
+      const currentYear = now.getFullYear();
+      defaultDate = `${currentMonth} ${currentYear}`;
+    }
     
     const stats = parseStatistics(content);
     const incidents = parseIncidents(content);
     const trends = parseTrends(content);
     const legislation = parseLegislation(content);
-    const threatActors = parseThreatActors(content);
+    const threatActors = parseThreatActors(content, defaultDate);
     const keyTakeaways = parseKeyTakeaways(content);
     
     // Extract buzzwords from trends, threat actors, and key takeaways
@@ -419,7 +476,7 @@ function aggregateNews() {
       
       if (fs.existsSync(summaryPath)) {
         console.log(`  Parsing ${region}/summary.md`);
-        const regionData = parseMarkdownFile(summaryPath);
+        const regionData = parseMarkdownFile(summaryPath, monthName);
         
         if (regionData) {
           aggregatedData["2026"][monthName][region] = regionData;

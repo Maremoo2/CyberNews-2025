@@ -97,6 +97,27 @@ select:focus-visible {
   border-color: white;
 }
 
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to bottom, #f8f9fa 0%, white 100%);
+  padding: 2.5rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #495057;
+  margin: 0;
+  font-weight: 400;
+}
+
 /* Filters Section - Grouped */
 .filters-section {
   background: #f8f9fa;
