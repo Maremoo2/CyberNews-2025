@@ -68,7 +68,8 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
   return (
     <div className="year-wheel-container">
       <h3 className="year-wheel-title">Årshjul {selectedYear}</h3>
-      <p className="year-wheel-subtitle">Klikk på en måned for å filtrere</p>
+      <p className="year-wheel-subtitle">Årshjulet viser når hendelser først ble rapportert – ikke når konsekvensene opphørte.</p>
+      <p className="year-wheel-action">Klikk på en måned for å filtrere</p>
       
       <svg className="year-wheel-svg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
         {/* Month segments */}

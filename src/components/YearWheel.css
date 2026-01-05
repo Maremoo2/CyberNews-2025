@@ -15,7 +15,15 @@
 .year-wheel-subtitle {
   font-size: 0.95rem;
   color: #6c757d;
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
+}
+
+.year-wheel-action {
+  font-size: 0.9rem;
+  color: #868e96;
   margin: 0 0 1.5rem 0;
+  font-weight: 500;
 }
 
 .year-wheel-svg {

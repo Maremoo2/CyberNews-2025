@@ -316,6 +316,16 @@ function App() {
         </div>
       </header>
 
+      {/* Hero / Value Proposition */}
+      <section className="hero-section" aria-label="Om denne siden">
+        <div className="hero-content">
+          <p className="hero-text">
+            Cyberhendelser skjer daglig. Denne siden samler, strukturerer og setter dem i kontekst – 
+            slik at mønstre blir synlige før neste hendelse.
+          </p>
+        </div>
+      </section>
+
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
 
@@ -574,7 +584,7 @@ function App() {
         <div className="footer-reflection">
           <p className="footer-quote">
             Årshjulet viser hvor tett nyhetsbildet var.<br />
-            Men konsekvensene varer ofte lenger enn overskriftene.
+            Men cybersikkerhet handler sjelden om enkeltstående hendelser – og nesten alltid om mønstre.
           </p>
         </div>
         <p className="footer-meta">
