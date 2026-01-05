@@ -66,6 +66,245 @@
           "systems",
           "collaboration"
         ]
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 1,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2026-01-02",
+            "target": "Hundreds of women and minors in France",
+            "attackType": "AI-generated deepfake abuse / Non-consensual intimate images",
+            "impact": "Hundreds of victims (including minors) had \"undressed\" deepfake images created and shared",
+            "attribution": "Abuse of Grok AI chatbot on X platform (Elon Musk's company)",
+            "status": "Under investigation by French authorities; formal complaints filed",
+            "source": "https://securityaffairs.com/174842/social-media/french-authorities-investigate-ai-undressing-deepfakes-on-x.html"
+          }
+        ],
+        "trends": [
+          "AI-Generated Deepfake Abuse: The Grok deepfake incident represents a disturbing trend in AI-generated content being used for harassment and abuse. The ability to create realistic \"undressed\" images of real people, including minor...",
+          "Content Moderation Failures: The incident highlights failures in content moderation and safety filters for AI systems. Despite Grok's developers having safety measures in place, isolated failures allowed the generation of inappro...",
+          "Legal and Regulatory Response: French authorities' rapid response to the Grok deepfake incident demonstrates increasing regulatory scrutiny of AI platforms in the European Union. The formal complaints and expanded investigation sig..."
+        ],
+        "legislation": [
+          "French Legal Action: French lawmakers filed formal complaints on January 2, 2026, in response to the Grok deepfake incident. These complaints target both the creation and distribution of AI-generated non-consensual intima...",
+          "EU AI Regulations: The incident occurs in the context of the EU's evolving AI regulatory framework, including the AI Act which addresses high-risk AI systems. The creation of non-consensual intimate images using AI fall...",
+          "Content Moderation Requirements: EU digital services regulations, including the Digital Services Act (DSA), place obligations on platforms to moderate illegal content. The Grok deepfake incident may prompt additional scrutiny of AI-g..."
+        ],
+        "threatActors": [
+          {
+            "name": "Malicious Grok Users",
+            "activity": "While not traditional cybercriminals or state-sponsored actors, individuals who abused the Grok AI system to create non-consensual intimate images represent a new category of digital threat actor. The"
+          },
+          {
+            "name": "Social Media Distributors",
+            "activity": "In addition to those creating the deepfake images, individuals who shared and distributed the images on social media platforms contributed to the harm. This distributed abuse pattern makes attribution"
+          }
+        ],
+        "keyTakeaways": [
+          "AI-generated deepfakes pose serious safety and ethical challenges",
+          "Content moderation filters for AI systems require continuous improvement",
+          "Legal frameworks must adapt to address AI-generated abuse",
+          "Platform providers bear responsibility for preventing harmful AI use",
+          "Protection of minors from AI-generated abuse is a critical priority",
+          "International cooperation is needed to address cross-border AI abuse",
+          "Strengthen AI content moderation and safety filters",
+          "Implement robust verification before generating images of people",
+          "Enhance legal frameworks for AI-generated content abuse",
+          "Improve reporting and response mechanisms for deepfake abuse"
+        ],
+        "buzzwords": [
+          "abuse",
+          "generated",
+          "content",
+          "deepfake",
+          "images",
+          "grok",
+          "moderation",
+          "safety",
+          "incident",
+          "failures",
+          "filters",
+          "legal",
+          "response",
+          "create",
+          "people"
+        ]
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "Healthcare",
+        "mostCommonAttackType": "type: Ransomware",
+        "severity": {
+          "critical": 2,
+          "high": 1,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2026-01-02",
+            "target": "Multiple victims during 2023",
+            "attackType": "Ransomware (BlackCat/ALPHV)",
+            "impact": "Multiple ransomware attacks executed by two U.S. cybersecurity professionals",
+            "attribution": "Ryan Goldberg (46) and co-defendant",
+            "status": "Both defendants pleaded guilty",
+            "source": "https://securityaffairs.com/174898/cyber-crime/blackcat-alphv-ransomware-guilty-pleas.html"
+          },
+          {
+            "date": "2025-12-31",
+            "target": "Sedgwick Government Solutions (federal contractor subsidiary)",
+            "attackType": "Ransomware (TridentLocker)",
+            "impact": "3.4GB of data exfiltrated; breach confirmed by company",
+            "attribution": "TridentLocker ransomware group",
+            "status": "Under investigation; breach disclosed publicly",
+            "source": "https://securityaffairs.com/174851/data-breach/sedgwick-tridentlocker-ransomware-attack.html"
+          },
+          {
+            "date": "2025-07-01 (attack), 2026-01-05 (updated notification)",
+            "target": "Covenant Health (healthcare provider)",
+            "attackType": "Ransomware (Qilin)",
+            "impact": "478,188 patients' records exposed (updated from initial 7,800)",
+            "attribution": "Qilin ransomware group",
+            "status": "Breach notification updated; patient notifications underway",
+            "source": "https://securityaffairs.com/174825/data-breach/covenant-health-data-breach-2.html"
+          }
+        ],
+        "trends": [
+          "Insider Threat and Professional Misconduct: The guilty pleas of Ryan Goldberg and his co-defendant in the BlackCat/ALPHV ransomware case highlight the growing concern of insider threats and compromised security professionals. Cybersecurity expe...",
+          "Ransomware Targeting Critical Services: Both Sedgwick (a major claims administrator serving federal contractors) and Covenant Health (a large healthcare provider) were hit by sophisticated ransomware groups. These incidents demonstrate that...",
+          "Healthcare Sector Vulnerabilities: The healthcare sector remains under siege, with Covenant Health's breach affecting 478,188 individuals. The attribution to Qilin ransomware group shows that established ransomware-as-a-service operati..."
+        ],
+        "legislation": [],
+        "threatActors": [
+          {
+            "name": "BlackCat/ALPHV",
+            "activity": "Two U.S. cybersecurity professionals were prosecuted for deploying BlackCat/ALPHV ransomware in multiple attacks during 2023. This demonstrates that the group has been operating with insider assistanc"
+          },
+          {
+            "name": "TridentLocker",
+            "activity": "The TridentLocker ransomware group claimed responsibility for the Sedgwick breach on New Year's Eve. The group exfiltrated 3.4GB of data before the breach was confirmed, following the typical double-e"
+          },
+          {
+            "name": "Qilin",
+            "activity": "The Qilin ransomware group was attributed to the Covenant Health breach that occurred in July 2025. The group's successful attack resulted in the exposure of nearly half a million patient records, mak"
+          }
+        ],
+        "keyTakeaways": [
+          "Insider threats from compromised cybersecurity professionals pose a significant risk",
+          "Healthcare remains the most targeted sector for ransomware attacks",
+          "Ransomware groups continue to use double-extortion tactics (data theft + encryption)",
+          "Federal contractors handling sensitive government data are prime targets",
+          "Organizations must improve breach detection and response times",
+          "Accurate impact assessment is critical (Covenant Health's count grew from 7,800 to 478,188)",
+          "Strengthen insider threat detection and monitoring programs",
+          "Enhance healthcare sector cybersecurity defenses",
+          "Improve vendor and third-party risk management",
+          "Accelerate breach notification and impact assessment processes"
+        ],
+        "buzzwords": [
+          "ransomware",
+          "breach",
+          "group",
+          "insider",
+          "healthcare",
+          "cybersecurity",
+          "covenant",
+          "health",
+          "sector",
+          "professionals",
+          "data",
+          "threat",
+          "blackcat",
+          "alphv",
+          "threats"
+        ]
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "Healthcare",
+        "mostCommonAttackType": "type: Data breach",
+        "severity": {
+          "critical": 1,
+          "high": 1,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2025-12-30",
+            "target": "Manage My Health (New Zealand patient portal)",
+            "attackType": "Unauthorized access / Data breach",
+            "impact": "~126,000 patients affected (~6-7% of 1.8M users); private health documents accessed",
+            "attribution": "Unknown",
+            "status": "Under investigation; GP practices identified; patient notifications underway",
+            "source": "https://www.healthcareitnews.com/news/apac/126000-affected-it-hack-patient-portal-manage-my-health"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "Israeli security and defense workers",
+            "attackType": "Spear-phishing via WhatsApp",
+            "impact": "Credential theft attempts; information stealing",
+            "attribution": "APT42 (Charming Kitten) - Iranian state-backed",
+            "status": "Ongoing campaign; alerts issued",
+            "source": "https://www.scworld.com/brief/apt42-linked-infrastructure-leveraged-in-israel-targeted-spear-phishing-attack"
+          }
+        ],
+        "trends": [
+          "Healthcare Data Breach in New Zealand: New Zealand's private patient portal Manage My Health suffered unauthorized access to health documents affecting approximately 6-7% of its 1.8 million users (~126,000 people). The breach, reported on ...",
+          "Iranian APT Targeting Israel: Iran-linked APT42 (also known as Charming Kitten) leveraged infrastructure on January 2 to conduct spear-phishing attacks against Israeli security and defense workers via WhatsApp. The campaign used s...",
+          "Mobile Messaging Platforms as Attack Vectors: The use of WhatsApp for spear-phishing in the APT42 campaign demonstrates that threat actors are increasingly leveraging mobile messaging platforms rather than traditional email to bypass security con..."
+        ],
+        "legislation": [
+          "Israel National Cyber Directorate Alert: Following the APT42 spear-phishing campaign, Israel's National Cyber Directorate issued an official alert on January 2, 2026, warning security and defense organizations about the ongoing threat. The a...",
+          "New Zealand Privacy Response: Following the Manage My Health breach, New Zealand privacy authorities and health officials have been working with affected GP practices to identify and notify impacted patients. The incident has prom..."
+        ],
+        "threatActors": [
+          {
+            "name": "APT42 (Charming Kitten)",
+            "activity": "Iranian state-backed threat operation APT42, also known as Charming Kitten, conducted a sophisticated spear-phishing campaign on January 2 targeting Israeli security and defense workers. The group use"
+          },
+          {
+            "name": "Unknown Threat Actor (Manage My Health)",
+            "activity": "An unidentified threat actor conducted unauthorized access to the Manage My Health patient portal in New Zealand. The attacker accessed private health documents of approximately 126,000 patients. The "
+          }
+        ],
+        "keyTakeaways": [
+          "Healthcare portals in the Asia-Pacific region are vulnerable to unauthorized access",
+          "Mobile messaging platforms like WhatsApp are increasingly used for spear-phishing",
+          "Iranian state-sponsored APT groups continue targeting Israeli security personnel",
+          "Regional healthcare infrastructure needs stronger security controls",
+          "Social engineering remains highly effective against high-value targets",
+          "Multi-factor authentication and security awareness training are critical defenses",
+          "Strengthen security controls for healthcare portals and digital health platforms",
+          "Enhance anti-phishing training for defense and security personnel",
+          "Monitor for APT42 infrastructure and indicators of compromise",
+          "Implement stronger authentication mechanisms for sensitive systems"
+        ],
+        "buzzwords": [
+          "security",
+          "health",
+          "phishing",
+          "healthcare",
+          "spear",
+          "platforms",
+          "zealand",
+          "unauthorized",
+          "access",
+          "iranian",
+          "targeting",
+          "infrastructure",
+          "israeli",
+          "defense",
+          "whatsapp"
+        ]
       }
     }
   }
