@@ -53,7 +53,7 @@
   border-bottom-color: rgba(255, 255, 255, 0.3);
 }
 
-.stat-item {
+.stats-card .stat-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,18 +61,20 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.stat-item:last-child {
+.stats-card .stat-item:last-child {
   border-bottom: none;
 }
 
-.stat-label {
+.stats-card .stat-label {
   font-size: 1rem;
   opacity: 0.9;
+  color: white;
 }
 
-.stat-value {
+.stats-card .stat-value {
   font-size: 1.5rem;
   font-weight: 700;
+  color: white;
 }
 
 /* Threat Actors Card */
@@ -107,6 +109,13 @@
   display: block;
   font-size: 1.1rem;
   margin-bottom: 0.25rem;
+}
+
+.threat-actor-date {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.8;
+  font-style: italic;
 }
 
 .threat-actor-item p {

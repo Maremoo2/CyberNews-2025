@@ -46,7 +46,16 @@ const STOP_WORDS = new Set([
   'on', 'are', 'be', 'this', 'by', 'at', 'or', 'from', 'an', 'have', 'has', 'had',
   'their', 'more', 'been', 'other', 'were', 'which', 'they', 'all', 'when', 'there',
   'can', 'will', 'if', 'who', 'what', 'so', 'up', 'out', 'about', 'into', 'than',
-  'them', 'may', 'its', 'only', 'over', 'such', 'some', 'could', 'would', 'should'
+  'them', 'may', 'its', 'only', 'over', 'such', 'some', 'could', 'would', 'should',
+  // Generic cybersecurity terms to exclude
+  'cybersecurity', 'cyber', 'security', 'infrastructure', 'attacks', 'attack', 'data',
+  'critical', 'group', 'groups', 'threat', 'threats', 'increased', 'increase', 
+  'competency', 'organizations', 'organization', 'strengthen', 'training', 'health',
+  'healthcare', 'system', 'systems', 'incident', 'incidents', 'breach', 'breaches',
+  'vulnerability', 'vulnerabilities', 'campaign', 'campaigns', 'targeting', 'target',
+  'affected', 'impact', 'impacts', 'response', 'services', 'service', 'reported',
+  'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
+  'september', 'october', 'november', 'december', 'month', 'year', 'week', 'day'
 ]);
 
 /**
@@ -261,11 +270,33 @@ function parseThreatActors(content) {
     
     while ((match = subsectionRegex.exec(threatActorSection)) !== null) {
       const name = match[1].trim();
-      const activity = match[2].trim().substring(0, 200);
+      const activity = match[2].trim();
+      
+      // Extract date from activity text
+      let date = null;
+      // Try to find dates in format "January 2, 2026" or "2026-01-02" or "July 2025"
+      const datePatterns = [
+        /(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}/,
+        /\d{4}-\d{2}-\d{2}/,
+        /(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}/,
+        /\d{1,2}(?:st|nd|rd|th)?\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}/
+      ];
+      
+      for (const pattern of datePatterns) {
+        const dateMatch = activity.match(pattern);
+        if (dateMatch) {
+          date = dateMatch[0];
+          break;
+        }
+      }
       
       // Filter out section-like headers
       if (!name.includes('\n') && name.length < 100) {
-        threatActors.push({ name, activity });
+        threatActors.push({ 
+          name, 
+          activity: activity.substring(0, 200),
+          date: date || 'January 2026' // Default to current month if no date found
+        });
       }
     }
   }
@@ -278,7 +309,11 @@ function parseThreatActors(content) {
       const matches = content.match(regex);
       if (matches) {
         for (const match of matches.slice(0, 5)) {
-          threatActors.push({ name: match.substring(0, 50), activity: 'Activity detected in threat landscape' });
+          threatActors.push({ 
+            name: match.substring(0, 50), 
+            activity: 'Activity detected in threat landscape',
+            date: 'January 2026'
+          });
         }
       }
     }
