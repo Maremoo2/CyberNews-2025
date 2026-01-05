@@ -104,42 +104,65 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Details:** Ilya Lichtenstein, who pleaded guilty in 2024 to laundering proceeds from the Bitfinex heist, was released early under the First Step Act. He publicly credited the policy (signed by former President Trump) for his early release. His wife Heather Morgan, co-defendant in the case, was similarly released early in late 2025.
 - **Source:** https://techcrunch.com/2026/01/02/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/
 
+### January 3, 2026 – CL0P Ransomware Attacks on Oracle E-Business Suite (Global)
+
+- **Attack Type:** Ransomware exploiting third-party vulnerability
+- **Impact:** Millions of personal and employee records stolen; victims include University of Phoenix (US) and Korean Air (South Korea)
+- **Attribution:** CL0P/ALPHV ransomware gang
+- **Details:** The CL0P ransomware group expanded attacks targeting Oracle E-Business Suite systems worldwide. Victims reported include University of Phoenix in the United States and Korean Air in South Korea. Attackers exploited a third-party software vulnerability to steal millions of personal and employee records. This demonstrates CL0P's continued focus on high-volume attacks exploiting zero-day flaws in widely deployed enterprise systems.
+- **Sources:** https://thecyberexpress.com/ and https://bankinfosecurity.com/
+
+### January 2, 2026 – FBI E-Note Cryptocurrency Exchange Takedown (Global)
+
+- **Attack Type:** Law enforcement operation against darknet payment processor
+- **Impact:** Over $70 million in illicit cryptocurrency assets disrupted; infrastructure seized
+- **Attribution:** E-Note operators (led by Nikolay Chudnovets)
+- **Details:** The FBI led an international operation with German and Finnish partners to seize the online infrastructure of E-Note, a darknet cryptocurrency exchange and payment processor. E-Note had been laundering funds for cybercriminal groups, including ransomware operators and fraud rings. Over $70 million in illicit cryptocurrency assets linked to ransomware and fraud were disrupted. Suspects including Nikolay Chudnovets were charged. The exchange has been shut down and infrastructure seized.
+- **Sources:** https://thecyberexpress.com/
+
 ## Statistics
 
 ### Global Incident Volume (January 2-5, 2026)
-- **9 major incidents** reported across multiple regions
-- **604,188+ individuals** affected by data breaches (Covenant Health, Manage My Health)
-- **$8.5 million** stolen in cryptocurrency supply-chain attack
+- **11 major incidents** reported across multiple regions
+- **Millions of individuals** affected by data breaches (Covenant Health 478K+, Manage My Health 108K+, CL0P victims)
+- **$8.5 million** stolen in Trust Wallet supply-chain attack
+- **$70+ million** in illicit cryptocurrency disrupted by FBI takedown
 - **Hundreds of victims** of AI-generated deepfake abuse
 
 ### Attack Type Distribution
-- Ransomware: 3 incidents (33%)
-- Supply-chain attacks: 2 incidents (22%)
-- Data breaches: 2 incidents (22%)
-- Phishing/Social engineering: 1 incident (11%)
-- AI abuse: 1 incident (11%)
+- Ransomware: 4 incidents (36%)
+- Supply-chain attacks: 2 incidents (18%)
+- Data breaches: 2 incidents (18%)
+- Law enforcement operations: 1 incident (9%)
+- Phishing/Social engineering: 1 incident (9%)
+- AI abuse: 1 incident (9%)
 
 ### Most Targeted Sectors
 1. Healthcare (3 incidents)
-2. Financial services / Cryptocurrency (2 incidents)
+2. Financial services / Cryptocurrency (3 incidents: Trust Wallet, E-Note, Bitfinex)
 3. Software development (1 incident)
 4. Defense/Security (1 incident)
 5. Social media/AI platforms (1 incident)
+6. Higher education (1 incident: University of Phoenix)
+7. Aviation (1 incident: Korean Air)
 
 ### Geographic Distribution
 - United States: 3 incidents
-- Global/Multi-region: 3 incidents
+- Global/Multi-region: 5 incidents (Trust Wallet, Google Cloud phishing, Maven Central, CL0P, E-Note)
 - Asia-Pacific: 2 incidents (New Zealand, Israel)
 - European Union: 1 incident (France)
 
 ### Severity Assessment
-- Critical: 6 incidents (involving healthcare data, state-sponsored attacks, AI abuse of minors)
-- High: 3 incidents (ransomware prosecutions, supply-chain attacks)
+- Critical: 7 incidents (involving healthcare data, state-sponsored attacks, AI abuse of minors, ransomware)
+- High: 4 incidents (ransomware prosecutions, supply-chain attacks, law enforcement operations)
 
 ## Threat Actor Activity
 
 ### BlackCat/ALPHV
-Two U.S. cybersecurity professionals were prosecuted for deploying BlackCat/ALPHV ransomware in 2023, demonstrating insider threats and professional misconduct.
+Two U.S. cybersecurity professionals were prosecuted for deploying BlackCat/ALPHV ransomware in 2023, demonstrating insider threats and professional misconduct. Related to the broader ALPHV/CL0P operations.
+
+### CL0P Ransomware Gang
+The CL0P ransomware group (also associated with ALPHV operations) expanded attacks targeting Oracle E-Business Suite systems globally in January 2026. Victims include University of Phoenix (US) and Korean Air (South Korea). The group continues their pattern of exploiting zero-day flaws in widely deployed enterprise systems to conduct high-volume attacks and steal millions of records.
 
 ### TridentLocker
 New Year's Eve attack on Sedgwick Government Solutions, exfiltrating 3.4GB of data from federal contractor.
@@ -148,6 +171,17 @@ New Year's Eve attack on Sedgwick Government Solutions, exfiltrating 3.4GB of da
 Attributed to the massive Covenant Health breach affecting 478,188 patients from a July 2025 attack.
 
 ### Shai-Hulud Campaign
+Second supply-chain attack on Trust Wallet Chrome extension, stealing $8.5 million in cryptocurrency.
+
+### APT42 (Charming Kitten)
+Iranian state-backed group conducting spear-phishing via WhatsApp against Israeli security and defense personnel.
+
+### E-Note Operators (Disrupted)
+Led by Nikolay Chudnovets, E-Note was a darknet cryptocurrency exchange that laundered over $70 million for cybercriminal groups including ransomware operators. The FBI-led international operation successfully disrupted the infrastructure and charged the operators.
+
+### Unknown Supply-Chain Actors
+- Google Cloud phishing campaign abusing legitimate cloud infrastructure
+- Maven Central typosquatting attack with Jackson library impersonation
 Second supply-chain attack on Trust Wallet Chrome extension, stealing $8.5 million in cryptocurrency.
 
 ### APT42 (Charming Kitten)
