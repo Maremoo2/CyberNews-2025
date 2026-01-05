@@ -66,6 +66,370 @@
           "systems",
           "collaboration"
         ]
+      },
+      "eu": {
+        "totalIncidents": 6,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "DDoS",
+        "severity": {
+          "critical": 3,
+          "high": 2,
+          "medium": 1,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2026-01-01",
+            "target": "La Poste / La Banque Postale (French postal service and banking)",
+            "attackType": "Distributed Denial of Service (DDoS)",
+            "impact": "Central computer systems knocked offline; disruption to parcel tracking, banking portals; online services disrupted (physical deliveries and ATM payments continued)",
+            "attribution": "NoName057(16) (pro-Russian hacker group)",
+            "status": "Under investigation by Paris prosecutor and DGSI; online services being restored",
+            "source": "https://thecyberexpress.com/ and https://apnews.com/"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "Nexpublica (French organization)",
+            "attackType": "Enforcement action for 2022 data breach",
+            "impact": "€1.7 million fine imposed; 6.3 million personal records exposed (including sensitive disability data)",
+            "attribution": "CNIL (French data protection authority)",
+            "status": "Resolved; fine imposed after investigation",
+            "source": "https://thecyberexpress.com/"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "TikTok platform / EU electoral integrity",
+            "attackType": "AI-generated disinformation campaign",
+            "impact": "Viral TikTok campaign pushing \"Polexit\" (Poland leaving EU) propaganda ahead of EU elections",
+            "attribution": "Unknown state-backed content creators",
+            "status": "Under review by EU digital regulators under Digital Services Act",
+            "source": "https://thecyberexpress.com/"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "European Space Agency (science servers)",
+            "attackType": "Data breach / Cyberattack",
+            "impact": "200GB of data stolen (source code, access tokens, credentials)",
+            "attribution": "Hacker group \"888\" (claimed responsibility)",
+            "status": "Under investigation",
+            "source": "https://gizmodo.com/"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "Hundreds of women and minors in France",
+            "attackType": "AI-generated deepfake abuse / Non-consensual intimate images",
+            "impact": "Hundreds of victims (including minors) had \"undressed\" deepfake images created and shared",
+            "attribution": "Abuse of Grok AI chatbot on X platform (Elon Musk's company)",
+            "status": "Under investigation by French authorities; formal complaints filed",
+            "source": "https://securityaffairs.com/174842/social-media/french-authorities-investigate-ai-undressing-deepfakes-on-x.html"
+          },
+          {
+            "date": "2026-01-05",
+            "target": "UK organizations / Data sanitisation industry",
+            "attackType": "Security initiative (not an attack)",
+            "impact": "New formal testing and certification service for data sanitisation equipment and processes",
+            "attribution": "UK National Cyber Security Centre (NCSC)",
+            "status": "Service active and available",
+            "source": "https://digitalforensicsmagazine.com/"
+          }
+        ],
+        "trends": [
+          "Pro-Russian DDoS Attacks on Critical Infrastructure: The NoName057(16) pro-Russian hacker group launched DDoS attacks against France's La Poste postal service on January 1, disrupting online services including parcel tracking and banking portals. This c...",
+          "GDPR Enforcement and Data Protection: France's CNIL imposed a €1.7 million fine on Nexpublica for a 2022 data breach that exposed 6.3 million records including sensitive disability data. This demonstrates the EU's continued commitment to ...",
+          "AI-Generated Content Concerns: Multiple AI-related concerns emerged: the Grok deepfake incident involving hundreds of women and minors in France, and Poland's request for EU investigation into TikTok's AI-generated \"Polexit\" disinf...",
+          "Space Sector Cybersecurity Vulnerabilities: The European Space Agency data breach exposing 200GB of sensitive data (including source code, access tokens, and credentials) demonstrates that even highly technical organizations face sophisticated ...",
+          "Data Sanitisation Standards: The UK's NCSC launched a new Sanitisation Service Assurance initiative on January 5, providing formal certification for data destruction equipment and processes, enhancing trust in secure data wiping ..."
+        ],
+        "legislation": [
+          "French Legal Action (GDPR Enforcement): France's CNIL imposed a €1.7 million fine on Nexpublica on January 2, 2026, for a 2022 data breach that exposed 6.3 million personal records including sensitive disability data. This enforcement actio...",
+          "French Grok Deepfake Investigation: French lawmakers filed formal complaints on January 2, 2026, in response to the Grok deepfake incident. These complaints target both the creation and distribution of AI-generated non-consensual intima...",
+          "Digital Services Act (DSA) Application: Poland formally requested EU regulators to investigate TikTok under the Digital Services Act for AI-generated \"Polexit\" disinformation ahead of EU elections. This marks an important application of DSA...",
+          "EU AI Regulations: The multiple AI-related incidents (Grok deepfakes, TikTok disinformation) occur in the context of the EU's evolving AI regulatory framework, including the AI Act which addresses high-risk AI systems. ...",
+          "UK Data Sanitisation Standards: The UK's NCSC launched the Sanitisation Service Assurance initiative on January 5, establishing formal standards and certification for data destruction equipment and processes. This enhances organizat...",
+          "Content Moderation Requirements: EU digital services regulations, including the Digital Services Act (DSA), place obligations on platforms to moderate illegal content. The Grok deepfake incident and TikTok disinformation may prompt a..."
+        ],
+        "threatActors": [
+          {
+            "name": "NoName057(16)",
+            "activity": "Pro-Russian hacktivist group NoName057(16) launched DDoS attacks against France's La Poste postal and banking services on January 1, marking their second attack on French infrastructure after a late D"
+          },
+          {
+            "name": "Hacker Group \"888\"",
+            "activity": "The hacker group \"888\" claimed responsibility for breaching the European Space Agency's science servers and stealing 200GB of data including source code, access tokens, and credentials. Little is know"
+          },
+          {
+            "name": "Unknown State-Backed Actors (TikTok Disinformation)",
+            "activity": "Unknown state-backed content creators launched an AI-generated disinformation campaign on TikTok promoting \"Polexit\" (Poland leaving the EU) ahead of EU elections. Poland formally requested EU investi"
+          },
+          {
+            "name": "Malicious Grok Users",
+            "activity": "While not traditional cybercriminals or state-sponsored actors, individuals who abused the Grok AI system to create non-consensual intimate images represent a new category of digital threat actor. The"
+          },
+          {
+            "name": "Social Media Distributors",
+            "activity": "In addition to those creating the deepfake images, individuals who shared and distributed the images on social media platforms contributed to the harm. This distributed abuse pattern makes attribution"
+          }
+        ],
+        "keyTakeaways": [
+          "Pro-Russian hacktivist groups continue targeting European critical infrastructure",
+          "GDPR enforcement remains strong with significant fines for data breaches",
+          "AI-generated content (deepfakes and disinformation) poses growing threats",
+          "Digital Services Act provides framework for investigating platform abuse",
+          "Space sector organizations face sophisticated cyber threats",
+          "Data sanitisation standards are being formalized to enhance security",
+          "Multi-sector approach needed: DDoS protection, GDPR compliance, AI safety",
+          "International cooperation essential for combating state-backed disinformation",
+          "Strengthen DDoS protection for critical government infrastructure",
+          "Enhance AI content moderation and safety filters across platforms"
+        ],
+        "buzzwords": [
+          "data",
+          "ddos",
+          "russian",
+          "infrastructure",
+          "launched",
+          "france",
+          "including",
+          "generated",
+          "content",
+          "space",
+          "attacks",
+          "critical",
+          "group",
+          "january",
+          "services"
+        ]
+      },
+      "us": {
+        "totalIncidents": 4,
+        "mostTargetedSector": "Healthcare",
+        "mostCommonAttackType": "Ransomware",
+        "severity": {
+          "critical": 3,
+          "high": 1,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2026-01-02",
+            "target": "Multiple victims during 2023 (healthcare, technology, pharmaceuticals, etc.)",
+            "attackType": "Ransomware (BlackCat/ALPHV)",
+            "impact": "Over $9.5 million in losses across five companies; ~$1.2 million in Bitcoin ransom received by defendants; $324,000 recovered; Over 1,000 organizations targeted in broader campaigns",
+            "attribution": "Ryan Goldberg (incident response manager) and co-defendant (digital forensics expert)",
+            "status": "Both defendants pleaded guilty; sentencing pending",
+            "source": "https://securityaffairs.com/174898/cyber-crime/blackcat-alphv-ransomware-guilty-pleas.html and https://securityweek.com/ and https://csoonline.com/"
+          },
+          {
+            "date": "2025-12-31",
+            "target": "Sedgwick Government Solutions (federal contractor subsidiary)",
+            "attackType": "Ransomware (TridentLocker)",
+            "impact": "3.4GB of data exfiltrated; breach confirmed by company",
+            "attribution": "TridentLocker ransomware group",
+            "status": "Under investigation; breach disclosed publicly",
+            "source": "https://securityaffairs.com/174851/data-breach/sedgwick-tridentlocker-ransomware-attack.html"
+          },
+          {
+            "date": "2025-07-01 (attack), 2026-01-05 (updated notification)",
+            "target": "Covenant Health (healthcare provider)",
+            "attackType": "Ransomware (Qilin)",
+            "impact": "478,188 patients' records exposed (updated from initial 7,800)",
+            "attribution": "Qilin ransomware group",
+            "status": "Breach notification updated; patient notifications underway",
+            "source": "https://securityaffairs.com/174825/data-breach/covenant-health-data-breach-2.html"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "Hundreds of ATMs across the United States (primarily Nebraska and nationwide)",
+            "attackType": "Malware (Ploutus) / ATM Jackpotting",
+            "impact": "\"Many millions of dollars\" stolen and laundered; funds used to support terrorist activities",
+            "attribution": "Tren de Aragua gang (54 members indicted; designated terrorist organization from Venezuela)",
+            "status": "Ongoing prosecution; charges include bank fraud, money laundering, material support to terrorism",
+            "source": "https://hstoday.us/"
+          }
+        ],
+        "trends": [
+          "Insider Threat and Professional Misconduct: The guilty pleas of Ryan Goldberg and his co-defendant in the BlackCat/ALPHV ransomware case highlight the growing concern of insider threats and compromised security professionals. Cybersecurity expe...",
+          "Ransomware Targeting Critical Services: Both Sedgwick (a major claims administrator serving federal contractors) and Covenant Health (a large healthcare provider) were hit by sophisticated ransomware groups. These incidents demonstrate that...",
+          "Healthcare Sector Vulnerabilities: The healthcare sector remains under siege, with Covenant Health's breach affecting 478,188 individuals. The attribution to Qilin ransomware group shows that established ransomware-as-a-service operati..."
+        ],
+        "legislation": [],
+        "threatActors": [
+          {
+            "name": "BlackCat/ALPHV",
+            "activity": "Two U.S. cybersecurity professionals (an incident response manager and digital forensics expert) were prosecuted for deploying BlackCat/ALPHV ransomware in attacks during 2023. They admitted to hackin"
+          },
+          {
+            "name": "TridentLocker",
+            "activity": "The TridentLocker ransomware group claimed responsibility for the Sedgwick breach on New Year's Eve. The group exfiltrated 3.4GB of data before the breach was confirmed, following the typical double-e"
+          },
+          {
+            "name": "Qilin",
+            "activity": "The Qilin ransomware group was attributed to the Covenant Health breach that occurred in July 2025. The group's successful attack resulted in the exposure of nearly half a million patient records, mak"
+          },
+          {
+            "name": "Tren de Aragua Gang",
+            "activity": "A Venezuelan criminal organization designated as a terrorist group, 54 members of Tren de Aragua were indicted for deploying Ploutus malware in ATM jackpotting attacks across the United States. The ga"
+          }
+        ],
+        "keyTakeaways": [
+          "Insider threats from compromised cybersecurity professionals pose a significant risk",
+          "Healthcare remains the most targeted sector for ransomware attacks",
+          "Ransomware groups continue to use double-extortion tactics (data theft + encryption)",
+          "Federal contractors handling sensitive government data are prime targets",
+          "Organized crime and terrorist groups are leveraging cybercrime for funding",
+          "ATM infrastructure remains vulnerable to sophisticated malware attacks",
+          "Organizations must improve breach detection and response times",
+          "Accurate impact assessment is critical (Covenant Health's count grew from 7,800 to 478,188)",
+          "Financial crime convergence: cyber + organized crime + terrorism",
+          "Strengthen insider threat detection and monitoring programs"
+        ],
+        "buzzwords": [
+          "ransomware",
+          "group",
+          "breach",
+          "insider",
+          "covenant",
+          "health",
+          "healthcare",
+          "attacks",
+          "professionals",
+          "cybersecurity",
+          "groups",
+          "sector",
+          "remains",
+          "data",
+          "crime"
+        ]
+      },
+      "asia": {
+        "totalIncidents": 6,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "State-sponsored attacks",
+        "severity": {
+          "critical": 3,
+          "high": 2,
+          "medium": 1,
+          "low": 0
+        },
+        "incidents": [
+          {
+            "date": "2026-01-01",
+            "target": "Network operators and organizations handling critical IT/cybersecurity in China",
+            "attackType": "Legislative/Policy change",
+            "impact": "1-hour incident reporting requirement, higher fines, mandatory audits, stricter cross-border data transfer controls, extraterritorial jurisdiction",
+            "attribution": "Chinese government",
+            "status": "Effective and being enforced",
+            "source": "https://thecyberexpress.com/ and https://mayerbrown.com/"
+          },
+          {
+            "date": "2026-01-01",
+            "target": "Critical infrastructure operators (utilities, transport, etc.)",
+            "attackType": "Legislative/Policy change",
+            "impact": "Expanded sector designation as \"critical\"; mandatory incident reporting and heightened security requirements",
+            "attribution": "Hong Kong government",
+            "status": "Enforced effective January 1, 2026",
+            "source": "https://digitalforensicsmagazine.com/"
+          },
+          {
+            "date": "2025-12-30",
+            "target": "Manage My Health (New Zealand patient portal)",
+            "attackType": "Unauthorized access / Data breach / Ransomware",
+            "impact": "~108,000 patients affected (~6-7% of 1.8M users); private health documents accessed; $60,000 ransom demanded",
+            "attribution": "Unknown hackers",
+            "status": "Under investigation; vulnerability patched; patient notifications underway; NZ health ministry conducting review",
+            "source": "https://www.healthcareitnews.com/news/apac/126000-affected-it-hack-patient-portal-manage-my-health and https://reuters.com/"
+          },
+          {
+            "date": "2026-01-02",
+            "target": "Israeli security and defense workers",
+            "attackType": "Spear-phishing via WhatsApp",
+            "impact": "Credential theft attempts; information stealing",
+            "attribution": "APT42 (Charming Kitten) - Iranian state-backed",
+            "status": "Ongoing campaign; alerts issued",
+            "source": "https://www.scworld.com/brief/apt42-linked-infrastructure-leveraged-in-israel-targeted-spear-phishing-attack"
+          },
+          {
+            "date": "2026-01-04",
+            "target": "SmarterMail email server operators",
+            "attackType": "Critical vulnerability disclosure (CVE-2025-52691)",
+            "impact": "Unauthenticated remote code execution flaw; attackers could steal credentials or take full control of mail systems",
+            "attribution": "Any attacker (exploit code is public)",
+            "status": "Fixed; vendor patch available; Singapore Cybersecurity Agency urging immediate updates",
+            "source": "https://thecyberexpress.com/"
+          },
+          {
+            "date": "2026-01-05",
+            "target": "Taiwan critical infrastructure (energy grids, hospitals, banks, emergency services)",
+            "attackType": "Sustained cyberattacks / DDoS / MITM / Espionage",
+            "impact": "Average of 2.63 million attacks per day throughout 2025 (6% increase); sustained espionage and disruption attempts",
+            "attribution": "China's military cyber units (denied by Beijing)",
+            "status": "Ongoing; Taiwan bolstering cyber defenses",
+            "source": "https://reuters.com/ and https://economictimes.indiatimes.com/"
+          }
+        ],
+        "trends": [
+          "Major Cybersecurity Regulatory Changes: China's amended Cybersecurity Law took effect January 1, imposing 1-hour incident reporting requirements, higher fines, and extraterritorial reach. Hong Kong's Critical Infrastructure Ordinance also w...",
+          "State-Sponsored Cyber Escalation: Taiwan reported that China-linked hackers launched an average of 2.63 million attacks per day in 2025 (a 6% increase), targeting energy, healthcare, banking, and emergency services. This sustained cam...",
+          "Healthcare Data Breach in New Zealand: New Zealand's private patient portal Manage My Health suffered unauthorized access to health documents affecting approximately 108,000 people (~6-7% of its 1.8 million users). A $60,000 ransom was dem...",
+          "Iranian APT Targeting Israel: Iran-linked APT42 (also known as Charming Kitten) leveraged infrastructure on January 2 to conduct spear-phishing attacks against Israeli security and defense workers via WhatsApp. The campaign used s...",
+          "Mobile Messaging Platforms as Attack Vectors: The use of WhatsApp for spear-phishing in the APT42 campaign demonstrates that threat actors are increasingly leveraging mobile messaging platforms rather than traditional email to bypass security con...",
+          "Critical Infrastructure Vulnerability Warnings: Singapore's cybersecurity agency issued urgent warnings about CVE-2025-52691, a critical unauthenticated remote code execution flaw in SmarterMail servers that could allow attackers to steal credentia..."
+        ],
+        "legislation": [
+          "China Cybersecurity Law Amendments: China's amended Cybersecurity Law took effect January 1, 2026, representing the most significant update since 2017. Key changes include mandatory 1-hour incident reporting for critical sectors, substa...",
+          "Hong Kong Critical Infrastructure Ordinance: Hong Kong's Critical Infrastructure (Computer Systems) Ordinance became effective January 1, 2026, significantly expanding the sectors designated as \"critical\" to include utilities, transport, and oth...",
+          "Israel National Cyber Directorate Alert: Following the APT42 spear-phishing campaign, Israel's National Cyber Directorate issued an official alert on January 2, 2026, warning security and defense organizations about the ongoing threat. The a...",
+          "Singapore Cybersecurity Agency Warning: Singapore's Cybersecurity Agency issued an urgent alert on January 4, 2026, about CVE-2025-52691 affecting SmarterMail servers. The agency is actively working with organizations to ensure rapid patchi...",
+          "New Zealand Health Ministry Review: Following the Manage My Health breach, New Zealand's health ministry announced a comprehensive review of the incident. Privacy authorities and health officials are working with affected GP practices t..."
+        ],
+        "threatActors": [
+          {
+            "name": "China's Military Cyber Units",
+            "activity": "Taiwan's National Security Bureau attributes the sustained campaign of 2.63 million daily cyberattacks to China's military cyber units. The attacks target Taiwan's critical infrastructure including en"
+          },
+          {
+            "name": "APT42 (Charming Kitten)",
+            "activity": "Iranian state-backed threat operation APT42, also known as Charming Kitten, conducted a sophisticated spear-phishing campaign on January 2 targeting Israeli security and defense workers. The group use"
+          },
+          {
+            "name": "Unknown Threat Actor (Manage My Health)",
+            "activity": "An unidentified threat actor conducted unauthorized access to the Manage My Health patient portal in New Zealand, demanding a $60,000 ransom. The attacker accessed private health documents of approxim"
+          },
+          {
+            "name": "Opportunistic Attackers (SmarterMail)",
+            "activity": "With exploit code for CVE-2025-52691 publicly available, opportunistic attackers across the region are targeting vulnerable SmarterMail email servers. The unauthenticated remote code execution flaw al"
+          }
+        ],
+        "keyTakeaways": [
+          "Major regulatory changes in China and Hong Kong mandate stricter cybersecurity controls",
+          "State-sponsored cyberattacks at unprecedented scale (Taiwan: 2.63M attacks/day)",
+          "Healthcare portals in the Asia-Pacific region remain vulnerable to ransomware",
+          "Mobile messaging platforms like WhatsApp increasingly used for spear-phishing",
+          "Iranian state-sponsored APT groups continue targeting Israeli security personnel",
+          "Critical vulnerabilities in widely-used software require immediate patching",
+          "1-hour incident reporting now standard in China for critical sectors",
+          "Cross-strait cyber tensions escalating with sustained Chinese campaigns",
+          "Ransomware attackers demanding relatively modest ransoms from smaller targets",
+          "Comply with new China and Hong Kong cybersecurity regulations"
+        ],
+        "buzzwords": [
+          "china",
+          "critical",
+          "cybersecurity",
+          "targeting",
+          "security",
+          "infrastructure",
+          "state",
+          "taiwan",
+          "attacks",
+          "health",
+          "spear",
+          "phishing",
+          "campaign",
+          "january",
+          "hong"
+        ]
       }
     }
   }
