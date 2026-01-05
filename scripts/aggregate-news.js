@@ -257,8 +257,16 @@ function parseLegislation(content) {
 /**
  * Parse threat actor activity
  */
-function parseThreatActors(content) {
+function parseThreatActors(content, defaultDate = null) {
   const threatActors = [];
+  
+  // Generate default date if not provided
+  if (!defaultDate) {
+    const now = new Date();
+    const currentMonth = now.toLocaleString('en-US', { month: 'long' });
+    const currentYear = now.getFullYear();
+    defaultDate = `${currentMonth} ${currentYear}`;
+  }
   
   // Look for threat actor section specifically
   const threatActorSection = parseSection(content, 'Threat Actor Activity');
@@ -295,7 +303,7 @@ function parseThreatActors(content) {
         threatActors.push({ 
           name, 
           activity: activity.substring(0, 200),
-          date: date || 'January 2026' // Default to current month if no date found
+          date: date || defaultDate
         });
       }
     }
@@ -312,7 +320,7 @@ function parseThreatActors(content) {
           threatActors.push({ 
             name: match.substring(0, 50), 
             activity: 'Activity detected in threat landscape',
-            date: 'January 2026'
+            date: defaultDate
           });
         }
       }
@@ -383,15 +391,29 @@ function extractBuzzwords(texts) {
 /**
  * Parse a single markdown file
  */
-function parseMarkdownFile(filePath) {
+function parseMarkdownFile(filePath, monthName = null) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
+    
+    // Determine default date for threat actors based on file path or current date
+    let defaultDate = null;
+    if (monthName) {
+      // Capitalize first letter of month
+      const monthCapitalized = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+      defaultDate = `${monthCapitalized} 2026`;
+    } else {
+      // Fallback to current date if month not provided
+      const now = new Date();
+      const currentMonth = now.toLocaleString('en-US', { month: 'long' });
+      const currentYear = now.getFullYear();
+      defaultDate = `${currentMonth} ${currentYear}`;
+    }
     
     const stats = parseStatistics(content);
     const incidents = parseIncidents(content);
     const trends = parseTrends(content);
     const legislation = parseLegislation(content);
-    const threatActors = parseThreatActors(content);
+    const threatActors = parseThreatActors(content, defaultDate);
     const keyTakeaways = parseKeyTakeaways(content);
     
     // Extract buzzwords from trends, threat actors, and key takeaways
@@ -454,7 +476,7 @@ function aggregateNews() {
       
       if (fs.existsSync(summaryPath)) {
         console.log(`  Parsing ${region}/summary.md`);
-        const regionData = parseMarkdownFile(summaryPath);
+        const regionData = parseMarkdownFile(summaryPath, monthName);
         
         if (regionData) {
           aggregatedData["2026"][monthName][region] = regionData;

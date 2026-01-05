@@ -163,6 +163,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
                 <li key={index} className="threat-actor-item">
                   <strong>{actor.name}</strong>
                   {actor.date && <span className="threat-actor-date"> ({actor.date})</span>}
+                  {!actor.date && <span className="threat-actor-date"> (Date unknown)</span>}
                   <p>{actor.activity?.substring(0, 150) || 'No activity description available'}...</p>
                 </li>
               ))}
