@@ -68,9 +68,9 @@
         ]
       },
       "eu": {
-        "totalIncidents": 0,
+        "totalIncidents": 1,
         "mostTargetedSector": "N/A",
-        "mostCommonAttackType": "N/A",
+        "mostCommonAttackType": "AI-generated deepfake abuse",
         "severity": {
           "critical": 1,
           "high": 0,
@@ -139,9 +139,9 @@
         ]
       },
       "us": {
-        "totalIncidents": 0,
+        "totalIncidents": 3,
         "mostTargetedSector": "Healthcare",
-        "mostCommonAttackType": "type: Ransomware",
+        "mostCommonAttackType": "Ransomware",
         "severity": {
           "critical": 2,
           "high": 1,
@@ -228,9 +228,9 @@
         ]
       },
       "asia": {
-        "totalIncidents": 0,
+        "totalIncidents": 2,
         "mostTargetedSector": "Healthcare",
-        "mostCommonAttackType": "type: Data breach",
+        "mostCommonAttackType": "Spear-phishing",
         "severity": {
           "critical": 1,
           "high": 1,

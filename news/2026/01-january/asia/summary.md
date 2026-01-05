@@ -49,9 +49,9 @@ Israeli security and defense workers were targeted by an ongoing spear-phishing 
 ## Statistics
 
 ### Incident Volume
-- Total major incidents reported: 2
+- 2 incidents reported
 - Most targeted sector: Healthcare, Defense/Security
-- Most common attack type: Data breach, Spear-phishing
+- Most common attack: Spear-phishing
 
 ### Severity Distribution
 - Critical: 1 (Manage My Health breach)

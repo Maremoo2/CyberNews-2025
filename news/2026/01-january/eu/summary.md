@@ -39,9 +39,9 @@ Grok's developers acknowledged isolated failures of content filters in generatin
 ## Statistics
 
 ### Incident Volume
-- Total major incidents reported: 1 (AI deepfake abuse)
+- 1 incident reported (AI deepfake abuse)
 - Most affected demographic: Women and minors
-- Platform involved: X (formerly Twitter) / Grok AI
+- Most common attack: AI-generated deepfake abuse
 
 ### Severity Distribution
 - Critical: 1 (involves minors and sexual content)

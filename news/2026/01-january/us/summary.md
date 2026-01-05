@@ -59,9 +59,9 @@ Covenant Health reported that 7,800 individuals were affected by a data breach i
 ## Statistics
 
 ### Incident Volume
-- Total major incidents reported: 3 (2 ransomware attacks, 1 prosecution)
+- 3 incidents reported (2 ransomware attacks, 1 prosecution)
 - Most targeted sector: Healthcare
-- Most common attack type: Ransomware
+- Most common attack: Ransomware
 
 ### Severity Distribution
 - Critical: 2 (Sedgwick breach, Covenant Health breach)
