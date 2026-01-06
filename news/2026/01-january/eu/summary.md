@@ -354,6 +354,20 @@ NordVPN denied claims that its internal development infrastructure was breached,
 
 Westminster City Council confirmed that sensitive data was stolen during a cyberattack initially disclosed as a security incident in November. The breach affected internal systems and resident data.
 
+---
+
+### January 6 – Neighbourly Platform Data Breach Exposes UK Users
+
+- **Date:** 2026-01-06
+- **Target:** Neighbourly (UK community platform)
+- **Attack Type:** Data breach
+- **Impact:** User data exposure; users vulnerable to targeted attacks
+- **Attribution:** Unknown
+- **Status:** Under Investigation
+- **Source:** https://www.theguardian.com/technology/2026/jan/06/neighbourly-breach-makes-users-vulnerable-expert
+
+Security experts warned that a data breach affecting the Neighbourly community platform has left users vulnerable to targeted attacks. The breach exposed user information, raising concerns about subsequent phishing and social engineering campaigns targeting affected individuals.
+
 ## Statistics
 
 ### Incident Volume
