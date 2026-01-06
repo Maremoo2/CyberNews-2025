@@ -200,6 +200,20 @@ A protection mechanism failure in n8n (CVSS 9.9) allows authenticated users to e
 
 ---
 
+### January 6 – Legacy Fortinet Vulnerability Under Renewed Threat
+
+- **Date:** 2026-01-06
+- **Target:** Fortinet firewalls (legacy installations)
+- **Attack Type:** Vulnerability exploitation
+- **Impact:** Thousands of firewalls at risk; remote code execution possible
+- **Attribution:** Various threat actors
+- **Status:** Patch available; renewed exploitation attempts observed
+- **Source:** https://www.bleepingcomputer.com/news/security/thousands-of-firewalls-at-risk-as-legacy-fortinet-flaw-under-renewed-threat/
+
+Security researchers warned that a legacy vulnerability in Fortinet firewalls is under renewed threat, with thousands of devices still vulnerable to exploitation. Organizations running older Fortinet installations are urged to patch immediately as threat actors actively target the flaw.
+
+---
+
 ### January 6 – Brightspeed Investigates Data Breach Claims by Extortion Group
 
 - **Date:** 2026-01-06
