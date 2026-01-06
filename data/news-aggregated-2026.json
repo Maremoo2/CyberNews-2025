@@ -20,12 +20,44 @@
             "attribution": "(Øvelse)",
             "status": "Fullført",
             "source": "statsforvalteren.no"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Color Line (Kiel ferry operations)",
+            "attackType": "Network failure (root cause under investigation)",
+            "impact": "Ferry departures halted across multiple routes; partial service restoration",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://www.digi.no/artikler/color-lines-kiel-ferger-i-gang-igjen-etter-nettverksfeil/566599"
           }
         ],
         "trends": [
           "Increased Focus on Competency Building: Norwegian municipalities and organizations are actively working to strengthen their cybersecurity competency through training programs and simulated attack exercises. The goal is to ensure that both t...",
           "Outdated Infrastructure Creates Vulnerabilities: Many Norwegian organizations still rely on legacy systems that haven't received security updates in years. This creates significant vulnerabilities that threat actors could exploit, particularly in cr...",
-          "Collaboration Between Public and Private Sectors: There is increased collaboration between government agencies, private companies, and educational institutions to share threat intelligence and develop best practices for cybersecurity defense...."
+          "Collaboration Between Public and Private Sectors: There is increased collaboration between government agencies, private companies, and educational institutions to share threat intelligence and develop best practices for cybersecurity defense....",
+          "AI Expansion Increases Attack Surface: Multiple industry leaders warned that rapid AI adoption is creating unmanaged sprawl across enterprise environments, increasing security blind spots and governance challenges....",
+          "Cloud Services as Data Exfiltration Targets: Threat actors increasingly target enterprise cloud file-sharing platforms such as ShareFile, Nextcloud, and OwnCloud to steal corporate data at scale....",
+          "Automation and Hardware-Accelerated Security: Vendors are integrating AI-driven security controls directly into hardware platforms, leveraging technologies such as NVIDIA BlueField and accelerated telemetry pipelines....",
+          "Disinformation and Cyber Operations: Information vacuums during geopolitical operations continue to fuel disinformation campaigns, conspiracy narratives, and cyber-enabled influence operations....",
+          "Workforce Disruption in Cybersecurity: AI adoption is reshaping traditional entry-level roles in cybersecurity and IT, accelerating demand for higher-level analytical and governance skills....",
+          "AI-Driven Attack Enablement: Attackers increasingly leverage AI tools to automate reconnaissance, generate attack briefs, and scale social engineering campaigns using publicly available data....",
+          "Threat-Led Defense Models Gain Momentum: Security teams are shifting toward threat-led defense strategies, prioritizing real-world adversary behavior over compliance-driven controls....",
+          "Psychological and Organizational Cyber Risk: Rising stress and burnout among cybersecurity professionals are increasingly recognized as operational risk factors that weaken defensive capabilities....",
+          "Cloud Dependency and Systemic Risk: Cloud outages and centralized services pose growing risks to IoT ecosystems and always-connected devices, amplifying the impact of service disruptions....",
+          "IoT and Out-of-Band Management Exposure: New generations of IP-based KVM and OOB management devices introduce additional attack surfaces if improperly secured....",
+          "Developer Toolchains as an Attack Vector: Threat actors increasingly abuse IDEs, extensions, and developer tooling ecosystems to distribute malware through trusted workflows....",
+          "Botnet Evolution Targeting Modern Web Frameworks: Botnets are expanding beyond IoT to exploit modern frameworks such as React and Next.js, enabling cryptomining and payload delivery at scale....",
+          "Board-Level Cyber and AI Risk Awareness: Boards and executive leadership are being urged to treat AI-driven cyber risk as a strategic governance issue rather than a technical concern....",
+          "Security Tool Sprawl and Platform Consolidation: Organizations continue to struggle with excessive security tooling, driving renewed interest in platform consolidation and XDR approaches....",
+          "AI as an Expanding Identity and Abuse Vector: Agentic AI systems are increasingly treated as a new identity class, introducing challenges related to access control, lifecycle management, and accountability....",
+          "Honeypots and Deception Technology Gain Relevance: Organizations are increasingly deploying deception-based defenses to detect and study targeted attacks before production systems are impacted....",
+          "Third-Party and Supply Chain Exposure: Breaches at external vendors and service providers continue to expose downstream customers, reinforcing supply chain risk as a dominant threat vector....",
+          "Governance and Regulatory Pressure on AI Platforms: European regulators are intensifying scrutiny of AI tools following misuse incidents, signaling stricter enforcement of platform accountability....",
+          "Malware-as-a-Service Ecosystem Maturity: Commodity malware such as stealers and botnets continue to evolve, leveraging obfuscation and easy distribution through underground markets....",
+          "AI Agents as an Insider Threat Vector: Security leaders increasingly warn that autonomous AI agents behave like privileged insiders, requiring new access controls, identity governance, and accountability frameworks....",
+          "Cyber Sovereignty and Internet Fragmentation: Governments are asserting greater control over internet governance, cybersecurity norms, and digital infrastructure, challenging traditional multistakeholder models....",
+          "Home Routers as Strategic Attack Surface: Consumer-grade routers are emerging as a frontline cyber battlefield, with nation-state and criminal actors exploiting weak defaults and large-scale deployment....",
+          "Consolidation in the Cybersecurity Market: Large security vendors continue pursuing acquisitions to close visibility gaps and address tool sprawl driven by cloud and AI complexity...."
         ],
         "legislation": [
           "Cybersecurity Certification: NSM (Nasjonal sikkerhetsmyndighet) is rolling out a new cybersecurity certification program for critical infrastructure operators. The program aims to standardize security practices across essential s...",
@@ -35,6 +67,41 @@
           {
             "name": "Pro-Russian Hacktivist Group",
             "activity": "PST kobler et dataangrep mot norske offentlige nettsider til prorussiske hacktivistgrupper. Angrepet ble raskt oppdaget og avverget, men understreker den fortsatte trusselen fra statsstøttede aktører.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Zestix",
+            "activity": "The threat actor Zestix has been linked to the sale of stolen corporate data obtained from compromised cloud file-sharing services.",
+            "date": "January 2026"
+          },
+          {
+            "name": "China-Linked APT Groups",
+            "activity": "Chinese state-linked cyber units continued sustained operations and development of advanced malware frameworks, including Rust-based payloads, to improve stealth and persistence.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Russian Cybercriminal Groups",
+            "activity": "Russian-linked threat actors conducted coordinated malware campaigns using advanced social engineering techniques.",
+            "date": "January 2026"
+          },
+          {
+            "name": "UAC-0184",
+            "activity": "Russia-aligned threat actor UAC-0184 continued high-intensity intelligence collection operations against Ukrainian government and military targets using messaging platforms.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Kimwolf Botnet Operators",
+            "activity": "Kimwolf botnet actors expanded their infrastructure by abusing exposed Android devices, monetizing access through proxy services and DDoS-for-hire offerings.",
+            "date": "January 2026"
+          },
+          {
+            "name": "RondoDox Botnet Operators",
+            "activity": "RondoDox botnet operators expanded their campaigns by exploiting React-based servers, deploying cryptominers and botnet payloads across enterprise and IoT environments.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Commercial Spyware Ecosystem",
+            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.",
             "date": "January 2026"
           }
         ],
@@ -51,14 +118,21 @@
           "Strengthen defenses against state-sponsored threats"
         ],
         "buzzwords": [
-          "norwegian",
-          "exercises",
-          "creates",
-          "legacy",
-          "collaboration",
-          "between",
-          "private",
-          "intelligence"
+          "increasingly",
+          "actors",
+          "governance",
+          "cloud",
+          "continue",
+          "risk",
+          "driven",
+          "operations",
+          "malware",
+          "through",
+          "platforms",
+          "scale",
+          "vendors",
+          "based",
+          "vector"
         ]
       },
       "eu": {
@@ -125,6 +199,114 @@
             "attribution": "UK National Cyber Security Centre (NCSC)",
             "status": "Service active and available",
             "source": "https://digitalforensicsmagazine.com/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Hospitality companies across Europe",
+            "attackType": "Social engineering / malware delivery",
+            "impact": "Malware execution via fake Windows Blue Screen of Death prompts",
+            "attribution": "Russian-linked threat actors",
+            "status": "Ongoing",
+            "source": "https://therecord.media/russian-hackers-target-european-hospitality-industry-blue-screen-malware"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "European hospitality sector",
+            "attackType": "Social engineering / malware",
+            "impact": "Manual execution of malicious payloads by victims",
+            "attribution": "Unknown",
+            "status": "Active Campaign",
+            "source": "https://www.bleepingcomputer.com/news/security/clickfix-attack-uses-fake-windows-bsod-screens-to-push-malware/"
+          },
+          {
+            "date": "2026-01-06 (confirmation of earlier breach)",
+            "target": "European Space Agency (ESA)",
+            "attackType": "Data breach",
+            "impact": "Alleged theft of up to 200GB of internal data",
+            "attribution": "Unknown (claims made by attackers)",
+            "status": "Under Investigation",
+            "source": "https://www.securityweek.com/european-space-agency-confirms-cybersecurity-breach/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Greek aviation communications systems",
+            "attackType": "Operational failure (non-cyber)",
+            "impact": "Temporary grounding of flights",
+            "attribution": "Not applicable",
+            "status": "Resolved",
+            "source": "https://www.securityweek.com/cyberattack-unlikely-in-communications-failure-that-grounded-flights-in-greece/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "High school in central England",
+            "attackType": "Cyberattack (unspecified)",
+            "impact": "School closure following Christmas holidays",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://therecord.media/cyberattack-forces-british-high-school-to-close"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Eaton UPS Companion software users",
+            "attackType": "Remote code execution vulnerability",
+            "impact": "Potential compromise of host systems managing power infrastructure",
+            "attribution": "Not attributed",
+            "status": "Patch available",
+            "source": "https://www.securityweek.com/eaton-vulnerabilities-allow-attackers-to-execute-arbitrary-code/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Subsea fiber cable between Latvia and Lithuania",
+            "attackType": "Suspected physical infrastructure interference",
+            "impact": "Investigation into potential cable disruption",
+            "attribution": "Not confirmed",
+            "status": "Cleared of suspicion",
+            "source": "https://www.digi.no/artikler/norsk-rederi-etterforsket-for-kabelkutt-i-ostersjoen-for-andre-gang-pa-ett-ar/566600"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Ledger customers (via Global-e)",
+            "attackType": "Third-party data breach",
+            "impact": "Exposure of personal customer information",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://www.bleepingcomputer.com/news/security/ledger-customers-impacted-by-third-party-global-e-data-breach/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "X (formerly Twitter) – Grok AI",
+            "attackType": "Platform abuse / AI misuse",
+            "impact": "Generation and dissemination of illegal content",
+            "attribution": "Platform misuse by users",
+            "status": "Regulatory investigation ongoing",
+            "source": "https://therecord.media/eu-looking-seriously-taking-action-against-x-over-grok"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "NordVPN",
+            "attackType": "Alleged breach (disputed)",
+            "impact": "Claimed access to non-production \"dummy data\"",
+            "attribution": "Unknown",
+            "status": "Denied by company",
+            "source": "https://www.bleepingcomputer.com/news/security/nordvpn-denies-breach-claims-says-attackers-have-dummy-data/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Westminster City Council",
+            "attackType": "Data breach",
+            "impact": "Theft of sensitive personal and municipal data",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://www.theregister.com/2026/01/06/westminster_city_council_data_breach/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Neighbourly (UK community platform)",
+            "attackType": "Data breach",
+            "impact": "User data exposure; users vulnerable to targeted attacks",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://www.theguardian.com/technology/2026/jan/06/neighbourly-breach-makes-users-vulnerable-expert"
           }
         ],
         "trends": [
@@ -132,7 +314,31 @@
           "GDPR Enforcement and Data Protection: France's CNIL imposed a €1.7 million fine on Nexpublica for a 2022 data breach that exposed 6.3 million records including sensitive disability data. This demonstrates the EU's continued commitment to ...",
           "AI-Generated Content Concerns: Multiple AI-related concerns emerged: the Grok deepfake incident involving hundreds of women and minors in France, and Poland's request for EU investigation into TikTok's AI-generated \"Polexit\" disinf...",
           "Space Sector Cybersecurity Vulnerabilities: The European Space Agency data breach exposing 200GB of sensitive data (including source code, access tokens, and credentials) demonstrates that even highly technical organizations face sophisticated ...",
-          "Data Sanitisation Standards: The UK's NCSC launched a new Sanitisation Service Assurance initiative on January 5, providing formal certification for data destruction equipment and processes, enhancing trust in secure data wiping ..."
+          "Data Sanitisation Standards: The UK's NCSC launched a new Sanitisation Service Assurance initiative on January 5, providing formal certification for data destruction equipment and processes, enhancing trust in secure data wiping ...",
+          "AI Expansion Increases Attack Surface: Multiple industry leaders warned that rapid AI adoption is creating unmanaged sprawl across enterprise environments, increasing security blind spots and governance challenges....",
+          "Cloud Services as Data Exfiltration Targets: Threat actors increasingly target enterprise cloud file-sharing platforms such as ShareFile, Nextcloud, and OwnCloud to steal corporate data at scale....",
+          "Automation and Hardware-Accelerated Security: Vendors are integrating AI-driven security controls directly into hardware platforms, leveraging technologies such as NVIDIA BlueField and accelerated telemetry pipelines....",
+          "Disinformation and Cyber Operations: Information vacuums during geopolitical operations continue to fuel disinformation campaigns, conspiracy narratives, and cyber-enabled influence operations....",
+          "Workforce Disruption in Cybersecurity: AI adoption is reshaping traditional entry-level roles in cybersecurity and IT, accelerating demand for higher-level analytical and governance skills....",
+          "AI-Driven Attack Enablement: Attackers increasingly leverage AI tools to automate reconnaissance, generate attack briefs, and scale social engineering campaigns using publicly available data....",
+          "Threat-Led Defense Models Gain Momentum: Security teams are shifting toward threat-led defense strategies, prioritizing real-world adversary behavior over compliance-driven controls....",
+          "Psychological and Organizational Cyber Risk: Rising stress and burnout among cybersecurity professionals are increasingly recognized as operational risk factors that weaken defensive capabilities....",
+          "Cloud Dependency and Systemic Risk: Cloud outages and centralized services pose growing risks to IoT ecosystems and always-connected devices, amplifying the impact of service disruptions....",
+          "IoT and Out-of-Band Management Exposure: New generations of IP-based KVM and OOB management devices introduce additional attack surfaces if improperly secured....",
+          "Europe's Growing Cybersecurity Capacity Gap: European security leaders warned that fragmented responsibility, underinvestment, and skills shortages are creating systemic cyber risk across the continent....",
+          "Developer Toolchains as an Attack Vector: Threat actors increasingly abuse IDEs, extensions, and developer tooling ecosystems to distribute malware through trusted workflows....",
+          "Botnet Evolution Targeting Modern Web Frameworks: Botnets are expanding beyond IoT to exploit modern frameworks such as React and Next.js, enabling cryptomining and payload delivery at scale....",
+          "Board-Level Cyber and AI Risk Awareness: Boards and executive leadership are being urged to treat AI-driven cyber risk as a strategic governance issue rather than a technical concern....",
+          "Security Tool Sprawl and Platform Consolidation: Organizations continue to struggle with excessive security tooling, driving renewed interest in platform consolidation and XDR approaches....",
+          "AI as an Expanding Identity and Abuse Vector: Agentic AI systems are increasingly treated as a new identity class, introducing challenges related to access control, lifecycle management, and accountability....",
+          "Honeypots and Deception Technology Gain Relevance: Organizations are increasingly deploying deception-based defenses to detect and study targeted attacks before production systems are impacted....",
+          "Third-Party and Supply Chain Exposure: Breaches at external vendors and service providers continue to expose downstream customers, reinforcing supply chain risk as a dominant threat vector....",
+          "Governance and Regulatory Pressure on AI Platforms: European regulators are intensifying scrutiny of AI tools following misuse incidents, signaling stricter enforcement of platform accountability....",
+          "Malware-as-a-Service Ecosystem Maturity: Commodity malware such as stealers and botnets continue to evolve, leveraging obfuscation and easy distribution through underground markets....",
+          "AI Agents as an Insider Threat Vector: Security leaders increasingly warn that autonomous AI agents behave like privileged insiders, requiring new access controls, identity governance, and accountability frameworks....",
+          "Cyber Sovereignty and Internet Fragmentation: Governments are asserting greater control over internet governance, cybersecurity norms, and digital infrastructure, challenging traditional multistakeholder models....",
+          "Home Routers as Strategic Attack Surface: Consumer-grade routers are emerging as a frontline cyber battlefield, with nation-state and criminal actors exploiting weak defaults and large-scale deployment....",
+          "Consolidation in the Cybersecurity Market: Large security vendors continue pursuing acquisitions to close visibility gaps and address tool sprawl driven by cloud and AI complexity...."
         ],
         "legislation": [
           "French Legal Action (GDPR Enforcement): France's CNIL imposed a €1.7 million fine on Nexpublica on January 2, 2026, for a 2022 data breach that exposed 6.3 million personal records including sensitive disability data. This enforcement actio...",
@@ -167,6 +373,31 @@
             "name": "Social Media Distributors",
             "activity": "In addition to those creating the deepfake images, individuals who shared and distributed the images on social media platforms contributed to the harm. This distributed abuse pattern makes attribution",
             "date": "January 2026"
+          },
+          {
+            "name": "Zestix",
+            "activity": "The threat actor Zestix has been linked to the sale of stolen corporate data obtained from compromised cloud file-sharing services.",
+            "date": "January 2026"
+          },
+          {
+            "name": "China-Linked APT Groups",
+            "activity": "Chinese state-linked cyber units continued sustained operations and development of advanced malware frameworks, including Rust-based payloads, to improve stealth and persistence.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Russian Cybercriminal Groups",
+            "activity": "Russian-linked threat actors conducted coordinated malware campaigns against the European hospitality sector using advanced social engineering techniques, including fake BSOD screens to trick victims ",
+            "date": "January 2026"
+          },
+          {
+            "name": "RondoDox Botnet Operators",
+            "activity": "RondoDox botnet operators expanded their campaigns by exploiting React-based servers, deploying cryptominers and botnet payloads across enterprise and IoT environments.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Commercial Spyware Ecosystem",
+            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -182,20 +413,20 @@
           "Enhance AI content moderation and safety filters across platforms"
         ],
         "buzzwords": [
-          "ddos",
-          "russian",
-          "launched",
-          "france",
+          "increasingly",
+          "risk",
           "including",
-          "generated",
-          "content",
-          "space",
-          "gdpr",
-          "protection",
-          "poland",
-          "sector",
           "european",
-          "sanitisation",
+          "governance",
+          "cloud",
+          "continue",
+          "russian",
+          "ddos",
+          "actors",
+          "platforms",
+          "driven",
+          "disinformation",
+          "malware",
           "state"
         ]
       },
@@ -238,6 +469,150 @@
             "source": "https://securityaffairs.com/174825/data-breach/covenant-health-data-breach-2.html"
           },
           {
+            "date": "2026-01-06",
+            "target": "MongoDB servers (unauthenticated instances)",
+            "attackType": "Information disclosure via memory leak",
+            "impact": "Extraction of passwords, authentication tokens, and sensitive memory data",
+            "attribution": "Unknown",
+            "status": "Under Active Exploitation",
+            "source": "https://www.darkreading.com/cyber-risk/critical-mongobleed-bug-under-active-attack-patch-now"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "AdonisJS framework users",
+            "attackType": "Remote code execution / arbitrary file write",
+            "impact": "Potential full server compromise via path traversal",
+            "attribution": "Not attributed",
+            "status": "Patch available",
+            "source": "https://thehackernews.com/2026/01/critical-adonisjs-bodyparser-flaw-cvss.html"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "n8n workflow automation platform",
+            "attackType": "Arbitrary command execution",
+            "impact": "Authenticated attackers can execute system-level commands",
+            "attribution": "Not attributed",
+            "status": "Patch available",
+            "source": "https://thehackernews.com/2026/01/new-n8n-vulnerability-99-cvss-lets.html"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Fortinet firewalls (legacy installations)",
+            "attackType": "Vulnerability exploitation",
+            "impact": "Thousands of firewalls at risk; remote code execution possible",
+            "attribution": "Various threat actors",
+            "status": "Patch available; renewed exploitation attempts observed",
+            "source": "https://www.bleepingcomputer.com/news/security/thousands-of-firewalls-at-risk-as-legacy-fortinet-flaw-under-renewed-threat/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Brightspeed (US broadband provider)",
+            "attackType": "Data breach / extortion",
+            "impact": "Potential exposure of customer and corporate data",
+            "attribution": "Crimson Collective (claimed)",
+            "status": "Under Investigation",
+            "source": "https://www.bleepingcomputer.com/news/security/us-broadband-provider-brightspeed-investigates-breach-claims/"
+          },
+          {
+            "date": "2026-01-06 (ongoing)",
+            "target": "Brightspeed (US broadband provider)",
+            "attackType": "Cyberattack / data breach (suspected)",
+            "impact": "Potential compromise of customer and internal data",
+            "attribution": "Unknown",
+            "status": "Under Investigation",
+            "source": "https://www.securityweek.com/brightspeed-investigating-cyberattack/"
+          },
+          {
+            "date": "2026-01-06 (confirmation)",
+            "target": "Sedgwick Government Solutions",
+            "attackType": "Cyberattack on file transfer system / Ransomware (TridentLocker)",
+            "impact": "Limited exposure; isolated system affected; 3.4GB data exfiltrated",
+            "attribution": "TridentLocker ransomware group",
+            "status": "Contained",
+            "source": "https://www.securityweek.com/sedgwick-confirms-cyberattack-on-government-subsidiary/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Android devices (globally)",
+            "attackType": "Botnet infection via exposed ADB and proxy networks",
+            "impact": "Large-scale botnet used for DDoS, proxy abuse, and monetization",
+            "attribution": "Kimwolf botnet operators",
+            "status": "Active",
+            "source": "https://thehackernews.com/2026/01/kimwolf-android-botnet-infects.html"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Government and critical infrastructure environments",
+            "attackType": "Advanced persistent malware",
+            "impact": "Enhanced stealth and persistence via Rust-based payloads",
+            "attribution": "China-linked threat actors (assessed)",
+            "status": "Ongoing",
+            "source": "https://www.cisa.gov/news-events/alerts/brickstorm-malware-update"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Resecurity employee network",
+            "attackType": "Targeted intrusion attempt",
+            "impact": "Attacker activity observed and contained via deception technology",
+            "attribution": "ShinyHunters (claimed)",
+            "status": "Contained",
+            "source": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-resecurity-hack-firm-says-its-a-honeypot/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Discord users",
+            "attackType": "Information-stealing malware",
+            "impact": "Theft of credentials and authentication tokens",
+            "attribution": "Criminal malware operators",
+            "status": "Active",
+            "source": "https://thehackernews.com/2026/01/new-vvs-stealer-malware-targets.html"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Leduc County (Canada)",
+            "attackType": "Ransomware",
+            "impact": "Disruption of municipal IT services",
+            "attribution": "Unknown",
+            "status": "Under Recovery",
+            "source": "https://www.leduc-county.com/news/cybersecurity-incident"
+          },
+          {
+            "date": "2026-01-03",
+            "target": "US utility companies (unverified claims)",
+            "attackType": "Data theft / underground market sale",
+            "impact": "Alleged critical infrastructure data offered for sale",
+            "attribution": "Unknown cybercriminal",
+            "status": "Under Investigation",
+            "source": "https://www.theregister.com/2026/01/03/cybercrook_claims_utility_data_sale/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Predator spyware-linked individuals",
+            "attackType": "State policy / sanctions decision",
+            "impact": "Removal of restrictions on spyware-linked executives",
+            "attribution": "US Government decision",
+            "status": "Implemented",
+            "source": "https://www.theregister.com/2026/01/06/trump_lifts_spyware_sanctions/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Emcore / HieFo transaction",
+            "attackType": "National security intervention",
+            "impact": "$2.9 million chip sale blocked",
+            "attribution": "US Government",
+            "status": "Blocked",
+            "source": "https://www.reuters.com/world/us/trump-blocks-emcore-chip-sale-security-concerns-2026-01-06/"
+          },
+          {
+            "date": "2026-01-04 to 2026-01-05",
+            "target": "Venezuelan infrastructure (power grid)",
+            "attackType": "Offensive cyber operations",
+            "impact": "Reported disruption of electrical infrastructure during military operation",
+            "attribution": "US Government (disclosed by President Trump)",
+            "status": "Confirmed by administration statements",
+            "source": "https://www.politico.com/news/2026/01/04/trump-remotely-turned-off-lights-venezuela-cyber-00176738"
+          },
+          {
             "date": "2026-01-02",
             "target": "Hundreds of ATMs across the United States (primarily Nebraska and nationwide)",
             "attackType": "Malware (Ploutus) / ATM Jackpotting",
@@ -250,7 +625,32 @@
         "trends": [
           "Insider Threat and Professional Misconduct: The guilty pleas of Ryan Goldberg and his co-defendant in the BlackCat/ALPHV ransomware case highlight the growing concern of insider threats and compromised security professionals. Cybersecurity expe...",
           "Ransomware Targeting Critical Services: Both Sedgwick (a major claims administrator serving federal contractors) and Covenant Health (a large healthcare provider) were hit by sophisticated ransomware groups. These incidents demonstrate that...",
-          "Healthcare Sector Vulnerabilities: The healthcare sector remains under siege, with Covenant Health's breach affecting 478,188 individuals. The attribution to Qilin ransomware group shows that established ransomware-as-a-service operati..."
+          "Healthcare Sector Vulnerabilities: The healthcare sector remains under siege, with Covenant Health's breach affecting 478,188 individuals. The attribution to Qilin ransomware group shows that established ransomware-as-a-service operati...",
+          "Software Supply Chain Exposure: Critical vulnerabilities in widely used open-source components continue to pose systemic risk, particularly in automation and backend frameworks with high privilege access....",
+          "Ransomware Affiliate Ecosystem Pressure: Law enforcement actions against ransomware affiliates demonstrate increasing international pressure on cybercrime networks, though the underlying economic incentives remain strong....",
+          "AI Expansion Increases Attack Surface: Multiple industry leaders warned that rapid AI adoption is creating unmanaged sprawl across enterprise environments, increasing security blind spots and governance challenges....",
+          "Cloud Services as Data Exfiltration Targets: Threat actors increasingly target enterprise cloud file-sharing platforms such as ShareFile, Nextcloud, and OwnCloud to steal corporate data at scale....",
+          "Automation and Hardware-Accelerated Security: Vendors are integrating AI-driven security controls directly into hardware platforms, leveraging technologies such as NVIDIA BlueField and accelerated telemetry pipelines....",
+          "Disinformation and Cyber Operations: Information vacuums during geopolitical operations continue to fuel disinformation campaigns, conspiracy narratives, and cyber-enabled influence operations....",
+          "Workforce Disruption in Cybersecurity: AI adoption is reshaping traditional entry-level roles in cybersecurity and IT, accelerating demand for higher-level analytical and governance skills....",
+          "AI-Driven Attack Enablement: Attackers increasingly leverage AI tools to automate reconnaissance, generate attack briefs, and scale social engineering campaigns using publicly available data....",
+          "Threat-Led Defense Models Gain Momentum: Security teams are shifting toward threat-led defense strategies, prioritizing real-world adversary behavior over compliance-driven controls....",
+          "Psychological and Organizational Cyber Risk: Rising stress and burnout among cybersecurity professionals are increasingly recognized as operational risk factors that weaken defensive capabilities....",
+          "Cloud Dependency and Systemic Risk: Cloud outages and centralized services pose growing risks to IoT ecosystems and always-connected devices, amplifying the impact of service disruptions....",
+          "IoT and Out-of-Band Management Exposure: New generations of IP-based KVM and OOB management devices introduce additional attack surfaces if improperly secured....",
+          "Developer Toolchains as an Attack Vector: Threat actors increasingly abuse IDEs, extensions, and developer tooling ecosystems to distribute malware through trusted workflows....",
+          "Botnet Evolution Targeting Modern Web Frameworks: Botnets are expanding beyond IoT to exploit modern frameworks such as React and Next.js, enabling cryptomining and payload delivery at scale....",
+          "Board-Level Cyber and AI Risk Awareness: Boards and executive leadership are being urged to treat AI-driven cyber risk as a strategic governance issue rather than a technical concern....",
+          "Security Tool Sprawl and Platform Consolidation: Organizations continue to struggle with excessive security tooling, driving renewed interest in platform consolidation and XDR approaches....",
+          "AI as an Expanding Identity and Abuse Vector: Agentic AI systems are increasingly treated as a new identity class, introducing challenges related to access control, lifecycle management, and accountability....",
+          "Honeypots and Deception Technology Gain Relevance: Organizations are increasingly deploying deception-based defenses to detect and study targeted attacks before production systems are impacted....",
+          "Third-Party and Supply Chain Exposure: Breaches at external vendors and service providers continue to expose downstream customers, reinforcing supply chain risk as a dominant threat vector....",
+          "Governance and Regulatory Pressure on AI Platforms: European regulators are intensifying scrutiny of AI tools following misuse incidents, signaling stricter enforcement of platform accountability....",
+          "Malware-as-a-Service Ecosystem Maturity: Commodity malware such as stealers and botnets continue to evolve, leveraging obfuscation and easy distribution through underground markets....",
+          "AI Agents as an Insider Threat Vector: Security leaders increasingly warn that autonomous AI agents behave like privileged insiders, requiring new access controls, identity governance, and accountability frameworks....",
+          "Cyber Sovereignty and Internet Fragmentation: Governments are asserting greater control over internet governance, cybersecurity norms, and digital infrastructure, challenging traditional multistakeholder models....",
+          "Home Routers as Strategic Attack Surface: Consumer-grade routers are emerging as a frontline cyber battlefield, with nation-state and criminal actors exploiting weak defaults and large-scale deployment....",
+          "Consolidation in the Cybersecurity Market: Large security vendors continue pursuing acquisitions to close visibility gaps and address tool sprawl driven by cloud and AI complexity...."
         ],
         "legislation": [],
         "threatActors": [
@@ -273,6 +673,36 @@
             "name": "Tren de Aragua Gang",
             "activity": "A Venezuelan criminal organization designated as a terrorist group, 54 members of Tren de Aragua were indicted for deploying Ploutus malware in ATM jackpotting attacks across the United States. The ga",
             "date": "January 2026"
+          },
+          {
+            "name": "Zestix",
+            "activity": "The threat actor Zestix has been linked to the sale of stolen corporate data obtained from compromised cloud file-sharing services.",
+            "date": "January 2026"
+          },
+          {
+            "name": "China-Linked APT Groups",
+            "activity": "Chinese state-linked cyber units continued sustained operations and development of advanced malware frameworks, including Rust-based Brickstorm payloads, to improve stealth and persistence in governme",
+            "date": "January 2026"
+          },
+          {
+            "name": "Russian Cybercriminal Groups",
+            "activity": "Russian-linked threat actors conducted coordinated malware campaigns against the European hospitality sector using advanced social engineering techniques.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Kimwolf Botnet Operators",
+            "activity": "Kimwolf botnet actors expanded their infrastructure by abusing exposed Android devices, monetizing access through proxy services and DDoS-for-hire offerings. The botnet has compromised more than 2 mil",
+            "date": "January 2026"
+          },
+          {
+            "name": "ShinyHunters",
+            "activity": "The ShinyHunters group claimed responsibility for breaching Resecurity, though the activity was later confirmed to have occurred within a controlled honeypot environment.",
+            "date": "January 2026"
+          },
+          {
+            "name": "VVS Stealer Operators",
+            "activity": "Criminal operators behind VVS Stealer continued distributing the malware via Telegram and underground marketplaces, targeting consumer platforms such as Discord.",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -289,20 +719,20 @@
         ],
         "buzzwords": [
           "ransomware",
+          "risk",
+          "malware",
+          "continue",
+          "increasingly",
+          "governance",
+          "cloud",
           "insider",
-          "covenant",
-          "professionals",
-          "sector",
-          "remains",
-          "crime",
-          "blackcat",
-          "alphv",
+          "frameworks",
+          "actors",
+          "driven",
           "compromised",
-          "sedgwick",
-          "federal",
-          "contractors",
-          "sophisticated",
-          "qilin"
+          "professionals",
+          "covenant",
+          "sector"
         ]
       },
       "asia": {
@@ -369,6 +799,42 @@
             "attribution": "China's military cyber units (denied by Beijing)",
             "status": "Ongoing; Taiwan bolstering cyber defenses",
             "source": "https://reuters.com/ and https://economictimes.indiatimes.com/"
+          },
+          {
+            "date": "2026-01-06 (additional reporting)",
+            "target": "Taiwan critical infrastructure",
+            "attackType": "Large-scale cyber intrusion attempts",
+            "impact": "Average of 2.6 million attacks per day during 2025",
+            "attribution": "China-linked threat actors",
+            "status": "Ongoing",
+            "source": "https://www.cyberscoop.com/chinese-cyberattacks-taiwan-infrastructure-report/"
+          },
+          {
+            "date": "2026-01-06 (official statement)",
+            "target": "Taiwanese government and infrastructure",
+            "attackType": "State-linked cyber intrusions",
+            "impact": "Sustained increase in attack volume",
+            "attribution": "China-linked threat actors",
+            "status": "Ongoing",
+            "source": "https://www.taipeitimes.com/News/front/archives/2026/01/06/2003791234"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Ukrainian military and government entities",
+            "attackType": "Malware delivery via messaging platform",
+            "impact": "Intelligence gathering and potential system compromise",
+            "attribution": "UAC-0184 (Russia-aligned)",
+            "status": "Ongoing",
+            "source": "https://thehackernews.com/2026/01/russia-aligned-hackers-abuse-viber.html"
+          },
+          {
+            "date": "2026-01-06 (recovery update)",
+            "target": "ManageMyHealth / Waikato District Health Board",
+            "attackType": "Cyberattack on healthcare IT systems / Data breach",
+            "impact": "Prolonged system outages affecting patient services; ~108,000 patients affected",
+            "attribution": "Unknown",
+            "status": "Recovered; security fixes implemented",
+            "source": "https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents"
           }
         ],
         "trends": [
@@ -377,7 +843,30 @@
           "Healthcare Data Breach in New Zealand: New Zealand's private patient portal Manage My Health suffered unauthorized access to health documents affecting approximately 108,000 people (~6-7% of its 1.8 million users). A $60,000 ransom was dem...",
           "Iranian APT Targeting Israel: Iran-linked APT42 (also known as Charming Kitten) leveraged infrastructure on January 2 to conduct spear-phishing attacks against Israeli security and defense workers via WhatsApp. The campaign used s...",
           "Mobile Messaging Platforms as Attack Vectors: The use of WhatsApp for spear-phishing in the APT42 campaign demonstrates that threat actors are increasingly leveraging mobile messaging platforms rather than traditional email to bypass security con...",
-          "Critical Infrastructure Vulnerability Warnings: Singapore's cybersecurity agency issued urgent warnings about CVE-2025-52691, a critical unauthenticated remote code execution flaw in SmarterMail servers that could allow attackers to steal credentia..."
+          "Critical Infrastructure Vulnerability Warnings: Singapore's cybersecurity agency issued urgent warnings about CVE-2025-52691, a critical unauthenticated remote code execution flaw in SmarterMail servers that could allow attackers to steal credentia...",
+          "AI Expansion Increases Attack Surface: Multiple industry leaders warned that rapid AI adoption is creating unmanaged sprawl across enterprise environments, increasing security blind spots and governance challenges....",
+          "Cloud Services as Data Exfiltration Targets: Threat actors increasingly target enterprise cloud file-sharing platforms such as ShareFile, Nextcloud, and OwnCloud to steal corporate data at scale....",
+          "Automation and Hardware-Accelerated Security: Vendors are integrating AI-driven security controls directly into hardware platforms, leveraging technologies such as NVIDIA BlueField and accelerated telemetry pipelines....",
+          "Disinformation and Cyber Operations: Information vacuums during geopolitical operations continue to fuel disinformation campaigns, conspiracy narratives, and cyber-enabled influence operations....",
+          "Workforce Disruption in Cybersecurity: AI adoption is reshaping traditional entry-level roles in cybersecurity and IT, accelerating demand for higher-level analytical and governance skills....",
+          "AI-Driven Attack Enablement: Attackers increasingly leverage AI tools to automate reconnaissance, generate attack briefs, and scale social engineering campaigns using publicly available data....",
+          "Threat-Led Defense Models Gain Momentum: Security teams are shifting toward threat-led defense strategies, prioritizing real-world adversary behavior over compliance-driven controls....",
+          "Psychological and Organizational Cyber Risk: Rising stress and burnout among cybersecurity professionals are increasingly recognized as operational risk factors that weaken defensive capabilities....",
+          "Cloud Dependency and Systemic Risk: Cloud outages and centralized services pose growing risks to IoT ecosystems and always-connected devices, amplifying the impact of service disruptions....",
+          "IoT and Out-of-Band Management Exposure: New generations of IP-based KVM and OOB management devices introduce additional attack surfaces if improperly secured....",
+          "Developer Toolchains as an Attack Vector: Threat actors increasingly abuse IDEs, extensions, and developer tooling ecosystems to distribute malware through trusted workflows....",
+          "Botnet Evolution Targeting Modern Web Frameworks: Botnets are expanding beyond IoT to exploit modern frameworks such as React and Next.js, enabling cryptomining and payload delivery at scale....",
+          "Board-Level Cyber and AI Risk Awareness: Boards and executive leadership are being urged to treat AI-driven cyber risk as a strategic governance issue rather than a technical concern....",
+          "Security Tool Sprawl and Platform Consolidation: Organizations continue to struggle with excessive security tooling, driving renewed interest in platform consolidation and XDR approaches....",
+          "AI as an Expanding Identity and Abuse Vector: Agentic AI systems are increasingly treated as a new identity class, introducing challenges related to access control, lifecycle management, and accountability....",
+          "Honeypots and Deception Technology Gain Relevance: Organizations are increasingly deploying deception-based defenses to detect and study targeted attacks before production systems are impacted....",
+          "Third-Party and Supply Chain Exposure: Breaches at external vendors and service providers continue to expose downstream customers, reinforcing supply chain risk as a dominant threat vector....",
+          "Governance and Regulatory Pressure on AI Platforms: European regulators are intensifying scrutiny of AI tools following misuse incidents, signaling stricter enforcement of platform accountability....",
+          "Malware-as-a-Service Ecosystem Maturity: Commodity malware such as stealers and botnets continue to evolve, leveraging obfuscation and easy distribution through underground markets....",
+          "AI Agents as an Insider Threat Vector: Security leaders increasingly warn that autonomous AI agents behave like privileged insiders, requiring new access controls, identity governance, and accountability frameworks....",
+          "Cyber Sovereignty and Internet Fragmentation: Governments are asserting greater control over internet governance, cybersecurity norms, and digital infrastructure, challenging traditional multistakeholder models....",
+          "Home Routers as Strategic Attack Surface: Consumer-grade routers are emerging as a frontline cyber battlefield, with nation-state and criminal actors exploiting weak defaults and large-scale deployment....",
+          "Consolidation in the Cybersecurity Market: Large security vendors continue pursuing acquisitions to close visibility gaps and address tool sprawl driven by cloud and AI complexity...."
         ],
         "legislation": [
           "China Cybersecurity Law Amendments: China's amended Cybersecurity Law took effect January 1, 2026, representing the most significant update since 2017. Key changes include mandatory 1-hour incident reporting for critical sectors, substa...",
@@ -406,6 +895,36 @@
             "name": "Opportunistic Attackers (SmarterMail)",
             "activity": "With exploit code for CVE-2025-52691 publicly available, opportunistic attackers across the region are targeting vulnerable SmarterMail email servers. The unauthenticated remote code execution flaw al",
             "date": "January 2026"
+          },
+          {
+            "name": "UAC-0184",
+            "activity": "Russia-aligned threat actor UAC-0184 continued high-intensity intelligence collection operations against Ukrainian government and military targets using messaging platforms, including Viber.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Kimwolf Botnet Operators",
+            "activity": "Kimwolf botnet actors expanded their infrastructure by abusing exposed Android devices, monetizing access through proxy services and DDoS-for-hire offerings.",
+            "date": "January 2026"
+          },
+          {
+            "name": "Zestix",
+            "activity": "The threat actor Zestix has been linked to the sale of stolen corporate data obtained from compromised cloud file-sharing services.",
+            "date": "January 2026"
+          },
+          {
+            "name": "China-Linked APT Groups",
+            "activity": "Chinese state-linked cyber units continued sustained operations against Taiwanese infrastructure throughout 2025, with elevated activity during political events, emphasizing long-term access and strat",
+            "date": "January 2026"
+          },
+          {
+            "name": "Russian Cybercriminal Groups",
+            "activity": "Russian-linked threat actors conducted coordinated malware campaigns using advanced social engineering techniques.",
+            "date": "January 2026"
+          },
+          {
+            "name": "RondoDox Botnet Operators",
+            "activity": "RondoDox botnet operators expanded their campaigns by exploiting React-based servers, deploying cryptominers and botnet payloads across enterprise and IoT environments.",
+            "date": "January 2026"
           }
         ],
         "keyTakeaways": [
@@ -421,21 +940,21 @@
           "Comply with new China and Hong Kong cybersecurity regulations"
         ],
         "buzzwords": [
+          "increasingly",
+          "platforms",
           "china",
           "state",
-          "taiwan",
-          "spear",
-          "phishing",
-          "hong",
-          "kong",
-          "also",
-          "sponsored",
-          "million",
-          "sustained",
-          "zealand",
-          "iranian",
-          "israeli",
-          "whatsapp"
+          "access",
+          "actors",
+          "governance",
+          "cloud",
+          "continue",
+          "risk",
+          "linked",
+          "scale",
+          "driven",
+          "operations",
+          "taiwan"
         ]
       }
     }
