@@ -30,6 +30,98 @@ The use of WhatsApp for spear-phishing in the APT42 campaign demonstrates that t
 
 Singapore's cybersecurity agency issued urgent warnings about CVE-2025-52691, a critical unauthenticated remote code execution flaw in SmarterMail servers that could allow attackers to steal credentials or take full control of mail systems.
 
+### AI Expansion Increases Attack Surface
+
+Multiple industry leaders warned that rapid AI adoption is creating unmanaged sprawl across enterprise environments, increasing security blind spots and governance challenges.
+
+### Cloud Services as Data Exfiltration Targets
+
+Threat actors increasingly target enterprise cloud file-sharing platforms such as ShareFile, Nextcloud, and OwnCloud to steal corporate data at scale.
+
+### Automation and Hardware-Accelerated Security
+
+Vendors are integrating AI-driven security controls directly into hardware platforms, leveraging technologies such as NVIDIA BlueField and accelerated telemetry pipelines.
+
+### Disinformation and Cyber Operations
+
+Information vacuums during geopolitical operations continue to fuel disinformation campaigns, conspiracy narratives, and cyber-enabled influence operations.
+
+### Workforce Disruption in Cybersecurity
+
+AI adoption is reshaping traditional entry-level roles in cybersecurity and IT, accelerating demand for higher-level analytical and governance skills.
+
+### AI-Driven Attack Enablement
+
+Attackers increasingly leverage AI tools to automate reconnaissance, generate attack briefs, and scale social engineering campaigns using publicly available data.
+
+### Threat-Led Defense Models Gain Momentum
+
+Security teams are shifting toward threat-led defense strategies, prioritizing real-world adversary behavior over compliance-driven controls.
+
+### Psychological and Organizational Cyber Risk
+
+Rising stress and burnout among cybersecurity professionals are increasingly recognized as operational risk factors that weaken defensive capabilities.
+
+### Cloud Dependency and Systemic Risk
+
+Cloud outages and centralized services pose growing risks to IoT ecosystems and always-connected devices, amplifying the impact of service disruptions.
+
+### IoT and Out-of-Band Management Exposure
+
+New generations of IP-based KVM and OOB management devices introduce additional attack surfaces if improperly secured.
+
+### Developer Toolchains as an Attack Vector
+
+Threat actors increasingly abuse IDEs, extensions, and developer tooling ecosystems to distribute malware through trusted workflows.
+
+### Botnet Evolution Targeting Modern Web Frameworks
+
+Botnets are expanding beyond IoT to exploit modern frameworks such as React and Next.js, enabling cryptomining and payload delivery at scale.
+
+### Board-Level Cyber and AI Risk Awareness
+
+Boards and executive leadership are being urged to treat AI-driven cyber risk as a strategic governance issue rather than a technical concern.
+
+### Security Tool Sprawl and Platform Consolidation
+
+Organizations continue to struggle with excessive security tooling, driving renewed interest in platform consolidation and XDR approaches.
+
+### AI as an Expanding Identity and Abuse Vector
+
+Agentic AI systems are increasingly treated as a new identity class, introducing challenges related to access control, lifecycle management, and accountability.
+
+### Honeypots and Deception Technology Gain Relevance
+
+Organizations are increasingly deploying deception-based defenses to detect and study targeted attacks before production systems are impacted.
+
+### Third-Party and Supply Chain Exposure
+
+Breaches at external vendors and service providers continue to expose downstream customers, reinforcing supply chain risk as a dominant threat vector.
+
+### Governance and Regulatory Pressure on AI Platforms
+
+European regulators are intensifying scrutiny of AI tools following misuse incidents, signaling stricter enforcement of platform accountability.
+
+### Malware-as-a-Service Ecosystem Maturity
+
+Commodity malware such as stealers and botnets continue to evolve, leveraging obfuscation and easy distribution through underground markets.
+
+### AI Agents as an Insider Threat Vector
+
+Security leaders increasingly warn that autonomous AI agents behave like privileged insiders, requiring new access controls, identity governance, and accountability frameworks.
+
+### Cyber Sovereignty and Internet Fragmentation
+
+Governments are asserting greater control over internet governance, cybersecurity norms, and digital infrastructure, challenging traditional multistakeholder models.
+
+### Home Routers as Strategic Attack Surface
+
+Consumer-grade routers are emerging as a frontline cyber battlefield, with nation-state and criminal actors exploiting weak defaults and large-scale deployment.
+
+### Consolidation in the Cybersecurity Market
+
+Large security vendors continue pursuing acquisitions to close visibility gaps and address tool sprawl driven by cloud and AI complexity.
+
 ## Major Incidents
 
 ### January 1, 2026 – China Cybersecurity Law Amendments
@@ -104,6 +196,68 @@ Singapore's Cybersecurity Agency issued an urgent warning about CVE-2025-52691, 
 
 Taiwan's National Security Bureau reported that mainland China-linked hackers launched an average of 2.63 million cyberattacks per day on Taiwan's critical infrastructure in 2025, representing a 6% increase. Targets included energy grids, hospitals, banks, and emergency services. The sustained campaign combines espionage, disruption attempts, and probing for vulnerabilities. Taiwan is monitoring the activity and preparing enhanced defenses. Beijing has denied involvement, but Taiwanese authorities attribute the attacks to China's military cyber units as part of broader cross-strait tensions.
 
+---
+
+### January 6 – Chinese Cyberattacks on Taiwan Continue - Additional Reporting
+
+**⚠️ TIMELINE UPDATE - Ongoing Campaign**
+
+- **Date:** 2026-01-06 (additional reporting)
+- **Target:** Taiwan critical infrastructure
+- **Attack Type:** Large-scale cyber intrusion attempts
+- **Impact:** Average of 2.6 million attacks per day during 2025
+- **Attribution:** China-linked threat actors
+- **Status:** Ongoing
+- **Source:** https://www.cyberscoop.com/chinese-cyberattacks-taiwan-infrastructure-report/
+
+Taiwanese authorities reported a sustained and significant increase in cyberattacks targeting critical infrastructure, coinciding with military drills and political events linked to China. This represents continued reporting on the same sustained campaign initially reported by Reuters/Economic Times on January 5.
+
+---
+
+### January 6 – NSB Report: Taiwan Cyberattacks Continue to Rise
+
+**⚠️ TIMELINE UPDATE - Official NSB Statement**
+
+- **Date:** 2026-01-06 (official statement)
+- **Target:** Taiwanese government and infrastructure
+- **Attack Type:** State-linked cyber intrusions
+- **Impact:** Sustained increase in attack volume
+- **Attribution:** China-linked threat actors
+- **Status:** Ongoing
+- **Source:** https://www.taipeitimes.com/News/front/archives/2026/01/06/2003791234
+
+Taiwan's National Security Bureau reported a continued rise in cyberattacks attributed to China, targeting government agencies and critical infrastructure amid heightened geopolitical tensions. This represents the official NSB statement confirming the ongoing campaign.
+
+---
+
+### January 6 – Russia-Aligned Hackers Abuse Viber to Target Ukrainian Government
+
+- **Date:** 2026-01-06
+- **Target:** Ukrainian military and government entities
+- **Attack Type:** Malware delivery via messaging platform
+- **Impact:** Intelligence gathering and potential system compromise
+- **Attribution:** UAC-0184 (Russia-aligned)
+- **Status:** Ongoing
+- **Source:** https://thehackernews.com/2026/01/russia-aligned-hackers-abuse-viber.html
+
+The Russia-aligned threat actor UAC-0184 was observed abusing the Viber messaging platform to deliver malicious ZIP archives targeting Ukrainian government and military organizations.
+
+---
+
+### January 6 – ManageMyHealth Recovery Update (Timeline Update)
+
+**⚠️ TIMELINE UPDATE - Same Incident as December 30**
+
+- **Date:** 2026-01-06 (recovery update)
+- **Target:** ManageMyHealth / Waikato District Health Board
+- **Attack Type:** Cyberattack on healthcare IT systems / Data breach
+- **Impact:** Prolonged system outages affecting patient services; ~108,000 patients affected
+- **Attribution:** Unknown
+- **Status:** Recovered; security fixes implemented
+- **Source:** https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents
+
+A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT services in New Zealand, impacting patient access and clinical workflows. This represents an update on the December 30 breach, reporting on the recovery efforts and security improvements implemented following the incident.
+
 ## Statistics
 
 ### Incident Volume
@@ -144,6 +298,34 @@ An unidentified threat actor conducted unauthorized access to the Manage My Heal
 ### Opportunistic Attackers (SmarterMail)
 
 With exploit code for CVE-2025-52691 publicly available, opportunistic attackers across the region are targeting vulnerable SmarterMail email servers. The unauthenticated remote code execution flaw allows complete system compromise, making it attractive to both cybercriminals and state-sponsored actors seeking to gain footholds in organizational networks.
+
+### UAC-0184
+
+Russia-aligned threat actor UAC-0184 continued high-intensity intelligence collection operations against Ukrainian government and military targets using messaging platforms, including Viber.
+
+### Kimwolf Botnet Operators
+
+Kimwolf botnet actors expanded their infrastructure by abusing exposed Android devices, monetizing access through proxy services and DDoS-for-hire offerings.
+
+### Zestix
+
+The threat actor Zestix has been linked to the sale of stolen corporate data obtained from compromised cloud file-sharing services.
+
+### China-Linked APT Groups
+
+Chinese state-linked cyber units continued sustained operations against Taiwanese infrastructure throughout 2025, with elevated activity during political events, emphasizing long-term access and strategic positioning rather than immediate disruption.
+
+### Russian Cybercriminal Groups
+
+Russian-linked threat actors conducted coordinated malware campaigns using advanced social engineering techniques.
+
+### RondoDox Botnet Operators
+
+RondoDox botnet operators expanded their campaigns by exploiting React-based servers, deploying cryptominers and botnet payloads across enterprise and IoT environments.
+
+### Commercial Spyware Ecosystem
+
+Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.
 
 ## Legislation & Policy Updates
 
