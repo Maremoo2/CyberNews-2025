@@ -328,6 +328,20 @@ Leduc County confirmed it was the victim of a ransomware attack discovered on De
 
 ---
 
+### January 3 – Cybercrook Claims Sale of Critical US Utility Infrastructure Data
+
+- **Date:** 2026-01-03
+- **Target:** US utility companies (unverified claims)
+- **Attack Type:** Data theft / underground market sale
+- **Impact:** Alleged critical infrastructure data offered for sale
+- **Attribution:** Unknown cybercriminal
+- **Status:** Under Investigation
+- **Source:** https://www.theregister.com/2026/01/03/cybercrook_claims_utility_data_sale/
+
+A cybercriminal claimed to be selling critical information about US utility infrastructure on underground markets. The authenticity and extent of the data breach remain under investigation by authorities, but the claims highlight ongoing threats to critical infrastructure operators.
+
+---
+
 ### January 6 – US Lifts Sanctions on Predator-Linked Spyware Executives
 
 - **Date:** 2026-01-06
