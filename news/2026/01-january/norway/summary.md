@@ -124,6 +124,20 @@ Large security vendors continue pursuing acquisitions to close visibility gaps a
 
 The exercise simulated a ransomware attack on municipal systems, testing crisis management protocols and inter-agency coordination. Participants included IT staff, municipal leadership, and emergency services.
 
+---
+
+### January 6 – Color Line Network Failure Disrupts Ferry Operations
+
+- **Date:** 2026-01-06
+- **Target:** Color Line (Kiel ferry operations)
+- **Attack Type:** Network failure (root cause under investigation)
+- **Impact:** Ferry departures halted across multiple routes; partial service restoration
+- **Attribution:** Unknown
+- **Status:** Under Investigation
+- **Source:** https://www.digi.no/artikler/color-lines-kiel-ferger-i-gang-igjen-etter-nettverksfeil/566599
+
+A network failure prevented multiple Color Line ferries from departing port. While traffic was partially restored later the same day, the incident exposed operational dependency on centralized IT and network systems in maritime transport.
+
 ## Legislation & Policy Updates
 
 ### Cybersecurity Certification

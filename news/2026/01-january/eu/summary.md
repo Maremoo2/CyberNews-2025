@@ -228,6 +228,22 @@ The ClickFix campaign leverages fake system error screens to coerce users into c
 
 ---
 
+### January 6 – European Space Agency Breach Confirmation (Update)
+
+**⚠️ TIMELINE UPDATE - Same Incident as January 2**
+
+- **Date:** 2026-01-06 (confirmation of earlier breach)
+- **Target:** European Space Agency (ESA)
+- **Attack Type:** Data breach
+- **Impact:** Alleged theft of up to 200GB of internal data
+- **Attribution:** Unknown (claims made by attackers)
+- **Status:** Under Investigation
+- **Source:** https://www.securityweek.com/european-space-agency-confirms-cybersecurity-breach/
+
+The European Space Agency confirmed it is responding to a cybersecurity incident after threat actors claimed to have stolen a significant volume of internal data. An investigation is ongoing. This represents official ESA confirmation of the breach initially reported on January 2.
+
+---
+
 ### January 6 – Communications Failure Grounds Flights in Greece (Cyberattack Unlikely)
 
 - **Date:** 2026-01-06

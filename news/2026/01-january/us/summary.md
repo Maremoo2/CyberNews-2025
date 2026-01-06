@@ -172,6 +172,34 @@ Security researchers warned that a critical memory leak vulnerability dubbed "Mo
 
 ---
 
+### January 6 – Critical AdonisJS Bodyparser Vulnerability Disclosed (CVE-2026-21440)
+
+- **Date:** 2026-01-06
+- **Target:** AdonisJS framework users
+- **Attack Type:** Remote code execution / arbitrary file write
+- **Impact:** Potential full server compromise via path traversal
+- **Attribution:** Not attributed
+- **Status:** Patch available
+- **Source:** https://thehackernews.com/2026/01/critical-adonisjs-bodyparser-flaw-cvss.html
+
+A critical vulnerability (CVSS 9.2) in the `@adonisjs/bodyparser` npm package allows remote attackers to write arbitrary files to affected servers. The flaw affects multipart file uploads and poses severe risk to exposed production environments.
+
+---
+
+### January 6 – n8n Workflow Automation Vulnerability Enables Command Execution (CVE-2025-68668)
+
+- **Date:** 2026-01-06
+- **Target:** n8n workflow automation platform
+- **Attack Type:** Arbitrary command execution
+- **Impact:** Authenticated attackers can execute system-level commands
+- **Attribution:** Not attributed
+- **Status:** Patch available
+- **Source:** https://thehackernews.com/2026/01/new-n8n-vulnerability-99-cvss-lets.html
+
+A protection mechanism failure in n8n (CVSS 9.9) allows authenticated users to execute system commands on the underlying host. The vulnerability affects multiple versions and poses high risk to organizations using n8n in automation pipelines.
+
+---
+
 ### January 6 – Brightspeed Investigates Data Breach Claims by Extortion Group
 
 - **Date:** 2026-01-06
@@ -183,6 +211,22 @@ Security researchers warned that a critical memory leak vulnerability dubbed "Mo
 - **Source:** https://www.bleepingcomputer.com/news/security/us-broadband-provider-brightspeed-investigates-breach-claims/
 
 Brightspeed confirmed it is investigating claims made by the Crimson Collective extortion group alleging unauthorized access and data theft. The company has not yet confirmed the scope of the breach.
+
+---
+
+### January 6 – Brightspeed Investigates Cyberattack Claims (Update)
+
+**⚠️ TIMELINE UPDATE - Same Incident**
+
+- **Date:** 2026-01-06 (ongoing)
+- **Target:** Brightspeed (US broadband provider)
+- **Attack Type:** Cyberattack / data breach (suspected)
+- **Impact:** Potential compromise of customer and internal data
+- **Attribution:** Unknown
+- **Status:** Under Investigation
+- **Source:** https://www.securityweek.com/brightspeed-investigating-cyberattack/
+
+Brightspeed confirmed it is investigating a cybersecurity incident after reports of unauthorized access. The company stated that it is working to assess the scope and impact of the intrusion. This represents additional reporting on the same incident reported above by BleepingComputer.
 
 ---
 
