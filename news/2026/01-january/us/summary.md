@@ -244,17 +244,19 @@ Brightspeed confirmed it is investigating a cybersecurity incident after reports
 
 ---
 
-### January 6 – Sedgwick Confirms Cyberattack on Government Subsidiary
+### January 6 – Sedgwick Government Solutions Breach Confirmation (Update)
 
-- **Date:** 2026-01-06
+**⚠️ TIMELINE UPDATE - Same Incident as December 31**
+
+- **Date:** 2026-01-06 (confirmation)
 - **Target:** Sedgwick Government Solutions
-- **Attack Type:** Cyberattack on file transfer system
-- **Impact:** Limited exposure; isolated system affected
-- **Attribution:** Unknown
+- **Attack Type:** Cyberattack on file transfer system / Ransomware (TridentLocker)
+- **Impact:** Limited exposure; isolated system affected; 3.4GB data exfiltrated
+- **Attribution:** TridentLocker ransomware group
 - **Status:** Contained
 - **Source:** https://www.securityweek.com/sedgwick-confirms-cyberattack-on-government-subsidiary/
 
-Sedgwick confirmed that a cyberattack affected an isolated file transfer system used by its government services subsidiary. The company stated that its core network remained unaffected.
+Sedgwick confirmed additional details about the cyberattack that affected an isolated file transfer system used by its government services subsidiary. The company stated that its core network remained unaffected. This represents official confirmation and additional details on the TridentLocker ransomware attack initially disclosed on December 31.
 
 ---
 

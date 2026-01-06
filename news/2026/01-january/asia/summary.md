@@ -244,17 +244,19 @@ The Russia-aligned threat actor UAC-0184 was observed abusing the Viber messagin
 
 ---
 
-### January 6 – ManageMyHealth Cyberattack Impacts New Zealand Healthcare Systems
+### January 6 – ManageMyHealth Recovery Update (Timeline Update)
 
-- **Date:** 2026-01-06
+**⚠️ TIMELINE UPDATE - Same Incident as December 30**
+
+- **Date:** 2026-01-06 (recovery update)
 - **Target:** ManageMyHealth / Waikato District Health Board
-- **Attack Type:** Cyberattack on healthcare IT systems
-- **Impact:** Prolonged system outages affecting patient services
+- **Attack Type:** Cyberattack on healthcare IT systems / Data breach
+- **Impact:** Prolonged system outages affecting patient services; ~108,000 patients affected
 - **Attribution:** Unknown
-- **Status:** Recovered
+- **Status:** Recovered; security fixes implemented
 - **Source:** https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents
 
-A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT services in New Zealand, impacting patient access and clinical workflows.
+A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT services in New Zealand, impacting patient access and clinical workflows. This represents an update on the December 30 breach, reporting on the recovery efforts and security improvements implemented following the incident.
 
 ## Statistics
 
