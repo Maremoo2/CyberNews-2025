@@ -354,6 +354,20 @@ The Trump administration lifted sanctions on executives linked to the Predator s
 
 US authorities blocked the sale of semiconductor assets to a Chinese-linked entity, citing national security and sensitive technology access risks.
 
+---
+
+### January 4-5 – US Cyber Operations Against Venezuela Disclosed
+
+- **Date:** 2026-01-04 to 2026-01-05
+- **Target:** Venezuelan infrastructure (power grid)
+- **Attack Type:** Offensive cyber operations
+- **Impact:** Reported disruption of electrical infrastructure during military operation
+- **Attribution:** US Government (disclosed by President Trump)
+- **Status:** Confirmed by administration statements
+- **Source:** https://www.politico.com/news/2026/01/04/trump-remotely-turned-off-lights-venezuela-cyber-00176738
+
+President Trump disclosed that the US used cyberattacks to remotely disable electrical infrastructure in Venezuela during a military operation to capture Venezuelan President Nicolás Maduro. The revelation marked a rare public acknowledgment of offensive US cyber operations, raising questions about international norms and cyber warfare disclosure practices.
+
 ### January 2, 2026 – ATM Jackpotting (Tren de Aragua Gang)
 
 - **Date:** 2026-01-02
