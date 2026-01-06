@@ -186,20 +186,6 @@ Brightspeed confirmed it is investigating claims made by the Crimson Collective 
 
 ---
 
-### January 6 – Brightspeed Investigates Cyberattack Claims
-
-- **Date:** 2026-01-06
-- **Target:** Brightspeed (US broadband provider)
-- **Attack Type:** Cyberattack / data breach (suspected)
-- **Impact:** Potential compromise of customer and internal data
-- **Attribution:** Unknown
-- **Status:** Under Investigation
-- **Source:** https://www.securityweek.com/brightspeed-investigating-cyberattack/
-
-Brightspeed confirmed it is investigating a cybersecurity incident after reports of unauthorized access. The company stated that it is working to assess the scope and impact of the intrusion.
-
----
-
 ### January 6 – Sedgwick Confirms Cyberattack on Government Subsidiary
 
 - **Date:** 2026-01-06

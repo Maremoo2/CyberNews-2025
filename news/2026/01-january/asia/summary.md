@@ -198,20 +198,6 @@ Taiwan's National Security Bureau reported that mainland China-linked hackers la
 
 ---
 
-### January 6 – Chinese Cyberattacks on Taiwan Infrastructure Surge in 2025
-
-- **Date:** 2026-01-06
-- **Target:** Taiwan critical infrastructure
-- **Attack Type:** Large-scale cyber intrusion attempts
-- **Impact:** Average of 2.6 million attacks per day during 2025
-- **Attribution:** China-linked threat actors
-- **Status:** Ongoing
-- **Source:** https://www.cyberscoop.com/chinese-cyberattacks-taiwan-infrastructure-report/
-
-Taiwanese authorities reported a sustained and significant increase in cyberattacks targeting critical infrastructure, coinciding with military drills and political events linked to China.
-
----
-
 ### January 6 – Russia-Aligned Hackers Abuse Viber to Target Ukrainian Government
 
 - **Date:** 2026-01-06
@@ -237,20 +223,6 @@ The Russia-aligned threat actor UAC-0184 was observed abusing the Viber messagin
 - **Source:** https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents
 
 A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT services in New Zealand, impacting patient access and clinical workflows.
-
----
-
-### January 6 – Chinese Cyberattacks Against Taiwan Continue to Rise, NSB Reports
-
-- **Date:** 2026-01-06
-- **Target:** Taiwanese government and infrastructure
-- **Attack Type:** State-linked cyber intrusions
-- **Impact:** Sustained increase in attack volume
-- **Attribution:** China-linked threat actors
-- **Status:** Ongoing
-- **Source:** https://www.taipeitimes.com/News/front/archives/2026/01/06/2003791234
-
-Taiwan's National Security Bureau reported a continued rise in cyberattacks attributed to China, targeting government agencies and critical infrastructure amid heightened geopolitical tensions.
 
 ## Statistics
 
