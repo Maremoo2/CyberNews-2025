@@ -944,24 +944,6 @@
     "impact": 4
   },
   {
-    "id": "2026024",
-    "date": "2026-01-02",
-    "title": "Sedgwick Confirms Cyber Incident Affecting Federal Contractor Subsidiary",
-    "summary": "Sedgwick confirmed a cybersecurity incident affecting its government-focused subsidiary after the TridentLocker ransomware group claimed responsibility and alleged data theft. The incident affects a major federal contractor subsidiary that provides services to sensitive government agencies.",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "The Record",
-    "sourceUrl": "https://therecord.media/sedgwick-cyber-incident-ransomware",
-    "tags": [
-      "ransomware",
-      "federal-contractor",
-      "tridentlocker",
-      "government",
-      "data-theft-claimed"
-    ],
-    "impact": 5
-  },
-  {
     "id": "2026025",
     "date": "2026-01-02",
     "title": "Aflac Notifies 22.6 Million People of June Data Theft Attack",
@@ -1293,21 +1275,5 @@
       "policy"
     ],
     "impact": 5
-  },
-  {
-    "id": "2026036",
-    "date": "2025-12-31",
-    "title": "Sedgwick TridentLocker Ransomware Attack",
-    "summary": "Sedgwick confirmed a cybersecurity incident affecting its federal contractor subsidiary, Sedgwick Government Solutions, after the TridentLocker ransomware group claimed to have stolen 3.4GB of data on...",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "Security Affairs",
-    "sourceUrl": "https://securityaffairs.com/174851/data-breach/sedgwick-tridentlocker-ransomware-attack.html",
-    "tags": [
-      "ransomware",
-      "data-breach",
-      "government"
-    ],
-    "impact": 3
   }
 ]
