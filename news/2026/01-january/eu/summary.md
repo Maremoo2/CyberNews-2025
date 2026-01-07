@@ -372,43 +372,43 @@ Security experts warned that a data breach affecting the Neighbourly community p
 
 ### January 7 – UK Government Announces £210 Million Cyber Action Plan
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** UK critical infrastructure and public services
 - **Attack Type:** Government initiative (not an attack)
 - **Impact:** Major investment in national cybersecurity capabilities and resilience
-- **Attribution:** UK Government
+- **Attribution:** UK Government / Department for Science, Innovation and Technology (DSIT)
 - **Status:** Announced
-- **Source:** https://www.theregister.com/
+- **Source:** https://www.gov.uk/government/news/new-cyber-action-plan-to-tackle-threats-and-strengthen-public-services
 
-The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development. Security experts are debating whether the investment level is sufficient given the scale of state-sponsored and ransomware threats facing the nation.
+The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, workforce development, and holding organizations accountable for fixing vulnerabilities. Security experts are debating whether the investment level is sufficient given the scale of state-sponsored and ransomware threats facing the nation. The announcement coincided with the second reading of the Cyber Security and Resilience Bill in Parliament.
 
 ---
 
 ### January 7 – UK Launches New Cyber Unit to Combat Cyber Threats
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** UK national security
 - **Attack Type:** Government initiative (not an attack)
 - **Impact:** New operational unit dedicated to cyber defense and response
 - **Attribution:** UK Government
 - **Status:** Established
-- **Source:** Government announcement
+- **Source:** https://www.gov.uk/government/publications/government-cyber-action-plan
 
-The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting, incident response coordination, and intelligence sharing across government and critical infrastructure operators.
+The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting, incident response coordination, intelligence sharing across government and critical infrastructure operators, and proactive defense rather than purely reactive measures.
 
 ---
 
 ### January 7 – UK Cybersecurity Failures Prompt Government Action
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** UK public and private sector
 - **Attack Type:** Policy analysis / strategic review
 - **Impact:** Recognition of systemic cybersecurity weaknesses requiring government intervention
-- **Attribution:** VitalLaw.com analysis
-- **Status:** Under Review
-- **Source:** https://www.vitallaw.com/
+- **Attribution:** VitalLaw.com analysis / UK Parliament review
+- **Status:** Under Review / Legislative action underway
+- **Source:** https://www.vitallaw.com/news/cybersecurity-failures-prompt-uk-government-to-set-new-path/
 
-A comprehensive analysis of recent UK cybersecurity failures highlighted systemic weaknesses in both public and private sector defenses, prompting the government to set a new strategic path. The review identified gaps in incident response, inadequate investment in security infrastructure, and insufficient coordination between agencies as key areas requiring immediate attention.
+A comprehensive analysis of recent UK cybersecurity failures highlighted systemic weaknesses in both public and private sector defenses, prompting the government to set a new strategic path. The review identified gaps in incident response, inadequate investment in security infrastructure, and insufficient coordination between agencies as key areas requiring immediate attention. TheRecord.media reported that the UK government admitted years of cyber policy have failed, necessitating a complete reset of the national cyber strategy. This led directly to the introduction of the Cyber Security and Resilience Bill and the £210 million action plan.
 
 ---
 

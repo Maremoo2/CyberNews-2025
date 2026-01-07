@@ -374,27 +374,27 @@ US authorities blocked the sale of semiconductor assets to a Chinese-linked enti
 
 ### January 7 – Microsoft Announces NVIDIA Rubin-Ready Azure Infrastructure
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** Microsoft Azure datacenter infrastructure
 - **Attack Type:** Strategic announcement (not an attack)
 - **Impact:** Seamless large-scale deployment of next-generation NVIDIA Rubin GPUs
 - **Attribution:** Microsoft Azure
 - **Status:** Announced / In Progress
-- **Source:** https://azure.microsoft.com/blog/
+- **Source:** https://azure.microsoft.com/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/
 
-Microsoft announced that Azure datacenters are strategically designed to accommodate NVIDIA's next-generation Rubin GPU platform at scale. The planning involves advanced power, cooling, networking, and rack design optimized years in advance, demonstrating the hyperscaler competitive advantage in AI infrastructure deployment.
+Microsoft announced at CES 2026 that Azure datacenters are strategically designed to accommodate NVIDIA's next-generation Rubin GPU platform at scale. The planning involves advanced power, cooling, networking, and rack design optimized years in advance, demonstrating the hyperscaler competitive advantage in AI infrastructure deployment.
 
 ---
 
 ### January 7 – Microsoft Launches Defender Experts Suite
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** Enterprise security operations
 - **Attack Type:** Security service launch (not an attack)
 - **Impact:** New managed detection and response (MDR) service for 24/7 SOC coverage
 - **Attribution:** Microsoft Security
 - **Status:** Generally Available
-- **Source:** https://www.microsoft.com/security/blog/
+- **Source:** https://www.microsoft.com/security/blog/2025/12/08/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/
 
 Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.
 
@@ -402,13 +402,13 @@ Microsoft introduced the Defender Experts Suite, a comprehensive managed securit
 
 ### January 7 – OpenAI Rolls Out GPT-5.2 "Codex-Max" to Select Users
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** Software development sector
 - **Attack Type:** Technology announcement (not an attack)
 - **Impact:** Advanced code generation and autonomous development capabilities
 - **Attribution:** OpenAI
 - **Status:** Limited Release
-- **Source:** https://www.bleepingcomputer.com/
+- **Source:** https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/
 
 OpenAI began rolling out GPT-5.2 "Codex-Max" to select users, featuring enhanced code generation, larger codebase handling, and more autonomous problem-solving capabilities. The model represents a shift from "AI as junior developer" to AI working more independently on complex software tasks.
 
@@ -416,13 +416,13 @@ OpenAI began rolling out GPT-5.2 "Codex-Max" to select users, featuring enhanced
 
 ### January 7 – FCC Finalizes New Robocall Penalties
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** Telecommunications operators and robocall violators
 - **Attack Type:** Regulatory enforcement (not an attack)
 - **Impact:** Stricter penalties for robocall violations; enhanced database security with 2FA
 - **Attribution:** Federal Communications Commission (FCC)
 - **Status:** Finalized
-- **Source:** https://cyberscoop.com/
+- **Source:** https://cyberscoop.com/fcc-finalizes-new-penalties-for-robocall-violators/
 
 The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.
 

@@ -211,23 +211,23 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Attack Type:** Remote Code Execution (RCE) via CVE-2026-0625
 - **Impact:** Critical vulnerability (CVSS 9.3) in end-of-life D-Link DSL routers being actively exploited
 - **Attribution:** Multiple threat actors
-- **Details:** Security researchers reported active exploitation of a critical remote code execution vulnerability in legacy D-Link DSL routers that are no longer supported with security patches. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely. This incident highlights the persistent risk of end-of-life network equipment that remains deployed but unpatched, making them attractive targets for threat actors.
-- **Source:** https://thehackernews.com/
+- **Details:** Security researchers reported active exploitation of a critical remote code execution vulnerability in legacy D-Link DSL routers that are no longer supported with security patches. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely through the dnscfg.cgi endpoint. This incident highlights the persistent risk of end-of-life network equipment that remains deployed but unpatched, making them attractive targets for threat actors. DNS hijacking attacks similar to the "DNSChanger" campaign have been observed exploiting this flaw.
+- **Source:** https://thehackernews.com/2026/01/ongoing-attacks-exploiting-critical-rce-vulnerability-in-legacy-d-link-dsl-routers.html
 
 ### January 7, 2026 – NordVPN Denies Data Breach After Leak Claims
 
 - **Attack Type:** Alleged data breach / unauthorized access
-- **Impact:** NordVPN denies compromise; leaked data claimed to be old or unusable
-- **Attribution:** Unknown
-- **Details:** NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, but the incident demonstrates the challenges VPN and security providers face in proving negative claims and managing reputation during breach rumors.
-- **Source:** https://www.securityweek.com/
+- **Impact:** NordVPN denies compromise; leaked data claimed to be old, dummy data, or from third-party test environment
+- **Attribution:** Threat actor "1011"
+- **Details:** NordVPN publicly denied breach allegations after a hacker claimed to have leaked internal development data from Salesforce development servers on underground forums. The company stated that their investigation found the leaked information was dummy data from an isolated third-party test environment, not production systems. The incident demonstrates the challenges VPN and security providers face in proving negative claims and managing reputation during breach rumors and potential disinformation campaigns.
+- **Source:** https://www.securityweek.com/nordvpn-denies-breach-after-hacker-leaks-data/
 
 ### January 7, 2026 – BleepingComputer Reports Data Breach
 
-- **Attack Type:** Data breach
+- **Attack Type:** Data breach  
 - **Impact:** Cybersecurity news site BleepingComputer confirms unauthorized access
 - **Attribution:** Unknown
-- **Details:** BleepingComputer, a major cybersecurity news publication, confirmed it experienced a data breach. The incident underscores that even security-focused organizations can become targets and demonstrates the importance of transparency in breach disclosure.
+- **Details:** BleepingComputer, a major cybersecurity news publication, confirmed it experienced a data breach. The incident underscores that even security-focused organizations can become targets and demonstrates the importance of transparency in breach disclosure. As a prominent security news outlet, BleepingComputer may have been targeted for information about vulnerabilities, security researchers, or upcoming stories.
 - **Source:** https://www.bleepingcomputer.com/
 
 ### January 7, 2026 – Taiwan Reports Tenfold Increase in Chinese Cyberattacks on Energy Sector
@@ -235,8 +235,8 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Attack Type:** State-sponsored cyberattacks on critical infrastructure
 - **Impact:** 10x increase in attacks targeting Taiwan's energy sector in 2025
 - **Attribution:** Chinese state-sponsored actors
-- **Details:** Taiwan's government reported a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks appear focused on reconnaissance and establishing persistent access rather than immediate disruption, representing a long-term strategic positioning effort.
-- **Source:** https://www.bleepingcomputer.com/
+- **Details:** Taiwan's government reported a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks appear focused on reconnaissance and establishing persistent access rather than immediate disruption, representing a long-term strategic positioning effort. This escalation is part of broader cross-strait cyber operations, with Taiwan's National Security Bureau previously reporting 2.63 million attacks per day across all critical infrastructure sectors.
+- **Source:** https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/
 
 ## Statistics
 

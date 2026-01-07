@@ -262,15 +262,15 @@ A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT se
 
 ### January 7 – Taiwan Reports Tenfold Increase in China's Energy Sector Attacks
 
-- **Date:** 2026-01-07
+- **Date:** 2026-01-06
 - **Target:** Taiwan energy sector critical infrastructure
 - **Attack Type:** State-sponsored cyberattacks
 - **Impact:** 10x increase in attacks targeting energy infrastructure throughout 2025
 - **Attribution:** Chinese state-sponsored threat actors
 - **Status:** Ongoing
-- **Source:** https://www.bleepingcomputer.com/
+- **Source:** https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/
 
-Taiwan's government disclosed that cyberattacks attributed to Chinese actors targeting the nation's energy sector increased tenfold throughout 2025. The attacks appear focused on reconnaissance, persistent access establishment, and infrastructure mapping rather than immediate disruption. This represents a strategic positioning effort, with threat actors potentially preparing for future operations. The campaign demonstrates China's focus on Taiwan's critical energy infrastructure as a long-term strategic target.
+Taiwan's government disclosed that cyberattacks attributed to Chinese actors targeting the nation's energy sector increased tenfold throughout 2025. The attacks appear focused on reconnaissance, persistent access establishment, and infrastructure mapping rather than immediate disruption. This represents a strategic positioning effort, with threat actors potentially preparing for future operations. The campaign demonstrates China's focus on Taiwan's critical energy infrastructure as a long-term strategic target. This escalation is part of the broader cyber campaign previously reported by Taiwan's National Security Bureau, which documented an average of 2.63 million cyberattacks per day across all critical infrastructure sectors.
 
 ---
 
