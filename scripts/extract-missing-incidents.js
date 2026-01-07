@@ -375,7 +375,7 @@ function assessImpactScore(impact, body, title) {
   const text = (impact + ' ' + body + ' ' + title).toLowerCase();
   
   // Critical (5): Mass casualties, national security, millions affected, major infrastructure
-  if (text.match(/\d+\.?\d*\s*million/)) {
+  if (text.match(/\d+(?:\.\d+)?\s*million/)) {
     // Check if it's about attacks or affected individuals
     if (text.includes('attack') || text.includes('affected') || text.includes('stolen') || text.includes('cyberattack')) {
       return 5;
@@ -398,7 +398,7 @@ function assessImpactScore(impact, body, title) {
   if (text.includes('critical') && text.includes('vulnerability')) {
     return 4;
   }
-  if (text.match(/\$\d+\.?\d*\s*million/)) {
+  if (text.match(/\$\d+(?:\.\d+)?\s*million/)) {
     return 4;
   }
   if (text.includes('ddos') && (text.includes('knocked') || text.includes('offline') || text.includes('disruption'))) {
