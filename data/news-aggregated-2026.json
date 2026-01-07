@@ -441,7 +441,7 @@
           },
           {
             "name": "Commercial Spyware Ecosystem",
-            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.",
+            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.\n\n---",
             "date": "January 2026"
           }
         ],
@@ -773,6 +773,15 @@
             "attribution": "Tren de Aragua gang (54 members indicted; designated terrorist organization from Venezuela)",
             "status": "Ongoing prosecution; charges include bank fraud, money laundering, material support to terrorism",
             "source": "https://hstoday.us/"
+          },
+          {
+            "date": "2026-01-06/07",
+            "target": "January 6-7 – SANS ISC Reviews Tailsnitch: Tailscale Security Audit Tool",
+            "attackType": "N/A",
+            "impact": "Automated security assessment for Tailscale VPN configurations",
+            "attribution": "Adversis security consulting / SANS Internet Storm Center",
+            "status": "Tool released and reviewed",
+            "source": "https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909"
           }
         ],
         "trends": [

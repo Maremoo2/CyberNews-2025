@@ -528,6 +528,22 @@ RondoDox botnet operators expanded their campaigns by exploiting React-based ser
 
 Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.
 
+---
+
+### January 6-7 – SANCS26 Cybersecurity School Opens for Registration
+
+- **Date:** 2026-01-06/07
+- **Target:** Students and young to mid-career professionals
+- **Type:** Education / Training announcement
+- **Impact:** Professional development opportunity in cybersecurity strategy
+- **Attribution:** The Hague Centre for Strategic Studies (HCSS)
+- **Status:** Registration open
+- **Source:** https://hcss.nl/news/sancs26-is-now-open-for-registration/
+
+The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions. The program aims to enhance professional capabilities in cyber security governance, national security implications, and strategic decision-making in the cyber domain.
+
+---
+
 ## Looking Ahead
 
 ### Key Takeaways

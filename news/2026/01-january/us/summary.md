@@ -564,6 +564,21 @@ President Trump disclosed that the US used cyberattacks to remotely disable elec
 
 A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of ATMs, forcing them to dispense cash in so-called "jackpotting" attacks. The stolen funds, totaling "many millions of dollars," were later laundered to fund terrorist activities. This represents a significant case connecting cybercrime, organized crime, and terrorism financing.
 
+---
+
+### January 6-7 – SANS ISC Reviews Tailsnitch: Tailscale Security Audit Tool
+
+- **Date:** 2026-01-06/07
+- **Type:** Security tool / audit capability
+- **Impact:** Automated security assessment for Tailscale VPN configurations
+- **Attribution:** Adversis security consulting / SANS Internet Storm Center
+- **Status:** Tool released and reviewed
+- **Source:** https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909
+
+SANS Internet Storm Center published a comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Tailscale is a popular overlay network built on WireGuard that enables direct peer-to-peer connections through NAT traversal. Tailsnitch automatically identifies security issues including outdated client versions, keys without expiration dates, missing ACL tests, and opportunities to enable advanced security features. The tool was created by Adversis security consulting and is available on GitHub. SANS reviewer Johannes Ullrich praised the tool for its ease of use and educational value, noting it not only identifies configuration problems but also teaches users about hardening options they may not be aware of. The review demonstrated practical findings on a real Tailscale network, identifying medium-severity issues (outdated software), low-severity concerns (keys without expiration), and informational suggestions (unused security features). The tool supports multiple output formats including JSON and can automatically remediate some issues. This represents an important contribution to securing the growing deployment of mesh VPN technologies in enterprise and home office environments.
+
+---
+
 ## Statistics
 
 ### Incident Volume

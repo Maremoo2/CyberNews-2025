@@ -1147,5 +1147,41 @@
       "manufacturing"
     ],
     "impact": 5
+  },
+  {
+    "id": "2026067",
+    "date": "2026-01-07",
+    "title": "SANCS26 Cybersecurity School Opens for Registration",
+    "summary": "The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions.",
+    "region": "EU",
+    "country": "Netherlands",
+    "sourceName": "HCSS",
+    "sourceUrl": "https://hcss.nl/news/sancs26-is-now-open-for-registration/",
+    "tags": [
+      "education",
+      "training",
+      "professional-development",
+      "cybersecurity-strategy"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "2026068",
+    "date": "2026-01-07",
+    "title": "SANS ISC Reviews Tailsnitch Security Audit Tool",
+    "summary": "SANS Internet Storm Center published comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Created by Adversis security consulting, the tool automatically identifies issues including outdated clients, keys without expiration, missing ACL tests, and unused security features. Supports JSON output and automated remediation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SANS ISC",
+    "sourceUrl": "https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909",
+    "tags": [
+      "security-tool",
+      "vpn",
+      "audit",
+      "tailscale",
+      "configuration",
+      "open-source"
+    ],
+    "impact": 2
   }
 ]
