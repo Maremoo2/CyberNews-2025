@@ -816,5 +816,372 @@
     "sourceUrl": "https://digitalforensicsmagazine.com/",
     "tags": [],
     "impact": 2
+  },
+  {
+    "id": "2026048",
+    "date": "2026-01-07",
+    "title": "D-Link Legacy Router RCE Vulnerability Actively Exploited",
+    "summary": "Critical remote code execution vulnerability (CVE-2026-0625, CVSS 9.3) in end-of-life D-Link DSL routers is being actively exploited by multiple threat actors. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely on legacy network devices that no longer receive security patches.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "rce",
+      "network-device",
+      "exploitation"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026049",
+    "date": "2026-01-07",
+    "title": "NordVPN Denies Data Breach After Leak Claims",
+    "summary": "NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, highlighting challenges VPN providers face in managing breach rumors and proving security.",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://www.securityweek.com/",
+    "tags": [
+      "data-breach",
+      "vpn",
+      "denial"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026050",
+    "date": "2026-01-07",
+    "title": "BleepingComputer Data Breach",
+    "summary": "Cybersecurity news publication BleepingComputer confirmed it experienced a data breach with unauthorized access to systems. The incident demonstrates that even security-focused organizations can become targets and emphasizes the importance of transparent breach disclosure.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "data-breach",
+      "media"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026051",
+    "date": "2026-01-07",
+    "title": "Taiwan Reports Tenfold Increase in Chinese Energy Sector Attacks",
+    "summary": "Taiwan disclosed a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks focus on reconnaissance and establishing persistent access rather than immediate disruption, representing long-term strategic positioning.",
+    "region": "ASIA",
+    "country": "Taiwan",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "state-sponsored",
+      "critical-infrastructure",
+      "energy",
+      "china"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026052",
+    "date": "2026-01-07",
+    "title": "UK Announces £210 Million Cyber Action Plan",
+    "summary": "The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Register",
+    "sourceUrl": "https://www.theregister.com/",
+    "tags": [
+      "government",
+      "policy",
+      "funding"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026053",
+    "date": "2026-01-07",
+    "title": "UK Launches New Cyber Unit",
+    "summary": "The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting and incident response coordination.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "UK Government",
+    "sourceUrl": "https://www.gov.uk/",
+    "tags": [
+      "government",
+      "defense",
+      "operations"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026054",
+    "date": "2026-01-07",
+    "title": "Microsoft Defender Experts Suite Launch",
+    "summary": "Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Microsoft Security",
+    "sourceUrl": "https://www.microsoft.com/security/blog/",
+    "tags": [
+      "security-service",
+      "soc",
+      "mdr"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026055",
+    "date": "2026-01-07",
+    "title": "FCC Finalizes New Robocall Penalties",
+    "summary": "The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberScoop",
+    "sourceUrl": "https://cyberscoop.com/",
+    "tags": [
+      "regulation",
+      "telecom",
+      "compliance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026056",
+    "date": "2026-01-07",
+    "title": "Microsoft Warns: Phishing Via Complex Email Routing Spoofs Internal Emails",
+    "summary": "Microsoft Threat Intelligence disclosed widespread phishing campaign exploiting misconfigured SPF/DKIM/DMARC and complex routing to deliver emails appearing as internal communications. Campaign uses Tycoon2FA PhaaS platform with AiTM capabilities to bypass MFA. Over 13 million malicious emails blocked in October 2025. Affects organizations with MX records not pointed to Office 365 and permissive DMARC policies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Microsoft Security Blog",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/",
+    "tags": [
+      "phishing",
+      "email-spoofing",
+      "tycoon2fa",
+      "aitm",
+      "bec",
+      "configuration"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026057",
+    "date": "2026-01-07",
+    "title": "Two Malicious Chrome Extensions Steal ChatGPT and DeepSeek Conversations",
+    "summary": "Researchers discovered two malicious Chrome Web Store extensions designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting AI tools as new data theft targets. Browser extensions have re-emerged as high-risk attack surface.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "malware",
+      "browser-extension",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "data-exfiltration"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026058",
+    "date": "2026-01-07",
+    "title": "Kimwolf Android Botnet Reaches 2+ Million Devices",
+    "summary": "Kimwolf botnet (Aisuru malware variant) has grown to over 2 million compromised Android hosts by exploiting residential proxy network vulnerabilities. Targets include smart TVs, set-top boxes, and IoT devices on internal networks. Operators monetize through residential proxy services and DDoS-for-hire. Compromised devices serve as gateways to internal network resources.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "botnet",
+      "android",
+      "iot",
+      "malware",
+      "ddos",
+      "residential-proxy"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026059",
+    "date": "2026-01-07",
+    "title": "Scattered Lapsus$/ShinyHunters Caught in Research Honeypot",
+    "summary": "Security researchers successfully trapped Scattered Lapsus$ Hunters (ShinyHunters) using realistic but fake datasets. The honeypot operation provided valuable TTP intelligence, confirming that elite threat actors can be deceived by well-crafted deception infrastructure. Demonstrates value of active defensive threat intelligence beyond passive monitoring.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "threat-intelligence",
+      "honeypot",
+      "lapsus",
+      "shinyhunters",
+      "deception"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026060",
+    "date": "2026-01-07",
+    "title": "MongoBleed Vulnerability Under Active Attack",
+    "summary": "Critical 'MongoBleed' vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "vulnerability",
+      "mongodb",
+      "database",
+      "exploitation",
+      "mongobleed"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026061",
+    "date": "2026-01-07",
+    "title": "n8n Workflow Automation Platform Critical Vulnerability",
+    "summary": "Critical security vulnerability (CVSS score 9.9) disclosed in n8n, a popular workflow automation platform. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Press",
+    "sourceUrl": "https://www.cyberpress.org/",
+    "tags": [
+      "vulnerability",
+      "n8n",
+      "workflow-automation",
+      "command-execution",
+      "iot"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026062",
+    "date": "2026-01-07",
+    "title": "TOTOLINK EX200 Firmware Flaw Enables Remote Device Takeover",
+    "summary": "CERT/CC disclosed unpatched security flaw (CVE-2025-65606) in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "totolink",
+      "firmware",
+      "iot",
+      "remote-takeover"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026063",
+    "date": "2026-01-07",
+    "title": "ClickFix Campaign Uses Fake BSoD to Deploy DCRat",
+    "summary": "PHALT#BLYX campaign leverages ClickFix-style lures displaying fake Windows Blue Screen of Death errors. Targets European hospitality sector with fake booking emails. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan through PowerShell scripts disguised as 'fixes'.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Securonix / Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "malware",
+      "dcrat",
+      "social-engineering",
+      "clickfix",
+      "hospitality",
+      "rat"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026064",
+    "date": "2026-01-07",
+    "title": "VS Code Forks Create Supply Chain Risk via Open VSX",
+    "summary": "Popular AI-powered VS Code forks (Cursor, Windsurf, Google Antigravity, Trae) recommend extensions that don't exist in Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names, potentially exposing developers to credential theft and code exfiltration.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "supply-chain",
+      "vscode",
+      "extensions",
+      "developer-tools",
+      "ide"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026065",
+    "date": "2026-01-07",
+    "title": "Sedgwick Government Solutions Breach Confirmed",
+    "summary": "Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was victim of a cybersecurity incident. TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary providing services to sensitive government agencies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer / The Record",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "ransomware",
+      "federal-contractor",
+      "tridentlocker",
+      "government",
+      "data-breach"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026066",
+    "date": "2026-01-07",
+    "title": "Jaguar Land Rover Reports Major Cyberattack Impact",
+    "summary": "Jaguar Land Rover revealed that a September 2025 cyberattack led to catastrophic 43% decline in Q3 wholesale volumes, with widespread supply chain disruption. The attack cost the UK economy an estimated $2.5 billion, demonstrating how cyberattacks on major manufacturers have cascading national economic effects.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "BleepingComputer / Cybersecurity Dive",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "cyberattack",
+      "automotive",
+      "supply-chain",
+      "economic-impact",
+      "manufacturing"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026067",
+    "date": "2026-01-07",
+    "title": "SANCS26 Cybersecurity School Opens for Registration",
+    "summary": "The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions.",
+    "region": "EU",
+    "country": "Netherlands",
+    "sourceName": "HCSS",
+    "sourceUrl": "https://hcss.nl/news/sancs26-is-now-open-for-registration/",
+    "tags": [
+      "education",
+      "training",
+      "professional-development",
+      "cybersecurity-strategy"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "2026068",
+    "date": "2026-01-07",
+    "title": "SANS ISC Reviews Tailsnitch Security Audit Tool",
+    "summary": "SANS Internet Storm Center published comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Created by Adversis security consulting, the tool automatically identifies issues including outdated clients, keys without expiration, missing ACL tests, and unused security features. Supports JSON output and automated remediation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SANS ISC",
+    "sourceUrl": "https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909",
+    "tags": [
+      "security-tool",
+      "vpn",
+      "audit",
+      "tailscale",
+      "configuration",
+      "open-source"
+    ],
+    "impact": 2
   }
 ]

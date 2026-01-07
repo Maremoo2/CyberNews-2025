@@ -138,6 +138,22 @@ The exercise simulated a ransomware attack on municipal systems, testing crisis 
 
 A network failure prevented multiple Color Line ferries from departing port. While traffic was partially restored later the same day, the incident exposed operational dependency on centralized IT and network systems in maritime transport.
 
+---
+
+### January 6-7 – IT Contract Legal Dispute: Company Avoids Million-Dollar Damages
+
+- **Date:** 2026-01-06/07 (court ruling December 7, 2025, reported January 2026)
+- **Target:** Norwegian IT contract dispute (Oslo municipality vs. Experis consulting firm)
+- **Attack Type:** Legal/contractual issue (not a cyber attack)
+- **Impact:** IT contract awarded to wrong supplier; legal proceedings regarding 15+ million NOK compensation claim
+- **Attribution:** Administrative/contractual matter
+- **Status:** Resolved in court (Oslo municipality won appeal)
+- **Source:** https://www.digi.no/artikler/slipper-unna-millionerstatning-etter-at-it-kontrakt-ble-gitt-til-konkurrent/565535
+
+A Norwegian IT contract dispute was resolved when Oslo municipality successfully won an appeal (Borgarting lagmannsrett) and avoided paying over 15 million NOK in damages after an IT contract was awarded to a different supplier than Experis had expected. The consulting firm Experis had originally challenged the 50-million NOK contract award, claiming it should have been awarded to them and demanding compensation for losses. KOFA (the complaint board for public procurement) initially sided with aspects of Experis's complaint in 2023, but the appeals court ruled in favor of Oslo municipality. The case highlights the importance of proper procurement procedures and contract management in government IT projects, though it represents an administrative and legal matter rather than a security incident.
+
+---
+
 ## Legislation & Policy Updates
 
 ### Cybersecurity Certification

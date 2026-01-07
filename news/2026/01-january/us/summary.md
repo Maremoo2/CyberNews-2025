@@ -372,6 +372,174 @@ US authorities blocked the sale of semiconductor assets to a Chinese-linked enti
 
 ---
 
+### January 7 – Microsoft Announces NVIDIA Rubin-Ready Azure Infrastructure
+
+- **Date:** 2026-01-06
+- **Target:** Microsoft Azure datacenter infrastructure
+- **Attack Type:** Strategic announcement (not an attack)
+- **Impact:** Seamless large-scale deployment of next-generation NVIDIA Rubin GPUs
+- **Attribution:** Microsoft Azure
+- **Status:** Announced / In Progress
+- **Source:** https://azure.microsoft.com/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/
+
+Microsoft announced at CES 2026 that Azure datacenters are strategically designed to accommodate NVIDIA's next-generation Rubin GPU platform at scale. The planning involves advanced power, cooling, networking, and rack design optimized years in advance, demonstrating the hyperscaler competitive advantage in AI infrastructure deployment.
+
+---
+
+### January 7 – Microsoft Launches Defender Experts Suite
+
+- **Date:** 2026-01-06
+- **Target:** Enterprise security operations
+- **Attack Type:** Security service launch (not an attack)
+- **Impact:** New managed detection and response (MDR) service for 24/7 SOC coverage
+- **Attribution:** Microsoft Security
+- **Status:** Generally Available
+- **Source:** https://www.microsoft.com/security/blog/2025/12/08/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/
+
+Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.
+
+---
+
+### January 7 – OpenAI Rolls Out GPT-5.2 "Codex-Max" to Select Users
+
+- **Date:** 2026-01-06
+- **Target:** Software development sector
+- **Attack Type:** Technology announcement (not an attack)
+- **Impact:** Advanced code generation and autonomous development capabilities
+- **Attribution:** OpenAI
+- **Status:** Limited Release
+- **Source:** https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/
+
+OpenAI began rolling out GPT-5.2 "Codex-Max" to select users, featuring enhanced code generation, larger codebase handling, and more autonomous problem-solving capabilities. The model represents a shift from "AI as junior developer" to AI working more independently on complex software tasks.
+
+---
+
+### January 7 – FCC Finalizes New Robocall Penalties
+
+- **Date:** 2026-01-06
+- **Target:** Telecommunications operators and robocall violators
+- **Attack Type:** Regulatory enforcement (not an attack)
+- **Impact:** Stricter penalties for robocall violations; enhanced database security with 2FA
+- **Attribution:** Federal Communications Commission (FCC)
+- **Status:** Finalized
+- **Source:** https://cyberscoop.com/fcc-finalizes-new-penalties-for-robocall-violators/
+
+The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.
+
+---
+
+### January 7 – ISC Stormcast Daily Podcast Episode #9756
+
+- **Date:** 2026-01-07
+- **Target:** Cybersecurity community
+- **Attack Type:** Educational resource (not an attack)
+- **Impact:** Daily threat intelligence and security news
+- **Attribution:** SANS Internet Storm Center
+- **Status:** Published
+- **Source:** https://isc.sans.edu/podcastdetail/9756
+
+The SANS Internet Storm Center published episode #9756 of their daily ISC Stormcast podcast, providing cybersecurity threat intelligence updates, vulnerability analysis, and security news for January 7, 2026.
+
+---
+
+### January 7 – AWS Marketplace Enhances Seller Reporting with Collections Visibility
+
+- **Date:** 2026-01-07
+- **Target:** AWS Marketplace sellers
+- **Attack Type:** Platform enhancement (not an attack)
+- **Impact:** Improved financial transparency and reporting for cloud vendors
+- **Attribution:** Amazon Web Services
+- **Status:** Released
+- **Source:** AWS Recent Announcements
+
+AWS announced enhanced reporting capabilities for AWS Marketplace sellers, providing greater visibility into payment collections and financial transactions across cloud services.
+
+---
+
+### January 7 – Amazon MQ Adds HTTP-Based Authentication Support
+
+- **Date:** 2026-01-07
+- **Target:** Amazon MQ message broker users
+- **Attack Type:** Security enhancement (not an attack)
+- **Impact:** Additional authentication options for message broker services
+- **Attribution:** Amazon Web Services
+- **Status:** Released
+- **Source:** AWS Recent Announcements
+
+Amazon MQ now supports HTTP-based authentication mechanisms, expanding authentication options for applications using the managed message broker service and improving integration flexibility.
+
+---
+
+### January 7 – Microsoft Cancels Exchange Online Bulk Email Rate Limiting Plans
+
+- **Date:** 2026-01-07
+- **Target:** Exchange Online bulk email senders
+- **Attack Type:** Policy change (not an attack)
+- **Impact:** Cancellation of planned 2,000 external recipient daily limit
+- **Attribution:** Microsoft
+- **Status:** Policy Cancelled
+- **Source:** https://www.bleepingcomputer.com/
+
+Microsoft announced cancellation of plans to impose a daily limit of 2,000 external recipients on Exchange Online bulk email senders. The decision means fewer technical restrictions for legitimate bulk senders but potentially greater opportunity for abuse in combination with phishing-as-a-service platforms. This increases pressure on Microsoft Defender for Office 365, DMARC enforcement, and user security awareness as technical controls are relaxed.
+
+---
+
+### January 7 – Threat Intelligence Evolution: From Indicators to Strategic Decision Support
+
+- **Date:** 2026-01-07
+- **Target:** Cybersecurity industry / threat intelligence practitioners
+- **Attack Type:** Industry trend analysis (not an attack)
+- **Impact:** Shift in how threat intelligence is used and valued
+- **Attribution:** Industry analysis
+- **Status:** Ongoing trend
+- **Source:** Multiple industry sources
+
+Security analysts report that threat intelligence is evolving from simple "indicator lists" (IOCs, IP addresses) to strategic decision support for executive leadership, risk management, and business partnerships. Modern TI is now used to build customer trust, document security maturity, support compliance requirements, and inform board-level decisions. This represents a fundamental shift in how cybersecurity intelligence is positioned—moving from tactical technical data to strategic business enabler.
+
+---
+
+### January 7 – Ransomware Attacks Increase in North Carolina
+
+- **Date:** 2026-01-07
+- **Target:** North Carolina local governments and businesses
+- **Attack Type:** Ransomware
+- **Impact:** Increased ransomware activity affecting local organizations
+- **Attribution:** Various ransomware groups
+- **Status:** Ongoing
+- **Source:** WRAL News
+
+Local authorities and businesses in North Carolina report an increase in ransomware attacks. Security experts emphasize the importance of recognizing early warning signs (unusual login activity, encrypted network traffic) and maintaining robust backup and incident response procedures. While not technically groundbreaking, the trend underscores that ransomware remains a persistent volume problem affecting local governments and small-to-medium businesses, not just high-profile national targets.
+
+---
+
+### January 7 – Woodstock, Ontario Implements Online Voting System
+
+- **Date:** 2026-01-07
+- **Target:** Woodstock, Ontario municipal elections
+- **Attack Type:** Technology adoption (not an attack)
+- **Impact:** Introduction of internet voting to increase voter participation
+- **Attribution:** Woodstock municipal government
+- **Status:** Implemented
+- **Source:** CBC News
+
+The municipality of Woodstock, Ontario announced the adoption of online voting for upcoming municipal elections. While intended to increase voter participation, cybersecurity experts have raised concerns about verifiability, trust, and democratic integrity in internet-based voting systems.
+
+---
+
+### January 7 – Sedgwick Confirms Breach at Federal Contractor Subsidiary
+
+- **Date:** 2026-01-07
+- **Target:** Sedgwick Government Solutions (federal contractor subsidiary)
+- **Attack Type:** Cyberattack / data breach (TridentLocker ransomware claimed)
+- **Impact:** Security breach affecting federal contractor providing services to sensitive government agencies
+- **Attribution:** TridentLocker ransomware group (claimed responsibility)
+- **Status:** Under investigation
+- **Source:** https://www.bleepingcomputer.com/ / https://therecord.media/
+
+Claims administration and risk management company Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was the victim of a cybersecurity incident. The TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary that provides services to sensitive government agencies. The incident highlights the persistent threat to government contractors and the supply chain risks they represent to federal operations. As a major federal contractor, any compromise of Sedgwick Government Solutions could have implications for sensitive government data and operations.
+
+---
+
 ### January 4-5 – US Cyber Operations Against Venezuela Disclosed
 
 - **Date:** 2026-01-04 to 2026-01-05
@@ -395,6 +563,21 @@ President Trump disclosed that the US used cyberattacks to remotely disable elec
 - **Source:** https://hstoday.us/
 
 A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of ATMs, forcing them to dispense cash in so-called "jackpotting" attacks. The stolen funds, totaling "many millions of dollars," were later laundered to fund terrorist activities. This represents a significant case connecting cybercrime, organized crime, and terrorism financing.
+
+---
+
+### January 6-7 – SANS ISC Reviews Tailsnitch: Tailscale Security Audit Tool
+
+- **Date:** 2026-01-06/07
+- **Type:** Security tool / audit capability
+- **Impact:** Automated security assessment for Tailscale VPN configurations
+- **Attribution:** Adversis security consulting / SANS Internet Storm Center
+- **Status:** Tool released and reviewed
+- **Source:** https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909
+
+SANS Internet Storm Center published a comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Tailscale is a popular overlay network built on WireGuard that enables direct peer-to-peer connections through NAT traversal. Tailsnitch automatically identifies security issues including outdated client versions, keys without expiration dates, missing ACL tests, and opportunities to enable advanced security features. The tool was created by Adversis security consulting and is available on GitHub. SANS reviewer Johannes Ullrich praised the tool for its ease of use and educational value, noting it not only identifies configuration problems but also teaches users about hardening options they may not be aware of. The review demonstrated practical findings on a real Tailscale network, identifying medium-severity issues (outdated software), low-severity concerns (keys without expiration), and informational suggestions (unused security features). The tool supports multiple output formats including JSON and can automatically remediate some issues. This represents an important contribution to securing the growing deployment of mesh VPN technologies in enterprise and home office environments.
+
+---
 
 ## Statistics
 

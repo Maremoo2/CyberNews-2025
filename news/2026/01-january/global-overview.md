@@ -206,6 +206,110 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Details:** The UK's National Cyber Security Centre launched a new Sanitisation Service Assurance initiative on January 5, providing formal testing and certification of data sanitisation (secure data destruction) equipment and processes. This initiative enhances trust in wiping and erasing sensitive data, establishing standards for organizations handling confidential information. The service is active and available immediately.
 - **Source:** https://digitalforensicsmagazine.com/
 
+### January 6-7, 2026 – Active Exploitation of Legacy D-Link DSL Router RCE Vulnerability
+
+- **Attack Type:** Remote Code Execution (RCE) via CVE-2026-0625
+- **Impact:** Critical vulnerability (CVSS 9.3) in end-of-life D-Link DSL routers being actively exploited
+- **Attribution:** Multiple threat actors
+- **Details:** Security researchers reported active exploitation of a critical remote code execution vulnerability in legacy D-Link DSL routers that are no longer supported with security patches. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely through the dnscfg.cgi endpoint. This incident highlights the persistent risk of end-of-life network equipment that remains deployed but unpatched, making them attractive targets for threat actors. DNS hijacking attacks similar to the "DNSChanger" campaign have been observed exploiting this flaw.
+- **Source:** https://thehackernews.com/2026/01/ongoing-attacks-exploiting-critical-rce-vulnerability-in-legacy-d-link-dsl-routers.html
+
+### January 7, 2026 – NordVPN Denies Data Breach After Leak Claims
+
+- **Attack Type:** Alleged data breach / unauthorized access
+- **Impact:** NordVPN denies compromise; leaked data claimed to be old, dummy data, or from third-party test environment
+- **Attribution:** Threat actor "1011"
+- **Details:** NordVPN publicly denied breach allegations after a hacker claimed to have leaked internal development data from Salesforce development servers on underground forums. The company stated that their investigation found the leaked information was dummy data from an isolated third-party test environment, not production systems. The incident demonstrates the challenges VPN and security providers face in proving negative claims and managing reputation during breach rumors and potential disinformation campaigns.
+- **Source:** https://www.securityweek.com/nordvpn-denies-breach-after-hacker-leaks-data/
+
+### January 7, 2026 – BleepingComputer Reports Data Breach
+
+- **Attack Type:** Data breach  
+- **Impact:** Cybersecurity news site BleepingComputer confirms unauthorized access
+- **Attribution:** Unknown
+- **Details:** BleepingComputer, a major cybersecurity news publication, confirmed it experienced a data breach. The incident underscores that even security-focused organizations can become targets and demonstrates the importance of transparency in breach disclosure. As a prominent security news outlet, BleepingComputer may have been targeted for information about vulnerabilities, security researchers, or upcoming stories.
+- **Source:** https://www.bleepingcomputer.com/
+
+### January 7, 2026 – Taiwan Reports Tenfold Increase in Chinese Cyberattacks on Energy Sector
+
+- **Attack Type:** State-sponsored cyberattacks on critical infrastructure
+- **Impact:** 10x increase in attacks targeting Taiwan's energy sector in 2025
+- **Attribution:** Chinese state-sponsored actors
+- **Details:** Taiwan's government reported a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks appear focused on reconnaissance and establishing persistent access rather than immediate disruption, representing a long-term strategic positioning effort. This escalation is part of broader cross-strait cyber operations, with Taiwan's National Security Bureau previously reporting 2.63 million attacks per day across all critical infrastructure sectors.
+- **Source:** https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/
+
+### January 7, 2026 – Microsoft Warns: Phishing Actors Exploit Complex Routing to Spoof Internal Emails
+
+- **Attack Type:** Advanced phishing via domain spoofing and misconfigured email authentication
+- **Impact:** Widespread phishing campaign using Tycoon2FA PhaaS platform; 13+ million malicious emails blocked in October 2025
+- **Attribution:** Multiple threat actors using Phishing-as-a-Service (Storm-1747 actor profile)
+- **Details:** Microsoft Threat Intelligence disclosed a sophisticated phishing campaign exploiting complex email routing scenarios and misconfigured spoof protections (SPF, DKIM, DMARC) to send emails that appear to originate internally. Threat actors leverage organizations with MX records not pointed to Office 365 and permissive DMARC policies to deliver credential phishing and BEC scams. The attacks use Tycoon2FA adversary-in-the-middle (AiTM) phishing to bypass MFA, with lures themed around voicemails, HR communications, password resets, and fake invoices. The phishing emails show matching "To" and "From" addresses, making them appear as internal communications. This is not a Direct Send vulnerability but a configuration problem requiring strict DMARC enforcement and proper third-party connector setup.
+- **Source:** https://www.microsoft.com/en-us/security/blog/
+
+### January 7, 2026 – Two Malicious Chrome Extensions Caught Stealing ChatGPT and DeepSeek Conversations
+
+- **Attack Type:** Malicious browser extensions / data exfiltration
+- **Impact:** Chrome extensions designed to steal AI chat conversations and sensitive data
+- **Attribution:** Unknown threat actors
+- **Details:** Cybersecurity researchers discovered two malicious extensions on the Chrome Web Store specifically designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting a new attack vector as AI tools become valuable data sources. This demonstrates that browser extensions have re-emerged as a high-risk attack surface, with AI platforms now targeted for data theft alongside traditional credential harvesting.
+- **Source:** https://thehackernews.com/
+
+### January 7, 2026 – Kimwolf Android Botnet Grows to 2+ Million Devices via Residential Proxies
+
+- **Attack Type:** Android botnet / malware propagation via residential proxy networks
+- **Impact:** Over 2 million Android devices compromised, including TVs and IoT devices on internal networks
+- **Attribution:** Kimwolf botnet operators (Aisuru malware variant)
+- **Details:** The Kimwolf botnet, an Android variant of Aisuru malware, has grown to over two million compromised hosts by exploiting vulnerabilities in residential proxy networks. The botnet targets devices on internal networks, using infected Android devices (including smart TVs and IoT-like devices) as entry points to corporate and home networks. Operators monetize access through residential proxy services and DDoS-for-hire platforms. The significant concern is the pivot capability: compromised Android devices serve as gateways to internal network resources beyond simple DDoS or click fraud.
+- **Source:** https://www.bleepingcomputer.com/
+
+### January 7, 2026 – Scattered Lapsus$/ShinyHunters Caught in Researcher Honeypot
+
+- **Attack Type:** Threat actor deception / honeypot operation
+- **Impact:** Security researchers successfully trapped known threat actors using fake datasets
+- **Attribution:** Scattered Lapsus$ Hunters (also known as ShinyHunters)
+- **Details:** Cybersecurity researchers deployed a sophisticated honeypot using realistic but mostly fake datasets to lure and study the Scattered Lapsus$ Hunters group (also known as ShinyHunters). The operation provided valuable intelligence on the threat actors' tactics, techniques, and procedures (TTPs), confirming that even "elite" threat actor groups can be deceived by well-crafted deception infrastructure. This demonstrates the value of active defensive threat intelligence and honeypot operations beyond passive logging and monitoring.
+- **Source:** https://www.darkreading.com/
+
+### January 7, 2026 – MongoBleed Vulnerability Under Active Attack
+
+- **Attack Type:** Critical database vulnerability exploitation
+- **Impact:** MongoDB implementations vulnerable to data exposure; exploit code published, attacks observed within days
+- **Attribution:** Multiple threat actors
+- **Details:** Critical "MongoBleed" vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog, urging immediate patching. The vulnerability highlights ongoing security challenges in open-source database systems and the shortened window between disclosure and exploitation.
+- **Source:** https://www.darkreading.com/
+
+### January 7, 2026 – n8n Workflow Automation Platform Hit by Arbitrary Command Execution Flaw
+
+- **Attack Type:** Critical vulnerability / arbitrary command execution
+- **Impact:** Critical security vulnerability in popular workflow automation platform
+- **Attribution:** Security researchers disclosure
+- **Details:** A critical security vulnerability (CVSS score 9.9) was disclosed in n8n, a popular workflow automation platform used by enterprises. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems. The vulnerability affects organizations using n8n for workflow automation and requires immediate patching.
+- **Source:** https://www.cyberpress.org/
+
+### January 7, 2026 – TOTOLINK EX200 Firmware Flaw Enables Remote Device Takeover
+
+- **Attack Type:** Unpatched firmware vulnerability / remote code execution
+- **Impact:** Full remote device control possible on TOTOLINK EX200 wireless range extenders
+- **Attribution:** CERT/CC disclosure (CVE-2025-65606)
+- **Details:** CERT Coordination Center disclosed an unpatched security flaw in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices. This represents another instance of IoT/networking equipment security gaps, where firmware vulnerabilities remain unpatched in deployed devices.
+- **Source:** https://thehackernews.com/
+
+### January 7, 2026 – ClickFix Campaign Uses Fake Blue Screen of Death to Deploy DCRat
+
+- **Attack Type:** Social engineering / malware deployment (DCRat RAT)
+- **Impact:** Multi-stage campaign targeting European hospitality sector
+- **Attribution:** PHALT#BLYX campaign operators
+- **Details:** Cybersecurity researchers disclosed a new campaign dubbed PHALT#BLYX leveraging ClickFix-style lures displaying fake Windows Blue Screen of Death (BSoD) errors. The campaign targets European hospitality sector with fake booking emails that redirect hotel staff to malicious pages. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan. The attack demonstrates evolution of social engineering tactics using familiar system error messages to trick users into executing malicious commands, including PowerShell scripts disguised as "fixes."
+- **Source:** https://www.securonix.com/ / https://www.darkreading.com/
+
+### January 7, 2026 – VS Code Forks Create Supply Chain Risk via Open VSX Registry
+
+- **Attack Type:** Software supply chain risk / extension recommendation vulnerability
+- **Impact:** Popular AI-powered VS Code forks recommend non-existent extensions
+- **Attribution:** Security research disclosure (Koi Security)
+- **Details:** Popular AI-powered Microsoft Visual Studio Code forks including Cursor, Windsurf, Google Antigravity, and Trae have been found to recommend extensions that don't exist in the Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names. The issue affects developers using these IDE forks, potentially exposing them to malicious extensions that could steal credentials, inject backdoors, or exfiltrate code. This highlights risks in the expanding VS Code fork ecosystem where extension marketplaces may have gaps.
+- **Source:** https://thehackernews.com/
+
 ## Statistics
 
 ### Global Incident Volume (January 1-5, 2026)

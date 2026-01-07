@@ -368,6 +368,64 @@ Westminster City Council confirmed that sensitive data was stolen during a cyber
 
 Security experts warned that a data breach affecting the Neighbourly community platform has left users vulnerable to targeted attacks. The breach exposed user information, raising concerns about subsequent phishing and social engineering campaigns targeting affected individuals.
 
+---
+
+### January 7 – UK Government Announces £210 Million Cyber Action Plan
+
+- **Date:** 2026-01-06
+- **Target:** UK critical infrastructure and public services
+- **Attack Type:** Government initiative (not an attack)
+- **Impact:** Major investment in national cybersecurity capabilities and resilience
+- **Attribution:** UK Government / Department for Science, Innovation and Technology (DSIT)
+- **Status:** Announced
+- **Source:** https://www.gov.uk/government/news/new-cyber-action-plan-to-tackle-threats-and-strengthen-public-services
+
+The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, workforce development, and holding organizations accountable for fixing vulnerabilities. Security experts are debating whether the investment level is sufficient given the scale of state-sponsored and ransomware threats facing the nation. The announcement coincided with the second reading of the Cyber Security and Resilience Bill in Parliament.
+
+---
+
+### January 7 – UK Launches New Cyber Unit to Combat Cyber Threats
+
+- **Date:** 2026-01-06
+- **Target:** UK national security
+- **Attack Type:** Government initiative (not an attack)
+- **Impact:** New operational unit dedicated to cyber defense and response
+- **Attribution:** UK Government
+- **Status:** Established
+- **Source:** https://www.gov.uk/government/publications/government-cyber-action-plan
+
+The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting, incident response coordination, intelligence sharing across government and critical infrastructure operators, and proactive defense rather than purely reactive measures.
+
+---
+
+### January 7 – UK Cybersecurity Failures Prompt Government Action
+
+- **Date:** 2026-01-06
+- **Target:** UK public and private sector
+- **Attack Type:** Policy analysis / strategic review
+- **Impact:** Recognition of systemic cybersecurity weaknesses requiring government intervention
+- **Attribution:** VitalLaw.com analysis / UK Parliament review
+- **Status:** Under Review / Legislative action underway
+- **Source:** https://www.vitallaw.com/news/cybersecurity-failures-prompt-uk-government-to-set-new-path/
+
+A comprehensive analysis of recent UK cybersecurity failures highlighted systemic weaknesses in both public and private sector defenses, prompting the government to set a new strategic path. The review identified gaps in incident response, inadequate investment in security infrastructure, and insufficient coordination between agencies as key areas requiring immediate attention. TheRecord.media reported that the UK government admitted years of cyber policy have failed, necessitating a complete reset of the national cyber strategy. This led directly to the introduction of the Cyber Security and Resilience Bill and the £210 million action plan.
+
+---
+
+### January 7 – Jaguar Land Rover Reports Major Financial Impact from September Cyberattack
+
+- **Date:** 2026-01-07
+- **Target:** Jaguar Land Rover automotive manufacturing and supply chain
+- **Attack Type:** Cyberattack with supply chain disruption
+- **Impact:** 43% decline in Q3 wholesale volumes; approximately $2.5 billion cost to UK economy
+- **Attribution:** Unknown (under investigation)
+- **Status:** Ongoing impact assessment
+- **Source:** https://www.bleepingcomputer.com/ / https://www.cybersecuritydive.com/
+
+Jaguar Land Rover (JLR) revealed that a September 2025 cyberattack led to a catastrophic 43% decline in third-quarter wholesale volumes, with widespread disruption to the company's supply chain. The attack's economic impact extended beyond JLR itself, costing the UK economy an estimated $2.5 billion. This incident exemplifies how cyberattacks on major manufacturers can have cascading effects throughout national economies, affecting suppliers, dealers, and the broader automotive ecosystem. The scale of business disruption demonstrates that automotive sector cybersecurity incidents are no longer just IT problems but major economic events with national implications.
+
+---
+
 ## Statistics
 
 ### Incident Volume
@@ -469,6 +527,22 @@ RondoDox botnet operators expanded their campaigns by exploiting React-based ser
 ### Commercial Spyware Ecosystem
 
 Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.
+
+---
+
+### January 6-7 – SANCS26 Cybersecurity School Opens for Registration
+
+- **Date:** 2026-01-06/07
+- **Target:** Students and young to mid-career professionals
+- **Type:** Education / Training announcement
+- **Impact:** Professional development opportunity in cybersecurity strategy
+- **Attribution:** The Hague Centre for Strategic Studies (HCSS)
+- **Status:** Registration open
+- **Source:** https://hcss.nl/news/sancs26-is-now-open-for-registration/
+
+The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions. The program aims to enhance professional capabilities in cyber security governance, national security implications, and strategic decision-making in the cyber domain.
+
+---
 
 ## Looking Ahead
 

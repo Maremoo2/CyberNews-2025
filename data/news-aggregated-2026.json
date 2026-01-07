@@ -29,6 +29,15 @@
             "attribution": "Unknown",
             "status": "Under Investigation",
             "source": "https://www.digi.no/artikler/color-lines-kiel-ferger-i-gang-igjen-etter-nettverksfeil/566599"
+          },
+          {
+            "date": "2026-01-06/07 (court ruling December 7, 2025, reported January 2026)",
+            "target": "Norwegian IT contract dispute (Oslo municipality vs. Experis consulting firm)",
+            "attackType": "Legal/contractual issue (not a cyber attack)",
+            "impact": "IT contract awarded to wrong supplier; legal proceedings regarding 15+ million NOK compensation claim",
+            "attribution": "Administrative/contractual matter",
+            "status": "Resolved in court (Oslo municipality won appeal)",
+            "source": "https://www.digi.no/artikler/slipper-unna-millionerstatning-etter-at-it-kontrakt-ble-gitt-til-konkurrent/565535"
           }
         ],
         "trends": [
@@ -307,6 +316,42 @@
             "attribution": "Unknown",
             "status": "Under Investigation",
             "source": "https://www.theguardian.com/technology/2026/jan/06/neighbourly-breach-makes-users-vulnerable-expert"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "UK critical infrastructure and public services",
+            "attackType": "Government initiative (not an attack)",
+            "impact": "Major investment in national cybersecurity capabilities and resilience",
+            "attribution": "UK Government / Department for Science, Innovation and Technology (DSIT)",
+            "status": "Announced",
+            "source": "https://www.gov.uk/government/news/new-cyber-action-plan-to-tackle-threats-and-strengthen-public-services"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "UK national security",
+            "attackType": "Government initiative (not an attack)",
+            "impact": "New operational unit dedicated to cyber defense and response",
+            "attribution": "UK Government",
+            "status": "Established",
+            "source": "https://www.gov.uk/government/publications/government-cyber-action-plan"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "UK public and private sector",
+            "attackType": "Policy analysis / strategic review",
+            "impact": "Recognition of systemic cybersecurity weaknesses requiring government intervention",
+            "attribution": "VitalLaw.com analysis / UK Parliament review",
+            "status": "Under Review / Legislative action underway",
+            "source": "https://www.vitallaw.com/news/cybersecurity-failures-prompt-uk-government-to-set-new-path/"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Jaguar Land Rover automotive manufacturing and supply chain",
+            "attackType": "Cyberattack with supply chain disruption",
+            "impact": "43% decline in Q3 wholesale volumes; approximately $2.5 billion cost to UK economy",
+            "attribution": "Unknown (under investigation)",
+            "status": "Ongoing impact assessment",
+            "source": "https://www.bleepingcomputer.com/ / https://www.cybersecuritydive.com/"
           }
         ],
         "trends": [
@@ -396,7 +441,7 @@
           },
           {
             "name": "Commercial Spyware Ecosystem",
-            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.",
+            "activity": "Spyware vendors and associated executives remain under scrutiny as governments reassess sanctions, regulation, and accountability for surveillance technology misuse.\n\n---",
             "date": "January 2026"
           }
         ],
@@ -604,6 +649,114 @@
             "source": "https://www.reuters.com/world/us/trump-blocks-emcore-chip-sale-security-concerns-2026-01-06/"
           },
           {
+            "date": "2026-01-06",
+            "target": "Microsoft Azure datacenter infrastructure",
+            "attackType": "Strategic announcement (not an attack)",
+            "impact": "Seamless large-scale deployment of next-generation NVIDIA Rubin GPUs",
+            "attribution": "Microsoft Azure",
+            "status": "Announced / In Progress",
+            "source": "https://azure.microsoft.com/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Enterprise security operations",
+            "attackType": "Security service launch (not an attack)",
+            "impact": "New managed detection and response (MDR) service for 24/7 SOC coverage",
+            "attribution": "Microsoft Security",
+            "status": "Generally Available",
+            "source": "https://www.microsoft.com/security/blog/2025/12/08/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Software development sector",
+            "attackType": "Technology announcement (not an attack)",
+            "impact": "Advanced code generation and autonomous development capabilities",
+            "attribution": "OpenAI",
+            "status": "Limited Release",
+            "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Telecommunications operators and robocall violators",
+            "attackType": "Regulatory enforcement (not an attack)",
+            "impact": "Stricter penalties for robocall violations; enhanced database security with 2FA",
+            "attribution": "Federal Communications Commission (FCC)",
+            "status": "Finalized",
+            "source": "https://cyberscoop.com/fcc-finalizes-new-penalties-for-robocall-violators/"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Cybersecurity community",
+            "attackType": "Educational resource (not an attack)",
+            "impact": "Daily threat intelligence and security news",
+            "attribution": "SANS Internet Storm Center",
+            "status": "Published",
+            "source": "https://isc.sans.edu/podcastdetail/9756"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "AWS Marketplace sellers",
+            "attackType": "Platform enhancement (not an attack)",
+            "impact": "Improved financial transparency and reporting for cloud vendors",
+            "attribution": "Amazon Web Services",
+            "status": "Released",
+            "source": "AWS Recent Announcements"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Amazon MQ message broker users",
+            "attackType": "Security enhancement (not an attack)",
+            "impact": "Additional authentication options for message broker services",
+            "attribution": "Amazon Web Services",
+            "status": "Released",
+            "source": "AWS Recent Announcements"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Exchange Online bulk email senders",
+            "attackType": "Policy change (not an attack)",
+            "impact": "Cancellation of planned 2,000 external recipient daily limit",
+            "attribution": "Microsoft",
+            "status": "Policy Cancelled",
+            "source": "https://www.bleepingcomputer.com/"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Cybersecurity industry / threat intelligence practitioners",
+            "attackType": "Industry trend analysis (not an attack)",
+            "impact": "Shift in how threat intelligence is used and valued",
+            "attribution": "Industry analysis",
+            "status": "Ongoing trend",
+            "source": "Multiple industry sources"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "North Carolina local governments and businesses",
+            "attackType": "Ransomware",
+            "impact": "Increased ransomware activity affecting local organizations",
+            "attribution": "Various ransomware groups",
+            "status": "Ongoing",
+            "source": "WRAL News"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Woodstock, Ontario municipal elections",
+            "attackType": "Technology adoption (not an attack)",
+            "impact": "Introduction of internet voting to increase voter participation",
+            "attribution": "Woodstock municipal government",
+            "status": "Implemented",
+            "source": "CBC News"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Sedgwick Government Solutions (federal contractor subsidiary)",
+            "attackType": "Cyberattack / data breach (TridentLocker ransomware claimed)",
+            "impact": "Security breach affecting federal contractor providing services to sensitive government agencies",
+            "attribution": "TridentLocker ransomware group (claimed responsibility)",
+            "status": "Under investigation",
+            "source": "https://www.bleepingcomputer.com/ / https://therecord.media/"
+          },
+          {
             "date": "2026-01-04 to 2026-01-05",
             "target": "Venezuelan infrastructure (power grid)",
             "attackType": "Offensive cyber operations",
@@ -620,6 +773,15 @@
             "attribution": "Tren de Aragua gang (54 members indicted; designated terrorist organization from Venezuela)",
             "status": "Ongoing prosecution; charges include bank fraud, money laundering, material support to terrorism",
             "source": "https://hstoday.us/"
+          },
+          {
+            "date": "2026-01-06/07",
+            "target": "January 6-7 – SANS ISC Reviews Tailsnitch: Tailscale Security Audit Tool",
+            "attackType": "N/A",
+            "impact": "Automated security assessment for Tailscale VPN configurations",
+            "attribution": "Adversis security consulting / SANS Internet Storm Center",
+            "status": "Tool released and reviewed",
+            "source": "https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909"
           }
         ],
         "trends": [
@@ -835,6 +997,15 @@
             "attribution": "Unknown",
             "status": "Recovered; security fixes implemented",
             "source": "https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents"
+          },
+          {
+            "date": "2026-01-06",
+            "target": "Taiwan energy sector critical infrastructure",
+            "attackType": "State-sponsored cyberattacks",
+            "impact": "10x increase in attacks targeting energy infrastructure throughout 2025",
+            "attribution": "Chinese state-sponsored threat actors",
+            "status": "Ongoing",
+            "source": "https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/"
           }
         ],
         "trends": [
