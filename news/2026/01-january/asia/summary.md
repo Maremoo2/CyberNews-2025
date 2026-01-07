@@ -258,6 +258,22 @@ The Russia-aligned threat actor UAC-0184 was observed abusing the Viber messagin
 
 A cyberattack on ManageMyHealth led to widespread disruption of healthcare IT services in New Zealand, impacting patient access and clinical workflows. This represents an update on the December 30 breach, reporting on the recovery efforts and security improvements implemented following the incident.
 
+---
+
+### January 7 – Taiwan Reports Tenfold Increase in China's Energy Sector Attacks
+
+- **Date:** 2026-01-07
+- **Target:** Taiwan energy sector critical infrastructure
+- **Attack Type:** State-sponsored cyberattacks
+- **Impact:** 10x increase in attacks targeting energy infrastructure throughout 2025
+- **Attribution:** Chinese state-sponsored threat actors
+- **Status:** Ongoing
+- **Source:** https://www.bleepingcomputer.com/
+
+Taiwan's government disclosed that cyberattacks attributed to Chinese actors targeting the nation's energy sector increased tenfold throughout 2025. The attacks appear focused on reconnaissance, persistent access establishment, and infrastructure mapping rather than immediate disruption. This represents a strategic positioning effort, with threat actors potentially preparing for future operations. The campaign demonstrates China's focus on Taiwan's critical energy infrastructure as a long-term strategic target.
+
+---
+
 ## Statistics
 
 ### Incident Volume

@@ -816,5 +816,134 @@
     "sourceUrl": "https://digitalforensicsmagazine.com/",
     "tags": [],
     "impact": 2
+  },
+  {
+    "id": "2026048",
+    "date": "2026-01-07",
+    "title": "D-Link Legacy Router RCE Vulnerability Actively Exploited",
+    "summary": "Critical remote code execution vulnerability (CVE-2026-0625, CVSS 9.3) in end-of-life D-Link DSL routers is being actively exploited by multiple threat actors. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely on legacy network devices that no longer receive security patches.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "rce",
+      "network-device",
+      "exploitation"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026049",
+    "date": "2026-01-07",
+    "title": "NordVPN Denies Data Breach After Leak Claims",
+    "summary": "NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, highlighting challenges VPN providers face in managing breach rumors and proving security.",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://www.securityweek.com/",
+    "tags": [
+      "data-breach",
+      "vpn",
+      "denial"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026050",
+    "date": "2026-01-07",
+    "title": "BleepingComputer Data Breach",
+    "summary": "Cybersecurity news publication BleepingComputer confirmed it experienced a data breach with unauthorized access to systems. The incident demonstrates that even security-focused organizations can become targets and emphasizes the importance of transparent breach disclosure.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "data-breach",
+      "media"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026051",
+    "date": "2026-01-07",
+    "title": "Taiwan Reports Tenfold Increase in Chinese Energy Sector Attacks",
+    "summary": "Taiwan disclosed a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks focus on reconnaissance and establishing persistent access rather than immediate disruption, representing long-term strategic positioning.",
+    "region": "ASIA",
+    "country": "Taiwan",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "state-sponsored",
+      "critical-infrastructure",
+      "energy",
+      "china"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026052",
+    "date": "2026-01-07",
+    "title": "UK Announces £210 Million Cyber Action Plan",
+    "summary": "The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Register",
+    "sourceUrl": "https://www.theregister.com/",
+    "tags": [
+      "government",
+      "policy",
+      "funding"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026053",
+    "date": "2026-01-07",
+    "title": "UK Launches New Cyber Unit",
+    "summary": "The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting and incident response coordination.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "UK Government",
+    "sourceUrl": "https://www.gov.uk/",
+    "tags": [
+      "government",
+      "defense",
+      "operations"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026054",
+    "date": "2026-01-07",
+    "title": "Microsoft Defender Experts Suite Launch",
+    "summary": "Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Microsoft Security",
+    "sourceUrl": "https://www.microsoft.com/security/blog/",
+    "tags": [
+      "security-service",
+      "soc",
+      "mdr"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026055",
+    "date": "2026-01-07",
+    "title": "FCC Finalizes New Robocall Penalties",
+    "summary": "The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberScoop",
+    "sourceUrl": "https://cyberscoop.com/",
+    "tags": [
+      "regulation",
+      "telecom",
+      "compliance"
+    ],
+    "impact": 3
   }
 ]

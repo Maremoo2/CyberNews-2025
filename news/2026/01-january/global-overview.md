@@ -206,6 +206,38 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Details:** The UK's National Cyber Security Centre launched a new Sanitisation Service Assurance initiative on January 5, providing formal testing and certification of data sanitisation (secure data destruction) equipment and processes. This initiative enhances trust in wiping and erasing sensitive data, establishing standards for organizations handling confidential information. The service is active and available immediately.
 - **Source:** https://digitalforensicsmagazine.com/
 
+### January 6-7, 2026 – Active Exploitation of Legacy D-Link DSL Router RCE Vulnerability
+
+- **Attack Type:** Remote Code Execution (RCE) via CVE-2026-0625
+- **Impact:** Critical vulnerability (CVSS 9.3) in end-of-life D-Link DSL routers being actively exploited
+- **Attribution:** Multiple threat actors
+- **Details:** Security researchers reported active exploitation of a critical remote code execution vulnerability in legacy D-Link DSL routers that are no longer supported with security patches. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely. This incident highlights the persistent risk of end-of-life network equipment that remains deployed but unpatched, making them attractive targets for threat actors.
+- **Source:** https://thehackernews.com/
+
+### January 7, 2026 – NordVPN Denies Data Breach After Leak Claims
+
+- **Attack Type:** Alleged data breach / unauthorized access
+- **Impact:** NordVPN denies compromise; leaked data claimed to be old or unusable
+- **Attribution:** Unknown
+- **Details:** NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, but the incident demonstrates the challenges VPN and security providers face in proving negative claims and managing reputation during breach rumors.
+- **Source:** https://www.securityweek.com/
+
+### January 7, 2026 – BleepingComputer Reports Data Breach
+
+- **Attack Type:** Data breach
+- **Impact:** Cybersecurity news site BleepingComputer confirms unauthorized access
+- **Attribution:** Unknown
+- **Details:** BleepingComputer, a major cybersecurity news publication, confirmed it experienced a data breach. The incident underscores that even security-focused organizations can become targets and demonstrates the importance of transparency in breach disclosure.
+- **Source:** https://www.bleepingcomputer.com/
+
+### January 7, 2026 – Taiwan Reports Tenfold Increase in Chinese Cyberattacks on Energy Sector
+
+- **Attack Type:** State-sponsored cyberattacks on critical infrastructure
+- **Impact:** 10x increase in attacks targeting Taiwan's energy sector in 2025
+- **Attribution:** Chinese state-sponsored actors
+- **Details:** Taiwan's government reported a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks appear focused on reconnaissance and establishing persistent access rather than immediate disruption, representing a long-term strategic positioning effort.
+- **Source:** https://www.bleepingcomputer.com/
+
 ## Statistics
 
 ### Global Incident Volume (January 1-5, 2026)

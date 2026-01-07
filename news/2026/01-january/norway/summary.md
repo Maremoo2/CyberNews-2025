@@ -138,6 +138,22 @@ The exercise simulated a ransomware attack on municipal systems, testing crisis 
 
 A network failure prevented multiple Color Line ferries from departing port. While traffic was partially restored later the same day, the incident exposed operational dependency on centralized IT and network systems in maritime transport.
 
+---
+
+### January 6-7 – IT Contract Legal Dispute: Company Avoids Million-Dollar Damages
+
+- **Date:** 2026-01-06/07
+- **Target:** Norwegian IT contract dispute
+- **Attack Type:** Legal/contractual issue (not a cyber attack)
+- **Impact:** IT contract awarded to wrong supplier; legal proceedings regarding compensation
+- **Attribution:** Administrative/contractual matter
+- **Status:** Resolved in court
+- **Source:** https://www.digi.no/
+
+A Norwegian IT contract dispute was resolved when a company successfully avoided paying million-dollar damages after an IT contract was awarded to the wrong supplier. The case highlights the importance of proper procurement procedures and contract management in government IT projects, though it represents an administrative rather than security incident.
+
+---
+
 ## Legislation & Policy Updates
 
 ### Cybersecurity Certification

@@ -368,6 +368,50 @@ Westminster City Council confirmed that sensitive data was stolen during a cyber
 
 Security experts warned that a data breach affecting the Neighbourly community platform has left users vulnerable to targeted attacks. The breach exposed user information, raising concerns about subsequent phishing and social engineering campaigns targeting affected individuals.
 
+---
+
+### January 7 – UK Government Announces £210 Million Cyber Action Plan
+
+- **Date:** 2026-01-07
+- **Target:** UK critical infrastructure and public services
+- **Attack Type:** Government initiative (not an attack)
+- **Impact:** Major investment in national cybersecurity capabilities and resilience
+- **Attribution:** UK Government
+- **Status:** Announced
+- **Source:** https://www.theregister.com/
+
+The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development. Security experts are debating whether the investment level is sufficient given the scale of state-sponsored and ransomware threats facing the nation.
+
+---
+
+### January 7 – UK Launches New Cyber Unit to Combat Cyber Threats
+
+- **Date:** 2026-01-07
+- **Target:** UK national security
+- **Attack Type:** Government initiative (not an attack)
+- **Impact:** New operational unit dedicated to cyber defense and response
+- **Attribution:** UK Government
+- **Status:** Established
+- **Source:** Government announcement
+
+The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting, incident response coordination, and intelligence sharing across government and critical infrastructure operators.
+
+---
+
+### January 7 – UK Cybersecurity Failures Prompt Government Action
+
+- **Date:** 2026-01-07
+- **Target:** UK public and private sector
+- **Attack Type:** Policy analysis / strategic review
+- **Impact:** Recognition of systemic cybersecurity weaknesses requiring government intervention
+- **Attribution:** VitalLaw.com analysis
+- **Status:** Under Review
+- **Source:** https://www.vitallaw.com/
+
+A comprehensive analysis of recent UK cybersecurity failures highlighted systemic weaknesses in both public and private sector defenses, prompting the government to set a new strategic path. The review identified gaps in incident response, inadequate investment in security infrastructure, and insufficient coordination between agencies as key areas requiring immediate attention.
+
+---
+
 ## Statistics
 
 ### Incident Volume

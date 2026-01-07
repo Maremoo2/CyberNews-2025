@@ -372,6 +372,118 @@ US authorities blocked the sale of semiconductor assets to a Chinese-linked enti
 
 ---
 
+### January 7 – Microsoft Announces NVIDIA Rubin-Ready Azure Infrastructure
+
+- **Date:** 2026-01-07
+- **Target:** Microsoft Azure datacenter infrastructure
+- **Attack Type:** Strategic announcement (not an attack)
+- **Impact:** Seamless large-scale deployment of next-generation NVIDIA Rubin GPUs
+- **Attribution:** Microsoft Azure
+- **Status:** Announced / In Progress
+- **Source:** https://azure.microsoft.com/blog/
+
+Microsoft announced that Azure datacenters are strategically designed to accommodate NVIDIA's next-generation Rubin GPU platform at scale. The planning involves advanced power, cooling, networking, and rack design optimized years in advance, demonstrating the hyperscaler competitive advantage in AI infrastructure deployment.
+
+---
+
+### January 7 – Microsoft Launches Defender Experts Suite
+
+- **Date:** 2026-01-07
+- **Target:** Enterprise security operations
+- **Attack Type:** Security service launch (not an attack)
+- **Impact:** New managed detection and response (MDR) service for 24/7 SOC coverage
+- **Attribution:** Microsoft Security
+- **Status:** Generally Available
+- **Source:** https://www.microsoft.com/security/blog/
+
+Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.
+
+---
+
+### January 7 – OpenAI Rolls Out GPT-5.2 "Codex-Max" to Select Users
+
+- **Date:** 2026-01-07
+- **Target:** Software development sector
+- **Attack Type:** Technology announcement (not an attack)
+- **Impact:** Advanced code generation and autonomous development capabilities
+- **Attribution:** OpenAI
+- **Status:** Limited Release
+- **Source:** https://www.bleepingcomputer.com/
+
+OpenAI began rolling out GPT-5.2 "Codex-Max" to select users, featuring enhanced code generation, larger codebase handling, and more autonomous problem-solving capabilities. The model represents a shift from "AI as junior developer" to AI working more independently on complex software tasks.
+
+---
+
+### January 7 – FCC Finalizes New Robocall Penalties
+
+- **Date:** 2026-01-07
+- **Target:** Telecommunications operators and robocall violators
+- **Attack Type:** Regulatory enforcement (not an attack)
+- **Impact:** Stricter penalties for robocall violations; enhanced database security with 2FA
+- **Attribution:** Federal Communications Commission (FCC)
+- **Status:** Finalized
+- **Source:** https://cyberscoop.com/
+
+The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.
+
+---
+
+### January 7 – ISC Stormcast Daily Podcast Episode #9756
+
+- **Date:** 2026-01-07
+- **Target:** Cybersecurity community
+- **Attack Type:** Educational resource (not an attack)
+- **Impact:** Daily threat intelligence and security news
+- **Attribution:** SANS Internet Storm Center
+- **Status:** Published
+- **Source:** https://isc.sans.edu/podcastdetail/9756
+
+The SANS Internet Storm Center published episode #9756 of their daily ISC Stormcast podcast, providing cybersecurity threat intelligence updates, vulnerability analysis, and security news for January 7, 2026.
+
+---
+
+### January 7 – AWS Marketplace Enhances Seller Reporting with Collections Visibility
+
+- **Date:** 2026-01-07
+- **Target:** AWS Marketplace sellers
+- **Attack Type:** Platform enhancement (not an attack)
+- **Impact:** Improved financial transparency and reporting for cloud vendors
+- **Attribution:** Amazon Web Services
+- **Status:** Released
+- **Source:** AWS Recent Announcements
+
+AWS announced enhanced reporting capabilities for AWS Marketplace sellers, providing greater visibility into payment collections and financial transactions across cloud services.
+
+---
+
+### January 7 – Amazon MQ Adds HTTP-Based Authentication Support
+
+- **Date:** 2026-01-07
+- **Target:** Amazon MQ message broker users
+- **Attack Type:** Security enhancement (not an attack)
+- **Impact:** Additional authentication options for message broker services
+- **Attribution:** Amazon Web Services
+- **Status:** Released
+- **Source:** AWS Recent Announcements
+
+Amazon MQ now supports HTTP-based authentication mechanisms, expanding authentication options for applications using the managed message broker service and improving integration flexibility.
+
+---
+
+### January 7 – Woodstock, Ontario Implements Online Voting System
+
+- **Date:** 2026-01-07
+- **Target:** Woodstock, Ontario municipal elections
+- **Attack Type:** Technology adoption (not an attack)
+- **Impact:** Introduction of internet voting to increase voter participation
+- **Attribution:** Woodstock municipal government
+- **Status:** Implemented
+- **Source:** CBC News
+
+The municipality of Woodstock, Ontario announced the adoption of online voting for upcoming municipal elections. While intended to increase voter participation, cybersecurity experts have raised concerns about verifiability, trust, and democratic integrity in internet-based voting systems.
+
+---
+
 ### January 4-5 – US Cyber Operations Against Venezuela Disclosed
 
 - **Date:** 2026-01-04 to 2026-01-05
