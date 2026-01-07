@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026036",
+    "date": "2025-12-31",
+    "title": "Sedgwick TridentLocker Ransomware Attack",
+    "summary": "Sedgwick confirmed a cybersecurity incident affecting its federal contractor subsidiary, Sedgwick Government Solutions, after the TridentLocker ransomware group claimed to have stolen 3.4GB of data on...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Affairs",
+    "sourceUrl": "https://securityaffairs.com/174851/data-breach/sedgwick-tridentlocker-ransomware-attack.html",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2026001",
     "date": "2026-01-01",
     "title": "Vestland Municipalities Conduct Cybersecurity Exercise",
@@ -15,6 +31,56 @@
       "municipal"
     ],
     "impact": 2
+  },
+  {
+    "id": "2026033",
+    "date": "2026-01-01",
+    "title": "La Poste DDoS Attack",
+    "summary": "The pro-Russian hacking group NoName057(16) launched a DDoS cyberattack on France's national postal service La Poste and La Banque Postale. The attack knocked central computer systems offline, disrupt...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ddos",
+      "hacktivist",
+      "critical-infrastructure",
+      "banking"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026034",
+    "date": "2026-01-01",
+    "title": "China Cybersecurity Law Amendments",
+    "summary": "China's amended Cybersecurity Law came into effect on January 1, 2026, representing the most significant update since 2017. The changes impose near-real-time (1-hour) incident reporting for critical s...",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "government",
+      "regulation",
+      "policy"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026035",
+    "date": "2026-01-01",
+    "title": "Hong Kong Critical Infrastructure Ordinance",
+    "summary": "Hong Kong's Critical Infrastructure (Computer Systems) Ordinance went live on January 1, 2026, significantly expanding the number of sectors designated as \"critical\" to include utilities, transport, a...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com/",
+    "tags": [
+      "government",
+      "critical-infrastructure",
+      "regulation",
+      "policy"
+    ],
+    "impact": 5
   },
   {
     "id": "2026002",
@@ -578,5 +644,177 @@
       "patching"
     ],
     "impact": 4
+  },
+  {
+    "id": "2026037",
+    "date": "2026-01-02",
+    "title": "Maven Central Typosquatted Jackson Library",
+    "summary": "Maven Central, the leading Java dependency repository, was targeted by the malicious \"org.fasterxml.jackson.core\" package that masqueraded as the legitimate Jackson JSON library. The package silently...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "SC World",
+    "sourceUrl": "https://www.scworld.com/news/maven-central-subjected-to-typosquatted-jackson-json-library",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026038",
+    "date": "2026-01-02",
+    "title": "APT42 Spear-Phishing Campaign",
+    "summary": "Israeli security and defense workers were subjected to an ongoing spear-phishing campaign involving infrastructure linked to Iranian state-backed threat operation APT42, also known as Charming Kitten....",
+    "region": "ASIA",
+    "country": "Israel",
+    "sourceName": "SC World",
+    "sourceUrl": "https://www.scworld.com/brief/apt42-linked-infrastructure-leveraged-in-israel-targeted-spear-phishing-attack",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "social-engineering"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026039",
+    "date": "2026-01-02",
+    "title": "Nexpublica GDPR Fine",
+    "summary": "France's CNIL imposed a €1.7 million fine on Nexpublica under GDPR regulations. The fine stemmed from a 2022 data breach that exposed 6.3 million personal records, including sensitive disability data....",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "data-breach",
+      "regulation"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026040",
+    "date": "2026-01-02",
+    "title": "TikTok \"Polexit\" Disinformation Investigation",
+    "summary": "The Polish government formally requested EU regulators to investigate TikTok for an AI-generated disinformation campaign promoting \"Polexit\" ahead of EU elections. Under the Digital Services Act, Pola...",
+    "region": "EU",
+    "country": "Poland",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "state-sponsored",
+      "disinformation",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026041",
+    "date": "2026-01-02",
+    "title": "ATM Jackpotting / Tren de Aragua Gang",
+    "summary": "A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Homeland Security Today",
+    "sourceUrl": "https://hstoday.us/",
+    "tags": [
+      "malware",
+      "terrorism",
+      "government",
+      "banking",
+      "law-enforcement"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026042",
+    "date": "2026-01-02",
+    "title": "Bitfinex Hacker Early Release",
+    "summary": "Ilya Lichtenstein, who pleaded guilty in 2024 to laundering proceeds from the Bitfinex heist, was released early under the First Step Act. He publicly credited the policy (signed by former President T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/01/02/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
+    "tags": [
+      "cryptocurrency",
+      "regulation",
+      "policy"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026044",
+    "date": "2026-01-02",
+    "title": "FBI E-Note Cryptocurrency Exchange Takedown",
+    "summary": "The FBI led an international operation with German and Finnish partners to seize the online infrastructure of E-Note, a darknet cryptocurrency exchange and payment processor. E-Note had been launderin...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ransomware",
+      "cryptocurrency",
+      "law-enforcement"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026043",
+    "date": "2026-01-03",
+    "title": "CL0P Ransomware Attacks on Oracle E-Business Suite",
+    "summary": "The CL0P ransomware group expanded attacks targeting Oracle E-Business Suite systems worldwide. Victims reported include University of Phoenix in the United States and Korean Air in South Korea. Attac...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "banking",
+      "education"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026045",
+    "date": "2026-01-04",
+    "title": "Singapore SmarterMail Vulnerability Warning",
+    "summary": "Singapore's Cybersecurity Agency issued an urgent warning about CVE-2025-52691, an unauthenticated remote code execution vulnerability in SmarterMail email servers. The critical flaw allows attackers...",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026046",
+    "date": "2026-01-05",
+    "title": "Taiwan Reports Massive Chinese Cyber Operations",
+    "summary": "Taiwan's National Security Bureau reported that mainland China-linked hackers launched an average of 2.63 million cyberattacks per day on Taiwan's critical infrastructure in 2025, representing a 6% in...",
+    "region": "ASIA",
+    "country": "Taiwan",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://reuters.com/",
+    "tags": [
+      "ddos",
+      "healthcare",
+      "government",
+      "critical-infrastructure",
+      "banking"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026047",
+    "date": "2026-01-05",
+    "title": "UK NCSC Sanitisation Service Launch",
+    "summary": "The UK's National Cyber Security Centre launched a new Sanitisation Service Assurance initiative on January 5, providing formal testing and certification of data sanitisation (secure data destruction)...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com/",
+    "tags": [],
+    "impact": 2
   }
 ]
