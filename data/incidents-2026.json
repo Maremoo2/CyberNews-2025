@@ -1020,5 +1020,132 @@
       "deception"
     ],
     "impact": 3
+  },
+  {
+    "id": "2026060",
+    "date": "2026-01-07",
+    "title": "MongoBleed Vulnerability Under Active Attack",
+    "summary": "Critical 'MongoBleed' vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "vulnerability",
+      "mongodb",
+      "database",
+      "exploitation",
+      "mongobleed"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026061",
+    "date": "2026-01-07",
+    "title": "n8n Workflow Automation Platform Critical Vulnerability",
+    "summary": "Critical security vulnerability (CVSS score 9.9) disclosed in n8n, a popular workflow automation platform. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Press",
+    "sourceUrl": "https://www.cyberpress.org/",
+    "tags": [
+      "vulnerability",
+      "n8n",
+      "workflow-automation",
+      "command-execution",
+      "iot"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026062",
+    "date": "2026-01-07",
+    "title": "TOTOLINK EX200 Firmware Flaw Enables Remote Device Takeover",
+    "summary": "CERT/CC disclosed unpatched security flaw (CVE-2025-65606) in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "totolink",
+      "firmware",
+      "iot",
+      "remote-takeover"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026063",
+    "date": "2026-01-07",
+    "title": "ClickFix Campaign Uses Fake BSoD to Deploy DCRat",
+    "summary": "PHALT#BLYX campaign leverages ClickFix-style lures displaying fake Windows Blue Screen of Death errors. Targets European hospitality sector with fake booking emails. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan through PowerShell scripts disguised as 'fixes'.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Securonix / Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "malware",
+      "dcrat",
+      "social-engineering",
+      "clickfix",
+      "hospitality",
+      "rat"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026064",
+    "date": "2026-01-07",
+    "title": "VS Code Forks Create Supply Chain Risk via Open VSX",
+    "summary": "Popular AI-powered VS Code forks (Cursor, Windsurf, Google Antigravity, Trae) recommend extensions that don't exist in Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names, potentially exposing developers to credential theft and code exfiltration.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "supply-chain",
+      "vscode",
+      "extensions",
+      "developer-tools",
+      "ide"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026065",
+    "date": "2026-01-07",
+    "title": "Sedgwick Government Solutions Breach Confirmed",
+    "summary": "Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was victim of a cybersecurity incident. TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary providing services to sensitive government agencies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer / The Record",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "ransomware",
+      "federal-contractor",
+      "tridentlocker",
+      "government",
+      "data-breach"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026066",
+    "date": "2026-01-07",
+    "title": "Jaguar Land Rover Reports Major Cyberattack Impact",
+    "summary": "Jaguar Land Rover revealed that a September 2025 cyberattack led to catastrophic 43% decline in Q3 wholesale volumes, with widespread supply chain disruption. The attack cost the UK economy an estimated $2.5 billion, demonstrating how cyberattacks on major manufacturers have cascading national economic effects.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "BleepingComputer / Cybersecurity Dive",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "cyberattack",
+      "automotive",
+      "supply-chain",
+      "economic-impact",
+      "manufacturing"
+    ],
+    "impact": 5
   }
 ]

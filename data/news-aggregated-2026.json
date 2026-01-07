@@ -343,6 +343,15 @@
             "attribution": "VitalLaw.com analysis / UK Parliament review",
             "status": "Under Review / Legislative action underway",
             "source": "https://www.vitallaw.com/news/cybersecurity-failures-prompt-uk-government-to-set-new-path/"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Jaguar Land Rover automotive manufacturing and supply chain",
+            "attackType": "Cyberattack with supply chain disruption",
+            "impact": "43% decline in Q3 wholesale volumes; approximately $2.5 billion cost to UK economy",
+            "attribution": "Unknown (under investigation)",
+            "status": "Ongoing impact assessment",
+            "source": "https://www.bleepingcomputer.com/ / https://www.cybersecuritydive.com/"
           }
         ],
         "trends": [
@@ -737,6 +746,15 @@
             "attribution": "Woodstock municipal government",
             "status": "Implemented",
             "source": "CBC News"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Sedgwick Government Solutions (federal contractor subsidiary)",
+            "attackType": "Cyberattack / data breach (TridentLocker ransomware claimed)",
+            "impact": "Security breach affecting federal contractor providing services to sensitive government agencies",
+            "attribution": "TridentLocker ransomware group (claimed responsibility)",
+            "status": "Under investigation",
+            "source": "https://www.bleepingcomputer.com/ / https://therecord.media/"
           },
           {
             "date": "2026-01-04 to 2026-01-05",

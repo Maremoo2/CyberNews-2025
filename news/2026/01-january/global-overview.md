@@ -270,6 +270,46 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Details:** Cybersecurity researchers deployed a sophisticated honeypot using realistic but mostly fake datasets to lure and study the Scattered Lapsus$ Hunters group (also known as ShinyHunters). The operation provided valuable intelligence on the threat actors' tactics, techniques, and procedures (TTPs), confirming that even "elite" threat actor groups can be deceived by well-crafted deception infrastructure. This demonstrates the value of active defensive threat intelligence and honeypot operations beyond passive logging and monitoring.
 - **Source:** https://www.darkreading.com/
 
+### January 7, 2026 – MongoBleed Vulnerability Under Active Attack
+
+- **Attack Type:** Critical database vulnerability exploitation
+- **Impact:** MongoDB implementations vulnerable to data exposure; exploit code published, attacks observed within days
+- **Attribution:** Multiple threat actors
+- **Details:** Critical "MongoBleed" vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog, urging immediate patching. The vulnerability highlights ongoing security challenges in open-source database systems and the shortened window between disclosure and exploitation.
+- **Source:** https://www.darkreading.com/
+
+### January 7, 2026 – n8n Workflow Automation Platform Hit by Arbitrary Command Execution Flaw
+
+- **Attack Type:** Critical vulnerability / arbitrary command execution
+- **Impact:** Critical security vulnerability in popular workflow automation platform
+- **Attribution:** Security researchers disclosure
+- **Details:** A critical security vulnerability (CVSS score 9.9) was disclosed in n8n, a popular workflow automation platform used by enterprises. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems. The vulnerability affects organizations using n8n for workflow automation and requires immediate patching.
+- **Source:** https://www.cyberpress.org/
+
+### January 7, 2026 – TOTOLINK EX200 Firmware Flaw Enables Remote Device Takeover
+
+- **Attack Type:** Unpatched firmware vulnerability / remote code execution
+- **Impact:** Full remote device control possible on TOTOLINK EX200 wireless range extenders
+- **Attribution:** CERT/CC disclosure (CVE-2025-65606)
+- **Details:** CERT Coordination Center disclosed an unpatched security flaw in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices. This represents another instance of IoT/networking equipment security gaps, where firmware vulnerabilities remain unpatched in deployed devices.
+- **Source:** https://thehackernews.com/
+
+### January 7, 2026 – ClickFix Campaign Uses Fake Blue Screen of Death to Deploy DCRat
+
+- **Attack Type:** Social engineering / malware deployment (DCRat RAT)
+- **Impact:** Multi-stage campaign targeting European hospitality sector
+- **Attribution:** PHALT#BLYX campaign operators
+- **Details:** Cybersecurity researchers disclosed a new campaign dubbed PHALT#BLYX leveraging ClickFix-style lures displaying fake Windows Blue Screen of Death (BSoD) errors. The campaign targets European hospitality sector with fake booking emails that redirect hotel staff to malicious pages. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan. The attack demonstrates evolution of social engineering tactics using familiar system error messages to trick users into executing malicious commands, including PowerShell scripts disguised as "fixes."
+- **Source:** https://www.securonix.com/ / https://www.darkreading.com/
+
+### January 7, 2026 – VS Code Forks Create Supply Chain Risk via Open VSX Registry
+
+- **Attack Type:** Software supply chain risk / extension recommendation vulnerability
+- **Impact:** Popular AI-powered VS Code forks recommend non-existent extensions
+- **Attribution:** Security research disclosure (Koi Security)
+- **Details:** Popular AI-powered Microsoft Visual Studio Code forks including Cursor, Windsurf, Google Antigravity, and Trae have been found to recommend extensions that don't exist in the Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names. The issue affects developers using these IDE forks, potentially exposing them to malicious extensions that could steal credentials, inject backdoors, or exfiltrate code. This highlights risks in the expanding VS Code fork ecosystem where extension marketplaces may have gaps.
+- **Source:** https://thehackernews.com/
+
 ## Statistics
 
 ### Global Incident Volume (January 1-5, 2026)

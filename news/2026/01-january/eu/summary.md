@@ -412,6 +412,20 @@ A comprehensive analysis of recent UK cybersecurity failures highlighted systemi
 
 ---
 
+### January 7 – Jaguar Land Rover Reports Major Financial Impact from September Cyberattack
+
+- **Date:** 2026-01-07
+- **Target:** Jaguar Land Rover automotive manufacturing and supply chain
+- **Attack Type:** Cyberattack with supply chain disruption
+- **Impact:** 43% decline in Q3 wholesale volumes; approximately $2.5 billion cost to UK economy
+- **Attribution:** Unknown (under investigation)
+- **Status:** Ongoing impact assessment
+- **Source:** https://www.bleepingcomputer.com/ / https://www.cybersecuritydive.com/
+
+Jaguar Land Rover (JLR) revealed that a September 2025 cyberattack led to a catastrophic 43% decline in third-quarter wholesale volumes, with widespread disruption to the company's supply chain. The attack's economic impact extended beyond JLR itself, costing the UK economy an estimated $2.5 billion. This incident exemplifies how cyberattacks on major manufacturers can have cascading effects throughout national economies, affecting suppliers, dealers, and the broader automotive ecosystem. The scale of business disruption demonstrates that automotive sector cybersecurity incidents are no longer just IT problems but major economic events with national implications.
+
+---
+
 ## Statistics
 
 ### Incident Volume

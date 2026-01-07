@@ -526,6 +526,20 @@ The municipality of Woodstock, Ontario announced the adoption of online voting f
 
 ---
 
+### January 7 – Sedgwick Confirms Breach at Federal Contractor Subsidiary
+
+- **Date:** 2026-01-07
+- **Target:** Sedgwick Government Solutions (federal contractor subsidiary)
+- **Attack Type:** Cyberattack / data breach (TridentLocker ransomware claimed)
+- **Impact:** Security breach affecting federal contractor providing services to sensitive government agencies
+- **Attribution:** TridentLocker ransomware group (claimed responsibility)
+- **Status:** Under investigation
+- **Source:** https://www.bleepingcomputer.com/ / https://therecord.media/
+
+Claims administration and risk management company Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was the victim of a cybersecurity incident. The TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary that provides services to sensitive government agencies. The incident highlights the persistent threat to government contractors and the supply chain risks they represent to federal operations. As a major federal contractor, any compromise of Sedgwick Government Solutions could have implications for sensitive government data and operations.
+
+---
+
 ### January 4-5 – US Cyber Operations Against Venezuela Disclosed
 
 - **Date:** 2026-01-04 to 2026-01-05
