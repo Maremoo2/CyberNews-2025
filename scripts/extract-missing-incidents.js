@@ -67,9 +67,6 @@ function parseIncidentsFromMarkdown(content) {
     // Extract impact
     let impact = extractField(body, 'Impact');
     
-    // Extract attribution
-    let attribution = extractField(body, 'Attribution');
-    
     // Extract details
     let details = extractField(body, 'Details');
     
