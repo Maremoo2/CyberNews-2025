@@ -95,8 +95,8 @@ function getInitialStateFromURL() {
 
 function App() {
   const initialState = getInitialStateFromURL()
-  // Year selection state (default to 2025 to allow early 2026 data addition)
-  const [selectedYear, setSelectedYear] = useState(2025)
+  // Year selection state (default to 2026)
+  const [selectedYear, setSelectedYear] = useState(2026)
   const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
