@@ -945,5 +945,80 @@
       "compliance"
     ],
     "impact": 3
+  },
+  {
+    "id": "2026056",
+    "date": "2026-01-07",
+    "title": "Microsoft Warns: Phishing Via Complex Email Routing Spoofs Internal Emails",
+    "summary": "Microsoft Threat Intelligence disclosed widespread phishing campaign exploiting misconfigured SPF/DKIM/DMARC and complex routing to deliver emails appearing as internal communications. Campaign uses Tycoon2FA PhaaS platform with AiTM capabilities to bypass MFA. Over 13 million malicious emails blocked in October 2025. Affects organizations with MX records not pointed to Office 365 and permissive DMARC policies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Microsoft Security Blog",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/",
+    "tags": [
+      "phishing",
+      "email-spoofing",
+      "tycoon2fa",
+      "aitm",
+      "bec",
+      "configuration"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026057",
+    "date": "2026-01-07",
+    "title": "Two Malicious Chrome Extensions Steal ChatGPT and DeepSeek Conversations",
+    "summary": "Researchers discovered two malicious Chrome Web Store extensions designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting AI tools as new data theft targets. Browser extensions have re-emerged as high-risk attack surface.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "malware",
+      "browser-extension",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "data-exfiltration"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026058",
+    "date": "2026-01-07",
+    "title": "Kimwolf Android Botnet Reaches 2+ Million Devices",
+    "summary": "Kimwolf botnet (Aisuru malware variant) has grown to over 2 million compromised Android hosts by exploiting residential proxy network vulnerabilities. Targets include smart TVs, set-top boxes, and IoT devices on internal networks. Operators monetize through residential proxy services and DDoS-for-hire. Compromised devices serve as gateways to internal network resources.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "botnet",
+      "android",
+      "iot",
+      "malware",
+      "ddos",
+      "residential-proxy"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026059",
+    "date": "2026-01-07",
+    "title": "Scattered Lapsus$/ShinyHunters Caught in Research Honeypot",
+    "summary": "Security researchers successfully trapped Scattered Lapsus$ Hunters (ShinyHunters) using realistic but fake datasets. The honeypot operation provided valuable TTP intelligence, confirming that elite threat actors can be deceived by well-crafted deception infrastructure. Demonstrates value of active defensive threat intelligence beyond passive monitoring.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "threat-intelligence",
+      "honeypot",
+      "lapsus",
+      "shinyhunters",
+      "deception"
+    ],
+    "impact": 3
   }
 ]

@@ -238,6 +238,38 @@ The first week of January 2026 demonstrated the continued evolution and sophisti
 - **Details:** Taiwan's government reported a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks appear focused on reconnaissance and establishing persistent access rather than immediate disruption, representing a long-term strategic positioning effort. This escalation is part of broader cross-strait cyber operations, with Taiwan's National Security Bureau previously reporting 2.63 million attacks per day across all critical infrastructure sectors.
 - **Source:** https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/
 
+### January 7, 2026 – Microsoft Warns: Phishing Actors Exploit Complex Routing to Spoof Internal Emails
+
+- **Attack Type:** Advanced phishing via domain spoofing and misconfigured email authentication
+- **Impact:** Widespread phishing campaign using Tycoon2FA PhaaS platform; 13+ million malicious emails blocked in October 2025
+- **Attribution:** Multiple threat actors using Phishing-as-a-Service (Storm-1747 actor profile)
+- **Details:** Microsoft Threat Intelligence disclosed a sophisticated phishing campaign exploiting complex email routing scenarios and misconfigured spoof protections (SPF, DKIM, DMARC) to send emails that appear to originate internally. Threat actors leverage organizations with MX records not pointed to Office 365 and permissive DMARC policies to deliver credential phishing and BEC scams. The attacks use Tycoon2FA adversary-in-the-middle (AiTM) phishing to bypass MFA, with lures themed around voicemails, HR communications, password resets, and fake invoices. The phishing emails show matching "To" and "From" addresses, making them appear as internal communications. This is not a Direct Send vulnerability but a configuration problem requiring strict DMARC enforcement and proper third-party connector setup.
+- **Source:** https://www.microsoft.com/en-us/security/blog/
+
+### January 7, 2026 – Two Malicious Chrome Extensions Caught Stealing ChatGPT and DeepSeek Conversations
+
+- **Attack Type:** Malicious browser extensions / data exfiltration
+- **Impact:** Chrome extensions designed to steal AI chat conversations and sensitive data
+- **Attribution:** Unknown threat actors
+- **Details:** Cybersecurity researchers discovered two malicious extensions on the Chrome Web Store specifically designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting a new attack vector as AI tools become valuable data sources. This demonstrates that browser extensions have re-emerged as a high-risk attack surface, with AI platforms now targeted for data theft alongside traditional credential harvesting.
+- **Source:** https://thehackernews.com/
+
+### January 7, 2026 – Kimwolf Android Botnet Grows to 2+ Million Devices via Residential Proxies
+
+- **Attack Type:** Android botnet / malware propagation via residential proxy networks
+- **Impact:** Over 2 million Android devices compromised, including TVs and IoT devices on internal networks
+- **Attribution:** Kimwolf botnet operators (Aisuru malware variant)
+- **Details:** The Kimwolf botnet, an Android variant of Aisuru malware, has grown to over two million compromised hosts by exploiting vulnerabilities in residential proxy networks. The botnet targets devices on internal networks, using infected Android devices (including smart TVs and IoT-like devices) as entry points to corporate and home networks. Operators monetize access through residential proxy services and DDoS-for-hire platforms. The significant concern is the pivot capability: compromised Android devices serve as gateways to internal network resources beyond simple DDoS or click fraud.
+- **Source:** https://www.bleepingcomputer.com/
+
+### January 7, 2026 – Scattered Lapsus$/ShinyHunters Caught in Researcher Honeypot
+
+- **Attack Type:** Threat actor deception / honeypot operation
+- **Impact:** Security researchers successfully trapped known threat actors using fake datasets
+- **Attribution:** Scattered Lapsus$ Hunters (also known as ShinyHunters)
+- **Details:** Cybersecurity researchers deployed a sophisticated honeypot using realistic but mostly fake datasets to lure and study the Scattered Lapsus$ Hunters group (also known as ShinyHunters). The operation provided valuable intelligence on the threat actors' tactics, techniques, and procedures (TTPs), confirming that even "elite" threat actor groups can be deceived by well-crafted deception infrastructure. This demonstrates the value of active defensive threat intelligence and honeypot operations beyond passive logging and monitoring.
+- **Source:** https://www.darkreading.com/
+
 ## Statistics
 
 ### Global Incident Volume (January 1-5, 2026)

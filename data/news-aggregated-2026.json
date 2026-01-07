@@ -31,13 +31,13 @@
             "source": "https://www.digi.no/artikler/color-lines-kiel-ferger-i-gang-igjen-etter-nettverksfeil/566599"
           },
           {
-            "date": "2026-01-06/07",
-            "target": "Norwegian IT contract dispute",
+            "date": "2026-01-06/07 (court ruling December 7, 2025, reported January 2026)",
+            "target": "Norwegian IT contract dispute (Oslo municipality vs. Experis consulting firm)",
             "attackType": "Legal/contractual issue (not a cyber attack)",
-            "impact": "IT contract awarded to wrong supplier; legal proceedings regarding compensation",
+            "impact": "IT contract awarded to wrong supplier; legal proceedings regarding 15+ million NOK compensation claim",
             "attribution": "Administrative/contractual matter",
-            "status": "Resolved in court",
-            "source": "https://www.digi.no/"
+            "status": "Resolved in court (Oslo municipality won appeal)",
+            "source": "https://www.digi.no/artikler/slipper-unna-millionerstatning-etter-at-it-kontrakt-ble-gitt-til-konkurrent/565535"
           }
         ],
         "trends": [
@@ -318,31 +318,31 @@
             "source": "https://www.theguardian.com/technology/2026/jan/06/neighbourly-breach-makes-users-vulnerable-expert"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "UK critical infrastructure and public services",
             "attackType": "Government initiative (not an attack)",
             "impact": "Major investment in national cybersecurity capabilities and resilience",
-            "attribution": "UK Government",
+            "attribution": "UK Government / Department for Science, Innovation and Technology (DSIT)",
             "status": "Announced",
-            "source": "https://www.theregister.com/"
+            "source": "https://www.gov.uk/government/news/new-cyber-action-plan-to-tackle-threats-and-strengthen-public-services"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "UK national security",
             "attackType": "Government initiative (not an attack)",
             "impact": "New operational unit dedicated to cyber defense and response",
             "attribution": "UK Government",
             "status": "Established",
-            "source": "Government announcement"
+            "source": "https://www.gov.uk/government/publications/government-cyber-action-plan"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "UK public and private sector",
             "attackType": "Policy analysis / strategic review",
             "impact": "Recognition of systemic cybersecurity weaknesses requiring government intervention",
-            "attribution": "VitalLaw.com analysis",
-            "status": "Under Review",
-            "source": "https://www.vitallaw.com/"
+            "attribution": "VitalLaw.com analysis / UK Parliament review",
+            "status": "Under Review / Legislative action underway",
+            "source": "https://www.vitallaw.com/news/cybersecurity-failures-prompt-uk-government-to-set-new-path/"
           }
         ],
         "trends": [
@@ -640,40 +640,40 @@
             "source": "https://www.reuters.com/world/us/trump-blocks-emcore-chip-sale-security-concerns-2026-01-06/"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "Microsoft Azure datacenter infrastructure",
             "attackType": "Strategic announcement (not an attack)",
             "impact": "Seamless large-scale deployment of next-generation NVIDIA Rubin GPUs",
             "attribution": "Microsoft Azure",
             "status": "Announced / In Progress",
-            "source": "https://azure.microsoft.com/blog/"
+            "source": "https://azure.microsoft.com/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "Enterprise security operations",
             "attackType": "Security service launch (not an attack)",
             "impact": "New managed detection and response (MDR) service for 24/7 SOC coverage",
             "attribution": "Microsoft Security",
             "status": "Generally Available",
-            "source": "https://www.microsoft.com/security/blog/"
+            "source": "https://www.microsoft.com/security/blog/2025/12/08/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "Software development sector",
             "attackType": "Technology announcement (not an attack)",
             "impact": "Advanced code generation and autonomous development capabilities",
             "attribution": "OpenAI",
             "status": "Limited Release",
-            "source": "https://www.bleepingcomputer.com/"
+            "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "Telecommunications operators and robocall violators",
             "attackType": "Regulatory enforcement (not an attack)",
             "impact": "Stricter penalties for robocall violations; enhanced database security with 2FA",
             "attribution": "Federal Communications Commission (FCC)",
             "status": "Finalized",
-            "source": "https://cyberscoop.com/"
+            "source": "https://cyberscoop.com/fcc-finalizes-new-penalties-for-robocall-violators/"
           },
           {
             "date": "2026-01-07",
@@ -701,6 +701,33 @@
             "attribution": "Amazon Web Services",
             "status": "Released",
             "source": "AWS Recent Announcements"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Exchange Online bulk email senders",
+            "attackType": "Policy change (not an attack)",
+            "impact": "Cancellation of planned 2,000 external recipient daily limit",
+            "attribution": "Microsoft",
+            "status": "Policy Cancelled",
+            "source": "https://www.bleepingcomputer.com/"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "Cybersecurity industry / threat intelligence practitioners",
+            "attackType": "Industry trend analysis (not an attack)",
+            "impact": "Shift in how threat intelligence is used and valued",
+            "attribution": "Industry analysis",
+            "status": "Ongoing trend",
+            "source": "Multiple industry sources"
+          },
+          {
+            "date": "2026-01-07",
+            "target": "North Carolina local governments and businesses",
+            "attackType": "Ransomware",
+            "impact": "Increased ransomware activity affecting local organizations",
+            "attribution": "Various ransomware groups",
+            "status": "Ongoing",
+            "source": "WRAL News"
           },
           {
             "date": "2026-01-07",
@@ -945,13 +972,13 @@
             "source": "https://www.rnz.co.nz/news/national/manage-my-health-hack-new-zealands-worst-cybersecurity-incidents"
           },
           {
-            "date": "2026-01-07",
+            "date": "2026-01-06",
             "target": "Taiwan energy sector critical infrastructure",
             "attackType": "State-sponsored cyberattacks",
             "impact": "10x increase in attacks targeting energy infrastructure throughout 2025",
             "attribution": "Chinese state-sponsored threat actors",
             "status": "Ongoing",
-            "source": "https://www.bleepingcomputer.com/"
+            "source": "https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/"
           }
         ],
         "trends": [

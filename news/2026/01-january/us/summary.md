@@ -470,6 +470,48 @@ Amazon MQ now supports HTTP-based authentication mechanisms, expanding authentic
 
 ---
 
+### January 7 – Microsoft Cancels Exchange Online Bulk Email Rate Limiting Plans
+
+- **Date:** 2026-01-07
+- **Target:** Exchange Online bulk email senders
+- **Attack Type:** Policy change (not an attack)
+- **Impact:** Cancellation of planned 2,000 external recipient daily limit
+- **Attribution:** Microsoft
+- **Status:** Policy Cancelled
+- **Source:** https://www.bleepingcomputer.com/
+
+Microsoft announced cancellation of plans to impose a daily limit of 2,000 external recipients on Exchange Online bulk email senders. The decision means fewer technical restrictions for legitimate bulk senders but potentially greater opportunity for abuse in combination with phishing-as-a-service platforms. This increases pressure on Microsoft Defender for Office 365, DMARC enforcement, and user security awareness as technical controls are relaxed.
+
+---
+
+### January 7 – Threat Intelligence Evolution: From Indicators to Strategic Decision Support
+
+- **Date:** 2026-01-07
+- **Target:** Cybersecurity industry / threat intelligence practitioners
+- **Attack Type:** Industry trend analysis (not an attack)
+- **Impact:** Shift in how threat intelligence is used and valued
+- **Attribution:** Industry analysis
+- **Status:** Ongoing trend
+- **Source:** Multiple industry sources
+
+Security analysts report that threat intelligence is evolving from simple "indicator lists" (IOCs, IP addresses) to strategic decision support for executive leadership, risk management, and business partnerships. Modern TI is now used to build customer trust, document security maturity, support compliance requirements, and inform board-level decisions. This represents a fundamental shift in how cybersecurity intelligence is positioned—moving from tactical technical data to strategic business enabler.
+
+---
+
+### January 7 – Ransomware Attacks Increase in North Carolina
+
+- **Date:** 2026-01-07
+- **Target:** North Carolina local governments and businesses
+- **Attack Type:** Ransomware
+- **Impact:** Increased ransomware activity affecting local organizations
+- **Attribution:** Various ransomware groups
+- **Status:** Ongoing
+- **Source:** WRAL News
+
+Local authorities and businesses in North Carolina report an increase in ransomware attacks. Security experts emphasize the importance of recognizing early warning signs (unusual login activity, encrypted network traffic) and maintaining robust backup and incident response procedures. While not technically groundbreaking, the trend underscores that ransomware remains a persistent volume problem affecting local governments and small-to-medium businesses, not just high-profile national targets.
+
+---
+
 ### January 7 – Woodstock, Ontario Implements Online Voting System
 
 - **Date:** 2026-01-07
