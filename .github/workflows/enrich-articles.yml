@@ -37,6 +37,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
+          # Note: Update filename for different years (e.g., incidents-2027-enriched.json)
           git diff --exit-code data/incidents-2026-enriched.json || echo "changed=true" >> $GITHUB_OUTPUT
       
       - name: Commit enriched data
@@ -44,6 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Note: Update filename for different years (e.g., incidents-2027-enriched.json)
           git add data/incidents-2026-enriched.json
           git commit -m "chore: update AI-enriched articles [skip ci]"
           git push

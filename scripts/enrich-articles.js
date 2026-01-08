@@ -15,7 +15,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import fetch from 'node-fetch';
 import { Readability } from '@mozilla/readability';
 import { JSDOM } from 'jsdom';
 
@@ -26,6 +25,15 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'enrichment-config.json');
 const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026.json');
 const ENRICHED_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026-enriched.json');
+
+// Status constants
+const STATUS = {
+  NEW: 'New',
+  ONGOING: 'Ongoing',
+  RESOLVED: 'Resolved',
+  ESCALATING: 'Escalating',
+  UNKNOWN: 'Unknown'
+};
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -96,14 +104,15 @@ function delay(ms) {
 /**
  * Scrape article content from URL using Readability
  */
-async function scrapeArticle(url, maxRetries = 3) {
+async function scrapeArticle(url, config) {
+  const maxRetries = config.maxRetries || 3;
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       console.log(`    Scraping (attempt ${attempt}/${maxRetries})...`);
       
       // Create AbortController for timeout
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 30000);
+      const timeoutId = setTimeout(() => controller.abort(), config.requestTimeout || 30000);
       
       const response = await fetch(url, {
         headers: {
@@ -150,6 +159,22 @@ async function scrapeArticle(url, maxRetries = 3) {
 }
 
 /**
+ * Truncate text to max length at word boundary
+ */
+function truncateAtWordBoundary(text, maxLength) {
+  if (!text || text.length <= maxLength) {
+    return text;
+  }
+  
+  // Find the last space before maxLength
+  const truncated = text.substring(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(' ');
+  
+  // If we found a space, cut there; otherwise use the hard limit
+  return lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated;
+}
+
+/**
  * Call GitHub Models API for AI analysis
  */
 async function enrichWithAI(articleContent, title, originalSummary, config, maxRetries = 3) {
@@ -159,8 +184,8 @@ async function enrichWithAI(articleContent, title, originalSummary, config, maxR
     throw new Error('GITHUB_TOKEN environment variable is not set');
   }
 
-  // Truncate content to max length
-  const truncatedContent = articleContent.substring(0, config.maxContentLength);
+  // Truncate content to max length at word boundary
+  const truncatedContent = truncateAtWordBoundary(articleContent, config.maxContentLength);
 
   const systemPrompt = `You are a cybersecurity analyst. Analyze articles and extract structured information in JSON format.`;
 
@@ -267,7 +292,7 @@ async function processIncident(incident, config) {
   
   try {
     // Scrape article content
-    const scraped = await scrapeArticle(incident.sourceUrl, config.maxRetries);
+    const scraped = await scrapeArticle(incident.sourceUrl, config);
     console.log(`    ✓ Scraped ${scraped.content.length} characters`);
     stats.scraped++;
     
@@ -291,7 +316,7 @@ async function processIncident(incident, config) {
       fullContent: scraped.content,
       aiAnalysis: {
         summary: aiAnalysis.summary || incident.summary,
-        status: aiAnalysis.status || 'Unknown',
+        status: aiAnalysis.status || STATUS.UNKNOWN,
         buzzwords: Array.isArray(aiAnalysis.buzzwords) ? aiAnalysis.buzzwords : [],
         threatActors: Array.isArray(aiAnalysis.threatActors) ? aiAnalysis.threatActors : [],
         malwareFamilies: Array.isArray(aiAnalysis.malwareFamilies) ? aiAnalysis.malwareFamilies : [],
@@ -299,8 +324,8 @@ async function processIncident(incident, config) {
         cves: Array.isArray(aiAnalysis.cves) ? aiAnalysis.cves : [],
         mitreAttack: Array.isArray(aiAnalysis.mitreAttack) ? aiAnalysis.mitreAttack : [],
         impactScore: aiAnalysis.impactScore || 3,
-        region: aiAnalysis.region || incident.region,
-        country: aiAnalysis.country || incident.country,
+        region: aiAnalysis.region || incident.region || 'Global',
+        country: aiAnalysis.country || incident.country || 'Global',
         trends: Array.isArray(aiAnalysis.trends) ? aiAnalysis.trends : []
       },
       enrichedAt: new Date().toISOString(),
@@ -449,7 +474,13 @@ async function main() {
   } else {
     console.log('\n📝 DRY RUN: Sample enriched incident:\n');
     if (enrichedNew.length > 0 && enrichedNew[0].aiAnalysis) {
-      console.log(JSON.stringify(enrichedNew[0], null, 2).substring(0, 1000) + '...');
+      // Show first 2000 characters with proper truncation
+      const sample = JSON.stringify(enrichedNew[0], null, 2);
+      const truncated = truncateAtWordBoundary(sample, 2000);
+      console.log(truncated);
+      if (sample.length > 2000) {
+        console.log('...(truncated)');
+      }
     }
     console.log('\n⚠️  Not saving changes (dry-run mode)');
   }
