@@ -20,11 +20,7 @@
       "summary": "South Korean e-commerce leader Coupang revealed a massive data breach affecting over 33 million users. The incident exposed personal information (names, contact details, possibly payment data) of roughly two-thirds of Korea's population. Korean regulators launched special audits and investigations into Coupang's data practices. The attack caused public outcry and led to legal and financial scrutiny including government-ordered tax audit.",
       "status": "New",
       "buzzwords": [
-        "data breach",
-        "e-commerce",
-        "privacy",
-        "south-korea",
-        "regulatory"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -36,7 +32,7 @@
       "country": "South Korea",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.853Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -59,7 +55,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "healthcare",
+        "ransomware as a service",
         "data breach"
       ],
       "threatActors": [],
@@ -72,7 +68,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -94,9 +90,7 @@
       "summary": "Security researchers discovered a critical zero-day vulnerability affecting millions of users worldwide. Patch has been released urgently.",
       "status": "New",
       "buzzwords": [
-        "zero-day",
-        "vulnerability",
-        "software"
+        "zero-day"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -108,7 +102,7 @@
       "country": "Germany",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -131,10 +125,9 @@
       "summary": "An advanced persistent threat group linked to state actors has been targeting financial institutions with sophisticated phishing campaigns.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "financial",
+        "APT",
         "phishing",
-        "state-sponsored"
+        "spear phishing"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -146,7 +139,7 @@
       "country": "Singapore",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -168,9 +161,7 @@
       "summary": "Multiple Norwegian government websites experienced prolonged downtime due to coordinated distributed denial-of-service attacks.",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "government",
-        "infrastructure"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -182,7 +173,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -204,9 +195,8 @@
       "summary": "A sophisticated supply chain attack compromised a widely-used development tool, affecting numerous technology companies globally.",
       "status": "New",
       "buzzwords": [
-        "supply chain",
-        "malware",
-        "enterprise"
+        "supply chain attack",
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -218,7 +208,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -241,8 +231,7 @@
       "status": "New",
       "buzzwords": [
         "data breach",
-        "social media",
-        "privacy"
+        "SOC"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -254,7 +243,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -277,9 +266,6 @@
       "summary": "New variant of banking trojan discovered targeting mobile banking apps across Asian countries with advanced evasion techniques.",
       "status": "New",
       "buzzwords": [
-        "trojan",
-        "mobile",
-        "banking",
         "malware"
       ],
       "threatActors": [],
@@ -292,7 +278,7 @@
       "country": "Japan",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -313,11 +299,7 @@
     "aiAnalysis": {
       "summary": "Attempted cyberattack on critical infrastructure systems detected and prevented by Norwegian cybersecurity agencies.",
       "status": "New",
-      "buzzwords": [
-        "critical infrastructure",
-        "prevention",
-        "national security"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -328,7 +310,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -351,8 +333,9 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "cloud",
-        "credentials"
+        "spear phishing",
+        "cloud misconfiguration",
+        "cloud-native attacks"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -364,7 +347,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -390,11 +373,8 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "cl0p",
-        "zero-day",
-        "oracle",
-        "education",
-        "healthcare"
+        "ransomware as a service",
+        "zero-day"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -406,7 +386,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.853Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -428,12 +408,7 @@
     "aiAnalysis": {
       "summary": "European data protection authority issues record-breaking fine for GDPR violations related to inadequate data security measures.",
       "status": "New",
-      "buzzwords": [
-        "gdpr",
-        "compliance",
-        "fine",
-        "privacy"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -444,7 +419,7 @@
       "country": "Ireland",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -466,9 +441,7 @@
       "summary": "Major cryptocurrency exchange reports security breach resulting in theft of millions in digital assets.",
       "status": "New",
       "buzzwords": [
-        "cryptocurrency",
-        "breach",
-        "financial"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -480,7 +453,7 @@
       "country": "South Korea",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -502,9 +475,7 @@
       "summary": "Security researchers identify new malware campaign specifically targeting small and medium-sized businesses in Norway.",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "business",
-        "targeted attack"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -516,7 +487,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -542,11 +513,7 @@
       "status": "New",
       "buzzwords": [
         "nation-state",
-        "source-code",
-        "vulnerability",
-        "supply-chain",
-        "f5",
-        "cisa"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -558,7 +525,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -583,10 +550,8 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "aviation",
-        "critical-infrastructure",
-        "supply-chain",
-        "collins-aerospace"
+        "ransomware as a service",
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -598,7 +563,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -623,10 +588,9 @@
       "status": "New",
       "buzzwords": [
         "data breach",
-        "shinyhunters",
-        "social-engineering",
-        "salesforce",
-        "voice-phishing"
+        "social engineering",
+        "SOC",
+        "phishing"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -638,7 +602,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -664,11 +628,8 @@
       "status": "New",
       "buzzwords": [
         "zero-day",
-        "sharepoint",
         "nation-state",
-        "china",
-        "web-shell",
-        "apt"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -680,7 +641,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -703,8 +664,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "healthcare",
-        "patient care"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -716,7 +676,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -738,9 +698,8 @@
       "summary": "Norwegian energy company faced sophisticated cyberattack targeting operational technology systems, raising concerns about critical infrastructure security.",
       "status": "New",
       "buzzwords": [
-        "critical infrastructure",
-        "energy",
-        "ot security"
+        "OT security",
+        "IoT security"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -752,7 +711,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -774,12 +733,7 @@
     "aiAnalysis": {
       "summary": "Targeted hack of The Washington Post's email system illustrating ongoing cyber-espionage threats to media organizations, likely by nation-state actors.",
       "status": "New",
-      "buzzwords": [
-        "espionage",
-        "media",
-        "state-sponsored",
-        "email"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -790,7 +744,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -813,10 +767,7 @@
       "summary": "China-linked APT group Salt Typhoon breached global telecom firm Viasat via compromised device, though attack was contained with no customer impact.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "telecommunications",
-        "state-sponsored",
-        "china"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -828,7 +779,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -851,8 +802,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "qilin",
-        "vulnerability"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -864,7 +814,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -888,11 +838,7 @@
       "summary": "Unprecedented data dump of ~16 billion stolen credentials surfaced. Not a single breach but a compilation of stolen usernames, emails, and passwords gathered over years by infostealer malware on over 750 million infected devices. Dataset included logins for Google, Facebook, Apple, Netflix, and numerous government portals, enabling massive credential-stuffing and phishing campaigns worldwide.",
       "status": "New",
       "buzzwords": [
-        "data breach",
-        "credentials",
-        "infostealer",
-        "global",
-        "password"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -904,7 +850,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -927,8 +873,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "professional services",
-        "business"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -940,7 +885,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -964,9 +909,7 @@
       "status": "New",
       "buzzwords": [
         "data breach",
-        "financial",
-        "database",
-        "misconfiguration"
+        "cloud misconfiguration"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -978,7 +921,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1002,9 +945,7 @@
       "status": "New",
       "buzzwords": [
         "data breach",
-        "credentials",
-        "malware",
-        "infostealer"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1016,7 +957,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1038,9 +979,7 @@
       "summary": "Data broker LexisNexis disclosed a breach affecting 364,000 individuals, exposing personal and sensitive information.",
       "status": "New",
       "buzzwords": [
-        "data breach",
-        "personal data",
-        "data broker"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1052,7 +991,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1075,8 +1014,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "data leak",
-        "corporate"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1088,7 +1026,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1109,11 +1047,7 @@
     "aiAnalysis": {
       "summary": "Cryptocurrency platform Cetus Protocol suffered massive theft with hackers stealing $223 million in digital assets.",
       "status": "New",
-      "buzzwords": [
-        "cryptocurrency",
-        "theft",
-        "defi"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1124,7 +1058,7 @@
       "country": "Singapore",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1147,10 +1081,7 @@
       "summary": "North Korean APT group TA406 launched targeted cyber-espionage campaign against Ukrainian government agencies.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "state-sponsored",
-        "espionage",
-        "government"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1162,7 +1093,7 @@
       "country": "Ukraine",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1187,10 +1118,9 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "dragonforce",
-        "scattered-spider",
-        "retail",
-        "supply-chain"
+        "ransomware as a service",
+        "Scattered Spider",
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1202,7 +1132,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1224,9 +1154,7 @@
       "summary": "Major DDoS attack in Moscow knocked out internet service for tens of thousands of users, disrupting communications and services.",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "infrastructure",
-        "telecommunications"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1238,7 +1166,7 @@
       "country": "Russia",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1260,9 +1188,7 @@
       "summary": "Hackers breached a Wisconsin city network, exposing personal data of 67,000 individuals including sensitive government records.",
       "status": "New",
       "buzzwords": [
-        "government",
-        "data breach",
-        "personal data"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1274,7 +1200,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1297,10 +1223,7 @@
       "summary": "Chinese state hackers leveraged vulnerability in Ivanti's mobile device management software to breach high-profile organizations worldwide.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "vulnerability",
-        "state-sponsored",
-        "mobile"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1312,7 +1235,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1334,9 +1257,8 @@
       "summary": "Cyberattack on Covenant Health disrupted hospital operations in Maine and New Hampshire, affecting patient care and medical services.",
       "status": "New",
       "buzzwords": [
-        "healthcare",
         "ransomware",
-        "infrastructure"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1348,7 +1270,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1371,8 +1293,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "healthcare",
-        "patient data"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1384,7 +1305,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.851Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1407,8 +1328,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "healthcare",
-        "interlock"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1420,7 +1340,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1443,7 +1363,11 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "ai",
+        "spear phishing",
+        "supply chain attack",
+        "AI-powered attacks",
+        "AI-driven attacks",
+        "supply-chain compromise",
         "malware"
       ],
       "threatActors": [],
@@ -1456,7 +1380,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1479,8 +1403,8 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "manufacturing",
-        "supply chain"
+        "ransomware as a service",
+        "supply chain attack"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1492,7 +1416,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1515,8 +1439,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "business",
-        "targeted attack"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1528,7 +1451,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1550,9 +1473,8 @@
       "summary": "Royal Mail suffered data breach through compromised German analytics provider Spectos, demonstrating supply chain vulnerability risks.",
       "status": "New",
       "buzzwords": [
-        "supply chain",
-        "data breach",
-        "third-party"
+        "supply chain attack",
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1564,7 +1486,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1589,10 +1511,9 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "medusa",
+        "ransomware as a service",
         "data breach",
-        "sports",
-        "extortion"
+        "double extortion"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1604,7 +1525,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1626,9 +1547,7 @@
       "summary": "Major U.S. hospital system breach exposed 5.5 million patient records including medical histories and personal information.",
       "status": "New",
       "buzzwords": [
-        "healthcare",
-        "data breach",
-        "medical records"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1640,7 +1559,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1663,8 +1582,8 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "supply chain",
-        "cryptocurrency"
+        "spear phishing",
+        "supply chain attack"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1676,7 +1595,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1697,11 +1616,7 @@
     "aiAnalysis": {
       "summary": "Cyber sabotage of a Norwegian dam demonstrated how cyberattacks can spill into the physical world, prompting global discussions on critical infrastructure protection.",
       "status": "New",
-      "buzzwords": [
-        "critical infrastructure",
-        "cyber-physical",
-        "sabotage"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1712,7 +1627,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1734,9 +1649,7 @@
       "summary": "Microsoft uncovered malvertising campaign compromising nearly 1 million devices worldwide via malicious ads on illicit streaming sites.",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "malvertising",
-        "credentials"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1748,7 +1661,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1769,11 +1682,7 @@
     "aiAnalysis": {
       "summary": "WEMIX blockchain gaming network lost 8.65 million tokens worth approximately $6.1 million after attackers stole an authentication key.",
       "status": "New",
-      "buzzwords": [
-        "cryptocurrency",
-        "blockchain",
-        "theft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1784,7 +1693,7 @@
       "country": "South Korea",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1806,9 +1715,7 @@
       "summary": "CI/CD secrets exposed from 218 repositories across 4,000+ organizations through GitHub Actions supply chain attack exploiting mutable version tags.",
       "status": "New",
       "buzzwords": [
-        "supply chain",
-        "ci/cd",
-        "github"
+        "supply chain attack"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1820,7 +1727,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1843,8 +1750,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "infrastructure",
-        "logistics"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1856,7 +1762,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.850Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1878,9 +1784,10 @@
       "summary": "Massive cloud data breach at Oracle exposed ~6 million records including SSO and LDAP credentials, affecting over 140,000 cloud tenants worldwide.",
       "status": "New",
       "buzzwords": [
-        "cloud",
+        "cloud misconfiguration",
+        "cloud-native attacks",
         "data breach",
-        "supply chain"
+        "supply chain attack"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1892,7 +1799,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1913,8 +1820,8 @@
       "summary": "Social media platform X experienced global outages for hours due to massive DDoS attack, with multiple hacker groups claiming responsibility.",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "social media"
+        "DDoS",
+        "SOC"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1926,7 +1833,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.849Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1950,11 +1857,10 @@
       "summary": "Threat actor 'rose87168' claimed to breach Oracle Cloud's Identity and Access Management service. About 6 million user records (usernames, emails, hashed passwords) were allegedly stolen from roughly 140,000 Oracle cloud tenant accounts. Oracle denied customer data compromise, but security firms warned this could be one of the year's most significant cloud supply-chain attacks.",
       "status": "New",
       "buzzwords": [
-        "cloud",
+        "cloud misconfiguration",
+        "cloud-native attacks",
         "data breach",
-        "supply-chain",
-        "iam",
-        "oracle"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1966,7 +1872,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1989,10 +1895,7 @@
       "summary": "The largest cryptocurrency theft in history with $1.46 billion in Ethereum stolen from Bybit's cold wallet, allegedly by North Korea's Lazarus Group.",
       "status": "New",
       "buzzwords": [
-        "cryptocurrency",
-        "theft",
-        "lazarus group",
-        "state-sponsored"
+        "Lazarus Group"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2004,7 +1907,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2026,7 +1929,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "business"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2038,7 +1941,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2061,8 +1964,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "law enforcement",
-        "8base"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2074,7 +1976,7 @@
       "country": "European Union",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2096,9 +1998,7 @@
       "summary": "12 million client accounts' data including names, emails, addresses, and phone numbers exposed for sale on hacker forums after breach.",
       "status": "New",
       "buzzwords": [
-        "data breach",
-        "financial",
-        "personal data"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2110,7 +2010,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2133,10 +2033,8 @@
       "summary": "Salt Typhoon APT group exploited Cisco IOS XE vulnerability to compromise over 1,000 routers worldwide, enabling persistent access to telecom networks.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "supply chain",
-        "telecommunications",
-        "state-sponsored"
+        "APT",
+        "supply chain attack"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2148,7 +2046,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2171,8 +2069,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "media",
-        "qilin"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2184,7 +2081,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2204,10 +2101,7 @@
     "aiAnalysis": {
       "summary": "A Norwegian municipality's IT systems were compromised, disrupting public services and forcing systems offline for several days.",
       "status": "New",
-      "buzzwords": [
-        "local government",
-        "infrastructure"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2218,7 +2112,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2240,9 +2134,7 @@
       "summary": "Asian financial institutions face coordinated APT attacks aimed at stealing sensitive financial data and transaction information.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "financial",
-        "state-sponsored"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2254,7 +2146,7 @@
       "country": "Japan",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2276,9 +2168,7 @@
       "summary": "A major healthcare provider in Europe suffered a data breach exposing thousands of patient records including medical histories and personal information.",
       "status": "New",
       "buzzwords": [
-        "data breach",
-        "healthcare",
-        "privacy"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2290,7 +2180,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.848Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2312,7 +2202,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "global"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2324,7 +2214,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichedAt": "2026-01-08T13:33:14.847Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2348,10 +2238,8 @@
       "summary": "Singapore-based crypto platform Phemex was breached with attackers stealing at least $69 million. The hack forced Phemex to halt withdrawals and deposits while assessing damage. Investigation found hackers compromised Phemex's systems, leading to loss of user funds and widespread service disruption.",
       "status": "New",
       "buzzwords": [
-        "cryptocurrency",
-        "breach",
-        "lazarus",
-        "financial",
+        "data breach",
+        "Lazarus Group",
         "nation-state"
       ],
       "threatActors": [],
@@ -2364,7 +2252,7 @@
       "country": "Singapore",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichedAt": "2026-01-08T13:33:14.852Z",
     "enrichmentVersion": "1.0"
   }
 ]

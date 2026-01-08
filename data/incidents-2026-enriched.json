@@ -15,9 +15,7 @@
     "aiAnalysis": {
       "summary": "Although the list does not include what are perceived to be the more consequential multilateral bodies shaping global cyber governance and state behaviour in cyberspace, some of the organizations play a role in shaping international law broadly.",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -28,7 +26,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.854Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -48,10 +46,7 @@
     "aiAnalysis": {
       "summary": "Microsoft is working to fix an Exchange Online service outage that intermittently prevents users from accessing their mailboxes via the Internet Mailbox Access Protocol 4 (IMAP4). [...]",
       "status": "New",
-      "buzzwords": [
-        "microsoft",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -62,7 +57,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -82,10 +77,7 @@
     "aiAnalysis": {
       "summary": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
       "status": "New",
-      "buzzwords": [
-        "microsoft",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -96,7 +88,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -117,8 +109,7 @@
       "summary": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versio...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "Cyber"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -130,7 +121,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -149,9 +140,7 @@
     "aiAnalysis": {
       "summary": "Open AI lanserer «Chat GPT Health».",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -162,7 +151,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -183,11 +172,7 @@
     "aiAnalysis": {
       "summary": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and c...",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "cisco",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -198,7 +183,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -219,8 +204,7 @@
       "summary": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" b...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "Cyber"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -232,7 +216,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -253,11 +237,7 @@
     "aiAnalysis": {
       "summary": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10....",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "aws",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -268,7 +248,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -287,9 +267,7 @@
     "aiAnalysis": {
       "summary": "Boston Dynamics har omsider nådd en stor milepæl.",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -300,7 +278,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -321,11 +299,7 @@
     "aiAnalysis": {
       "summary": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges. [...]",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "cisco",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -336,7 +310,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -355,9 +329,7 @@
     "aiAnalysis": {
       "summary": "Regjeringen mener at barn under 12 år ikke bør ha tilgang til internett uten tilsyn fra voksne.",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -368,7 +340,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -388,10 +360,7 @@
     "aiAnalysis": {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -402,7 +371,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -421,9 +390,7 @@
     "aiAnalysis": {
       "summary": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical recor...",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -434,7 +401,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -456,12 +423,7 @@
     "aiAnalysis": {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are list...",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "microsoft",
-        "aws",
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -472,7 +434,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -491,9 +453,7 @@
     "aiAnalysis": {
       "summary": "Fra i høst blir det mulig å ta bachelor i kvanteteknologi ved to universiteter i Norge.",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -504,7 +464,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -523,9 +483,7 @@
     "aiAnalysis": {
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -536,7 +494,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -557,8 +515,7 @@
       "summary": "I'm always looking for new ways of manipulating the data captured by my DShield sensor [1]. This time I used Gephi [2] and Graphiz [3] a popular and powerful tool for visualizing and exploring relationships between nodes, to examine the relationship between the source IP, filename and which senso...",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "Cyber"
+        "APT"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -570,7 +527,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -589,9 +546,7 @@
     "aiAnalysis": {
       "summary": "The loudest voices in cybersecurity are not always the ones who carry the risk. When advice comes without accountability, it creates noise, not ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -602,7 +557,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -624,9 +579,7 @@
       "summary": "2. If tap-to-pay is secure, how is it exploited? arrow_drop_down.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "malware",
-        "Data/IT"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -638,7 +591,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -657,9 +610,7 @@
     "aiAnalysis": {
       "summary": "The truth is: everything we do in cybersecurity is about risk management. The ROC is not just for security. It connects CISOs, CIOs, CFOs, business ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -670,7 +621,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -690,10 +641,7 @@
     "aiAnalysis": {
       "summary": "1. London Council Reaches Out to 100,000 Households About Potential Cyber-Attack. Several councils in London, including Westminster City Council, ...",
       "status": "New",
-      "buzzwords": [
-        "google",
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -704,7 +652,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -723,9 +671,7 @@
     "aiAnalysis": {
       "summary": "If you're walking into a poor risk position, it could affect valuation, negotiations or the cost of further investment to strengthen security after ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -736,7 +682,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -760,9 +706,9 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "data-breach",
-        "malware",
-        "Data/IT"
+        "ransomware as a service",
+        "data breach",
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -774,7 +720,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -793,9 +739,7 @@
     "aiAnalysis": {
       "summary": "Flat budgets and a shaky economy will keep cybersecurity hiring in a holding pattern as firms invest in automated security tools.",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -806,7 +750,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -825,9 +769,7 @@
     "aiAnalysis": {
       "summary": "Updated The UK's Ministry of Justice spent £50 million ($67 million) on cybersecurity improvements at the Legal Aid Agency (LAA) before the ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -838,7 +780,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -857,9 +799,7 @@
     "aiAnalysis": {
       "summary": "Staff at Aurora College are working with specialists and partners to resolve the impacts of a cybersecurity attack that caused “damage” to the ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -870,7 +810,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -890,10 +830,7 @@
     "aiAnalysis": {
       "summary": "Finally, Palo Alto Networks (PANW) remains the gold standard in network security, as it continues to expand beyond firewalls into AI-powered threat ...",
       "status": "New",
-      "buzzwords": [
-        "palo alto",
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -904,7 +841,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -925,8 +862,7 @@
       "summary": "“In my experience, the proximate cause of security breaches is usually human error,” says Beth Fulkerson, technology and cybersecurity partner at law ...",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "Data/IT"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -938,7 +874,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -957,9 +893,7 @@
     "aiAnalysis": {
       "summary": "On December 31, 2025, the Federal Trade Commission announced that a federal judge had approved a $10 million settlement of its complaint against ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -970,7 +904,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -992,9 +926,7 @@
       "summary": "Researchers warn that a critical vulnerability in n8n, an automation platform that allows organizations to integrate AI agents, workflows and hundreds of other enterprise services, could be exploited by attackers to achieve full control of targeted networks. The maximum-severity vulnerability — C...",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "malware",
-        "Cyber"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1006,7 +938,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1025,9 +957,7 @@
     "aiAnalysis": {
       "summary": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
       "status": "New",
-      "buzzwords": [
-        "Cyber"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1038,7 +968,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1060,9 +990,8 @@
       "summary": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "malware",
-        "Cyber"
+        "data breach",
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1074,7 +1003,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1096,9 +1025,7 @@
       "summary": "The announcement admits that its previous approach was flawed and left it unable to meet commitments to security government organizations to known ...",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "malware",
-        "Data/IT"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1110,7 +1037,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1129,9 +1056,7 @@
     "aiAnalysis": {
       "summary": "... cyber disruption capabilities strengthen the security and resilience of the homeland. ... Security's (DHS) State and Local Cybersecurity Grant Program.",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1142,7 +1067,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1161,9 +1086,7 @@
     "aiAnalysis": {
       "summary": "“Agentic AI’s primary role in organizations is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.” —2025 DORA State of AI-Assisted Software Development report AI coding assistants amplify your organization’s strengths—and its...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1174,7 +1097,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1194,10 +1117,7 @@
     "aiAnalysis": {
       "summary": "Today, AWS announces a simplified onboarding experience for AWS Client VPN, introducing a new Quickstart setup method that streamlines the process of creating and configuring Client VPN endpoints. AWS Client VPN allows you to securely connect remote users to AWS resources and on-premises networks...",
       "status": "New",
-      "buzzwords": [
-        "aws",
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1208,7 +1128,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1230,9 +1150,7 @@
       "summary": "You can now create Apache Airflow version 2.11 environments on Amazon Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces several changes to help you prepare for upgrading to Apache Airflow 3. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it ...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "amazon",
-        "Data/IT"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1244,7 +1162,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1263,9 +1181,7 @@
     "aiAnalysis": {
       "summary": "... cybersecurity frameworks, including CMMC. The framework will focus on highly capable AI systems that may be of highest interest to cyber threat ...",
       "status": "New",
-      "buzzwords": [
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1276,7 +1192,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1297,8 +1213,7 @@
       "summary": "Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, argued that security breaches impacting ISPs can have a major ...",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "Data/IT"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1310,7 +1225,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1330,10 +1245,7 @@
     "aiAnalysis": {
       "summary": "Having warned of the above, this vulnerability might not particularly worry you if your computer is always kept in a secure location, and the only ...",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "Data/IT"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1344,7 +1256,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1364,10 +1276,7 @@
     "aiAnalysis": {
       "summary": "As cyberthreats become faster, harder to detect, and more sophisticated, organizations must focus on building resilience—strengthening their ability to prevent, withstand, and recover from cybersecurity incidents. Resilience can mean the difference between containing an incident with minimal disr...",
       "status": "New",
-      "buzzwords": [
-        "microsoft",
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1378,7 +1287,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1401,10 +1310,7 @@
       "summary": "Critical remote code execution vulnerability (CVE-2026-0625, CVSS 9.3) in end-of-life D-Link DSL routers is being actively exploited by multiple threat actors. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely on legacy network devices that no longer receive security patches.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "rce",
-        "network-device",
-        "exploitation"
+        "brute force"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1416,7 +1322,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1438,9 +1344,7 @@
       "summary": "NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, highlighting challenges VPN providers face in managing breach rumors and proving security.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "vpn",
-        "denial"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1452,7 +1356,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1473,8 +1377,7 @@
       "summary": "Cybersecurity news publication BleepingComputer confirmed it experienced a data breach with unauthorized access to systems. The incident demonstrates that even security-focused organizations can become targets and emphasizes the importance of transparent breach disclosure.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "media"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1486,7 +1389,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1508,12 +1411,7 @@
     "aiAnalysis": {
       "summary": "Taiwan disclosed a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks focus on reconnaissance and establishing persistent access rather than immediate disruption, representing long-term strategic positioning.",
       "status": "New",
-      "buzzwords": [
-        "state-sponsored",
-        "critical-infrastructure",
-        "energy",
-        "china"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1524,7 +1422,7 @@
       "country": "Taiwan",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1545,11 +1443,7 @@
     "aiAnalysis": {
       "summary": "The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development.",
       "status": "New",
-      "buzzwords": [
-        "government",
-        "policy",
-        "funding"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1560,7 +1454,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1581,11 +1475,7 @@
     "aiAnalysis": {
       "summary": "The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting and incident response coordination.",
       "status": "New",
-      "buzzwords": [
-        "government",
-        "defense",
-        "operations"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1596,7 +1486,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1618,9 +1508,8 @@
       "summary": "Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.",
       "status": "New",
       "buzzwords": [
-        "security-service",
-        "soc",
-        "mdr"
+        "SOC",
+        "social engineering"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1632,7 +1521,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1653,11 +1542,7 @@
     "aiAnalysis": {
       "summary": "The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.",
       "status": "New",
-      "buzzwords": [
-        "regulation",
-        "telecom",
-        "compliance"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1668,7 +1553,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1694,11 +1579,8 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "email-spoofing",
-        "tycoon2fa",
-        "aitm",
-        "bec",
-        "configuration"
+        "spear phishing",
+        "cloud misconfiguration"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1710,7 +1592,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1736,11 +1618,10 @@
       "status": "New",
       "buzzwords": [
         "malware",
-        "browser-extension",
-        "ai",
-        "chatgpt",
-        "deepseek",
-        "data-exfiltration"
+        "supply chain attack",
+        "AI-powered attacks",
+        "AI-driven attacks",
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1752,7 +1633,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1777,12 +1658,9 @@
       "summary": "Kimwolf botnet (Aisuru malware variant) has grown to over 2 million compromised Android hosts by exploiting residential proxy network vulnerabilities. Targets include smart TVs, set-top boxes, and IoT devices on internal networks. Operators monetize through residential proxy services and DDoS-for-hire. Compromised devices serve as gateways to internal network resources.",
       "status": "New",
       "buzzwords": [
-        "botnet",
-        "android",
-        "iot",
+        "IoT security",
         "malware",
-        "ddos",
-        "residential-proxy"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1794,7 +1672,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1817,13 +1695,7 @@
     "aiAnalysis": {
       "summary": "Security researchers successfully trapped Scattered Lapsus$ Hunters (ShinyHunters) using realistic but fake datasets. The honeypot operation provided valuable TTP intelligence, confirming that elite threat actors can be deceived by well-crafted deception infrastructure. Demonstrates value of active defensive threat intelligence beyond passive monitoring.",
       "status": "New",
-      "buzzwords": [
-        "threat-intelligence",
-        "honeypot",
-        "lapsus",
-        "shinyhunters",
-        "deception"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1834,7 +1706,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1857,13 +1729,7 @@
     "aiAnalysis": {
       "summary": "Critical 'MongoBleed' vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog.",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "mongodb",
-        "database",
-        "exploitation",
-        "mongobleed"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -1874,7 +1740,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1898,11 +1764,7 @@
       "summary": "Critical security vulnerability (CVSS score 9.9) disclosed in n8n, a popular workflow automation platform. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "n8n",
-        "workflow-automation",
-        "command-execution",
-        "iot"
+        "IoT security"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1914,7 +1776,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1938,11 +1800,7 @@
       "summary": "CERT/CC disclosed unpatched security flaw (CVE-2025-65606) in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "totolink",
-        "firmware",
-        "iot",
-        "remote-takeover"
+        "IoT security"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1954,7 +1812,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1980,11 +1838,9 @@
       "status": "New",
       "buzzwords": [
         "malware",
-        "dcrat",
-        "social-engineering",
-        "clickfix",
-        "hospitality",
-        "rat"
+        "social engineering",
+        "SOC",
+        "cloud misconfiguration"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -1996,7 +1852,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2020,11 +1876,10 @@
       "summary": "Popular AI-powered VS Code forks (Cursor, Windsurf, Google Antigravity, Trae) recommend extensions that don't exist in Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names, potentially exposing developers to credential theft and code exfiltration.",
       "status": "New",
       "buzzwords": [
-        "supply-chain",
-        "vscode",
-        "extensions",
-        "developer-tools",
-        "ide"
+        "supply-chain compromise",
+        "insider threat",
+        "Scattered Spider",
+        "identity-first attacks"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2036,7 +1891,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2061,10 +1916,8 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "federal-contractor",
-        "tridentlocker",
-        "government",
-        "data-breach"
+        "ransomware as a service",
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2076,7 +1929,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2100,11 +1953,7 @@
       "summary": "Jaguar Land Rover revealed that a September 2025 cyberattack led to catastrophic 43% decline in Q3 wholesale volumes, with widespread supply chain disruption. The attack cost the UK economy an estimated $2.5 billion, demonstrating how cyberattacks on major manufacturers have cascading national economic effects.",
       "status": "New",
       "buzzwords": [
-        "cyberattack",
-        "automotive",
-        "supply-chain",
-        "economic-impact",
-        "manufacturing"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2116,7 +1965,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2138,12 +1987,7 @@
     "aiAnalysis": {
       "summary": "The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions.",
       "status": "New",
-      "buzzwords": [
-        "education",
-        "training",
-        "professional-development",
-        "cybersecurity-strategy"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2154,7 +1998,7 @@
       "country": "Netherlands",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2179,12 +2023,7 @@
       "summary": "SANS Internet Storm Center published comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Created by Adversis security consulting, the tool automatically identifies issues including outdated clients, keys without expiration, missing ACL tests, and unused security features. Supports JSON output and automated remediation.",
       "status": "New",
       "buzzwords": [
-        "security-tool",
-        "vpn",
-        "audit",
-        "tailscale",
-        "configuration",
-        "open-source"
+        "cloud misconfiguration"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2196,7 +2035,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2219,10 +2058,9 @@
       "summary": "Phishing actors are exploiting complex routing scenarios and misconfigured spoof protections to effectively spoof organizations’ domains and deliver phishing emails that appear, superficially, to have been sent internally. Threat actors have leveraged this vector to deliver a wide variety of phis...",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
         "phishing",
-        "malware",
-        "Offentlig/Microsoft"
+        "spear phishing",
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2234,7 +2072,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2256,9 +2094,7 @@
       "summary": "Security teams are being pushed to their limits as AI‑powered cyberattacks grow in speed, scale, and sophistication—and only 14% of organizations surveyed by the World Economic Forum report they feel confident they have the right people and skills needed to meet their cybersecurity objectives.1 A...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "microsoft",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2270,7 +2106,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2294,14 +2130,7 @@
     "aiAnalysis": {
       "summary": "Norway announced the implementation timeline for the EU's NIS2 Directive. Key milestones include parliamentary adoption in Q1 2026, law entering into force on July 1, 2026, registration deadline for covered entities on October 1, 2026, and first audits by NSM and sector regulators beginning July 1, 2027.",
       "status": "New",
-      "buzzwords": [
-        "regulation",
-        "policy",
-        "nis2",
-        "eu",
-        "government",
-        "compliance"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2312,7 +2141,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2335,13 +2164,7 @@
     "aiAnalysis": {
       "summary": "Norway, represented by NSM, joined the Nordic Baltic Cyber Consortium (NBCC), a regional cybersecurity collaboration supported by EU's Digital Europe with a budget of approximately 165 million NOK. Led by Denmark, the consortium includes Iceland, Finland, Norway, Estonia, Lithuania, and Latvia to enhance regional cyber resilience.",
       "status": "New",
-      "buzzwords": [
-        "policy",
-        "international-cooperation",
-        "eu",
-        "government",
-        "cyber-defense"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2352,7 +2175,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2375,13 +2198,7 @@
     "aiAnalysis": {
       "summary": "Norway's National Security Authority (NSM) has submitted a proposal for regulations on cybersecurity certification for critical infrastructure operators. The public consultation period is open until January 26, 2026. The regulation aims to standardize security practices across essential services.",
       "status": "New",
-      "buzzwords": [
-        "regulation",
-        "policy",
-        "critical-infrastructure",
-        "certification",
-        "government"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2392,7 +2209,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2416,11 +2233,10 @@
       "summary": "Korean Air suffered a data breach through KC&D Service, a vendor managing inflight catering and duty-free operations. The incident exposed personal data of approximately 30,000 employees, including names and bank account numbers. The Clop ransomware group claimed responsibility.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "supply-chain",
+        "data breach",
+        "supply-chain compromise",
         "ransomware",
-        "clop",
-        "aviation"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2432,7 +2248,7 @@
       "country": "South Korea",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2456,9 +2272,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "critical-infrastructure",
-        "energy",
-        "gentlemen-group"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2470,7 +2284,7 @@
       "country": "Romania",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2494,11 +2308,7 @@
       "summary": "Taiwan's National Security Bureau reported that mainland China-linked hackers launched an average of 2.63 million cyberattacks per day on Taiwan's critical infrastructure in 2025, representing a 6% in...",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "healthcare",
-        "government",
-        "critical-infrastructure",
-        "banking"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2510,7 +2320,7 @@
       "country": "Taiwan",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2538,7 +2348,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2561,10 +2371,8 @@
       "summary": "Apple confirmed a December cyberattack on one of its Chinese manufacturers, potentially exposing internal production data and blueprints. The breach highlights supply chain vulnerabilities in the technology manufacturing sector.",
       "status": "New",
       "buzzwords": [
-        "supply-chain",
-        "data-breach",
-        "manufacturing",
-        "apple"
+        "supply-chain compromise",
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2576,7 +2384,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2601,12 +2409,10 @@
       "summary": "Artisans' Bank and VeraBank disclosed that customer data was exposed in an August ransomware attack on their vendor, Marquis Software. The vendor was breached via SonicWall vulnerability. While the banks' own systems were not compromised, the incident may have affected up to 1.35 million people across dozens of financial institutions.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "supply-chain",
-        "banking",
+        "data breach",
+        "supply-chain compromise",
         "ransomware",
-        "sonicwall",
-        "vulnerability"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2618,7 +2424,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2637,9 +2443,7 @@
     "aiAnalysis": {
       "summary": "Singapore's Cybersecurity Agency issued an urgent warning about CVE-2025-52691, an unauthenticated remote code execution vulnerability in SmarterMail email servers. The critical flaw allows attackers...",
       "status": "New",
-      "buzzwords": [
-        "vulnerability"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2650,7 +2454,7 @@
       "country": "Singapore",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2674,9 +2478,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "vulnerability",
-        "banking",
-        "education"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2688,7 +2490,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2711,10 +2513,7 @@
       "summary": "PST (Norwegian Police Security Service) linked a data attack on Norwegian government websites to pro-Russian hacktivist groups. The attack was quickly detected and prevented, but underscores the continued threat from state-sponsored actors.",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "hacktivist",
-        "state-sponsored",
-        "government"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2726,7 +2525,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2751,10 +2550,8 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "insider-threat",
-        "alphv",
-        "blackcat",
-        "arrest"
+        "ransomware as a service",
+        "insider threat"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2766,7 +2563,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2791,12 +2588,8 @@
       "summary": "State-sponsored APT group Transparent Tribe launched sophisticated Remote Access Trojan (RAT) campaigns targeting Indian government agencies and academic institutions. The campaign demonstrates continued APT focus on Indian critical infrastructure and intelligence gathering operations.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "rat",
-        "transparent-tribe",
-        "state-sponsored",
-        "government",
-        "academia"
+        "APT",
+        "cloud misconfiguration"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2808,7 +2601,7 @@
       "country": "India",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2833,11 +2626,7 @@
       "summary": "Multiple state-linked APT groups including Silver Fox and Mustang Panda deployed ToneShell malware in coordinated campaigns against Indian targets. The attacks represent escalating cyber operations focused on Indian government and academic sectors.",
       "status": "New",
       "buzzwords": [
-        "apt",
-        "silver-fox",
-        "mustang-panda",
-        "toneshell",
-        "state-sponsored",
+        "APT",
         "malware"
       ],
       "threatActors": [],
@@ -2850,7 +2639,7 @@
       "country": "India",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2873,10 +2662,7 @@
       "summary": "Major patient portal ManageMyHealth in New Zealand was compromised, exposing sensitive patient health records. The incident has drawn criticism for lack of transparency and inadequate information sharing with affected patients and healthcare providers.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "healthcare",
-        "patient-data",
-        "privacy"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2888,7 +2674,7 @@
       "country": "New Zealand",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2912,11 +2698,8 @@
       "summary": "Cognizant hit with multiple U.S. class-action lawsuits following a major data breach at TriZetto, its healthcare platform. The incident exemplifies supplier risk in the healthcare sector and the legal consequences of third-party security failures.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "healthcare",
-        "supply-chain",
-        "lawsuit",
-        "trizetto"
+        "data breach",
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -2928,7 +2711,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2950,12 +2733,7 @@
     "aiAnalysis": {
       "summary": "Belgium's cybersecurity chief issued stark warning that Europe has 'lost the internet' amid escalating attacks on critical infrastructure. The statement reflects growing concerns about physical and digital security convergence in European infrastructure protection.",
       "status": "New",
-      "buzzwords": [
-        "critical-infrastructure",
-        "policy",
-        "european-union",
-        "geopolitical"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -2966,7 +2744,7 @@
       "country": "Belgium",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2988,12 +2766,7 @@
     "aiAnalysis": {
       "summary": "Finnish authorities seized a ship suspected of deliberately damaging undersea telecommunications cables in the Baltic Sea. The incident is being investigated as gross sabotage, highlighting physical threats to critical digital infrastructure.",
       "status": "New",
-      "buzzwords": [
-        "critical-infrastructure",
-        "sabotage",
-        "subsea-cable",
-        "geopolitical"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3004,7 +2777,7 @@
       "country": "Finland",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3027,13 +2800,7 @@
     "aiAnalysis": {
       "summary": "Several undersea cable breaks in the Baltic Sea are being investigated as deliberate acts of sabotage. The incidents demonstrate how physical and digital security are merging, with infrastructure becoming geopolitical targets.",
       "status": "New",
-      "buzzwords": [
-        "critical-infrastructure",
-        "sabotage",
-        "subsea-cable",
-        "geopolitical",
-        "baltic-sea"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3044,7 +2811,7 @@
       "country": "Sweden",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3066,12 +2833,7 @@
     "aiAnalysis": {
       "summary": "NYC banned Flipper Zero devices and Raspberry Pi at mayoral inauguration, reflecting government struggles to distinguish between hobbyist equipment and actual security threats. The ban highlights tensions between maker culture and security policy.",
       "status": "New",
-      "buzzwords": [
-        "policy",
-        "flipper-zero",
-        "regulation",
-        "hardware"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3082,7 +2844,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3107,10 +2869,7 @@
       "status": "New",
       "buzzwords": [
         "malware",
-        "supply-chain",
-        "browser-extension",
-        "darkspectre",
-        "credential-theft"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3122,7 +2881,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3146,11 +2905,7 @@
       "summary": "Attackers compromised Trust Wallet's Chrome extension, draining $8.5 million in cryptocurrency from users. The incident is linked to the broader DarkSpectre browser extension supply-chain attack campaign.",
       "status": "New",
       "buzzwords": [
-        "cryptocurrency",
-        "supply-chain",
-        "browser-extension",
-        "trust-wallet",
-        "theft"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3162,7 +2917,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3185,13 +2940,7 @@
     "aiAnalysis": {
       "summary": "Attackers exploited multisig wallet vulnerabilities to drain $3.9 million from Unleash Protocol. The attack highlights classic DeFi security weaknesses in smart contract implementations and multisignature wallet configurations.",
       "status": "New",
-      "buzzwords": [
-        "cryptocurrency",
-        "defi",
-        "multisig",
-        "smart-contract",
-        "theft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3202,7 +2951,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3226,11 +2975,8 @@
       "summary": "Security researchers disclosed critical vulnerability in Apache NuttX RTOS that allows remote code execution. The flaw affects embedded systems and IoT devices, requiring immediate patching.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "apache",
-        "rce",
-        "iot",
-        "embedded-systems"
+        "brute force",
+        "IoT security"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3242,7 +2988,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3265,10 +3011,7 @@
       "summary": "Critical security vulnerability found in Apache StreamPipes IoT analytics platform. The vulnerability could allow attackers to compromise industrial IoT data pipelines and analytics systems.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "apache",
-        "iot",
-        "industrial"
+        "IoT security"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3280,7 +3023,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3304,11 +3047,7 @@
       "summary": "IBM issued urgent security advisory for critical authentication bypass vulnerability in API Connect. The enterprise middleware flaw could allow attackers to bypass authentication and access sensitive systems.",
       "status": "New",
       "buzzwords": [
-        "vulnerability",
-        "ibm",
-        "authentication-bypass",
-        "api",
-        "enterprise"
+        "API abuse"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3320,7 +3059,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3342,12 +3081,7 @@
     "aiAnalysis": {
       "summary": "Critical MongoBleed vulnerability discovered affecting MongoDB implementations, potentially exposing sensitive data from databases worldwide. The vulnerability highlights ongoing security challenges in open-source database systems.",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "mongodb",
-        "database",
-        "data-exposure"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3358,7 +3092,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3381,13 +3115,7 @@
     "aiAnalysis": {
       "summary": "RondoDox botnet actively exploiting React2Shell vulnerability to compromise Next.js servers. The campaign targets modern web frameworks, demonstrating that popular JavaScript frameworks are high-value targets for attackers.",
       "status": "New",
-      "buzzwords": [
-        "botnet",
-        "vulnerability",
-        "react2shell",
-        "nextjs",
-        "web-framework"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3398,7 +3126,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3421,10 +3149,7 @@
       "summary": "The European Space Agency (ESA) confirmed a data breach affecting external engineering servers outside its main corporate network. Hackers claimed to have stolen approximately 200GB of data including private source code, API tokens, and CI/CD configurations from collaborative systems. ESA began forensic analysis and secured potentially affected devices.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "government",
-        "space",
-        "research"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3436,7 +3161,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3458,9 +3183,7 @@
       "summary": "Chinese cybersecurity firm Knownsec suffered a data breach exposing security research data and threat intelligence. The incident highlights that even security companies remain vulnerable to sophisticated attacks.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "security-vendor",
-        "threat-intelligence"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3472,7 +3195,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3498,13 +3221,7 @@
       "summary": "Large numbers of Internet-exposed Fortinet firewalls remain vulnerable to a years-old 2FA/MFA bypass (CVE-2020-12812), with reports of active exploitation. The vulnerability allows attackers to bypass authentication and take over networks, underscoring the importance of patch hygiene and perimeter hardening.",
       "status": "New",
       "buzzwords": [
-        "fortinet",
-        "vulnerability",
-        "2fa-bypass",
-        "mfa",
-        "exploitation",
-        "perimeter-security",
-        "patching"
+        "MFA"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3516,7 +3233,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3540,11 +3257,9 @@
       "summary": "Covenant Health revised its estimate of people impacted by a data breach discovered in May 2025, after additional analysis increased the total to nearly 478,000 affected individuals. The healthcare breach exposed sensitive patient information.",
       "status": "New",
       "buzzwords": [
-        "healthcare",
-        "data-breach",
-        "patient-data",
-        "phi",
-        "notification"
+        "data breach",
+        "phishing",
+        "spear phishing"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3556,7 +3271,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3582,13 +3297,9 @@
       "summary": "Aflac issued notifications affecting 22.6 million people after a June incident involving unauthorized access and data theft. The massive notification volume underscores the scale of exposure possible in insurance and healthcare data ecosystems.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "data-theft",
-        "insurance",
-        "healthcare-data",
-        "phi",
-        "pii",
-        "mass-notification"
+        "data breach",
+        "phishing",
+        "spear phishing"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3600,7 +3311,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3624,11 +3335,7 @@
       "summary": "DD-USA (Daedong-USA / KIOTI Tractor Division) published an update describing the scope of information potentially affected in a cybersecurity incident, including personal and sensitive data categories such as names, contact information, dates of birth, and copies of government-issued IDs.",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "breach-notification",
-        "pii",
-        "manufacturing",
-        "disclosure"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3640,7 +3347,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3666,11 +3373,9 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "google-tasks",
-        "social-engineering",
-        "credential-theft",
-        "trusted-service-abuse",
-        "manufacturing"
+        "spear phishing",
+        "social engineering",
+        "SOC"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3682,7 +3387,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3708,11 +3413,7 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "google-cloud",
-        "application-integration",
-        "cloud-abuse",
-        "credential-theft",
-        "trusted-infrastructure"
+        "spear phishing"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3724,7 +3425,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3748,14 +3449,7 @@
     "aiAnalysis": {
       "summary": "Investigators linked ongoing cryptocurrency wallet thefts to material stolen in the 2022 LastPass breach. The incidents illustrate the long-tail risk of encrypted vault theft combined with later cracking, credential reuse, or targeted follow-on activity against crypto holders.",
       "status": "New",
-      "buzzwords": [
-        "cryptocurrency",
-        "lastpass",
-        "breach-aftermath",
-        "credential-theft",
-        "wallet-theft",
-        "long-tail-risk"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3766,7 +3460,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3792,12 +3486,8 @@
       "summary": "Researchers described Kimwolf as a large Android-based botnet affecting approximately 1.8 million consumer devices including smart TVs, set-top boxes, and tablets. The botnet has significant DDoS capacity and uses Ethereum Name Service (ENS) for infrastructure resilience, with infections concentrated in Brazil, India, US, Argentina, South Africa, and Philippines.",
       "status": "New",
       "buzzwords": [
-        "botnet",
-        "ddos",
-        "android",
-        "iot",
-        "smart-tv",
-        "consumer-devices",
+        "DDoS",
+        "IoT security",
         "malware"
       ],
       "threatActors": [],
@@ -3810,7 +3500,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3836,13 +3526,7 @@
       "summary": "European regulators weighed action against X (formerly Twitter) after its Grok AI was reportedly used to create sexually explicit deepfake images of a minor. The incident reflects escalating regulatory scrutiny of generative AI misuse and platform controls for preventing AI-generated child abuse material.",
       "status": "New",
       "buzzwords": [
-        "ai-abuse",
-        "deepfake",
-        "grok",
-        "regulation",
-        "child-safety",
-        "csam",
-        "platform-liability"
+        "deepfake"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3854,7 +3538,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3879,15 +3563,7 @@
     "aiAnalysis": {
       "summary": "A security flaw in GNU Wget2's handling of Metalink documents can enable path traversal issues that may allow attackers to overwrite arbitrary files on the system. Vendors have published advisories and fixes for the vulnerability affecting this widely-used command-line download utility.",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "wget2",
-        "cve-2025-69194",
-        "file-overwrite",
-        "path-traversal",
-        "gnu",
-        "patching"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -3898,7 +3574,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3918,7 +3594,7 @@
       "summary": "Maven Central, the leading Java dependency repository, was targeted by the malicious \"org.fasterxml.jackson.core\" package that masqueraded as the legitimate Jackson JSON library. The package silently...",
       "status": "New",
       "buzzwords": [
-        "supply-chain"
+        "supply-chain compromise"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3930,7 +3606,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3953,8 +3629,9 @@
       "status": "New",
       "buzzwords": [
         "phishing",
-        "state-sponsored",
-        "social-engineering"
+        "spear phishing",
+        "social engineering",
+        "SOC"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -3966,7 +3643,7 @@
       "country": "Israel",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3987,8 +3664,7 @@
       "summary": "France's CNIL imposed a €1.7 million fine on Nexpublica under GDPR regulations. The fine stemmed from a 2022 data breach that exposed 6.3 million personal records, including sensitive disability data....",
       "status": "New",
       "buzzwords": [
-        "data-breach",
-        "regulation"
+        "data breach"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4000,7 +3676,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4021,11 +3697,7 @@
     "aiAnalysis": {
       "summary": "The Polish government formally requested EU regulators to investigate TikTok for an AI-generated disinformation campaign promoting \"Polexit\" ahead of EU elections. Under the Digital Services Act, Pola...",
       "status": "New",
-      "buzzwords": [
-        "state-sponsored",
-        "disinformation",
-        "government"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4036,7 +3708,7 @@
       "country": "Poland",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4060,11 +3732,7 @@
       "summary": "A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "terrorism",
-        "government",
-        "banking",
-        "law-enforcement"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4076,7 +3744,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4097,11 +3765,7 @@
     "aiAnalysis": {
       "summary": "Ilya Lichtenstein, who pleaded guilty in 2024 to laundering proceeds from the Bitfinex heist, was released early under the First Step Act. He publicly credited the policy (signed by former President T...",
       "status": "New",
-      "buzzwords": [
-        "cryptocurrency",
-        "regulation",
-        "policy"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4112,7 +3776,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4135,8 +3799,7 @@
       "status": "New",
       "buzzwords": [
         "ransomware",
-        "cryptocurrency",
-        "law-enforcement"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4148,7 +3811,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4171,10 +3834,8 @@
       "summary": "Municipalities in Vestland county conducted a simulated ransomware attack exercise to test crisis management protocols and inter-agency coordination. The exercise involved IT staff, municipal leadership, and emergency services.",
       "status": "New",
       "buzzwords": [
-        "exercise",
         "ransomware",
-        "training",
-        "municipal"
+        "ransomware as a service"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4186,7 +3847,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.328Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4209,10 +3870,7 @@
       "summary": "The pro-Russian hacking group NoName057(16) launched a DDoS cyberattack on France's national postal service La Poste and La Banque Postale. The attack knocked central computer systems offline, disrupt...",
       "status": "New",
       "buzzwords": [
-        "ddos",
-        "hacktivist",
-        "critical-infrastructure",
-        "banking"
+        "DDoS"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4224,7 +3882,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4245,11 +3903,7 @@
     "aiAnalysis": {
       "summary": "China's amended Cybersecurity Law came into effect on January 1, 2026, representing the most significant update since 2017. The changes impose near-real-time (1-hour) incident reporting for critical s...",
       "status": "New",
-      "buzzwords": [
-        "government",
-        "regulation",
-        "policy"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4260,7 +3914,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4282,12 +3936,7 @@
     "aiAnalysis": {
       "summary": "Hong Kong's Critical Infrastructure (Computer Systems) Ordinance went live on January 1, 2026, significantly expanding the number of sectors designated as \"critical\" to include utilities, transport, a...",
       "status": "New",
-      "buzzwords": [
-        "government",
-        "critical-infrastructure",
-        "regulation",
-        "policy"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4298,7 +3947,7 @@
       "country": "Hong Kong",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4319,8 +3968,7 @@
       "summary": "Today’s cyberthreat landscape demands more than technical expertise: it requires a unified response team of technical responders, insurers, brokers, and legal counsel. This integrated approach is key to building long-term cyber resilience to help your organization anticipate, withstand, recover f...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4332,7 +3980,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4351,9 +3999,7 @@
     "aiAnalysis": {
       "summary": "Tidligere i desember mottok norske TikTok-brukere et varsel som gjaldt selskapets overføring av personopplysninger til Kina. Der informerte selskapet om at et vedtak om å stanse overføringene er satt på vent.",
       "status": "New",
-      "buzzwords": [
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4364,7 +4010,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4384,10 +4030,7 @@
     "aiAnalysis": {
       "summary": "CVE-2025-55182 (also referred to as React2Shell and includes CVE-2025-66478, which was merged into it) is a critical pre-authentication remote code execution (RCE) vulnerability affecting React Server Components, Next.js, and related frameworks. With a CVSS score of 10.0, this vulnerability could...",
       "status": "New",
-      "buzzwords": [
-        "vulnerability",
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4398,7 +4041,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4420,9 +4063,7 @@
       "summary": "While patchwork tools slow defenders down and impact visibility into potential cyberthreats, they’re an unfortunate reality for many organizations. As digital risk accelerates and attack surfaces multiply, security leaders are doing their best to stitch together point solutions while trying to av...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "microsoft",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4434,7 +4075,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4453,9 +4094,7 @@
     "aiAnalysis": {
       "summary": "Europas avhengighet av digitale løsninger fra USA og Kina har gjort at kontroll over innbyggernes personopplysninger og kritiske digitale tjenester i økende grad er blitt et spørsmål om nasjonal sikkerhet og geopolitikk. Den 28. januar markerer vi personverndagen med et frokostmøte.",
       "status": "New",
-      "buzzwords": [
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4466,7 +4105,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4485,9 +4124,7 @@
     "aiAnalysis": {
       "summary": "Arbeids- og inkluderingsdepartementet (AID) har sendt ut et forslag til ny lov og forskrift for den særskilte innsatsen som skal gjøres mot negativ sosial kontroll og æresmotivert vold. Vi er positive til at denne innsatsen reguleres og samles i et regelverk, men vi har likevel en del innspill.",
       "status": "New",
-      "buzzwords": [
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4498,7 +4135,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4519,8 +4156,7 @@
       "summary": "Today, most organizations use multiple identity systems and multiple network access solutions from multiple vendors. This happens, either intentionally or organically, when different areas of a company choose different tools, creating a fragmented environment that leaves weaknesses that cyberatta...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4532,7 +4168,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4552,10 +4188,7 @@
     "aiAnalysis": {
       "summary": "We’re honored to share that Microsoft has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security. We believe this recognition highlights the value of Microsoft Defender for Office 365’s innovative capabilities in addressing today’s complex email security challenges. Protect a...",
       "status": "New",
-      "buzzwords": [
-        "microsoft",
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4566,7 +4199,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4585,9 +4218,7 @@
     "aiAnalysis": {
       "summary": "Med KI-forordningen kommer det en splitter ny sandkasse. Den nye sandkassen vil jobbe tett med Datatilsynets eksisterende sandkasse for personvernvennlig digitalisering og innovasjon.",
       "status": "New",
-      "buzzwords": [
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4598,7 +4229,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4618,10 +4249,7 @@
     "aiAnalysis": {
       "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
       "status": "New",
-      "buzzwords": [
-        "microsoft",
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4632,7 +4260,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4654,9 +4282,7 @@
       "summary": "Today, we are proud to share that Microsoft has been recognized as an overall leader in the KuppingerCole Leadership Compass for Generative AI Defense (GAD), an independent report from a leading European analyst firm. This recognition reinforces the work we’ve been doing to deliver enterprise-rea...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "microsoft",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4668,7 +4294,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4690,9 +4316,7 @@
       "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "microsoft",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4704,7 +4328,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4723,9 +4347,7 @@
     "aiAnalysis": {
       "summary": "As email threats grow more sophisticated and layered security architectures become more common, organizations need clear, data-driven insights to evaluate how their security solutions perform together. Benchmarking plays a critical role in helping security leaders understand not just individual p...",
       "status": "New",
-      "buzzwords": [
-        "Offentlig/Microsoft"
-      ],
+      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -4736,7 +4358,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4757,8 +4379,7 @@
       "summary": "In the latest edition of our Cyberattack Series, we dive into a real-world case of fake employees. Cybercriminals are no longer just breaking into networks—they’re gaining access by posing as legitimate employees. This form of cyberattack involves operatives posing as legitimate remote hires, sli...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4770,7 +4391,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4792,9 +4413,7 @@
       "summary": "The insights gained from Cybersecurity Awareness Month, right through to Microsoft Ignite 2025, demonstrate that security remains a top priority for business leaders. It serves as a strategic lever for organizational growth, fosters trust, and facilitates the advancement of AI innovation. The Wor...",
       "status": "New",
       "buzzwords": [
-        "malware",
-        "microsoft",
-        "Offentlig/Microsoft"
+        "malware"
       ],
       "threatActors": [],
       "malwareFamilies": [],
@@ -4806,7 +4425,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-08T13:09:47.329Z",
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
     "enrichmentVersion": "1.0"
   }
 ]

@@ -21,6 +21,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
+const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'enrichment-config.json');
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -37,6 +38,70 @@ const STATUS = {
   ESCALATING: 'Escalating',
   UNKNOWN: 'Unknown'
 };
+
+/**
+ * Load enrichment configuration
+ */
+function loadConfig() {
+  try {
+    if (fs.existsSync(CONFIG_FILE)) {
+      const data = fs.readFileSync(CONFIG_FILE, 'utf-8');
+      return JSON.parse(data);
+    }
+    console.log(`Config file not found: ${CONFIG_FILE}, using empty config`);
+    return { buzzwords: {} };
+  } catch (error) {
+    console.error(`Error loading config from ${CONFIG_FILE}:`, error.message);
+    return { buzzwords: {} };
+  }
+}
+
+/**
+ * Extract cybersecurity buzzwords from tags by matching against known buzzwords
+ */
+function extractBuzzwords(tags, config) {
+  if (!tags || tags.length === 0 || !config.buzzwords) {
+    return [];
+  }
+  
+  // Flatten all buzzwords from config into a single list
+  const knownBuzzwords = Object.values(config.buzzwords).flat();
+  
+  // Create a set of lowercase buzzwords for case-insensitive matching
+  const buzzwordSet = new Set(knownBuzzwords.map(b => b.toLowerCase()));
+  
+  // Also create variations for common patterns (e.g., "data-breach" matches "data breach")
+  const buzzwordVariations = new Map();
+  knownBuzzwords.forEach(buzzword => {
+    const lower = buzzword.toLowerCase();
+    buzzwordVariations.set(lower, buzzword);
+    // Add hyphenated version
+    buzzwordVariations.set(lower.replace(/\s+/g, '-'), buzzword);
+    // Add space version
+    buzzwordVariations.set(lower.replace(/-/g, ' '), buzzword);
+  });
+  
+  // Match tags against known buzzwords
+  const matchedBuzzwords = new Set();
+  tags.forEach(tag => {
+    const tagLower = tag.toLowerCase();
+    
+    // Direct match
+    if (buzzwordVariations.has(tagLower)) {
+      matchedBuzzwords.add(buzzwordVariations.get(tagLower));
+    }
+    
+    // Partial match - check if tag contains a buzzword or vice versa
+    knownBuzzwords.forEach(buzzword => {
+      const buzzwordLower = buzzword.toLowerCase();
+      if (tagLower.includes(buzzwordLower) || buzzwordLower.includes(tagLower)) {
+        matchedBuzzwords.add(buzzword);
+      }
+    });
+  });
+  
+  return Array.from(matchedBuzzwords);
+}
 
 /**
  * Load incidents from file
@@ -72,13 +137,16 @@ function saveEnrichedIncidents(incidents, filePath) {
 /**
  * Create basic enriched version of an incident without AI
  */
-function enrichIncident(incident) {
+function enrichIncident(incident, config) {
+  // Extract cybersecurity buzzwords by matching tags against known buzzwords
+  const buzzwords = extractBuzzwords(incident.tags, config);
+  
   // Create default aiAnalysis structure with reasonable defaults
   // Note: Empty values for direct copies, meaningful defaults for computed fields
   const aiAnalysis = {
     summary: incident.summary || '', // Direct copy from original
     status: STATUS.NEW, // Default to "New" for all incidents
-    buzzwords: incident.tags || [], // Use existing tags as buzzwords
+    buzzwords: buzzwords, // Filtered cybersecurity buzzwords only
     threatActors: [], // Will be empty without AI analysis
     malwareFamilies: [], // Will be empty without AI analysis
     companies: [], // Will be empty without AI analysis
@@ -102,7 +170,7 @@ function enrichIncident(incident) {
 /**
  * Process incidents for a specific year
  */
-function processYear(year) {
+function processYear(year, config) {
   const incidentsFile = path.join(PROJECT_ROOT, 'data', `incidents-${year}.json`);
   const enrichedFile = path.join(PROJECT_ROOT, 'data', `incidents-${year}-enriched.json`);
   
@@ -119,7 +187,7 @@ function processYear(year) {
   console.log(`📚 Loaded ${incidents.length} incidents from ${incidentsFile}`);
   
   // Enrich all incidents
-  const enrichedIncidents = incidents.map(incident => enrichIncident(incident));
+  const enrichedIncidents = incidents.map(incident => enrichIncident(incident, config));
   
   // Sort by date (newest first)
   enrichedIncidents.sort((a, b) => {
@@ -148,11 +216,15 @@ function main() {
     console.log('⚠️  DRY RUN MODE - No changes will be saved\n');
   }
   
+  // Load configuration
+  const config = loadConfig();
+  console.log('📋 Loaded enrichment configuration');
+  
   const results = [];
   
   // Process each year
   for (const year of YEARS_TO_PROCESS) {
-    const result = processYear(year);
+    const result = processYear(year, config);
     results.push(result);
   }
   
