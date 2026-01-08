@@ -1,4 +1,4 @@
-name: Enrich Articles with AI
+name: Enrich Articles
 
 on:
   workflow_run:
@@ -30,25 +30,26 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Enrich articles with AI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enrich articles (basic mode)
         run: npm run enrich-articles
       
       - name: Check for changes
         id: git-check
         run: |
-          # Dynamically find enriched file for current year
-          ENRICHED_FILE=$(ls data/incidents-*-enriched.json 2>/dev/null | head -n 1 || echo "data/incidents-2026-enriched.json")
-          git diff --exit-code "$ENRICHED_FILE" || echo "changed=true" >> $GITHUB_OUTPUT
-          echo "enriched_file=$ENRICHED_FILE" >> $GITHUB_OUTPUT
+          # Check all enriched files for changes
+          if ls data/incidents-*-enriched.json 1> /dev/null 2>&1; then
+            git add data/incidents-*-enriched.json
+            if ! git diff --cached --exit-code --quiet; then
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "No enriched files found to check"
+          fi
       
       - name: Commit enriched data
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          ENRICHED_FILE="${{ steps.git-check.outputs.enriched_file }}"
-          git add "$ENRICHED_FILE"
-          git commit -m "chore: update AI-enriched articles [skip ci]"
+          git commit -m "chore: update enriched articles [skip ci]"
           git push

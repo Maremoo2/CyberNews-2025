@@ -1,0 +1,4431 @@
+[
+  {
+    "id": "2026076",
+    "date": "2026-01-08",
+    "title": "US announces withdrawal from dozens of international treaties",
+    "summary": "Although the list does not include what are perceived to be the more consequential multilateral bodies shaping global cyber governance and state behaviour in cyberspace, some of the organizations play a role in shaping international law broadly.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/us-announces-withdrawal-from-dozens-international-orgs",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Although the list does not include what are perceived to be the more consequential multilateral bodies shaping global cyber governance and state behaviour in cyberspace, some of the organizations play a role in shaping international law broadly.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.854Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026077",
+    "date": "2026-01-08",
+    "title": "Microsoft Exchange Online outage blocks access to mailboxes via IMAP4",
+    "summary": "Microsoft is working to fix an Exchange Online service outage that intermittently prevents users from accessing their mailboxes via the Internet Mailbox Access Protocol 4 (IMAP4). [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes-via-imap4/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Microsoft is working to fix an Exchange Online service outage that intermittently prevents users from accessing their mailboxes via the Internet Mailbox Access Protocol 4 (IMAP4). [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026078",
+    "date": "2026-01-08",
+    "title": "Microsoft to enforce MFA for Microsoft 365 admin center sign-ins",
+    "summary": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-microsoft-365-admin-center-sign-ins/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026079",
+    "date": "2026-01-08",
+    "title": "The State of Trusted Open Source",
+    "summary": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versio...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026080",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Nå vil Chat GPT være legen din",
+    "summary": "Open AI lanserer «Chat GPT Health».",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/na-vil-chat-gpt-vaere-doktoren-din/566695",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Open AI lanserer «Chat GPT Health».",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026081",
+    "date": "2026-01-08",
+    "title": "Cisco Patches ISE Security Vulnerability After Public PoC Exploit Release",
+    "summary": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisco-patches-ise-security.html",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and c...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026082",
+    "date": "2026-01-08",
+    "title": "Researchers Uncover NodeCordRAT Hidden in npm Bitcoin-Themed Packages",
+    "summary": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-uncover-nodecordrat-hidden.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" b...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026083",
+    "date": "2026-01-08",
+    "title": "Coolify Discloses 11 Critical Flaws Enabling Full Server Compromise on Self-Hosted Instances",
+    "summary": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/coolify-discloses-11-critical-flaws.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10....",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026084",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Nå starter produksjonen: Verdens mest avanserte «menneskerobot»?",
+    "summary": "Boston Dynamics har omsider nådd en stor milepæl.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/verdens-mest-avanserte-menneskerobot-na-starter-produksjonen/566644",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Boston Dynamics har omsider nådd en stor milepæl.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026085",
+    "date": "2026-01-08",
+    "title": "Cisco warns of Identity Service Engine flaw with exploit code",
+    "summary": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-flaw-with-exploit-code/",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges. [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026086",
+    "date": "2026-01-08",
+    "title": "Nye skjermråd: Barn under 12 år bør unngå internett uten tilsyn",
+    "summary": "Regjeringen mener at barn under 12 år ikke bør ha tilgang til internett uten tilsyn fra voksne.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nye-skjermrad-barn-under-12-ar-bor-unnga-internett-uten-tilsyn/566704",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Regjeringen mener at barn under 12 år ikke bør ha tilgang til internett uten tilsyn fra voksne.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026087",
+    "date": "2026-01-08",
+    "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026088",
+    "date": "2026-01-08",
+    "title": "OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls",
+    "summary": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical recor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical recor...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026089",
+    "date": "2026-01-08",
+    "title": "CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are list...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are list...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026090",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Satser på nye kvantestudier: – Sier seg selv at kompetansen blir ettertraktet",
+    "summary": "Fra i høst blir det mulig å ta bachelor i kvanteteknologi ved to universiteter i Norge.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/satser-pa-nye-kvantestudier-sier-seg-selv-at-kompetansen-blir-ettertraktet/566569",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Fra i høst blir det mulig å ta bachelor i kvanteteknologi ved to universiteter i Norge.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026091",
+    "date": "2026-01-08",
+    "title": "ISC Stormcast For Thursday, January 8th, 2026 https://isc.sans.edu/podcastdetail/9758, (Thu, Jan 8th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32610",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026092",
+    "date": "2026-01-08",
+    "title": "Analysis using Gephi with DShield Sensor Data, (Wed, Jan 7th)",
+    "summary": "I'm always looking for new ways of manipulating the data captured by my DShield sensor [1]. This time I used Gephi [2] and Graphiz [3] a popular and powerful tool for visualizing and exploring relationships between nodes, to examine the relationship between the source IP, filename and which senso...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32608",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "I'm always looking for new ways of manipulating the data captured by my DShield sensor [1]. This time I used Gephi [2] and Graphiz [3] a popular and powerful tool for visualizing and exploring relationships between nodes, to examine the relationship between the source IP, filename and which senso...",
+      "status": "New",
+      "buzzwords": [
+        "APT"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026096",
+    "date": "2026-01-08",
+    "title": "The Loudest Voices in Security Often Have the Least to Lose - SecurityWeek",
+    "summary": "The loudest voices in cybersecurity are not always the ones who carry the risk. When advice comes without accountability, it creates noise, not ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/the-loudest-voices-in-security-often-have-the-least-to-lose/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The loudest voices in cybersecurity are not always the ones who carry the risk. When advice comes without accountability, it creates noise, not ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026097",
+    "date": "2026-01-08",
+    "title": "Ghost Tapped: Tracking the Rise of Chinese Tap-to-pay Android Malware | Group-IB Blog",
+    "summary": "2. If tap-to-pay is secure, how is it exploited? arrow_drop_down.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/ghost-tapped-chinese-malware/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "2. If tap-to-pay is secure, how is it exploited? arrow_drop_down.",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026098",
+    "date": "2026-01-08",
+    "title": "Why cybersecurity cannot hire its way through the AI era - CyberScoop",
+    "summary": "The truth is: everything we do in cybersecurity is about risk management. The ROC is not just for security. It connects CISOs, CIOs, CFOs, business ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberscoop.com/cybersecurity-talent-shortage-ai-risk-operations-center-2026-op-ed/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The truth is: everything we do in cybersecurity is about risk management. The ROC is not just for security. It connects CISOs, CIOs, CFOs, business ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026099",
+    "date": "2026-01-08",
+    "title": "Three key Cybersecurity Headlines making waves on Google",
+    "summary": "1. London Council Reaches Out to 100,000 Households About Potential Cyber-Attack. Several councils in London, including Westminster City Council, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/three-key-cybersecurity-headlines-making-waves-on-google/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "1. London Council Reaches Out to 100,000 Households About Potential Cyber-Attack. Several councils in London, including Westminster City Council, ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026100",
+    "date": "2026-01-08",
+    "title": "M&A Cybersecurity Due Diligence: The Questions That Matter Most - Banking Exchange",
+    "summary": "If you're walking into a poor risk position, it could affect valuation, negotiations or the cost of further investment to strengthen security after ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankingexchange.com/news-feed/item/10507-m-a-cybersecurity-due-diligence-the-questions-that-matter-most",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "If you're walking into a poor risk position, it could affect valuation, negotiations or the cost of further investment to strengthen security after ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026101",
+    "date": "2026-01-08",
+    "title": "Sedgwick Acknowledges Data Breach Linked to TridentLocker Ransomware Attack",
+    "summary": "Claims administration giant Sedgwick disclosed a cybersecurity incident at its government-focused subsidiary on January 4, 2026, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/sedgwick-tridentlocker-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Claims administration giant Sedgwick disclosed a cybersecurity incident at its government-focused subsidiary on January 4, 2026, ...",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service",
+        "data breach",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.855Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026102",
+    "date": "2026-01-08",
+    "title": "Cloudy Outlook for Cyber Jobs as AI Fills Security Gaps - WSJ",
+    "summary": "Flat budgets and a shaky economy will keep cybersecurity hiring in a holding pattern as firms invest in automated security tools.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wsj.com/articles/cloudy-outlook-for-cyber-jobs-as-ai-fills-security-gaps-2128b2cf",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Flat budgets and a shaky economy will keep cybersecurity hiring in a holding pattern as firms invest in automated security tools.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026103",
+    "date": "2026-01-08",
+    "title": "MoJ spent £50M on security at Legal Aid Agency before attack - The Register",
+    "summary": "Updated The UK's Ministry of Justice spent £50 million ($67 million) on cybersecurity improvements at the Legal Aid Agency (LAA) before the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/07/legal_aid_agency_attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Updated The UK's Ministry of Justice spent £50 million ($67 million) on cybersecurity improvements at the Legal Aid Agency (LAA) before the ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026104",
+    "date": "2026-01-08",
+    "title": "Aurora College plans to increase cyber security following Christmas attack - My North Now",
+    "summary": "Staff at Aurora College are working with specialists and partners to resolve the impacts of a cybersecurity attack that caused “damage” to the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mynorthnow.com/85054/news/nwt-news/aurora-college-plans-to-increase-cyber-security-following-christmas-attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Staff at Aurora College are working with specialists and partners to resolve the impacts of a cybersecurity attack that caused “damage” to the ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026105",
+    "date": "2026-01-08",
+    "title": "The 3 Best Cybersecurity Stocks to Buy for 2026 - Yahoo Finance",
+    "summary": "Finally, Palo Alto Networks (PANW) remains the gold standard in network security, as it continues to expand beyond firewalls into AI-powered threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/3-best-cybersecurity-stocks-buy-195709659.html",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Finally, Palo Alto Networks (PANW) remains the gold standard in network security, as it continues to expand beyond firewalls into AI-powered threat ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026106",
+    "date": "2026-01-08",
+    "title": "8 things CISOs can't afford to get wrong in 2026 | CSO Online",
+    "summary": "“In my experience, the proximate cause of security breaches is usually human error,” says Beth Fulkerson, technology and cybersecurity partner at law ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4110699/8-things-cisos-cant-afford-to-get-wrong-in-2026.html",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "“In my experience, the proximate cause of security breaches is usually human error,” says Beth Fulkerson, technology and cybersecurity partner at law ...",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026107",
+    "date": "2026-01-08",
+    "title": "Privacy & Information Security Law Blog - Hunton Andrews Kurth LLP",
+    "summary": "On December 31, 2025, the Federal Trade Commission announced that a federal judge had approved a $10 million settlement of its complaint against ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/2026/01",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "On December 31, 2025, the Federal Trade Commission announced that a federal judge had approved a $10 million settlement of its complaint against ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026093",
+    "date": "2026-01-07",
+    "title": "Researchers rush to warn defenders of max-severity defect in n8n",
+    "summary": "Researchers warn that a critical vulnerability in n8n, an automation platform that allows organizations to integrate AI agents, workflows and hundreds of other enterprise services, could be exploited by attackers to achieve full control of targeted networks. The maximum-severity vulnerability — C...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/n8n-critical-vulnerability-massive-risk/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Researchers warn that a critical vulnerability in n8n, an automation platform that allows organizations to integrate AI agents, workflows and hundreds of other enterprise services, could be exploited by attackers to achieve full control of targeted networks. The maximum-severity vulnerability — C...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026094",
+    "date": "2026-01-07",
+    "title": "OpenAI says ChatGPT won't use your health information to train its models",
+    "summary": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026095",
+    "date": "2026-01-07",
+    "title": "New GoBruteforcer attack wave targets crypto, blockchain projects",
+    "summary": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-gobruteforcer-attack-wave-targets-crypto-blockchain-projects/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026108",
+    "date": "2026-01-07",
+    "title": "Cybersecurity News: UK cyber reset, no MFA is a problem, US cyberattacks on display",
+    "summary": "The announcement admits that its previous approach was flawed and left it unable to meet commitments to security government organizations to known ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-uk-cyber-reset-no-mfa-is-a-problem-us-cyberattacks-on-display/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The announcement admits that its previous approach was flawed and left it unable to meet commitments to security government organizations to known ...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026109",
+    "date": "2026-01-07",
+    "title": "Subcommittee Chairman Ogles Announces Hearing on Strengthening America's Offensive ...",
+    "summary": "... cyber disruption capabilities strengthen the security and resilience of the homeland. ... Security's (DHS) State and Local Cybersecurity Grant Program.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/07/media-advisory-subcommittee-chairman-ogles-announces-hearing-on-strengthening-americas-offensive-cyber-capabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "... cyber disruption capabilities strengthen the security and resilience of the homeland. ... Security's (DHS) State and Local Cybersecurity Grant Program.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026110",
+    "date": "2026-01-07",
+    "title": "Your AI Coding Assistants Will Overwhelm Your Delivery Pipeline: Here’s How to Prepare",
+    "summary": "“Agentic AI’s primary role in organizations is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.” —2025 DORA State of AI-Assisted Software Development report AI coding assistants amplify your organization’s strengths—and its...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/blogs/enterprise-strategy/your-ai-coding-assistants-will-overwhelm-your-delivery-pipeline-heres-how-to-prepare/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "“Agentic AI’s primary role in organizations is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.” —2025 DORA State of AI-Assisted Software Development report AI coding assistants amplify your organization’s strengths—and its...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026111",
+    "date": "2026-01-07",
+    "title": "AWS simplifies Client VPN onboarding with Quickstart setup",
+    "summary": "Today, AWS announces a simplified onboarding experience for AWS Client VPN, introducing a new Quickstart setup method that streamlines the process of creating and configuring Client VPN endpoints. AWS Client VPN allows you to securely connect remote users to AWS resources and on-premises networks...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Today, AWS announces a simplified onboarding experience for AWS Client VPN, introducing a new Quickstart setup method that streamlines the process of creating and configuring Client VPN endpoints. AWS Client VPN allows you to securely connect remote users to AWS resources and on-premises networks...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026112",
+    "date": "2026-01-07",
+    "title": "Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for Apache Airflow",
+    "summary": "You can now create Apache Airflow version 2.11 environments on Amazon Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces several changes to help you prepare for upgrading to Apache Airflow 3. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "You can now create Apache Airflow version 2.11 environments on Amazon Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces several changes to help you prepare for upgrading to Apache Airflow 3. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it ...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026113",
+    "date": "2026-01-07",
+    "title": "CMMC for AI? Defense Policy Law Imposes AI Security Framework and Requirements on Contractors",
+    "summary": "... cybersecurity frameworks, including CMMC. The framework will focus on highly capable AI systems that may be of highest interest to cyber threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crowell.com/en/insights/client-alerts/cmmc-for-ai-defense-policy-law-imposes-ai-security-framework-and-requirements-on-contractors",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "... cybersecurity frameworks, including CMMC. The framework will focus on highly capable AI systems that may be of highest interest to cyber threat ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026114",
+    "date": "2026-01-07",
+    "title": "Hackers Claim to Disconnect Brightspeed Customers After Breach - Infosecurity Magazine",
+    "summary": "Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, argued that security breaches impacting ISPs can have a major ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hackers-disconnect-brightspeed/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, argued that security breaches impacting ISPs can have a major ...",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026115",
+    "date": "2026-01-07",
+    "title": "Samsung Magician SSD software 'High Severity' vulnerability patched - Tom's Hardware",
+    "summary": "Having warned of the above, this vulnerability might not particularly worry you if your computer is always kept in a secure location, and the only ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/samsung-magician-ssd-software-high-severity-vulnerability-patched-upgrade-to-the-newest-v9-0-0-to-prevent-potential-dll-hijacking-and-privilege-escalation",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Having warned of the above, this vulnerability might not particularly worry you if your computer is always kept in a secure location, and the only ...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026116",
+    "date": "2026-01-07",
+    "title": "Explore the latest Microsoft Incident Response proactive services for enhanced resilience",
+    "summary": "As cyberthreats become faster, harder to detect, and more sophisticated, organizations must focus on building resilience—strengthening their ability to prevent, withstand, and recover from cybersecurity incidents. Resilience can mean the difference between containing an incident with minimal disr...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 1,
+    "aiAnalysis": {
+      "summary": "As cyberthreats become faster, harder to detect, and more sophisticated, organizations must focus on building resilience—strengthening their ability to prevent, withstand, and recover from cybersecurity incidents. Resilience can mean the difference between containing an incident with minimal disr...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 1,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026048",
+    "date": "2026-01-07",
+    "title": "D-Link Legacy Router RCE Vulnerability Actively Exploited",
+    "summary": "Critical remote code execution vulnerability (CVE-2026-0625, CVSS 9.3) in end-of-life D-Link DSL routers is being actively exploited by multiple threat actors. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely on legacy network devices that no longer receive security patches.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "rce",
+      "network-device",
+      "exploitation"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Critical remote code execution vulnerability (CVE-2026-0625, CVSS 9.3) in end-of-life D-Link DSL routers is being actively exploited by multiple threat actors. The vulnerability allows unauthenticated attackers to execute arbitrary code remotely on legacy network devices that no longer receive security patches.",
+      "status": "New",
+      "buzzwords": [
+        "brute force"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026049",
+    "date": "2026-01-07",
+    "title": "NordVPN Denies Data Breach After Leak Claims",
+    "summary": "NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, highlighting challenges VPN providers face in managing breach rumors and proving security.",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://www.securityweek.com/",
+    "tags": [
+      "data-breach",
+      "vpn",
+      "denial"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "NordVPN publicly denied breach allegations after a hacker claimed to have leaked user data. The company stated that the leaked information was either outdated or not legitimate, highlighting challenges VPN providers face in managing breach rumors and proving security.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026050",
+    "date": "2026-01-07",
+    "title": "BleepingComputer Data Breach",
+    "summary": "Cybersecurity news publication BleepingComputer confirmed it experienced a data breach with unauthorized access to systems. The incident demonstrates that even security-focused organizations can become targets and emphasizes the importance of transparent breach disclosure.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "data-breach",
+      "media"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Cybersecurity news publication BleepingComputer confirmed it experienced a data breach with unauthorized access to systems. The incident demonstrates that even security-focused organizations can become targets and emphasizes the importance of transparent breach disclosure.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026051",
+    "date": "2026-01-07",
+    "title": "Taiwan Reports Tenfold Increase in Chinese Energy Sector Attacks",
+    "summary": "Taiwan disclosed a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks focus on reconnaissance and establishing persistent access rather than immediate disruption, representing long-term strategic positioning.",
+    "region": "ASIA",
+    "country": "Taiwan",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "state-sponsored",
+      "critical-infrastructure",
+      "energy",
+      "china"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Taiwan disclosed a dramatic tenfold increase in cyberattacks attributed to Chinese actors targeting the nation's energy infrastructure throughout 2025. The attacks focus on reconnaissance and establishing persistent access rather than immediate disruption, representing long-term strategic positioning.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Taiwan",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026052",
+    "date": "2026-01-07",
+    "title": "UK Announces £210 Million Cyber Action Plan",
+    "summary": "The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Register",
+    "sourceUrl": "https://www.theregister.com/",
+    "tags": [
+      "government",
+      "policy",
+      "funding"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "The UK government unveiled a comprehensive £210 million cyber action plan aimed at bolstering national defenses against cyber threats. The plan includes increased funding for critical infrastructure protection, enhanced incident response capabilities, and workforce development.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026053",
+    "date": "2026-01-07",
+    "title": "UK Launches New Cyber Unit",
+    "summary": "The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting and incident response coordination.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "UK Government",
+    "sourceUrl": "https://www.gov.uk/",
+    "tags": [
+      "government",
+      "defense",
+      "operations"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "The UK established a new dedicated cyber unit to strengthen defenses against escalating cyber threats from state actors and criminal groups. The unit represents a shift from policy development to operational capacity, focusing on active threat hunting and incident response coordination.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026054",
+    "date": "2026-01-07",
+    "title": "Microsoft Defender Experts Suite Launch",
+    "summary": "Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Microsoft Security",
+    "sourceUrl": "https://www.microsoft.com/security/blog/",
+    "tags": [
+      "security-service",
+      "soc",
+      "mdr"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Microsoft introduced the Defender Experts Suite, a comprehensive managed security service providing 24/7 threat monitoring, expert-driven incident response, and proactive threat hunting. The service targets organizations lacking mature security operations centers or struggling with cybersecurity talent shortages.",
+      "status": "New",
+      "buzzwords": [
+        "SOC",
+        "social engineering"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026055",
+    "date": "2026-01-07",
+    "title": "FCC Finalizes New Robocall Penalties",
+    "summary": "The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberScoop",
+    "sourceUrl": "https://cyberscoop.com/",
+    "tags": [
+      "regulation",
+      "telecom",
+      "compliance"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The FCC finalized new penalty structures for telecommunications operators that fail to comply with robocall reporting requirements. The updated rules include mandatory two-factor authentication for database access and financial penalties for false reporting, merging compliance and cybersecurity requirements.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.856Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026056",
+    "date": "2026-01-07",
+    "title": "Microsoft Warns: Phishing Via Complex Email Routing Spoofs Internal Emails",
+    "summary": "Microsoft Threat Intelligence disclosed widespread phishing campaign exploiting misconfigured SPF/DKIM/DMARC and complex routing to deliver emails appearing as internal communications. Campaign uses Tycoon2FA PhaaS platform with AiTM capabilities to bypass MFA. Over 13 million malicious emails blocked in October 2025. Affects organizations with MX records not pointed to Office 365 and permissive DMARC policies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Microsoft Security Blog",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/",
+    "tags": [
+      "phishing",
+      "email-spoofing",
+      "tycoon2fa",
+      "aitm",
+      "bec",
+      "configuration"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Microsoft Threat Intelligence disclosed widespread phishing campaign exploiting misconfigured SPF/DKIM/DMARC and complex routing to deliver emails appearing as internal communications. Campaign uses Tycoon2FA PhaaS platform with AiTM capabilities to bypass MFA. Over 13 million malicious emails blocked in October 2025. Affects organizations with MX records not pointed to Office 365 and permissive DMARC policies.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing",
+        "cloud misconfiguration"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026057",
+    "date": "2026-01-07",
+    "title": "Two Malicious Chrome Extensions Steal ChatGPT and DeepSeek Conversations",
+    "summary": "Researchers discovered two malicious Chrome Web Store extensions designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting AI tools as new data theft targets. Browser extensions have re-emerged as high-risk attack surface.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "malware",
+      "browser-extension",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "data-exfiltration"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Researchers discovered two malicious Chrome Web Store extensions designed to exfiltrate conversations from OpenAI ChatGPT and DeepSeek AI platforms. The extensions read and steal sensitive information from AI chat sessions, highlighting AI tools as new data theft targets. Browser extensions have re-emerged as high-risk attack surface.",
+      "status": "New",
+      "buzzwords": [
+        "malware",
+        "supply chain attack",
+        "AI-powered attacks",
+        "AI-driven attacks",
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026058",
+    "date": "2026-01-07",
+    "title": "Kimwolf Android Botnet Reaches 2+ Million Devices",
+    "summary": "Kimwolf botnet (Aisuru malware variant) has grown to over 2 million compromised Android hosts by exploiting residential proxy network vulnerabilities. Targets include smart TVs, set-top boxes, and IoT devices on internal networks. Operators monetize through residential proxy services and DDoS-for-hire. Compromised devices serve as gateways to internal network resources.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "botnet",
+      "android",
+      "iot",
+      "malware",
+      "ddos",
+      "residential-proxy"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Kimwolf botnet (Aisuru malware variant) has grown to over 2 million compromised Android hosts by exploiting residential proxy network vulnerabilities. Targets include smart TVs, set-top boxes, and IoT devices on internal networks. Operators monetize through residential proxy services and DDoS-for-hire. Compromised devices serve as gateways to internal network resources.",
+      "status": "New",
+      "buzzwords": [
+        "IoT security",
+        "malware",
+        "DDoS"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026059",
+    "date": "2026-01-07",
+    "title": "Scattered Lapsus$/ShinyHunters Caught in Research Honeypot",
+    "summary": "Security researchers successfully trapped Scattered Lapsus$ Hunters (ShinyHunters) using realistic but fake datasets. The honeypot operation provided valuable TTP intelligence, confirming that elite threat actors can be deceived by well-crafted deception infrastructure. Demonstrates value of active defensive threat intelligence beyond passive monitoring.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "threat-intelligence",
+      "honeypot",
+      "lapsus",
+      "shinyhunters",
+      "deception"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Security researchers successfully trapped Scattered Lapsus$ Hunters (ShinyHunters) using realistic but fake datasets. The honeypot operation provided valuable TTP intelligence, confirming that elite threat actors can be deceived by well-crafted deception infrastructure. Demonstrates value of active defensive threat intelligence beyond passive monitoring.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026060",
+    "date": "2026-01-07",
+    "title": "MongoBleed Vulnerability Under Active Attack",
+    "summary": "Critical 'MongoBleed' vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "vulnerability",
+      "mongodb",
+      "database",
+      "exploitation",
+      "mongobleed"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Critical 'MongoBleed' vulnerability affecting MongoDB implementations is under active exploitation following rapid weaponization. Exploit code was published online on December 26, 2025, and active attacks began within three days. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026061",
+    "date": "2026-01-07",
+    "title": "n8n Workflow Automation Platform Critical Vulnerability",
+    "summary": "Critical security vulnerability (CVSS score 9.9) disclosed in n8n, a popular workflow automation platform. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Press",
+    "sourceUrl": "https://www.cyberpress.org/",
+    "tags": [
+      "vulnerability",
+      "n8n",
+      "workflow-automation",
+      "command-execution",
+      "iot"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Critical security vulnerability (CVSS score 9.9) disclosed in n8n, a popular workflow automation platform. The flaw could allow authenticated attackers to execute arbitrary commands on affected systems, potentially compromising industrial IoT data pipelines and analytics systems.",
+      "status": "New",
+      "buzzwords": [
+        "IoT security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026062",
+    "date": "2026-01-07",
+    "title": "TOTOLINK EX200 Firmware Flaw Enables Remote Device Takeover",
+    "summary": "CERT/CC disclosed unpatched security flaw (CVE-2025-65606) in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "vulnerability",
+      "totolink",
+      "firmware",
+      "iot",
+      "remote-takeover"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "CERT/CC disclosed unpatched security flaw (CVE-2025-65606) in TOTOLINK EX200 wireless range extender firmware. The vulnerability in firmware-upload error-handling logic could allow remote authenticated attackers to gain full control of affected devices.",
+      "status": "New",
+      "buzzwords": [
+        "IoT security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026063",
+    "date": "2026-01-07",
+    "title": "ClickFix Campaign Uses Fake BSoD to Deploy DCRat",
+    "summary": "PHALT#BLYX campaign leverages ClickFix-style lures displaying fake Windows Blue Screen of Death errors. Targets European hospitality sector with fake booking emails. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan through PowerShell scripts disguised as 'fixes'.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Securonix / Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/",
+    "tags": [
+      "malware",
+      "dcrat",
+      "social-engineering",
+      "clickfix",
+      "hospitality",
+      "rat"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "PHALT#BLYX campaign leverages ClickFix-style lures displaying fake Windows Blue Screen of Death errors. Targets European hospitality sector with fake booking emails. The end goal is deploying DCRat (DarkCrystal RAT) remote access trojan through PowerShell scripts disguised as 'fixes'.",
+      "status": "New",
+      "buzzwords": [
+        "malware",
+        "social engineering",
+        "SOC",
+        "cloud misconfiguration"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026064",
+    "date": "2026-01-07",
+    "title": "VS Code Forks Create Supply Chain Risk via Open VSX",
+    "summary": "Popular AI-powered VS Code forks (Cursor, Windsurf, Google Antigravity, Trae) recommend extensions that don't exist in Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names, potentially exposing developers to credential theft and code exfiltration.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/",
+    "tags": [
+      "supply-chain",
+      "vscode",
+      "extensions",
+      "developer-tools",
+      "ide"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Popular AI-powered VS Code forks (Cursor, Windsurf, Google Antigravity, Trae) recommend extensions that don't exist in Open VSX registry. This creates supply chain risks when malicious actors publish packages under those names, potentially exposing developers to credential theft and code exfiltration.",
+      "status": "New",
+      "buzzwords": [
+        "supply-chain compromise",
+        "insider threat",
+        "Scattered Spider",
+        "identity-first attacks"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026065",
+    "date": "2026-01-07",
+    "title": "Sedgwick Government Solutions Breach Confirmed",
+    "summary": "Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was victim of a cybersecurity incident. TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary providing services to sensitive government agencies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer / The Record",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "ransomware",
+      "federal-contractor",
+      "tridentlocker",
+      "government",
+      "data-breach"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Sedgwick confirmed that its federal contractor subsidiary, Sedgwick Government Solutions, was victim of a cybersecurity incident. TridentLocker ransomware group claimed responsibility and alleged data theft from the subsidiary providing services to sensitive government agencies.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service",
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026066",
+    "date": "2026-01-07",
+    "title": "Jaguar Land Rover Reports Major Cyberattack Impact",
+    "summary": "Jaguar Land Rover revealed that a September 2025 cyberattack led to catastrophic 43% decline in Q3 wholesale volumes, with widespread supply chain disruption. The attack cost the UK economy an estimated $2.5 billion, demonstrating how cyberattacks on major manufacturers have cascading national economic effects.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "BleepingComputer / Cybersecurity Dive",
+    "sourceUrl": "https://www.bleepingcomputer.com/",
+    "tags": [
+      "cyberattack",
+      "automotive",
+      "supply-chain",
+      "economic-impact",
+      "manufacturing"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Jaguar Land Rover revealed that a September 2025 cyberattack led to catastrophic 43% decline in Q3 wholesale volumes, with widespread supply chain disruption. The attack cost the UK economy an estimated $2.5 billion, demonstrating how cyberattacks on major manufacturers have cascading national economic effects.",
+      "status": "New",
+      "buzzwords": [
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026067",
+    "date": "2026-01-07",
+    "title": "SANCS26 Cybersecurity School Opens for Registration",
+    "summary": "The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions.",
+    "region": "EU",
+    "country": "Netherlands",
+    "sourceName": "HCSS",
+    "sourceUrl": "https://hcss.nl/news/sancs26-is-now-open-for-registration/",
+    "tags": [
+      "education",
+      "training",
+      "professional-development",
+      "cybersecurity-strategy"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "The Hague Centre for Strategic Studies announced that SANCS26 (Strategic Advanced Network Cyber Security school) is now open for registration. This online cybersecurity school is designed for students and young to mid-career professionals interested in building competence in cybersecurity matters, particularly those focused on strategic and policy dimensions.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "EU",
+      "country": "Netherlands",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026068",
+    "date": "2026-01-07",
+    "title": "SANS ISC Reviews Tailsnitch Security Audit Tool",
+    "summary": "SANS Internet Storm Center published comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Created by Adversis security consulting, the tool automatically identifies issues including outdated clients, keys without expiration, missing ACL tests, and unused security features. Supports JSON output and automated remediation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SANS ISC",
+    "sourceUrl": "https://isc.sans.edu/diary/Tool%20Review%3A%20Tailsnitch/31909",
+    "tags": [
+      "security-tool",
+      "vpn",
+      "audit",
+      "tailscale",
+      "configuration",
+      "open-source"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "SANS Internet Storm Center published comprehensive review of Tailsnitch, a new open-source tool designed to audit Tailscale VPN configurations for security misconfigurations and best practice violations. Created by Adversis security consulting, the tool automatically identifies issues including outdated clients, keys without expiration, missing ACL tests, and unused security features. Supports JSON output and automated remediation.",
+      "status": "New",
+      "buzzwords": [
+        "cloud misconfiguration"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026117",
+    "date": "2026-01-06",
+    "title": "Phishing actors exploit complex routing and misconfigurations to spoof domains",
+    "summary": "Phishing actors are exploiting complex routing scenarios and misconfigured spoof protections to effectively spoof organizations’ domains and deliver phishing emails that appear, superficially, to have been sent internally. Threat actors have leveraged this vector to deliver a wide variety of phis...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Phishing actors are exploiting complex routing scenarios and misconfigured spoof protections to effectively spoof organizations’ domains and deliver phishing emails that appear, superficially, to have been sent internally. Threat actors have leveraged this vector to deliver a wide variety of phis...",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026118",
+    "date": "2026-01-06",
+    "title": "Introducing the Microsoft Defender Experts Suite: Elevate your security with expert-led services",
+    "summary": "Security teams are being pushed to their limits as AI‑powered cyberattacks grow in speed, scale, and sophistication—and only 14% of organizations surveyed by the World Economic Forum report they feel confident they have the right people and skills needed to meet their cybersecurity objectives.1 A...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Security teams are being pushed to their limits as AI‑powered cyberattacks grow in speed, scale, and sophistication—and only 14% of organizations surveyed by the World Economic Forum report they feel confident they have the right people and skills needed to meet their cybersecurity objectives.1 A...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026075",
+    "date": "2026-01-06",
+    "title": "Norway NIS2 Directive Implementation Timeline Announced",
+    "summary": "Norway announced the implementation timeline for the EU's NIS2 Directive. Key milestones include parliamentary adoption in Q1 2026, law entering into force on July 1, 2026, registration deadline for covered entities on October 1, 2026, and first audits by NSM and sector regulators beginning July 1, 2027.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Copla",
+    "sourceUrl": "https://copla.com",
+    "tags": [
+      "regulation",
+      "policy",
+      "nis2",
+      "eu",
+      "government",
+      "compliance"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Norway announced the implementation timeline for the EU's NIS2 Directive. Key milestones include parliamentary adoption in Q1 2026, law entering into force on July 1, 2026, registration deadline for covered entities on October 1, 2026, and first audits by NSM and sector regulators beginning July 1, 2027.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026074",
+    "date": "2026-01-06",
+    "title": "Norway Joins Nordic Baltic Cyber Consortium (NBCC)",
+    "summary": "Norway, represented by NSM, joined the Nordic Baltic Cyber Consortium (NBCC), a regional cybersecurity collaboration supported by EU's Digital Europe with a budget of approximately 165 million NOK. Led by Denmark, the consortium includes Iceland, Finland, Norway, Estonia, Lithuania, and Latvia to enhance regional cyber resilience.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM",
+    "sourceUrl": "https://nsm.no",
+    "tags": [
+      "policy",
+      "international-cooperation",
+      "eu",
+      "government",
+      "cyber-defense"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Norway, represented by NSM, joined the Nordic Baltic Cyber Consortium (NBCC), a regional cybersecurity collaboration supported by EU's Digital Europe with a budget of approximately 165 million NOK. Led by Denmark, the consortium includes Iceland, Finland, Norway, Estonia, Lithuania, and Latvia to enhance regional cyber resilience.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026073",
+    "date": "2026-01-06",
+    "title": "NSM Proposes Cybersecurity Certification Regulation for Critical Infrastructure",
+    "summary": "Norway's National Security Authority (NSM) has submitted a proposal for regulations on cybersecurity certification for critical infrastructure operators. The public consultation period is open until January 26, 2026. The regulation aims to standardize security practices across essential services.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM",
+    "sourceUrl": "https://nsm.no",
+    "tags": [
+      "regulation",
+      "policy",
+      "critical-infrastructure",
+      "certification",
+      "government"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Norway's National Security Authority (NSM) has submitted a proposal for regulations on cybersecurity certification for critical infrastructure operators. The public consultation period is open until January 26, 2026. The regulation aims to standardize security practices across essential services.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026071",
+    "date": "2026-01-05",
+    "title": "Korean Air Data Breach via Catering Vendor KC&D Service",
+    "summary": "Korean Air suffered a data breach through KC&D Service, a vendor managing inflight catering and duty-free operations. The incident exposed personal data of approximately 30,000 employees, including names and bank account numbers. The Clop ransomware group claimed responsibility.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Security Affairs / Check Point",
+    "sourceUrl": "https://securityaffairs.com",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ransomware",
+      "clop",
+      "aviation"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Korean Air suffered a data breach through KC&D Service, a vendor managing inflight catering and duty-free operations. The incident exposed personal data of approximately 30,000 employees, including names and bank account numbers. The Clop ransomware group claimed responsibility.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "supply-chain compromise",
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "South Korea",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026070",
+    "date": "2026-01-05",
+    "title": "Romania's Oltenia Energy Complex Hit by Gentlemen Ransomware",
+    "summary": "Romania's largest coal-based power producer, Oltenia Energy Complex, faced a ransomware attack attributed to the Gentlemen group. Files were encrypted and Enterprise Resource Planning systems, email, and website were disrupted, partially affecting operations while power supply remained stable.",
+    "region": "EU",
+    "country": "Romania",
+    "sourceName": "Check Point Research",
+    "sourceUrl": "https://research.checkpoint.com",
+    "tags": [
+      "ransomware",
+      "critical-infrastructure",
+      "energy",
+      "gentlemen-group"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Romania's largest coal-based power producer, Oltenia Energy Complex, faced a ransomware attack attributed to the Gentlemen group. Files were encrypted and Enterprise Resource Planning systems, email, and website were disrupted, partially affecting operations while power supply remained stable.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "Romania",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026046",
+    "date": "2026-01-05",
+    "title": "Taiwan Reports Massive Chinese Cyber Operations",
+    "summary": "Taiwan's National Security Bureau reported that mainland China-linked hackers launched an average of 2.63 million cyberattacks per day on Taiwan's critical infrastructure in 2025, representing a 6% in...",
+    "region": "ASIA",
+    "country": "Taiwan",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://reuters.com/",
+    "tags": [
+      "ddos",
+      "healthcare",
+      "government",
+      "critical-infrastructure",
+      "banking"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Taiwan's National Security Bureau reported that mainland China-linked hackers launched an average of 2.63 million cyberattacks per day on Taiwan's critical infrastructure in 2025, representing a 6% in...",
+      "status": "New",
+      "buzzwords": [
+        "DDoS"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Taiwan",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026047",
+    "date": "2026-01-05",
+    "title": "UK NCSC Sanitisation Service Launch",
+    "summary": "The UK's National Cyber Security Centre launched a new Sanitisation Service Assurance initiative on January 5, providing formal testing and certification of data sanitisation (secure data destruction)...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com/",
+    "tags": [],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "The UK's National Cyber Security Centre launched a new Sanitisation Service Assurance initiative on January 5, providing formal testing and certification of data sanitisation (secure data destruction)...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.857Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026069",
+    "date": "2026-01-05",
+    "title": "Apple Supplier in China Suffers Cyberattack Exposing Production Data",
+    "summary": "Apple confirmed a December cyberattack on one of its Chinese manufacturers, potentially exposing internal production data and blueprints. The breach highlights supply chain vulnerabilities in the technology manufacturing sector.",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "MacRumors / TechShots",
+    "sourceUrl": "https://macrumors.com",
+    "tags": [
+      "supply-chain",
+      "data-breach",
+      "manufacturing",
+      "apple"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Apple confirmed a December cyberattack on one of its Chinese manufacturers, potentially exposing internal production data and blueprints. The breach highlights supply chain vulnerabilities in the technology manufacturing sector.",
+      "status": "New",
+      "buzzwords": [
+        "supply-chain compromise",
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "China",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026072",
+    "date": "2026-01-05",
+    "title": "Two US Banks Disclose Customer Data Exposure via Marquis Software Breach",
+    "summary": "Artisans' Bank and VeraBank disclosed that customer data was exposed in an August ransomware attack on their vendor, Marquis Software. The vendor was breached via SonicWall vulnerability. While the banks' own systems were not compromised, the incident may have affected up to 1.35 million people across dozens of financial institutions.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Check Point Research",
+    "sourceUrl": "https://research.checkpoint.com",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "banking",
+      "ransomware",
+      "sonicwall",
+      "vulnerability"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Artisans' Bank and VeraBank disclosed that customer data was exposed in an August ransomware attack on their vendor, Marquis Software. The vendor was breached via SonicWall vulnerability. While the banks' own systems were not compromised, the incident may have affected up to 1.35 million people across dozens of financial institutions.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "supply-chain compromise",
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026045",
+    "date": "2026-01-04",
+    "title": "Singapore SmarterMail Vulnerability Warning",
+    "summary": "Singapore's Cybersecurity Agency issued an urgent warning about CVE-2025-52691, an unauthenticated remote code execution vulnerability in SmarterMail email servers. The critical flaw allows attackers...",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Singapore's Cybersecurity Agency issued an urgent warning about CVE-2025-52691, an unauthenticated remote code execution vulnerability in SmarterMail email servers. The critical flaw allows attackers...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "Singapore",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026043",
+    "date": "2026-01-03",
+    "title": "CL0P Ransomware Attacks on Oracle E-Business Suite",
+    "summary": "The CL0P ransomware group expanded attacks targeting Oracle E-Business Suite systems worldwide. Victims reported include University of Phoenix in the United States and Korean Air in South Korea. Attac...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "banking",
+      "education"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The CL0P ransomware group expanded attacks targeting Oracle E-Business Suite systems worldwide. Victims reported include University of Phoenix in the United States and Korean Air in South Korea. Attac...",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026002",
+    "date": "2026-01-02",
+    "title": "Pro-Russian Hacktivist Group Targets Norwegian Government Websites",
+    "summary": "PST (Norwegian Police Security Service) linked a data attack on Norwegian government websites to pro-Russian hacktivist groups. The attack was quickly detected and prevented, but underscores the continued threat from state-sponsored actors.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "PST",
+    "sourceUrl": "https://pst.no",
+    "tags": [
+      "ddos",
+      "hacktivist",
+      "state-sponsored",
+      "government"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "PST (Norwegian Police Security Service) linked a data attack on Norwegian government websites to pro-Russian hacktivist groups. The attack was quickly detected and prevented, but underscores the continued threat from state-sponsored actors.",
+      "status": "New",
+      "buzzwords": [
+        "DDoS"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026003",
+    "date": "2026-01-02",
+    "title": "Two U.S. Cybersecurity Professionals Plead Guilty Over ALPHV/BlackCat Ransomware",
+    "summary": "Two former cybersecurity professionals admitted to working as affiliates for the ALPHV/BlackCat ransomware operation. The case has significant symbolic value for trust in the cybersecurity industry, highlighting insider threats and the ethical challenges facing security practitioners.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Department of Justice",
+    "sourceUrl": "https://justice.gov",
+    "tags": [
+      "ransomware",
+      "insider-threat",
+      "alphv",
+      "blackcat",
+      "arrest"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Two former cybersecurity professionals admitted to working as affiliates for the ALPHV/BlackCat ransomware operation. The case has significant symbolic value for trust in the cybersecurity industry, highlighting insider threats and the ethical challenges facing security practitioners.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service",
+        "insider threat"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026004",
+    "date": "2026-01-02",
+    "title": "Transparent Tribe Launches New RAT Attacks Against Indian Government",
+    "summary": "State-sponsored APT group Transparent Tribe launched sophisticated Remote Access Trojan (RAT) campaigns targeting Indian government agencies and academic institutions. The campaign demonstrates continued APT focus on Indian critical infrastructure and intelligence gathering operations.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com",
+    "tags": [
+      "apt",
+      "rat",
+      "transparent-tribe",
+      "state-sponsored",
+      "government",
+      "academia"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "State-sponsored APT group Transparent Tribe launched sophisticated Remote Access Trojan (RAT) campaigns targeting Indian government agencies and academic institutions. The campaign demonstrates continued APT focus on Indian critical infrastructure and intelligence gathering operations.",
+      "status": "New",
+      "buzzwords": [
+        "APT",
+        "cloud misconfiguration"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "India",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026005",
+    "date": "2026-01-02",
+    "title": "Silver Fox and Mustang Panda Target India with ToneShell Malware",
+    "summary": "Multiple state-linked APT groups including Silver Fox and Mustang Panda deployed ToneShell malware in coordinated campaigns against Indian targets. The attacks represent escalating cyber operations focused on Indian government and academic sectors.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyberscoop",
+    "sourceUrl": "https://cyberscoop.com",
+    "tags": [
+      "apt",
+      "silver-fox",
+      "mustang-panda",
+      "toneshell",
+      "state-sponsored",
+      "malware"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Multiple state-linked APT groups including Silver Fox and Mustang Panda deployed ToneShell malware in coordinated campaigns against Indian targets. The attacks represent escalating cyber operations focused on Indian government and academic sectors.",
+      "status": "New",
+      "buzzwords": [
+        "APT",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "India",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026006",
+    "date": "2026-01-02",
+    "title": "ManageMyHealth Data Breach Affects New Zealand Patients",
+    "summary": "Major patient portal ManageMyHealth in New Zealand was compromised, exposing sensitive patient health records. The incident has drawn criticism for lack of transparency and inadequate information sharing with affected patients and healthcare providers.",
+    "region": "ASIA",
+    "country": "New Zealand",
+    "sourceName": "Stuff.co.nz",
+    "sourceUrl": "https://stuff.co.nz",
+    "tags": [
+      "data-breach",
+      "healthcare",
+      "patient-data",
+      "privacy"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Major patient portal ManageMyHealth in New Zealand was compromised, exposing sensitive patient health records. The incident has drawn criticism for lack of transparency and inadequate information sharing with affected patients and healthcare providers.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "New Zealand",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026007",
+    "date": "2026-01-02",
+    "title": "Cognizant Faces Multiple Class-Action Lawsuits After TriZetto Data Breach",
+    "summary": "Cognizant hit with multiple U.S. class-action lawsuits following a major data breach at TriZetto, its healthcare platform. The incident exemplifies supplier risk in the healthcare sector and the legal consequences of third-party security failures.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "data-breach",
+      "healthcare",
+      "supply-chain",
+      "lawsuit",
+      "trizetto"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Cognizant hit with multiple U.S. class-action lawsuits following a major data breach at TriZetto, its healthcare platform. The incident exemplifies supplier risk in the healthcare sector and the legal consequences of third-party security failures.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026008",
+    "date": "2026-01-02",
+    "title": "Belgium Cyber Chief Warns Europe Has 'Lost the Internet'",
+    "summary": "Belgium's cybersecurity chief issued stark warning that Europe has 'lost the internet' amid escalating attacks on critical infrastructure. The statement reflects growing concerns about physical and digital security convergence in European infrastructure protection.",
+    "region": "EU",
+    "country": "Belgium",
+    "sourceName": "The Register",
+    "sourceUrl": "https://theregister.com",
+    "tags": [
+      "critical-infrastructure",
+      "policy",
+      "european-union",
+      "geopolitical"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Belgium's cybersecurity chief issued stark warning that Europe has 'lost the internet' amid escalating attacks on critical infrastructure. The statement reflects growing concerns about physical and digital security convergence in European infrastructure protection.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Belgium",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026009",
+    "date": "2026-01-02",
+    "title": "Finland Seizes Ship Suspected of Damaging Subsea Cable",
+    "summary": "Finnish authorities seized a ship suspected of deliberately damaging undersea telecommunications cables in the Baltic Sea. The incident is being investigated as gross sabotage, highlighting physical threats to critical digital infrastructure.",
+    "region": "EU",
+    "country": "Finland",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://reuters.com",
+    "tags": [
+      "critical-infrastructure",
+      "sabotage",
+      "subsea-cable",
+      "geopolitical"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Finnish authorities seized a ship suspected of deliberately damaging undersea telecommunications cables in the Baltic Sea. The incident is being investigated as gross sabotage, highlighting physical threats to critical digital infrastructure.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Finland",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026010",
+    "date": "2026-01-02",
+    "title": "Multiple Baltic Sea Cable Breaks Under Investigation as Sabotage",
+    "summary": "Several undersea cable breaks in the Baltic Sea are being investigated as deliberate acts of sabotage. The incidents demonstrate how physical and digital security are merging, with infrastructure becoming geopolitical targets.",
+    "region": "EU",
+    "country": "Sweden",
+    "sourceName": "NRK",
+    "sourceUrl": "https://nrk.no",
+    "tags": [
+      "critical-infrastructure",
+      "sabotage",
+      "subsea-cable",
+      "geopolitical",
+      "baltic-sea"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Several undersea cable breaks in the Baltic Sea are being investigated as deliberate acts of sabotage. The incidents demonstrate how physical and digital security are merging, with infrastructure becoming geopolitical targets.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Sweden",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026011",
+    "date": "2026-01-02",
+    "title": "New York City Bans Flipper Zero at Official Events",
+    "summary": "NYC banned Flipper Zero devices and Raspberry Pi at mayoral inauguration, reflecting government struggles to distinguish between hobbyist equipment and actual security threats. The ban highlights tensions between maker culture and security policy.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com",
+    "tags": [
+      "policy",
+      "flipper-zero",
+      "regulation",
+      "hardware"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "NYC banned Flipper Zero devices and Raspberry Pi at mayoral inauguration, reflecting government struggles to distinguish between hobbyist equipment and actual security threats. The ban highlights tensions between maker culture and security policy.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026012",
+    "date": "2026-01-02",
+    "title": "DarkSpectre Campaign Infects 8.8 Million Browser Users",
+    "summary": "Massive DarkSpectre/Shai-Hulud malware campaign infected 8.8 million users through compromised browser extensions. The supply-chain attack demonstrates browser extensions as a highly scalable attack surface for credential theft and data harvesting.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Bleeping Computer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "browser-extension",
+      "darkspectre",
+      "credential-theft"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Massive DarkSpectre/Shai-Hulud malware campaign infected 8.8 million users through compromised browser extensions. The supply-chain attack demonstrates browser extensions as a highly scalable attack surface for credential theft and data harvesting.",
+      "status": "New",
+      "buzzwords": [
+        "malware",
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026013",
+    "date": "2026-01-02",
+    "title": "Trust Wallet Chrome Extension Hack Drains $8.5 Million",
+    "summary": "Attackers compromised Trust Wallet's Chrome extension, draining $8.5 million in cryptocurrency from users. The incident is linked to the broader DarkSpectre browser extension supply-chain attack campaign.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://coindesk.com",
+    "tags": [
+      "cryptocurrency",
+      "supply-chain",
+      "browser-extension",
+      "trust-wallet",
+      "theft"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Attackers compromised Trust Wallet's Chrome extension, draining $8.5 million in cryptocurrency from users. The incident is linked to the broader DarkSpectre browser extension supply-chain attack campaign.",
+      "status": "New",
+      "buzzwords": [
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.858Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026014",
+    "date": "2026-01-02",
+    "title": "Unleash Protocol Hackers Drain $3.9 Million in DeFi Attack",
+    "summary": "Attackers exploited multisig wallet vulnerabilities to drain $3.9 million from Unleash Protocol. The attack highlights classic DeFi security weaknesses in smart contract implementations and multisignature wallet configurations.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Block",
+    "sourceUrl": "https://theblock.co",
+    "tags": [
+      "cryptocurrency",
+      "defi",
+      "multisig",
+      "smart-contract",
+      "theft"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Attackers exploited multisig wallet vulnerabilities to drain $3.9 million from Unleash Protocol. The attack highlights classic DeFi security weaknesses in smart contract implementations and multisignature wallet configurations.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026015",
+    "date": "2026-01-02",
+    "title": "Critical Apache NuttX Vulnerability Enables Remote Attacks",
+    "summary": "Security researchers disclosed critical vulnerability in Apache NuttX RTOS that allows remote code execution. The flaw affects embedded systems and IoT devices, requiring immediate patching.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Security Week",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "vulnerability",
+      "apache",
+      "rce",
+      "iot",
+      "embedded-systems"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Security researchers disclosed critical vulnerability in Apache NuttX RTOS that allows remote code execution. The flaw affects embedded systems and IoT devices, requiring immediate patching.",
+      "status": "New",
+      "buzzwords": [
+        "brute force",
+        "IoT security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026016",
+    "date": "2026-01-02",
+    "title": "Critical Apache StreamPipes Vulnerability Discovered",
+    "summary": "Critical security vulnerability found in Apache StreamPipes IoT analytics platform. The vulnerability could allow attackers to compromise industrial IoT data pipelines and analytics systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Apache Security",
+    "sourceUrl": "https://apache.org/security",
+    "tags": [
+      "vulnerability",
+      "apache",
+      "iot",
+      "industrial"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Critical security vulnerability found in Apache StreamPipes IoT analytics platform. The vulnerability could allow attackers to compromise industrial IoT data pipelines and analytics systems.",
+      "status": "New",
+      "buzzwords": [
+        "IoT security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026017",
+    "date": "2026-01-02",
+    "title": "IBM Issues Urgent Warning Over API Connect Auth Bypass",
+    "summary": "IBM issued urgent security advisory for critical authentication bypass vulnerability in API Connect. The enterprise middleware flaw could allow attackers to bypass authentication and access sensitive systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "IBM Security",
+    "sourceUrl": "https://ibm.com/security",
+    "tags": [
+      "vulnerability",
+      "ibm",
+      "authentication-bypass",
+      "api",
+      "enterprise"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "IBM issued urgent security advisory for critical authentication bypass vulnerability in API Connect. The enterprise middleware flaw could allow attackers to bypass authentication and access sensitive systems.",
+      "status": "New",
+      "buzzwords": [
+        "API abuse"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026018",
+    "date": "2026-01-02",
+    "title": "MongoBleed Vulnerability Exposes MongoDB Databases",
+    "summary": "Critical MongoBleed vulnerability discovered affecting MongoDB implementations, potentially exposing sensitive data from databases worldwide. The vulnerability highlights ongoing security challenges in open-source database systems.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Security Affairs",
+    "sourceUrl": "https://securityaffairs.com",
+    "tags": [
+      "vulnerability",
+      "mongodb",
+      "database",
+      "data-exposure"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Critical MongoBleed vulnerability discovered affecting MongoDB implementations, potentially exposing sensitive data from databases worldwide. The vulnerability highlights ongoing security challenges in open-source database systems.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026019",
+    "date": "2026-01-02",
+    "title": "RondoDox Botnet Exploits React2Shell Flaw in Next.js Servers",
+    "summary": "RondoDox botnet actively exploiting React2Shell vulnerability to compromise Next.js servers. The campaign targets modern web frameworks, demonstrating that popular JavaScript frameworks are high-value targets for attackers.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cybersecurity News",
+    "sourceUrl": "https://cybersecuritynews.com",
+    "tags": [
+      "botnet",
+      "vulnerability",
+      "react2shell",
+      "nextjs",
+      "web-framework"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "RondoDox botnet actively exploiting React2Shell vulnerability to compromise Next.js servers. The campaign targets modern web frameworks, demonstrating that popular JavaScript frameworks are high-value targets for attackers.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026020",
+    "date": "2026-01-02",
+    "title": "European Space Agency Confirms Data Breach",
+    "summary": "The European Space Agency (ESA) confirmed a data breach affecting external engineering servers outside its main corporate network. Hackers claimed to have stolen approximately 200GB of data including private source code, API tokens, and CI/CD configurations from collaborative systems. ESA began forensic analysis and secured potentially affected devices.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "ESA",
+    "sourceUrl": "https://esa.int",
+    "tags": [
+      "data-breach",
+      "government",
+      "space",
+      "research"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "The European Space Agency (ESA) confirmed a data breach affecting external engineering servers outside its main corporate network. Hackers claimed to have stolen approximately 200GB of data including private source code, API tokens, and CI/CD configurations from collaborative systems. ESA began forensic analysis and secured potentially affected devices.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "France",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026021",
+    "date": "2026-01-02",
+    "title": "Knownsec Suffers Data Breach Exposing Security Research Data",
+    "summary": "Chinese cybersecurity firm Knownsec suffered a data breach exposing security research data and threat intelligence. The incident highlights that even security companies remain vulnerable to sophisticated attacks.",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "DataBreaches.net",
+    "sourceUrl": "https://databreaches.net",
+    "tags": [
+      "data-breach",
+      "security-vendor",
+      "threat-intelligence"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Chinese cybersecurity firm Knownsec suffered a data breach exposing security research data and threat intelligence. The incident highlights that even security companies remain vulnerable to sophisticated attacks.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "ASIA",
+      "country": "China",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026022",
+    "date": "2026-01-02",
+    "title": "Over 10,000 Fortinet Firewalls Exposed to Ongoing 2FA/MFA Bypass Attacks",
+    "summary": "Large numbers of Internet-exposed Fortinet firewalls remain vulnerable to a years-old 2FA/MFA bypass (CVE-2020-12812), with reports of active exploitation. The vulnerability allows attackers to bypass authentication and take over networks, underscoring the importance of patch hygiene and perimeter hardening.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-10-000-fortinet-firewalls-exposed-to-ongoing-2fa-bypass-attacks/",
+    "tags": [
+      "fortinet",
+      "vulnerability",
+      "2fa-bypass",
+      "mfa",
+      "exploitation",
+      "perimeter-security",
+      "patching"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Large numbers of Internet-exposed Fortinet firewalls remain vulnerable to a years-old 2FA/MFA bypass (CVE-2020-12812), with reports of active exploitation. The vulnerability allows attackers to bypass authentication and take over networks, underscoring the importance of patch hygiene and perimeter hardening.",
+      "status": "New",
+      "buzzwords": [
+        "MFA"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026023",
+    "date": "2026-01-02",
+    "title": "Covenant Health Says May Data Breach Impacted Nearly 478,000 Patients",
+    "summary": "Covenant Health revised its estimate of people impacted by a data breach discovered in May 2025, after additional analysis increased the total to nearly 478,000 affected individuals. The healthcare breach exposed sensitive patient information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/covenant-health-says-may-data-breach-impacted-nearly-478-000-patients/",
+    "tags": [
+      "healthcare",
+      "data-breach",
+      "patient-data",
+      "phi",
+      "notification"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Covenant Health revised its estimate of people impacted by a data breach discovered in May 2025, after additional analysis increased the total to nearly 478,000 affected individuals. The healthcare breach exposed sensitive patient information.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "phishing",
+        "spear phishing"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026025",
+    "date": "2026-01-02",
+    "title": "Aflac Notifies 22.6 Million People of June Data Theft Attack",
+    "summary": "Aflac issued notifications affecting 22.6 million people after a June incident involving unauthorized access and data theft. The massive notification volume underscores the scale of exposure possible in insurance and healthcare data ecosystems.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "GovInfoSecurity",
+    "sourceUrl": "https://www.govinfosecurity.com/aflac-notifies-226-million-people-june-data-theft-attack-a-30434",
+    "tags": [
+      "data-breach",
+      "data-theft",
+      "insurance",
+      "healthcare-data",
+      "phi",
+      "pii",
+      "mass-notification"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Aflac issued notifications affecting 22.6 million people after a June incident involving unauthorized access and data theft. The massive notification volume underscores the scale of exposure possible in insurance and healthcare data ecosystems.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "phishing",
+        "spear phishing"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026026",
+    "date": "2026-01-02",
+    "title": "DD-USA Provides Update on Cybersecurity Issue",
+    "summary": "DD-USA (Daedong-USA / KIOTI Tractor Division) published an update describing the scope of information potentially affected in a cybersecurity incident, including personal and sensitive data categories such as names, contact information, dates of birth, and copies of government-issued IDs.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PR Newswire",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/dd-usa-provides-update-on-cybersecurity-issue-302651788.html",
+    "tags": [
+      "data-breach",
+      "breach-notification",
+      "pii",
+      "manufacturing",
+      "disclosure"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "DD-USA (Daedong-USA / KIOTI Tractor Division) published an update describing the scope of information potentially affected in a cybersecurity incident, including personal and sensitive data categories such as names, contact information, dates of birth, and copies of government-issued IDs.",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026027",
+    "date": "2026-01-02",
+    "title": "Hackers Abuse Google Tasks Notifications in Sophisticated Phishing Attacks",
+    "summary": "Cybercriminals abused Google Tasks notification flows to lend legitimacy to phishing messages, targeting over 3,000 organizations primarily in the manufacturing sector. The campaign aims to harvest credentials by bypassing traditional email trust signals and exploiting Google's trusted infrastructure.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "CybersecurityNews.com",
+    "sourceUrl": "https://cybersecuritynews.com/google-tasks-abused/",
+    "tags": [
+      "phishing",
+      "google-tasks",
+      "social-engineering",
+      "credential-theft",
+      "trusted-service-abuse",
+      "manufacturing"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Cybercriminals abused Google Tasks notification flows to lend legitimacy to phishing messages, targeting over 3,000 organizations primarily in the manufacturing sector. The campaign aims to harvest credentials by bypassing traditional email trust signals and exploiting Google's trusted infrastructure.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing",
+        "social engineering",
+        "SOC"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026028",
+    "date": "2026-01-02",
+    "title": "Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign",
+    "summary": "Attackers abused Google Cloud Application Integration's 'Send Email' feature to deliver phishing messages from Google-branded addresses. The multi-stage campaign pushed victims through captcha lures to credential-harvesting pages, demonstrating sophisticated abuse of trusted cloud services.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Hacker News",
+    "sourceUrl": "https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html",
+    "tags": [
+      "phishing",
+      "google-cloud",
+      "application-integration",
+      "cloud-abuse",
+      "credential-theft",
+      "trusted-infrastructure"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Attackers abused Google Cloud Application Integration's 'Send Email' feature to deliver phishing messages from Google-branded addresses. The multi-stage campaign pushed victims through captcha lures to credential-harvesting pages, demonstrating sophisticated abuse of trusted cloud services.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026029",
+    "date": "2026-01-02",
+    "title": "Cryptocurrency Theft Attacks Traced to 2022 LastPass Breach",
+    "summary": "Investigators linked ongoing cryptocurrency wallet thefts to material stolen in the 2022 LastPass breach. The incidents illustrate the long-tail risk of encrypted vault theft combined with later cracking, credential reuse, or targeted follow-on activity against crypto holders.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cryptocurrency-theft-attacks-traced-to-2022-lastpass-breach/",
+    "tags": [
+      "cryptocurrency",
+      "lastpass",
+      "breach-aftermath",
+      "credential-theft",
+      "wallet-theft",
+      "long-tail-risk"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Investigators linked ongoing cryptocurrency wallet thefts to material stolen in the 2022 LastPass breach. The incidents illustrate the long-tail risk of encrypted vault theft combined with later cracking, credential reuse, or targeted follow-on activity against crypto holders.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026030",
+    "date": "2026-01-02",
+    "title": "Kimwolf Botnet Spreads Across Consumer Devices and Stalks Local Networks",
+    "summary": "Researchers described Kimwolf as a large Android-based botnet affecting approximately 1.8 million consumer devices including smart TVs, set-top boxes, and tablets. The botnet has significant DDoS capacity and uses Ethereum Name Service (ENS) for infrastructure resilience, with infections concentrated in Brazil, India, US, Argentina, South Africa, and Philippines.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "TechRadar",
+    "sourceUrl": "https://www.techradar.com/pro/security/a-massive-new-ddos-botnet-has-already-snared-1-8-million-devices-heres-what-we-know-about-kimwolf",
+    "tags": [
+      "botnet",
+      "ddos",
+      "android",
+      "iot",
+      "smart-tv",
+      "consumer-devices",
+      "malware"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Researchers described Kimwolf as a large Android-based botnet affecting approximately 1.8 million consumer devices including smart TVs, set-top boxes, and tablets. The botnet has significant DDoS capacity and uses Ethereum Name Service (ENS) for infrastructure resilience, with infections concentrated in Brazil, India, US, Argentina, South Africa, and Philippines.",
+      "status": "New",
+      "buzzwords": [
+        "DDoS",
+        "IoT security",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026031",
+    "date": "2026-01-02",
+    "title": "European Regulators Take Aim at X After Grok Creates Deepfake of Minor",
+    "summary": "European regulators weighed action against X (formerly Twitter) after its Grok AI was reportedly used to create sexually explicit deepfake images of a minor. The incident reflects escalating regulatory scrutiny of generative AI misuse and platform controls for preventing AI-generated child abuse material.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "The Record",
+    "sourceUrl": "https://therecord.media/europe-regulators-grok-france",
+    "tags": [
+      "ai-abuse",
+      "deepfake",
+      "grok",
+      "regulation",
+      "child-safety",
+      "csam",
+      "platform-liability"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "European regulators weighed action against X (formerly Twitter) after its Grok AI was reportedly used to create sexually explicit deepfake images of a minor. The incident reflects escalating regulatory scrutiny of generative AI misuse and platform controls for preventing AI-generated child abuse material.",
+      "status": "New",
+      "buzzwords": [
+        "deepfake"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026032",
+    "date": "2026-01-02",
+    "title": "GNU Wget2 Vulnerability Could Allow Overwrite of Sensitive Files (CVE-2025-69194)",
+    "summary": "A security flaw in GNU Wget2's handling of Metalink documents can enable path traversal issues that may allow attackers to overwrite arbitrary files on the system. Vendors have published advisories and fixes for the vulnerability affecting this widely-used command-line download utility.",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "Red Hat CVE Portal",
+    "sourceUrl": "https://access.redhat.com/security/cve/cve-2025-69194",
+    "tags": [
+      "vulnerability",
+      "wget2",
+      "cve-2025-69194",
+      "file-overwrite",
+      "path-traversal",
+      "gnu",
+      "patching"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "A security flaw in GNU Wget2's handling of Metalink documents can enable path traversal issues that may allow attackers to overwrite arbitrary files on the system. Vendors have published advisories and fixes for the vulnerability affecting this widely-used command-line download utility.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026037",
+    "date": "2026-01-02",
+    "title": "Maven Central Typosquatted Jackson Library",
+    "summary": "Maven Central, the leading Java dependency repository, was targeted by the malicious \"org.fasterxml.jackson.core\" package that masqueraded as the legitimate Jackson JSON library. The package silently...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "SC World",
+    "sourceUrl": "https://www.scworld.com/news/maven-central-subjected-to-typosquatted-jackson-json-library",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Maven Central, the leading Java dependency repository, was targeted by the malicious \"org.fasterxml.jackson.core\" package that masqueraded as the legitimate Jackson JSON library. The package silently...",
+      "status": "New",
+      "buzzwords": [
+        "supply-chain compromise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026038",
+    "date": "2026-01-02",
+    "title": "APT42 Spear-Phishing Campaign",
+    "summary": "Israeli security and defense workers were subjected to an ongoing spear-phishing campaign involving infrastructure linked to Iranian state-backed threat operation APT42, also known as Charming Kitten....",
+    "region": "ASIA",
+    "country": "Israel",
+    "sourceName": "SC World",
+    "sourceUrl": "https://www.scworld.com/brief/apt42-linked-infrastructure-leveraged-in-israel-targeted-spear-phishing-attack",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "social-engineering"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Israeli security and defense workers were subjected to an ongoing spear-phishing campaign involving infrastructure linked to Iranian state-backed threat operation APT42, also known as Charming Kitten....",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing",
+        "social engineering",
+        "SOC"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "Israel",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026039",
+    "date": "2026-01-02",
+    "title": "Nexpublica GDPR Fine",
+    "summary": "France's CNIL imposed a €1.7 million fine on Nexpublica under GDPR regulations. The fine stemmed from a 2022 data breach that exposed 6.3 million personal records, including sensitive disability data....",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "data-breach",
+      "regulation"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "France's CNIL imposed a €1.7 million fine on Nexpublica under GDPR regulations. The fine stemmed from a 2022 data breach that exposed 6.3 million personal records, including sensitive disability data....",
+      "status": "New",
+      "buzzwords": [
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "France",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026040",
+    "date": "2026-01-02",
+    "title": "TikTok \"Polexit\" Disinformation Investigation",
+    "summary": "The Polish government formally requested EU regulators to investigate TikTok for an AI-generated disinformation campaign promoting \"Polexit\" ahead of EU elections. Under the Digital Services Act, Pola...",
+    "region": "EU",
+    "country": "Poland",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "state-sponsored",
+      "disinformation",
+      "government"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The Polish government formally requested EU regulators to investigate TikTok for an AI-generated disinformation campaign promoting \"Polexit\" ahead of EU elections. Under the Digital Services Act, Pola...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Poland",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026041",
+    "date": "2026-01-02",
+    "title": "ATM Jackpotting / Tren de Aragua Gang",
+    "summary": "A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Homeland Security Today",
+    "sourceUrl": "https://hstoday.us/",
+    "tags": [
+      "malware",
+      "terrorism",
+      "government",
+      "banking",
+      "law-enforcement"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "A federal grand jury indicted 54 members of Venezuela's Tren de Aragua gang, which has been designated as a terrorist organization. The gang allegedly deployed Ploutus malware to hack into hundreds of...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026042",
+    "date": "2026-01-02",
+    "title": "Bitfinex Hacker Early Release",
+    "summary": "Ilya Lichtenstein, who pleaded guilty in 2024 to laundering proceeds from the Bitfinex heist, was released early under the First Step Act. He publicly credited the policy (signed by former President T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/01/02/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
+    "tags": [
+      "cryptocurrency",
+      "regulation",
+      "policy"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Ilya Lichtenstein, who pleaded guilty in 2024 to laundering proceeds from the Bitfinex heist, was released early under the First Step Act. He publicly credited the policy (signed by former President T...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.859Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026044",
+    "date": "2026-01-02",
+    "title": "FBI E-Note Cryptocurrency Exchange Takedown",
+    "summary": "The FBI led an international operation with German and Finnish partners to seize the online infrastructure of E-Note, a darknet cryptocurrency exchange and payment processor. E-Note had been launderin...",
+    "region": "Global",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ransomware",
+      "cryptocurrency",
+      "law-enforcement"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "The FBI led an international operation with German and Finnish partners to seize the online infrastructure of E-Note, a darknet cryptocurrency exchange and payment processor. E-Note had been launderin...",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "Global",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026001",
+    "date": "2026-01-01",
+    "title": "Vestland Municipalities Conduct Cybersecurity Exercise",
+    "summary": "Municipalities in Vestland county conducted a simulated ransomware attack exercise to test crisis management protocols and inter-agency coordination. The exercise involved IT staff, municipal leadership, and emergency services.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Statsforvalteren",
+    "sourceUrl": "https://statsforvalteren.no",
+    "tags": [
+      "exercise",
+      "ransomware",
+      "training",
+      "municipal"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "Municipalities in Vestland county conducted a simulated ransomware attack exercise to test crisis management protocols and inter-agency coordination. The exercise involved IT staff, municipal leadership, and emergency services.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "ransomware as a service"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026033",
+    "date": "2026-01-01",
+    "title": "La Poste DDoS Attack",
+    "summary": "The pro-Russian hacking group NoName057(16) launched a DDoS cyberattack on France's national postal service La Poste and La Banque Postale. The attack knocked central computer systems offline, disrupt...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "ddos",
+      "hacktivist",
+      "critical-infrastructure",
+      "banking"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "The pro-Russian hacking group NoName057(16) launched a DDoS cyberattack on France's national postal service La Poste and La Banque Postale. The attack knocked central computer systems offline, disrupt...",
+      "status": "New",
+      "buzzwords": [
+        "DDoS"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "France",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026034",
+    "date": "2026-01-01",
+    "title": "China Cybersecurity Law Amendments",
+    "summary": "China's amended Cybersecurity Law came into effect on January 1, 2026, representing the most significant update since 2017. The changes impose near-real-time (1-hour) incident reporting for critical s...",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/",
+    "tags": [
+      "government",
+      "regulation",
+      "policy"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "China's amended Cybersecurity Law came into effect on January 1, 2026, representing the most significant update since 2017. The changes impose near-real-time (1-hour) incident reporting for critical s...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "ASIA",
+      "country": "China",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026035",
+    "date": "2026-01-01",
+    "title": "Hong Kong Critical Infrastructure Ordinance",
+    "summary": "Hong Kong's Critical Infrastructure (Computer Systems) Ordinance went live on January 1, 2026, significantly expanding the number of sectors designated as \"critical\" to include utilities, transport, a...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com/",
+    "tags": [
+      "government",
+      "critical-infrastructure",
+      "regulation",
+      "policy"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Hong Kong's Critical Infrastructure (Computer Systems) Ordinance went live on January 1, 2026, significantly expanding the number of sectors designated as \"critical\" to include utilities, transport, a...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Hong Kong",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026119",
+    "date": "2025-12-21",
+    "title": "Stronger together: New Beazley collaboration enhances cyber resilience",
+    "summary": "Today’s cyberthreat landscape demands more than technical expertise: it requires a unified response team of technical responders, insurers, brokers, and legal counsel. This integrated approach is key to building long-term cyber resilience to help your organization anticipate, withstand, recover f...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/08/stronger-together-new-beazley-collaboration-enhances-cyber-resilience/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Today’s cyberthreat landscape demands more than technical expertise: it requires a unified response team of technical responders, insurers, brokers, and legal counsel. This integrated approach is key to building long-term cyber resilience to help your organization anticipate, withstand, recover f...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026120",
+    "date": "2025-12-19",
+    "title": "TikTok fortsetter å overføre personopplysninger til Kina",
+    "summary": "Tidligere i desember mottok norske TikTok-brukere et varsel som gjaldt selskapets overføring av personopplysninger til Kina. Der informerte selskapet om at et vedtak om å stanse overføringene er satt på vent.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/tiktok-fortsetter-a-overfore-personopplysninger-til-kina/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Tidligere i desember mottok norske TikTok-brukere et varsel som gjaldt selskapets overføring av personopplysninger til Kina. Der informerte selskapet om at et vedtak om å stanse overføringene er satt på vent.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026121",
+    "date": "2025-12-19",
+    "title": "Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components",
+    "summary": "CVE-2025-55182 (also referred to as React2Shell and includes CVE-2025-66478, which was merged into it) is a critical pre-authentication remote code execution (RCE) vulnerability affecting React Server Components, Next.js, and related frameworks. With a CVSS score of 10.0, this vulnerability could...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/",
+    "tags": [
+      "vulnerability",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "CVE-2025-55182 (also referred to as React2Shell and includes CVE-2025-66478, which was merged into it) is a critical pre-authentication remote code execution (RCE) vulnerability affecting React Server Components, Next.js, and related frameworks. With a CVSS score of 10.0, this vulnerability could...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026122",
+    "date": "2025-12-18",
+    "title": "New Microsoft e-book: 3 reasons point solutions are holding you back",
+    "summary": "While patchwork tools slow defenders down and impact visibility into potential cyberthreats, they’re an unfortunate reality for many organizations. As digital risk accelerates and attack surfaces multiply, security leaders are doing their best to stitch together point solutions while trying to av...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/18/new-microsoft-e-book-3-reasons-point-solutions-are-holding-you-back/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "While patchwork tools slow defenders down and impact visibility into potential cyberthreats, they’re an unfortunate reality for many organizations. As digital risk accelerates and attack surfaces multiply, security leaders are doing their best to stitch together point solutions while trying to av...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026123",
+    "date": "2025-12-18",
+    "title": "Personverndagen 2026: Digital suverenitet og personvern",
+    "summary": "Europas avhengighet av digitale løsninger fra USA og Kina har gjort at kontroll over innbyggernes personopplysninger og kritiske digitale tjenester i økende grad er blitt et spørsmål om nasjonal sikkerhet og geopolitikk. Den 28. januar markerer vi personverndagen med et frokostmøte.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/personverndagen-2026-digital-suverenitet-og-personvern/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Europas avhengighet av digitale løsninger fra USA og Kina har gjort at kontroll over innbyggernes personopplysninger og kritiske digitale tjenester i økende grad er blitt et spørsmål om nasjonal sikkerhet og geopolitikk. Den 28. januar markerer vi personverndagen med et frokostmøte.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026124",
+    "date": "2025-12-17",
+    "title": "Høringssvar om ny lov om særskilt innsats mot negativ sosial kontroll og æresmotivert vold",
+    "summary": "Arbeids- og inkluderingsdepartementet (AID) har sendt ut et forslag til ny lov og forskrift for den særskilte innsatsen som skal gjøres mot negativ sosial kontroll og æresmotivert vold. Vi er positive til at denne innsatsen reguleres og samles i et regelverk, men vi har likevel en del innspill.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/horingssvar-om-ny-lov-om-sarskilt-innsats-mot-negativ-sosial-kontroll-og-aresmotivert-vold/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Arbeids- og inkluderingsdepartementet (AID) har sendt ut et forslag til ny lov og forskrift for den særskilte innsatsen som skal gjøres mot negativ sosial kontroll og æresmotivert vold. Vi er positive til at denne innsatsen reguleres og samles i et regelverk, men vi har likevel en del innspill.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026125",
+    "date": "2025-12-17",
+    "title": "Access Fabric: A modern approach to identity and network access",
+    "summary": "Today, most organizations use multiple identity systems and multiple network access solutions from multiple vendors. This happens, either intentionally or organically, when different areas of a company choose different tools, creating a fragmented environment that leaves weaknesses that cyberatta...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Today, most organizations use multiple identity systems and multiple network access solutions from multiple vendors. This happens, either intentionally or organically, when different areas of a company choose different tools, creating a fragmented environment that leaves weaknesses that cyberatta...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026126",
+    "date": "2025-12-17",
+    "title": "Microsoft named a leader in the 2025 Gartner® Magic Quadrant™ for Email Security",
+    "summary": "We’re honored to share that Microsoft has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security. We believe this recognition highlights the value of Microsoft Defender for Office 365’s innovative capabilities in addressing today’s complex email security challenges. Protect a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "We’re honored to share that Microsoft has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security. We believe this recognition highlights the value of Microsoft Defender for Office 365’s innovative capabilities in addressing today’s complex email security challenges. Protect a...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026127",
+    "date": "2025-12-16",
+    "title": "Bygger KI-sandkasse med Digdir og Nkom",
+    "summary": "Med KI-forordningen kommer det en splitter ny sandkasse. Den nye sandkassen vil jobbe tett med Datatilsynets eksisterende sandkasse for personvernvennlig digitalisering og innovasjon.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/bygger-ki-sandkasse-med-digitaliseringsdirektoratet-og-nkom/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Med KI-forordningen kommer det en splitter ny sandkasse. Den nye sandkassen vil jobbe tett med Datatilsynets eksisterende sandkasse for personvernvennlig digitalisering og innovasjon.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026128",
+    "date": "2025-12-16",
+    "title": "Changing the physics of cyber defense",
+    "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/09/changing-the-physics-of-cyber-defense/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026129",
+    "date": "2025-12-15",
+    "title": "Microsoft named an overall leader in KuppingerCole Leadership Compass for Generative AI Defense",
+    "summary": "Today, we are proud to share that Microsoft has been recognized as an overall leader in the KuppingerCole Leadership Compass for Generative AI Defense (GAD), an independent report from a leading European analyst firm. This recognition reinforces the work we’ve been doing to deliver enterprise-rea...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Today, we are proud to share that Microsoft has been recognized as an overall leader in the KuppingerCole Leadership Compass for Generative AI Defense (GAD), an independent report from a leading European analyst firm. This recognition reinforces the work we’ve been doing to deliver enterprise-rea...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026130",
+    "date": "2025-12-14",
+    "title": "Cybersecurity strategies to prioritize now​​ ",
+    "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026131",
+    "date": "2025-12-13",
+    "title": "Clarity in complexity: New insights for transparent email security",
+    "summary": "As email threats grow more sophisticated and layered security architectures become more common, organizations need clear, data-driven insights to evaluate how their security solutions perform together. Benchmarking plays a critical role in helping security leaders understand not just individual p...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/10/clarity-in-complexity-new-insights-for-transparent-email-security/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "As email threats grow more sophisticated and layered security architectures become more common, organizations need clear, data-driven insights to evaluate how their security solutions perform together. Benchmarking plays a critical role in helping security leaders understand not just individual p...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026132",
+    "date": "2025-12-12",
+    "title": "Imposter for hire: How fake people can gain very real access",
+    "summary": "In the latest edition of our Cyberattack Series, we dive into a real-world case of fake employees. Cybercriminals are no longer just breaking into networks—they’re gaining access by posing as legitimate employees. This form of cyberattack involves operatives posing as legitimate remote hires, sli...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/11/imposter-for-hire-how-fake-people-can-gain-very-real-access/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "In the latest edition of our Cyberattack Series, we dive into a real-world case of fake employees. Cybercriminals are no longer just breaking into networks—they’re gaining access by posing as legitimate employees. This form of cyberattack involves operatives posing as legitimate remote hires, sli...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026133",
+    "date": "2025-12-11",
+    "title": "From awareness to action: Building a security-first culture for the agentic AI era",
+    "summary": "The insights gained from Cybersecurity Awareness Month, right through to Microsoft Ignite 2025, demonstrate that security remains a top priority for business leaders. It serves as a strategic lever for organizational growth, fosters trust, and facilitates the advancement of AI innovation. The Wor...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The insights gained from Cybersecurity Awareness Month, right through to Microsoft Ignite 2025, demonstrate that security remains a top priority for business leaders. It serves as a strategic lever for organizational growth, fosters trust, and facilitates the advancement of AI innovation. The Wor...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Europe",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:33:14.860Z",
+    "enrichmentVersion": "1.0"
+  }
+]
