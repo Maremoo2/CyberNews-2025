@@ -37,9 +37,13 @@ jobs:
         id: git-check
         run: |
           # Check all enriched files for changes
-          git add data/incidents-*-enriched.json 2>/dev/null || true
-          if ! git diff --cached --exit-code --quiet; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if ls data/incidents-*-enriched.json 1> /dev/null 2>&1; then
+            git add data/incidents-*-enriched.json
+            if ! git diff --cached --exit-code --quiet; then
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "No enriched files found to check"
           fi
       
       - name: Commit enriched data

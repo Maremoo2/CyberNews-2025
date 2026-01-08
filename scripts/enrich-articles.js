@@ -74,19 +74,20 @@ function saveEnrichedIncidents(incidents, filePath) {
  */
 function enrichIncident(incident) {
   // Create default aiAnalysis structure with reasonable defaults
+  // Note: Empty values for direct copies, meaningful defaults for computed fields
   const aiAnalysis = {
-    summary: incident.summary || '',
-    status: STATUS.NEW,
-    buzzwords: incident.tags || [],
-    threatActors: [],
-    malwareFamilies: [],
-    companies: [],
-    cves: [],
-    mitreAttack: [],
-    impactScore: incident.impact || 3,
-    region: incident.region || 'Global',
-    country: incident.country || 'Global',
-    trends: []
+    summary: incident.summary || '', // Direct copy from original
+    status: STATUS.NEW, // Default to "New" for all incidents
+    buzzwords: incident.tags || [], // Use existing tags as buzzwords
+    threatActors: [], // Will be empty without AI analysis
+    malwareFamilies: [], // Will be empty without AI analysis
+    companies: [], // Will be empty without AI analysis
+    cves: [], // Will be empty without AI analysis
+    mitreAttack: [], // Will be empty without AI analysis
+    impactScore: incident.impact || 3, // Use existing impact or default to moderate
+    region: incident.region || 'Global', // Use existing region or default
+    country: incident.country || 'Global', // Use existing country or default
+    trends: [] // Will be empty without AI analysis
   };
 
   // Return enriched incident with all original data
