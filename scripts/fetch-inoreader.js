@@ -76,12 +76,19 @@ async function fetchWithRetry(url, maxRetries = 3) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       console.log(`  Fetching... (attempt ${attempt}/${maxRetries})`);
+      
+      // Create AbortController for timeout
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 30000);
+      
       const response = await fetch(url, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (compatible; CyberNews-Bot/1.0)'
         },
-        timeout: 30000
+        signal: controller.signal
       });
+      
+      clearTimeout(timeoutId);
 
       if (response.status === 429) {
         const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
@@ -155,11 +162,10 @@ function generateTags(text, config) {
     }
   }
   
-  // Extract company/product names (common ones)
-  const companies = ['microsoft', 'google', 'aws', 'amazon', 'apple', 'meta', 'facebook', 
-                     'twitter', 'oracle', 'ibm', 'cisco', 'fortinet', 'palo alto'];
+  // Extract company/product names from config
+  const companies = config.companyKeywords || [];
   for (const company of companies) {
-    if (lowerText.includes(company)) {
+    if (lowerText.includes(company.toLowerCase())) {
       tags.add(company);
     }
   }
@@ -188,37 +194,9 @@ function calculateImpact(text, config) {
 }
 
 /**
- * Get next available ID
- */
-function getNextId(existingIncidents) {
-  const year = new Date().getFullYear();
-  const prefix = year.toString();
-  
-  // Find highest ID with current year prefix
-  let maxNum = 0;
-  for (const incident of existingIncidents) {
-    if (incident.id && incident.id.startsWith(prefix)) {
-      const num = parseInt(incident.id.substring(prefix.length), 10);
-      if (!isNaN(num) && num > maxNum) {
-        maxNum = num;
-      }
-    }
-  }
-  
-  return `${prefix}${String(maxNum + 1).padStart(3, '0')}`;
-}
-
-/**
- * Check if URL already exists in incidents
- */
-function isDuplicate(url, existingIncidents) {
-  return existingIncidents.some(incident => incident.sourceUrl === url);
-}
-
-/**
  * Transform Inoreader item to incident format
  */
-function transformItem(item, feedConfig, config, existingIncidents) {
+function transformItem(item, feedConfig, config, nextIdGenerator) {
   // Extract URL
   const url = item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
   
@@ -227,10 +205,8 @@ function transformItem(item, feedConfig, config, existingIncidents) {
     return null;
   }
   
-  // Check for duplicate
-  if (isDuplicate(url, existingIncidents)) {
-    return null; // Will be counted as duplicate
-  }
+  // Check for duplicate (will be checked by caller)
+  // This function just transforms, duplicate checking is done outside
   
   // Extract and clean data
   const title = item.title || 'Untitled';
@@ -255,9 +231,9 @@ function transformItem(item, feedConfig, config, existingIncidents) {
   
   // Enhance region/country detection for Offentlig/Microsoft feed
   if (feedConfig.name === 'Offentlig/Microsoft') {
-    const norwegianKeywords = ['norge', 'norway', 'norsk', 'norwegian', 'oslo'];
+    const norwegianKeywords = config.norwegianKeywords || [];
     const hasNorwegian = norwegianKeywords.some(kw => 
-      combinedText.toLowerCase().includes(kw)
+      combinedText.toLowerCase().includes(kw.toLowerCase())
     );
     if (hasNorwegian) {
       region = 'NO';
@@ -270,7 +246,7 @@ function transformItem(item, feedConfig, config, existingIncidents) {
   }
   
   // Generate sequential ID
-  const id = getNextId(existingIncidents);
+  const id = nextIdGenerator();
   
   return {
     id,
@@ -304,21 +280,42 @@ async function processFeed(feedConfig, config, existingIncidents) {
     console.log(`  📥 Found ${data.items.length} items in feed`);
     
     const newItems = [];
+    const seenUrls = new Set(existingIncidents.map(inc => inc.sourceUrl));
     let duplicates = 0;
     let errors = 0;
     
+    // Create ID generator for sequential IDs
+    let currentMaxId = 0;
+    const year = new Date().getFullYear();
+    const prefix = year.toString();
+    for (const incident of existingIncidents) {
+      if (incident.id && incident.id.startsWith(prefix)) {
+        const num = parseInt(incident.id.substring(prefix.length), 10);
+        if (!isNaN(num) && num > currentMaxId) {
+          currentMaxId = num;
+        }
+      }
+    }
+    
+    const nextIdGenerator = () => {
+      currentMaxId++;
+      return `${prefix}${String(currentMaxId).padStart(3, '0')}`;
+    };
+    
     for (const item of data.items) {
       try {
-        const transformed = transformItem(item, feedConfig, config, [...existingIncidents, ...newItems]);
+        // Check URL first
+        const url = item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
+        if (url && (seenUrls.has(url) || newItems.some(ni => ni.sourceUrl === url))) {
+          duplicates++;
+          continue;
+        }
         
-        if (transformed === null) {
-          // Check if it's a duplicate or missing URL
-          const url = item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
-          if (url && isDuplicate(url, [...existingIncidents, ...newItems])) {
-            duplicates++;
-          }
-        } else {
+        const transformed = transformItem(item, feedConfig, config, nextIdGenerator);
+        
+        if (transformed !== null) {
           newItems.push(transformed);
+          seenUrls.add(transformed.sourceUrl);
         }
       } catch (error) {
         console.error(`  ❌ Error transforming item:`, error.message);
@@ -360,9 +357,13 @@ async function main() {
   let totalErrors = 0;
   const allNewIncidents = [];
   
+  // Collect all existing and new URLs for efficient duplicate checking
+  const allIncidents = [...existingIncidents];
+  
   for (const feedConfig of config.feeds) {
-    const result = await processFeed(feedConfig, config, [...existingIncidents, ...allNewIncidents]);
+    const result = await processFeed(feedConfig, config, allIncidents);
     allNewIncidents.push(...result.newItems);
+    allIncidents.push(...result.newItems); // Add to running list for next feed
     totalNew += result.newItems.length;
     totalDuplicates += result.duplicates;
     totalErrors += result.errors;

@@ -35,5 +35,27 @@
     "3": ["moderate", "notable"],
     "2": ["minor", "limited"],
     "1": ["low impact", "minimal"]
-  }
+  },
+  "companyKeywords": [
+    "microsoft",
+    "google",
+    "aws",
+    "amazon",
+    "apple",
+    "meta",
+    "facebook",
+    "twitter",
+    "oracle",
+    "ibm",
+    "cisco",
+    "fortinet",
+    "palo alto"
+  ],
+  "norwegianKeywords": [
+    "norge",
+    "norway",
+    "norsk",
+    "norwegian",
+    "oslo"
+  ]
 }
