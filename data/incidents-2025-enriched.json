@@ -1,0 +1,2370 @@
+[
+  {
+    "id": "619",
+    "date": "2025-12-20",
+    "title": "Coupang Data Breach (33 Million Customers)",
+    "summary": "South Korean e-commerce leader Coupang revealed a massive data breach affecting over 33 million users. The incident exposed personal information (names, contact details, possibly payment data) of roughly two-thirds of Korea's population. Korean regulators launched special audits and investigations into Coupang's data practices. The attack caused public outcry and led to legal and financial scrutiny including government-ordered tax audit.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Digital Forensics Magazine",
+    "sourceUrl": "https://digitalforensicsmagazine.com",
+    "tags": [
+      "data breach",
+      "e-commerce",
+      "privacy",
+      "south-korea",
+      "regulatory"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "South Korean e-commerce leader Coupang revealed a massive data breach affecting over 33 million users. The incident exposed personal information (names, contact details, possibly payment data) of roughly two-thirds of Korea's population. Korean regulators launched special audits and investigations into Coupang's data practices. The attack caused public outcry and led to legal and financial scrutiny including government-ordered tax audit.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "e-commerce",
+        "privacy",
+        "south-korea",
+        "regulatory"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "South Korea",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "1",
+    "date": "2025-12-15",
+    "title": "Major Ransomware Attack on Healthcare Provider",
+    "summary": "A significant ransomware attack targeted a major healthcare provider, compromising patient data and disrupting hospital operations across multiple facilities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberSecurity News",
+    "sourceUrl": "https://example.com/ransomware-healthcare",
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "data breach"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "A significant ransomware attack targeted a major healthcare provider, compromising patient data and disrupting hospital operations across multiple facilities.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "healthcare",
+        "data breach"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2",
+    "date": "2025-12-10",
+    "title": "Critical Zero-Day Vulnerability in Popular Software",
+    "summary": "Security researchers discovered a critical zero-day vulnerability affecting millions of users worldwide. Patch has been released urgently.",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "EU Security Watch",
+    "sourceUrl": "https://example.com/zero-day-vuln",
+    "tags": [
+      "zero-day",
+      "vulnerability",
+      "software"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Security researchers discovered a critical zero-day vulnerability affecting millions of users worldwide. Patch has been released urgently.",
+      "status": "New",
+      "buzzwords": [
+        "zero-day",
+        "vulnerability",
+        "software"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "Germany",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "3",
+    "date": "2025-12-08",
+    "title": "State-Sponsored APT Group Targets Financial Sector",
+    "summary": "An advanced persistent threat group linked to state actors has been targeting financial institutions with sophisticated phishing campaigns.",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "Asia Pacific Security",
+    "sourceUrl": "https://example.com/apt-financial",
+    "tags": [
+      "apt",
+      "financial",
+      "phishing",
+      "state-sponsored"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "An advanced persistent threat group linked to state actors has been targeting financial institutions with sophisticated phishing campaigns.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "financial",
+        "phishing",
+        "state-sponsored"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "Singapore",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "4",
+    "date": "2025-12-05",
+    "title": "Norwegian Government Agencies Hit by DDoS Attack",
+    "summary": "Multiple Norwegian government websites experienced prolonged downtime due to coordinated distributed denial-of-service attacks.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Norge IT-sikkerhet",
+    "sourceUrl": "https://example.com/norway-ddos",
+    "tags": [
+      "ddos",
+      "government",
+      "infrastructure"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Multiple Norwegian government websites experienced prolonged downtime due to coordinated distributed denial-of-service attacks.",
+      "status": "New",
+      "buzzwords": [
+        "ddos",
+        "government",
+        "infrastructure"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "5",
+    "date": "2025-12-01",
+    "title": "Supply Chain Attack Affects Major Tech Companies",
+    "summary": "A sophisticated supply chain attack compromised a widely-used development tool, affecting numerous technology companies globally.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Tech Security Today",
+    "sourceUrl": "https://example.com/supply-chain",
+    "tags": [
+      "supply chain",
+      "malware",
+      "enterprise"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "A sophisticated supply chain attack compromised a widely-used development tool, affecting numerous technology companies globally.",
+      "status": "New",
+      "buzzwords": [
+        "supply chain",
+        "malware",
+        "enterprise"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "6",
+    "date": "2025-11-28",
+    "title": "Data Breach Exposes Millions of User Records",
+    "summary": "A major data breach at a European social media platform exposed personal information of millions of users including emails and phone numbers.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "European Data Protection",
+    "sourceUrl": "https://example.com/data-breach-social",
+    "tags": [
+      "data breach",
+      "social media",
+      "privacy"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "A major data breach at a European social media platform exposed personal information of millions of users including emails and phone numbers.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "social media",
+        "privacy"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "France",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "7",
+    "date": "2025-11-25",
+    "title": "Banking Trojans Target Mobile Users in Asia",
+    "summary": "New variant of banking trojan discovered targeting mobile banking apps across Asian countries with advanced evasion techniques.",
+    "region": "ASIA",
+    "country": "Japan",
+    "sourceName": "Mobile Security Asia",
+    "sourceUrl": "https://example.com/banking-trojan",
+    "tags": [
+      "trojan",
+      "mobile",
+      "banking",
+      "malware"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "New variant of banking trojan discovered targeting mobile banking apps across Asian countries with advanced evasion techniques.",
+      "status": "New",
+      "buzzwords": [
+        "trojan",
+        "mobile",
+        "banking",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "ASIA",
+      "country": "Japan",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "8",
+    "date": "2025-11-20",
+    "title": "Critical Infrastructure Attack in Norway",
+    "summary": "Attempted cyberattack on critical infrastructure systems detected and prevented by Norwegian cybersecurity agencies.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM - Nasjonal sikkerhetsmyndighet",
+    "sourceUrl": "https://example.com/norway-infrastructure",
+    "tags": [
+      "critical infrastructure",
+      "prevention",
+      "national security"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Attempted cyberattack on critical infrastructure systems detected and prevented by Norwegian cybersecurity agencies.",
+      "status": "New",
+      "buzzwords": [
+        "critical infrastructure",
+        "prevention",
+        "national security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "9",
+    "date": "2025-11-15",
+    "title": "Phishing Campaign Targets Cloud Service Users",
+    "summary": "Widespread phishing campaign using fake cloud service login pages to steal credentials from enterprise users.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cloud Security Alliance",
+    "sourceUrl": "https://example.com/phishing-cloud",
+    "tags": [
+      "phishing",
+      "cloud",
+      "credentials"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "Widespread phishing campaign using fake cloud service login pages to steal credentials from enterprise users.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "cloud",
+        "credentials"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "618",
+    "date": "2025-11-15",
+    "title": "Oracle EBS Hack - University of Pennsylvania Data Breach",
+    "summary": "Cl0p ransomware group's Oracle E-Business Suite (EBS) hack campaign hit University of Pennsylvania and University of Phoenix. UPenn attack exposed personal data (names, SSNs) of thousands of individuals after hackers exploited an EBS zero-day. Over 100 organizations including Harvard, Dartmouth, Canon, Mazda, and Logitech were named as victims of the same Oracle EBS exploit.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "ransomware",
+      "cl0p",
+      "zero-day",
+      "oracle",
+      "education",
+      "healthcare"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Cl0p ransomware group's Oracle E-Business Suite (EBS) hack campaign hit University of Pennsylvania and University of Phoenix. UPenn attack exposed personal data (names, SSNs) of thousands of individuals after hackers exploited an EBS zero-day. Over 100 organizations including Harvard, Dartmouth, Canon, Mazda, and Logitech were named as victims of the same Oracle EBS exploit.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "cl0p",
+        "zero-day",
+        "oracle",
+        "education",
+        "healthcare"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "10",
+    "date": "2025-11-10",
+    "title": "GDPR Violation Results in Record Fine",
+    "summary": "European data protection authority issues record-breaking fine for GDPR violations related to inadequate data security measures.",
+    "region": "EU",
+    "country": "Ireland",
+    "sourceName": "Data Protection Commission",
+    "sourceUrl": "https://example.com/gdpr-fine",
+    "tags": [
+      "gdpr",
+      "compliance",
+      "fine",
+      "privacy"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "European data protection authority issues record-breaking fine for GDPR violations related to inadequate data security measures.",
+      "status": "New",
+      "buzzwords": [
+        "gdpr",
+        "compliance",
+        "fine",
+        "privacy"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Ireland",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "11",
+    "date": "2025-11-05",
+    "title": "Cryptocurrency Exchange Suffers Security Breach",
+    "summary": "Major cryptocurrency exchange reports security breach resulting in theft of millions in digital assets.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Crypto Security News",
+    "sourceUrl": "https://example.com/crypto-breach",
+    "tags": [
+      "cryptocurrency",
+      "breach",
+      "financial"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Major cryptocurrency exchange reports security breach resulting in theft of millions in digital assets.",
+      "status": "New",
+      "buzzwords": [
+        "cryptocurrency",
+        "breach",
+        "financial"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "South Korea",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "12",
+    "date": "2025-10-30",
+    "title": "New Malware Campaign Targets Norwegian Businesses",
+    "summary": "Security researchers identify new malware campaign specifically targeting small and medium-sized businesses in Norway.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NorCERT",
+    "sourceUrl": "https://example.com/norway-malware",
+    "tags": [
+      "malware",
+      "business",
+      "targeted attack"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "Security researchers identify new malware campaign specifically targeting small and medium-sized businesses in Norway.",
+      "status": "New",
+      "buzzwords": [
+        "malware",
+        "business",
+        "targeted attack"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "617",
+    "date": "2025-10-15",
+    "title": "F5 Networks Cyberattack (BIG-IP Source Code Theft)",
+    "summary": "F5 Networks announced that a sophisticated nation-state actor breached its internal systems, stealing portions of proprietary BIG-IP source code and details of undisclosed vulnerabilities. The attacker maintained long-term access to F5's networks. U.S. CISA issued emergency directive warning of urgent patching for F5 products. The theft potentially empowered attackers to develop new exploits against hundreds of thousands of enterprise networks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Strobes Security",
+    "sourceUrl": "https://strobes.co",
+    "tags": [
+      "nation-state",
+      "source-code",
+      "vulnerability",
+      "supply-chain",
+      "f5",
+      "cisa"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "F5 Networks announced that a sophisticated nation-state actor breached its internal systems, stealing portions of proprietary BIG-IP source code and details of undisclosed vulnerabilities. The attacker maintained long-term access to F5's networks. U.S. CISA issued emergency directive warning of urgent patching for F5 products. The theft potentially empowered attackers to develop new exploits against hundreds of thousands of enterprise networks.",
+      "status": "New",
+      "buzzwords": [
+        "nation-state",
+        "source-code",
+        "vulnerability",
+        "supply-chain",
+        "f5",
+        "cisa"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "616",
+    "date": "2025-09-19",
+    "title": "Collins Aerospace Ransomware Attack (vMUSE)",
+    "summary": "Ransomware attack on Collins Aerospace's vMUSE check-in software paralyzed flight operations at major European airports (Heathrow, Brussels, Berlin, Dublin). The shared check-in/boarding platform went offline, forcing thousands of passengers to be processed manually causing widespread delays and flight cancellations. EU's cybersecurity agency confirmed it was a ransomware incident.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org",
+    "tags": [
+      "ransomware",
+      "aviation",
+      "critical-infrastructure",
+      "supply-chain",
+      "collins-aerospace"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Ransomware attack on Collins Aerospace's vMUSE check-in software paralyzed flight operations at major European airports (Heathrow, Brussels, Berlin, Dublin). The shared check-in/boarding platform went offline, forcing thousands of passengers to be processed manually causing widespread delays and flight cancellations. EU's cybersecurity agency confirmed it was a ransomware incident.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "aviation",
+        "critical-infrastructure",
+        "supply-chain",
+        "collins-aerospace"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "615",
+    "date": "2025-08-10",
+    "title": "Google Salesforce Data Breach",
+    "summary": "Google disclosed that hackers from ShinyHunters group breached one of its Salesforce customer databases using social-engineering (voice-phishing). The attackers accessed a database of small and medium-business contact information. The breach exposed basic company contact details (names, emails, phone numbers) for millions of Google's customers, but reportedly not financial or login credentials.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Axios",
+    "sourceUrl": "https://axios.com",
+    "tags": [
+      "data breach",
+      "shinyhunters",
+      "social-engineering",
+      "salesforce",
+      "voice-phishing"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Google disclosed that hackers from ShinyHunters group breached one of its Salesforce customer databases using social-engineering (voice-phishing). The attackers accessed a database of small and medium-business contact information. The breach exposed basic company contact details (names, emails, phone numbers) for millions of Google's customers, but reportedly not financial or login credentials.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "shinyhunters",
+        "social-engineering",
+        "salesforce",
+        "voice-phishing"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "614",
+    "date": "2025-07-15",
+    "title": "Microsoft SharePoint 'ToolShell' Zero-Day Attacks",
+    "summary": "Series of attacks exploited zero-day vulnerabilities in on-premises Microsoft SharePoint servers. Over 400 organizations including U.S. government agencies were compromised in this campaign. Attackers deployed web shells to gain admin access and exfiltrated sensitive internal data (documents, credentials). Intrusions attributed to advanced threat groups likely based in China.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CRN",
+    "sourceUrl": "https://crn.com",
+    "tags": [
+      "zero-day",
+      "sharepoint",
+      "nation-state",
+      "china",
+      "web-shell",
+      "apt"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Series of attacks exploited zero-day vulnerabilities in on-premises Microsoft SharePoint servers. Over 400 organizations including U.S. government agencies were compromised in this campaign. Attackers deployed web shells to gain admin access and exfiltrated sensitive internal data (documents, credentials). Intrusions attributed to advanced threat groups likely based in China.",
+      "status": "New",
+      "buzzwords": [
+        "zero-day",
+        "sharepoint",
+        "nation-state",
+        "china",
+        "web-shell",
+        "apt"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "607",
+    "date": "2025-06-25",
+    "title": "Healthcare Sector Faces 52 Ransomware Attacks",
+    "summary": "Healthcare sector remained top target with 52 ransomware incidents globally in June, disrupting patient care and medical services.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Healthcare Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "patient care"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Healthcare sector remained top target with 52 ransomware incidents globally in June, disrupting patient care and medical services.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "healthcare",
+        "patient care"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "608",
+    "date": "2025-06-22",
+    "title": "Norwegian Energy Company Hit by Cyberattack",
+    "summary": "Norwegian energy company faced sophisticated cyberattack targeting operational technology systems, raising concerns about critical infrastructure security.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM",
+    "sourceUrl": "https://nsm.no",
+    "tags": [
+      "critical infrastructure",
+      "energy",
+      "ot security"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Norwegian energy company faced sophisticated cyberattack targeting operational technology systems, raising concerns about critical infrastructure security.",
+      "status": "New",
+      "buzzwords": [
+        "critical infrastructure",
+        "energy",
+        "ot security"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "605",
+    "date": "2025-06-20",
+    "title": "Washington Post Email System Hacked",
+    "summary": "Targeted hack of The Washington Post's email system illustrating ongoing cyber-espionage threats to media organizations, likely by nation-state actors.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Media Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "espionage",
+      "media",
+      "state-sponsored",
+      "email"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Targeted hack of The Washington Post's email system illustrating ongoing cyber-espionage threats to media organizations, likely by nation-state actors.",
+      "status": "New",
+      "buzzwords": [
+        "espionage",
+        "media",
+        "state-sponsored",
+        "email"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "604",
+    "date": "2025-06-18",
+    "title": "Salt Typhoon Breaches Viasat Telecommunications",
+    "summary": "China-linked APT group Salt Typhoon breached global telecom firm Viasat via compromised device, though attack was contained with no customer impact.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Telecom Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "apt",
+      "telecommunications",
+      "state-sponsored",
+      "china"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "China-linked APT group Salt Typhoon breached global telecom firm Viasat via compromised device, though attack was contained with no customer impact.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "telecommunications",
+        "state-sponsored",
+        "china"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "603",
+    "date": "2025-06-15",
+    "title": "Qilin Ransomware Group Reports 81 Victims in June",
+    "summary": "New ransomware group Qilin emerged as most active threat in June with 81 victims, exploiting unpatched Fortinet vulnerabilities.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "ransomware",
+      "qilin",
+      "vulnerability"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "New ransomware group Qilin emerged as most active threat in June with 81 victims, exploiting unpatched Fortinet vulnerabilities.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "qilin",
+        "vulnerability"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "613",
+    "date": "2025-06-15",
+    "title": "Historic 16 Billion-Credential Leak",
+    "summary": "Unprecedented data dump of ~16 billion stolen credentials surfaced. Not a single breach but a compilation of stolen usernames, emails, and passwords gathered over years by infostealer malware on over 750 million infected devices. Dataset included logins for Google, Facebook, Apple, Netflix, and numerous government portals, enabling massive credential-stuffing and phishing campaigns worldwide.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Strobes Security",
+    "sourceUrl": "https://strobes.co",
+    "tags": [
+      "data breach",
+      "credentials",
+      "infostealer",
+      "global",
+      "password"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Unprecedented data dump of ~16 billion stolen credentials surfaced. Not a single breach but a compilation of stolen usernames, emails, and passwords gathered over years by infostealer malware on over 750 million infected devices. Dataset included logins for Google, Facebook, Apple, Netflix, and numerous government portals, enabling massive credential-stuffing and phishing campaigns worldwide.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "credentials",
+        "infostealer",
+        "global",
+        "password"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "606",
+    "date": "2025-06-12",
+    "title": "Professional Services Sector Hit by 60 Ransomware Incidents",
+    "summary": "Professional services sector saw 60 ransomware incidents in June, with attackers concentrating on industries with low downtime tolerance.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "ransomware",
+      "professional services",
+      "business"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Professional services sector saw 60 ransomware incidents in June, with attackers concentrating on industries with low downtime tolerance.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "professional services",
+        "business"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "602",
+    "date": "2025-06-10",
+    "title": "China Database Leak Exposes 4 Billion Records",
+    "summary": "Misconfigured database in China leaked 4 billion sensitive records containing financial data and personal details from WeChat and Alipay platforms.",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "Security News",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "data breach",
+      "financial",
+      "database",
+      "misconfiguration"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Misconfigured database in China leaked 4 billion sensitive records containing financial data and personal details from WeChat and Alipay platforms.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "financial",
+        "database",
+        "misconfiguration"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "China",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "601",
+    "date": "2025-06-05",
+    "title": "16 Billion Stolen Credentials Leaked in Massive Data Dump",
+    "summary": "One of the largest data leaks in history involving over 16 billion stolen login credentials from infostealer malware, including credentials for Apple, Google, Facebook, Microsoft, and government portals in 29+ countries.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Security News",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "data breach",
+      "credentials",
+      "malware",
+      "infostealer"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "One of the largest data leaks in history involving over 16 billion stolen login credentials from infostealer malware, including credentials for Apple, Google, Facebook, Microsoft, and government portals in 29+ countries.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "credentials",
+        "malware",
+        "infostealer"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "507",
+    "date": "2025-05-28",
+    "title": "LexisNexis Data Breach Affects 364,000 Individuals",
+    "summary": "Data broker LexisNexis disclosed a breach affecting 364,000 individuals, exposing personal and sensitive information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security News",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "data breach",
+      "personal data",
+      "data broker"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Data broker LexisNexis disclosed a breach affecting 364,000 individuals, exposing personal and sensitive information.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "personal data",
+        "data broker"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "506",
+    "date": "2025-05-25",
+    "title": "Coca-Cola Internal Data Leaked After Ransom Refusal",
+    "summary": "Everest ransomware group leaked internal Coca-Cola data after the company refused to pay ransom demands.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "ransomware",
+      "data leak",
+      "corporate"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Everest ransomware group leaked internal Coca-Cola data after the company refused to pay ransom demands.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "data leak",
+        "corporate"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "508",
+    "date": "2025-05-22",
+    "title": "Cetus Protocol Loses $223 Million to Hackers",
+    "summary": "Cryptocurrency platform Cetus Protocol suffered massive theft with hackers stealing $223 million in digital assets.",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "Crypto Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "cryptocurrency",
+      "theft",
+      "defi"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Cryptocurrency platform Cetus Protocol suffered massive theft with hackers stealing $223 million in digital assets.",
+      "status": "New",
+      "buzzwords": [
+        "cryptocurrency",
+        "theft",
+        "defi"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Singapore",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "505",
+    "date": "2025-05-20",
+    "title": "North Korean APT Targets Ukrainian Government",
+    "summary": "North Korean APT group TA406 launched targeted cyber-espionage campaign against Ukrainian government agencies.",
+    "region": "EU",
+    "country": "Ukraine",
+    "sourceName": "CERT-EU",
+    "sourceUrl": "https://cert.europa.eu",
+    "tags": [
+      "apt",
+      "state-sponsored",
+      "espionage",
+      "government"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "North Korean APT group TA406 launched targeted cyber-espionage campaign against Ukrainian government agencies.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "state-sponsored",
+        "espionage",
+        "government"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "Ukraine",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "612",
+    "date": "2025-05-20",
+    "title": "Marks & Spencer Supply-Chain Ransomware Attack",
+    "summary": "UK retail giant Marks & Spencer suffered a large cyberattack by Scattered Spider group, who deployed DragonForce ransomware. The attackers encrypted M&S's critical systems and stole sensitive customer data. The disruption was severe with M&S projecting a £320 million ($400 million) hit to profits due to lost sales and recovery costs.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "PKWARE",
+    "sourceUrl": "https://pkware.com",
+    "tags": [
+      "ransomware",
+      "dragonforce",
+      "scattered-spider",
+      "retail",
+      "supply-chain"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "UK retail giant Marks & Spencer suffered a large cyberattack by Scattered Spider group, who deployed DragonForce ransomware. The attackers encrypted M&S's critical systems and stole sensitive customer data. The disruption was severe with M&S projecting a £320 million ($400 million) hit to profits due to lost sales and recovery costs.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "dragonforce",
+        "scattered-spider",
+        "retail",
+        "supply-chain"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "504",
+    "date": "2025-05-18",
+    "title": "Moscow Suffers Major DDoS Attack Disrupting Internet",
+    "summary": "Major DDoS attack in Moscow knocked out internet service for tens of thousands of users, disrupting communications and services.",
+    "region": "EU",
+    "country": "Russia",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "ddos",
+      "infrastructure",
+      "telecommunications"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Major DDoS attack in Moscow knocked out internet service for tens of thousands of users, disrupting communications and services.",
+      "status": "New",
+      "buzzwords": [
+        "ddos",
+        "infrastructure",
+        "telecommunications"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "Russia",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "503",
+    "date": "2025-05-15",
+    "title": "Wisconsin City Network Breach Exposes 67,000 Individuals",
+    "summary": "Hackers breached a Wisconsin city network, exposing personal data of 67,000 individuals including sensitive government records.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Government Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "government",
+      "data breach",
+      "personal data"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Hackers breached a Wisconsin city network, exposing personal data of 67,000 individuals including sensitive government records.",
+      "status": "New",
+      "buzzwords": [
+        "government",
+        "data breach",
+        "personal data"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "509",
+    "date": "2025-05-12",
+    "title": "Chinese Hackers Exploit Ivanti Flaw to Breach Organizations",
+    "summary": "Chinese state hackers leveraged vulnerability in Ivanti's mobile device management software to breach high-profile organizations worldwide.",
+    "region": "ASIA",
+    "country": "China",
+    "sourceName": "Cyber Security News",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "apt",
+      "vulnerability",
+      "state-sponsored",
+      "mobile"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Chinese state hackers leveraged vulnerability in Ivanti's mobile device management software to breach high-profile organizations worldwide.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "vulnerability",
+        "state-sponsored",
+        "mobile"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "China",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "502",
+    "date": "2025-05-10",
+    "title": "Covenant Health Cyberattack Cripples Hospital Operations",
+    "summary": "Cyberattack on Covenant Health disrupted hospital operations in Maine and New Hampshire, affecting patient care and medical services.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Healthcare Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "healthcare",
+      "ransomware",
+      "infrastructure"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Cyberattack on Covenant Health disrupted hospital operations in Maine and New Hampshire, affecting patient care and medical services.",
+      "status": "New",
+      "buzzwords": [
+        "healthcare",
+        "ransomware",
+        "infrastructure"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "510",
+    "date": "2025-05-08",
+    "title": "Norwegian Healthcare Provider Hit by Ransomware",
+    "summary": "Norwegian healthcare provider experienced ransomware attack disrupting patient care services and forcing systems offline.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM",
+    "sourceUrl": "https://nsm.no",
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "patient data"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Norwegian healthcare provider experienced ransomware attack disrupting patient care services and forcing systems offline.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "healthcare",
+        "patient data"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "501",
+    "date": "2025-05-05",
+    "title": "Kettering Health Hit by Interlock Ransomware",
+    "summary": "System-wide ransomware outage at Kettering Health in Ohio forced cancellation of medical procedures and disrupted patient care operations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Healthcare Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "ransomware",
+      "healthcare",
+      "interlock"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "System-wide ransomware outage at Kettering Health in Ohio forced cancellation of medical procedures and disrupted patient care operations.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "healthcare",
+        "interlock"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "405",
+    "date": "2025-04-25",
+    "title": "AI-Generated Phishing Emails Reach 12% of Attacks",
+    "summary": "Security researchers warn that approximately 12% of phishing emails are now AI-generated, mimicking writing styles to evade detection.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Security News",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "phishing",
+      "ai",
+      "malware"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Security researchers warn that approximately 12% of phishing emails are now AI-generated, mimicking writing styles to evade detection.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "ai",
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "404",
+    "date": "2025-04-20",
+    "title": "Manufacturing Sector Hit by 72 Ransomware Incidents",
+    "summary": "Manufacturing sector faced 72 ransomware incidents globally in April, with attackers focusing on disrupting supply chains.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "ransomware",
+      "manufacturing",
+      "supply chain"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Manufacturing sector faced 72 ransomware incidents globally in April, with attackers focusing on disrupting supply chains.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "manufacturing",
+        "supply chain"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "406",
+    "date": "2025-04-18",
+    "title": "Norwegian Business Sector Targeted by Ransomware Wave",
+    "summary": "Multiple Norwegian businesses faced coordinated ransomware attacks, with new groups targeting small and medium enterprises.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NorCERT",
+    "sourceUrl": "https://norcert.no",
+    "tags": [
+      "ransomware",
+      "business",
+      "targeted attack"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Multiple Norwegian businesses faced coordinated ransomware attacks, with new groups targeting small and medium enterprises.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "business",
+        "targeted attack"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "403",
+    "date": "2025-04-15",
+    "title": "Royal Mail Breach via Third-Party Analytics Provider",
+    "summary": "Royal Mail suffered data breach through compromised German analytics provider Spectos, demonstrating supply chain vulnerability risks.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "supply chain",
+      "data breach",
+      "third-party"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Royal Mail suffered data breach through compromised German analytics provider Spectos, demonstrating supply chain vulnerability risks.",
+      "status": "New",
+      "buzzwords": [
+        "supply chain",
+        "data breach",
+        "third-party"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "United Kingdom",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "611",
+    "date": "2025-04-15",
+    "title": "NASCAR Ransomware Attack",
+    "summary": "Medusa ransomware group infiltrated NASCAR's systems, claiming to have exfiltrated roughly 1 terabyte of data including personal information like names and Social Security numbers. The group demanded a $4 million ransom. NASCAR confirmed the cybersecurity incident affecting operations and notified individuals that personal data was stolen.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "ransomware",
+      "medusa",
+      "data breach",
+      "sports",
+      "extortion"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Medusa ransomware group infiltrated NASCAR's systems, claiming to have exfiltrated roughly 1 terabyte of data including personal information like names and Social Security numbers. The group demanded a $4 million ransom. NASCAR confirmed the cybersecurity incident affecting operations and notified individuals that personal data was stolen.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "medusa",
+        "data breach",
+        "sports",
+        "extortion"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "402",
+    "date": "2025-04-10",
+    "title": "Yale New Haven Health Breach Exposes 5.5 Million Records",
+    "summary": "Major U.S. hospital system breach exposed 5.5 million patient records including medical histories and personal information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Healthcare Security",
+    "sourceUrl": "https://example.com",
+    "tags": [
+      "healthcare",
+      "data breach",
+      "medical records"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Major U.S. hospital system breach exposed 5.5 million patient records including medical histories and personal information.",
+      "status": "New",
+      "buzzwords": [
+        "healthcare",
+        "data breach",
+        "medical records"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "401",
+    "date": "2025-04-04",
+    "title": "PoisonSeed Phishing Campaign Exploits Trusted Email Platforms",
+    "summary": "Global phishing campaign infiltrated Mailchimp, SendGrid, HubSpot, Mailgun, and Zoho to steal cryptocurrency wallet seed phrases from victims worldwide.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "phishing",
+      "supply chain",
+      "cryptocurrency"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Global phishing campaign infiltrated Mailchimp, SendGrid, HubSpot, Mailgun, and Zoho to steal cryptocurrency wallet seed phrases from victims worldwide.",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "supply chain",
+        "cryptocurrency"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "306",
+    "date": "2025-03-28",
+    "title": "Norwegian Dam Hacked in Cyber-Physical Attack",
+    "summary": "Cyber sabotage of a Norwegian dam demonstrated how cyberattacks can spill into the physical world, prompting global discussions on critical infrastructure protection.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "SecurityWeek",
+    "sourceUrl": "https://securityweek.com",
+    "tags": [
+      "critical infrastructure",
+      "cyber-physical",
+      "sabotage"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Cyber sabotage of a Norwegian dam demonstrated how cyberattacks can spill into the physical world, prompting global discussions on critical infrastructure protection.",
+      "status": "New",
+      "buzzwords": [
+        "critical infrastructure",
+        "cyber-physical",
+        "sabotage"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "305",
+    "date": "2025-03-25",
+    "title": "Global Malvertising Campaign Compromises 1 Million Devices",
+    "summary": "Microsoft uncovered malvertising campaign compromising nearly 1 million devices worldwide via malicious ads on illicit streaming sites.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "malware",
+      "malvertising",
+      "credentials"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Microsoft uncovered malvertising campaign compromising nearly 1 million devices worldwide via malicious ads on illicit streaming sites.",
+      "status": "New",
+      "buzzwords": [
+        "malware",
+        "malvertising",
+        "credentials"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "304",
+    "date": "2025-03-20",
+    "title": "WEMIX Blockchain Gaming Network Loses $6.1M",
+    "summary": "WEMIX blockchain gaming network lost 8.65 million tokens worth approximately $6.1 million after attackers stole an authentication key.",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "theft"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "WEMIX blockchain gaming network lost 8.65 million tokens worth approximately $6.1 million after attackers stole an authentication key.",
+      "status": "New",
+      "buzzwords": [
+        "cryptocurrency",
+        "blockchain",
+        "theft"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "ASIA",
+      "country": "South Korea",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "302",
+    "date": "2025-03-15",
+    "title": "GitHub Actions Supply Chain Attack Exposes CI/CD Secrets",
+    "summary": "CI/CD secrets exposed from 218 repositories across 4,000+ organizations through GitHub Actions supply chain attack exploiting mutable version tags.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "supply chain",
+      "ci/cd",
+      "github"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "CI/CD secrets exposed from 218 repositories across 4,000+ organizations through GitHub Actions supply chain attack exploiting mutable version tags.",
+      "status": "New",
+      "buzzwords": [
+        "supply chain",
+        "ci/cd",
+        "github"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "307",
+    "date": "2025-03-12",
+    "title": "Narvik Harbor Hit by Ransomware Attack",
+    "summary": "Narvik havn (harbor) in Norway was targeted by ransomware attackers demanding payment, disrupting port operations and logistics.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Kode24",
+    "sourceUrl": "https://kode24.no",
+    "tags": [
+      "ransomware",
+      "infrastructure",
+      "logistics"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Narvik havn (harbor) in Norway was targeted by ransomware attackers demanding payment, disrupting port operations and logistics.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "infrastructure",
+        "logistics"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "301",
+    "date": "2025-03-10",
+    "title": "Oracle Cloud Breach Impacts 140,000 Tenants",
+    "summary": "Massive cloud data breach at Oracle exposed ~6 million records including SSO and LDAP credentials, affecting over 140,000 cloud tenants worldwide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "cloud",
+      "data breach",
+      "supply chain"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Massive cloud data breach at Oracle exposed ~6 million records including SSO and LDAP credentials, affecting over 140,000 cloud tenants worldwide.",
+      "status": "New",
+      "buzzwords": [
+        "cloud",
+        "data breach",
+        "supply chain"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "303",
+    "date": "2025-03-10",
+    "title": "X (Twitter) Suffers Massive DDoS Attack",
+    "summary": "Social media platform X experienced global outages for hours due to massive DDoS attack, with multiple hacker groups claiming responsibility.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "ddos",
+      "social media"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Social media platform X experienced global outages for hours due to massive DDoS attack, with multiple hacker groups claiming responsibility.",
+      "status": "New",
+      "buzzwords": [
+        "ddos",
+        "social media"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "610",
+    "date": "2025-03-10",
+    "title": "Oracle Cloud IAM Data Breach",
+    "summary": "Threat actor 'rose87168' claimed to breach Oracle Cloud's Identity and Access Management service. About 6 million user records (usernames, emails, hashed passwords) were allegedly stolen from roughly 140,000 Oracle cloud tenant accounts. Oracle denied customer data compromise, but security firms warned this could be one of the year's most significant cloud supply-chain attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cloud Security Alliance",
+    "sourceUrl": "https://cloudsecurityalliance.org",
+    "tags": [
+      "cloud",
+      "data breach",
+      "supply-chain",
+      "iam",
+      "oracle"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Threat actor 'rose87168' claimed to breach Oracle Cloud's Identity and Access Management service. About 6 million user records (usernames, emails, hashed passwords) were allegedly stolen from roughly 140,000 Oracle cloud tenant accounts. Oracle denied customer data compromise, but security firms warned this could be one of the year's most significant cloud supply-chain attacks.",
+      "status": "New",
+      "buzzwords": [
+        "cloud",
+        "data breach",
+        "supply-chain",
+        "iam",
+        "oracle"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "201",
+    "date": "2025-02-21",
+    "title": "Bybit Cryptocurrency Exchange Suffers $1.46 Billion Theft",
+    "summary": "The largest cryptocurrency theft in history with $1.46 billion in Ethereum stolen from Bybit's cold wallet, allegedly by North Korea's Lazarus Group.",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "CM Alliance",
+    "sourceUrl": "https://cm-alliance.com",
+    "tags": [
+      "cryptocurrency",
+      "theft",
+      "lazarus group",
+      "state-sponsored"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "The largest cryptocurrency theft in history with $1.46 billion in Ethereum stolen from Bybit's cold wallet, allegedly by North Korea's Lazarus Group.",
+      "status": "New",
+      "buzzwords": [
+        "cryptocurrency",
+        "theft",
+        "lazarus group",
+        "state-sponsored"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "206",
+    "date": "2025-02-18",
+    "title": "Norwegian Company Faces Ransomware Attack",
+    "summary": "A Norwegian business was targeted by ransomware operators, resulting in encrypted systems and demands for cryptocurrency payment.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NorCERT",
+    "sourceUrl": "https://norcert.no",
+    "tags": [
+      "ransomware",
+      "business"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "A Norwegian business was targeted by ransomware operators, resulting in encrypted systems and demands for cryptocurrency payment.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "business"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "205",
+    "date": "2025-02-15",
+    "title": "8Base Ransomware Gang Infrastructure Dismantled",
+    "summary": "International law enforcement operation successfully dismantled 8Base ransomware gang's infrastructure, leading to multiple arrests across Europe.",
+    "region": "EU",
+    "country": "European Union",
+    "sourceName": "CERT-EU",
+    "sourceUrl": "https://cert.europa.eu",
+    "tags": [
+      "ransomware",
+      "law enforcement",
+      "8base"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "International law enforcement operation successfully dismantled 8Base ransomware gang's infrastructure, leading to multiple arrests across Europe.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "law enforcement",
+        "8base"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "EU",
+      "country": "European Union",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "202",
+    "date": "2025-02-13",
+    "title": "Zacks Investment Research Data Breach Exposes 12 Million Accounts",
+    "summary": "12 million client accounts' data including names, emails, addresses, and phone numbers exposed for sale on hacker forums after breach.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "data breach",
+      "financial",
+      "personal data"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "12 million client accounts' data including names, emails, addresses, and phone numbers exposed for sale on hacker forums after breach.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "financial",
+        "personal data"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "203",
+    "date": "2025-02-13",
+    "title": "Chinese APT Compromises Over 1,000 Cisco Routers Globally",
+    "summary": "Salt Typhoon APT group exploited Cisco IOS XE vulnerability to compromise over 1,000 routers worldwide, enabling persistent access to telecom networks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOCRadar",
+    "sourceUrl": "https://socradar.io",
+    "tags": [
+      "apt",
+      "supply chain",
+      "telecommunications",
+      "state-sponsored"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Salt Typhoon APT group exploited Cisco IOS XE vulnerability to compromise over 1,000 routers worldwide, enabling persistent access to telecom networks.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "supply chain",
+        "telecommunications",
+        "state-sponsored"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "204",
+    "date": "2025-02-10",
+    "title": "Lee Enterprises Newspaper Chain Hit by Qilin Ransomware",
+    "summary": "Qilin ransomware gang encrypted systems of major U.S. newspaper chain, halting publishing operations and threatening to leak 350 GB of stolen data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://bleepingcomputer.com",
+    "tags": [
+      "ransomware",
+      "media",
+      "qilin"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "Qilin ransomware gang encrypted systems of major U.S. newspaper chain, halting publishing operations and threatening to leak 350 GB of stolen data.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "media",
+        "qilin"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "104",
+    "date": "2025-01-28",
+    "title": "Norwegian Municipality Hit by Cyberattack",
+    "summary": "A Norwegian municipality's IT systems were compromised, disrupting public services and forcing systems offline for several days.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "NSM",
+    "sourceUrl": "https://nsm.no",
+    "tags": [
+      "local government",
+      "infrastructure"
+    ],
+    "impact": 2,
+    "aiAnalysis": {
+      "summary": "A Norwegian municipality's IT systems were compromised, disrupting public services and forcing systems offline for several days.",
+      "status": "New",
+      "buzzwords": [
+        "local government",
+        "infrastructure"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 2,
+      "region": "NO",
+      "country": "Norway",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "103",
+    "date": "2025-01-25",
+    "title": "Financial Sector Targeted by APT Campaign",
+    "summary": "Asian financial institutions face coordinated APT attacks aimed at stealing sensitive financial data and transaction information.",
+    "region": "ASIA",
+    "country": "Japan",
+    "sourceName": "Asia Pacific Security",
+    "sourceUrl": "https://example.com/apt-asia",
+    "tags": [
+      "apt",
+      "financial",
+      "state-sponsored"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Asian financial institutions face coordinated APT attacks aimed at stealing sensitive financial data and transaction information.",
+      "status": "New",
+      "buzzwords": [
+        "apt",
+        "financial",
+        "state-sponsored"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "ASIA",
+      "country": "Japan",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "102",
+    "date": "2025-01-20",
+    "title": "Healthcare Data Breach Exposes Patient Records",
+    "summary": "A major healthcare provider in Europe suffered a data breach exposing thousands of patient records including medical histories and personal information.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "CERT-EU",
+    "sourceUrl": "https://cert.europa.eu",
+    "tags": [
+      "data breach",
+      "healthcare",
+      "privacy"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "A major healthcare provider in Europe suffered a data breach exposing thousands of patient records including medical histories and personal information.",
+      "status": "New",
+      "buzzwords": [
+        "data breach",
+        "healthcare",
+        "privacy"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "EU",
+      "country": "France",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "101",
+    "date": "2025-01-15",
+    "title": "Global Ransomware Surge Begins Year",
+    "summary": "January 2025 sees 590 ransomware attacks globally, marking the start of an unprecedented year for cyber threats with North America and Europe as primary targets.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "NCC Group",
+    "sourceUrl": "https://www.nccgroup.com",
+    "tags": [
+      "ransomware",
+      "global"
+    ],
+    "impact": 4,
+    "aiAnalysis": {
+      "summary": "January 2025 sees 590 ransomware attacks globally, marking the start of an unprecedented year for cyber threats with North America and Europe as primary targets.",
+      "status": "New",
+      "buzzwords": [
+        "ransomware",
+        "global"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 4,
+      "region": "US",
+      "country": "United States",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.325Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "609",
+    "date": "2025-01-15",
+    "title": "Phemex Cryptocurrency Exchange Hack",
+    "summary": "Singapore-based crypto platform Phemex was breached with attackers stealing at least $69 million. The hack forced Phemex to halt withdrawals and deposits while assessing damage. Investigation found hackers compromised Phemex's systems, leading to loss of user funds and widespread service disruption.",
+    "region": "ASIA",
+    "country": "Singapore",
+    "sourceName": "The Record",
+    "sourceUrl": "https://therecord.media",
+    "tags": [
+      "cryptocurrency",
+      "breach",
+      "lazarus",
+      "financial",
+      "nation-state"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Singapore-based crypto platform Phemex was breached with attackers stealing at least $69 million. The hack forced Phemex to halt withdrawals and deposits while assessing damage. Investigation found hackers compromised Phemex's systems, leading to loss of user funds and widespread service disruption.",
+      "status": "New",
+      "buzzwords": [
+        "cryptocurrency",
+        "breach",
+        "lazarus",
+        "financial",
+        "nation-state"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "ASIA",
+      "country": "Singapore",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-08T13:09:47.326Z",
+    "enrichmentVersion": "1.0"
+  }
+]

@@ -30,9 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Enrich articles with AI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enrich articles (basic mode)
         run: npm run enrich-articles
       
       - name: Check for changes
