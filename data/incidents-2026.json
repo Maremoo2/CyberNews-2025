@@ -1,5 +1,614 @@
 [
   {
+    "id": "2026076",
+    "date": "2026-01-08",
+    "title": "US announces withdrawal from dozens of international treaties",
+    "summary": "Although the list does not include what are perceived to be the more consequential multilateral bodies shaping global cyber governance and state behaviour in cyberspace, some of the organizations play a role in shaping international law broadly.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/us-announces-withdrawal-from-dozens-international-orgs",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026077",
+    "date": "2026-01-08",
+    "title": "Microsoft Exchange Online outage blocks access to mailboxes via IMAP4",
+    "summary": "Microsoft is working to fix an Exchange Online service outage that intermittently prevents users from accessing their mailboxes via the Internet Mailbox Access Protocol 4 (IMAP4). [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes-via-imap4/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026078",
+    "date": "2026-01-08",
+    "title": "Microsoft to enforce MFA for Microsoft 365 admin center sign-ins",
+    "summary": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-microsoft-365-admin-center-sign-ins/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026079",
+    "date": "2026-01-08",
+    "title": "The State of Trusted Open Source",
+    "summary": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026080",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Nå vil Chat GPT være legen din",
+    "summary": "Open AI lanserer «Chat GPT Health».",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/na-vil-chat-gpt-vaere-doktoren-din/566695",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026081",
+    "date": "2026-01-08",
+    "title": "Cisco Patches ISE Security Vulnerability After Public PoC Exploit Release",
+    "summary": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisco-patches-ise-security.html",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026082",
+    "date": "2026-01-08",
+    "title": "Researchers Uncover NodeCordRAT Hidden in npm Bitcoin-Themed Packages",
+    "summary": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-uncover-nodecordrat-hidden.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026083",
+    "date": "2026-01-08",
+    "title": "Coolify Discloses 11 Critical Flaws Enabling Full Server Compromise on Self-Hosted Instances",
+    "summary": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/coolify-discloses-11-critical-flaws.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026084",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Nå starter produksjonen: Verdens mest avanserte «menneskerobot»?",
+    "summary": "Boston Dynamics har omsider nådd en stor milepæl.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/verdens-mest-avanserte-menneskerobot-na-starter-produksjonen/566644",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026085",
+    "date": "2026-01-08",
+    "title": "Cisco warns of Identity Service Engine flaw with exploit code",
+    "summary": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-flaw-with-exploit-code/",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026086",
+    "date": "2026-01-08",
+    "title": "Nye skjermråd: Barn under 12 år bør unngå internett uten tilsyn",
+    "summary": "Regjeringen mener at barn under 12 år ikke bør ha tilgang til internett uten tilsyn fra voksne.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nye-skjermrad-barn-under-12-ar-bor-unnga-internett-uten-tilsyn/566704",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026087",
+    "date": "2026-01-08",
+    "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026088",
+    "date": "2026-01-08",
+    "title": "OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls",
+    "summary": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical recor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026089",
+    "date": "2026-01-08",
+    "title": "CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are list...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026090",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Satser på nye kvantestudier: – Sier seg selv at kompetansen blir ettertraktet",
+    "summary": "Fra i høst blir det mulig å ta bachelor i kvanteteknologi ved to universiteter i Norge.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/satser-pa-nye-kvantestudier-sier-seg-selv-at-kompetansen-blir-ettertraktet/566569",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026091",
+    "date": "2026-01-08",
+    "title": "ISC Stormcast For Thursday, January 8th, 2026 https://isc.sans.edu/podcastdetail/9758, (Thu, Jan 8th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32610",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026092",
+    "date": "2026-01-08",
+    "title": "Analysis using Gephi with DShield Sensor Data, (Wed, Jan 7th)",
+    "summary": "I'm always looking for new ways of manipulating the data captured by my DShield sensor [1]. This time I used Gephi [2] and Graphiz [3] a popular and powerful tool for visualizing and exploring relationships between nodes, to examine the relationship between the source IP, filename and which senso...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32608",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026096",
+    "date": "2026-01-08",
+    "title": "The Loudest Voices in Security Often Have the Least to Lose - SecurityWeek",
+    "summary": "The loudest voices in cybersecurity are not always the ones who carry the risk. When advice comes without accountability, it creates noise, not ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/the-loudest-voices-in-security-often-have-the-least-to-lose/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026097",
+    "date": "2026-01-08",
+    "title": "Ghost Tapped: Tracking the Rise of Chinese Tap-to-pay Android Malware | Group-IB Blog",
+    "summary": "2. If tap-to-pay is secure, how is it exploited? arrow_drop_down.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/ghost-tapped-chinese-malware/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026098",
+    "date": "2026-01-08",
+    "title": "Why cybersecurity cannot hire its way through the AI era - CyberScoop",
+    "summary": "The truth is: everything we do in cybersecurity is about risk management. The ROC is not just for security. It connects CISOs, CIOs, CFOs, business ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberscoop.com/cybersecurity-talent-shortage-ai-risk-operations-center-2026-op-ed/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026099",
+    "date": "2026-01-08",
+    "title": "Three key Cybersecurity Headlines making waves on Google",
+    "summary": "1. London Council Reaches Out to 100,000 Households About Potential Cyber-Attack. Several councils in London, including Westminster City Council, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/three-key-cybersecurity-headlines-making-waves-on-google/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026100",
+    "date": "2026-01-08",
+    "title": "M&A Cybersecurity Due Diligence: The Questions That Matter Most - Banking Exchange",
+    "summary": "If you're walking into a poor risk position, it could affect valuation, negotiations or the cost of further investment to strengthen security after ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankingexchange.com/news-feed/item/10507-m-a-cybersecurity-due-diligence-the-questions-that-matter-most",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026101",
+    "date": "2026-01-08",
+    "title": "Sedgwick Acknowledges Data Breach Linked to TridentLocker Ransomware Attack",
+    "summary": "Claims administration giant Sedgwick disclosed a cybersecurity incident at its government-focused subsidiary on January 4, 2026, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/sedgwick-tridentlocker-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026102",
+    "date": "2026-01-08",
+    "title": "Cloudy Outlook for Cyber Jobs as AI Fills Security Gaps - WSJ",
+    "summary": "Flat budgets and a shaky economy will keep cybersecurity hiring in a holding pattern as firms invest in automated security tools.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wsj.com/articles/cloudy-outlook-for-cyber-jobs-as-ai-fills-security-gaps-2128b2cf",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026103",
+    "date": "2026-01-08",
+    "title": "MoJ spent £50M on security at Legal Aid Agency before attack - The Register",
+    "summary": "Updated The UK's Ministry of Justice spent £50 million ($67 million) on cybersecurity improvements at the Legal Aid Agency (LAA) before the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/07/legal_aid_agency_attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026104",
+    "date": "2026-01-08",
+    "title": "Aurora College plans to increase cyber security following Christmas attack - My North Now",
+    "summary": "Staff at Aurora College are working with specialists and partners to resolve the impacts of a cybersecurity attack that caused “damage” to the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mynorthnow.com/85054/news/nwt-news/aurora-college-plans-to-increase-cyber-security-following-christmas-attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026105",
+    "date": "2026-01-08",
+    "title": "The 3 Best Cybersecurity Stocks to Buy for 2026 - Yahoo Finance",
+    "summary": "Finally, Palo Alto Networks (PANW) remains the gold standard in network security, as it continues to expand beyond firewalls into AI-powered threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/3-best-cybersecurity-stocks-buy-195709659.html",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026106",
+    "date": "2026-01-08",
+    "title": "8 things CISOs can't afford to get wrong in 2026 | CSO Online",
+    "summary": "“In my experience, the proximate cause of security breaches is usually human error,” says Beth Fulkerson, technology and cybersecurity partner at law ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4110699/8-things-cisos-cant-afford-to-get-wrong-in-2026.html",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026107",
+    "date": "2026-01-08",
+    "title": "Privacy & Information Security Law Blog - Hunton Andrews Kurth LLP",
+    "summary": "On December 31, 2025, the Federal Trade Commission announced that a federal judge had approved a $10 million settlement of its complaint against ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/2026/01",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026093",
+    "date": "2026-01-07",
+    "title": "Researchers rush to warn defenders of max-severity defect in n8n",
+    "summary": "Researchers warn that a critical vulnerability in n8n, an automation platform that allows organizations to integrate AI agents, workflows and hundreds of other enterprise services, could be exploited by attackers to achieve full control of targeted networks. The maximum-severity vulnerability — C...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/n8n-critical-vulnerability-massive-risk/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026094",
+    "date": "2026-01-07",
+    "title": "OpenAI says ChatGPT won't use your health information to train its models",
+    "summary": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026095",
+    "date": "2026-01-07",
+    "title": "New GoBruteforcer attack wave targets crypto, blockchain projects",
+    "summary": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-gobruteforcer-attack-wave-targets-crypto-blockchain-projects/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026108",
+    "date": "2026-01-07",
+    "title": "Cybersecurity News: UK cyber reset, no MFA is a problem, US cyberattacks on display",
+    "summary": "The announcement admits that its previous approach was flawed and left it unable to meet commitments to security government organizations to known ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-uk-cyber-reset-no-mfa-is-a-problem-us-cyberattacks-on-display/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026109",
+    "date": "2026-01-07",
+    "title": "Subcommittee Chairman Ogles Announces Hearing on Strengthening America's Offensive ...",
+    "summary": "... cyber disruption capabilities strengthen the security and resilience of the homeland. ... Security's (DHS) State and Local Cybersecurity Grant Program.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/07/media-advisory-subcommittee-chairman-ogles-announces-hearing-on-strengthening-americas-offensive-cyber-capabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026110",
+    "date": "2026-01-07",
+    "title": "Your AI Coding Assistants Will Overwhelm Your Delivery Pipeline: Here’s How to Prepare",
+    "summary": "“Agentic AI’s primary role in organizations is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.” —2025 DORA State of AI-Assisted Software Development report AI coding assistants amplify your organization’s strengths—and its...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/blogs/enterprise-strategy/your-ai-coding-assistants-will-overwhelm-your-delivery-pipeline-heres-how-to-prepare/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026111",
+    "date": "2026-01-07",
+    "title": "AWS simplifies Client VPN onboarding with Quickstart setup",
+    "summary": "Today, AWS announces a simplified onboarding experience for AWS Client VPN, introducing a new Quickstart setup method that streamlines the process of creating and configuring Client VPN endpoints. AWS Client VPN allows you to securely connect remote users to AWS resources and on-premises networks...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026112",
+    "date": "2026-01-07",
+    "title": "Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for Apache Airflow",
+    "summary": "You can now create Apache Airflow version 2.11 environments on Amazon Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces several changes to help you prepare for upgrading to Apache Airflow 3. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026113",
+    "date": "2026-01-07",
+    "title": "CMMC for AI? Defense Policy Law Imposes AI Security Framework and Requirements on Contractors",
+    "summary": "... cybersecurity frameworks, including CMMC. The framework will focus on highly capable AI systems that may be of highest interest to cyber threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crowell.com/en/insights/client-alerts/cmmc-for-ai-defense-policy-law-imposes-ai-security-framework-and-requirements-on-contractors",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026114",
+    "date": "2026-01-07",
+    "title": "Hackers Claim to Disconnect Brightspeed Customers After Breach - Infosecurity Magazine",
+    "summary": "Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, argued that security breaches impacting ISPs can have a major ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hackers-disconnect-brightspeed/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026115",
+    "date": "2026-01-07",
+    "title": "Samsung Magician SSD software 'High Severity' vulnerability patched - Tom's Hardware",
+    "summary": "Having warned of the above, this vulnerability might not particularly worry you if your computer is always kept in a secure location, and the only ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/samsung-magician-ssd-software-high-severity-vulnerability-patched-upgrade-to-the-newest-v9-0-0-to-prevent-potential-dll-hijacking-and-privilege-escalation",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026116",
+    "date": "2026-01-07",
+    "title": "Explore the latest Microsoft Incident Response proactive services for enhanced resilience",
+    "summary": "As cyberthreats become faster, harder to detect, and more sophisticated, organizations must focus on building resilience—strengthening their ability to prevent, withstand, and recover from cybersecurity incidents. Resilience can mean the difference between containing an incident with minimal disr...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 1
+  },
+  {
     "id": "2026048",
     "date": "2026-01-07",
     "title": "D-Link Legacy Router RCE Vulnerability Actively Exploited",
@@ -365,6 +974,39 @@
       "open-source"
     ],
     "impact": 2
+  },
+  {
+    "id": "2026117",
+    "date": "2026-01-06",
+    "title": "Phishing actors exploit complex routing and misconfigurations to spoof domains",
+    "summary": "Phishing actors are exploiting complex routing scenarios and misconfigured spoof protections to effectively spoof organizations’ domains and deliver phishing emails that appear, superficially, to have been sent internally. Threat actors have leveraged this vector to deliver a wide variety of phis...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026118",
+    "date": "2026-01-06",
+    "title": "Introducing the Microsoft Defender Experts Suite: Elevate your security with expert-led services",
+    "summary": "Security teams are being pushed to their limits as AI‑powered cyberattacks grow in speed, scale, and sophistication—and only 14% of organizations surveyed by the World Economic Forum report they feel confident they have the right people and skills needed to meet their cybersecurity objectives.1 A...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
   },
   {
     "id": "2026075",
@@ -1275,5 +1917,229 @@
       "policy"
     ],
     "impact": 5
+  },
+  {
+    "id": "2026119",
+    "date": "2025-12-21",
+    "title": "Stronger together: New Beazley collaboration enhances cyber resilience",
+    "summary": "Today’s cyberthreat landscape demands more than technical expertise: it requires a unified response team of technical responders, insurers, brokers, and legal counsel. This integrated approach is key to building long-term cyber resilience to help your organization anticipate, withstand, recover f...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/08/stronger-together-new-beazley-collaboration-enhances-cyber-resilience/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026120",
+    "date": "2025-12-19",
+    "title": "TikTok fortsetter å overføre personopplysninger til Kina",
+    "summary": "Tidligere i desember mottok norske TikTok-brukere et varsel som gjaldt selskapets overføring av personopplysninger til Kina. Der informerte selskapet om at et vedtak om å stanse overføringene er satt på vent.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/tiktok-fortsetter-a-overfore-personopplysninger-til-kina/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026121",
+    "date": "2025-12-19",
+    "title": "Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components",
+    "summary": "CVE-2025-55182 (also referred to as React2Shell and includes CVE-2025-66478, which was merged into it) is a critical pre-authentication remote code execution (RCE) vulnerability affecting React Server Components, Next.js, and related frameworks. With a CVSS score of 10.0, this vulnerability could...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/",
+    "tags": [
+      "vulnerability",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026122",
+    "date": "2025-12-18",
+    "title": "New Microsoft e-book: 3 reasons point solutions are holding you back",
+    "summary": "While patchwork tools slow defenders down and impact visibility into potential cyberthreats, they’re an unfortunate reality for many organizations. As digital risk accelerates and attack surfaces multiply, security leaders are doing their best to stitch together point solutions while trying to av...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/18/new-microsoft-e-book-3-reasons-point-solutions-are-holding-you-back/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026123",
+    "date": "2025-12-18",
+    "title": "Personverndagen 2026: Digital suverenitet og personvern",
+    "summary": "Europas avhengighet av digitale løsninger fra USA og Kina har gjort at kontroll over innbyggernes personopplysninger og kritiske digitale tjenester i økende grad er blitt et spørsmål om nasjonal sikkerhet og geopolitikk. Den 28. januar markerer vi personverndagen med et frokostmøte.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/personverndagen-2026-digital-suverenitet-og-personvern/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026124",
+    "date": "2025-12-17",
+    "title": "Høringssvar om ny lov om særskilt innsats mot negativ sosial kontroll og æresmotivert vold",
+    "summary": "Arbeids- og inkluderingsdepartementet (AID) har sendt ut et forslag til ny lov og forskrift for den særskilte innsatsen som skal gjøres mot negativ sosial kontroll og æresmotivert vold. Vi er positive til at denne innsatsen reguleres og samles i et regelverk, men vi har likevel en del innspill.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/horingssvar-om-ny-lov-om-sarskilt-innsats-mot-negativ-sosial-kontroll-og-aresmotivert-vold/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026125",
+    "date": "2025-12-17",
+    "title": "Access Fabric: A modern approach to identity and network access",
+    "summary": "Today, most organizations use multiple identity systems and multiple network access solutions from multiple vendors. This happens, either intentionally or organically, when different areas of a company choose different tools, creating a fragmented environment that leaves weaknesses that cyberatta...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026126",
+    "date": "2025-12-17",
+    "title": "Microsoft named a leader in the 2025 Gartner® Magic Quadrant™ for Email Security",
+    "summary": "We’re honored to share that Microsoft has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Email Security. We believe this recognition highlights the value of Microsoft Defender for Office 365’s innovative capabilities in addressing today’s complex email security challenges. Protect a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/05/microsoft-named-a-leader-in-the-2025-gartner-magic-quadrant-for-email-security/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026127",
+    "date": "2025-12-16",
+    "title": "Bygger KI-sandkasse med Digdir og Nkom",
+    "summary": "Med KI-forordningen kommer det en splitter ny sandkasse. Den nye sandkassen vil jobbe tett med Datatilsynets eksisterende sandkasse for personvernvennlig digitalisering og innovasjon.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/bygger-ki-sandkasse-med-digitaliseringsdirektoratet-og-nkom/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026128",
+    "date": "2025-12-16",
+    "title": "Changing the physics of cyber defense",
+    "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/09/changing-the-physics-of-cyber-defense/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026129",
+    "date": "2025-12-15",
+    "title": "Microsoft named an overall leader in KuppingerCole Leadership Compass for Generative AI Defense",
+    "summary": "Today, we are proud to share that Microsoft has been recognized as an overall leader in the KuppingerCole Leadership Compass for Generative AI Defense (GAD), an independent report from a leading European analyst firm. This recognition reinforces the work we’ve been doing to deliver enterprise-rea...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026130",
+    "date": "2025-12-14",
+    "title": "Cybersecurity strategies to prioritize now​​ ",
+    "summary": "The Deputy CISO blog series is where Microsoft Deputy Chief Information Security Officers (CISOs) share their thoughts on what is most important in their respective domains. In this series, you will get practical advice, tactics to start (and stop) deploying, forward-looking commentary on where t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/04/cybersecurity-strategies-to-prioritize-now/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026131",
+    "date": "2025-12-13",
+    "title": "Clarity in complexity: New insights for transparent email security",
+    "summary": "As email threats grow more sophisticated and layered security architectures become more common, organizations need clear, data-driven insights to evaluate how their security solutions perform together. Benchmarking plays a critical role in helping security leaders understand not just individual p...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/10/clarity-in-complexity-new-insights-for-transparent-email-security/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026132",
+    "date": "2025-12-12",
+    "title": "Imposter for hire: How fake people can gain very real access",
+    "summary": "In the latest edition of our Cyberattack Series, we dive into a real-world case of fake employees. Cybercriminals are no longer just breaking into networks—they’re gaining access by posing as legitimate employees. This form of cyberattack involves operatives posing as legitimate remote hires, sli...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/11/imposter-for-hire-how-fake-people-can-gain-very-real-access/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026133",
+    "date": "2025-12-11",
+    "title": "From awareness to action: Building a security-first culture for the agentic AI era",
+    "summary": "The insights gained from Cybersecurity Awareness Month, right through to Microsoft Ignite 2025, demonstrate that security remains a top priority for business leaders. It serves as a strategic lever for organizational growth, fosters trust, and facilitates the advancement of AI innovation. The Wor...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
   }
 ]
