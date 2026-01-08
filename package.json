@@ -8,9 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-news": "node scripts/fetch-inoreader.js"
+    "fetch-news": "node scripts/fetch-inoreader.js",
+    "enrich-articles": "node scripts/enrich-articles.js"
   },
   "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^24.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

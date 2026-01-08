@@ -1,0 +1,65 @@
+{
+  "buzzwords": {
+    "attacks": [
+      "ransomware",
+      "phishing",
+      "spear phishing",
+      "DDoS",
+      "supply chain attack",
+      "zero-day",
+      "data breach",
+      "malware",
+      "social engineering",
+      "insider threat",
+      "credential stuffing",
+      "brute force",
+      "SQL injection",
+      "man-in-the-middle",
+      "cryptojacking"
+    ],
+    "defenses": [
+      "Zero Trust",
+      "MFA",
+      "EDR",
+      "XDR",
+      "SIEM",
+      "SOC",
+      "threat hunting",
+      "encryption",
+      "patch management",
+      "security awareness"
+    ],
+    "tech": [
+      "AI-powered attacks",
+      "deepfake",
+      "cloud misconfiguration",
+      "API abuse",
+      "IoT security",
+      "OT security",
+      "ransomware as a service"
+    ],
+    "actors": [
+      "APT",
+      "Lazarus Group",
+      "LockBit",
+      "Conti",
+      "Emotet",
+      "TrickBot",
+      "Scattered Spider",
+      "nation-state"
+    ],
+    "trends": [
+      "double extortion",
+      "AI-driven attacks",
+      "supply-chain compromise",
+      "identity-first attacks",
+      "cloud-native attacks"
+    ]
+  },
+  "aiModel": "gpt-4o-mini",
+  "batchSize": 5,
+  "delayBetweenRequests": 2000,
+  "maxContentLength": 8000,
+  "maxRetries": 3,
+  "requestTimeout": 30000
+}
