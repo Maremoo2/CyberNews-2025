@@ -56,8 +56,8 @@ const CYBER_BUZZWORDS = new Set([
   'russia', 'russian', 'china', 'chinese', 'iran', 'iranian', 'north-korea',
   'ukraine', 'ukrainian', 'israel', 'india', 'pakistan', 'vietnam',
   
-  // Vulnerabilities & CVEs
-  'cve', 'vulnerability', 'zero-day', 'patch', 'exploit', 'log4j', 'log4shell',
+  // Vulnerabilities & CVEs (removed duplicates)
+  'cve', 'vulnerability', 'patch', 'log4j', 'log4shell',
   'printnightmare', 'eternal-blue', 'wannacry', 'petya', 'notpetya',
   
   // Technologies & platforms
