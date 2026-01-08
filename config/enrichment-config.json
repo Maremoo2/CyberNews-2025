@@ -61,5 +61,6 @@
   "delayBetweenRequests": 2000,
   "maxContentLength": 8000,
   "maxRetries": 3,
-  "requestTimeout": 30000
+  "requestTimeout": 30000,
+  "progressSaveInterval": 5
 }

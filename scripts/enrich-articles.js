@@ -162,7 +162,11 @@ async function scrapeArticle(url, config) {
  * Truncate text to max length at word boundary
  */
 function truncateAtWordBoundary(text, maxLength) {
-  if (!text || text.length <= maxLength) {
+  if (!text) {
+    return '';
+  }
+  
+  if (text.length <= maxLength) {
     return text;
   }
   
@@ -177,7 +181,7 @@ function truncateAtWordBoundary(text, maxLength) {
 /**
  * Call GitHub Models API for AI analysis
  */
-async function enrichWithAI(articleContent, title, originalSummary, config, maxRetries = 3) {
+async function enrichWithAI(articleContent, title, originalSummary, config, buzzwordsList, maxRetries = 3) {
   const githubToken = process.env.GITHUB_TOKEN;
   
   if (!githubToken) {
@@ -193,7 +197,7 @@ async function enrichWithAI(articleContent, title, originalSummary, config, maxR
 
 - summary (string, max 300 chars): Concise summary
 - status (string): One of: "New", "Ongoing", "Resolved", "Escalating"
-- buzzwords (array): Cybersecurity terms from this list: ${Object.values(config.buzzwords).flat().join(', ')}
+- buzzwords (array): Cybersecurity terms from this list: ${buzzwordsList}
 - threatActors (array): Named threat actor groups (e.g., "Lazarus Group", "LockBit", "APT29")
 - malwareFamilies (array): Malware names (e.g., "Emotet", "TrickBot", "Clop")
 - companies (array): Affected companies or vendors
@@ -287,7 +291,7 @@ Return ONLY valid JSON, no markdown formatting.`;
 /**
  * Process a single incident
  */
-async function processIncident(incident, config) {
+async function processIncident(incident, config, buzzwordsList) {
   console.log(`\n  Processing: ${incident.id} - ${incident.title.substring(0, 60)}...`);
   
   try {
@@ -305,6 +309,7 @@ async function processIncident(incident, config) {
       incident.title,
       incident.summary,
       config,
+      buzzwordsList,
       config.maxRetries
     );
     console.log(`    ✓ AI analysis complete`);
@@ -348,8 +353,9 @@ async function processIncident(incident, config) {
 /**
  * Process incidents in batches
  */
-async function processBatch(incidents, config) {
+async function processBatch(incidents, config, buzzwordsList) {
   const enrichedIncidents = [];
+  const progressSaveInterval = config.progressSaveInterval || 5;
   
   for (let i = 0; i < incidents.length; i += config.batchSize) {
     const batch = incidents.slice(i, i + config.batchSize);
@@ -360,11 +366,11 @@ async function processBatch(incidents, config) {
     
     // Process batch items sequentially to respect rate limits
     for (const incident of batch) {
-      const enriched = await processIncident(incident, config);
+      const enriched = await processIncident(incident, config, buzzwordsList);
       enrichedIncidents.push(enriched);
       
-      // Save progress incrementally every 5 articles
-      if (enrichedIncidents.length % 5 === 0 && !DRY_RUN) {
+      // Save progress incrementally based on config
+      if (enrichedIncidents.length % progressSaveInterval === 0 && !DRY_RUN) {
         console.log(`\n  💾 Saving progress (${enrichedIncidents.length} incidents)...`);
         const allEnriched = [...enrichedIncidents];
         saveEnrichedIncidents(allEnriched);
@@ -435,8 +441,11 @@ async function main() {
   stats.total = toProcess.length;
   console.log(`\n🔄 Processing ${toProcess.length} new incidents...\n`);
   
+  // Pre-compute buzzwords list for efficiency
+  const buzzwordsList = Object.values(config.buzzwords).flat().join(', ');
+  
   // Process incidents
-  const enrichedNew = await processBatch(toProcess, config);
+  const enrichedNew = await processBatch(toProcess, config, buzzwordsList);
   
   // Merge with existing enriched data
   const allEnriched = [...enrichedNew, ...existingEnriched];

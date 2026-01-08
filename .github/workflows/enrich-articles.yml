@@ -37,15 +37,17 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          # Note: Update filename for different years (e.g., incidents-2027-enriched.json)
-          git diff --exit-code data/incidents-2026-enriched.json || echo "changed=true" >> $GITHUB_OUTPUT
+          # Dynamically find enriched file for current year
+          ENRICHED_FILE=$(ls data/incidents-*-enriched.json 2>/dev/null | head -n 1 || echo "data/incidents-2026-enriched.json")
+          git diff --exit-code "$ENRICHED_FILE" || echo "changed=true" >> $GITHUB_OUTPUT
+          echo "enriched_file=$ENRICHED_FILE" >> $GITHUB_OUTPUT
       
       - name: Commit enriched data
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Note: Update filename for different years (e.g., incidents-2027-enriched.json)
-          git add data/incidents-2026-enriched.json
+          ENRICHED_FILE="${{ steps.git-check.outputs.enriched_file }}"
+          git add "$ENRICHED_FILE"
           git commit -m "chore: update AI-enriched articles [skip ci]"
           git push
