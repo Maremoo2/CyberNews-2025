@@ -3,11 +3,11 @@
 /**
  * AI-Powered Article Enrichment Script
  * 
- * This script enriches articles from incidents-2026.json by:
+ * This script enriches articles from incidents-YYYY.json by:
  * 1. Scraping full article content from source URLs
  * 2. Using GitHub Models API (gpt-4o-mini) to analyze content
  * 3. Extracting structured metadata (status, buzzwords, threat actors, etc.)
- * 4. Saving enriched data to incidents-2026-enriched.json
+ * 4. Saving enriched data to incidents-YYYY-enriched.json
  * 
  * Usage: node scripts/enrich-articles.js [--dry-run] [--limit N]
  */
@@ -23,8 +23,11 @@ const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'enrichment-config.json');
-const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026.json');
-const ENRICHED_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026-enriched.json');
+
+// Dynamically determine current year
+const CURRENT_YEAR = new Date().getFullYear();
+const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', `incidents-${CURRENT_YEAR}.json`);
+const ENRICHED_FILE = path.join(PROJECT_ROOT, 'data', `incidents-${CURRENT_YEAR}-enriched.json`);
 
 // Status constants
 const STATUS = {
@@ -175,7 +178,7 @@ function truncateAtWordBoundary(text, maxLength) {
   const lastSpace = truncated.lastIndexOf(' ');
   
   // If we found a space, cut there; otherwise use the hard limit
-  return lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated;
+  return lastSpace !== -1 ? truncated.substring(0, lastSpace) : truncated;
 }
 
 /**
