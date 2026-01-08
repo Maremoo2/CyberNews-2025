@@ -222,9 +222,10 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
     if (!isNaN(parsedDate.getTime())) {
       date = parsedDate.toISOString().split('T')[0];
     } else {
-      // If invalid, fall back to current date
-      console.log(`  ⚠️  Invalid date_published: ${item.date_published}, using current date`);
-      date = new Date().toISOString().split('T')[0];
+      // If invalid, log error and fall back to Unix timestamp path
+      console.error(`  ❌ Invalid date_published: ${item.date_published}, falling back to Unix timestamp`);
+      const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+      date = unixToDate(timestamp);
     }
   } else {
     // Old format: Unix timestamp
@@ -238,11 +239,7 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   // Add Inoreader's own tags if available
   if (item.tags && Array.isArray(item.tags)) {
     const existingTags = new Set(tags);
-    for (const tag of item.tags) {
-      if (!existingTags.has(tag)) {
-        tags.push(tag);
-      }
-    }
+    tags.push(...item.tags.filter(tag => !existingTags.has(tag)));
   }
   const impact = calculateImpact(combinedText, config);
   
