@@ -1,0 +1,39 @@
+{
+  "feeds": [
+    {
+      "name": "Cyber",
+      "url": "https://www.inoreader.com/stream/user/1003926034/tag/Cyber/view/json",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "Data/IT",
+      "url": "https://www.inoreader.com/stream/user/1003926034/tag/Data%2FIT/view/json",
+      "defaultRegion": "EU",
+      "defaultCountry": "Europe"
+    },
+    {
+      "name": "Offentlig/Microsoft",
+      "url": "https://www.inoreader.com/stream/user/1003926034/tag/Offentlig%2FMicrosoft/view/json",
+      "defaultRegion": "NO",
+      "defaultCountry": "Norway"
+    }
+  ],
+  "tagKeywords": {
+    "ransomware": ["ransomware", "ransom", "lockbit", "blackcat", "alphv"],
+    "data-breach": ["data breach", "breach", "leak", "exposed", "stolen data"],
+    "vulnerability": ["vulnerability", "cve-", "zero-day", "exploit", "flaw"],
+    "phishing": ["phishing", "spear-phishing", "credential theft"],
+    "ddos": ["ddos", "denial of service", "distributed attack"],
+    "malware": ["malware", "trojan", "rat", "backdoor", "virus"],
+    "apt": ["apt", "apt-", "advanced persistent threat"],
+    "state-sponsored": ["state-sponsored", "nation-state", "government-backed"]
+  },
+  "impactKeywords": {
+    "5": ["critical", "massive", "catastrophic", "national security"],
+    "4": ["major", "significant", "severe", "widespread"],
+    "3": ["moderate", "notable"],
+    "2": ["minor", "limited"],
+    "1": ["low impact", "minimal"]
+  }
+}

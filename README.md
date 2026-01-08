@@ -75,9 +75,59 @@ npm run preview
 npm run lint
 ```
 
-## Legge til nye hendelser
+## 🔄 Automated News Aggregation
 
-Hendelser lagres i `data/incidents.json`. For å legge til en ny hendelse, følg dette formatet:
+This project automatically fetches cybersecurity news from Inoreader RSS feeds and adds them to the incidents database.
+
+### How It Works
+
+The GitHub Actions workflow runs automatically **every 6 hours** to:
+1. Fetch articles from 3 Inoreader JSON feeds:
+   - **Cyber** (US-focused cybersecurity news)
+   - **Data/IT** (European data and IT security news)
+   - **Offentlig/Microsoft** (Norwegian public sector and Microsoft news)
+2. Transform articles into the incidents format
+3. Auto-generate tags based on article content
+4. Skip duplicate articles (by URL)
+5. Assign sequential IDs (2026001, 2026002, etc.)
+6. Auto-commit new articles to `data/incidents-2026.json`
+
+### Manual Trigger
+
+You can manually trigger the news fetch workflow:
+
+1. Go to **Actions** tab in GitHub
+2. Select **"Fetch Inoreader News"** workflow
+3. Click **"Run workflow"** button
+4. Select the branch and click **"Run workflow"**
+
+The workflow will fetch the latest articles and commit them automatically if new articles are found.
+
+### Test Locally
+
+You can test the fetch script locally:
+
+```bash
+# Dry-run (shows what would be added without saving)
+npm run fetch-news -- --dry-run
+
+# Actually fetch and save
+npm run fetch-news
+```
+
+**Note**: The Inoreader feeds are public JSON endpoints and don't require authentication.
+
+### Configuration
+
+The feed configuration is in `config/inoreader-config.json`:
+- Feed URLs
+- Default region/country mappings
+- Tag keyword patterns
+- Impact level keywords
+
+## Legge til nye hendelser manuelt
+
+You can still manually add incidents to `data/incidents-2026.json`. Follow this format:
 
 ```json
 {
