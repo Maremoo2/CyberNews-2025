@@ -38,24 +38,55 @@ const MONTH_FOLDERS = {
 
 const REGION_FOLDERS = ['norway', 'eu', 'us', 'asia'];
 
-// Stop words to filter out from buzzwords (Norwegian and English)
-const STOP_WORDS = new Set([
-  'og', 'er', 'i', 'for', 'på', 'til', 'med', 'av', 'som', 'en', 'et', 'det', 'den', 
-  'de', 'var', 'har', 'kan', 'ved', 'fra', 'ikke', 'om', 'men', 'også', 'bli', 'ble',
-  'and', 'the', 'of', 'to', 'in', 'a', 'is', 'that', 'for', 'it', 'with', 'as', 'was',
-  'on', 'are', 'be', 'this', 'by', 'at', 'or', 'from', 'an', 'have', 'has', 'had',
-  'their', 'more', 'been', 'other', 'were', 'which', 'they', 'all', 'when', 'there',
-  'can', 'will', 'if', 'who', 'what', 'so', 'up', 'out', 'about', 'into', 'than',
-  'them', 'may', 'its', 'only', 'over', 'such', 'some', 'could', 'would', 'should',
-  // Generic cybersecurity terms to exclude
-  'cybersecurity', 'cyber', 'security', 'infrastructure', 'attacks', 'attack', 'data',
-  'critical', 'group', 'groups', 'threat', 'threats', 'increased', 'increase', 
-  'competency', 'organizations', 'organization', 'strengthen', 'training', 'health',
-  'healthcare', 'system', 'systems', 'incident', 'incidents', 'breach', 'breaches',
-  'vulnerability', 'vulnerabilities', 'campaign', 'campaigns', 'targeting', 'target',
-  'affected', 'impact', 'impacts', 'response', 'services', 'service', 'reported',
-  'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
-  'september', 'october', 'november', 'december', 'month', 'year', 'week', 'day'
+// Curated list of top 100+ cybersecurity buzzwords to track
+// Includes: attack types, threat actors, countries, vulnerabilities, trends, technologies
+const CYBER_BUZZWORDS = new Set([
+  // Attack types
+  'ransomware', 'phishing', 'ddos', 'malware', 'spyware', 'trojan', 'botnet',
+  'zero-day', 'exploit', 'backdoor', 'rootkit', 'wiper', 'cryptomining', 'cryptojacking',
+  'supply-chain', 'mitm', 'sql-injection', 'xss', 'credential-stuffing', 
+  
+  // Threat actors & groups
+  'apt', 'apt28', 'apt29', 'apt31', 'apt41', 'lazarus', 'sandworm', 'fancy-bear',
+  'cozy-bear', 'kimsuky', 'mustang-panda', 'sidewinder', 'turla', 'winnti',
+  'lockbit', 'blackcat', 'alphv', 'conti', 'revil', 'darkside', 'clop', 'akira',
+  'blackbasta', 'play', 'royal', 'medusa', 'ransomhub',
+  
+  // Countries & regions (cyber context)
+  'russia', 'russian', 'china', 'chinese', 'iran', 'iranian', 'north-korea',
+  'ukraine', 'ukrainian', 'israel', 'india', 'pakistan', 'vietnam',
+  
+  // Vulnerabilities & CVEs (removed duplicates)
+  'cve', 'vulnerability', 'patch', 'log4j', 'log4shell',
+  'printnightmare', 'eternal-blue', 'wannacry', 'petya', 'notpetya',
+  
+  // Technologies & platforms
+  'windows', 'linux', 'macos', 'android', 'ios', 'kubernetes', 'docker',
+  'aws', 'azure', 'gcp', 'cloud', 'azure-ad', 'active-directory', 'o365', 'microsoft',
+  'vmware', 'citrix', 'fortinet', 'cisco', 'juniper', 'palo-alto',
+  'sharepoint', 'exchange', 'outlook', 'chrome', 'firefox', 'safari',
+  
+  // Security concepts & trends
+  'zero-trust', 'siem', 'soar', 'xdr', 'edr', 'ai-security', 'machine-learning',
+  'threat-intelligence', 'incident-response', 'forensics', 'soc', 'csirt',
+  'iam', 'mfa', 'authentication', 'encryption', 'vpn', 'firewall',
+  'sandbox', 'honeypot', 'deception', 'threat-hunting',
+  
+  // Sectors & targets
+  'healthcare', 'hospital', 'finance', 'banking', 'government', 'military',
+  'energy', 'utility', 'telecom', 'education', 'retail', 'manufacturing',
+  'critical-infrastructure', 'ot', 'ics', 'scada',
+  
+  // Data & privacy
+  'gdpr', 'privacy', 'pii', 'data-breach', 'data-leak', 'exfiltration',
+  'credential-theft', 'identity-theft',
+  
+  // Additional relevant terms
+  'darkweb', 'tor', 'bitcoin', 'cryptocurrency', 'blockchain',
+  'disinformation', 'deepfake', 'social-engineering',
+  'insider-threat', 'supply-chain-attack', 'third-party-risk',
+  'cyber-espionage', 'cybercrime', 'hacktivism', 'nation-state',
+  'attribution', 'takedown', 'disruption', 'sanctions'
 ]);
 
 /**
@@ -358,6 +389,7 @@ function parseKeyTakeaways(content) {
 
 /**
  * Extract buzzwords from text content
+ * Only returns words from the curated CYBER_BUZZWORDS list
  */
 function extractBuzzwords(texts) {
   const wordFreq = {};
@@ -365,24 +397,23 @@ function extractBuzzwords(texts) {
   // Combine all texts
   const combinedText = texts.join(' ').toLowerCase();
   
-  // Extract words (alphanumeric sequences of 3+ chars)
-  const words = combinedText.match(/\b[a-zæøå]{3,}\b/gi) || [];
+  // Extract words (alphanumeric sequences with hyphens for compound terms)
+  const words = combinedText.match(/\b[a-z0-9]+(?:-[a-z0-9]+)*\b/gi) || [];
   
   for (const word of words) {
     const cleaned = word.toLowerCase();
     
-    // Skip stop words and very common words
-    if (STOP_WORDS.has(cleaned)) continue;
-    if (cleaned.length < 4) continue;
+    // Only include words from our curated cybersecurity buzzwords list
+    if (!CYBER_BUZZWORDS.has(cleaned)) continue;
     
     wordFreq[cleaned] = (wordFreq[cleaned] || 0) + 1;
   }
   
-  // Sort by frequency and return top 15
+  // Sort by frequency and return top 100 (or all found buzzwords)
   const sorted = Object.entries(wordFreq)
-    .filter(([, count]) => count >= 2) // Must appear at least twice
+    .filter(([, count]) => count >= 1) // Include if appears at least once
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 15)
+    .slice(0, 100) // Top 100 buzzwords
     .map(([word]) => word);
   
   return sorted;

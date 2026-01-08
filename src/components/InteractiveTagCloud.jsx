@@ -38,7 +38,7 @@ function InteractiveTagCloud({ incidents, selectedTags, onTagClick, selectedYear
 
   return (
     <div className="tag-cloud-container">
-      <h3 className="tag-cloud-title">Nøkkelord {selectedYear}</h3>
+      <h3 className="tag-cloud-title">Keywords {selectedYear}</h3>
       <div className="tag-cloud">
         {tagFrequencies.map(({ tag, count }) => (
           <button
@@ -46,7 +46,7 @@ function InteractiveTagCloud({ incidents, selectedTags, onTagClick, selectedYear
             className={`cloud-tag ${selectedTags.includes(tag) ? 'selected' : ''}`}
             onClick={() => onTagClick(tag)}
             style={{ fontSize: `${getTagSize(count)}rem` }}
-            title={`${tag} (${count} hendelser)`}
+            title={`${tag} (${count} incidents)`}
           >
             {tag}
           </button>

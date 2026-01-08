@@ -67,10 +67,7 @@ function extractBuzzwords(tags, config) {
   // Flatten all buzzwords from config into a single list
   const knownBuzzwords = Object.values(config.buzzwords).flat();
   
-  // Create a set of lowercase buzzwords for case-insensitive matching
-  const buzzwordSet = new Set(knownBuzzwords.map(b => b.toLowerCase()));
-  
-  // Also create variations for common patterns (e.g., "data-breach" matches "data breach")
+  // Create variations for common patterns (e.g., "data-breach" matches "data breach")
   const buzzwordVariations = new Map();
   knownBuzzwords.forEach(buzzword => {
     const lower = buzzword.toLowerCase();

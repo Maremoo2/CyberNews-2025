@@ -95,7 +95,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
     })
     aggregated.buzzwords = Object.entries(buzzwordFreq)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 15)
+      .slice(0, 100) // Show top 100 buzzwords
       .map(([word]) => word)
 
     // Deduplicate threat actors by name
@@ -126,7 +126,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
 
   return (
     <div className="trend-dashboard">
-      <h2 className="dashboard-title">Nyhetssammendrag & Trender {selectedYear}</h2>
+      <h2 className="dashboard-title">News Summary & Trends {selectedYear}</h2>
 
       {/* Buzzword Cloud Section */}
       <BuzzwordCloud 
@@ -139,24 +139,24 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
       <div className="dashboard-grid">
         {/* Statistics Overview */}
         <div className="dashboard-card stats-card">
-          <h3>📊 Statistikk</h3>
+          <h3>📊 Statistics</h3>
           <div className="stat-item">
-            <span className="stat-label">Totale hendelser:</span>
+            <span className="stat-label">Total incidents:</span>
             <span className="stat-value">{dashboardData.stats.totalIncidents}</span>
           </div>
           <div className="stat-item">
-            <span className="stat-label">Unike trusselaktører:</span>
+            <span className="stat-label">Unique threat actors:</span>
             <span className="stat-value">{dashboardData.threatActors.length}</span>
           </div>
           <div className="stat-item">
-            <span className="stat-label">Rapporterte hendelser:</span>
+            <span className="stat-label">Reported incidents:</span>
             <span className="stat-value">{dashboardData.incidents.length}</span>
           </div>
         </div>
 
         {/* Threat Actors */}
         <div className="dashboard-card threat-actors-card">
-          <h3>🎯 Trusselaktører</h3>
+          <h3>🎯 Threat Actors</h3>
           {dashboardData.threatActors.length > 0 ? (
             <ul className="threat-actor-list">
               {dashboardData.threatActors.map((actor, index) => (
@@ -168,13 +168,13 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
               ))}
             </ul>
           ) : (
-            <p className="no-data">Ingen trusselaktører rapportert</p>
+            <p className="no-data">No threat actors reported</p>
           )}
         </div>
 
         {/* Top Sectors */}
         <div className="dashboard-card sectors-card">
-          <h3>🏢 Mest Målrettede Sektorer</h3>
+          <h3>🏢 Most Targeted Sectors</h3>
           {Object.keys(dashboardData.stats.sectors).length > 0 ? (
             <ul className="sector-list">
               {Object.entries(dashboardData.stats.sectors)
@@ -188,13 +188,13 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
                 ))}
             </ul>
           ) : (
-            <p className="no-data">Ingen sektordata tilgjengelig</p>
+            <p className="no-data">No sector data available</p>
           )}
         </div>
 
         {/* Attack Types */}
         <div className="dashboard-card attack-types-card">
-          <h3>⚔️ Angrepstyper</h3>
+          <h3>⚔️ Attack Types</h3>
           {Object.keys(dashboardData.stats.attackTypes).length > 0 ? (
             <ul className="attack-type-list">
               {Object.entries(dashboardData.stats.attackTypes)
@@ -208,13 +208,13 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
                 ))}
             </ul>
           ) : (
-            <p className="no-data">Ingen angrepstypedata tilgjengelig</p>
+            <p className="no-data">No attack type data available</p>
           )}
         </div>
 
         {/* Recent Trends */}
         <div className="dashboard-card trends-card">
-          <h3>📈 Nøkkeltrender</h3>
+          <h3>📈 Key Trends</h3>
           {dashboardData.trends.length > 0 ? (
             <ul className="trends-list">
               {dashboardData.trends.slice(0, 5).map((trend, index) => (
@@ -224,13 +224,13 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
               ))}
             </ul>
           ) : (
-            <p className="no-data">Ingen trender rapportert</p>
+            <p className="no-data">No trends reported</p>
           )}
         </div>
 
         {/* Recent Legislation */}
         <div className="dashboard-card legislation-card">
-          <h3>📜 Lovgivning & Policy</h3>
+          <h3>📜 Legislation & Policy</h3>
           {dashboardData.legislation.length > 0 ? (
             <ul className="legislation-list">
               {dashboardData.legislation.slice(0, 5).map((item, index) => (
@@ -240,7 +240,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
               ))}
             </ul>
           ) : (
-            <p className="no-data">Ingen lovgivningsoppdateringer</p>
+            <p className="no-data">No legislation updates</p>
           )}
         </div>
       </div>

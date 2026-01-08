@@ -1,9 +1,9 @@
 import { useMemo } from 'react'
 import './YearStats.css'
 
-const MONTHS_NO = [
-  "Januar", "Februar", "Mars", "April", "Mai", "Juni",
-  "Juli", "August", "September", "Oktober", "November", "Desember"
+const MONTHS_EN = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
 ]
 
 function YearStats({ incidents, selectedYear }) {
@@ -45,29 +45,29 @@ function YearStats({ incidents, selectedYear }) {
       totalIncidents: incidents.length,
       regionsCount: regions.size,
       mostCommonTag,
-      busiestMonth: busiestMonthIndex >= 0 ? MONTHS_NO[busiestMonthIndex] : 'N/A'
+      busiestMonth: busiestMonthIndex >= 0 ? MONTHS_EN[busiestMonthIndex] : 'N/A'
     }
   }, [incidents])
 
   return (
     <div className="year-stats-container">
-      <h3 className="year-stats-title">{selectedYear} i korte trekk</h3>
+      <h3 className="year-stats-title">{selectedYear} At a Glance</h3>
       <div className="stats-grid">
         <div className="stat-item">
           <div className="stat-number">{stats.totalIncidents}</div>
-          <div className="stat-label">hendelser</div>
+          <div className="stat-label">incidents</div>
         </div>
         <div className="stat-item">
           <div className="stat-number">{stats.regionsCount}</div>
-          <div className="stat-label">regioner</div>
+          <div className="stat-label">regions</div>
         </div>
         <div className="stat-item">
           <div className="stat-text">{stats.mostCommonTag}</div>
-          <div className="stat-label">mest brukte tema</div>
+          <div className="stat-label">most used tag</div>
         </div>
         <div className="stat-item">
           <div className="stat-text">{stats.busiestMonth}</div>
-          <div className="stat-label">toppmåned</div>
+          <div className="stat-label">busiest month</div>
         </div>
       </div>
     </div>

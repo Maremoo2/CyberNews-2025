@@ -24,14 +24,14 @@ function BuzzwordCloud({ buzzwords, selectedBuzzwords = [], onBuzzwordClick }) {
     return (
       <div className="buzzword-cloud-container">
         <h3 className="buzzword-cloud-title">Buzzwords</h3>
-        <p className="no-buzzwords">Ingen buzzwords tilgjengelig for valgt periode</p>
+        <p className="no-buzzwords">No buzzwords available for selected period</p>
       </div>
     )
   }
 
   return (
     <div className="buzzword-cloud-container">
-      <h3 className="buzzword-cloud-title">Buzzwords fra Nyhetssammendrag</h3>
+      <h3 className="buzzword-cloud-title">Buzzwords from News Summaries</h3>
       <div className="buzzword-cloud">
         {buzzwords.map((word, index) => (
           <button
