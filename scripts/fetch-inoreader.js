@@ -217,7 +217,15 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   let date;
   if (item.date_published) {
     // JSON Feed format: ISO 8601 string
-    date = new Date(item.date_published).toISOString().split('T')[0];
+    const parsedDate = new Date(item.date_published);
+    // Validate the date is valid
+    if (!isNaN(parsedDate.getTime())) {
+      date = parsedDate.toISOString().split('T')[0];
+    } else {
+      // If invalid, fall back to current date
+      console.log(`  ⚠️  Invalid date_published: ${item.date_published}, using current date`);
+      date = new Date().toISOString().split('T')[0];
+    }
   } else {
     // Old format: Unix timestamp
     const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
@@ -229,7 +237,12 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   const tags = generateTags(combinedText, config);
   // Add Inoreader's own tags if available
   if (item.tags && Array.isArray(item.tags)) {
-    tags.push(...item.tags.filter(tag => !tags.includes(tag)));
+    const existingTags = new Set(tags);
+    for (const tag of item.tags) {
+      if (!existingTags.has(tag)) {
+        tags.push(tag);
+      }
+    }
   }
   const impact = calculateImpact(combinedText, config);
   
