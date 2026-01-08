@@ -1,5 +1,448 @@
 [
   {
+    "id": "2026134",
+    "date": "2026-01-08",
+    "title": "ChatGPT Health feature draws concern from privacy critics over sensitive medical data",
+    "summary": "The artificial intelligence juggernaut in a blog post encouraged its hundreds of millions of users to connect medical records and wellness app data to the new health-focused chatbot feature, adding that it will be outfitted with extra data privacy protections.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/chatgpt-health-draws-concern-privacy-critics",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026135",
+    "date": "2026-01-08",
+    "title": "Trump pulls US out of international cyber orgs",
+    "summary": "The Trump administration is withdrawing the United States from a handful of international organizations that work to strengthen cybersecurity. As part of a broader pullback from 66 international organizations, the administration is leaving the Global Forum on Cyber Expertise, the Online Freedom C...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/trump-pulls-us-out-of-international-cyber-orgs/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026136",
+    "date": "2026-01-08",
+    "title": "WhatsApp Worm Spreads Astaroth Banking Trojan Across Brazil via Contact Auto-Messaging",
+    "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses WhatsApp as a distribution vector for a Windows banking trojan called Astaroth in attacks targeting Brazil. The campaign has been codenamed Boto Cor-de-Rosa by Acronis Threat Research Unit. \"The malware retrieves the vic...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/whatsapp-worm-spreads-astaroth-banking.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026137",
+    "date": "2026-01-08",
+    "title": "Texas court blocks Samsung from collecting smart TV viewing data",
+    "summary": "The State of Texas has obtained a temporary restraining order (TRO) against Samsung that prohibits the South Korean company from collecting audio and visual data about what Texas consumers are watching on their TVs. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/texas-court-blocks-samsung-from-collecting-smart-tv-viewing-data/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026138",
+    "date": "2026-01-08",
+    "title": "China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes",
+    "summary": "A China-nexus threat actor known as UAT-7290 has been attributed to espionage-focused intrusions against entities in South Asia and Southeastern Europe. The activity cluster, which has been active since at least 2022, primarily focuses on extensive technical reconnaissance of target organizations...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/china-linked-uat-7290-targets-telecoms.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026139",
+    "date": "2026-01-08",
+    "title": "NSA cyber directorate gets new acting leadership",
+    "summary": "David Imbordino, a NSA senior executive who is currently serving as the directorate’s deputy chief, will take the reins in an acting capacity at the end of the month.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nsa-cyber-directorate-new-acting-leadership",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026140",
+    "date": "2026-01-08",
+    "title": "Six for 2026: The cyber threats you can’t ignore",
+    "summary": "Cybersecurity threats in 2026 are accelerating, driven by AI, automation, and more effective social engineering. Corelight outlines six emerging attack trends and explains how network visibility can help defenders respond faster. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/six-for-2026-the-cyber-threats-you-cant-ignore/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026141",
+    "date": "2026-01-08",
+    "title": "[Ekstra] Østersjøen: Dette ankersporet går flere titalls kilometer langs havbunnen",
+    "summary": "Finlands kystvakt har offentliggjort video av sporet fra ankeret man mistenker har kappet tre fiberkabler i Østersjøen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/dette-ankersporet-gar-flere-titalls-kilometer-langs-havbunnen/566686",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026142",
+    "date": "2026-01-08",
+    "title": "‘Elon Musk is playing with fire:’ All the legal risks that apply to Grok’s deepfake disaster",
+    "summary": "As collective disgust has continued to build over the widespread generation and sharing of nonconsensual, sexualized deepfakes generated by X’s GrokAI tool, angry onlookers have expressed shock that the activity continues unabated and company owner Elon Musk isn’t being compelled – by either U.S....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/elon-musk-x-grok-deepfake-crisis-section-230/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026143",
+    "date": "2026-01-08",
+    "title": "ThreatsDay Bulletin: RustFS Flaw, Iranian Ops, WebUI RCE, Cloud Leaks, and 12 More Stories",
+    "summary": "The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere. This week’s stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in. Read on to catch up before ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026144",
+    "date": "2026-01-08",
+    "title": "The U.K.'s Plan for Electronic Eavesdropping Poses Cybersecurity Risks | Lawfare",
+    "summary": "It's useful to unpack the Apple security technology at issue. ADP, which allows users to store encrypted data in the cloud in a way that is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/the-u.k.-s-plan-for-electronic-eavesdropping-poses-cybersecurity-risks",
+    "tags": [
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026145",
+    "date": "2026-01-08",
+    "title": "Cisco Snort 3 Security Flaws Threaten Network Inspection | eSecurity Planet",
+    "summary": "When Security Tools Become a Risk. These Snort 3 vulnerabilities underscore a persistent challenge in cybersecurity: weaknesses in defensive tools can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cisco-snort-3-security-flaws-threaten-network-inspection/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026146",
+    "date": "2026-01-08",
+    "title": "ESA confirms new data heist, Ni8mare lets hackers hijack n8n servers, Taiwan blames ...",
+    "summary": "Taiwan blames Chinese 'cyber army' for intrusion attempts. Taiwan's National Security Bureau says Chinese cyber intrusions increased 6% in 2025 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-esa-confirms-new-data-heist-ni8mare-lets-hackers-hijack-n8n-servers-taiwan-blames-cyber-army-for-intrusion-attempts/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026147",
+    "date": "2026-01-08",
+    "title": "US lawmakers to examine offensive cyber operations as foreign threats target critical infrastructure",
+    "summary": "... cyber disruption capabilities reinforce homeland security and resilience. The hearing, 'Defense through offense: Examining U.S. cyber capabilities ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/critical-infrastructure/us-lawmakers-to-examine-offensive-cyber-operations-as-foreign-threats-target-critical-infrastructure/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026148",
+    "date": "2026-01-08",
+    "title": "Rethinking Security for Agentic AI - SecurityWeek",
+    "summary": "... cybersecurity research and security services. ... Etay has also held senior security positions at Trusteer (acquired by IBM) and RSA Security's Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/rethinking-security-for-agentic-ai/",
+    "tags": [
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026149",
+    "date": "2026-01-08",
+    "title": "CISA Retires Ten Emergency Directives, Marking an Era in Federal Cybersecurity",
+    "summary": "WASHINGTON - Today, the Cybersecurity and Infrastructure Security Agency (CISA) announced the successful retirement of ten Emergency Directives issued ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://us-cert.cisa.gov/news-events/news/cisa-retires-ten-emergency-directives-marking-era-federal-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026150",
+    "date": "2026-01-08",
+    "title": "Study Finds Enterprises Going Offline for Weeks Due to Cyber Attacks",
+    "summary": "The findings come from Absolute Security's State of Enterprise Cyber Resilience report, which highlights the growing challenge organizations face in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/study-finds-enterprises-going-offline-for-weeks-due-to-cyber-attacks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026151",
+    "date": "2026-01-08",
+    "title": "UK Government Unveils New Cyber Action Plan - SecurityWeek",
+    "summary": "The UK's Cyber Action Plan tell nothing new, and contains its own gaps, but is worth a quick read to check our own business security stance.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/uk-government-unveils-new-cyber-action-plan/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026152",
+    "date": "2026-01-08",
+    "title": "Moody's forecasts growing AI threats, regulatory friction for 2026 | Cybersecurity Dive",
+    "summary": "Computer Hacked, System Error, Virus, Cyber attack, Malware Concept. Danger Symbol. Getty Images. Listen to the article 3 min. This audio is auto ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/moodys-cyber-outlook-forecast-2026/809101/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026153",
+    "date": "2026-01-08",
+    "title": "CISA Alerts on Actively Exploited Microsoft PowerPoint Code Injection Flaw - Cyber Press",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has escalated warnings about a critical Microsoft PowerPoint vulnerability, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/powerpoint-code-injection-flaw/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026154",
+    "date": "2026-01-08",
+    "title": "Cybersecurity CEO: Is Your Company Selling Or Storytelling? - Cybercrime Magazine",
+    "summary": "AISA - Australian Information Security Association. Top Cybersecurity Industry Associations. 00:00. Listen! @SteveWoz, Co-Founder of @Apple #Phreaks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/cybersecurity-ceo-is-your-company-selling-or-storytelling/",
+    "tags": [
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026155",
+    "date": "2026-01-08",
+    "title": "New OAuth-Based Attack Lets Hackers Bypass Microsoft Entra Authentication to Steal Keys",
+    "summary": "... Cyber Security NewsCybersecurityMicrosoft. A sophisticated attack dubbed “ConsentFix” (also known as AuthCodeFix) has emerged as a critical threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/new-oauth-based-attack/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026156",
+    "date": "2026-01-08",
+    "title": "CrowdStrike: The Hidden Network Effect In Cybersecurity - Seeking Alpha",
+    "summary": "CrowdStrike's endpoint security is based on a single agent which is connected to the Falcon platform. It is essentially a piece of software that gets ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://seekingalpha.com/article/4857835-crowdstrike-the-hidden-network-effect-in-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026157",
+    "date": "2026-01-08",
+    "title": "CybExer forecasts AI wars & quantum-era cyber risks - SecurityBrief UK",
+    "summary": "CybExer has set out a series of predictions for the cyber security landscape in 2026, warning of major shifts in cyber insurance, quantum-era ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/cybexer-forecasts-ai-wars-quantum-era-cyber-risks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026158",
+    "date": "2026-01-08",
+    "title": "Cynomi Appoints Veteran Cybersecurity Channel Leader Shane Deegan as Chief Revenue Officer",
+    "summary": "Cyber Magazine · Technology Magazine · AI Magazine. Reports & Whitepapers. Company Reports. Topics. Cyber Security · Network Security · Application ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/globenewswire/3214595",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026159",
+    "date": "2026-01-08",
+    "title": "Cybersecurity at the edge: Securing rugged IoT in mission-critical environments",
+    "summary": "Traditional IT assumptions: Stable connectivity: Continuous network access for monitoring and patching. Controlled environments: Secure, climate- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4113968/cybersecurity-at-the-edge-securing-rugged-iot-in-mission-critical-environments.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026160",
+    "date": "2026-01-08",
+    "title": "New Malware Campaign Targeting Hospitality Sector - Security Magazine",
+    "summary": "The website presents a false CAPTCHA, leading to a false BSOD. “It is a trick for click-fix that executes a PowerShell command to download a proj file ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102067-attack-campaign-targeting-hospitality-sector",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026161",
+    "date": "2026-01-08",
+    "title": "CrowdStrike buys identity security startup SGNL for $740 million in latest deal push - CNBC",
+    "summary": "The cybersecurity provider said the deal will bolster identity management security capabilities on its flagship Falcon platform. Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/01/08/crowdstrike-ai-cybersecurity-sgnl-acquisition.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026162",
+    "date": "2026-01-08",
+    "title": "Cyera CEO Yotam Segev on raising $400 million and why the stakes are getting higher | Fortune",
+    "summary": "... security, including Palo Alto Network's astonishing $25 billion acquisition of CyberArk in 2025. The cybersecurity landscape right now is rife ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fortune.com/2026/01/08/cyera-cybersecurity-startup-yotam-segev-400-million-series-f-funding-9-billion-valuation-blackstone/",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026163",
+    "date": "2026-01-08",
+    "title": "Cyber-attacks forcing enterprises offline up to two weeks - Digit.fyi",
+    "summary": "... cyber-attack, according to research into the state of enterprise Cyber Resilience from Absolute Security. Cyber Resilience is recognised as having ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.digit.fyi/cyber-attacks-forcing-enterprises-offline-up-to-two-weeks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2026076",
     "date": "2026-01-08",
     "title": "US announces withdrawal from dozens of international treaties",
