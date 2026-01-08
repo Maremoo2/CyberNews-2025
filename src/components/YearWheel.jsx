@@ -1,9 +1,9 @@
 import { useMemo } from 'react'
 import './YearWheel.css'
 
-const MONTHS_NO = [
-  "Jan", "Feb", "Mar", "Apr", "Mai", "Jun",
-  "Jul", "Aug", "Sep", "Okt", "Nov", "Des"
+const MONTHS_EN = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ]
 
 function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
@@ -67,13 +67,13 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
 
   return (
     <div className="year-wheel-container">
-      <h3 className="year-wheel-title">Årshjul {selectedYear}</h3>
-      <p className="year-wheel-subtitle">Årshjulet viser når hendelser først ble rapportert – ikke når konsekvensene opphørte.</p>
-      <p className="year-wheel-action">Klikk på en måned for å filtrere</p>
+      <h3 className="year-wheel-title">Year Wheel {selectedYear}</h3>
+      <p className="year-wheel-subtitle">The wheel shows when incidents were first reported – not when their consequences ended.</p>
+      <p className="year-wheel-action">Click on a month to filter</p>
       
       <svg className="year-wheel-svg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
         {/* Month segments */}
-        {MONTHS_NO.map((month, index) => {
+        {MONTHS_EN.map((month, index) => {
           const intensity = getIntensity(monthCounts[index])
           const isSelected = selectedMonth === index
           const count = monthCounts[index]
@@ -92,14 +92,14 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
                 }}
                 onClick={() => onMonthClick(index)}
               >
-                <title>{`${month}: ${count} hendelser`}</title>
+                <title>{`${month}: ${count} incidents`}</title>
               </path>
             </g>
           )
         })}
         
         {/* Month labels */}
-        {MONTHS_NO.map((month, index) => {
+        {MONTHS_EN.map((month, index) => {
           const pos = getLabelPosition(index)
           const isSelected = selectedMonth === index
           
@@ -135,13 +135,13 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
           textAnchor="middle"
           dominantBaseline="middle"
         >
-          {incidents.length} hendelser
+          {incidents.length} incidents
         </text>
       </svg>
       
       {selectedMonth !== 'ALL' && (
         <button className="reset-wheel-btn" onClick={() => onMonthClick('ALL')}>
-          Vis alle måneder
+          Show all months
         </button>
       )}
     </div>

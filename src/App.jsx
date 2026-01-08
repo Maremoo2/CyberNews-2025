@@ -8,16 +8,16 @@ import YearStats from './components/YearStats'
 import TrendDashboard from './components/TrendDashboard'
 
 // Month helpers
-const MONTHS_NO = [
-  "Januar", "Februar", "Mars", "April", "Mai", "Juni",
-  "Juli", "August", "September", "Oktober", "November", "Desember"
+const MONTHS_EN = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
 ];
 
 // Impact badge configuration
 const IMPACT_STYLES = {
-  5: { label: 'Kritisk', className: 'impact-critical', emoji: '🔴' },
-  4: { label: 'Alvorlig', className: 'impact-high', emoji: '🟠' },
-  3: { label: 'Moderat', className: 'impact-moderate', emoji: '⚪' }
+  5: { label: 'Critical', className: 'impact-critical', emoji: '🔴' },
+  4: { label: 'High', className: 'impact-high', emoji: '🟠' },
+  3: { label: 'Moderate', className: 'impact-moderate', emoji: '⚪' }
 };
 
 function getMonthIndex(dateStr) {
@@ -32,18 +32,18 @@ function getMonthIndex(dateStr) {
 
 // Monthly summaries - concise overview per month
 const MONTH_SUMMARIES = {
-  0: "Året startet med store kryptovalutaangrep og økende ransomware-aktivitet.",
-  1: "Rekordstore kryptoinnbrudd og eskalerende statsstøttede cyberangrep.",
-  2: "Cloud-tjenester og forsyningskjeder ble rammet av omfattende datainnbrudd.",
-  3: "Phishing og utpressing dominerte, med store saksrettede angrep mot idrettsbransjen.",
-  4: "Ransomware rammet store detaljhandelskjeder med milliardtap.",
-  5: "Historisk lekkasje av 16 milliarder innloggingsdetaljer.",
-  6: "Zero-day angrep og statsstøttede kampanjer mot kritisk infrastruktur.",
-  7: "Forsyningskjeder og cloud-plattformer kompromittert av sofistikerte aktører.",
-  8: "Ransomware lammet europeiske flyplasser og global transport.",
-  9: "Sikkerhetsleverandører ble selv ofre for omfattende datainnbrudd.",
-  10: "Oracle-sårbarheter utnyttet mot universiteter og store bedrifter over hele verden.",
-  11: "Massive datainnbrudd rammet millioner av forbrukere i Asia og globalt.",
+  0: "The year started with major cryptocurrency attacks and increasing ransomware activity.",
+  1: "Record-breaking crypto breaches and escalating state-sponsored cyberattacks.",
+  2: "Cloud services and supply chains hit by extensive data breaches.",
+  3: "Phishing and extortion dominated, with major targeted attacks against the sports industry.",
+  4: "Ransomware hit major retail chains with billion-dollar losses.",
+  5: "Historic leak of 16 billion login credentials.",
+  6: "Zero-day attacks and state-sponsored campaigns against critical infrastructure.",
+  7: "Supply chains and cloud platforms compromised by sophisticated actors.",
+  8: "Ransomware crippled European airports and global transport.",
+  9: "Security vendors themselves fell victim to extensive data breaches.",
+  10: "Oracle vulnerabilities exploited against universities and large companies worldwide.",
+  11: "Massive data breaches hit millions of consumers in Asia and globally.",
 };
 
 // Helper to parse initial state from URL
@@ -238,7 +238,7 @@ function App() {
 
   const formatDate = (dateString) => {
     const date = new Date(dateString)
-    return date.toLocaleDateString('nb-NO', { 
+    return date.toLocaleDateString('en-US', { 
       year: 'numeric', 
       month: 'long', 
       day: 'numeric' 
@@ -255,29 +255,29 @@ function App() {
   const getEmptyStateMessage = () => {
     if (debouncedSearch.trim()) {
       return {
-        title: `Ingen treff for "${debouncedSearch}"`,
-        suggestions: ['Prøv et annet søkeord', 'Fjern søket for å se alle hendelser', 'Søk etter "ransomware", "breach" eller "apt"']
+        title: `No results for "${debouncedSearch}"`,
+        suggestions: ['Try another search term', 'Remove search to see all incidents', 'Search for "ransomware", "breach" or "apt"']
       }
     }
     
     const filters = []
-    if (selectedMonth !== 'ALL') filters.push(MONTHS_NO[selectedMonth])
+    if (selectedMonth !== 'ALL') filters.push(MONTHS_EN[selectedMonth])
     if (selectedRegion !== 'ALL') {
-      const regionNames = { US: 'USA', EU: 'Europa', ASIA: 'Asia', NO: 'Norge' }
+      const regionNames = { US: 'USA', EU: 'Europe', ASIA: 'Asia', NO: 'Norway' }
       filters.push(regionNames[selectedRegion])
     }
     if (selectedTags.length > 0) filters.push(`tag: ${selectedTags.join(', ')}`)
-    if (showMajorOnly) filters.push('kun største saker')
+    if (showMajorOnly) filters.push('major incidents only')
     
     if (filters.length > 0) {
       return {
-        title: `Ingen treff for ${filters.join(' + ')}`,
-        suggestions: ['Prøv å velge en annen måned', 'Velg en annen region', 'Fjern noen filtre']
+        title: `No results for ${filters.join(' + ')}`,
+        suggestions: ['Try selecting another month', 'Select another region', 'Remove some filters']
       }
     }
     
     return {
-      title: 'Ingen hendelser funnet',
+      title: 'No incidents found',
       suggestions: []
     }
   }
@@ -286,20 +286,20 @@ function App() {
     <div className="app">
       {/* Skip to main content link for accessibility */}
       <a href="#main-content" className="skip-link">
-        Hopp til hovedinnhold
+        Skip to main content
       </a>
       
       <header className="header">
         <div className="header-content">
           <div className="header-text">
             <h1>Security News Year in Review {selectedYear}</h1>
-            <p className="subtitle">Oversikt over cybersikkerhetshendelser</p>
+            <p className="subtitle">Overview of cybersecurity incidents</p>
           </div>
           <div className="year-selector">
             <button 
               className={selectedYear === 2025 ? 'year-btn active' : 'year-btn'}
               onClick={() => setSelectedYear(2025)}
-              aria-label="Vis 2025 hendelser"
+              aria-label="Show 2025 incidents"
               aria-pressed={selectedYear === 2025}
             >
               2025
@@ -307,7 +307,7 @@ function App() {
             <button 
               className={selectedYear === 2026 ? 'year-btn active' : 'year-btn'}
               onClick={() => setSelectedYear(2026)}
-              aria-label="Vis 2026 hendelser"
+              aria-label="Show 2026 incidents"
               aria-pressed={selectedYear === 2026}
             >
               2026
@@ -317,11 +317,11 @@ function App() {
       </header>
 
       {/* Hero / Value Proposition */}
-      <section className="hero-section" aria-label="Om denne siden">
+      <section className="hero-section" aria-label="About this site">
         <div className="hero-content">
           <p className="hero-text">
-            Cyberhendelser skjer daglig. Denne siden samler, strukturerer og setter dem i kontekst – 
-            slik at mønstre blir synlige før neste hendelse.
+            Cyber incidents happen daily. This site collects, structures, and contextualizes them – 
+            making patterns visible before the next incident occurs.
           </p>
         </div>
       </section>
@@ -353,21 +353,21 @@ function App() {
       /> */}
 
       {/* Filters Section - Grouped for better UX */}
-      <div className="filters-section" role="region" aria-label="Filtre for hendelser">
+      <div className="filters-section" role="region" aria-label="Incident filters">
         {/* Region Filter */}
-        <div className="region-filter" role="group" aria-label="Regionfilter">
+        <div className="region-filter" role="group" aria-label="Region filter">
           <button 
             className={selectedRegion === 'ALL' ? 'active' : ''}
             onClick={() => setSelectedRegion('ALL')}
-            aria-label="Vis alle regioner"
+            aria-label="Show all regions"
             aria-pressed={selectedRegion === 'ALL'}
           >
-            Alle ({regionCounts.ALL})
+            All ({regionCounts.ALL})
           </button>
           <button 
             className={selectedRegion === 'US' ? 'active' : ''}
             onClick={() => setSelectedRegion('US')}
-            aria-label="Filtrer på USA"
+            aria-label="Filter on USA"
             aria-pressed={selectedRegion === 'US'}
           >
             USA ({regionCounts.US})
@@ -375,15 +375,15 @@ function App() {
           <button 
             className={selectedRegion === 'EU' ? 'active' : ''}
             onClick={() => setSelectedRegion('EU')}
-            aria-label="Filtrer på Europa"
+            aria-label="Filter on Europe"
             aria-pressed={selectedRegion === 'EU'}
           >
-            Europa ({regionCounts.EU})
+            Europe ({regionCounts.EU})
           </button>
           <button 
             className={selectedRegion === 'ASIA' ? 'active' : ''}
             onClick={() => setSelectedRegion('ASIA')}
-            aria-label="Filtrer på Asia"
+            aria-label="Filter on Asia"
             aria-pressed={selectedRegion === 'ASIA'}
           >
             Asia ({regionCounts.ASIA})
@@ -391,24 +391,24 @@ function App() {
           <button 
             className={selectedRegion === 'NO' ? 'active' : ''}
             onClick={() => setSelectedRegion('NO')}
-            aria-label="Filtrer på Norge"
+            aria-label="Filter on Norway"
             aria-pressed={selectedRegion === 'NO'}
           >
-            Norge ({regionCounts.NO})
+            Norway ({regionCounts.NO})
           </button>
         </div>
 
         {/* Month Filter */}
-        <div className="month-filter-container" role="group" aria-label="Månedsfilter">
+        <div className="month-filter-container" role="group" aria-label="Month filter">
           {/* Dropdown for mobile */}
           <select 
             className="month-dropdown"
             value={selectedMonth}
             onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
-            aria-label="Velg måned"
+            aria-label="Select month"
           >
-            <option value="ALL">📅 Alle måneder</option>
-            {MONTHS_NO.map((month, index) => (
+            <option value="ALL">📅 All months</option>
+            {MONTHS_EN.map((month, index) => (
               <option key={index} value={index}>📅 {month}</option>
             ))}
           </select>
@@ -418,17 +418,17 @@ function App() {
             <button 
               className={selectedMonth === 'ALL' ? 'active' : ''}
               onClick={() => setSelectedMonth('ALL')}
-              aria-label="Vis alle måneder"
+              aria-label="Show all months"
               aria-pressed={selectedMonth === 'ALL'}
             >
-              Alle
+              All
             </button>
-            {MONTHS_NO.map((month, index) => (
+            {MONTHS_EN.map((month, index) => (
               <button
                 key={index}
                 className={selectedMonth === index ? 'active' : ''}
                 onClick={() => setSelectedMonth(index)}
-                aria-label={`Filtrer på ${month}`}
+                aria-label={`Filter on ${month}`}
                 aria-pressed={selectedMonth === index}
               >
                 {month.substring(0, 3)}
@@ -444,10 +444,10 @@ function App() {
               type="checkbox"
               checked={showMajorOnly}
               onChange={(e) => setShowMajorOnly(e.target.checked)}
-              aria-label="Vis kun største saker med impact 4 eller høyere"
+              aria-label="Show only major incidents with impact 4 or higher"
             />
-            <span className="toggle-label" aria-label="Kun største saker, impact 4 eller høyere">
-              ⚠️ Kun største saker (impact ≥ 4)
+            <span className="toggle-label" aria-label="Only major incidents, impact 4 or higher">
+              ⚠️ Major incidents only (impact ≥ 4)
             </span>
           </label>
         </div>
@@ -466,17 +466,17 @@ function App() {
           <input 
             type="text"
             className="search-input"
-            placeholder="🔍 Søk i tittel, sammendrag eller tags..."
+            placeholder="🔍 Search in title, summary or tags..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Søk i cybersikkerhetshendelser"
+            aria-label="Search in cybersecurity incidents"
           />
           {searchQuery && (
             <button 
               className="search-clear-btn"
               onClick={() => setSearchQuery('')}
-              aria-label="Fjern søketekst"
-              title="Fjern søk"
+              aria-label="Clear search text"
+              title="Clear search"
             >
               ×
             </button>
@@ -487,13 +487,13 @@ function App() {
       {/* Tag Chips */}
       {selectedTags.length > 0 && (
         <div className="selected-tags">
-          <span className="tag-label" aria-label="Valgte emneord">🏷️ Valgte tags:</span>
+          <span className="tag-label" aria-label="Selected tags">🏷️ Selected tags:</span>
           {selectedTags.map(tag => (
             <button 
               key={tag} 
               className="tag-chip selected"
               onClick={() => handleTagClick(tag)}
-              aria-label={`Fjern filter: ${tag}`}
+              aria-label={`Remove filter: ${tag}`}
             >
               {tag} ×
             </button>
@@ -517,9 +517,9 @@ function App() {
             <button 
               className="reset-filters-btn"
               onClick={resetAllFilters}
-              aria-label="Tilbakestill alle filtre"
+              aria-label="Reset all filters"
             >
-              Tilbakestill alle filtre
+              Reset all filters
             </button>
           </div>
         ) : (
@@ -529,7 +529,7 @@ function App() {
               return (
               <article key={incident.id} className="incident-card">
                 <div className="incident-header">
-                  <time className="incident-date" aria-label={`Dato: ${formatDate(incident.date)}`}>
+                  <time className="incident-date" aria-label={`Date: ${formatDate(incident.date)}`}>
                     📅 {formatDate(incident.date)}
                   </time>
                   <span className={`region-badge ${incident.region.toLowerCase()}`} aria-label={`Region: ${incident.region}`}>
@@ -541,7 +541,7 @@ function App() {
                     <span 
                       className={`impact-badge ${impactBadge.className}`} 
                       title={impactBadge.label}
-                      aria-label={`Alvorlighetsgrad: ${impactBadge.label}`}
+                      aria-label={`Severity: ${impactBadge.label}`}
                       role="img"
                     >
                       {impactBadge.emoji}
@@ -554,17 +554,17 @@ function App() {
                 <p className="incident-summary">{incident.summary}</p>
                 <div className="incident-footer">
                   <span className="source-name">
-                    Kilde: {incident.sourceName}
+                    Source: {incident.sourceName}
                     {incident.country && ` • ${incident.country}`}
                   </span>
                   {incident.tags && incident.tags.length > 0 && (
-                    <div className="tags" role="group" aria-label="Emneord">
+                    <div className="tags" role="group" aria-label="Tags">
                       {incident.tags.map(tag => (
                         <button
                           key={tag}
                           className={`tag-chip ${selectedTags.includes(tag) ? 'selected' : ''}`}
                           onClick={() => handleTagClick(tag)}
-                          aria-label={selectedTags.includes(tag) ? `Fjern filter: ${tag}` : `Filtrer på: ${tag}`}
+                          aria-label={selectedTags.includes(tag) ? `Remove filter: ${tag}` : `Filter on: ${tag}`}
                           aria-pressed={selectedTags.includes(tag)}
                         >
                           {tag}
@@ -583,12 +583,12 @@ function App() {
       <footer className="footer">
         <div className="footer-reflection">
           <p className="footer-quote">
-            Årshjulet viser hvor tett nyhetsbildet var.<br />
-            Men cybersikkerhet handler sjelden om enkeltstående hendelser – og nesten alltid om mønstre.
+            The year wheel shows how dense the news cycle was.<br />
+            But cybersecurity is rarely about isolated incidents – and almost always about patterns.
           </p>
         </div>
         <p className="footer-meta">
-          Dekker {selectedYear} • {incidentsData.length} hendelser • Sist oppdatert {new Date().toLocaleDateString('nb-NO')}
+          Covers {selectedYear} • {incidentsData.length} incidents • Last updated {new Date().toLocaleDateString('en-US')}
         </p>
       </footer>
     </div>
