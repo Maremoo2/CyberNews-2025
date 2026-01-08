@@ -197,8 +197,8 @@ function calculateImpact(text, config) {
  * Transform Inoreader item to incident format
  */
 function transformItem(item, feedConfig, config, nextIdGenerator) {
-  // Extract URL
-  const url = item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
+  // Extract URL - Try JSON Feed format first, then fall back to old format
+  const url = item.url || item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
   
   if (!url) {
     console.log(`  ⚠️  Skipping item without URL: ${item.title}`);
@@ -210,16 +210,37 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   
   // Extract and clean data
   const title = item.title || 'Untitled';
-  const summaryHtml = item.summary?.content || item.content?.content || '';
+  const summaryHtml = item.content_html || item.summary?.content || item.content?.content || '';
   const summary = truncate(stripHtml(summaryHtml), 300);
   
-  // Convert timestamp to date
-  const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
-  const date = unixToDate(timestamp);
+  // Convert timestamp to date - Handle both ISO 8601 and Unix timestamps
+  let date;
+  if (item.date_published) {
+    // JSON Feed format: ISO 8601 string
+    const parsedDate = new Date(item.date_published);
+    // Validate the date is valid
+    if (!isNaN(parsedDate.getTime())) {
+      date = parsedDate.toISOString().split('T')[0];
+    } else {
+      // If invalid, log error and fall back to Unix timestamp path
+      console.error(`  ❌ Invalid date_published: ${item.date_published}, falling back to Unix timestamp`);
+      const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+      date = unixToDate(timestamp);
+    }
+  } else {
+    // Old format: Unix timestamp
+    const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+    date = unixToDate(timestamp);
+  }
   
   // Generate tags and impact
   const combinedText = `${title} ${summary}`;
   const tags = generateTags(combinedText, config);
+  // Add Inoreader's own tags if available
+  if (item.tags && Array.isArray(item.tags)) {
+    const existingTags = new Set(tags);
+    tags.push(...item.tags.filter(tag => !existingTags.has(tag)));
+  }
   const impact = calculateImpact(combinedText, config);
   
   // Get source name
@@ -304,8 +325,8 @@ async function processFeed(feedConfig, config, existingIncidents) {
     
     for (const item of data.items) {
       try {
-        // Check URL first
-        const url = item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
+        // Check URL first - Try JSON Feed format first, then fall back to old format
+        const url = item.url || item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
         if (url && (seenUrls.has(url) || newItems.some(ni => ni.sourceUrl === url))) {
           duplicates++;
           continue;
