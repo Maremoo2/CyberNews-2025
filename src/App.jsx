@@ -334,6 +334,7 @@ function App() {
         selectedYear={selectedYear}
         selectedMonth={selectedMonth}
         selectedRegion={selectedRegion}
+        incidents={incidentsData}
       />
 
       {/* Year Wheel */}

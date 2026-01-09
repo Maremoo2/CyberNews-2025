@@ -5,7 +5,7 @@ import './TrendDashboard.css'
 // Import aggregated news data
 import newsData from '../../data/news-aggregated-2026.json'
 
-function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
+function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents }) {
   // Filter and aggregate data based on selections
   const dashboardData = useMemo(() => {
     // Only show for 2026 when data exists
@@ -22,6 +22,8 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
       legislation: [],
       stats: {
         totalIncidents: 0,
+        uniqueThreatActors: 0,
+        reportedIncidents: 0,
         sectors: {},
         attackTypes: {}
       }
@@ -37,7 +39,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
       ? ['norway', 'eu', 'us', 'asia']
       : [selectedRegion.toLowerCase()]
 
-    // Aggregate data across selected months and regions
+    // Aggregate data across selected months and regions for narrative content
     for (const month of monthsToInclude) {
       const monthData = yearData[month]
       if (!monthData) continue
@@ -56,7 +58,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
           aggregated.threatActors.push(...regionData.threatActors)
         }
 
-        // Aggregate incidents
+        // Aggregate incidents for narrative
         if (regionData.incidents) {
           aggregated.incidents.push(...regionData.incidents)
         }
@@ -70,23 +72,128 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
         if (regionData.legislation) {
           aggregated.legislation.push(...regionData.legislation)
         }
-
-        // Aggregate stats
-        aggregated.stats.totalIncidents += regionData.totalIncidents || 0
-
-        // Track sectors
-        if (regionData.mostTargetedSector && regionData.mostTargetedSector !== 'N/A') {
-          aggregated.stats.sectors[regionData.mostTargetedSector] = 
-            (aggregated.stats.sectors[regionData.mostTargetedSector] || 0) + 1
-        }
-
-        // Track attack types
-        if (regionData.mostCommonAttackType && regionData.mostCommonAttackType !== 'N/A') {
-          aggregated.stats.attackTypes[regionData.mostCommonAttackType] = 
-            (aggregated.stats.attackTypes[regionData.mostCommonAttackType] || 0) + 1
-        }
       }
     }
+
+    // Calculate statistics from actual incident data
+    let filteredIncidents = incidents || []
+    
+    // Filter by month if not ALL
+    if (selectedMonth !== 'ALL') {
+      filteredIncidents = filteredIncidents.filter(incident => {
+        if (!incident.date) return false
+        const month = parseInt(incident.date.substring(5, 7), 10) - 1
+        return month === selectedMonth
+      })
+    }
+
+    // Filter by region if not ALL
+    if (selectedRegion !== 'ALL') {
+      const regionMap = { 'NORWAY': 'NO', 'EU': 'EU', 'US': 'US', 'ASIA': 'ASIA' }
+      const targetRegion = regionMap[selectedRegion.toUpperCase()] || selectedRegion.toUpperCase()
+      filteredIncidents = filteredIncidents.filter(incident => 
+        incident.region === targetRegion
+      )
+    }
+
+    // Calculate total incidents
+    aggregated.stats.totalIncidents = filteredIncidents.length
+
+    // Calculate unique threat actors
+    const threatActorSet = new Set()
+    filteredIncidents.forEach(incident => {
+      if (incident.aiAnalysis?.threatActors) {
+        incident.aiAnalysis.threatActors.forEach(actor => {
+          if (actor && actor.trim()) {
+            threatActorSet.add(actor.toLowerCase().trim())
+          }
+        })
+      }
+    })
+    aggregated.stats.uniqueThreatActors = threatActorSet.size
+
+    // Calculate sectors from tags
+    const sectorKeywords = {
+      'Healthcare': ['healthcare', 'hospital', 'medical', 'health'],
+      'Government': ['government', 'offentlig', 'forvaltning', 'municipality', 'federal'],
+      'Finance': ['banking', 'finance', 'bank', 'financial'],
+      'Education': ['education', 'university', 'school', 'academic'],
+      'Energy': ['energy', 'power', 'utility', 'electric'],
+      'Technology': ['tech', 'software', 'it', 'cloud', 'data'],
+      'Retail': ['retail', 'store', 'commerce'],
+      'Manufacturing': ['manufacturing', 'industrial'],
+      'Transportation': ['transport', 'airline', 'shipping'],
+      'Telecommunications': ['telecom', 'telco', 'network']
+    }
+
+    filteredIncidents.forEach(incident => {
+      if (incident.tags) {
+        const tagsLower = incident.tags.map(t => t.toLowerCase())
+        let sectorFound = false
+        
+        for (const [sector, keywords] of Object.entries(sectorKeywords)) {
+          if (keywords.some(keyword => tagsLower.some(tag => tag.includes(keyword)))) {
+            aggregated.stats.sectors[sector] = (aggregated.stats.sectors[sector] || 0) + 1
+            sectorFound = true
+            break // Only count once per incident
+          }
+        }
+        
+        // Check in title and summary as well
+        if (!sectorFound && incident.title) {
+          const titleLower = incident.title.toLowerCase()
+          for (const [sector, keywords] of Object.entries(sectorKeywords)) {
+            if (keywords.some(keyword => titleLower.includes(keyword))) {
+              aggregated.stats.sectors[sector] = (aggregated.stats.sectors[sector] || 0) + 1
+              break
+            }
+          }
+        }
+      }
+    })
+
+    // Calculate attack types from tags
+    const attackTypeKeywords = {
+      'Ransomware': ['ransomware', 'lockbit', 'blackcat', 'alphv'],
+      'DDoS': ['ddos', 'denial-of-service', 'dos'],
+      'Malware': ['malware', 'trojan', 'virus', 'botnet', 'worm'],
+      'Phishing': ['phishing', 'spear-phishing', 'social-engineering'],
+      'Data Breach': ['breach', 'data-breach', 'leak', 'exfiltration'],
+      'APT': ['apt', 'advanced-persistent', 'nation-state', 'state-sponsored'],
+      'Supply Chain': ['supply-chain', 'third-party', 'vendor'],
+      'Zero-Day': ['zero-day', '0day', 'vulnerability', 'exploit'],
+      'Cryptomining': ['cryptomining', 'cryptojacking', 'mining'],
+      'Spyware': ['spyware', 'surveillance', 'stalkerware']
+    }
+
+    filteredIncidents.forEach(incident => {
+      if (incident.tags) {
+        const tagsLower = incident.tags.map(t => t.toLowerCase())
+        let typeFound = false
+        
+        for (const [attackType, keywords] of Object.entries(attackTypeKeywords)) {
+          if (keywords.some(keyword => tagsLower.some(tag => tag.includes(keyword)))) {
+            aggregated.stats.attackTypes[attackType] = (aggregated.stats.attackTypes[attackType] || 0) + 1
+            typeFound = true
+            break // Only count once per incident
+          }
+        }
+        
+        // Check in title as well
+        if (!typeFound && incident.title) {
+          const titleLower = incident.title.toLowerCase()
+          for (const [attackType, keywords] of Object.entries(attackTypeKeywords)) {
+            if (keywords.some(keyword => titleLower.includes(keyword))) {
+              aggregated.stats.attackTypes[attackType] = (aggregated.stats.attackTypes[attackType] || 0) + 1
+              break
+            }
+          }
+        }
+      }
+    })
+
+    // Count reported incidents from the narrative data
+    aggregated.stats.reportedIncidents = aggregated.incidents.length
 
     // Deduplicate and count buzzword frequency
     const buzzwordFreq = {}
@@ -108,7 +215,7 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
     aggregated.threatActors = Object.values(uniqueActors).slice(0, 10)
 
     return aggregated
-  }, [selectedYear, selectedMonth, selectedRegion])
+  }, [selectedYear, selectedMonth, selectedRegion, incidents])
 
   // Helper to convert month index to name
   function getMonthName(monthIndex) {
@@ -146,11 +253,11 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion }) {
           </div>
           <div className="stat-item">
             <span className="stat-label">Unique threat actors:</span>
-            <span className="stat-value">{dashboardData.threatActors.length}</span>
+            <span className="stat-value">{dashboardData.stats.uniqueThreatActors}</span>
           </div>
           <div className="stat-item">
-            <span className="stat-label">Reported incidents:</span>
-            <span className="stat-value">{dashboardData.incidents.length}</span>
+            <span className="stat-label">Curated reports:</span>
+            <span className="stat-value">{dashboardData.stats.reportedIncidents}</span>
           </div>
         </div>
 
