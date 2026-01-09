@@ -1,5 +1,291 @@
 [
   {
+    "id": "2026206",
+    "date": "2026-01-09",
+    "title": "Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)",
+    "summary": "As organizations plan for 2026, cybersecurity predictions are everywhere. Yet many strategies are still shaped by headlines and speculation rather than evidence. The real challenge isn’t a lack of forecasts—it’s identifying which predictions reflect real, emerging risks and which can safely be ig...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "As organizations plan for 2026, cybersecurity predictions are everywhere. Yet many strategies are still shaped by headlines and speculation rather than evidence. The real challenge isn’t a lack of forecasts—it’s identifying which predictions reflect real, emerging risks and which can safely be ig...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026207",
+    "date": "2026-01-09",
+    "title": "[Ekstra] Experis: : Vurderer å ta tapt IT-kontrakt til Høyesterett",
+    "summary": "Experis vurderer å ta erstatningssaken mot Oslo kommune til Høyesterett etter at de tapte kontrakten verdt 50 millioner til Sagene Data i 2022.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/experis-vurderer-a-ta-tapt-it-kontrakt-til-hoyesterett/566737",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Experis vurderer å ta erstatningssaken mot Oslo kommune til Høyesterett etter at de tapte kontrakten verdt 50 millioner til Sagene Data i 2022.",
+      "status": "New",
+      "buzzwords": [
+        "APT"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026208",
+    "date": "2026-01-09",
+    "title": "Trend Micro warns of critical Apex Central RCE vulnerability",
+    "summary": "Japanese cybersecurity software firm Trend Micro has patched a critical security flaw in Apex Central (on-premise) that could allow attackers to execute arbitrary code with SYSTEM privileges. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/trend-micro-fixes-critical-rce-flaw-in-apex-central-console/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Japanese cybersecurity software firm Trend Micro has patched a critical security flaw in Apex Central (on-premise) that could allow attackers to execute arbitrary code with SYSTEM privileges. [...]",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026209",
+    "date": "2026-01-09",
+    "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
+    "summary": "Trend Micro has released security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitrary code execution. The vulnerability, tracked as CVE-2025-69258, carries a CVSS score of 9.8 out o...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5,
+    "aiAnalysis": {
+      "summary": "Trend Micro has released security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitrary code execution. The vulnerability, tracked as CVE-2025-69258, carries a CVSS score of 9.8 out o...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 5,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026210",
+    "date": "2026-01-09",
+    "title": "CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024. The list of the directives now considered closed is as follows - ED 19-01: Mitigate DNS Infrastructure Tampering ED 20-02: Mitigate...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024. The list of the directives now considered closed is as follows - ED 19-01: Mitigate DNS Infrastructure Tampering ED 20-02: Mitigate...",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026211",
+    "date": "2026-01-09",
+    "title": "[Ekstra] Skygard kjøper opp to datasentre i Oslo-området",
+    "summary": "Henter inn Grethe Viksaas og kjøper tilbake anlegg hun solgte i 2018.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/skygard-kjoper-opp-to-datasentre-i-oslo-regionen/566755",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Henter inn Grethe Viksaas og kjøper tilbake anlegg hun solgte i 2018.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026212",
+    "date": "2026-01-09",
+    "title": "Total digital nedstenging i Iran",
+    "summary": "Internett ble frakoblet i Iran torsdag kveld og er fortsatt nede. Regimet anklager USA og Israel for demonstrasjonene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/internett-fortsatt-nede-i-iran/566752",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Internett ble frakoblet i Iran torsdag kveld og er fortsatt nede. Regimet anklager USA og Israel for demonstrasjonene.",
+      "status": "New",
+      "buzzwords": [],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026213",
+    "date": "2026-01-09",
+    "title": "Malicious Process Environment Block Manipulation, (Fri, Jan 9th)",
+    "summary": "Reverse engineers must have a good understanding of the environment where malware are executed (read: the operating system). In a previous diary, I talked about malicious code that could be executed when loading a DLL[1]. Today, I’ll show you how a malware can hide suspicious information related ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32614",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "Reverse engineers must have a good understanding of the environment where malware are executed (read: the operating system). In a previous diary, I talked about malicious code that could be executed when loading a DLL[1]. Today, I’ll show you how a malware can hide suspicious information related ...",
+      "status": "New",
+      "buzzwords": [
+        "malware"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
+    "id": "2026214",
+    "date": "2026-01-09",
+    "title": "FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targeting entities in the country. \"As of 2025, Kimsuky actors have targeted think tanks, academic instit...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fbi-warns-north-korean-hackers-using.html",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3,
+    "aiAnalysis": {
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targeting entities in the country. \"As of 2025, Kimsuky actors have targeted think tanks, academic instit...",
+      "status": "New",
+      "buzzwords": [
+        "phishing",
+        "spear phishing"
+      ],
+      "threatActors": [],
+      "malwareFamilies": [],
+      "companies": [],
+      "cves": [],
+      "mitreAttack": [],
+      "impactScore": 3,
+      "region": "US",
+      "country": "Global",
+      "trends": []
+    },
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
+    "enrichmentVersion": "1.0"
+  },
+  {
     "id": "2026200",
     "date": "2026-01-09",
     "title": "[Ekstra] Satser alt på «hacker-dings» fra kjøkkenbordet i Oslo",
@@ -26,7 +312,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -59,7 +345,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -89,7 +375,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -119,7 +405,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -149,7 +435,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -183,7 +469,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -213,7 +499,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -243,7 +529,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -273,7 +559,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -304,7 +590,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -340,7 +626,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -370,7 +656,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -403,7 +689,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -438,7 +724,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.967Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -468,7 +754,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -499,7 +785,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.831Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -533,7 +819,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -563,7 +849,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -594,7 +880,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -624,7 +910,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -655,7 +941,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -686,7 +972,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -716,7 +1002,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -746,7 +1032,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -776,7 +1062,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -806,7 +1092,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -837,7 +1123,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -870,7 +1156,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -900,7 +1186,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -930,7 +1216,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -960,7 +1246,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -991,7 +1277,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1025,7 +1311,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.832Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1056,7 +1342,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1086,7 +1372,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1117,7 +1403,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1147,7 +1433,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1180,7 +1466,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1210,7 +1496,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1241,7 +1527,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1273,7 +1559,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.968Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1306,7 +1592,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1337,7 +1623,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1370,7 +1656,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1403,7 +1689,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1433,7 +1719,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.833Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1466,7 +1752,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1499,7 +1785,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1532,7 +1818,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1562,7 +1848,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1595,7 +1881,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1629,7 +1915,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1660,7 +1946,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1693,7 +1979,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1723,7 +2009,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1756,7 +2042,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1787,7 +2073,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1817,7 +2103,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.969Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1847,7 +2133,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1877,7 +2163,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1910,7 +2196,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1942,7 +2228,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -1973,7 +2259,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2004,7 +2290,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2034,7 +2320,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2064,7 +2350,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2094,7 +2380,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2124,7 +2410,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2159,7 +2445,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2189,7 +2475,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2220,7 +2506,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2250,7 +2536,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2280,7 +2566,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2311,7 +2597,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2342,7 +2628,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2375,7 +2661,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2405,7 +2691,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.834Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2437,7 +2723,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2470,7 +2756,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2502,7 +2788,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2532,7 +2818,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2564,7 +2850,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2594,7 +2880,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2625,7 +2911,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2655,7 +2941,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2688,7 +2974,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2718,7 +3004,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2748,7 +3034,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2781,7 +3067,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2811,7 +3097,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2845,7 +3131,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2875,7 +3161,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2906,7 +3192,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2936,7 +3222,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.970Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -2974,7 +3260,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3004,7 +3290,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3034,7 +3320,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3064,7 +3350,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3095,7 +3381,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3128,7 +3414,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3158,7 +3444,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3192,7 +3478,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.835Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3222,7 +3508,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3257,7 +3543,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3291,7 +3577,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3321,7 +3607,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3351,7 +3637,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3382,7 +3668,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3416,7 +3702,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3446,7 +3732,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3479,7 +3765,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3510,7 +3796,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3541,7 +3827,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3576,7 +3862,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3610,7 +3896,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3643,7 +3929,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3676,7 +3962,7 @@
       "country": "Taiwan",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3708,7 +3994,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3740,7 +4026,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.971Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3775,7 +4061,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.836Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3807,7 +4093,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3846,7 +4132,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3887,7 +4173,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3926,7 +4212,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3960,7 +4246,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -3994,7 +4280,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4030,7 +4316,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4066,7 +4352,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4106,7 +4392,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4145,7 +4431,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4183,7 +4469,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4219,7 +4505,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4252,7 +4538,7 @@
       "country": "Netherlands",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4289,7 +4575,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4326,7 +4612,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.972Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4360,7 +4646,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4395,7 +4681,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4429,7 +4715,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4463,7 +4749,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4502,7 +4788,7 @@
       "country": "South Korea",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4538,7 +4824,7 @@
       "country": "Romania",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4574,7 +4860,7 @@
       "country": "Taiwan",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4602,7 +4888,7 @@
       "country": "United Kingdom",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4638,7 +4924,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4678,7 +4964,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4708,7 +4994,7 @@
       "country": "Singapore",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.837Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4744,7 +5030,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4779,7 +5065,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4817,7 +5103,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4855,7 +5141,7 @@
       "country": "India",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4893,7 +5179,7 @@
       "country": "India",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4928,7 +5214,7 @@
       "country": "New Zealand",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4965,7 +5251,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -4998,7 +5284,7 @@
       "country": "Belgium",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5031,7 +5317,7 @@
       "country": "Finland",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5065,7 +5351,7 @@
       "country": "Sweden",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5098,7 +5384,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5135,7 +5421,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5171,7 +5457,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5205,7 +5491,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5242,7 +5528,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5277,7 +5563,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5313,7 +5599,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5346,7 +5632,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.973Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5380,7 +5666,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5415,7 +5701,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.838Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5449,7 +5735,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5487,7 +5773,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5525,7 +5811,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5565,7 +5851,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5601,7 +5887,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5641,7 +5927,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5679,7 +5965,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5714,7 +6000,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5754,7 +6040,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5792,7 +6078,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5828,7 +6114,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5860,7 +6146,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5897,7 +6183,7 @@
       "country": "Israel",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5930,7 +6216,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.839Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5962,7 +6248,7 @@
       "country": "Poland",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -5998,7 +6284,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6030,7 +6316,7 @@
       "country": "United States",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6065,7 +6351,7 @@
       "country": "Global",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.974Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6101,7 +6387,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6136,7 +6422,7 @@
       "country": "France",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6168,7 +6454,7 @@
       "country": "China",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6201,7 +6487,7 @@
       "country": "Hong Kong",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6234,7 +6520,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6264,7 +6550,7 @@
       "country": "Norway",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6295,7 +6581,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6329,7 +6615,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6359,7 +6645,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6389,7 +6675,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6422,7 +6708,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6453,7 +6739,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6483,7 +6769,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6514,7 +6800,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6548,7 +6834,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6582,7 +6868,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6612,7 +6898,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6645,7 +6931,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   },
   {
@@ -6679,7 +6965,7 @@
       "country": "Europe",
       "trends": []
     },
-    "enrichedAt": "2026-01-09T06:42:59.840Z",
+    "enrichedAt": "2026-01-09T12:29:38.975Z",
     "enrichmentVersion": "1.0"
   }
 ]
