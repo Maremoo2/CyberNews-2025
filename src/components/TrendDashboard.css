@@ -46,11 +46,39 @@
 .stats-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add animated background pattern */
+.stats-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: moveBackground 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes moveBackground {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 20px);
+  }
 }
 
 .stats-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .stats-card .stat-item {
@@ -60,6 +88,19 @@
   padding: 0.75rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.stats-card .stat-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 12px;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .stats-card .stat-item:last-child {
@@ -70,12 +111,54 @@
   font-size: 1rem;
   opacity: 0.9;
   color: white;
+  transition: opacity 0.2s ease;
+}
+
+.stats-card .stat-item:hover .stat-label {
+  opacity: 1;
 }
 
 .stats-card .stat-value {
   font-size: 1.5rem;
   font-weight: 700;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.stats-card .stat-item:hover .stat-value {
+  font-size: 1.75rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stats-card .stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stats-card .stat-item:hover .stat-value {
+  transform: scale(1.2);
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.2);
+}
+
+/* Pulse animation for stat values */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.stats-card .stat-value {
+  animation: pulse 2s ease-in-out infinite;
 }
 
 /* Threat Actors Card */
@@ -129,17 +212,34 @@
 .sectors-card {
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectors-card::after {
+  content: '🏢';
+  position: absolute;
+  font-size: 200px;
+  opacity: 0.05;
+  right: -30px;
+  bottom: -50px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .sectors-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .sector-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .sector-item {
@@ -148,6 +248,17 @@
   align-items: center;
   padding: 0.75rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.sector-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 10px;
+  transform: translateX(8px) scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .sector-item:last-child {
@@ -156,6 +267,12 @@
 
 .sector-name {
   font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.sector-item:hover .sector-name {
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .sector-count {
@@ -164,23 +281,46 @@
   background: rgba(255, 255, 255, 0.2);
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.sector-item:hover .sector-count {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.15);
 }
 
 /* Attack Types Card */
 .attack-types-card {
   background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.attack-types-card::after {
+  content: '⚔️';
+  position: absolute;
+  font-size: 200px;
+  opacity: 0.05;
+  right: -30px;
+  bottom: -50px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .attack-types-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .attack-type-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .attack-type-item {
@@ -189,6 +329,17 @@
   align-items: center;
   padding: 0.75rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.attack-type-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 10px;
+  transform: translateX(8px) scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .attack-type-item:last-child {
@@ -197,6 +348,12 @@
 
 .attack-type-name {
   font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.attack-type-item:hover .attack-type-name {
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .attack-type-count {
@@ -205,6 +362,12 @@
   background: rgba(255, 255, 255, 0.2);
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.attack-type-item:hover .attack-type-count {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.15);
 }
 
 /* Trends Card */
