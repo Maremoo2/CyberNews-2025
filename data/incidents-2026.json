@@ -1,5 +1,534 @@
 [
   {
+    "id": "2026164",
+    "date": "2026-01-09",
+    "title": "ISC Stormcast For Friday, January 9th, 2026 https://isc.sans.edu/podcastdetail/9760, (Fri, Jan 9th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32612",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026181",
+    "date": "2026-01-09",
+    "title": "News - January 2026 - Cyber Security Review",
+    "summary": "“I think we're at a near-total disconnection from the outside world now,” Amir Rashidi, an Iranian cybersecurity researcher who works for the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/news-january-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026182",
+    "date": "2026-01-09",
+    "title": "Texas Tech Gives Partners Tour of Research Capabilities | January 2026 | Texas Tech Now",
+    "summary": "The visit highlighted the role of Texas Tech's National Security office related to cybersecurity, directed energy and cyber-physical systems. “We ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ttu.edu/now/posts/2026/01/texas-tech-gives-partners-tour-of-research-capabilities.php",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026165",
+    "date": "2026-01-08",
+    "title": "Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user emails",
+    "summary": "Google says it's rolling out a new feature called 'AI Inbox,' which summarizes all your emails, but the company promises it won't train its models on your emails. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/gmails-new-ai-inbox-uses-gemini-but-google-says-it-wont-train-ai-on-user-emails/",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026166",
+    "date": "2026-01-08",
+    "title": "New China-linked hackers breach telcos using edge device exploits",
+    "summary": "A sophisticated threat actor that uses Linux-based malware to target telecommunications providers has recently broadened its operations to include organizations in Southeastern Europe. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-china-linked-hackers-breach-telcos-using-edge-device-exploits/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026167",
+    "date": "2026-01-08",
+    "title": "Inside Vercel’s sleep-deprived race to contain React2Shell",
+    "summary": "Talha Tariq and his colleagues at Vercel, the company that maintains Next.js, endured many sleep-deprived nights and weekends when React2Shell was discovered and disclosed soon after Thanksgiving. The defect, which affects vast stretches of the internet’s underlying infrastructure, posed a signif...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/vercel-cto-security-react2shell-vulnerability/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026168",
+    "date": "2026-01-08",
+    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+    "summary": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf has infected more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we’ll dig through digital clues left behind by the hackers, network operators and services th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026169",
+    "date": "2026-01-08",
+    "title": "FBI warns about Kimsuky hackers using QR codes to phish U.S. orgs",
+    "summary": "The North Korean state-sponsored hacker group Kimsuki is using malicious QR codes in spearphishing campaigns that target U.S. organizations, the Federal Bureau of Investigation warns in a flash alert. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-about-kimsuky-hackers-using-qr-codes-to-phish-us-orgs/",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026170",
+    "date": "2026-01-08",
+    "title": "xAI teases major Grok upgrade, hints at Grok Code CLI",
+    "summary": "Elon Musk-backed xAI has been missing in action for a while now, but today, Musk teased a major upgrade for Grok alongside new products. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/xai-teases-major-grok-upgrade-hints-at-grok-code-cli/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2026171",
+    "date": "2026-01-08",
+    "title": "Maximum Severity HPE OneView Flaw Exploited in the Wild",
+    "summary": "Exploitation of CVE-2025-37164 can enable remote code execution on HPE's IT infrastructure management platform, leading to devastating consequences.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-hpe-oneview-flaw-exploited",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026172",
+    "date": "2026-01-08",
+    "title": "CISA sunsets 10 emergency directives thanks to evolution of exploited vulnerabilities catalog",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) said on Thursday that the 10 directives being retired were issued between 2019 and 2024, spanning both the Trump and Biden administrations.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cisa-sunsets-10-emergency-directives",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026173",
+    "date": "2026-01-08",
+    "title": "Fake AI Chrome Extensions Steal 900K Users' Data",
+    "summary": "Threat actors ripped off a legitimate AI-powered Chrome extension in order to harvest ChatGPT and DeepSeek data before sending it to a C2 server.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/fake-ai-chrome-extensions-steal-900k-users-data",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026174",
+    "date": "2026-01-08",
+    "title": "VMware ESXi zero-days likely exploited a year before disclosure",
+    "summary": "Chinese-speaking threat actors used a compromised SonicWall VPN appliance to deliver a VMware ESXi exploit toolkit that seems to have been developed more than a year before the targeted vulnerabilities became publicly known. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/vmware-esxi-zero-days-likely-exploited-a-year-before-disclosure/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026175",
+    "date": "2026-01-08",
+    "title": "CPPA fines data broker selling lists of Alzheimer's patients",
+    "summary": "Datamasters bought and resold the names, addresses, phone numbers and email addresses of millions of people with Alzheimer’s disease, drug addiction, bladder incontinence and other medical conditions for targeted advertising, according to the CPPA.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ccpa-fines-data-broker-selling-lists-alzheimers",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026176",
+    "date": "2026-01-08",
+    "title": "ChatGPT's Memory Feature Supercharges Prompt Injection",
+    "summary": "The \"ZombieAgent\" exploit makes use of ChatGPT's long-term memory and advanced capabilities.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/chatgpt-memory-feature-prompt-injection",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026177",
+    "date": "2026-01-08",
+    "title": "Cisco switches hit by reboot loops due to DNS client bug",
+    "summary": "Multiple Cisco switch models are suddenly experiencing reboot loops after logging fatal DNS client errors, according to reports seen by BleepingComputer. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-switches-hit-by-reboot-loops-due-to-dns-client-bug/",
+    "tags": [
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026178",
+    "date": "2026-01-08",
+    "title": "Texas court blocks Samsung from tracking TV viewing, then vacates order",
+    "summary": "The State of Texas obtained a short-lived, temporary restraining order (TRO) against Samsung that prohibited the South Korean company from collecting audio and visual data about what Texas consumers are watching on their TVs. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/texas-court-blocks-samsung-from-tracking-tv-viewing-then-vacates-order/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026179",
+    "date": "2026-01-08",
+    "title": "Here's What Cloud Security's Future Holds for the Year Ahead",
+    "summary": "Here are the top cloud security trends I'm seeing in my crystal ball for the New Year — particularly arming us for AI adoption.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/heres-cloud-security-holds-year-ahead",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026180",
+    "date": "2026-01-08",
+    "title": "CrowdStrike to buy identity startup SGNL for nearly $740M",
+    "summary": "CrowdStrike is buying identity management startup SGNL, a move that underscores how identity security has become a central battleground in enterprise cybersecurity as companies add cloud services and deploy AI-driven tools. The cybersecurity firm did not disclose financial terms in a Thursday ann...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/crowdstrike-sngl-deal-740-million/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026183",
+    "date": "2026-01-08",
+    "title": "The Institute for Security and Technology Announces Finalists for the Third Annual Cyber ...",
+    "summary": "PRNewswire/ -- The Cyber Policy Awards™ Organizing Committee is pleased to announce the 23 finalists in contention to receive the prestigious ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/the-institute-for-security-and-technology-announces-finalists-for-the-third-annual-cyber-policy-awards-302656895.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026184",
+    "date": "2026-01-08",
+    "title": "Critical n8n bug allows unauthenticated server takeover - The Register",
+    "summary": "The company says it privately reported the vulnerability on November 9, 2025, and n8n's security team confirmed the issue the following day. A fix was ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/08/n8n_rce_bug/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2026185",
+    "date": "2026-01-08",
+    "title": "Anthropological perspective assists USF cybersecurity researcher in addressing SOC burnout",
+    "summary": "Student participants, who are paid, work inside the Cyber Florida Security Operations Center, the student-operated SOC that supports cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.usf.edu/ai-cybersecurity-computing/news/2026/anthropological-perspective-assists-usf-cybersecurity-researcher-in-addressing-soc-burnout.aspx",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026186",
+    "date": "2026-01-08",
+    "title": "CyberEast+: Countering election interference: cyber exercise and crisis communication in ...",
+    "summary": "... security, cybersecurity, cybercrime investigations, and information security. During the cyber exercise, the participants enhanced their knowledge ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.coe.int/en/web/cybercrime/-/countering-election-interference-cyber-exercise-and-crisis-communication-in-practice-for-ukrainian-election-and-cybersecurity-professionals",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026187",
+    "date": "2026-01-08",
+    "title": "Oakland school cybersecurity attack over holiday break under investigation - YouTube",
+    "summary": "Oakland school cybersecurity attack over holiday break under investigation. 6 views · 6 hours ago ...more. WCIA News. 27.1K. Subscribe. 0. Share.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=WyBKp1Ogci4",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026188",
+    "date": "2026-01-08",
+    "title": "Cybersecurity Awareness & Education for the Community - City of Tucson",
+    "summary": "Drawing on guidance from national experts like the Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tucsonaz.gov/Government/City-Information/Cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026189",
+    "date": "2026-01-08",
+    "title": "Google Chrome 143 Security Bypass — 3 Billion Users At Risk - Forbes",
+    "summary": "Update Google Chrome Immediately – Here's How To Do It Properly. Given the severity of the consequences of being unpatched, should an attacker ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.forbes.com/sites/daveywinder/2026/01/08/google-chrome-143-security-bypass---3-billion-users-at-risk/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026190",
+    "date": "2026-01-08",
+    "title": "Amazon Quick adds third-party AI agents and expands built-in actions library",
+    "summary": "Amazon Quick is expanding its third-party integrations by adding AI agents and growing its built-in actions library. Quick is Amazon's new AI-powered workspace and agentic teammate that helps organizations get answers from their business data and move quickly from insights to action. As organizat...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/aws.amazon.com/about-aws/whats-new/2026/01/3p-agent-in-quick/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026191",
+    "date": "2026-01-08",
+    "title": "AWS Lambda adds support for .NET 10",
+    "summary": "AWS Lambda now supports creating serverless applications using .NET 10. Developers can use .NET 10 as both a managed runtime and a container base image, and AWS will automatically apply updates to the managed runtime and base image as they become available. .NET 10 is the latest long-term support...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-dot-net-10/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026192",
+    "date": "2026-01-08",
+    "title": "Eight European cyber priorities for legal counsel and CISOs in 2026 | JD Supra",
+    "summary": "European cybersecurity regulation is entering a ... Monitor the UK's Cyber Security and Resilience (Network and Information Systems) Bill.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/eight-european-cyber-priorities-for-6143518/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026193",
+    "date": "2026-01-08",
+    "title": "CISA warns of active attacks on HPE OneView and legacy PowerPoint",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) added both a newly discovered flaw and a much older one to its catalog of Known ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/cisa-warns-of-active-attacks-on-hpe-oneview-and-legacy-powerpoint/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026194",
+    "date": "2026-01-08",
+    "title": "ED 19-01: Mitigate DNS Infrastructure Tampering (Closed) - CISA",
+    "summary": "This page contains a web-friendly version of the Cybersecurity and Infrastructure Security Agency's Emergency Directive 19-01, “Mitigate DNS ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/directives/ed-19-01-mitigate-dns-infrastructure-tampering-closed",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026195",
+    "date": "2026-01-08",
+    "title": "Updates to NIST Cybersecurity Guidance Show Continued Focus on Cloud Services: Wiley",
+    "summary": "NIST developed the draft in cooperation with the Joint Cybersecurity Defense Collaborative (JCDC) hosted by the U.S. Department of Homeland Security's ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wiley.law/wiley-connect/updates-to-nist-cybersecurity-guidance-show-continued-focus-on-cloud-services",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026196",
+    "date": "2026-01-08",
+    "title": "AI security boom triples valuation of Israeli cyber startup to $9 billion within a year",
+    "summary": "Israeli-founded Cyera, a developer of an AI data security platform, announced on Thursday that it has raised $400 million in a funding round led ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.timesofisrael.com/ai-security-boom-triples-valuation-of-israeli-cyber-startup-to-9-billion-within-a-year/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026197",
+    "date": "2026-01-08",
+    "title": "Amazon MQ now supports certificate based authentication with mutual TLS for RabbitMQ brokers",
+    "summary": "Amazon MQ now supports the ability for RabbitMQ brokers to perform authentication (determining who can log in) using X.509 client certificates with mutual TLS (mTLS). The RabbitMQ auth_mechanism_ssl plugin can be configured on brokers running RabbitMQ version 4.2 and above on Amazon MQ by making ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-certificate-based-authentication-mutual-tls-rabbitmq/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026198",
+    "date": "2026-01-08",
+    "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional AWS regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Asia Pacific (Mumbai, Hyderabad) and Europe (Paris) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and faste...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8i-r8i-flex-instances-additional-aws-regions",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2026199",
+    "date": "2026-01-08",
+    "title": "Illinois health department exposed over 700000 residents' personal data for years",
+    "summary": "The health department for the U.S. state of Illinois has confirmed that a years-long security lapse exposed the personal information of more than ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/illinois-health-department-exposed-over-700000-residents-personal-data-for-years/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2026134",
     "date": "2026-01-08",
     "title": "ChatGPT Health feature draws concern from privacy critics over sensitive medical data",
