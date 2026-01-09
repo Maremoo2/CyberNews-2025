@@ -1,5 +1,390 @@
 [
   {
+    "id": "20261480",
+    "date": "2026-01-09",
+    "title": "Illicit Crypto Economy Surges as Nation-States Join in the Fray",
+    "summary": "Cybercriminal cryptocurrency transactions totaled billions in 2025, with activity from sanctioned countries like Russia and Iran causing the largest jump.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/illicit-crypto-economy-surges-nation-states",
+    "tags": [
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261481",
+    "date": "2026-01-09",
+    "title": "Lawmakers call on app stores to remove Grok, X over sexualized deepfakes",
+    "summary": "AI tool Grok in recent days has been used to produce sexually explicit images of people without their consent, the lawmakers said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/lawmakers-call-on-app-stores-to-remove-grok-x",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261482",
+    "date": "2026-01-09",
+    "title": "Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations",
+    "summary": "Russian state-sponsored threat actors have been linked to a fresh set of credential harvesting attacks targeting individuals associated with a Turkish energy and nuclear research agency, as well as staff affiliated with a European think tank and organizations in North Macedonia and Uzbekistan. Th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/russian-apt28-runs-credential-stealing.html",
+    "tags": [
+      "apt",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261483",
+    "date": "2026-01-09",
+    "title": "At least $26 million in crypto stolen from Truebit platform as crypto crime landscape evolves",
+    "summary": "The theft continues a trend from the last two years, when hackers stole billions worth of cryptocurrency from both platforms and asset owners.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/26-million-in-crypto-stolen-truebit",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261484",
+    "date": "2026-01-09",
+    "title": "Illinois Department of Human Services data breach affects 700K people",
+    "summary": "The Illinois Department of Human Services (IDHS), one of Illinois' largest state agencies, accidentally exposed the personal and health data of nearly 700,000 residents due to incorrect privacy settings. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/illinois-department-of-human-services-data-breach-affects-700k-people/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261485",
+    "date": "2026-01-09",
+    "title": "Email security needs more seatbelts: Why click rate is the wrong metric",
+    "summary": "Click rate misses the real email security risk: what attackers can do after they access a mailbox. Material Security explains why containment and post-compromise impact matter more than phishing metrics. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/email-security-needs-more-seatbelts-why-click-rate-is-the-wrong-metric/",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261486",
+    "date": "2026-01-09",
+    "title": "[Ekstra] Dansk IT-firma har endret syn på amerikansk tek: – Bekymringsfullt",
+    "summary": "Den danske IT-leverandøren av kritisk infrastruktur, Aeven, er i gang med å styrke cybersikkerheten sin for å kunne motstå en økende cybertrussel – også fra USA.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/dansk-it-firma-har-endret-syn-pa-amerikansk-tek-bekymringsfullt/566680",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261487",
+    "date": "2026-01-09",
+    "title": "Former NSA insider Kosiba brought back as spy agency’s No. 2",
+    "summary": "Tim Kosiba, who has a long history of national security positions at the NSA and elsewhere, will be the signals intelligence agency's new deputy chief.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/timothy-kosiba-nsa-new-deputy-chief",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261488",
+    "date": "2026-01-09",
+    "title": "Russia’s Fancy Bear APT Doubles Down on Global Secrets Theft",
+    "summary": "The notorious Russian state-sponsored group relies on basic techniques that are highly effective, often delivering greater ROI than more complex malware-heavy operations.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/russian-apt-credentials-global-targets",
+    "tags": [
+      "malware",
+      "apt",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261489",
+    "date": "2026-01-09",
+    "title": "CrowdSrike to Buy SGNL to Expand Identity Security Capabilities",
+    "summary": "The CrowdStrike-SGNL deal underscores how identity security has become a critical component of enterprise cybersecurity as companies add cloud services and deploy AI-driven tools.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/crowdsrike-buy-sgnl-expand-identity-security-capabilities",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261490",
+    "date": "2026-01-09",
+    "title": "Illinois man charged with hacking Snapchat accounts to steal nude photos",
+    "summary": "U.S. prosecutors have charged an Illinois man with orchestrating a phishing operation that allowed him to hack the Snapchat accounts of nearly 600 women to steal private photos and sell them online. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/illinois-man-charged-with-hacking-snapchat-accounts-to-steal-nude-photos/",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261491",
+    "date": "2026-01-09",
+    "title": "8000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k",
+    "summary": "Corero Network Security has named Michelle Ragusa-McBain as Vice President of Channel Sales. Cybersecurity company Forcepoint has appointed Eva ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-8000-ransomware-attacks-china-hacked-us-gov-emails-idhs-breach-impacts-700k/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261492",
+    "date": "2026-01-09",
+    "title": "Guide to Critical Infrastructure Security - Omnilert",
+    "summary": "With over 420 million cyber attacks on these essential services every year worldwide, securing critical infrastructure is one of the biggest ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.omnilert.com/blog/critical-infrastructure-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261493",
+    "date": "2026-01-09",
+    "title": "New Update on Jaguar Land Rover Cyberattack: Q3 Wholesales Down 43%",
+    "summary": "SIGN UP! CybersecuritySecurity NewswireCybersecurity News. New Update on Jaguar Land Rover Cyberattack: Q3 Wholesales Down 43%. By Security Staff.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102068-new-update-on-jaguar-land-rover-cyberattack-q3-wholesales-down-43",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261494",
+    "date": "2026-01-09",
+    "title": "Maduro raid had telltale signs of a cyber-enabled blackout - Axios",
+    "summary": "Decode key cybersecurity news and insights with Sam Sabin. Sign up for Axios Future of Cybersecurity to continue reading for free. Subscribe for free.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.axios.com/2026/01/08/venezuela-maduro-raid-blackout-cyber-operation",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261495",
+    "date": "2026-01-09",
+    "title": "Global Cyber Resilience survey reveals two-week disruption from cyber attacks",
+    "summary": "SEATTLE — Absolute Security has published comprehensive research revealing the state of enterprise Cyber Resilience. Among the top findings were ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitysystemsnews.com/article/global-cyber-resilience-survey-reveals-two-week-disruption-from-cyber-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261496",
+    "date": "2026-01-09",
+    "title": "Telecom sector sees steady rise in ransomware attacks | Cybersecurity Dive",
+    "summary": "... Cybersecurity and Infrastructure Security Image attribution tooltip. CISA ... Computer Hacked, System Error, Virus, Cyber attack, Malware Concept.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/telecom-ransomware-spike-cyble/809224/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261497",
+    "date": "2026-01-09",
+    "title": "Research: Conventional Cybersecurity Won't Protect Your AI - Harvard Business Review",
+    "summary": "AI's capacity to analyze vast datasets and identify complex patterns makes it uniquely suited to bolstering the security of AI infrastructure itself.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://hbr.org/2026/01/ts-research-conventional-cybersecurity-wont-protect-your-ai",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261498",
+    "date": "2026-01-09",
+    "title": "Moody Predicts Surge in AI-Driven Cyber Attacks in 2026, with Growing Cryptocurrency Threats",
+    "summary": "This automation not only accelerates the attack process but also makes it more difficult for traditional security measures to detect and mitigate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/moody-predicts-surge-in-ai-driven-cyber-attacks-in-2026-with-growing-cryptocurrency-threats/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261499",
+    "date": "2026-01-09",
+    "title": "Will ServiceNow's Armis Deal Reshape AI Security? - Cyber Magazine",
+    "summary": "ServiceNow's US$7.75bn acquisition of Armis aims to create an AI-native cybersecurity powerhouse, unifying exposure management and proactive ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/will-servicenow-armis-deal-reshape-ai-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261500",
+    "date": "2026-01-09",
+    "title": "New Guidance from NIST Demonstrates How Organizations Can Use AI for Cybersecurity",
+    "summary": "The Cyber AI Profile is organized around three primary focus areas: Securing AI System Components (Secure): Addresses cybersecurity challenges in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.stinson.com/newsroom-publications-new-guidance-from-nist-demonstrates-how-organizations-can-use-ai-for-cybersecurity",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261501",
+    "date": "2026-01-09",
+    "title": "CISA's 7 Biggest Challenges in 2026 | Cybersecurity Dive",
+    "summary": "The beleaguered Cybersecurity and Infrastructure Security Agency faces a big test in 2026, with pressure mounting on the agency to clarify its ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-7-biggest-challenges-2026/809088/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261502",
+    "date": "2026-01-09",
+    "title": "Botnets, Breaches, and Critical Flaws Define This Week in Cybersecurity | eSecurity Planet",
+    "summary": "Security Tips & Best Practices. Botnet Defense. To protect against botnets, experts recommend locking down internet-facing services, enforcing strong ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/botnets-breaches-and-critical-flaws-define-this-week-in-cybersecurity/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261503",
+    "date": "2026-01-09",
+    "title": "National Security Agency Announces Mr. Tim Kosiba as Next NSA Deputy Director",
+    "summary": "I am confident that Tim will continue to drive and guide us in our critical foreign signals intelligence and cybersecurity missions. His expertise and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4374167/national-security-agency-announces-mr-tim-kosiba-as-next-nsa-deputy-director/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261504",
+    "date": "2026-01-09",
+    "title": "CISA Retires Ten Emergency Directives After Reaching Key Security Milestone",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has announced the retirement of ten Emergency Directives issued between 2019 and 2024, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/cisa-retires-ten-emergency-directives/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261505",
+    "date": "2026-01-09",
+    "title": "The 2 faces of AI: How emerging models empower and endanger cybersecurity",
+    "summary": "AI helps security teams move faster — but it's also helping attackers do the same, turning cybersecurity into a race of machines versus machines.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4113987/the-2-faces-of-ai-how-emerging-models-empower-and-endanger-cybersecurity.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2026215",
     "date": "2026-01-09",
     "title": "[Ekstra] Søkerliste: : Disse vil forvalte statens sky-milliarder",
