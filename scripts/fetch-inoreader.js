@@ -288,22 +288,31 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
  */
 async function processFeed(feedConfig, config, existingIncidents) {
   console.log(`\n📡 Processing feed: ${feedConfig.name}`);
-  console.log(`   URL: ${feedConfig.url}`);
+  
+  // Append maxItemsPerFeed parameter to URL
+  const maxItems = config.maxItemsPerFeed || 500;
+  const separator = feedConfig.url.includes('?') ? '&' : '?';
+  const fetchUrl = `${feedConfig.url}${separator}n=${maxItems}`;
+  
+  console.log(`   URL: ${fetchUrl}`);
+  console.log(`   Requesting up to ${maxItems} items`);
   
   try {
-    const data = await fetchWithRetry(feedConfig.url);
+    const data = await fetchWithRetry(fetchUrl);
     
     if (!data.items || !Array.isArray(data.items)) {
       console.log(`  ⚠️  No items found in feed response`);
-      return { newItems: [], duplicates: 0, errors: 0 };
+      return { newItems: [], duplicates: 0, errors: 0, totalItems: 0 };
     }
     
-    console.log(`  📥 Found ${data.items.length} items in feed`);
+    const totalItems = data.items.length;
+    console.log(`  📥 Received ${totalItems} items from feed`);
     
     const newItems = [];
     const seenUrls = new Set(existingIncidents.map(inc => inc.sourceUrl));
     let duplicates = 0;
     let errors = 0;
+    let firstDuplicateIndex = -1;
     
     // Create ID generator for sequential IDs
     let currentMaxId = 0;
@@ -323,12 +332,18 @@ async function processFeed(feedConfig, config, existingIncidents) {
       return `${prefix}${String(currentMaxId).padStart(3, '0')}`;
     };
     
-    for (const item of data.items) {
+    for (let i = 0; i < data.items.length; i++) {
+      const item = data.items[i];
       try {
         // Check URL first - Try JSON Feed format first, then fall back to old format
         const url = item.url || item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
         if (url && (seenUrls.has(url) || newItems.some(ni => ni.sourceUrl === url))) {
           duplicates++;
+          // Track the first duplicate we encounter
+          if (firstDuplicateIndex === -1) {
+            firstDuplicateIndex = i;
+            console.log(`  🔄 Encountered first duplicate at position ${i + 1}/${totalItems}`);
+          }
           continue;
         }
         
@@ -344,13 +359,16 @@ async function processFeed(feedConfig, config, existingIncidents) {
       }
     }
     
-    console.log(`  ✅ Processed: ${newItems.length} new, ${duplicates} duplicates, ${errors} errors`);
+    console.log(`  ✅ Results: ${newItems.length} new, ${duplicates} duplicates, ${errors} errors`);
+    if (firstDuplicateIndex !== -1) {
+      console.log(`  📊 All new items were in positions 1-${firstDuplicateIndex}, remaining ${totalItems - firstDuplicateIndex} were duplicates`);
+    }
     
-    return { newItems, duplicates, errors };
+    return { newItems, duplicates, errors, totalItems };
     
   } catch (error) {
     console.error(`  ❌ Failed to process feed: ${error.message}`);
-    return { newItems: [], duplicates: 0, errors: 1 };
+    return { newItems: [], duplicates: 0, errors: 1, totalItems: 0 };
   }
 }
 
@@ -376,6 +394,7 @@ async function main() {
   let totalNew = 0;
   let totalDuplicates = 0;
   let totalErrors = 0;
+  let totalItemsFetched = 0;
   const allNewIncidents = [];
   
   // Collect all existing and new URLs for efficient duplicate checking
@@ -388,15 +407,17 @@ async function main() {
     totalNew += result.newItems.length;
     totalDuplicates += result.duplicates;
     totalErrors += result.errors;
+    totalItemsFetched += result.totalItems;
   }
   
   // Summary
   console.log('\n' + '='.repeat(60));
   console.log('📊 SUMMARY');
   console.log('='.repeat(60));
-  console.log(`New articles:       ${totalNew}`);
-  console.log(`Duplicates skipped: ${totalDuplicates}`);
-  console.log(`Errors:             ${totalErrors}`);
+  console.log(`Total items fetched:  ${totalItemsFetched}`);
+  console.log(`New articles:         ${totalNew}`);
+  console.log(`Duplicates skipped:   ${totalDuplicates}`);
+  console.log(`Errors:               ${totalErrors}`);
   console.log('='.repeat(60));
   
   // Save if we have new incidents
