@@ -47,11 +47,38 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add animated background pattern */
+.stats-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: moveBackground 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes moveBackground {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 20px);
+  }
 }
 
 .stats-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .stats-card .stat-item {
@@ -61,15 +88,19 @@
   padding: 0.75rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .stats-card .stat-item:hover {
-  background: rgba(255, 255, 255, 0.1);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 8px;
-  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 12px;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .stats-card .stat-item:last-child {
@@ -91,12 +122,26 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: white;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .stats-card .stat-item:hover .stat-value {
-  transform: scale(1.1);
+  font-size: 1.75rem;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stats-card .stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stats-card .stat-item:hover .stat-value {
+  transform: scale(1.2);
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.2);
 }
 
 /* Pulse animation for stat values */
@@ -167,17 +212,34 @@
 .sectors-card {
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectors-card::after {
+  content: '🏢';
+  position: absolute;
+  font-size: 200px;
+  opacity: 0.05;
+  right: -30px;
+  bottom: -50px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .sectors-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .sector-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .sector-item {
@@ -191,11 +253,12 @@
 }
 
 .sector-item:hover {
-  background: rgba(255, 255, 255, 0.1);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 8px;
-  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 10px;
+  transform: translateX(8px) scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .sector-item:last-child {
@@ -230,17 +293,34 @@
 .attack-types-card {
   background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.attack-types-card::after {
+  content: '⚔️';
+  position: absolute;
+  font-size: 200px;
+  opacity: 0.05;
+  right: -30px;
+  bottom: -50px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .attack-types-card h3 {
   color: white;
   border-bottom-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .attack-type-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .attack-type-item {
@@ -254,11 +334,12 @@
 }
 
 .attack-type-item:hover {
-  background: rgba(255, 255, 255, 0.1);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 8px;
-  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 10px;
+  transform: translateX(8px) scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .attack-type-item:last-child {

@@ -114,81 +114,85 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
 
     // Calculate sectors from tags
     const sectorKeywords = {
-      'Healthcare': ['healthcare', 'hospital', 'medical', 'health'],
-      'Government': ['government', 'offentlig', 'forvaltning', 'municipality', 'federal'],
-      'Finance': ['banking', 'finance', 'bank', 'financial'],
-      'Education': ['education', 'university', 'school', 'academic'],
-      'Energy': ['energy', 'power', 'utility', 'electric'],
-      'Technology': ['tech', 'software', 'it', 'cloud', 'data'],
-      'Retail': ['retail', 'store', 'commerce'],
-      'Manufacturing': ['manufacturing', 'industrial'],
-      'Transportation': ['transport', 'airline', 'shipping'],
-      'Telecommunications': ['telecom', 'telco', 'network']
+      'Government': ['government', 'offentlig', 'forvaltning', 'municipality', 'federal', 'public-sector', 'defense', 'military', 'gov'],
+      'Healthcare': ['healthcare', 'hospital', 'medical', 'health', 'healthcare-data'],
+      'Finance': ['banking', 'finance', 'bank', 'financial', 'defi', 'cryptocurrency', 'crypto', 'fintech'],
+      'Technology': ['data/it', 'tech', 'software', 'it', 'cloud', 'data', 'enterprise', 'saas', 'cyber', 'microsoft', 'aws', 'google', 'azure', 'offentlig/microsoft'],
+      'Education': ['education', 'university', 'school', 'academic', 'academia', 'edu'],
+      'Energy': ['energy', 'power', 'utility', 'electric', 'critical-infrastructure', 'oil', 'gas'],
+      'Retail': ['retail', 'store', 'commerce', 'e-commerce', 'ecommerce', 'shopping'],
+      'Manufacturing': ['manufacturing', 'industrial', 'automotive', 'factory'],
+      'Transportation': ['transport', 'airline', 'shipping', 'aviation', 'logistics'],
+      'Telecommunications': ['telecom', 'telco', 'network', 'isp', 'connectivity']
     }
 
     filteredIncidents.forEach(incident => {
       if (incident.tags) {
-        const tagsLower = incident.tags.map(t => t.toLowerCase())
-        let sectorFound = false
+        const tagsLower = incident.tags.filter(t => typeof t === 'string').map(t => t.toLowerCase())
+        const matchedSectors = new Set()
         
         for (const [sector, keywords] of Object.entries(sectorKeywords)) {
           if (keywords.some(keyword => tagsLower.some(tag => tag.includes(keyword)))) {
-            aggregated.stats.sectors[sector] = (aggregated.stats.sectors[sector] || 0) + 1
-            sectorFound = true
-            break // Only count once per incident
+            matchedSectors.add(sector)
           }
         }
         
-        // Check in title and summary as well
-        if (!sectorFound && incident.title) {
+        // Check in title as well
+        if (matchedSectors.size === 0 && incident.title) {
           const titleLower = incident.title.toLowerCase()
           for (const [sector, keywords] of Object.entries(sectorKeywords)) {
             if (keywords.some(keyword => titleLower.includes(keyword))) {
-              aggregated.stats.sectors[sector] = (aggregated.stats.sectors[sector] || 0) + 1
-              break
+              matchedSectors.add(sector)
             }
           }
         }
+        
+        // Count each matched sector once per incident
+        matchedSectors.forEach(sector => {
+          aggregated.stats.sectors[sector] = (aggregated.stats.sectors[sector] || 0) + 1
+        })
       }
     })
 
     // Calculate attack types from tags
     const attackTypeKeywords = {
-      'Ransomware': ['ransomware', 'lockbit', 'blackcat', 'alphv'],
-      'DDoS': ['ddos', 'denial-of-service', 'dos'],
-      'Malware': ['malware', 'trojan', 'virus', 'botnet', 'worm'],
-      'Phishing': ['phishing', 'spear-phishing', 'social-engineering'],
-      'Data Breach': ['breach', 'data-breach', 'leak', 'exfiltration'],
-      'APT': ['apt', 'advanced-persistent', 'nation-state', 'state-sponsored'],
-      'Supply Chain': ['supply-chain', 'third-party', 'vendor'],
-      'Zero-Day': ['zero-day', '0day', 'vulnerability', 'exploit'],
-      'Cryptomining': ['cryptomining', 'cryptojacking', 'mining'],
-      'Spyware': ['spyware', 'surveillance', 'stalkerware']
+      'Data Breach': ['breach', 'data-breach', 'leak', 'exfiltration', 'data-theft', 'data-exposure', 'data-exfiltration', 'exposed', 'stolen'],
+      'Malware': ['malware', 'trojan', 'virus', 'botnet', 'worm', 'rat', 'dcrat', 'darkspectre', 'backdoor', 'rootkit'],
+      'Ransomware': ['ransomware', 'lockbit', 'blackcat', 'alphv', 'clop', 'ransom', 'encryption'],
+      'APT/State-Sponsored': ['apt', 'advanced-persistent', 'nation-state', 'state-sponsored', 'china', 'chinese', 'iranian', 'russian', 'geopolitical', 'espionage'],
+      'Vulnerability/Exploit': ['zero-day', '0day', 'vulnerability', 'exploit', 'exploitation', 'cve-', 'patch', 'unpatched'],
+      'Phishing': ['phishing', 'spear-phishing', 'social-engineering', 'bec', 'email-spoofing', 'credential'],
+      'DDoS': ['ddos', 'denial-of-service', 'dos', 'hacktivist', 'disruption'],
+      'Spyware': ['spyware', 'surveillance', 'stalkerware', 'commercial-spyware', 'monitoring'],
+      'Cryptomining': ['cryptomining', 'cryptojacking', 'mining', 'crypto'],
+      'Disinformation': ['disinformation', 'deepfake', 'ai-abuse', 'misinformation', 'propaganda']
     }
 
     filteredIncidents.forEach(incident => {
       if (incident.tags) {
-        const tagsLower = incident.tags.map(t => t.toLowerCase())
-        let typeFound = false
+        const tagsLower = incident.tags.filter(t => typeof t === 'string').map(t => t.toLowerCase())
+        const matchedTypes = new Set()
         
         for (const [attackType, keywords] of Object.entries(attackTypeKeywords)) {
           if (keywords.some(keyword => tagsLower.some(tag => tag.includes(keyword)))) {
-            aggregated.stats.attackTypes[attackType] = (aggregated.stats.attackTypes[attackType] || 0) + 1
-            typeFound = true
-            break // Only count once per incident
+            matchedTypes.add(attackType)
           }
         }
         
         // Check in title as well
-        if (!typeFound && incident.title) {
+        if (matchedTypes.size === 0 && incident.title) {
           const titleLower = incident.title.toLowerCase()
           for (const [attackType, keywords] of Object.entries(attackTypeKeywords)) {
             if (keywords.some(keyword => titleLower.includes(keyword))) {
-              aggregated.stats.attackTypes[attackType] = (aggregated.stats.attackTypes[attackType] || 0) + 1
-              break
+              matchedTypes.add(attackType)
             }
           }
         }
+        
+        // Count each matched attack type once per incident
+        matchedTypes.forEach(attackType => {
+          aggregated.stats.attackTypes[attackType] = (aggregated.stats.attackTypes[attackType] || 0) + 1
+        })
       }
     })
 
@@ -247,17 +251,17 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
         {/* Statistics Overview */}
         <div className="dashboard-card stats-card">
           <h3>📊 Statistics</h3>
-          <div className="stat-item">
+          <div className="stat-item interactive-stat" title="Total number of incidents recorded in 2026">
             <span className="stat-label">Total incidents:</span>
-            <span className="stat-value">{dashboardData.stats.totalIncidents}</span>
+            <span className="stat-value highlight-number">{dashboardData.stats.totalIncidents.toLocaleString()}</span>
           </div>
-          <div className="stat-item">
+          <div className="stat-item interactive-stat" title="Unique threat actors identified">
             <span className="stat-label">Unique threat actors:</span>
-            <span className="stat-value">{dashboardData.stats.uniqueThreatActors}</span>
+            <span className="stat-value highlight-number">{dashboardData.stats.uniqueThreatActors.toLocaleString()}</span>
           </div>
-          <div className="stat-item">
+          <div className="stat-item interactive-stat" title="Curated narrative reports">
             <span className="stat-label">Curated reports:</span>
-            <span className="stat-value">{dashboardData.stats.reportedIncidents}</span>
+            <span className="stat-value highlight-number">{dashboardData.stats.reportedIncidents.toLocaleString()}</span>
           </div>
         </div>
 
@@ -286,9 +290,9 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
             <ul className="sector-list">
               {Object.entries(dashboardData.stats.sectors)
                 .sort((a, b) => b[1] - a[1])
-                .slice(0, 5)
+                .slice(0, 10)
                 .map(([sector, count]) => (
-                  <li key={sector} className="sector-item">
+                  <li key={sector} className="sector-item" title={`${count} incident${count !== 1 ? 's' : ''} in ${sector}`}>
                     <span className="sector-name">{sector}</span>
                     <span className="sector-count">{count}</span>
                   </li>
@@ -306,9 +310,9 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
             <ul className="attack-type-list">
               {Object.entries(dashboardData.stats.attackTypes)
                 .sort((a, b) => b[1] - a[1])
-                .slice(0, 5)
+                .slice(0, 10)
                 .map(([type, count]) => (
-                  <li key={type} className="attack-type-item">
+                  <li key={type} className="attack-type-item" title={`${count} incident${count !== 1 ? 's' : ''} of ${type}`}>
                     <span className="attack-type-name">{type}</span>
                     <span className="attack-type-count">{count}</span>
                   </li>
