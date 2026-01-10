@@ -1,5 +1,137 @@
 [
   {
+    "id": "20261528",
+    "date": "2026-01-10",
+    "title": "Overvåkingskameraer ved NTNU kan ha vært åpent tilgjengelige i over seks år",
+    "summary": "Et trettitalls kameraer beregnet til opptak av forelesninger ved universitetet NTNU kan ha vært åpent tilgjengelig på nett i over seks år.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/overvakingskameraer-ved-ntnu-kan-ha-vaert-apent-tilgjengelige-i-over-seks-ar/566794",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261529",
+    "date": "2026-01-10",
+    "title": "MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors",
+    "summary": "The Iranian threat actor known as MuddyWater has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based implant codenamed RustyWater. \"The campaign uses icon spoofing and malicious Word documents to deliver...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261530",
+    "date": "2026-01-10",
+    "title": "Ireland recalls almost 13,000 passports over missing 'IRL' code",
+    "summary": "Ireland's Department of Foreign Affairs has recalled nearly 13,000 passports after a software update caused a printing defect. The printing error makes the documents non-compliant with international travel standards and potentially unreadable at automated border gates. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ireland-recalls-almost-13-000-passports-over-missing-irl-code/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261531",
+    "date": "2026-01-10",
+    "title": "Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime",
+    "summary": "Europol on Friday announced the arrest of 34 individuals in Spain who are alleged to be part of an international criminal organization called Black Axe. As part of an operation conducted by the Spanish National Police, in coordination with the Bavarian State Criminal Police Office and Europol, 28...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/europol-arrests-34-black-axe-members-in.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261532",
+    "date": "2026-01-10",
+    "title": "Key Areas of Convergence for IT-OT Security in Energy Sector - BankInfoSecurity",
+    "summary": "\"The same tooling can be used to measure cybersecurity risk and to drive action plans,\" he said. \"The GRC aspect is the same. Our cyber defense center ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/key-areas-convergence-for-it-ot-security-in-energy-sector-a-30485",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261533",
+    "date": "2026-01-10",
+    "title": "Understanding the Cyber Risks Flooding the Water and Wastewater Systems Sector",
+    "summary": "... cybersecurity practices are in place can significantly reduce the impact of their cyber attacks. ... 1: U.S. Cybersecurity & Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fticonsulting.com/insights/articles/understanding-cyber-risks-flooding-water-wastewater-systems-sector",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261534",
+    "date": "2026-01-10",
+    "title": "Identity Management and Information Security News for the Week of January 9th",
+    "summary": "Keeper Security, a zero-trust and zero-knowledge cybersecurity software, has launched its JetBrains extension. The new offering will provide JetBrains ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://solutionsreview.com/security-information-event-management/identity-management-and-information-security-news-for-the-week-of-january-9th/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261535",
+    "date": "2026-01-10",
+    "title": "Top 10 Best-Paid Cybersecurity Jobs in 2026 (Highest Salary Roles Ranked)",
+    "summary": "Table of Contents. Why Salary Isn't Everything in Cybersecurity; Chief Information Security Officer; Principal Cybersecurity Engineer; Lead Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nucamp.co/blog/top-10-best-paid-cybersecurity-jobs-in-2026-highest-salary-roles-ranked",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261536",
+    "date": "2026-01-10",
+    "title": "Microsoft enforces admin MFA, Cisco patches ISE, Illinois breaches self - CISO Series",
+    "summary": "Cybersecurity Headlines · In today's cybersecurity news… · Microsoft to enforce MFA for Microsoft 365 admin center sign-ins · Cisco patches ISE security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-microsoft-enforces-admin-mfa-cisco-patches-ise-illinois-breaches-self/",
+    "tags": [
+      "data-breach",
+      "microsoft",
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261527",
     "date": "2026-01-10",
     "title": "[Ekstra] Amerikansk system var hackernes vei inn: – Vi har mistet tilliten",
