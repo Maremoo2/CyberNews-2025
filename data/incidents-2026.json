@@ -1,5 +1,280 @@
 [
   {
+    "id": "20261537",
+    "date": "2026-01-10",
+    "title": "BreachForums hacking forum database leaked, exposing 324,000 accounts",
+    "summary": "The latest incarnation of the notorious BreachForums hacking forum has suffered a data breach, with its user database table leaked online. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261538",
+    "date": "2026-01-10",
+    "title": "Spain arrests 34 suspects linked to Black Axe cyber crime",
+    "summary": "Authorities in Spain have arrested 34 individuals allegedly part of a criminal network involved in cyber fraud and believed to be connected to the Black Axe group responsible for illicit activities across Europe. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261539",
+    "date": "2026-01-10",
+    "title": "Her er det dansen som lagar musikken",
+    "summary": "Ved hjelp av muskel- og bevegelsessensorar vert dansen omskapa til elektroniske lydar.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/her-er-det-dansen-som-lagar-musikken/566287",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261540",
+    "date": "2026-01-10",
+    "title": "Japan to enforce cyber measures to neutralize hostile servers",
+    "summary": "... cyber threats. It described state-sponsored attacks as a serious threat to Japan's national security and vowed to \"proactively defend against and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://japantoday.com/category/national/Japan-to-enforce-cyber-measures-to-neutralize-hostile-servers",
+    "tags": [
+      "state-sponsored",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261541",
+    "date": "2026-01-10",
+    "title": "Cybersecurity Fails Without Strong Infrastructure, Leadership - European Business Magazine",
+    "summary": "... Cyber Security Speakers Agency. In the following interview, Dan shares his expert perspective on infrastructure resilience, cyber defence ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://europeanbusinessmagazine.com/business/why-cybersecurity-fails-without-strong-infrastructure-and-leadership-says-former-us-cyber-chief-dan-lohrmann/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261542",
+    "date": "2026-01-10",
+    "title": "Law firms in Canada need to collaborate on a vendor-neutral cybersecurity framework",
+    "summary": "I was working inside one of the world's largest law firms, assessing our cybersecurity practices against well-known information security frameworks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.canadianlawyermag.com/news/opinion/law-firms-in-canada-need-to-collaborate-on-a-vendor-neutral-cybersecurity-framework/393564",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261543",
+    "date": "2026-01-10",
+    "title": "Should the UK cyber resilience bill cover the public sector? - The Register",
+    "summary": "Security requirements often differ between types of organization, so potentially reserving a public sector-specific cybersecurity bill could be the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/10/csr_bill_analysis/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261544",
+    "date": "2026-01-10",
+    "title": "The US doesn't need a Cyber Force: it needs to prioritize cybersecurity - The Hill",
+    "summary": "Tags cyber security Cyberspace Solarium Commission Rep. Pat Fallon Space Force Trump administration U.S. armed forces U.S. Cyber Force. Copyright ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehill.com/opinion/cybersecurity/5681519-cyber-force-armed-services/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261545",
+    "date": "2026-01-10",
+    "title": "Ransomware Attack on Texas Gas Station Firm Leaks 377,000 User Records - Cyber Press",
+    "summary": "This marks the first breach notification from the organization within the past 12 months. This incident highlights the ongoing cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/ransomware-attack-on-texas-gas-station/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261546",
+    "date": "2026-01-10",
+    "title": "Expert Edition: Future-ready development: Secure, smart, AI-driven - Federal News Network",
+    "summary": "Pentagon rolls out RMF replacement, the Cybersecurity Risk Management Construct – Katie Arrington on the Defense Department's cultural shift toward ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/cme-event/federal-insights/expert-edition-future-ready-development-secure-smart-ai-driven/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261547",
+    "date": "2026-01-10",
+    "title": "Software supply chain threats are finally on the OWASP Top 10 | SC Media",
+    "summary": "... cyber attack on text code in an editor. (Adobe Stock). Software supply chain security is steadily moving to the forefront of cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scworld.com/perspective/software-supply-chain-threats-are-finally-on-the-owasp-top-10",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261548",
+    "date": "2026-01-10",
+    "title": "Radware Discloses ZombieAgent Technique to Compromise AI Agents - Security Boulevard",
+    "summary": "It's now more a question of how often and to what degree these AI agents will be compromised before cybersecurity teams have the tools needed to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/radware-discloses-zombieagent-technique-to-compromise-ai-agents/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261549",
+    "date": "2026-01-10",
+    "title": "The New Weak Link in Compliance Isn't Code – It's Communication - Security Boulevard",
+    "summary": "Cybersecurity has never been only a technical problem, but the balance of what truly makes an organization secure has shifted dramatically.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/the-new-weak-link-in-compliance-isnt-code-its-communication/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261550",
+    "date": "2026-01-10",
+    "title": "What Does the UK's New Cyber Defence Programme Mean? | Technology Magazine",
+    "summary": "Government initiative targets software supply chain risks and sets new cyber security standards for technology providers nationwide.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://technologymagazine.com/news/what-does-the-uks-new-cyber-defence-programme-mean",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261551",
+    "date": "2026-01-10",
+    "title": "Cyber incident recovery timelines extend up to two weeks as resilience wavers - SC Media",
+    "summary": "Infosecurity Magazine reports that cybersecurity incidents ... information security officers in the U.S. and the UK showed. However ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scworld.com/brief/cyber-incident-recovery-timelines-extend-up-to-two-weeks-as-resilience-wavers",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261552",
+    "date": "2026-01-10",
+    "title": "Top 10 Entry-Level Cybersecurity Jobs in 2026 (Roles, Pay Signals, and Skills)",
+    "summary": "With overall information security analyst roles projected to grow over 30% this decade, SOC work stays high on the priority list for large ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nucamp.co/blog/top-10-entry-level-cybersecurity-jobs-in-2026-roles-pay-signals-and-skills",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261553",
+    "date": "2026-01-10",
+    "title": "AI Deployments Targeted in 91,000+ Attack Sessions | eSecurity Planet",
+    "summary": "Ken Underhill is an award-winning cybersecurity professional, bestselling author, and seasoned IT professional. He holds a graduate degree in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ai-deployments-targeted-in-91000-attack-sessions/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261554",
+    "date": "2026-01-10",
+    "title": "News brief: AI threats to shape 2026 cybersecurity | TechTarget",
+    "summary": "AI-driven cyberattacks push CIOs to strengthen security measures. As AI accelerates innovation, it also introduces significant cyber-risks. Nearly 90% ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.techtarget.com/searchsecurity/news/366637045/News-brief-AI-threats-to-shape-2026-cybersecurity",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261555",
+    "date": "2026-01-10",
+    "title": "OWASP CRS Flaw Lets Encoded Attacks Slip Past WAFs | eSecurity Planet",
+    "summary": "Learn about the fundamentals of network security and how to protect your organization from cyber threats. ... cybersecurity topics. facebook.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/owasp-crs-flaw-lets-encoded-attacks-slip-past-wafs/",
+    "tags": [
+      "vulnerability",
+      "facebook",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261528",
     "date": "2026-01-10",
     "title": "Overvåkingskameraer ved NTNU kan ha vært åpent tilgjengelige i over seks år",
