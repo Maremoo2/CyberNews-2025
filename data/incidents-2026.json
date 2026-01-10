@@ -1,5 +1,317 @@
 [
   {
+    "id": "20261506",
+    "date": "2026-01-10",
+    "title": "Anthropic: Viral Claude “Banned and reported to authorities” message isn’t real",
+    "summary": "Anthropic has denied reports of banning legitimate accounts, after a viral post on X claimed the creator of Claude had banned a user. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-viral-claude-banned-and-reported-to-authorities-message-isnt-real/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261515",
+    "date": "2026-01-10",
+    "title": "FTC Announces Settlement With Crypto Firm Over Exploited Security Vulnerability",
+    "summary": "... information security program and to cooperate with the third-party assessor. This action reflects the FTC's longstanding focus on cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.regulatoryoversight.com/2026/01/ftc-announces-settlement-with-crypto-firm-over-exploited-security-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261516",
+    "date": "2026-01-10",
+    "title": "This Week in Open Source #12",
+    "summary": "by Daryl Ducharme & amanda casari, Google Open Source This Week in Open Source for January 9, 2026 A look around the world of open source Here we are at the beginning of a new year. What will it bring to the open source world? What new projects will be started? What should we be focusing on? What...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/01/this-week-in-open-source-12.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261517",
+    "date": "2026-01-10",
+    "title": "Cybersecurity Home - University of Nevada, Las Vegas",
+    "summary": "National Security Agency (NSA); Department of Homeland Security (DHS); White House Office of the National Cyber Director (ONCD); Cybersecurity and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.unlv.edu/cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261518",
+    "date": "2026-01-10",
+    "title": "Updates to NIST Cybersecurity Guidance Show Continued Focus on Cloud Services",
+    "summary": "Recent draft cybersecurity guidance from the National Institute ... Security's Cybersecurity and Infrastructure Security Agency (CISA). The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/updates-to-nist-cybersecurity-guidance-3370720/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261507",
+    "date": "2026-01-09",
+    "title": "ChatGPT tests a new feature to find jobs, improve your resume, and more",
+    "summary": "OpenAI is testing \"Jobs,\" a new feature that could help you explore roles, improve your resume, and plan your career. This feature is being tested after ChatGPT gained support for the Health dashboard. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-a-new-feature-to-find-jobs-improve-your-resume-and-more/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261508",
+    "date": "2026-01-09",
+    "title": "Deepfake Fraud Tools Are Lagging Behind Expectations",
+    "summary": "Deepfakes are becoming more realistic and more popular. Luckily, defenders are still ahead in the arms race.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/deepfake-fraud-tools-lag-expectations",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261509",
+    "date": "2026-01-09",
+    "title": "Hegseth, Gabbard tap Tim Kosiba as NSA deputy director after months of cyber leadership tumult",
+    "summary": "The post Hegseth, Gabbard tap Tim Kosiba as NSA deputy director after months of cyber leadership tumult appeared first on CyberScoop.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://defensescoop.com/2026/01/09/nsa-tim-kosiba-deputy-director-trump-administration/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261510",
+    "date": "2026-01-09",
+    "title": "Microsoft may soon allow IT admins to uninstall Copilot",
+    "summary": "Microsoft is testing a new policy that allows IT administrators to uninstall the AI-powered Copilot digital assistant on managed devices. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-soon-allow-it-admins-to-uninstall-copilot-on-managed-devices/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261511",
+    "date": "2026-01-09",
+    "title": "Hackers target misconfigured proxies to access paid LLM services",
+    "summary": "Threat actors are systematically hunting for misconfigured proxy servers that could provide access to commercial large language model (LLM) services. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-misconfigured-proxies-to-access-paid-llm-services/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261512",
+    "date": "2026-01-09",
+    "title": "Dems pressure Google, Apple to drop X app as international regulators turn up heat",
+    "summary": "A trio of Senate Democrats are calling on Apple and Google to drop Elon Musk’s X from app stores as international regulators in Europe and Britain took steps towards investigations of the site’s mass undressing of users using Grok’s AI tool. On Friday, Senators Ron Wyden, D-Ore., Ben Ray Luján, D...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/senators-ask-apple-google-remove-x-after-grok-ai-sexual-deepfakes/",
+    "tags": [
+      "malware",
+      "google",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261513",
+    "date": "2026-01-09",
+    "title": "Basketball player arrested for alleged ransomware ties freed in Russia-France prisoner swap",
+    "summary": "Daniil Kasatkin, 26, was seen in a video shared by Russian state news outlet TASS emerging from a plane that was then used to send French researcher Laurent Vinatier back to France.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/france-frees-russian-basketball-player-ransomware-swap",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261514",
+    "date": "2026-01-09",
+    "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+    "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far back as February 2024. Cybersecurity firm Huntress, which observed the activity in December 2025 and...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261519",
+    "date": "2026-01-09",
+    "title": "Announcing larger managed database bundles for Amazon Lightsail",
+    "summary": "Amazon Lightsail now offers two larger database bundles with up to 8 vCPUs, 32GB memory, and 960GB SSD storage. The new database bundles are available in both standard and high-availability plans. You can create MySQL and PostgreSQL databases using the new Lightsail managed database bundles. The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/larger-managed-database-bundles-lightsail/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261520",
+    "date": "2026-01-09",
+    "title": "Amazon EMR Serverless adds support for job run level cost allocation",
+    "summary": "Amazon EMR Serverless now supports job run-level cost allocation that provides better visibility into charges for individual job runs by allowing you to configure granular billing attribution at the individual job run level. You can get granular cost visibility by filtering and tracking costs in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261521",
+    "date": "2026-01-09",
+    "title": "Telecom sector faced immense pressure from ransomware groups in 2025",
+    "summary": "... cybersecurity and defenses against evolving threats ... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/telecom-sector-faced-immense-pressure-from-ransomware-groups-in-2025/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261522",
+    "date": "2026-01-09",
+    "title": "Exploit for VMware Zero-Day Flaws Likely Built a Year Before Public Disclosure",
+    "summary": "The National Security Agency appointed Timothy Kosiba as its 21st Deputy Director. · Jumpmind has appointed Eric Zielinski as Chief Information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/exploit-for-vmware-zero-day-flaws-likely-built-a-year-before-public-disclosure/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261523",
+    "date": "2026-01-09",
+    "title": "Insights on US National Security Strategy: Perspectives from Cybersecurity Expert Ken Westbrook",
+    "summary": "Distinguished Fellow Ken Westbrook argues that the National Security Strategy could have done more to recognize cyber-enabled financial crime as a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wilsoncenter.org/article/insights-us-national-security-strategy-perspectives-cybersecurity-expert-ken-westbrook",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261524",
+    "date": "2026-01-09",
+    "title": "Amazon RDS for SQL Server now supports cross-region read replica in additional AWS Regions",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports setting up cross-region read replicas in 16 additional AWS Regions. Cross-region read replicas enable customers to provide a replica database for read-only applications closer to users in a different region, and scale out...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-cross-region-read-replica-in-additional-aws-regions/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261525",
+    "date": "2026-01-09",
+    "title": "CISA Retires 10 Emergency Directives, Marking an Era in Federal Cybersecurity - LinkedIn",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has formally retired 10 emergency cybersecurity directives issued between 2019 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/cisaretires10emergencydirectives-marking-era-federal-drsqe",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261526",
+    "date": "2026-01-09",
+    "title": "WiCyS launches applied GRC training as demand grows for risk-focused cybersecurity roles",
+    "summary": "It is so energizing to me to see students go from only basic understanding at the beginning of the course to being able to present a security posture ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/wicys-launches-applied-grc-training-as-demand-grows-for-risk-focused-cybersecurity-roles/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261480",
     "date": "2026-01-09",
     "title": "Illicit Crypto Economy Surges as Nation-States Join in the Fray",
