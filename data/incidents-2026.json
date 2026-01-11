@@ -1,5 +1,178 @@
 [
   {
+    "id": "20261556",
+    "date": "2026-01-11",
+    "title": "Microsoft is retiring 'Send to Kindle' in Word",
+    "summary": "Microsoft is retiring a feature that allowed you to send your documents to Kindle straight from Microsoft Word. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261557",
+    "date": "2026-01-10",
+    "title": "How to stay ahead with Agentic AI in cybersecurity? - Security Boulevard",
+    "summary": "What Role Do Non-Human Identities Play in Enhancing Cybersecurity? · Understanding NHIs and Their Importance · Lifecycle Management: A Holistic Approach.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/how-to-stay-ahead-with-agentic-ai-in-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261558",
+    "date": "2026-01-10",
+    "title": "Trend Micro patches critical flaws in its Apex Central software - CSO Online",
+    "summary": "What makes the attack particularly insidious, he said, is that attackers don't need to log into the server or copy files onto it. “They simply can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4115151/trend-micro-patches-critical-flaws-in-its-apex-central-software.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261559",
+    "date": "2026-01-10",
+    "title": "ZombieAgent ChatGPT attack shows persistent data leak risks of AI agents - CSO Online",
+    "summary": "Researchers have found new ways to turn ChatGPT into a data exfiltration tool and even use it as a persistent backdoor. The new ZombieAgent techniques ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4115110/zombieagent-chatgpt-attack-shows-persistent-data-leak-risks-of-ai-agents.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261560",
+    "date": "2026-01-10",
+    "title": "Medical technologies in defence and aerospace: Key themes and emerging questions in regulation",
+    "summary": "In practice, aligning device cybersecurity claims with defence‑network security ... What's New with the Cyber Security & Resilience Bill - Learn Live.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=1961cd5f-18a8-45bb-974c-8d781f2fcea4",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261561",
+    "date": "2026-01-10",
+    "title": "Tech Billionaire Says It's Time for the Government to Suspend Freedom of Speech",
+    "summary": "Israeli cybersecurity billionaire Shlomo Kramer has called for ... web security firm Imperva for $3.6 billion. Now CEO of cloud security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://futurism.com/future-society/tech-billionaire-shlomo-kramer-speech",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261562",
+    "date": "2026-01-10",
+    "title": "Instagram Password Reset Attacks — Users Must Check 1 Thing Now - Forbes",
+    "summary": "If you get this message from Instagram and were not expecting it, you have found yourself in the crosshairs of an ongoing account attack. It now seems ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.forbes.com/sites/daveywinder/2026/01/10/instagram-password-reset-attacks---users-must-check-1-thing-now/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261563",
+    "date": "2026-01-10",
+    "title": "CrowdStrike Adds Real-Time Identity Control With SGNL Deal - BankInfoSecurity",
+    "summary": "\"This whole notion of continuous and real-time access is new,\" Bernard told Information Security Media Group. ... cybersecurity vendors at CRN ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/crowdstrike-adds-real-time-identity-control-sgnl-deal-a-30487",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261564",
+    "date": "2026-01-10",
+    "title": "FBI warns of attacks by North Korean cyber threat group using malicious QR codes | AHA News",
+    "summary": "The Cybersecurity and Infrastructure Security Agency Dec. 11 released an update to its voluntary Cybersecurity Performance Goals, which includes ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aha.org/news/headline/2026-01-09-fbi-warns-attacks-north-korean-cyber-threat-group-using-malicious-qr-codes",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261565",
+    "date": "2026-01-10",
+    "title": "Why CTEM is the answer to boardroom pressure and security fatigue - TechRadar",
+    "summary": "Cybersecurity leaders face a familiar challenge. They have more tools, data, and automation than ever before, yet many don't feel any more in control ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.techradar.com/pro/why-ctem-is-the-answer-to-boardroom-pressure-and-security-fatigue",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261566",
+    "date": "2026-01-10",
+    "title": "RSAC: Cybersecurity resilience and the future of trust - SiliconANGLE",
+    "summary": "Tune in to RSAC 2026 where theCUBE talks to experts about cybersecurity resilience. SECURITY. Cybersecurity resilience takes center stage at RSAC 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://siliconangle.com/2026/01/09/cybersecurity-resilience-takes-center-stage-thecube-rsac26/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261567",
+    "date": "2026-01-10",
+    "title": "Network Security Fundamentals in 2026: Protocols, Firewalls, Segmentation, and VPNs",
+    "summary": "Network Security Fundamentals in 2026: a complete guide to protocols, firewalls, segmentation, VPNs, Zero Trust, detection, response, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nucamp.co/blog/network-security-fundamentals-in-2026-protocols-firewalls-segmentation-and-vpns",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261537",
     "date": "2026-01-10",
     "title": "BreachForums hacking forum database leaked, exposing 324,000 accounts",
