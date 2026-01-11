@@ -1,5 +1,121 @@
 [
   {
+    "id": "20261577",
+    "date": "2026-01-11",
+    "title": "Øyeprofessor:  Etterlyser skjermvett i nye skjermråd",
+    "summary": "Skjermvett er viktigere enn stoppeklokke, mener rådgivende øyeprofessor Tor Paaske Utheim i Norges Blindeforbund.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/oyeprofessor-etterlyser-skjermvett-i-nye-skjermrad/566800",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261578",
+    "date": "2026-01-11",
+    "title": "YARA-X 1.10.1 Release: Hash Function Warnings, (Sun, Jan 11th)",
+    "summary": "YARA-X's 1.11.0 release brings a new feature: hash function warnings. When you write a YARA rule to match a cryptographic hash (either the full file content or a part of it), what's actually going on are string comparisons: Function hash.sha256 returns a string (the hexadecimal SHA256 hash it cal...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32616",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261579",
+    "date": "2026-01-11",
+    "title": "Health ministry review to assess ManageMyHealth cybersecurity breach | NZ Lawyer",
+    "summary": "Commissioner notes potential Privacy Act breach on security of personal information.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thelawyermag.com/nz/practice-areas/tmt-telecoms-media-technology/health-ministry-review-to-assess-managemyhealth-cybersecurity-breach/561573",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261580",
+    "date": "2026-01-11",
+    "title": "Week in review: PoC for Trend Micro Apex Central RCE released, Patch Tuesday forecast",
+    "summary": "The UK has announced a new Government Cyber Action Plan aimed at making online public services more secure and resilient, and has allocated £210 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/11/week-in-review-poc-for-trend-micro-apex-central-rce-released-patch-tuesday-forecast/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261581",
+    "date": "2026-01-11",
+    "title": "Industrial cyber governance hits inflection point, shifts toward measurable resilience and ...",
+    "summary": "This reframes OT security spending as a risk mitigation measure with measurable business value, rather than a discretionary cost. Human factors remain ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/features/industrial-cyber-governance-hits-inflection-point-shifts-toward-measurable-resilience-and-executive-accountability/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261582",
+    "date": "2026-01-11",
+    "title": "Ai Proofing Your It/cyber Career: The Human Only Capabilities That Matter",
+    "summary": "... IT, software development, systems administration, and cybersecurity. I ... Security Creators Network · Latest Posts · Syndicate Your Blog · Write ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/ai-proofing-your-it-cyber-career-the-human-only-capabilities-that-matter/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261583",
+    "date": "2026-01-11",
+    "title": "Cybersecurity Experts Weigh In On Concerns About iPhone Airplay Settings | HuffPost Life",
+    "summary": "People across the internet have been sounding the alarm about potential security risks connected to an iPhone setting that you may not have ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huffpost.com/entry/iphone-airplay-settings-concern-goog_l_695fce1be4b05f1e1aabeb04",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261584",
+    "date": "2026-01-11",
+    "title": "New MacSync Stealer Uses Signed macOS App to Evade Gatekeeper and Steal Data",
+    "summary": "Divya is a Senior Journalist at Cyber Security news covering Cyber Attacks, Threats, Breaches, Vulnerabilities and other happenings in the cyber world ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecuritynews.com/macsync-stealer-signed-macos-app-and-steal-data/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261568",
     "date": "2026-01-11",
     "title": "[Ekstra] Dette er mobilen for deg som synes teknologi har blitt for «bråkete»",
