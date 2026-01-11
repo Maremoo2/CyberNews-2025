@@ -1,5 +1,137 @@
 [
   {
+    "id": "20261568",
+    "date": "2026-01-11",
+    "title": "[Ekstra] Dette er mobilen for deg som synes teknologi har blitt for «bråkete»",
+    "summary": "Clicks lanserer ny, «lavteknologisk» mobil beregnet på teksting.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/dette-er-mobilen-for-deg-som-synes-teknologi-har-blitt-for-brakete/566515",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261569",
+    "date": "2026-01-11",
+    "title": "17.5 Million Instagram Accounts Exposed in Major Data Leak - Cyber Press",
+    "summary": "... Cyber Security · Cyber security news · Facebook · Twitter · Pinterest · WhatsApp · AnuPriya. Any Priya is a cybersecurity reporter at Cyber Press ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/instagram-data-leak/",
+    "tags": [
+      "data-breach",
+      "facebook",
+      "twitter",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261570",
+    "date": "2026-01-11",
+    "title": "CISA Urges Emergency Patching for Actively Exploited HPE OneView Flaw - Hackread",
+    "summary": "Randolph Barr, Chief Information Security Officer at Cequence Security ... Cyber Attack · Cybersecurity · Hewlett Packard Enterprise · HPE · KEV ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://hackread.com/cisa-emergency-patching-exploit-hpe-oneview-flaw/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261571",
+    "date": "2026-01-11",
+    "title": "ISF warns geopolitics will be the defining cybersecurity risk of 2026 - Herald-Tribune",
+    "summary": "... cybersecurity risk of 2026, the Information Security Forum warns, as nation states intensify digital espionage and pressure on critical ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.heraldtribune.com/press-release/story/121960/isf-warns-geopolitics-will-be-the-defining-cybersecurity-risk-of-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261572",
+    "date": "2026-01-11",
+    "title": "Wahaya IT Enhances Cybersecurity for Louisiana SMBs - The Des Moines Register",
+    "summary": "The sensitive nature of financial data necessitates that these organizations adopt robust security measures. Wahaya IT's comprehensive cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.desmoinesregister.com/press-release/story/20241/wahaya-it-enhances-cybersecurity-for-louisiana-smbs/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261573",
+    "date": "2026-01-11",
+    "title": "BUSINESS COLUMN: What's the best antivirus program for 2026? - Norman Transcript",
+    "summary": "Cyberwarfare · Technology · Computer Network Security · Information Technology · Security Technology · Digital Media · Information Age · Secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.normantranscript.com/community/business-column-whats-the-best-antivirus-program-for-2026/article_5911e92f-f4e2-4a29-be6b-76c81270b044.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261574",
+    "date": "2026-01-11",
+    "title": "Urgent warning as Instagram users targeted by surge in 'password reset' attacks",
+    "summary": "Cybersecurity experts are urging Instagram users to take immediate action to secure their accounts. They recommend enabling multi-factor ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.the-sun.com/tech-old/15762465/instagram-accounts-exposed-users-targeted-password-reset-attacks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261575",
+    "date": "2026-01-11",
+    "title": "Leveraging OSINT Tools for Enhanced Cybersecurity Threat Intelligence",
+    "summary": "It allows security professionals to discover devices and services exposed to the public internet, such as web servers, databases, and industrial ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecuritynews.com/osint-tools-for-cybersecurity-threat-intelligence/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261576",
+    "date": "2026-01-11",
+    "title": "House Hearing to Focus on Bills to Bolster Energy Sector Cybersecurity - VitalLaw.com",
+    "summary": "... cybersecurity threats, and increase physical security,” the lawmakers added. The hearing is scheduled for 10:15 a.m. in Room 2123 of the Rayburn ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.vitallaw.com/news/house-hearing-to-focus-on-bills-to-bolster-energy-sector-cybersecurity/cspd0183b7c595b8cd4aca96d852037add688b",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261556",
     "date": "2026-01-11",
     "title": "Microsoft is retiring 'Send to Kindle' in Word",
