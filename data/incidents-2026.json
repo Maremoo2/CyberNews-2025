@@ -1,5 +1,315 @@
 [
   {
+    "id": "20261585",
+    "date": "2026-01-11",
+    "title": "Én av ti gutter blir avhengige av gaming",
+    "summary": "Spiller ungene mye dataspill? For noen blir det altfor mye gaming. Forskere har funnet de viktigste faresignalene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/en-av-ti-gutter-blir-avhengige-av-gaming/566743",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261586",
+    "date": "2026-01-11",
+    "title": "Cyber startup Torq joins unicorn ranks after $140 million raise at $1.2 billion valua | Ctech",
+    "summary": "Cybersecurity company Torq, which develops a platform for managing security operations centers through autonomous AI agents, has raised $140 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/bkaxxwwhzx",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261587",
+    "date": "2026-01-11",
+    "title": "A 2025 security breach exposed over 184 million private passwords. How to stay safe while ...",
+    "summary": "Cybersecurity researcher Jeremiah Fowler discovered an unprotected online database in May 2025, exposing over 184 million records — including email ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/2025-security-breach-exposed-over-161500826.html",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261588",
+    "date": "2026-01-11",
+    "title": "MeitY is conducting routine stakeholder consultations on safety and security requirements ... - PIB",
+    "summary": "It remains firmly committed to strengthening cybersecurity and safeguarding the privacy of citizens. Mobile security is a critical aspect as ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213520",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261589",
+    "date": "2026-01-11",
+    "title": "Instagram says accounts 'are secure' after wave of suspicious password reset requests",
+    "summary": "Malwarebytes, an antivirus software company, initially reported that there was a data breach revealing the \"sensitive information\" of 17.5 million ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.engadget.com/cybersecurity/instagram-says-accounts-are-secure-after-wave-of-suspicious-password-reset-requests-192105188.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261590",
+    "date": "2026-01-11",
+    "title": "Malwarebytes Warns of Major Instagram Data Breach - Millions of Users At Risk! - LinkedIn",
+    "summary": "The Cyber Security Hub™. World's Premier Cyber Security Portal. Published ... Mark P. Cybersecurity & IT Technical Mentor | Senior IT Consultant | 35+ ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/malwarebytes-warns-major-instagram-data-breach-79hte",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261591",
+    "date": "2026-01-11",
+    "title": "Trends: The new era of cyber resilience - The Edge Malaysia",
+    "summary": "Artificial intelligence (AI) is changing cybersecurity for both attackers and defenders. Here are some issues we expect chief information security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://theedgemalaysia.com/node/788676",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261592",
+    "date": "2026-01-11",
+    "title": "How a veteran cybersecurity startup is leading the AI arms race - Ynetnews",
+    "summary": "As cyber threats overwhelm human teams, Intezer CEO Itai Tevet explains how forensic AI is transforming security operations, cutting alert noise ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ynetnews.com/tech-and-digital/article/rkiyisjebg",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261593",
+    "date": "2026-01-11",
+    "title": "Instagram Password Reset Attacks — Users Must Check 1 Thing Now - Forbes",
+    "summary": "It now seems possible that the surge in password reset attack attempts, and I have already received a dozen in 48 hours, could be related to a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.forbes.com/sites/daveywinder/2026/01/11/instagram-password-reset-attacks---users-must-check-1-thing-now/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261594",
+    "date": "2026-01-11",
+    "title": "Change Your Password: Data Breach May Have Impacted 17.5 Million Instagram Users",
+    "summary": "Cybersecurity firm Malwarebytes warned users about fake password reset ... security solutions · PCMag Australia News IT Security. Change Your ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://au.pcmag.com/it-security/115284/change-your-password-data-breach-may-have-impacted-175-million-instagram-users",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261595",
+    "date": "2026-01-11",
+    "title": "Businesses urged to prepare now as cyber security threats intensify - IFA Magazine",
+    "summary": "“Cyber security is no longer just an IT issue – it's a business survival issue. Those who plan ahead will be far more resilient when 2026 arrives. For ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ifamagazine.com/businesses-urged-to-prepare-now-as-cyber-security-threats-intensify/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261596",
+    "date": "2026-01-11",
+    "title": "Idle infrastructure might cause your next breach – here's how to stop it | TechRadar",
+    "summary": "The old proverb “idleness rusts the mind” doesn't have to apply to data though – new secure storage is designed to harden when it's idle, turning ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.techradar.com/pro/idle-infrastructure-might-cause-your-next-breach-heres-how-to-stop-it",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261597",
+    "date": "2026-01-11",
+    "title": "An Instagram data breach reportedly exposed the personal info of 17.5 million users",
+    "summary": "... web and can be abused by cybercriminals.\" Malwarebytes noted in an email to its customers that it discovered the breach during its routine dark web ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.engadget.com/cybersecurity/an-instagram-data-breach-reportedly-exposed-the-personal-info-of-175-million-users-192105616.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261598",
+    "date": "2026-01-11",
+    "title": "Security Affairs newsletter Round 558 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "summary": "Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. ... What is happening to the Internet in Venezuela? Did ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/186776/breaking-news/security-affairs-newsletter-round-558-by-pierluigi-paganini-international-edition.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261599",
+    "date": "2026-01-11",
+    "title": "Most Popular Cybersecurity Blogs From 2025 - Government Technology",
+    "summary": "So what cyber trends, forecasts, themes, insights and predictions are on offer for the new year? Here's your annual security industry prediction ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/most-popular-cybersecurity-blogs-from-2025",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261600",
+    "date": "2026-01-11",
+    "title": "London Creating a Government Cyber Unit for Centralized Response to Cyber Attacks",
+    "summary": "The total funding for the initiative exceeds £210 million, underscoring the priority of cyber security for London. A key element of the Plan will be ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://szru.gov.ua/en/news-media/news/london-creating-a-government-cyber-unit-for-centralized-response-to-cyber-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261601",
+    "date": "2026-01-11",
+    "title": "Cloud Strategy for 2026: the year of repatriation, resilience, and regional rebalancing",
+    "summary": "Furthermore, while the Cyber Security & Resilience Bill introduces stronger cyber security measures and clearer regulations, it also brings ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.iotinsider.com/industries/security/cloud-strategy-for-2026-the-year-of-repatriation-resilience-and-regional-rebalancing/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261602",
+    "date": "2026-01-11",
+    "title": "Data of 17.5 Million Instagram Users Allegedly Leaked - Kompas.id",
+    "summary": "... cyber attacks during the China Internet Security. AP PHOTO/MARK SCHIEFELBEIN Visitors pass by an electronic screen displaying the latest cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kompas.id/artikel/en-data-175-juta-pengguna-instagram-diduga-bocor",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261603",
+    "date": "2026-01-11",
+    "title": "Palo Alto Networks stock falls after announcing $25 billion CyberArk deal - MSN",
+    "summary": "Palo Alto Networks will takeover Israeli cybersecurity ... The company acquired Talon Cyber Security, Dig Security and Zycada Networks in 2023.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msn.com/en-us/money/technologyinvesting/palo-alto-networks-stock-falls-after-announcing-25-billion-cyberark-deal/ar-AA1JzX9n?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261604",
+    "date": "2026-01-11",
+    "title": "The CISO Expo 2026 - Help Net Security",
+    "summary": "It offers insights into emerging threats, regulatory developments, and practical approaches to improving organizational cyber resilience. Participants ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.helpnetsecurity.com/event/the-ciso-expo-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261605",
+    "date": "2026-01-11",
+    "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+    "summary": "The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261577",
     "date": "2026-01-11",
     "title": "Øyeprofessor:  Etterlyser skjermvett i nye skjermråd",
