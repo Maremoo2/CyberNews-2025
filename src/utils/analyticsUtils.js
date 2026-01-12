@@ -240,6 +240,72 @@ export function getTopMitreTechniques(incidents, filters = {}, limit = 10, confi
 }
 
 // ============================================================================
+// CONFIDENCE-WEIGHTED TOP TECHNIQUES (Enterprise Feature)
+// ============================================================================
+/**
+ * Get top MITRE techniques with confidence weighting
+ * Formula: score = count × avg_confidence
+ * This ensures one high-confidence incident > five low-confidence buzzword incidents
+ */
+export function getTopMitreTechniquesWeighted(incidents, filters = {}, limit = 10) {
+  const filtered = applyFilters(incidents, filters);
+  
+  const CONFIDENCE_WEIGHTS = {
+    'high': 1.0,
+    'medium': 0.5,
+    'low': 0.2
+  };
+  
+  const techniqueData = {};
+  
+  filtered.forEach(incident => {
+    if (incident.mitre_techniques) {
+      incident.mitre_techniques.forEach(tech => {
+        const key = tech.id;
+        const weight = CONFIDENCE_WEIGHTS[tech.confidence] || 0.5;
+        
+        if (!techniqueData[key]) {
+          techniqueData[key] = {
+            id: tech.id,
+            name: tech.name,
+            count: 0,
+            totalWeight: 0,
+            confidenceBreakdown: { high: 0, medium: 0, low: 0 }
+          };
+        }
+        
+        techniqueData[key].count++;
+        techniqueData[key].totalWeight += weight;
+        techniqueData[key].confidenceBreakdown[tech.confidence]++;
+      });
+    }
+  });
+  
+  // Calculate weighted scores
+  const techniques = Object.values(techniqueData).map(tech => ({
+    ...tech,
+    avgConfidence: tech.totalWeight / tech.count,
+    weightedScore: tech.totalWeight, // This is already count × avg_confidence_weight
+    displayConfidence: getConfidenceLabel(tech.totalWeight / tech.count)
+  }));
+  
+  return {
+    techniques: techniques
+      .sort((a, b) => b.weightedScore - a.weightedScore)
+      .slice(0, limit),
+    countingType: 'confidence-weighted',
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'Weighted by confidence: high=1.0, medium=0.5, low=0.2. One high-confidence > multiple low-confidence'
+  };
+}
+
+function getConfidenceLabel(weight) {
+  if (weight >= 0.8) return 'high';
+  if (weight >= 0.4) return 'medium';
+  return 'low';
+}
+
+// ============================================================================
 // STRATEGIC THEMES
 // ============================================================================
 export function getTopThemes(incidents, filters = {}, limit = 5) {
@@ -529,12 +595,390 @@ export function validateCounts(incidents, counts, type) {
 }
 
 // ============================================================================
+// ATTACK CHAIN RECONSTRUCTION (Enterprise Feature)
+// ============================================================================
+/**
+ * Reconstruct common attack chains based on MITRE tactics
+ * Shows patterns like: Initial Access → Privilege Escalation → Persistence → Exfiltration
+ */
+export function getAttackChains(incidents, filters = {}, limit = 10) {
+  const filtered = applyFilters(incidents, filters);
+  
+  const TACTIC_ORDER = [
+    'initial-access',
+    'execution',
+    'persistence',
+    'privilege-escalation',
+    'defense-evasion',
+    'credential-access',
+    'discovery',
+    'lateral-movement',
+    'collection',
+    'exfiltration',
+    'impact'
+  ];
+  
+  const chains = {};
+  
+  filtered.forEach(incident => {
+    if (incident.mitre_tactics && incident.mitre_tactics.length > 1) {
+      // Sort tactics by typical attack order
+      const orderedTactics = incident.mitre_tactics
+        .sort((a, b) => TACTIC_ORDER.indexOf(a) - TACTIC_ORDER.indexOf(b));
+      
+      // Create chain signature
+      const chainKey = orderedTactics.join(' → ');
+      
+      if (!chains[chainKey]) {
+        chains[chainKey] = {
+          chain: orderedTactics,
+          displayChain: orderedTactics.map(t => formatTacticName(t)).join(' → '),
+          count: 0,
+          examples: []
+        };
+      }
+      
+      chains[chainKey].count++;
+      if (chains[chainKey].examples.length < 3) {
+        chains[chainKey].examples.push({
+          id: incident.id,
+          title: incident.title,
+          date: incident.date
+        });
+      }
+    }
+  });
+  
+  return {
+    chains: Object.values(chains)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, limit),
+    totalMultiStagedIncidents: filtered.filter(i => i.mitre_tactics?.length > 1).length,
+    countingType: COUNTING_TYPES.UNIQUE,
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'Attack chains represent multi-stage attacks with 2+ MITRE tactics'
+  };
+}
+
+function formatTacticName(tactic) {
+  return tactic.split('-').map(word => 
+    word.charAt(0).toUpperCase() + word.slice(1)
+  ).join(' ');
+}
+
+// ============================================================================
+// SECTOR BENCHMARKING (Enterprise Feature)
+// ============================================================================
+/**
+ * Calculate sector-specific KPIs for benchmarking
+ * Enables comparisons like "Energy sector has 2x higher critical rate than finance"
+ */
+export function getSectorBenchmarks(incidents, filters = {}) {
+  const filtered = applyFilters(incidents, filters);
+  
+  // Define major sectors (found in tags)
+  const SECTORS = [
+    'finance', 'healthcare', 'energy', 'government', 'education',
+    'retail', 'technology', 'manufacturing', 'telecom', 'transportation'
+  ];
+  
+  const benchmarks = {};
+  
+  SECTORS.forEach(sector => {
+    const sectorIncidents = filtered.filter(i => 
+      i.tags?.some(tag => tag.toLowerCase().includes(sector))
+    );
+    
+    if (sectorIncidents.length < 5) return; // Skip sectors with too few incidents
+    
+    const critical = sectorIncidents.filter(i => i.severity === 'critical').length;
+    const exploitLed = sectorIncidents.filter(i => 
+      i.mitre_technique_ids?.includes('T1190') ||
+      i.severity_drivers?.some(d => d.toLowerCase().includes('exploited'))
+    ).length;
+    const attributed = sectorIncidents.filter(i => i.is_attributed).length;
+    
+    const avgSeverityScore = sectorIncidents.reduce((sum, i) => 
+      sum + (i.severity_score || 0), 0) / sectorIncidents.length;
+    
+    benchmarks[sector] = {
+      sector,
+      totalIncidents: sectorIncidents.length,
+      criticalRate: Math.round((critical / sectorIncidents.length) * 100),
+      exploitLedRate: Math.round((exploitLed / sectorIncidents.length) * 100),
+      attributionRate: Math.round((attributed / sectorIncidents.length) * 100),
+      medianSeverity: Math.round(avgSeverityScore)
+    };
+  });
+  
+  return {
+    benchmarks: Object.values(benchmarks)
+      .sort((a, b) => b.totalIncidents - a.totalIncidents),
+    countingType: COUNTING_TYPES.UNIQUE,
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'Sector benchmarking enables cross-sector risk comparisons'
+  };
+}
+
+// ============================================================================
+// DETECTION GAP ANALYSIS (Enterprise Feature)
+// ============================================================================
+/**
+ * Map MITRE techniques against security tools mentioned
+ * Identifies control gaps where techniques dominate but tools are rarely mentioned
+ */
+export function getDetectionGaps(incidents, filters = {}, limit = 10) {
+  const filtered = applyFilters(incidents, filters);
+  
+  const SECURITY_TOOLS = [
+    'waf', 'firewall', 'edr', 'antivirus', 'siem', 'soar', 
+    'ids', 'ips', 'mfa', 'dlp', 'casb', 'xdr'
+  ];
+  
+  const techniqueToolMapping = {};
+  
+  filtered.forEach(incident => {
+    const text = `${incident.title} ${incident.summary}`.toLowerCase();
+    const mentionedTools = SECURITY_TOOLS.filter(tool => text.includes(tool));
+    
+    if (incident.mitre_techniques) {
+      incident.mitre_techniques.forEach(tech => {
+        const key = tech.id;
+        if (!techniqueToolMapping[key]) {
+          techniqueToolMapping[key] = {
+            id: tech.id,
+            name: tech.name,
+            incidentCount: 0,
+            toolMentionCount: 0,
+            toolsMentioned: {}
+          };
+        }
+        
+        techniqueToolMapping[key].incidentCount++;
+        
+        if (mentionedTools.length > 0) {
+          techniqueToolMapping[key].toolMentionCount++;
+          mentionedTools.forEach(tool => {
+            techniqueToolMapping[key].toolsMentioned[tool] = 
+              (techniqueToolMapping[key].toolsMentioned[tool] || 0) + 1;
+          });
+        }
+      });
+    }
+  });
+  
+  // Calculate gap score (high incident count, low tool mention rate = big gap)
+  const gaps = Object.values(techniqueToolMapping)
+    .map(tech => ({
+      ...tech,
+      toolCoverageRate: tech.incidentCount > 0 ? 
+        Math.round((tech.toolMentionCount / tech.incidentCount) * 100) : 0,
+      gapScore: tech.incidentCount * (1 - (tech.toolMentionCount / tech.incidentCount))
+    }))
+    .filter(tech => tech.incidentCount >= 5); // Only significant techniques
+  
+  return {
+    gaps: gaps
+      .sort((a, b) => b.gapScore - a.gapScore)
+      .slice(0, limit),
+    countingType: COUNTING_TYPES.MENTIONS,
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'Detection gaps show techniques frequently used but rarely defended against'
+  };
+}
+
+// ============================================================================
+// TREND ACCELERATION DETECTION (Enterprise Feature)
+// ============================================================================
+/**
+ * Detect accelerating, stable, or declining trends
+ * Shows velocity of theme/technique changes over time
+ */
+export function getTrendAcceleration(incidents, field = 'themes', filters = {}) {
+  const filtered = applyFilters(incidents, filters);
+  
+  // Group by quarter
+  const quarters = {};
+  
+  filtered.forEach(incident => {
+    const date = new Date(incident.date);
+    const year = date.getFullYear();
+    const quarter = Math.floor(date.getMonth() / 3) + 1;
+    const key = `${year}-Q${quarter}`;
+    
+    if (!quarters[key]) {
+      quarters[key] = [];
+    }
+    quarters[key].push(incident);
+  });
+  
+  // Sort quarters chronologically
+  const sortedQuarters = Object.keys(quarters).sort();
+  
+  if (sortedQuarters.length < 3) {
+    return {
+      trends: [],
+      note: 'Need at least 3 quarters of data for acceleration detection'
+    };
+  }
+  
+  // Get item counts per quarter
+  const itemTrends = {};
+  
+  sortedQuarters.forEach(quarter => {
+    const quarterIncidents = quarters[quarter];
+    const itemCounts = {};
+    
+    quarterIncidents.forEach(incident => {
+      const items = getFieldValue(incident, field);
+      if (items && Array.isArray(items)) {
+        items.forEach(item => {
+          const itemKey = typeof item === 'object' ? item.id || item.name : item;
+          itemCounts[itemKey] = (itemCounts[itemKey] || 0) + 1;
+        });
+      }
+    });
+    
+    Object.entries(itemCounts).forEach(([itemKey, count]) => {
+      if (!itemTrends[itemKey]) {
+        itemTrends[itemKey] = { name: itemKey, quarters: [] };
+      }
+      itemTrends[itemKey].quarters.push({ quarter, count });
+    });
+  });
+  
+  // Calculate acceleration for each item
+  const trends = Object.values(itemTrends)
+    .filter(item => item.quarters.length >= 3)
+    .map(item => {
+      const counts = item.quarters.map(q => q.count);
+      const lastThree = counts.slice(-3);
+      
+      // Simple linear regression slope
+      const n = lastThree.length;
+      const xMean = (n - 1) / 2;
+      const yMean = lastThree.reduce((a, b) => a + b, 0) / n;
+      
+      let numerator = 0;
+      let denominator = 0;
+      
+      lastThree.forEach((y, x) => {
+        numerator += (x - xMean) * (y - yMean);
+        denominator += (x - xMean) ** 2;
+      });
+      
+      const slope = denominator !== 0 ? numerator / denominator : 0;
+      const avgCount = yMean;
+      const relativeSlope = avgCount !== 0 ? (slope / avgCount) * 100 : 0;
+      
+      let status;
+      if (relativeSlope > 20) status = 'accelerating';
+      else if (relativeSlope < -20) status = 'declining';
+      else status = 'stable';
+      
+      return {
+        name: item.name,
+        status,
+        slope: Math.round(relativeSlope),
+        recentQuarters: item.quarters.slice(-3),
+        avgCount: Math.round(avgCount)
+      };
+    });
+  
+  return {
+    trends: {
+      accelerating: trends.filter(t => t.status === 'accelerating').sort((a, b) => b.slope - a.slope),
+      declining: trends.filter(t => t.status === 'declining').sort((a, b) => a.slope - b.slope),
+      stable: trends.filter(t => t.status === 'stable')
+    },
+    analysisWindow: `${sortedQuarters[0]} to ${sortedQuarters[sortedQuarters.length - 1]}`,
+    countingType: COUNTING_TYPES.MENTIONS,
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'Acceleration based on linear regression of last 3 quarters. >20% = accelerating, <-20% = declining'
+  };
+}
+
+// ============================================================================
+// FALSE POSITIVE DETECTION (Enterprise Feature)
+// ============================================================================
+/**
+ * Detect potential false positives or media hype
+ * Flags low-quality mappings and unverified claims
+ */
+export function detectFalsePositives(incidents, filters = {}) {
+  const filtered = applyFilters(incidents, filters);
+  
+  const flags = {
+    lowConfidenceMapping: [],
+    mediaHype: [],
+    speculativeAttribution: []
+  };
+  
+  filtered.forEach(incident => {
+    const text = `${incident.title} ${incident.summary}`.toLowerCase();
+    
+    // Low confidence MITRE mappings
+    if (incident.mitre_techniques) {
+      const lowConfTechniques = incident.mitre_techniques.filter(t => t.confidence === 'low');
+      if (lowConfTechniques.length > 0) {
+        flags.lowConfidenceMapping.push({
+          id: incident.id,
+          title: incident.title,
+          techniques: lowConfTechniques.map(t => t.name),
+          reason: 'Low confidence MITRE mapping'
+        });
+      }
+    }
+    
+    // Media hype: "zero-day" mentioned but no CVE or advisory
+    if (text.includes('zero-day') || text.includes('0-day')) {
+      const hasCVE = /cve-\d{4}-\d+/.test(text);
+      const hasAdvisory = text.includes('advisory') || text.includes('patch');
+      
+      if (!hasCVE && !hasAdvisory) {
+        flags.mediaHype.push({
+          id: incident.id,
+          title: incident.title,
+          reason: 'Zero-day claim without CVE or advisory'
+        });
+      }
+    }
+    
+    // Speculative attribution
+    if (incident.actor_confidence === 'low' && incident.is_attributed) {
+      flags.speculativeAttribution.push({
+        id: incident.id,
+        title: incident.title,
+        actor: incident.actor_name,
+        reason: 'Low confidence attribution'
+      });
+    }
+  });
+  
+  return {
+    flags,
+    summary: {
+      lowConfidenceMapping: flags.lowConfidenceMapping.length,
+      mediaHype: flags.mediaHype.length,
+      speculativeAttribution: flags.speculativeAttribution.length,
+      totalFlagged: flags.lowConfidenceMapping.length + flags.mediaHype.length + flags.speculativeAttribution.length,
+      totalIncidents: filtered.length,
+      flagRate: Math.round(((flags.lowConfidenceMapping.length + flags.mediaHype.length + flags.speculativeAttribution.length) / filtered.length) * 100)
+    },
+    countingType: COUNTING_TYPES.UNIQUE,
+    population: filters.population || POPULATION_TYPES.ALL,
+    note: 'False positive detection helps filter signal from noise'
+  };
+}
+
+// ============================================================================
 // EXPORT METADATA
 // ============================================================================
 export const COUNTING_NOTES = {
   unique: "Counts are shown as unique incidents (deduplicated by incident_id). This is the default counting method for Executive Summary and KPIs.",
   mentions: "Counts are shown as tag/sector mentions. A single incident can have multiple tags/sectors, so totals may exceed the number of unique incidents.",
-  both: "Shows both mention counts and unique incident counts for transparency."
+  both: "Shows both mention counts and unique incident counts for transparency.",
+  'confidence-weighted': "Counts weighted by confidence: high=1.0, medium=0.5, low=0.2. Ensures quality over quantity."
 };
 
 export const METHODOLOGY_NOTES = {
@@ -542,5 +986,9 @@ export const METHODOLOGY_NOTES = {
   mitre: "MITRE ATT&CK mappings use a two-signal rule requiring multiple keyword matches for confidence. Tactics are automatically derived from techniques. Use high-confidence filter for operational use.",
   attribution: "Attribution is based on public reporting and includes confidence levels. Many incidents remain unattributed or are intentionally misattributed.",
   themes: "Strategic themes are automatically assigned with confidence scoring. Each incident can have up to 3 themes to maintain analytical focus.",
-  limitations: "This analysis is based on publicly reported incidents and carries inherent biases: media bias, underreporting in certain sectors/regions, survivorship bias, and lag in disclosure."
+  limitations: "This analysis is based on publicly reported incidents and carries inherent biases: media bias, underreporting in certain sectors/regions, survivorship bias, and lag in disclosure.",
+  attackChains: "Attack chains represent multi-stage attacks. Reconstructed from MITRE tactics in logical attack progression order.",
+  sectorBenchmarks: "Sector KPIs enable cross-sector risk comparisons. Useful for CISO-level strategic analysis.",
+  detectionGaps: "Gap analysis identifies where attack techniques are prevalent but defensive tools are rarely mentioned.",
+  trendAcceleration: "Trend velocity detection uses linear regression to identify accelerating, stable, or declining threat patterns."
 };

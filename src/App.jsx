@@ -15,6 +15,10 @@ import RegulationImpact from './components/RegulationImpact'
 import ForecastsAndPredictions from './components/ForecastsAndPredictions'
 import StrategicRiskThemes from './components/StrategicRiskThemes'
 import MethodologyAndLimitations from './components/MethodologyAndLimitations'
+import AttackChainAnalysis from './components/AttackChainAnalysis'
+import SectorBenchmarking from './components/SectorBenchmarking'
+import TrendAcceleration from './components/TrendAcceleration'
+import CISOMode from './components/CISOMode'
 
 // Month helpers
 const MONTHS_EN = [
@@ -113,6 +117,12 @@ function App() {
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
   const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
   const [showCuratedOnly, setShowCuratedOnly] = useState(false)
+  const [cisoMode, setCisoMode] = useState({
+    enabled: false,
+    criticalOnly: false,
+    curatedOnly: false,
+    highConfidenceOnly: false
+  })
 
   // Get incidents data based on selected year using object lookup for maintainability
   const yearDataMap = {
@@ -189,6 +199,19 @@ function App() {
   const filteredIncidents = useMemo(() => {
     let filtered = incidentsData
 
+    // CISO Mode Filters (applied first for executive view)
+    if (cisoMode.enabled) {
+      if (cisoMode.criticalOnly) {
+        filtered = filtered.filter(incident => incident.severity === 'critical')
+      }
+      if (cisoMode.curatedOnly) {
+        filtered = filtered.filter(incident => incident.is_curated)
+      }
+      if (cisoMode.highConfidenceOnly) {
+        filtered = filtered.filter(incident => incident.confidence >= 70)
+      }
+    }
+
     // Filter by month
     if (selectedMonth !== 'ALL') {
       filtered = filtered.filter(incident => {
@@ -232,7 +255,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly])
+  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly, cisoMode])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -343,11 +366,23 @@ function App() {
         </div>
       </section>
 
+      {/* CISO Mode - Enterprise Dashboard Toggle */}
+      <CISOMode onModeChange={setCisoMode} />
+
       {/* Executive Summary - Strategic Overview */}
       <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
 
       {/* Strategic Risk Themes - Top 5 Themes */}
       <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
+
+      {/* Attack Chain Reconstruction - Enterprise Feature */}
+      <AttackChainAnalysis incidents={incidentsData} filters={{}} />
+
+      {/* Sector Benchmarking - CISO-Level Comparison */}
+      <SectorBenchmarking incidents={incidentsData} filters={{}} />
+
+      {/* Trend Acceleration - Emerging vs. Declining Threats */}
+      <TrendAcceleration incidents={incidentsData} filters={{}} />
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
