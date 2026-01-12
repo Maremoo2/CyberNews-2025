@@ -2,6 +2,9 @@ import { useMemo } from 'react';
 import { getTopThemes, calculateKPIs } from '../utils/analyticsUtils';
 import './StrategicRiskThemes.css';
 
+// Common sector tags used across the application
+const SECTOR_TAGS = ['healthcare', 'finance', 'government', 'technology', 'education', 'retail', 'energy'];
+
 // Theme descriptions and recommendations
 const THEME_DETAILS = {
   'cloud-exfiltration': {
@@ -116,8 +119,7 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
       const sectorCounts = {};
       themeIncidents.forEach(incident => {
         incident.tags?.forEach(tag => {
-          const sectorTags = ['healthcare', 'finance', 'government', 'technology', 'education', 'retail', 'energy'];
-          if (sectorTags.includes(tag.toLowerCase())) {
+          if (SECTOR_TAGS.includes(tag.toLowerCase())) {
             sectorCounts[tag] = (sectorCounts[tag] || 0) + 1;
           }
         });
@@ -157,9 +159,11 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
 
       // Calculate year-over-year if we have 2025 data
       let yoyChange = null;
+      // YoY calculation would require comparing with previous year's data
+      // Removed placeholder random value - should be calculated from actual historical data
       if (selectedYear === 2026) {
-        // This would need 2025 data comparison - placeholder for now
-        yoyChange = Math.floor(Math.random() * 30) + 10; // Placeholder
+        // TODO: Calculate actual YoY when historical comparison is implemented
+        yoyChange = null;
       }
 
       return {

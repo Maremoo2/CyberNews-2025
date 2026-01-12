@@ -52,7 +52,7 @@ export function countUniqueIncidents(incidents, filters = {}) {
   }
   
   // Deduplicate by incident_id (our unique key)
-  const uniqueIds = new Set(filtered.map(i => i.id));
+  const uniqueIds = new Set(filtered.map(incident => incident.id));
   
   return {
     count: uniqueIds.size,
@@ -359,7 +359,12 @@ export function getSectorAnalysis(incidents, sector, filters = {}) {
   filtered.forEach(incident => {
     if (incident.mitre_techniques) {
       incident.mitre_techniques
-        .filter(tech => incident.mitre_tactics?.includes('initial-access'))
+        .filter(tech => {
+          // Check if this technique is an initial-access tactic
+          // We need to look at the technique's tactic, not the incident's tactics array
+          return incident.mitre_tactics?.includes('initial-access') && 
+                 incident.mitre_technique_ids?.includes(tech.id);
+        })
         .forEach(tech => {
           initialAccessTechniques[tech.id] = initialAccessTechniques[tech.id] || { name: tech.name, count: 0 };
           initialAccessTechniques[tech.id].count++;

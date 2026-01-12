@@ -409,9 +409,10 @@ function classifyThemes(incident, mitreMapping) {
     // Check required signals
     if (theme.requires) {
       for (const requirement of theme.requires) {
-        // Check in text or MITRE techniques
-        if (text.includes(requirement) || 
-            mitreMapping.some(m => m.technique_name.toLowerCase().includes(requirement))) {
+        // Check in text or MITRE techniques (case-insensitive)
+        const reqLower = requirement.toLowerCase();
+        if (text.includes(reqLower) || 
+            mitreMapping.some(m => m.technique_name.toLowerCase().includes(reqLower))) {
           matchedRequirements.push(requirement);
           score += 2; // Higher weight for meeting requirements
         }
