@@ -20,11 +20,25 @@ const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'inoreader-config.json');
-const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026.json');
 
 // Parse command line arguments
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
+
+/**
+ * Get the incidents file path for a given year
+ */
+function getIncidentsFilePath(year) {
+  return path.join(PROJECT_ROOT, 'data', `incidents-${year}.json`);
+}
+
+/**
+ * Extract year from date string (YYYY-MM-DD format)
+ */
+function getYearFromDate(dateStr) {
+  const year = dateStr.split('-')[0];
+  return parseInt(year, 10);
+}
 
 /**
  * Load configuration
@@ -40,31 +54,50 @@ function loadConfig() {
 }
 
 /**
- * Load existing incidents
+ * Load existing incidents from a specific year file
  */
-function loadExistingIncidents() {
+function loadExistingIncidents(year) {
+  const filePath = getIncidentsFilePath(year);
   try {
-    if (fs.existsSync(INCIDENTS_FILE)) {
-      const data = fs.readFileSync(INCIDENTS_FILE, 'utf-8');
+    if (fs.existsSync(filePath)) {
+      const data = fs.readFileSync(filePath, 'utf-8');
       return JSON.parse(data);
     }
     return [];
   } catch (error) {
-    console.error(`Error loading incidents from ${INCIDENTS_FILE}:`, error.message);
+    console.error(`Error loading incidents from ${filePath}:`, error.message);
     return [];
   }
 }
 
 /**
- * Save incidents to file
+ * Load all existing incidents from both current and previous year files
  */
-function saveIncidents(incidents) {
+function loadAllExistingIncidents() {
+  const currentYear = new Date().getFullYear();
+  const previousYear = currentYear - 1;
+  
+  const currentYearIncidents = loadExistingIncidents(currentYear);
+  const previousYearIncidents = loadExistingIncidents(previousYear);
+  
+  return {
+    [currentYear]: currentYearIncidents,
+    [previousYear]: previousYearIncidents,
+    all: [...currentYearIncidents, ...previousYearIncidents]
+  };
+}
+
+/**
+ * Save incidents to the appropriate year file
+ */
+function saveIncidents(incidents, year) {
+  const filePath = getIncidentsFilePath(year);
   try {
     const json = JSON.stringify(incidents, null, 2);
-    fs.writeFileSync(INCIDENTS_FILE, json);
-    console.log(`✅ Saved ${incidents.length} incidents to ${INCIDENTS_FILE}`);
+    fs.writeFileSync(filePath, json);
+    console.log(`✅ Saved ${incidents.length} incidents to ${filePath}`);
   } catch (error) {
-    console.error(`Error saving incidents to ${INCIDENTS_FILE}:`, error.message);
+    console.error(`Error saving incidents to ${filePath}:`, error.message);
     process.exit(1);
   }
 }
@@ -286,7 +319,7 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
 /**
  * Fetch and process a single feed
  */
-async function processFeed(feedConfig, config, existingIncidents) {
+async function processFeed(feedConfig, config, existingIncidentsByYear) {
   console.log(`\n📡 Processing feed: ${feedConfig.name}`);
   
   // Append maxItemsPerFeed parameter to URL
@@ -302,34 +335,53 @@ async function processFeed(feedConfig, config, existingIncidents) {
     
     if (!data.items || !Array.isArray(data.items)) {
       console.log(`  ⚠️  No items found in feed response`);
-      return { newItems: [], duplicates: 0, errors: 0, totalItems: 0 };
+      return { newItemsByYear: {}, duplicates: 0, errors: 0, totalItems: 0 };
     }
     
     const totalItems = data.items.length;
     console.log(`  📥 Received ${totalItems} items from feed`);
     
-    const newItems = [];
-    const seenUrls = new Set(existingIncidents.map(inc => inc.sourceUrl));
+    const newItemsByYear = {};
+    const seenUrls = new Set(existingIncidentsByYear.all.map(inc => inc.sourceUrl));
     let duplicates = 0;
     let errors = 0;
     let firstDuplicateIndex = -1;
     
-    // Create ID generator for sequential IDs
-    let currentMaxId = 0;
-    const year = new Date().getFullYear();
-    const prefix = year.toString();
-    for (const incident of existingIncidents) {
-      if (incident.id && incident.id.startsWith(prefix)) {
-        const num = parseInt(incident.id.substring(prefix.length), 10);
-        if (!isNaN(num) && num > currentMaxId) {
-          currentMaxId = num;
+    // Create ID generators for each year
+    const idGenerators = {};
+    const getIdGenerator = (year) => {
+      if (!idGenerators[year]) {
+        // Find max ID for this year
+        let currentMaxId = 0;
+        const prefix = year.toString();
+        const yearIncidents = existingIncidentsByYear[year] || [];
+        
+        for (const incident of yearIncidents) {
+          if (incident.id && incident.id.startsWith(prefix)) {
+            const num = parseInt(incident.id.substring(prefix.length), 10);
+            if (!isNaN(num) && num > currentMaxId) {
+              currentMaxId = num;
+            }
+          }
         }
+        
+        // Also check already-processed items for this year
+        const processedItems = newItemsByYear[year] || [];
+        for (const incident of processedItems) {
+          if (incident.id && incident.id.startsWith(prefix)) {
+            const num = parseInt(incident.id.substring(prefix.length), 10);
+            if (!isNaN(num) && num > currentMaxId) {
+              currentMaxId = num;
+            }
+          }
+        }
+        
+        idGenerators[year] = () => {
+          currentMaxId++;
+          return `${prefix}${String(currentMaxId).padStart(3, '0')}`;
+        };
       }
-    }
-    
-    const nextIdGenerator = () => {
-      currentMaxId++;
-      return `${prefix}${String(currentMaxId).padStart(3, '0')}`;
+      return idGenerators[year];
     };
     
     for (let i = 0; i < data.items.length; i++) {
@@ -337,7 +389,7 @@ async function processFeed(feedConfig, config, existingIncidents) {
       try {
         // Check URL first - Try JSON Feed format first, then fall back to old format
         const url = item.url || item.canonical?.[0]?.href || item.alternate?.[0]?.href || '';
-        if (url && (seenUrls.has(url) || newItems.some(ni => ni.sourceUrl === url))) {
+        if (url && seenUrls.has(url)) {
           duplicates++;
           // Track the first duplicate we encounter
           if (firstDuplicateIndex === -1) {
@@ -347,10 +399,32 @@ async function processFeed(feedConfig, config, existingIncidents) {
           continue;
         }
         
-        const transformed = transformItem(item, feedConfig, config, nextIdGenerator);
+        // First, we need to extract the date to determine the year
+        // This is a simplified version of the date extraction logic from transformItem
+        let articleDate;
+        if (item.date_published) {
+          const parsedDate = new Date(item.date_published);
+          if (!isNaN(parsedDate.getTime())) {
+            articleDate = parsedDate.toISOString().split('T')[0];
+          } else {
+            const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+            articleDate = unixToDate(timestamp);
+          }
+        } else {
+          const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+          articleDate = unixToDate(timestamp);
+        }
+        
+        const articleYear = getYearFromDate(articleDate);
+        const yearGenerator = getIdGenerator(articleYear);
+        
+        const transformed = transformItem(item, feedConfig, config, yearGenerator);
         
         if (transformed !== null) {
-          newItems.push(transformed);
+          if (!newItemsByYear[articleYear]) {
+            newItemsByYear[articleYear] = [];
+          }
+          newItemsByYear[articleYear].push(transformed);
           seenUrls.add(transformed.sourceUrl);
         }
       } catch (error) {
@@ -359,16 +433,22 @@ async function processFeed(feedConfig, config, existingIncidents) {
       }
     }
     
-    console.log(`  ✅ Results: ${newItems.length} new, ${duplicates} duplicates, ${errors} errors`);
+    const totalNewItems = Object.values(newItemsByYear).reduce((sum, items) => sum + items.length, 0);
+    console.log(`  ✅ Results: ${totalNewItems} new, ${duplicates} duplicates, ${errors} errors`);
     if (firstDuplicateIndex !== -1) {
       console.log(`  📊 All new items were in positions 1-${firstDuplicateIndex}, remaining ${totalItems - firstDuplicateIndex} were duplicates`);
     }
     
-    return { newItems, duplicates, errors, totalItems };
+    // Log year distribution
+    for (const [year, items] of Object.entries(newItemsByYear)) {
+      console.log(`  📅 Year ${year}: ${items.length} new items`);
+    }
+    
+    return { newItemsByYear, duplicates, errors, totalItems };
     
   } catch (error) {
     console.error(`  ❌ Failed to process feed: ${error.message}`);
-    return { newItems: [], duplicates: 0, errors: 1, totalItems: 0 };
+    return { newItemsByYear: {}, duplicates: 0, errors: 1, totalItems: 0 };
   }
 }
 
@@ -386,25 +466,38 @@ async function main() {
   const config = loadConfig();
   console.log(`📋 Loaded configuration with ${config.feeds.length} feeds`);
   
-  // Load existing incidents
-  const existingIncidents = loadExistingIncidents();
-  console.log(`📚 Loaded ${existingIncidents.length} existing incidents`);
+  // Load existing incidents from both current and previous year
+  const existingIncidentsByYear = loadAllExistingIncidents();
+  console.log(`📚 Loaded ${existingIncidentsByYear.all.length} existing incidents`);
   
   // Process each feed
   let totalNew = 0;
   let totalDuplicates = 0;
   let totalErrors = 0;
   let totalItemsFetched = 0;
-  const allNewIncidents = [];
-  
-  // Collect all existing and new URLs for efficient duplicate checking
-  const allIncidents = [...existingIncidents];
+  const allNewIncidentsByYear = {};
   
   for (const feedConfig of config.feeds) {
-    const result = await processFeed(feedConfig, config, allIncidents);
-    allNewIncidents.push(...result.newItems);
-    allIncidents.push(...result.newItems); // Add to running list for next feed
-    totalNew += result.newItems.length;
+    const result = await processFeed(feedConfig, config, existingIncidentsByYear);
+    
+    // Merge results by year
+    for (const [year, items] of Object.entries(result.newItemsByYear)) {
+      if (!allNewIncidentsByYear[year]) {
+        allNewIncidentsByYear[year] = [];
+      }
+      allNewIncidentsByYear[year].push(...items);
+      
+      // Also add to the existingIncidentsByYear for next feed's duplicate checking
+      const yearNum = parseInt(year, 10);
+      if (!existingIncidentsByYear[yearNum]) {
+        existingIncidentsByYear[yearNum] = [];
+      }
+      existingIncidentsByYear[yearNum].push(...items);
+      existingIncidentsByYear.all.push(...items);
+    }
+    
+    const newItemsCount = Object.values(result.newItemsByYear).reduce((sum, items) => sum + items.length, 0);
+    totalNew += newItemsCount;
     totalDuplicates += result.duplicates;
     totalErrors += result.errors;
     totalItemsFetched += result.totalItems;
@@ -418,26 +511,40 @@ async function main() {
   console.log(`New articles:         ${totalNew}`);
   console.log(`Duplicates skipped:   ${totalDuplicates}`);
   console.log(`Errors:               ${totalErrors}`);
+  
+  // Show year distribution
+  for (const [year, items] of Object.entries(allNewIncidentsByYear)) {
+    console.log(`  Year ${year}:        ${items.length} new articles`);
+  }
   console.log('='.repeat(60));
   
   // Save if we have new incidents
   if (totalNew > 0) {
     if (DRY_RUN) {
       console.log('\n📝 DRY RUN: Would add the following incidents:\n');
-      for (const incident of allNewIncidents) {
-        console.log(`  ${incident.id} - ${incident.date} - ${incident.title.substring(0, 60)}...`);
+      for (const [year, incidents] of Object.entries(allNewIncidentsByYear)) {
+        console.log(`\n  Year ${year}:`);
+        for (const incident of incidents) {
+          console.log(`    ${incident.id} - ${incident.date} - ${incident.title.substring(0, 60)}...`);
+        }
       }
       console.log('\n⚠️  Not saving changes (dry-run mode)');
     } else {
-      // Merge with existing incidents and sort by date (newest first)
-      const mergedIncidents = [...allNewIncidents, ...existingIncidents];
-      mergedIncidents.sort((a, b) => {
-        const dateA = new Date(a.date);
-        const dateB = new Date(b.date);
-        return dateB - dateA; // Descending order
-      });
-      
-      saveIncidents(mergedIncidents);
+      // Save each year's incidents to its respective file
+      for (const [year, newIncidents] of Object.entries(allNewIncidentsByYear)) {
+        const yearNum = parseInt(year, 10);
+        const existingForYear = loadExistingIncidents(yearNum);
+        
+        // Merge with existing incidents and sort by date (newest first)
+        const mergedIncidents = [...newIncidents, ...existingForYear];
+        mergedIncidents.sort((a, b) => {
+          const dateA = new Date(a.date);
+          const dateB = new Date(b.date);
+          return dateB - dateA; // Descending order
+        });
+        
+        saveIncidents(mergedIncidents, yearNum);
+      }
       console.log(`\n✅ Successfully added ${totalNew} new incidents!`);
     }
   } else {

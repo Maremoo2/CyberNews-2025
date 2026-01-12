@@ -15,8 +15,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const MARKDOWN_FILE = path.join(PROJECT_ROOT, 'news', '2026', '01-january', 'global-overview.md');
-const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', 'incidents-2026.json');
+
+// Dynamically determine the year - default to current year, or accept from command line
+const args = process.argv.slice(2);
+const YEAR = args.length > 0 ? args[0] : new Date().getFullYear().toString();
+
+const MARKDOWN_FILE = path.join(PROJECT_ROOT, 'news', YEAR, '01-january', 'global-overview.md');
+const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', `incidents-${YEAR}.json`);
 
 // Incidents that already exist (based on problem statement and analysis)
 const EXISTING_INCIDENTS = [
@@ -118,7 +123,7 @@ function parseDate(dateStr) {
     return `${year}-${month}-${day}`;
   }
   
-  // Try month-year format (default to day 2 for January 2026 incidents)
+  // Try month-year format (default to day 2 for undated incidents)
   match = dateStr.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/);
   
   if (match) {
@@ -135,7 +140,7 @@ function parseDate(dateStr) {
     return `${year}-${month}-02`;
   }
   
-  return '2026-01-02';
+  return `${YEAR}-01-02`;
 }
 
 function cleanTitle(title) {
@@ -454,13 +459,20 @@ function main() {
   // Read existing incidents
   const existingData = JSON.parse(fs.readFileSync(INCIDENTS_FILE, 'utf-8'));
   
-  // Get next ID by finding the highest existing ID
-  const maxId = Math.max(...existingData.map(inc => parseInt(inc.id.replace('2026', ''))));
+  // Get next ID by finding the highest existing ID for this year
+  const yearPrefix = YEAR;
+  const maxId = Math.max(
+    0,
+    ...existingData
+      .filter(inc => inc.id && inc.id.startsWith(yearPrefix))
+      .map(inc => parseInt(inc.id.substring(yearPrefix.length), 10))
+      .filter(n => !isNaN(n))
+  );
   let nextId = maxId + 1;
   
   // Add IDs to new incidents
   const newIncidents = incidents.map((incident, index) => ({
-    id: `2026${(nextId + index).toString().padStart(3, '0')}`,
+    id: `${yearPrefix}${(nextId + index).toString().padStart(3, '0')}`,
     ...incident
   }));
   
@@ -478,7 +490,7 @@ function main() {
   // Write back to file
   fs.writeFileSync(INCIDENTS_FILE, JSON.stringify(mergedData, null, 2));
   
-  console.log('✓ Successfully added incidents to incidents-2026.json\n');
+  console.log(`✓ Successfully added incidents to incidents-${YEAR}.json\n`);
   console.log('New incidents:');
   newIncidents.forEach(incident => {
     console.log(`  ${incident.id}: ${incident.title} (${incident.date})`);
