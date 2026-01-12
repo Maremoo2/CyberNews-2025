@@ -1,19 +1,18 @@
 import { useMemo } from 'react'
 import './ExecutiveSummary.css'
+import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
-    // Calculate severity distribution
-    const severityDistribution = {
-      critical: incidents.filter(i => i.impact === 5).length,
-      high: incidents.filter(i => i.impact === 4).length,
-      moderate: incidents.filter(i => i.impact === 3).length,
-      low: incidents.filter(i => i.impact <= 2).length
-    }
+    // Use new analytics utilities for consistent counting
+    const severityData = getSeverityDistribution(incidents, {});
+    const topThemes = getTopThemes(incidents, {}, 5);
+    const attributionRate = getAttributionRate(incidents, {});
+    const kpis = calculateKPIs(incidents, {});
 
-    // Get top threat types from tags
+    // Get top threat types from tags (mentions)
     const tagCounts = {}
     incidents.forEach(incident => {
       incident.tags?.forEach(tag => {
@@ -25,7 +24,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       .slice(0, 5)
       .map(([tag]) => tag)
 
-    // Identify most targeted sectors
+    // Identify most targeted sectors (mentions)
     const sectorCounts = {}
     incidents.forEach(incident => {
       incident.tags?.forEach(tag => {
@@ -39,41 +38,35 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       .sort(([,a], [,b]) => b - a)
       .slice(0, 3)
 
-    // Identify attack vectors from common patterns
-    const attackVectors = {}
-    const vectorKeywords = {
-      'phishing': ['phishing', 'email', 'spear-phishing'],
-      'ransomware': ['ransomware', 'encryption', 'ransom'],
-      'data-breach': ['breach', 'leak', 'exfiltration', 'data-theft'],
-      'supply-chain': ['supply-chain', 'third-party', 'vendor'],
-      'zero-day': ['zero-day', 'vulnerability', 'exploit'],
-      'ddos': ['ddos', 'denial-of-service']
-    }
-
-    Object.entries(vectorKeywords).forEach(([vector, keywords]) => {
-      const count = incidents.filter(incident => {
-        const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase()
-        return keywords.some(keyword => text.includes(keyword))
-      }).length
-      if (count > 0) {
-        attackVectors[vector] = count
+    // Get top attack vectors using enhanced MITRE data
+    const vectorCounts = {}
+    incidents.forEach(incident => {
+      if (incident.mitre_techniques) {
+        incident.mitre_techniques.forEach(tech => {
+          const name = tech.name || tech;
+          vectorCounts[name] = (vectorCounts[name] || 0) + 1;
+        });
       }
-    })
-
-    const topVectors = Object.entries(attackVectors)
+    });
+    const topVectors = Object.entries(vectorCounts)
       .sort(([,a], [,b]) => b - a)
-      .slice(0, 3)
+      .slice(0, 3);
 
     // Generate narrative based on data
-    const narrative = generateNarrative(selectedYear, severityDistribution, topVectors, topSectors)
+    const narrative = generateNarrative(selectedYear, severityData.distribution, topThemes, attributionRate, kpis)
 
     return {
-      severityDistribution,
+      severityDistribution: severityData.distribution,
       topThreats,
       topSectors,
       topVectors,
+      topThemes: topThemes.themes,
       narrative,
-      totalIncidents: incidents.length
+      totalIncidents: incidents.length,
+      curatedCount: incidents.filter(i => i.is_curated).length,
+      attributionRate: attributionRate.rate,
+      criticalRate: kpis.criticalRate,
+      exploitLedRate: kpis.exploitLedRate
     }
   }, [incidents, selectedYear])
 
@@ -84,6 +77,10 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       <div className="summary-header">
         <h2>📊 Executive Summary</h2>
         <p className="summary-subtitle">Key insights from {analysis.totalIncidents} incidents in {selectedYear}</p>
+        <div className="counting-note">
+          <span className="count-badge">Count type: unique incidents</span>
+          <span className="quality-note">{analysis.curatedCount} curated ({Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%)</span>
+        </div>
       </div>
 
       <div className="summary-narrative">
@@ -97,6 +94,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         {/* Severity Overview */}
         <div className="summary-card severity-card">
           <h3>🎯 Severity Distribution</h3>
+          <div className="count-type-label">
+            <small>Count type: unique incidents</small>
+          </div>
           <div className="severity-breakdown">
             <div className="severity-item critical">
               <span className="severity-label">Critical</span>
@@ -211,13 +211,17 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 }
 
 // Helper functions
-function generateNarrative(year, severity, vectors, sectors) {
+function generateNarrative(year, severity, topThemes, attributionRate, kpis) {
+  const criticalCount = severity.critical;
+  const topTheme = topThemes?.themes?.[0]?.name || 'various strategic threats';
+  const attributionPct = attributionRate.rate;
+  
   if (year === 2026) {
-    return `${year} saw a significant increase in sophisticated cyber attacks, with ${severity.critical} critical incidents requiring immediate response. ${formatVectorName(vectors[0]?.[0] || 'various attack vectors')} emerged as the dominant threat vector, while ${sectors[0]?.[0] || 'multiple sectors'} faced unprecedented targeting. The landscape shifted from mass attacks to more targeted, strategic campaigns leveraging advanced techniques.`
+    return `${year} saw ${criticalCount} critical incidents requiring immediate response, with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incidents were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
   } else if (year === 2025) {
-    return `${year} was marked by the evolution of ransomware operations and increased state-sponsored activities. ${severity.critical} critical incidents demonstrated the growing sophistication of threat actors. Cloud infrastructure and supply chains became prime targets, with attackers exploiting trust relationships and weak identity management.`
+    return `${year} was marked by ${criticalCount} critical incidents. ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. Attribution rate of ${attributionPct}% reflects the challenge of identifying sophisticated threat actors. Cloud infrastructure and supply chains became prime targets.`
   }
-  return `${year} presented significant cybersecurity challenges with ${severity.critical} critical incidents.`
+  return `${year} presented significant cybersecurity challenges with ${criticalCount} critical incidents and an attribution rate of ${attributionPct}%.`
 }
 
 function formatVectorName(vector) {

@@ -13,6 +13,8 @@ import ThreatActorProfile from './components/ThreatActorProfile'
 import DefenseAnalysis from './components/DefenseAnalysis'
 import RegulationImpact from './components/RegulationImpact'
 import ForecastsAndPredictions from './components/ForecastsAndPredictions'
+import StrategicRiskThemes from './components/StrategicRiskThemes'
+import MethodologyAndLimitations from './components/MethodologyAndLimitations'
 
 // Month helpers
 const MONTHS_EN = [
@@ -110,6 +112,7 @@ function App() {
   const [selectedTags, setSelectedTags] = useState(initialState.tags)
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
   const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
+  const [showCuratedOnly, setShowCuratedOnly] = useState(false)
 
   // Get incidents data based on selected year using object lookup for maintainability
   const yearDataMap = {
@@ -204,6 +207,11 @@ function App() {
       filtered = filtered.filter(incident => incident.impact >= 4)
     }
 
+    // Filter by curated only
+    if (showCuratedOnly) {
+      filtered = filtered.filter(incident => incident.is_curated)
+    }
+
     // Filter by search query (using debounced value)
     if (debouncedSearch.trim()) {
       const query = debouncedSearch.toLowerCase()
@@ -224,7 +232,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly])
+  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -241,6 +249,7 @@ function App() {
     setDebouncedSearch('')
     setSelectedTags([])
     setShowMajorOnly(false)
+    setShowCuratedOnly(false)
   }, [])
 
   const formatDate = (dateString) => {
@@ -275,6 +284,7 @@ function App() {
     }
     if (selectedTags.length > 0) filters.push(`tag: ${selectedTags.join(', ')}`)
     if (showMajorOnly) filters.push('major incidents only')
+    if (showCuratedOnly) filters.push('curated only')
     
     if (filters.length > 0) {
       return {
@@ -336,6 +346,9 @@ function App() {
       {/* Executive Summary - Strategic Overview */}
       <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
 
+      {/* Strategic Risk Themes - Top 5 Themes */}
+      <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
+
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
 
@@ -364,6 +377,9 @@ function App() {
 
       {/* Forecasts and Predictions */}
       <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* Methodology and Limitations */}
+      <MethodologyAndLimitations />
 
       {/* Year Wheel */}
       <YearWheel 
@@ -479,6 +495,24 @@ function App() {
               ⚠️ Major incidents only (impact ≥ 4)
             </span>
           </label>
+        </div>
+
+        {/* Curated Filter Toggle */}
+        <div className="curated-filter-container">
+          <label className="curated-toggle">
+            <input
+              type="checkbox"
+              checked={showCuratedOnly}
+              onChange={(e) => setShowCuratedOnly(e.target.checked)}
+              aria-label="Show only curated incidents with high-quality enrichment"
+            />
+            <span className="toggle-label" aria-label="Only curated, high-quality incidents">
+              ✅ Curated only (high-quality enrichment)
+            </span>
+          </label>
+          <div className="filter-note">
+            <small>Count type: <strong>unique incidents</strong> | Population: <strong>{showCuratedOnly ? 'curated' : 'all'}</strong></small>
+          </div>
         </div>
       </div>
 
