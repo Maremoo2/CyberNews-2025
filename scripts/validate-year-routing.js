@@ -132,7 +132,7 @@ function validateYearFile(year, fileType = 'json') {
           id: incident.id,
           expectedYear: year,
           actualYear: idYear,
-          title: incident.title?.substring(0, 60) + '...'
+          title: (incident.title?.substring(0, 60) || 'No title') + '...'
         });
       }
     }
