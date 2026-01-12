@@ -1154,6 +1154,776 @@
           "android"
         ]
       }
+    },
+    "february": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "march": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "april": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "may": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "june": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "july": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "august": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "september": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "october": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "november": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
+    },
+    "december": {
+      "norway": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "eu": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "us": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      },
+      "asia": {
+        "totalIncidents": 0,
+        "mostTargetedSector": "N/A",
+        "mostCommonAttackType": "N/A",
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "incidents": [],
+        "trends": [],
+        "legislation": [],
+        "threatActors": [],
+        "keyTakeaways": [],
+        "buzzwords": []
+      }
     }
   }
 }
