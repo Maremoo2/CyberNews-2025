@@ -1,84 +1,302 @@
-# Security News Year in Review 2025
+# Cybersecurity Threat Intelligence Platform
 
-En statisk nettside for oversikt over cybersikkerhetshendelser i 2025. Bygget med Vite + React og hostet på GitHub Pages.
+An enterprise-grade threat intelligence platform that enriches 800+ cybersecurity incidents using MITRE ATT&CK mapping, explainable risk scoring, threat actor attribution, and strategic theme analysis. Built for security analysts, CISOs, and SOC teams who need actionable intelligence, not just news aggregation.
 
----
-
-## 🌐 Se nettsiden live
-
-**👉 [Klikk her for å se Security News Year in Review 2025](https://maremoo2.github.io/CyberNews-2025/)**
-
-Live URL: https://maremoo2.github.io/CyberNews-2025/
-
-> **⚠️ Viktig:** Hvis lenken ikke fungerer, må GitHub Pages aktiveres i repository settings. Se [Aktivere GitHub Pages](#aktivere-github-pages-første-gang) for instruksjoner. Etter aktivering vil nettsiden automatisk være online 24/7 uten ytterligere konfigurasjon.
+**🔗 [View Live Platform](https://maremoo2.github.io/CyberNews-2025/)**
 
 ---
 
-## Funksjoner
+## 🎯 What Makes This Different
 
-- 📊 **Regionsfiltrering**: Filtrer hendelser etter US, Europa, Asia, Norge eller vis alle
-- 📅 **Månedsfilter**: Velg spesifikk måned eller se alle måneder (dropdown på mobil, knapper på desktop)
-- 📰 **Månedlige sammendrag**: Kontekstuelle sammendrag for hver måned som gir oversikt over hovedtrender
-- 🔥 **Største saker-filter**: Toggle for å vise kun hendelser med høy impact (≥ 4)
-- 🔗 **Delbare lenker**: URL-parametre for enkel deling av filtrerte visninger
-- 🔍 **Søkefunksjon**: Søk i titler, sammendrag og tags
-- 🏷️ **Tag-filtrering**: Klikk på tags for å filtrere hendelser
-- 📱 **Responsivt design**: Mobil-først design som fungerer på alle enheter
-- 🔢 **Dynamiske tellere**: Antall hendelser per region oppdateres basert på valgt måned
-- ⏱️ **Sortert etter dato**: Nyeste hendelser vises først
+This isn't another security news feed. It's a comprehensive analytical platform that:
 
-## Tech Stack
+- **Separates signal from noise** with curated, high-confidence enrichment
+- **Maps incidents to MITRE ATT&CK** with transparent confidence scoring
+- **Explains risk** instead of just listing severity numbers
+- **Provides executive-level insights** for strategic decision-making
+- **Exposes data limitations** transparently (no hype, just methodology)
 
-- **Frontend**: React 19 (JavaScript)
-- **Build Tool**: Vite
-- **Hosting**: GitHub Pages
-- **Data**: Statisk JSON-fil (`data/incidents.json`)
-- **Deployment**: GitHub Actions
+### Real Methodology. No Hype.
 
-## Kom i gang lokalt
+Every metric is explained. Every count is documented. Every limitation is disclosed.
 
-### Forutsetninger
+---
 
-- Node.js versjon 18 eller nyere
-- npm (følger med Node.js)
+## 🚀 Enterprise Features
 
-### Installasjon
+### 💼 CISO Mode
+Executive dashboard with professional filtering:
+- **Critical Only**: Severity ≥80/100 for board-level reporting
+- **Curated Only**: High-quality enrichment with multi-signal validation
+- **High Confidence**: Filter low-confidence mappings for operational use
 
-1. Klon repositoryet:
+### 🔗 Attack Chain Reconstruction
+Automatic multi-stage attack pattern detection:
+- Visualizes: Initial Access → Privilege Escalation → Persistence → Exfiltration
+- Shows most common attack paths with real incident examples
+- Identifies defense-in-depth gaps
+
+### 📊 Sector Benchmarking
+CISO-level risk comparison across industries:
+- Critical incident rate by sector
+- Exploit-led attack percentages
+- Attribution rates and average severity scores
+- Enables statements like: *"Energy sector has 2x higher critical rate than Finance"*
+
+### 📈 Trend Acceleration Analysis
+Detect emerging vs. declining threats using linear regression:
+- **Accelerating threats** (>20% growth) - requires immediate attention
+- **Declining threats** (<-20% decline) - validate defensive effectiveness
+- **Stable threats** - persistent risk requiring ongoing monitoring
+
+### 🎯 Confidence-Weighted Analytics
+Quality over quantity in threat intelligence:
+- Formula: `score = count × avg_confidence`
+- Ensures one high-confidence incident > five low-confidence buzzword reports
+- Confidence weights: high=1.0, medium=0.5, low=0.2
+
+### 🛡️ Detection Gap Analysis
+Map MITRE techniques against mentioned security tools:
+- Identify where attack techniques dominate but defenses are rarely discussed
+- Example: *"T1190 (Exploit Public-Facing Application) appears in 15% of incidents, but WAF mentioned in only 3%"*
+- Real control gap analysis for security teams
+
+---
+
+## 📋 Core Features
+
+### Analytical Framework
+- **MITRE ATT&CK Mapping**: Two-signal validation rule with confidence scores (high/medium/low)
+- **Severity Scoring**: Transparent 0-100 point system based on Impact, Exploitability, and Adversary factors
+- **Threat Actor Attribution**: Categorized (nation-state, cybercriminal, hacktivist) with confidence levels
+- **Strategic Themes**: 10 predefined risk themes (cloud exfiltration, exploit-led, identity abuse, ransomware, etc.)
+- **Content Classification**: Separates incidents from vulnerability advisories, policy updates, and opinion pieces
+
+### Data Quality
+- **800+ incidents** enriched across 2025-2026
+- **Curated subset** with multi-signal validation for operational use
+- **Transparent methodology** with documented counting rules and limitations
+- **Automated enrichment pipeline** with configurable confidence thresholds
+
+### Interactive Dashboard
+- 📊 Regional filtering (US, Europe, Asia, Norway)
+- 📅 Monthly timeline with contextual summaries
+- 🔍 Full-text search across titles, summaries, and tags
+- 🏷️ Tag-based filtering and exploration
+- 📱 Responsive design for mobile and desktop
+- 🔗 Shareable URLs for filtered views
+
+---
+
+## 🏗️ Architecture
+
+### Tech Stack
+- **Frontend**: React 19 with hooks and functional components
+- **Build Tool**: Vite for fast development and optimized production builds
+- **Hosting**: GitHub Pages with automated deployment
+- **Data Pipeline**: Node.js enrichment scripts with MITRE ATT&CK integration
+- **Deployment**: GitHub Actions CI/CD
+
+### Data Flow
+```
+RSS Feeds → Inoreader API → fetch-inoreader.js
+    ↓
+Raw Incidents → enhanced-enrichment.js → Enriched JSON
+    ↓
+React Components → analyticsUtils.js → Dashboard Visualizations
+```
+
+### Enrichment Pipeline
+1. **Content Extraction**: Fetch from Inoreader JSON feeds
+2. **Severity Scoring**: 0-100 point system with transparent drivers
+3. **MITRE Mapping**: Two-signal rule for technique identification
+4. **Actor Attribution**: Name recognition + category classification
+5. **Theme Classification**: Top 3 themes per incident with confidence
+6. **Quality Flagging**: Mark as curated based on enrichment signals
+
+---
+
+---
+
+## 🚦 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+- Git
+
+### Local Development
+
 ```bash
+# Clone the repository
 git clone https://github.com/Maremoo2/CyberNews-2025.git
 cd CyberNews-2025
-```
 
-2. Installer avhengigheter:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start utviklingsserver:
-```bash
+# Start development server
 npm run dev
+# Open http://localhost:5173
 ```
 
-4. Åpne nettleseren på `http://localhost:5173`
-
-### Andre nyttige kommandoer
+### Useful Commands
 
 ```bash
-# Bygg for produksjon
+# Build for production
 npm run build
 
-# Forhåndsvis produksjonsbygg lokalt
+# Preview production build
 npm run preview
 
-# Kjør linter
+# Run linter
 npm run lint
 
-# Valider at hendelser er i riktig årsfil
+# Enrich incidents with MITRE ATT&CK and analytics
+npm run enrich-enhanced
+
+# Validate year routing
 npm run validate-years
+
+# Fetch latest news (automated via GitHub Actions)
+npm run fetch-news
 ```
 
-## 🔄 Automated News Aggregation
+---
+
+## 📊 Analytics & Methodology
+
+### Severity Scoring (0-100 points)
+
+**Impact Factors (0-40 points)**
+- Service disruption: +15
+- Sensitive data exposure: +15
+- Critical infrastructure impact: +20
+- Large scale (millions affected): +10
+
+**Exploitability (0-30 points)**
+- Exploited in the wild: +20
+- Zero-day: +15
+- Internet-facing vector: +10
+
+**Adversary (0-15 points)**
+- Nation-state actor: +15
+- Known ransomware group: +10
+
+**Severity Labels**
+- Critical: ≥80 points
+- High: 60-79 points
+- Moderate: 25-59 points
+- Low: <25 points
+
+### MITRE ATT&CK Mapping
+
+**Two-Signal Rule**: Each technique requires multiple keyword matches for confident mapping.
+
+Example for T1567 (Exfiltration Over Web Service):
+- Signal 1 (weight 1.0): "exfiltrate", "upload", "leak"
+- Signal 2 (weight 0.8): "OneDrive", "S3", "Drive", "Dropbox"
+- Total needed: ≥1.0 to map
+
+**Confidence Levels**:
+- High: Multiple strong signals, clear attack chain
+- Medium: Technique implied from context
+- Low: Single keyword match only
+
+### Strategic Themes
+
+10 predefined risk themes, each incident gets up to 3:
+
+1. Cloud Exfiltration & SaaS Abuse
+2. Exploit-Led Intrusions
+3. Identity & Token Abuse
+4. Ransomware & Extortion Economy
+5. Supply Chain & Third-Party Compromise
+6. Disinformation & Deepfakes
+7. Botnets, DDoS & Commodity Malware
+8. Mobile/Android & Spyware Ecosystem
+9. OT/ICS & Critical Infrastructure
+10. Regulatory & Disclosure Pressure
+
+### Known Limitations
+
+Transparently documented in the UI:
+- **Media Bias**: English/Western-centric sources
+- **Underreporting**: Many incidents never disclosed publicly
+- **Survivorship Bias**: Only detected incidents visible
+- **Disclosure Lag**: Months/years delay common
+- **Attribution Uncertainty**: Often incomplete or misleading
+- **Impact Assessment**: Frequently unknown or minimized
+
+---
+
+## 💼 Professional Use Cases
+
+### For Security Analysts
+- **Threat Hunting**: Use MITRE ATT&CK mappings to identify techniques in your environment
+- **Trend Analysis**: Spot emerging attack patterns before they become widespread
+- **Intelligence Reporting**: Export curated incidents for executive briefings
+- **Control Validation**: Compare detection gaps against your security stack
+
+### For CISOs & Security Leaders
+- **Board Reporting**: CISO Mode provides executive-level summaries with confidence scoring
+- **Budget Justification**: Sector benchmarking shows relative risk position
+- **Strategic Planning**: Trend acceleration identifies where to invest defensively
+- **Risk Communication**: Transparent methodology supports informed decision-making
+
+### For SOC Teams
+- **Playbook Development**: Attack chain analysis reveals common multi-stage patterns
+- **Detection Engineering**: High-confidence MITRE mappings guide rule creation
+- **Threat Intel Integration**: Structured JSON export for SIEM/SOAR platforms
+- **Analyst Training**: Real-world incidents mapped to ATT&CK for learning
+
+### For Researchers & Students
+- **Dataset Access**: 800+ enriched incidents with transparent methodology
+- **Methodology Learning**: Study practical threat intelligence enrichment
+- **Academic Research**: Analyze threat trends with confidence-weighted data
+- **Portfolio Building**: Demonstrate analytical thinking and technical depth
+
+---
+
+## 📝 For Your Resume/CV
+
+### Project Description Template
+
+**Cybersecurity Threat Intelligence Platform**
+
+Built a threat intelligence platform that enriches 800+ cybersecurity incidents using MITRE ATT&CK mapping, explainable risk scoring, threat actor attribution, and strategic theme analysis. 
+
+Designed enterprise analytics framework with:
+- Confidence-weighted MITRE technique scoring (quality over quantity)
+- Attack chain reconstruction for multi-stage threat patterns
+- Sector benchmarking with cross-industry KPI comparison
+- Trend acceleration detection using linear regression
+- Transparent methodology with documented data limitations
+
+Technologies: React, Node.js, MITRE ATT&CK, Vite, GitHub Actions
+
+### Interview Talking Points
+
+**"I wanted to move beyond news aggregation, so I built an analytical layer that:"**
+
+1. **Separates signal from noise** - Not every headline is equally important. I use confidence scoring and multi-signal validation to identify high-quality intelligence.
+
+2. **Maps incidents to MITRE ATT&CK** - Each incident is analyzed for techniques and tactics, with confidence levels (high/medium/low) so operational teams know what's actionable.
+
+3. **Explains risk instead of just listing it** - My severity scoring system uses a transparent 0-100 point formula based on Impact, Exploitability, and Adversary factors. Anyone can understand why something is rated "critical."
+
+4. **Provides executive-level insights** - CISO Mode filters to critical incidents with high confidence, sector benchmarking enables strategic comparisons, and attack chain analysis shows defensive priorities.
+
+5. **Exposes limitations transparently** - I document media bias, underreporting, disclosure lag, and other data quality issues. No hype, just honest methodology.
+
+**Technical Depth**: Two-signal rule for MITRE mapping, confidence-weighted analytics (score = count × avg_confidence), linear regression for trend acceleration, React component architecture with custom analytics utilities.
+
+**Business Value**: Enables CISOs to make informed decisions in 10 minutes instead of days, helps SOC teams prioritize threats, and provides strategic insights for budget justification.
+
+---
+
+## 🔄 Automated Data Pipeline
+
+The platform automatically fetches and enriches cybersecurity news every 6 hours via GitHub Actions.
 
 This project automatically fetches cybersecurity news from Inoreader RSS feeds and adds them to the incidents database.
 
@@ -340,36 +558,70 @@ Nettsiden støtter URL-parametre for enkel deling av filtrerte visninger:
 - `t` eller `tag`: Tag-filter (f.eks. ransomware)
 - `major`: Vis kun største saker (true eller 1)
 
-### Eksempler på delbare lenker
+### Shareable URLs
 
 ```
-# Januar hendelser i Norge
+# January incidents in Norway
 https://maremoo2.github.io/CyberNews-2025/?m=jan&r=no
 
-# November hendelser med ransomware-tag
+# November incidents with ransomware tag
 https://maremoo2.github.io/CyberNews-2025/?m=nov&t=ransomware
 
-# Kun største saker fra desember
+# Critical incidents only from December
 https://maremoo2.github.io/CyberNews-2025/?m=des&major=true
-
-# Norge hendelser fra november
-https://maremoo2.github.io/CyberNews-2025/?m=nov&r=no
 ```
 
-## Bidra
+---
 
-For å bidra til prosjektet:
+## 🤝 Contributing
 
-1. Fork repositoryet
-2. Opprett en ny branch (`git checkout -b feature/ny-funksjon`)
-3. Commit endringene (`git commit -m 'Legg til ny funksjon'`)
-4. Push til branchen (`git push origin feature/ny-funksjon`)
-5. Opprett en Pull Request
+Contributions are welcome! To contribute:
 
-## Lisens
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Dette prosjektet er open source og tilgjengelig under MIT-lisensen.
+### Development Guidelines
+- Follow existing code style and component patterns
+- Add comments for complex analytical logic
+- Update methodology documentation for new features
+- Test enrichment pipeline changes thoroughly
 
-## Kontakt
+---
 
-For spørsmål eller tilbakemeldinger, vennligst opprett et issue i GitHub-repositoryet.
+## 📚 Documentation
+
+- **[METHODOLOGY.md](./METHODOLOGY.md)** - Detailed analytical methodology
+- **[ANALYTICS_PROPOSAL.md](./ANALYTICS_PROPOSAL.md)** - Original design proposal
+- **[YEAR_ROUTING_VERIFIED.md](./YEAR_ROUTING_VERIFIED.md)** - Data integrity verification
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgments
+
+- **MITRE ATT&CK** framework for structured threat taxonomy
+- **Inoreader** for RSS feed aggregation
+- **GitHub Pages** for free hosting and CI/CD
+- The cybersecurity community for threat intelligence sharing
+
+---
+
+## 📬 Contact
+
+Have questions, feedback, or suggestions? Please [open an issue](https://github.com/Maremoo2/CyberNews-2025/issues) on GitHub.
+
+For collaboration or professional inquiries, connect via GitHub profile.
+
+---
+
+**Built with 🔐 for the cybersecurity community**
+
+*Making threat intelligence accessible, explainable, and actionable.*

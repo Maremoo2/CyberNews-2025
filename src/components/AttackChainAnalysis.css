@@ -1,0 +1,280 @@
+.attack-chain-analysis {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.attack-chain-analysis .section-header {
+  margin-bottom: 1.5rem;
+}
+
+.attack-chain-analysis h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.attack-chain-analysis .subtitle {
+  color: #7f8c8d;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.attack-chain-analysis .metadata {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.attack-chain-analysis .count-badge,
+.attack-chain-analysis .population-badge {
+  background: #e8f4fd;
+  color: #2980b9;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.attack-chain-analysis .methodology-note {
+  background: #fff9e6;
+  border-left: 4px solid #f39c12;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.chains-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.chain-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.chain-card:hover {
+  border-color: #3498db;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.1);
+}
+
+.chain-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.chain-rank {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.chain-count {
+  background: #f0f0f0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+.chain-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.chain-step {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tactic-badge {
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tactic-badge.tactic-initial-access {
+  background: #e74c3c;
+}
+
+.tactic-badge.tactic-execution {
+  background: #e67e22;
+}
+
+.tactic-badge.tactic-persistence {
+  background: #f39c12;
+}
+
+.tactic-badge.tactic-privilege-escalation {
+  background: #d35400;
+}
+
+.tactic-badge.tactic-defense-evasion {
+  background: #9b59b6;
+}
+
+.tactic-badge.tactic-credential-access {
+  background: #8e44ad;
+}
+
+.tactic-badge.tactic-lateral-movement {
+  background: #3498db;
+}
+
+.tactic-badge.tactic-collection {
+  background: #16a085;
+}
+
+.tactic-badge.tactic-exfiltration {
+  background: #27ae60;
+}
+
+.tactic-badge.tactic-impact {
+  background: #c0392b;
+}
+
+.chain-arrow {
+  color: #95a5a6;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.chain-examples {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.chain-examples details {
+  cursor: pointer;
+}
+
+.chain-examples summary {
+  color: #3498db;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.chain-examples summary:hover {
+  background: #f8f9fa;
+}
+
+.chain-examples ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.chain-examples li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ecf0f1;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.example-date {
+  color: #7f8c8d;
+  font-size: 0.85rem;
+  min-width: 100px;
+  font-weight: 500;
+}
+
+.example-title {
+  flex: 1;
+  color: #2c3e50;
+}
+
+.insights {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.insights h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.insights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.insights li {
+  padding: 0.5rem 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.ciso-note {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.no-data {
+  text-align: center;
+  padding: 3rem;
+  color: #7f8c8d;
+}
+
+.no-data .hint {
+  font-size: 0.9rem;
+  color: #95a5a6;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .attack-chain-analysis {
+    padding: 1rem;
+  }
+
+  .chain-flow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chain-arrow {
+    transform: rotate(90deg);
+    margin: 0.5rem 0;
+  }
+
+  .tactic-badge {
+    width: 100%;
+    text-align: center;
+  }
+
+  .chain-examples li {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
