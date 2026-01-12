@@ -388,7 +388,7 @@ function App() {
             <p className="data-counts">
               {uniqueIncidentCount === totalSourceCount ? (
                 <span className="count-item">
-                  <strong>{totalSourceCount}</strong> incidents/sources
+                  <strong>{totalSourceCount}</strong> incidents
                 </span>
               ) : (
                 <>

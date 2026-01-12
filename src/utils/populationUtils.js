@@ -120,7 +120,7 @@ export function normalizeContentType(contentType) {
 }
 
 /**
- * Get data health statistics
+ * Get data health statistics with field presence diagnostics
  * Shows what percentage of data has various enrichment fields
  */
 export function getDataHealth(incidents) {
@@ -138,7 +138,15 @@ export function getDataHealth(incidents) {
         mitre: 0,
         curated: 0,
         contentType: 0
-      }
+      },
+      fieldPresence: {
+        severityField: false,
+        themesField: false,
+        mitreField: false,
+        curatedField: false,
+        contentTypeField: false
+      },
+      diagnosis: 'no_data'
     };
   }
 
@@ -148,6 +156,27 @@ export function getDataHealth(incidents) {
   const hasMitre = incidents.filter(i => i.mitre_techniques && Array.isArray(i.mitre_techniques) && i.mitre_techniques.length > 0).length;
   const curated = incidents.filter(i => i.is_curated === true).length;
   const hasContentType = incidents.filter(i => i.content_type && i.content_type !== '').length;
+
+  // Check if fields exist at all (even if empty)
+  const fieldPresence = {
+    severityField: incidents.some(i => 'severity' in i),
+    themesField: incidents.some(i => 'themes' in i),
+    mitreField: incidents.some(i => 'mitre_techniques' in i),
+    curatedField: incidents.some(i => 'is_curated' in i),
+    contentTypeField: incidents.some(i => 'content_type' in i)
+  };
+
+  // Diagnose the situation
+  let diagnosis = 'unknown';
+  const hasAnyEnrichmentFields = Object.values(fieldPresence).some(v => v);
+  
+  if (!hasAnyEnrichmentFields) {
+    diagnosis = 'raw_data'; // No enrichment fields present at all
+  } else if (hasAnyEnrichmentFields && hasSeverity === 0 && hasThemes === 0 && hasMitre === 0) {
+    diagnosis = 'empty_enrichment'; // Fields exist but are empty (pipeline bug)
+  } else if (hasSeverity > 0 || hasThemes > 0 || hasMitre > 0) {
+    diagnosis = 'partial_enrichment'; // Some enrichment exists
+  }
 
   return {
     loaded: total,
@@ -162,7 +191,9 @@ export function getDataHealth(incidents) {
       mitre: total > 0 ? Math.round((hasMitre / total) * 100) : 0,
       curated: total > 0 ? Math.round((curated / total) * 100) : 0,
       contentType: total > 0 ? Math.round((hasContentType / total) * 100) : 0
-    }
+    },
+    fieldPresence,
+    diagnosis
   };
 }
 
