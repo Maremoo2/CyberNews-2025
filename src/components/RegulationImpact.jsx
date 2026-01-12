@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import './RegulationImpact.css'
 
 function RegulationImpact({ selectedYear }) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const currentYear = new Date().getFullYear();
   
   // Key regulations and their impact
@@ -93,7 +95,7 @@ function RegulationImpact({ selectedYear }) {
   ]
 
   return (
-    <section className="regulation-impact" aria-label="Regulation Impact">
+    <section className="regulation-impact" id="regulation" aria-label="Regulation Impact">
       <div className="regulation-header">
         <h2>📜 Regulatory Landscape & Compliance Impact</h2>
         <p className="regulation-subtitle">
@@ -105,10 +107,19 @@ function RegulationImpact({ selectedYear }) {
         <p>
           Cybersecurity regulations increasingly drive organizational security strategies. In {selectedYear}, 
           multiple frameworks matured globally, creating a complex compliance landscape that directly influenced 
-          how organizations detected, responded to, and disclosed cyber incidents. Understanding these regulations 
-          is no longer optional - it's a business imperative.
+          how organizations detected, responded to, and disclosed cyber incidents.
         </p>
+        <button 
+          className="show-more-btn"
+          onClick={() => setIsExpanded(!isExpanded)}
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? '▼ Show less' : '▶ Show more details'}
+        </button>
       </div>
+
+      {isExpanded && (
+      <>
 
       {/* Regulation Cards */}
       <div className="regulations-grid">
@@ -258,6 +269,8 @@ function RegulationImpact({ selectedYear }) {
           </div>
         </div>
       </div>
+      </>
+      )}
     </section>
   )
 }

@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import './ThreatIntelligence.css'
 
 // MITRE ATT&CK Tactics and Techniques
@@ -117,6 +117,8 @@ const MITRE_TACTICS = {
 }
 
 function ThreatIntelligence({ incidents }) {
+  const [isExpanded, setIsExpanded] = useState(true);
+  
   const mitreAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
@@ -199,14 +201,23 @@ function ThreatIntelligence({ incidents }) {
   }
 
   return (
-    <section className="threat-intelligence" aria-label="MITRE ATT&CK Analysis">
+    <section className="threat-intelligence" id="mitre" aria-label="MITRE ATT&CK Analysis">
       <div className="intel-header">
         <h2>🎯 MITRE ATT&CK Framework Analysis</h2>
         <p className="intel-subtitle">
           Understanding attack patterns through the industry-standard framework for adversary tactics and techniques
         </p>
+        <button 
+          className="collapse-toggle"
+          onClick={() => setIsExpanded(!isExpanded)}
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? '▼ Collapse details' : '▶ Expand details'}
+        </button>
       </div>
 
+      {isExpanded && (
+      <>
       <div className="intel-intro">
         <p>
           The MITRE ATT&CK framework provides a comprehensive matrix of tactics (the "why") and techniques (the "how") 
@@ -295,6 +306,8 @@ function ThreatIntelligence({ incidents }) {
           </a>
         </p>
       </div>
+      </>
+      )}
     </section>
   )
 }
