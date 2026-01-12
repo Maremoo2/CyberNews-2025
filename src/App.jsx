@@ -20,6 +20,10 @@ import SectorBenchmarking from './components/SectorBenchmarking'
 import TrendAcceleration from './components/TrendAcceleration'
 import CISOMode from './components/CISOMode'
 import DetectionGapAnalysis from './components/DetectionGapAnalysis'
+import StickyNav from './components/StickyNav'
+import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
+import IncidentsSection from './components/IncidentsSection'
+import BackToTop from './components/BackToTop'
 
 // Month helpers
 const MONTHS_EN = [
@@ -335,6 +339,7 @@ function App() {
           <div className="header-text">
             <h1>Security News Year in Review {selectedYear}</h1>
             <p className="subtitle">Overview of cybersecurity incidents</p>
+            <p className="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
           </div>
           <div className="year-selector">
             <button 
@@ -357,6 +362,14 @@ function App() {
         </div>
       </header>
 
+      {/* Sticky Navigation */}
+      <StickyNav 
+        selectedYear={selectedYear}
+        onYearChange={setSelectedYear}
+        cisoMode={cisoMode}
+        onCisoModeChange={setCisoMode}
+      />
+
       {/* Hero / Value Proposition */}
       <section className="hero-section" aria-label="About this site">
         <div className="hero-content">
@@ -367,20 +380,33 @@ function App() {
         </div>
       </section>
 
-      {/* CISO Mode - Enterprise Dashboard Toggle */}
+      {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} />
 
       {/* Executive Summary - Strategic Overview */}
-      <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
+      <div id="summary">
+        <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
+
+      {/* Threat Landscape Snapshot - 1-page overview */}
+      <div id="snapshot">
+        <ThreatLandscapeSnapshot incidents={incidentsData} />
+      </div>
 
       {/* Strategic Risk Themes - Top 5 Themes */}
-      <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
+      <div id="themes">
+        <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
+      </div>
 
       {/* Attack Chain Reconstruction - Enterprise Feature */}
-      <AttackChainAnalysis incidents={incidentsData} filters={{}} />
+      <div id="attack-chains">
+        <AttackChainAnalysis incidents={incidentsData} filters={{}} />
+      </div>
 
       {/* Sector Benchmarking - CISO-Level Comparison */}
-      <SectorBenchmarking incidents={incidentsData} filters={{}} />
+      <div id="benchmarking">
+        <SectorBenchmarking incidents={incidentsData} filters={{}} />
+      </div>
 
       {/* Trend Acceleration - Emerging vs. Declining Threats */}
       <TrendAcceleration incidents={incidentsData} filters={{}} />
@@ -406,7 +432,9 @@ function App() {
       />
 
       {/* Defense Analysis - What worked and what failed */}
-      <DefenseAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+      <div id="defense">
+        <DefenseAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
 
       {/* Detection Gap Analysis - Control Coverage Assessment */}
       <DetectionGapAnalysis incidents={incidentsData} filters={{}} />
@@ -415,7 +443,9 @@ function App() {
       <RegulationImpact selectedYear={selectedYear} />
 
       {/* Forecasts and Predictions */}
-      <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
+      <div id="predictions">
+        <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
 
       {/* Methodology and Limitations */}
       <MethodologyAndLimitations />
@@ -428,259 +458,17 @@ function App() {
         selectedYear={selectedYear}
       />
 
-      {/* Interactive Tag Cloud - Commented out as buzzwords are shown in TrendDashboard above */}
-      {/* <InteractiveTagCloud 
-        incidents={incidentsData}
-        selectedTags={selectedTags}
+      {/* Incidents Section with Pagination and Tabs */}
+      <IncidentsSection 
+        incidents={filteredIncidents}
         onTagClick={handleTagClick}
-        selectedYear={selectedYear}
-      /> */}
+        selectedTags={selectedTags}
+        formatDate={formatDate}
+        getImpactBadge={getImpactBadge}
+      />
 
-      {/* Filters Section - Grouped for better UX */}
-      <div className="filters-section" role="region" aria-label="Incident filters">
-        {/* Region Filter */}
-        <div className="region-filter" role="group" aria-label="Region filter">
-          <button 
-            className={selectedRegion === 'ALL' ? 'active' : ''}
-            onClick={() => setSelectedRegion('ALL')}
-            aria-label="Show all regions"
-            aria-pressed={selectedRegion === 'ALL'}
-          >
-            All ({regionCounts.ALL})
-          </button>
-          <button 
-            className={selectedRegion === 'US' ? 'active' : ''}
-            onClick={() => setSelectedRegion('US')}
-            aria-label="Filter on USA"
-            aria-pressed={selectedRegion === 'US'}
-          >
-            USA ({regionCounts.US})
-          </button>
-          <button 
-            className={selectedRegion === 'EU' ? 'active' : ''}
-            onClick={() => setSelectedRegion('EU')}
-            aria-label="Filter on Europe"
-            aria-pressed={selectedRegion === 'EU'}
-          >
-            Europe ({regionCounts.EU})
-          </button>
-          <button 
-            className={selectedRegion === 'ASIA' ? 'active' : ''}
-            onClick={() => setSelectedRegion('ASIA')}
-            aria-label="Filter on Asia"
-            aria-pressed={selectedRegion === 'ASIA'}
-          >
-            Asia ({regionCounts.ASIA})
-          </button>
-          <button 
-            className={selectedRegion === 'NO' ? 'active' : ''}
-            onClick={() => setSelectedRegion('NO')}
-            aria-label="Filter on Norway"
-            aria-pressed={selectedRegion === 'NO'}
-          >
-            Norway ({regionCounts.NO})
-          </button>
-        </div>
-
-        {/* Month Filter */}
-        <div className="month-filter-container" role="group" aria-label="Month filter">
-          {/* Dropdown for mobile */}
-          <select 
-            className="month-dropdown"
-            value={selectedMonth}
-            onChange={(e) => setSelectedMonth(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))}
-            aria-label="Select month"
-          >
-            <option value="ALL">📅 All months</option>
-            {MONTHS_EN.map((month, index) => (
-              <option key={index} value={index}>📅 {month}</option>
-            ))}
-          </select>
-
-          {/* Buttons for desktop */}
-          <div className="month-buttons">
-            <button 
-              className={selectedMonth === 'ALL' ? 'active' : ''}
-              onClick={() => setSelectedMonth('ALL')}
-              aria-label="Show all months"
-              aria-pressed={selectedMonth === 'ALL'}
-            >
-              All
-            </button>
-            {MONTHS_EN.map((month, index) => (
-              <button
-                key={index}
-                className={selectedMonth === index ? 'active' : ''}
-                onClick={() => setSelectedMonth(index)}
-                aria-label={`Filter on ${month}`}
-                aria-pressed={selectedMonth === index}
-              >
-                {month.substring(0, 3)}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Major Incidents Toggle */}
-        <div className="major-filter-container">
-          <label className="major-toggle">
-            <input
-              type="checkbox"
-              checked={showMajorOnly}
-              onChange={(e) => setShowMajorOnly(e.target.checked)}
-              aria-label="Show only major incidents with impact 4 or higher"
-            />
-            <span className="toggle-label" aria-label="Only major incidents, impact 4 or higher">
-              ⚠️ Major incidents only (impact ≥ 4)
-            </span>
-          </label>
-        </div>
-
-        {/* Curated Filter Toggle */}
-        <div className="curated-filter-container">
-          <label className="curated-toggle">
-            <input
-              type="checkbox"
-              checked={showCuratedOnly}
-              onChange={(e) => setShowCuratedOnly(e.target.checked)}
-              aria-label="Show only curated incidents with high-quality enrichment"
-            />
-            <span className="toggle-label" aria-label="Only curated, high-quality incidents">
-              ✅ Curated only (high-quality enrichment)
-            </span>
-          </label>
-          <div className="filter-note">
-            <small>Count type: <strong>unique incidents</strong> | Population: <strong>{showCuratedOnly ? 'curated' : 'all'}</strong></small>
-          </div>
-        </div>
-      </div>
-
-      {/* Monthly Summary */}
-      {selectedMonth !== 'ALL' && MONTH_SUMMARIES[selectedMonth] && (
-        <div className="month-summary">
-          {MONTH_SUMMARIES[selectedMonth]}
-        </div>
-      )}
-
-      {/* Search Bar */}
-      <div className="search-container">
-        <div className="search-wrapper">
-          <input 
-            type="text"
-            className="search-input"
-            placeholder="🔍 Search in title, summary or tags..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Search in cybersecurity incidents"
-          />
-          {searchQuery && (
-            <button 
-              className="search-clear-btn"
-              onClick={() => setSearchQuery('')}
-              aria-label="Clear search text"
-              title="Clear search"
-            >
-              ×
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* Tag Chips */}
-      {selectedTags.length > 0 && (
-        <div className="selected-tags">
-          <span className="tag-label" aria-label="Selected tags">🏷️ Selected tags:</span>
-          {selectedTags.map(tag => (
-            <button 
-              key={tag} 
-              className="tag-chip selected"
-              onClick={() => handleTagClick(tag)}
-              aria-label={`Remove filter: ${tag}`}
-            >
-              {tag} ×
-            </button>
-          ))}
-        </div>
-      )}
-
-      {/* Incidents List */}
-      <main id="main-content" className="incidents-container">
-        {filteredIncidents.length === 0 ? (
-          <div className="empty-state">
-            <div className="empty-icon">🔍</div>
-            <h2>{getEmptyStateMessage().title}</h2>
-            {getEmptyStateMessage().suggestions.length > 0 && (
-              <ul className="empty-suggestions">
-                {getEmptyStateMessage().suggestions.map((suggestion, idx) => (
-                  <li key={idx}>{suggestion}</li>
-                ))}
-              </ul>
-            )}
-            <button 
-              className="reset-filters-btn"
-              onClick={resetAllFilters}
-              aria-label="Reset all filters"
-            >
-              Reset all filters
-            </button>
-          </div>
-        ) : (
-          <div className="incidents-list">
-            {filteredIncidents.map(incident => {
-              const impactBadge = getImpactBadge(incident.impact)
-              return (
-              <article key={incident.id} className="incident-card">
-                <div className="incident-header">
-                  <time className="incident-date" aria-label={`Date: ${formatDate(incident.date)}`}>
-                    📅 {formatDate(incident.date)}
-                  </time>
-                  <span className={`region-badge ${incident.region.toLowerCase()}`} aria-label={`Region: ${incident.region}`}>
-                    {incident.region}
-                  </span>
-                </div>
-                <h2 className="incident-title">
-                  {impactBadge && (
-                    <span 
-                      className={`impact-badge ${impactBadge.className}`} 
-                      title={impactBadge.label}
-                      aria-label={`Severity: ${impactBadge.label}`}
-                      role="img"
-                    >
-                      {impactBadge.emoji}
-                    </span>
-                  )}
-                  <a href={incident.sourceUrl} target="_blank" rel="noopener noreferrer">
-                    {incident.title}
-                  </a>
-                </h2>
-                <p className="incident-summary">{incident.summary}</p>
-                <div className="incident-footer">
-                  <span className="source-name">
-                    Source: {incident.sourceName}
-                    {incident.country && ` • ${incident.country}`}
-                  </span>
-                  {incident.tags && incident.tags.length > 0 && (
-                    <div className="tags" role="group" aria-label="Tags">
-                      {incident.tags.map(tag => (
-                        <button
-                          key={tag}
-                          className={`tag-chip ${selectedTags.includes(tag) ? 'selected' : ''}`}
-                          onClick={() => handleTagClick(tag)}
-                          aria-label={selectedTags.includes(tag) ? `Remove filter: ${tag}` : `Filter on: ${tag}`}
-                          aria-pressed={selectedTags.includes(tag)}
-                        >
-                          {tag}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </article>
-            )}
-            )}
-          </div>
-        )}
-      </main>
+      {/* Back to Top Button */}
+      <BackToTop />
 
       <footer className="footer">
         <div className="footer-reflection">
