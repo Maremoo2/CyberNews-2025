@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import './DetectionGapAnalysis.css';
-import { getDetectionGaps } from '../utils/analyticsUtils';
+import { getDetectionGaps, SECURITY_TOOLS } from '../utils/analyticsUtils';
 
 /**
  * Detection Gap Analysis Component
@@ -11,6 +11,11 @@ function DetectionGapAnalysis({ incidents, filters }) {
   const gapData = useMemo(() => {
     return getDetectionGaps(incidents, filters, 15);
   }, [incidents, filters]);
+
+  // Format security tools for display
+  const toolsExample = SECURITY_TOOLS.slice(0, 3)
+    .map(tool => tool.toUpperCase())
+    .join(', ');
 
   if (!gapData.gaps || gapData.gaps.length === 0) {
     return (
@@ -43,7 +48,7 @@ function DetectionGapAnalysis({ incidents, filters }) {
 
       <div className="methodology-note">
         <strong>Methodology:</strong> Compares MITRE technique frequency against security tool mentions 
-        (WAF, EDR, SIEM, etc.) to identify control gaps. High incident count + low tool coverage = significant gap.
+        ({toolsExample}, etc.) to identify control gaps. High incident count + low tool coverage = significant gap.
       </div>
 
       <div className="gaps-container">

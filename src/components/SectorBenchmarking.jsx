@@ -117,7 +117,7 @@ function SectorBenchmarking({ incidents, filters }) {
       <div className="insights">
         <h3>🎯 CISO Insights</h3>
         <ul>
-          {getTopInsights(benchmarkData.benchmarks, avgCriticalRate, avgExploitLedRate)}
+          {getTopInsights(benchmarkData.benchmarks, avgCriticalRate)}
         </ul>
       </div>
 
@@ -156,7 +156,7 @@ function getComparison(value, avg) {
   return `${Math.abs(Math.round(diff))}% ↓`;
 }
 
-function getTopInsights(benchmarks, avgCritical, avgExploit) {
+function getTopInsights(benchmarks, avgCritical) {
   const insights = [];
 
   // Highest critical rate

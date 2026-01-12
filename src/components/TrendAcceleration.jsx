@@ -45,7 +45,7 @@ function TrendAcceleration({ incidents, filters }) {
 
       <div className="methodology-note">
         <strong>Methodology:</strong> Trend velocity calculated using linear regression over last 3 quarters. 
-        Slope &gt;20% = accelerating, &lt;-20% = declining, else stable.
+        Slope {'>'} 20% = accelerating, {'<'} -20% = declining, else stable.
       </div>
 
       <div className="trends-container">

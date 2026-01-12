@@ -6,6 +6,29 @@
  */
 
 // ============================================================================
+// CONSTANTS
+// ============================================================================
+
+// MITRE Technique IDs
+export const MITRE_TECHNIQUE_IDS = {
+  EXPLOIT_PUBLIC_FACING_APPLICATION: 'T1190',
+  EXFILTRATION_OVER_WEB_SERVICE: 'T1567',
+  VALID_ACCOUNTS: 'T1078',
+  PHISHING: 'T1566'
+};
+
+// Security Tools for Detection Gap Analysis
+export const SECURITY_TOOLS = [
+  'waf', 'firewall', 'edr', 'antivirus', 'siem', 'soar', 
+  'ids', 'ips', 'mfa', 'dlp', 'casb', 'xdr'
+];
+
+// False Positive Detection Patterns
+export const CVE_PATTERN = /cve-\d{4}-\d+/i;
+export const ZERO_DAY_KEYWORDS = ['zero-day', '0-day'];
+export const ADVISORY_KEYWORDS = ['advisory', 'patch'];
+
+// ============================================================================
 // COUNTING TYPES
 // ============================================================================
 export const COUNTING_TYPES = {
@@ -312,7 +335,6 @@ export function getTopThemes(incidents, filters = {}, limit = 5) {
   const filtered = applyFilters(incidents, filters);
   
   const themeCounts = {};
-  const themeIncidents = {};
   
   filtered.forEach(incident => {
     if (incident.themes) {
@@ -368,9 +390,9 @@ export function calculateKPIs(incidents, filters = {}) {
   const critical = filtered.filter(i => i.severity === 'critical').length;
   const criticalRate = Math.round((critical / filtered.length) * 100);
   
-  // Exploit-led rate = incidents with T1190 or "exploited in wild"
+  // Exploit-led rate = incidents with T1190 (Exploit Public-Facing Application) or "exploited in wild"
   const exploitLed = filtered.filter(i => 
-    i.mitre_technique_ids?.includes('T1190') ||
+    i.mitre_technique_ids?.includes(MITRE_TECHNIQUE_IDS.EXPLOIT_PUBLIC_FACING_APPLICATION) ||
     i.severity_drivers?.some(d => d.toLowerCase().includes('exploited'))
   ).length;
   const exploitLedRate = Math.round((exploitLed / filtered.length) * 100);
@@ -693,7 +715,7 @@ export function getSectorBenchmarks(incidents, filters = {}) {
     
     const critical = sectorIncidents.filter(i => i.severity === 'critical').length;
     const exploitLed = sectorIncidents.filter(i => 
-      i.mitre_technique_ids?.includes('T1190') ||
+      i.mitre_technique_ids?.includes(MITRE_TECHNIQUE_IDS.EXPLOIT_PUBLIC_FACING_APPLICATION) ||
       i.severity_drivers?.some(d => d.toLowerCase().includes('exploited'))
     ).length;
     const attributed = sectorIncidents.filter(i => i.is_attributed).length;
@@ -729,11 +751,6 @@ export function getSectorBenchmarks(incidents, filters = {}) {
  */
 export function getDetectionGaps(incidents, filters = {}, limit = 10) {
   const filtered = applyFilters(incidents, filters);
-  
-  const SECURITY_TOOLS = [
-    'waf', 'firewall', 'edr', 'antivirus', 'siem', 'soar', 
-    'ids', 'ips', 'mfa', 'dlp', 'casb', 'xdr'
-  ];
   
   const techniqueToolMapping = {};
   
@@ -931,9 +948,9 @@ export function detectFalsePositives(incidents, filters = {}) {
     }
     
     // Media hype: "zero-day" mentioned but no CVE or advisory
-    if (text.includes('zero-day') || text.includes('0-day')) {
-      const hasCVE = /cve-\d{4}-\d+/.test(text);
-      const hasAdvisory = text.includes('advisory') || text.includes('patch');
+    if (ZERO_DAY_KEYWORDS.some(keyword => text.includes(keyword))) {
+      const hasCVE = CVE_PATTERN.test(text);
+      const hasAdvisory = ADVISORY_KEYWORDS.some(keyword => text.includes(keyword));
       
       if (!hasCVE && !hasAdvisory) {
         flags.mediaHype.push({
