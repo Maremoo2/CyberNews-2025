@@ -150,6 +150,11 @@ function capitalizeFirst(str) {
 }
 
 function getComparison(value, avg) {
+  // Handle invalid or zero averages
+  if (!Number.isFinite(value) || !Number.isFinite(avg) || avg === 0) {
+    return '—';
+  }
+  
   const diff = ((value - avg) / avg) * 100;
   if (Math.abs(diff) < 10) return '≈';
   if (diff > 0) return `${Math.round(diff)}% ↑`;

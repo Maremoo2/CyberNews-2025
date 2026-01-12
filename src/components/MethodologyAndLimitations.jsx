@@ -1,15 +1,26 @@
+import { useState } from 'react';
 import './MethodologyAndLimitations.css'
 
 function MethodologyAndLimitations() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
-    <section className="methodology-section" aria-label="Methodology and Limitations">
+    <section className="methodology-section" id="methodology" aria-label="Methodology and Limitations">
       <div className="methodology-header">
         <h2>📋 Methodology & Limitations</h2>
         <p className="methodology-subtitle">
           Understanding how this analysis is conducted and its inherent limitations
         </p>
+        <button 
+          className="methodology-toggle"
+          onClick={() => setIsExpanded(!isExpanded)}
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? '▼ Hide methodology' : '▶ Show methodology'}
+        </button>
       </div>
 
+      {isExpanded && (
       <div className="methodology-content">
         {/* Data Sources */}
         <div className="methodology-card">
@@ -274,6 +285,7 @@ function MethodologyAndLimitations() {
           </div>
         </div>
       </div>
+      )}
     </section>
   );
 }

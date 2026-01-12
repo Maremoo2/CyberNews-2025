@@ -19,8 +19,27 @@
   font-size: 1.1rem;
   color: #666;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   line-height: 1.6;
+}
+
+.collapse-toggle {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.collapse-toggle:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
 }
 
 .intel-intro {

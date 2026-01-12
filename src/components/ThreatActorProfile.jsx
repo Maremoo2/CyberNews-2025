@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import './ThreatActorProfile.css'
 
 // Threat actor categorization
@@ -51,6 +51,8 @@ const KNOWN_ACTORS = {
 }
 
 function ThreatActorProfile({ incidents }) {
+  const [isExpanded, setIsExpanded] = useState(true);
+  
   const actorAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
@@ -125,14 +127,23 @@ function ThreatActorProfile({ incidents }) {
   }
 
   return (
-    <section className="threat-actor-profile" aria-label="Threat Actor Analysis">
+    <section className="threat-actor-profile" id="actors" aria-label="Threat Actor Analysis">
       <div className="actor-header">
         <h2>👥 Threat Actor Landscape</h2>
         <p className="actor-subtitle">
           Understanding who is behind the attacks - their motives, methods, and targets
         </p>
+        <button 
+          className="collapse-toggle"
+          onClick={() => setIsExpanded(!isExpanded)}
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? '▼ Collapse details' : '▶ Expand details'}
+        </button>
       </div>
 
+      {isExpanded && (
+      <>
       <div className="actor-intro">
         <p>
           Not all cyber attacks are created equal. Understanding the adversary - whether they're financially motivated 
@@ -258,6 +269,8 @@ function ThreatActorProfile({ incidents }) {
           could not be clearly attributed to a specific actor category.
         </p>
       </div>
+      </>
+      )}
     </section>
   )
 }
