@@ -10,6 +10,9 @@ import ExecutiveSummary from './components/ExecutiveSummary'
 import SectorAnalysis from './components/SectorAnalysis'
 import ThreatIntelligence from './components/ThreatIntelligence'
 import ThreatActorProfile from './components/ThreatActorProfile'
+import DefenseAnalysis from './components/DefenseAnalysis'
+import RegulationImpact from './components/RegulationImpact'
+import ForecastsAndPredictions from './components/ForecastsAndPredictions'
 
 // Month helpers
 const MONTHS_EN = [
@@ -342,6 +345,9 @@ function App() {
       {/* Threat Actor Profiling */}
       <ThreatActorProfile incidents={incidentsData} />
 
+      {/* Sector Analysis - Deep dive into targeted sectors */}
+      <SectorAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+
       {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
       <TrendDashboard 
         selectedYear={selectedYear}
@@ -350,8 +356,14 @@ function App() {
         incidents={incidentsData}
       />
 
-      {/* Sector Analysis - Deep dive into targeted sectors */}
-      <SectorAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+      {/* Defense Analysis - What worked and what failed */}
+      <DefenseAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* Regulation Impact - NIS2, GDPR, DSA, etc. */}
+      <RegulationImpact selectedYear={selectedYear} />
+
+      {/* Forecasts and Predictions */}
+      <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
 
       {/* Year Wheel */}
       <YearWheel 

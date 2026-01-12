@@ -1,0 +1,285 @@
+.regulation-impact {
+  margin: 3rem auto;
+  max-width: 1400px;
+  padding: 0 1rem;
+}
+
+.regulation-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.regulation-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.regulation-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.regulation-intro {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.regulation-intro p {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Regulations Grid */
+.regulations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.regulation-card {
+  background: white;
+  border-top: 4px solid;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.regulation-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.regulation-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.reg-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+}
+
+.regulation-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.regulation-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+}
+
+.reg-region {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.25rem 0 0 0;
+}
+
+.reg-status {
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.regulation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.reg-section h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.reg-section p {
+  margin: 0;
+  line-height: 1.6;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.reg-section ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.reg-section li {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.real-world {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid #667eea;
+}
+
+/* Compliance Trends */
+.compliance-trends {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.compliance-trends h3 {
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.trends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.trend-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.trend-card h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.trend-card p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* Compliance Challenges */
+.compliance-challenges {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.compliance-challenges h3 {
+  margin: 0 0 1.5rem 0;
+  color: #856404;
+  font-size: 1.3rem;
+}
+
+.challenges-content p {
+  margin: 0 0 1rem 0;
+  color: #856404;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.challenges-content ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.challenges-content li {
+  margin: 1rem 0;
+  line-height: 1.7;
+  color: #856404;
+}
+
+.challenges-content strong {
+  color: #664d03;
+}
+
+/* Recommendations */
+.compliance-recommendations {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+}
+
+.compliance-recommendations h3 {
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.recommendation-item {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-item h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.recommendation-item p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .regulation-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .regulations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .regulation-card-header {
+    flex-direction: column;
+  }
+
+  .trends-grid,
+  .recommendations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .regulation-icon {
+    font-size: 2rem;
+  }
+}
