@@ -5,7 +5,7 @@ function DefenseAnalysis({ incidents, selectedYear }) {
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
-    // Analyze what defense mechanisms were mentioned
+    // Analyze what defense mechanisms were mentioned in public reporting
     const defenseKeywords = {
       'detection': {
         keywords: ['detected', 'discovered', 'identified', 'found', 'spotted', 'noticed'],
@@ -121,14 +121,18 @@ function DefenseAnalysis({ incidents, selectedYear }) {
       <div className="defense-header">
         <h2>🛡️ Defense Effectiveness Analysis</h2>
         <p className="defense-subtitle">
-          What worked, what failed, and lessons learned from {analysis.totalIncidents} incidents
+          Most cited defensive successes and failures from {analysis.totalIncidents} incidents
         </p>
+        <div className="methodology-disclaimer">
+          <strong>⚠️ Important Methodology Note:</strong> This analysis is based on public reporting mentions and does not represent true success rates. 
+          Successful defenses that prevent breaches are rarely reported, while failures that lead to incidents are overrepresented in the data.
+        </div>
       </div>
 
       <div className="defense-intro">
         <p>
-          Understanding both successful defenses and common failure patterns is critical for improving security posture. 
-          This analysis examines detection capabilities, prevention success rates, and the most common security gaps 
+          Understanding both cited defensive successes and common failure patterns is critical for improving security posture. 
+          This analysis examines what public incident reports mention as detection capabilities, prevention successes, and the most common security gaps 
           that led to successful attacks in {selectedYear}.
         </p>
       </div>
@@ -136,7 +140,10 @@ function DefenseAnalysis({ incidents, selectedYear }) {
       <div className="defense-grid">
         {/* What Worked */}
         <div className="defense-section success-section">
-          <h3>✅ What Worked - Successful Defenses</h3>
+          <h3>✅ Most Cited Defensive Successes</h3>
+          <div className="count-note">
+            <small>Count type: <strong>tag mentions</strong> (derived from incident reporting)</small>
+          </div>
           {analysis.successfulDefenses.length > 0 ? (
             <div className="defense-items">
               {analysis.successfulDefenses.map((defense) => (
@@ -157,7 +164,10 @@ function DefenseAnalysis({ incidents, selectedYear }) {
 
         {/* What Failed */}
         <div className="defense-section failure-section">
-          <h3>❌ What Failed - Common Vulnerabilities</h3>
+          <h3>❌ Most Cited Contributing Failures</h3>
+          <div className="count-note">
+            <small>Count type: <strong>tag mentions</strong> (derived from incident reporting)</small>
+          </div>
           {analysis.commonFailures.length > 0 ? (
             <div className="defense-items">
               {analysis.commonFailures.map((failure) => (

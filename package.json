@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "fetch-news": "node scripts/fetch-inoreader.js",
     "enrich-articles": "node scripts/enrich-articles.js",
+    "enrich-enhanced": "node scripts/enhanced-enrichment.js --year=2026 && node scripts/enhanced-enrichment.js --year=2025",
     "validate-years": "node scripts/validate-year-routing.js"
   },
   "dependencies": {
