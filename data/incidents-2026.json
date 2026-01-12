@@ -1,5 +1,654 @@
 [
   {
+    "id": "20261648",
+    "date": "2026-01-12",
+    "title": "n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens",
+    "summary": "Threat actors have been observed uploading a set of eight packages on the npm registry that masqueraded as integrations targeting the n8n workflow automation platform to steal developers' OAuth credentials. One such package, named \"n8n-nodes-hfgjf-irtuinvcm-lasdqewriit,\" mimics a Google Ads integ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/n8n-supply-chain-attack-abuses.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261649",
+    "date": "2026-01-12",
+    "title": "Target's dev server offline after hackers claim to steal source code",
+    "summary": "Hackers are claiming to be selling internal source code belonging to Target Corporation, after publishing what appears to be a sample of stolen code repositories on a public software development platform. After BleepingComputer notified Target, the files were taken offline and the retailer's deve...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/targets-dev-server-offline-after-hackers-claim-to-steal-source-code/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261650",
+    "date": "2026-01-12",
+    "title": "Apple confirms Google Gemini will power Siri, says privacy remains a priority",
+    "summary": "Apple and Google have confirmed that the next version of Siri will use Gemini and Google Cloud in a multi-year collaboration between the two tech giants. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/apple-confirms-google-gemini-will-power-siri-says-privacy-remains-a-priority/",
+    "tags": [
+      "malware",
+      "google",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261651",
+    "date": "2026-01-12",
+    "title": "Hidden Telegram proxy links can reveal your IP address in one click",
+    "summary": "A single click on what may appear to be a Telegram username or harmless link is all it takes to expose your real IP address to attackers due to how proxy links are handled. Telegram says it will add warnings to proxy links after researchers demonstrated that such one-click interactions could reve...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hidden-telegram-proxy-links-can-reveal-your-ip-address-in-one-click/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261652",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Studie: Utviklere har omfavnet KI – men få stoler på teknologien",
+    "summary": "Hele 96 prosent i undersøkelsen tror ikke den KI-genererte koden holder mål.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/studie-utviklere-har-omfavnet-ki-men-fa-stoler-pa-teknologien/566803",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261653",
+    "date": "2026-01-12",
+    "title": "Two Separate Campaigns Target Exposed LLM Services",
+    "summary": "A total of 91,403 sessions targeted public LLM endpoints to find leaks in organizations' use of AI and map an expanding attack surface.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/separate-campaigns-target-exposed-llm-services",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261654",
+    "date": "2026-01-12",
+    "title": "Spanish energy giant Endesa discloses data breach affecting customers",
+    "summary": "Spanish energy provider Endesa and its Energía XXI operator are notifying customers that hackers accessed the company's systems and accessed contract-related information, which includes personal details. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spanish-energy-giant-endesa-discloses-data-breach-affecting-customers/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261655",
+    "date": "2026-01-12",
+    "title": "Microsoft is retiring the Lens scanner app for iOS, Android",
+    "summary": "Microsoft has started retiring the Microsoft Lens PDF scanner app for Android and iOS devices on Friday, January 9th, with plans to remove it from app stores next month. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-the-lens-scanner-app-for-ios-android/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261656",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Vil at mennesker skal ta over når KI-samtalene blir for «farlige»",
+    "summary": "Tilbydere av KI-tjenester må få på plass en «nødmekanisme», foreslår kinesisiske digitaliseringsmyndigheter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/vil-at-mennesker-skal-ta-over-nar-ki-samtalene-blir-for-farlige/566806",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261657",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Bredbåndsselskapet Enivest til salgs",
+    "summary": "Bakgrunnen for salget oppgis å være endret konkurranse i bredbåndsmarkedet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/bredbandsselskapet-enivest-til-salgs/566872",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261658",
+    "date": "2026-01-12",
+    "title": "Dutch court sentences hacker who used port systems to smuggle cocaine to 7 years",
+    "summary": "The Amsterdam Court of Appeal ruled Friday that the man played a central technical role in a criminal network that exploited port computer systems in 2020 and 2021, allowing traffickers to move drugs through Europe’s logistics hubs without detection.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/dutch-court-sentences-hacker-who-smuggled-cocaine-ports",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261659",
+    "date": "2026-01-12",
+    "title": "Prevent cloud data leaks with Microsoft 365 access reviews",
+    "summary": "Microsoft 365 has made file sharing effortless, but that convenience often leaves organizations with little visibility into who can access sensitive data. Tenfold explains how access reviews for shared cloud content can help organizations regain visibility, reduce unnecessary permissions, and pre...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/prevent-cloud-data-leaks-with-microsoft-365-access-reviews/",
+    "tags": [
+      "data-breach",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261660",
+    "date": "2026-01-12",
+    "title": "UK launches formal investigation into X over ‘nudification’ of children images",
+    "summary": "The move follows an eruption of complaints that began earlier this month when the platform’s artificial intelligence tool Grok was used to create sexual images of non-consenting people in response to user requests.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-launches-formal-investigation-x-grok-images",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261661",
+    "date": "2026-01-12",
+    "title": "Max severity Ni8mare flaw impacts nearly 60,000 n8n instances",
+    "summary": "Nearly 60,000 n8n instances exposed online remain unpatched against a maximum-severity vulnerability dubbed \"Ni8mare.\" [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/max-severity-ni8mare-flaw-impacts-nearly-60-000-n8n-instances/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261662",
+    "date": "2026-01-12",
+    "title": "⚡ Weekly Recap: AI Automation Exploits, Telecom Espionage, Prompt Poaching & More",
+    "summary": "This week made one thing clear: small oversights can spiral fast. Tools meant to save time and reduce friction turned into easy entry points once basic safeguards were ignored. Attackers didn’t need novel tricks. They used what was already exposed and moved in without resistance. Scale amplified ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/weekly-recap-ai-automation-exploits.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261663",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Mister 18 fotballbaner skog hvert minutt: IT-kaos hindrer kampen mot avskoging",
+    "summary": "Mens EU-kommisjonen offisielt viser til behovet for mer tid, er et mislykket IT-system og massivt press fra globale handelspartnere de reelle årsakene til at loven igjen er blitt utsatt.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/it-kaos-hindrer-kampen-mot-avskoging/566833",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261664",
+    "date": "2026-01-12",
+    "title": "Amazon Connect now provides agent screen recording status tracking",
+    "summary": "Amazon Connect now offers customers the ability to view status of agent screen recordings in near real time in CloudWatch using Amazon EventBridge. With screen recording, supervisors can identify areas for agent coaching (e.g., non-compliance with business processes) by not only listening to cust...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-agent-screen-recording-status-tracking",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261665",
+    "date": "2026-01-12",
+    "title": "Amazon Inspector adds Java Gradle support and expands ecosystem coverage",
+    "summary": "Amazon Inspector scanning for Lambda functions and Elastic Container Registry (ECR) images now supports Java Gradle inventory and vulnerability scanning. This release also adds coverage for MySQL, MariaDB, PHP, Jenkins-core, 7zip (on Windows), Elasticsearch, and Curl/LibCurl. This update enhances...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-inspector-java-gradle-ecosystem/",
+    "tags": [
+      "vulnerability",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261666",
+    "date": "2026-01-12",
+    "title": "Critical vulnerability found in n8n workflow automation platform - Cybersecurity Dive",
+    "summary": "... Cybersecurity and Infrastructure Security Image attribution tooltip ... Don't miss breaking news on breaches and cyber attacks in your Google feed.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-vulnerability-n8n-automation-platform/809360/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261667",
+    "date": "2026-01-12",
+    "title": "CISA Closes Ten Emergency Directives After Federal Cyber Reviews",
+    "summary": "Ten Emergency Directives issued between 2019 and 2024 have been formally retired by the US Cybersecurity and Infrastructure Security Agency (CISA) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cisa-closes-ten-emergency/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261668",
+    "date": "2026-01-12",
+    "title": "Executives worry most about cyber-enabled fraud, geopolitics and AI - Cybersecurity Dive",
+    "summary": "Cyber-enabled fraud is the top concern of corporate executives, eclipsing ransomware on IT and security leaders' list of the most significant risks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cyber-risks-executives-world-economic-forum-report/809350/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261669",
+    "date": "2026-01-12",
+    "title": "HUB Cyber Security Appoints Limor Zur-Stoller as Chief Financial Officer - GlobeNewswire",
+    "summary": "She has held CFO and senior finance roles across cybersecurity, biotechnology, agro-tech, and advanced manufacturing companies, leading finance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globenewswire.com/news-release/2026/01/12/3217090/0/en/HUB-Cyber-Security-Appoints-Limor-Zur-Stoller-as-Chief-Financial-Officer.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261670",
+    "date": "2026-01-12",
+    "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (New Zealand) region",
+    "summary": "Amazon Redshift Serverless, which allows you to run and scale analytics without having to provision and manage data warehouse clusters, is now generally available in the AWS Asia Pacific (New Zealand) region. With Amazon Redshift Serverless, all users, including data analysts, developers, and dat...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-aws-asia-pacific-new-zealand-region",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261671",
+    "date": "2026-01-12",
+    "title": "Cyberfort appoints new CRO for cybersecurity support - Security Journal UK",
+    "summary": "UK-based cybersecurity services provider Cyberfort announced the appointment of Kathy Stokes as Chief Revenue Officer.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityjournaluk.com/cyberfort-appoints-cro-cybersecurity-cloud/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261672",
+    "date": "2026-01-12",
+    "title": "Everest Ransomware Targets Nissan Following ASUS Data Breach - Cybersecurity Insiders",
+    "summary": "As organizations continue to digitize operations and rely on interconnected systems, the potential attack surface expands, making robust cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/everest-ransomware-targets-nissan-following-asus-data-breach/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261673",
+    "date": "2026-01-12",
+    "title": "The best cybersecurity software in 2026: Acronis True Image vs. top alternatives",
+    "summary": "It must protect our digital identity, monitor the dark web, secure online banking activity, prevent identity theft, successfully block ransomware and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.acronis.com/en/blog/posts/the-best-cybersecurity-software-of-the-year/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261674",
+    "date": "2026-01-12",
+    "title": "CrowdStrike and Nord Security Announce Strategic Partnership to Redefine SMB Cybersecurity",
+    "summary": "“Together with Nord Security, we're redefining cybersecurity for SMBs – combining the power of the Falcon platform with Nord Security's SMB go-to- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-nord-security-announce-strategic-partnership-redefine-smb-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261675",
+    "date": "2026-01-12",
+    "title": "CrowdStrike and Nord Security Announce Strategic Partnership to Redefine SMB Cybersecurity",
+    "summary": "Challenged by limited budgets and cyber security expertise, CrowdStrike's State of SMB Cybersecurity Survey shows just 36% of small and midsize ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/crowdstrike-nord-security-announce-strategic-150000653.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20261676",
+    "date": "2026-01-12",
+    "title": "News - Cybersecurity cooperation with Israel expanded - BMI",
+    "summary": "Federal Minister of the Interior Alexander Dobrindt and Israeli Prime Minister Benjamin Netanyahu sign security and cybersecurity pact in Jerusalem.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bmi.bund.de/SharedDocs/kurzmeldungen/EN/2026/01/israel-dobrindt-en.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261677",
+    "date": "2026-01-12",
+    "title": "Global Cybersecurity Outlook 2026 - The World Economic Forum",
+    "summary": "Percentage of organizations with processes in place to assess AI security · Perception of increase or decrease in cyber risks over the past year · Top ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/digest/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261678",
+    "date": "2026-01-12",
+    "title": "AI Is Changing Cyber Threats — Here's How to Stay Protected - Panda Security",
+    "summary": "Threat actors are also social engineering AI systems themselves by posing as computer science students or cybersecurity researchers to persuade models ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pandasecurity.com/en/mediacenter/ai-is-changing-cyber-threats-heres-how-to-stay-protected/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261679",
+    "date": "2026-01-12",
+    "title": "Exeter and Resecurity Inc. agree to collaborate on cybersecurity education and research",
+    "summary": "Both organisations will work closely on data security and privacy, especially cyber threat intelligence, to create a safer Internet for the public.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/exeter-and-resecurity-inc-agree-to-collaborate-on-cybersecurity-education-and-research/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261680",
+    "date": "2026-01-12",
+    "title": "World Economic Forum: Cyber-fraud overtakes ransomware - Infosecurity Magazine",
+    "summary": "... cybersecurity in 2026. To protect businesses and society from cyber-enabled fraud and other cyber-security risks, the World Economic Forum and its ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fraud-overtakes-ransomware-as-top/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261681",
+    "date": "2026-01-12",
+    "title": "Celebrating reviews and recognitions for Malwarebytes in 2025",
+    "summary": "In November, AVLab Cybersecurity Foundation tested 244 real-world malware samples across 14 cybersecurity products. Malwarebytes Premium Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/product/2026/01/independently-reviewed-repeatedly-approved-celebrating-malwarebytes-2025-awards-and-recognitions",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261682",
+    "date": "2026-01-12",
+    "title": "AI, geopolitics & supply chains reshape cyber risk - SecurityBrief Australia",
+    "summary": "Rapid AI rollout, geopolitical rifts and fragile supply chains are upending cyber risk, straining outdated security and compliance regimes.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/ai-geopolitics-supply-chains-reshape-cyber-risk",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261683",
+    "date": "2026-01-12",
+    "title": "New Zealand: Second health provider, Canopy Health, hit in major cyber attack",
+    "summary": "Patients caught up in the CanopyHealth data breach are furious that it took the company six months to tell them about it. On Monday, it was ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/new-zealand-second-health-provider-canopy-health-hit-in-major-cyber-attack/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261684",
+    "date": "2026-01-12",
+    "title": "Banneker Partners invests in Industrial Defender to scale OT cybersecurity and compliance platform",
+    "summary": "Industrial Defender, a vendor of industrial control systems (ICS), operational technology (OT), and cyber-physical security, announced significant ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/banneker-partners-invests-in-industrial-defender-to-scale-ot-cybersecurity-and-compliance-platform/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261685",
+    "date": "2026-01-12",
+    "title": "Kiteworks warns AI security gaps leave energy infrastructure exposed to nation-state attacks",
+    "summary": "Energy has approached AI governance the way it approaches traditional infrastructure: distributed controls at individual assets and systems. But AI ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/utilities-energy-power-water-waste/kiteworks-warns-ai-security-gaps-leave-energy-infrastructure-exposed-to-nation-state-attacks/",
+    "tags": [
+      "data-breach",
+      "state-sponsored",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261686",
+    "date": "2026-01-12",
+    "title": "Department of Know: Brightspeed breach, Prompt injection woes - CISO Series",
+    "summary": "Brightspeed investigates breach, The UK hits reset on cybersecurity, OpenAI prompt injection problems keep festering. ... The UK's new Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/the-department-of-know-brightspeed-investigates-breach-uk-government-cyber-insecurity-prompt-injection-woes/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261687",
+    "date": "2026-01-12",
+    "title": "Cyber-Enabled Fraud Is Now One of the Most Pervasive Global Threats, Says New Report",
+    "summary": "... cybersecurity in 2026.Organizations are responding, nearly doubling the share assessing AI security, from 37% to 64%. Geopolitics is redefining ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/press/2026/01/cyber-enabled-fraud-is-now-one-of-the-most-pervasive-global-threats-says-new-report-45dc3f679b/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261688",
+    "date": "2026-01-12",
+    "title": "BreachForums data leak, Insta breach, UK government exempt - CISO Series",
+    "summary": "UK government exempts self from flagship cyber law. The UK's new Cyber Security and Resilience (CSR) Bill aims to update outdated cyber regulations ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-breachforums-database-leaked-instagram-breach-worries-uk-government-exempts-self/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261689",
+    "date": "2026-01-12",
+    "title": "Critical React Router Vulnerabilities Allow Attackers to Access or Modify Server Files",
+    "summary": "... Cyber Press · Home · Cyber Attack · Threats · Cyber AI · Data Breach · Vulnerability ... Cyber Security NewsCybersecurityVulnerabilities. A critical ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/react-router-vulnerabilities/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261690",
+    "date": "2026-01-12",
+    "title": "Seminar 6. februar: Sandkasseprosjekter om økonomisk kriminalitet",
+    "summary": "Datatilsynet og Finanstilsynet inviterer til seminar med presentasjon av sluttrapporter fra sandkasseprosjekter om datadeling for å forebygge og bekjempe økonomisk kriminalitet.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/seminar---sandkasseprosjekter-om-okonomisk-kriminalitet/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261647",
     "date": "2026-01-12",
     "title": "GoBruteforcer Botnet Targets Crypto Project Databases by Exploiting Weak Credentials",
