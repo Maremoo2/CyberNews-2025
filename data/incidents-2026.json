@@ -1,5 +1,20 @@
 [
   {
+    "id": "20261647",
+    "date": "2026-01-12",
+    "title": "GoBruteforcer Botnet Targets Crypto Project Databases by Exploiting Weak Credentials",
+    "summary": "A new wave of GoBruteforcer attacks has targeted databases of cryptocurrency and blockchain projects to co-opt them into a botnet that's capable of brute-forcing user passwords for services such as FTP, MySQL, PostgreSQL, and phpMyAdmin on Linux servers. \"The current wave of campaigns is driven b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/gobruteforcer-botnet-targets-crypto.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261624",
     "date": "2026-01-12",
     "title": "[Ekstra] Digitale produkter skal sikres bedre mot cyberangrep",
