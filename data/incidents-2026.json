@@ -1,5 +1,95 @@
 [
   {
+    "id": "20261618",
+    "date": "2026-01-12",
+    "title": "Meta ber Australia revurdere 16-årsgrense",
+    "summary": "Tekgiganten Meta har sperret over en halv million kontoer etter at Australia innførte 16-årsgrense for sosiale medier. Selskapet ber landet revurdere regelen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/meta-ber-australia-revurdere-16-arsgrense/566812",
+    "tags": [
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261619",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Onedrive-spam ødela arbeidsdag: – Måtte slette jobb-PC-en",
+    "summary": "En svakhet i Microsofts fildelingstjeneste lar ukjente sende dokumenter direkte til private kontoer – uten mulighet for effektiv blokkering.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/onedrive-spam-odela-arbeidsdag-matte-slette-jobb-pc-en/566707",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261620",
+    "date": "2026-01-12",
+    "title": "WEBINAR (1/14/26): The Impacts of Artificial Intelligence and Emerging Technologies on the ...",
+    "summary": "For detailed access information, see CDSE Webinars on cdse.acms.com. Tags: Center for Development of Security Excellence, Defense Counterintelligence ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://smallwarsjournal.com/2026/01/12/webinar-1-14-26-the-impacts-of-artificial-intelligence-and-emerging-technologies-on-the-cybersecurity-landscape/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261621",
+    "date": "2026-01-12",
+    "title": "Second health provider, Canopy Health, hit in major cyber attack | RNZ News",
+    "summary": "\"Following a thorough forensic review by our cybersecurity experts, we have been advised that unauthorised access to one of our servers likely ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.rnz.co.nz/news/national/583813/second-health-provider-canopy-health-hit-in-major-cyber-attack",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261622",
+    "date": "2026-01-12",
+    "title": "Hackers Accessed University of Hawaii Cancer Center Patient Data; They Weren't ...",
+    "summary": "Social Security numbers and other personal information from participants in a University of Hawaiʻi Cancer Center study were exposed to computer ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/hackers-accessed-university-of-hawaii-cancer-center-patient-data-they-werent-immediately-notified/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261623",
+    "date": "2026-01-12",
+    "title": "Meta admits to Instagram password reset mess, denies data leak - The Register",
+    "summary": "Last Friday, security software vendor Malwarebytes claimed “Cybercriminals stole the sensitive information of 17.5 million Instagram accounts, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/11/infosec_news_in_brief/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261606",
     "date": "2026-01-12",
     "title": "ISC Stormcast For Monday, January 12th, 2026 https://isc.sans.edu/podcastdetail/9762, (Mon, Jan 12th)",
