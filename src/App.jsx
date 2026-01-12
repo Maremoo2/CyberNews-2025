@@ -6,6 +6,8 @@ import InteractiveTagCloud from './components/InteractiveTagCloud'
 import YearWheel from './components/YearWheel'
 import YearStats from './components/YearStats'
 import TrendDashboard from './components/TrendDashboard'
+import ExecutiveSummary from './components/ExecutiveSummary'
+import SectorAnalysis from './components/SectorAnalysis'
 
 // Month helpers
 const MONTHS_EN = [
@@ -326,6 +328,9 @@ function App() {
         </div>
       </section>
 
+      {/* Executive Summary - Strategic Overview */}
+      <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
+
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
 
@@ -336,6 +341,9 @@ function App() {
         selectedRegion={selectedRegion}
         incidents={incidentsData}
       />
+
+      {/* Sector Analysis - Deep dive into targeted sectors */}
+      <SectorAnalysis incidents={incidentsData} selectedYear={selectedYear} />
 
       {/* Year Wheel */}
       <YearWheel 

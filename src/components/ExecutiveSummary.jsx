@@ -1,0 +1,277 @@
+import { useMemo } from 'react'
+import './ExecutiveSummary.css'
+
+function ExecutiveSummary({ incidents, selectedYear }) {
+  const analysis = useMemo(() => {
+    if (!incidents || incidents.length === 0) return null
+
+    // Calculate severity distribution
+    const severityDistribution = {
+      critical: incidents.filter(i => i.impact === 5).length,
+      high: incidents.filter(i => i.impact === 4).length,
+      moderate: incidents.filter(i => i.impact === 3).length,
+      low: incidents.filter(i => i.impact <= 2).length
+    }
+
+    // Get top threat types from tags
+    const tagCounts = {}
+    incidents.forEach(incident => {
+      incident.tags?.forEach(tag => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1
+      })
+    })
+    const topThreats = Object.entries(tagCounts)
+      .sort(([,a], [,b]) => b - a)
+      .slice(0, 5)
+      .map(([tag]) => tag)
+
+    // Identify most targeted sectors
+    const sectorCounts = {}
+    incidents.forEach(incident => {
+      incident.tags?.forEach(tag => {
+        const sectorTags = ['healthcare', 'finance', 'government', 'technology', 'education', 'retail', 'energy']
+        if (sectorTags.includes(tag.toLowerCase())) {
+          sectorCounts[tag] = (sectorCounts[tag] || 0) + 1
+        }
+      })
+    })
+    const topSectors = Object.entries(sectorCounts)
+      .sort(([,a], [,b]) => b - a)
+      .slice(0, 3)
+
+    // Identify attack vectors from common patterns
+    const attackVectors = {}
+    const vectorKeywords = {
+      'phishing': ['phishing', 'email', 'spear-phishing'],
+      'ransomware': ['ransomware', 'encryption', 'ransom'],
+      'data-breach': ['breach', 'leak', 'exfiltration', 'data-theft'],
+      'supply-chain': ['supply-chain', 'third-party', 'vendor'],
+      'zero-day': ['zero-day', 'vulnerability', 'exploit'],
+      'ddos': ['ddos', 'denial-of-service']
+    }
+
+    Object.entries(vectorKeywords).forEach(([vector, keywords]) => {
+      const count = incidents.filter(incident => {
+        const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase()
+        return keywords.some(keyword => text.includes(keyword))
+      }).length
+      if (count > 0) {
+        attackVectors[vector] = count
+      }
+    })
+
+    const topVectors = Object.entries(attackVectors)
+      .sort(([,a], [,b]) => b - a)
+      .slice(0, 3)
+
+    // Generate narrative based on data
+    const narrative = generateNarrative(selectedYear, severityDistribution, topVectors, topSectors)
+
+    return {
+      severityDistribution,
+      topThreats,
+      topSectors,
+      topVectors,
+      narrative,
+      totalIncidents: incidents.length
+    }
+  }, [incidents, selectedYear])
+
+  if (!analysis) return null
+
+  return (
+    <section className="executive-summary" aria-label="Executive Summary">
+      <div className="summary-header">
+        <h2>📊 Executive Summary</h2>
+        <p className="summary-subtitle">Key insights from {analysis.totalIncidents} incidents in {selectedYear}</p>
+      </div>
+
+      <div className="summary-narrative">
+        <div className="narrative-card">
+          <h3>The Story of {selectedYear}</h3>
+          <p className="narrative-text">{analysis.narrative}</p>
+        </div>
+      </div>
+
+      <div className="summary-grid">
+        {/* Severity Overview */}
+        <div className="summary-card severity-card">
+          <h3>🎯 Severity Distribution</h3>
+          <div className="severity-breakdown">
+            <div className="severity-item critical">
+              <span className="severity-label">Critical</span>
+              <span className="severity-count">{analysis.severityDistribution.critical}</span>
+              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.critical / analysis.totalIncidents * 100)}%`}}></span>
+            </div>
+            <div className="severity-item high">
+              <span className="severity-label">High</span>
+              <span className="severity-count">{analysis.severityDistribution.high}</span>
+              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.high / analysis.totalIncidents * 100)}%`}}></span>
+            </div>
+            <div className="severity-item moderate">
+              <span className="severity-label">Moderate</span>
+              <span className="severity-count">{analysis.severityDistribution.moderate}</span>
+              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.moderate / analysis.totalIncidents * 100)}%`}}></span>
+            </div>
+            <div className="severity-item low">
+              <span className="severity-label">Low</span>
+              <span className="severity-count">{analysis.severityDistribution.low}</span>
+              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.low / analysis.totalIncidents * 100)}%`}}></span>
+            </div>
+          </div>
+          <p className="insight-text">
+            <strong>{analysis.severityDistribution.critical}</strong> critical incidents require immediate attention
+          </p>
+        </div>
+
+        {/* Top Attack Vectors */}
+        <div className="summary-card vectors-card">
+          <h3>⚔️ Top Attack Vectors</h3>
+          <div className="vector-list">
+            {analysis.topVectors.map(([vector, count], index) => (
+              <div key={vector} className="vector-item">
+                <span className="vector-rank">#{index + 1}</span>
+                <span className="vector-name">{formatVectorName(vector)}</span>
+                <span className="vector-count">{count}</span>
+              </div>
+            ))}
+          </div>
+          <p className="insight-text">
+            Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} incidents
+          </p>
+        </div>
+
+        {/* Most Targeted Sectors */}
+        <div className="summary-card sectors-card">
+          <h3>🎯 Most Targeted Sectors</h3>
+          <div className="sector-list">
+            {analysis.topSectors.length > 0 ? (
+              analysis.topSectors.map(([sector, count], index) => (
+                <div key={sector} className="sector-item">
+                  <span className="sector-rank">#{index + 1}</span>
+                  <span className="sector-name">{capitalize(sector)}</span>
+                  <span className="sector-count">{count}</span>
+                </div>
+              ))
+            ) : (
+              <p className="no-data">Sector data not available</p>
+            )}
+          </div>
+          {analysis.topSectors.length > 0 && (
+            <p className="insight-text">
+              <strong>{capitalize(analysis.topSectors[0]?.[0])}</strong> sector hit hardest with {analysis.topSectors[0]?.[1]} incidents
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* Key Questions Section */}
+      <div className="key-questions">
+        <h3>5 Key Questions</h3>
+        <div className="questions-grid">
+          <div className="question-card">
+            <div className="question-icon">🔴</div>
+            <div className="question-content">
+              <h4>What was the biggest threat?</h4>
+              <p>{getTopThreatDescription(analysis.topVectors[0]?.[0])}</p>
+            </div>
+          </div>
+          <div className="question-card">
+            <div className="question-icon">⚡</div>
+            <div className="question-content">
+              <h4>What surprised us most?</h4>
+              <p>{getSurpriseDescription(selectedYear)}</p>
+            </div>
+          </div>
+          <div className="question-card">
+            <div className="question-icon">🎯</div>
+            <div className="question-content">
+              <h4>Who was hit hardest?</h4>
+              <p>{getHardestHitDescription(analysis.topSectors)}</p>
+            </div>
+          </div>
+          <div className="question-card">
+            <div className="question-icon">🔄</div>
+            <div className="question-content">
+              <h4>What did attackers do differently?</h4>
+              <p>{getAttackerEvolutionDescription(selectedYear)}</p>
+            </div>
+          </div>
+          <div className="question-card">
+            <div className="question-icon">🛡️</div>
+            <div className="question-content">
+              <h4>What must organizations do differently?</h4>
+              <p>{getRecommendationDescription()}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+// Helper functions
+function generateNarrative(year, severity, vectors, sectors) {
+  if (year === 2026) {
+    return `${year} saw a significant increase in sophisticated cyber attacks, with ${severity.critical} critical incidents requiring immediate response. ${formatVectorName(vectors[0]?.[0] || 'various attack vectors')} emerged as the dominant threat vector, while ${sectors[0]?.[0] || 'multiple sectors'} faced unprecedented targeting. The landscape shifted from mass attacks to more targeted, strategic campaigns leveraging advanced techniques.`
+  } else if (year === 2025) {
+    return `${year} was marked by the evolution of ransomware operations and increased state-sponsored activities. ${severity.critical} critical incidents demonstrated the growing sophistication of threat actors. Cloud infrastructure and supply chains became prime targets, with attackers exploiting trust relationships and weak identity management.`
+  }
+  return `${year} presented significant cybersecurity challenges with ${severity.critical} critical incidents.`
+}
+
+function formatVectorName(vector) {
+  if (!vector) return 'Unknown'
+  const names = {
+    'phishing': 'Phishing',
+    'ransomware': 'Ransomware',
+    'data-breach': 'Data Breaches',
+    'supply-chain': 'Supply Chain Attacks',
+    'zero-day': 'Zero-Day Exploits',
+    'ddos': 'DDoS Attacks'
+  }
+  return names[vector] || capitalize(vector)
+}
+
+function capitalize(str) {
+  if (!str) return ''
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
+function getTopThreatDescription(topVector) {
+  const descriptions = {
+    'ransomware': 'Ransomware continued to dominate, evolving from mass campaigns to highly targeted operations against critical infrastructure and high-value targets.',
+    'phishing': 'Phishing remained the primary initial access vector, with attackers using increasingly sophisticated social engineering and AI-generated content.',
+    'data-breach': 'Data breaches reached unprecedented scale, with billions of records exposed through cloud misconfigurations and compromised credentials.',
+    'supply-chain': 'Supply chain attacks proved devastatingly effective, with attackers compromising trusted vendors to gain access to multiple downstream targets.',
+    'zero-day': 'Zero-day exploits were weaponized rapidly, with state-sponsored groups leading the development and deployment of novel attack techniques.'
+  }
+  return descriptions[topVector] || 'Multiple threat vectors were active throughout the year, requiring defense in depth strategies.'
+}
+
+function getSurpriseDescription(year) {
+  if (year === 2026) {
+    return 'The rapid adoption of AI both in attacks and defenses created an arms race, with attackers using AI for more convincing phishing and automated vulnerability discovery.'
+  }
+  return 'The speed at which attackers adapted to new defenses and the sophistication of social engineering campaigns.'
+}
+
+function getHardestHitDescription(sectors) {
+  if (sectors.length === 0) {
+    return 'Organizations across all sectors faced significant cyber threats.'
+  }
+  return `${capitalize(sectors[0]?.[0])} sector bore the brunt with ${sectors[0]?.[1]} recorded incidents, due to high-value data and critical infrastructure dependencies.`
+}
+
+function getAttackerEvolutionDescription(year) {
+  if (year === 2026) {
+    return 'Shift from opportunistic attacks to strategic, intelligence-driven campaigns. Greater use of living-off-the-land techniques and legitimate tools to evade detection.'
+  }
+  return 'Increased sophistication in exploiting cloud services, identity systems, and supply chain relationships. More targeted reconnaissance and longer dwell times.'
+}
+
+function getRecommendationDescription() {
+  return 'Implement zero-trust architecture, strengthen identity and access management, enhance cloud security posture, and establish robust supply chain risk management programs. Focus on detection and response, not just prevention.'
+}
+
+export default ExecutiveSummary
