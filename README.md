@@ -73,6 +73,9 @@ npm run preview
 
 # Kjør linter
 npm run lint
+
+# Valider at hendelser er i riktig årsfil
+npm run validate-years
 ```
 
 ## 🔄 Automated News Aggregation
@@ -124,6 +127,23 @@ The feed configuration is in `config/inoreader-config.json`:
 - Default region/country mappings
 - Tag keyword patterns
 - Impact level keywords
+
+### Year Routing
+
+The system automatically routes incidents to the correct year file based on their publication date:
+
+- **2025 articles** → `data/incidents-2025.json`
+- **2026 articles** → `data/incidents-2026.json`
+- Each year has its own ID sequence (e.g., 2025001, 2026001)
+- No manual intervention required when transitioning to new years
+
+**Validate year routing:**
+```bash
+# Verify all incidents are in correct year files
+npm run validate-years
+```
+
+This ensures no cross-year contamination in the data files. See [YEAR_ROUTING_VERIFIED.md](./YEAR_ROUTING_VERIFIED.md) for details.
 
 ## Legge til nye hendelser manuelt
 
