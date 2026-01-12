@@ -17,8 +17,25 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const NEWS_DIR = path.join(PROJECT_ROOT, 'news', '2026');
-const OUTPUT_FILE = path.join(PROJECT_ROOT, 'data', 'news-aggregated-2026.json');
+
+// Dynamically determine the year - default to current year, or accept from command line
+const args = process.argv.slice(2);
+let YEAR = args.length > 0 ? args[0] : new Date().getFullYear().toString();
+
+// Validate year is a 4-digit number
+if (!/^\d{4}$/.test(YEAR)) {
+  console.error(`Error: Invalid year "${YEAR}". Year must be a 4-digit number.`);
+  process.exit(1);
+}
+
+const yearNum = parseInt(YEAR, 10);
+if (yearNum < 2000 || yearNum > 2100) {
+  console.error(`Error: Year ${yearNum} is out of reasonable range (2000-2100).`);
+  process.exit(1);
+}
+
+const NEWS_DIR = path.join(PROJECT_ROOT, 'news', YEAR);
+const OUTPUT_FILE = path.join(PROJECT_ROOT, 'data', `news-aggregated-${YEAR}.json`);
 
 // Month name mappings
 const MONTH_FOLDERS = {
@@ -431,7 +448,7 @@ function parseMarkdownFile(filePath, monthName = null) {
     if (monthName) {
       // Capitalize first letter of month
       const monthCapitalized = monthName.charAt(0).toUpperCase() + monthName.slice(1);
-      defaultDate = `${monthCapitalized} 2026`;
+      defaultDate = `${monthCapitalized} ${YEAR}`;
     } else {
       // Fallback to current date if month not provided
       const now = new Date();
@@ -476,16 +493,16 @@ function parseMarkdownFile(filePath, monthName = null) {
 function aggregateNews() {
   console.log('Starting news aggregation...');
   
-  // Check if 2026 directory exists
+  // Check if YEAR directory exists
   if (!fs.existsSync(NEWS_DIR)) {
     console.log(`News directory ${NEWS_DIR} does not exist. Creating empty aggregated file.`);
-    const emptyData = { "2026": {} };
+    const emptyData = { [YEAR]: {} };
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(emptyData, null, 2));
     console.log(`Created empty aggregated file: ${OUTPUT_FILE}`);
     return;
   }
   
-  const aggregatedData = { "2026": {} };
+  const aggregatedData = { [YEAR]: {} };
   
   // Read month folders
   const monthFolders = fs.readdirSync(NEWS_DIR).filter(f => {
@@ -497,7 +514,7 @@ function aggregateNews() {
   
   for (const monthFolder of monthFolders) {
     const monthName = MONTH_FOLDERS[monthFolder];
-    aggregatedData["2026"][monthName] = {};
+    aggregatedData[YEAR][monthName] = {};
     
     console.log(`Processing ${monthName}...`);
     
@@ -510,7 +527,7 @@ function aggregateNews() {
         const regionData = parseMarkdownFile(summaryPath, monthName);
         
         if (regionData) {
-          aggregatedData["2026"][monthName][region] = regionData;
+          aggregatedData[YEAR][monthName][region] = regionData;
         }
       } else {
         console.log(`  Skipping ${region} (no summary.md found)`);
@@ -527,7 +544,7 @@ function aggregateNews() {
   let totalRegions = 0;
   let totalIncidents = 0;
   
-  for (const monthData of Object.values(aggregatedData["2026"])) {
+  for (const monthData of Object.values(aggregatedData[YEAR])) {
     totalMonths++;
     for (const regionData of Object.values(monthData)) {
       totalRegions++;
