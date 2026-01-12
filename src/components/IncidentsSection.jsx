@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect, useRef } from "react";
 import './IncidentsSection.css';
+import { normalizeContentType } from '../utils/populationUtils';
 
 const PAGE_SIZE_OPTIONS = [10, 20, 50];
 
@@ -52,15 +53,24 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     return () => clearTimeout(timer);
   }, [query]);
 
-  // Calculate tab counts
+  // Calculate tab counts with normalized content types
   const tabCounts = useMemo(() => {
     const counts = {
       all: incidents.length,
-      incident: incidents.filter(x => x.content_type === "incident" || !x.content_type).length,
-      vulnerability: incidents.filter(x => x.content_type === "vulnerability").length,
-      policy: incidents.filter(x => x.content_type === "policy" || x.content_type === "court/regulation").length,
-      opinion: incidents.filter(x => x.content_type === "opinion" || x.content_type === "prediction").length,
+      incident: 0,
+      vulnerability: 0,
+      policy: 0,
+      opinion: 0,
     };
+    
+    incidents.forEach(x => {
+      const normalizedType = normalizeContentType(x.content_type);
+      if (normalizedType === 'incident') counts.incident++;
+      else if (normalizedType === 'vulnerability') counts.vulnerability++;
+      else if (normalizedType === 'policy') counts.policy++;
+      else if (normalizedType === 'opinion') counts.opinion++;
+    });
+    
     return counts;
   }, [incidents]);
 
@@ -70,12 +80,9 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     return incidents
       .filter((x) => {
         if (tab === "all") return true;
-        // Map content_type to tabs
-        if (tab === "incident") return x.content_type === "incident" || !x.content_type;
-        if (tab === "vulnerability") return x.content_type === "vulnerability";
-        if (tab === "policy") return x.content_type === "policy" || x.content_type === "court/regulation";
-        if (tab === "opinion") return x.content_type === "opinion" || x.content_type === "prediction";
-        return false;
+        // Use normalized content type for filtering
+        const normalizedType = normalizeContentType(x.content_type);
+        return normalizedType === tab;
       })
       .filter((x) => curatedOnly ? x.is_curated : true)
       .filter((x) => {

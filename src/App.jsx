@@ -24,6 +24,8 @@ import StickyNav from './components/StickyNav'
 import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
 import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
+import DataHealthDashboard from './components/DataHealthDashboard'
+import { countUniqueIncidents } from './utils/populationUtils'
 
 // Month helpers
 const MONTHS_EN = [
@@ -161,6 +163,10 @@ function App() {
       iso: maxDate.toISOString().split('T')[0]
     };
   }, [incidentsData]);
+
+  // Calculate unique incidents vs total sources
+  const uniqueIncidentCount = useMemo(() => countUniqueIncidents(incidentsData), [incidentsData]);
+  const totalSourceCount = incidentsData?.length || 0;
 
   // Update URL when year changes
   useEffect(() => {
@@ -378,7 +384,23 @@ function App() {
             <p className="subtitle">Overview of cybersecurity incidents</p>
             <p className="last-updated" title={`Last data from: ${lastUpdated.iso}`}>
               Last updated (from data): {lastUpdated.iso}
-              {incidentsData && <span className="source-count"> • {incidentsData.length} total sources</span>}
+            </p>
+            <p className="data-counts">
+              {uniqueIncidentCount === totalSourceCount ? (
+                <span className="count-item">
+                  <strong>{totalSourceCount}</strong> incidents/sources
+                </span>
+              ) : (
+                <>
+                  <span className="count-item">
+                    <strong>{uniqueIncidentCount}</strong> unique incidents (deduplicated)
+                  </span>
+                  <span className="count-separator"> • </span>
+                  <span className="count-item">
+                    <strong>{totalSourceCount}</strong> total sources/articles
+                  </span>
+                </>
+              )}
             </p>
           </div>
           <div className="year-selector">
@@ -419,6 +441,9 @@ function App() {
           </p>
         </div>
       </section>
+
+      {/* Data Health Dashboard */}
+      <DataHealthDashboard incidents={incidentsData} />
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} />

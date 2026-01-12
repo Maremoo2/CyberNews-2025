@@ -84,6 +84,29 @@ select:focus-visible {
   font-style: italic;
 }
 
+.data-counts {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.count-item {
+  opacity: 0.95;
+}
+
+.count-item strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+.count-separator {
+  opacity: 0.7;
+}
+
 /* Year Selector */
 .year-selector {
   display: flex;

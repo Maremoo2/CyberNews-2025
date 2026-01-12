@@ -1,10 +1,15 @@
 import { useMemo } from 'react'
 import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
+import { isDataEnriched, getEnrichmentQualityMessage } from '../utils/populationUtils'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
+
+    // Check if data is enriched
+    const dataEnriched = isDataEnriched(incidents);
+    const enrichmentMessage = getEnrichmentQualityMessage(incidents);
 
     // Use new analytics utilities for consistent counting
     const severityData = getSeverityDistribution(incidents, {});
@@ -53,7 +58,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       .slice(0, 3);
 
     // Generate narrative based on data
-    const narrative = generateNarrative(selectedYear, severityData.distribution, topThemes, attributionRate, kpis)
+    const narrative = generateNarrative(selectedYear, severityData.distribution, topThemes, attributionRate, kpis, dataEnriched)
 
     return {
       severityDistribution: severityData.distribution,
@@ -66,7 +71,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       curatedCount: incidents.filter(i => i.is_curated).length,
       attributionRate: attributionRate.rate,
       criticalRate: kpis.criticalRate,
-      exploitLedRate: kpis.exploitLedRate
+      exploitLedRate: kpis.exploitLedRate,
+      dataEnriched,
+      enrichmentMessage
     }
   }, [incidents, selectedYear])
 
@@ -83,6 +90,21 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         </div>
       </div>
 
+      {/* Show enrichment warning if data is not enriched */}
+      {!analysis.dataEnriched && (
+        <div className="enrichment-warning">
+          <div className="warning-icon">⚠️</div>
+          <div className="warning-content">
+            <strong>Limited Data Enrichment</strong>
+            <p>{analysis.enrichmentMessage}</p>
+            <p className="warning-hint">
+              Some analysis features (severity distribution, themes, MITRE mapping) require enriched data.
+              Run <code>npm run enrich-enhanced</code> to enable full analysis.
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="summary-narrative">
         <div className="narrative-card">
           <h3>The Story of {selectedYear}</h3>
@@ -97,48 +119,68 @@ function ExecutiveSummary({ incidents, selectedYear }) {
           <div className="count-type-label">
             <small>Count type: unique incidents</small>
           </div>
-          <div className="severity-breakdown">
-            <div className="severity-item critical">
-              <span className="severity-label">Critical</span>
-              <span className="severity-count">{analysis.severityDistribution.critical}</span>
-              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.critical / analysis.totalIncidents * 100)}%`}}></span>
+          {!analysis.dataEnriched ? (
+            <div className="no-enrichment-message">
+              <p>⚠️ Severity data not available</p>
+              <p className="message-hint">Run enrichment to enable severity analysis</p>
             </div>
-            <div className="severity-item high">
-              <span className="severity-label">High</span>
-              <span className="severity-count">{analysis.severityDistribution.high}</span>
-              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.high / analysis.totalIncidents * 100)}%`}}></span>
-            </div>
-            <div className="severity-item moderate">
-              <span className="severity-label">Moderate</span>
-              <span className="severity-count">{analysis.severityDistribution.moderate}</span>
-              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.moderate / analysis.totalIncidents * 100)}%`}}></span>
-            </div>
-            <div className="severity-item low">
-              <span className="severity-label">Low</span>
-              <span className="severity-count">{analysis.severityDistribution.low}</span>
-              <span className="severity-bar" style={{width: `${(analysis.severityDistribution.low / analysis.totalIncidents * 100)}%`}}></span>
-            </div>
-          </div>
-          <p className="insight-text">
-            <strong>{analysis.severityDistribution.critical}</strong> critical incidents require immediate attention
-          </p>
+          ) : (
+            <>
+              <div className="severity-breakdown">
+                <div className="severity-item critical">
+                  <span className="severity-label">Critical</span>
+                  <span className="severity-count">{analysis.severityDistribution.critical}</span>
+                  <span className="severity-bar" style={{width: `${(analysis.severityDistribution.critical / analysis.totalIncidents * 100)}%`}}></span>
+                </div>
+                <div className="severity-item high">
+                  <span className="severity-label">High</span>
+                  <span className="severity-count">{analysis.severityDistribution.high}</span>
+                  <span className="severity-bar" style={{width: `${(analysis.severityDistribution.high / analysis.totalIncidents * 100)}%`}}></span>
+                </div>
+                <div className="severity-item moderate">
+                  <span className="severity-label">Moderate</span>
+                  <span className="severity-count">{analysis.severityDistribution.moderate}</span>
+                  <span className="severity-bar" style={{width: `${(analysis.severityDistribution.moderate / analysis.totalIncidents * 100)}%`}}></span>
+                </div>
+                <div className="severity-item low">
+                  <span className="severity-label">Low</span>
+                  <span className="severity-count">{analysis.severityDistribution.low}</span>
+                  <span className="severity-bar" style={{width: `${(analysis.severityDistribution.low / analysis.totalIncidents * 100)}%`}}></span>
+                </div>
+              </div>
+              <p className="insight-text">
+                <strong>{analysis.severityDistribution.critical}</strong> critical incidents require immediate attention
+              </p>
+            </>
+          )}
         </div>
 
         {/* Top Attack Vectors */}
         <div className="summary-card vectors-card">
           <h3>⚔️ Top Attack Vectors</h3>
-          <div className="vector-list">
-            {analysis.topVectors.map(([vector, count], index) => (
-              <div key={vector} className="vector-item">
-                <span className="vector-rank">#{index + 1}</span>
-                <span className="vector-name">{formatVectorName(vector)}</span>
-                <span className="vector-count">{count}</span>
+          {!analysis.dataEnriched || analysis.topVectors.length === 0 ? (
+            <div className="no-enrichment-message">
+              <p>⚠️ MITRE technique data not available</p>
+              <p className="message-hint">Run enrichment to enable attack vector analysis</p>
+            </div>
+          ) : (
+            <>
+              <div className="vector-list">
+                {analysis.topVectors.map(([vector, count], index) => (
+                  <div key={vector} className="vector-item">
+                    <span className="vector-rank">#{index + 1}</span>
+                    <span className="vector-name">{formatVectorName(vector)}</span>
+                    <span className="vector-count">{count}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          <p className="insight-text">
-            Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} incidents
-          </p>
+              {analysis.topVectors.length > 0 && (
+                <p className="insight-text">
+                  Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} incidents
+                </p>
+              )}
+            </>
+          )}
         </div>
 
         {/* Most Targeted Sectors */}
@@ -211,10 +253,15 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 }
 
 // Helper functions
-function generateNarrative(year, severity, topThemes, attributionRate, kpis) {
+function generateNarrative(year, severity, topThemes, attributionRate, kpis, dataEnriched) {
   const criticalCount = severity.critical;
   const topTheme = topThemes?.themes?.[0]?.name || 'various strategic threats';
   const attributionPct = attributionRate.rate;
+  
+  // If data is not enriched, provide a generic narrative
+  if (!dataEnriched) {
+    return `${year} data is being collected and analyzed. ${criticalCount > 0 ? `${criticalCount} critical incidents have been identified.` : ''} Full analysis including severity distribution, themes, and MITRE mapping will be available once enrichment is complete. Run the enrichment script to enable comprehensive analysis.`;
+  }
   
   if (year === 2026) {
     return `${year} saw ${criticalCount} critical incidents requiring immediate response, with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incidents were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`

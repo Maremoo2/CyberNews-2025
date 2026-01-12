@@ -1,11 +1,14 @@
 import { useMemo } from 'react';
 import './ThreatLandscapeSnapshot.css';
+import { isDataEnriched } from '../utils/populationUtils';
 
 /**
  * Threat Landscape Snapshot
  * 4-box overview: Top Initial Access, Top Impact, Top Themes, Top Defensive Focus
  */
 function ThreatLandscapeSnapshot({ incidents }) {
+  const dataEnriched = useMemo(() => isDataEnriched(incidents), [incidents]);
+  
   const snapshot = useMemo(() => {
     // Top Initial Access (MITRE T1190, T1133, T1566)
     const initialAccessCounts = {};
@@ -66,9 +69,10 @@ function ThreatLandscapeSnapshot({ incidents }) {
       topImpact,
       topThemes,
       topDefense,
-      totalIncidents: incidents.length
+      totalIncidents: incidents.length,
+      dataEnriched
     };
-  }, [incidents]);
+  }, [incidents, dataEnriched]);
 
   return (
     <div className="threat-landscape-snapshot">
@@ -76,6 +80,12 @@ function ThreatLandscapeSnapshot({ incidents }) {
         <h2>🌐 Threat Landscape Snapshot</h2>
         <p className="subtitle">Quick overview of the current threat environment</p>
       </div>
+
+      {!snapshot.dataEnriched && (
+        <div className="snapshot-warning">
+          <p>⚠️ Limited data enrichment - some metrics may not be available</p>
+        </div>
+      )}
 
       <div className="snapshot-grid">
         <div className="snapshot-card">
