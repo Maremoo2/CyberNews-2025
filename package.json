@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch-news": "node scripts/fetch-inoreader.js",
-    "enrich-articles": "node scripts/enrich-articles.js"
+    "enrich-articles": "node scripts/enrich-articles.js",
+    "validate-years": "node scripts/validate-year-routing.js"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
