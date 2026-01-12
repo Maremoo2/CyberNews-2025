@@ -8,6 +8,8 @@ import YearStats from './components/YearStats'
 import TrendDashboard from './components/TrendDashboard'
 import ExecutiveSummary from './components/ExecutiveSummary'
 import SectorAnalysis from './components/SectorAnalysis'
+import ThreatIntelligence from './components/ThreatIntelligence'
+import ThreatActorProfile from './components/ThreatActorProfile'
 
 // Month helpers
 const MONTHS_EN = [
@@ -333,6 +335,12 @@ function App() {
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* MITRE ATT&CK Framework Analysis */}
+      <ThreatIntelligence incidents={incidentsData} />
+
+      {/* Threat Actor Profiling */}
+      <ThreatActorProfile incidents={incidentsData} />
 
       {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
       <TrendDashboard 
