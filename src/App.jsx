@@ -113,8 +113,12 @@ function getInitialStateFromURL() {
 
 function App() {
   const initialState = getInitialStateFromURL()
-  // Year selection state (default to 2026)
-  const [selectedYear, setSelectedYear] = useState(2026)
+  
+  // Get year from URL or default to 2026
+  const urlParams = new URLSearchParams(window.location.search);
+  const yearFromUrl = parseInt(urlParams.get('year') || '2026', 10);
+  const [selectedYear, setSelectedYear] = useState([2025, 2026].includes(yearFromUrl) ? yearFromUrl : 2026);
+  
   const [selectedRegion, setSelectedRegion] = useState(initialState.region)
   const [searchQuery, setSearchQuery] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
@@ -135,6 +139,36 @@ function App() {
     2026: incidents2026
   }
   const incidentsData = yearDataMap[selectedYear] || incidents2025
+
+  // Calculate last updated date from actual data
+  const lastUpdated = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    const dates = incidentsData
+      .map(inc => inc.date)
+      .filter(date => date)
+      .map(date => new Date(date))
+      .filter(date => !isNaN(date.getTime()));
+    
+    if (dates.length === 0) {
+      return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    
+    const maxDate = new Date(Math.max(...dates));
+    return maxDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  }, [incidentsData]);
+
+  // Update URL when year changes
+  useEffect(() => {
+    const url = new URL(window.location);
+    if (selectedYear !== 2026) {
+      url.searchParams.set('year', selectedYear);
+    } else {
+      url.searchParams.delete('year');
+    }
+    window.history.replaceState({}, '', url);
+  }, [selectedYear]);
 
   // Debounce search input
   useEffect(() => {
@@ -339,7 +373,7 @@ function App() {
           <div className="header-text">
             <h1>Security News Year in Review {selectedYear}</h1>
             <p className="subtitle">Overview of cybersecurity incidents</p>
-            <p className="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+            <p className="last-updated">Last updated: {lastUpdated}</p>
           </div>
           <div className="year-selector">
             <button 

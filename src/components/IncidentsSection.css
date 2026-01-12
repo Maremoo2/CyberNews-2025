@@ -294,13 +294,46 @@
 
 .empty-state {
   text-align: center;
-  padding: 3rem 1rem;
-  color: #718096;
+  padding: 4rem 2rem;
+  background: white;
+  border: 2px dashed #e2e8f0;
+  border-radius: 12px;
 }
 
 .empty-icon {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2d3748;
+  font-size: 1.5rem;
+}
+
+.empty-state p {
+  margin: 0 0 1.5rem 0;
+  color: #718096;
+}
+
+.reset-btn {
+  padding: 0.75rem 2rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.reset-btn:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
 /* Responsive Design */

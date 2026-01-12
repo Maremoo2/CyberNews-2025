@@ -8,12 +8,39 @@ function paginate(items, page, pageSize) {
   return items.slice(start, start + pageSize);
 }
 
+// Helper to get URL params
+function getUrlParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    tab: params.get('tab') || 'all',
+    page: parseInt(params.get('page') || '1', 10),
+    pageSize: parseInt(params.get('pageSize') || '10', 10),
+    query: params.get('q') || '',
+    curated: params.get('curated') === '1'
+  };
+}
+
+// Helper to update URL params
+function updateUrlParams(params) {
+  const url = new URL(window.location);
+  Object.keys(params).forEach(key => {
+    if (params[key]) {
+      url.searchParams.set(key, params[key]);
+    } else {
+      url.searchParams.delete(key);
+    }
+  });
+  window.history.replaceState({}, '', url);
+}
+
 export default function IncidentsSection({ incidents, onTagClick, selectedTags, formatDate, getImpactBadge }) {
-  const [tab, setTab] = useState("all");
-  const [pageSize, setPageSize] = useState(10);
-  const [page, setPage] = useState(1);
-  const [query, setQuery] = useState("");
-  const [curatedOnly, setCuratedOnly] = useState(false);
+  // Initialize state from URL params
+  const urlParams = getUrlParams();
+  const [tab, setTab] = useState(urlParams.tab);
+  const [pageSize, setPageSize] = useState(urlParams.pageSize);
+  const [page, setPage] = useState(urlParams.page);
+  const [query, setQuery] = useState(urlParams.query);
+  const [curatedOnly, setCuratedOnly] = useState(urlParams.curated);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -44,10 +71,30 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
   // Reset page when filters change
   useEffect(() => setPage(1), [tab, pageSize, query, curatedOnly]);
 
+  // Update URL params when state changes
+  useEffect(() => {
+    updateUrlParams({
+      tab: tab !== 'all' ? tab : '',
+      page: page > 1 ? page : '',
+      pageSize: pageSize !== 10 ? pageSize : '',
+      q: query || '',
+      curated: curatedOnly ? '1' : ''
+    });
+  }, [tab, page, pageSize, query, curatedOnly]);
+
   const pageItems = useMemo(() => paginate(filtered, page, pageSize), [filtered, page, pageSize]);
 
   const start = (page - 1) * pageSize + 1;
   const end = Math.min(page * pageSize, filtered.length);
+
+  // Reset all filters function
+  const resetFilters = () => {
+    setTab('all');
+    setPage(1);
+    setPageSize(10);
+    setQuery('');
+    setCuratedOnly(false);
+  };
 
   return (
     <section className="incidents-section" id="incidents">
@@ -107,14 +154,18 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
       </div>
 
       <div className="meta">
-        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b>
+        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b> incidents
       </div>
 
       <div className="list">
         {pageItems.length === 0 ? (
           <div className="empty-state">
             <div className="empty-icon">🔍</div>
-            <p>No incidents match your filters</p>
+            <h3>No incidents found</h3>
+            <p>No incidents match your current filters.</p>
+            <button className="reset-btn" onClick={resetFilters}>
+              Reset all filters
+            </button>
           </div>
         ) : (
           pageItems.map((item) => {
