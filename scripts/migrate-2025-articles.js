@@ -72,8 +72,30 @@ function main() {
   console.log(`📚 Loaded ${incidents2025.length} incidents from incidents-2025-enriched.json\n`);
   
   // Separate 2025 and 2026 articles
-  const articles2025 = incidents2026.filter(inc => inc.date && inc.date.startsWith('2025'));
-  const articles2026 = incidents2026.filter(inc => inc.date && inc.date.startsWith('2026'));
+  const articles2025 = incidents2026.filter(inc => 
+    inc.date && typeof inc.date === 'string' && inc.date.startsWith('2025')
+  );
+  const articles2026 = incidents2026.filter(inc => 
+    inc.date && typeof inc.date === 'string' && inc.date.startsWith('2026')
+  );
+  
+  // Handle articles with missing or invalid dates
+  const articlesWithInvalidDates = incidents2026.filter(inc => 
+    !inc.date || typeof inc.date !== 'string' || 
+    (!inc.date.startsWith('2025') && !inc.date.startsWith('2026'))
+  );
+  
+  if (articlesWithInvalidDates.length > 0) {
+    console.log(`⚠️  Warning: Found ${articlesWithInvalidDates.length} articles with missing or invalid dates`);
+    console.log(`    These articles will remain in incidents-2026.json`);
+    for (const article of articlesWithInvalidDates.slice(0, 5)) {
+      console.log(`    - ID ${article.id}: date="${article.date}" - ${article.title?.substring(0, 50)}...`);
+    }
+    if (articlesWithInvalidDates.length > 5) {
+      console.log(`    ... and ${articlesWithInvalidDates.length - 5} more`);
+    }
+    console.log();
+  }
   
   console.log(`📊 Found ${articles2025.length} articles from 2025 in incidents-2026.json`);
   console.log(`📊 Found ${articles2026.length} articles from 2026 in incidents-2026.json\n`);
@@ -128,8 +150,8 @@ function main() {
     return;
   }
   
-  // Merge the 2025 articles with existing 2025 file
-  const merged2025 = [...reIDed2025Articles, ...incidents2025];
+  // Merge the 2025 articles with existing 2025 file (existing first for consistent ordering)
+  const merged2025 = [...incidents2025, ...reIDed2025Articles];
   
   // Sort by date (newest first)
   merged2025.sort((a, b) => {
@@ -138,22 +160,31 @@ function main() {
     return dateB - dateA;
   });
   
-  // Sort 2026 articles by date (newest first)
-  articles2026.sort((a, b) => {
+  // Sort 2026 articles by date (newest first), keeping invalid dates at the end
+  const valid2026Articles = articles2026.filter(a => a.date && !isNaN(new Date(a.date).getTime()));
+  const invalid2026Articles = [...articlesWithInvalidDates, ...articles2026.filter(a => !a.date || isNaN(new Date(a.date).getTime()))];
+  
+  valid2026Articles.sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
     return dateB - dateA;
   });
   
+  const final2026Articles = [...valid2026Articles, ...invalid2026Articles];
+  
   // Save both files
   console.log('\n💾 Saving files...\n');
   saveJSON(INCIDENTS_2025_FILE, merged2025);
-  saveJSON(INCIDENTS_2026_FILE, articles2026);
+  saveJSON(INCIDENTS_2026_FILE, final2026Articles);
   
   console.log('\n✅ Migration complete!');
   console.log(`   - Moved ${articles2025.length} articles from 2026 to 2025`);
   console.log(`   - incidents-2025-enriched.json now has ${merged2025.length} total articles`);
-  console.log(`   - incidents-2026.json now has ${articles2026.length} total articles\n`);
+  console.log(`   - incidents-2026.json now has ${final2026Articles.length} total articles`);
+  if (articlesWithInvalidDates.length > 0) {
+    console.log(`   - ${articlesWithInvalidDates.length} articles with invalid dates remain in 2026 file`);
+  }
+  console.log();
 }
 
 // Run main function
