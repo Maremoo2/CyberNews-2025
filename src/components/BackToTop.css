@@ -36,7 +36,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .back-to-top {
-    bottom: 1rem;
+    bottom: 5rem;
     right: 1rem;
     width: 44px;
     height: 44px;

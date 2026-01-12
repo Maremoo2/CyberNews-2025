@@ -143,7 +143,7 @@ function App() {
   // Calculate last updated date from actual data
   const lastUpdated = useMemo(() => {
     if (!incidentsData || incidentsData.length === 0) {
-      return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      return { formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), iso: new Date().toISOString().split('T')[0] };
     }
     const dates = incidentsData
       .map(inc => inc.date)
@@ -152,11 +152,14 @@ function App() {
       .filter(date => !isNaN(date.getTime()));
     
     if (dates.length === 0) {
-      return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      return { formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), iso: new Date().toISOString().split('T')[0] };
     }
     
     const maxDate = new Date(Math.max(...dates));
-    return maxDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    return { 
+      formatted: maxDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+      iso: maxDate.toISOString().split('T')[0]
+    };
   }, [incidentsData]);
 
   // Update URL when year changes
@@ -373,7 +376,10 @@ function App() {
           <div className="header-text">
             <h1>Security News Year in Review {selectedYear}</h1>
             <p className="subtitle">Overview of cybersecurity incidents</p>
-            <p className="last-updated">Last updated: {lastUpdated}</p>
+            <p className="last-updated" title={`Last data from: ${lastUpdated.iso}`}>
+              Last updated (from data): {lastUpdated.iso}
+              {incidentsData && <span className="source-count"> • {incidentsData.length} total sources</span>}
+            </p>
           </div>
           <div className="year-selector">
             <button 

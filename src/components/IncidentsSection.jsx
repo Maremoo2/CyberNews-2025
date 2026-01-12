@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import './IncidentsSection.css';
 
 const PAGE_SIZE_OPTIONS = [10, 20, 50];
@@ -41,9 +41,31 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
   const [page, setPage] = useState(urlParams.page);
   const [query, setQuery] = useState(urlParams.query);
   const [curatedOnly, setCuratedOnly] = useState(urlParams.curated);
+  const [debouncedQuery, setDebouncedQuery] = useState(urlParams.query);
+  const searchInputRef = useRef(null);
+
+  // Debounce search query
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  // Calculate tab counts
+  const tabCounts = useMemo(() => {
+    const counts = {
+      all: incidents.length,
+      incident: incidents.filter(x => x.content_type === "incident" || !x.content_type).length,
+      vulnerability: incidents.filter(x => x.content_type === "vulnerability").length,
+      policy: incidents.filter(x => x.content_type === "policy" || x.content_type === "court/regulation").length,
+      opinion: incidents.filter(x => x.content_type === "opinion" || x.content_type === "prediction").length,
+    };
+    return counts;
+  }, [incidents]);
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = debouncedQuery.trim().toLowerCase();
 
     return incidents
       .filter((x) => {
@@ -64,12 +86,12 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
           (x.tags || []).some((t) => (t || "").toLowerCase().includes(q))
         );
       });
-  }, [incidents, tab, query, curatedOnly]);
+  }, [incidents, tab, debouncedQuery, curatedOnly]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
 
   // Reset page when filters change
-  useEffect(() => setPage(1), [tab, pageSize, query, curatedOnly]);
+  useEffect(() => setPage(1), [tab, pageSize, debouncedQuery, curatedOnly]);
 
   // Update URL params when state changes
   useEffect(() => {
@@ -93,8 +115,37 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     setPage(1);
     setPageSize(10);
     setQuery('');
+    setDebouncedQuery('');
     setCuratedOnly(false);
   };
+
+  // Clear search function
+  const clearSearch = () => {
+    setQuery('');
+    setDebouncedQuery('');
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  };
+
+  // Copy shareable link
+  const copyShareableLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      alert('Link copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
+
+  // Get active filters for empty state
+  const activeFilters = useMemo(() => {
+    const filters = [];
+    if (tab !== 'all') filters.push({ label: `Tab: ${tab.toUpperCase()}`, clear: () => setTab('all') });
+    if (curatedOnly) filters.push({ label: 'Curated only', clear: () => setCuratedOnly(false) });
+    if (debouncedQuery) filters.push({ label: `Search: "${debouncedQuery}"`, clear: clearSearch });
+    return filters;
+  }, [tab, curatedOnly, debouncedQuery]);
 
   return (
     <section className="incidents-section" id="incidents">
@@ -106,11 +157,11 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
       <div className="toolbar">
         <div className="tabs">
           {[
-            { id: "all", label: "ALL" },
-            { id: "incident", label: "INCIDENTS" },
-            { id: "vulnerability", label: "VULNERABILITIES" },
-            { id: "policy", label: "POLICY" },
-            { id: "opinion", label: "OPINION/PREDICTIONS" }
+            { id: "all", label: "ALL", count: tabCounts.all },
+            { id: "incident", label: "INCIDENTS", count: tabCounts.incident },
+            { id: "vulnerability", label: "VULNERABILITIES", count: tabCounts.vulnerability },
+            { id: "policy", label: "POLICY", count: tabCounts.policy },
+            { id: "opinion", label: "OPINION/PREDICTIONS", count: tabCounts.opinion }
           ].map((t) => (
             <button
               key={t.id}
@@ -118,7 +169,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
               onClick={() => setTab(t.id)}
               aria-pressed={tab === t.id}
             >
-              {t.label}
+              {t.label} ({t.count})
             </button>
           ))}
         </div>
@@ -133,13 +184,26 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
             <span>Curated only</span>
           </label>
 
-          <input
-            className="search-input"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search title, summary, tags…"
-            aria-label="Search incidents"
-          />
+          <div className="search-wrapper">
+            <input
+              ref={searchInputRef}
+              className="search-input"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search title, summary, tags…"
+              aria-label="Search incidents"
+            />
+            {query && (
+              <button 
+                className="search-clear" 
+                onClick={clearSearch}
+                aria-label="Clear search"
+                title="Clear search"
+              >
+                ×
+              </button>
+            )}
+          </div>
 
           <select 
             value={pageSize} 
@@ -150,6 +214,15 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
               <option key={n} value={n}>{n} / page</option>
             ))}
           </select>
+
+          <button 
+            className="copy-link-btn" 
+            onClick={copyShareableLink}
+            title="Copy shareable link"
+            aria-label="Copy shareable link"
+          >
+            🔗 Copy link
+          </button>
         </div>
       </div>
 
@@ -163,6 +236,23 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
             <div className="empty-icon">🔍</div>
             <h3>No incidents found</h3>
             <p>No incidents match your current filters.</p>
+            {activeFilters.length > 0 && (
+              <div className="active-filters">
+                <p className="filters-label">Active filters:</p>
+                <div className="filter-chips">
+                  {activeFilters.map((filter, index) => (
+                    <button 
+                      key={index} 
+                      className="filter-chip"
+                      onClick={filter.clear}
+                      aria-label={`Remove filter: ${filter.label}`}
+                    >
+                      {filter.label} <span className="chip-close">×</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <button className="reset-btn" onClick={resetFilters}>
               Reset all filters
             </button>
