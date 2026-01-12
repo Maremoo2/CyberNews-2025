@@ -1,5 +1,328 @@
 [
   {
+    "id": "20261624",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Digitale produkter skal sikres bedre mot cyberangrep",
+    "summary": "Et viktig steg for å beskytte norske forbrukere, skriver digitaliseringsministeren om innføringen av Cyber Resilience Act.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/digitale-produkter-skal-sikres-bedre-mot-cyberangrep/566827",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261625",
+    "date": "2026-01-12",
+    "title": "[Ekstra] Microsoft-sjefen slår tilbake mot KI-skepsis",
+    "summary": "Satya Nadella vil at vi skal legge debatten om «bra» og «dårlig» KI bak oss.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/microsoft-sjefen-slar-tilbake-mot-ki-skepsis/566809",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261626",
+    "date": "2026-01-12",
+    "title": "Is the US adopting the gray zone cyber playbook?",
+    "summary": "When President Trump referenced America’s ability to “darken” parts of Caracas during Operation Absolute Resolve, the comment stood out not because of what it confirmed, but because of what it implied. Delivered without technical detail, the remark hinted at capabilities that sit somewhere betwee...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/gray-zone-cyber-operations-state-power-below-threshold-conflict-op-ed/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261627",
+    "date": "2026-01-12",
+    "title": "Anthropic Launches Claude AI for Healthcare with Secure Health Record Access",
+    "summary": "Anthropic has become the latest Artificial intelligence (AI) company to announce a new suite of features that allows users of its Claude platform to better understand their health information. Under an initiative called Claude for Healthcare, the company said U.S. subscribers of Claude Pro and Ma...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/anthropic-launches-claude-ai-for.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261628",
+    "date": "2026-01-12",
+    "title": "Anthropic brings Claude to healthcare with HIPAA-ready Enterprise tools",
+    "summary": "Anthropic is bringing Claude for healthcare, following a similar move by OpenAI for ChatGPT. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-brings-claude-to-healthcare-with-hipaa-ready-enterprise-tools/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261629",
+    "date": "2026-01-12",
+    "title": "Researchers Uncover Service Providers Fueling Industrial-Scale Pig Butchering Fraud",
+    "summary": "Cybersecurity researchers have shed light on two service providers that supply online criminal networks with the necessary tools and infrastructure to fuel the pig butchering-as-a-service (PBaaS) economy. At least since 2016, Chinese-speaking criminal groups have erected industrial-scale scam cen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-uncover-service-providers.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261630",
+    "date": "2026-01-12",
+    "title": "How to stop insider-driven data loss in browser sessions - Cybersecurity Dive",
+    "summary": "It's a perfect example of where user experience and data security start competing against each other: Deploy extremely rigid security controls, such ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecuritydive.com/spons/how-to-stop-insider-driven-data-loss-in-browser-sessions/808445/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261631",
+    "date": "2026-01-12",
+    "title": "New Study Uncovers Infrastructure Behind Carding Markets: 28 IPs, 85 Domains",
+    "summary": "Exclusive Cyber Security News platform that provide in-depth analysis about Cyber Attacks, Malware infection, Data breaches, Vulnerabilities, New ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/carding-markets-28-ips-85-domains/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261632",
+    "date": "2026-01-12",
+    "title": "Iran-linked MuddyWater APT deploys Rust-based implant in latest campaign - CSO Online",
+    "summary": "... network communications patterns. CyberattacksCybercrimeSecurity. Related content. Feature. CISOs' top 10 cybersecurity priorities for 2026. By Mary K ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4115379/iran-linked-muddywater-apt-deploys-rust-based-implant-in-latest-campaign.html",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261633",
+    "date": "2026-01-12",
+    "title": "Critical InputPlumber Vulnerability Enables UI Input Injection and Denial-of-Service",
+    "summary": "... Cyber Security NewsCybersecurityVulnerability. Security researchers at SUSE have disclosed critical vulnerabilities in InputPlumber, a Linux ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/inputplumber-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261634",
+    "date": "2026-01-12",
+    "title": "India's government denies it wants smartphone source code - The Register",
+    "summary": "A Sunday report by Reuters claimed that India has circulated a package of 83 security standards, among them requirements to share smartphone source ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/12/india_mobile_security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261635",
+    "date": "2026-01-12",
+    "title": "Social Engineering at the Front Desk: A Growing Threat for Hotels | By Suzie Squier",
+    "summary": "For example, leaders can model secure behavior, make cybersecurity a part of everyday conversation, and encourage staff to escalate security concerns ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hospitalitynet.org/opinion/4130092.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261636",
+    "date": "2026-01-12",
+    "title": "Torq Raises $140 Million at $1.2 Billion Valuation - SecurityWeek",
+    "summary": "The National Security Agency appointed Timothy Kosiba as its 21st Deputy Director. Jumpmind has appointed Eric Zielinski as Chief Information Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/torq-raises-140-million-at-1-2-billion-valuation/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261637",
+    "date": "2026-01-12",
+    "title": "Cyber Threats hovering around AI Infrastructure in 2026 - Cybersecurity Insiders",
+    "summary": "But as AI's importance grows, so too does the cyber threat landscape surround it. Once cyber threats around AI emerged as a specialized attack surface ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/cyber-threats-hovering-around-ai-infrastructure-in-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261638",
+    "date": "2026-01-12",
+    "title": "Cybersecurity Monthly Report - News and Press｜Administration for Cyber Security, moda",
+    "summary": "... Cyber Security are scheduled to take effect on January 1, 2026. 2. Recent Cybersecurity Incident Sharing Case 1. Fake Chrome Extension Update ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://moda.gov.tw/en/ACS/press/report/18228.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261639",
+    "date": "2026-01-12",
+    "title": "EDRStartupHinder Disables Antivirus and EDR Protections During Windows 11 25H2 Startup",
+    "summary": "The tool first creates a malicious service configured to launch before targeted security services by manipulating Windows service group priorities. It ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/edrstartuphinder-disables/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261640",
+    "date": "2026-01-12",
+    "title": "CISOs' top 10 cybersecurity priorities for 2026 - CSO Online",
+    "summary": "Rolling out AI to enhance security operations. Although a sliver of organizations surveyed by BCG have deployed AI-driven cyber defense tools, the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csoonline.com/article/4114020/cisos-top-10-cybersecurity-priorities-for-2026.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261641",
+    "date": "2026-01-12",
+    "title": "Cyber expert: AI makes hackers feel like they have 10 assistants - IO+",
+    "summary": "In the series Cracked by Jordens, we look at cyber security for consumers and businesses in the Netherlands. Today autonomous cyber attacks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ioplus.nl/en/posts/cyber-expert-ai-makes-hackers-feel-like-they-have-10-assistants",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261642",
+    "date": "2026-01-12",
+    "title": "From AI breaches to rising geopolitical threats, here's what to expect from cybersecurity in 2026",
+    "summary": "The concern is echoed by Google Cloud security teams, who compiled the company's annual Cybersecurity Forecast for 2026. They predict that China will ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.euronews.com/next/2026/01/12/from-ai-breaches-to-rising-geopolitical-threats-heres-what-to-expect-from-cybersecurity-in",
+    "tags": [
+      "data-breach",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261643",
+    "date": "2026-01-12",
+    "title": "Why auto update is the most underrated security feature on your firewall",
+    "summary": "This feature is a game-changer in modern cybersecurity. Imagine shrinking the window of opportunity attackers have to exploit newly discovered ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/why-auto-update-is-the-most-underrated-security-feature-on-your-firewall",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261644",
+    "date": "2026-01-12",
+    "title": "Downtime pushes resilience planning into security operations",
+    "summary": "... security and IT teams. “At some point every organization will face the reality of a cyber incident or attack that takes down the business.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/12/absolute-ciso-resilience-planning/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261645",
+    "date": "2026-01-12",
+    "title": "The AI Security Race: How Singapore Can Stay Ahead of Smarter Cyber Threats",
+    "summary": "This widening gap between attack velocity and defence capability shows how quickly AI is changing the balance of power in cybersecurity. When AI turns ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cdotrends.com/story/4850/ai-security-race-how-singapore-can-stay-ahead-smarter-cyber-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261618",
     "date": "2026-01-12",
     "title": "Meta ber Australia revurdere 16-årsgrense",
@@ -834,6 +1157,22 @@
     "tags": [
       "microsoft",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261646",
+    "date": "2026-01-10",
+    "title": "Microsoft named an overall leader in KuppingerCole Leadership Compass for Generative AI Defense",
+    "summary": "Today, we are proud to share that Microsoft has been recognized as an overall leader in the KuppingerCole Leadership Compass for Generative AI Defense (GAD), an independent report from a leading European analyst firm. This recognition reinforces the work we’ve been doing to deliver enterprise-rea...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsoft-named-an-overall-leader-in-kuppingercole-leadership-compass-for-genera/4478093",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
     ],
     "impact": 3
   },
