@@ -18,7 +18,19 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 
 // Dynamically determine the year - default to current year, or accept from command line
 const args = process.argv.slice(2);
-const YEAR = args.length > 0 ? args[0] : new Date().getFullYear().toString();
+let YEAR = args.length > 0 ? args[0] : new Date().getFullYear().toString();
+
+// Validate year is a 4-digit number
+if (!/^\d{4}$/.test(YEAR)) {
+  console.error(`Error: Invalid year "${YEAR}". Year must be a 4-digit number.`);
+  process.exit(1);
+}
+
+const yearNum = parseInt(YEAR, 10);
+if (yearNum < 2000 || yearNum > 2100) {
+  console.error(`Error: Year ${yearNum} is out of reasonable range (2000-2100).`);
+  process.exit(1);
+}
 
 const MARKDOWN_FILE = path.join(PROJECT_ROOT, 'news', YEAR, '01-january', 'global-overview.md');
 const INCIDENTS_FILE = path.join(PROJECT_ROOT, 'data', `incidents-${YEAR}.json`);
@@ -123,7 +135,7 @@ function parseDate(dateStr) {
     return `${year}-${month}-${day}`;
   }
   
-  // Try month-year format (default to day 2 for undated incidents)
+  // Try month-year format (articles with only month and year specified)
   match = dateStr.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/);
   
   if (match) {
@@ -136,7 +148,7 @@ function parseDate(dateStr) {
     const month = months[match[1]];
     const year = match[2];
     
-    // Default to day 2 for these undated incidents
+    // Default to day 2 for articles with only month-year format
     return `${year}-${month}-02`;
   }
   

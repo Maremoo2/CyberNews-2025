@@ -161,16 +161,16 @@ function main() {
   });
   
   // Sort 2026 articles by date (newest first), keeping invalid dates at the end
-  const valid2026Articles = articles2026.filter(a => a.date && !isNaN(new Date(a.date).getTime()));
-  const invalid2026Articles = [...articlesWithInvalidDates, ...articles2026.filter(a => !a.date || isNaN(new Date(a.date).getTime()))];
-  
-  valid2026Articles.sort((a, b) => {
+  // Note: articlesWithInvalidDates already contains all invalid date articles from original 2026 file
+  // We keep only articles2026 (which has valid 2026 dates)
+  articles2026.sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
     return dateB - dateA;
   });
   
-  const final2026Articles = [...valid2026Articles, ...invalid2026Articles];
+  // Combine valid 2026 articles with any invalid date articles
+  const final2026Articles = [...articles2026, ...articlesWithInvalidDates];
   
   // Save both files
   console.log('\n💾 Saving files...\n');
