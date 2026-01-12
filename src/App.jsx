@@ -19,6 +19,7 @@ import AttackChainAnalysis from './components/AttackChainAnalysis'
 import SectorBenchmarking from './components/SectorBenchmarking'
 import TrendAcceleration from './components/TrendAcceleration'
 import CISOMode from './components/CISOMode'
+import DetectionGapAnalysis from './components/DetectionGapAnalysis'
 
 // Month helpers
 const MONTHS_EN = [
@@ -406,6 +407,9 @@ function App() {
 
       {/* Defense Analysis - What worked and what failed */}
       <DefenseAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* Detection Gap Analysis - Control Coverage Assessment */}
+      <DetectionGapAnalysis incidents={incidentsData} filters={{}} />
 
       {/* Regulation Impact - NIS2, GDPR, DSA, etc. */}
       <RegulationImpact selectedYear={selectedYear} />
