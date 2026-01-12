@@ -1,5 +1,180 @@
 [
   {
+    "id": "20261606",
+    "date": "2026-01-12",
+    "title": "ISC Stormcast For Monday, January 12th, 2026 https://isc.sans.edu/podcastdetail/9762, (Mon, Jan 12th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32620",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261609",
+    "date": "2026-01-12",
+    "title": "Mirror, mirror, on the wall, who's the most cyber secure country of them all? - Cyber Daily",
+    "summary": "According to Check Point's January 2026 cyber security innovations report, Australia does make it into the top ten – out of a pool of 38 countries – ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurityconnect.com.au/security/13068-mirror-mirror-on-the-wall-who-s-the-most-cyber-secure-country-of-them-all",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261610",
+    "date": "2026-01-12",
+    "title": "The Vibe Coding Security Gap",
+    "summary": "Our channels: Cyber Risk · Chief IT · Australian Security · Asia Pacific ... Three Cybersecurity Predictions That Will Define The CISO Agenda in 2026.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/the-vibe-coding-security-gap/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261611",
+    "date": "2026-01-12",
+    "title": "Mirror, mirror, on the wall, who's the most cyber secure country of all? - Cyber Daily",
+    "summary": "Research: Australia ranks 8th in the list of most cyber secure countries, but Singapore takes top spot.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cyberdaily.au/security/13068-mirror-mirror-on-the-wall-who-s-the-most-cyber-secure-country-of-all",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261612",
+    "date": "2026-01-12",
+    "title": "Israeli cybersecurity firm Torq hits $1.2B valuation in new funding | Seeking Alpha",
+    "summary": "Phishing Cyber Security Ransomware Fingerprint Email Encrypted Technology, Digital Information Protected Secured. Just_Super. Israeli cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://seekingalpha.com/news/4538229-israeli-cybersecurity-firm-torq-hits-1_2b-valuation-in-new-funding",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261607",
+    "date": "2026-01-11",
+    "title": "Instagram denies breach amid claims of 17 million account data leak",
+    "summary": "Instagram says it fixed a bug that allowed threat actors to mass-request password reset emails, amid claims that data from more than 17 million Instagram accounts was scraped and leaked online. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/instagram-denies-breach-amid-claims-of-17-million-account-data-leak/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261608",
+    "date": "2026-01-11",
+    "title": "California bans data broker reselling health data of millions",
+    "summary": "The California Privacy Protection Agency (CalPrivacy) has taken action against the Datamasters marketing firm that sold the health and personal data of millions of users without being registered as a data broker. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/legal/california-bans-data-broker-reselling-health-data-of-millions/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261613",
+    "date": "2026-01-11",
+    "title": "Israeli cyber startup Torq raises $140 million at $1.2 billion valuation - Yahoo Finance",
+    "summary": "artificial intelligence-driven security operations center (SOC) platform and expand into the U.S. market. Torq, ⁠which uses ‌AI to provide security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/israeli-cyber-startup-torq-raises-191844672.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261614",
+    "date": "2026-01-11",
+    "title": "Generative AI in Enterprises: Security Risks Most Companies Are Not Measuring",
+    "summary": "Traditional cybersecurity frameworks were designed for deterministic systems with predictable behavior, clearly defined inputs, and consistent outputs ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/generative-ai-in-enterprises-security-risks-most-companies-are-not-measuring/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261615",
+    "date": "2026-01-11",
+    "title": "UC Security Tool Showdown: What Buyers Should Really Compare",
+    "summary": "Identity is how systems verify who someone is and what they can access. It is the foundation of the Zero Trust security model, which assumes no user ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.uctoday.com/security-compliance-risk/uc-security-platforms-buyers-compare/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261616",
+    "date": "2026-01-11",
+    "title": "35 CxOs On The Move - The National CIO Review",
+    "summary": "... Cybersecurity and Chief Information Security Officer after prior leadership roles at Highmark Health. As Chief Digital Officer, he will lead ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nationalcioreview.com/cxos-on-the-move/35-cxos-on-the-move/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261617",
+    "date": "2026-01-11",
+    "title": "Change Your Password: Data Breach May Have Impacted 17.5 Million Instagram Users",
+    "summary": "... IT Security. Change Your Password: Data Breach May Have Impacted 17.5 Million Instagram Users. Cybersecurity firm Malwarebytes warned users about ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pcmag.com/news/change-your-password-data-breach-may-have-impacted-175-million-instagram",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261585",
     "date": "2026-01-11",
     "title": "Én av ti gutter blir avhengige av gaming",
