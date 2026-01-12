@@ -402,3 +402,66 @@
     text-align: center;
   }
 }
+
+/* Enrichment Warning Banner */
+.enrichment-warning {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  align-items: flex-start;
+}
+
+.warning-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.warning-content {
+  flex: 1;
+}
+
+.warning-content strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #856404;
+  font-size: 1.1rem;
+}
+
+.warning-content p {
+  margin: 0.5rem 0;
+  color: #856404;
+}
+
+.warning-hint {
+  font-size: 0.9rem;
+  margin-top: 0.75rem !important;
+}
+
+.warning-hint code {
+  background: #f8f9fa;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  color: #d63384;
+}
+
+/* No Enrichment Message in Cards */
+.no-enrichment-message {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #856404;
+}
+
+.no-enrichment-message p {
+  margin: 0.5rem 0;
+}
+
+.message-hint {
+  font-size: 0.9rem;
+  color: #666;
+}
+

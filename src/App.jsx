@@ -24,6 +24,8 @@ import StickyNav from './components/StickyNav'
 import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
 import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
+import DataHealthDashboard from './components/DataHealthDashboard'
+import { countUniqueIncidents } from './utils/populationUtils'
 
 // Month helpers
 const MONTHS_EN = [
@@ -159,6 +161,32 @@ function App() {
     return { 
       formatted: maxDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
       iso: maxDate.toISOString().split('T')[0]
+    };
+  }, [incidentsData]);
+
+  // Calculate unique incidents vs total sources
+  const uniqueIncidentCount = useMemo(() => countUniqueIncidents(incidentsData), [incidentsData]);
+  const totalSourceCount = incidentsData?.length || 0;
+
+  // Check if data is enriched and get enrichment timestamp
+  const enrichmentInfo = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return { isEnriched: false, timestamp: null };
+    }
+    
+    // Check if any incident has enrichment fields
+    const hasEnrichment = incidentsData.some(i => 
+      (i.severity && i.severity !== 'unknown') ||
+      (i.themes && Array.isArray(i.themes) && i.themes.length > 0) ||
+      (i.mitre_techniques && Array.isArray(i.mitre_techniques) && i.mitre_techniques.length > 0)
+    );
+    
+    // Use build time or current date as enrichment timestamp
+    const buildTimestamp = import.meta.env.VITE_BUILD_TIME || new Date().toISOString().split('T')[0];
+    
+    return {
+      isEnriched: hasEnrichment,
+      timestamp: hasEnrichment ? buildTimestamp : null
     };
   }, [incidentsData]);
 
@@ -378,7 +406,28 @@ function App() {
             <p className="subtitle">Overview of cybersecurity incidents</p>
             <p className="last-updated" title={`Last data from: ${lastUpdated.iso}`}>
               Last updated (from data): {lastUpdated.iso}
-              {incidentsData && <span className="source-count"> • {incidentsData.length} total sources</span>}
+            </p>
+            {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
+              <p className="enrichment-timestamp" title="Analytics generation date">
+                Analytics generated: {enrichmentInfo.timestamp}
+              </p>
+            )}
+            <p className="data-counts">
+              {uniqueIncidentCount === totalSourceCount ? (
+                <span className="count-item">
+                  <strong>{totalSourceCount}</strong> incidents
+                </span>
+              ) : (
+                <>
+                  <span className="count-item">
+                    <strong>{uniqueIncidentCount}</strong> unique incidents (deduplicated)
+                  </span>
+                  <span className="count-separator"> • </span>
+                  <span className="count-item">
+                    <strong>{totalSourceCount}</strong> total sources/articles
+                  </span>
+                </>
+              )}
             </p>
           </div>
           <div className="year-selector">
@@ -419,6 +468,9 @@ function App() {
           </p>
         </div>
       </section>
+
+      {/* Data Health Dashboard */}
+      <DataHealthDashboard incidents={incidentsData} />
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} />

@@ -37,8 +37,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
+      - name: Generate enriched analytics data
+        run: npm run enrich-enhanced
+        
       - name: Build
         run: npm run build
+        env:
+          CI: true
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
