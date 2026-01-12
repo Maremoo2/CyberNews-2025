@@ -1,6 +1,8 @@
 import './RegulationImpact.css'
 
 function RegulationImpact({ selectedYear }) {
+  const currentYear = new Date().getFullYear();
+  
   // Key regulations and their impact
   const regulations = [
     {
