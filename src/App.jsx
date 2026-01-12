@@ -168,6 +168,28 @@ function App() {
   const uniqueIncidentCount = useMemo(() => countUniqueIncidents(incidentsData), [incidentsData]);
   const totalSourceCount = incidentsData?.length || 0;
 
+  // Check if data is enriched and get enrichment timestamp
+  const enrichmentInfo = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return { isEnriched: false, timestamp: null };
+    }
+    
+    // Check if any incident has enrichment fields
+    const hasEnrichment = incidentsData.some(i => 
+      (i.severity && i.severity !== 'unknown') ||
+      (i.themes && Array.isArray(i.themes) && i.themes.length > 0) ||
+      (i.mitre_techniques && Array.isArray(i.mitre_techniques) && i.mitre_techniques.length > 0)
+    );
+    
+    // Use build time or current date as enrichment timestamp
+    const buildTimestamp = import.meta.env.VITE_BUILD_TIME || new Date().toISOString().split('T')[0];
+    
+    return {
+      isEnriched: hasEnrichment,
+      timestamp: hasEnrichment ? buildTimestamp : null
+    };
+  }, [incidentsData]);
+
   // Update URL when year changes
   useEffect(() => {
     const url = new URL(window.location);
@@ -385,6 +407,11 @@ function App() {
             <p className="last-updated" title={`Last data from: ${lastUpdated.iso}`}>
               Last updated (from data): {lastUpdated.iso}
             </p>
+            {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
+              <p className="enrichment-timestamp" title="Analytics generation date">
+                Analytics generated: {enrichmentInfo.timestamp}
+              </p>
+            )}
             <p className="data-counts">
               {uniqueIncidentCount === totalSourceCount ? (
                 <span className="count-item">

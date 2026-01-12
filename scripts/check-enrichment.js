@@ -71,8 +71,15 @@ if (needsEnrichment) {
   console.log('This will take a few minutes but enables full analytics.');
   console.log('');
   
-  // Don't fail the build, just warn
-  process.exit(0);
+  // Fail build in CI, warn locally
+  if (process.env.CI === 'true') {
+    console.error('❌ ERROR: Cannot deploy without enriched data in CI environment!');
+    console.error('');
+    process.exit(1);
+  } else {
+    // Warn but don't fail locally
+    process.exit(0);
+  }
 } else {
   console.log('✅ All enriched data files are up-to-date!');
   console.log('');

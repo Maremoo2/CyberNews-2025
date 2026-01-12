@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.NODE_ENV === 'production' ? '/CyberNews-2025/' : '/', // Base path for GitHub Pages
+  define: {
+    'import.meta.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString().split('T')[0])
+  }
 })

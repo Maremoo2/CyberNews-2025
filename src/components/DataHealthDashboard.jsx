@@ -24,7 +24,7 @@ function DataHealthDashboard({ incidents }) {
         icon: '📦',
         title: 'You are viewing RAW dataset',
         message: 'No enrichment fields present. This is the raw data without analysis.',
-        type: 'warning'
+        type: 'info'
       };
     } else if (health.diagnosis === 'empty_enrichment') {
       return {

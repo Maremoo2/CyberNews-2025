@@ -84,6 +84,14 @@ select:focus-visible {
   font-style: italic;
 }
 
+.enrichment-timestamp {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  font-style: italic;
+  color: #a0d8f1;
+}
+
 .data-counts {
   margin: 0.5rem 0 0 0;
   font-size: 0.95rem;
