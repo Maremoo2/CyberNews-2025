@@ -1,5 +1,902 @@
 [
   {
+    "id": "20261727",
+    "date": "2026-01-13",
+    "title": "Eksperter: Irans jamming av Starlink er uten sidestykke",
+    "summary": "Den siste tiden har det vært omfattende jamming av satellitt-internettjenesten Starlink, som enkelte opposisjonelle i Iran bruker, ifølge eksperter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/eksperter-irans-jamming-av-starlink-er-uten-sidestykke/566905",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261728",
+    "date": "2026-01-13",
+    "title": "Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF ",
+    "summary": "Ransomware remains the biggest concern for CISOs in 2026, according to WEF’s Global Cybersecurity Outlook 2026 report. The post Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-fraud-overtakes-ransomware-as-top-ceo-concern-wef/",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261729",
+    "date": "2026-01-13",
+    "title": "AI Tool Poisoning: How Hidden Instructions Threaten AI Agents",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/ai-tool-poisoning/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261730",
+    "date": "2026-01-13",
+    "title": "CrowdStrike to Acquire SGNL to Secure Every Identity in the AI Era",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-sgnl/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261731",
+    "date": "2026-01-13",
+    "title": "How CrowdStrike’s Malware Analysis Agent Detects Malware at Machine Speed",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/how-crowdstrike-detects-malware-at-machine-speed/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261732",
+    "date": "2026-01-13",
+    "title": "CrowdStrike’s Journey in Customizing NVIDIA Nemotron Models for Peak Accuracy and Performance",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-journey-in-customizing-nvidia-nemotron-models/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261733",
+    "date": "2026-01-13",
+    "title": "Streamline Security Operations with Falcon for IT’s Turnkey Automations",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261734",
+    "date": "2026-01-13",
+    "title": "How CrowdStrike Trains GenAI Models at Scale Using Distributed Computing",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/how-crowdstrike-trains-genai-models-at-scale-using-distributed-computing/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261735",
+    "date": "2026-01-13",
+    "title": "Inside CrowdStrike’s Science-Backed Approach to Building Expert SOC Agents",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/inside-crowdstrikes-science-backed-approach-to-building-soc-agents/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261736",
+    "date": "2026-01-13",
+    "title": "CrowdTour 2026: Securing the AI Era Together",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdtour-2026-securing-ai-era-together/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261737",
+    "date": "2026-01-13",
+    "title": "CrowdStrike Endpoint Security Achieves 273% ROI Over Three Years",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-endpoint-security-achieves-273-percent-roi-over-three-years/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261738",
+    "date": "2026-01-13",
+    "title": "CrowdStrike Secures Growing AI Attack Surface with Falcon AI Detection and Response",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-growing-ai-attack-surface-with-falcon-aidr/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261739",
+    "date": "2026-01-13",
+    "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs by adding it to its Known Exploited Vulnerabilities (KEV) catalog. The vulnerability, tracked as CVE-2025-8110 (CVSS score: 8.7), relates to a case of...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261740",
+    "date": "2026-01-13",
+    "title": "Flexera buys ProsperOps (and Chaos Genius): from dashboards to execution - ITAM Review",
+    "summary": "Flexera have acquired FinOps automation technology provider ProsperOps. This strengthens Flexera’s position in cloud cost optimisation and FinOps. It also reinforces a trend we’ve been tracking for a while: ITAM and FinOps are converging, and the tooling market is now responding to that reality. ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2026/01/07/flexera-buys-prosperops-and-chaos-genius-from-dashboards-to-execution/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261741",
+    "date": "2026-01-13",
+    "title": "The ITAM Review, rebooted: independent analysis for a changing industry - ITAM Review",
+    "summary": "In 2024, the ITAM Review was merged into the ITAM Forum. That made sense at the time: one team, one mission, one platform, and a clearer way to serve the community. Now the landscape is shifting again. As the ITAM Forum transitions into the Linux Foundation, ITAM Review is becoming a separate ent...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2025/12/16/the-itam-review-rebooted-independent-analysis-for-a-changing-industry/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261742",
+    "date": "2026-01-13",
+    "title": "AI Innovation Watch List - Emerging AI tools transforming ITAM, SAM, licensing and FinOps workloads - ITAM Review",
+    "summary": "AI Innovation Watch List – Emerging AI tools transforming ITAM, SAM, licensing and FinOps workloads How can AI and Automation help with ITAM related workloads? The AI innovation watchlist below is a snapshot of tools and platforms that are applying AI to ITAM workloads (and surrounding discipline...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2025/12/09/ai-innovation-watch-list-emerging-ai-tools-transforming-itam-sam-licensing-and-finops-workloads/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261743",
+    "date": "2026-01-13",
+    "title": "Workshop Results: Hybrid IT",
+    "summary": "Hybrid IT, a mix of on-prem, public cloud, SaaS and now AI workloads, has become the default for large enterprises, not a temporary phase on the way to “all cloud”. Live polling at the ITAM Review Wisdom Unplugged event in Newbury last month showed that most teams are wrestling with fragmented da...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2025/12/03/hybrid-it/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261744",
+    "date": "2026-01-13",
+    "title": "Bridging Gaps: Enhancing ITAM Through Stronger Relationships",
+    "summary": "In this episode, SHI and SoftwareOne delve into the critical role of relationship management in ITAM, emphasising its significance in fostering collaboration and facilitating change. We also discuss how embracing relationship management, including effective change management—can enhance communica...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2025/11/27/bridging-gaps-enhancing-itam-through-stronger-relationships/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261745",
+    "date": "2026-01-13",
+    "title": "Cyware Collaborate – Secure Bi-Directional Threat Intelligence Sharing",
+    "summary": "Cyware Collaborate empowers security teams to aggregate, enrich, consume, and share threat advisories and intelligence, coordinate faster responses, and collaborate seamlessly across internal teams and trusted external communities.Cyware Collaborate enhances situational awareness by unifying advi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cyware.com/products/collaborate",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261746",
+    "date": "2026-01-13",
+    "title": "Operate Threat Intelligence with Cyware Intel Exchange - AI Powered TIP",
+    "summary": "Empower your CTI teams to rapidly turn raw threat data into actionable intelligence with Cyware Intel Exchange. Gain clarity, prioritize with precision, and respond faster to safeguard your organization with confidence.Cyware Intel Exchange transforms raw threat intelligence into actionable defen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cyware.com/products/intel-exchange",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261747",
+    "date": "2026-01-13",
+    "title": "Cyware Respond - Real-time Security Orchestration and Automation",
+    "summary": "Security teams struggle to manage alerts, incidents, and threat intelligence in disconnected tools, causing slow threat investigations and operational delays.High alert volumes overwhelm SOC teamsFragmented tools and mixed detectionManual processes increase human errorLimited context hampers prio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cyware.com/products/respond",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20261748",
+    "date": "2026-01-13",
+    "title": "Cyware Orchestrate – AI-Powered Hyper-Orchestration & Automation",
+    "summary": "Cyware Orchestrate leverages the power of generative AI and agentic AI to streamline workflows, reduce manual effort, and accelerate threat response, empowering security teams to focus on critical tasks and achieve stronger outcomes.Cyware Orchestrate enables low-code/no-code automation, letting ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cyware.com/products/orchestrate",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261749",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Researchers spotted the China-linked APT group Evasive Panda (aka Daggerfly, Bronze Highland, and StormBamboo) running a targeted cyber-espionage campaign using DNS poisoning to deliver the MgBot backdoor against victims in Türkiye, China, and India. Korean Air suffered a data breach after its in...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Security%20Affairs",
+    "tags": [
+      "data-breach",
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261750",
+    "date": "2026-01-13",
+    "title": "Meta fixes Instagram password reset flaw, denies data breach",
+    "summary": "Pierluigi Paganini January 12, 2026 Meta confirmed fixing an Instagram password reset vulnerability that allowed third parties to trigger reset emails, while denying any breach despite claims of leaked user data. “We fixed an issue that let an external party request password reset emails for some...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/186829/security/meta-fixes-instagram-password-reset-flaw-denies-data-breach.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261751",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A deep-dive analysis by Gen Digital (Gen Threat Labs) has unveiled AuraStealer, an emerging Malware-as-a-Service (MaaS) that is rapidly gaining traction in underground forums by leveraging a devious distribution tactic known as “Scam-Yourself.” A deceptive social engineering tactic known as “Clic...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Security%20Online",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261752",
+    "date": "2026-01-13",
+    "title": "“TryCloudflare” Abuse: AsyncRAT Exploits Free Tunnels to Build Stealthy WebDAV Network",
+    "summary": "A sophisticated campaign distributing the AsyncRAT Remote Access Trojan is turning a trusted internet service into a malware superhighway. A new report from Trend Micro details how threat actors are abusing Cloudflare’s free-tier services and TryCloudflare tunneling domains to host malicious WebD...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityonline.info/trycloudflare-abuse-asyncrat-exploits-free-tunnels-to-build-stealthy-webdav-network/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261753",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "?The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to secure their systems against a high-severity Gogs vulnerability that was exploited in zero-day attacks. Cybercriminals over the past six months have relied increasingly more on the browser-in-the-...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Bleeping%20Computer",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261754",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256da86cb7b • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261755",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256db7e3a0d • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/facebook-login-thieves-now-using-browser-in-browser-trick/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261756",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256dfdcaf0a • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261757",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Authorities arrested 34 alleged cybercriminals in Spain, including some leaders of Black Axe, a transnational criminal organization responsible for adversary-in-the-middle scams such as business email compromise, and money laundering.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Cyber%20Scoop",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261758",
+    "date": "2026-01-13",
+    "title": "Spanish police disrupt Black Axe, arrest alleged leaders in action spanning four cities",
+    "summary": "Authorities arrested 34 alleged cybercriminals in Spain, including some leaders of Black Axe, a transnational criminal organization responsible for adversary-in-the-middle scams such as business email compromise, money laundering and vehicle trafficking, the Spanish National Police said Friday. A...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/black-axe-disruption-arrests-spain/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261759",
+    "date": "2026-01-13",
+    "title": "North Korea–linked APT Kimsuky behind quishing attacks, FBI warns",
+    "summary": "Pierluigi Paganini January 10, 2026 North Korea–linked APT group Kimsuky is targeting government agencies, academic institutions, and think tanks using spear-phishing emails that contain malicious QR codes (quishing), the FBI warns. “As of 2025, Kimsuky actors have targeted think tanks, academic ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/186755/intelligence/north-korea-linked-apt-kimsuky-behind-quishing-attacks-fbi-warns.html?&web_view=true",
+    "tags": [
+      "phishing",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261760",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "The FCC has announced a ban on foreign-made drones and critical components, citing national security risks. This decision is grounded in the 2025 National Defense Authorization Act (NDAA) and aims to protect U.S. airspace. The Nomani investment scam has surged by 62%, utilizing AI deepfake ads on...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=The%20Hacker%20News",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261761",
+    "date": "2026-01-13",
+    "title": "MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors",
+    "summary": "The Iranian threat actor known as MuddyWater has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based implant codenamed RustyWater. \"The campaign uses icon spoofing and malicious Word documents to deliver...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html?&web_view=true",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261762",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "AuraStealer is a sophisticated MaaS infostealer targeting Windows systems. It employs advanced evasion techniques and social engineering to steal sensitive data, posing significant risks to both individual users and enterprise environments. A high-severity vulnerability was discovered in Mozilla ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=eSecurity%20Planet",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261763",
+    "date": "2026-01-13",
+    "title": "Cisco Snort 3 Security Flaws Threaten Network Inspection",
+    "summary": "Two newly disclosed Snort 3 vulnerabilities allow unauthenticated attackers to disrupt inspection or leak sensitive data using crafted network traffic. Because Snort 3 is widely deployed across Cisco security products, the vulnerabilities affect a broad range of organizations that rely on network...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cisco-snort-3-security-flaws-threaten-network-inspection/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "aws",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261764",
+    "date": "2026-01-13",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Chinese state-aligned hacking group, Salt Typhoon, has allegedly targeted the email systems of U.S. congressional staff. This breach is part of a broader pattern of cyber threats against U.S. government entities. A “widespread cybersecurity incident” at the Federal Emergency Management Agency all...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Nextgov",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261765",
+    "date": "2026-01-13",
+    "title": "Top 10 vendors for AI-enabled security — according to CISOs",
+    "summary": "Venture capital may be flowing to trendy AI security startups, but battle-tested CISOs seem to be sticking with tried-and-true, name-brand technology partners for their AI-enabled security needs. That’s the key takeaway from CSO’s 2025 Security Priorities Study, which collected responses from mor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4115785/top-10-vendors-for-ai-enabled-security-according-to-cisos.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261766",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261767",
+    "date": "2026-01-13",
+    "title": "Cyber Crime Archives",
+    "summary": "Pierluigi Paganini December 04, 2025 Hackers breached fintech firm Marquis, stealing personal and financial data, the security breach impacted over 780,000 people. Hackers breached fintech firm Marquis and stole personal and financial data, including names, addresses, SSNs, and card numbers, impa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/cyber-crime",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261768",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/cyber-warfare-2",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261769",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/apt",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261770",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/data-breach",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261771",
+    "date": "2026-01-13",
+    "title": "Deep Web Archives - Security Affairs",
+    "summary": "Pierluigi Paganini December 04, 2024 Germany’s largest crime marketplace, Crimenetwork, has been shut down, and an administrator has been arrested. German authorities announced the takedown of Crimenetwork, the largest German-speaking underground marketplace. Since 2012, Crimenetwork facilitated ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/deep-web",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261772",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/hacking",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261773",
+    "date": "2026-01-13",
+    "title": "Hacktivism Archives",
+    "summary": "Pierluigi Paganini January 09, 2025 A group of hacktivists, known as the Ukrainian Cyber Alliance, breached Russian ISP Nodex, stole sensitive documents, and wiped systems. Ukrainian Cyber Alliance hacked Russian ISP Nodex, stole sensitive data, and wiped systems, highlighting their cyberattack c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/hacktivism",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261774",
+    "date": "2026-01-13",
+    "title": "Intelligence Archives",
+    "summary": "Pierluigi Paganini December 08, 2025 Multiple China-linked threat actors began exploiting the CVE-2025-55182, aka React2Shell flaw, within hours, AWS Security warns. Multiple China-linked threat actors began exploiting the CVE-2025-55182, also known as the React2Shell flaw, within hours, accordin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/intelligence",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261775",
+    "date": "2026-01-13",
+    "title": "Artificial Intelligence Archives",
+    "summary": "Pierluigi Paganini December 11, 2025 Google fixed GeminiJack, a zero-click Gemini Enterprise flaw that could leak corporate data via crafted emails, invites, or documents, Noma Security says. Google addressed a Gemini Enterprise flaw dubbed GeminiJack, which can be exploited in zero-click attacks...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/ai",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261776",
+    "date": "2026-01-13",
+    "title": "Internet of Things Archives",
+    "summary": "Pierluigi Paganini November 27, 2025 ASUS released new firmware to address multiple vulnerabilities, including a critical authentication bypass flaw in routers with AiCloud enabled. ASUS has issued new firmware addressing nine security vulnerabilities, including a critical authentication bypass, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/iot",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261777",
+    "date": "2026-01-13",
+    "title": "Laws and regulations Archives",
+    "summary": "Pierluigi Paganini December 03, 2025 India ordered messaging apps to work only with active SIM cards linked to users’ phone numbers to curb fraud and misuse. India’s Department of Telecommunications (DoT) now requires providers of messaging apps to work only with active SIM cards linked to users’...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/laws-and-regulations",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261778",
+    "date": "2026-01-13",
+    "title": "Malware Archives",
+    "summary": "Pierluigi Paganini December 14, 2025 Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter UDPGangster Campaigns Target Multiple Countries Ransomware Trends in Bank Secrecy Act Data Between 2022 and...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/malware",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261779",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/mobile-2",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261780",
+    "date": "2026-01-13",
+    "title": "Reports Archives",
+    "summary": "Pierluigi Paganini July 16, 2025 Cloudflare blocked 7.3M DDoS attacks in Q2 2025, down from 20.5M in Q1, while hyper-volumetric attacks surged with 6,500+ blocked, averaging 71 daily. Cloudflare mitigated 7.3M DDoS attacks in Q2 2025, down from 20.5M in Q1, 13.5M of which stemmed from an 18-day Q...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/reports",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261781",
+    "date": "2026-01-13",
+    "title": "Security Affairs",
+    "summary": "Pierluigi Paganini December 11, 2025 Google fixed GeminiJack, a zero-click Gemini Enterprise flaw that could leak corporate data via crafted emails, invites, or documents, Noma Security says. Google addressed a Gemini Enterprise flaw dubbed GeminiJack, which can be exploited in zero-click attacks...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/security",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261782",
+    "date": "2026-01-13",
+    "title": "Social Networks Archives",
+    "summary": "Pierluigi Paganini June 29, 2025 Facebook asks users to allow “cloud processing” to access phone photos for AI-generated collages and recaps, even if not uploaded. Meta-owned Facebook is prompting users to enable “cloud processing” to access photos from their phones, even those not uploaded. If u...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/social-networks",
+    "tags": [
+      "malware",
+      "meta",
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261783",
+    "date": "2026-01-13",
+    "title": "Terrorism Archives",
+    "summary": "Pierluigi Paganini July 26, 2024 Terrorist groups are increasingly using cyberspace and digital communication channels to plan and execute attacks. Yesterday Federal Bureau of Investigation (FBI) Director Christopher Wray expressed growing concerns over the potential for a coordinated foreign ter...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/terrorism",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261784",
+    "date": "2026-01-13",
+    "title": "429 Too Many Requests",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/ics-scada",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261785",
+    "date": "2026-01-13",
+    "title": "Digital ID Archives",
+    "summary": "Pierluigi Paganini December 02, 2025 Authorities seized $29M in Bitcoin after takedown of Cryptomixer, a service used to launder cybercrime proceeds. Europol announced the seizure of $29M in Bitcoin after shutting down Cryptomixer, a crypto-mixing service used for cybercrime and money laundering....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/category/digital-id",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261786",
+    "date": "2026-01-13",
+    "title": "[Ekstra] Møter Politiets IT-enhet i retten for tredje gang",
+    "summary": "Kan man sparke noen for å varsle for mye? Ja, mener Politiets IT-enhet, som denne uka møter en tidligere ansatt i Oslo tingrett.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/moter-politiets-it-enhet-i-retten-for-tredje-gang/566896",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261723",
     "date": "2026-01-13",
     "title": "Cybersecurity jobs available right now: January 13, 2026 - Help Net Security",
@@ -130,6 +1027,35 @@
     "sourceUrl": "https://technologymagazine.com/news/will-servicenow-armis-deal-reshape-ai-security",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261787",
+    "date": "2026-01-12",
+    "title": "Notorious BreachForums hacking site hit by ‘doomsday’ leak of 324,000 criminal users",
+    "summary": "Prominent crime forum BreachForums has suffered a new and possibly fatal blow to its reputation after the revelation that a database of thousands of criminals using it was stolen months ago. News of the breach emerged publicly on January 9 when a zip archive containing a MySQL database of 323,986...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4115660/notorious-breachforums-hacking-site-hit-by-doomsday-leak-of-324000-criminal-users.html",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261788",
+    "date": "2026-01-12",
+    "title": "Shai-Hulud & Co.: Die Supply Chain als Achillesferse",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2094512128.jpg?quality=50&strip=all 4096w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2094512128.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4115440/shai-hulud-co-die-supply-chain-als-achillesferse.html",
+    "tags": [
+      "Cyber"
     ],
     "impact": 3
   },
