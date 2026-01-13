@@ -22,6 +22,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+// Severity scoring configuration
+const SEVERITY_SCORES = {
+  SERVICE_DISRUPTION: 4,        // Moderate operational impact
+  DATA_EXPOSURE: 4,             // Significant data sensitivity
+  LARGE_SCALE: 3,               // Widespread impact
+  CRITICAL_INFRA: 5,            // Maximum operational disruption
+  HEALTHCARE: 1                 // Additional healthcare sector bonus
+};
+
 // Parse command line arguments
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
@@ -612,15 +621,7 @@ function extractGeography(incident) {
 // ============================================================================
 function calculateSeverityBreakdown(severity) {
   // Convert severity drivers to component scores
-  // Scoring constants for severity breakdown
-  const SEVERITY_SCORES = {
-    SERVICE_DISRUPTION: 4,        // Moderate operational impact
-    DATA_EXPOSURE: 4,             // Significant data sensitivity
-    LARGE_SCALE: 3,               // Widespread impact
-    CRITICAL_INFRA: 5,            // Maximum operational disruption
-    HEALTHCARE: 1                 // Additional healthcare flag bonus
-  };
-  
+  // Apply severity breakdown using configured scores
   const breakdown = {
     operational_disruption: 0,
     data_sensitivity: 0,
@@ -641,6 +642,8 @@ function calculateSeverityBreakdown(severity) {
       breakdown.operational_disruption = SEVERITY_SCORES.CRITICAL_INFRA;
     } else if (driver === 'Healthcare sector') {
       breakdown.healthcare_flag = true;
+      // Healthcare incidents get additional data sensitivity scoring due to HIPAA/regulatory impact
+      breakdown.data_sensitivity = Math.max(breakdown.data_sensitivity, SEVERITY_SCORES.HEALTHCARE);
     }
   });
   
