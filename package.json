@@ -14,7 +14,11 @@
     "enrich-articles": "node scripts/enrich-articles.js",
     "enrich-enhanced": "node scripts/enhanced-enrichment.js --year=2026 && node scripts/enhanced-enrichment.js --year=2025",
     "validate-years": "node scripts/validate-year-routing.js",
-    "test-data-qa": "node scripts/data-qa-tests.js"
+    "test-data-qa": "node scripts/data-qa-tests.js",
+    "gold-set:create": "node scripts/create-gold-set.js --create",
+    "gold-set:validate": "node scripts/create-gold-set.js --validate",
+    "audit-clustering": "node scripts/audit-clustering.js --year=2026",
+    "audit-clustering-2025": "node scripts/audit-clustering.js --year=2025"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",

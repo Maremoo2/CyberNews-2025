@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-13",
+  "description": "Manual overrides for clustering decisions. Use after reviewing clustering-audit results.",
+  
+  "manual_merges": [
+    {
+      "description": "Merge these case_ids into a single case",
+      "canonical_case_id": "case_2026001",
+      "merge_case_ids": ["case_2026002", "case_2026003"],
+      "reason": "Same incident reported by multiple sources",
+      "reviewed_by": "",
+      "date_reviewed": ""
+    }
+  ],
+  
+  "manual_splits": [
+    {
+      "description": "Split incidents out of this case_id",
+      "original_case_id": "case_2026050",
+      "split_incidents": [
+        {
+          "incident_id": "2026100",
+          "new_case_id": "case_2026100",
+          "reason": "Different organization/incident"
+        }
+      ],
+      "reviewed_by": "",
+      "date_reviewed": ""
+    }
+  ],
+  
+  "notes": [
+    "After adding overrides, re-run enrichment to apply changes",
+    "Use clustering-audit-YYYY.json to identify candidates for merging/splitting"
+  ]
+}
