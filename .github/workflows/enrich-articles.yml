@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -52,4 +53,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: update enriched articles [skip ci]"
-          git push
+      
+      - name: Sync with remote main (rebase)
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git fetch origin main
+          git rebase origin/main
+      
+      - name: Push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git push origin HEAD:main
