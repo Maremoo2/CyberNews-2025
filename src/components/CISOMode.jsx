@@ -153,8 +153,16 @@ function CISOMode({ onModeChange, incidents }) {
                     <div className="ongoing-content">
                       <div className="ongoing-item-title">{incident.title}</div>
                       <div className="ongoing-dates">
-                        First seen: {new Date(incident.first_seen).toLocaleDateString()} • 
-                        Last update: {new Date(incident.last_seen).toLocaleDateString()}
+                        {incident.first_seen && incident.last_seen ? (
+                          <>
+                            First seen: {new Date(incident.first_seen).toLocaleDateString()} • 
+                            Last update: {new Date(incident.last_seen).toLocaleDateString()}
+                          </>
+                        ) : incident.date ? (
+                          `Date: ${new Date(incident.date).toLocaleDateString()}`
+                        ) : (
+                          'Date unavailable'
+                        )}
                       </div>
                     </div>
                   </div>

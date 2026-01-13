@@ -642,8 +642,8 @@ function calculateSeverityBreakdown(severity) {
       breakdown.operational_disruption = SEVERITY_SCORES.CRITICAL_INFRA;
     } else if (driver === 'Healthcare sector') {
       breakdown.healthcare_flag = true;
-      // Healthcare incidents get additional data sensitivity scoring due to HIPAA/regulatory impact
-      breakdown.data_sensitivity = Math.max(breakdown.data_sensitivity, SEVERITY_SCORES.HEALTHCARE);
+      // Healthcare incidents get additional data sensitivity due to HIPAA/regulatory impact
+      breakdown.data_sensitivity += SEVERITY_SCORES.HEALTHCARE;
     }
   });
   

@@ -46,6 +46,28 @@ export const POPULATION_TYPES = {
   CRITICAL_ONLY: 'critical-only'
 };
 
+/**
+ * Helper function to apply population-based filtering
+ * @param {Array} incidents - Array of incidents to filter
+ * @param {string} population - Population type from POPULATION_TYPES
+ * @returns {Array} Filtered incidents
+ */
+function applyPopulationFilter(incidents, population) {
+  if (!population || population === POPULATION_TYPES.ALL) {
+    return incidents;
+  }
+  
+  if (population === POPULATION_TYPES.INCIDENT_ONLY) {
+    return incidents.filter(i => i.content_type === 'incident' || i.content_type === 'campaign');
+  } else if (population === POPULATION_TYPES.CURATED) {
+    return incidents.filter(i => i.is_curated);
+  } else if (population === POPULATION_TYPES.CRITICAL_ONLY) {
+    return incidents.filter(i => i.severity === 'critical');
+  }
+  
+  return incidents;
+}
+
 // ============================================================================
 // CONTENT TYPE FILTERS (NEW)
 // ============================================================================
@@ -69,16 +91,7 @@ export const CONTENT_TYPES = {
  * @returns {Object} - Count and metadata
  */
 export function countUniqueIncidents(incidents, filters = {}) {
-  let filtered = incidents;
-  
-  // Apply content type filter (NEW)
-  if (filters.population === POPULATION_TYPES.INCIDENT_ONLY) {
-    filtered = filtered.filter(i => i.content_type === 'incident' || i.content_type === 'campaign');
-  } else if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Apply region filter
   if (filters.region && filters.region !== 'ALL') {
@@ -115,16 +128,7 @@ export function countUniqueIncidents(incidents, filters = {}) {
  * @returns {Object} - Counts by tag/sector with metadata
  */
 export function countMentions(incidents, field, filters = {}) {
-  let filtered = incidents;
-  
-  // Apply content type filter (NEW)
-  if (filters.population === POPULATION_TYPES.INCIDENT_ONLY) {
-    filtered = filtered.filter(i => i.content_type === 'incident' || i.content_type === 'campaign');
-  } else if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Apply region filter
   if (filters.region && filters.region !== 'ALL') {
@@ -546,16 +550,7 @@ export function getTimeSeriesData(incidents, granularity = 'month', filters = {}
 // HELPER FUNCTIONS
 // ============================================================================
 function applyFilters(incidents, filters) {
-  let filtered = incidents;
-  
-  // Content type filter (NEW)
-  if (filters.population === POPULATION_TYPES.INCIDENT_ONLY) {
-    filtered = filtered.filter(i => i.content_type === 'incident' || i.content_type === 'campaign');
-  } else if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Region filter
   if (filters.region && filters.region !== 'ALL') {
