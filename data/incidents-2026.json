@@ -1,5 +1,174 @@
 [
   {
+    "id": "20262121",
+    "date": "2026-01-13",
+    "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
+    "summary": "In episode 83 of The AI Fix, Graham reveals he's taken up lying to LLMs, and shows how a journalist exposed AI bluffers with a made-up idiom. Meanwhile Mark invents a \"Godwin's Law\" for AI, and explains how to ruin any LLM with humus. Also in this episode, a marriage is declared invalid thanks to...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/the-ai-fix-83/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262122",
+    "date": "2026-01-13",
+    "title": "Man to plead guilty to hacking US Supreme Court filing system",
+    "summary": "A 24-year-old from Tennessee is expected to admit to accessing the Supreme Court’s electronic filing system without authorization dozens of times throughout 2023.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/13/man-to-plead-guilty-to-hacking-us-supreme-court-filing-system/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262123",
+    "date": "2026-01-13",
+    "title": "Fraude bancaire : en 2026, il est plus que jamais possible de se protéger des arnaqueurs",
+    "summary": "Avec le phishing, les faux conseillers et les comptes piratés, les arnaques bancaires explosent. Mais grâce aux nouvelles réglementations, à l'authentification forte et au fichier antifraude, il devient possible de protéger ses opérations bancaires à distance en 2026.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595045-fraude-bancaire-en-2026-il-est-plus-que-jamais-possible-de-se-proteger-des-arnaqueurs.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262124",
+    "date": "2026-01-13",
+    "title": "New Android Banking Malware ‘DeVixor’ Adds Ransomware Capabilities",
+    "summary": "A new Android banking malware can launch ransomware attacks in addition to more typical activities like credential theft and user surveillance. The “deVixor” remote access trojan (RAT) was detailed by Cyble researchers in a new blog post. While focused on Iranian banking users for now, the malwar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/android-banking-malware-devixor-ransomware/",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "mobile",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262125",
+    "date": "2026-01-13",
+    "title": "FortiOS Vulnerability Allows Remote Code Execution Without Login ",
+    "summary": "Fortinet has disclosed a vulnerability in FortiOS and FortiSwitchManager that could allow remote attackers to run arbitrary code or commands on affected systems without authentication. For organizations using Fortinet firewalls, SASE, and switch management tools, the risk is highest where exposed...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortios-vulnerability-allows-remote-code-execution-without-login/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262126",
+    "date": "2026-01-13",
+    "title": "New Windows updates replace expiring Secure Boot certificates",
+    "summary": "Microsoft has started rolling out new Secure Boot certificates that will automatically install on eligible Windows 11 24H2 and 25H2 systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-rolls-out-new-secure-boot-certificates-for-windows-devices/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262127",
+    "date": "2026-01-13",
+    "title": "Microsoft releases Windows 10 KB5073724 extended security update",
+    "summary": "Microsoft has released the KB5073724 extended security update to fix the Patch Tuesday security updates, including 3 zero-days and a fix for expiring Secure Boot certificates. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5073724-extended-security-update/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262128",
+    "date": "2026-01-13",
+    "title": "Windows 11 KB5074109 & KB5073455 cumulative updates released",
+    "summary": "Microsoft has released Windows 11 KB5074109 and KB5073455 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5074109-and-kb5073455-cumulative-updates-released/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262129",
+    "date": "2026-01-13",
+    "title": "Microsoft January 2026 Patch Tuesday fixes 3 zero-days, 114 flaws",
+    "summary": "Today is Microsoft's January 2026 Patch Tuesday with security updates for 114 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-january-2026-patch-tuesday-fixes-3-zero-days-114-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262130",
+    "date": "2026-01-13",
+    "title": "Google confirms Android bug causing volume key issues",
+    "summary": "Google has confirmed a software bug that is preventing volume buttons from working correctly on Android devices with accessibility features enabled. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-confirms-android-bug-causing-volume-key-issues/",
+    "tags": [
+      "mobile",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262131",
+    "date": "2026-01-13",
+    "title": "Target employees confirm leaked source code is authentic",
+    "summary": "Multiple current and former Target employees confirmed that leaked source code samples posted by a threat actor match real internal systems. The company also rolled out an \"accelerated\" lockdown of its Git server, requiring VPN access, a day after being contacted by BleepingComputer. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/target-employees-confirm-leaked-source-code-is-authentic/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261920",
     "date": "2026-01-13",
     "title": "Target’s Source Code Confirmed Stolen: Why Does This Matter? ",
