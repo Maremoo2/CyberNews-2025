@@ -1070,6 +1070,21 @@ export function getIncidentDurations(incidents, filters = {}) {
   const filtered = applyFilters(incidents, filters);
   
   const durations = {
+    // Public lifecycle duration (news persistence - not technical attack duration)
+    public_lifecycle: {
+      label: 'Public Lifecycle Duration',
+      description: 'Time from first news mention to last update (measures news persistence, not attack duration)',
+      data: [],
+      coverage: 0
+    },
+    // Operational recovery duration (when known from reports)
+    operational_recovery: {
+      label: 'Operational Recovery Duration',
+      description: 'Time from detection to full service restoration (only when explicitly reported)',
+      data: [],
+      coverage: 0
+    },
+    // For backward compatibility
     public_incident_duration: [],
     recovery_duration: [],
     ongoing_incidents: [],
@@ -1082,7 +1097,8 @@ export function getIncidentDurations(incidents, filters = {}) {
     
     const timeline = incident.timeline;
     
-    // Calculate public incident duration (last_seen - first_seen)
+    // Calculate public lifecycle duration (first_seen → last_seen)
+    // This measures news cycle persistence, NOT technical attack duration
     if (timeline.first_seen && timeline.last_seen && 
         timeline.first_seen.trim() !== '' && timeline.last_seen.trim() !== '') {
       const first = new Date(timeline.first_seen);
@@ -1091,16 +1107,19 @@ export function getIncidentDurations(incidents, filters = {}) {
       if (!isNaN(first.getTime()) && !isNaN(last.getTime())) {
         const durationDays = Math.round((last - first) / (1000 * 60 * 60 * 24));
         if (durationDays >= 0) {
-          durations.public_incident_duration.push({
+          const durationData = {
             incident_id: incident.id,
             title: incident.title,
             duration_days: durationDays
-          });
+          };
+          durations.public_lifecycle.data.push(durationData);
+          durations.public_incident_duration.push(durationData); // Backward compat
         }
       }
     }
     
-    // Calculate recovery duration (recovery_complete - detection_date)
+    // Calculate operational recovery duration (detection_date → recovery_complete)
+    // Only available when explicitly reported - measures actual recovery time
     if (timeline.detection_date && timeline.recovery_complete &&
         timeline.detection_date.trim() !== '' && timeline.recovery_complete.trim() !== '') {
       const detection = new Date(timeline.detection_date);
@@ -1109,11 +1128,13 @@ export function getIncidentDurations(incidents, filters = {}) {
       if (!isNaN(detection.getTime()) && !isNaN(recovery.getTime())) {
         const durationDays = Math.round((recovery - detection) / (1000 * 60 * 60 * 24));
         if (durationDays >= 0) {
-          durations.recovery_duration.push({
+          const durationData = {
             incident_id: incident.id,
             title: incident.title,
             duration_days: durationDays
-          });
+          };
+          durations.operational_recovery.data.push(durationData);
+          durations.recovery_duration.push(durationData); // Backward compat
         }
       }
     }
@@ -1139,6 +1160,15 @@ export function getIncidentDurations(incidents, filters = {}) {
     }
   });
   
+  // Calculate coverage percentages
+  const totalFiltered = filtered.length;
+  durations.public_lifecycle.coverage = totalFiltered > 0 
+    ? Math.round((durations.public_lifecycle.data.length / totalFiltered) * 100) 
+    : 0;
+  durations.operational_recovery.coverage = totalFiltered > 0
+    ? Math.round((durations.operational_recovery.data.length / totalFiltered) * 100)
+    : 0;
+  
   // Calculate statistics
   const avgPublicDuration = durations.public_incident_duration.length > 0
     ? Math.round(durations.public_incident_duration.reduce((sum, d) => sum + d.duration_days, 0) / durations.public_incident_duration.length)
@@ -1153,6 +1183,8 @@ export function getIncidentDurations(incidents, filters = {}) {
     statistics: {
       avg_public_duration_days: avgPublicDuration,
       avg_recovery_duration_days: avgRecoveryDuration,
+      public_lifecycle_coverage: `${durations.public_lifecycle.coverage}%`,
+      operational_recovery_coverage: `${durations.operational_recovery.coverage}%`,
       total_ongoing: durations.ongoing_incidents.length,
       total_contained: durations.contained_incidents.length,
       total_recovered: durations.recovered_incidents.length
