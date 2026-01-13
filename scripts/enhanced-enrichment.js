@@ -23,12 +23,14 @@ const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
 // Severity scoring configuration
+// Scores represent relative impact on a 0-10 scale, used to calculate total severity (0-100)
+// Higher scores indicate greater impact in that dimension
 const SEVERITY_SCORES = {
-  SERVICE_DISRUPTION: 4,        // Moderate operational impact
-  DATA_EXPOSURE: 4,             // Significant data sensitivity
-  LARGE_SCALE: 3,               // Widespread impact
-  CRITICAL_INFRA: 5,            // Maximum operational disruption
-  HEALTHCARE: 1                 // Additional healthcare sector bonus
+  SERVICE_DISRUPTION: 4,        // Significant operational impact (40% contribution)
+  DATA_EXPOSURE: 4,             // Significant data sensitivity (40% contribution)
+  LARGE_SCALE: 3,               // Widespread/enterprise-level impact (30% contribution)
+  CRITICAL_INFRA: 5,            // Maximum operational disruption for critical infrastructure (50% contribution)
+  HEALTHCARE: 1                 // Additional regulatory/HIPAA impact for healthcare sector (10% contribution)
 };
 
 // Parse command line arguments

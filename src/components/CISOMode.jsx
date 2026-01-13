@@ -46,7 +46,12 @@ function CISOMode({ onModeChange, incidents }) {
     });
     
     return durations.ongoing_incidents
-      .sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen))
+      .sort((a, b) => {
+        // Safe date comparison with fallback to 0 for invalid/missing dates
+        const dateA = a.last_seen ? new Date(a.last_seen).getTime() : 0;
+        const dateB = b.last_seen ? new Date(b.last_seen).getTime() : 0;
+        return dateB - dateA; // Most recent first
+      })
       .slice(0, 10); // Top 10 most recent
   }, [incidents, mode.enabled, mode.incidentOnly]);
 

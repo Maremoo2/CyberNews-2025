@@ -1083,30 +1083,38 @@ export function getIncidentDurations(incidents, filters = {}) {
     const timeline = incident.timeline;
     
     // Calculate public incident duration (last_seen - first_seen)
-    if (timeline.first_seen && timeline.last_seen) {
+    if (timeline.first_seen && timeline.last_seen && 
+        timeline.first_seen.trim() !== '' && timeline.last_seen.trim() !== '') {
       const first = new Date(timeline.first_seen);
       const last = new Date(timeline.last_seen);
-      const durationDays = Math.round((last - first) / (1000 * 60 * 60 * 24));
-      if (durationDays >= 0) {
-        durations.public_incident_duration.push({
-          incident_id: incident.id,
-          title: incident.title,
-          duration_days: durationDays
-        });
+      // Validate dates are valid
+      if (!isNaN(first.getTime()) && !isNaN(last.getTime())) {
+        const durationDays = Math.round((last - first) / (1000 * 60 * 60 * 24));
+        if (durationDays >= 0) {
+          durations.public_incident_duration.push({
+            incident_id: incident.id,
+            title: incident.title,
+            duration_days: durationDays
+          });
+        }
       }
     }
     
     // Calculate recovery duration (recovery_complete - detection_date)
-    if (timeline.detection_date && timeline.recovery_complete) {
+    if (timeline.detection_date && timeline.recovery_complete &&
+        timeline.detection_date.trim() !== '' && timeline.recovery_complete.trim() !== '') {
       const detection = new Date(timeline.detection_date);
       const recovery = new Date(timeline.recovery_complete);
-      const durationDays = Math.round((recovery - detection) / (1000 * 60 * 60 * 24));
-      if (durationDays >= 0) {
-        durations.recovery_duration.push({
-          incident_id: incident.id,
-          title: incident.title,
-          duration_days: durationDays
-        });
+      // Validate dates are valid
+      if (!isNaN(detection.getTime()) && !isNaN(recovery.getTime())) {
+        const durationDays = Math.round((recovery - detection) / (1000 * 60 * 60 * 24));
+        if (durationDays >= 0) {
+          durations.recovery_duration.push({
+            incident_id: incident.id,
+            title: incident.title,
+            duration_days: durationDays
+          });
+        }
       }
     }
     
