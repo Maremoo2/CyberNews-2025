@@ -4,57 +4,55 @@ This document describes the implementation of direct RSS feed fetching for the C
 
 ## Overview
 
-The platform now fetches cybersecurity news directly from 33 RSS feeds across global news sources, replacing the previous Inoreader dependency for sources that don't work properly in Inoreader.
+The platform now fetches cybersecurity news directly from 128 RSS feeds across global news sources, replacing the previous Inoreader dependency for sources that don't work properly in Inoreader.
 
 ## RSS Feed Sources
 
-### United States (18 sources)
-1. **CISA News** - https://www.cisa.gov/news.xml
-2. **CISA Blog** - https://www.cisa.gov/blog.xml
-3. **Schneier on Security** - https://www.schneier.com/tag/cybersecurity/feed/
-4. **2B Innovations** - https://2binnovations.com/category/cybersecurity-news-updates/feed/
-5. **US News Cybersecurity** - https://www.usnews.com/topics/subjects/cybersecurity/rss
-6. **Security Magazine** - https://www.securitymagazine.com/rss/topic/2788
-7. **Mitnick Security** - https://www.mitnicksecurity.com/blog/rss.xml
-8. **TechCrunch Cybersecurity** - https://techcrunch.com/tag/cybersecurity/feed/
-9. **The Verge Cybersecurity** - https://www.theverge.com/rss/cyber-security/index.xml
-10. **New York Times Cybersecurity** - https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/cybersecurity/rss.xml
-11. **Foreign Affairs Cybersecurity** - https://www.foreignaffairs.com/feeds/topic/cybersecurity/rss.xml
-12. **SDM Magazine** - https://www.sdmmag.com/rss/topic/6802-cybersecurity-chronicles
-13. **MIT Cyber Security** - https://news.mit.edu/topic/mitcyber-security-rss.xml
-14. **Cybersecurity Dive** - https://www.cybersecuritydive.com/feeds/news/
-15. **eSecurity Planet** - https://www.esecurityplanet.com/feed/
-16. **How-To Geek Cybersecurity** - https://www.howtogeek.com/feed/category/cybersecurity/
-17. **CyberPilot** - https://www.cyberpilot.io/cyberpilot-blog/rss.xml
+The platform aggregates cybersecurity news from 128 RSS feeds organized by region:
 
-### Europe (9 sources)
-1. **Graham Cluley** - https://grahamcluley.com/feed/ (UK)
-2. **The Conversation Cybersecurity** - https://theconversation.com/topics/cybersecurity-535/articles.atom (UK)
-3. **Alias Robotics** - https://news.aliasrobotics.com/rss/ (Spain)
-4. **Il Sole 24 Ore** - https://www.ilsole24ore.com/rss/tecnologia--cybersicurezza.xml (Italy)
-5. **Clubic** - https://www.clubic.com/feed/antivirus-securite-informatique/rss (France)
-6. **Help Net Security** - https://www.helpnetsecurity.com/feed/
-7. **Cybersecurity Cloud Expo** - https://www.cybersecuritycloudexpo.com/feed/ (UK)
-8. **IT Security Expert** - https://blog.itsecurityexpert.co.uk/feeds/posts/default?alt=atom (UK)
-9. **Infinigate** - https://www.infinigate.com/uk/news-types/news-press/feed/ (UK)
+- **United States**: 90 sources
+- **Europe**: 24 sources  
+- **Asia**: 14 sources
 
-### Asia (2 sources)
-1. **South China Morning Post** - https://www.scmp.com/rss/296935/feed/ (Hong Kong)
-2. **Mashable Cybersecurity** - https://in.mashable.com/cybersecurity.xml (India)
+For the complete list of feeds, see `config/rss-feeds-config.json`.
 
-### Global (5 sources)
-1. **SN Wire** - https://snwire.com/feed/
-2. **The Cyber Express** - https://thecyberexpress.com/feed/
-3. **Upstream Auto** - https://upstream.auto/feed/
-4. **Cyber Insider** - https://cyberinsider.com/feed/
-5. **Info Savvy** - https://info-savvy.com/feed/
+### Notable Sources Include
+
+**High-Profile Security Blogs:**
+- **Krebs on Security** - Brian Krebs' investigative cybercrime blog
+- **Troy Hunt** - Creator of Have I Been Pwned
+- **Schneier on Security** - Bruce Schneier's security analysis
+- **Graham Cluley** (UK)
+- **BleepingComputer** - Breaking cybersecurity news
+
+**Major Vendors & Organizations:**
+- **CISA** (US Government Cybersecurity Agency)
+- **NIST Cybersecurity Insights** (US Government)
+- **Google Online Security Blog**
+- **Cisco Security Blog**
+- **Microsoft**, **Sophos**, **McAfee**, **Veracode**, **Trend Micro**
+
+**News & Media:**
+- **Dark Reading** - Premier cybersecurity news
+- **CSO Online** - Enterprise security decision-makers
+- **TechCrunch Cybersecurity**
+- **TechRepublic Cybersecurity**
+- **The Guardian - Data & Computer Security**
+- **Threatpost**, **Infosecurity Magazine**
+- **We Live Security** - ESET research
+
+**Research & Analysis:**
+- **MIT Cyber Security**
+- **The Cyber Express**
+- **Cyber Defense Magazine**
+- **Help Net Security**
 
 ## Technical Implementation
 
 ### Architecture
 
 ```
-RSS Feeds (33 sources)
+RSS Feeds (128 sources)
     ↓
 fetch-rss-feeds.js (Node.js script)
     ↓
@@ -72,8 +70,9 @@ data/incidents-YYYY.json (auto-routed by year)
 3. **Sequential ID Generation**: Generates unique IDs per year (2026001, 2026002, etc.)
 4. **Tag Generation**: Automatically assigns tags based on content keywords
 5. **Impact Scoring**: Calculates impact level (1-5) based on keyword analysis
-6. **Retry Logic**: Built-in retry mechanism for failed feeds
-7. **Rate Limiting**: Small delays between feeds to be respectful to servers
+6. **Source Weighting**: Each feed has a credibility weight (1-5) for prioritization
+7. **Retry Logic**: Built-in retry mechanism for failed feeds
+8. **Rate Limiting**: Small delays between feeds to be respectful to servers
 
 ### Configuration File Structure
 
@@ -87,7 +86,8 @@ data/incidents-YYYY.json (auto-routed by year)
       "name": "Feed Name",
       "url": "https://example.com/feed.xml",
       "defaultRegion": "US|EU|ASIA|NO",
-      "defaultCountry": "Country Name"
+      "defaultCountry": "Country Name",
+      "weight": 5
     }
   ],
   "tagKeywords": {
@@ -103,6 +103,35 @@ data/incidents-YYYY.json (auto-routed by year)
   "companyKeywords": ["company1", "company2"]
 }
 ```
+
+### Source Weight System (1-5 scale)
+
+Each RSS feed is assigned a credibility weight to enable prioritization and signal quality assessment:
+
+- **Weight 5 (Must-have / High Signal)**: Government agencies, security standards organizations, and top-tier security researchers
+  - Examples: CISA, NIST, Krebs on Security, Troy Hunt, Schneier on Security, Google Security Blog
+  - Count: 7 feeds
+
+- **Weight 4 (Strong Source)**: Established infosec media outlets and high-quality vendor research
+  - Examples: Dark Reading, BleepingComputer, CSO Online, Graham Cluley, MIT News, Infosecurity Magazine
+  - Count: 17 feeds
+
+- **Weight 3 (Solid Quality)**: Reputable vendor blogs, specialized security content, and niche experts
+  - Examples: Sophos, Cisco, Veracode, SOC Prime, Acunetix, Trend Micro, Imperva
+  - Count: 39 feeds
+
+- **Weight 2 (Variable Quality)**: Mainstream tech media, consulting blogs, and mixed-quality sources
+  - Examples: TechCrunch, TechRepublic, Security Magazine, US News, various consulting firms
+  - Count: 60 feeds
+
+- **Weight 1 (Low Signal)**: Content farms, SEO-focused sites, and high-noise sources
+  - Examples: SecureBlitz, Hacker Combat, Virtualattacks
+  - Count: 5 feeds
+
+The weight system enables:
+- **Prioritization**: Higher-weight sources can be processed first or given more prominence
+- **Confidence scoring**: Multiple high-weight sources reporting the same incident increases credibility
+- **Signal-to-noise optimization**: Filter or de-prioritize lower-weight sources during high-volume periods
 
 ### Tag Categories (18 total)
 
@@ -250,4 +279,7 @@ Potential improvements:
 4. Feed health monitoring and alerts
 5. Custom parsers for non-standard feed formats
 6. Article deduplication by content similarity
-7. Source credibility scoring
+7. ~~Source credibility scoring~~ ✅ **Implemented**: Weight-based source prioritization (1-5 scale)
+8. **Multi-source confidence scoring**: Boost articles reported by multiple high-weight sources
+9. **Threat actor tracking**: Identify and tag known threat actors (LockBit, ALPHV, APT groups)
+10. **Sector-specific tagging**: Enhanced categorization for Finance, Healthcare, OT, Cloud sectors
