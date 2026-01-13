@@ -227,15 +227,36 @@ const KNOWN_ACTOR_NAMES = [
 // ============================================================================
 // CONTENT TYPE CLASSIFICATION
 // ============================================================================
+// Hard top-level classification for data quality improvements
 const CONTENT_TYPES = {
-  'incident': ['breach', 'attack', 'compromise', 'ransomware', 'hack', 'exploitation'],
-  'vulnerability': ['cve', 'vulnerability', 'zero-day', 'patch', 'flaw', 'exploit'],
-  'policy': ['policy', 'regulation', 'law', 'compliance', 'mandate'],
-  'opinion': ['opinion', 'comment', 'analysis', 'perspective', 'editorial'],
-  'prediction': ['prediction', 'forecast', '2027', '2028', 'trend', 'future'],
-  'research': ['research', 'study', 'report', 'whitepaper', 'analysis'],
-  'product': ['product', 'release', 'launch', 'announcement', 'tool'],
-  'court': ['court', 'lawsuit', 'legal', 'settlement', 'verdict', 'indictment']
+  'incident': {
+    keywords: ['breach', 'attack', 'compromise', 'ransomware', 'hack', 'hacked', 'exploited', 'infiltrated', 'stolen', 'leaked'],
+    antiKeywords: ['what is', 'how to', 'guide to', 'understanding', 'explained', 'pricing', 'comparison', 'review', 'best']
+  },
+  'campaign': {
+    keywords: ['campaign', 'operation', 'botnet', 'malware family', 'threat group'],
+    antiKeywords: []
+  },
+  'vulnerability': {
+    keywords: ['cve-', 'vulnerability', 'zero-day', 'patch', 'flaw', 'exploit', 'disclosure'],
+    antiKeywords: ['what is', 'explained', 'guide']
+  },
+  'policy': {
+    keywords: ['policy', 'regulation', 'law', 'compliance', 'mandate', 'sec filing', 'regulatory'],
+    antiKeywords: []
+  },
+  'explainer': {
+    keywords: ['what is', 'how to', 'guide to', 'understanding', 'explained', 'tutorial', 'basics of'],
+    antiKeywords: []
+  },
+  'opinion': {
+    keywords: ['opinion', 'comment', 'analysis', 'perspective', 'editorial', 'should'],
+    antiKeywords: []
+  },
+  'product': {
+    keywords: ['product', 'release', 'launch', 'announcement', 'tool', 'pricing', 'comparison', 'review', 'best vpn', 'choose'],
+    antiKeywords: []
+  }
 };
 
 // ============================================================================
@@ -444,24 +465,181 @@ function classifyThemes(incident, mitreMapping) {
 function classifyContentType(incident) {
   const text = `${incident.title} ${incident.summary}`.toLowerCase();
   
-  const scores = {};
-  for (const [type, keywords] of Object.entries(CONTENT_TYPES)) {
-    scores[type] = keywords.filter(kw => text.includes(kw)).length;
+  // Check for explainers first (high priority anti-pattern)
+  const explainerType = CONTENT_TYPES['explainer'];
+  const hasExplainerKeywords = explainerType.keywords.some(kw => text.includes(kw));
+  if (hasExplainerKeywords) {
+    return 'explainer';
   }
   
-  // Return type with highest score, default to 'incident'
-  const entries = Object.entries(scores);
-  if (entries.length === 0 || Math.max(...Object.values(scores)) === 0) {
+  // Check for product reviews/comparisons
+  const productType = CONTENT_TYPES['product'];
+  const hasProductKeywords = productType.keywords.filter(kw => text.includes(kw)).length;
+  if (hasProductKeywords >= 2) {
+    return 'product';
+  }
+  
+  // Score each type
+  const scores = {};
+  for (const [type, config] of Object.entries(CONTENT_TYPES)) {
+    if (type === 'explainer' || type === 'product') continue; // Already checked
+    
+    let score = 0;
+    
+    // Add points for keyword matches
+    score += config.keywords.filter(kw => text.includes(kw)).length;
+    
+    // Subtract points for anti-keywords
+    if (config.antiKeywords) {
+      score -= config.antiKeywords.filter(kw => text.includes(kw)).length * 2;
+    }
+    
+    scores[type] = Math.max(0, score);
+  }
+  
+  // Return type with highest score, default to 'incident' if all scores are 0
+  const maxScore = Math.max(...Object.values(scores));
+  if (maxScore === 0) {
     return 'incident';
   }
   
-  return entries.reduce((a, b) => a[1] > b[1] ? a : b)[0];
+  return Object.entries(scores).reduce((a, b) => a[1] > b[1] ? a : b)[0];
+}
+
+// ============================================================================
+// CASE ID GENERATION (for deduplication)
+// ============================================================================
+function generateCaseId(incident, allIncidents) {
+  // For now, use the incident ID as case ID
+  // In future, we can implement clustering logic to group similar incidents
+  // by matching title similarity, same organization, similar dates, etc.
+  return incident.id;
+}
+
+// ============================================================================
+// TIMELINE MILESTONE EXTRACTION
+// ============================================================================
+function extractTimelineMilestones(incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  const milestones = {
+    first_seen: incident.date, // Default to incident date
+    detection_date: null,
+    containment_start: null,
+    containment_complete: null,
+    service_restored: null,
+    recovery_complete: null,
+    last_seen: incident.date, // Default to incident date
+    status: 'unknown'
+  };
+  
+  // Try to extract detection date
+  if (/detected|discovered|found on/.test(text)) {
+    // For now, use incident date as detection date
+    milestones.detection_date = incident.date;
+  }
+  
+  // Try to determine status
+  if (/ongoing|active|continuing|still/.test(text)) {
+    milestones.status = 'ongoing';
+  } else if (/contained|mitigated|patched/.test(text)) {
+    milestones.status = 'contained';
+  } else if (/recovered|restored|resolved/.test(text)) {
+    milestones.status = 'recovered';
+    milestones.recovery_complete = incident.date;
+  }
+  
+  return milestones;
+}
+
+// ============================================================================
+// ATTRIBUTION CONFIDENCE SCORING
+// ============================================================================
+function calculateAttributionConfidence(actorAttribution, incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  
+  // Start with actor confidence
+  let confidence = actorAttribution.actor_confidence === 'high' ? 80 : 
+                   actorAttribution.actor_confidence === 'medium' ? 50 : 20;
+  
+  // Boost confidence for specific attribution language
+  if (/attributed to|confirmed|identified as/.test(text)) {
+    confidence += 15;
+  }
+  
+  // Reduce confidence for tentative language
+  if (/suspected|believed|possibly|allegedly|may be/.test(text)) {
+    confidence -= 20;
+  }
+  
+  // Clamp between 0-100
+  confidence = Math.max(0, Math.min(100, confidence));
+  
+  // Convert to label
+  if (confidence >= 70) return 'high';
+  if (confidence >= 40) return 'medium';
+  return 'low';
+}
+
+// ============================================================================
+// GEOGRAPHY EXTRACTION
+// ============================================================================
+function extractGeography(incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  
+  const geography = {
+    victim_country: incident.country || null,
+    victim_region: incident.region || null,
+    impact_region: null,
+    operational_impact_countries: []
+  };
+  
+  // Extract impact region from text
+  if (/global|worldwide|international/.test(text)) {
+    geography.impact_region = 'Global';
+  } else if (/europe|eu|european/.test(text)) {
+    geography.impact_region = 'Europe';
+  } else if (/asia|asian/.test(text)) {
+    geography.impact_region = 'Asia';
+  } else if (/us|united states|american/.test(text)) {
+    geography.impact_region = 'United States';
+  }
+  
+  return geography;
+}
+
+// ============================================================================
+// SEVERITY SCORE BREAKDOWN
+// ============================================================================
+function calculateSeverityBreakdown(severity) {
+  // Convert severity drivers to component scores
+  const breakdown = {
+    operational_disruption: 0,
+    data_sensitivity: 0,
+    scale: 0,
+    critical_infra_flag: false,
+    healthcare_flag: false
+  };
+  
+  severity.drivers.forEach(driver => {
+    if (driver === 'Service disruption') {
+      breakdown.operational_disruption = 4;
+    } else if (driver === 'Sensitive data exposure') {
+      breakdown.data_sensitivity = 4;
+    } else if (driver === 'Large scale impact') {
+      breakdown.scale = 3;
+    } else if (driver === 'Critical infrastructure impact') {
+      breakdown.critical_infra_flag = true;
+      breakdown.operational_disruption = 5;
+    }
+  });
+  
+  return breakdown;
 }
 
 // ============================================================================
 // MAIN ENRICHMENT FUNCTION
 // ============================================================================
-function enrichIncident(incident) {
+function enrichIncident(incident, allIncidents) {
   // Calculate severity score
   const severity = calculateSeverityScore(incident);
   
@@ -480,34 +658,71 @@ function enrichIncident(incident) {
   // Classify content type
   const content_type = classifyContentType(incident);
   
+  // Generate case ID
+  const case_id = generateCaseId(incident, allIncidents);
+  
+  // Extract timeline milestones
+  const timeline = extractTimelineMilestones(incident);
+  
+  // Calculate attribution confidence
+  const attribution_confidence = calculateAttributionConfidence(actorAttribution, incident);
+  
+  // Extract geography
+  const geography = extractGeography(incident);
+  
+  // Calculate severity breakdown
+  const severity_breakdown = calculateSeverityBreakdown(severity);
+  
   // Determine if curated (has multiple enrichment signals)
   const is_curated = (
     severity.score >= 25 &&
     mitreMapping.length > 0 &&
-    themes.length > 0
+    themes.length > 0 &&
+    content_type === 'incident' // Only incidents can be curated
   );
   
   return {
     ...incident,
+    // Content classification (NEW)
+    content_type,
+    
+    // Case clustering (NEW)
+    case_id,
+    event_id: incident.id, // Original article/event ID
+    
     // Enhanced severity scoring
     severity_score: severity.score,
     severity: severity.label,
     severity_drivers: severity.drivers,
+    severity_breakdown, // NEW: Component scores
     
     // MITRE ATT&CK with confidence
     mitre_techniques: mitreMapping.map(m => ({
       id: m.technique_id,
       name: m.technique_name,
-      confidence: m.confidence
+      confidence: m.confidence,
+      mapping_source: 'nlp' // NEW: Indicates automated mapping
     })),
     mitre_tactics: mitreTactics,
     mitre_technique_ids: mitreMapping.map(m => m.technique_id),
     
-    // Threat actor attribution
+    // Threat actor attribution (ENHANCED)
     actor_name: actorAttribution.actor_name,
     actor_category: actorAttribution.actor_category,
     actor_confidence: actorAttribution.actor_confidence,
+    attribution_confidence, // NEW: High/Medium/Low based on evidence
+    attribution_status: actorAttribution.attributed ? 
+      (attribution_confidence === 'high' ? 'known' : 'suspected') : 'unknown', // NEW
     is_attributed: actorAttribution.attributed,
+    
+    // Geography (NEW)
+    victim_country: geography.victim_country,
+    victim_region: geography.victim_region,
+    impact_region: geography.impact_region,
+    operational_impact_countries: geography.operational_impact_countries,
+    
+    // Timeline milestones (NEW)
+    timeline,
     
     // Strategic themes
     themes: themes.map(t => ({
@@ -515,9 +730,6 @@ function enrichIncident(incident) {
       name: t.theme_name,
       confidence: t.confidence
     })),
-    
-    // Content classification
-    content_type,
     
     // Quality indicators
     is_curated,
@@ -572,19 +784,29 @@ async function processIncidents() {
     if ((index + 1) % 100 === 0) {
       console.log(`   Processed ${index + 1}/${incidents.length} incidents...`);
     }
-    return enrichIncident(incident);
+    return enrichIncident(incident, incidents);
   });
   
   // Calculate statistics
   const stats = calculateStats(enrichedIncidents);
   console.log('\n📈 Enrichment Statistics:');
   console.log(`   Total incidents: ${enrichedIncidents.length}`);
+  console.log(`   Content Types:`);
+  console.log(`     - Incidents: ${stats.contentTypes.incident || 0}`);
+  console.log(`     - Campaigns: ${stats.contentTypes.campaign || 0}`);
+  console.log(`     - Vulnerabilities: ${stats.contentTypes.vulnerability || 0}`);
+  console.log(`     - Explainers/Opinion: ${(stats.contentTypes.explainer || 0) + (stats.contentTypes.opinion || 0)}`);
+  console.log(`     - Other: ${stats.contentTypes.other || 0}`);
   console.log(`   Curated: ${stats.curated} (${stats.curatedPercent}%)`);
   console.log(`   Critical severity: ${stats.critical}`);
   console.log(`   High severity: ${stats.high}`);
   console.log(`   With MITRE mappings: ${stats.withMitre} (${stats.mitrePercent}%)`);
   console.log(`   Attributed: ${stats.attributed} (${stats.attributedPercent}%)`);
   console.log(`   With themes: ${stats.withThemes} (${stats.themesPercent}%)`);
+  console.log(`   Timeline status:`);
+  console.log(`     - Ongoing: ${stats.timelineStatus.ongoing || 0}`);
+  console.log(`     - Contained: ${stats.timelineStatus.contained || 0}`);
+  console.log(`     - Recovered: ${stats.timelineStatus.recovered || 0}`);
   
   if (DRY_RUN) {
     console.log('\n🔍 DRY RUN - No files written');
@@ -604,6 +826,22 @@ function calculateStats(incidents) {
   const attributed = incidents.filter(i => i.is_attributed).length;
   const withThemes = incidents.filter(i => i.themes.length > 0).length;
   
+  // Content type breakdown
+  const contentTypes = {};
+  incidents.forEach(i => {
+    const type = i.content_type || 'other';
+    contentTypes[type] = (contentTypes[type] || 0) + 1;
+  });
+  
+  // Timeline status breakdown
+  const timelineStatus = {};
+  incidents.forEach(i => {
+    if (i.timeline && i.timeline.status) {
+      const status = i.timeline.status;
+      timelineStatus[status] = (timelineStatus[status] || 0) + 1;
+    }
+  });
+  
   return {
     curated,
     curatedPercent: Math.round(curated / incidents.length * 100),
@@ -614,7 +852,9 @@ function calculateStats(incidents) {
     attributed,
     attributedPercent: Math.round(attributed / incidents.length * 100),
     withThemes,
-    themesPercent: Math.round(withThemes / incidents.length * 100)
+    themesPercent: Math.round(withThemes / incidents.length * 100),
+    contentTypes,
+    timelineStatus
   };
 }
 
