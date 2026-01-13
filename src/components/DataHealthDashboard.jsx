@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { getDataHealth, getEnrichmentQualityMessage } from '../utils/populationUtils';
+import { getDataCompleteness, getContentTypeBreakdown } from '../utils/analyticsUtils';
 import './DataHealthDashboard.css';
 
 /**
@@ -16,6 +17,8 @@ function DataHealthDashboard({ incidents }) {
 
   const health = getDataHealth(incidents);
   const qualityMessage = getEnrichmentQualityMessage(incidents);
+  const completeness = getDataCompleteness(incidents);
+  const contentBreakdown = getContentTypeBreakdown(incidents);
 
   // Get diagnosis message
   const getDiagnosisMessage = () => {
@@ -161,6 +164,64 @@ function DataHealthDashboard({ incidents }) {
                 ></span>
               </div>
             </div>
+
+            {/* NEW: Content Type Breakdown */}
+            {contentBreakdown && contentBreakdown.breakdown && (
+              <div className="content-type-section">
+                <h3 className="section-title">📑 Content Type Distribution</h3>
+                <div className="content-type-grid">
+                  {Object.entries(contentBreakdown.breakdown).map(([type, count]) => (
+                    <div key={type} className="content-type-item">
+                      <span className="type-label">{type}</span>
+                      <span className="type-count">{count}</span>
+                      <span className="type-percent">({contentBreakdown.percentages[type]}%)</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="content-type-note">
+                  💡 For accurate analytics, use "Incident-only" filter to exclude explainers, opinions, and product content.
+                </p>
+              </div>
+            )}
+
+            {/* NEW: Data Completeness Dashboard */}
+            {completeness && completeness.percentages && (
+              <div className="completeness-section">
+                <h3 className="section-title">📊 Field Completeness (What to Curate Next)</h3>
+                <div className="completeness-stats">
+                  <div className="completeness-stat">
+                    <span className="stat-label">Sector/Tags:</span>
+                    <span className="stat-value">{completeness.percentages.with_sector}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_sector}%` }}></span>
+                  </div>
+                  <div className="completeness-stat">
+                    <span className="stat-label">Country:</span>
+                    <span className="stat-value">{completeness.percentages.with_country}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_country}%` }}></span>
+                  </div>
+                  <div className="completeness-stat">
+                    <span className="stat-label">Incident Type:</span>
+                    <span className="stat-value">{completeness.percentages.with_incident_type}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_incident_type}%` }}></span>
+                  </div>
+                  <div className="completeness-stat">
+                    <span className="stat-label">Actor Category:</span>
+                    <span className="stat-value">{completeness.percentages.with_actor_category}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_actor_category}%` }}></span>
+                  </div>
+                  <div className="completeness-stat">
+                    <span className="stat-label">MITRE Mapping:</span>
+                    <span className="stat-value">{completeness.percentages.with_mitre_mapping}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_mitre_mapping}%` }}></span>
+                  </div>
+                  <div className="completeness-stat">
+                    <span className="stat-label">Timeline Status:</span>
+                    <span className="stat-value">{completeness.percentages.with_milestones}%</span>
+                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_milestones}%` }}></span>
+                  </div>
+                </div>
+              </div>
+            )}
 
             <div className="health-actions">
               <button className="how-to-btn" onClick={() => setShowModal(true)}>

@@ -1,16 +1,20 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
+import { getIncidentDurations, POPULATION_TYPES } from '../utils/analyticsUtils';
 import './CISOMode.css';
 
 /**
  * CISO Mode Toggle Component
  * Professional executive dashboard with filtering options:
- * - Only critical incidents
- * - Only curated (high-quality) incidents  
- * - Only high confidence mappings
+ * - Incident-only (default): Real-world incidents, excludes explainers/opinions
+ * - Critical incidents only
+ * - Curated (high-quality) incidents  
+ * - High confidence mappings
+ * - Shows ongoing incidents list
  */
-function CISOMode({ onModeChange }) {
+function CISOMode({ onModeChange, incidents }) {
   const [mode, setMode] = useState({
     enabled: false,
+    incidentOnly: true,  // NEW: Default to incidents-only
     criticalOnly: false,
     curatedOnly: false,
     highConfidenceOnly: false
@@ -25,13 +29,26 @@ function CISOMode({ onModeChange }) {
     }
     
     // If disabling all filters, disable CISO mode
-    if (field !== 'enabled' && !newMode.criticalOnly && !newMode.curatedOnly && !newMode.highConfidenceOnly) {
+    if (field !== 'enabled' && !newMode.incidentOnly && !newMode.criticalOnly && !newMode.curatedOnly && !newMode.highConfidenceOnly) {
       newMode.enabled = false;
     }
     
     setMode(newMode);
     onModeChange(newMode);
   };
+
+  // Get ongoing incidents
+  const ongoingIncidents = useMemo(() => {
+    if (!incidents || !mode.enabled) return [];
+    
+    const durations = getIncidentDurations(incidents, {
+      population: mode.incidentOnly ? POPULATION_TYPES.INCIDENT_ONLY : POPULATION_TYPES.ALL
+    });
+    
+    return durations.ongoing_incidents
+      .sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen))
+      .slice(0, 10); // Top 10 most recent
+  }, [incidents, mode.enabled, mode.incidentOnly]);
 
   return (
     <div className={`ciso-mode-panel ${mode.enabled ? 'active' : ''}`}>
@@ -55,6 +72,21 @@ function CISOMode({ onModeChange }) {
           </div>
 
           <div className="filter-options">
+            <label className={`filter-option ${mode.incidentOnly ? 'active' : ''}`}>
+              <input
+                type="checkbox"
+                checked={mode.incidentOnly}
+                onChange={() => handleToggle('incidentOnly')}
+              />
+              <div className="filter-content">
+                <span className="filter-icon">🎯</span>
+                <div className="filter-text">
+                  <strong>Incident-Only</strong>
+                  <span className="filter-desc">Exclude explainers, opinions & products</span>
+                </div>
+              </div>
+            </label>
+
             <label className={`filter-option ${mode.criticalOnly ? 'active' : ''}`}>
               <input
                 type="checkbox"
@@ -102,10 +134,34 @@ function CISOMode({ onModeChange }) {
           </div>
 
           <div className="active-filters-summary">
+            {mode.incidentOnly && <span className="filter-badge">Incidents</span>}
             {mode.criticalOnly && <span className="filter-badge">Critical</span>}
             {mode.curatedOnly && <span className="filter-badge">Curated</span>}
             {mode.highConfidenceOnly && <span className="filter-badge">High Confidence</span>}
           </div>
+
+          {/* NEW: Ongoing Incidents List */}
+          {ongoingIncidents.length > 0 && (
+            <div className="ongoing-incidents">
+              <h4 className="ongoing-title">
+                🔄 Top Ongoing Incidents ({ongoingIncidents.length})
+              </h4>
+              <div className="ongoing-list">
+                {ongoingIncidents.map((incident) => (
+                  <div key={incident.id} className="ongoing-item">
+                    <div className="ongoing-indicator"></div>
+                    <div className="ongoing-content">
+                      <div className="ongoing-item-title">{incident.title}</div>
+                      <div className="ongoing-dates">
+                        First seen: {new Date(incident.first_seen).toLocaleDateString()} • 
+                        Last update: {new Date(incident.last_seen).toLocaleDateString()}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </>
       )}
     </div>
