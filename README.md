@@ -157,7 +157,10 @@ npm run enrich-enhanced
 # Validate year routing
 npm run validate-years
 
-# Fetch latest news (automated via GitHub Actions)
+# Fetch latest news from RSS feeds (automated via GitHub Actions)
+npm run fetch-rss
+
+# Fetch latest news from Inoreader (legacy method)
 npm run fetch-news
 ```
 
@@ -298,27 +301,29 @@ Technologies: React, Node.js, MITRE ATT&CK, Vite, GitHub Actions
 
 The platform automatically fetches and enriches cybersecurity news every 6 hours via GitHub Actions.
 
-This project automatically fetches cybersecurity news from Inoreader RSS feeds and adds them to the incidents database.
+This project automatically fetches cybersecurity news from **33 direct RSS feeds** across global cybersecurity news sources.
 
 ### How It Works
 
 The GitHub Actions workflow runs automatically **every 6 hours** to:
-1. Fetch articles from 3 Inoreader JSON feeds:
-   - **Cyber** (US-focused cybersecurity news)
-   - **Data/IT** (European data and IT security news)
-   - **Offentlig/Microsoft** (Norwegian public sector and Microsoft news)
+1. Fetch articles from 33 RSS feeds directly:
+   - **US sources**: CISA, Schneier on Security, TechCrunch, The Verge, New York Times, and more
+   - **European sources**: Graham Cluley, Il Sole 24 Ore, Clubic, Infinigate, and more
+   - **Asian sources**: South China Morning Post, Mashable India
+   - **Global sources**: The Cyber Express, Help Net Security, Cybersecurity Dive, and more
 2. Transform articles into the incidents format
-3. Auto-generate tags based on article content
-4. Skip duplicate articles (by URL)
-5. Assign sequential IDs (2026001, 2026002, etc.)
-6. Auto-commit new articles to `data/incidents-2026.json`
+3. Auto-generate tags based on article content (ransomware, data-breach, vulnerability, etc.)
+4. Calculate impact scores automatically
+5. Skip duplicate articles (by URL)
+6. Assign sequential IDs (2026001, 2026002, etc.)
+7. Auto-commit new articles to appropriate year files (`data/incidents-2026.json`, etc.)
 
 ### Manual Trigger
 
 You can manually trigger the news fetch workflow:
 
 1. Go to **Actions** tab in GitHub
-2. Select **"Fetch Inoreader News"** workflow
+2. Select **"Fetch RSS Feeds"** workflow
 3. Click **"Run workflow"** button
 4. Select the branch and click **"Run workflow"**
 
@@ -330,21 +335,31 @@ You can test the fetch script locally:
 
 ```bash
 # Dry-run (shows what would be added without saving)
-npm run fetch-news -- --dry-run
+npm run fetch-rss -- --dry-run
 
 # Actually fetch and save
+npm run fetch-rss
+```
+
+**Note**: The RSS feeds are public and don't require authentication. The script includes automatic retry logic and rate limiting.
+
+### Legacy Inoreader Support
+
+The original Inoreader fetcher is still available for backward compatibility:
+
+```bash
+# Use Inoreader (old method)
 npm run fetch-news
 ```
 
-**Note**: The Inoreader feeds are public JSON endpoints and don't require authentication.
-
 ### Configuration
 
-The feed configuration is in `config/inoreader-config.json`:
-- Feed URLs
-- Default region/country mappings
-- Tag keyword patterns
-- Impact level keywords
+The RSS feed configuration is in `config/rss-feeds-config.json`:
+- 33 RSS feed URLs with source names
+- Default region/country mappings for each source
+- Tag keyword patterns (18+ categories including ransomware, data-breach, vulnerability, phishing, etc.)
+- Impact level keywords (1-5 scale)
+- Company/product keywords for automatic tagging
 
 ### Year Routing
 

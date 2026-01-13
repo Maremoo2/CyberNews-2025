@@ -1,0 +1,248 @@
+{
+  "maxItemsPerFeed": 50,
+  "feeds": [
+    {
+      "name": "CISA News",
+      "url": "https://www.cisa.gov/news.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "CISA Blog",
+      "url": "https://www.cisa.gov/blog.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Graham Cluley",
+      "url": "https://grahamcluley.com/feed/",
+      "defaultRegion": "EU",
+      "defaultCountry": "United Kingdom"
+    },
+    {
+      "name": "Schneier on Security",
+      "url": "https://www.schneier.com/tag/cybersecurity/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "2B Innovations",
+      "url": "https://2binnovations.com/category/cybersecurity-news-updates/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "US News Cybersecurity",
+      "url": "https://www.usnews.com/topics/subjects/cybersecurity/rss",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Security Magazine",
+      "url": "https://www.securitymagazine.com/rss/topic/2788",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com/rss/296935/feed/",
+      "defaultRegion": "ASIA",
+      "defaultCountry": "Hong Kong"
+    },
+    {
+      "name": "Mitnick Security",
+      "url": "https://www.mitnicksecurity.com/blog/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "SN Wire",
+      "url": "https://snwire.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "The Conversation Cybersecurity",
+      "url": "https://theconversation.com/topics/cybersecurity-535/articles.atom",
+      "defaultRegion": "EU",
+      "defaultCountry": "United Kingdom"
+    },
+    {
+      "name": "TechCrunch Cybersecurity",
+      "url": "https://techcrunch.com/tag/cybersecurity/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Alias Robotics",
+      "url": "https://news.aliasrobotics.com/rss/",
+      "defaultRegion": "EU",
+      "defaultCountry": "Spain"
+    },
+    {
+      "name": "The Verge Cybersecurity",
+      "url": "https://www.theverge.com/rss/cyber-security/index.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Mashable Cybersecurity",
+      "url": "https://in.mashable.com/cybersecurity.xml",
+      "defaultRegion": "ASIA",
+      "defaultCountry": "India"
+    },
+    {
+      "name": "New York Times Cybersecurity",
+      "url": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/cybersecurity/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Foreign Affairs Cybersecurity",
+      "url": "https://www.foreignaffairs.com/feeds/topic/cybersecurity/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Il Sole 24 Ore",
+      "url": "https://www.ilsole24ore.com/rss/tecnologia--cybersicurezza.xml",
+      "defaultRegion": "EU",
+      "defaultCountry": "Italy"
+    },
+    {
+      "name": "Clubic",
+      "url": "https://www.clubic.com/feed/antivirus-securite-informatique/rss",
+      "defaultRegion": "EU",
+      "defaultCountry": "France"
+    },
+    {
+      "name": "SDM Magazine",
+      "url": "https://www.sdmmag.com/rss/topic/6802-cybersecurity-chronicles",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "MIT Cyber Security",
+      "url": "https://news.mit.edu/topic/mitcyber-security-rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "The Cyber Express",
+      "url": "https://thecyberexpress.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "Upstream Auto",
+      "url": "https://upstream.auto/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "Cybersecurity Dive",
+      "url": "https://www.cybersecuritydive.com/feeds/news/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Cyber Insider",
+      "url": "https://cyberinsider.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "defaultRegion": "EU",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "eSecurity Planet",
+      "url": "https://www.esecurityplanet.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "How-To Geek Cybersecurity",
+      "url": "https://www.howtogeek.com/feed/category/cybersecurity/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Cybersecurity Cloud Expo",
+      "url": "https://www.cybersecuritycloudexpo.com/feed/",
+      "defaultRegion": "EU",
+      "defaultCountry": "United Kingdom"
+    },
+    {
+      "name": "Info Savvy",
+      "url": "https://info-savvy.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "IT Security Expert",
+      "url": "https://blog.itsecurityexpert.co.uk/feeds/posts/default?alt=atom",
+      "defaultRegion": "EU",
+      "defaultCountry": "United Kingdom"
+    },
+    {
+      "name": "Infinigate",
+      "url": "https://www.infinigate.com/uk/news-types/news-press/feed/",
+      "defaultRegion": "EU",
+      "defaultCountry": "United Kingdom"
+    },
+    {
+      "name": "CyberPilot",
+      "url": "https://www.cyberpilot.io/cyberpilot-blog/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    }
+  ],
+  "tagKeywords": {
+    "ransomware": ["ransomware", "ransom", "lockbit", "blackcat", "alphv"],
+    "data-breach": ["data breach", "breach", "leak", "exposed", "stolen data"],
+    "vulnerability": ["vulnerability", "cve-", "zero-day", "exploit", "flaw"],
+    "phishing": ["phishing", "spear-phishing", "credential theft"],
+    "ddos": ["ddos", "denial of service", "distributed attack"],
+    "malware": ["malware", "trojan", "rat", "backdoor", "virus"],
+    "apt": ["apt", "apt-", "advanced persistent threat"],
+    "state-sponsored": ["state-sponsored", "nation-state", "government-backed"],
+    "supply-chain": ["supply chain", "third-party", "vendor"],
+    "iot": ["iot", "internet of things", "smart device"],
+    "cloud": ["cloud", "aws", "azure", "gcp"],
+    "mobile": ["mobile", "android", "ios", "smartphone"],
+    "healthcare": ["healthcare", "hospital", "medical"],
+    "finance": ["finance", "banking", "financial"],
+    "government": ["government", "agency", "public sector"],
+    "critical-infrastructure": ["critical infrastructure", "power grid", "energy", "water"],
+    "ai-ml": ["artificial intelligence", "machine learning", "ai", "ml"],
+    "encryption": ["encryption", "cryptography", "tls", "ssl"]
+  },
+  "impactKeywords": {
+    "5": ["critical", "massive", "catastrophic", "national security", "millions affected", "widespread outage"],
+    "4": ["major", "significant", "severe", "widespread", "high-profile", "large-scale"],
+    "3": ["moderate", "notable", "substantial"],
+    "2": ["minor", "limited", "isolated"],
+    "1": ["low impact", "minimal", "negligible"]
+  },
+  "companyKeywords": [
+    "microsoft",
+    "google",
+    "aws",
+    "amazon",
+    "apple",
+    "meta",
+    "facebook",
+    "twitter",
+    "oracle",
+    "ibm",
+    "cisco",
+    "fortinet",
+    "palo alto",
+    "crowdstrike",
+    "cloudflare",
+    "checkpoint"
+  ]
+}

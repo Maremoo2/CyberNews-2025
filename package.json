@@ -10,22 +10,24 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch-news": "node scripts/fetch-inoreader.js",
+    "fetch-rss": "node scripts/fetch-rss-feeds.js",
     "enrich-articles": "node scripts/enrich-articles.js",
     "enrich-enhanced": "node scripts/enhanced-enrichment.js --year=2026 && node scripts/enhanced-enrichment.js --year=2025",
     "validate-years": "node scripts/validate-year-routing.js"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
+    "cheerio": "^1.0.0-rc.12",
     "jsdom": "^24.0.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
-    "cheerio": "^1.0.0-rc.12",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
