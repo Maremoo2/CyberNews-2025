@@ -49,7 +49,13 @@ jobs:
           for i in 1 2 3 4 5; do
             echo "Attempt $i: fetch + rebase + push"
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; exit 1; }
+            if ! git rebase origin/main; then
+              echo "Rebase failed (likely conflicts). Aborting rebase..."
+              git rebase --abort
+              echo "Backing off before retry..."
+              sleep $((i * 3))
+              continue
+            fi
             
             if git push origin HEAD:main; then
               echo "Push succeeded"
