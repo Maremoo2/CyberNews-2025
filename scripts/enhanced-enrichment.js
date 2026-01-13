@@ -612,6 +612,15 @@ function extractGeography(incident) {
 // ============================================================================
 function calculateSeverityBreakdown(severity) {
   // Convert severity drivers to component scores
+  // Scoring constants for severity breakdown
+  const SEVERITY_SCORES = {
+    SERVICE_DISRUPTION: 4,        // Moderate operational impact
+    DATA_EXPOSURE: 4,             // Significant data sensitivity
+    LARGE_SCALE: 3,               // Widespread impact
+    CRITICAL_INFRA: 5,            // Maximum operational disruption
+    HEALTHCARE: 1                 // Additional healthcare flag bonus
+  };
+  
   const breakdown = {
     operational_disruption: 0,
     data_sensitivity: 0,
@@ -622,14 +631,16 @@ function calculateSeverityBreakdown(severity) {
   
   severity.drivers.forEach(driver => {
     if (driver === 'Service disruption') {
-      breakdown.operational_disruption = 4;
+      breakdown.operational_disruption = SEVERITY_SCORES.SERVICE_DISRUPTION;
     } else if (driver === 'Sensitive data exposure') {
-      breakdown.data_sensitivity = 4;
+      breakdown.data_sensitivity = SEVERITY_SCORES.DATA_EXPOSURE;
     } else if (driver === 'Large scale impact') {
-      breakdown.scale = 3;
+      breakdown.scale = SEVERITY_SCORES.LARGE_SCALE;
     } else if (driver === 'Critical infrastructure impact') {
       breakdown.critical_infra_flag = true;
-      breakdown.operational_disruption = 5;
+      breakdown.operational_disruption = SEVERITY_SCORES.CRITICAL_INFRA;
+    } else if (driver === 'Healthcare sector') {
+      breakdown.healthcare_flag = true;
     }
   });
   

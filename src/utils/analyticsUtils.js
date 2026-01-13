@@ -1040,9 +1040,9 @@ export function getDataCompleteness(incidents, filters = {}) {
     with_sector: filtered.filter(i => i.tags && i.tags.length > 0).length,
     with_country: filtered.filter(i => i.country || i.victim_country).length,
     with_org_name: filtered.filter(i => {
-      const text = `${i.title} ${i.summary}`.toLowerCase();
-      // Check for common org patterns
-      return /\b[A-Z][a-z]+ (Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University)\b/.test(i.title + i.summary);
+      const text = `${i.title} ${i.summary}`;
+      // Check for common org patterns (case-insensitive)
+      return /\b[A-Z][a-z]+ (Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University)\b/i.test(text);
     }).length,
     with_incident_type: filtered.filter(i => i.content_type).length,
     with_actor_category: filtered.filter(i => i.actor_category && i.actor_category !== 'unknown').length,
