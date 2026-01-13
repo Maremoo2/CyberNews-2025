@@ -684,6 +684,90 @@
       "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
       "defaultRegion": "US",
       "defaultCountry": "United States"
+    },
+    {
+      "name": "CyberHoot Blog",
+      "url": "https://cyberhoot.com/category/blog/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Lohrmann on Infrastructure",
+      "url": "https://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "PCI Security Standards Blog",
+      "url": "https://blog.pcisecuritystandards.org/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "ScienceSoft Information Security Blog",
+      "url": "https://www.scnsoft.com/blog/category/information-security/atom",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "TechRepublic Cybersecurity",
+      "url": "https://www.techrepublic.com/rssfeeds/topic/cybersecurity/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Trend Micro Research",
+      "url": "http://feeds.trendmicro.com/TrendMicroResearch",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "NIST Cybersecurity Insights",
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Lynx Technology Partners Blog",
+      "url": "https://lynxtechnologypartners.com/blog/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Security Innovation Blog",
+      "url": "https://blog.securityinnovation.com/rss.xml",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "Quick Heal Blog",
+      "url": "https://www.quickheal.com/blogs/feed/",
+      "defaultRegion": "ASIA",
+      "defaultCountry": "India"
+    },
+    {
+      "name": "Teramind Cybersecurity Blog",
+      "url": "https://www.teramind.co/blog/tag/cybersecurity/feed/",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
+    },
+    {
+      "name": "d0znpp on Medium",
+      "url": "https://medium.com/feed/@d0znpp",
+      "defaultRegion": "US",
+      "defaultCountry": "Global"
+    },
+    {
+      "name": "Internet Safety Brigade Blog",
+      "url": "https://internetsafetybrigade.org/our-blog/f.atom",
+      "defaultRegion": "US",
+      "defaultCountry": "United States"
     }
   ],
   "tagKeywords": {

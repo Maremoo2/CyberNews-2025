@@ -4,15 +4,15 @@ This document describes the implementation of direct RSS feed fetching for the C
 
 ## Overview
 
-The platform now fetches cybersecurity news directly from 114 RSS feeds across global news sources, replacing the previous Inoreader dependency for sources that don't work properly in Inoreader.
+The platform now fetches cybersecurity news directly from 128 RSS feeds across global news sources, replacing the previous Inoreader dependency for sources that don't work properly in Inoreader.
 
 ## RSS Feed Sources
 
-The platform aggregates cybersecurity news from 114 RSS feeds organized by region:
+The platform aggregates cybersecurity news from 128 RSS feeds organized by region:
 
-- **United States**: 77 sources
+- **United States**: 90 sources
 - **Europe**: 24 sources  
-- **Asia**: 13 sources
+- **Asia**: 14 sources
 
 For the complete list of feeds, see `config/rss-feeds-config.json`.
 
@@ -23,17 +23,20 @@ For the complete list of feeds, see `config/rss-feeds-config.json`.
 - **Troy Hunt** - Creator of Have I Been Pwned
 - **Schneier on Security** - Bruce Schneier's security analysis
 - **Graham Cluley** (UK)
+- **BleepingComputer** - Breaking cybersecurity news
 
 **Major Vendors & Organizations:**
 - **CISA** (US Government Cybersecurity Agency)
+- **NIST Cybersecurity Insights** (US Government)
 - **Google Online Security Blog**
 - **Cisco Security Blog**
-- **Microsoft**, **Sophos**, **McAfee**, **Veracode**
+- **Microsoft**, **Sophos**, **McAfee**, **Veracode**, **Trend Micro**
 
 **News & Media:**
 - **Dark Reading** - Premier cybersecurity news
 - **CSO Online** - Enterprise security decision-makers
 - **TechCrunch Cybersecurity**
+- **TechRepublic Cybersecurity**
 - **The Guardian - Data & Computer Security**
 - **Threatpost**, **Infosecurity Magazine**
 - **We Live Security** - ESET research
@@ -49,7 +52,7 @@ For the complete list of feeds, see `config/rss-feeds-config.json`.
 ### Architecture
 
 ```
-RSS Feeds (114 sources)
+RSS Feeds (128 sources)
     ↓
 fetch-rss-feeds.js (Node.js script)
     ↓
