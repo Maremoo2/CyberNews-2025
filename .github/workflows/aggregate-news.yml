@@ -6,6 +6,10 @@ on:
       - 'news/**/*.md'
   workflow_dispatch:
 
+concurrency:
+  group: cybernews-main-writers
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -35,6 +39,7 @@ jobs:
       - name: Commit aggregated data
         if: steps.git-check.outputs.changed == 'true'
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news-aggregated-2026.json
