@@ -327,9 +327,12 @@ function generateWhyReasons(incident, context) {
       reasons.push(`Moderate-high severity: ${incident.severity_score}/100`);
     }
     
-    if (incident.timeline?.status === 'ongoing') {
-      const daysSince = Math.round((new Date() - new Date(incident.timeline.first_seen)) / (1000 * 60 * 60 * 24));
-      reasons.push(`Active for ${daysSince} days`);
+    if (incident.timeline?.status === 'ongoing' && incident.timeline.first_seen) {
+      const firstSeen = new Date(incident.timeline.first_seen);
+      if (!isNaN(firstSeen.getTime())) {
+        const daysSince = Math.round((new Date() - firstSeen) / (1000 * 60 * 60 * 24));
+        reasons.push(`Active for ${daysSince} days`);
+      }
     }
     
     if (incident.severity_drivers?.includes('Critical infrastructure impact')) {

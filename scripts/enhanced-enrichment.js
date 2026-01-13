@@ -586,6 +586,7 @@ function classifyContentType(incident) {
 /**
  * Levenshtein distance calculation for string similarity
  * Returns similarity score between 0-1 (1 = identical)
+ * Optimized with early exit for very dissimilar strings
  */
 function levenshteinSimilarity(str1, str2) {
   const s1 = (str1 || '').toLowerCase();
@@ -594,16 +595,26 @@ function levenshteinSimilarity(str1, str2) {
   if (s1 === s2) return 1.0;
   if (!s1.length || !s2.length) return 0.0;
   
-  const matrix = Array(s2.length + 1).fill(null).map(() => 
-    Array(s1.length + 1).fill(null)
+  // Early exit: if length difference is too large, strings are very dissimilar
+  const maxLen = Math.max(s1.length, s2.length);
+  const minLen = Math.min(s1.length, s2.length);
+  if ((maxLen - minLen) / maxLen > 0.5) return 0.0; // More than 50% length diff
+  
+  // Limit string length for performance (only use first 200 chars)
+  const limit = 200;
+  const s1Limited = s1.length > limit ? s1.substring(0, limit) : s1;
+  const s2Limited = s2.length > limit ? s2.substring(0, limit) : s2;
+  
+  const matrix = Array(s2Limited.length + 1).fill(null).map(() => 
+    Array(s1Limited.length + 1).fill(null)
   );
   
-  for (let i = 0; i <= s1.length; i++) matrix[0][i] = i;
-  for (let j = 0; j <= s2.length; j++) matrix[j][0] = j;
+  for (let i = 0; i <= s1Limited.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= s2Limited.length; j++) matrix[j][0] = j;
   
-  for (let j = 1; j <= s2.length; j++) {
-    for (let i = 1; i <= s1.length; i++) {
-      const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
+  for (let j = 1; j <= s2Limited.length; j++) {
+    for (let i = 1; i <= s1Limited.length; i++) {
+      const cost = s1Limited[i - 1] === s2Limited[j - 1] ? 0 : 1;
       matrix[j][i] = Math.min(
         matrix[j][i - 1] + 1,     // deletion
         matrix[j - 1][i] + 1,     // insertion
@@ -612,32 +623,44 @@ function levenshteinSimilarity(str1, str2) {
     }
   }
   
-  const maxLen = Math.max(s1.length, s2.length);
-  return 1 - (matrix[s2.length][s1.length] / maxLen);
+  return 1 - (matrix[s2Limited.length][s1Limited.length] / Math.max(s1Limited.length, s2Limited.length));
 }
+
+// Pre-compile regex patterns for blocking key extraction (performance optimization)
+const BLOCKING_PATTERNS = {
+  org: /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University|College|Ministry|Department))?)\b/g,
+  domain: /\b([a-z0-9-]+\.[a-z]{2,})\b/g,
+  cve: /cve-\d{4}-\d+/gi
+};
+
+// Cache for blocking keys to avoid recomputation
+const blockingKeyCache = new Map();
 
 /**
  * Extract blocking keys from incident for candidate grouping
+ * Uses caching to avoid recomputation (performance optimization)
  */
 function extractBlockingKeys(incident) {
+  // Check cache first
+  if (blockingKeyCache.has(incident.id)) {
+    return blockingKeyCache.get(incident.id);
+  }
+  
   const text = `${incident.title} ${incident.summary}`.toLowerCase();
   const keys = new Set();
   
   // Block 1: Organization name (from title, common patterns)
-  const orgPatterns = /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University|College|Ministry|Department))?)\b/g;
-  const titleMatches = incident.title.match(orgPatterns) || [];
+  const titleMatches = incident.title.match(BLOCKING_PATTERNS.org) || [];
   titleMatches.forEach(org => {
     if (org.length > 3) keys.add(`org:${org.toLowerCase()}`);
   });
   
   // Block 2: Domain names
-  const domainPattern = /\b([a-z0-9-]+\.[a-z]{2,})\b/g;
-  const domains = text.match(domainPattern) || [];
+  const domains = text.match(BLOCKING_PATTERNS.domain) || [];
   domains.forEach(domain => keys.add(`domain:${domain}`));
   
   // Block 3: CVE identifiers
-  const cvePattern = /cve-\d{4}-\d+/gi;
-  const cves = text.match(cvePattern) || [];
+  const cves = text.match(BLOCKING_PATTERNS.cve) || [];
   cves.forEach(cve => keys.add(`cve:${cve.toLowerCase()}`));
   
   // Block 4: Known threat actors
@@ -658,7 +681,12 @@ function extractBlockingKeys(incident) {
     keys.add(`geo_sector:${incident.country.toLowerCase()}:${mainSector.toLowerCase()}`);
   }
   
-  return Array.from(keys);
+  const result = Array.from(keys);
+  
+  // Cache the result
+  blockingKeyCache.set(incident.id, result);
+  
+  return result;
 }
 
 /**
@@ -707,8 +735,9 @@ function calculateClusteringReasons(incident1, incident2) {
 /**
  * Generate case ID using blocking + matching approach
  * Groups similar incidents together for deduplication
+ * Uses pre-computed blocking index for O(n) instead of O(n²) complexity
  */
-function generateCaseId(incident, allIncidents) {
+function generateCaseId(incident, allIncidents, blockingIndex) {
   // Extract blocking keys for this incident
   const blockingKeys = extractBlockingKeys(incident);
   
@@ -717,18 +746,26 @@ function generateCaseId(incident, allIncidents) {
     return `case_${incident.id}`;
   }
   
-  // Find candidates in same block
-  const candidates = allIncidents.filter(other => {
-    if (other.id === incident.id) return false;
-    const otherKeys = extractBlockingKeys(other);
-    // Must share at least one blocking key
-    return blockingKeys.some(key => otherKeys.includes(key));
-  });
+  // Find candidates in same block using pre-computed index
+  const candidateIds = new Set();
+  if (blockingIndex) {
+    blockingKeys.forEach(key => {
+      const incidentsInBlock = blockingIndex.get(key) || [];
+      incidentsInBlock.forEach(otherId => {
+        if (otherId !== incident.id) {
+          candidateIds.add(otherId);
+        }
+      });
+    });
+  }
   
   // If no candidates, use individual case ID
-  if (candidates.length === 0) {
+  if (candidateIds.size === 0) {
     return `case_${incident.id}`;
   }
+  
+  // Get candidate incidents
+  const candidates = allIncidents.filter(other => candidateIds.has(other.id));
   
   // Apply Levenshtein within block to find best match
   const SIMILARITY_THRESHOLD = 0.75; // 75% similarity required
@@ -890,7 +927,7 @@ function calculateSeverityBreakdown(severity) {
 // ============================================================================
 // MAIN ENRICHMENT FUNCTION
 // ============================================================================
-function enrichIncident(incident, allIncidents) {
+function enrichIncident(incident, allIncidents, blockingIndex) {
   const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`;
   
   // Normalize sector/tags
@@ -915,8 +952,8 @@ function enrichIncident(incident, allIncidents) {
   // Classify content type
   const content_type = classifyContentType(incident);
   
-  // Generate case ID
-  const case_id = generateCaseId(incident, allIncidents);
+  // Generate case ID with blocking index for performance
+  const case_id = generateCaseId(incident, allIncidents, blockingIndex);
   
   // Extract timeline milestones
   const timeline = extractTimelineMilestones(incident);
@@ -1038,14 +1075,31 @@ async function processIncidents() {
   const incidents = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
   console.log(`📥 Loaded ${incidents.length} incidents from ${inputFile}`);
   
+  // Pre-compute blocking index for O(n) clustering performance
+  console.log('🔧 Building blocking index...');
+  const blockingIndex = new Map();
+  incidents.forEach(incident => {
+    const keys = extractBlockingKeys(incident);
+    keys.forEach(key => {
+      if (!blockingIndex.has(key)) {
+        blockingIndex.set(key, []);
+      }
+      blockingIndex.get(key).push(incident.id);
+    });
+  });
+  console.log(`   Built index with ${blockingIndex.size} blocking keys`);
+  
   // Enrich all incidents
   console.log('🔄 Enriching incidents...');
   const enrichedIncidents = incidents.map((incident, index) => {
     if ((index + 1) % 100 === 0) {
       console.log(`   Processed ${index + 1}/${incidents.length} incidents...`);
     }
-    return enrichIncident(incident, incidents);
+    return enrichIncident(incident, incidents, blockingIndex);
   });
+  
+  // Clear cache after enrichment
+  blockingKeyCache.clear();
   
   // Calculate statistics
   const stats = calculateStats(enrichedIncidents);
