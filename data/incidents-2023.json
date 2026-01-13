@@ -1,0 +1,359 @@
+[
+  {
+    "id": "2023001",
+    "date": "2023-12-12",
+    "title": "The Big One",
+    "summary": "Preparing for a long war with China.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/united-states-big-one-krepinevich",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023011",
+    "date": "2023-12-11",
+    "title": "Boosting faith in the authenticity of open source software",
+    "summary": "Open source software — software that is freely distributed, along with its source code, so that copies, additions, or modifications can be readily made — is “everywhere,” to quote the 2023 Open Source Security and Risk Analysis Report. Ninety-six percent of the computer programs used by major ind...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/speranza-boosting-faith-authenticity-open-source-software-1211",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023012",
+    "date": "2023-12-08",
+    "title": "Miranda McClellan ’18, MEng ’19 awarded 2025 Schwarzman Scholarship",
+    "summary": "MIT alumna Miranda McClellan ’18, MEng ’19 has been named a 2025 Schwarzman Scholar. In August 2024, she will join the program’s 150 scholars arriving from 43 countries and 114 universities from around the world. The Class of 2025 Scholars were selected from a pool of over 4,000 applicants. They ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/miranda-mcclellan-awarded-schwarzman-scholarship-1208",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023013",
+    "date": "2023-12-06",
+    "title": "Eric Evans to step down as director of MIT Lincoln Laboratory",
+    "summary": "Eric Evans will be stepping down as director of MIT Lincoln Laboratory on July 1, 2024, after 18 years leading a laboratory that has served the nation through its technology research and development since 1951. Evans will transition into the role of fellow in the director’s office at Lincoln Labo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/eric-evans-steps-down-director-lincoln-laboratory-1206",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023023",
+    "date": "2023-12-06",
+    "title": "Thank You for a Remarkable Cyber Security & Cloud Expo Global!",
+    "summary": "The remarkable Cyber Security & Cloud Expo Global has concluded its highly anticipated two-day event at Olympia London on November 30 – December 1, leaving an indelible mark on the landscape of cybersecurity and cloud technology. We extend our sincerest gratitude to the sponsors, exhibitors, spea...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/12/news/thank-you-for-a-remarkable-cyber-security-cloud-expo-global/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023002",
+    "date": "2023-11-03",
+    "title": "How to Exploit Russia’s Addiction to Western Technology",
+    "summary": "The private sector must do more to help.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/how-exploit-russias-addiction-western-technology",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023014",
+    "date": "2023-10-30",
+    "title": "Accelerating AI tasks while preserving data security",
+    "summary": "With the proliferation of computationally intensive machine-learning applications, such as chatbots that perform real-time language translation, device manufacturers often incorporate specialized hardware components to rapidly move and process the massive amounts of data these systems demand. Cho...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/accelerating-ai-tasks-while-preserving-data-security-1030",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2023003",
+    "date": "2023-10-24",
+    "title": "AI Is Already at War",
+    "summary": "Artificial intelligence will transform the military.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/ai-already-war-flournoy",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023024",
+    "date": "2023-10-09",
+    "title": "Cyber Security & Cloud Expo Global Returns To London – What To Expect",
+    "summary": "Cyber Security & Cloud Expo Global, one of the most highly anticipated events in the tech and cyber community, is back, and it promises to be bigger and more transformative than ever. Scheduled to take place from November 30th to December 1st, 2023, at the renowned Olympia London, this event is s...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/10/global/cyber-security-cloud-expo-global-returns-to-london-what-to-expect/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023015",
+    "date": "2023-09-19",
+    "title": "Four Lincoln Laboratory technologies win five 2023 R&D 100 awards",
+    "summary": "Ultrasound that doesn’t require touching patients. A web-based tool that reinvents crew scheduling for the Air Force. Cryptographic hardware that protects sensitive data. And the world’s first practical memory for quantum networking. These four technologies developed at MIT Lincoln Laboratory, ei...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/lincoln-laboratory-technologies-win-rd-world-awards-0919",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023004",
+    "date": "2023-09-07",
+    "title": "America’s Digital Achilles’ Heel",
+    "summary": "The United States’ reliance on sensitive technology leaves it vulnerable to attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/americas-digital-achilles-heel-technology",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023016",
+    "date": "2023-08-15",
+    "title": "Invisible tagging system enhances 3D object tracking",
+    "summary": "Stop me if you’ve seen this before: a black and white pixelated square in lieu of a physical menu at a restaurant. QR codes are seemingly ubiquitous in everyday life. Whether you see one on a coupon at the grocery store, a flyer on a bulletin board, or the wall at a museum exhibit, each code cont...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/enhancing-3d-object-tracking-invisible-tagging-system-0815",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023005",
+    "date": "2023-08-14",
+    "title": "How to Prevent an AI Catastrophe",
+    "summary": "Society must get ready for very powerful artificial intelligence.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/world/how-prevent-ai-catastrophe-artificial-intelligence",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023025",
+    "date": "2023-08-03",
+    "title": "Cyber Security & Cloud Expo Europe 2023 – Less Than Two Months To Go",
+    "summary": "Save the date and get ready for one of the most anticipated events in the tech and cyber community – Cyber Security & Cloud Expo Europe! This year’s expo will take place on 26-27 September at the renowned RAI Amsterdam, bringing together over 6,000 attendees from around the globe to explore the l...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/08/news/cyber-security-cloud-expo-europe-2023-less-than-two-months-to-go/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023006",
+    "date": "2023-07-17",
+    "title": "The Treacherous Silicon Triangle",
+    "summary": "How to strengthen the semiconductor supply chain without endangering Taiwan.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/semiconductor-supply-taiwan-treacherous-silicon-triangle",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023017",
+    "date": "2023-07-14",
+    "title": "A new way to look at data privacy",
+    "summary": "Imagine that a team of scientists has developed a machine-learning model that can predict whether a patient has cancer from lung scan images. They want to share this model with hospitals around the world so clinicians can start using it in diagnosis. But there’s a problem. To teach their model ho...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/new-way-look-data-privacy-0714",
+    "tags": [
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023018",
+    "date": "2023-07-13",
+    "title": "Making sense of all things data",
+    "summary": "Data, and more specifically using data, is not a new concept, but it remains an elusive one. It comes with terms like “the internet of things” (IoT) and “the cloud,” and no matter how often those are explained, smart people can still be confused. And then there’s the amount of information availab...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/making-sense-all-things-data-0713",
+    "tags": [
+      "iot",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023007",
+    "date": "2023-07-12",
+    "title": "The Myth of Neutrality",
+    "summary": "Countries will have to choose between America and China.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/myth-of-neutrality-choose-between-america-china",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023019",
+    "date": "2023-06-28",
+    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
+    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023026",
+    "date": "2023-06-28",
+    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
+    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023008",
+    "date": "2023-04-28",
+    "title": "How to Spy on China",
+    "summary": "Beijing is a hard target—but better tech could make it easier.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/how-to-spy-china-beijing-technology-mattis",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023020",
+    "date": "2023-03-22",
+    "title": "Tackling counterfeit seeds with “unclonable” labels",
+    "summary": "Average crop yields in Africa are consistently far below those expected, and one significant reason is the prevalence of counterfeit seeds whose germination rates are far lower than those of the genuine ones. The World Bank estimates that as much as half of all seeds sold in some African countrie...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/tackling-counterfeit-seeds-unclonable-labels-0322",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023021",
+    "date": "2023-03-10",
+    "title": "It’s a weird, weird quantum world",
+    "summary": "In 1994, as Professor Peter Shor PhD ’85 tells it, internal seminars at AT&T Bell Labs were lively affairs. The audience of physicists was an active and inquisitive bunch, often pelting speakers with questions throughout their talks. Shor, who worked at Bell Labs at the time, remembers several oc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/weird-weird-quantum-world-peter-shor-killian-lecture-0310",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023009",
+    "date": "2023-03-03",
+    "title": "Does Technology Win Wars?",
+    "summary": "The U.S. Military needs low-cost innovation—not big-ticket boondoggles.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/ukraine/does-technology-win-wars",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023010",
+    "date": "2023-02-01",
+    "title": "Stop Passing the Buck on Cybersecurity",
+    "summary": "Why companies must build safety into tech products.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/stop-passing-buck-cybersecurity",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023022",
+    "date": "2023-01-26",
+    "title": "Two Lincoln Laboratory software products honored with national Excellence in Technology Transfer Awards",
+    "summary": "The Federal Laboratory Consortium (FLC) has awarded 2023 Excellence in Technology Transfer Awards at the national level to two MIT Lincoln Laboratory software products developed to improve security: Keylime and the Forensic Video Exploitation and Analysis (FOVEA) tool suite. Keylime increases the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/lincoln-laboratory-excellence-technology-transfer-awards-0126",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  }
+]

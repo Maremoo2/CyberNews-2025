@@ -1,0 +1,91 @@
+[
+  {
+    "id": "2019006",
+    "date": "2019-06-22",
+    "title": "CISA Statement on Iranian Cybersecurity Threats",
+    "summary": "In response to reports of an increase in cybersecurity threats, the Department of Homeland Security’s (DHS) Cybersecurity and Infrastructure Security Agency (CISA) Director Christopher C. Krebs issued the following statement:“CISA is aware of a recent rise in malicious cyber activity directed at ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-statement-iranian-cybersecurity-threats",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019005",
+    "date": "2019-06-20",
+    "title": "CISA’s ICT Supply Chain Risk Management Task Force Makes Key Acquisition Recommendation",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and government and industry members of the Information and Communications Technology (ICT) Supply Chain Risk Management Task Force gathered in Washington, D.C. today to update members on progress towards the development of an initial rec...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisas-ict-supply-chain-risk-management-task-force-makes-key-acquisition",
+    "tags": [
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019004",
+    "date": "2019-04-30",
+    "title": "CISA Releases National Critical Functions Set",
+    "summary": "The Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA) today released the inaugural set of National Critical Functions. These are functions used or supported by government and the private sector that are of such vital importance to the United States that the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-releases-national-critical-functions-set",
+    "tags": [
+      "government"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2019003",
+    "date": "2019-04-10",
+    "title": "CISA Partners with Secure Community Network to Hold Incident Response Exercise",
+    "summary": "WASHINGTON – Yesterday, the Cybersecurity and Infrastructure Security Agency (CISA) hosted a tabletop exercise in collaboration with the Secure Community Network (SCN). The exercise brought together Jewish community leaders from across the nation, along with federal and state law enforcement and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-partners-secure-community-network-hold-incident-response-exercise",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019002",
+    "date": "2019-02-26",
+    "title": "CISA’s ICT Supply Chain Risk Management Task Force Launches Work Streams",
+    "summary": "WASHINGTON – The Cybersecurity and Infrastructure Security Agency (CISA) and government and industry members of the Information and Communications Technology (ICT) Supply Chain Risk Management Task Force gathered in Washington this week and last week as part of the Task Force’s o",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisas-ict-supply-chain-risk-management-task-force-launches-work-streams",
+    "tags": [
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019001",
+    "date": "2019-02-14",
+    "title": "Statement from CISA Director Krebs on Election Security",
+    "summary": "Cybersecurity and Infrastructure Security Agency (CISA) Director Christopher C. Krebs released the following statement today on the agency’s election security work.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/statement-cisa-director-krebs-election-security",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  }
+]
