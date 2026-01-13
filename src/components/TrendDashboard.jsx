@@ -102,7 +102,12 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
     // Calculate unique threat actors
     const threatActorSet = new Set()
     filteredIncidents.forEach(incident => {
-      if (incident.aiAnalysis?.threatActors) {
+      // Check enriched field first (actor_name)
+      if (incident.actor_name && incident.actor_name.trim()) {
+        threatActorSet.add(incident.actor_name.toLowerCase().trim())
+      }
+      // Fallback to old aiAnalysis field for backward compatibility
+      else if (incident.aiAnalysis?.threatActors) {
         incident.aiAnalysis.threatActors.forEach(actor => {
           if (actor && actor.trim()) {
             threatActorSet.add(actor.toLowerCase().trim())
