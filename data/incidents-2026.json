@@ -1,5 +1,475 @@
 [
   {
+    "id": "20261691",
+    "date": "2026-01-13",
+    "title": "ISC Stormcast For Tuesday, January 13th, 2026 https://isc.sans.edu/podcastdetail/9764, (Tue, Jan 13th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32622",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261692",
+    "date": "2026-01-13",
+    "title": "Spanish police disrupt Black Axe, arrest alleged leaders in action spanning four cities",
+    "summary": "Authorities arrested 34 alleged cybercriminals in Spain, including some leaders of Black Axe, a transnational criminal organization responsible for adversary-in-the-middle scams such as business email compromise, money laundering and vehicle trafficking, the Spanish National Police said Friday. A...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/black-axe-disruption-arrests-spain/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261708",
+    "date": "2026-01-13",
+    "title": "10 Hot Cyber Range Companies To Watch In 2026 - Cybercrime Magazine",
+    "summary": "Bridging the cybersecurity skills gap with ... Crafted by intelligence professionals behind Canada's national cyber security strategy, Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/10-hot-cyber-range-companies-to-watch-in-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261709",
+    "date": "2026-01-13",
+    "title": "Public Webinar: NIST IR 8587 Protecting Tokens and Assertions from Forgery, Theft, and Misuse",
+    "summary": "Presenters · Andrew Regenscheid, Computer Security Division Information Technology Laboratory, NIST · Ryan Galluzzo, Applied Cybersecurity Division ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/events/public-webinar-nist-ir-8587-protecting-tokens-and-assertions-forgery-theft-and-misuse",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261710",
+    "date": "2026-01-13",
+    "title": "How ServiceNow Plans to Redefine Cyber Risk with Armis Deal | Technology Magazine",
+    "summary": "A unified platform for cyber exposure. Together, the two companies will merge Armis' agentless asset intelligence with ServiceNow's AI-driven security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://technologymagazine.com/news/will-servicenow-armis-deal-reshape-ai-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261693",
+    "date": "2026-01-12",
+    "title": "Hacker gets seven years for breaching Rotterdam and Antwerp ports",
+    "summary": "The Amsterdam Court of Appeal sentenced a 44-year-old Dutch national to seven years in prison for multiple crimes, including computer hacking and attempted extortion. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261694",
+    "date": "2026-01-12",
+    "title": "BreachForums Breached, Exposing 324K Cybercriminals",
+    "summary": "Massive data dump reveals real identities and details of administrators and members of the notorious hacker forum.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/breachforums-breached-exposing-324k-cybercriminals",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261695",
+    "date": "2026-01-12",
+    "title": "GoBruteforcer Botnet Targets 50K-plus Linux Servers",
+    "summary": "Researchers detailed a souped-up version of the GoBruteforcer botnet that preys on servers with weak credentials and AI-generated configurations.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/gobruteforcer-botnet-targets-50k-plus-linux-servers",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261696",
+    "date": "2026-01-12",
+    "title": "Facebook login thieves now using browser-in-browser trick",
+    "summary": "Hackers over the past six months have relied increasingly more on the browser-in-the-browser (BitB) method to trick users into providing Facebook account credentials. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/facebook-login-thieves-now-using-browser-in-browser-trick/",
+    "tags": [
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261697",
+    "date": "2026-01-12",
+    "title": "Internet monitoring experts say Iran blackout likely to continue",
+    "summary": "Several internet access monitors tracking the situation said the government has continued the total internet shutdown and plans to implement a whitelist of limited, approved sites, indicating the internet blackout is likely to continue for several more days.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/internet-monitoring-experts-say-iran-blackouts-continue",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20261698",
+    "date": "2026-01-12",
+    "title": "FBI Flags Quishing Attacks From North Korean APT",
+    "summary": "A state-sponsored threat group tracked as \"Kimsuky\" sent QR-code-filled phishing emails to US and foreign government agencies, NGOs, and academic institutions.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/mobile-security/fbi-quishing-attacks-north-korean-apt",
+    "tags": [
+      "phishing",
+      "apt",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261699",
+    "date": "2026-01-12",
+    "title": "Navigating Privacy and Cybersecurity Laws in 2026 Will Prove Difficult",
+    "summary": "No matter what new laws or regulations make the cut for 2026, it's clear that compliance challenges will persist and federal legislation will be limited.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/navigating-privacy-and-cybersecurity-laws-in-2026-will-prove-difficult",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20261700",
+    "date": "2026-01-12",
+    "title": "Armenia probes alleged sale of 8 million government records on hacker forum",
+    "summary": "The dataset, advertised on an underground forum for $2,500, is said to contain about 8 million records linked to official notifications, including communications from police and judicial bodies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/armenia-probes-alleged-sale-government-records",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261701",
+    "date": "2026-01-12",
+    "title": "CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks",
+    "summary": "CISA has ordered government agencies to secure their systems against a high-severity Gogs vulnerability that was exploited in zero-day attacks. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261702",
+    "date": "2026-01-12",
+    "title": "Hungary grants asylum to former Polish minister implicated in spyware probe",
+    "summary": "Hungary has granted political asylum to Poland's former justice minister, Zbigniew Ziobro, who is being prosecuted for his role in a spyware scandal that has rocked the country.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/hungary-asylum-spyware-probe-poland",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261703",
+    "date": "2026-01-12",
+    "title": "'Bad actor' hijacks Apex Legends characters in live matches",
+    "summary": "Apex Legends players over the weekend experienced disruptions during live matches as threat actors hijacked their characters, disconnected them, and changed their nicknames. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bad-actor-hijacks-apex-legends-characters-in-live-matches/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261704",
+    "date": "2026-01-12",
+    "title": "Hexnode Moves into Endpoint Security With Hexnode XDR",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/hexnode-marks-its-move-into-endpoint-security-with-hexnode-xdr",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261705",
+    "date": "2026-01-12",
+    "title": "British regulator Ofcom opens investigation into X",
+    "summary": "The UK’s top internet regulator opened a formal investigation into social media network X after users, with the help of its AI chatbot Grok, flooded the site with nonconsensual, AI-manipulated nude and undressed photos of real people. On Monday, the Office of Communications (Ofcom), which regulat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ofcom-opens-investigation-into-x-over-nonconsensual-deepfakes/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261706",
+    "date": "2026-01-12",
+    "title": "Sweden detains ex-military IT consultant suspected of spying for Russia",
+    "summary": "A 33-year-old former IT consultant for Sweden’s Armed Forces has been detained on suspicions of spying for Russian intelligence, Swedish prosecutors said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/sweden-detains-it-consultant-russia",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261707",
+    "date": "2026-01-12",
+    "title": "University of Hawaii Cancer Center hit by ransomware attack",
+    "summary": "​University of Hawaii says a ransomware gang breached its Cancer Center in August 2025, stealing data of study participants, including documents from the 1990s containing Social Security numbers. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/university-of-hawaii-cancer-center-hit-by-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261711",
+    "date": "2026-01-12",
+    "title": "Germany Transposes NIS 2 Directive – Increased Cybersecurity Requirements for Businesses",
+    "summary": "According to the Federal Office for Information Security (Bundesamt für Sicherheit in der Informationstechnik (“BSI”) (see here, in German only), ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globalpolicywatch.com/2026/01/germany-transposes-nis-2-directive-increased-cybersecurity-requirements-for-businesses/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261712",
+    "date": "2026-01-12",
+    "title": "TOMORROW: Hearing on Strengthening America's Offensive Cyber Capabilities",
+    "summary": "... cyber disruption capabilities strengthen the security and resilience of the homeland. DETAILS: What: A Subcommittee on Cybersecurity and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/12/tomorrow-hearing-on-strengthening-americas-offensive-cyber-capabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261713",
+    "date": "2026-01-12",
+    "title": "What is OPSEC? — and why you should think twice before you post",
+    "summary": "In cybersecurity, that's called an operational security or OPSEC risk. Not many understand operational security better than Keith Tresh, a retired ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.boisestate.edu/online/2026/01/12/what-is-opsec-and-why-you-should-think-twice-before-you-post/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261714",
+    "date": "2026-01-12",
+    "title": "Amazon Lex launches configurable voice activity detection sensitivity",
+    "summary": "Amazon Lex now provides three VAD sensitivity levels that can be configured for each bot locale: Default, High, and Maximum. The Default setting is suitable for most environments with typical background noise levels. High is designed for environments with consistent but moderate noise levels, suc...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-configurable-voice-activity-detection-sensitivity/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261715",
+    "date": "2026-01-12",
+    "title": "NordVPN Outlines Major Quantum and Cyber Threats Emerging in 2026",
+    "summary": "NordVPN experts outline five major cybersecurity risks expected to ... Illustration representing digital security risks and cyber threats in 2026.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thequantuminsider.com/2026/01/12/cybersecurity-risks-2026-nordvpn/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261716",
+    "date": "2026-01-12",
+    "title": "Amazon SageMaker HyperPod now validates service quotas before creating clusters on console",
+    "summary": "Amazon SageMaker HyperPod console now validates service quotas for your AWS account before initiating cluster creation, enabling you to confirm sufficient quota availability before provisioning begins. SageMaker HyperPod helps you provision resilient clusters for running AI/ML workloads and devel...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-validates-service-quotas/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261717",
+    "date": "2026-01-12",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "summary": "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/01/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261718",
+    "date": "2026-01-12",
+    "title": "Hungary Priorities for 2026",
+    "summary": "... Cyber Security Centre (NKI) wielding substantial powers following the implementation of the Cybersecurity Act constituting major reform in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.twobirds.com/en/insights/2026/hungary-priorities-for-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20261719",
+    "date": "2026-01-12",
+    "title": "Cyber-Enabled Fraud Is Now One Of Most Pervasive Global Threats, Says New Report",
+    "summary": "Organizations are responding, nearly doubling the share assessing AI security, from 37% to 64%. Geopolitics is redefining the global cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eurasiareview.com/12012026-cyber-enabled-fraud-is-now-one-of-most-pervasive-global-threats-says-new-report/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261720",
+    "date": "2026-01-12",
+    "title": "CrowdStrike and Nord Security Announce Strategic Partnership to Redefine SMB Cybersecurity",
+    "summary": "\"Together with Nord Security, we're redefining cybersecurity for SMBs – combining the power of the Falcon platform with Nord Security's SMB go-to- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://investingnews.com/crowdstrike-and-nord-security-announce-strategic-partnership-to-redefine-smb-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261721",
+    "date": "2026-01-12",
+    "title": "System Hardening, HIPAA, and the Practical Path to Protecting ePHI - Foley Hoag LLP",
+    "summary": "OCR's Cybersecurity Newsletter is a periodic guidance series issued by the HHS Office for Civil Rights to translate HIPAA Security Rule expectations ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://foleyhoag.com/news-and-insights/blogs/security-privacy-and-the-law/2026/january/system-hardening-hipaa-and-the-practical-path-to-protecting-ephi/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261722",
+    "date": "2026-01-12",
+    "title": "Cyber Insights 2026: What CISOs Can Expect in 2026 and Beyond - SecurityWeek",
+    "summary": "... cyber security at NTT Data. “In cybersecurity, we love to talk about resilience and innovation. But here's an unpopular truth: the modern CISO is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-what-cisos-can-expect-in-2026-and-beyond/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261648",
     "date": "2026-01-12",
     "title": "n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens",
