@@ -42,10 +42,10 @@ The platform now fetches cybersecurity news directly from 33 RSS feeds across gl
 1. **South China Morning Post** - https://www.scmp.com/rss/296935/feed/ (Hong Kong)
 2. **Mashable Cybersecurity** - https://in.mashable.com/cybersecurity.xml (India)
 
-### Global (4 sources)
+### Global (5 sources)
 1. **SN Wire** - https://snwire.com/feed/
 2. **The Cyber Express** - https://thecyberexpress.com/feed/
-3. **Upstream Auto** - https://upstream.auto/autothreat-intelligence/
+3. **Upstream Auto** - https://upstream.auto/feed/
 4. **Cyber Insider** - https://cyberinsider.com/feed/
 5. **Info Savvy** - https://info-savvy.com/feed/
 
