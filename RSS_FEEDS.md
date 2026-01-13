@@ -70,8 +70,9 @@ data/incidents-YYYY.json (auto-routed by year)
 3. **Sequential ID Generation**: Generates unique IDs per year (2026001, 2026002, etc.)
 4. **Tag Generation**: Automatically assigns tags based on content keywords
 5. **Impact Scoring**: Calculates impact level (1-5) based on keyword analysis
-6. **Retry Logic**: Built-in retry mechanism for failed feeds
-7. **Rate Limiting**: Small delays between feeds to be respectful to servers
+6. **Source Weighting**: Each feed has a credibility weight (1-5) for prioritization
+7. **Retry Logic**: Built-in retry mechanism for failed feeds
+8. **Rate Limiting**: Small delays between feeds to be respectful to servers
 
 ### Configuration File Structure
 
@@ -85,7 +86,8 @@ data/incidents-YYYY.json (auto-routed by year)
       "name": "Feed Name",
       "url": "https://example.com/feed.xml",
       "defaultRegion": "US|EU|ASIA|NO",
-      "defaultCountry": "Country Name"
+      "defaultCountry": "Country Name",
+      "weight": 5
     }
   ],
   "tagKeywords": {
@@ -101,6 +103,35 @@ data/incidents-YYYY.json (auto-routed by year)
   "companyKeywords": ["company1", "company2"]
 }
 ```
+
+### Source Weight System (1-5 scale)
+
+Each RSS feed is assigned a credibility weight to enable prioritization and signal quality assessment:
+
+- **Weight 5 (Must-have / High Signal)**: Government agencies, security standards organizations, and top-tier security researchers
+  - Examples: CISA, NIST, Krebs on Security, Troy Hunt, Schneier on Security, Google Security Blog
+  - Count: 7 feeds
+
+- **Weight 4 (Strong Source)**: Established infosec media outlets and high-quality vendor research
+  - Examples: Dark Reading, BleepingComputer, CSO Online, Graham Cluley, MIT News, Infosecurity Magazine
+  - Count: 17 feeds
+
+- **Weight 3 (Solid Quality)**: Reputable vendor blogs, specialized security content, and niche experts
+  - Examples: Sophos, Cisco, Veracode, SOC Prime, Acunetix, Trend Micro, Imperva
+  - Count: 39 feeds
+
+- **Weight 2 (Variable Quality)**: Mainstream tech media, consulting blogs, and mixed-quality sources
+  - Examples: TechCrunch, TechRepublic, Security Magazine, US News, various consulting firms
+  - Count: 60 feeds
+
+- **Weight 1 (Low Signal)**: Content farms, SEO-focused sites, and high-noise sources
+  - Examples: SecureBlitz, Hacker Combat, Virtualattacks
+  - Count: 5 feeds
+
+The weight system enables:
+- **Prioritization**: Higher-weight sources can be processed first or given more prominence
+- **Confidence scoring**: Multiple high-weight sources reporting the same incident increases credibility
+- **Signal-to-noise optimization**: Filter or de-prioritize lower-weight sources during high-volume periods
 
 ### Tag Categories (18 total)
 
@@ -248,4 +279,7 @@ Potential improvements:
 4. Feed health monitoring and alerts
 5. Custom parsers for non-standard feed formats
 6. Article deduplication by content similarity
-7. Source credibility scoring
+7. ~~Source credibility scoring~~ ✅ **Implemented**: Weight-based source prioritization (1-5 scale)
+8. **Multi-source confidence scoring**: Boost articles reported by multiple high-weight sources
+9. **Threat actor tracking**: Identify and tag known threat actors (LockBit, ALPHV, APT groups)
+10. **Sector-specific tagging**: Enhanced categorization for Finance, Healthcare, OT, Cloud sectors
