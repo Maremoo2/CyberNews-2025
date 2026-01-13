@@ -1,5 +1,138 @@
 [
   {
+    "id": "20261911",
+    "date": "2026-01-13",
+    "title": "What Should We Learn From How Attackers Leveraged AI in 2025?",
+    "summary": "Old Playbook, New Scale: While defenders are chasing trends, attackers are optimizing the basics The security industry loves talking about \"new\" threats. AI-powered attacks. Quantum-resistant encryption. Zero-trust architectures. But looking around, it seems like the most effective attacks in 202...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/what-should-we-learn-from-how-attackers.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261912",
+    "date": "2026-01-13",
+    "title": "ServiceNow Patches Critical AI Platform Flaw Allowing Unauthenticated User Impersonation",
+    "summary": "ServiceNow has disclosed details of a now-patched critical security flaw impacting its ServiceNow AI Platform that could enable an unauthenticated user to impersonate another user and perform arbitrary actions as that user. The vulnerability, tracked as CVE-2025-12420, carries a CVSS score of 9.3...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/servicenow-patches-critical-ai-platform.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20261913",
+    "date": "2026-01-13",
+    "title": "Dutch Port Hacker Sentenced to Prison",
+    "summary": "The 44-year-old individual planted remote access malware on a logistics firm’s systems, with help from employees. The post Dutch Port Hacker Sentenced to Prison appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/dutch-port-hacker-sentenced-to-prison/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261914",
+    "date": "2026-01-13",
+    "title": "For application security: SCA, SAST, DAST and MAST. What next?",
+    "summary": "I have stared at enough scanner dashboards to recognize the pattern. SAST flags theoretical flaws that never execute. DAST shrugs because the route to the vulnerable function is blocked. SCA floods the zone with CVEs that never touch a hot path. MAST scolds my mobile app for secrets I retired las...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4115679/for-application-security-sca-sast-dast-and-mast-what-next.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261915",
+    "date": "2026-01-13",
+    "title": "Spanish Energy Company Endesa Hacked",
+    "summary": "Hackers stole complete customer information, including contact details, national identity numbers, and payment details. The post Spanish Energy Company Endesa Hacked appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/spanish-energy-company-endesa-hacked/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261916",
+    "date": "2026-01-13",
+    "title": "New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack",
+    "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed SHADOW#REACTOR that employs an evasive multi-stage attack chain to deliver a commercially available remote administration tool called Remcos RAT and establish persistent, covert remote access. \"The infection chain follows a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261917",
+    "date": "2026-01-13",
+    "title": "[Ekstra] Apple mener Google har den beste KI-teknologien – nå slår rivalene seg sammen",
+    "summary": "Apple skal bruke Gemini-teknologien i sine egne produkter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/apple-mener-google-har-den-beste-ki-teknologien-na-slar-rivalene-seg-sammen/566893",
+    "tags": [
+      "google",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261918",
+    "date": "2026-01-13",
+    "title": "Why did CrowdStrike Buy Identity Startup SGNL for US$740m? | Cyber Magazine",
+    "summary": "Cybersecurity giant CrowdStrike has signed a deal to acquire the continuous identity security startup SGNL for US$740m. This move by CrowdStrike, when ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/why-crowdstrike-acquired-identity-startup-sgnl-for-us-740m",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20261919",
+    "date": "2026-01-13",
+    "title": "Human Behavior resonates into a medium for committing Cybercrime",
+    "summary": "In many cases, employees believe that cybersecurity is solely the responsibility of IT or security teams. ... Cyber Attacks, Cloud Security and Mobile ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/human-behavior-resonates-into-a-medium-for-committing-cybercrime/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261789",
     "date": "2026-01-13",
     "title": "Hackers get hacked, as BreachForums database is leaked",
