@@ -6,6 +6,10 @@ on:
       - 'news/**/*.md'
   workflow_dispatch:
 
+concurrency:
+  group: cybernews-main-writers
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -17,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -34,8 +39,32 @@ jobs:
       - name: Commit aggregated data
         if: steps.git-check.outputs.changed == 'true'
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news-aggregated-2026.json
           git commit -m "chore: update aggregated news data [skip ci]"
-          git push
+          
+          # Try a few times to survive concurrent writers
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i: fetch + rebase + push"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase failed (likely conflicts). Aborting rebase..."
+              git rebase --abort
+              echo "Backing off before retry..."
+              sleep $((i * 3))
+              continue
+            fi
+            
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            
+            echo "Push rejected (race). Backing off..."
+            sleep $((i * 3))
+          done
+          
+          echo "Push failed after retries"
+          exit 1
