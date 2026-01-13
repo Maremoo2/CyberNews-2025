@@ -22,6 +22,68 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+// Load entity normalization mappings
+const ENTITY_NORMALIZATION = JSON.parse(
+  fs.readFileSync(path.join(PROJECT_ROOT, 'config', 'entity-normalization.json'), 'utf8')
+);
+
+// ============================================================================
+// ENTITY NORMALIZATION FUNCTIONS
+// ============================================================================
+
+/**
+ * Normalize actor name using canonicalization table
+ */
+function normalizeActorName(actorName) {
+  if (!actorName) return null;
+  const normalized = ENTITY_NORMALIZATION.actor_aliases[actorName] || 
+                     ENTITY_NORMALIZATION.actor_aliases[actorName.toLowerCase()] ||
+                     actorName;
+  return normalized;
+}
+
+/**
+ * Normalize organization name using canonicalization table
+ */
+function normalizeOrgName(orgName) {
+  if (!orgName) return null;
+  const normalized = ENTITY_NORMALIZATION.org_aliases[orgName] ||
+                     ENTITY_NORMALIZATION.org_aliases[orgName.toLowerCase()] ||
+                     orgName;
+  return normalized;
+}
+
+/**
+ * Normalize sector using keyword matching and overrides
+ */
+function normalizeSector(text, existingSector) {
+  const lowerText = text.toLowerCase();
+  
+  // Check overrides first
+  for (const [key, sector] of Object.entries(ENTITY_NORMALIZATION.sector_overrides)) {
+    if (lowerText.includes(key)) {
+      return sector;
+    }
+  }
+  
+  // Use keyword matching with priority
+  let bestMatch = null;
+  let bestPriority = 0;
+  
+  for (const [sector, config] of Object.entries(ENTITY_NORMALIZATION.sector_keywords)) {
+    for (const keyword of config.keywords) {
+      if (lowerText.includes(keyword)) {
+        if (config.priority > bestPriority) {
+          bestMatch = sector;
+          bestPriority = config.priority;
+        }
+      }
+    }
+  }
+  
+  return bestMatch || existingSector;
+}
+
 // Severity scoring configuration
 // Scores represent relative impact on a 0-10 scale, used to calculate total severity (0-100)
 // Higher scores indicate greater impact in that dimension
@@ -395,7 +457,7 @@ function attributeThreatActor(incident) {
   
   for (const actorName of KNOWN_ACTOR_NAMES) {
     if (text.includes(actorName.toLowerCase())) {
-      actor_name = actorName;
+      actor_name = normalizeActorName(actorName); // Normalize actor name
       actor_confidence = 'high';
       break;
     }
@@ -518,13 +580,186 @@ function classifyContentType(incident) {
 }
 
 // ============================================================================
-// CASE ID GENERATION (for deduplication)
+// CASE ID GENERATION (for deduplication with blocking + matching)
 // ============================================================================
+
+/**
+ * Levenshtein distance calculation for string similarity
+ * Returns similarity score between 0-1 (1 = identical)
+ */
+function levenshteinSimilarity(str1, str2) {
+  const s1 = (str1 || '').toLowerCase();
+  const s2 = (str2 || '').toLowerCase();
+  
+  if (s1 === s2) return 1.0;
+  if (!s1.length || !s2.length) return 0.0;
+  
+  const matrix = Array(s2.length + 1).fill(null).map(() => 
+    Array(s1.length + 1).fill(null)
+  );
+  
+  for (let i = 0; i <= s1.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= s2.length; j++) matrix[j][0] = j;
+  
+  for (let j = 1; j <= s2.length; j++) {
+    for (let i = 1; i <= s1.length; i++) {
+      const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j][i - 1] + 1,     // deletion
+        matrix[j - 1][i] + 1,     // insertion
+        matrix[j - 1][i - 1] + cost  // substitution
+      );
+    }
+  }
+  
+  const maxLen = Math.max(s1.length, s2.length);
+  return 1 - (matrix[s2.length][s1.length] / maxLen);
+}
+
+/**
+ * Extract blocking keys from incident for candidate grouping
+ */
+function extractBlockingKeys(incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  const keys = new Set();
+  
+  // Block 1: Organization name (from title, common patterns)
+  const orgPatterns = /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University|College|Ministry|Department))?)\b/g;
+  const titleMatches = incident.title.match(orgPatterns) || [];
+  titleMatches.forEach(org => {
+    if (org.length > 3) keys.add(`org:${org.toLowerCase()}`);
+  });
+  
+  // Block 2: Domain names
+  const domainPattern = /\b([a-z0-9-]+\.[a-z]{2,})\b/g;
+  const domains = text.match(domainPattern) || [];
+  domains.forEach(domain => keys.add(`domain:${domain}`));
+  
+  // Block 3: CVE identifiers
+  const cvePattern = /cve-\d{4}-\d+/gi;
+  const cves = text.match(cvePattern) || [];
+  cves.forEach(cve => keys.add(`cve:${cve.toLowerCase()}`));
+  
+  // Block 4: Known threat actors
+  const knownActors = ['lockbit', 'blackcat', 'alphv', 'conti', 'clop', 'apt28', 'apt29', 'lazarus', 'kimsuky'];
+  knownActors.forEach(actor => {
+    if (text.includes(actor)) keys.add(`actor:${actor}`);
+  });
+  
+  // Block 5: Ransomware brands
+  const ransomwareBrands = ['lockbit', 'blackcat', 'alphv', 'conti', 'revil', 'ragnar', 'akira'];
+  ransomwareBrands.forEach(brand => {
+    if (text.includes(brand)) keys.add(`ransomware:${brand}`);
+  });
+  
+  // Block 6: Country + Sector combination
+  if (incident.country && incident.tags && incident.tags.length > 0) {
+    const mainSector = incident.tags[0];
+    keys.add(`geo_sector:${incident.country.toLowerCase()}:${mainSector.toLowerCase()}`);
+  }
+  
+  return Array.from(keys);
+}
+
+/**
+ * Calculate clustering reasons for audit trail
+ */
+function calculateClusteringReasons(incident1, incident2) {
+  const reasons = [];
+  const scores = {};
+  
+  // Check title similarity
+  const titleSim = levenshteinSimilarity(incident1.title, incident2.title);
+  scores.title_similarity = titleSim;
+  if (titleSim > 0.8) {
+    reasons.push(`High title similarity: ${(titleSim * 100).toFixed(0)}%`);
+  }
+  
+  // Check shared keywords (extract significant words)
+  const words1 = new Set(incident1.title.toLowerCase().split(/\s+/).filter(w => w.length > 4));
+  const words2 = new Set(incident2.title.toLowerCase().split(/\s+/).filter(w => w.length > 4));
+  const intersection = [...words1].filter(w => words2.has(w));
+  if (intersection.length >= 3) {
+    reasons.push(`Shared keywords: ${intersection.slice(0, 3).join(', ')}`);
+  }
+  
+  // Check shared blocking keys
+  const keys1 = extractBlockingKeys(incident1);
+  const keys2 = extractBlockingKeys(incident2);
+  const sharedKeys = keys1.filter(k => keys2.includes(k));
+  sharedKeys.forEach(key => {
+    const [type, ...value] = key.split(':');
+    reasons.push(`Matched ${type}: ${value.join(':')}`);
+  });
+  
+  // Check date proximity (within 7 days)
+  const date1 = new Date(incident1.date);
+  const date2 = new Date(incident2.date);
+  const daysDiff = Math.abs((date1 - date2) / (1000 * 60 * 60 * 24));
+  scores.days_apart = daysDiff;
+  if (daysDiff <= 7) {
+    reasons.push(`Close timing: ${Math.round(daysDiff)} days apart`);
+  }
+  
+  return { reasons, scores };
+}
+
+/**
+ * Generate case ID using blocking + matching approach
+ * Groups similar incidents together for deduplication
+ */
 function generateCaseId(incident, allIncidents) {
-  // For now, use the incident ID as case ID
-  // In future, we can implement clustering logic to group similar incidents
-  // by matching title similarity, same organization, similar dates, etc.
-  return incident.id;
+  // Extract blocking keys for this incident
+  const blockingKeys = extractBlockingKeys(incident);
+  
+  // If no blocking keys, use individual case ID
+  if (blockingKeys.length === 0) {
+    return `case_${incident.id}`;
+  }
+  
+  // Find candidates in same block
+  const candidates = allIncidents.filter(other => {
+    if (other.id === incident.id) return false;
+    const otherKeys = extractBlockingKeys(other);
+    // Must share at least one blocking key
+    return blockingKeys.some(key => otherKeys.includes(key));
+  });
+  
+  // If no candidates, use individual case ID
+  if (candidates.length === 0) {
+    return `case_${incident.id}`;
+  }
+  
+  // Apply Levenshtein within block to find best match
+  const SIMILARITY_THRESHOLD = 0.75; // 75% similarity required
+  let bestMatch = null;
+  let bestScore = 0;
+  
+  for (const candidate of candidates) {
+    const titleSim = levenshteinSimilarity(incident.title, candidate.title);
+    
+    // Also check summary similarity
+    const summarySim = levenshteinSimilarity(incident.summary || '', candidate.summary || '');
+    
+    // Combined score (weighted average)
+    const combinedScore = (titleSim * 0.7) + (summarySim * 0.3);
+    
+    if (combinedScore > bestScore && combinedScore >= SIMILARITY_THRESHOLD) {
+      bestScore = combinedScore;
+      bestMatch = candidate;
+    }
+  }
+  
+  if (bestMatch) {
+    // Use the earlier incident's case ID to group them
+    const date1 = new Date(incident.date);
+    const date2 = new Date(bestMatch.date);
+    const earlierId = date1 < date2 ? incident.id : bestMatch.id;
+    return `case_${earlierId}`;
+  }
+  
+  // No match found, use individual case ID
+  return `case_${incident.id}`;
 }
 
 // ============================================================================
@@ -656,6 +891,12 @@ function calculateSeverityBreakdown(severity) {
 // MAIN ENRICHMENT FUNCTION
 // ============================================================================
 function enrichIncident(incident, allIncidents) {
+  const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`;
+  
+  // Normalize sector/tags
+  const normalizedSector = normalizeSector(text, incident.tags?.[0]);
+  const normalizedTags = normalizedSector ? [normalizedSector, ...(incident.tags || []).slice(1)] : incident.tags;
+  
   // Calculate severity score
   const severity = calculateSeverityScore(incident);
   
@@ -699,6 +940,9 @@ function enrichIncident(incident, allIncidents) {
   
   return {
     ...incident,
+    // Normalize tags/sectors
+    tags: normalizedTags,
+    
     // Content classification (NEW)
     content_type,
     
