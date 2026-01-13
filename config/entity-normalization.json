@@ -1,0 +1,97 @@
+{
+  "actor_aliases": {
+    "ALPHV": "BlackCat/ALPHV",
+    "BlackCat": "BlackCat/ALPHV",
+    "BlackCat/ALPHV": "BlackCat/ALPHV",
+    "Black Cat": "BlackCat/ALPHV",
+    "Conti": "Conti",
+    "LockBit": "LockBit",
+    "Lockbit": "LockBit",
+    "Clop": "Clop",
+    "CL0P": "Clop",
+    "APT28": "APT28/Fancy Bear",
+    "Fancy Bear": "APT28/Fancy Bear",
+    "APT29": "APT29/Cozy Bear",
+    "Cozy Bear": "APT29/Cozy Bear",
+    "Lazarus": "Lazarus Group",
+    "Lazarus Group": "Lazarus Group",
+    "Kimsuky": "Kimsuky",
+    "NoName057(16)": "NoName057(16)",
+    "NoName": "NoName057(16)",
+    "Anonymous": "Anonymous",
+    "REvil": "REvil",
+    "Ragnar Locker": "Ragnar Locker",
+    "Akira": "Akira"
+  },
+  "org_aliases": {
+    "NHS": "NHS England",
+    "UK NHS": "NHS England",
+    "National Health Service": "NHS England",
+    "NHS England": "NHS England",
+    "MOVEit": "Progress Software (MOVEit)",
+    "Progress Software": "Progress Software (MOVEit)",
+    "SolarWinds": "SolarWinds",
+    "Microsoft": "Microsoft",
+    "MSFT": "Microsoft",
+    "Google": "Google",
+    "Alphabet": "Google",
+    "Meta": "Meta (Facebook)",
+    "Facebook": "Meta (Facebook)",
+    "Amazon": "Amazon",
+    "AWS": "Amazon Web Services",
+    "Amazon Web Services": "Amazon Web Services"
+  },
+  "sector_keywords": {
+    "government": {
+      "keywords": ["government", "federal", "state", "municipal", "ministry", "department", "agency", "parliament", "congress"],
+      "priority": 10
+    },
+    "healthcare": {
+      "keywords": ["healthcare", "hospital", "medical", "health", "clinic", "nhs", "patient"],
+      "priority": 10
+    },
+    "finance": {
+      "keywords": ["bank", "financial", "finance", "fintech", "payment", "credit", "trading"],
+      "priority": 10
+    },
+    "energy": {
+      "keywords": ["energy", "power", "utility", "oil", "gas", "electric", "grid"],
+      "priority": 10
+    },
+    "technology": {
+      "keywords": ["technology", "software", "tech", "it", "saas", "cloud", "data"],
+      "priority": 5
+    },
+    "education": {
+      "keywords": ["university", "college", "school", "education", "academic"],
+      "priority": 8
+    },
+    "telecommunications": {
+      "keywords": ["telecom", "telecommunications", "isp", "carrier", "mobile operator"],
+      "priority": 8
+    },
+    "manufacturing": {
+      "keywords": ["manufacturing", "factory", "industrial", "production"],
+      "priority": 7
+    },
+    "retail": {
+      "keywords": ["retail", "store", "shopping", "e-commerce", "ecommerce"],
+      "priority": 6
+    },
+    "transportation": {
+      "keywords": ["transport", "transportation", "airline", "shipping", "logistics"],
+      "priority": 7
+    }
+  },
+  "sector_overrides": {
+    "nhs england": "healthcare",
+    "uk nhs": "healthcare",
+    "progress software": "technology",
+    "solarwinds": "technology",
+    "microsoft": "technology",
+    "google": "technology",
+    "meta": "technology",
+    "amazon": "technology",
+    "aws": "technology"
+  }
+}

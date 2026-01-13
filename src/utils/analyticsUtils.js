@@ -41,8 +41,44 @@ export const COUNTING_TYPES = {
 // ============================================================================
 export const POPULATION_TYPES = {
   ALL: 'all',
+  INCIDENT_ONLY: 'incident-only',  // NEW: Real-world incidents only
   CURATED: 'curated',
   CRITICAL_ONLY: 'critical-only'
+};
+
+/**
+ * Helper function to apply population-based filtering
+ * @param {Array} incidents - Array of incidents to filter
+ * @param {string} population - Population type from POPULATION_TYPES
+ * @returns {Array} Filtered incidents
+ */
+function applyPopulationFilter(incidents, population) {
+  if (!population || population === POPULATION_TYPES.ALL) {
+    return incidents;
+  }
+  
+  if (population === POPULATION_TYPES.INCIDENT_ONLY) {
+    return incidents.filter(i => i.content_type === 'incident' || i.content_type === 'campaign');
+  } else if (population === POPULATION_TYPES.CURATED) {
+    return incidents.filter(i => i.is_curated);
+  } else if (population === POPULATION_TYPES.CRITICAL_ONLY) {
+    return incidents.filter(i => i.severity === 'critical');
+  }
+  
+  return incidents;
+}
+
+// ============================================================================
+// CONTENT TYPE FILTERS (NEW)
+// ============================================================================
+export const CONTENT_TYPES = {
+  INCIDENT: 'incident',
+  CAMPAIGN: 'campaign',
+  VULNERABILITY: 'vulnerability',
+  POLICY: 'policy',
+  EXPLAINER: 'explainer',
+  OPINION: 'opinion',
+  PRODUCT: 'product'
 };
 
 // ============================================================================
@@ -55,14 +91,7 @@ export const POPULATION_TYPES = {
  * @returns {Object} - Count and metadata
  */
 export function countUniqueIncidents(incidents, filters = {}) {
-  let filtered = incidents;
-  
-  // Apply population filter
-  if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Apply region filter
   if (filters.region && filters.region !== 'ALL') {
@@ -74,8 +103,8 @@ export function countUniqueIncidents(incidents, filters = {}) {
     filtered = filterByTimeWindow(filtered, filters.timeWindow);
   }
   
-  // Deduplicate by incident_id (our unique key)
-  const uniqueIds = new Set(filtered.map(incident => incident.id));
+  // Deduplicate by case_id if available, otherwise by id
+  const uniqueIds = new Set(filtered.map(incident => incident.case_id || incident.id));
   
   return {
     count: uniqueIds.size,
@@ -99,14 +128,7 @@ export function countUniqueIncidents(incidents, filters = {}) {
  * @returns {Object} - Counts by tag/sector with metadata
  */
 export function countMentions(incidents, field, filters = {}) {
-  let filtered = incidents;
-  
-  // Apply population filter
-  if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Apply region filter
   if (filters.region && filters.region !== 'ALL') {
@@ -528,14 +550,7 @@ export function getTimeSeriesData(incidents, granularity = 'month', filters = {}
 // HELPER FUNCTIONS
 // ============================================================================
 function applyFilters(incidents, filters) {
-  let filtered = incidents;
-  
-  // Population filter
-  if (filters.population === POPULATION_TYPES.CURATED) {
-    filtered = filtered.filter(i => i.is_curated);
-  } else if (filters.population === POPULATION_TYPES.CRITICAL_ONLY) {
-    filtered = filtered.filter(i => i.severity === 'critical');
-  }
+  let filtered = applyPopulationFilter(incidents, filters.population);
   
   // Region filter
   if (filters.region && filters.region !== 'ALL') {
@@ -998,6 +1013,222 @@ export const COUNTING_NOTES = {
   'confidence-weighted': "Counts weighted by confidence: high=1.0, medium=0.5, low=0.2. Ensures quality over quantity."
 };
 
+// ============================================================================
+// DATA COMPLETENESS METRICS (NEW)
+// ============================================================================
+/**
+ * Calculate data completeness percentages for various fields
+ * This helps identify what to curate next
+ */
+export function getDataCompleteness(incidents, filters = {}) {
+  const filtered = applyFilters(incidents, filters);
+  const total = filtered.length;
+  
+  if (total === 0) {
+    return {
+      total: 0,
+      percentages: {}
+    };
+  }
+  
+  const metrics = {
+    with_sector: filtered.filter(i => i.tags && i.tags.length > 0).length,
+    with_country: filtered.filter(i => i.country || i.victim_country).length,
+    with_org_name: filtered.filter(i => {
+      const text = `${i.title} ${i.summary}`;
+      // Check for common org patterns (case-insensitive)
+      return /\b[A-Za-z]+ (Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University)\b/i.test(text);
+    }).length,
+    with_incident_type: filtered.filter(i => i.content_type).length,
+    with_actor_category: filtered.filter(i => i.actor_category && i.actor_category !== 'unknown').length,
+    with_mitre_mapping: filtered.filter(i => i.mitre_techniques && i.mitre_techniques.length > 0).length,
+    with_milestones: filtered.filter(i => i.timeline && i.timeline.status && i.timeline.status !== 'unknown').length,
+    with_severity_score: filtered.filter(i => i.severity_score && i.severity_score > 0).length,
+    with_themes: filtered.filter(i => i.themes && i.themes.length > 0).length
+  };
+  
+  const percentages = {};
+  for (const [key, value] of Object.entries(metrics)) {
+    percentages[key] = Math.round((value / total) * 100);
+  }
+  
+  return {
+    total,
+    counts: metrics,
+    percentages,
+    population: filters.population || POPULATION_TYPES.ALL
+  };
+}
+
+// ============================================================================
+// TIMELINE DURATION CALCULATIONS (NEW)
+// ============================================================================
+/**
+ * Calculate incident durations based on timeline milestones
+ */
+export function getIncidentDurations(incidents, filters = {}) {
+  const filtered = applyFilters(incidents, filters);
+  
+  const durations = {
+    // Public lifecycle duration (news persistence - not technical attack duration)
+    public_lifecycle: {
+      label: 'Public Lifecycle Duration',
+      description: 'Time from first news mention to last update (measures news persistence, not attack duration)',
+      data: [],
+      coverage: 0
+    },
+    // Operational recovery duration (when known from reports)
+    operational_recovery: {
+      label: 'Operational Recovery Duration',
+      description: 'Time from detection to full service restoration (only when explicitly reported)',
+      data: [],
+      coverage: 0
+    },
+    // For backward compatibility
+    public_incident_duration: [],
+    recovery_duration: [],
+    ongoing_incidents: [],
+    contained_incidents: [],
+    recovered_incidents: []
+  };
+  
+  filtered.forEach(incident => {
+    if (!incident.timeline) return;
+    
+    const timeline = incident.timeline;
+    
+    // Calculate public lifecycle duration (first_seen → last_seen)
+    // This measures news cycle persistence, NOT technical attack duration
+    if (timeline.first_seen && timeline.last_seen && 
+        timeline.first_seen.trim() !== '' && timeline.last_seen.trim() !== '') {
+      const first = new Date(timeline.first_seen);
+      const last = new Date(timeline.last_seen);
+      // Validate dates are valid
+      if (!isNaN(first.getTime()) && !isNaN(last.getTime())) {
+        const durationDays = Math.round((last - first) / (1000 * 60 * 60 * 24));
+        if (durationDays >= 0) {
+          const durationData = {
+            incident_id: incident.id,
+            title: incident.title,
+            duration_days: durationDays
+          };
+          durations.public_lifecycle.data.push(durationData);
+          durations.public_incident_duration.push(durationData); // Backward compat
+        }
+      }
+    }
+    
+    // Calculate operational recovery duration (detection_date → recovery_complete)
+    // Only available when explicitly reported - measures actual recovery time
+    if (timeline.detection_date && timeline.recovery_complete &&
+        timeline.detection_date.trim() !== '' && timeline.recovery_complete.trim() !== '') {
+      const detection = new Date(timeline.detection_date);
+      const recovery = new Date(timeline.recovery_complete);
+      // Validate dates are valid
+      if (!isNaN(detection.getTime()) && !isNaN(recovery.getTime())) {
+        const durationDays = Math.round((recovery - detection) / (1000 * 60 * 60 * 24));
+        if (durationDays >= 0) {
+          const durationData = {
+            incident_id: incident.id,
+            title: incident.title,
+            duration_days: durationDays
+          };
+          durations.operational_recovery.data.push(durationData);
+          durations.recovery_duration.push(durationData); // Backward compat
+        }
+      }
+    }
+    
+    // Group by status
+    if (timeline.status === 'ongoing') {
+      durations.ongoing_incidents.push({
+        id: incident.id,
+        title: incident.title,
+        first_seen: timeline.first_seen,
+        last_seen: timeline.last_seen
+      });
+    } else if (timeline.status === 'contained') {
+      durations.contained_incidents.push({
+        id: incident.id,
+        title: incident.title
+      });
+    } else if (timeline.status === 'recovered') {
+      durations.recovered_incidents.push({
+        id: incident.id,
+        title: incident.title
+      });
+    }
+  });
+  
+  // Calculate coverage percentages
+  const totalFiltered = filtered.length;
+  durations.public_lifecycle.coverage = totalFiltered > 0 
+    ? Math.round((durations.public_lifecycle.data.length / totalFiltered) * 100) 
+    : 0;
+  durations.operational_recovery.coverage = totalFiltered > 0
+    ? Math.round((durations.operational_recovery.data.length / totalFiltered) * 100)
+    : 0;
+  
+  // Calculate statistics
+  const avgPublicDuration = durations.public_incident_duration.length > 0
+    ? Math.round(durations.public_incident_duration.reduce((sum, d) => sum + d.duration_days, 0) / durations.public_incident_duration.length)
+    : null;
+    
+  const avgRecoveryDuration = durations.recovery_duration.length > 0
+    ? Math.round(durations.recovery_duration.reduce((sum, d) => sum + d.duration_days, 0) / durations.recovery_duration.length)
+    : null;
+  
+  return {
+    ...durations,
+    statistics: {
+      avg_public_duration_days: avgPublicDuration,
+      avg_recovery_duration_days: avgRecoveryDuration,
+      public_lifecycle_coverage: `${durations.public_lifecycle.coverage}%`,
+      operational_recovery_coverage: `${durations.operational_recovery.coverage}%`,
+      total_ongoing: durations.ongoing_incidents.length,
+      total_contained: durations.contained_incidents.length,
+      total_recovered: durations.recovered_incidents.length
+    },
+    population: filters.population || POPULATION_TYPES.ALL
+  };
+}
+
+// ============================================================================
+// CONTENT TYPE BREAKDOWN (NEW)
+// ============================================================================
+/**
+ * Get breakdown of content types to show what's in the dataset
+ */
+export function getContentTypeBreakdown(incidents, filters = {}) {
+  let filtered = incidents;
+  
+  // Apply filters except content type filter
+  if (filters.region && filters.region !== 'ALL') {
+    filtered = filtered.filter(i => i.region === filters.region);
+  }
+  
+  if (filters.timeWindow) {
+    filtered = filterByTimeWindow(filtered, filters.timeWindow);
+  }
+  
+  const breakdown = {};
+  filtered.forEach(incident => {
+    const type = incident.content_type || 'unknown';
+    breakdown[type] = (breakdown[type] || 0) + 1;
+  });
+  
+  return {
+    breakdown,
+    total: filtered.length,
+    percentages: Object.fromEntries(
+      Object.entries(breakdown).map(([type, count]) => [
+        type,
+        Math.round((count / filtered.length) * 100)
+      ])
+    )
+  };
+}
+
 export const METHODOLOGY_NOTES = {
   severity: "Severity scoring uses a transparent 0-100 point system based on Impact (0-40), Exploitability (0-30), and Adversary (0-15) factors, plus confidence modifiers (-15 to +15).",
   mitre: "MITRE ATT&CK mappings use a two-signal rule requiring multiple keyword matches for confidence. Tactics are automatically derived from techniques. Use high-confidence filter for operational use.",
@@ -1007,5 +1238,7 @@ export const METHODOLOGY_NOTES = {
   attackChains: "Attack chains represent multi-stage attacks. Reconstructed from MITRE tactics in logical attack progression order.",
   sectorBenchmarks: "Sector KPIs enable cross-sector risk comparisons. Useful for CISO-level strategic analysis.",
   detectionGaps: "Gap analysis identifies where attack techniques are prevalent but defensive tools are rarely mentioned.",
-  trendAcceleration: "Trend velocity detection uses linear regression to identify accelerating, stable, or declining threat patterns."
+  trendAcceleration: "Trend velocity detection uses linear regression to identify accelerating, stable, or declining threat patterns.",
+  contentTypes: "Content is classified into: Incident (real attacks), Campaign (threat intel), Vulnerability (CVEs), Policy (regulations), and Explainer (educational content). Analytics default to Incident-only for accuracy.",
+  timeline: "Timeline milestones track incident lifecycle from first_seen to recovery_complete. Public incident duration measures news cycle length. Recovery duration shows time from detection to full recovery."
 };

@@ -130,6 +130,7 @@ function App() {
   const [showCuratedOnly, setShowCuratedOnly] = useState(false)
   const [cisoMode, setCisoMode] = useState({
     enabled: false,
+    incidentOnly: true,  // NEW: Default to incidents-only
     criticalOnly: false,
     curatedOnly: false,
     highConfidenceOnly: false
@@ -271,6 +272,12 @@ function App() {
 
     // CISO Mode Filters (applied first for executive view)
     if (cisoMode.enabled) {
+      // NEW: Incident-only filter (exclude explainers, opinions, products)
+      if (cisoMode.incidentOnly) {
+        filtered = filtered.filter(incident => 
+          incident.content_type === 'incident' || incident.content_type === 'campaign'
+        );
+      }
       if (cisoMode.criticalOnly) {
         filtered = filtered.filter(incident => incident.severity === 'critical')
       }
@@ -473,7 +480,7 @@ function App() {
       <DataHealthDashboard incidents={incidentsData} />
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
-      <CISOMode onModeChange={setCisoMode} />
+      <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />
 
       {/* Executive Summary - Strategic Overview */}
       <div id="summary">

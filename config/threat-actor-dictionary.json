@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-13",
+  "actors": [
+    {
+      "canonical": "LockBit",
+      "aliases": ["LockBit 3.0", "LockBit Black", "LockBit 2.0", "Lock Bit"],
+      "type": "ransomware",
+      "avoid_terms": ["lockbit.com", "anti-lockbit"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "affiliate", "leak site", "victim", "extortion", "ransom"]
+    },
+    {
+      "canonical": "BlackCat/ALPHV",
+      "aliases": ["BlackCat", "ALPHV", "Black Cat", "Noberus"],
+      "type": "ransomware",
+      "avoid_terms": ["black cat software", "alpha version"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "rust-based", "affiliate", "leak site", "victim"]
+    },
+    {
+      "canonical": "Clop",
+      "aliases": ["Cl0p", "CL0P", "Clop ransomware"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "moveit", "accellion", "file transfer", "leak site"]
+    },
+    {
+      "canonical": "Conti",
+      "aliases": ["Conti ransomware", "Conti gang"],
+      "type": "ransomware",
+      "avoid_terms": ["conti.ai", "contingency", "contiguous", "continental", "continuation", "ai edgelabs", "crowdstrike", "claude", "anthropic"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "leak site", "victim", "costa rica", "disbanded"]
+    },
+    {
+      "canonical": "REvil/Sodinokibi",
+      "aliases": ["REvil", "Sodinokibi", "RE", "vil"],
+      "type": "ransomware",
+      "avoid_terms": ["devil", "evil", "medieval"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "raas", "kaseya", "jbs"]
+    },
+    {
+      "canonical": "Akira",
+      "aliases": ["Akira ransomware"],
+      "type": "ransomware",
+      "avoid_terms": ["akira kurosawa", "akira anime", "akira movie"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim", "leak site"]
+    },
+    {
+      "canonical": "Black Basta",
+      "aliases": ["BlackBasta", "Black Basta ransomware"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "qakbot", "victim"]
+    },
+    {
+      "canonical": "Play",
+      "aliases": ["Play ransomware", "PlayCrypt"],
+      "type": "ransomware",
+      "avoid_terms": ["google play", "play store", "play button", "child's play"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim"]
+    },
+    {
+      "canonical": "Royal",
+      "aliases": ["Royal ransomware", "Royal gang"],
+      "type": "ransomware",
+      "avoid_terms": ["royal family", "royal caribbean", "battle royale"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim", "partial encryption"]
+    },
+    {
+      "canonical": "Rhysida",
+      "aliases": ["Rhysida ransomware"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim", "healthcare"]
+    },
+    {
+      "canonical": "Medusa",
+      "aliases": ["Medusa ransomware", "Medusa Locker"],
+      "type": "ransomware",
+      "avoid_terms": ["medusa jellyfish", "medusa greek", "medusa mythology"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim"]
+    },
+    {
+      "canonical": "Scattered Spider",
+      "aliases": ["UNC3944", "0ktapus", "Scatter Spider", "Muddled Libra"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["social engineering", "helpdesk", "sim swap", "mgm", "caesars", "mandiant", "crowdstrike"]
+    },
+    {
+      "canonical": "Lazarus Group",
+      "aliases": ["Lazarus", "APT38", "Hidden Cobra", "ZINC", "APT-38"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["north korea", "dprk", "apt", "sony", "wannacry", "cryptocurrency"]
+    },
+    {
+      "canonical": "APT28",
+      "aliases": ["Fancy Bear", "Sofacy", "Sednit", "Pawn Storm", "STRONTIUM", "APT 28"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["russia", "gru", "apt", "ukraine", "phishing"]
+    },
+    {
+      "canonical": "APT29",
+      "aliases": ["Cozy Bear", "The Dukes", "YTTRIUM", "APT 29", "Nobelium"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["russia", "svr", "apt", "solarwinds", "supply chain"]
+    },
+    {
+      "canonical": "APT41",
+      "aliases": ["Wicked Panda", "Barium", "Double Dragon", "APT 41"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["china", "apt", "healthcare", "gaming", "mandiant"]
+    },
+    {
+      "canonical": "Kimsuky",
+      "aliases": ["Kimsuki", "Black Banshee", "Thallium", "Velvet Chollima"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["north korea", "dprk", "apt", "phishing", "south korea"]
+    },
+    {
+      "canonical": "Volt Typhoon",
+      "aliases": ["Volt-Typhoon", "Bronze Silhouette"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["china", "apt", "critical infrastructure", "guam", "living off the land"]
+    },
+    {
+      "canonical": "Sandworm",
+      "aliases": ["BlackEnergy", "Sandworm Team", "VOODOO BEAR", "TeleBots"],
+      "type": "nation-state",
+      "avoid_terms": ["sandworm book"],
+      "requires_context": true,
+      "confidence_boost_terms": ["russia", "gru", "ukraine", "blackout", "notpetya", "industroyer"]
+    },
+    {
+      "canonical": "Anonymous",
+      "aliases": ["Anon", "Anonymous collective"],
+      "type": "hacktivist",
+      "avoid_terms": ["anonymous source", "anonymous user", "remain anonymous"],
+      "requires_context": true,
+      "confidence_boost_terms": ["hacktivist", "ddos", "operation", "protest", "leak"]
+    },
+    {
+      "canonical": "NoName057(16)",
+      "aliases": ["NoName057", "NoName", "No Name 057"],
+      "type": "hacktivist",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["russia", "ddos", "ukraine", "hacktivist", "pro-russian"]
+    },
+    {
+      "canonical": "KillNet",
+      "aliases": ["Killnet", "Kill Net"],
+      "type": "hacktivist",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["russia", "ddos", "ukraine", "hacktivist", "pro-russian"]
+    },
+    {
+      "canonical": "Lapsus$",
+      "aliases": ["Lapsus", "DEV-0537"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["extortion", "microsoft", "nvidia", "samsung", "okta", "teenager"]
+    },
+    {
+      "canonical": "FIN7",
+      "aliases": ["Fin7", "FIN 7", "Carbanak"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["carbanak", "pos", "payment", "restaurant", "mandiant"]
+    },
+    {
+      "canonical": "FIN8",
+      "aliases": ["Fin8", "FIN 8"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["pos", "payment", "badhatch", "punchtrack"]
+    },
+    {
+      "canonical": "Wizard Spider",
+      "aliases": ["UNC1878", "Grim Spider"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["trickbot", "conti", "ryuk", "emotet"]
+    },
+    {
+      "canonical": "Evil Corp",
+      "aliases": ["TA505", "Indrik Spider", "Dridex gang"],
+      "type": "ecrime",
+      "avoid_terms": ["mr robot", "evil corp tv"],
+      "requires_context": true,
+      "confidence_boost_terms": ["dridex", "bitpaymer", "wastedlocker", "sanctions"]
+    },
+    {
+      "canonical": "TA577",
+      "aliases": ["TA-577"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["qakbot", "icedb", "proofpoint", "botnet"]
+    },
+    {
+      "canonical": "Storm-0558",
+      "aliases": ["Storm 0558"],
+      "type": "nation-state",
+      "avoid_terms": [],
+      "requires_context": false,
+      "confidence_boost_terms": ["china", "microsoft", "exchange", "outlook", "forged token"]
+    },
+    {
+      "canonical": "Storm-1152",
+      "aliases": ["Storm 1152"],
+      "type": "ecrime",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["teams", "phishing", "aitm", "microsoft"]
+    },
+    {
+      "canonical": "8Base",
+      "aliases": ["8base", "8 Base"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "phobos", "victim"]
+    },
+    {
+      "canonical": "Cuba",
+      "aliases": ["Cuba ransomware"],
+      "type": "ransomware",
+      "avoid_terms": ["cuba country", "cuba island", "havana"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim"]
+    },
+    {
+      "canonical": "Hive",
+      "aliases": ["Hive ransomware"],
+      "type": "ransomware",
+      "avoid_terms": ["beehive", "hive blockchain", "hive database"],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "gang", "victim", "fbi takedown"]
+    },
+    {
+      "canonical": "Vice Society",
+      "aliases": ["Vice-Society", "ViceSociety"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "education", "school", "healthcare"]
+    },
+    {
+      "canonical": "BianLian",
+      "aliases": ["Bian Lian"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "extortion", "exfiltration", "go-based"]
+    },
+    {
+      "canonical": "Trigona",
+      "aliases": ["Trigona ransomware"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "victim"]
+    },
+    {
+      "canonical": "LockBit",
+      "aliases": ["Lockbit", "Lock Bit"],
+      "type": "ransomware",
+      "avoid_terms": [],
+      "requires_context": true,
+      "confidence_boost_terms": ["ransomware", "affiliate", "raas", "victim"]
+    }
+  ]
+}

@@ -22,6 +22,79 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+// Load entity normalization mappings
+const ENTITY_NORMALIZATION = JSON.parse(
+  fs.readFileSync(path.join(PROJECT_ROOT, 'config', 'entity-normalization.json'), 'utf8')
+);
+
+// ============================================================================
+// ENTITY NORMALIZATION FUNCTIONS
+// ============================================================================
+
+/**
+ * Normalize actor name using canonicalization table
+ */
+function normalizeActorName(actorName) {
+  if (!actorName) return null;
+  const normalized = ENTITY_NORMALIZATION.actor_aliases[actorName] || 
+                     ENTITY_NORMALIZATION.actor_aliases[actorName.toLowerCase()] ||
+                     actorName;
+  return normalized;
+}
+
+/**
+ * Normalize organization name using canonicalization table
+ */
+function normalizeOrgName(orgName) {
+  if (!orgName) return null;
+  const normalized = ENTITY_NORMALIZATION.org_aliases[orgName] ||
+                     ENTITY_NORMALIZATION.org_aliases[orgName.toLowerCase()] ||
+                     orgName;
+  return normalized;
+}
+
+/**
+ * Normalize sector using keyword matching and overrides
+ */
+function normalizeSector(text, existingSector) {
+  const lowerText = text.toLowerCase();
+  
+  // Check overrides first
+  for (const [key, sector] of Object.entries(ENTITY_NORMALIZATION.sector_overrides)) {
+    if (lowerText.includes(key)) {
+      return sector;
+    }
+  }
+  
+  // Use keyword matching with priority
+  let bestMatch = null;
+  let bestPriority = 0;
+  
+  for (const [sector, config] of Object.entries(ENTITY_NORMALIZATION.sector_keywords)) {
+    for (const keyword of config.keywords) {
+      if (lowerText.includes(keyword)) {
+        if (config.priority > bestPriority) {
+          bestMatch = sector;
+          bestPriority = config.priority;
+        }
+      }
+    }
+  }
+  
+  return bestMatch || existingSector;
+}
+
+// Severity scoring configuration
+// Scores represent relative impact on a 0-10 scale, used to calculate total severity (0-100)
+// Higher scores indicate greater impact in that dimension
+const SEVERITY_SCORES = {
+  SERVICE_DISRUPTION: 4,        // Significant operational impact (40% contribution)
+  DATA_EXPOSURE: 4,             // Significant data sensitivity (40% contribution)
+  LARGE_SCALE: 3,               // Widespread/enterprise-level impact (30% contribution)
+  CRITICAL_INFRA: 5,            // Maximum operational disruption for critical infrastructure (50% contribution)
+  HEALTHCARE: 1                 // Additional regulatory/HIPAA impact for healthcare sector (10% contribution)
+};
+
 // Parse command line arguments
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
@@ -227,15 +300,36 @@ const KNOWN_ACTOR_NAMES = [
 // ============================================================================
 // CONTENT TYPE CLASSIFICATION
 // ============================================================================
+// Hard top-level classification for data quality improvements
 const CONTENT_TYPES = {
-  'incident': ['breach', 'attack', 'compromise', 'ransomware', 'hack', 'exploitation'],
-  'vulnerability': ['cve', 'vulnerability', 'zero-day', 'patch', 'flaw', 'exploit'],
-  'policy': ['policy', 'regulation', 'law', 'compliance', 'mandate'],
-  'opinion': ['opinion', 'comment', 'analysis', 'perspective', 'editorial'],
-  'prediction': ['prediction', 'forecast', '2027', '2028', 'trend', 'future'],
-  'research': ['research', 'study', 'report', 'whitepaper', 'analysis'],
-  'product': ['product', 'release', 'launch', 'announcement', 'tool'],
-  'court': ['court', 'lawsuit', 'legal', 'settlement', 'verdict', 'indictment']
+  'incident': {
+    keywords: ['breach', 'attack', 'compromise', 'ransomware', 'hack', 'hacked', 'exploited', 'infiltrated', 'stolen', 'leaked'],
+    antiKeywords: ['what is', 'how to', 'guide to', 'understanding', 'explained', 'pricing', 'comparison', 'review', 'best']
+  },
+  'campaign': {
+    keywords: ['campaign', 'operation', 'botnet', 'malware family', 'threat group'],
+    antiKeywords: []
+  },
+  'vulnerability': {
+    keywords: ['cve-', 'vulnerability', 'zero-day', 'patch', 'flaw', 'exploit', 'disclosure'],
+    antiKeywords: ['what is', 'explained', 'guide']
+  },
+  'policy': {
+    keywords: ['policy', 'regulation', 'law', 'compliance', 'mandate', 'sec filing', 'regulatory'],
+    antiKeywords: []
+  },
+  'explainer': {
+    keywords: ['what is', 'how to', 'guide to', 'understanding', 'explained', 'tutorial', 'basics of'],
+    antiKeywords: []
+  },
+  'opinion': {
+    keywords: ['opinion', 'comment', 'analysis', 'perspective', 'editorial', 'should'],
+    antiKeywords: []
+  },
+  'product': {
+    keywords: ['product', 'release', 'launch', 'announcement', 'tool', 'pricing', 'comparison', 'review', 'best vpn', 'choose'],
+    antiKeywords: []
+  }
 };
 
 // ============================================================================
@@ -363,7 +457,7 @@ function attributeThreatActor(incident) {
   
   for (const actorName of KNOWN_ACTOR_NAMES) {
     if (text.includes(actorName.toLowerCase())) {
-      actor_name = actorName;
+      actor_name = normalizeActorName(actorName); // Normalize actor name
       actor_confidence = 'high';
       break;
     }
@@ -444,24 +538,402 @@ function classifyThemes(incident, mitreMapping) {
 function classifyContentType(incident) {
   const text = `${incident.title} ${incident.summary}`.toLowerCase();
   
-  const scores = {};
-  for (const [type, keywords] of Object.entries(CONTENT_TYPES)) {
-    scores[type] = keywords.filter(kw => text.includes(kw)).length;
+  // Check for explainers first (high priority anti-pattern)
+  const explainerType = CONTENT_TYPES['explainer'];
+  const hasExplainerKeywords = explainerType.keywords.some(kw => text.includes(kw));
+  if (hasExplainerKeywords) {
+    return 'explainer';
   }
   
-  // Return type with highest score, default to 'incident'
-  const entries = Object.entries(scores);
-  if (entries.length === 0 || Math.max(...Object.values(scores)) === 0) {
+  // Check for product reviews/comparisons
+  const productType = CONTENT_TYPES['product'];
+  const hasProductKeywords = productType.keywords.filter(kw => text.includes(kw)).length;
+  if (hasProductKeywords >= 2) {
+    return 'product';
+  }
+  
+  // Score each type
+  const scores = {};
+  for (const [type, config] of Object.entries(CONTENT_TYPES)) {
+    if (type === 'explainer' || type === 'product') continue; // Already checked
+    
+    let score = 0;
+    
+    // Add points for keyword matches
+    score += config.keywords.filter(kw => text.includes(kw)).length;
+    
+    // Subtract points for anti-keywords
+    if (config.antiKeywords) {
+      score -= config.antiKeywords.filter(kw => text.includes(kw)).length * 2;
+    }
+    
+    scores[type] = Math.max(0, score);
+  }
+  
+  // Return type with highest score, default to 'incident' if all scores are 0
+  const maxScore = Math.max(...Object.values(scores));
+  if (maxScore === 0) {
     return 'incident';
   }
   
-  return entries.reduce((a, b) => a[1] > b[1] ? a : b)[0];
+  return Object.entries(scores).reduce((a, b) => a[1] > b[1] ? a : b)[0];
+}
+
+// ============================================================================
+// CASE ID GENERATION (for deduplication with blocking + matching)
+// ============================================================================
+
+/**
+ * Levenshtein distance calculation for string similarity
+ * Returns similarity score between 0-1 (1 = identical)
+ * Optimized with early exit for very dissimilar strings
+ */
+function levenshteinSimilarity(str1, str2) {
+  const s1 = (str1 || '').toLowerCase();
+  const s2 = (str2 || '').toLowerCase();
+  
+  if (s1 === s2) return 1.0;
+  if (!s1.length || !s2.length) return 0.0;
+  
+  // Early exit: if length difference is too large, strings are very dissimilar
+  const maxLen = Math.max(s1.length, s2.length);
+  const minLen = Math.min(s1.length, s2.length);
+  if ((maxLen - minLen) / maxLen > 0.5) return 0.0; // More than 50% length diff
+  
+  // Limit string length for performance (only use first 200 chars)
+  const limit = 200;
+  const s1Limited = s1.length > limit ? s1.substring(0, limit) : s1;
+  const s2Limited = s2.length > limit ? s2.substring(0, limit) : s2;
+  
+  const matrix = Array(s2Limited.length + 1).fill(null).map(() => 
+    Array(s1Limited.length + 1).fill(null)
+  );
+  
+  for (let i = 0; i <= s1Limited.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= s2Limited.length; j++) matrix[j][0] = j;
+  
+  for (let j = 1; j <= s2Limited.length; j++) {
+    for (let i = 1; i <= s1Limited.length; i++) {
+      const cost = s1Limited[i - 1] === s2Limited[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j][i - 1] + 1,     // deletion
+        matrix[j - 1][i] + 1,     // insertion
+        matrix[j - 1][i - 1] + cost  // substitution
+      );
+    }
+  }
+  
+  return 1 - (matrix[s2Limited.length][s1Limited.length] / Math.max(s1Limited.length, s2Limited.length));
+}
+
+// Pre-compile regex patterns for blocking key extraction (performance optimization)
+const BLOCKING_PATTERNS = {
+  org: /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:Inc|Corp|LLC|Ltd|Group|Company|Bank|Hospital|University|College|Ministry|Department))?)\b/g,
+  domain: /\b([a-z0-9-]+\.[a-z]{2,})\b/g,
+  cve: /cve-\d{4}-\d+/gi
+};
+
+// Cache for blocking keys to avoid recomputation
+const blockingKeyCache = new Map();
+
+/**
+ * Extract blocking keys from incident for candidate grouping
+ * Uses caching to avoid recomputation (performance optimization)
+ */
+function extractBlockingKeys(incident) {
+  // Check cache first
+  if (blockingKeyCache.has(incident.id)) {
+    return blockingKeyCache.get(incident.id);
+  }
+  
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  const keys = new Set();
+  
+  // Block 1: Organization name (from title, common patterns)
+  const titleMatches = incident.title.match(BLOCKING_PATTERNS.org) || [];
+  titleMatches.forEach(org => {
+    if (org.length > 3) keys.add(`org:${org.toLowerCase()}`);
+  });
+  
+  // Block 2: Domain names
+  const domains = text.match(BLOCKING_PATTERNS.domain) || [];
+  domains.forEach(domain => keys.add(`domain:${domain}`));
+  
+  // Block 3: CVE identifiers
+  const cves = text.match(BLOCKING_PATTERNS.cve) || [];
+  cves.forEach(cve => keys.add(`cve:${cve.toLowerCase()}`));
+  
+  // Block 4: Known threat actors
+  const knownActors = ['lockbit', 'blackcat', 'alphv', 'conti', 'clop', 'apt28', 'apt29', 'lazarus', 'kimsuky'];
+  knownActors.forEach(actor => {
+    if (text.includes(actor)) keys.add(`actor:${actor}`);
+  });
+  
+  // Block 5: Ransomware brands
+  const ransomwareBrands = ['lockbit', 'blackcat', 'alphv', 'conti', 'revil', 'ragnar', 'akira'];
+  ransomwareBrands.forEach(brand => {
+    if (text.includes(brand)) keys.add(`ransomware:${brand}`);
+  });
+  
+  // Block 6: Country + Sector combination
+  if (incident.country && incident.tags && incident.tags.length > 0) {
+    const mainSector = incident.tags[0];
+    keys.add(`geo_sector:${incident.country.toLowerCase()}:${mainSector.toLowerCase()}`);
+  }
+  
+  const result = Array.from(keys);
+  
+  // Cache the result
+  blockingKeyCache.set(incident.id, result);
+  
+  return result;
+}
+
+/**
+ * Calculate clustering reasons for audit trail
+ */
+function calculateClusteringReasons(incident1, incident2) {
+  const reasons = [];
+  const scores = {};
+  
+  // Check title similarity
+  const titleSim = levenshteinSimilarity(incident1.title, incident2.title);
+  scores.title_similarity = titleSim;
+  if (titleSim > 0.8) {
+    reasons.push(`High title similarity: ${(titleSim * 100).toFixed(0)}%`);
+  }
+  
+  // Check shared keywords (extract significant words)
+  const words1 = new Set(incident1.title.toLowerCase().split(/\s+/).filter(w => w.length > 4));
+  const words2 = new Set(incident2.title.toLowerCase().split(/\s+/).filter(w => w.length > 4));
+  const intersection = [...words1].filter(w => words2.has(w));
+  if (intersection.length >= 3) {
+    reasons.push(`Shared keywords: ${intersection.slice(0, 3).join(', ')}`);
+  }
+  
+  // Check shared blocking keys
+  const keys1 = extractBlockingKeys(incident1);
+  const keys2 = extractBlockingKeys(incident2);
+  const sharedKeys = keys1.filter(k => keys2.includes(k));
+  sharedKeys.forEach(key => {
+    const [type, ...value] = key.split(':');
+    reasons.push(`Matched ${type}: ${value.join(':')}`);
+  });
+  
+  // Check date proximity (within 7 days)
+  const date1 = new Date(incident1.date);
+  const date2 = new Date(incident2.date);
+  const daysDiff = Math.abs((date1 - date2) / (1000 * 60 * 60 * 24));
+  scores.days_apart = daysDiff;
+  if (daysDiff <= 7) {
+    reasons.push(`Close timing: ${Math.round(daysDiff)} days apart`);
+  }
+  
+  return { reasons, scores };
+}
+
+/**
+ * Generate case ID using blocking + matching approach
+ * Groups similar incidents together for deduplication
+ * Uses pre-computed blocking index for O(n) instead of O(n²) complexity
+ */
+function generateCaseId(incident, allIncidents, blockingIndex) {
+  // Extract blocking keys for this incident
+  const blockingKeys = extractBlockingKeys(incident);
+  
+  // If no blocking keys, use individual case ID
+  if (blockingKeys.length === 0) {
+    return `case_${incident.id}`;
+  }
+  
+  // Find candidates in same block using pre-computed index
+  const candidateIds = new Set();
+  if (blockingIndex) {
+    blockingKeys.forEach(key => {
+      const incidentsInBlock = blockingIndex.get(key) || [];
+      incidentsInBlock.forEach(otherId => {
+        if (otherId !== incident.id) {
+          candidateIds.add(otherId);
+        }
+      });
+    });
+  }
+  
+  // If no candidates, use individual case ID
+  if (candidateIds.size === 0) {
+    return `case_${incident.id}`;
+  }
+  
+  // Get candidate incidents
+  const candidates = allIncidents.filter(other => candidateIds.has(other.id));
+  
+  // Apply Levenshtein within block to find best match
+  const SIMILARITY_THRESHOLD = 0.75; // 75% similarity required
+  let bestMatch = null;
+  let bestScore = 0;
+  
+  for (const candidate of candidates) {
+    const titleSim = levenshteinSimilarity(incident.title, candidate.title);
+    
+    // Also check summary similarity
+    const summarySim = levenshteinSimilarity(incident.summary || '', candidate.summary || '');
+    
+    // Combined score (weighted average)
+    const combinedScore = (titleSim * 0.7) + (summarySim * 0.3);
+    
+    if (combinedScore > bestScore && combinedScore >= SIMILARITY_THRESHOLD) {
+      bestScore = combinedScore;
+      bestMatch = candidate;
+    }
+  }
+  
+  if (bestMatch) {
+    // Use the earlier incident's case ID to group them
+    const date1 = new Date(incident.date);
+    const date2 = new Date(bestMatch.date);
+    const earlierId = date1 < date2 ? incident.id : bestMatch.id;
+    return `case_${earlierId}`;
+  }
+  
+  // No match found, use individual case ID
+  return `case_${incident.id}`;
+}
+
+// ============================================================================
+// TIMELINE MILESTONE EXTRACTION
+// ============================================================================
+function extractTimelineMilestones(incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  const milestones = {
+    first_seen: incident.date, // Default to incident date
+    detection_date: null,
+    containment_start: null,
+    containment_complete: null,
+    service_restored: null,
+    recovery_complete: null,
+    last_seen: incident.date, // Default to incident date
+    status: 'unknown'
+  };
+  
+  // Try to extract detection date
+  if (/detected|discovered|found on/.test(text)) {
+    // For now, use incident date as detection date
+    milestones.detection_date = incident.date;
+  }
+  
+  // Try to determine status
+  if (/ongoing|active|continuing|still/.test(text)) {
+    milestones.status = 'ongoing';
+  } else if (/contained|mitigated|patched/.test(text)) {
+    milestones.status = 'contained';
+  } else if (/recovered|restored|resolved/.test(text)) {
+    milestones.status = 'recovered';
+    milestones.recovery_complete = incident.date;
+  }
+  
+  return milestones;
+}
+
+// ============================================================================
+// ATTRIBUTION CONFIDENCE SCORING
+// ============================================================================
+function calculateAttributionConfidence(actorAttribution, incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  
+  // Start with actor confidence
+  let confidence = actorAttribution.actor_confidence === 'high' ? 80 : 
+                   actorAttribution.actor_confidence === 'medium' ? 50 : 20;
+  
+  // Boost confidence for specific attribution language
+  if (/attributed to|confirmed|identified as/.test(text)) {
+    confidence += 15;
+  }
+  
+  // Reduce confidence for tentative language
+  if (/suspected|believed|possibly|allegedly|may be/.test(text)) {
+    confidence -= 20;
+  }
+  
+  // Clamp between 0-100
+  confidence = Math.max(0, Math.min(100, confidence));
+  
+  // Convert to label
+  if (confidence >= 70) return 'high';
+  if (confidence >= 40) return 'medium';
+  return 'low';
+}
+
+// ============================================================================
+// GEOGRAPHY EXTRACTION
+// ============================================================================
+function extractGeography(incident) {
+  const text = `${incident.title} ${incident.summary}`.toLowerCase();
+  
+  const geography = {
+    victim_country: incident.country || null,
+    victim_region: incident.region || null,
+    impact_region: null,
+    operational_impact_countries: []
+  };
+  
+  // Extract impact region from text
+  if (/global|worldwide|international/.test(text)) {
+    geography.impact_region = 'Global';
+  } else if (/europe|eu|european/.test(text)) {
+    geography.impact_region = 'Europe';
+  } else if (/asia|asian/.test(text)) {
+    geography.impact_region = 'Asia';
+  } else if (/us|united states|american/.test(text)) {
+    geography.impact_region = 'United States';
+  }
+  
+  return geography;
+}
+
+// ============================================================================
+// SEVERITY SCORE BREAKDOWN
+// ============================================================================
+function calculateSeverityBreakdown(severity) {
+  // Convert severity drivers to component scores
+  // Apply severity breakdown using configured scores
+  const breakdown = {
+    operational_disruption: 0,
+    data_sensitivity: 0,
+    scale: 0,
+    critical_infra_flag: false,
+    healthcare_flag: false
+  };
+  
+  severity.drivers.forEach(driver => {
+    if (driver === 'Service disruption') {
+      breakdown.operational_disruption = SEVERITY_SCORES.SERVICE_DISRUPTION;
+    } else if (driver === 'Sensitive data exposure') {
+      breakdown.data_sensitivity = SEVERITY_SCORES.DATA_EXPOSURE;
+    } else if (driver === 'Large scale impact') {
+      breakdown.scale = SEVERITY_SCORES.LARGE_SCALE;
+    } else if (driver === 'Critical infrastructure impact') {
+      breakdown.critical_infra_flag = true;
+      breakdown.operational_disruption = SEVERITY_SCORES.CRITICAL_INFRA;
+    } else if (driver === 'Healthcare sector') {
+      breakdown.healthcare_flag = true;
+      // Healthcare incidents get additional data sensitivity due to HIPAA/regulatory impact
+      breakdown.data_sensitivity += SEVERITY_SCORES.HEALTHCARE;
+    }
+  });
+  
+  return breakdown;
 }
 
 // ============================================================================
 // MAIN ENRICHMENT FUNCTION
 // ============================================================================
-function enrichIncident(incident) {
+function enrichIncident(incident, allIncidents, blockingIndex) {
+  const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`;
+  
+  // Normalize sector/tags
+  const normalizedSector = normalizeSector(text, incident.tags?.[0]);
+  const normalizedTags = normalizedSector ? [normalizedSector, ...(incident.tags || []).slice(1)] : incident.tags;
+  
   // Calculate severity score
   const severity = calculateSeverityScore(incident);
   
@@ -480,34 +952,74 @@ function enrichIncident(incident) {
   // Classify content type
   const content_type = classifyContentType(incident);
   
+  // Generate case ID with blocking index for performance
+  const case_id = generateCaseId(incident, allIncidents, blockingIndex);
+  
+  // Extract timeline milestones
+  const timeline = extractTimelineMilestones(incident);
+  
+  // Calculate attribution confidence
+  const attribution_confidence = calculateAttributionConfidence(actorAttribution, incident);
+  
+  // Extract geography
+  const geography = extractGeography(incident);
+  
+  // Calculate severity breakdown
+  const severity_breakdown = calculateSeverityBreakdown(severity);
+  
   // Determine if curated (has multiple enrichment signals)
   const is_curated = (
     severity.score >= 25 &&
     mitreMapping.length > 0 &&
-    themes.length > 0
+    themes.length > 0 &&
+    content_type === 'incident' // Only incidents can be curated
   );
   
   return {
     ...incident,
+    // Normalize tags/sectors
+    tags: normalizedTags,
+    
+    // Content classification (NEW)
+    content_type,
+    
+    // Case clustering (NEW)
+    case_id,
+    event_id: incident.id, // Original article/event ID
+    
     // Enhanced severity scoring
     severity_score: severity.score,
     severity: severity.label,
     severity_drivers: severity.drivers,
+    severity_breakdown, // NEW: Component scores
     
     // MITRE ATT&CK with confidence
     mitre_techniques: mitreMapping.map(m => ({
       id: m.technique_id,
       name: m.technique_name,
-      confidence: m.confidence
+      confidence: m.confidence,
+      mapping_source: 'nlp' // NEW: Indicates automated mapping
     })),
     mitre_tactics: mitreTactics,
     mitre_technique_ids: mitreMapping.map(m => m.technique_id),
     
-    // Threat actor attribution
+    // Threat actor attribution (ENHANCED)
     actor_name: actorAttribution.actor_name,
     actor_category: actorAttribution.actor_category,
     actor_confidence: actorAttribution.actor_confidence,
+    attribution_confidence, // NEW: High/Medium/Low based on evidence
+    attribution_status: actorAttribution.attributed ? 
+      (attribution_confidence === 'high' ? 'known' : 'suspected') : 'unknown', // NEW
     is_attributed: actorAttribution.attributed,
+    
+    // Geography (NEW)
+    victim_country: geography.victim_country,
+    victim_region: geography.victim_region,
+    impact_region: geography.impact_region,
+    operational_impact_countries: geography.operational_impact_countries,
+    
+    // Timeline milestones (NEW)
+    timeline,
     
     // Strategic themes
     themes: themes.map(t => ({
@@ -515,9 +1027,6 @@ function enrichIncident(incident) {
       name: t.theme_name,
       confidence: t.confidence
     })),
-    
-    // Content classification
-    content_type,
     
     // Quality indicators
     is_curated,
@@ -566,25 +1075,52 @@ async function processIncidents() {
   const incidents = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
   console.log(`📥 Loaded ${incidents.length} incidents from ${inputFile}`);
   
+  // Pre-compute blocking index for O(n) clustering performance
+  console.log('🔧 Building blocking index...');
+  const blockingIndex = new Map();
+  incidents.forEach(incident => {
+    const keys = extractBlockingKeys(incident);
+    keys.forEach(key => {
+      if (!blockingIndex.has(key)) {
+        blockingIndex.set(key, []);
+      }
+      blockingIndex.get(key).push(incident.id);
+    });
+  });
+  console.log(`   Built index with ${blockingIndex.size} blocking keys`);
+  
   // Enrich all incidents
   console.log('🔄 Enriching incidents...');
   const enrichedIncidents = incidents.map((incident, index) => {
     if ((index + 1) % 100 === 0) {
       console.log(`   Processed ${index + 1}/${incidents.length} incidents...`);
     }
-    return enrichIncident(incident);
+    return enrichIncident(incident, incidents, blockingIndex);
   });
+  
+  // Clear cache after enrichment
+  blockingKeyCache.clear();
   
   // Calculate statistics
   const stats = calculateStats(enrichedIncidents);
   console.log('\n📈 Enrichment Statistics:');
   console.log(`   Total incidents: ${enrichedIncidents.length}`);
+  console.log(`   Content Types:`);
+  console.log(`     - Incidents: ${stats.contentTypes.incident || 0}`);
+  console.log(`     - Campaigns: ${stats.contentTypes.campaign || 0}`);
+  console.log(`     - Vulnerabilities: ${stats.contentTypes.vulnerability || 0}`);
+  console.log(`     - Explainers/Opinion: ${(stats.contentTypes.explainer || 0) + (stats.contentTypes.opinion || 0)}`);
+  console.log(`     - Other: ${stats.contentTypes.other || 0}`);
   console.log(`   Curated: ${stats.curated} (${stats.curatedPercent}%)`);
   console.log(`   Critical severity: ${stats.critical}`);
   console.log(`   High severity: ${stats.high}`);
   console.log(`   With MITRE mappings: ${stats.withMitre} (${stats.mitrePercent}%)`);
   console.log(`   Attributed: ${stats.attributed} (${stats.attributedPercent}%)`);
   console.log(`   With themes: ${stats.withThemes} (${stats.themesPercent}%)`);
+  console.log(`   Timeline status:`);
+  console.log(`     - Ongoing: ${stats.timelineStatus.ongoing || 0}`);
+  console.log(`     - Contained: ${stats.timelineStatus.contained || 0}`);
+  console.log(`     - Recovered: ${stats.timelineStatus.recovered || 0}`);
   
   if (DRY_RUN) {
     console.log('\n🔍 DRY RUN - No files written');
@@ -604,6 +1140,22 @@ function calculateStats(incidents) {
   const attributed = incidents.filter(i => i.is_attributed).length;
   const withThemes = incidents.filter(i => i.themes.length > 0).length;
   
+  // Content type breakdown
+  const contentTypes = {};
+  incidents.forEach(i => {
+    const type = i.content_type || 'other';
+    contentTypes[type] = (contentTypes[type] || 0) + 1;
+  });
+  
+  // Timeline status breakdown
+  const timelineStatus = {};
+  incidents.forEach(i => {
+    if (i.timeline && i.timeline.status) {
+      const status = i.timeline.status;
+      timelineStatus[status] = (timelineStatus[status] || 0) + 1;
+    }
+  });
+  
   return {
     curated,
     curatedPercent: Math.round(curated / incidents.length * 100),
@@ -614,7 +1166,9 @@ function calculateStats(incidents) {
     attributed,
     attributedPercent: Math.round(attributed / incidents.length * 100),
     withThemes,
-    themesPercent: Math.round(withThemes / incidents.length * 100)
+    themesPercent: Math.round(withThemes / incidents.length * 100),
+    contentTypes,
+    timelineStatus
   };
 }
 

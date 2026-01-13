@@ -352,3 +352,98 @@
     align-self: flex-start;
   }
 }
+
+/* NEW: Content Type and Completeness sections */
+.content-type-section,
+.completeness-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #1e3a5f;
+  font-weight: 600;
+}
+
+.content-type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.content-type-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 6px;
+  border-left: 3px solid #2196f3;
+}
+
+.type-label {
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+}
+
+.type-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+.type-percent {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.content-type-note {
+  font-size: 0.9rem;
+  color: #666;
+  padding: 0.75rem;
+  background: #fff9e6;
+  border-radius: 6px;
+  border-left: 3px solid #ffa726;
+  margin-top: 0.75rem;
+}
+
+.completeness-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.completeness-stat {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.completeness-stat .stat-label {
+  min-width: 140px;
+  font-weight: 500;
+  color: #333;
+}
+
+.completeness-stat .stat-value {
+  min-width: 50px;
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+.completeness-stat .stat-bar {
+  flex: 1;
+  height: 8px;
+  background: linear-gradient(90deg, #4caf50 0%, #8bc34a 100%);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
