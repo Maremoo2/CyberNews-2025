@@ -44,27 +44,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news-aggregated-2026.json
           git commit -m "chore: update aggregated news data [skip ci]"
-          
-          # Try a few times to survive concurrent writers
-          for i in 1 2 3 4 5; do
-            echo "Attempt $i: fetch + rebase + push"
-            git fetch origin main
-            if ! git rebase origin/main; then
-              echo "Rebase failed (likely conflicts). Aborting rebase..."
-              git rebase --abort
-              echo "Backing off before retry..."
-              sleep $((i * 3))
-              continue
-            fi
-            
-            if git push origin HEAD:main; then
-              echo "Push succeeded"
-              exit 0
-            fi
-            
-            echo "Push rejected (race). Backing off..."
-            sleep $((i * 3))
-          done
-          
-          echo "Push failed after retries"
-          exit 1
+      
+      - name: Sync with remote main (rebase)
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git fetch origin main
+          git rebase origin/main
+      
+      - name: Push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git push origin HEAD:main
