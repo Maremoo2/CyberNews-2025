@@ -1,5 +1,544 @@
 [
   {
+    "id": "20262326",
+    "date": "2026-01-14",
+    "title": "Aikido Security Raises $60 Million at $1 Billion Valuation",
+    "summary": "The developer security company has raised a total of more than $84 million in funding. The post Aikido Security Raises $60 Million at $1 Billion Valuation appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/aikido-security-raises-60-million-at-1-billion-valuation/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262327",
+    "date": "2026-01-14",
+    "title": "Ugandan officials turn off internet on eve of national elections",
+    "summary": "The Uganda Communication Commission (UCC) started turning off internet and mobile phone services on Tuesday, according to Amnesty International.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uganda-internet-shutdown-elections",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262328",
+    "date": "2026-01-14",
+    "title": "French data regulator fines telco subsidiaries $48 million over data breach",
+    "summary": "France’s data protection regulator fined the subsidiaries of a telecom giant $42 million for cybersecurity vulnerabilities that contributed to a massive data breach.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/france-data-regulator-fine",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262329",
+    "date": "2026-01-14",
+    "title": "Investor Lawsuit Over CrowdStrike Outage Dismissed",
+    "summary": "A judge has ruled that the plaintiffs failed to demonstrate intent to defraud investors. The post Investor Lawsuit Over CrowdStrike Outage Dismissed appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/investor-lawsuit-over-crowdstrike-outage-dismissed/",
+    "tags": [
+      "malware",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262330",
+    "date": "2026-01-14",
+    "title": "Poland says it repelled major cyberattack on power grid, blames Russia",
+    "summary": "Poland narrowly avoided a large-scale power outage by thwarting what officials described as the most serious cyberattack on its energy infrastructure in years.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/poland-cyberattack-grid-russia",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262331",
+    "date": "2026-01-14",
+    "title": "Western cyber agencies warn about threats to industrial operational technology",
+    "summary": "New guidance issued by Britain’s National Cyber Secure Centre (NCSC), a part of signals and cyber intelligence agency GCHQ, sets out how organizations should securely connect equipment such as industrial control systems, sensors and other critical services.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cyber-agencies-warn-of-industrial-system-threats",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262332",
+    "date": "2026-01-14",
+    "title": "AI Agents Are Becoming Privilege Escalation Paths",
+    "summary": "AI agents have quickly moved from experimental tools to core components of daily workflows across security, engineering, IT, and operations. What began as individual productivity aids, like personal code assistants, chatbots, and copilots, has evolved into shared, organization-wide agents embedde...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/ai-agents-are-becoming-privilege.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262333",
+    "date": "2026-01-14",
+    "title": "AI innovation vendor briefings: call for participants - ITAM Review",
+    "summary": "In December 2025 I published an AI Innovation Watch List , a snapshot of tools using AI to tackle ITAM, SAM, licensing and FinOps workloads, plus early signs of ITAM tooling evolving to manage AI itself. That article was a starting point. The obvious next step is to stop guessing from the outside...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2026/01/14/ai-innovation-vendor-briefings-call-for-participants/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262334",
+    "date": "2026-01-14",
+    "title": "Ukraine appoints digital chief as defense minister to drive military reform",
+    "summary": "Ukraine’s parliament appointed Mykhailo Fedorov, the digital transformation minister who modernized public services and helped develop drone programs for the war effort, as the country’s new defense chief.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ukraine-digital-chief-transformation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262335",
+    "date": "2026-01-14",
+    "title": "Microsoft seizes RedVDS infrastructure, disrupts fast-growing cybercrime marketplace",
+    "summary": "Microsoft announced Wednesday that it worked with international law enforcement to seize infrastructure used to run cybercrime subscription service RedVDS and organized civil actions in the United States and United Kingdom to disrupt its further use. RedVDS has enabled at least $40 million in fra...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/microsoft-seizes-disrupts-redvds-cybercrime-marketplace/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262336",
+    "date": "2026-01-14",
+    "title": "RedVDS Cybercrime Service Disrupted by Microsoft and Law Enforcement",
+    "summary": "RedVDS enables threat actors to set up servers that can be used for phishing, BEC attacks, account takeover, and fraud. The post RedVDS Cybercrime Service Disrupted by Microsoft and Law Enforcement appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/redvds-cybercrime-service-disrupted-by-microsoft-and-law-enforcement/",
+    "tags": [
+      "phishing",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262337",
+    "date": "2026-01-14",
+    "title": "Hackers Exploit c-ares DLL Side-Loading to Bypass Security and Deploy Malware",
+    "summary": "Security experts have disclosed details of an active malware campaign that's exploiting a DLL side-loading vulnerability in a legitimate binary associated with the open-source c-ares library to bypass security controls and deliver a wide range of commodity trojans and stealers. \"Attackers achieve...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/hackers-exploit-c-ares-dll-side-loading.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262338",
+    "date": "2026-01-14",
+    "title": "Predator Spyware Turns Failed Attacks Into Intelligence for Future Exploits",
+    "summary": "The Predator spyware is more sophisticated and dangerous than previously realized. The post Predator Spyware Turns Failed Attacks Into Intelligence for Future Exploits appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/predator-spywares-granular-anti-analysis-features-exposed/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262339",
+    "date": "2026-01-14",
+    "title": "Federal agencies ordered to patch Microsoft Desktop Windows Manager bug",
+    "summary": "CISA is giving civilian agencies until February 3 to fix a Windows vulnerability that can reveal where code resides in memory.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/desktop-windows-manager-vulnerability-added-to-cisa-list",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262340",
+    "date": "2026-01-14",
+    "title": "Novee Emerges From Stealth With $51.5 Million in Funding",
+    "summary": "Novee provides continuous AI-driven penetration testing to uncover and address novel vulnerabilities. The post Novee Emerges From Stealth With $51.5 Million in Funding appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/novee-emerges-from-stealth-with-51-5-million-in-funding/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262341",
+    "date": "2026-01-14",
+    "title": "Når KI gir helseråd, flyttes ansvaret ",
+    "summary": "Smartklokker kan redde liv, men også gi falske alarmer og mer helseangst. Norske leger har allerede pasienter som kommer med KI-genererte funn og bekymringer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-nar-ki-gir-helserad-flyttes-ansvaret/566920",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262342",
+    "date": "2026-01-14",
+    "title": "Cyberattack forces Belgian hospital to transfer critical care patients",
+    "summary": "The AZ Monica hospital system in Antwerp reported a cyberattack that required the assistance of the Red Cross to send several patients to other facilities.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/belgium-hospital-cyberattack-antwerp-az-monica",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262343",
+    "date": "2026-01-14",
+    "title": "Nødvarsel-test: Ulte ikke telefonen din kl. 12?",
+    "summary": "Klokken 12 onsdag ble det gjennomført test av blant annet nødvarsel på mobil i hele landet. DSB-direktøren svarer på hvorfor ikke absolutt alle telefoner reagerte.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/derfor-ulte-ikke-telefonen-din/566958",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262344",
+    "date": "2026-01-14",
+    "title": "Amazon VPC IPAM policies now support RDS and Application Load Balancers",
+    "summary": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports policies for Amazon Relational Database Service (RDS) instances and Application Load Balancers (ALB). This feature enables IP administrators to centrally configure and enforce IP allocation strategies for these resources, i...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262345",
+    "date": "2026-01-14",
+    "title": "CISA, UK NCSC, FBI Unveil Principles to Combat Cyber Risks in OT",
+    "summary": "WASHINGTON - Today, the Cybersecurity and Infrastructure Security Agency (CISA), United Kingdom's National Cyber Security Centre (NCSC-UK ) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-uk-ncsc-fbi-unveil-principles-combat-cyber-risks-ot",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262346",
+    "date": "2026-01-14",
+    "title": "Glen Dimplex elevates security from cost centre to strategic asset with security platformization",
+    "summary": "\"As we expanded across geographies, cybersecurity became more complex and costly. · \"Palo Alto Networks is the ideal enterprise control point, serving ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/customers/glen-dimplex-elevates-security-from-cost-centre-to-strategic-asset-with-security-platformization",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262347",
+    "date": "2026-01-14",
+    "title": "AWS IoT Device Management launches Wi-Fi Simple Setup for managed integrations",
+    "summary": "AWS IoT Device Management now offers Wi-Fi Simple Setup (WSS) for managed integrations, enabling developers to implement simplified Wi-Fi provisioning in Internet of Things (IoT) solutions. With WSS, developers can now integrate QR code scanning functionality that empowers end users to connect th...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262348",
+    "date": "2026-01-14",
+    "title": "China targets US cybersecurity firms, Tesla's FSD subscription - Yahoo Finance",
+    "summary": "... cybersecurity software, BP's (BP) $5 billion hit, and Tesla's (TSLA) ... First off, let's look at cyber security stocks. China is reportedly ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/video/china-targets-us-cybersecurity-firms-144233529.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262349",
+    "date": "2026-01-14",
+    "title": "From Talon to Seraphic: How Israeli startups came to dominate browser security | Ctech",
+    "summary": "It was the latest data point in a pattern that has quietly reshaped one of cybersecurity's most contested frontiers: the browser and digital workspace ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/skonirnhbl",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262350",
+    "date": "2026-01-14",
+    "title": "Threat Actors Exploit Charity Lures to Target Ukrainian Defense Organizations - Cyber Press",
+    "summary": "... Cyber Security NewsCybersecurity. Ukrainian cybersecurity authorities have uncovered a sophisticated campaign where threat actors impersonate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/charity-lure-cyber-attacks-ukrainian-defense/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262351",
+    "date": "2026-01-14",
+    "title": "Inside RedVDS: How a single virtual desktop provider fueled worldwide cybercriminal operations",
+    "summary": "Over the past year, Microsoft Threat Intelligence observed the proliferation of RedVDS, a virtual dedicated server (VDS) provider used by multiple financially motivated threat actors to commit business email compromise (BEC), mass phishing, account takeover, and financial fraud. Microsoft’s inves...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/",
+    "tags": [
+      "phishing",
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262352",
+    "date": "2026-01-14",
+    "title": "Exclusive: Beijing tells Chinese firms to stop using US and Israeli cybersecurity software, sources say",
+    "summary": "Chinese authorities have told domestic companies to stop using cybersecurity ... Illustration shows words \"Cyber Security\\. 1 hour ago Sustainability ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/world/china/beijing-tells-chinese-firms-stop-using-us-israeli-cybersecurity-software-sources-2026-01-14/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262353",
+    "date": "2026-01-14",
+    "title": "Belgian cybersecurity startup Aikido hits unicorn status with new funding round - Reuters",
+    "summary": "... cybersecurity startup said on Wednesday, making it among Europe's ... Cyber Security\" in this illustration taken, February 19, 2024. REUTERS ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/technology/belgian-cybersecurity-startup-aikido-hits-unicorn-status-with-new-funding-round-2026-01-14/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262354",
+    "date": "2026-01-14",
+    "title": "CISA issues multiple ICS advisories, details DoS vulnerability risk in Rockwell devices used ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) published on Tuesday three ICS advisories and updated an earlier one, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/cisa-issues-multiple-ics-advisories-details-dos-vulnerability-risk-in-rockwell-devices-used-in-critical-manufacturing/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262355",
+    "date": "2026-01-14",
+    "title": "Department of War Technology Veteran Katie Arrington Joins IonQ as Chief Information Officer (CIO)",
+    "summary": "Kershaw assumes responsibility for achieving federal and commercial cybersecurity requirements, managing enterprise cyber and physical security, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://investors.ionq.com/news/news-details/2026/Department-of-War-Technology-Veteran-Katie-Arrington-Joins-IonQ-as-Chief-Information-Officer-CIO/default.aspx",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262356",
+    "date": "2026-01-14",
+    "title": "Belgian cybersecurity startup Aikido hits unicorn status with new funding round",
+    "summary": "... cybersecurity startup said on ‌Wednesday, making it among Europe's first new unicorns of 2026 ... Illustration shows words \"Cyber Security\\ · Reuters.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262357",
+    "date": "2026-01-14",
+    "title": "Keeper Security puts Atlassian Williams F1 Team in pole position on cybersecurity",
+    "summary": "Keeper Security has helped Atlassian Williams F1 Team tighten its cyber defences, revealing how the iconic racing team is using KeeperPAM to protect ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itsecurityguru.org/2026/01/14/keeper-security-puts-atlassian-williams-f1-team-in-pole-position-on-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262358",
+    "date": "2026-01-14",
+    "title": "House subcommittee hearing examines offensive cyber operations, limits of cyber deterrence",
+    "summary": "One of the most immediate areas Agentic AI can improve cybersecurity practices is by leveraging agents to eliminate bottlenecks in the Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/critical-infrastructure/house-subcommittee-hearing-examines-offensive-cyber-operations-limits-of-cyber-deterrence/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262359",
+    "date": "2026-01-14",
+    "title": "Secure connectivity principles for Operational Technology (OT) - Cyber Security Review",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) retired ten Emergency Directives (ED) it issued between 2019 and 2024, saying they ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/secure-connectivity-principles-for-operational-technology-ot/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262360",
+    "date": "2026-01-14",
+    "title": "Researchers Propose Game-Theoretic AI to Guide Cyber Attack and Defense Strategies",
+    "summary": "The research represents a significant advancement toward cybersecurity superintelligence by embedding strategic reasoning capabilities that mirror ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/game-theoretic-ai-cyber-attack-defense-strategies/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262361",
+    "date": "2026-01-14",
+    "title": "Microsoft named a Leader in IDC MarketScape for Unified AI Governance Platforms",
+    "summary": "As organizations rapidly embrace generative and agentic AI, ensuring robust, unified governance has never been more critical. That’s why Microsoft is honored to be named a Leader in the 2025-2026 IDC MarketScape for Worldwide Unified AI Governance Platforms (Vendor Assessment (#US53514825, Decemb...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262288",
     "date": "2026-01-14",
     "title": "AI security firm, depthfirst, announces $40 million Series A",
