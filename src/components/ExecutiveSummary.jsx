@@ -1,25 +1,38 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
 import { isDataEnriched, getEnrichmentQualityMessage } from '../utils/populationUtils'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
+  // Default to incident-only analysis (P0 requirement)
+  const [populationMode, setPopulationMode] = useState('incidents');
+  
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
+    // Filter to incidents-only by default (exclude explainers, opinions, products)
+    const filteredIncidents = populationMode === 'incidents' 
+      ? incidents.filter(i => 
+          i.content_type === 'incident' || 
+          i.content_type === 'campaign' ||
+          i.content_type === 'vulnerability' ||
+          !i.content_type // Include items without content_type for backwards compatibility
+        )
+      : incidents;
+
     // Check if data is enriched
-    const dataEnriched = isDataEnriched(incidents);
-    const enrichmentMessage = getEnrichmentQualityMessage(incidents);
+    const dataEnriched = isDataEnriched(filteredIncidents);
+    const enrichmentMessage = getEnrichmentQualityMessage(filteredIncidents);
 
     // Use new analytics utilities for consistent counting
-    const severityData = getSeverityDistribution(incidents, {});
-    const topThemes = getTopThemes(incidents, {}, 5);
-    const attributionRate = getAttributionRate(incidents, {});
-    const kpis = calculateKPIs(incidents, {});
+    const severityData = getSeverityDistribution(filteredIncidents, {});
+    const topThemes = getTopThemes(filteredIncidents, {}, 5);
+    const attributionRate = getAttributionRate(filteredIncidents, {});
+    const kpis = calculateKPIs(filteredIncidents, {});
 
     // Get top threat types from tags (mentions)
     const tagCounts = {}
-    incidents.forEach(incident => {
+    filteredIncidents.forEach(incident => {
       incident.tags?.forEach(tag => {
         tagCounts[tag] = (tagCounts[tag] || 0) + 1
       })
@@ -31,7 +44,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 
     // Identify most targeted sectors (mentions)
     const sectorCounts = {}
-    incidents.forEach(incident => {
+    filteredIncidents.forEach(incident => {
       incident.tags?.forEach(tag => {
         const sectorTags = ['healthcare', 'finance', 'government', 'technology', 'education', 'retail', 'energy']
         if (sectorTags.includes(tag.toLowerCase())) {
@@ -45,7 +58,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 
     // Get top attack vectors using enhanced MITRE data
     const vectorCounts = {}
-    incidents.forEach(incident => {
+    filteredIncidents.forEach(incident => {
       if (incident.mitre_techniques) {
         incident.mitre_techniques.forEach(tech => {
           const name = tech.name || tech;
@@ -67,15 +80,16 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       topVectors,
       topThemes: topThemes.themes,
       narrative,
-      totalIncidents: incidents.length,
-      curatedCount: incidents.filter(i => i.is_curated).length,
+      totalIncidents: filteredIncidents.length,
+      totalAllItems: incidents.length,
+      curatedCount: filteredIncidents.filter(i => i.is_curated).length,
       attributionRate: attributionRate.rate,
       criticalRate: kpis.criticalRate,
       exploitLedRate: kpis.exploitLedRate,
       dataEnriched,
       enrichmentMessage
     }
-  }, [incidents, selectedYear])
+  }, [incidents, selectedYear, populationMode])
 
   if (!analysis) return null
 
@@ -83,9 +97,31 @@ function ExecutiveSummary({ incidents, selectedYear }) {
     <section className="executive-summary" aria-label="Executive Summary">
       <div className="summary-header">
         <h2>📊 Executive Summary</h2>
-        <p className="summary-subtitle">Key insights from {analysis.totalIncidents} incidents in {selectedYear}</p>
+        <div className="population-toggle">
+          <button 
+            className={populationMode === 'incidents' ? 'toggle-btn active' : 'toggle-btn'}
+            onClick={() => setPopulationMode('incidents')}
+            aria-pressed={populationMode === 'incidents'}
+          >
+            INCIDENTS ({analysis.totalIncidents})
+          </button>
+          <button 
+            className={populationMode === 'all' ? 'toggle-btn active' : 'toggle-btn'}
+            onClick={() => setPopulationMode('all')}
+            aria-pressed={populationMode === 'all'}
+          >
+            ALL ITEMS ({analysis.totalAllItems})
+          </button>
+        </div>
+        <p className="summary-subtitle">
+          {populationMode === 'incidents' 
+            ? `Key insights from ${analysis.totalIncidents} incidents in ${selectedYear}` 
+            : `Coverage of ${analysis.totalAllItems} items (includes explainers, products, and opinions)`}
+        </p>
         <div className="counting-note">
-          <span className="count-badge">Count type: unique incidents</span>
+          <span className="count-badge">
+            {populationMode === 'incidents' ? 'Incidents only (recommended for executive view)' : 'All content types'}
+          </span>
           <span className="quality-note">{analysis.curatedCount} curated ({Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%)</span>
         </div>
       </div>

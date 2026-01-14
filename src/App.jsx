@@ -425,12 +425,12 @@ function App() {
             <p className="data-counts">
               {uniqueIncidentCount === totalSourceCount ? (
                 <span className="count-item">
-                  <strong>{totalSourceCount}</strong> incidents
+                  <strong>{totalSourceCount}</strong> items
                 </span>
               ) : (
                 <>
                   <span className="count-item">
-                    <strong>{uniqueIncidentCount}</strong> unique incidents (deduplicated)
+                    <strong>{uniqueIncidentCount}</strong> unique items (deduplicated)
                   </span>
                   <span className="count-separator"> • </span>
                   <span className="count-item">
@@ -580,7 +580,7 @@ function App() {
           </p>
         </div>
         <p className="footer-meta">
-          Covers {selectedYear} • {incidentsData.length} incidents • Last updated {new Date().toLocaleDateString('en-US')}
+          Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date().toLocaleDateString('en-US')}
         </p>
       </footer>
     </div>
