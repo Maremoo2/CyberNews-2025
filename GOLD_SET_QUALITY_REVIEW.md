@@ -322,3 +322,101 @@ After Batch 81-100:
 **Batches Reviewed**: 21-100 (80 entries)  
 **Total Corrections**: 41 entries  
 **Status**: ✅ Batches 21-100 Complete
+
+## Batch 101-120 Updates
+
+### Corrections Applied (11 entries)
+
+**Pattern: Government Cooperation and Studies**
+- Government cooperation agreements → policy
+- Statistics/research studies → opinion
+- Malware campaigns → campaign
+- Product launches → product
+
+**Specific Corrections:**
+- `20261676`, `20262056`: Israel cooperation → policy (was: incident)
+- `2026817`: SOC study → opinion (was: incident)
+- `2026660`: Cyber attacks study → opinion (was: incident)
+- `20261916`: Remcos RAT campaign → campaign (was: product)
+- `20261632`: MuddyWater APT → campaign (was: product)
+- `2026822`: Exotech SOC AI → product (was: incident)
+- `20261747`: Cyware product → product (was: incident)
+- `2026696`: AI cyber attacks → opinion (was: incident)
+- `2026262`: ClickFix campaign → campaign (was: product)
+- `20261586`: Torq funding severity → low (was: high)
+
+### Cumulative Results After Batches 21-120
+
+**Total Corrections: 52 entries**
+
+#### Distribution Evolution
+```
+Initial State:
+  incident: 43, opinion: 41, product: 30, explainer: 10
+
+After Batch 21-100:
+  opinion: 45, incident: 30, product: 28, explainer: 18
+
+After Batch 101-120:
+  opinion: 48 (32.0%)
+  product: 27 (18.0%)
+  incident: 23 (15.3%) ⬇️ 47% reduction
+  explainer: 18 (12.0%)
+  campaign: 12 (8.0%) ⬆️ 33% increase
+  unknown: 8 (5.3%)
+  policy: 7 (4.7%) ⬆️ 133% increase
+  vulnerability: 7 (4.7%)
+```
+
+#### Validation Metrics Progress
+```
+Initial (before corrections):
+  High-confidence content classification: 25.0%
+
+After Batch 21-80:
+  High-confidence content classification: 33.3%
+
+After Batch 81-100:
+  High-confidence content classification: 41.7%
+
+After Batch 101-120:
+  High-confidence content classification: 41.7% (maintained)
+  Severity accuracy: 70.7%
+```
+
+### Key Improvements Summary
+
+1. **Massive Reduction in False Incidents**: 43 → 23 (47% reduction)
+2. **Campaign Category Properly Used**: 9 → 12 (33% increase)
+3. **Policy Category Doubled**: 3 → 7 (133% increase)
+4. **Opinion Properly Classified**: 41 → 48 (17% increase)
+5. **Product Clarity**: Better separation of business news from incidents
+
+### Patterns Identified in Batch 101-120
+
+**Government Cooperation** (International agreements, partnerships)
+- Often mislabeled as incident
+- Should be: policy
+- Examples: "Cybersecurity cooperation with Israel expanded"
+
+**Research Studies** (Statistics, surveys, research findings)
+- Often mislabeled as incident
+- Should be: opinion
+- Examples: "Half of global companies build SOCs", "Cyber Attacks Disrupt Firms"
+
+**Malware Campaigns** (Ongoing threat operations)
+- Sometimes mislabeled as product
+- Should be: campaign
+- Examples: "Remcos RAT", "MuddyWater APT", "ClickFix Campaign"
+
+**Product Launches** (Vendor announcements, new platforms)
+- Sometimes mislabeled as incident
+- Should be: product
+- Examples: "Exotech Launches SOC AI", "Cyware Respond"
+
+---
+
+**Updated Date**: 2026-01-14  
+**Batches Reviewed**: 21-120 (100 entries)  
+**Total Corrections**: 52 entries  
+**Status**: ✅ Batches 21-120 Complete
