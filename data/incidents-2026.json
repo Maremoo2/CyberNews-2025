@@ -1,5 +1,231 @@
 [
   {
+    "id": "20262132",
+    "date": "2026-01-13",
+    "title": "Microsoft Patch Tuesday January 2026: Actively Exploited Zero Day, 8 High-Risk Flaws",
+    "summary": "Microsoft’s Patch Tuesday January 2026 update includes fixes for one actively-exploited zero day vulnerability and eight additional high-risk flaws. In all, the Patch Tuesday January 2026 update includes fixes for 112 Microsoft CVEs and three non-Microsoft CVEs, doubling December’s 57 vulnerabili...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/patch-tuesday-january-2026-zero-day/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262133",
+    "date": "2026-01-13",
+    "title": "Microsoft fixes 114 flaws in year’s first Windows 11 Patch Tuesday",
+    "summary": "Microsoft's January 2026 Patch Tuesday update, released under KB5074109, addresses 114 vulnerabilities across its product ecosystem, including an actively exploited zero-day in the Windows Desktop Window Manager (DWM). The update is available for Windows 11 versions 24H2 and 25H2 and includes cri...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-fixes-114-flaws-in-years-first-windows-11-patch-tuesday/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262134",
+    "date": "2026-01-13",
+    "title": "Wine 11 brings major architectural work, synchronization changes, 600+ bug fixes",
+    "summary": "Wine, originally short for “Wine Is Not an Emulator,” is a compatibility layer that allows Windows applications to run natively on POSIX-compliant operating systems, including Linux, macOS, and BSD. Rather than running a full copy of Windows or simulating its internals, Wine works by translating ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/wine-11-released/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262135",
+    "date": "2026-01-13",
+    "title": "Respawn Confirms Apex Legends Game Remote Input Control Incident",
+    "summary": "Apex Legends players reported a disturbing in-game incident recently after attackers appeared to remotely hijack their characters’ controls during live matches — triggering movements and actions the victims never made. Respawn Entertainment confirmed it was investigating the issue, which raised i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/respawn-confirms-apex-legends-game-remote-input-control-incident/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262136",
+    "date": "2026-01-13",
+    "title": "Trump Urges Protesters to Rise Up, Promises “Killers and Abusers” Will Pay",
+    "summary": "Authoritarian movements have always championed “freedom” abroad while crushing dissent at home. This pattern is well-documented. Trump is doing both publicly, lazily and simultaneously, assuming his audience either won’t notice or won’t care about the plain contradiction. His hypocrisy is coheren...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76127",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262137",
+    "date": "2026-01-13",
+    "title": "YOLO Mode: Hidden Risks in Claude Code Permissions | UpGuard",
+    "summary": "Developers are frequently granting Claude Code permission to download, execute, and delete code, creating fertile ground for prompt injection attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/yolo-mode-hidden-risks-in-claude-code-permissions",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262138",
+    "date": "2026-01-13",
+    "title": "Cybersecurity risk will accelerate this year, fueled in part by AI, says World Economic Forum",
+    "summary": "Cybersecurity risk will accelerate this year, fueled by advances in AI, deepening geopolitical fragmentation and the complexity of supply chains, the World Economic Forum (WEF) says in its annual Global Cybersecurity Outlook. The way to combat it, however, isn’t new, the report adds. “Ultimately,...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116270/cybersecurity-risk-will-accelerate-this-year-fueled-in-part-by-ai-says-world-economic-forum.html",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262139",
+    "date": "2026-01-13",
+    "title": "'Most Severe AI Vulnerability to Date' Hits ServiceNow",
+    "summary": "ServiceNow tacked agentic AI onto a largely unguarded legacy chatbot, exposing customers' data and connected systems.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/ai-vulnerability-servicenow",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262140",
+    "date": "2026-01-13",
+    "title": "Microsoft Starts 2026 With a Bang: A Freshly Exploited Zero-Day",
+    "summary": "The vendor's first Patch Tuesday of the year also contains fixes for 112 CVEs, nearly double the amount from last month.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/microsofts-starts-2026-bang-zero-day",
+    "tags": [
+      "vulnerability",
+      "supply-chain",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262141",
+    "date": "2026-01-13",
+    "title": "Shadow#Reactor Uses Text Files to Deliver Remcos RAT",
+    "summary": "Attackers use a sophisticated delivery mechanism of text-only files for RAT deployment, showcasing a clever way to bypass defensive tools and rely on the target's own utilities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/shadow-reactor-uses-text-files-to-deliver-remcos-rat",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262142",
+    "date": "2026-01-13",
+    "title": "Ukraine's army targeted in new charity-themed malware campaign",
+    "summary": "Officials of Ukraine's Defense Forces were targeted in a charity-themed campaign between October and December 2025 that delivered backdoor malware called PluggyApe. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262143",
+    "date": "2026-01-13",
+    "title": "New VoidLink malware framework targets Linux cloud servers",
+    "summary": "A newly discovered advanced cloud-native Linux malware framework named VoidLink focuses on cloud environments, providing attackers with custom loaders, implants, rootkits, and plugins designed for modern infrastructures. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-voidlink-malware-framework-targets-linux-cloud-servers/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262144",
+    "date": "2026-01-13",
+    "title": "Central Maine Healthcare breach exposed data of over 145,000 people",
+    "summary": "A data breach last year at Central Maine Healthcare (CMH) exposed sensitive information of more than 145,000 individuals. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/central-maine-healthcare-breach-exposed-data-of-over-145-000-people/",
+    "tags": [
+      "data-breach",
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262145",
+    "date": "2026-01-13",
+    "title": "Belgian hospital AZ Monica shuts down servers after cyberattack",
+    "summary": "Belgian hospital AZ Monica was forced to shut down all servers, cancel scheduled procedures, and transfer critical patients earlier today due to a cyberattack. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/belgian-hospital-az-monica-shuts-down-servers-after-cyberattack/",
+    "tags": [
+      "malware",
+      "healthcare"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262146",
+    "date": "2026-01-13",
+    "title": "Key Insights on SHADOW-AETHER-015 and Earth Preta from the 2025 MITRE ATT&CK Evaluation with Trend Vision One™ ",
+    "summary": "This blog discusses notable modern TTPs observed from SHADOW-AETHER-015 and Earth Preta, from Trend Research™ monitoring and Trend Vision One™ intelligence. These findings support the performance of TrendAI™ in the 2025 MITRE ATT&CK Evaluations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/shadow-aether-015-earth-preta-mitre.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262121",
     "date": "2026-01-13",
     "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
