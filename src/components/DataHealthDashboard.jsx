@@ -188,12 +188,28 @@ function DataHealthDashboard({ incidents }) {
             {completeness && completeness.percentages && (
               <div className="completeness-section">
                 <h3 className="section-title">📊 Field Completeness (What to Curate Next)</h3>
+                
+                {/* P1 requirement: Show sector quality with unknown rate */}
+                {completeness.sectorQuality && (
+                  <div className="sector-quality-alert">
+                    <strong>⚠️ Sector Quality:</strong> {completeness.sectorQuality.unknownRate}% of items have unknown/unclassified sector
+                    ({completeness.sectorQuality.unknown} items). This prevents accurate sector analysis.
+                  </div>
+                )}
+                
                 <div className="completeness-stats">
                   <div className="completeness-stat">
                     <span className="stat-label">Sector/Tags:</span>
                     <span className="stat-value">{completeness.percentages.with_sector}%</span>
                     <span className="stat-bar" style={{ width: `${completeness.percentages.with_sector}%` }}></span>
                   </div>
+                  {completeness.sectorQuality && (
+                    <div className="completeness-stat">
+                      <span className="stat-label">Sector (Enriched):</span>
+                      <span className="stat-value">{completeness.sectorQuality.enrichmentRate}%</span>
+                      <span className="stat-bar" style={{ width: `${completeness.sectorQuality.enrichmentRate}%` }}></span>
+                    </div>
+                  )}
                   <div className="completeness-stat">
                     <span className="stat-label">Country:</span>
                     <span className="stat-value">{completeness.percentages.with_country}%</span>

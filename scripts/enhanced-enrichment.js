@@ -56,6 +56,7 @@ function normalizeOrgName(orgName) {
 
 /**
  * Normalize sector using keyword matching and overrides
+ * P1 requirement: Return 'unknown' instead of defaulting to technology
  */
 function normalizeSector(text, existingSector) {
   const lowerText = text.toLowerCase();
@@ -82,7 +83,9 @@ function normalizeSector(text, existingSector) {
     }
   }
   
-  return bestMatch || existingSector;
+  // P1 fix: Return 'unknown' instead of defaulting to existingSector
+  // This prevents technology from being a catch-all fallback
+  return bestMatch || 'unknown';
 }
 
 // Severity scoring configuration

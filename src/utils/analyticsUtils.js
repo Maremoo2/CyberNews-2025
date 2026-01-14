@@ -1027,12 +1027,19 @@ export function getDataCompleteness(incidents, filters = {}) {
   if (total === 0) {
     return {
       total: 0,
-      percentages: {}
+      percentages: {},
+      sectorQuality: {}
     };
   }
   
+  // P1 requirement: Track sector quality including unknown rate
+  const sectorsEnriched = filtered.filter(i => i.sector && i.sector !== 'unknown').length;
+  const sectorsUnknown = filtered.filter(i => !i.sector || i.sector === 'unknown').length;
+  const unknownRate = Math.round((sectorsUnknown / total) * 100);
+  
   const metrics = {
     with_sector: filtered.filter(i => i.tags && i.tags.length > 0).length,
+    with_sector_enriched: sectorsEnriched,
     with_country: filtered.filter(i => i.country || i.victim_country).length,
     with_org_name: filtered.filter(i => {
       const text = `${i.title} ${i.summary}`;
@@ -1056,6 +1063,12 @@ export function getDataCompleteness(incidents, filters = {}) {
     total,
     counts: metrics,
     percentages,
+    sectorQuality: {
+      enriched: sectorsEnriched,
+      unknown: sectorsUnknown,
+      unknownRate,
+      enrichmentRate: Math.round((sectorsEnriched / total) * 100)
+    },
     population: filters.population || POPULATION_TYPES.ALL
   };
 }

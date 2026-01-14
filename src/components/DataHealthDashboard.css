@@ -413,6 +413,25 @@
   margin-top: 0.75rem;
 }
 
+.completeness-section {
+  margin-top: 1.5rem;
+}
+
+.sector-quality-alert {
+  padding: 0.75rem 1rem;
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #856404;
+}
+
+.sector-quality-alert strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
 .completeness-stats {
   display: flex;
   flex-direction: column;
