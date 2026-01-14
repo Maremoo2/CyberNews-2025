@@ -28,6 +28,10 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const GOLD_SET_SAMPLE = path.join(PROJECT_ROOT, 'data', 'gold-set-sample.json');
 const GOLD_SET_LABELED = path.join(PROJECT_ROOT, 'data', 'gold-set.json');
 
+// Constants
+const MIN_SUMMARY_LENGTH = 100;
+const SEVERITY_LEVELS = ['critical', 'high', 'moderate', 'low', 'unknown'];
+
 /**
  * Analyze title and summary to determine content type
  * Returns { type, confidence, isPaywall }
@@ -53,7 +57,7 @@ function classifyContentType(item) {
   const isPaywall = paywallIndicators.some(pattern => summary.match(pattern));
   
   // Check if summary is too short or lacks substance
-  const isTooShort = item.summary.length < 100 && !item.summary.match(/\b(breach|attack|hack|ransomware|vulnerability|cve-\d+)\b/i);
+  const isTooShort = item.summary.length < MIN_SUMMARY_LENGTH && !item.summary.match(/\b(breach|attack|hack|ransomware|vulnerability|cve-\d+)\b/i);
   
   if (isPaywall || isTooShort) {
     return { type: 'unknown', confidence: 'low', isPaywall: true };
@@ -251,6 +255,19 @@ function generateCaseId(item, allItems) {
 }
 
 /**
+ * Determine overall label confidence
+ */
+function determineOverallConfidence(contentInfo, severityInfo) {
+  if (contentInfo.isPaywall || severityInfo.isPaywall) {
+    return 'low';
+  }
+  if (contentInfo.confidence === 'medium' || severityInfo.confidence === 'medium') {
+    return 'medium';
+  }
+  return 'high';
+}
+
+/**
  * Main labeling function
  */
 function labelGoldSet() {
@@ -280,12 +297,7 @@ function labelGoldSet() {
     const case_id = generateCaseId(item, goldSet);
     
     // Determine overall label confidence
-    let labelConfidence = 'high';
-    if (contentInfo.isPaywall || severityInfo.isPaywall) {
-      labelConfidence = 'low';
-    } else if (contentInfo.confidence === 'medium' || severityInfo.confidence === 'medium') {
-      labelConfidence = 'medium';
-    }
+    const labelConfidence = determineOverallConfidence(contentInfo, severityInfo);
     
     // Generate notes
     let notes = '';
@@ -352,7 +364,7 @@ function labelGoldSet() {
   console.log(`\nActors Present: ${stats.actorPresent}/${labeled.length} (${(stats.actorPresent/labeled.length*100).toFixed(1)}%)`);
   
   console.log('\nSeverity Distribution:');
-  ['critical', 'high', 'moderate', 'low', 'unknown'].forEach(sev => {
+  SEVERITY_LEVELS.forEach(sev => {
     const count = stats.severities[sev] || 0;
     if (count > 0) {
       console.log(`  ${sev}: ${count}`);

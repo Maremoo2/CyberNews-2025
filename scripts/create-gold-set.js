@@ -149,6 +149,14 @@ function randomSample(array, n) {
 }
 
 /**
+ * Check if an item should be included in high-confidence subset
+ */
+function isHighConfidenceItem(item) {
+  return item.manual_label_confidence === 'high' || 
+         (!item.manual_label_confidence && item.manual_content_type !== 'unknown');
+}
+
+/**
  * Validate system predictions against gold set
  */
 function validateGoldSet() {
@@ -161,10 +169,7 @@ function validateGoldSet() {
   console.log(`📊 Validating ${goldSet.length} gold set items...\n`);
   
   // Split into all items vs high-confidence subset
-  const highConfidenceSet = goldSet.filter(item => 
-    item.manual_label_confidence === 'high' || 
-    (!item.manual_label_confidence && item.manual_content_type !== 'unknown')
-  );
+  const highConfidenceSet = goldSet.filter(isHighConfidenceItem);
   console.log(`High-confidence subset: ${highConfidenceSet.length}/${goldSet.length} items\n`);
   
   // Helper function to evaluate a dataset
