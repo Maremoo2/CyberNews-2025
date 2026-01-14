@@ -92,7 +92,7 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
                 }}
                 onClick={() => onMonthClick(index)}
               >
-                <title>{`${month}: ${count} incidents`}</title>
+                <title>{`${month}: ${count} items`}</title>
               </path>
             </g>
           )
@@ -135,7 +135,7 @@ function YearWheel({ incidents, selectedMonth, onMonthClick, selectedYear }) {
           textAnchor="middle"
           dominantBaseline="middle"
         >
-          {incidents.length} incidents
+          {incidents.length} items
         </text>
       </svg>
       

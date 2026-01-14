@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { filterToIncidentsOnly } from '../utils/populationUtils'
 import './ThreatActorProfile.css'
 
 // Threat actor categorization
@@ -56,13 +57,8 @@ function ThreatActorProfile({ incidents }) {
   const actorAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
-    // Filter to incident/campaign content types for actor analysis (P0 requirement)
-    // This prevents false positives from opinion pieces and product reviews
-    const relevantIncidents = incidents.filter(i => 
-      i.content_type === 'incident' || 
-      i.content_type === 'campaign' ||
-      !i.content_type // Include items without content_type for backwards compatibility
-    );
+    // Filter to incidents only for actor analysis
+    const relevantIncidents = filterToIncidentsOnly(incidents);
 
     const categoryCounts = {
       'cybercriminal': { count: 0, incidents: [], actors: new Set() },

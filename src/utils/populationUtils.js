@@ -113,10 +113,11 @@ export function normalizeContentType(contentType) {
     'incident': 'incident',
     'breach': 'incident',
     'attack': 'incident',
-    'data-breach': 'incident'
+    'data-breach': 'incident',
+    'campaign': 'incident'  // Campaigns are treated as incidents
   };
 
-  return typeMap[type] || 'incident';
+  return typeMap[type] || 'incident';  // Unknown types default to incident
 }
 
 /**
@@ -252,4 +253,41 @@ export function getEnrichmentQualityMessage(incidents) {
   }
   
   return 'Data quality: Limited enrichment';
+}
+
+/**
+ * Filter items to incidents only (excluding opinion, policy, vulnerability)
+ * This provides a consistent definition of "incidents" across all components
+ * 
+ * Incidents include:
+ * - content_type: 'incident', 'breach', 'attack', 'data-breach', 'campaign'
+ * - Items with no content_type (defaults to incident)
+ * 
+ * Excluded:
+ * - vulnerability, opinion, policy content types
+ * 
+ * Note: This function does NOT deduplicate. If you need unique incidents,
+ * consider using countUniqueIncidents() or deduplicating by canonical_id first.
+ */
+export function filterToIncidentsOnly(items) {
+  if (!items || !Array.isArray(items)) return [];
+  
+  return items.filter(item => {
+    const normalizedType = normalizeContentType(item.content_type);
+    // Only include actual incidents, exclude vulnerability/policy/opinion
+    return normalizedType === 'incident';
+  });
+}
+
+/**
+ * Get the correct count label based on population mode
+ * @param {number} count - The count to display
+ * @param {string} mode - 'incidents' or 'all'
+ * @param {boolean} plural - Whether to use plural form (default: true)
+ */
+export function getCountLabel(count, mode, plural = true) {
+  if (mode === 'incidents') {
+    return plural ? 'incidents' : 'incident';
+  }
+  return plural ? 'items' : 'item';
 }

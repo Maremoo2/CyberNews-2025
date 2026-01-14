@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { getTopThemes, calculateKPIs } from '../utils/analyticsUtils';
+import { filterToIncidentsOnly } from '../utils/populationUtils';
 import './StrategicRiskThemes.css';
 
 // Common sector tags used across the application
@@ -103,15 +104,18 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null;
 
+    // Strategic risk analysis should focus on incidents only
+    const incidentsOnly = filterToIncidentsOnly(incidents);
+
     // Get top 5 themes
-    const topThemes = getTopThemes(incidents, filters, 5);
+    const topThemes = getTopThemes(incidentsOnly, filters, 5);
     
     // Calculate KPIs
-    const kpis = calculateKPIs(incidents, filters);
+    const kpis = calculateKPIs(incidentsOnly, filters);
 
     // For each theme, gather detailed analytics
     const themeDetails = topThemes.themes.map(theme => {
-      const themeIncidents = incidents.filter(i => 
+      const themeIncidents = incidentsOnly.filter(i => 
         i.themes?.some(t => t.id === theme.id)
       );
 
@@ -179,7 +183,7 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
     return {
       themes: themeDetails,
       kpis,
-      totalIncidents: incidents.length
+      totalIncidents: incidentsOnly.length
     };
   }, [incidents, selectedYear, filters]);
 

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
-import { isDataEnriched, getEnrichmentQualityMessage } from '../utils/populationUtils'
+import { isDataEnriched, getEnrichmentQualityMessage, filterToIncidentsOnly } from '../utils/populationUtils'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   // Default to incident-only analysis (P0 requirement)
@@ -10,14 +10,10 @@ function ExecutiveSummary({ incidents, selectedYear }) {
   const analysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
-    // Filter to incidents-only by default (exclude explainers, opinions, products)
+    // Filter to incidents-only by default (exclude opinions, policies, vulnerabilities)
+    // Use consistent filtering across all components
     const filteredIncidents = populationMode === 'incidents' 
-      ? incidents.filter(i => 
-          i.content_type === 'incident' || 
-          i.content_type === 'campaign' ||
-          i.content_type === 'vulnerability' ||
-          !i.content_type // Include items without content_type for backwards compatibility
-        )
+      ? filterToIncidentsOnly(incidents)
       : incidents;
 
     // Check if data is enriched

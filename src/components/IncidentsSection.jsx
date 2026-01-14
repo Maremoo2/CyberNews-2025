@@ -172,17 +172,18 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
       <div className="toolbar">
         <div className="tabs">
           {[
-            { id: "all", label: "ALL", count: tabCounts.all },
-            { id: "incident", label: "INCIDENTS", count: tabCounts.incident },
-            { id: "vulnerability", label: "VULNERABILITIES", count: tabCounts.vulnerability },
-            { id: "policy", label: "POLICY", count: tabCounts.policy },
-            { id: "opinion", label: "OPINION/PREDICTIONS", count: tabCounts.opinion }
+            { id: "all", label: "ALL", count: tabCounts.all, tooltip: "All content types" },
+            { id: "incident", label: "INCIDENTS", count: tabCounts.incident, tooltip: "Incidents, breaches, attacks & campaigns" },
+            { id: "vulnerability", label: "VULNERABILITIES", count: tabCounts.vulnerability, tooltip: "Vulnerabilities and CVEs" },
+            { id: "policy", label: "POLICY", count: tabCounts.policy, tooltip: "Policy, regulation & legal" },
+            { id: "opinion", label: "OPINION/PREDICTIONS", count: tabCounts.opinion, tooltip: "Opinions, predictions & forecasts" }
           ].map((t) => (
             <button
               key={t.id}
               className={tab === t.id ? "tab active" : "tab"}
               onClick={() => setTab(t.id)}
               aria-pressed={tab === t.id}
+              title={t.tooltip}
             >
               {t.label} ({t.count})
             </button>
@@ -242,7 +243,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
       </div>
 
       <div className="meta">
-        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b> incidents
+        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b> {tab === 'all' ? 'items' : tab === 'incident' ? 'incidents' : tab}
       </div>
 
       <div className="list">
