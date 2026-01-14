@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/set-state-in-effect */
 import { useMemo, useState, useEffect, useRef } from "react";
 import './IncidentsSection.css';
 import { normalizeContentType } from '../utils/populationUtils';
@@ -100,7 +99,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
 
   // Reset page when filters change - intentional setState in effect for pagination reset
   useEffect(() => {
-    setPage(1);
+    setPage(1); // eslint-disable-line react-hooks/set-state-in-effect
   }, [tab, pageSize, debouncedQuery, curatedOnly]);
 
   // Update URL params when state changes
@@ -130,13 +129,9 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
   };
 
   // Clear search function
-  const resetSearchState = () => {
+  const clearSearch = () => {
     setQuery('');
     setDebouncedQuery('');
-  };
-
-  const clearSearch = () => {
-    resetSearchState();
     if (searchInputRef.current) {
       searchInputRef.current.focus();
     }
@@ -159,7 +154,10 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     if (curatedOnly) filters.push({ label: 'Curated only', clear: () => setCuratedOnly(false) });
     if (debouncedQuery) filters.push({ 
       label: `Search: "${debouncedQuery}"`, 
-      clear: resetSearchState
+      clear: () => {
+        setQuery('');
+        setDebouncedQuery('');
+      }
     });
     return filters;
   }, [tab, curatedOnly, debouncedQuery]);

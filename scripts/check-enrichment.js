@@ -25,6 +25,9 @@ const RAW_FILES = [
   'data/incidents-2026.json'
 ];
 
+// Tolerance for timestamp comparison to account for git operations
+const TIMESTAMP_TOLERANCE_MS = 1000;
+
 console.log('🔍 Checking enrichment status...\n');
 
 let needsEnrichment = false;
@@ -43,8 +46,7 @@ for (const file of ENRICHED_FILES) {
     if (fs.existsSync(rawPath)) {
       const rawStats = fs.statSync(rawPath);
       
-      // Check if raw file is newer than enriched (allow tolerance for git operations)
-      const TIMESTAMP_TOLERANCE_MS = 1000;
+      // Check if raw file is newer than enriched
       const timeDiff = rawStats.mtime - stats.mtime;
       if (timeDiff > TIMESTAMP_TOLERANCE_MS) {
         console.log(`⚠️  Outdated: ${file} (raw data is newer by ${Math.round(timeDiff/1000)}s)`);
