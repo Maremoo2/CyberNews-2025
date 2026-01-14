@@ -253,3 +253,30 @@ export function getEnrichmentQualityMessage(incidents) {
   
   return 'Data quality: Limited enrichment';
 }
+
+/**
+ * Filter items to incidents only (excluding opinion, policy, vulnerability)
+ * This provides a consistent definition of "incidents" across all components
+ */
+export function filterToIncidentsOnly(items) {
+  if (!items || !Array.isArray(items)) return [];
+  
+  return items.filter(item => {
+    const normalizedType = normalizeContentType(item.content_type);
+    // Only include actual incidents, exclude vulnerability/policy/opinion
+    return normalizedType === 'incident';
+  });
+}
+
+/**
+ * Get the correct count label based on population mode
+ * @param {number} count - The count to display
+ * @param {string} mode - 'incidents' or 'all'
+ * @param {boolean} plural - Whether to use plural form (default: true)
+ */
+export function getCountLabel(count, mode, plural = true) {
+  if (mode === 'incidents') {
+    return plural ? 'incidents' : 'incident';
+  }
+  return plural ? 'items' : 'item';
+}

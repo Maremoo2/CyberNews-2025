@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { filterToIncidentsOnly } from '../utils/populationUtils'
 import './ThreatIntelligence.css'
 
 // MITRE ATT&CK Tactics and Techniques
@@ -122,14 +123,9 @@ function ThreatIntelligence({ incidents }) {
   const mitreAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
-    // Filter to incident/campaign/vulnerability for MITRE analysis (P1 requirement)
-    // Excludes policy, opinion, explainer, and product content
-    const relevantIncidents = incidents.filter(i => 
-      i.content_type === 'incident' || 
-      i.content_type === 'campaign' ||
-      i.content_type === 'vulnerability' ||
-      !i.content_type // Include items without content_type for backwards compatibility
-    );
+    // Filter to incidents only for MITRE analysis
+    // Excludes policy, opinion, vulnerability content
+    const relevantIncidents = filterToIncidentsOnly(incidents);
 
     const tacticCounts = {}
     const techniqueDetails = {}

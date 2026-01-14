@@ -242,7 +242,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
       </div>
 
       <div className="meta">
-        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b> incidents
+        Showing <b>{filtered.length ? start : 0}</b>–<b>{filtered.length ? end : 0}</b> of <b>{filtered.length}</b> {tab === 'all' ? 'items' : tab === 'incident' ? 'incidents' : tab}
       </div>
 
       <div className="list">

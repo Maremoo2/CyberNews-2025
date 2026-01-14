@@ -92,7 +92,7 @@ function ThreatLandscapeSnapshot({ incidents }) {
           <div className="card-icon">🚪</div>
           <h3>Top Initial Access</h3>
           <div className="card-value">{snapshot.topInitialAccess[0]}</div>
-          <div className="card-stat">{snapshot.topInitialAccess[1]} incidents</div>
+          <div className="card-stat">{snapshot.topInitialAccess[1]} items</div>
         </div>
 
         <div className="snapshot-card">

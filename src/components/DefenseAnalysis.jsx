@@ -1,9 +1,13 @@
 import { useMemo } from 'react'
+import { filterToIncidentsOnly } from '../utils/populationUtils'
 import './DefenseAnalysis.css'
 
 function DefenseAnalysis({ incidents, selectedYear }) {
   const analysis = useMemo(() => {
-    if (!incidents || incidents.length === 0) return null
+    // Defense analysis should focus on incidents only
+    const incidentsOnly = filterToIncidentsOnly(incidents);
+    
+    if (!incidentsOnly || incidentsOnly.length === 0) return null
 
     // Analyze what defense mechanisms were mentioned in public reporting
     const defenseKeywords = {
@@ -66,7 +70,7 @@ function DefenseAnalysis({ incidents, selectedYear }) {
       toolMentions[tool] = 0
     })
 
-    incidents.forEach(incident => {
+    incidentsOnly.forEach(incident => {
       const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase()
 
       // Count defense successes
@@ -110,7 +114,7 @@ function DefenseAnalysis({ incidents, selectedYear }) {
       successfulDefenses,
       commonFailures,
       topTools,
-      totalIncidents: incidents.length
+      totalIncidents: incidentsOnly.length
     }
   }, [incidents])
 
