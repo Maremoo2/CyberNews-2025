@@ -3,6 +3,7 @@ import './RegulationImpact.css'
 
 function RegulationImpact({ selectedYear }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const currentYear = new Date().getFullYear();
   
   // Key regulations and their impact

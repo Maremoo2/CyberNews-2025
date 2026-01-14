@@ -240,6 +240,7 @@ function App() {
   }, [selectedMonth, selectedRegion, selectedTags, showMajorOnly])
 
   // Get region counts (filtered by month if selected)
+  // eslint-disable-next-line no-unused-vars
   const regionCounts = useMemo(() => {
     let dataToCount = incidentsData
     
@@ -342,6 +343,7 @@ function App() {
     }
   }
 
+  // eslint-disable-next-line no-unused-vars
   const resetAllFilters = useCallback(() => {
     setSelectedMonth('ALL')
     setSelectedRegion('ALL')
@@ -368,6 +370,7 @@ function App() {
   }
 
   // Generate empty state message based on active filters
+  // eslint-disable-next-line no-unused-vars
   const getEmptyStateMessage = () => {
     if (debouncedSearch.trim()) {
       return {

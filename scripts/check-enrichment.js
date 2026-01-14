@@ -25,9 +25,11 @@ const RAW_FILES = [
   'data/incidents-2026.json'
 ];
 
+// Tolerance for timestamp comparison to account for git operations
+const TIMESTAMP_TOLERANCE_MS = 1000;
+
 console.log('🔍 Checking enrichment status...\n');
 
-let allEnrichedExist = true;
 let needsEnrichment = false;
 
 // Check if enriched files exist
@@ -35,7 +37,6 @@ for (const file of ENRICHED_FILES) {
   const filePath = path.join(PROJECT_ROOT, file);
   if (!fs.existsSync(filePath)) {
     console.log(`⚠️  Missing: ${file}`);
-    allEnrichedExist = false;
     needsEnrichment = true;
   } else {
     const stats = fs.statSync(filePath);
@@ -46,8 +47,9 @@ for (const file of ENRICHED_FILES) {
       const rawStats = fs.statSync(rawPath);
       
       // Check if raw file is newer than enriched
-      if (rawStats.mtime > stats.mtime) {
-        console.log(`⚠️  Outdated: ${file} (raw data is newer)`);
+      const timeDiff = rawStats.mtime - stats.mtime;
+      if (timeDiff > TIMESTAMP_TOLERANCE_MS) {
+        console.log(`⚠️  Outdated: ${file} (raw data is newer by ${Math.round(timeDiff/1000)}s)`);
         needsEnrichment = true;
       } else {
         console.log(`✅ Up-to-date: ${file}`);
