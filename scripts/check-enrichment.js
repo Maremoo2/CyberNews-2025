@@ -43,9 +43,10 @@ for (const file of ENRICHED_FILES) {
     if (fs.existsSync(rawPath)) {
       const rawStats = fs.statSync(rawPath);
       
-      // Check if raw file is newer than enriched (allow 1 second tolerance for git operations)
+      // Check if raw file is newer than enriched (allow tolerance for git operations)
+      const TIMESTAMP_TOLERANCE_MS = 1000;
       const timeDiff = rawStats.mtime - stats.mtime;
-      if (timeDiff > 1000) {
+      if (timeDiff > TIMESTAMP_TOLERANCE_MS) {
         console.log(`⚠️  Outdated: ${file} (raw data is newer by ${Math.round(timeDiff/1000)}s)`);
         needsEnrichment = true;
       } else {

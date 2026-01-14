@@ -130,13 +130,13 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
   };
 
   // Clear search function
-  const clearSearchQuery = () => {
+  const resetSearchState = () => {
     setQuery('');
     setDebouncedQuery('');
   };
 
   const clearSearch = () => {
-    clearSearchQuery();
+    resetSearchState();
     if (searchInputRef.current) {
       searchInputRef.current.focus();
     }
@@ -159,7 +159,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     if (curatedOnly) filters.push({ label: 'Curated only', clear: () => setCuratedOnly(false) });
     if (debouncedQuery) filters.push({ 
       label: `Search: "${debouncedQuery}"`, 
-      clear: clearSearchQuery
+      clear: resetSearchState
     });
     return filters;
   }, [tab, curatedOnly, debouncedQuery]);
