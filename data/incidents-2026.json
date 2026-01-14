@@ -1,5 +1,267 @@
 [
   {
+    "id": "20262258",
+    "date": "2026-01-14",
+    "title": "Dark Web Forum Breached, Hackers Exposed",
+    "summary": "BreachForums faced a data breach of its own.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102076-dark-web-forum-breached-hackers-exposed",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262259",
+    "date": "2026-01-14",
+    "title": "Grosse sanction de la CNIL contre Free, lourdement condamné après la cyberattaque d'octobre 2024",
+    "summary": "La CNIL a annoncé, mercredi, avoir sanctionné Free Mobile et Free d'une amende de 42 millions d'euros, pour violation du RGPD. Une conséquence de la cyberattaque subie il y a un an et demi par l'opérateur.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595087-grosse-sanction-de-la-cnil-contre-free-lourdement-condamne-apres-la-cyberattaque-d-octobre-2024.html",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262260",
+    "date": "2026-01-14",
+    "title": "Attention, cette arnaque par phishing sur Facebook est presque impossible à détecter",
+    "summary": "Les attaques par hameçonnage ciblant Facebook se multiplient. Les cybercriminels parviennent désormais à reproduire bien plus fidèlement les fenêtres d'authentification du réseau social directement dans le navigateur.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595048-attention-cette-arnaque-par-phishing-sur-facebook-est-presque-impossible-a-detecter.html",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262261",
+    "date": "2026-01-14",
+    "title": "Ce VPN premium coûte à peine plus de 3 € par mois… et l’offre ne va clairement pas durer",
+    "summary": "Habituellement réservé aux utilisateurs prêts à payer le prix fort pour la qualité, ExpressVPN devient soudain beaucoup plus accessible. Avec un tarif de 3,19 € par mois pendant 2 ans et 4 mois offerts, soit 74 % de réduction, ce VPN premium s’invite parmi les meilleures offres du moment.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-595009-ce-vpn-premium-coute-a-peine-plus-de-3-par-mois-et-l-offre-ne-va-clairement-pas-durer.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262262",
+    "date": "2026-01-14",
+    "title": "La loi cybersécurité dort dans les tiroirs de l'Assemblée nationale depuis des mois, un député lance l'alerte",
+    "summary": "Le député Philippe Latombe interpelle, dans une lettre, la ministre du Numérique Anne Le Hénaff sur le retard du projet de loi cybersécurité. Voté en commission il y a quatre mois, le texte reste bloqué, ce qui pose problème.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595063-la-loi-cybersecurite-dort-dans-les-tiroirs-de-l-assemblee-nationale-depuis-des-mois-un-depute-crie-a-l-urgence.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262263",
+    "date": "2026-01-14",
+    "title": "Votre Mac n'est pas à l'abri des menaces, protégez le vôtre avant qu’il ne soit trop tard !",
+    "summary": "Longtemps perçus comme à l’abri des menaces, les Mac sont aujourd’hui de plus en plus ciblés par les virus, ransomwares et tentatives de phishing. Bonne nouvelle, il existe une solution pensée spécifiquement pour macOS. Avec Intego et son Mac Premium Bundle à 2,50 € par mois pour 1 Mac, la protec...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-595042-votre-mac-n-est-pas-a-l-abri-des-menaces-protegez-le-votre-avant-qu-il-ne-soit-trop-tard.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262264",
+    "date": "2026-01-14",
+    "title": "MS-ISAC Flags High-Risk Security Flaws in Fortinet Products",
+    "summary": "A new cybersecurity advisory from the Multi-State Information Sharing and Analysis Center (MS-ISAC) is alerting organizations to multiple vulnerabilities affecting Fortinet products, some of which could allow attackers to execute arbitrary code on impacted systems. The advisory, identified as MS-...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ms-isac-fortinet-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262265",
+    "date": "2026-01-14",
+    "title": "Nicole Ozer Joins CPPA to Drive Privacy and Digital Security Initiatives",
+    "summary": "The California Privacy Protection Agency (CalPrivacy) has announced a significant leadership appointment, as Assembly Speaker Robert Rivas named Nicole Ozer to the CPPA Board, emphasising California’s ongoing commitment to strengthening consumer privacy protections. The Nicole Ozer appointment co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/nicole-ozer-appointment/",
+    "tags": [
+      "government"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262266",
+    "date": "2026-01-14",
+    "title": "Anthropic backs Python Software Foundation security work with $1.5 million",
+    "summary": "Anthropic has signed a two-year partnership with the Python Software Foundation (PSF), committing a total of $1.5 million to support the foundation’s work, with a focus on Python ecosystem security. Anthropic’s funding will help the PSF move its security roadmap forward, including work aimed at p...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/anthropic-python-software-foundation-1-5-million-funding/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262267",
+    "date": "2026-01-14",
+    "title": "Scamnetic delivers fraud protection across all payment types",
+    "summary": "Scamnetic announced a new trajectory for its patented IDeveryone solution, capable of identity-proofing virtually anyone globally during a consumer or business payment. IDeveryone Payment Protection delivers extensive protection across all payment types, including push and digital payments, crypt...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/scamnetic-ideveryone-payment-protection/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262268",
+    "date": "2026-01-14",
+    "title": "CISO Assistant: Open-source cybersecurity management and GRC",
+    "summary": "CISO Assistant is an open-source governance, risk, and compliance (GRC) platform designed to help security teams document risks, controls, and framework alignment in a structured system. The community edition is maintained as a self-hosted tool for organizations that want direct access to the cod...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/ciso-assistant-open-source-cybersecurity-management-grc/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262269",
+    "date": "2026-01-14",
+    "title": "Firmware scanning time, cost, and where teams run EMBA",
+    "summary": "Security teams that deal with connected devices often end up running long firmware scans overnight, checking progress in the morning, and trying to explain to colleagues why a single image consumed a workday of compute time. That routine sets the context for a new research paper that examines how...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/emba-iot-firmware-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262270",
+    "date": "2026-01-14",
+    "title": "Three Zero-Days, 114 Flaws Fixed: Microsoft Kicks Off 2026 with a Major Patch Tuesday",
+    "summary": "This month’s Patch Tuesday marks a significant start to the year, with Microsoft delivering a heavy volume of updates to address 114 vulnerabilities. This includes 3 zero-day flaws, one of which is actively exploited. The sheer volume, doubling the count from last month, highlights the importance...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/three-zero-days-114-flaws-fixed-microsoft-kicks-off-2026-with-a-major-patch-tuesday/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262272",
+    "date": "2026-01-14",
+    "title": "German Manufacturing Under Phishing Attacks: Tracking a Stealthy AsyncRAT Campaign ",
+    "summary": "Manufacturing companies have quietly become one of the most hunted species in the modern threat landscape. Not because they are careless, but because they are operationally critical, geographically distributed, and often rely on complex IT and OT environments that attackers love to probe. Key Tak...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/german-manufacture-attack/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262274",
+    "date": "2026-01-14",
+    "title": "G7 Sets 2034 Deadline for Finance to Adopt Quantum-Safe Systems",
+    "summary": "The financial sector should finalize its post-quantum cryptography transition circa 2034, G7 cyber experts said",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/g7-2034-deadline-finance-pqc/",
+    "tags": [
+      "finance",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262275",
+    "date": "2026-01-14",
+    "title": "Microsoft Fixes Three Zero-Days on Busy Patch Tuesday",
+    "summary": "Microsoft has patched three zero-day vulnerabilities in the first patch Tuesday of 2026, including one under active exploitation",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/microsoft-three-zerodays-busy/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262276",
+    "date": "2026-01-14",
+    "title": "Impersonation Fraud Drives Record $17bn in Crypto Losses ",
+    "summary": "Chainalysis estimates $17bn will be lost to crypto scams in 2025 as AI takes hold",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/impersonation-fraud-record-17bn/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262277",
+    "date": "2026-01-14",
+    "title": "UK Digital ID Scheme Faces Resistance Over Security Concerns",
+    "summary": "The scheme once appeared inevitable, but that confidence has unraveled amid intense public backlash and troubling security revelations. The post UK Digital ID Scheme Faces Resistance Over Security Concerns appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-uk-digital-id-scheme-resistance/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20262154",
     "date": "2026-01-14",
     "title": "[Ekstra] Ekstreme KI-ambisjoner: Vil gi milliarder av mennesker «personlig superintelligens»",
@@ -814,6 +1076,18 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262273",
+    "date": "2026-01-13",
+    "title": "Your personal information is on the dark web. What happens next?",
+    "summary": "If your data is on the dark web, it’s probably only a matter of time before it’s abused for fraud or account hijacking. Here’s what to do.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/privacy/information-dark-web-what-happens-next/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "20262188",
@@ -4184,6 +4458,18 @@
     "tags": [
       "Data/IT"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20262271",
+    "date": "2026-01-12",
+    "title": "Fast-tracking safety: Custom pharmaceutical labels for high-speed lines",
+    "summary": "In this post, I will talk about fast-tracking safety by using custom pharmaceutical labels for high-speed lines. In the pharmaceutical industry, the margin for error is non-existent. When production lines are running at breakneck speeds to meet global demand, a label is never just a label. It is ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/fast-tracking-safety-custom-pharmaceutical-labels/",
+    "tags": [],
     "impact": 3
   },
   {
