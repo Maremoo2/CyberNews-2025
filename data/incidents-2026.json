@@ -1,5 +1,103 @@
 [
   {
+    "id": "20262147",
+    "date": "2026-01-14",
+    "title": "How AI image tools can be tricked into making political propaganda",
+    "summary": "A single image can shift public opinion faster than a long post. Text to image systems can be pushed to create misleading political visuals, even when safety filters are in place, according to a new study. The researchers examined whether commercial text to image tools can be tricked into produci...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/ai-generated-political-propaganda-study/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262148",
+    "date": "2026-01-14",
+    "title": "Product showcase: Orbot – Tor VPN for iOS",
+    "summary": "Orbot for iOS is a free, open-source networking tool that routes supported app traffic through the Tor network. Developed by the Guardian Project, it is intended for users who want to reduce tracking and limit network-level monitoring on iPhone and iPad. How it works Orbot routes internet traffic...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/product-showcase-orbot-tor-ios/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262149",
+    "date": "2026-01-14",
+    "title": "Proton expands Lumo AI assistant with encrypted, project-based workspaces",
+    "summary": "Lumo is Proton’s AI assistant, built with a focus on privacy and user control. It runs on Proton’s infrastructure and is designed so conversations are not used to train models or retained beyond what is required to provide the service. Lumo avoids tracking, limits data exposure, and keeps user in...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/proton-lumo-1-3-projects/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262150",
+    "date": "2026-01-14",
+    "title": "Security-KPIs und -KRIs: So messen Sie Cybersicherheit",
+    "summary": "Cybersicherheit zu messen, ist kein Kinderspiel. Foto: Ultraskrip – shutterstock.comEine wichtige Säule jedes ausgereiften Cyberrisk-Programms ist die Fähigkeit, die Performance der IT-Security und registrierte Bedrohungen zu messen, zu analysieren und zu melden. Die Cybersecurity zu messen, ist ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3495619/security-kpis-und-kris-so-messen-sie-cybersicherheit.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262151",
+    "date": "2026-01-14",
+    "title": "January 2026 Microsoft Patch Tuesday: Actively exploited zero day needs attention",
+    "summary": "Eight critical vulnerabilities and an actively exploited zero day highlight Microsoft’s first Patch Tuesday announcements for 2026. Most of the higher scoring vulnerabilities impact Office products, with two holes in SharePoint scoring an 8.8 on the CVSS scale. “Last year’s abuse of SharePoint by...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116437/january-2026-microsoft-patch-tuesday-actively-exploited-zero-day-needs-attention.html",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262152",
+    "date": "2026-01-14",
+    "title": "Taiwan Endures Greater Cyber Pressure From China",
+    "summary": "Chinese cyberattacks on Taiwan's critical infrastructure — including energy utilities and hospitals — rose 6% in 2025, averaging 2.63 million attacks a day.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/taiwan-sees-greater-cyber-pressure-from-china",
+    "tags": [
+      "malware",
+      "healthcare",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262153",
+    "date": "2026-01-13",
+    "title": "CISO Succession Crisis Highlights How Turnover Amplifies Security Risks",
+    "summary": "When cybersecurity leadership turns over too fast, risk does not reset. It compounds.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ciso-succession-crisis-highlights-turnover-amplifies-security-risks",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20262132",
     "date": "2026-01-13",
     "title": "Microsoft Patch Tuesday January 2026: Actively Exploited Zero Day, 8 High-Risk Flaws",
