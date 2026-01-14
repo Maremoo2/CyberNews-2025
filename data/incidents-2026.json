@@ -1,5 +1,557 @@
 [
   {
+    "id": "20262288",
+    "date": "2026-01-14",
+    "title": "AI security firm, depthfirst, announces $40 million Series A",
+    "summary": "The company used an AI-native platform to help companies fight threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/14/ai-security-firm-depthfirst-announces-40-million-series-a/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262289",
+    "date": "2026-01-14",
+    "title": "US cargo tech company publicly exposed its shipping systems and customer data to the web",
+    "summary": "Shipping tech company Bluspark left internal plaintext passwords, including those of executives, exposed to the internet, at a time when hacks in the shipping industry are on the rise.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/14/us-cargo-tech-company-publicly-exposed-its-shipping-systems-and-customer-data-to-the-web/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262290",
+    "date": "2026-01-14",
+    "title": "U.S. Weighs Expanding Private Companies’ Role in Cyberwarfare",
+    "summary": "The proposal raises a host of questions about the legality and practicality of bolstering the involvement of the private sector in offensive cyberoperations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "New York Times Cybersecurity",
+    "sourceUrl": "https://www.nytimes.com/2026/01/14/us/politics/us-cyberwarfare-private-companies.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262291",
+    "date": "2026-01-14",
+    "title": "Ransomware : devez-vous payer la rançon ?",
+    "summary": "Quelle que soit leur taille, toutes les entreprises peuvent, un jour ou l’autre, et parfois à plusieurs reprises, être victimes d’une attaque par ransomware. Après le choc, vient le temps de la décision : payer ou non la rançon, et surtout, dans quel cadre légal et opérationnel agir.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/dossier-594280-ransomware-devez-vous-payer-la-rancon-analyse-legale-et-pratique.html",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262292",
+    "date": "2026-01-14",
+    "title": "LinkedIn vous informe que votre compte est restreint ? C’est probablement du phishing",
+    "summary": "Des escrocs détournent les commentaires LinkedIn pour diffuser de faux avertissements de restriction, renvoyer vers un formulaire malveillant et siphonner des identifiants de connexion.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595192-linkedin-vous-informe-que-votre-compte-est-restreint-c-est-probablement-du-phishing.html",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262293",
+    "date": "2026-01-14",
+    "title": "Windows 11 engage un changement de sécurité majeur, mais pas pour tous les PC",
+    "summary": "En marge du Patch Tuesday de janvier, Microsoft a commencé à remplacer automatiquement les certificats Secure Boot appelés à expirer à partir de juin 2026. Un changement nécessaire pour la sécurité des PC.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595156-windows-11-engage-un-changement-de-securite-majeur-mais-pas-pour-tous-les-pc.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262294",
+    "date": "2026-01-14",
+    "title": "Windows 11 entame 2026 avec un Patch Tuesday marqué par 114 failles, dont une déjà exploitée",
+    "summary": "Pour son premier Patch Tuesday de 2026, Microsoft sort l’artillerie lourde. 114 vulnérabilités ont été corrigées, parmi lesquelles trois zero-days, dont une exploitée dans des attaques et deux autres déjà divulguées.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595129-windows-11-entame-2026-avec-un-patch-tuesday-marque-par-114-failles-dont-une-deja-exploitee.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262295",
+    "date": "2026-01-14",
+    "title": "AI surges among top business risk concerns, while cybersecurity holds firm",
+    "summary": "A report from Allianz Commercial shows the rapid embrace of AI is posing new challenges for enterprise leaders.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ai-surges-business-risk-cybersecurity-holds/809620/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262296",
+    "date": "2026-01-14",
+    "title": "Trump resubmits Sean Plankey for CISA director",
+    "summary": "It’s unclear when the Senate will act on Plankey’s nomination, which stalled last year after multiple senators blocked it.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-trump-renominate-sean-plankey/809614/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262297",
+    "date": "2026-01-14",
+    "title": "Monroe University suffers data breach impacting 320,000 people",
+    "summary": "Monroe University has disclosed a major data breach affecting more than 320,000 individuals, following a prolonged forensic investigation that concluded nearly a year after the intrusion took place. Although no evidence of fraud or identity theft has been detected, the exposed data includes a bro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/monroe-university-suffers-data-breach-impacting-320000-people/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262298",
+    "date": "2026-01-14",
+    "title": "France fines Free €42 million over 2024 data breach affecting 24M clients",
+    "summary": "France’s data protection authority, the CNIL, has imposed a combined €42 million fine on Free Mobile and its parent company Free SAS for failing to implement adequate security measures that led to a large-scale data breach in October 2024. The breach exposed sensitive customer data linked to 24 m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/france-fines-free-e42-million-over-2024-data-breach-affecting-24m-clients/",
+    "tags": [
+      "data-breach",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262299",
+    "date": "2026-01-14",
+    "title": "Modern chips exposed to new “Memory Disorder” side-channel attack",
+    "summary": "A new powerful side-channel attack called MEMORY DISORDER is capable of leaking information from modern CPUs and GPUs from Intel, Apple, and AMD, without relying on timers. The implications of the research are far-reaching, demonstrating practical covert channels and application fingerprinting ac...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/amd-chips-exposed-to-new-memory-disorder-side-channel-attack/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262300",
+    "date": "2026-01-14",
+    "title": "Firefox 147 tightens web security, reduces data sharing with Google",
+    "summary": "Mozilla has released Firefox 147 to the stable channel, introducing enhanced web security via Safe Browsing V5, improved video playback on AMD GPUs, native WebGPU support for Apple Silicon Macs, and patches for multiple high-impact vulnerabilities. Privacy and security upgrades A key highlight of...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/firefox-147-tightens-web-security-reduces-data-sharing-with-google/",
+    "tags": [
+      "google",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262301",
+    "date": "2026-01-14",
+    "title": "Webinar: Beyond the Quadrant: An Analyst’s Guide to Evaluating Email Security in 2026",
+    "summary": "Join former Gartner analyst Ravisha Chugh and Abnormal’s Director of Product Marketing, Lane Billings, on January 20th for an exclusive insider look at how email security vendors will be evaluated in 2026. Backed by years of analyst experience and deep market insight, this session equips security...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/abnormal-ai-webinar-beyond-the-quadrant/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262302",
+    "date": "2026-01-14",
+    "title": "SpyCloud launches Supply Chain Threat Protection to expose vendor identity risk",
+    "summary": "SpyCloud has released Supply Chain Threat Protection solution, an advanced layer of defense that expands identity threat protection across the extended workforce, including organizations’ entire vendor ecosystems. SpyCloud Supply Chain Threat Protection provides timely access to identity threats ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/spycloud-supply-chain-threat-protection/",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262303",
+    "date": "2026-01-14",
+    "title": "Airia adds AI Governance for compliance, accountability, and control",
+    "summary": "Airia announced the launch of its AI Governance product, the third pillar of its comprehensive enterprise AI management ecosystem. The new offering joins Airia’s established AI Security and Agent Orchestration capabilities to provide enterprises with end-to-end visibility, control, and compliance...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/airia-adds-ai-governance-for-compliance-accountability-and-control/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262304",
+    "date": "2026-01-14",
+    "title": "One Identity Manager 10.0 introduces risk-based governance and ITDR capabilities",
+    "summary": "One Identity has unveiled a major upgrade to One Identity Manager, strengthening identity governance as a critical security control for modern enterprise environments. One Identity Manager 10.0 introduces security-driven capabilities for risk-based governance, identity threat detection and respon...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/14/one-identity-manager-10-0/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20262305",
+    "date": "2026-01-14",
+    "title": "Fortinet FortiSandbox SSRF Bug Proxies Internal Network Requests",
+    "summary": "Fortinet has patched an SSRF vulnerability in FortiSandbox that could let attackers proxy internal traffic via crafted HTTP requests. Although Fortinet rated the issue as low severity, the flaw impacts a security appliance often deployed in segmented environments, which could make it a useful piv...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortinet-fortisandbox-ssrf-bug-proxies-internal-network-requests/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262306",
+    "date": "2026-01-14",
+    "title": "Smart Technology Features That Improve Property Management",
+    "summary": "Smart technology has become an essential part of modern property management. Property owners and managers rely on digital tools to handle daily responsibilities with more accuracy and less manual effort. These tools support everything from building access to maintenance coordination, creating a s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/smart-technology-features-property-management/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262307",
+    "date": "2026-01-14",
+    "title": "UAC-0190 Attack Detection: Fake Charity Lures Used to Deploy the PLUGGYAPE Backdoor Against the Ukrainian Armed Forces",
+    "summary": "On January 12, 2026, the CERT-UA team disclosed a targeted cyber-espionage campaign against the Ukrainian Armed Forces that abused charity-themed social engineering to deliver the PLUGGYAPE backdoor. The activity, observed between October and December 2025, is attributed with medium confidence to...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/uac-0190-attacks-detection/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262308",
+    "date": "2026-01-14",
+    "title": "Managing Ransomware Remediation To Reduce Long-Term Damage",
+    "summary": "What key steps must organizations follow to ensure effective ransomware remediation in the event of a data breach?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/managing-ransomware-remediation-to-reduce-damage/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262309",
+    "date": "2026-01-14",
+    "title": "Developing A Ransomware Backup Strategy Your Business Can Trust",
+    "summary": "A clear ransomware backup strategy is a critical part of any firm's defenses. Here's what you need to know.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/developing-a-ransomware-backup-strategy/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262310",
+    "date": "2026-01-14",
+    "title": "Ransomware Protection: A Complete Guide To Preventing Modern Attacks",
+    "summary": "What must all firms know in order to improve their ransomware protection strategy for the threats of 2026?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/ransomware-protection-a-complete-guide-2026/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262311",
+    "date": "2026-01-14",
+    "title": "Double Extortion Ransomware: What It Is, How It Works And How To Prevent It",
+    "summary": "What is double extortion ransomware and what should firms know in order to protect against this threat?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/understanding-double-extortion-ransomware-prevention-and-response/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262312",
+    "date": "2026-01-14",
+    "title": "Shadow AI And The Expanding Enterprise Attack Surface",
+    "summary": "Shadow AI is expanding the enterprise attack surface. Learn how unsanctioned AI use drives data leakage risks and why real-time prevention is needed.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/shadow-ai-and-expanding-enterprise-attack-surface/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262313",
+    "date": "2026-01-14",
+    "title": "How to Prevent Ransomware Attacks: Key Practices to Know About",
+    "summary": "Are you aware of the differences between data privacy vs data security that may impact how you develop a comprehensive protection strategy",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/how-to-prevent-ransomware-attacks-key-practices-to-know-about/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262314",
+    "date": "2026-01-14",
+    "title": "Ransomware Detection: Effective Strategies and Tools",
+    "summary": "Find out what tools and techniques organizations need to create an effective ransomware detection solution.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/ransomware-detection-effective-strategies/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262315",
+    "date": "2026-01-14",
+    "title": "SpyCloud Launches Supply Chain Solution to Combat Rising Third-Party Identity Threats",
+    "summary": "SpyCloud, the leader in identity threat protection, today announced the launch of its Supply Chain Threat Protection solution, an advanced layer of defense that expands identity threat protection across the extended workforce, including organizations’ entire vendor ecosystems. Unlike traditional ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116536/spycloud-launches-supply-chain-solution-to-combat-rising-third-party-identity-threats.html",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262316",
+    "date": "2026-01-14",
+    "title": "'VoidLink' Malware Poses Advanced Threat to Linux Systems",
+    "summary": "Researchers discovered a modular, \"cloud-first\" framework that is feature-rich and designed to maintain stealthy, long-term access to Linux environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/voidlink-malware-advanced-threat-linux-systems",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262318",
+    "date": "2026-01-14",
+    "title": "Criminal Subscription Service Behind AI-Powered Cyber-Attacks Taken Out By Microsoft ",
+    "summary": "RedVDS cyber-crime-as-a-service platform powering phishing, BEC attacks and other fraud has cost victims millions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/criminal-subscription-service/",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262319",
+    "date": "2026-01-14",
+    "title": "Hackers Use Fake PayPal Notices to Steal Credentials, Deploy RMMs",
+    "summary": "Phishing attacks have been identified using fake PayPal alerts to exploit remote monitoring and management tools",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hackers-fake-paypal-notices-deploy/",
+    "tags": [
+      "vulnerability",
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262320",
+    "date": "2026-01-14",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts For Proxy Rotation",
+    "summary": "A new DeadLock ransomware operation uses Polygon blockchain smart contracts to manage proxy server addresses",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/deadlock-polygon-smart-contracts/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262321",
+    "date": "2026-01-14",
+    "title": "All You Need to Know About Cyber Incident Response Playbooks in 2026",
+    "summary": "Given the cyber crime onslaught that the global business community suffered in 2025, mere compliance or a reactive mindset is just not going to cut it in 2026. Organisations must be prepared and proactive when it comes to handling cyber incidents this year. That readiness starts with well-constru...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/all-you-need-to-know-about-cyber-incident-response-playbooks-in-2026",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262322",
+    "date": "2026-01-14",
+    "title": "Leaked Data Exposes Thousands of Border Patrol, ICE Agents After Renee Good Shooting",
+    "summary": "A reported DHS leak exposed personal details of about 4,500 ICE and Border Patrol agents after a Minneapolis shooting, raising safety and ethics concerns. The post Leaked Data Exposes Thousands of Border Patrol, ICE Agents After Renee Good Shooting appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-leaked-data-exposes-thousands-border-patrol-ice-agents/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262323",
+    "date": "2026-01-14",
+    "title": "Microsoft updates Windows DLL that triggered security alerts",
+    "summary": "Microsoft has resolved a known issue that was causing security applications to incorrectly flag a core Windows component, the company said in a service alert posted this week. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-updates-windows-dll-that-triggered-security-alerts/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262324",
+    "date": "2026-01-14",
+    "title": "ConsentFix debrief: Insights from the new OAuth phishing attack",
+    "summary": "ConsentFix is an OAuth phishing technique abusing browser-based authorization flows to hijack Microsoft accounts. Push Security shares new insights from continued tracking, community research, and evolving attacker techniques. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/consentfix-debrief-insights-from-the-new-oauth-phishing-attack/",
+    "tags": [
+      "phishing",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262325",
+    "date": "2026-01-14",
+    "title": "Reprompt attack hijacked Microsoft Copilot sessions for data theft",
+    "summary": "Researchers identified an attack method dubbed \"Reprompt\" that could allow attackers to infiltrate a user's Microsoft Copilot session and issue commands to exfiltrate sensitive data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/reprompt-attack-let-hackers-hijack-microsoft-copilot-sessions/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262286",
     "date": "2026-01-14",
     "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
@@ -1221,6 +1773,22 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262317",
+    "date": "2026-01-13",
+    "title": "CrowdStrike to Buy Seraphic Security in Bid to Boost Browser Security",
+    "summary": "The browser protection and detection technology will be integrated into CrowdStrike's Falcon platform to protect endpoints, browser sessions, and cloud applications.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/crowdstrike-buy-seraphic-security-boost-browser-security",
+    "tags": [
+      "malware",
+      "cloud",
+      "crowdstrike"
+    ],
+    "impact": 3
   },
   {
     "id": "20262273",
