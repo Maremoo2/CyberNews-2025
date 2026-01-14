@@ -122,6 +122,15 @@ function ThreatIntelligence({ incidents }) {
   const mitreAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
+    // Filter to incident/campaign/vulnerability for MITRE analysis (P1 requirement)
+    // Excludes policy, opinion, explainer, and product content
+    const relevantIncidents = incidents.filter(i => 
+      i.content_type === 'incident' || 
+      i.content_type === 'campaign' ||
+      i.content_type === 'vulnerability' ||
+      !i.content_type // Include items without content_type for backwards compatibility
+    );
+
     const tacticCounts = {}
     const techniqueDetails = {}
 
@@ -132,7 +141,7 @@ function ThreatIntelligence({ incidents }) {
     })
 
     // Analyze each incident
-    incidents.forEach(incident => {
+    relevantIncidents.forEach(incident => {
       const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase()
 
       // Check each tactic and technique
@@ -192,7 +201,8 @@ function ThreatIntelligence({ incidents }) {
     return {
       topTactics,
       topTechniques,
-      totalIncidents: incidents.length
+      totalIncidents: relevantIncidents.length,
+      totalAllItems: incidents.length
     }
   }, [incidents])
 
@@ -205,7 +215,7 @@ function ThreatIntelligence({ incidents }) {
       <div className="intel-header">
         <h2>🎯 MITRE ATT&CK Framework Analysis</h2>
         <p className="intel-subtitle">
-          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques
+          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incidents)
         </p>
         <button 
           className="collapse-toggle"

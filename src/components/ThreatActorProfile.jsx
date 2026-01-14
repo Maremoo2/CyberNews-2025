@@ -56,6 +56,14 @@ function ThreatActorProfile({ incidents }) {
   const actorAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
 
+    // Filter to incident/campaign content types for actor analysis (P0 requirement)
+    // This prevents false positives from opinion pieces and product reviews
+    const relevantIncidents = incidents.filter(i => 
+      i.content_type === 'incident' || 
+      i.content_type === 'campaign' ||
+      !i.content_type // Include items without content_type for backwards compatibility
+    );
+
     const categoryCounts = {
       'cybercriminal': { count: 0, incidents: [], actors: new Set() },
       'hacktivist': { count: 0, incidents: [], actors: new Set() },
@@ -64,36 +72,69 @@ function ThreatActorProfile({ incidents }) {
 
     const actorMentions = {}
 
-    // Analyze incidents
-    incidents.forEach(incident => {
+    // Analyze incidents - only use enriched actor_confidence if available
+    relevantIncidents.forEach(incident => {
+      // Skip if actor_confidence is explicitly low (when enriched data is available)
+      if (incident.actor_confidence && incident.actor_confidence === 'low') {
+        return;
+      }
+
       const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase()
       let categorized = false
 
-      // Check for known actors first
-      Object.entries(KNOWN_ACTORS).forEach(([key, actor]) => {
-        if (text.includes(key.toLowerCase())) {
-          categoryCounts[actor.category].count++
-          categoryCounts[actor.category].incidents.push(incident)
-          categoryCounts[actor.category].actors.add(actor.name)
-          
-          if (!actorMentions[actor.name]) {
-            actorMentions[actor.name] = { ...actor, count: 0, incidents: [] }
-          }
-          actorMentions[actor.name].count++
-          actorMentions[actor.name].incidents.push(incident.id)
-          categorized = true
+      // Prefer enriched actor data if available
+      if (incident.actor_name && incident.actor_confidence && 
+          (incident.actor_confidence === 'high' || incident.actor_confidence === 'medium')) {
+        const actorName = incident.actor_name;
+        const actorCategory = incident.actor_category || 'unknown';
+        const actorConfidence = incident.actor_confidence;
+        
+        if (categoryCounts[actorCategory]) {
+          categoryCounts[actorCategory].count++;
+          categoryCounts[actorCategory].incidents.push(incident);
+          categoryCounts[actorCategory].actors.add(actorName);
         }
-      })
-
-      // If not categorized, check keywords
-      if (!categorized) {
-        Object.entries(ACTOR_CATEGORIES).forEach(([category, info]) => {
-          if (info.keywords.some(keyword => text.includes(keyword))) {
-            categoryCounts[category].count++
-            categoryCounts[category].incidents.push(incident)
-            categorized = true
+        
+        if (!actorMentions[actorName]) {
+          actorMentions[actorName] = { 
+            name: actorName,
+            category: actorCategory,
+            confidence: actorConfidence,
+            count: 0, 
+            incidents: [] 
+          };
+        }
+        actorMentions[actorName].count++;
+        actorMentions[actorName].incidents.push(incident.id);
+        categorized = true;
+      } else {
+        // Fallback to keyword matching for non-enriched data
+        // Check for known actors first
+        Object.entries(KNOWN_ACTORS).forEach(([key, actor]) => {
+          if (text.includes(key.toLowerCase())) {
+            categoryCounts[actor.category].count++;
+            categoryCounts[actor.category].incidents.push(incident);
+            categoryCounts[actor.category].actors.add(actor.name);
+            
+            if (!actorMentions[actor.name]) {
+              actorMentions[actor.name] = { ...actor, count: 0, incidents: [] };
+            }
+            actorMentions[actor.name].count++;
+            actorMentions[actor.name].incidents.push(incident.id);
+            categorized = true;
           }
-        })
+        });
+
+        // If not categorized, check keywords
+        if (!categorized) {
+          Object.entries(ACTOR_CATEGORIES).forEach(([category, info]) => {
+            if (info.keywords.some(keyword => text.includes(keyword))) {
+              categoryCounts[category].count++;
+              categoryCounts[category].incidents.push(incident);
+              categorized = true;
+            }
+          });
+        }
       }
     })
 
@@ -109,7 +150,7 @@ function ThreatActorProfile({ incidents }) {
         ...ACTOR_CATEGORIES[category],
         count: data.count,
         uniqueActors: data.actors.size,
-        percentage: ((data.count / incidents.length) * 100).toFixed(1)
+        percentage: ((data.count / relevantIncidents.length) * 100).toFixed(1)
       }))
       .filter(c => c.count > 0)
       .sort((a, b) => b.count - a.count)
@@ -117,7 +158,8 @@ function ThreatActorProfile({ incidents }) {
     return {
       categoryDistribution,
       topActors,
-      totalIncidents: incidents.length,
+      totalIncidents: relevantIncidents.length,
+      totalAllItems: incidents.length,
       categorizedIncidents: Object.values(categoryCounts).reduce((sum, c) => sum + c.count, 0)
     }
   }, [incidents])
@@ -219,7 +261,17 @@ function ThreatActorProfile({ incidents }) {
                   </span>
                   <span className="actor-count-badge">{actor.count} incidents</span>
                 </div>
-                <h4>{actor.name}</h4>
+                <div className="actor-name-row">
+                  <h4>{actor.name}</h4>
+                  {actor.confidence && (
+                    <span 
+                      className={`confidence-badge confidence-${actor.confidence}`}
+                      title={`Attribution confidence: ${actor.confidence}`}
+                    >
+                      {actor.confidence === 'high' ? '🟢' : actor.confidence === 'medium' ? '🟡' : '⚪'} {actor.confidence}
+                    </span>
+                  )}
+                </div>
                 <p className="actor-description">{actor.description}</p>
               </div>
             ))}

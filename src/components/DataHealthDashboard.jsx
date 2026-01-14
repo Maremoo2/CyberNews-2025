@@ -188,12 +188,45 @@ function DataHealthDashboard({ incidents }) {
             {completeness && completeness.percentages && (
               <div className="completeness-section">
                 <h3 className="section-title">📊 Field Completeness (What to Curate Next)</h3>
+                
+                {/* P2 improvement: Color-coded sector quality with tooltip */}
+                {completeness.sectorQuality && (
+                  <div 
+                    className={`sector-quality-alert ${
+                      completeness.sectorQuality.unknownRate < 20 ? 'quality-good' :
+                      completeness.sectorQuality.unknownRate < 40 ? 'quality-medium' :
+                      'quality-poor'
+                    }`}
+                    title={
+                      completeness.sectorQuality.unknownRate >= 40 
+                        ? 'High unknown rate indicates weak enrichment signals' 
+                        : completeness.sectorQuality.unknownRate >= 20
+                        ? 'Moderate unknown rate - enrichment could be improved'
+                        : 'Good sector enrichment coverage'
+                    }
+                  >
+                    <strong>
+                      {completeness.sectorQuality.unknownRate < 20 ? '✅' : 
+                       completeness.sectorQuality.unknownRate < 40 ? '⚠️' : '🔴'} Sector Quality:
+                    </strong> {completeness.sectorQuality.unknownRate}% unknown/unclassified 
+                    ({completeness.sectorQuality.unknown} items)
+                    {completeness.sectorQuality.unknownRate >= 40 && ' - Weak enrichment signals'}
+                  </div>
+                )}
+                
                 <div className="completeness-stats">
                   <div className="completeness-stat">
                     <span className="stat-label">Sector/Tags:</span>
                     <span className="stat-value">{completeness.percentages.with_sector}%</span>
                     <span className="stat-bar" style={{ width: `${completeness.percentages.with_sector}%` }}></span>
                   </div>
+                  {completeness.sectorQuality && (
+                    <div className="completeness-stat">
+                      <span className="stat-label">Sector (Enriched):</span>
+                      <span className="stat-value">{completeness.sectorQuality.enrichmentRate}%</span>
+                      <span className="stat-bar" style={{ width: `${completeness.sectorQuality.enrichmentRate}%` }}></span>
+                    </div>
+                  )}
                   <div className="completeness-stat">
                     <span className="stat-label">Country:</span>
                     <span className="stat-value">{completeness.percentages.with_country}%</span>
