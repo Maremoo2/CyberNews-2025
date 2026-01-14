@@ -1,5 +1,735 @@
 [
   {
+    "id": "20262154",
+    "date": "2026-01-14",
+    "title": "[Ekstra] Ekstreme KI-ambisjoner: Vil gi milliarder av mennesker «personlig superintelligens»",
+    "summary": "Mark Zuckerberg legger frem nye og svært ambisiøse planer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ekstreme-ki-ambisjoner-vil-gi-milliarder-av-mennesker-personlig-superintelligens/566937",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262155",
+    "date": "2026-01-14",
+    "title": "New Research: 64% of 3rd-Party Applications Access Sensitive Data Without Justification",
+    "summary": "Research analyzing 4,700 leading websites reveals that 64% of third-party applications now access sensitive data without business justification, up from 51% in 2024. Government sector malicious activity spiked from 2% to 12.9%, while 1 in 7 Education sites show active compromise. Specific offende...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/new-research-64-of-3rd-party.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262156",
+    "date": "2026-01-14",
+    "title": "Microsoft Fixes 114 Windows Flaws in January 2026 Patch, One Actively Exploited",
+    "summary": "Microsoft on Tuesday rolled out its first security update for 2026, addressing 114 security flaws, including one vulnerability that it said has been actively exploited in the wild. Of the 114 flaws, eight are rated Critical, and 106 are rated Important in severity. As many as 58 vulnerabilities h...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262157",
+    "date": "2026-01-14",
+    "title": "Hackerangriff löst Fehlalarm in Halle aus",
+    "summary": "Offenbar haben Cyberkriminelle einen Sirenenalarm in der Stadt Halle ausgelöst.rame435 – shutterstock.com In der Stadt Halle (Saale) ist es am Samstag (10. Januar) zu einem Fehlalarm gekommen. Gegen 22 Uhr heulten alle betriebsfähigen Sirenen auf, begleitet von einer englischsprachigen Durchsage:...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4116654/hackerangriff-lost-fehlalarm-in-halle-aus.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262158",
+    "date": "2026-01-14",
+    "title": "Robo-Advisor Betterment Discloses Data Breach",
+    "summary": "A threat actor breached Betterment’s systems, accessed customer information, and sent scam crypto-related messages. The post Robo-Advisor Betterment Discloses Data Breach appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/robo-advisor-betterment-discloses-data-breach/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262159",
+    "date": "2026-01-14",
+    "title": "Cybersecurity at the state and local level: Washington has the framework, it’s time to act",
+    "summary": "The White House’s March 2025 Executive Order (EO) on “Achieving Efficiency Through State and Local Preparedness” raised an issue of utmost importance for national security and our critical infrastructure. As noted in the order, “federal policy must rightly recognize that preparedness is most effe...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4116303/cybersecurity-at-the-state-and-local-level-washington-has-the-framework-its-time-to-act.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262160",
+    "date": "2026-01-14",
+    "title": "Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM",
+    "summary": "Exploitable without authentication, the two security defects could lead to configuration leak and code execution. The post Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortifone-fortisiem/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262161",
+    "date": "2026-01-14",
+    "title": "Microsoft: Windows 365 update blocks access to Cloud PC sessions",
+    "summary": "Microsoft confirmed that a recent Windows 365 update is blocking customers from accessing their Microsoft 365 Cloud PC sessions. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-365-update-blocks-access-to-cloud-pc-sessions/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262162",
+    "date": "2026-01-14",
+    "title": "Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities",
+    "summary": "The two browser updates resolve 26 security defects, including bugs that could be exploited for code execution. The post Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/chrome-144-firefox-147-patch-high-severity-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262163",
+    "date": "2026-01-14",
+    "title": "Malicious Chrome Extension Drains Crypto via Secret API Keys",
+    "summary": "A seemingly helpful tool for cryptocurrency traders has been exposed as a sophisticated wallet-draining trap. Socket’s Threat Research Team has identified a malicious Google Chrome extension, MEXC API Automator, that quietly hijacks user accounts on the MEXC exchange to steal funds. Published on ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityonline.info/malicious-chrome-extension-drains-crypto-via-secret-api-keys/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262164",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d348d9d0ea • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5073724-extended-security-update/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262165",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d34a540bcf • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262166",
+    "date": "2026-01-14",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A ransomware attack has compromised approximately 1,000 systems within Romania's water management administration Romanian Waters. The attack began on December 20 and spread to ten of the country's 11 river basin management organizations. Amazon has successfully blocked over 1,800 suspected North ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=The%20Register",
+    "tags": [
+      "ransomware",
+      "malware",
+      "amazon",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262167",
+    "date": "2026-01-14",
+    "title": "Python libraries in AI/ML models can be poisoned w metadata",
+    "summary": "Vulnerabilities in popular AI and ML Python libraries used in Hugging Face models with tens of millions of downloads allow remote attackers to hide malicious code in metadata. The code then executes automatically when a file containing the poisoned metadata is loaded. The open source libraries - ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/13/ai_python_library_bugs_allow/?&web_view=true",
+    "tags": [
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262168",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d34817b5c8 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262169",
+    "date": "2026-01-14",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Some attackers are increasingly moving away from simple redirects in favor of more “selective” methods of payload delivery. This approach filters out regular human visitors, allowing attackers to serve malicious content to search engine crawlers. A WordPress backdoor has been discovered, disguise...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Sucuri",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262170",
+    "date": "2026-01-14",
+    "title": "You are being redirected...",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://blog.sucuri.net/2026/01/malware-intercepts-googlebot-via-ip-verified-conditional-logic.html?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262171",
+    "date": "2026-01-14",
+    "title": "Spy, Steal, Lock: deVixor Android Trojan Hits Banking & Crypto Users",
+    "summary": "A sophisticated new threat has emerged in the mobile banking landscape, combining the stealth of a spy with the brutality of ransomware. Cyble Research and Intelligence Lab (CRIL) has released an analysis of deVixor, an actively developed Android banking malware campaign that has been aggressivel...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityonline.info/spy-steal-lock-devixor-android-trojan-hits-banking-crypto-users/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262172",
+    "date": "2026-01-14",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Sophos MDR recently responded to a targeted attack involving a MSP. In this incident, a threat actor gained access to the MSP’s RMM tool, SimpleHelp, and then used it to deploy DragonForce ransomware across multiple endpoints. Near the end of 2024, the Sophos research team found references on und...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Sophos",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262173",
+    "date": "2026-01-14",
+    "title": "DragonForce actors target SimpleHelp vulnerabilities to attack MSP, customers",
+    "summary": "Sophos MDR recently responded to a targeted attack involving a Managed Service Provider (MSP). In this incident, a threat actor gained access to the MSP’s remote monitoring and management (RMM) tool, SimpleHelp, and then used it to deploy DragonForce ransomware across multiple endpoints. The atta...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.sophos.com/de-de/blog/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers?&web_view=true",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262174",
+    "date": "2026-01-14",
+    "title": "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of new cyber attacks targeting its defense forces with malware known as PLUGGYAPE between October and December 2025. The activity has been attributed with medium confidence to a Russian hacking group tracked as Void B...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262175",
+    "date": "2026-01-14",
+    "title": "Monroe University says 2024 data breach affects 320,000 people",
+    "summary": "Monroe University revealed that threat actors stole the personal, financial, and health information of over 320,000 people after breaching its systems in a December 2024 cyberattack. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262176",
+    "date": "2026-01-14",
+    "title": "Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow",
+    "summary": "Node.js has released updates to fix what it described as a critical security issue impacting \"virtually every production Node.js app\" that, if successfully exploited, could trigger a denial-of-service (DoS) condition. \"Node.js/V8 makes a best-effort attempt to recover from stack space exhaustion ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262177",
+    "date": "2026-01-14",
+    "title": "Allianz: KI birgt große Gefahr für Unternehmen",
+    "summary": "KI birgt zahlreiche Risiken für die Sicherheit in Unternehmen.Nathakorn Tedsaard – shutterstock.com Künstliche Intelligenz (KI) hat sich nach Einschätzung der Allianz zu einem der größten globalen Geschäftsrisiken für Unternehmen entwickelt. Im neuen “Risikobarometer” des Unternehmensversicherers...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4116560/allianz-ki-birgt-grose-gefahr-fur-unternehmen.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262178",
+    "date": "2026-01-14",
+    "title": "US cybersecurity weakened by congressional delays despite Plankey renomination",
+    "summary": "The White House moved to restart an urgent stalled priority by renominating well-regarded Coast Guard and Energy Department cyber veteran Sean Plankey as CISA director. Experts say the step offers some relief but does not go far enough to resolve the broader congressional inaction still straining...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4116477/us-cybersecurity-weakened-by-congressional-delays-despite-plankey-renomination.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262179",
+    "date": "2026-01-14",
+    "title": "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of new cyber attacks targeting its defense forces with malware known as PLUGGYAPE between October and December 2025. The activity has been attributed with medium confidence to a Russian hacking group tracked as Void B...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262180",
+    "date": "2026-01-14",
+    "title": "Cybercrime Inc.: When hackers are better organized than IT",
+    "summary": "What once began in forums with self-written malware has evolved into a globally networked underground economy that surpasses many companies in efficiency, speed, and scalability. Hacker groups today divide labor, utilize distribution channels, provide support, share revenue with partners, and inv...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4116508/cybercrime-inc-when-hackers-are-better-organized-than-it.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262181",
+    "date": "2026-01-14",
+    "title": "Patch Tuesday, January 2026 Edition",
+    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft’s most-dire “critical” rating, and the company warns that attackers are already exploiting one of the bugs fixed today....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262182",
+    "date": "2026-01-14",
+    "title": "[Ekstra] DNB om eksplosjon i KI-angrep: – Gjerdet vårt er ganske høyt",
+    "summary": "Kriminelle forsøkte å svindle dem for 3,3 milliarder kroner i fjor. Mens banken ruster opp, tyr angriperne til bakveier gjennom leverandørkjeden.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/dnb-om-eksplosjon-i-ki-angrep-gjerdet-vart-er-ganske-hoyt/566836",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262183",
+    "date": "2026-01-14",
+    "title": "January 2026 Patch Tuesday: 114 CVEs Patched Including 3 Zero-Days",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-january-2026/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262184",
+    "date": "2026-01-14",
+    "title": "[Ekstra] Gir bort eierandel i protest: – Målet er å stjele så mange kunder fra Telenor som mulig",
+    "summary": "Stian Rustad gir bort hele eierandelen sin i Oyatel i protest mot det han omtaler som Telenor Myanmar-skandalen. Selv varsler han flytting til Sveits.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/gir-bort-eierandel-i-norsk-teleoperator-i-protest-dette-handler-om-a-ta-ansvar/566773",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262185",
+    "date": "2026-01-14",
+    "title": "ISC Stormcast For Wednesday, January 14th, 2026 https://isc.sans.edu/podcastdetail/9766, (Wed, Jan 14th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32626",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262186",
+    "date": "2026-01-14",
+    "title": "California privacy agency appoints surveillance expert to board",
+    "summary": "The appointment of a strong proponent of civil liberties to the five-member board could have a significant impact on the agency’s work.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ccpa-appoints-new-board-member",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262187",
+    "date": "2026-01-14",
+    "title": "Sean Plankey re-nominated to lead CISA",
+    "summary": "President Donald Trump re-nominated Sean Plankey to lead the Cybersecurity and Infrastructure Security Agency on Tuesday, after Plankey’s bid for the position ended last year stuck in the Senate. It’s not clear whether or how Plankey’s resubmitted nomination will overcome the hurdles that left ma...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/sean-plankey-re-nominated-to-lead-cisa/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262216",
+    "date": "2026-01-14",
+    "title": "Windows info-disclosure 0-day bug gets a fix and CISA alert - The Register",
+    "summary": "It's a medium-severity flaw, earning a 5.5 CVSS rating. Shortly after Redmond pushed a patch, the US Cybersecurity and Infrastructure Security Agency ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/14/patch_tuesday_january_2026/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262217",
+    "date": "2026-01-14",
+    "title": "Designing safer links: secure connectivity for operational... - NCSC.GOV.UK",
+    "summary": "US Cybersecurity and Infrastructure Security Agency (CISA). Canadian Centre for Cyber Security (Cyber Centre),. US Federal Bureau of Investigation ( ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ncsc.gov.uk/blog-post/designing-safer-links-secure-connectivity-for-ot",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262218",
+    "date": "2026-01-14",
+    "title": "Lucrative Cybersecurity Jobs to pursue in the year 2026",
+    "summary": "If you're planning your career path in cybersecurity in 2026, here are the high-paying roles most worth pursuing. 1. Cloud Security Engineer. With ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/lucrative-cybersecurity-jobs-to-pursue-in-the-year-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262219",
+    "date": "2026-01-14",
+    "title": "Clop Ransomware Targets Korean Air Catering; Teenagers Increasingly Lured by Cybercrime Gangs",
+    "summary": "... it is implementing enhanced security measures to mitigate risks associated with the cyberattack. ... Cyber Attacks, Cloud Security and Mobile Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/clop-ransomware-targets-korean-air-catering-unit-teenagers-increasingly-lured-by-cybercrime-gangs/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262220",
+    "date": "2026-01-14",
+    "title": "A generative AI cybersecurity risks mitigation model for code generation - Nature",
+    "summary": "Gurtu, A. & Lim, D. Chapter 101—Use of artificial intelligence (AI) in cybersecurity. In Computer and Information Security Handbook (Fourth Edition), ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-025-34350-3",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262221",
+    "date": "2026-01-14",
+    "title": "Why iPhone users should update and restart their devices now - Malwarebytes",
+    "summary": "We don't just report on phone security—we provide it. Cybersecurity ... Malwarebytes - all-in-one cybersecurity protection always by your side. COMPUTER ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/01/why-iphone-users-should-update-and-restart-their-devices-now",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262222",
+    "date": "2026-01-14",
+    "title": "How Microsoft builds privacy and security to work hand-in-hand | Microsoft Security Blog",
+    "summary": "It mandated robust technical and organizational measures designed to protect personal data companywide, now aligned with cybersecurity standards like ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262223",
+    "date": "2026-01-14",
+    "title": "Technology Meets Responsibility: A New Mindset in Cybersecurity | Trend Micro (UK)",
+    "summary": "Today, offering IT security is not just about selling software, applications, or tools. Modern security experts sell trust, reliability, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.trendmicro.com/en_gb/research/26/a/technology-meets-responsibility-a-new-mindset-in-cybersecurity.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262224",
+    "date": "2026-01-14",
+    "title": "The UK Cyber Security and Resilience Bill – Policyholder Implications | ReedSmith",
+    "summary": "For the first time, companies providing digital services will be regulated, including IT and cybersecurity firms, that support both private and public ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reedsmith.com/our-insights/blogs/the-policyholder-perspective/102m1kv/the-uk-cyber-security-and-resilience-bill-policyholder-implications/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262225",
+    "date": "2026-01-14",
+    "title": "Closing the AI Security Skills Gap in Cybersecurity - CompTIA",
+    "summary": "AI is changing how cyber-attacks are launched—and how they're stopped. Yet many organizations are trying to defend against AI-driven threats with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.comptia.org/en-us/blog/closing-the-ai-security-skills-gap/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262226",
+    "date": "2026-01-14",
+    "title": "Cyber Legends: Inside the Mind of a Web Defender | SECURITY.COM",
+    "summary": "After two decades, Tyler Anderson has seen trust become an attacker's most exploited asset. His career saw a shift in web security from simple ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.security.com/expert-perspectives/cyber-legends-web-defender",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262227",
+    "date": "2026-01-14",
+    "title": "Why Existing AI Security Standards Fall Short – And How We Can Do Better",
+    "summary": "By most measures, the digital world takes security standardization pretty seriously. We have general-purpose cybersecurity frameworks, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/why-existing-ai-security-standards-fall-short-and-how-we-can-do-better/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262228",
+    "date": "2026-01-14",
+    "title": "Beyond Secure Acquired by NuView, a New Managed IT and Cybersecurity Platform",
+    "summary": "PRNewswire/ -- Beyond Secure, an Austin, Texas-based managed security solutions provider specializing in regulated industries, has been acquired ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/beyond-secure-acquired-by-nuview-a-new-managed-it-and-cybersecurity-platform-302660214.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262229",
+    "date": "2026-01-14",
+    "title": "Denver Issues Warning Over New Cybersecurity Scam Targeting Residents - Denvergov.org",
+    "summary": "... Cybersecurity & Infrastructure Security Agency (CISA). If you need further information on cyber security protection, view CISA's blog post on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Technology-Services/News/2026-Cybersecurity-Scam-Press-Release",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262230",
+    "date": "2026-01-14",
+    "title": "House Homeland Security Committee Holds Hearing To Examine US Cybersecurity Capabilities",
+    "summary": "On Tuesday, Rep. Andy Ogles (R-TN) led a House Homeland Security Committee hearing to examine the United States' cybersecurity capabilities.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=W8B8OCqehGk",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262147",
     "date": "2026-01-14",
     "title": "How AI image tools can be tricked into making political propaganda",
@@ -82,6 +812,817 @@
       "healthcare",
       "critical-infrastructure",
       "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262188",
+    "date": "2026-01-13",
+    "title": "Microsoft Patch Tuesday addresses 112 defects, including one actively exploited zero-day",
+    "summary": "Microsoft’s first security update of 2026 addressed 112 vulnerabilities affecting its products and underlying systems, including one actively exploited zero-day in Desktop Window Manager. The company’s latest Patch Tuesday update marks the second consecutive month with no critical vulnerabilities...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/microsoft-patch-tuesday-january-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262189",
+    "date": "2026-01-13",
+    "title": "CESER chief touts AI projects as congressional Dems point to federal cuts",
+    "summary": "A Trump administration official endorsed a slate of congressional bills Tuesday targeting cybersecurity in the energy sector while touting the office’s new emphasis on AI-driven cyber defenses. Meanwhile, Democratic members repeatedly pressed him over the cybersecurity and reliability impacts fro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ceser-chief-touts-ai-projects-congressional-dems-point-to-cuts/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262190",
+    "date": "2026-01-13",
+    "title": "More than 40 countries impacted by North Korea IT worker scams, crypto thefts",
+    "summary": "Eleven countries led a session at the UN headquarters in New York centered around a 140-page report released last fall that covered North Korea’s extensive cyber-focused efforts to fund its nuclear and ballistic weapons program.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/40-countries-impacted-nk-it-thefts-united-nations",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262191",
+    "date": "2026-01-13",
+    "title": "Hill warning: Don’t put cyber offense before defense",
+    "summary": "Amid budding sentiment in the Trump administration and Congress to expand offensive cyber operations, some lawmakers and experts are warning that the United States needs to get its defenses in order before going too far down that road. A House Homeland Security subcommittee on Tuesday examined ho...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/us-offensive-cyber-operations-defense-cisa-workforce-house-homeland-security-committee/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262192",
+    "date": "2026-01-13",
+    "title": "Tennessee man to plead guilty to hacking Supreme Court’s electronic case filing system",
+    "summary": "Nicholas Moore of Springfield \"intentionally accessed a computer without authorization” on 25 different days when breaking into the filing system between August and October 2023, court documents allege.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/guilty-plea-hacking-supreme-court-case-filing-system",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262193",
+    "date": "2026-01-13",
+    "title": "Microsofts patchetirsdag januar",
+    "summary": "NSM har ingen bemerkninger til Microsofts sikkerhetsoppdateringer for januar 2026.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://nsm.no/fagomrader/digital-sikkerhet/nasjonalt-cybersikkerhetssenter/varsler-fra-ncsc/microsofts-patchetirsdag-januar",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262194",
+    "date": "2026-01-13",
+    "title": "CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million",
+    "summary": "News of the move to acquire Seraphic comes less than a week after CrowdStrike announced an agreement to acquire identity security startup SGNL for $740 million. The post CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262195",
+    "date": "2026-01-13",
+    "title": "Adobe Patches Critical Apache Tika Bug in ColdFusion",
+    "summary": "Adobe has released patches for 25 vulnerabilities across its products, including a critical Apache Tika flaw in ColdFusion. The post Adobe Patches Critical Apache Tika Bug in ColdFusion appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/adobe-patches-critical-apache-tika-bug-in-coldfusion/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262196",
+    "date": "2026-01-13",
+    "title": "Ukraine parliament approves resignation of security service chief in major reshuffle",
+    "summary": "Vasyl Maliuk, chief of the Security Service of Ukraine (SBU), said he would step down from the post but remain in the agency to continue operations against Russia.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ukraine-parliament-approves-resignation-sbu-chief",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262197",
+    "date": "2026-01-13",
+    "title": "Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities",
+    "summary": "Two vulnerabilities patched this month by Microsoft were disclosed publicly before fixes were released. The post Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262198",
+    "date": "2026-01-13",
+    "title": "Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages",
+    "summary": "Cybersecurity researchers have discovered a major web skimming campaign that has been active since January 2022, targeting several major payment networks like American Express, Diners Club, Discover, JCB Co., Ltd., Mastercard, and UnionPay. \"Enterprise organizations that are clients of these paym...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262199",
+    "date": "2026-01-13",
+    "title": "January 2026 Microsoft Patch Tuesday Summary, (Tue, Jan 13th)",
+    "summary": "Today, Microsoft released patches for 113 vulnerabilities. One of these vulnerabilities affected the Edge browser and was patched upstream by Chromium. Eight of the vulnerabilities are rated critical. One has been disclosed before today, and one is already being exploited. Five of the critical vu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32624",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262200",
+    "date": "2026-01-13",
+    "title": "Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool",
+    "summary": "Cybersecurity researchers have disclosed details of a malicious Google Chrome extension that's capable of stealing API keys associated with MEXC, a centralized cryptocurrency exchange (CEX) available in over 170 countries, while masquerading as a tool to automate trading on the platform. The exte...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262201",
+    "date": "2026-01-13",
+    "title": "GoBruteforcer Botnet Targeting Crypto, Blockchain Projects",
+    "summary": "The botnet’s propagation is fueled by the AI-generated server deployments that use weak credentials, and legacy web stacks. The post GoBruteforcer Botnet Targeting Crypto, Blockchain Projects appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/gobruteforcer-botnet-targeting-crypto-blockchain-projects/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262202",
+    "date": "2026-01-13",
+    "title": "After Goldman, JPMorgan Discloses Law Firm Data Breach",
+    "summary": "The law firm Fried Frank seems to be informing high-profile clients about a recent data security incident. The post After Goldman, JPMorgan Discloses Law Firm Data Breach appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/after-goldman-jpmorgan-discloses-law-firm-data-breach/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262203",
+    "date": "2026-01-13",
+    "title": "Senior military cyber operator removed from Russia task force",
+    "summary": "The officer was “relieved for cause” due to disagreements over operations by the organization’s chief.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/senior-military-cyber-op-removed-russia-task-force",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262204",
+    "date": "2026-01-13",
+    "title": "Cyber Insights 2026: External Attack Surface Management",
+    "summary": "AI will assist companies in finding their external attack surface, but it will also assist bad actors in locating and attacking the weak points. The post Cyber Insights 2026: External Attack Surface Management appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-external-attack-surface-management/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262205",
+    "date": "2026-01-13",
+    "title": "ServiceNow patches critical AI platform flaw that could allow user impersonation",
+    "summary": "ServiceNow has addressed a critical security vulnerability in its AI platform that could have allowed unauthenticated users to impersonate legitimate users and perform unauthorized actions, the company disclosed Monday. The flaw, designated CVE-2025-12420 and carrying a severity score of 9.3 out ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/servicenow-fixes-critical-ai-vulnerability-cve-2025-12420/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262206",
+    "date": "2026-01-13",
+    "title": "CrowdStrike is buying Seraphic Security to lock down the browser, where work actually happens",
+    "summary": "CrowdStrike announced Tuesday an agreement to acquire Seraphic Security, a browser runtime security provider, in a move that signals growing recognition among cybersecurity firms that traditional protective measures have failed to keep pace with how employees actually work. The acquisition, expec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/crowdstrike-acquires-seraphic-security-browser-runtime-security-falcon-platform/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262207",
+    "date": "2026-01-13",
+    "title": "Kremlin-linked hackers pose as charities to spy on Ukraine’s military",
+    "summary": "Victims were prompted to download what appeared to be documents but were, in fact, executable files, often packaged in password-protected archives.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/kremlin-linked-hackers-pose-as-charities-spy-ukraine",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262208",
+    "date": "2026-01-13",
+    "title": "Suspected ransomware attack threatens one of South Korea’s largest companies",
+    "summary": "Kyowon Group, a conglomerate owned by one of South Korea's richest people, is the latest company there to report suspicious cyber activity to authorities.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/kyowon-group-south-korea-suspected-ransomware-attack",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262209",
+    "date": "2026-01-13",
+    "title": "Tokens per watt kan måle verdien av KI-datasentre",
+    "summary": "Ettersom KI-modeller krever titalls megawatt, bør vi også kunne dokumentere at vi produserer høy verdi per kilowattime.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-tokens-per-watt-kan-male-verdien-av-ki-datasentre/566839",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262210",
+    "date": "2026-01-13",
+    "title": "CrowdStrike to Acquire Seraphic to Secure Work in Any Browser",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-seraphic/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262211",
+    "date": "2026-01-13",
+    "title": "[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl",
+    "summary": "AI agents are no longer just writing code. They are executing it. Tools like Copilot, Claude Code, and Codex can now build, test, and deploy software end-to-end in minutes. That speed is reshaping engineering—but it’s also creating a security gap most teams don’t see until something breaks. Behin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262212",
+    "date": "2026-01-13",
+    "title": "Broadcom Wi-Fi Chipset Flaw Allows Hackers to Disrupt Networks",
+    "summary": "The vulnerability was discovered in Asus routers, but all devices using the affected chipset are susceptible to attacks. The post Broadcom Wi-Fi Chipset Flaw Allows Hackers to Disrupt Networks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/broadcom-wi-fi-chipset-flaw-allows-hackers-to-disrupt-networks/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262213",
+    "date": "2026-01-13",
+    "title": "[Ekstra] Se lista:  Disse har fått plass på helsesektorens millionavtale",
+    "summary": "Fjorten selskap sendte tilbud på Norsk helsenetts rammeavtale. Sopra Steria var best på kvalitet på tre av tre delområder.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/se-lista-disse-har-fatt-plass-pa-helsesektorens-millionavtale/566767",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262214",
+    "date": "2026-01-13",
+    "title": "New Advanced Linux VoidLink Malware Targets Cloud and container Environments",
+    "summary": "Cybersecurity researchers have disclosed details of a previously undocumented and feature-rich malware framework codenamed VoidLink that's specifically designed for long-term, stealthy access to Linux-based cloud environments According to a new report from Check Point Research, the cloud-native L...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/new-advanced-linux-voidlink-malware.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262215",
+    "date": "2026-01-13",
+    "title": "SAP’s January 2026 Security Updates Patch Critical Vulnerabilities",
+    "summary": "SAP has released 17 security notes, including four that address critical SQL injection, RCE, and code injection vulnerabilities. The post SAP’s January 2026 Security Updates Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/saps-january-2026-security-updates-patch-critical-vulnerabilities/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262231",
+    "date": "2026-01-13",
+    "title": "Trump renominates Sean Plankey for CISA director - POLITICO",
+    "summary": "President Donald Trump has renominated Sean Plankey to be the next director of the Cybersecurity and Infrastructure Security Agency — a move that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/01/13/sean-plankey-cisa-director-nomination-00726303",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262232",
+    "date": "2026-01-13",
+    "title": "G7 expert group releases cybersecurity 'roadmap' for post-quantum cryptography",
+    "summary": "The G7 Cyber Expert Group this week released a “roadmap” to help the financial sector take steps to secure computer systems from cybersecurity risks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://bankingjournal.aba.com/2026/01/g7-expert-group-releases-cybersecurity-roadmap-for-post-quantum-cryptography/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262233",
+    "date": "2026-01-13",
+    "title": "Why Small Businesses Are Now Cybercriminals' Top Target | AT&T Cybersecurity Expert Explains",
+    "summary": "How SMB cybersecurity impacts the global supply chain · Common attack techniques like AI-powered phishing and ransomware · Why “too small to be a target ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=lHzNGsirKFE",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262234",
+    "date": "2026-01-13",
+    "title": "SAP Security Patch Day January 2026 Addresses Critical Injection and RCE Vulnerabilities",
+    "summary": "... Cyber Security NewsCybersecurityVulnerabilities. SAP released 17 new security notes on January 13, 2026, fixing critical vulnerabilities across ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/sap-injection-and-rce-vulnerabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262235",
+    "date": "2026-01-13",
+    "title": "Biannual Compliance Training Launching Soon - Georgia Tech News Center",
+    "summary": "... cyberthreats,” added Georgia Tech's Chief Information Security Officer Joe Lewis. “The spring cybersecurity modules will help Georgia Tech ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.news.gatech.edu/news/2026/01/13/biannual-compliance-training-launching-soon",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262236",
+    "date": "2026-01-13",
+    "title": "Amazon Connect Cases now supports AWS CloudFormation",
+    "summary": "Amazon Connect Cases now supports AWS CloudFormation, enabling you to model, provision, and manage case resources as infrastructure as code. With this launch, administrators can create CloudFormation templates to programmatically deploy and update their Cases configuration—such as templates, fiel...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262237",
+    "date": "2026-01-13",
+    "title": "Amazon Lex launches improved speech recognition models for English",
+    "summary": "Amazon Lex now offers a neural automatic speech recognition (ASR) model for English that delivers improved recognition accuracy for your voice bots. Trained on data from multiple English locales, the model excels at recognizing conversational speech patterns across diverse speaking styles, includ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262238",
+    "date": "2026-01-13",
+    "title": "Cyber Legends: Inside the Mind of a Web Defender | SECURITY.COM",
+    "summary": "This time, we turn our attention to the web—the front door of today's most common attacks—with Tyler Anderson, a security engineer working at the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.security.com/blog-post/cyber-legends-web-defender",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262239",
+    "date": "2026-01-13",
+    "title": "Beyond Secure Acquired by NuView, a New Managed IT and Cybersecurity Platform",
+    "summary": "Beyond Secure, an Austin, Texas-based managed security solutions provider specializing in regulated industries, has been acquired by NuView, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://uk.finance.yahoo.com/news/beyond-secure-acquired-nuview-managed-191400302.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262240",
+    "date": "2026-01-13",
+    "title": "Can Agentic AI meet future cybersecurity demands? - Security Boulevard",
+    "summary": "Building cybersecurity confidence is not just an aspiration; it is a mandate for survival. Tackling Common Cybersecurity Challenges with Agentic AI.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/can-agentic-ai-meet-future-cybersecurity-demands/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262241",
+    "date": "2026-01-13",
+    "title": "Amazon Neptune Database now supports R7g and R8g instances in 5 additional regions",
+    "summary": "Amazon Neptune Database now supports Graviton3-based R7g and Graviton4-based R8g instances for Amazon Neptune engine versions 1.4.5 or above, in Asia Pacific (Hong Kong), Asia Pacific (Osaka), Asia Pacific (Singapore), Canada (Central) and US West (N. California). R7g and R8g instances are priced...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-database-r7g-r8g-additional-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262242",
+    "date": "2026-01-13",
+    "title": "Amazon EC2 X8aedz instances are now available in Asia Pacific (Mumbai, Seoul) regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in Asia Pacific (Mumbai) and Asia Pacific (Seoul) regions. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). These instances offer the highest maximum CPU frequency, 5GHz...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-x8aedz-instances-asia-pacific-mumbai-seoul-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262243",
+    "date": "2026-01-13",
+    "title": "New WhatsApp Scam Hijacks Accounts Without Stealing Passwords",
+    "summary": "The attack highlights a broader shift in cybercrime tactics. Rather than attempting to defeat security systems, criminals are increasingly persuading ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/new-whatsapp-scam-hijacks-accounts-without-stealing-passwords/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262244",
+    "date": "2026-01-13",
+    "title": "Multiple Hikvision Vulnerabilities Allow Attackers to Disrupt Devices Using Crafted Packets",
+    "summary": "... Cyber Security NewsCybersecurityVulnerability. Hikvision has disclosed two critical buffer overflow vulnerabilities affecting its security devices ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/multiple-hikvision-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262245",
+    "date": "2026-01-13",
+    "title": "Instagram denies breach, Sweden detains spying suspect, n8n attack steals OAuth tokens",
+    "summary": "In today's cybersecurity news… · Instagram denies breach post-data leak · Sweden detains consultant suspected of spying · n8n supply chain attack steals ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-instagram-denies-breach-sweden-detains-spying-suspect-n8n-attack-steals-oauth-tokens/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262246",
+    "date": "2026-01-13",
+    "title": "CISA Warns of Actively Exploited Gogs Path Traversal Vulnerability - Cyber Press",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has formally added a critical vulnerability affecting Gogs, a widely-used self-hosted ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/cisa-gogs-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262247",
+    "date": "2026-01-13",
+    "title": "Beyond the Noise: How Next-Generation SIEM Solutions Are Redefining Cybersecurity",
+    "summary": "In an era where cyberattacks evolve at machine speed and security teams drown in thousands of daily alerts, traditional Security Information and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/beyond-the-noise-how-next-generation-siem-solutions-are-redefining-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262248",
+    "date": "2026-01-13",
+    "title": "ISU Dairy Team 2026 Webinar on Cyber Security - Nebraska Rural Radio Association",
+    "summary": "Jacobson will discuss cyber threats on the dairy and around the farm. Doug Jacobson is Director of the Iowa State University Center for Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ruralradio.com/ktic/events/isu-dairy-team-2026-webinar-on-cyber-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262249",
+    "date": "2026-01-13",
+    "title": "Amazon MSK Connect is now available in three additional AWS Regions",
+    "summary": "Amazon MSK Connect is now available in three additional AWS Regions: Asia Pacific (New Zealand), AWS GovCloud (US-East), and AWS GovCloud (US-West). MSK Connect enables you to run fully managed Kafka Connect clusters with Amazon Managed Streaming for Apache Kafka (Amazon MSK). With a few clicks, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-connect-additional-aws-regions",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262250",
+    "date": "2026-01-13",
+    "title": "U.S. Cyber Capabilities to Deter and Disrupt Malign Foreign Activity Targeting the Homeland",
+    "summary": "Emily Harding testified before the House Homeland Security Subcommittee on Cybersecurity and Infrastructure Protection about how the United States ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csis.org/analysis/us-cyber-capabilities-deter-and-disrupt-malign-foreign-activity-targeting-homeland",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262251",
+    "date": "2026-01-13",
+    "title": "In The Future: Breach Ready, Board Ready, and AI-Powered Cybersecurity",
+    "summary": "... information security officers (CISOs) are facing reductions in their budgets. Furthermore, factors contributing to cybersecurity value, such as ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/in-the-future-breach-ready-board-ready-and-ai-powered-cybersecurity/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262252",
+    "date": "2026-01-13",
+    "title": "Cybersecurity Expert Jason Smolanoff Joins FTI Consulting as a Senior Managing Director",
+    "summary": "Mr. Smolanoff , who previously led the Cyber Risk practice at Kroll, has more than 25 years of experience in information security, with a focus on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fticonsulting.com/about/newsroom/press-releases/cybersecurity-expert-jason-smolanoff-joins-fti-consulting-as-a-senior-managing-director",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262253",
+    "date": "2026-01-13",
+    "title": "WEF Global Cybersecurity Outlook 2026 flags AI acceleration, geopolitical fractures",
+    "summary": "... cyber-enabled fraud and AI vulnerabilities. Chief information security officers (CISOs), by contrast, remain concerned about ransomware and supply ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/reports/wef-global-cybersecurity-outlook-2026-flags-ai-acceleration-geopolitical-fractures-calls-for-shared-responsibility/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262254",
+    "date": "2026-01-13",
+    "title": "ColorTokens' Xshield achieves FedRAMP moderate, targeting IT, cloud, and OT security gaps",
+    "summary": "SMX's partnership reflects strong alignment between Xshield's microsegmentation capabilities and the cybersecurity requirements of federal agencies ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/colortokens-xshield-achieves-fedramp-moderate-targeting-it-cloud-and-ot-security-gaps/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262255",
+    "date": "2026-01-13",
+    "title": "Keeper Security Strengthens Atlassian Williams F1 Team's Cyber Defenses With KeeperPAM",
+    "summary": "Keeper Security is one of the fastest-growing cybersecurity software companies that protects thousands of organizations and millions of people in over ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/keeper-security-strengthens-atlassian-williams-f1-teams-cyber-defenses-with-keeperpam-302659276.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262256",
+    "date": "2026-01-13",
+    "title": "On the defensive: strengthening government cybersecurity in a changing landscape",
+    "summary": "Janne Allonen, deputy cybersecurity director at the Ministry of Transport and Communications' Office of the National Cyber Security Director of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globalgovernmentforum.com/on-the-defensive-strengthening-government-cybersecurity-in-a-changing-landscape/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262257",
+    "date": "2026-01-13",
+    "title": "G7 Cyber Expert Group Releases Roadmap for Coordinating the Transition to Post ... - Treasury.gov",
+    "summary": "G7 CEG Co-Chairs, U.S. Treasury's Deputy Assistant Secretary for Cybersecurity and Critical Infrastructure Protection Cory Wilson and the Bank of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0355",
+    "tags": [
+      "Data/IT"
     ],
     "impact": 5
   },
