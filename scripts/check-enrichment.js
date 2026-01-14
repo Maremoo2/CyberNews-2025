@@ -27,7 +27,6 @@ const RAW_FILES = [
 
 console.log('🔍 Checking enrichment status...\n');
 
-let allEnrichedExist = true;
 let needsEnrichment = false;
 
 // Check if enriched files exist
@@ -35,7 +34,6 @@ for (const file of ENRICHED_FILES) {
   const filePath = path.join(PROJECT_ROOT, file);
   if (!fs.existsSync(filePath)) {
     console.log(`⚠️  Missing: ${file}`);
-    allEnrichedExist = false;
     needsEnrichment = true;
   } else {
     const stats = fs.statSync(filePath);
@@ -45,9 +43,10 @@ for (const file of ENRICHED_FILES) {
     if (fs.existsSync(rawPath)) {
       const rawStats = fs.statSync(rawPath);
       
-      // Check if raw file is newer than enriched
-      if (rawStats.mtime > stats.mtime) {
-        console.log(`⚠️  Outdated: ${file} (raw data is newer)`);
+      // Check if raw file is newer than enriched (allow 1 second tolerance for git operations)
+      const timeDiff = rawStats.mtime - stats.mtime;
+      if (timeDiff > 1000) {
+        console.log(`⚠️  Outdated: ${file} (raw data is newer by ${Math.round(timeDiff/1000)}s)`);
         needsEnrichment = true;
       } else {
         console.log(`✅ Up-to-date: ${file}`);

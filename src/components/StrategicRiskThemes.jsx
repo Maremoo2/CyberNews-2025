@@ -132,12 +132,11 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
       // Common initial access for this theme
       const initialAccessTechniques = {};
       themeIncidents.forEach(incident => {
-        if (incident.mitre_techniques) {
-          incident.mitre_techniques
-            .filter(tech => incident.mitre_tactics?.includes('initial-access'))
-            .forEach(tech => {
-              initialAccessTechniques[tech.name] = (initialAccessTechniques[tech.name] || 0) + 1;
-            });
+        if (incident.mitre_techniques && incident.mitre_tactics?.includes('initial-access')) {
+          incident.mitre_techniques.forEach(t => {
+            const name = t.name;
+            initialAccessTechniques[name] = (initialAccessTechniques[name] || 0) + 1;
+          });
         }
       });
       const commonInitialAccess = Object.entries(initialAccessTechniques)

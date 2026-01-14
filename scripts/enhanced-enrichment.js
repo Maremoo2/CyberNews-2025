@@ -45,6 +45,7 @@ function normalizeActorName(actorName) {
 /**
  * Normalize organization name using canonicalization table
  */
+// eslint-disable-next-line no-unused-vars
 function normalizeOrgName(orgName) {
   if (!orgName) return null;
   const normalized = ENTITY_NORMALIZATION.org_aliases[orgName] ||
@@ -692,6 +693,7 @@ function extractBlockingKeys(incident) {
 /**
  * Calculate clustering reasons for audit trail
  */
+// eslint-disable-next-line no-unused-vars
 function calculateClusteringReasons(incident1, incident2) {
   const reasons = [];
   const scores = {};
