@@ -1,5 +1,37 @@
 [
   {
+    "id": "20262286",
+    "date": "2026-01-14",
+    "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+    "summary": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances. The operating system (OS) injection vulnerability, tracked as CVE-2025-64155, is rated 9.4 out of 10.0 on the CVSS sco...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262287",
+    "date": "2026-01-14",
+    "title": "WitnessAI Raises $58 Million for AI Security Platform",
+    "summary": "The company will use the fresh investment to accelerate its global go-to-market and product expansion. The post WitnessAI Raises $58 Million for AI Security Platform appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262278",
     "date": "2026-01-14",
     "title": "Le Campus Cyber, lieu totem français de la cybersécurité, fait sa révolution",
