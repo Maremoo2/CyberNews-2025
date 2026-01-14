@@ -130,9 +130,13 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
   };
 
   // Clear search function
-  const clearSearch = () => {
+  const clearSearchQuery = () => {
     setQuery('');
     setDebouncedQuery('');
+  };
+
+  const clearSearch = () => {
+    clearSearchQuery();
     if (searchInputRef.current) {
       searchInputRef.current.focus();
     }
@@ -155,10 +159,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
     if (curatedOnly) filters.push({ label: 'Curated only', clear: () => setCuratedOnly(false) });
     if (debouncedQuery) filters.push({ 
       label: `Search: "${debouncedQuery}"`, 
-      clear: () => {
-        setQuery('');
-        setDebouncedQuery('');
-      }
+      clear: clearSearchQuery
     });
     return filters;
   }, [tab, curatedOnly, debouncedQuery]);
