@@ -87,6 +87,7 @@ function ThreatActorProfile({ incidents }) {
           (incident.actor_confidence === 'high' || incident.actor_confidence === 'medium')) {
         const actorName = incident.actor_name;
         const actorCategory = incident.actor_category || 'unknown';
+        const actorConfidence = incident.actor_confidence;
         
         if (categoryCounts[actorCategory]) {
           categoryCounts[actorCategory].count++;
@@ -98,6 +99,7 @@ function ThreatActorProfile({ incidents }) {
           actorMentions[actorName] = { 
             name: actorName,
             category: actorCategory,
+            confidence: actorConfidence,
             count: 0, 
             incidents: [] 
           };
@@ -259,7 +261,17 @@ function ThreatActorProfile({ incidents }) {
                   </span>
                   <span className="actor-count-badge">{actor.count} incidents</span>
                 </div>
-                <h4>{actor.name}</h4>
+                <div className="actor-name-row">
+                  <h4>{actor.name}</h4>
+                  {actor.confidence && (
+                    <span 
+                      className={`confidence-badge confidence-${actor.confidence}`}
+                      title={`Attribution confidence: ${actor.confidence}`}
+                    >
+                      {actor.confidence === 'high' ? '🟢' : actor.confidence === 'medium' ? '🟡' : '⚪'} {actor.confidence}
+                    </span>
+                  )}
+                </div>
                 <p className="actor-description">{actor.description}</p>
               </div>
             ))}

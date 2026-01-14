@@ -189,11 +189,28 @@ function DataHealthDashboard({ incidents }) {
               <div className="completeness-section">
                 <h3 className="section-title">📊 Field Completeness (What to Curate Next)</h3>
                 
-                {/* P1 requirement: Show sector quality with unknown rate */}
+                {/* P2 improvement: Color-coded sector quality with tooltip */}
                 {completeness.sectorQuality && (
-                  <div className="sector-quality-alert">
-                    <strong>⚠️ Sector Quality:</strong> {completeness.sectorQuality.unknownRate}% of items have unknown/unclassified sector
-                    ({completeness.sectorQuality.unknown} items). This prevents accurate sector analysis.
+                  <div 
+                    className={`sector-quality-alert ${
+                      completeness.sectorQuality.unknownRate < 20 ? 'quality-good' :
+                      completeness.sectorQuality.unknownRate < 40 ? 'quality-medium' :
+                      'quality-poor'
+                    }`}
+                    title={
+                      completeness.sectorQuality.unknownRate >= 40 
+                        ? 'High unknown rate indicates weak enrichment signals' 
+                        : completeness.sectorQuality.unknownRate >= 20
+                        ? 'Moderate unknown rate - enrichment could be improved'
+                        : 'Good sector enrichment coverage'
+                    }
+                  >
+                    <strong>
+                      {completeness.sectorQuality.unknownRate < 20 ? '✅' : 
+                       completeness.sectorQuality.unknownRate < 40 ? '⚠️' : '🔴'} Sector Quality:
+                    </strong> {completeness.sectorQuality.unknownRate}% unknown/unclassified 
+                    ({completeness.sectorQuality.unknown} items)
+                    {completeness.sectorQuality.unknownRate >= 40 && ' - Weak enrichment signals'}
                   </div>
                 )}
                 
