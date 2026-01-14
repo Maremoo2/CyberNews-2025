@@ -63,6 +63,11 @@ jobs:
           for i in 1 2 3 4 5; do
             echo "Attempt $i: fetch + rebase + push"
             git fetch origin main
+            
+            # Clean working directory before rebase to avoid "unstaged changes" errors
+            git clean -fd
+            git restore .
+            
             if ! git rebase origin/main; then
               echo "Rebase failed (likely conflicts). Aborting rebase..."
               git rebase --abort
