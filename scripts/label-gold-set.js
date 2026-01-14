@@ -33,12 +33,14 @@ const GOLD_SET_LABELED = path.join(PROJECT_ROOT, 'data', 'gold-set.json');
  */
 function classifyContentType(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
+  const title = item.title.toLowerCase();
   
-  // Opinion/Prediction indicators
+  // Opinion/Prediction indicators (check first for year-end summaries)
   if (
-    text.match(/\b(prediction|forecast|trends? for 20\d{2}|looking ahead|what to expect|future of|in 20\d{2})\b/i) ||
-    text.match(/\b(opinion|commentary|analysis|should|must|need to|time to)\b/i) ||
-    item.title.match(/^(top \d+|best|worst|why|how to)/i)
+    title.match(/\b(prediction|forecast|trends? for 20\d{2}|looking ahead|what to expect|future of|in 20\d{2})\b/i) ||
+    title.match(/\b(biggest|top|best|worst)\b.*\b(20\d{2}|year|attacks?|breaches?)\b/i) ||
+    title.match(/^(top \d+|best|worst|why|how to)/i) ||
+    text.match(/\b(opinion|commentary|analysis|should|must|need to|time to)\b/i)
   ) {
     return 'opinion';
   }
@@ -47,14 +49,14 @@ function classifyContentType(item) {
   if (
     text.match(/\b(review|launch|announce|release|feature|partnership|funding|raised|valuation|acqui(sition|red))\b/i) ||
     text.match(/\b(product|service|solution|platform|tool|startup)\b/i) ||
-    item.title.match(/review:/i)
+    title.match(/review:/i)
   ) {
     return 'product';
   }
   
   // Explainer indicators  
   if (
-    item.title.match(/^(what is|how|understanding|guide to|introduction to)/i) ||
+    title.match(/^(what is|how|understanding|guide to|introduction to)/i) ||
     text.match(/\b(explainer|guide|tutorial|how to|what is)\b/i)
   ) {
     return 'explainer';
@@ -144,7 +146,7 @@ function determineSeverity(item) {
   
   // Critical: explicit major impact
   if (
-    text.match(/\$\d+\s*(billion|b)\b/i) ||
+    text.match(/\$\d+\s*(?:billion|b)\b/i) ||
     text.match(/\b(largest|massive|widespread|critical infrastructure)\b.*\b(breach|attack|theft)\b/i) ||
     text.match(/\b(millions|thousands)\b.*\b(affected|impacted|stolen|exposed)\b/i)
   ) {
@@ -211,8 +213,8 @@ function generateCaseId(item, allItems) {
   );
   
   if (similarIncidents.length > 0) {
-    // Return shared ID if very similar
-    return `case_${item.id}`;
+    // Return shared ID based on the first similar incident found
+    return `case_${similarIncidents[0].id}`;
   }
   
   return `case_${item.id}`;
