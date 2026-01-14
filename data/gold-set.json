@@ -20,7 +20,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262093",
@@ -43,7 +44,8 @@
     "manual_sector": "healthcare",
     "manual_country": "Germany",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261494",
@@ -58,15 +60,16 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20261494",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Europe",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "2026105",
@@ -89,7 +92,8 @@
     "manual_sector": "finance",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025632",
@@ -112,7 +116,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025302",
@@ -135,7 +140,8 @@
     "manual_sector": "technology",
     "manual_country": "Denmark",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025603",
@@ -150,15 +156,16 @@
     "predicted_sector": "technology",
     "predicted_country": "Spain",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_2025603",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Spain",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "20261984",
@@ -181,7 +188,8 @@
     "manual_sector": "government",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025774",
@@ -204,7 +212,8 @@
     "manual_sector": "technology",
     "manual_country": "Germany",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261900",
@@ -227,7 +236,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026175",
@@ -250,7 +260,8 @@
     "manual_sector": "healthcare",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025571",
@@ -273,7 +284,8 @@
     "manual_sector": "retail",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261969",
@@ -296,7 +308,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261483",
@@ -319,7 +332,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "612",
@@ -342,7 +356,8 @@
     "manual_sector": "retail",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2025624",
@@ -365,7 +380,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025659",
@@ -388,7 +404,8 @@
     "manual_sector": "healthcare",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026142",
@@ -411,7 +428,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026295",
@@ -426,7 +444,7 @@
     "predicted_sector": "government",
     "predicted_country": "Global",
     "predicted_severity_score": 10,
-    "manual_content_type": "product",
+    "manual_content_type": "campaign",
     "manual_case_id": "case_2026295",
     "manual_actor_present": true,
     "manual_actor_name": "UAC-0184",
@@ -434,7 +452,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "201",
@@ -457,7 +476,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "critical",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2026689",
@@ -472,7 +492,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026689",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -480,7 +500,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261563",
@@ -495,7 +516,7 @@
     "predicted_sector": "finance",
     "predicted_country": "Europe",
     "predicted_severity_score": 30,
-    "manual_content_type": "incident",
+    "manual_content_type": "product",
     "manual_case_id": "case_20261563",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -503,7 +524,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261725",
@@ -518,7 +540,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 25,
-    "manual_content_type": "opinion",
+    "manual_content_type": "product",
     "manual_case_id": "case_20261725",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -526,7 +548,8 @@
     "manual_sector": "healthcare",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262063",
@@ -541,7 +564,7 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_20262063",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -549,7 +572,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025731",
@@ -564,7 +588,7 @@
     "predicted_sector": "energy",
     "predicted_country": "South Africa",
     "predicted_severity_score": 10,
-    "manual_content_type": "product",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2025731",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -572,7 +596,8 @@
     "manual_sector": "technology",
     "manual_country": "South Africa",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261697",
@@ -587,7 +612,7 @@
     "predicted_sector": "government",
     "predicted_country": "Global",
     "predicted_severity_score": 45,
-    "manual_content_type": "opinion",
+    "manual_content_type": "incident",
     "manual_case_id": "case_20261697",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -595,7 +620,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025442",
@@ -610,7 +636,7 @@
     "predicted_sector": "government",
     "predicted_country": "United States",
     "predicted_severity_score": 30,
-    "manual_content_type": "product",
+    "manual_content_type": "policy",
     "manual_case_id": "case_2025442",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -618,7 +644,8 @@
     "manual_sector": "government",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261990",
@@ -641,7 +668,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261672",
@@ -664,7 +692,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262069",
@@ -679,15 +708,16 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 30,
-    "manual_content_type": "incident",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20262069",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Global",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "20261924",
@@ -710,7 +740,8 @@
     "manual_sector": "technology",
     "manual_country": "France",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261616",
@@ -733,7 +764,8 @@
     "manual_sector": "healthcare",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025077",
@@ -756,7 +788,8 @@
     "manual_sector": "finance",
     "manual_country": "Hong Kong",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262122",
@@ -771,7 +804,7 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "incident",
     "manual_case_id": "case_20262122",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -779,7 +812,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026838",
@@ -794,7 +828,7 @@
     "predicted_sector": "energy",
     "predicted_country": "Europe",
     "predicted_severity_score": 20,
-    "manual_content_type": "opinion",
+    "manual_content_type": "product",
     "manual_case_id": "case_2026838",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -802,7 +836,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262104",
@@ -824,8 +859,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "high",
-    "notes": ""
+    "manual_severity_bucket": "low",
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "20261561",
@@ -840,7 +876,7 @@
     "predicted_sector": "government",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_20261561",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -848,7 +884,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261830",
@@ -871,7 +908,8 @@
     "manual_sector": "technology",
     "manual_country": "France",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261501",
@@ -894,7 +932,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261556",
@@ -917,7 +956,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261888",
@@ -932,7 +972,7 @@
     "predicted_sector": "government",
     "predicted_country": "Global",
     "predicted_severity_score": 20,
-    "manual_content_type": "vulnerability",
+    "manual_content_type": "incident",
     "manual_case_id": "case_20261888",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -940,7 +980,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "20262058",
@@ -955,7 +996,7 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "vulnerability",
     "manual_case_id": "case_20262058",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -963,7 +1004,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262107",
@@ -985,8 +1027,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "critical",
-    "notes": ""
+    "manual_severity_bucket": "low",
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "20261675",
@@ -1009,7 +1052,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261974",
@@ -1024,7 +1068,7 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20261974",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1032,7 +1076,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261609",
@@ -1047,7 +1092,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_20261609",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1055,7 +1100,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262106",
@@ -1070,7 +1116,7 @@
     "predicted_sector": "government",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "product",
     "manual_case_id": "case_20262106",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1078,7 +1124,8 @@
     "manual_sector": "government",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261766",
@@ -1093,15 +1140,16 @@
     "predicted_sector": "Cyber",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261784",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Global",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "20261636",
@@ -1124,7 +1172,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "20261700",
@@ -1139,7 +1188,7 @@
     "predicted_sector": "government",
     "predicted_country": "Global",
     "predicted_severity_score": 30,
-    "manual_content_type": "opinion",
+    "manual_content_type": "incident",
     "manual_case_id": "case_20261700",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1147,7 +1196,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261749",
@@ -1162,7 +1212,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 35,
-    "manual_content_type": "campaign",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261764",
     "manual_actor_present": true,
     "manual_actor_name": "Evasive Panda",
@@ -1170,7 +1220,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261562",
@@ -1193,7 +1244,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262054",
@@ -1215,8 +1267,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "20261930",
@@ -1239,7 +1292,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261622",
@@ -1261,8 +1315,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "healthcare",
     "manual_country": "Europe",
-    "manual_severity_bucket": "moderate",
-    "notes": ""
+    "manual_severity_bucket": "high",
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026659",
@@ -1277,7 +1332,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "product",
     "manual_case_id": "case_2026659",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1285,7 +1340,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261784",
@@ -1300,15 +1356,16 @@
     "predicted_sector": "Cyber",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261766",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Global",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "2026653",
@@ -1331,7 +1388,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025657",
@@ -1354,7 +1412,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026900",
@@ -1369,7 +1428,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026900",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1377,7 +1436,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026009",
@@ -1397,10 +1457,11 @@
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
-    "manual_sector": "technology",
+    "manual_sector": "government",
     "manual_country": "Finland",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025208",
@@ -1423,7 +1484,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "critical",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2025698",
@@ -1446,7 +1508,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025003",
@@ -1469,7 +1532,8 @@
     "manual_sector": "technology",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026340",
@@ -1492,7 +1556,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026913",
@@ -1507,7 +1572,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "explainer",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026913",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1515,7 +1580,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026905",
@@ -1538,7 +1604,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026902",
@@ -1561,7 +1628,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261790",
@@ -1584,7 +1652,8 @@
     "manual_sector": "government",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261680",
@@ -1607,7 +1676,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026910",
@@ -1622,7 +1692,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "product",
     "manual_case_id": "case_2026910",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1630,7 +1700,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261591",
@@ -1653,7 +1724,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261709",
@@ -1676,7 +1748,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262051",
@@ -1698,8 +1771,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "critical",
-    "notes": ""
+    "manual_severity_bucket": "low",
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "20261950",
@@ -1714,7 +1788,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 20,
-    "manual_content_type": "opinion",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261950",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1722,7 +1796,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262123",
@@ -1745,7 +1820,8 @@
     "manual_sector": "technology",
     "manual_country": "France",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261773",
@@ -1760,7 +1836,7 @@
     "predicted_sector": "telecommunications",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20261773",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1768,7 +1844,8 @@
     "manual_sector": "telecommunications",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026901",
@@ -1783,7 +1860,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "policy",
     "manual_case_id": "case_2026901",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1791,7 +1868,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261544",
@@ -1806,7 +1884,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_20261544",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1814,7 +1892,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026929",
@@ -1836,8 +1915,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "healthcare",
     "manual_country": "Europe",
-    "manual_severity_bucket": "moderate",
-    "notes": ""
+    "manual_severity_bucket": "high",
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261545",
@@ -1860,7 +1940,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261715",
@@ -1883,7 +1964,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261573",
@@ -1906,7 +1988,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025217",
@@ -1921,15 +2004,16 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_2025217",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "2025498",
@@ -1944,7 +2028,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 20,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2025498",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1952,7 +2036,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261769",
@@ -1967,15 +2052,16 @@
     "predicted_sector": "Cyber",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20261766",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Global",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "2026919",
@@ -1990,7 +2076,7 @@
     "predicted_sector": "finance",
     "predicted_country": "Europe",
     "predicted_severity_score": 35,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026919",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -1998,7 +2084,8 @@
     "manual_sector": "finance",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261765",
@@ -2021,7 +2108,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025613",
@@ -2044,7 +2132,8 @@
     "manual_sector": "retail",
     "manual_country": "India",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261764",
@@ -2059,7 +2148,7 @@
     "predicted_sector": "government",
     "predicted_country": "Global",
     "predicted_severity_score": 10,
-    "manual_content_type": "incident",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261749",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2067,7 +2156,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261491",
@@ -2082,7 +2172,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261491",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2090,7 +2180,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026775",
@@ -2105,7 +2196,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026775",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2113,7 +2204,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025428",
@@ -2136,7 +2228,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026915",
@@ -2151,7 +2244,7 @@
     "predicted_sector": "government",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026915",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2159,7 +2252,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025958",
@@ -2182,7 +2276,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261621",
@@ -2197,7 +2292,7 @@
     "predicted_sector": "healthcare",
     "predicted_country": "Europe",
     "predicted_severity_score": 15,
-    "manual_content_type": "product",
+    "manual_content_type": "incident",
     "manual_case_id": "case_20261621",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2205,7 +2300,8 @@
     "manual_sector": "healthcare",
     "manual_country": "Europe",
     "manual_severity_bucket": "high",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2026928",
@@ -2220,7 +2316,7 @@
     "predicted_sector": "finance",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "product",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_2026928",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2228,7 +2324,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261552",
@@ -2251,7 +2348,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026918",
@@ -2274,7 +2372,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025483",
@@ -2289,7 +2388,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_2025483",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2297,7 +2396,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261676",
@@ -2312,7 +2412,7 @@
     "predicted_sector": "government",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "policy",
     "manual_case_id": "case_20261676",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2320,7 +2420,8 @@
     "manual_sector": "government",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262056",
@@ -2335,7 +2436,7 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "policy",
     "manual_case_id": "case_20262056",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2343,7 +2444,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261586",
@@ -2365,8 +2467,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "Europe",
-    "manual_severity_bucket": "high",
-    "notes": ""
+    "manual_severity_bucket": "low",
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2026817",
@@ -2381,7 +2484,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026817",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2389,7 +2492,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261916",
@@ -2404,7 +2508,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 30,
-    "manual_content_type": "product",
+    "manual_content_type": "campaign",
     "manual_case_id": "case_20261916",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2412,7 +2516,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261632",
@@ -2427,7 +2532,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 15,
-    "manual_content_type": "product",
+    "manual_content_type": "campaign",
     "manual_case_id": "case_20261632",
     "manual_actor_present": true,
     "manual_actor_name": "MuddyWater",
@@ -2435,7 +2540,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261531",
@@ -2458,7 +2564,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026822",
@@ -2473,7 +2580,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 20,
-    "manual_content_type": "incident",
+    "manual_content_type": "product",
     "manual_case_id": "case_2026822",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2481,7 +2588,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026660",
@@ -2496,7 +2604,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026660",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2504,7 +2612,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262113",
@@ -2527,7 +2636,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026706",
@@ -2550,7 +2660,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262087",
@@ -2573,7 +2684,8 @@
     "manual_sector": "technology",
     "manual_country": "Germany",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261695",
@@ -2596,7 +2708,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261869",
@@ -2619,7 +2732,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026812",
@@ -2642,7 +2756,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261747",
@@ -2657,7 +2772,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "product",
     "manual_case_id": "case_20261747",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2665,7 +2780,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026696",
@@ -2680,7 +2796,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Europe",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "opinion",
     "manual_case_id": "case_2026696",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2688,7 +2804,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026262",
@@ -2703,7 +2820,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 30,
-    "manual_content_type": "product",
+    "manual_content_type": "campaign",
     "manual_case_id": "case_2026262",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2711,7 +2828,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026960",
@@ -2734,7 +2852,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026248",
@@ -2757,7 +2876,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262127",
@@ -2780,7 +2900,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025440",
@@ -2803,7 +2924,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261762",
@@ -2818,7 +2940,7 @@
     "predicted_sector": "technology",
     "predicted_country": "Global",
     "predicted_severity_score": 20,
-    "manual_content_type": "vulnerability",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261749",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2826,7 +2948,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262125",
@@ -2849,7 +2972,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261826",
@@ -2872,7 +2996,8 @@
     "manual_sector": "technology",
     "manual_country": "France",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261701",
@@ -2895,7 +3020,8 @@
     "manual_sector": "government",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261793",
@@ -2910,15 +3036,16 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20261793",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "20261643",
@@ -2941,7 +3068,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261662",
@@ -2956,7 +3084,7 @@
     "predicted_sector": "telecommunications",
     "predicted_country": "Global",
     "predicted_severity_score": 0,
-    "manual_content_type": "incident",
+    "manual_content_type": "explainer",
     "manual_case_id": "case_20261662",
     "manual_actor_present": false,
     "manual_actor_name": null,
@@ -2964,7 +3092,8 @@
     "manual_sector": "telecommunications",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262084",
@@ -2987,7 +3116,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025619",
@@ -3010,7 +3140,8 @@
     "manual_sector": "technology",
     "manual_country": "India",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025957",
@@ -3033,7 +3164,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025700",
@@ -3055,7 +3187,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025764",
@@ -3077,8 +3210,9 @@
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "critical",
-    "notes": ""
+    "manual_severity_bucket": "low",
+    "notes": "",
+    "manual_label_confidence": "high"
   },
   {
     "id": "2025484",
@@ -3101,7 +3235,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025300",
@@ -3124,7 +3259,8 @@
     "manual_sector": "technology",
     "manual_country": "Denmark",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025480",
@@ -3147,7 +3283,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "moderate",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025909",
@@ -3170,7 +3307,8 @@
     "manual_sector": "healthcare",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025114",
@@ -3193,7 +3331,8 @@
     "manual_sector": "technology",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025672",
@@ -3216,7 +3355,8 @@
     "manual_sector": "technology",
     "manual_country": "Australia",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261954",
@@ -3239,7 +3379,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025006",
@@ -3262,7 +3403,8 @@
     "manual_sector": "technology",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025124",
@@ -3285,7 +3427,8 @@
     "manual_sector": "technology",
     "manual_country": "United Kingdom",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025652",
@@ -3308,7 +3451,8 @@
     "manual_sector": "technology",
     "manual_country": "United States",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20262024",
@@ -3323,15 +3467,16 @@
     "predicted_sector": "technology",
     "predicted_country": "United States",
     "predicted_severity_score": 0,
-    "manual_content_type": "opinion",
+    "manual_content_type": "unknown",
     "manual_case_id": "case_20262024",
     "manual_actor_present": false,
     "manual_actor_name": null,
     "manual_actor_confidence": "none",
     "manual_sector": "technology",
     "manual_country": "United States",
-    "manual_severity_bucket": "low",
-    "notes": ""
+    "manual_severity_bucket": "unknown",
+    "notes": "paywall/teaser - insufficient info",
+    "manual_label_confidence": "low"
   },
   {
     "id": "2026878",
@@ -3354,7 +3499,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026729",
@@ -3377,7 +3523,8 @@
     "manual_sector": "technology",
     "manual_country": "Europe",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2025510",
@@ -3400,7 +3547,8 @@
     "manual_sector": "technology",
     "manual_country": "Germany",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "2026269",
@@ -3423,7 +3571,8 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   },
   {
     "id": "20261742",
@@ -3446,6 +3595,7 @@
     "manual_sector": "technology",
     "manual_country": "Global",
     "manual_severity_bucket": "low",
-    "notes": ""
+    "notes": "",
+    "manual_label_confidence": "medium"
   }
 ]
