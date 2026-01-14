@@ -30,10 +30,34 @@ const GOLD_SET_LABELED = path.join(PROJECT_ROOT, 'data', 'gold-set.json');
 
 /**
  * Analyze title and summary to determine content type
+ * Returns { type, confidence, isPaywall }
  */
 function classifyContentType(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
   const title = item.title.toLowerCase();
+  const summary = item.summary.toLowerCase();
+  
+  // Check for paywall/teaser indicators first
+  const paywallIndicators = [
+    /subscribe to read/i,
+    /continue reading/i,
+    /sign up to read/i,
+    /member.?only/i,
+    /premium content/i,
+    /full article available/i,
+    /read more at/i,
+    /\bsubscribe\b.*\b(now|today|here)\b/i,
+    /this article is available to subscribers/i
+  ];
+  
+  const isPaywall = paywallIndicators.some(pattern => summary.match(pattern));
+  
+  // Check if summary is too short or lacks substance
+  const isTooShort = item.summary.length < 100 && !item.summary.match(/\b(breach|attack|hack|ransomware|vulnerability|cve-\d+)\b/i);
+  
+  if (isPaywall || isTooShort) {
+    return { type: 'unknown', confidence: 'low', isPaywall: true };
+  }
   
   // Opinion/Prediction indicators (check first for year-end summaries)
   if (
@@ -42,7 +66,7 @@ function classifyContentType(item) {
     title.match(/^(top \d+|best|worst|why|how to)/i) ||
     text.match(/\b(opinion|commentary|analysis|should|must|need to|time to)\b/i)
   ) {
-    return 'opinion';
+    return { type: 'opinion', confidence: 'high', isPaywall: false };
   }
   
   // Product/Service indicators
@@ -51,7 +75,7 @@ function classifyContentType(item) {
     text.match(/\b(product|service|solution|platform|tool|startup)\b/i) ||
     title.match(/review:/i)
   ) {
-    return 'product';
+    return { type: 'product', confidence: 'high', isPaywall: false };
   }
   
   // Explainer indicators  
@@ -59,7 +83,7 @@ function classifyContentType(item) {
     title.match(/^(what is|how|understanding|guide to|introduction to)/i) ||
     text.match(/\b(explainer|guide|tutorial|how to|what is)\b/i)
   ) {
-    return 'explainer';
+    return { type: 'explainer', confidence: 'high', isPaywall: false };
   }
   
   // Policy/Regulation indicators
@@ -67,7 +91,7 @@ function classifyContentType(item) {
     text.match(/\b(regulation|compliance|law|legal|policy|fine|sanction|mandate|requirement)\b/i) ||
     text.match(/\b(gdpr|hipaa|fedramp|nis2|cisa|nist)\b/i)
   ) {
-    return 'policy';
+    return { type: 'policy', confidence: 'high', isPaywall: false };
   }
   
   // Vulnerability indicators
@@ -75,7 +99,7 @@ function classifyContentType(item) {
     text.match(/\b(vulnerability|cve-20\d{2}-\d+|patch|zero-day|exploit|flaw|bug)\b/i) ||
     text.match(/\b(critical|high severity).*(vulnerability|flaw)\b/i)
   ) {
-    return 'vulnerability';
+    return { type: 'vulnerability', confidence: 'high', isPaywall: false };
   }
   
   // Campaign indicators
@@ -83,7 +107,7 @@ function classifyContentType(item) {
     text.match(/\b(campaign|operation|apt|threat actor|malware family|botnet)\b/i) ||
     text.match(/\b(phishing campaign|malware campaign|attack campaign)\b/i)
   ) {
-    return 'campaign';
+    return { type: 'campaign', confidence: 'high', isPaywall: false };
   }
   
   // Incident (default for security events)
@@ -91,15 +115,15 @@ function classifyContentType(item) {
     text.match(/\b(breach|attack|hack|ransomware|data leak|theft|compromise|incident)\b/i) ||
     text.match(/\b(stolen|exposed|leaked|encrypted|disrupted)\b/i)
   ) {
-    return 'incident';
+    return { type: 'incident', confidence: 'high', isPaywall: false };
   }
   
   // Default to incident if security-related, otherwise opinion
   if (text.match(/\b(cybersecurity|security|cyber)\b/i)) {
-    return 'incident';
+    return { type: 'incident', confidence: 'medium', isPaywall: false };
   }
   
-  return 'opinion';
+  return { type: 'opinion', confidence: 'medium', isPaywall: false };
 }
 
 /**
@@ -140,8 +164,14 @@ function extractActor(item) {
 
 /**
  * Determine severity based on explicit impact statements
+ * Returns { severity, confidence, isPaywall }
  */
-function determineSeverity(item) {
+function determineSeverity(item, contentInfo) {
+  // If content is paywall/teaser, severity is unknown
+  if (contentInfo.isPaywall) {
+    return { severity: 'unknown', confidence: 'low', isPaywall: true };
+  }
+  
   const text = `${item.title} ${item.summary}`.toLowerCase();
   
   // Critical: explicit major impact
@@ -150,7 +180,7 @@ function determineSeverity(item) {
     text.match(/\b(largest|massive|widespread|critical infrastructure)\b.*\b(breach|attack|theft)\b/i) ||
     text.match(/\b(millions|thousands)\b.*\b(affected|impacted|stolen|exposed)\b/i)
   ) {
-    return 'critical';
+    return { severity: 'critical', confidence: 'high', isPaywall: false };
   }
   
   // High: significant but not massive
@@ -159,7 +189,7 @@ function determineSeverity(item) {
     text.match(/\b(significant|major|severe)\b.*\b(breach|attack|impact)\b/i) ||
     text.match(/\b(hundreds of thousands|100,?000s?)\b.*\b(records|users|accounts)\b/i)
   ) {
-    return 'high';
+    return { severity: 'high', confidence: 'high', isPaywall: false };
   }
   
   // Moderate: mentioned impact but not severe
@@ -167,11 +197,11 @@ function determineSeverity(item) {
     text.match(/\b(breach|attack|theft|compromised)\b/i) ||
     text.match(/\b(data|records|credentials)\b.*\b(stolen|exposed|leaked)\b/i)
   ) {
-    return 'moderate';
+    return { severity: 'moderate', confidence: 'medium', isPaywall: false };
   }
   
   // Low: no clear impact statement
-  return 'low';
+  return { severity: 'low', confidence: 'medium', isPaywall: false };
 }
 
 /**
@@ -235,13 +265,13 @@ function labelGoldSet() {
   
   const labeled = goldSet.map((item, idx) => {
     // Content type
-    const content_type = classifyContentType(item);
+    const contentInfo = classifyContentType(item);
     
     // Actor extraction (strict)
     const actor = extractActor(item);
     
     // Severity (only if impact stated)
-    const severity = determineSeverity(item);
+    const severityInfo = determineSeverity(item, contentInfo);
     
     // Sector
     const sector = extractSector(item);
@@ -249,19 +279,35 @@ function labelGoldSet() {
     // Case ID
     const case_id = generateCaseId(item, goldSet);
     
+    // Determine overall label confidence
+    let labelConfidence = 'high';
+    if (contentInfo.isPaywall || severityInfo.isPaywall) {
+      labelConfidence = 'low';
+    } else if (contentInfo.confidence === 'medium' || severityInfo.confidence === 'medium') {
+      labelConfidence = 'medium';
+    }
+    
+    // Generate notes
+    let notes = '';
+    if (contentInfo.isPaywall || severityInfo.isPaywall) {
+      notes = 'paywall/teaser - insufficient info';
+    } else if (actor.name && actor.confidence === 'medium') {
+      notes = 'Actor attribution based on context, verify';
+    }
+    
     // Apply labels
     const labeled = {
       ...item,
-      manual_content_type: content_type,
+      manual_content_type: contentInfo.type,
       manual_case_id: case_id,
       manual_actor_present: actor.name !== null,
       manual_actor_name: actor.name,
       manual_actor_confidence: actor.confidence,
       manual_sector: sector,
       manual_country: item.predicted_country, // keep predicted
-      manual_severity_bucket: severity,
-      notes: actor.name && actor.confidence === 'medium' ? 
-        'Actor attribution based on context, verify' : ''
+      manual_severity_bucket: severityInfo.severity,
+      manual_label_confidence: labelConfidence,
+      notes: notes
     };
     
     if ((idx + 1) % 25 === 0) {
@@ -282,7 +328,8 @@ function labelGoldSet() {
     contentTypes: {},
     actorPresent: labeled.filter(i => i.manual_actor_present).length,
     severities: {},
-    sectors: {}
+    sectors: {},
+    confidenceLevels: {}
   };
   
   labeled.forEach(item => {
@@ -292,6 +339,8 @@ function labelGoldSet() {
       (stats.severities[item.manual_severity_bucket] || 0) + 1;
     stats.sectors[item.manual_sector] = 
       (stats.sectors[item.manual_sector] || 0) + 1;
+    stats.confidenceLevels[item.manual_label_confidence] = 
+      (stats.confidenceLevels[item.manual_label_confidence] || 0) + 1;
   });
   
   console.log('\n📊 Statistics:');
@@ -303,9 +352,19 @@ function labelGoldSet() {
   console.log(`\nActors Present: ${stats.actorPresent}/${labeled.length} (${(stats.actorPresent/labeled.length*100).toFixed(1)}%)`);
   
   console.log('\nSeverity Distribution:');
-  ['critical', 'high', 'moderate', 'low'].forEach(sev => {
+  ['critical', 'high', 'moderate', 'low', 'unknown'].forEach(sev => {
     const count = stats.severities[sev] || 0;
-    console.log(`  ${sev}: ${count}`);
+    if (count > 0) {
+      console.log(`  ${sev}: ${count}`);
+    }
+  });
+  
+  console.log('\nLabel Confidence:');
+  ['high', 'medium', 'low'].forEach(conf => {
+    const count = stats.confidenceLevels[conf] || 0;
+    if (count > 0) {
+      console.log(`  ${conf}: ${count} (${(count/labeled.length*100).toFixed(1)}%)`);
+    }
   });
   
   console.log('\nTop Sectors:');
