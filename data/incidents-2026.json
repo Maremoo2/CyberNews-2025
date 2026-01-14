@@ -1,5 +1,118 @@
 [
   {
+    "id": "20262278",
+    "date": "2026-01-14",
+    "title": "Le Campus Cyber, lieu totem français de la cybersécurité, fait sa révolution",
+    "summary": "Avec une nouvelle feuille de route pour la période 2026-2028, le Campus Cyber opère sa mutation. Le lieu veut devenir « un opérateur-pivot au service de la stratégie nationale cyber de l’Etat ».",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595150-le-campus-cyber-lieu-totem-francais-de-la-cybersecurite-fait-sa-revolution.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262279",
+    "date": "2026-01-14",
+    "title": "SafeLine Firewall Review: Step-by-Step Deployment Guide",
+    "summary": "In this post, I will show you the SafeLine Firewall review. Also, I will give you the step-by-step deployment guide. In the ever-evolving landscape of web security, organizations face constant threats from automated bots, malicious actors, and application-layer attacks. While cloud-based Web Appl...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/safeline-firewall-review/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262280",
+    "date": "2026-01-14",
+    "title": "VPN Use Cases: Discover The Top 7 Cool Things You Can Do With A VPN",
+    "summary": "Looking for cool things to do with a VPN? Or do you want some new and exciting ways to make the most of your VPN? You’ve come to the right place! Whether you’re an IT expert or a novice just starting out, there’s something for everyone. From streaming your favorite shows in a different country […...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cool-things-you-can-do-with-a-vpn/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262281",
+    "date": "2026-01-14",
+    "title": "Dedicated Development Teams for Startups: Benefits and Costs",
+    "summary": "In this post, I will talk about dedicated development teams for Startups. Also, I will discuss its benefits and costs. A dedicated development team is a setup many companies use when they need ongoing development work but don’t want to build a full in-house team. In practice, it’s a group of deve...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/dedicated-development-teams-for-startups/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262282",
+    "date": "2026-01-14",
+    "title": "9 Proven Cybersecurity Tips For Startups",
+    "summary": "In this post, we will show you nine cybersecurity tips for startups. Cybersecurity breaches can cost a business up to $4.2 million, a substantial amount of money for startup businesses. Additionally, cybersecurity breaches result in the loss of customers, leading to a decline in revenue generatio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cybersecurity-tips-for-startups/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262283",
+    "date": "2026-01-14",
+    "title": "CrowdStrike to add browser security to Falcon with Seraphic acquisition",
+    "summary": "CrowdStrike has agreed to acquire Israel-based Seraphic Security, a browser runtime security company, to extend its Falcon platform to browser-native enterprise security. Expected to close by April, the acquisition will allow CrowdStrike to integrate Seraphic’s browser-native protection with its ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116703/crowdstrike-to-add-browser-security-to-falcon-with-seraphic-acquisition.html",
+    "tags": [
+      "malware",
+      "crowdstrike"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262284",
+    "date": "2026-01-14",
+    "title": "Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners",
+    "summary": "Cloud marketplace and distributor Pax8 has confirmed that it mistakenly sent an email to fewer than 40 UK-based partners containing a spreadsheet with internal business information, including MSP customer and Microsoft licensing data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262285",
+    "date": "2026-01-14",
+    "title": "Victorian Department of Education says hackers stole students’ data",
+    "summary": "The Department of Education in Victoria, Australia, notified parents that attackers gained access to a database containing the personal information of current and former students. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/victorian-department-of-education-notifies-parents-of-data-breach/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262258",
     "date": "2026-01-14",
     "title": "Dark Web Forum Breached, Hackers Exposed",
