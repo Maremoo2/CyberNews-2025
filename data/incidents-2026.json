@@ -1,5 +1,286 @@
 [
   {
+    "id": "20262375",
+    "date": "2026-03-23",
+    "title": "Secure Your Spot at RSAC 2026 Conference",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/events/rsac-2026-conference",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262365",
+    "date": "2026-01-15",
+    "title": "News alert: Panorays study finds most CISOs lack vendor visibility as supply chain attacks climb",
+    "summary": "NEW YORK, Jan. 14, 2026, CyberNewswire — Panorays, a leading provider of third-party security risk management software, has released the 2026 edition of its annual CISO Survey for Third-Party Cyber Risk Management. The survey highlights third-party cyber risk as one of the most critical challenge...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-panorays-study-finds-most-cisos-lack-vendor-visibility-as-supply-chain-attacks-climb/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262362",
+    "date": "2026-01-14",
+    "title": "AI Security Is Top Cyber Concern: World Economic Forum",
+    "summary": "AI is expected to be “the most significant driver of change in cybersecurity” this year, according to the World Economic Forum’s annual cybersecurity outlook. That was the view of 94% of the more than 800 cybersecurity leaders surveyed by the organization for its Global Cybersecurity Outlook 2026...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ai-security-is-top-cyber-concern/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262363",
+    "date": "2026-01-14",
+    "title": "Microsoft Crushes Cybercrime Subscription Service Behind $40 Million Fraud Spree",
+    "summary": "A pharmaceutical company lost cancer treatment funding, a Florida condo association lost half a million dollars, and thousands more fell victim—all thanks to a $24-per-month criminal marketplace. Microsoft seized control of RedVDS, a global cybercrime subscription service that enabled fraud at in...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/redvds-service-dismantled/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262364",
+    "date": "2026-01-14",
+    "title": "Microsoft Copilot Reprompt Attack Enables Stealthy Data Exfiltration",
+    "summary": "A newly disclosed attack technique called Reprompt shows how a single click could have been enough to quietly turn Microsoft Copilot into a personal data siphon — without plugins, added permissions, or any back-and-forth with the user. This technique can help threat actors bypass “… enterprise se...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/artificial-intelligence/microsoft-copilot-reprompt-attack-enables-stealthy-data-exfiltration/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262366",
+    "date": "2026-01-14",
+    "title": "News alert: SpyCloud unveils supply chain security tool that detects compromised vendors’ employees",
+    "summary": "AUSTIN, Texas, Jan. 14, 2026, CyberNewsWire — SpyCloud, the leader in identity threat protection, today announced the launch of its Supply Chain Threat Protection solution, an advanced layer of defense that expands identity threat protection across the extended workforce, including organizations’...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-spycloud-unveils-supply-chain-security-tool-that-detects-compromised-vendors-employees/",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262367",
+    "date": "2026-01-14",
+    "title": "News alert: GitGuardian scales enterprise footprint in 2025, protecting developers and repositories",
+    "summary": "NEW YORK, Jan.14, 2026, CyberNewswire — GitGuardian, the leading secrets and Non-Human Identity security platform, today announced record growth in ARR and customer expansion throughout 2025, reinforcing its position as the enterprise standard for protecting code, collaboration tools, and cloud i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-gitguardian-scales-enterprise-footprint-in-2025-protecting-developers-and-repositories/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262368",
+    "date": "2026-01-14",
+    "title": "Trump’s Iran Threats Are About Venezuela",
+    "summary": "A new DW article makes the connection explicit: Iran covers 4% of global oil demand versus Venezuela’s 1%. Iran exports 2 million barrels per day; Venezuela manages 350,000. The article notes that if Iranian production stalls, eventually other producers would fill the gaps. That means Venezuela. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76137",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262369",
+    "date": "2026-01-14",
+    "title": "Virtru vs. Check Point (Avanan): Data Security Beyond the Perimeter",
+    "summary": "For decades, the standard for cybersecurity was the \"castle and moat\" strategy. You built high walls around your organization and assumed that everything inside was safe while everything outside was a potential threat. In that era, infrastructure giants like Check Point Security had the advantage...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/email-encryption/virtru-vs-check-point-checkpoint-harmony",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262370",
+    "date": "2026-01-14",
+    "title": "How Attack Surface Monitoring Improves Mean Time to Detect (MTTD)",
+    "summary": "Key Takeaways Attack surface monitoring reduces mean time to detect threats by identifying exposed assets and risky changes before attackers exploit them. Continuous attack surface monitoring shifts detection earlier in the attack lifecycle, rather than relying only on post-compromise alerts. Rea...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/threat-detection-response/attack-surface-monitoring-reduces-mttd/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262371",
+    "date": "2026-01-14",
+    "title": "Output from vibe coding tools prone to critical security flaws, study finds",
+    "summary": "Popular vibe coding platforms consistently generate insecure code in response to common programming prompts, including creating vulnerabilities rated as ‘critical,’ new testing has found. Security startup Tenzai’s top-line conclusion: the tools are good at avoiding security flaws that can be solv...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116923/output-from-vibe-coding-tools-prone-to-critical-security-flaws-study-finds.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262372",
+    "date": "2026-01-14",
+    "title": "Iran’s partial internet shutdown may be a windfall for cybersecurity intel",
+    "summary": "The near-total internet blackout imposed by the Iranian government starting January 8, reportedly due to a crackdown on protesters, may offer a rare opportunity to SOC staffers and other cybersecurity analysts, briefly allowing all government traffic sources to be identified and digitally fingerp...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116890/irans-partial-internet-shutdown-may-be-a-windfall-for-cybersecurity-intel.html",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262373",
+    "date": "2026-01-14",
+    "title": "Retail, Services Industries Under Fire in Oceania",
+    "summary": "Last year in Australia, New Zealand, and the South Pacific, Main Street businesses like retail and construction suffered more cyberattacks than their critical sector counterparts.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/retail-services-industries-oceania",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262374",
+    "date": "2026-01-14",
+    "title": "Microsoft Disrupts Cybercrime Service RedVDS",
+    "summary": "RedVDS, a cybercrime-as-a-service operation that has stolen millions from victims, lost two domains to a law enforcement operation supported by Microsoft.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/microsoft-disrupts-cybercrime-service-redvds",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262381",
+    "date": "2026-01-14",
+    "title": "OpenAI's hidden ChatGPT Translate tool takes on Google Translate",
+    "summary": "OpenAI has quietly rolled out a new ChatGPT feature called ChatGPT Translate, and it looks very similar to Google Translate on the web. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-hidden-chatgpt-translate-tool-takes-on-google-translate/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262382",
+    "date": "2026-01-14",
+    "title": "South Korean giant Kyowon confirms data theft in ransomware attack",
+    "summary": "The Kyowon Group (Kyowon), a South Korean conglomerate, disclosed that a cyberattack has disrupted its operations and customer information may have been exposed in the incident. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/south-korean-giant-kyowon-confirms-data-theft-in-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262383",
+    "date": "2026-01-14",
+    "title": "France fines Free Mobile €42 million over 2024 data breach incident",
+    "summary": "The French data protection authority (CNIL) has imposed cumulative fines of €42 million on Free Mobile and its parent company, Free, for inadequate protection of customer data against cyber threats. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/france-fines-free-mobile-42-million-over-2024-data-breach-incident/",
+    "tags": [
+      "data-breach",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262384",
+    "date": "2026-01-14",
+    "title": "Exploit code public for critical FortiSIEM command injection flaw",
+    "summary": "Technical details and a public exploit have been published for a critical vulnerability affecting Fortinet's Security Information and Event Management (SIEM) solution that could be leveraged by a remote, unauthenticated attacker to execute commands or code. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/exploit-code-public-for-critical-fortisiem-command-injection-flaw/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262385",
+    "date": "2026-01-14",
+    "title": "Verizon Wireless outage puts phones in SOS mode without cell service",
+    "summary": "Verizon Wireless is suffering a massive outage in the US, with customers reporting their phones stuck in SOS mode with no cellular service. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/mobile/verizon-wireless-outage-puts-phones-in-sos-mode-without-cell-service/",
+    "tags": [],
+    "impact": 5
+  },
+  {
     "id": "20262326",
     "date": "2026-01-14",
     "title": "Aikido Security Raises $60 Million at $1 Billion Valuation",
@@ -2312,6 +2593,22 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262376",
+    "date": "2026-01-13",
+    "title": "Laughter in the dark: Tales of absurdity from the cyber frontline and what they taught us",
+    "summary": "From a quintuple-encryption ransomware attack to zany dark web schemes and AI fails, Sophos X-Ops looks back at some of our favorite weirdest incidents from the last few years – and the serious lessons behind themCategories: Threat ResearchTags: Ransomware, Hive, Lockbit, BlackCat, LLM, AI, Money...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://sophos-production.contentstackapps.com/en-us/blog/laughter-in-the-dark-tales-of-absurdity",
+    "tags": [
+      "ransomware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
   },
   {
     "id": "20262317",
@@ -5711,6 +6008,32 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20262377",
+    "date": "2026-01-12",
+    "title": "The State of Ransomware in Enterprise 2025",
+    "summary": "Categories: Products & ServicesTags: Ransomware, Enterprise, Solutions, The State of Ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://sophos-production.contentstackapps.com/en-us/blog/the-state-of-ransomware-in-enterprise-2025",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262378",
+    "date": "2026-01-12",
+    "title": "Year in Review 2025: The major headlines and moments from Sophos this year",
+    "summary": "Categories: Sophos InsightsTags: Year in Review, security news",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://sophos-production.contentstackapps.com/en-us/blog/year-in-review-2025-the-major-headlines-and-moments-from-sophos-this-year",
+    "tags": [],
+    "impact": 4
   },
   {
     "id": "20262271",
@@ -9772,6 +10095,18 @@
     "impact": 3
   },
   {
+    "id": "20262379",
+    "date": "2026-01-09",
+    "title": "Human-in-the-loop security will define 2026: Predictions from Sophos experts",
+    "summary": "Categories: Sophos InsightsTags: Sophos, Year in Review",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://sophos-production.contentstackapps.com/en-us/blog/human-in-the-loop-security-will-define-2026-predictions-from-sophos-experts",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20261940",
     "date": "2026-01-09",
     "title": "Deploying VSOCKpuppet: Unmasking how Chinese Threat Actors Exploited ESXi Zero-Days Before Disclosure",
@@ -11170,6 +11505,20 @@
       "Data/IT"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262380",
+    "date": "2026-01-08",
+    "title": "5 ways your firewall can keep ransomware out — and lock it down if it gets in",
+    "summary": "Categories: Sophos InsightsTags: Firewall, Ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://sophos-production.contentstackapps.com/en-us/blog/5-ways-your-firewall-can-keep-ransomware-out-and-lock-it-down-if-it-gets-in",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
   },
   {
     "id": "20261958",
