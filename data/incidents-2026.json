@@ -12,6 +12,569 @@
     "impact": 3
   },
   {
+    "id": "20262513",
+    "date": "2026-01-15",
+    "title": "New StackWarp Attack Threatens Confidential VMs on AMD Processors",
+    "summary": "Researchers have disclosed technical details on a new AMD processor attack that allows remote code execution inside confidential VMs. The post New StackWarp Attack Threatens Confidential VMs on AMD Processors appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/new-stackwarp-attack-threatens-confidential-vms-on-amd-processors/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262514",
+    "date": "2026-01-15",
+    "title": "Vibe Coding Tested: AI Agents Nail SQLi but Fail Miserably on Security Controls",
+    "summary": "Vibe coding generates a curate’s egg program: good in parts, but the bad parts affect the whole program. The post Vibe Coding Tested: AI Agents Nail SQLi but Fail Miserably on Security Controls appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/vibe-coding-tested-ai-agents-nail-sqli-but-fail-miserably-on-security-controls/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262515",
+    "date": "2026-01-15",
+    "title": "Google to pay $8.25 million to settle lawsuit alleging children’s privacy violations",
+    "summary": "Google has agreed to pay $8.25 million to settle a class-action lawsuit centered on claims that it habitually and illegally collected data from devices belonging to children under age 13.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/google-youtube-lawsuit-settle",
+    "tags": [
+      "google",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262516",
+    "date": "2026-01-15",
+    "title": "Researchers Reveal Reprompt Attack Allowing Single-Click Data Exfiltration From Microsoft Copilot",
+    "summary": "Cybersecurity researchers have disclosed details of a new attack method dubbed Reprompt that could allow bad actors to exfiltrate sensitive data from artificial intelligence (AI) chatbots like Microsoft Copilot in a single click, while bypassing enterprise security controls entirely. \"Only a sing...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-reveal-reprompt-attack.html",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262517",
+    "date": "2026-01-15",
+    "title": "Critical WordPress Modular DS Plugin Flaw Actively Exploited to Gain Admin Access",
+    "summary": "A maximum-severity security flaw in a WordPress plugin called Modular DS has come under active exploitation in the wild, according to Patchstack. The vulnerability, tracked as CVE-2026-23550 (CVSS score: 10.0), has been described as a case of unauthenticated privilege escalation impacting all ver...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/critical-wordpress-modular-ds-plugin.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262518",
+    "date": "2026-01-15",
+    "title": "Germany turns to Israel for a ‘cyber dome’ amid rising threats",
+    "summary": "Germany and Israel have signed a cyber and security cooperation agreement — a deal that Berlin hopes will lead to its own version of Israel’s so-called “cyber dome.”",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/germany-cyber-dome-israel",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262519",
+    "date": "2026-01-15",
+    "title": "The quiet way AI normalizes foreign influence",
+    "summary": "Americans are being taught to trust propaganda. Often, it’s not intentional. A classic bit of advice for separating propaganda from real research is “Check the citations.” If the sources support the analysis, the material can be trusted. But AI is changing the rules of the game. In December, the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/the-quiet-way-ai-normalizes-foreign-influence/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262520",
+    "date": "2026-01-15",
+    "title": "ThreatsDay Bulletin: AI Voice Cloning Exploit, Wi-Fi Kill Switch, PLC Vulns, and 14 More Stories",
+    "summary": "The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere. This week’s stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in. Read on to catch up before ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/threatsday-bulletin-ai-voice-cloning.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262521",
+    "date": "2026-01-15",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A critical vulnerability in the Motors WordPress theme, developed by StylemixThemes, has been identified, potentially allowing logged-in users with minimal privileges to take over affected websites. A new malware campaign has been identified, utilizing ClickFix social engineering tactics to deplo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Infosecurity%20Magazine",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262522",
+    "date": "2026-01-15",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts For Proxy Rotation",
+    "summary": "A ransomware operation known as DeadLock has been observed abusing Polygon blockchain smart contracts to manage and rotate proxy server addresses. DeadLock first appeared in July 2025 and has maintained a relatively low profile since then. It is not linked to known ransomware affiliate programs a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/deadlock-polygon-smart-contracts/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262523",
+    "date": "2026-01-15",
+    "title": "Elon Musk’s X says it will block Grok from making sexual images",
+    "summary": "Elon Musk’s social media platform X announced it would be making changes to prevent its AI tool Grok from creating sexualized images of people without their consent, including what critics say are effectively child sexual abuse material.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/musk-x-grok-block-sexual",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262524",
+    "date": "2026-01-15",
+    "title": "[Ekstra] Snart kan Google Gemini hjelpe deg med mye mer",
+    "summary": "Lanserer «Personal Intelligence».",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/snart-kan-google-gemini-hjelpe-deg-med-mye-mer/566988",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262525",
+    "date": "2026-01-15",
+    "title": "Depthfirst Raises $40 Million for Vulnerability Management",
+    "summary": "The startup will use the investment to accelerate R&D, expand go-to-market efforts, and hire new talent. The post Depthfirst Raises $40 Million for Vulnerability Management appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/depthfirst-raises-40-million-for-vulnerability-management/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262526",
+    "date": "2026-01-15",
+    "title": "Microsoft seizes RedVDS infrastructure, disrupts fast-growing cybercrime marketplace",
+    "summary": "Microsoft announced Wednesday that it worked with international law enforcement to seize infrastructure used to run cybercrime subscription service RedVDS and organized civil actions in the United States and United Kingdom to disrupt its further use. RedVDS has enabled at least $40 million in fra...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/microsoft-seizes-disrupts-redvds-cybercrime-marketplace/?&web_view=true",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262527",
+    "date": "2026-01-15",
+    "title": "isVerified Emerges From Stealth With Voice Deepfake Detection Apps",
+    "summary": "isVerified provides Android and iOS mobile applications designed to protect enterprise communications. The post isVerified Emerges From Stealth With Voice Deepfake Detection Apps appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/isverified-emerges-from-stealth-with-voice-deepfake-detection-apps/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262528",
+    "date": "2026-01-15",
+    "title": "Model Security Is the Wrong Frame – The Real Risk Is Workflow Security",
+    "summary": "As AI copilots and assistants become embedded in daily work, security teams are still focused on protecting the models themselves. But recent incidents suggest the bigger risk lies elsewhere: in the workflows that surround those models. Two Chrome extensions posing as AI helpers were recently cau...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/model-security-is-wrong-frame-real-risk.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262529",
+    "date": "2026-01-15",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Two U.S. banks have come forward to warn customers they were impacted by an August ransomware attack. Artisans' Bank and VeraBank informed regulators in Maine last week that recent data breaches were sourced back to a cyberattack on Marquis Software. Cyberespionage group Goffee launched a campaig...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=The%20Record",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262530",
+    "date": "2026-01-15",
+    "title": "Western cyber agencies warn about threats to industrial operational technology",
+    "summary": "A group of Western cyber agencies warned on Wednesday about the growing digital threats facing the operational technology at the heart of industrial systems. New guidance issued by Britain’s National Cyber Secure Centre (NCSC), a part of signals and cyber intelligence agency GCHQ, sets out how or...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cyber-agencies-warn-of-industrial-system-threats?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262531",
+    "date": "2026-01-15",
+    "title": "Amazon Connect now provides agent scheduling metrics in data lake",
+    "summary": "Amazon Connect now provides agent scheduling metrics in data lake, making it easier for you to generate reports and insights from this data. For example, after publishing schedules for next month, you can access interval level (15 minutes or 30 minutes) metrics such as forecasted headcount, sched...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262532",
+    "date": "2026-01-15",
+    "title": "Election officials say trust with CISA on election security is broken - Votebeat",
+    "summary": "The designation elevated elections into a national security category that brought federal cybersecurity resources and intelligence sharing on threats.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.votebeat.org/2026/01/15/cisa-election-security-trust-broken-trump-chris-krebs-denise-merrill/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262533",
+    "date": "2026-01-15",
+    "title": "Billington State and Local Cybersecurity Summit 2026 - Flashpoint.io",
+    "summary": "Flashpoint is a bronze sponsor at the Billington State and Local Cybersecurity Summit in Washington, DC March 9-11, 2026 ... Security Information & ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://flashpoint.io/events/billington-state-and-local-cybersecurity-summit-2026-2/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262534",
+    "date": "2026-01-15",
+    "title": "The DOJ's Enhanced Efforts to Combat Government Contractor Cybersecurity Vulnerabilities",
+    "summary": "... cybersecurity. This article discusses the civil and criminal provisions of the FCA, reviews recent DOJ enforcement actions vis-à-vis cyber security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dentons.com/en/insights/articles/2026/january/15/the-dojs-enhanced-efforts-to-combat-government-contractor",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262535",
+    "date": "2026-01-15",
+    "title": "Open call for industry: (Cyber)security Products for Space Systems Protection 2026-2028",
+    "summary": "Intrusion Detection; Protection / Recovery. Approach. The technology developments listed complement the GSTP Compendia 2026-2028 for Cybersecurity. If ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Open_call_for_industry_Cyber_security_Products_for_Space_Systems_Protection_2026-2028",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262536",
+    "date": "2026-01-15",
+    "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+    "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5068404 (RDS version 15.00.4455.2.1.v1) and SQL Server 2022 CU21+GDR KB50...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-custom-gdr-updates-microsoft-sql-server",
+    "tags": [
+      "microsoft",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262537",
+    "date": "2026-01-15",
+    "title": "Amazon Redshift Serverless adds queue-based query resource management",
+    "summary": "Amazon Redshift Serverless introduces queue-based query resource management. You can create dedicated query queues with customized monitoring rules for different workloads. This feature provides granular control over resource usage. Queues let you set metrics-based predicates and automated respon...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-queue-based-query-resource-management",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262538",
+    "date": "2026-01-15",
+    "title": "Microsoft disrupts global cybercrime subscription service responsible for millions in fraud losses",
+    "summary": "... cyber‑enabled fraud. In these cases, attackers compromise the ... Security to Model: Securing Artificial Intelligence to Strengthen Cybersecurity.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.microsoft.com/on-the-issues/2026/01/14/microsoft-disrupts-cybercrime/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262539",
+    "date": "2026-01-15",
+    "title": "Fordham Receives AI Cybersecurity Designation from NSA",
+    "summary": "... cybersecurity. In 2009, it co-hosted the first International Cyber Security Conference (ICCS) with the FBI. The University has continued to host ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://now.fordham.edu/university-news/fordham-receives-ai-cybersecurity-designation-from-nsa/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262540",
+    "date": "2026-01-15",
+    "title": "How a former U.S. special forces officer raised $22 million for his cybersecurity startup",
+    "summary": "That's what's missing in cyber security,\" he said. He teamed up with some former Green Berets and they all went on to build Blackpanda, an idea shaped ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/01/15/-gene-yu-us-special-forces-cybersecurity-startup-blackpanda.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262541",
+    "date": "2026-01-15",
+    "title": "Nozomi opens APJ HQ in Singapore after USD $1bn deal - SecurityBrief Australia",
+    "summary": "The company stated that it collaborates with the Cyber Security Agency of Singapore (CSA) on the nation's operational technology cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/nozomi-opens-apj-hq-in-singapore-after-usd-1bn-deal",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262542",
+    "date": "2026-01-15",
+    "title": "Inside CrowdStrike's US$420m Seraphic Acquisition | Cyber Magazine",
+    "summary": "Cybersecurity giant CrowdStrike is on a quest to be a definitive leader in cyberspace. · By acquiring Serpahic Security, a leading browser runtime ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/inside-crowdstrike-420m-seraphic-acquisition",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262543",
+    "date": "2026-01-15",
+    "title": "NCSC-led global guidance sets out principles for designing secure connectivity into OT networks",
+    "summary": "Global cybersecurity agencies have released joint guidance, led by the U.K.'s National Cyber Security Centre (NCSC), providing owners and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/ncsc-led-global-guidance-sets-out-principles-for-designing-secure-connectivity-into-ot-networks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262544",
+    "date": "2026-01-15",
+    "title": "Nozomi Networks invests in Singapore to meet rising demand across Asia Pacific and Japan region",
+    "summary": "‍This includes collaboration with the Cyber Security Agency of Singapore (CSA) in support of the nation's Operational Technology Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/nozomi-networks-invests-in-singapore-to-meet-rising-demand-across-asia-pacific-and-japan-region/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262545",
+    "date": "2026-01-15",
+    "title": "Guidance on OT Security Issued by Cyber Defense Agencies - VitalLaw.com",
+    "summary": "“Organisations deploying or operating OT systems often face challenges in prioritising cyber security due to operational constraints, such as ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.vitallaw.com/news/guidance-on-ot-security-issued-by-cyber-defense-agencies/cspd013c1a003965694dbe8ca95b329636d7fa",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262546",
+    "date": "2026-01-15",
+    "title": "Computer Security: A final marathon for service managers | CERN",
+    "summary": "The past two years have brought a lot of new computer-security deployments at CERN. Spurred on by the 2023 cybersecurity audit, the Computer Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://home.cern/news/news/computing/computer-security-final-marathon-service-managers",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262547",
+    "date": "2026-01-15",
+    "title": "China bans U.S. and Israeli cybersecurity software over security concerns",
+    "summary": "Reuters reported that China has ordered domestic companies to stop using cybersecurity solutions from more than a dozen U.S. and Israeli firms, citing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/186920/intelligence/china-bans-u-s-and-israeli-cybersecurity-software-over-security-concerns.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262548",
+    "date": "2026-01-15",
+    "title": "The UN Security Council in the AI Era - Stimson Center",
+    "summary": "In 2024 and 2025 alone, members convened high-level open debates on cybersecurity (June 2024) and AI (September 2025), alongside more focused Arria- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.stimson.org/2026/the-un-security-council-in-the-ai-era/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262549",
+    "date": "2026-01-15",
+    "title": "2026 Panorays Study CISOs Can't See Third‑Party Threats - Cybersecurity Insiders",
+    "summary": "The survey highlights third-party cyber risk as one of the most critical challenges facing security leaders today, driven largely by a lack of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/2026-study-from-panorays-85-of-cisos-cant-see-third-party-threats-amid-increasing-supply-chain-attacks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262550",
+    "date": "2026-01-15",
+    "title": "OptiMind: A small language model with optimization expertise",
+    "summary": "At a glance Many real-world business problems can benefit from optimization, but translating decisions, constraints, and goals from natural language into optimization algorithms is slow. OptiMind is a small language model designed to convert business problems described in natural language into th...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/blog/optimind-a-small-language-model-with-optimization-expertise/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262477",
     "date": "2026-01-15",
     "title": "WEF: AI overtakes ransomware as fastest-growing cyber risk",
