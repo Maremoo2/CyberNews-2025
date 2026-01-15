@@ -12,6 +12,165 @@
     "impact": 3
   },
   {
+    "id": "20262416",
+    "date": "2026-01-15",
+    "title": "[Ekstra] Kommune frir seg fra Microsoft: – Føles fantastisk",
+    "summary": "Sparer millioner på lisenser og ivrer for digital suverenitet. Nå fjerner de Office-avhengigheten i alle fagsystemer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/norsk-kommune-frir-seg-fra-microsoft-foles-fantastisk/566770",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262417",
+    "date": "2026-01-15",
+    "title": "ISC Stormcast For Thursday, January 15th, 2026 https://isc.sans.edu/podcastdetail/9768, (Thu, Jan 15th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32630",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262418",
+    "date": "2026-01-15",
+    "title": "CISA, Peers Provide OT Connectivity Principles - RTO Insider",
+    "summary": "To help critical infrastructure organizations strengthen their cybersecurity stances, the Department of Homeland Security's Cybersecurity and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.rtoinsider.com/123420-cisa-releases-ot-connectivity-guidance/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262419",
+    "date": "2026-01-15",
+    "title": "China Bans Cybersecurity Products From Top US, Israeli Firms - Bloomberg.com",
+    "summary": "“Recent work has found that cybersecurity products from Palo Alto Networks, a company with a US-Western intelligence background, have security issues, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-01-14/china-bans-cyber-products-from-top-us-israeli-security-firms",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262420",
+    "date": "2026-01-15",
+    "title": "Is Your Business Quantum-Ready? Why Risk Assessments Are Critical Now - IDC",
+    "summary": "Enterprise security professional evaluating risk and strategy during a cybersecurity and technology planning discussion. Quantum computing and the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.idc.com/resource-center/blog/is-your-business-quantum-ready-why-risk-assessments-are-critical-now/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262421",
+    "date": "2026-01-15",
+    "title": "China bans dozen of US and Israeli cybersecurity firms over national security concerns: report",
+    "summary": "Israeli cybersecurity company CyberArk was also included, along with fellow Israeli firms Orca Security and Cato Networks. Imperva, owned by French ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.foxbusiness.com/technology/china-bans-dozen-us-israeli-cybersecurity-firms-national-security-concerns-report",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262422",
+    "date": "2026-01-15",
+    "title": "NSA Releases First in Series of Zero Trust Implementation Guidelines",
+    "summary": "System owners, cybersecurity professionals, and stakeholders should review these foundational guidelines to gain a deeper understanding of ZT ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4378980/nsa-releases-first-in-series-of-zero-trust-implementation-guidelines/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262423",
+    "date": "2026-01-15",
+    "title": "China bars use of US, Israeli cybersecurity software | The Jerusalem Post",
+    "summary": "... security concerns, two people briefed on the matter said. Broadcom ... it has also sought to replace Western computer equipment and word processing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jpost.com/defense-and-tech/article-883322",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262424",
+    "date": "2026-01-15",
+    "title": "China bars US and Israeli cybersecurity firms, including Palo Alto Networks and Check Point",
+    "summary": "... cybersecurity. The Chinese government's largest domestic cybersecurity providers include 360 Security Technology and Neusoft. Reuters also noted ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/bk8z4frsbg",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262425",
+    "date": "2026-01-15",
+    "title": "Explore public datasets with Apache Iceberg & BigLake",
+    "summary": "by Talat Uyarer & Alex Stephen, Biglake Team The promise of the Open Data Lakehouse is simple: your data should not be locked into a single engine. It should be accessible, interoperable, and built on open standards. Today, we are taking a major step forward in making that promise a reality for d...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/01/explore-public-datasets-with-apache-iceberg-and-biglake.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262426",
+    "date": "2026-01-15",
+    "title": "Access Fabric: A modern approach to identity and network access",
+    "summary": "Today, most organizations use multiple identity systems and multiple network access solutions from multiple vendors. This happens, either intentionally or organically, when different areas of a company choose different tools, creating a fragmented environment that leaves weaknesses that cyberatta...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/17/access-fabric-a-modern-approach-to-identity-and-network-access/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262408",
     "date": "2026-01-15",
     "title": "QR codes are getting colorful, fancy, and dangerous",
