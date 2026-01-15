@@ -12,6 +12,312 @@
     "impact": 3
   },
   {
+    "id": "20262457",
+    "date": "2026-01-15",
+    "title": "New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data",
+    "summary": "The attack bypassed Copilot’s data leak protections and allowed for session exfiltration even after the Copilot chat was closed. The post New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/new-reprompt-attack-silently-siphons-microsoft-copilot-data/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262458",
+    "date": "2026-01-15",
+    "title": "Researchers warn of long‑running FortiSIEM root exploit vector as new CVE emerges",
+    "summary": "A critical command injection issue in Fortinet FortiSIEM has been disclosed along with public exploit code, and researchers claim attackers could have been remotely achieving unauthenticated root access to the SIEM platform for nearly three years. The flaw belongs to a class of weakness in FortiS...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4117316/researchers-warn-of-long%E2%80%91running-fortisiem-root-exploit-vector-as-new-cve-emerges.html",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262459",
+    "date": "2026-01-15",
+    "title": "Sources: DHS finalizing replacement for disbanded critical infrastructure security council",
+    "summary": "The Department of Homeland Security is finalizing plans for a new body that would replace the functions of the Critical Infrastructure Partnership Advisory Council (CIPAC) and serve as a communications hub between industry and government to discuss ongoing threats to U.S. critical infrastructure,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/dhs-anchor-cipac-replacement-critical-infrastructure-cybersecurity-liability-protections/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262460",
+    "date": "2026-01-15",
+    "title": "4 Outdated Habits Destroying Your SOC's MTTR in 2026",
+    "summary": "It’s 2026, yet many SOCs are still operating the way they did years ago, using tools and processes designed for a very different threat landscape. Given the growth in volumes and complexity of cyber threats, outdated practices no longer fully support analysts’ needs, staggering investigations and...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/4-outdated-habits-destroying-your-socs.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262461",
+    "date": "2026-01-15",
+    "title": "Battling Cryptojacking, Botnets, and IABs [Guest Diary], (Thu, Jan 15th)",
+    "summary": "[This is a Guest Diary by Matthew Presnal, an ISC intern as part of the SANS.edu BACS program] Cryptojacking and botnets can pose a greater threat than a simple drain of resources. These organizations have been known to engage in “DDoS for Hire” or even selling off footholds, acting as Initial Ac...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32632",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262462",
+    "date": "2026-01-15",
+    "title": "Central Maine Healthcare Data Breach Impacts 145,000 Individuals",
+    "summary": "Hackers stole patients’ personal, treatment, and health insurance information from the hospital’s IT systems. The post Central Maine Healthcare Data Breach Impacts 145,000 Individuals appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/central-maine-healthcare-data-breach-impacts-145000-individuals/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262463",
+    "date": "2026-01-15",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Kimwolf has launched numerous DDoS attacks, frequently targeting Minecraft servers with short bursts lasting one to two minutes, though some attacks have extended for hours, causing widespread service disruption. The NIST and The MITRE Corporation have announced a $20 million initiative to establ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=CyberScoop",
+    "tags": [
+      "ddos",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262464",
+    "date": "2026-01-15",
+    "title": "Kimwolf botnet’s swift rise to 2M infected devices agitates security researchers",
+    "summary": "The Kimwolf botnet, which splintered off from the record-setting Aisuru DDoS botnet in August, gained the widespread attention of security researchers when it temporarily claimed the top spot in Cloudflare’s global domain rankings in late October 2025. Within weeks it spread like a wildfire, even...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/kimwolf-aisuru-botnet-lumen-technologies/?&web_view=true",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262465",
+    "date": "2026-01-15",
+    "title": "Microsoft Legal Action Disrupts RedVDS Cybercrime Infrastructure Used for Online Fraud",
+    "summary": "Microsoft on Wednesday announced that it has taken a \"coordinated legal action\" in the U.S. and the U.K. to disrupt a cybercrime subscription service called RedVDS that has allegedly fueled millions in fraud losses. The effort, per the tech giant, is part of a broader law enforcement effort in co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/microsoft-legal-action-disrupts-redvds.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262466",
+    "date": "2026-01-15",
+    "title": "Palo Alto Fixes GlobalProtect DoS Flaw That Can Crash Firewalls Without Login",
+    "summary": "Palo Alto Networks has released security updates for a high-severity security flaw impacting GlobalProtect Gateway and Portal, for which it said there exists a proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-0227 (CVSS score: 7.7), has been described as a denial-of-service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/palo-alto-fixes-globalprotect-dos-flaw.html",
+    "tags": [
+      "vulnerability",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262467",
+    "date": "2026-01-15",
+    "title": "CERT-UA reports PLUGGYAPE cyberattacks on defense forces",
+    "summary": "Pierluigi Paganini January 14, 2026 The Computer Emergency Response Team of Ukraine (CERT-UA) reported new cyberattacks against Ukraine’s defense forces using PLUGGYAPE malware. Government experts attributed the attack with medium confidence to the Russian-linked group Void Blizzard (aka Laundry ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/186910/intelligence/cert-ua-reports-pluggyape-cyberattacks-on-defense-forces.html?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262468",
+    "date": "2026-01-15",
+    "title": "VoidLink Linux Malware Framework Targets Cloud Environments",
+    "summary": "Designed for long-term access, the framework targets cloud and container environments with loaders, implants, and rootkits. The post VoidLink Linux Malware Framework Targets Cloud Environments appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/voidlink-linux-malware-framework-targets-cloud-environments/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262469",
+    "date": "2026-01-15",
+    "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Aveva, Phoenix Contact",
+    "summary": "Only a dozen new advisories have been published this Patch Tuesday by industrial giants. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Aveva, Phoenix Contact appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-aveva-phoenix-contact/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262470",
+    "date": "2026-01-15",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "The increasing complexity of vendor ecosystems and the integration of AI in business operations have heightened third-party cyber risks. CISOs are increasingly concerned about the lack of visibility beyond direct vendors. A China-aligned advanced persistent threat group, LongNosedGoblin, has been...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Help%20Net%20Security",
+    "tags": [
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262471",
+    "date": "2026-01-15",
+    "title": "CISOs flag gaps in third-party risk management",
+    "summary": "Third-party cyber risk continues to concern security leaders as vendor ecosystems grow, supply chains stretch, and AI plays a larger role in business operations. A recent Panorays survey of U.S. CISOs shows rising third-party incidents and growing regulatory attention, while visibility beyond dir...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/panorays-cisos-ai-vendor-risk/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262472",
+    "date": "2026-01-15",
+    "title": "Traveler Information Stolen in Eurail Data Breach",
+    "summary": "Hackers stole the personal and reservation information of people with a Eurail pass and those who made a seat reservation with the company. The post Traveler Information Stolen in Eurail Data Breach appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/traveler-information-stolen-in-eurail-data-breach/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262473",
+    "date": "2026-01-15",
+    "title": "[Ekstra] Forlik i rettssaken: IT-ansatt sparket: − Et inngrep i ytringsfriheten",
+    "summary": "Forhandlingene i Oslo tingrett om PIT-varsleren endte i forlik.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/it-ansatt-sparket-et-inngrep-i-ytringsfriheten/566949",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262474",
+    "date": "2026-01-15",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "MongoBleed (CVE-2025-14847) is a critical memory leak vulnerability in MongoDB that has been hidden for eight years. It allows unauthenticated attackers to read uninitialized heap memory, potentially exposing sensitive information. This advisory provides an overview of phishing email trends obser...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=ASEC",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262475",
+    "date": "2026-01-15",
+    "title": "MongoBleed (CVE-2025-14847): A Critical MongoDB Memory Leak Vulnerability Hidden for 8 Years - ASEC",
+    "summary": "In late 2025, a high-severity memory information disclosure vulnerability that had been lurking in MongoDB for years was finally revealed. Dubbed MongoBleed, this flaw allows unauthenticated attackers to read uninitialized heap memory, potentially exposing sensitive information. The U.S. Cybersec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://asec.ahnlab.com/en/92067/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262476",
+    "date": "2026-01-15",
+    "title": "MDG: Vil tvinge næringsministeren til å overlevere Telenor-dialog om Myanmar",
+    "summary": "Stortinget bør stemme over om næringsministeren skal gi kontroll- og konstitusjonskomiteen innsikt i eierdialogen med Telenor i Myanmar-saken, mener MDG.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/mdg-vil-tvinge-naeringsministeren-til-a-overlevere-telenor-dialog-om-myanmar/566991",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262427",
     "date": "2026-01-15",
     "title": "What You Need to Know About the New LinkedIn Phishing Scheme",
