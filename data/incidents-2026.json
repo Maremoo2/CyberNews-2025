@@ -12,6 +12,21 @@
     "impact": 3
   },
   {
+    "id": "20262386",
+    "date": "2026-01-15",
+    "title": "Sophisticated VoidLink malware framework targets Linux cloud servers",
+    "summary": "Researchers have uncovered a new sophisticated and modular malware framework designed to operate stealthily inside Linux systems and containers. The framework seems to have been designed by Chinese developers with in-depth knowledge of Linux internals and was created to be used against cloud serv...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4117038/sophisticated-voidlink-malware-framework-targets-linux-cloud-servers.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262365",
     "date": "2026-01-15",
     "title": "News alert: Panorays study finds most CISOs lack vendor visibility as supply chain attacks climb",
@@ -25,6 +40,316 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262387",
+    "date": "2026-01-14",
+    "title": "Microsoft disrupts RedVDS cybercrime platform behind $40 million in scam losses",
+    "summary": "Microsoft and law enforcement partners took down a popular cybercriminal subscription service called RedVDS that was used to enable more than $40 million in fraud losses in the United States alone.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/microsoft-redvds-cybercrime-scam",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262388",
+    "date": "2026-01-14",
+    "title": "Sources: DHS finalizing replacement for disbanded critical infrastructure security council ",
+    "summary": "The Department of Homeland Security is finalizing plans for a new body that would replace the functions of the Critical Infrastructure Partnership Advisory Council (CIPAC) and serve as a communications hub between industry and government to discuss ongoing threats to U.S. critical infrastructure,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/dhs-anchor-cipac-replacement-critical-infrastructure-cybersecurity-liability-protections/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262389",
+    "date": "2026-01-14",
+    "title": "Kimwolf botnet’s swift rise to 2M infected devices agitates security researchers",
+    "summary": "The Kimwolf botnet, which splintered off from the record-setting Aisuru DDoS botnet in August, gained the widespread attention of security researchers when it temporarily claimed the top spot in Cloudflare’s global domain rankings in late October 2025. Within weeks it spread like a wildfire, even...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/kimwolf-aisuru-botnet-lumen-technologies/",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262390",
+    "date": "2026-01-14",
+    "title": "California AG launches investigation into X’s sexualized deepfakes",
+    "summary": "California Attorney General Rob Bonta announced an investigation Wednesday into xAI over allegations that its artificial intelligence model Grok is being used to create nonconsensual sexually explicit images of women and children on a large scale, marking the latest escalation in regulatory effor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/california-ag-investigates-xai-grok-nonconsensual-deepfakes-defiance-act/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262391",
+    "date": "2026-01-14",
+    "title": "Researchers Null-Route Over 550 Kimwolf and Aisuru Botnet Command Servers",
+    "summary": "The Black Lotus Labs team at Lumen Technologies said it null-routed traffic to more than 550 command-and-control (C2) nodes associated with the AISURU/Kimwolf botnet since early October 2025. AISURU and its Android counterpart, Kimwolf, have emerged as some of the biggest botnets in recent times,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/kimwolf-botnet-infected-over-2-million.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262392",
+    "date": "2026-01-14",
+    "title": "Infection repeatedly adds scheduled tasks and increases traffic to the same C2 domain, (Wed, Jan 14th)",
+    "summary": "Introduction In recent weeks, Lumma Stealer infections have followed a specific pattern in follow-up activity. This pattern adds scheduled tasks for the same action, which increases traffic to the same C2 domain. This diary documents an example from one of these infections on January 14, 2026. De...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32628",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262393",
+    "date": "2026-01-14",
+    "title": "California AG to probe Musk’s Grok for nonconsensual deepfakes",
+    "summary": "California’s attorney general said Wednesday that his office has opened a probe into the spread of nonconsensual sexually explicit material by the artificial intelligence tool Grok.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/california-grok-deepfakes-investigation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262394",
+    "date": "2026-01-14",
+    "title": "Predator spyware demonstrates troubleshooting, researcher-dodging capabilities",
+    "summary": "Predator spyware operators have the ability to recognize why an infection failed, and the tech has more sophisticated capabilities for averting detection than previously known, according to research published Wednesday. Jamf Threat Labs found from an analysis of a Predator sample that it has an e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/predator-spyware-demonstrates-troubleshooting-researcher-dodging-capabilities/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262395",
+    "date": "2026-01-14",
+    "title": "Amazon VPC Route Server now available in new regions",
+    "summary": "Amazon VPC Route Server is now available in 16 new regions in addition to the 14 existing ones. VPC Route Server simplifies dynamic routing between virtual appliances in your Amazon VPC. It allows you to advertise routing information through Border Gateway Protocol (BGP) from virtual appliances a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262396",
+    "date": "2026-01-14",
+    "title": "Amazon Bedrock introduces API keys to streamline development in GovCloud regions",
+    "summary": "API keys for Amazon Bedrock are now available in AWS GovCloud (US) regions, expanding a feature that simplifies authentication and accelerates generative AI development. Originally launched in commercial AWS regions in July 2025, API keys for Amazon Bedrock enable developers to quickly generate a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-api-keys-streamline-development-govcloud/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262397",
+    "date": "2026-01-14",
+    "title": "AWS Transform custom adds AWS PrivateLink support and expands to Europe (Frankfurt) Region",
+    "summary": "AWS Transform custom now supports AWS PrivateLink and is available in a new AWS Region, Europe (Frankfurt), in addition to the US East (N. Virginia) Region. AWS Transform custom helps organizations reduce technical debt by automating repetitive transformation tasks such as language version upgrad...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transform-custom-privatelink-europe-frankfurt-region/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262398",
+    "date": "2026-01-14",
+    "title": "China: Authorities tell domestic companies to stop using US and Israeli cybersecurity software",
+    "summary": "Chinese authorities have told domestic companies to stop using cybersecurity ... Cyber Security Review online – December 2024. ACHIEVING DATA SECURITY ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/china-authorities-tell-domestic-companies-to-stop-using-us-and-israeli-cybersecurity-software/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262399",
+    "date": "2026-01-14",
+    "title": "Top 10: Endpoint Security Companies | Cyber Magazine",
+    "summary": "Securing endpoints is a security need for enterprises. Cyber Magazine looks at the top 10 endpoint security companies, featuring Microsoft, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/top10/top-10-endpoint-security-companies-2026",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262400",
+    "date": "2026-01-14",
+    "title": "Enhanced Transactions view now available in AWS Billing Console",
+    "summary": "AWS announces significant improvements to the Transactions view in the AWS Billing and Cost Management Console’s Payments page, delivering faster performance, simplified payment reconciliation, and improved data accuracy. The enhanced view provides customers with a unified interface to manage all...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262401",
+    "date": "2026-01-14",
+    "title": "Six steps to protect researchers' digital security - Nature",
+    "summary": "Many US scientists have reported a rise in targeted harassment. Here are tools and tips to safeguard your cybersecurity. By. Virginia Gewin.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-00086-x",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262402",
+    "date": "2026-01-14",
+    "title": "Master's vs. Certifications in Cybersecurity: How to Choose - St. Bonaventure University",
+    "summary": "Ideal for professionals who already have experience and need to demonstrate competence in a particular niche. 2. Cyber Security Career Impact & Salary ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sbu.edu/news/sbu-m.s.-cybersecurity-program-blog/2026/01/14/master-s-vs.-certifications-in-cybersecurity--how-to-choose",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262403",
+    "date": "2026-01-14",
+    "title": "China's Cybersecurity Law Amendments Increase Penalties, Broaden Extraterritorial Enforcement",
+    "summary": "Harmonize rules and responsibilities with other PRC laws, namely the Data Security Law, the Personal Information Protection Law, and the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lw.com/en/insights/chinas-cybersecurity-law-amendments-increase-penalties-broaden-extraterritorial-enforcement",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262404",
+    "date": "2026-01-14",
+    "title": "China Reportedly Bans U.S. & Israeli Cybersecurity Software Over Security Concerns",
+    "summary": "According to sources speaking to Reuters, Beijing has instructed Chinese companies to stop using certain U.S. and Israeli cybersecurity software, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=-VAIht9BVoM",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262405",
+    "date": "2026-01-14",
+    "title": "A Day Without ICS: The Real Impact of ICS/OT Security Threats | Bitsight",
+    "summary": "Most people sleep through it. Cell towers hum on backup generators. Hospitals switch to emergency power. Elevators stop between floors. Data centers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/real-world-impact-of-ics-ot-security-threats-a-day-without-ics",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262406",
+    "date": "2026-01-14",
+    "title": "Amazon Connect makes it easier to manage recurring overrides for hours of operation",
+    "summary": "Amazon Connect now makes it easier to manage contact center operating hours for recurring events like holidays, maintenance windows, and promotional periods, with a visual calendar that provides at-a-glance visibility by day, month, or year. You can set up recurring overrides that automatically t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-connect-recurring-hour-operation-overrides",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262407",
+    "date": "2026-01-14",
+    "title": "Just eight months old, cyber startup Novee raises $51.5 million in Seed and Series A | Ctech",
+    "summary": "The company says traditional security testing can no longer keep pace with automated threats. ... What are the key points? ... Cybersecurity company Novee ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/s1uuqbhs11x",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
   },
   {
     "id": "20262362",
