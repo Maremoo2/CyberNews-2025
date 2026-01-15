@@ -12,6 +12,426 @@
     "impact": 3
   },
   {
+    "id": "20262427",
+    "date": "2026-01-15",
+    "title": "What You Need to Know About the New LinkedIn Phishing Scheme",
+    "summary": "A phishing scam has spread across LinkedIn.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102077-what-you-need-to-know-about-the-new-linkedin-phishing-scheme",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262428",
+    "date": "2026-01-15",
+    "title": "Le cofondateur de la messagerie Signal lance son chatbot privé Confer",
+    "summary": "Moxie Marlinspike, le créateur de Signal, lance Confer, un assistant IA chiffré de bout en bout qui empêche toute récupération des données par les opérateurs de plateforme, les pirates ou les autorités. Disponible depuis quelques jours, ce projet open source entend bloquer les dérives publicitair...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595282-le-cofondateur-de-signal-lance-son-chatbot-prive-confer.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262429",
+    "date": "2026-01-15",
+    "title": "2 raisons pour lesquelles la justice impose désormais le blocage des sites pirates aux VPN",
+    "summary": "Le 19 décembre dernier, nous revenions sur la décision du Tribunal judiciaire de Paris d’étendre les dispositifs de blocage aux VPN et aux DNS alternatifs, marquant un infléchissement notable dans la stratégie française de lutte contre le streaming illégal.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595297-ces-2-raisons-pour-lesquelles-la-justice-impose-desormais-le-blocage-des-sites-pirates-aux-vpn.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262430",
+    "date": "2026-01-15",
+    "title": "Autant de fonctionnalités sans frais : Avast Antivirus Gratuit porte bien son nom",
+    "summary": "Avast ne cesse d'étoffer sa solution antivirus gratuite. Et c'est aussi bien une bonne nouvelle pour vous sur le plan de la cybersécurité, que celui de votre budget.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-594070-autant-de-fonctionnalites-sans-frais-avast-antivirus-gratuit-porte-bien-son-nom.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262431",
+    "date": "2026-01-15",
+    "title": "10 failles de sécurité dans Chrome : vérifiez vos mises à jour !",
+    "summary": "Google a publié Chrome 144 sur l'ensemble de ses plateformes de bureau. Cette nouvelle version corrige dix vulnérabilités, et c'est encore le moteur JavaScript V8 qu'il a fallu combler. Ce dernier concentre à lui seul six des correctifs déployés.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595237-failles-de-securite-dans-chrome-verifiez-vos-mises-a-jour.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262432",
+    "date": "2026-01-15",
+    "title": "Microsoft takes down RedVDS cybercrime platform behind $40M in losses",
+    "summary": "Microsoft has uncovered and disrupted RedVDS, a virtual server provider that has quietly fueled large-scale cybercriminal activity across the globe, enabling mass phishing, business email compromise (BEC), and financial fraud operations targeting multiple industries. Microsoft traced RedVDS’s rol...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-takes-down-redvds-cybercrime-platform-behind-40m-in-losses/",
+    "tags": [
+      "phishing",
+      "malware",
+      "finance",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262433",
+    "date": "2026-01-15",
+    "title": "FTC bans GM from collecting driving data for 5 years",
+    "summary": "The US Federal Trade Commission (FTC) has finalized a settlement with General Motors and its OnStar division over allegations that the automaker deceptively collected and sold sensitive driving and geolocation data from millions of American consumers without proper notice or consent. The enforcem...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/ftc-bans-gm-from-collecting-driving-data-for-5-years/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262434",
+    "date": "2026-01-15",
+    "title": "AWS European Sovereign Cloud puts data, operations, and oversight inside the EU",
+    "summary": "Amazon has made the AWS European Sovereign Cloud generally available to customers across the European Union, backed by a €7.8 billion investment. According to AWS, the funding will support infrastructure buildout, staffing, and long-term operations, and is expected to drive regional economic acti...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/aws-european-sovereign-cloud-deployment/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262435",
+    "date": "2026-01-15",
+    "title": "Bitwarden advances passkeys and credential risk controls",
+    "summary": "Bitwarden revealed continued product innovation and ecosystem maturity to advance identity security capabilities for users and enterprises. Bitwarden introduced enterprise credential risk insights and guided remediation through Bitwarden Access Intelligence, expanded passkey interoperability acro...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/bitwarden-ecosystem-enhancements/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262436",
+    "date": "2026-01-15",
+    "title": "F5 targets AI runtime risk with new guardrails and adversarial testing tools",
+    "summary": "F5 has unveiled general availability of F5 AI Guardrails and F5 AI Red Team, two solutions that secure mission-critical enterprise AI systems. With these releases, F5 is providing a comprehensive end-to-end lifecycle approach to AI runtime security, including enhanced ability to connect and prote...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/f5-ai-guardrails-red-team/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262437",
+    "date": "2026-01-15",
+    "title": "JumpCloud introduces AI features to govern shadow AI and autonomous agents",
+    "summary": "JumpCloud is unveiling new AI capabilities to fuel safe innovation. Organizations can leverage JumpCloud’s platform to accelerate AI adoption. They can ensure compliance and control for all types of identity, human, non-human, and autonomous agents. Generative and agentic AI workflows present vas...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/jumpcloud-ai-capabilities/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262438",
+    "date": "2026-01-15",
+    "title": "Asimily extends Cisco ISE integration to turn device risk into segmentation policy",
+    "summary": "Asimily announced enhanced microsegmentation capabilities, including new support for Security Group Access Control Lists (SGACL) within Cisco Identity Services Engine (ISE). The release builds on Asimily’s longstanding ISE integration, enabling organizations to translate device intelligence and r...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/asimily-enhanced-microsegmentation-capabilities/",
+    "tags": [
+      "malware",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262439",
+    "date": "2026-01-15",
+    "title": "Microsoft shuts down RedVDS cybercrime subscription service tied to millions in fraud losses",
+    "summary": "Microsoft has announced a coordinated legal action in the United States and the United Kingdom to disrupt RedVDS, a global cybercrime subscription service tied to large-scale fraud losses. The effort forms part of a broader joint operation with international law enforcement, including Europol and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/microsoft-shuts-down-redvds-cybercrime-subscription-service/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262440",
+    "date": "2026-01-15",
+    "title": "LinkedIn wants to make verification a portable trust signal",
+    "summary": "In this Help Net Security interview, Oscar Rodriguez, VP Trust Product at LinkedIn, discusses how verification is becoming a portable trust signal across the internet. He explains how LinkedIn is extending professional identity beyond its platform to address rising AI-driven fraud, impersonation,...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/oscar-rodriguez-linkedin-identity-verification/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262441",
+    "date": "2026-01-15",
+    "title": "Heimdal Achieves OPSWAT Gold Certification for Anti-Malware",
+    "summary": "Copenhagen, Denmark – January 15, 2026 – Heimdal today announced that its Next-Gen Antivirus (NGAV) with Extended Threat Protection (XTP) has achieved OPSWAT Gold Certification for Anti-Malware, validating its compatibility and effectiveness within OPSWAT’s industry-leading Access Control Certifi...",
+    "region": "EU",
+    "country": "Denmark",
+    "sourceName": "Heimdal Security Blog",
+    "sourceUrl": "https://heimdalsecurity.com/blog/heimdal-achieves-opswat-gold-certification-for-anti-malware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262442",
+    "date": "2026-01-15",
+    "title": "How To Get Unbanned From Omegle: A Step-by-Step Guide",
+    "summary": "In this post, I will show you how to get unbanned from Omegle like a pro. Omegle is an anonymous chatroom platform that allows users to connect with strangers all over the world. Unfortunately, it is not uncommon for users to be banned for violating the site’s terms of service. If you have been b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-get-unbanned-from-omegle/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262443",
+    "date": "2026-01-15",
+    "title": "ANY.RUN & Tines: Scale SOC and Meet SLAs with Powerful Automation ",
+    "summary": "In busy SOC environments, every minute spent waiting for threat validation slows containment and impacts response metrics. The ANY.RUN integration with Tines delivers trusted verdicts and enriched context in seconds to cut mean time to respond (MTTR) and keep investigations flowing without delays...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/anyrun-tines-integration/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262444",
+    "date": "2026-01-15",
+    "title": "Interrail-Kundendatenbank gehackt",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?quality=50&strip=all 2768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117313/interrail-kundendatenbank-gehackt.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262445",
+    "date": "2026-01-15",
+    "title": "Researchers warn of long‑running FortiSIEM root exploit vector as new CVE emerges",
+    "summary": "A critical command injection issue in Fortinet FortiSIEM has been disclosed along with public exploit code, and researchers claim attackers could have been remotely achieving unauthenticated root access to the SIEM platform for nearly three years. The flaw belongs to a class of weakness in FortiS...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117316/researchers-warn-of-long%e2%80%91running-fortisiem-root-exploit-vector-as-new-cve-emerges.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262446",
+    "date": "2026-01-15",
+    "title": "Schlag gegen Cyberkriminelle in Deutschland",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2701236855.jpg?quality=50&strip=all 5234w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2701236855.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117149/schlag-gegen-cyberkriminelle-in-deutschland.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262447",
+    "date": "2026-01-15",
+    "title": "From typos to takeovers: Inside the industrialization of npm supply chain attacks",
+    "summary": "A massive surge in attacks on the npm ecosystem over the past year reveals a stark shift in the software supply‑chain threat landscape. What once amounted to sloppy typosquatting attempts has evolved into coordinated, credential-driven intrusions targeting maintainers, CI pipelines, and the trust...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117139/from-typos-to-takeovers-inside-the-industrialization-of-npm-supply-chain-attacks.html",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262448",
+    "date": "2026-01-15",
+    "title": "What is AI fuzzing? And what tools, threats and challenges generative AI brings",
+    "summary": "AI fuzzing definition AI fuzzing has expanded beyond machine learning to use generative AI and other advanced techniquesto find vulnerabilities in an application or system. Fuzzing has been around for a while, but it’s been too hard to do and hasn’t gained much traction with enterprises. Adding A...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/567053/what-is-ai-fuzzing-and-why-it-may-be-the-next-big-cybersecurity-threat.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262449",
+    "date": "2026-01-15",
+    "title": "Ransomware gangs extort victims by citing compliance violations",
+    "summary": "Ransomware attacks remain among the most common attack methods. As recent analyses show, cyber gangs are increasingly threatening their victims with reporting violations of regulations such as the GDPR to supervisory authorities. Researchers at the security provider Akamai have observed an increa...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116976/ransomware-gangs-blackmail-victims-with-compliance-violations.html",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262450",
+    "date": "2026-01-15",
+    "title": "Trio of Critical Bugs Spotted in Delta Industrial PLCs",
+    "summary": "Experts disagree on whether the vulnerabilities in a programmable logic controller from Delta are a five-alarm fire or not much to worry over.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/critical-bugs-delta-industrial-plcs",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20262452",
+    "date": "2026-01-15",
+    "title": "South Africa Facing Continued Financial Fraud Crime Wave",
+    "summary": "One only has to read the daily newsfeeds to see how drastic digital financial crime is around the world. South Africa is particularly vulnerable. It’s been reported that around 70% of South Africans have been victims of some form of cybercrime as compared to the global rate of 50%. South Africa h...",
+    "region": "ASIA",
+    "country": "South Africa",
+    "sourceName": "DaVinci Forensics",
+    "sourceUrl": "https://davinciforensics.co.za/cybersecurity/rising-digital-financial-fraud-south-africa/",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262453",
+    "date": "2026-01-15",
+    "title": "ICE Agent Doxxing Site DDoS-ed Via Russian Servers",
+    "summary": "DDoS-ers are striking a website linked to a data breach at the Department of Homeland Security",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ice-agent-doxxing-site-ddosed/",
+    "tags": [
+      "data-breach",
+      "ddos"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262454",
+    "date": "2026-01-15",
+    "title": "FTC bans GM from selling drivers' location data for five years",
+    "summary": "The FTC has finalized an order with General Motors, settling charges that it collected and sold the location and driving data of millions of drivers without consent. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ftc-bans-general-motors-from-selling-drivers-location-data-for-five-years/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262455",
+    "date": "2026-01-15",
+    "title": "Palo Alto Networks warns of DoS bug letting hackers disable firewalls",
+    "summary": "Palo Alto Networks patched a high-severity vulnerability that could allow unauthenticated attackers to disable firewall protections in denial-of-service (DoS) attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-dos-bug-letting-hackers-disable-firewalls/",
+    "tags": [
+      "vulnerability",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262456",
+    "date": "2026-01-15",
+    "title": "Microsoft disrupts massive RedVDS cybercrime virtual desktop service",
+    "summary": "Microsoft announced on Wednesday that it disrupted RedVDS, a massive cybercrime platform linked to at least $40 million in reported losses in the United States alone since March 2025. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-seizes-servers-disrupts-massive-redvds-cybercrime-platform/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262416",
     "date": "2026-01-15",
     "title": "[Ekstra] Kommune frir seg fra Microsoft: – Føles fantastisk",
@@ -315,6 +735,18 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262451",
+    "date": "2026-01-14",
+    "title": "Is it time for internet services to adopt identity verification?",
+    "summary": "Should verified identities become the standard online? Australia’s social media ban for under-16s shows why the question matters.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/social-media/time-internet-services-adopt-identity-verification/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "20262387",
