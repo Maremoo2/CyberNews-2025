@@ -12,6 +12,122 @@
     "impact": 3
   },
   {
+    "id": "20262408",
+    "date": "2026-01-15",
+    "title": "QR codes are getting colorful, fancy, and dangerous",
+    "summary": "QR codes have become a routine part of daily life, showing up on emails, posters, menus, invoices, and login screens. Security-savvy users have learned to treat links with caution, but QR codes still carry an assumption of safety. Researchers from Deakin University have examined how visually styl...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/fancy-qr-codes-phishing-risk/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262409",
+    "date": "2026-01-15",
+    "title": "CISOs flag gaps in third-party risk management",
+    "summary": "Third-party cyber risk continues to concern security leaders as vendor ecosystems grow, supply chains stretch, and AI plays a larger role in business operations. A recent Panorays survey of U.S. CISOs shows rising third-party incidents and growing regulatory attention, while visibility beyond dir...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/panorays-cisos-ai-vendor-risk/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262410",
+    "date": "2026-01-15",
+    "title": "Cybersecurity spending keeps rising, so why is business impact still hard to explain?",
+    "summary": "Cybersecurity budgets keep climbing, but many security leaders still struggle to explain what that spending delivers to the business. A new study by Expel examines that disconnect through a survey of security and finance executives at large enterprises. The research looks at how the two groups vi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/expel-cybersecurity-investment-decisions/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262411",
+    "date": "2026-01-15",
+    "title": "The NSA lays out the first steps for zero trust adoption",
+    "summary": "Security pros often say that zero trust sounds straightforward until they try to apply it across real systems, real users, and real data. Many organizations are still sorting out what they own, how access works, and where authority sits. That day-to-day reality is the context for a new set of imp...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/nsa-zero-trust-implementation-guidelines/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262412",
+    "date": "2026-01-15",
+    "title": "Understanding the enterprise data lifecycle",
+    "summary": "In modern enterprises, data is not a fixed resource that can be assigned to a particular system or department.... The post Understanding the enterprise data lifecycle appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/understanding-the-enterprise-data-lifecycle/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262413",
+    "date": "2026-01-15",
+    "title": "ChatGPT's upcoming cross-platform feature is codenamed \"Agora\"",
+    "summary": "OpenAI is internally testing a new feature called \"Agora,\" and it could be related to some sort of cross-platform feature that works in real time or some other new product. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-upcoming-cross-platform-feature-is-codenamed-agora/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262414",
+    "date": "2026-01-15",
+    "title": "Google plans to make Chrome for Android an agentic browser with Gemini",
+    "summary": "Google appears to be testing a new feature that integrates Gemini into Chrome for Android, allowing you to use agentic browser capabilities on your mobile device. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-plans-to-make-chrome-for-android-an-agentic-browser-with-gemini/",
+    "tags": [
+      "malware",
+      "mobile",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262415",
+    "date": "2026-01-15",
+    "title": "Google's Personal Intelligence links Gmail, Photos and Search to Gemini",
+    "summary": "Google is rolling out 'Personal Intelligence,' a new Gemini feature that pulls your data from Gmail, Photos, Google Search, and other products. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/googles-personal-intelligence-links-gmail-photos-and-search-to-gemini/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262386",
     "date": "2026-01-15",
     "title": "Sophisticated VoidLink malware framework targets Linux cloud servers",
