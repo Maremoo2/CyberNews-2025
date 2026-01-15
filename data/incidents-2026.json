@@ -12,6 +12,536 @@
     "impact": 3
   },
   {
+    "id": "20262477",
+    "date": "2026-01-15",
+    "title": "WEF: AI overtakes ransomware as fastest-growing cyber risk",
+    "summary": "We can no longer say that artificial intelligence is a \"future risk\", lurking somewhere on a speculative threat horizon. The truth is that it is a fast-growing cybersecurity risk that organizations are facing today. That's not just my opinion, that's also the message that comes loud and clear fro...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.fortra.com/blog/wef-ai-overtakes-ransomware-fastest-growing-cyber-risk",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262478",
+    "date": "2026-01-15",
+    "title": "Smashing Security podcast #450: From Instagram panic to Grok gone wild",
+    "summary": "Confusion reigns after claims that data linked to 17.5 million Instagram accounts is up for sale - sparked by a vague post, contradictory statements, and a flood of password reset emails nobody asked for. And we dig into Grok, Elon Musk’s AI chatbot, after it started generating sexualised images ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/smashing-security-podcast-450/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262479",
+    "date": "2026-01-15",
+    "title": "This Website Exposed ICE Data — Now, It’s Faced a Cyberattack",
+    "summary": "ICE experienced a breach of personally identifiable information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102078-this-website-exposed-ice-data-now-its-faced-a-cyberattack",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262480",
+    "date": "2026-01-15",
+    "title": "Comment ces chercheurs tentent d'enrayer les botnets Kimwolf et Aisuru",
+    "summary": "Après une année 2025 marquée par l’escalade des attaques DDoS attribuées à Aisuru, sa déclinaison Kimwolf prend de l’ampleur. Depuis l’automne, Lumen indique avoir neutralisé des centaines de serveurs de commande liés aux deux botnets, levant au passage le voile sur les rouages d’un écosystème la...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595387-comment-ces-chercheurs-tentent-d-enrayer-les-botnets-kimwolf-et-aisuru.html",
+    "tags": [
+      "ddos",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262481",
+    "date": "2026-01-15",
+    "title": "Synacktiv lance une solution de déverrouillage des téléphones 400 fois plus rapide pour les enquêteurs",
+    "summary": "La société française de cybersécurité Synacktiv lance REVEL·IO, une solution de criminalistique numérique destinée aux forces de l'ordre européennes, qui pourront déverrouiller les smartphones saisis lors d'enquêtes criminelles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595354-synacktiv-lance-une-solution-de-deverrouillage-des-telephones-400-fois-plus-rapide-pour-les-enqueteurs.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262482",
+    "date": "2026-01-15",
+    "title": "Microsoft fait tomber RedVDS, l’une des plateformes derrière la flambée des arnaques en ligne",
+    "summary": "Un abonnement à 24 dollars, des postes Windows jetables, et une machine à phishing qui tourne à plein régime. Microsoft affirme avoir stoppé RedVDS, infrastructure louée à la demande et très prisée des escrocs pour industrialiser leurs arnaques.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595348-microsoft-fait-tomber-redvds-l-une-des-plateformes-derriere-la-flambee-des-arnaques-en-ligne.html",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262483",
+    "date": "2026-01-15",
+    "title": "CrowdStrike, Palo Alto ou encore Fortinet : la Chine bannit plusieurs gros éditeurs de cybersécurité",
+    "summary": "Pékin vient de bannir plus de douze éditeurs de cybersécurité américains et israéliens de son territoire. Un séisme pour les géants du secteur, révélateur d'une stratégie industrielle chinoise mûrement réfléchie.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595339-crowdstrike-palo-alto-ou-encore-fortinet-la-chine-bannit-plusieurs-gros-editeurs-de-cybersecurite.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "fortinet",
+      "palo alto",
+      "crowdstrike"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262484",
+    "date": "2026-01-15",
+    "title": "Jen Easterly to Lead RSA Conference’s Ambitious Expansion Plans",
+    "summary": "Former CISA Director Jen Easterly will become CEO of RSA Conference LLC and its flagship annual cybersecurity conference, RSAC announced today. Easterly will guide RSAC’s ambitious growth plans amid the growing convergence of AI and cybersecurity, the organization said. RSAC Conference became ind...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/jen-easterly-to-lead-rsa-conference/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262485",
+    "date": "2026-01-15",
+    "title": "DHS prepares replacement for critical infrastructure collaboration framework",
+    "summary": "It remains unclear if the new system will include liability protections that companies say are necessary.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/dhs-critical-infrastructure-collaboration-cipac-anchor/809748/",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262486",
+    "date": "2026-01-15",
+    "title": "Critical flaw in AWS Console risked compromise of build environment",
+    "summary": "The CodeBreach vulnerability could have enabled a massive supply chain attack, researchers warn.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-flaw-in-aws-console-risked-compromise-of-build-environment/809745/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262487",
+    "date": "2026-01-15",
+    "title": "Gootloader malware now uses “ZIP bomb” tactic to evade detection",
+    "summary": "The Gootloader malware now uses a deliberately malformed ZIP archive designed not only to bypass antivirus detection but also to thwart traditional analysis workflows used by defenders. The unusual structure of the ZIP file makes it unreadable to many forensic tools, yet it remains fully function...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/gootloader-malware-now-uses-zip-bomb-tactic-to-evade-detection/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262488",
+    "date": "2026-01-15",
+    "title": "Sensitive data of Eurail, Interrail travelers compromised in data breach",
+    "summary": "A data breach at the Netherlands-based company that sells Eurail (Interrail) train passes resulted in the compromise of personal and sensitive information belonging to an as-yet unknown number of travelers. What data was accessed? Eurail B.V. operates on behalf of a consortium of European railway...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/eurail-interrail-data-breach/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262489",
+    "date": "2026-01-15",
+    "title": "Delinea expands identity security platform through StrongDM acquisition",
+    "summary": "Delinea has signed a definitive agreement to acquire StrongDM. Delinea’s leadership in enterprise privileged access management (PAM), combined with StrongDM’s just-in-time (JIT) runtime authorization capabilities and developer-first access model, will form a new class of identity security platfor...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/delinea-strongdm-acquisition/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262490",
+    "date": "2026-01-15",
+    "title": "Tines rolls out a governance layer for agents, copilots, and MCPs",
+    "summary": "Tines unveiled AI in Tines, a unified interaction layer for agents, copilots, and MCPs, enabling organizations to operationalize enterprise AI in a governed environment. While AI adoption is accelerating, the resulting value remains inconsistent. According to IDC, 88% of AI proof-of-concepts neve...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/ai-in-tines/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262491",
+    "date": "2026-01-15",
+    "title": "PoC exploit for critical FortiSIEM vulnerability released (CVE-2025-64155)",
+    "summary": "A critical vulnerability (CVE-2025-64155) in Fortinet’s FortiSIEM security platform has now been accompanied by publicly released proof-of-concept (PoC) exploit code, raising the urgency for organizations to patch immediately. About CVE-2025-64155 CVE-2025-64155 may allow unauthenticated, remote ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/15/fortisiem-vulnerability-cve-2025-64155-poc-exploit/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262492",
+    "date": "2026-01-15",
+    "title": "7 Reasons to Get Certified in API Security",
+    "summary": "API security is becoming more important by the day and skilled practitioners are in high demand. Now’s the time to level up your API security skillset. Wallarm University, our free training course, provides security analysts, engineers, and practitioners with hands-on skills you can’t get from do...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Wallarm Blog",
+    "sourceUrl": "https://lab.wallarm.com/7-reasons-to-get-certified-in-api-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262493",
+    "date": "2026-01-15",
+    "title": "How Much Does Private Tutoring Cost in Fremont, CA?",
+    "summary": "In this post, you will learn how much private tutoring cost in Fremont, CA. For parents in Fremont, CA, considering additional academic support for their K–12 children, one of the first questions is: how much will it cost? Understanding private tutoring cost Fremont families face helps parents pl...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/private-tutoring-cost-in-fremont-ca/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262494",
+    "date": "2026-01-15",
+    "title": "How Non-Profits Can Use Free AI Video Tools for Fundraising",
+    "summary": "In this post, I will show you how non-profits can use free AI video tools for fundraising. For many non-profit organizations, the biggest hurdle to a successful fundraising campaign isn’t a lack of passion or a worthy cause—it is a lack of resources. Creating a compelling narrative that moves don...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/free-ai-video-tools-for-fundraising/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262495",
+    "date": "2026-01-15",
+    "title": "Data Breaches & Rising Cyber Threats in Sports Tech: From Football Australia Leak to Stadium Wi Fi Risks",
+    "summary": "In this post, I will talk about data breaches & rising cyber Threats in Sports tech. I will also address this subject from Football Australia leak to stadium Wi Fi risks. As the sports world continues to embrace cutting-edge technology, from apps that provide the highly useful real-time Polymarke...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/rising-cyber-threats-in-sports-tech/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262496",
+    "date": "2026-01-15",
+    "title": "CVE-2026-20805: Microsoft Fixes Actively Exploited Windows Desktop Manager Zero-Day",
+    "summary": "As 2026 gets underway, the pace of critical vulnerability disclosures shows little sign of easing. Following the recent MongoBleed (CVE-2025-14847) revelation, Microsoft has kicked off the year with its first Patch Tuesday release, addressing 114 security flaws across its product ecosystem. Among...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-20805-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262498",
+    "date": "2026-01-15",
+    "title": "Trump “Precision Cyber” Meant 150 Planes Bombing Venezuelan Infrastructure to Rubble",
+    "summary": "As a long time advocate and expert in cyberattacks, I call bullshit on Venezuela operations. 150 aircraft. City-wide blackout. Substations reduced to rubble. Over 40 dead. All this just to arrest one guy and his wife at a known location, after months of constant expensive CIA surveillance. This i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76169",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262499",
+    "date": "2026-01-15",
+    "title": "Trump’s CSAM Problem: From Epstein to Elon Musk",
+    "summary": "The Trump administration is actively suppressing evidence of their connections to child trafficking, while issuing a travel-ban on the EU official who tried to enforce laws against child sexual abuse material. Now Trump is in the news for protecting a platform that monetized CSAM generation. Sinc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76160",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262500",
+    "date": "2026-01-15",
+    "title": "Meta Treats Staff Like Shit: Flushes 1,000 People to Bury $71 Billion Metaverse Failure",
+    "summary": "Bay Area reporters are dancing around what actually just happened: Mark Zuckerberg rebranded Facebook to “Meta” in October 2021 because the Facebook name had become synonymous with election manipulation, teen mental health destruction, and genocide facilitation in Myanmar. The metaverse was never...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76147",
+    "tags": [
+      "ai-ml",
+      "meta",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262501",
+    "date": "2026-01-15",
+    "title": "Vulnerabilities Surge, But Messy Reporting Blurs Picture",
+    "summary": "MITRE loses its lead as the top reporter of vulnerabilities, while new organizations pump out CVEs and reported bugs in WordPress plug-ins surge.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/vulnerabilities-surge-messy-reporting-blurs-picture",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262502",
+    "date": "2026-01-15",
+    "title": "Global Agencies Release New Guidance to Secure Industrial Networks",
+    "summary": "CISA, NCSC and the FBI have released a new security guide to enhance protection for OT environments",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/global-agencies-secure-industrial/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262503",
+    "date": "2026-01-15",
+    "title": "Hackers Increasingly Shun Encryption in Favour of Pure Data Theft and Extortion",
+    "summary": "While ‘traditional’ ransomware attacks remain stable, some gangs are shifting towards exploiting zero-days and supply chains to go straight to stealing data",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hackers-shun-encryption-in-favour/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "supply-chain",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262504",
+    "date": "2026-01-15",
+    "title": "CodeBuild Flaw Put AWS Console Supply Chain At Risk",
+    "summary": "A critical AWS CodeBuild misconfiguration has exposed core repositories to potential attack",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/codebuild-flaw-aws-console-risk/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262505",
+    "date": "2026-01-15",
+    "title": "Cyber Threat Actors Ramp Up Attacks on Industrial Environments",
+    "summary": "Hacktivists and cybercriminals have intensified their efforts to exploit vulnerabilities in industrial systems, according to a Cyble report",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-threat-actors-ramp-up-ics/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262506",
+    "date": "2026-01-15",
+    "title": "CISO Role Reaches “Inflexion Point” With Executive-Level Titles",
+    "summary": "IANS Research reveals a growth in executive-level CISO titles, amid resource challenges",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ciso-role-inflexion-point/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262507",
+    "date": "2026-01-15",
+    "title": "Data Privacy Teams Face Staffing Shortages and Budget Constraints, ISACA Warns",
+    "summary": "ISACA’s State of Privacy 2026 report reveals that data privacy teams remain understaffed and underfunded, despite growing regulatory demands and rising technical privacy challenges",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/data-privacy-teams-staffing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262508",
+    "date": "2026-01-15",
+    "title": "PCI SSC Releases Version 2.0 of the PCI Secure Software Standard ",
+    "summary": "The PCI Security Standards Council (PCI SSC) has published the first major revision to the PCI Secure Software Standard and its supporting Program Guide. This revision is the result of more than 18 months of collaboration with the PCI SSC stakeholder community.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/pci-ssc-releases-version-2.0-of-the-pci-secure-software-standard",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262509",
+    "date": "2026-01-15",
+    "title": "Microsoft Patch Tuesday Fixes 112 Flaws, Includes SharePoint and Windows",
+    "summary": "Microsoft’s January 2026 Patch Tuesday fixes 112 CVEs, including an exploited Windows DWM zero-day, plus critical flaws across SharePoint, Office, and Windows services. The post Microsoft Patch Tuesday Fixes 112 Flaws, Includes SharePoint and Windows appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-patch-tuesday-january-2026/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262510",
+    "date": "2026-01-15",
+    "title": "Critical flaw lets hackers track, eavesdrop via Bluetooth audio devices",
+    "summary": "A critical vulnerability in Google's Fast Pair protocol can allow attackers to hijack Bluetooth audio accessories like wireless headphones and earbuds, track users, and eavesdrop on their conversations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-flaw-lets-hackers-track-eavesdrop-via-bluetooth-audio-devices/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262511",
+    "date": "2026-01-15",
+    "title": "How to automate just-in-time access to applications with Tines",
+    "summary": "Managing just-in-time access at scale is a growing IAM challenge as speed and auditability collide daily. Tines shows how automated workflows can grant, track, and revoke temporary app access without manual effort. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-to-automate-just-in-time-access-to-applications-with-tines/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262512",
+    "date": "2026-01-15",
+    "title": "Introducing ÆSIR: Finding Zero-Day Vulnerabilities at the Speed of AI",
+    "summary": "TrendAI™’s ÆSIR platform combines AI automation with expert oversight to discover zero-day vulnerabilities in AI infrastructure – 21 CVEs across NVIDIA, Tencent, and MLflow since mid-2025.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/aesir.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262457",
     "date": "2026-01-15",
     "title": "New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data",
@@ -23712,6 +24242,20 @@
       "law-enforcement"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262497",
+    "date": "2026-01-01",
+    "title": "Ongoing: New Ransomware Gangs in 2025",
+    "summary": "Ransomware gangs continue to break records and BlackFog will track all new ransomware gangs in 2024.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/ongoing-new-ransomware-gangs-in-2025/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
   },
   {
     "id": "20262068",
