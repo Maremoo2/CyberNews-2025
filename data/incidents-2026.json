@@ -12,6 +12,447 @@
     "impact": 3
   },
   {
+    "id": "20262569",
+    "date": "2026-01-16",
+    "title": "Palo Alto Networks patches firewalls after discovery of a new denial-of-service flaw",
+    "summary": "Palo Alto Networks has issued patches for its PAN-OS firewall platform after a researcher uncovered a high-severity vulnerability which could be exploited by attackers to cause a denial-of-service (DoS). The flaw, identified as CVE-2026-0227 with a CVSS 7.7 (‘high’) severity rating, affects custo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4117730/palo-alto-networks-patches-firewalls-after-discovery-of-a-new-denial-of-service-flaw-2.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262570",
+    "date": "2026-01-16",
+    "title": "ChatGPT is now more reliable at finding and remembering your past chat",
+    "summary": "OpenAI is rolling out a big upgrade for ChatGPT with support for advanced chat history search, but the feature is rolling out to Plus and Pro subscribers only. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-now-more-reliable-at-finding-and-remembering-your-past-chat/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262578",
+    "date": "2026-01-16",
+    "title": "AWS Data Exports  adds granular operation visibility for Amazon Bedrock model usage",
+    "summary": "AWS Data Exports now enables customers to distinguish between Amazon Bedrock operation types in their cost reports for enhanced cost analysis and optimization. This granular operation information is available in Cost and Usage Reports (CUR), CUR 2.0, and Data Exports for FOCUS, and is particularl...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/granular-amazon-bedrock/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262571",
+    "date": "2026-01-15",
+    "title": "Trump’s cyber chief pick tells lawmakers he’ll assess efficacy of Cybercom-NSA dual-hat role, if confirmed",
+    "summary": "The post Trump’s cyber chief pick tells lawmakers he’ll assess efficacy of Cybercom-NSA dual-hat role, if confirmed appeared first on CyberScoop.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://defensescoop.com/2026/01/15/gen-rudd-cybercom-nsa-dual-hat-cyber-force/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262572",
+    "date": "2026-01-15",
+    "title": "CISA’s secure-software buying tool had a simple XSS vulnerability of its own",
+    "summary": "A Cybersecurity and Infrastructure Security Agency tool dedicated to helping government agencies buy secure software turned out to have a cybersecurity vulnerability of its own. Jeff Williams, the former leader of the Open Worldwide Application Security Project (OWASP), told CyberScoop that he di...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-secure-software-buying-tool-had-a-simple-xss-vulnerability-of-its-own/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262573",
+    "date": "2026-01-15",
+    "title": "Anchorage police department takes servers offline after cyberattack on service provider",
+    "summary": "The police department said there “is no evidence indicating that APD systems have been compromised or that any APD data has been acquired by the threat actor.”",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/anchorage-police-takes-servers-offline-after-third-party-attack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262574",
+    "date": "2026-01-15",
+    "title": "Chinese hackers targeting ‘high value’ North American critical infrastructure, Cisco says",
+    "summary": "Chinese hackers successfully breached multiple critical infrastructure organizations in North America over the last year using a combination of compromised credentials and exploitable servers, researchers at Cisco Talos found.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/china-hackers-apt-cisco-talos",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262575",
+    "date": "2026-01-15",
+    "title": "AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks",
+    "summary": "A critical misconfiguration in Amazon Web Services (AWS) CodeBuild could have allowed complete takeover of the cloud service provider's own GitHub repositories, including its AWS JavaScript SDK, putting every AWS environment at risk. The vulnerability has been codenamed CodeBreach by cloud securi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "aws",
+      "amazon",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262576",
+    "date": "2026-01-15",
+    "title": "NSA, Cyber Command nominee defends record during Senate hearing",
+    "summary": "If confirmed, Rudd would take over two entities that have been without a permanent leader since a far-right provocateur initiated a push to force out its last chief and has seemingly sunk a number of other senior officials.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nsa-cyber-command-nom-joshua-rudd-senate-hearing",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262577",
+    "date": "2026-01-15",
+    "title": "Forget Predictions: True 2026 Cybersecurity Priorities From Leaders",
+    "summary": "Security leaders chart course beyond predictions with focus on supply chain, governance, and team efficiency. The post Forget Predictions: True 2026 Cybersecurity Priorities From Leaders appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/forget-predictions-true-2026-cybersecurity-priorities-from-leaders/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262579",
+    "date": "2026-01-15",
+    "title": "AppGuard Critiques AI Hyped Defenses; Expands its Insider Release for its Next-Generation Platform",
+    "summary": "Rather than constantly adding or changing detection layers of cyber stacks, the profile emphasizes the importance of reducing endpoint attack surface— ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/appguard-critiques-ai-hyped-defenses-expands-its-insider-release-for-its-next-generation-platform/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262580",
+    "date": "2026-01-15",
+    "title": "Information Networking Institute Launches Future of Secure AI Executive Education Program ...",
+    "summary": "... cybersecurity and artificial intelligence (AI). The Future of Secure AI program integrates the INI's excellence in information security education ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cmu.edu/ini/news/2026/future-of-secure-ai.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262581",
+    "date": "2026-01-15",
+    "title": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks",
+    "summary": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks for your data residency, low latency, and local data processing use cases on-premises. S3 on Outposts on second-generation Outposts racks offers three storage tiers: 196 TB, 490 TB, and 786 TB. Choose the storage tier ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262582",
+    "date": "2026-01-15",
+    "title": "AWS Databases are now available on v0 by Vercel",
+    "summary": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on v0 by Vercel, an AI-powered tool that transforms your ideas into production-ready, full-stack web applications in minutes. With this launch, you can build your ideas as well as create and c...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-databases-available-vercel-v0/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262583",
+    "date": "2026-01-15",
+    "title": "Announcing Amazon EC2 Memory optimized X8i instances",
+    "summary": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidt...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-amazon-ec2-x8i-generally-available",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262584",
+    "date": "2026-01-15",
+    "title": "AWS Lambda announces cross-account access for DynamoDB Streams",
+    "summary": "AWS Lambda now supports cross-account access for AWS DynamoDB Streams event-source mappings (ESMs), enabling you to trigger Lambda functions in one account from DynamoDB Streams in another account. Customers build event-driven applications using Lambda's fully-managed DynamoDB Streams ESMs, which...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-cross-account-access-dynamodb-streams",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262585",
+    "date": "2026-01-15",
+    "title": "Amazon EBS now supports up to four Elastic Volumes modifications in 24 hours",
+    "summary": "Amazon Elastic Block Store (EBS) now supports up to four Elastic Volumes modifications per volume within a rolling 24-hour window. Elastic Volumes modifications allow you to increase the size, change the type, and adjust the performance of your EBS volumes. With this update, you can start a new m...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ebs-up-to-four-volume-modifications/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262586",
+    "date": "2026-01-15",
+    "title": "CISA, NCSC-UK, FBI Release OT Secure Connectivity Guidance - ExecutiveGov",
+    "summary": "The Cybersecurity and Infrastructure Security Agency, in collaboration with UK's National Cyber Security Centre, or NCSC-UK, the FBI and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/cisa-ncsc-uk-fbi-ot-secure-connectivity-guidance",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262587",
+    "date": "2026-01-15",
+    "title": "War Department Enacts New Cybersecurity Program to Safeguard Service Member Data",
+    "summary": "Without robust security measures in place, this sensitive data is a prime target for cybercriminals and foreign intelligence entities, potentially ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.war.gov/News/News-Stories/Article/Article/4380469/war-department-enacts-new-cybersecurity-program-to-safeguard-service-member-data/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262588",
+    "date": "2026-01-15",
+    "title": "When Dealing with Cyber Incidents, Speed Is Key - ASIS International",
+    "summary": "When it comes to a highly disruptive cyber attack—one that renders ... cybersecurity firm Absolute's survey of more than 750 chief information security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.asisonline.org/security-management-magazine/latest-news/today-in-security/2026/january/time-and-cyber-incidents/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262589",
+    "date": "2026-01-15",
+    "title": "AWS Clean Rooms now supports parameters in PySpark analysis templates",
+    "summary": "AWS Clean Rooms announces support for parameters in PySpark analysis templates, offering increased flexibility for organizations and their partners to scale their privacy-enhanced data collaboration use cases. With this launch, you can create a single PySpark analysis template that allows differe...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262590",
+    "date": "2026-01-15",
+    "title": "China's ban on cybersecurity software roils three of our stocks — here's our view - CNBC",
+    "summary": "Beijing cited national security concerns, as the software could collect sensitive information and transmit it abroad. The ban comes as the U.S. ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/01/14/chinas-ban-on-cybersecurity-software-roils-three-stocks-our-view.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262591",
+    "date": "2026-01-15",
+    "title": "BreachLock Expands Adversarial Exposure Validation (AEV) to Web Applications",
+    "summary": "With a mission to make proactive security the new standard, BreachLock is shaping the future of cybersecurity through automation, data-driven ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/breachlock-expands-adversarial-exposure-validation-aev-to-web-applications/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262592",
+    "date": "2026-01-15",
+    "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR KB5068401 (RDS version 13.00.6475.1.v1), SQL Server 2017 CU31+GDR KB50684...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server",
+    "tags": [
+      "microsoft",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262593",
+    "date": "2026-01-15",
+    "title": "Poland's PM praises cyber defences after attempted attack on energy infrastructure foiled",
+    "summary": "Tusk blamed Russia and urged Parliament to swiftly pass new cybersecurity legislation to strengthen protection against foreign interference.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.euronews.com/2026/01/15/polands-pm-praises-cyber-defences-after-attempted-attack-on-energy-infrastructure-foiled",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262594",
+    "date": "2026-01-15",
+    "title": "Former CISA Director Jen Easterly Will Lead RSAC Conference | WIRED",
+    "summary": "The longtime cybersecurity professional says she's taking the helm of the legacy security organization at “an inflection point” for tech and the world ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wired.com/story/former-cisa-director-jen-easterly-will-lead-rsa-conference/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262595",
+    "date": "2026-01-15",
+    "title": "This cybersecurity stock is down sharply since a data breach. JPMorgan says it's time to buy - CNBC",
+    "summary": "The bank upgraded the cloud security stock to overweight from neutral ... This cybersecurity stock is down sharply since a data breach in October.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/01/15/this-cybersecurity-stock-is-down-sharply-since-a-data-breach-jpmorgan-says-its-time-to-buy.html",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262596",
+    "date": "2026-01-15",
+    "title": "4 Predictions Our Researchers Say Could Break (or Break Through) in 2026 | Bitsight",
+    "summary": "He's also watching the IT/OT convergence in manufacturing. “Industry 5.0 is already overlapping with 4.0, expanding the attack surface at a very fast ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/bitsight-trace-2026-cybersecurity-predictions",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262597",
+    "date": "2026-01-15",
+    "title": "EU Cybersecurity Act | 19-01-2026 | News | European Parliament",
+    "summary": "ENISA's roles and responsibilities have expanded with the Network and Information Security Directive (NIS2) and the Cyber Resilience Act. Debate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-01-19/10/eu-cybersecurity-act",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262551",
     "date": "2026-01-15",
     "title": "China-linked hackers targeted US agencies with Venezuela-themed phishing: report",
