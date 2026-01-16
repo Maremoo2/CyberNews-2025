@@ -191,6 +191,11 @@ function App() {
     };
   }, [incidentsData]);
 
+  // Update page title when year changes
+  useEffect(() => {
+    document.title = `Security News Year in Review ${selectedYear}`;
+  }, [selectedYear]);
+
   // Update URL when year changes
   useEffect(() => {
     const url = new URL(window.location);
