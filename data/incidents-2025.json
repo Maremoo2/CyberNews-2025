@@ -3711,6 +3711,20 @@
     "impact": 3
   },
   {
+    "id": "2025999",
+    "date": "2025-12-10",
+    "title": "CVE-2025-55182: React2Shell Analysis, Proof-of-Concept Chaos, and In-the-Wild Exploitation ",
+    "summary": "CVE-2025-55182 is a CVSS 10.0 pre-authentication RCE affecting React Server Components. Amid the flood of fake proof-of-concept exploits, scanners, exploits, and widespread misconceptions, this technical analysis intends to cut through the noise.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/l/CVE-2025-55182-analysis-poc-itw.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 4
+  },
+  {
     "id": "2025364",
     "date": "2025-12-10",
     "title": "What Enterprises Need To Know About Artificial Intelligence Privacy Concerns",

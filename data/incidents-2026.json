@@ -12,6 +12,424 @@
     "impact": 3
   },
   {
+    "id": "20262661",
+    "date": "2026-01-16",
+    "title": "How a hacking campaign targeted high-profile Gmail and WhatsApp users across the Middle East",
+    "summary": "The phishing campaign targeted users on WhatsApp, including an Iranian-British activist, and stole the credentials of a Lebanese cabinet minister and at least one journalist.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/16/how-a-hacking-campaign-targeted-high-profile-gmail-and-whatsapp-users-across-the-middle-east/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262662",
+    "date": "2026-01-16",
+    "title": "Ce fichier ZIP presque impossible à analyser cache un malware bien connu",
+    "summary": "De retour fin 2025, Gootloader change de tactique. Le malware s’appuie désormais sur une archive ZIP volontairement malformée pour faire trébucher les outils d’analyse, sans jamais empêcher l’exécution du script malveillant qu’elle transporte.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595573-ce-fichier-zip-presque-impossible-a-analyser-cache-un-malware-bien-connu.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262663",
+    "date": "2026-01-16",
+    "title": "L'État confirme la cyberattaque : 160 000 documents contenant des données sensibles récupérées par les pirates",
+    "summary": "La plateforme d'échange de l'État, HubEE, notamment utilisée par Service-public.gouv.fr, a subi une cyberattaque. La direction interministérielle du numérique (DINUM) confirme vendredi la fuite de 160 000 documents administratifs contenant des données sensibles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595606-l-etat-confirme-la-cyberattaque-160-000-documents-contenant-des-donnees-sensibles-recuperees-par-les-pirates.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262664",
+    "date": "2026-01-16",
+    "title": "Microsoft Copilot : pourquoi un simple clic sur un lien banal a pu mettre vos secrets en danger",
+    "summary": "Microsoft Copilot a longtemps donné l’impression qu’un lien n’était qu’un lien. Varonis vient de montrer l’inverse avec Reprompt, une chaîne d’exfiltration déclenchée par un simple clic, sans mail piégé ni site compromis, et surtout sans action supplémentaire dans l’interface",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595600-microsoft-copilot-pourquoi-un-simple-clic-sur-un-lien-banal-a-pu-mettre-vos-secrets-en-danger.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262665",
+    "date": "2026-01-16",
+    "title": "Critical flaw in Fortinet FortiSIEM targeted in exploitation threat",
+    "summary": "Researchers originally disclosed the vulnerability in August 2025, however, a proof of concept and an advisory were just released.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-flaw-in-fortinet-fortisiem-targeted-in-exploitation-threat/809863/",
+    "tags": [
+      "vulnerability",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262666",
+    "date": "2026-01-16",
+    "title": "US and allies collaborate on operational technology security guidance",
+    "summary": "A new report stresses the importance of logging, network segmentation and strong authentication, among other practices.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/operational-technology-security-international-guidance/809851/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262667",
+    "date": "2026-01-16",
+    "title": "Canadian regulatory body says data breach exposed 750,000 investors",
+    "summary": "The Canadian Investment Regulatory Organization (CIRO) has confirmed that a sophisticated phishing attack disclosed last August resulted in the unauthorized access of personal information belonging to approximately 750,000 Canadian investors. CIRO revealed that the incident stemmed from a phishin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/canadian-regulatory-body-says-data-breach-exposed-750000-investors/",
+    "tags": [
+      "data-breach",
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262668",
+    "date": "2026-01-16",
+    "title": "ProtonVPN to retire legacy OpenVPN configs for security reasons",
+    "summary": "Proton VPN has announced it will deprecate support for all manually downloaded OpenVPN configuration files issued before September 2023. Users relying on these outdated files must update their configurations or switch to newer protocols by February 28, 2026, to avoid service disruption. The updat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/protonvpn-to-retire-legacy-openvpn-configs-for-security-reasons/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262669",
+    "date": "2026-01-16",
+    "title": "Major US bank suffers keylogger infection on internal merch store",
+    "summary": "A malicious keylogger was discovered on the internal merchandise store of a top-three US bank, exposing sensitive data from over 200,000 employees. The malware harvested login credentials, personal information, and payment details for approximately 18 hours before it appeared to have been removed...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/major-us-bank-suffers-keylogger-infection-on-internal-merch-store/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262670",
+    "date": "2026-01-16",
+    "title": "Cisco fixes AsyncOS vulnerability exploited in zero-day attacks (CVE-2025-20393)",
+    "summary": "Cisco has finally shipped security updates for its Email Security Gateway and Secure Email and Web Manager devices, which fix CVE-2025-20393, a vulnerability in the devices’ AsyncOS that has been exploited as a zero-day by suspected Chinese attackers since at least late November 2025. The company...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/cisco-fixes-asyncos-vulnerability-exploited-in-zero-day-attacks-cve-2025-20393/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262671",
+    "date": "2026-01-16",
+    "title": "GitLab Duo Agent Platform solves the AI paradox in software delivery",
+    "summary": "GitLab announced the GitLab Duo Agent Platform, delivering agentic AI that enables teams to orchestrate agents across the entire software lifecycle. AI tools have been improving developers’ ability to write code, and in some cases, developers are reporting 10x productivity gains. Unfortunately, s...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/gitlab-duo-agent-platform-agentic-ai-automation/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262672",
+    "date": "2026-01-16",
+    "title": "Exploits, AI Threats, and Cloud Malware Mark a Turbulent Week",
+    "summary": "Major Threats & Vulnerabilities Zero-Day and Critical Exploits A vulnerability in the Modular DS WordPress plugin (v2.5.1 and below) is being actively exploited to bypass authentication and gain admin access. Over 40,000 installations are at risk. A patch is available and should be applied immedi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/exploits-ai-threats-and-cloud-malware-mark-a-turbulent-week/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262673",
+    "date": "2026-01-16",
+    "title": "Windows Remote Assistance Flaw Bypasses Mark of the Web",
+    "summary": "Microsoft has released security updates for a Windows Remote Assistance vulnerability that could let attackers bypass Mark of the Web (MOTW) protections. This weakens a core Windows defense that helps flag and restrict risky files downloaded from untrusted sources. Exploitation of the vulnerabili...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/windows-remote-assistance-flaw-bypasses-mark-of-the-web/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262674",
+    "date": "2026-01-16",
+    "title": "Fortinet Warns of Active FortiSIEM RCE Exploitation",
+    "summary": "A Fortinet FortiSIEM vulnerability is under active exploitation, giving attackers a direct path to remote code execution on a core enterprise monitoring platform. The flaw “… may allow an unauthenticated attacker to execute unauthorized code or commands via crafted TCP requests,” said Fortinet in...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortinet-warns-of-active-fortisiem-rce-exploitation/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262675",
+    "date": "2026-01-16",
+    "title": "Windows Admin Center Azure SSO Flaw Risks Tenant-Wide Compromise",
+    "summary": "A Windows Admin Center Azure SSO flaw could let attackers pivot from one compromised machine to tenant-wide access across Azure VMs and Arc-connected systems. The vulnerability “… allows an attacker with local administrator access on just one machine to escalate privileges, execute remote code, a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/windows-admin-center-azure-sso-flaw-risks-tenant-wide-compromise/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262676",
+    "date": "2026-01-16",
+    "title": "This Android toggle tells you when you’re connect to fake cell towers",
+    "summary": "Most people never give a second thought to how their phone connects to a cell tower. It’s something that constantly happens in the background without our input, and therein lies the potential for trouble. What if that tower isn't what it seems? Android can tell you about it—maybe.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/theres-a-hidden-android-setting-that-spots-fake-cell-towers/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262677",
+    "date": "2026-01-16",
+    "title": "CVE-2026-0227: Palo Alto Networks Fixes GlobalProtect DoS Flaw Allowing Remote Firewall Disruption",
+    "summary": "Shortly after Microsoft’s massive January Patch Tuesday release addressing the CVE-2026-20805 zero-day vulnerability in Windows Desktop Window Manager, another technology giant has issued a security fix. This time, Palo Alto Networks has warned of a high-severity flaw affecting its GlobalProtect ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-0227-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "palo alto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262679",
+    "date": "2026-01-16",
+    "title": "Google Vertex AI security permissions could amplify insider threats",
+    "summary": "The finding of fresh privilege-escalation vulnerabilities in Google’s Vertex AI is a stark reminder to CISOs that managing AI service agents is a task unlike any that they have encountered before. XM Cyber reported two different issues with Vertex AI on Thursday, in which default configurations a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118092/google-vertex-ai-security-permissions-could-amplify-insider-threats.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262680",
+    "date": "2026-01-16",
+    "title": "Modular DS bug hands hackers instant WordPress admin access",
+    "summary": "Security researchers have confirmed active exploitation of a maximum-severity privilege escalation flaw in the widely used Modular DS plugin, a tool used to monitor, update, and manage multiple WordPress sites from a single console. The bug, tracked as CVE-2026-23550, was assigned a CVSS score of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118066/modular-ds-bug-hands-hackers-instant-wordpress-admin-access.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262681",
+    "date": "2026-01-16",
+    "title": "WEF 2026: KI weiterhin Top-Thema in der Cybersicherheit",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2672968311.jpg?quality=50&strip=all 7913w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2672968311.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118051/wef-2026-ki-weiterhin-top-thema-in-der-cybersicherheit.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262682",
+    "date": "2026-01-16",
+    "title": "CISOs Rise to Prominence: Security Leaders Join the Executive Suite",
+    "summary": "Security professionals are moving on up the executive ranks as enterprises face rising regulatory and compliance standards.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/cisos-rise-to-prominence-security-leaders-join-the-executive-suite",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262683",
+    "date": "2026-01-16",
+    "title": "AI System Reduces Attack Reconstruction Time From Weeks to Hours",
+    "summary": "Pacific Northwest National Labs' expert cybersecurity system, ALOHA, can recreate attacks and test them against organizations' infrastructure to bolster defense.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-system-attack-reconstruction-weeks-hours",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262684",
+    "date": "2026-01-16",
+    "title": "Using IT Staff Augmentation to Bolster Cloud Security and Compliance",
+    "summary": "Cloud adoption keeps soaring, yet so do headlines about exposed buckets, hijacked tokens, and regulatory fines. The gap between the speed at which business units spin up new cloud workloads and the pace at which security teams can hire, train, and retain talent has never felt wider. According to ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/using-it-staff-augmentation-to-bolster-cloud-security-and-compliance",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262685",
+    "date": "2026-01-16",
+    "title": "Go Programming Language 1.26 Patches Several Security Flaws",
+    "summary": "The patched issues span core standard library components including archive/zip and net/http, as well as security-sensitive areas of the crypto/tls stack. The post Go Programming Language 1.26 Patches Several Security Flaws appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-golang-patches-security-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "encryption",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262686",
+    "date": "2026-01-16",
+    "title": "China-linked hackers exploited Sitecore zero-day for initial access",
+    "summary": "An advanced threat actor tracked as UAT-8837 and believed to be linked to China has been focusing on critical infrastructure systems in North America, gaining access by exploiting both known and zero-day vulnerabilities. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/china-linked-hackers-exploited-sitecore-zero-day-for-initial-access/",
+    "tags": [
+      "vulnerability",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262687",
+    "date": "2026-01-16",
+    "title": "Verizon starts issuing $20 credits after nationwide outage",
+    "summary": "Verizon has begun sending text messages with instructions on how to redeem a $20 account credit for last week's nationwide wireless outage. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/mobile/verizon-starts-issuing-20-credits-after-nationwide-outage/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262688",
+    "date": "2026-01-16",
+    "title": "Microsoft: Windows 11 update causes Outlook freezes for POP users",
+    "summary": "Microsoft confirmed that the KB5074109 January Windows 11 security update causes the classic Outlook desktop client to freeze and hang for users with POP email accounts. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-update-causes-outlook-freezes-for-pop-users/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262689",
+    "date": "2026-01-16",
+    "title": "Hackers now exploiting critical Fortinet FortiSIEM flaw in attacks",
+    "summary": "Attackers are now exploiting a critical Fortinet FortiSIEM vulnerability with publicly available proof-of-concept exploit code. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-critical-fortinet-fortisiem-vulnerability-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262640",
     "date": "2026-01-16",
     "title": "WhisperPair Attack Leaves Millions of Audio Accessories Open to Hijacking",
@@ -3707,6 +4125,21 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262678",
+    "date": "2026-01-14",
+    "title": "Enterprise XDR Solutions: Comprehensive Comparative Analysis",
+    "summary": "Key Takeaways XDR solutions combine detection and response across endpoints, networks, cloud, and identities, closing gaps that point tools miss. Top XDR solutions integrate multiple security layers to reduce alert overload and speed up investigations. Modern XDR platforms centralize detection, i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/xdr-security/best-xdr-solutions-comparison/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
   },
   {
     "id": "20262451",
