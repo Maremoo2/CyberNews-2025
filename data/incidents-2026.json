@@ -12,6 +12,105 @@
     "impact": 3
   },
   {
+    "id": "20262598",
+    "date": "2026-01-16",
+    "title": "APD Investigates Third-Party Cybersecurity Incident, Says No Evidence of Data Compromise",
+    "summary": "The Anchorage Police Department (APD) has taken action after being notified of a cybersecurity incident involving a third-party service provider, emphasizing growing concerns around third-party cyber risks for local governments in the United States. APD, which serves the Municipality of Anchorage...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/anchorage-police-department-cyber-incident/",
+    "tags": [
+      "supply-chain",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262599",
+    "date": "2026-01-16",
+    "title": "New intelligence is moving faster than enterprise controls",
+    "summary": "AI is being integrated into core enterprise systems faster than many organizations can secure and govern it. A new global study from NTT shows companies expanding AI deployment while gaps in infrastructure readiness, data integrity controls, and governance frameworks continue to limit safe operat...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/ntt-data-enterprise-ai-governance/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262600",
+    "date": "2026-01-16",
+    "title": "Who’s on the other end? Rented accounts are stress-testing trust in gig platforms",
+    "summary": "Fraud has become a routine part of gig work for many earners, and the ways workers respond are creating new security problems for platforms. A recent TransUnion study of U.S. gig workers shows broad exposure to fraud, inconsistent reporting, and growing participation in prohibited practices such ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/transunion-gig-worker-fraud-risks/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262601",
+    "date": "2026-01-16",
+    "title": "New infosec products of the week: January 16, 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Acronis, JumpCloud, Noction, and SpyCloud. Acronis Archival Storage brings compliance-ready, S3-compatible cold storage to MSPs Acronis announced the launch of Acronis Archival Storage, a long-term, complia...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/new-infosec-products-of-the-week-january-16-2026/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262602",
+    "date": "2026-01-16",
+    "title": "4 Wege aus der Security-Akronymhölle",
+    "summary": "Gefangen im Buchstabensud?mikeledray | shutterstock.com Vor seinen MAGA- und DOGE-Eskapaden wurde Elon Musk in erster Linie als visionärer Entrepreneur wahrgenommen. Damals, im Jahr 2010, ließ er den Mitarbeitern seines Raumfahrtunternehmens SpaceX ein Memo zukommen. Darin kritisierte er den über...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3825034/4-wege-aus-der-security-akronymholle.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262603",
+    "date": "2026-01-16",
+    "title": "One click is all it takes: How ‘Reprompt’ turned Microsoft Copilot into data exfiltration tools",
+    "summary": "AI copilots are incredibly intelligent and useful — but they can also be naive, gullible, and even dumb at times. A new one-click attack flow discovered by Varonis Threat Labs researchers underscores this fact. ‘Reprompt,’ as they’ve dubbed it, is a three-step attack chain that completely bypasse...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117792/one-click-is-all-it-takes-how-reprompt-turned-microsoft-copilot-into-data-exfiltration-tools.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262609",
+    "date": "2026-01-16",
+    "title": "Google now lets you change your @gmail.com address, rolling out",
+    "summary": "Google has confirmed that it's now possible to change your @gmail.com address. This means that if your current email is xyz@gmail.com, you can now change it to abc@gmail.com. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/technology/google-now-lets-you-change-your-gmailcom-address-rolling-out/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262569",
     "date": "2026-01-16",
     "title": "Palo Alto Networks patches firewalls after discovery of a new denial-of-service flaw",
@@ -5741,6 +5840,22 @@
     "impact": 5
   },
   {
+    "id": "20262604",
+    "date": "2026-01-13",
+    "title": "Laughter in the dark: Tales of absurdity from the cyber frontline and what they taught us",
+    "summary": "From a quintuple-encryption ransomware attack to zany dark web schemes and AI fails, Sophos X-Ops looks back at some of our favorite weirdest incidents from the last few years – and the serious lessons behind themCategories: Threat ResearchTags: Ransomware, Hive, Lockbit, BlackCat, LLM, AI, Money...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/laughter-in-the-dark-tales-of-absurdity",
+    "tags": [
+      "ransomware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262376",
     "date": "2026-01-13",
     "title": "Laughter in the dark: Tales of absurdity from the cyber frontline and what they taught us",
@@ -9154,6 +9269,32 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20262605",
+    "date": "2026-01-12",
+    "title": "The State of Ransomware in Enterprise 2025",
+    "summary": "Categories: Products & ServicesTags: Ransomware, Enterprise, Solutions, The State of Ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/the-state-of-ransomware-in-enterprise-2025",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262606",
+    "date": "2026-01-12",
+    "title": "Year in Review 2025: The major headlines and moments from Sophos this year",
+    "summary": "Categories: Sophos InsightsTags: Year in Review, security news",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/year-in-review-2025-the-major-headlines-and-moments-from-sophos-this-year",
+    "tags": [],
+    "impact": 4
   },
   {
     "id": "20262377",
@@ -13241,6 +13382,18 @@
     "impact": 3
   },
   {
+    "id": "20262607",
+    "date": "2026-01-09",
+    "title": "Human-in-the-loop security will define 2026: Predictions from Sophos experts",
+    "summary": "Categories: Sophos InsightsTags: Sophos, Year in Review",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/human-in-the-loop-security-will-define-2026-predictions-from-sophos-experts",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20262379",
     "date": "2026-01-09",
     "title": "Human-in-the-loop security will define 2026: Predictions from Sophos experts",
@@ -14651,6 +14804,20 @@
       "Data/IT"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262608",
+    "date": "2026-01-08",
+    "title": "5 ways your firewall can keep ransomware out — and lock it down if it gets in",
+    "summary": "Categories: Sophos InsightsTags: Firewall, Ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/5-ways-your-firewall-can-keep-ransomware-out-and-lock-it-down-if-it-gets-in",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
   },
   {
     "id": "20262380",

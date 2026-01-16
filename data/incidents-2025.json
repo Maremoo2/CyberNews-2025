@@ -2032,6 +2032,20 @@
     "impact": 3
   },
   {
+    "id": "2025995",
+    "date": "2025-12-18",
+    "title": "I am not a robot: ClickFix used to deploy StealC and Qilin",
+    "summary": "The fake human verification process led to infostealer and ransomware infectionsCategories: Threat ResearchTags: clickfix, Featured, GOLD FEATHER, human verification, infostealer, qilin, Ransomware, StealC",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/i-am-not-a-robot-clickfix-used-to-deploy-stealc-and-qilin",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025991",
     "date": "2025-12-18",
     "title": "I am not a robot: ClickFix used to deploy StealC and Qilin",
@@ -2795,6 +2809,18 @@
     "impact": 3
   },
   {
+    "id": "2025996",
+    "date": "2025-12-15",
+    "title": "Game of clones: Sophos and The MITRE ATT&CK Enterprise 2025 Evaluations",
+    "summary": "Winter is coming – so it must be time for Sophos X-Ops’ report on this year’s MITRE ATT&CK Enterprise EvaluationsCategories: Threat ResearchTags: ATT&CK, Emulation, Featured, MITRE, MUSTANG PANDA, scattered spider, Sophos X-Ops",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2025992",
     "date": "2025-12-15",
     "title": "Game of clones: Sophos and The MITRE ATT&CK Enterprise 2025 Evaluations",
@@ -3359,6 +3385,35 @@
     "sourceUrl": "https://news.mit.edu/2025/applied-ai-program-train-military-leaders-ai-age-1212",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2025997",
+    "date": "2025-12-11",
+    "title": "React2Shell flaw (CVE-2025-55182) exploited for remote code execution",
+    "summary": "The availability of exploit code will likely lead to more widespread opportunistic attacksTags: Threat Research, Featured, vulnerability, react2shell",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/react2shell-flaw-cve-2025-55182-exploited-for-remote-code-execution",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2025998",
+    "date": "2025-12-11",
+    "title": "A big finish to 2025 in December’s Patch Tuesday",
+    "summary": "A month with no Critical-severity Windows bugs is overshadowed by a mass of Mariner mop-upCategories: X-opsTags: threat research, featured, Microsoft, Patch Tuesday, zero days",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/a-big-finish-to-2025-in-decembers-patch-tuesday",
+    "tags": [
+      "microsoft"
     ],
     "impact": 5
   },
