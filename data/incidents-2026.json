@@ -12,6 +12,571 @@
     "impact": 3
   },
   {
+    "id": "20262690",
+    "date": "2026-01-16",
+    "title": "The Architecture of Agentic Defense: Inside the Falcon Platform",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/architecture-of-agentic-defense-inside-the-falcon-platform/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262691",
+    "date": "2026-01-16",
+    "title": "Police raid homes of alleged Black Basta hackers, hunt suspected Russian ringleader",
+    "summary": "Black Basta has been active since at least early 2022 and is believed to be responsible for extorting hundreds of companies, hospitals and public institutions worldwide — including Swiss industrial giant ABB and U.S. healthcare provider Ascension — causing hundreds of millions of dollars in estim...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/police-raid-homes-of-alleged-black-basta-hackers",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262692",
+    "date": "2026-01-16",
+    "title": "Federal court dismisses Trump DOJ lawsuit seeking California voter data",
+    "summary": "A federal court has thrown out a lawsuit brought by the Trump administration attempting to force the state of California to turn over sensitive voter data. The decision, issued by the U.S. Central District Court of Southern California, is a major setback to the federal government’s massive data c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/federal-court-dismisses-trump-doj-lawsuit-seeking-california-voter-data/",
+    "tags": [
+      "malware",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262693",
+    "date": "2026-01-16",
+    "title": "In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack",
+    "summary": "Other noteworthy stories that might have slipped under the radar: BodySnatcher agentic AI hijacking, Telegram IP exposure, shipping systems hacked by researcher. The post In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262694",
+    "date": "2026-01-16",
+    "title": "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts",
+    "summary": "Cybersecurity researchers have discovered five new malicious Google Chrome web browser extensions that masquerade as human resources (HR) and enterprise resource planning (ERP) platforms like Workday, NetSuite, and SuccessFactors to take control of victim accounts. \"The extensions work in concert...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262695",
+    "date": "2026-01-16",
+    "title": "Monnai Raises $12 Million for Identity and Risk Data Infrastructure",
+    "summary": "The company will use the investment to accelerate the adoption of its solution among financial institutions and digital businesses. The post Monnai Raises $12 Million for Identity and Risk Data Infrastructure appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262696",
+    "date": "2026-01-16",
+    "title": "[Ekstra] Ericssons oppsigelser signaliserer at 5G er en tapt mobilgenerasjon",
+    "summary": "Etter år med løfter om nye forretningsmuligheter og banebrytende bruksområder står telekomindustrien fortsatt på stedet hvil. 5G fremstår i økende grad som en mobilgenerasjon som stoppet på halvveien.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/analyse-ericssons-oppsigelser-signaliserer-at-5g-er-en-tapt-mobilgenerasjon/567063",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262697",
+    "date": "2026-01-16",
+    "title": "Years-Old Vulnerable Apache Struts 2 Versions See 387K Weekly Downloads",
+    "summary": "It turns out that even in the world of software, ‘old’ doesn’t mean ‘gone.’ In a report shared with Hackread.com, cybersecurity researchers at Sonatype revealed a massive spike in downloads of long-outdated Apache Struts versions. We are talking about a specific flaw called CVE-2025-68493. What m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/years-old-vulnerable-apache-struts-2-downloads/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262698",
+    "date": "2026-01-16",
+    "title": "Canadian investment regulator confirms hackers hit 750,000 investors",
+    "summary": "The nongovernmental Canadian Investment Regulatory Organization, which oversees the country's debt and equity marketplaces as well as some financial institutions, released details about an August 2025 data breach.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/canada-ciro-investing-regulator-confirms-data-breach",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262699",
+    "date": "2026-01-16",
+    "title": "Project Eleven Raises $20 Million for Post-Quantum Security",
+    "summary": "The startup is building the necessary infrastructure and tools to help organizations transition to post-quantum computing. The post Project Eleven Raises $20 Million for Post-Quantum Security appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262700",
+    "date": "2026-01-16",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates | Cyware",
+    "summary": "Brevard Skin and Cancer Center has notified over 55,000 individuals of a data breach that compromised sensitive personal information, including names, SSNs, billing and claims information, diagnoses, clinical information, and more. The Richmond Behavioral Health Authority in Virginia experienced ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Comparitech",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262701",
+    "date": "2026-01-16",
+    "title": "Texas behavioral health center warns patients of data breach that leaked SSNs, medical info",
+    "summary": "Spindletop Center, a behavioral health clinic in Texas, is notifying victims of a September 2025 data breach, according to disclosures submitted to the state’s attorney general. The data breach compromised the following personal info: Names Social Security numbers Government-issued ID numbers (e....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/texas-behavioral-health-center-warns-patients-of-data-breach-that-leaked-ssns-medical-info/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262702",
+    "date": "2026-01-16",
+    "title": "GhostPoster Browser Malware Hid for 5 Years With 840,000 Installs",
+    "summary": "What started as a single suspicious browser add-on has grown into a much larger cybersecurity concern that many users never saw coming. Last month, Koi Security published an analysis of a Firefox extension it named GhostPoster, describing a method of abuse that avoided the usual warning signs rev...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/ghostposter-browser-malware-840000-installs/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262703",
+    "date": "2026-01-16",
+    "title": "750,000 Impacted by Data Breach at Canadian Investment Watchdog",
+    "summary": "The incident impacted the personal information of CIRO member firms and their registered employees. The post 750,000 Impacted by Data Breach at Canadian Investment Watchdog appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262704",
+    "date": "2026-01-16",
+    "title": "Cyber Insights 2026: Social Engineering",
+    "summary": "We've known that social engineering would get AI wings. Now, at the beginning of 2026, we are learning just how high those wings can soar. The post Cyber Insights 2026: Social Engineering appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-social-engineering/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262705",
+    "date": "2026-01-16",
+    "title": "China spies used Maduro capture as lure to phish US agencies",
+    "summary": "What policy wonk wouldn't want to click on an attachment promising to unveil US plans for Venezuela? Chinese cyberspies used just such a lure to target US government agencies and policy-related organizations in a phishing campaign that began just days after an American military operation captured...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/15/chinese_spies_used_maduros_capture/?&web_view=true",
+    "tags": [
+      "phishing",
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262706",
+    "date": "2026-01-16",
+    "title": "CISA’s secure-software buying tool had a simple XSS vulnerability of its own",
+    "summary": "A Cybersecurity and Infrastructure Security Agency tool dedicated to helping government agencies buy secure software turned out to have a cybersecurity vulnerability of its own. Jeff Williams, the former leader of the Open Worldwide Application Security Project (OWASP), told CyberScoop that he di...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-secure-software-buying-tool-had-a-simple-xss-vulnerability-of-its-own/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262707",
+    "date": "2026-01-16",
+    "title": "Nasjonal sky finnes allerede – utfordringen er styring",
+    "summary": "I deler av offentlig sektor, særlig i helse, finnes det allerede private skyplattformer for kritiske samfunnsfunksjoner, bygget med nasjonal kontroll som premiss.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-nasjonal-sky-finnes-allerede-utfordringen-er-styring/567045",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262708",
+    "date": "2026-01-16",
+    "title": "Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions",
+    "summary": "Amazon S3 Storage Lens provides organization-wide visibility into your storage usage and activity. S3 Storage Lens is now available in AWS GovCloud (US) Regions, bringing metrics to help you optimize storage costs, identify data protection opportunities, and improve application performance. S3 St...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262709",
+    "date": "2026-01-16",
+    "title": "CISA, Partners Release Guidance to Reduce OT Cyber Risks - MeriTalk",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), FBI, the United Kingdom's National Cyber Security Centre (NCSC-UK), and international ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.meritalk.com/articles/cisa-partners-release-guidance-to-reduce-ot-cyber-risks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262710",
+    "date": "2026-01-16",
+    "title": "Cyber Fraud, Not Ransomware, is Now Businesses' Top Security Concern",
+    "summary": "Cyber fraud has overtaken ransomware to become the top cybersecurity concern of business leaders around the world, reflecting a global threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/cyber-fraud-not-ransomware-is-now-businesses-top-security-concern/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262711",
+    "date": "2026-01-16",
+    "title": "GDIT tapped to deliver zero-trust security solution at nearly 200 Air Force bases",
+    "summary": "The $120 million task order will enable GDIT to implement zero-trust cybersecurity controls at facilities located across the world.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://defensescoop.com/2026/01/15/air-force-gdit-contract-zero-trust-bases/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262712",
+    "date": "2026-01-16",
+    "title": "CEOs and CISOs hold divergent views on AI Technology and Data Leak Risks",
+    "summary": "... it comes to data leaks and overall information security. The ... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/ceos-and-cisos-hold-divergent-views-on-ai-technology-and-data-leak-risks/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262713",
+    "date": "2026-01-16",
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "summary": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262714",
+    "date": "2026-01-16",
+    "title": "Nozomi Networks launches New Vantage IQ, a private AI assistant for OT and IoT security teams",
+    "summary": "“The labor crisis in cybersecurity is real – and growing,” said Carcano. “With skilled resources a scarce commodity and the threat landscape ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/nozomi-networks-launches-vantage-iq-a-private-ai-assistant-for-ot-and-iot-security-teams/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262715",
+    "date": "2026-01-16",
+    "title": "China-linked threat actor UAT-8837 exploits Sitecore vulnerability to target North American ...",
+    "summary": "This information may be valuable to adversaries who seek to evaluate an endpoint's security posture, including network security settings.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/ransomware/china-linked-threat-actor-uat-8837-exploits-sitecore-vulnerability-to-target-north-american-critical-infrastructure/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262716",
+    "date": "2026-01-16",
+    "title": "Cisco finally fixes max-severity bug under active attack for weeks - The Register",
+    "summary": "It affects some Secure Email Gateway (SEG) and Secure Email and Web Manager (SEWM) appliances. Cisco first became aware of attackers targeting the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/15/cisco_fixes_cve_2025_20393/",
+    "tags": [
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262717",
+    "date": "2026-01-16",
+    "title": "What does the latest cyber hack teach us - AUT News",
+    "summary": "... cyber attacks. Provided by the National Cyber Security Centre, it offers advice for those affected by hacks as well as preventative tips to keep ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aut.ac.nz/news/stories/what-does-the-latest-cyber-hack-teach-us",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262718",
+    "date": "2026-01-16",
+    "title": "We read the WEF's 2026 cyber security outlook for you - The Stack",
+    "summary": "The World Economic Forum published its 2026 annual outlook on cyber security having surveyed over 800 business and IT professionals.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thestack.technology/world-economic-forum-cyber-security-2026-summary/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262719",
+    "date": "2026-01-16",
+    "title": "Easterly helms RSAC, Windows update issues, Police Copilot gaffe - CISO Series",
+    "summary": "... security, secure software development, and global collaboration.” (PR ... Acting as a media network for cyber information and exchange, CISO ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-globalprotect-gateway-flaw-windows-update-problems-police-copilot-gaffe/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262720",
+    "date": "2026-01-16",
+    "title": "CISA, Allies Sound Alarm on OT Network Exposure - GovInfoSecurity",
+    "summary": "The FBI and Cybersecurity and Infrastructure Security Agency published the guidance alongside the U.K. National Cyber Security Centre and cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/cisa-allies-sound-alarm-on-ot-network-exposure-a-30534",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262721",
+    "date": "2026-01-16",
+    "title": "First Trust NASDAQ Cybersecurity ETF Growth Thesis For 2026 - Cybercrime Magazine",
+    "summary": "This isn't just steady growth; it's an acceleration driven by a fundamental shift in the battlefield. The attack surface is exploding, not from human ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/first-trust-nasdaq-cybersecurity-etf-growth-thesis-for-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262722",
+    "date": "2026-01-16",
+    "title": "Verizon outage cause revealed | Mashable",
+    "summary": "The company confirms it wasn't a cybersecurity ... As of now, there is no indication that this was a cyber security issue,\" the telecom giant said in a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://mashable.com/article/verizon-outage-cause-revealed",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262723",
+    "date": "2026-01-16",
+    "title": "US Department of Labor's Employee Benefits Security Administration updates national ...",
+    "summary": "Investigations to emphasize cyber security, distributions, mental health benefits, surprise billing ... Cybersecurity; Barriers to mental health ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dol.gov/newsroom/releases/ebsa/ebsa20260115",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262724",
+    "date": "2026-01-16",
+    "title": "Bridging Academia and Cybersecurity through University Partnerships - Group-IB",
+    "summary": "Through our partnership with Group-IB, we aim to address the cyber security skills gap in Malaysia by offering hands-on courses that enhance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/academic-alliance/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262725",
+    "date": "2026-01-16",
+    "title": "CEOs, security executives are divided on cyber risks of AI, survey finds - CNBC",
+    "summary": "On one hand, artificial intelligence is rapidly improving cybersecurity defense technologies, but AI is also equipping cybercriminals with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/01/16/survey-finds-ceos-security-execs-are-divided-on-cyber-risks-of-ai.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262726",
+    "date": "2026-01-16",
+    "title": "UK unveils Software Security Ambassadors to push new code",
+    "summary": "The group includes Cisco, Sage, Lloyds Banking Group and Santander, alongside cybersecurity suppliers Palo Alto Networks and NCC Group. Professional ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/uk-unveils-software-security-ambassadors-to-push-new-code",
+    "tags": [
+      "cisco",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262727",
+    "date": "2026-01-16",
+    "title": "OPSWAT Unit 515 identifies critical flaws in Delta DVP PLCs, raising concerns for ICS security",
+    "summary": "Get timely industrial cybersecurity news, in depth features, expert videos, virtual events, and access to the largest curated library of Industrial ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/opswat-unit-515-identifies-critical-flaws-in-delta-dvp-plcs-raising-concerns-for-ics-security/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262661",
     "date": "2026-01-16",
     "title": "How a hacking campaign targeted high-profile Gmail and WhatsApp users across the Middle East",
