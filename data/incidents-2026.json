@@ -12,6 +12,358 @@
     "impact": 3
   },
   {
+    "id": "20262615",
+    "date": "2026-01-16",
+    "title": "Un seul clic pour gérer vos cookies sur tous vos appareils : attention au piège, dit la CNIL",
+    "summary": "Accepter les cookies sur tous vos appareils, en un seul clic ? La CNIL publie ce vendredi ses recommandations sur cette pratique du consentement multi-terminaux, avec des règles strictes à respecter, pour éviter les dérives.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595570-un-seul-clic-pour-gerer-vos-cookies-sur-tous-vos-appareils-attention-au-piege-dit-la-cnil.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262616",
+    "date": "2026-01-16",
+    "title": "Amendes de la CNIL contre Free, Shein, Orange : voici où vont vraiment les millions d'euros de ces sanctions",
+    "summary": "Free a écopé cette semaine d'une amende de 42 millions d'euros, prononcée par la CNIL. Shein ou encore Orange ont aussi payé cash leurs violations respectives. Mais au fait, où atterrissent tous ces millions ?",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595450-amendes-de-la-cnil-contre-free-shein-orange-voici-ou-vont-vraiment-les-millions-d-euros-de-ces-sanctions.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262617",
+    "date": "2026-01-16",
+    "title": "The Cyber Express Weekly Roundup: Leadership Changes, Blackouts, Malware, and AI Safety Actions",
+    "summary": "The second week of 2026 continues to fetch new cybersecurity issues that affect national security, public stability, business operations, and technology governance. Developments this week ranged from senior intelligence leadership appointments and nationwide internet shutdowns to data breaches, n...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/weekly-roundup-tce-cybersecurity/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262618",
+    "date": "2026-01-16",
+    "title": "Germany and Israel Deepen Cybersecurity Ties With New Security Pact",
+    "summary": "Germany and Israel have taken an important step toward deepening their long-standing security partnership by expanding cooperation in the field of cybersecurity. During a weekend visit to Jerusalem, German Interior Minister Alexander Dobrindt and Israeli Prime Minister Benjamin Netanyahu signed a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/germany-israel-cybersecurity-pact/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262619",
+    "date": "2026-01-16",
+    "title": "Grok Image Abuse Prompts X to Roll Out New Safety Limits",
+    "summary": "Elon Musk’s social media platform X has announced a series of changes to its AI chatbot Grok, aiming to prevent the creation of nonconsensual sexualized images, including content that critics and authorities say amounts to child sexual abuse material (CSAM). The announcement was made Wednesday vi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/x-tightens-grok-ai-controls/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262620",
+    "date": "2026-01-16",
+    "title": "Cyberattack Hits Poland’s Power System, But Blackout Prevented",
+    "summary": "Poland narrowly avoided a nationwide power outage at the end of December after what senior officials have described as the most serious cyberattack on its energy infrastructure in years. The Poland cyberattack occurred during a period of severe winter weather, further complicating the crisis mana...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/poland-cyberattack-energy-grid-blackout/",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262621",
+    "date": "2026-01-16",
+    "title": "WhisperPair attack exposes millions of Bluetooth devices to location tracking",
+    "summary": "Security researchers at KU Leuven have disclosed a critical flaw in Google's Fast Pair protocol that allows attackers to forcibly hijack Bluetooth accessories and covertly track users. The vulnerability, dubbed WhisperPair, affects a wide range of popular wireless audio devices and demonstrates s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/whisperpair-attack-exposes-millions-of-bluetooth-devices-to-location-tracking/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262622",
+    "date": "2026-01-16",
+    "title": "FalconStor Habanero simplifies compliant offsite backup for IBM Power users",
+    "summary": "FalconStor Software announced the launch of FalconStor Habanero, a globally available software-as-a-service offering designed to simplify secure offsite data protection for IBM Power customers. Habanero addresses a critical challenge facing the majority of IBM Power users: organizations that cont...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/falconstor-habanero-simplifies-compliant-offsite-backup-for-ibm-power-users/",
+    "tags": [
+      "ai-ml",
+      "ibm"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262623",
+    "date": "2026-01-16",
+    "title": "Ransomware activity never dies, it multiplies",
+    "summary": "Ransomware attacks kept climbing through 2025, even as major criminal groups collapsed and reformed. A new study conducted by the Symantec and Carbon Black Threat Hunter Team shows that disruption inside the ransomware economy slowed activity only briefly, while extortion methods expanded and div...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/ransomware-attacks-extortion-trends/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262624",
+    "date": "2026-01-16",
+    "title": "Product showcase: Penetration test reporting with PentestPad",
+    "summary": "If you’ve done a pentest before, you know things can get messy fast. You start organized, but a few hours in, notes are scattered, screenshots have odd filenames, and small details get lost. PentestPad was built to help with that, not to change how you test, but to stop the chaos from slowing you...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/product-showcase-pentestpad-penetration-test-reporting/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262625",
+    "date": "2026-01-16",
+    "title": "As AI raises the stakes, app modernization and security are becoming inseparable",
+    "summary": "Security leaders are under pressure to support AI programs that move from pilots into production. New Cloudflare research suggests that success depends less on experimentation and more on disciplined application modernization tied closely to security strategy. The survey examines how application ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/16/cloudflare-ai-application-modernization-report/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "cloudflare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262626",
+    "date": "2026-01-16",
+    "title": "How Compromised Code Signing Keys Lead to Real-World Malware Incidents",
+    "summary": "Code signing exists because modern operating systems cannot treat every executable as hostile by default. Software needs a way to declare origin and integrity at scale. Signed code gives platforms a practical signal; someone identifiable took responsibility for this binary at the time it was buil...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cheap SSL Shop",
+    "sourceUrl": "https://www.cheapsslshop.com/blog/how-compromised-code-signing-keys-enable-malware-attacks",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262627",
+    "date": "2026-01-16",
+    "title": "When Social Gaming Becomes a Security Vulnerability",
+    "summary": "In this post, I will talk about when social gaming becomes a security vulnerability. Social gaming has turned casual play into a global phenomenon, drawing in millions with its promise of community and shared achievement. These platforms make it simple to connect with friends or strangers, exchan...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/when-social-gaming-becomes-a-security-vulnerability/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262628",
+    "date": "2026-01-16",
+    "title": "Ransomware and Supply Chain Attacks Soared in 2025",
+    "summary": "Overview Ransomware and supply chain attacks soared in 2025, and persistently elevated attack levels suggest that the global threat landscape will remain perilous heading into 2026. Cyble recorded 6,604 ransomware attacks in 2025, up 52% from the 4,346 attacks claimed by ransomware groups in 2024...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/ransomware-attacks-supply-chain-threat-landscape/",
+    "tags": [
+      "ransomware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262629",
+    "date": "2026-01-16",
+    "title": "Insider risk in an age of workforce volatility",
+    "summary": "Economic pressures, AI-driven job displacement, and relentless organizational churn are driving insider risk to its highest level in years. Workforce instability erodes loyalty and heightens grievances. The accelerating deployment of powerful new tools, such as AI agents, amplifies the threats fr...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116983/insider-risk-in-an-age-of-workforce-volatility.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262630",
+    "date": "2026-01-16",
+    "title": "Weekly Update 486",
+    "summary": "I’m in Oslo! Flighty is telling me I’ve flown in or out of here 43 times since a visit in 2014 set me on a new path professionally and, many years later, personally. It’s special here, like a second home that just feels… right. This week, the business end of things is about the WhiteDate data bre...",
+    "region": "US",
+    "country": "Australia",
+    "sourceName": "Troy Hunt",
+    "sourceUrl": "https://www.troyhunt.com/weekly-update-486/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262631",
+    "date": "2026-01-16",
+    "title": "TamperedChef serves bad ads, with infostealers as the main course",
+    "summary": "Sophos X-Ops explores a malvertising campaign that leverages Google Ads to distribute an infostealerCategories: Threat ResearchTags: TamperedChef, EvilAI, infostealer, Sophos X-Ops",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/tamperedchef-serves-bad-ads-with-infostealers-as-the-main-course",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262632",
+    "date": "2026-01-16",
+    "title": "TamperedChef Malvertising Campaign Drops Malware via Fake PDF Manuals",
+    "summary": "TamperedChef creates backdoors and steals user credentials – particularly in organizations reliant on technical equipment",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/tamperedchef-malvertising-fake-pdf/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262633",
+    "date": "2026-01-16",
+    "title": "Account Compromise Surged 389% in 2025, Says eSentire",
+    "summary": "An eSentire report showed credential theft accounted for 74% of all observed cyber threats in 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/account-compromise-surged-2025/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262634",
+    "date": "2026-01-16",
+    "title": "RondoDox Botnet Targets HPE OneView Vulnerability in Exploitation Wave",
+    "summary": "Check Point Research has reported a surge in attacks on a vulnerability in HPE OneView, driven by the Linux-based RondoDox botnet",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/rondodox-botnet-targets-hpe/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262635",
+    "date": "2026-01-16",
+    "title": "Cyber Incident Response Done Right: Moving from Panic to Process",
+    "summary": "When you think about it, every incident response playbook is supposed to be about control, not chaos. Yet when a breach hits, it often looks more like a fire drill than a framework. Security teams rush to contain the damage, executives demand constant updates, and everyone starts guessing instead...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/cyber-incident-response-done-right-moving-from-panic-to-process",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262636",
+    "date": "2026-01-16",
+    "title": "TikTok to Roll Out Stronger Age Verification Across the EU",
+    "summary": "TikTok, and other major platforms popular with young people, are coming under increasing pressure to better identify and remove accounts. The post TikTok to Roll Out Stronger Age Verification Across the EU appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-tiktok-eu-age-verification/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20262637",
+    "date": "2026-01-16",
+    "title": "Cisco finally fixes AsyncOS zero-day exploited since November",
+    "summary": "​Cisco finally patched a maximum-severity AsyncOS zero-day exploited in attacks targeting Secure Email Gateway (SEG) appliances since November 2025. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-finally-fixes-asyncos-zero-day-exploited-since-november/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262638",
+    "date": "2026-01-16",
+    "title": "Microsoft: Some Windows PCs fail to shut down after January update",
+    "summary": "Microsoft has confirmed a new issue that prevents Windows 11 23H2 devices with System Guard Secure Launch enabled from shutting down. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-some-windows-pcs-fail-to-shut-down-after-january-update/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262610",
     "date": "2026-01-16",
     "title": "[Ekstra] Fastsetting av tid er under angrep – slik kan vi sikre oss",
@@ -229,6 +581,22 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20262639",
+    "date": "2026-01-15",
+    "title": "Critical WhisperPair flaw lets hackers track, eavesdrop via Bluetooth audio devices",
+    "summary": "A critical vulnerability in Google's Fast Pair protocol can allow attackers to hijack Bluetooth audio accessories like wireless headphones and earbuds, track users, and eavesdrop on their conversations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-whisperpair-flaw-lets-hackers-track-eavesdrop-via-bluetooth-audio-devices/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
   },
   {
     "id": "20262571",
