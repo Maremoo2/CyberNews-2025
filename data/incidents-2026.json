@@ -12,6 +12,187 @@
     "impact": 3
   },
   {
+    "id": "20262742",
+    "date": "2026-01-16",
+    "title": "Jordanian national pleads guilty after unknowingly selling FBI agent access to 50 company networks",
+    "summary": "A 40-year-old Jordanian national pleaded guilty Thursday to operating as an access broker, selling access to at least 50 victim company networks he broke into by exploiting two commercial firewall products in 2023, according to the Justice Department. Feras Khalil Ahmad Albashiti, who lived in th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/jordanian-national-access-broker-pleads-guilty/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262743",
+    "date": "2026-01-16",
+    "title": "Jordanian initial access broker pleads guilty to helping target 50 companies",
+    "summary": "The operator of a cybercrime forum account known as \"r1z\" could spend up to 10 years in prison after pleading guilty to selling malware built to break into corporate networks.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/guilty-plea-initial-access-broker-r1z",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262744",
+    "date": "2026-01-16",
+    "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+    "summary": "The JavaScript (aka JScript) malware loader called GootLoader has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000 archives. \"The actor creates a malformed archive as an anti-analysis technique,\" Expel security r...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262745",
+    "date": "2026-01-16",
+    "title": "Unified AI-Powered Security - Palo Alto Networks",
+    "summary": "In contrast, 96% of organizations that have unified their security platforms say they now view cybersecurity as a driver of business value, not a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/blog/2026/01/unified-ai-powered-security/",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262746",
+    "date": "2026-01-16",
+    "title": "Amazon RDS for PostgreSQL announces Extended Support minor  12.22-rds.20251114 and 11.22-rds.20251114",
+    "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor version 12.22-rds.20251114 and 11.22-rds.20251114. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of PostgreSQL. Amazon RDS Extended ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-rds-for-postgresql-announces-extended-support-minor-12-22-rds-20251114-and-11-22-rds-20251114",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20262747",
+    "date": "2026-01-16",
+    "title": "European States Spin Wheels on Cybersecurity Directive - BankInfoSecurity",
+    "summary": "... security, while boosting coordination between their Computer Security Incident Response Teams. It establishes a European cyber crisis liaison ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/european-states-spin-wheels-on-cybersecurity-directive-a-30542",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262748",
+    "date": "2026-01-16",
+    "title": "It Was A Big Year For Cybersecurity - Crunchbase News",
+    "summary": "Overall, investors put $18 billion into seed- through growth-stage rounds for companies in Crunchbase security and privacy categories last year.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.crunchbase.com/venture/cybersecurity-startup-investment-up-ye-2025/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262749",
+    "date": "2026-01-16",
+    "title": "Senate passes more spending bills, but Homeland Security dispute looms",
+    "summary": "The measure before the Senate passed by a broadly bipartisan vote of 82-15. It now goes to President Donald Trump to be signed into law.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/congress/2026/01/senate-passes-more-spending-bills-but-homeland-security-dispute-looms/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262750",
+    "date": "2026-01-16",
+    "title": "Cyber resilience in global dialogue: The NCSC at the WEF Annual Meeting 2026",
+    "summary": "Cybersecurity remains a key topic at this year's WEF Annual Meeting. For this reason, the National Cyber Security Centre (NCSC), together with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.admin.ch/en/newnsb/ohUuhoYxBNyyO62WDAnkP",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262751",
+    "date": "2026-01-16",
+    "title": "Amazon MWAA now available in additional Region",
+    "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) is now available in AWS Region Asia Pacific (Thailand). Amazon MWAA is a managed service for Apache Airflow that lets you use the same familiar Apache Airflow platform as you do today to orchestrate your workflows and enjoy improved scalability, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mwaa-additional-region",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262752",
+    "date": "2026-01-16",
+    "title": "AWS Outposts racks support multiple LGW routing domains",
+    "summary": "AWS Outposts racks now support multiple local gateway (LGW) routing domains, enabling you to create up to 10 isolated routing domains per Outpost, each with independent route tables and BGP sessions to your on-premises network. This feature provides traffic separation between routing domains and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262753",
+    "date": "2026-01-16",
+    "title": "Second-generation AWS Outposts racks are now supported in additional AWS Regions",
+    "summary": "Second-generation AWS Outposts racks are now supported in the South America (Sao Paulo) and Europe (Stockholm) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Or...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/second-generation-aws-outposts-racks-additional-aws-regions",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262728",
     "date": "2026-01-16",
     "title": "Grubhub Data Stolen in Confirmed Hack, Questions Remain",
