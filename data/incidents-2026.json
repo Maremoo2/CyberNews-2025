@@ -12,6 +12,66 @@
     "impact": 3
   },
   {
+    "id": "20262786",
+    "date": "2026-01-17",
+    "title": "Sauvegarde 3-2-1-1-0 : la nouvelle norme que votre PME doit connaître",
+    "summary": "Vous savez probablement combien il est important de sauvegarder les données de votre entreprise. Vos DSI vous le rappellent sans cesse et vous informent régulièrement des risques que peut entraîner la perte des données. Sans doute vous ont-ils dit qu'ils appliquaient la méthode dite 3-2-1-1-0 pou...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-594502-sauvegarde-3-2-1-1-0-la-nouvelle-norme-que-votre-pme-doit-connaitre.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262787",
+    "date": "2026-01-17",
+    "title": "Faille critique : Cisco publie une mise à jour importante pour expulser les hackers chinois tapis dans ses réseaux",
+    "summary": "Cisco a corrigé une vulnérabilité sévère après avoir découvert des accès clandestins dans certains de ses équipements de messagerie. Des attaquants liés à la Chine ont exploité ce défaut pendant plusieurs semaines. Le correctif a coupé l’accès, mais de nombreuses entreprises ont dû vérifier ce qu...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595684-faille-critique-cisco-publie-une-mise-a-jour-importante-pour-expulser-les-hackers-chinois-tapis-dans-ses-reseaux.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262788",
+    "date": "2026-01-17",
+    "title": "South African Seniors are Prime Target for Cyber Attacks",
+    "summary": "Threat actors are well-aware of the fact that many older people are not very savvy when it comes to technology. Unlike younger generations, they did not “grow up” with digital versions and are often confused. Add to this that some seniors suffer from memory problems and you have a recipe ripe for...",
+    "region": "ASIA",
+    "country": "South Africa",
+    "sourceName": "DaVinci Forensics",
+    "sourceUrl": "https://davinciforensics.co.za/cybersecurity/cybercrime-targeting-seniors-south-africa/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262789",
+    "date": "2026-01-17",
+    "title": "Researchers Hijack StealC Malware Panels After Hackers Get Hacked",
+    "summary": "Security researchers have successfully exploited a vulnerability in StealC’s web-based control infrastructure, enabling them to monitor and hijack active malware operator sessions and gather detailed intelligence on threat actors. The breakthrough came through a cross-site scripting (XSS) flaw in...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/researchers-hijack-steal-c-malware-panels-after-hackers-get-hacked",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262773",
     "date": "2026-01-17",
     "title": "Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System",
