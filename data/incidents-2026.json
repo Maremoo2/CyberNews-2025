@@ -12,6 +12,61 @@
     "impact": 3
   },
   {
+    "id": "20262768",
+    "date": "2026-01-17",
+    "title": "ExpressVPN lance une offre Teams et confirme le virage B2B des VPN grand public",
+    "summary": "Avec ExpressVPN for Teams, le fournisseur amorce un virage longtemps évité vers les usages professionnels. Une évolution qui dépasse le simple lancement de produit et qui s’inscrit dans un mouvement plus large, déjà engagé par Proton VPN, où les acteurs grand public cherchent à répondre aux besoi...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595636-expressvpn-lance-une-offre-teams-et-confirme-le-virage-b2b-des-vpn-grand-public.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262769",
+    "date": "2026-01-17",
+    "title": "Pourquoi certains contenus vidéos sont bloqués selon votre pays (et comment ça marche)",
+    "summary": "Entre événements sportifs inaccessibles et séries soudainement absentes de vos plateformes habituelles, les frontières ne s’arrêtent pas aux aéroports. Droits de diffusion, catalogues géolocalisés, restrictions régionales : voyager, c’est aussi découvrir les limites invisibles du streaming modern...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-594754-pourquoi-certains-contenus-videos-sont-bloques-selon-votre-pays-et-comment-ca-marche.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262770",
+    "date": "2026-01-17",
+    "title": "Don't rely on remote access—it's Home Assistant's biggest crutch",
+    "summary": "For many of us, having remote access to our smart homes over the internet is non-negotiable. But is this really necessary? And more to the point, is there anything to be gained from not doing so?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/the-argument-against-making-home-assistant-remotely-accessible-online/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262771",
+    "date": "2026-01-17",
+    "title": "When Images Get Stuck, AIEnhancer’s Watermark Remover Helps Them Move Again",
+    "summary": "In this post, I will talk about – when images get stuck, AIEnhancer’s watermark remover helps them move again. Images often enter a workflow in a usable but unfinished state. Resolution is acceptable, colors look fine, and composition holds up. Yet a small visual interruption remains, and that in...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/aienhancer-watermark-remover/",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262758",
     "date": "2026-01-17",
     "title": "Økonomer: Digital euro er nødvendig beskyttelse mot USA",
@@ -189,6 +244,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262772",
+    "date": "2026-01-16",
+    "title": "Why LinkedIn is a hunting ground for threat actors – and how to protect yourself",
+    "summary": "The business social networking site is a vast, publicly accessible database of corporate information. Don’t believe everyone on the site is who they say they are.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/social-media/linkedin-hunting-ground-threat-actors-how-protect-yourself/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
   },
   {
     "id": "20262757",
