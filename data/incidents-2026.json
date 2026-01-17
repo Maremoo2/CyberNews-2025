@@ -12,6 +12,152 @@
     "impact": 3
   },
   {
+    "id": "20262758",
+    "date": "2026-01-17",
+    "title": "Økonomer: Digital euro er nødvendig beskyttelse mot USA",
+    "summary": "Økonomisk suverenitet krever et digitalt betalingsmiddel i eurosonen, mener økonomer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/okonomer-digital-euro-er-nodvendig-beskyttelse-mot-usa/566964",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262759",
+    "date": "2026-01-17",
+    "title": "Eleven States Have Signed Up for MS-ISAC's New Paid Membership",
+    "summary": "Among the 11 states to sign up for statewide support so far are Texas, Kansas and Mississippi. Jay White, Mississippi's chief information security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/eleven-states-have-signed-up-for-ms-isacs-new-paid-membership",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262760",
+    "date": "2026-01-17",
+    "title": "North Carolina National Guard hosts cybersecurity competition at East Carolina University",
+    "summary": "The North Carolina National Guard held a cyber security competition for students at East Carolina University.The event started at one and is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://wcti12.com/news/local/north-carolina-national-guard-hosts-cybersecurity-competition-at-east-carolina-university",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262761",
+    "date": "2026-01-17",
+    "title": "Western cyber agencies issue guidance on cyber risks to industrial sectors",
+    "summary": "A group of international cybersecurity agencies has released new technical guidance addressing the security of operational technology (OT) used in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://dig.watch/updates/western-cyber-agencies-issue-guidance-on-cyber-risks-to-industrial-sectors",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262762",
+    "date": "2026-01-17",
+    "title": "Climbing Up the Cyber Power Rankings - Wittenberg University",
+    "summary": "... cybersecurity Security Operations Center (SOC) team leader. I would like to follow in my father's footsteps and become a cybersecurity auditor. I ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wittenberg.edu/news/01-16-26/climbing-cyber-power-rankings",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262763",
+    "date": "2026-01-17",
+    "title": "Third-Party Risk Management for a Crypto-Ready Financial Sector - FTI Consulting",
+    "summary": "Enterprise risks commonly rooted in formally contracted third-party relationships include: Information security and data leakage risk: Cyber attacks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fticonsulting.com/insights/articles/third-party-risk-management-crypto-ready-financial-sector",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262764",
+    "date": "2026-01-17",
+    "title": "Jarad Perry settling into new role at Mastercard after completing master's degree in cybersecurity",
+    "summary": "“I've learned a lot about technical stuff, but I very much focus on technology and security as a business problem. And I appreciate that it's actually ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.umsl.edu/news/2026/01/16/jarad-perry-cybersecurity-graduate/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262765",
+    "date": "2026-01-17",
+    "title": "New Microsoft e-book: 3 reasons point solutions are holding you back",
+    "summary": "While patchwork tools slow defenders down and impact visibility into potential cyberthreats, they’re an unfortunate reality for many organizations. As digital risk accelerates and attack surfaces multiply, security leaders are doing their best to stitch together point solutions while trying to av...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2025/12/18/new-microsoft-e-book-3-reasons-point-solutions-are-holding-you-back/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262766",
+    "date": "2026-01-17",
+    "title": "Agencies issue guidance on secure connectivity for operational technology | AHA News",
+    "summary": "“For hospitals, collaboration between OT owners, vendors and the cybersecurity team is critical and should begin at the OT acquisition phase,” said ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aha.org/news/headline/2026-01-16-agencies-issue-guidance-secure-connectivity-operational-technology",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262767",
+    "date": "2026-01-17",
+    "title": "Air Products sets cyber bar for ship systems - Digital Ship",
+    "summary": "Against that backdrop, Air Products Membrane Solutions has become the first company to secure cybersecurity certification for maritime membrane ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thedigitalship.com/news/maritime-satellite-communications/air-products-sets-cyber-bar-for-ship-systems/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262755",
     "date": "2026-01-17",
     "title": "AppGuard Critiques AI Hyped Defenses; Expands its Insider Release for its Next-Generation Platform",
