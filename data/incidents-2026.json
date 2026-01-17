@@ -12,6 +12,196 @@
     "impact": 3
   },
   {
+    "id": "20262728",
+    "date": "2026-01-16",
+    "title": "Grubhub Data Stolen in Confirmed Hack, Questions Remain",
+    "summary": "The specifics of the Grubhub hacking remain unclear.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102081-grubhub-data-stolen-in-confirmed-hack-questions-remain",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262729",
+    "date": "2026-01-16",
+    "title": "Supreme Court hacker posted stolen government data on Instagram",
+    "summary": "Nicholas Moore pleaded guilty to stealing victims’ information from the Supreme Court and other federal government agencies, and then posting it on his Instagram @ihackthegovernment.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/16/supreme-court-hacker-posted-stolen-government-data-on-instagram/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262730",
+    "date": "2026-01-16",
+    "title": "Sony, Anker, and other headphones have a serious Google Fast Pair security vulnerability",
+    "summary": "Sony’s WH-1000XM6 are among the wireless headphones affected by the Fast Pair vulnerability. Several Bluetooth audio devices from companies like Sony, Anker, and Nothing are susceptible to a new flaw that can allow attackers to listen in on conversations or track devices that use Google's Find Hu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/863338/google-fast-pair-whisperpair-security-vulnerability-bluetooth-headphones-speakers",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262731",
+    "date": "2026-01-16",
+    "title": "Why Retired IT Assets Are One of the Most Overlooked Cybersecurity Threats",
+    "summary": "In this post, you will learn why retired IT assets are one of the most overlooked cybersecurity threats. Typical cybersecurity that most organizations think of includes cloud security, firewalls, phishing attacks and ransomware. Most investment and attention go toward protecting systems that are ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/retired-it-assets-are-overlooked-cybersecurity-threats/",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262732",
+    "date": "2026-01-16",
+    "title": "Why Is the PC Not Detecting iPhone Through USB?",
+    "summary": "In this post, I will show you why is the PC not detecting iPhone through USB. Connecting your iPhone with your PC is not a difficult task at all, you just need to plug in the cable, and the phone will show up on your computer. But sometimes for many users, it does not happen, […] The post Why Is ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/why-is-the-pc-not-detecting-iphone-through-usb/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262733",
+    "date": "2026-01-16",
+    "title": "How To Secure Your USB Flash Drive",
+    "summary": "In this post, I will show you how to secure your USB flash drive. Securing your USB flash drive means preventing your important data from falling into the wrong hands. In this article, we will tell you how you can avoid a security breach by securing your USB flash drive with six simple tips. How ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-secure-your-usb-flash-drive/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262735",
+    "date": "2026-01-16",
+    "title": "Cisco finally patches seven-week-old zero-day flaw in Secure Email Gateway products",
+    "summary": "Better late than never. Cisco this week patched a ‘critical’ zero-day flaw in the company’s email security and management gateways that has hung over customers’ heads since December. Tracked as CVE-2025-20393, the vulnerability affects Cisco’s AsyncOS Software running on the physical or virtual S...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118159/cisco-finally-patches-seven-week-old-zero-day-flaw-in-secure-email-gateway-products-2.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262736",
+    "date": "2026-01-16",
+    "title": "Enterprise Spotlight: Setting the 2026 IT agenda",
+    "summary": "IT leaders are setting their operations strategies for 2026 with an eye toward agility, flexibility, and tangible business results. Download the January 2026 issue of the Enterprise Spotlight from the editors of CIO, Computerworld, CSO, InfoWorld, and Network World and learn about the trends and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://us.resources.csoonline.com/resources/download-the-2026-it-agenda-spotlight-report/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262737",
+    "date": "2026-01-16",
+    "title": "More Problems for Fortinet: Critical FortiSIEM Flaw Exploited",
+    "summary": "CVE-2025-64155, a command injection vulnerability, was disclosed earlier this week and quickly came under attack from a variety of IP addresses.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/fortinet-critical-fortisiem-flaw-exploited",
+    "tags": [
+      "vulnerability",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262738",
+    "date": "2026-01-16",
+    "title": "ChatGPT Go subscription rolls out worldwide at $8, but it'll show you ads",
+    "summary": "OpenAI's $8 ChatGPT Go subscription, which gives you 10x more messages, is now available in the United States and other regions. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-subscription-rolls-out-worldwide-at-8-but-itll-show-you-ads/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262739",
+    "date": "2026-01-16",
+    "title": "OpenAI says its new ChatGPT ads won't influence answers",
+    "summary": "OpenAI has confirmed ChatGPT is getting ads in the coming weeks, but it promises that ads won't influence answers generated by ChatGPT. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-chatgpt-ads-wont-influence-answers/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262740",
+    "date": "2026-01-16",
+    "title": "StealC hackers hacked as researchers hijack malware control panels",
+    "summary": "A cross-site scripting (XSS) flaw in the web-based control panel used by operators of the StealC info-stealing malware allowed researchers to observe active sessions and gather intelligence on the attackers' hardware. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262741",
+    "date": "2026-01-16",
+    "title": "Black Basta boss makes it onto Interpol's 'Red Notice' list",
+    "summary": "The identity of the Black Basta ransomware gang leader has been confirmed by law enforcement in Ukraine and Germany, and the individual has been added to the wanted list of Europol and Interpol. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/black-basta-boss-makes-it-onto-interpols-red-notice-list/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262690",
     "date": "2026-01-16",
     "title": "The Architecture of Agentic Defense: Inside the Falcon Platform",
@@ -4690,6 +4880,18 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262734",
+    "date": "2026-01-14",
+    "title": "Why a Trusted Outsourcing Company in the Philippines Strengthens Business Growth?",
+    "summary": "In this post, I will answer the question: why does a trusted outsourcing company in the Philippines strengthen business growth? Businesses across the world search for practical ways to manage costs while improving performance. Partnering with an Outsourcing Company in the Philippines allows organ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/trusted-outsourcing-company-in-the-philippines/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "20262678",
