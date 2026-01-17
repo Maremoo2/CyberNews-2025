@@ -12,6 +12,194 @@
     "impact": 3
   },
   {
+    "id": "20262773",
+    "date": "2026-01-17",
+    "title": "Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System",
+    "summary": "Nicholas Moore pleaded guilty to repeatedly hacking the U.S. Supreme Court’s filing system and illegally accessing computer systems belonging to AmeriCorps and the Department of Veterans Affairs. The post Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System appeared fir...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/tennessee-man-pleads-guilty-to-repeatedly-hacking-supreme-courts-filing-system/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262774",
+    "date": "2026-01-17",
+    "title": "China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusions",
+    "summary": "A threat actor likely aligned with China has been observed targeting critical infrastructure sectors in North America since at least last year. Cisco Talos, which is tracking the activity under the name UAT-8837, assessed it to be a China-nexus advanced persistent threat (APT) actor with medium c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262775",
+    "date": "2026-01-17",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "The vulnerabilities in Mitsubishi Electric Air Conditioning Systems could potentially allow unauthorized access or control over the systems, leading to disruptions in operations and potential safety hazards. CISA, National Security Agency, and Canadian Centre for Cyber Security have released an u...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=CISA",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262776",
+    "date": "2026-01-17",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1768642529.18fce876",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-02?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262777",
+    "date": "2026-01-17",
+    "title": "Wireshark 4.6.3 Released, (Sat, Jan 17th)",
+    "summary": "Wireshark release 4.6.3 fixes 4 vulnerabilities and 9 bugs. Didier Stevens Senior handler blog.DidierStevens.com (c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32636",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262778",
+    "date": "2026-01-17",
+    "title": "OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans",
+    "summary": "OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access to its low-cost subscription globally. \"You need to know that your data and conversation...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262779",
+    "date": "2026-01-17",
+    "title": "Bankrupt scooter startup's single key controlled everything",
+    "summary": "An Estonian e-scooter owner locked out of his own ride after the manufacturer went bust did what any determined engineer might do. He reverse-engineered it, and claims he ended up discovering the master key that unlocks every scooter the company ever sold. The company in question, Äike, which fil...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/16/bankrupt_scooter_startup_key/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262780",
+    "date": "2026-01-17",
+    "title": "Eksperter: Slik finner du veien fra fri flyt til strenge skjermtider",
+    "summary": "– Det blir gråt og frustrasjon, lover eksperten. De nasjonale skjermrådene med skjermtider for barna ble sendt til alle barnefamilier forrige uke.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/eksperter-slik-finner-du-veien-fra-fri-flyt-til-strenge-skjermtider/567093",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262781",
+    "date": "2026-01-17",
+    "title": "RondoDox botnet exploits critical HPE OneView bug",
+    "summary": "A critical HPE OneView flaw is now being exploited at scale, with Check Point tying mass, automated attacks to the RondoDox botnet. The security outfit says it has identified \"large-scale exploitation\" of CVE-2025-37164, a maximum-severity remote code execution bug in HPE's data center management...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/16/rondodox_botnet_hpe_oneview/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262782",
+    "date": "2026-01-17",
+    "title": "TamperedChef serves bad ads, with infostealers as the main course",
+    "summary": "Threat ResearchTamperedChefEvilAIinfostealerSophos X-OpsIn September 2025, Sophos Managed Detection and Response (MDR) teams identified a malvertising campaign distributing an infostealer dubbed TamperedChef – believed to be part of a wider campaign known as EvilAI. Previous coverage of this camp...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/tamperedchef-serves-bad-ads-with-infostealers-as-the-main-course?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262783",
+    "date": "2026-01-17",
+    "title": "US Cybersecurity Market worth $98.11 billion by 2030 - MarketsandMarkets",
+    "summary": "Federal cybersecurity initiatives that promote secure cloud adoption and software supply chain protection are further supporting this trend. At the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketsandmarkets.com/PressReleases/us-cybersecurity-market.asp",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262784",
+    "date": "2026-01-17",
+    "title": "AI Agents Drive First Large-Scale Autonomous Cyberattack | Cyber Magazine",
+    "summary": "Cyber Security · Network Security · Application Security · OT Security · Cloud ... AIcybercyber attackAnthropictech. Company Portals. Anthropic · Read ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/ai-agents-drive-first-large-scale-autonomous-cyberattack",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262785",
+    "date": "2026-01-17",
+    "title": "Law Firm Sent Out Fake Christmas Vouchers. Staff Want To Ram Coal Up Leadership's Chimneys.",
+    "summary": "Or at least follow the advice of their own national cybersecurity experts. The National Cyber Security Centre explicitly warns companies not to run ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://abovethelaw.com/2026/01/law-firm-sent-out-fake-christmas-vouchers-staff-want-to-ram-coal-up-leaderships-chimneys/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262768",
     "date": "2026-01-17",
     "title": "ExpressVPN lance une offre Teams et confirme le virage B2B des VPN grand public",
