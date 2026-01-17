@@ -12,6 +12,53 @@
     "impact": 3
   },
   {
+    "id": "20262755",
+    "date": "2026-01-17",
+    "title": "AppGuard Critiques AI Hyped Defenses; Expands its Insider Release for its Next-Generation Platform",
+    "summary": "A new Top 10 Cybersecurity Innovators profile by AppGuard has been released, spotlighting growing concerns over AI-enhanced malware. AI makes malware even more difficult to detect. Worse, they use AI to assess, adapt, and move faster than any cyber stack can keep up. The report advocates for a fu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118270/appguard-critiques-ai-hyped-defenses-expands-its-insider-release-for-its-next-generation-platform.html",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262756",
+    "date": "2026-01-17",
+    "title": "China Linked Hackers Exploit Sitecore Zero-Day to Breach Critical Infrastructure",
+    "summary": "A China-linked advanced threat actor, tracked as UAT-8837, has been conducting sustained cyber intrusions against critical infrastructure entities in North America. The group recently used a high-severity zero-day vulnerability in Sitecore to gain initial access into target environments, then bro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/china-linked-hackers-exploit-sitecore-zero-day-to-breach-critical-infrastructure",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262757",
+    "date": "2026-01-16",
+    "title": "Your 100 Billion Parameter Behemoth is a Liability",
+    "summary": "The \"bigger is better\" era of AI is hitting a wall. We are in an LLM bubble, characterized by ruinous inference costs and diminishing returns. The future belongs to Agentic AI powered by specialized Small Language Models (SLMs). Think of it as a shift from hiring a single expensive genius to runn...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/your-100-billion-parameter-behemoth-is-a-liability.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262742",
     "date": "2026-01-16",
     "title": "Jordanian national pleads guilty after unknowingly selling FBI agent access to 50 company networks",
@@ -2253,6 +2300,18 @@
       "amazon",
       "Data/IT"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20262754",
+    "date": "2026-01-15",
+    "title": "Leonaarei Understanding Digital Identity in Today’s Content Landscape",
+    "summary": "Leonaarei has come to the forefront as a key factor in the digital identity discussion during a time when online presence equates to success in both personal and professional aspects. In case you are a content producer, digital marketer, or just a person trying to cope with the complex online wor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/leonaarei-understanding-digital-identity-in-todays-content-landscape/",
+    "tags": [],
     "impact": 3
   },
   {
