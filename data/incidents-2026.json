@@ -12,6 +12,80 @@
     "impact": 3
   },
   {
+    "id": "20262827",
+    "date": "2026-01-18",
+    "title": "Panicos Georgiou: \"Your cybersecurity is only as strong as the least secure supplier in your ...",
+    "summary": "The CEO of eSafe Cyber Security discusses the common mistakes companies make, leaving them vulnerable to cyber attacks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cbn.com.cy/article/124979/panicos-georgiou-your-cybersecurity-is-only-as-strong-as-the-least-secure-supplier-in-your-ecosystem",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262828",
+    "date": "2026-01-18",
+    "title": "ICYMI: Homeland Republicans Underscore the Importance of Strong Public-Private Sector ...",
+    "summary": "... Cybersecurity and Infrastructure Security Agency (CISA) can succeed in its core mission: “I recommend the following: First, public and private ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/17/icymi-homeland-republicans-underscore-the-importance-of-strong-public-private-sector-partnerships-to-deter-cyber-threats/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262829",
+    "date": "2026-01-18",
+    "title": "After the Kyowon Breach, Korea's Mid-Tier Corporates Face a New Reality",
+    "summary": "Korea's mid-tier companies tighten cybersecurity after the Kyowon breach ... Information Security Officer (CISO) and Chief Privacy Officer (CPO).",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://koreatechdesk.com/after-kyowon-korea-corporate-cybersecurity-governance-shift",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262830",
+    "date": "2026-01-18",
+    "title": "Resecurity Dominates at ITCN Asia 2026 as the Leading Cybersecurity Innovation Partner",
+    "summary": "“As cyber threats continue to grow in scale and sophistication, intelligence-driven security becomes essential. We look forward to showcasing how ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.businesswire.com/news/home/20260117420588/en/Resecurity-Dominates-at-ITCN-Asia-2026-as-the-Leading-Cybersecurity-Innovation-Partner",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262831",
+    "date": "2026-01-18",
+    "title": "China-linked APT UAT-8837 targets North American critical infrastructure - Security Affairs",
+    "summary": "EarthWorm – Lightweight SOCKS‑based tunneling tool widely seen in China‑nexus operations; it builds reverse tunnels from compromised hosts to attacker ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/186999/breaking-news/china-linked-apt-uat-8837-targets-north-american-critical-infrastructure.html",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262824",
     "date": "2026-01-18",
     "title": "Google Chrome now lets you turn off on-device AI model powering scam detection",
