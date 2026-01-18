@@ -12,6 +12,64 @@
     "impact": 3
   },
   {
+    "id": "20262839",
+    "date": "2026-01-18",
+    "title": "[Ekstra] Går motsatt vei: Et av verdens største transportkonsern omfavner amerikansk «big tech» ",
+    "summary": "– Noen ganger er det en fordel og bedre enn det vi har utviklet selv, sier IT-direktøren.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/europa-vil-ga-fra-big-tech-til-apen-kildekode-transportgigant-gar-motsatt-vei/566976",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262840",
+    "date": "2026-01-18",
+    "title": "\"How many states are there in the United States?\", (Sun, Jan 18th)",
+    "summary": "I've seen many API requests for different LLMs in the honeypot logs. Like this one: The prompt is always the same: \"How many states are there in the United States?\". This is recon to find open LLMs. Not necessarily to exploit them, but to use them. Coincidentally, something similar has been repor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32618",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262841",
+    "date": "2026-01-18",
+    "title": "Cyber attacks up by 25% last year - STA",
+    "summary": "The cyber security and resilience centre at Telekom Slovenije said that the number of cyber attacks in Slovenia increased by more than 25% last ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://english.sta.si/3508965/cyber-attacks-up-by-25-last-year",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262842",
+    "date": "2026-01-18",
+    "title": "Ransomware: what it is and why it's your problem",
+    "summary": "Bring in external cybersecurity experts or managed security ... Strengthening Cyber Security. Want to write? Write an article and join a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://theconversation.com/ransomware-what-it-is-and-why-its-your-problem-269430",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262832",
     "date": "2026-01-18",
     "title": "Bitwarden, pour \"un monde où personne ne se fait pirater\" - Interview Michael Crandell",
