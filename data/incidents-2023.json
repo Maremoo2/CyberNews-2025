@@ -350,6 +350,32 @@
     "impact": 3
   },
   {
+    "id": "2023052",
+    "date": "2023-12-23",
+    "title": "The Role of Virtual Private Networks (VPNs) in Safeguarding Online Privacy",
+    "summary": "Virtual Private Networks, or VPNs, are a type of internet security service that encrypts your data and hides your online activity. They create a secure, encrypted tunnel between your device and the server you are connecting to. This makes it more difficult for hackers, ISPs, or anyone else to see...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/the-role-of-virtual-private-networks-vpns-in-safeguarding-online-privacy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023053",
+    "date": "2023-12-23",
+    "title": "Privacy Settings of Social Media Accounts",
+    "summary": "Privacy settings of social media accounts are crucial tools that allow users to control who sees their content and personal information. With the increasing concern over data privacy, understanding how to manage these settings is more important than ever. This blog post aims to provide an in-dept...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/privacy-settings-of-social-media-accounts/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023048",
     "date": "2023-12-23",
     "title": "The Role of Virtual Private Networks (VPNs) in Safeguarding Online Privacy",
@@ -761,6 +787,33 @@
     "sourceName": "Personal Privacy Online Blog",
     "sourceUrl": "https://personalprivacyonline.com/privacy-settings-of-social-media-accounts/",
     "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023054",
+    "date": "2023-12-21",
+    "title": "Digital Privacy Features: Guide to Private Browsing and Incognito Mode",
+    "summary": "Digital Privacy Features like private browsing and incognito mode are now integral parts of our online experience. They provide a layer of protection that helps keep our internet activities under wraps. But what exactly are these features, and how can they help protect your privacy? This blog pos...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/digital-privacy-features-guide-to-private-browsing-and-incognito-mode/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023055",
+    "date": "2023-12-21",
+    "title": "Strong Passwords: Safeguarding Your Online Privacy",
+    "summary": "Strong passwords are the first line of defense in securing your online presence. They act as a barrier, preventing unauthorized access to your personal information, banking details, and other sensitive data. In this digital age, where cyber threats are increasingly common, it’s more important tha...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/strong-passwords-safeguarding-your-online-privacy/",
+    "tags": [
+      "finance",
       "ai-ml"
     ],
     "impact": 3
@@ -1223,6 +1276,21 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "2023062",
+    "date": "2023-12-20",
+    "title": "Technical Data Sheet: LOCKBIT 3.0",
+    "summary": "LOCKBIT 3.0 is a notorious Ransomware Group that was first identified on 09 Dec, 2022. Operating with various aliases and suspected to be involved in a range of cyber activities, this group poses a significant threat in the cybersecurity landscape. Further monitoring tasks and for having more ana...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/technical-data-sheet-lockbit-3-0/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 4
   },
   {
     "id": "2023052",
@@ -1793,6 +1861,36 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2023056",
+    "date": "2023-12-19",
+    "title": "Google’s Security Measures: Online Data Protection and Privacy",
+    "summary": "Google’s Security Measures are designed to protect the privacy and security of users’ data. These measures encompass a wide range of strategies, from encryption to two-factor authentication, that help keep your personal information safe while online. This blog post will delve into the specifics o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/googles-security-measures-online-data-protection-and-privacy/",
+    "tags": [
+      "malware",
+      "encryption",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023081",
+    "date": "2023-12-19",
+    "title": "Analysis of Rhadamanthys Malware",
+    "summary": "In the final quarter of 2022, the infostealer malware, Rhadamanthys, was found. Given that it could target browser extensions and wallet clients installed on the victim’s computer, its capabilities demonstrated a particular interest in cryptocurrency wallets. The primary means of distribution for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Virtualattacks",
+    "sourceUrl": "https://virtualattacks.com/analysis-of-rhadamanthys-malware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
   },
   {
     "id": "2023071",
@@ -2375,6 +2473,20 @@
     "impact": 3
   },
   {
+    "id": "2023057",
+    "date": "2023-12-18",
+    "title": "Online Privacy and Security: Consumer Guide",
+    "summary": "Online Privacy and Security are the two most crucial pillars of a safe digital experience. It refers to the measures and practices we should adopt to protect our personal information and digital assets from unauthorized access and breaches, which are rampant in this age of interconnectivity. The ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/online-privacy-and-security-consumer-guide/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023053",
     "date": "2023-12-18",
     "title": "Online Privacy and Security: Consumer Guide",
@@ -2595,6 +2707,20 @@
     "sourceUrl": "https://personalprivacyonline.com/online-privacy-and-security-consumer-guide/",
     "tags": [
       "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023058",
+    "date": "2023-12-17",
+    "title": "Online Privacy: 10 Consequences You Can’t Ignore If You Disregard It",
+    "summary": "Online Privacy is an issue that’s grown increasingly relevant in our digital age. Simply put, it refers to the level of personal privacy you can maintain while using the internet. This includes aspects such as the data you share online, the data collected about you, and the measures you take to p...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/online-privacy-10-consequences-you-cant-ignore/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -2849,6 +2975,18 @@
     "impact": 4
   },
   {
+    "id": "2023059",
+    "date": "2023-12-16",
+    "title": "Online Cookies: The Unseen Impact on Your Online Privacy",
+    "summary": "Online cookies, those small pieces of data stored on your computer by websites you visit, have a significant impact on your online privacy. But what exactly are they? And how do they affect your online experience? What are Web Cookies? Cookies are tiny text files that websites place on your compu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/online-cookies-the-unseen-impact-on-your-online-privacy/",
+    "tags": [],
+    "impact": 4
+  },
+  {
     "id": "2023055",
     "date": "2023-12-16",
     "title": "Online Cookies: The Unseen Impact on Your Online Privacy",
@@ -3039,6 +3177,33 @@
     "sourceUrl": "https://personalprivacyonline.com/online-cookies-the-unseen-impact-on-your-online-privacy/",
     "tags": [],
     "impact": 4
+  },
+  {
+    "id": "2023060",
+    "date": "2023-12-15",
+    "title": "Browser Security Settings and Their Impact on Personal Privacy",
+    "summary": "Browser Security Settings are the first line of defense in protecting your personal privacy when surfing the internet. They determine how your browser behaves, what data it stores, and how it interacts with websites. By understanding and properly adjusting these settings, you can greatly enhance ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/browser-security-settings-and-their-impact-on-personal-privacy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023063",
+    "date": "2023-12-15",
+    "title": "Technical Data Sheet: NoName057(16)",
+    "summary": "NoName057(16) is a notorious hacktivist group with a primary focus on targeting 8-10 victims daily. Operating on a global scale, this group engages in cyber activities to promote its ideological agenda. Further monitoring tasks and for having more analyses on the cyber threat panorama, consider t...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/technical-data-sheet-noname05716/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "2023053",
@@ -3543,6 +3708,20 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "2023061",
+    "date": "2023-12-14",
+    "title": "Public Wi-Fi Dangers: Risks to Personal Privacy",
+    "summary": "Public Wi-Fi dangers are not always evident, but they are real and can pose significant risks to your personal information. The convenience of accessing the internet in public spaces such as cafes, airports, and libraries often overshadows the potential security threats that these networks might ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Personal Privacy Online Blog",
+    "sourceUrl": "https://personalprivacyonline.com/public-wi-fi-dangers-risks-to-personal-privacy/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
   },
   {
     "id": "2023061",
@@ -4383,18 +4562,16 @@
     "impact": 3
   },
   {
-    "id": "2023011",
-    "date": "2023-12-11",
-    "title": "Boosting faith in the authenticity of open source software",
-    "summary": "Open source software — software that is freely distributed, along with its source code, so that copies, additions, or modifications can be readily made — is “everywhere,” to quote the 2023 Open Source Security and Risk Analysis Report. Ninety-six percent of the computer programs used by major ind...",
+    "id": "2023001",
+    "date": "2023-12-12",
+    "title": "The Big One",
+    "summary": "Preparing for a long war with China.",
     "region": "US",
     "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2023/speranza-boosting-faith-authenticity-open-source-software-1211",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 4
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/united-states-big-one-krepinevich",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2023011",
@@ -4703,6 +4880,58 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2023011",
+    "date": "2023-12-11",
+    "title": "Boosting faith in the authenticity of open source software",
+    "summary": "Open source software — software that is freely distributed, along with its source code, so that copies, additions, or modifications can be readily made — is “everywhere,” to quote the 2023 Open Source Security and Risk Analysis Report. Ninety-six percent of the computer programs used by major ind...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/speranza-boosting-faith-authenticity-open-source-software-1211",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023011",
+    "date": "2023-12-11",
+    "title": "Boosting faith in the authenticity of open source software",
+    "summary": "Open source software — software that is freely distributed, along with its source code, so that copies, additions, or modifications can be readily made — is “everywhere,” to quote the 2023 Open Source Security and Risk Analysis Report. Ninety-six percent of the computer programs used by major ind...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/speranza-boosting-faith-authenticity-open-source-software-1211",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023012",
+    "date": "2023-12-08",
+    "title": "Miranda McClellan ’18, MEng ’19 awarded 2025 Schwarzman Scholarship",
+    "summary": "MIT alumna Miranda McClellan ’18, MEng ’19 has been named a 2025 Schwarzman Scholar. In August 2024, she will join the program’s 150 scholars arriving from 43 countries and 114 universities from around the world. The Class of 2025 Scholars were selected from a pool of over 4,000 applicants. They ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/miranda-mcclellan-awarded-schwarzman-scholarship-1208",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023082",
+    "date": "2023-12-08",
+    "title": "What is the Dark web?",
+    "summary": "A portion of the internet known as the “dark web” cannot be found by search engines and must be accessed through the use of the anonymizing browser Tor. A portion of the internet known as the “dark web” is not indexed by search engines. You’ve likely heard of the “dark web” being a hub for illega...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Virtualattacks",
+    "sourceUrl": "https://virtualattacks.com/what-is-the-dark-web/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2023012",
@@ -5229,6 +5458,47 @@
     "country": "United States",
     "sourceName": "MIT Cyber Security",
     "sourceUrl": "https://news.mit.edu/2023/miranda-mcclellan-awarded-schwarzman-scholarship-1208",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023013",
+    "date": "2023-12-06",
+    "title": "Eric Evans to step down as director of MIT Lincoln Laboratory",
+    "summary": "Eric Evans will be stepping down as director of MIT Lincoln Laboratory on July 1, 2024, after 18 years leading a laboratory that has served the nation through its technology research and development since 1951. Evans will transition into the role of fellow in the director’s office at Lincoln Labo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/eric-evans-steps-down-director-lincoln-laboratory-1206",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023023",
+    "date": "2023-12-06",
+    "title": "Thank You for a Remarkable Cyber Security & Cloud Expo Global!",
+    "summary": "The remarkable Cyber Security & Cloud Expo Global has concluded its highly anticipated two-day event at Olympia London on November 30 – December 1, leaving an indelible mark on the landscape of cybersecurity and cloud technology. We extend our sincerest gratitude to the sponsors, exhibitors, spea...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/12/news/thank-you-for-a-remarkable-cyber-security-cloud-expo-global/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023092",
+    "date": "2023-12-06",
+    "title": "Cyberbullying: Empowering Families to Safeguard Their Kids",
+    "summary": "Cyberbullying: Empowering Families to Safeguard Their Kids",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/cyberbullying-empowering-families-to-safeguard-their-kids",
     "tags": [],
     "impact": 3
   },
@@ -6134,76 +6404,6 @@
     "impact": 3
   },
   {
-    "id": "2023054",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023064",
     "date": "2023-11-20",
     "title": "The Rising of Protestware During Times of War",
@@ -6219,62 +6419,6 @@
   },
   {
     "id": "2023054",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023054",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
-    "date": "2023-11-20",
-    "title": "The Rising of Protestware During Times of War",
-    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023064",
     "date": "2023-11-20",
     "title": "The Rising of Protestware During Times of War",
     "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
@@ -6372,6 +6516,34 @@
     "impact": 3
   },
   {
+    "id": "2023054",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023064",
     "date": "2023-11-20",
     "title": "The Rising of Protestware During Times of War",
@@ -6411,6 +6583,130 @@
     "tags": [
       "malware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023054",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023064",
+    "date": "2023-11-20",
+    "title": "The Rising of Protestware During Times of War",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter \"protestware\" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023093",
+    "date": "2023-11-12",
+    "title": "Elder Fraud Victims Lose Millions Each Year",
+    "summary": "Elder Fraud Victims Lose Millions Each Year - How to Protect Yourself and Your Loved Ones",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/elder-fraud-victims-lose-millions-each-year",
+    "tags": [],
     "impact": 3
   },
   {
@@ -6675,6 +6971,20 @@
     "sourceName": "Internet Safety Brigade Blog",
     "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/elder-fraud-victims-lose-millions-each-year",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023002",
+    "date": "2023-11-03",
+    "title": "How to Exploit Russia’s Addiction to Western Technology",
+    "summary": "The private sector must do more to help.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/how-exploit-russias-addiction-western-technology",
+    "tags": [
+      "vulnerability"
+    ],
     "impact": 3
   },
   {
@@ -7633,18 +7943,19 @@
     "impact": 5
   },
   {
-    "id": "2023003",
-    "date": "2023-10-24",
-    "title": "AI Is Already at War",
-    "summary": "Artificial intelligence will transform the military.",
+    "id": "2023014",
+    "date": "2023-10-30",
+    "title": "Accelerating AI tasks while preserving data security",
+    "summary": "With the proliferation of computationally intensive machine-learning applications, such as chatbots that perform real-time language translation, device manufacturers often incorporate specialized hardware components to rapidly move and process the massive amounts of data these systems demand. Cho...",
     "region": "US",
     "country": "United States",
-    "sourceName": "Foreign Affairs Cybersecurity",
-    "sourceUrl": "https://www.foreignaffairs.com/united-states/ai-already-war-flournoy",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/accelerating-ai-tasks-while-preserving-data-security-1030",
     "tags": [
+      "malware",
       "ai-ml"
     ],
-    "impact": 3
+    "impact": 5
   },
   {
     "id": "2023003",
@@ -7949,6 +8260,48 @@
     "country": "United States",
     "sourceName": "Foreign Affairs Cybersecurity",
     "sourceUrl": "https://www.foreignaffairs.com/united-states/ai-already-war-flournoy",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023003",
+    "date": "2023-10-24",
+    "title": "AI Is Already at War",
+    "summary": "Artificial intelligence will transform the military.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/ai-already-war-flournoy",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023003",
+    "date": "2023-10-24",
+    "title": "AI Is Already at War",
+    "summary": "Artificial intelligence will transform the military.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/ai-already-war-flournoy",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023065",
+    "date": "2023-10-16",
+    "title": "Amazing Books Podcast",
+    "summary": "Hi folks,today I'm proud to share another episode of the \"Amazing Books Podcast\" where my AI Conductors talk about one of my favorite and just discovered (thanks to Federico) books: Inspired by Marty Cagan. If you want to listen to more episodes check them out here: The Amazing Book Podcast Book ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/amazing-books-podcast/",
     "tags": [
       "ai-ml"
     ],
@@ -8745,82 +9098,16 @@
     "impact": 3
   },
   {
-    "id": "2023056",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "id": "2023024",
+    "date": "2023-10-09",
+    "title": "Cyber Security & Cloud Expo Global Returns To London – What To Expect",
+    "summary": "Cyber Security & Cloud Expo Global, one of the most highly anticipated events in the tech and cyber community, is back, and it promises to be bigger and more transformative than ever. Scheduled to take place from November 30th to December 1st, 2023, at the renowned Olympia London, this event is s...",
     "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/10/global/cyber-security-cloud-expo-global-returns-to-london-what-to-expect/",
     "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
+      "cloud"
     ],
     "impact": 3
   },
@@ -8842,70 +9129,6 @@
   },
   {
     "id": "2023056",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023056",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
-    "date": "2023-09-29",
-    "title": "Understanding and Defending Against Microsoft 365 Attacks",
-    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
-    "tags": [
-      "cloud",
-      "ai-ml",
-      "microsoft"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023066",
     "date": "2023-09-29",
     "title": "Understanding and Defending Against Microsoft 365 Attacks",
     "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
@@ -9017,6 +9240,38 @@
     "impact": 3
   },
   {
+    "id": "2023056",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023066",
     "date": "2023-09-29",
     "title": "Understanding and Defending Against Microsoft 365 Attacks",
@@ -9061,6 +9316,149 @@
       "cloud",
       "ai-ml",
       "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023056",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023066",
+    "date": "2023-09-29",
+    "title": "Understanding and Defending Against Microsoft 365 Attacks",
+    "summary": "As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023067",
+    "date": "2023-09-23",
+    "title": "Malware Persistence Locations: Windows and Linux",
+    "summary": "Malware persistence is a crucial aspect of cyber threats that often goes unnoticed by unsuspecting users. In the realm of cybersecurity, it refers to the ability of malicious software to establish a foothold on a targeted system, allowing it to maintain its presence over an extended period. This ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/malware-persistence-locations-windows-and-linux/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -9362,6 +9760,33 @@
       "malware",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2023015",
+    "date": "2023-09-19",
+    "title": "Four Lincoln Laboratory technologies win five 2023 R&D 100 awards",
+    "summary": "Ultrasound that doesn’t require touching patients. A web-based tool that reinvents crew scheduling for the Air Force. Cryptographic hardware that protects sensitive data. And the world’s first practical memory for quantum networking. These four technologies developed at MIT Lincoln Laboratory, ei...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/lincoln-laboratory-technologies-win-rd-world-awards-0919",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023094",
+    "date": "2023-09-19",
+    "title": "Recognizing Online Risks",
+    "summary": "Recognizing Online Risks",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/recognizing-online-risks",
+    "tags": [],
     "impact": 3
   },
   {
@@ -9974,81 +10399,6 @@
     "impact": 3
   },
   {
-    "id": "2023058",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023068",
     "date": "2023-09-14",
     "title": "Leading the uncertainty: the decision-driven approach",
@@ -10065,66 +10415,6 @@
   },
   {
     "id": "2023058",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023058",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
-    "date": "2023-09-14",
-    "title": "Leading the uncertainty: the decision-driven approach",
-    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023068",
     "date": "2023-09-14",
     "title": "Leading the uncertainty: the decision-driven approach",
     "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
@@ -10229,6 +10519,51 @@
     "impact": 3
   },
   {
+    "id": "2023058",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023068",
     "date": "2023-09-14",
     "title": "Leading the uncertainty: the decision-driven approach",
@@ -10274,15 +10609,108 @@
     "impact": 3
   },
   {
-    "id": "2023004",
-    "date": "2023-09-07",
-    "title": "America’s Digital Achilles’ Heel",
-    "summary": "The United States’ reliance on sensitive technology leaves it vulnerable to attacks.",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "Foreign Affairs Cybersecurity",
-    "sourceUrl": "https://www.foreignaffairs.com/united-states/americas-digital-achilles-heel-technology",
-    "tags": [],
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023058",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023068",
+    "date": "2023-09-14",
+    "title": "Leading the uncertainty: the decision-driven approach",
+    "summary": "Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on \"security stuff\", malware analyses, cyber attack attributions, new tools and a personal (public here) cybersecurity observatory contributed a lot to push me into this specific direction. However during the pas...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -10546,6 +10974,42 @@
     "country": "United States",
     "sourceName": "Foreign Affairs Cybersecurity",
     "sourceUrl": "https://www.foreignaffairs.com/united-states/americas-digital-achilles-heel-technology",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023004",
+    "date": "2023-09-07",
+    "title": "America’s Digital Achilles’ Heel",
+    "summary": "The United States’ reliance on sensitive technology leaves it vulnerable to attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/americas-digital-achilles-heel-technology",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023004",
+    "date": "2023-09-07",
+    "title": "America’s Digital Achilles’ Heel",
+    "summary": "The United States’ reliance on sensitive technology leaves it vulnerable to attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/americas-digital-achilles-heel-technology",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023095",
+    "date": "2023-08-31",
+    "title": "Gaming Security for Kids",
+    "summary": "Gaming Security for Kids: Navigating the Disciplines of Fun and Safety",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/gaming-security-for-kids",
     "tags": [],
     "impact": 3
   },
@@ -10811,6 +11275,20 @@
     "sourceName": "Internet Safety Brigade Blog",
     "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/gaming-security-for-kids",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023096",
+    "date": "2023-08-17",
+    "title": "How to Safeguard Your Kids Against Online Predators",
+    "summary": "How to Safeguard Your Kids Against Online Predators: A Common Sense Guide for Parents - Skip Myers",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/how-to-safeguard-your-kids-against-online-predators-a-common-sen",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -11398,6 +11876,32 @@
     "impact": 3
   },
   {
+    "id": "2023016",
+    "date": "2023-08-15",
+    "title": "Invisible tagging system enhances 3D object tracking",
+    "summary": "Stop me if you’ve seen this before: a black and white pixelated square in lieu of a physical menu at a restaurant. QR codes are seemingly ubiquitous in everyday life. Whether you see one on a coupon at the grocery store, a flyer on a bulletin board, or the wall at a museum exhibit, each code cont...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/enhancing-3d-object-tracking-invisible-tagging-system-0815",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023005",
+    "date": "2023-08-14",
+    "title": "How to Prevent an AI Catastrophe",
+    "summary": "Society must get ready for very powerful artificial intelligence.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/world/how-prevent-ai-catastrophe-artificial-intelligence",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023005",
     "date": "2023-08-14",
     "title": "How to Prevent an AI Catastrophe",
@@ -12035,16 +12539,16 @@
     "impact": 3
   },
   {
-    "id": "2023006",
-    "date": "2023-07-17",
-    "title": "The Treacherous Silicon Triangle",
-    "summary": "How to strengthen the semiconductor supply chain without endangering Taiwan.",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "Foreign Affairs Cybersecurity",
-    "sourceUrl": "https://www.foreignaffairs.com/united-states/semiconductor-supply-taiwan-treacherous-silicon-triangle",
+    "id": "2023025",
+    "date": "2023-08-03",
+    "title": "Cyber Security & Cloud Expo Europe 2023 – Less Than Two Months To Go",
+    "summary": "Save the date and get ready for one of the most anticipated events in the tech and cyber community – Cyber Security & Cloud Expo Europe! This year’s expo will take place on 26-27 September at the renowned RAI Amsterdam, bringing together over 6,000 attendees from around the globe to explore the l...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/08/news/cyber-security-cloud-expo-europe-2023-less-than-two-months-to-go/",
     "tags": [
-      "supply-chain",
+      "cloud",
       "ai-ml"
     ],
     "impact": 3
@@ -12376,6 +12880,202 @@
     "tags": [
       "supply-chain",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023006",
+    "date": "2023-07-17",
+    "title": "The Treacherous Silicon Triangle",
+    "summary": "How to strengthen the semiconductor supply chain without endangering Taiwan.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/semiconductor-supply-taiwan-treacherous-silicon-triangle",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023006",
+    "date": "2023-07-17",
+    "title": "The Treacherous Silicon Triangle",
+    "summary": "How to strengthen the semiconductor supply chain without endangering Taiwan.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/semiconductor-supply-taiwan-treacherous-silicon-triangle",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023017",
+    "date": "2023-07-14",
+    "title": "A new way to look at data privacy",
+    "summary": "Imagine that a team of scientists has developed a machine-learning model that can predict whether a patient has cancer from lung scan images. They want to share this model with hospitals around the world so clinicians can start using it in diagnosis. But there’s a problem. To teach their model ho...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/new-way-look-data-privacy-0714",
+    "tags": [
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023070",
+    "date": "2023-07-14",
+    "title": "OpenAI may use Associated Press archive for AI training",
+    "summary": "OpenAI and Associated Press Partner Up to Utilize Generative AI OpenAI has been granted access to the expansive archives of the Associated Press, according to Axios. This provides the tech company with a wealth of information, as the American news organization has been around since the mid-19th c...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/openai-may-use-associated-press-archive-for-ai-training/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023071",
+    "date": "2023-07-14",
+    "title": "EU users can hold conversations with Google Bard from training set",
+    "summary": "Google’s Chatbot Bard Now Available in Europe with Privacy Hub Google released its chatbot Bard to the European public yesterday, after previously being blocked by the Irish Data Protection Commission (DPC). The tech giant has made a number of changes to the chatbot, including more transparency a...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/eu-users-can-hold-conversations-with-google-bard-from-training-set/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023072",
+    "date": "2023-07-14",
+    "title": "Aptos, the new default font for Microsoft Office",
+    "summary": "Microsoft Office Products to Replace Calibri with Aptos Font Microsoft Office products are set to move away from Calibri as the default font. The Aptos font, formerly known as Bierstadt, will become the default choice for all users within the next few months. Calibri has been the standard option ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/aptos-the-new-default-font-for-microsoft-office/",
+    "tags": [
+      "apt",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023073",
+    "date": "2023-07-14",
+    "title": "BlackLotus UEFI bootkit sources published on GitHub",
+    "summary": "Leaked BlackLotus Bootkit Source Code Discovered on GitHub The source code for the BlackLotus UEFI bootkit, which was previously sold on the dark web for $5,000, has been discovered by Binarly analysts on GitHub. The researchers say the leaked sources are not entirely complete and contain mostly ...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/blacklotus-uefi-bootkit-sources-published-on-github/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023074",
+    "date": "2023-07-14",
+    "title": "Hackers from the XDSpy cyber-espionage group attacked Russian organizations on behalf of the Ministry of Emergency Situations",
+    "summary": "XDSpy Cyberspy Group Launches Phishing Campaign Targeting Russian Organizations This week, FACCT specialists discovered a phishing campaign conducted by the XDSpy cyberspy group. The attack targeted Russian organizations, including one of the well-known research institutes. The text of the letter...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/hackers-from-the-xdspy-cyber-espionage-group-attacked-russian-organizations-on-behalf-of-the-ministry-of-emergency-situations/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023075",
+    "date": "2023-07-14",
+    "title": "Over a Million Installed WordPress Plugin Saves Passwords in Clear Text",
+    "summary": "AIOS Plugin Security Breach: Developers Release Patch and New Version Bug Found in Version 5.1.9 The developers of the All-In-One Security (AIOS) plugin, installed on more than a million sites, have released a patch after users recently discovered that the plugin remembers passwords in plain text...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/over-a-million-installed-wordpress-plugin-saves-passwords-in-clear-text/",
+    "tags": [
+      "data-breach",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023076",
+    "date": "2023-07-14",
+    "title": "AVrecon Botnet Infects Over 70,000 Linux Routers",
+    "summary": "AVrecon Linux Malware Infects Over 70,000 SOHO Routers Since May 2021, the AVrecon Linux malware has infected more than 70,000 SOHO routers and made most of them part of a botnet that specializes in creating hidden residential proxies, according to Lumen Black Lotus Labs. What Are Residential Pro...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/avrecon-botnet-infects-over-70000-linux-routers/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023077",
+    "date": "2023-07-14",
+    "title": "Twitter creates revenue model for verified creators",
+    "summary": "Twitter Launches Revenue Model for Creators Twitter has announced a new revenue model for creators on the platform, allowing them to share in the ad revenue generated by displaying ads between replies to their posts. The model is only available to creators who have paid for the blue badge and hav...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/twitter-creates-revenue-model-for-verified-creators/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "twitter"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023078",
+    "date": "2023-07-14",
+    "title": "WordPress security plugin AIOS stored passwords as plain text",
+    "summary": "AIOS WordPress Security Plugin Collects Passwords and Stores Them as Plain Text WordPress security plugin All-In-One Security (AIOS) has been found to do the exact opposite of what it was designed to do. A bug in the version 5.1.9 update caused users’ passwords to be stored as plain text in a dat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/wordpress-security-plugin-aios-stored-passwords-as-plain-text/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023079",
+    "date": "2023-07-14",
+    "title": "Google Play is going to tackle malicious apps with DUNS number",
+    "summary": "Google Play to Make it Harder to Upload Malicious Apps Google Play will make it more difficult to upload malicious apps to its app store from August 31. Developers will be required to provide a Data Universal Numbering System (DUNS) registration number for identification. The DUNS number is a nin...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "SecurityParrot",
+    "sourceUrl": "https://securityparrot.com/news/google-play-is-going-to-tackle-malicious-apps-with-duns-number/",
+    "tags": [
+      "malware",
+      "google"
     ],
     "impact": 3
   },
@@ -16414,6 +17114,34 @@
     "impact": 3
   },
   {
+    "id": "2023018",
+    "date": "2023-07-13",
+    "title": "Making sense of all things data",
+    "summary": "Data, and more specifically using data, is not a new concept, but it remains an elusive one. It comes with terms like “the internet of things” (IoT) and “the cloud,” and no matter how often those are explained, smart people can still be confused. And then there’s the amount of information availab...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/making-sense-all-things-data-0713",
+    "tags": [
+      "iot",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023007",
+    "date": "2023-07-12",
+    "title": "The Myth of Neutrality",
+    "summary": "Countries will have to choose between America and China.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/myth-of-neutrality-choose-between-america-china",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2023007",
     "date": "2023-07-12",
     "title": "The Myth of Neutrality",
@@ -16762,49 +17490,6 @@
     "impact": 3
   },
   {
-    "id": "2023019",
-    "date": "2023-06-28",
-    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
-    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023026",
-    "date": "2023-06-28",
-    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
-    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
-    "region": "EU",
-    "country": "United Kingdom",
-    "sourceName": "Cybersecurity Cloud Expo",
-    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
-    "tags": [
-      "cloud",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023019",
-    "date": "2023-06-28",
-    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
-    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023026",
     "date": "2023-06-28",
     "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
@@ -16901,50 +17586,6 @@
     "sourceName": "MIT Cyber Security",
     "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
     "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023026",
-    "date": "2023-06-28",
-    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
-    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
-    "region": "EU",
-    "country": "United Kingdom",
-    "sourceName": "Cybersecurity Cloud Expo",
-    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
-    "tags": [
-      "cloud",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023019",
-    "date": "2023-06-28",
-    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
-    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023026",
-    "date": "2023-06-28",
-    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
-    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
-    "region": "EU",
-    "country": "United Kingdom",
-    "sourceName": "Cybersecurity Cloud Expo",
-    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
-    "tags": [
-      "cloud",
       "ai-ml"
     ],
     "impact": 3
@@ -17324,6 +17965,189 @@
       "cloud",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2023019",
+    "date": "2023-06-28",
+    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
+    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023026",
+    "date": "2023-06-28",
+    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
+    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023019",
+    "date": "2023-06-28",
+    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
+    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023026",
+    "date": "2023-06-28",
+    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
+    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023019",
+    "date": "2023-06-28",
+    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
+    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023026",
+    "date": "2023-06-28",
+    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
+    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023019",
+    "date": "2023-06-28",
+    "title": "MIT researchers devise a way to evaluate cybersecurity methods",
+    "summary": "A savvy hacker can obtain secret information, such as a password, by observing a computer program’s behavior, like how much time that program spends accessing the computer’s memory. Security approaches that completely block these “side-channel attacks” are so computationally expensive that they a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/mit-researchers-evaluate-cybersecurity-methods-0628",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023026",
+    "date": "2023-06-28",
+    "title": "Cyber Security & Cloud Expo Europe: The Full Agenda Revealed",
+    "summary": "Cyber Security & Cloud Expo is returning to Amsterdam and is set to take place on 26-27 September at RAI. This year’s edition promises to be a ground-breaking experience, with a thought-provoking agenda that delves into the forefront of cybersecurity and cloud computing advancements. The event wi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Cybersecurity Cloud Expo",
+    "sourceUrl": "https://www.cybersecuritycloudexpo.com/2023/06/news/the-full-agenda-revealed/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023085",
+    "date": "2023-06-25",
+    "title": "My Last Email with W. Richard Stevens",
+    "summary": "In the fall of 1998 I joined the AFCERT. I became acquainted with the amazing book TCP/IP Illustrated, Volume 1: The Protocols by W. Richard Stevens. About a year later I exchanged emails with Mr. Stevens. Here is the last exchange, as forwarded from my AFCERT email address to my home email.From ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/06/my-last-email-with-w-richard-stevens.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023086",
+    "date": "2023-06-25",
+    "title": "Bejtlich Skills and Interest Radar from July 2005",
+    "summary": "This is unusual. I found this \"skills and interest radar\" diagram I created in July 2005. It looks like my attempt to capture and prioritize technical interests. At the time I was about to start consulting on my own, IIRC.Copyright 2003-2020 Richard Bejtlich and TaoSecurity (taosecurity.blogspot....",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/06/bejtlich-skills-and-interest-radar-from.html",
+    "tags": [
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023087",
+    "date": "2023-06-25",
+    "title": "Key Network Questions",
+    "summary": "I wrote this on 7 December 2018 but never published it until today. The following are the \"key network questions\" which \"would answer many key questions about [a] network, without having to access a third party log repository. This data is derived from mining Zeek log data as it is created, rathe...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/06/key-network-questions.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023088",
+    "date": "2023-06-25",
+    "title": " Cybersecurity Is a Social, Policy, and Wicked Problem",
+    "summary": "Cybersecurity is a social and policy problem, not a scientific or technical problem. Cybersecurity is also a wicked problem. In a landmark 1973 article, Dilemmas in a General Theory of Planning, urban planners Horst W. J. Rittel and Melvin M. Webber described wicked problems in these terms:“The s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/06/cybersecurity-is-social-policy-and.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023089",
+    "date": "2023-06-25",
+    "title": "Core Writing Word and Page Counts",
+    "summary": "I want to make a note of the numbers of words and pages in my core security writings.The Tao of Network Security Monitoring / 236k words / 833 pagesExtrusion Detection / 113k words / 417 pagesThe Practice of Network Security Monitoring / 97k words / 380 pagesThe Best of TaoSecurity Blog, Vol 1 / ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/06/core-writing-word-and-page-counts.html",
+    "tags": [],
     "impact": 3
   },
   {
@@ -18801,91 +19625,6 @@
     "impact": 3
   },
   {
-    "id": "2023059",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
     "id": "2023069",
     "date": "2023-06-22",
     "title": "2023 Breaches and Incidents: Personal Notes",
@@ -18904,74 +19643,6 @@
   },
   {
     "id": "2023059",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023059",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
-    "date": "2023-06-22",
-    "title": "2023 Breaches and Incidents: Personal Notes",
-    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
-    "region": "EU",
-    "country": "Italy",
-    "sourceName": "Marco Ramilli's Blog",
-    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
-    "tags": [
-      "data-breach",
-      "supply-chain",
-      "government",
-      "ai-ml"
-    ],
-    "impact": 4
-  },
-  {
-    "id": "2023069",
     "date": "2023-06-22",
     "title": "2023 Breaches and Incidents: Personal Notes",
     "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
@@ -19090,6 +19761,40 @@
     "impact": 4
   },
   {
+    "id": "2023059",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
     "id": "2023069",
     "date": "2023-06-22",
     "title": "2023 Breaches and Incidents: Personal Notes",
@@ -19139,6 +19844,156 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023059",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023069",
+    "date": "2023-06-22",
+    "title": "2023 Breaches and Incidents: Personal Notes",
+    "summary": "Introduction In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nat...",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Marco Ramilli's Blog",
+    "sourceUrl": "https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023027",
+    "date": "2023-06-08",
+    "title": "What is JWA? A Deep Dive into JSON Web Algorithms",
+    "summary": "Definition of JWA JSON Web Algorithms (JWA) is a specification providing a list of cryptographic algorithms. It’s an integral part of the JSON Object Signing and Encryption (JOSE) family of standards. JOSE includes, for example, JSON Web Tokens (JWT), JSON Web Signature (JWS), and JSON Web Encryp...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwa-json-web-algorithms/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
   },
   {
     "id": "2023027",
@@ -19446,6 +20301,18 @@
     "tags": [
       "encryption"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2023097",
+    "date": "2023-06-07",
+    "title": "The Dark Reality of Online Grooming",
+    "summary": "The Dark Reality of Online Grooming: What Every Parent Needs to Know",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/the-dark-reality-of-online-grooming",
+    "tags": [],
     "impact": 3
   },
   {
@@ -19741,34 +20608,6 @@
     "impact": 3
   },
   {
-    "id": "2023024",
-    "date": "2023-06-02",
-    "title": "Mastering JWKS: JSON Web Key Sets Explained",
-    "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/jwks-json-web-key-set/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023028",
-    "date": "2023-06-02",
-    "title": "Mastering JWKS: JSON Web Key Sets Explained",
-    "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/jwks-json-web-key-set/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023028",
     "date": "2023-06-02",
     "title": "Mastering JWKS: JSON Web Key Sets Explained",
@@ -19825,7 +20664,7 @@
     "impact": 3
   },
   {
-    "id": "2023028",
+    "id": "2023024",
     "date": "2023-06-02",
     "title": "Mastering JWKS: JSON Web Key Sets Explained",
     "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
@@ -20018,6 +20857,60 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2023028",
+    "date": "2023-06-02",
+    "title": "Mastering JWKS: JSON Web Key Sets Explained",
+    "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwks-json-web-key-set/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023028",
+    "date": "2023-06-02",
+    "title": "Mastering JWKS: JSON Web Key Sets Explained",
+    "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwks-json-web-key-set/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023028",
+    "date": "2023-06-02",
+    "title": "Mastering JWKS: JSON Web Key Sets Explained",
+    "summary": "TL;DR JWKS (JSON Web Key Set) is a tool for standardizing the representation and management of cryptographic keys via a JSON object. The technology, defined in RFC 7517, enables client-local JWT (JSON Web Tokens) verification and is integral for decentralized authentication protocols such as Open...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwks-json-web-key-set/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023098",
+    "date": "2023-06-01",
+    "title": "Geotagging: 7 Tips to Navigating the Hazards and Consequences",
+    "summary": "Skip Myers",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/geotagging-7-tips-to-navigating-the-hazards-and-consequences",
+    "tags": [],
     "impact": 3
   },
   {
@@ -20281,6 +21174,18 @@
     "country": "United States",
     "sourceName": "Internet Safety Brigade Blog",
     "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/geotagging-7-tips-to-navigating-the-hazards-and-consequences",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023099",
+    "date": "2023-05-30",
+    "title": "The ABCs of Internet Safety for Children",
+    "summary": "Protecting Our Kids",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Internet Safety Brigade Blog",
+    "sourceUrl": "https://internetsafetybrigade.org/our-blog/f/the-abcs-of-internet-safety-for-children",
     "tags": [],
     "impact": 3
   },
@@ -20577,34 +21482,6 @@
     "impact": 3
   },
   {
-    "id": "2023025",
-    "date": "2023-05-29",
-    "title": "JSON Web Encryption: Exploring JWE Token",
-    "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
-    "tags": [
-      "encryption"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023029",
-    "date": "2023-05-29",
-    "title": "JSON Web Encryption: Exploring JWE Token",
-    "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
-    "tags": [
-      "encryption"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023029",
     "date": "2023-05-29",
     "title": "JSON Web Encryption: Exploring JWE Token",
@@ -20661,7 +21538,7 @@
     "impact": 3
   },
   {
-    "id": "2023029",
+    "id": "2023025",
     "date": "2023-05-29",
     "title": "JSON Web Encryption: Exploring JWE Token",
     "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
@@ -20853,6 +21730,62 @@
     "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
     "tags": [
       "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023029",
+    "date": "2023-05-29",
+    "title": "JSON Web Encryption: Exploring JWE Token",
+    "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023029",
+    "date": "2023-05-29",
+    "title": "JSON Web Encryption: Exploring JWE Token",
+    "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023029",
+    "date": "2023-05-29",
+    "title": "JSON Web Encryption: Exploring JWE Token",
+    "summary": "TL;DR JSON Web Encryption (JWE) is a standard for securing data transmission between parties, providing confidentiality, integrity, and authentication. It uses encryption to protect the payload of a JSON Web Token (JWT) and supports both symmetric and asymmetric encryption techniques. It also all...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwe-token-json-web-encryption/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023030",
+    "date": "2023-05-24",
+    "title": "JWT vs OAuth 2.0: Understanding the Key Differences",
+    "summary": "TL;DR OAuth 2.0 is an open standard that describes an authorization framework. It allows a third-party application to access a user’s resources without user credentials. JWT (JSON Web Tokens) is a standard that describes a JSON-based token format used to securely transfer information between two ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/jwt-vs-oauth/",
+    "tags": [
+      "supply-chain"
     ],
     "impact": 3
   },
@@ -21195,36 +22128,6 @@
     "impact": 3
   },
   {
-    "id": "2023027",
-    "date": "2023-05-23",
-    "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
-    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/what-is-whaling-cyber-awareness/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023031",
-    "date": "2023-05-23",
-    "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
-    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/what-is-whaling-cyber-awareness/",
-    "tags": [
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023031",
     "date": "2023-05-23",
     "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
@@ -21285,7 +22188,7 @@
     "impact": 3
   },
   {
-    "id": "2023031",
+    "id": "2023027",
     "date": "2023-05-23",
     "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
     "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
@@ -21493,6 +22396,67 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "2023031",
+    "date": "2023-05-23",
+    "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
+    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/what-is-whaling-cyber-awareness/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023031",
+    "date": "2023-05-23",
+    "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
+    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/what-is-whaling-cyber-awareness/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023031",
+    "date": "2023-05-23",
+    "title": "What is Whaling Cyber Awareness? Prevention Tips & Training",
+    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. What is Whaling Cyber Awareness? Cyber security is an ever-evolving challenge requiring constant attention and effort t...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/what-is-whaling-cyber-awareness/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023032",
+    "date": "2023-05-18",
+    "title": "Whaling Phishing: Definition and Prevention Strategies",
+    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. Whaling phishing is a cyber attack that targets high-profile individuals and key organizational staff. Attackers use so...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/whaling-phishing-definition/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
   },
   {
     "id": "2023032",
@@ -21881,40 +22845,6 @@
     "impact": 3
   },
   {
-    "id": "2023039",
-    "date": "2023-05-15",
-    "title": "OIDC Security Research",
-    "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/oidc/openid-connect-security-research/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "cloud",
-      "aws"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023043",
-    "date": "2023-05-15",
-    "title": "OIDC Security Research",
-    "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/oidc/openid-connect-security-research/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "cloud",
-      "aws"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023043",
     "date": "2023-05-15",
     "title": "OIDC Security Research",
@@ -21983,7 +22913,7 @@
     "impact": 3
   },
   {
-    "id": "2023043",
+    "id": "2023039",
     "date": "2023-05-15",
     "title": "OIDC Security Research",
     "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
@@ -22217,6 +23147,84 @@
       "malware",
       "cloud",
       "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023043",
+    "date": "2023-05-15",
+    "title": "OIDC Security Research",
+    "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/oidc/openid-connect-security-research/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023043",
+    "date": "2023-05-15",
+    "title": "OIDC Security Research",
+    "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/oidc/openid-connect-security-research/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023043",
+    "date": "2023-05-15",
+    "title": "OIDC Security Research",
+    "summary": "Security Analysis of Real-Life OpenID Connect Implementations In this Master’s thesis, Christian Fries presents a lab environment for developers and penetration-testers to unveil security flaws in real-world OpenID Connect Certified Service Provider and Identity Provider implementations. In addit...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/oidc/openid-connect-security-research/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023033",
+    "date": "2023-05-14",
+    "title": "Step-Up Authentication: Elevating Security with OpenID Connect (OIDC)",
+    "summary": "Security measures are effective when they cause the least friction while providing the highest level of security necessary for the targeted, user-friendly business process. Asking for too little gives users (or whoever is posing as them) too much freedom, but asking for too much, especially up fr...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/step-up-authentication/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023091",
+    "date": "2023-05-14",
+    "title": "The Hand-y Etiquette of Modern All-Remote Culture",
+    "summary": "In today’s fast-paced digital world, remote work has become the new normal. With the rise of video conferencing platforms like Zoom and Microsoft Teams, we have adapted to an all-remote culture where communication is largely virtual. One aspect of this culture that has become increasingly importa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/the-hand-y-etiquette-of-modern-all-remote-culture-46976b4ad025?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "apt",
+      "microsoft"
     ],
     "impact": 3
   },
@@ -22849,40 +23857,6 @@
     "impact": 3
   },
   {
-    "id": "2023030",
-    "date": "2023-05-11",
-    "title": "Password Attack Guide: What is Password Spraying?",
-    "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/password-spraying/",
-    "tags": [
-      "vulnerability",
-      "cloud",
-      "ai-ml",
-      "aws"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023034",
-    "date": "2023-05-11",
-    "title": "Password Attack Guide: What is Password Spraying?",
-    "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/password-spraying/",
-    "tags": [
-      "vulnerability",
-      "cloud",
-      "ai-ml",
-      "aws"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023034",
     "date": "2023-05-11",
     "title": "Password Attack Guide: What is Password Spraying?",
@@ -22951,7 +23925,7 @@
     "impact": 3
   },
   {
-    "id": "2023034",
+    "id": "2023030",
     "date": "2023-05-11",
     "title": "Password Attack Guide: What is Password Spraying?",
     "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
@@ -23187,6 +24161,72 @@
       "aws"
     ],
     "impact": 3
+  },
+  {
+    "id": "2023034",
+    "date": "2023-05-11",
+    "title": "Password Attack Guide: What is Password Spraying?",
+    "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-spraying/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023034",
+    "date": "2023-05-11",
+    "title": "Password Attack Guide: What is Password Spraying?",
+    "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-spraying/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023034",
+    "date": "2023-05-11",
+    "title": "Password Attack Guide: What is Password Spraying?",
+    "summary": "Introduction to Password Attacks Cybercriminals continuously seek new ways to gain account access and exploit security flaws as technology progresses. Password spraying is one such practice that, in recent years, has become popular among hackers looking to gain unauthorized access to accounts and...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-spraying/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023035",
+    "date": "2023-05-08",
+    "title": "Passwordless: Critical Notes on FIDO2 Passkeys",
+    "summary": "Passkeys are currently on everyone’s lips, thanks to recent announcements to enable Passkeys for authentication on Google accounts. And, while the passwordless hype train did not stop in front of my desk either, there are some problems surrounding the imminent password killer, disregarded mainly ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/fido-passkeys/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
   },
   {
     "id": "2023035",
@@ -23543,30 +24583,6 @@
     "impact": 3
   },
   {
-    "id": "2023032",
-    "date": "2023-05-07",
-    "title": "Passwordless Authentication: Future of Cybersecurity",
-    "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2023036",
-    "date": "2023-05-07",
-    "title": "Passwordless Authentication: Future of Cybersecurity",
-    "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
-    "tags": [],
-    "impact": 3
-  },
-  {
     "id": "2023036",
     "date": "2023-05-07",
     "title": "Passwordless Authentication: Future of Cybersecurity",
@@ -23615,7 +24631,7 @@
     "impact": 3
   },
   {
-    "id": "2023036",
+    "id": "2023032",
     "date": "2023-05-07",
     "title": "Passwordless Authentication: Future of Cybersecurity",
     "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
@@ -23780,6 +24796,70 @@
     "sourceName": "Brennenstuhl on Security Engineering Blog",
     "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023036",
+    "date": "2023-05-07",
+    "title": "Passwordless Authentication: Future of Cybersecurity",
+    "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023036",
+    "date": "2023-05-07",
+    "title": "Passwordless Authentication: Future of Cybersecurity",
+    "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023036",
+    "date": "2023-05-07",
+    "title": "Passwordless Authentication: Future of Cybersecurity",
+    "summary": "In the context of internet security, implementing passwordless authentication really is a game changer. Say goodbye to traditional, complicated, and insecure passwords! It’s time for us to investigate the myriad advantages of implementing passwordless authentication and understand why it’s necess...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/passkeys-passwordless-authentication/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023037",
+    "date": "2023-05-06",
+    "title": "Long Password Support for Safer Login Systems",
+    "summary": "Strong passwords are necessary for securing user accounts and protecting sensitive data. As a frequent user of authentication systems and principal engineer for a single sign-on solution, I appreciate the necessity of delivering seamless user experience while emphasizing security. In this article...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/long-password-login-system/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023049",
+    "date": "2023-05-06",
+    "title": "Disclaimer: No Employer Affiliation",
+    "summary": "Hi. Jan Brennenstuhl here. My goal with this blog is to help educate you on practically any field that touches software development and security engineering, but please understand I am sharing my individual expertise and perspective. This blog is entirely my own independent project and I speak on...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/affiliate-disclaimer/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -24423,30 +25503,6 @@
     "impact": 5
   },
   {
-    "id": "2023034",
-    "date": "2023-05-04",
-    "title": "Max Password Length: A Secure Password Guide",
-    "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
-    "tags": [],
-    "impact": 5
-  },
-  {
-    "id": "2023038",
-    "date": "2023-05-04",
-    "title": "Max Password Length: A Secure Password Guide",
-    "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
-    "tags": [],
-    "impact": 5
-  },
-  {
     "id": "2023038",
     "date": "2023-05-04",
     "title": "Max Password Length: A Secure Password Guide",
@@ -24495,7 +25551,7 @@
     "impact": 5
   },
   {
-    "id": "2023038",
+    "id": "2023034",
     "date": "2023-05-04",
     "title": "Max Password Length: A Secure Password Guide",
     "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
@@ -24661,6 +25717,57 @@
     "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
     "tags": [],
     "impact": 5
+  },
+  {
+    "id": "2023038",
+    "date": "2023-05-04",
+    "title": "Max Password Length: A Secure Password Guide",
+    "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "2023038",
+    "date": "2023-05-04",
+    "title": "Max Password Length: A Secure Password Guide",
+    "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "2023038",
+    "date": "2023-05-04",
+    "title": "Max Password Length: A Secure Password Guide",
+    "summary": "Today, digital security is more important than ever. With cyber threats on the rise, having strong, unique passwords is critical for protecting your accounts and data. Common sense among security researchers is, that longer passwords are more crucial than complicated ones. In this article, I’ll g...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/max-password-length-recommendation/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "2023047",
+    "date": "2023-05-03",
+    "title": "Password Strength Meter Studies",
+    "summary": "Impact of Password Meters on Password Selection Researchers from Berkeley, Vancouver and Microsoft performed “a laboratory experiment to examine whether [password] meters influenced users’ password selections when they were forced to change their real passwords”. Unsurprisingly, these meters only...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/password-strength-meter/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
   },
   {
     "id": "2023047",
@@ -24989,6 +26096,22 @@
     "tags": [
       "malware",
       "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023039",
+    "date": "2023-04-29",
+    "title": "Honeytoken: Authentication Attack Breach Detection",
+    "summary": "Disclaimer: This article involved collaboration with a GenAI tool for personal research. All content was reviewed and edited by myself. Feel free to report inaccuracies. Thanks. TL;DR Honeytoken accounts are a tool that can help businesses detect data breaches. Creating a honeytoken account invol...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/honeytoken-accounts-credential-breach/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -25621,6 +26744,47 @@
     "impact": 3
   },
   {
+    "id": "2023008",
+    "date": "2023-04-28",
+    "title": "How to Spy on China",
+    "summary": "Beijing is a hard target—but better tech could make it easier.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/china/how-to-spy-china-beijing-technology-mattis",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023046",
+    "date": "2023-04-27",
+    "title": "Password Reuse Studies",
+    "summary": "From data breaches to identity theft, studies from around the globe examine the consequences of password reuse and provide practical tips to help you safeguard online security – especially if you don’t have any means to do step-up authentication. So buckle up and get ready to learn about the bad ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/password-reuse-studies-security/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023048",
+    "date": "2023-04-27",
+    "title": "Reinforced Authentication Studies",
+    "summary": "Evaluating Login Challenges as a Defense Against Account Takeover Google and the New York University teamed up to “study the efficacy of login challenges at preventing account takeover” and to “evaluate the amount of friction these challenges create for normal users”. While it is interesting to s...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/reinforced-authentication-studies/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2023046",
     "date": "2023-04-27",
     "title": "Password Reuse Studies",
@@ -26291,38 +27455,6 @@
     "impact": 3
   },
   {
-    "id": "2023036",
-    "date": "2023-04-26",
-    "title": "How to Design a Strong & Usable Password Policy",
-    "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/password-strength-policy-guide/",
-    "tags": [
-      "data-breach",
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023040",
-    "date": "2023-04-26",
-    "title": "How to Design a Strong & Usable Password Policy",
-    "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/password-strength-policy-guide/",
-    "tags": [
-      "data-breach",
-      "malware",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2023040",
     "date": "2023-04-26",
     "title": "How to Design a Strong & Usable Password Policy",
@@ -26387,7 +27519,7 @@
     "impact": 3
   },
   {
-    "id": "2023040",
+    "id": "2023036",
     "date": "2023-04-26",
     "title": "How to Design a Strong & Usable Password Policy",
     "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
@@ -26607,6 +27739,68 @@
       "data-breach",
       "malware",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023040",
+    "date": "2023-04-26",
+    "title": "How to Design a Strong & Usable Password Policy",
+    "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-strength-policy-guide/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023040",
+    "date": "2023-04-26",
+    "title": "How to Design a Strong & Usable Password Policy",
+    "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-strength-policy-guide/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023040",
+    "date": "2023-04-26",
+    "title": "How to Design a Strong & Usable Password Policy",
+    "summary": "Importance of Password Policy Best Practices In today’s digital landscape, both password management and security are more important than ever before. With data breaches and cyberattacks on the rise, it’s crucial that organisations implement strong password policies to protect against credential s...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-strength-policy-guide/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023041",
+    "date": "2023-04-23",
+    "title": "How to: Password-Manager Friendly Login Forms",
+    "summary": "Do you ever get tired of manually typing in your login credentials every time you need to access an online account? Luckily, there is a solution: password managers. These handy tools can automatically generate and store strong passwords, but they’re only truly useful if login forms are password-m...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/password-security-manager-friendly/",
+    "tags": [
+      "malware"
     ],
     "impact": 3
   },
@@ -26915,6 +28109,50 @@
     "sourceUrl": "https://www.janbrennenstuhl.eu/password-security-manager-friendly/",
     "tags": [
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023042",
+    "date": "2023-04-21",
+    "title": "Account Hijacking Studies: Attacks & Defenses",
+    "summary": "Account Pre-Hijacking Attacks: Security Failures in User Account Creation “The ubiquity of user accounts in websites and online services makes account hijacking a serious security concern. Although previous research has studied various techniques through which an attacker can gain access to a vic...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/account-hijacking-attacks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023044",
+    "date": "2023-04-21",
+    "title": "Account Recovery Research",
+    "summary": "Security Analysis of Email-Based Password Reset Procedures An international group of researchers from USA, Italy and Belgium performed a security analysis of email-based account recovery mechanisms of a wide range of web applications from the Alexa Top 5K. While their paper describes a heterogeno...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/account-recovery/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023045",
+    "date": "2023-04-21",
+    "title": "Compromised Credentials Research",
+    "summary": "Protocols for Checking Compromised Credentials “To prevent credential stuffing attacks, industry best practice now proactively checks if user credentials are present in known data breaches.” For this paper, Cornell Tech and Cloudflare researchers analyzed existing compromised credential checking ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/knowledge-base/account-security/compromised-credentials-stuffing/",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "cloudflare"
     ],
     "impact": 3
   },
@@ -27939,58 +29177,6 @@
     "impact": 3
   },
   {
-    "id": "2023046",
-    "date": "2023-04-15",
-    "title": "Imprint & Responsible Editor",
-    "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/imprint/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023047",
-    "date": "2023-04-15",
-    "title": "Privacy Policy: No Cookies & Privacy First",
-    "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/privacy-policy/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2023050",
-    "date": "2023-04-15",
-    "title": "Imprint & Responsible Editor",
-    "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/imprint/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2023051",
-    "date": "2023-04-15",
-    "title": "Privacy Policy: No Cookies & Privacy First",
-    "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
-    "region": "EU",
-    "country": "Germany",
-    "sourceName": "Brennenstuhl on Security Engineering Blog",
-    "sourceUrl": "https://www.janbrennenstuhl.eu/privacy-policy/",
-    "tags": [],
-    "impact": 3
-  },
-  {
     "id": "2023050",
     "date": "2023-04-15",
     "title": "Imprint & Responsible Editor",
@@ -28095,7 +29281,7 @@
     "impact": 3
   },
   {
-    "id": "2023050",
+    "id": "2023046",
     "date": "2023-04-15",
     "title": "Imprint & Responsible Editor",
     "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
@@ -28109,7 +29295,7 @@
     "impact": 3
   },
   {
-    "id": "2023051",
+    "id": "2023047",
     "date": "2023-04-15",
     "title": "Privacy Policy: No Cookies & Privacy First",
     "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
@@ -28459,18 +29645,82 @@
     "impact": 3
   },
   {
-    "id": "2023020",
-    "date": "2023-03-22",
-    "title": "Tackling counterfeit seeds with “unclonable” labels",
-    "summary": "Average crop yields in Africa are consistently far below those expected, and one significant reason is the prevalence of counterfeit seeds whose germination rates are far lower than those of the genuine ones. The World Bank estimates that as much as half of all seeds sold in some African countrie...",
-    "region": "US",
-    "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2023/tackling-counterfeit-seeds-unclonable-labels-0322",
+    "id": "2023050",
+    "date": "2023-04-15",
+    "title": "Imprint & Responsible Editor",
+    "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/imprint/",
     "tags": [
-      "malware"
+      "ai-ml"
     ],
-    "impact": 4
+    "impact": 3
+  },
+  {
+    "id": "2023051",
+    "date": "2023-04-15",
+    "title": "Privacy Policy: No Cookies & Privacy First",
+    "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/privacy-policy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023050",
+    "date": "2023-04-15",
+    "title": "Imprint & Responsible Editor",
+    "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/imprint/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023051",
+    "date": "2023-04-15",
+    "title": "Privacy Policy: No Cookies & Privacy First",
+    "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/privacy-policy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023050",
+    "date": "2023-04-15",
+    "title": "Imprint & Responsible Editor",
+    "summary": "janbrennenstuhl.eu is brought to you by: Jan Brennenstuhl Rigaer Straße 18D 10247 Berlin Germany Responsible for editorial content: Jan Brennenstuhl Contact me via E-Mail",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/imprint/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023051",
+    "date": "2023-04-15",
+    "title": "Privacy Policy: No Cookies & Privacy First",
+    "summary": "Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No inform...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/privacy-policy/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2023020",
@@ -28779,6 +30029,46 @@
       "malware"
     ],
     "impact": 4
+  },
+  {
+    "id": "2023020",
+    "date": "2023-03-22",
+    "title": "Tackling counterfeit seeds with “unclonable” labels",
+    "summary": "Average crop yields in Africa are consistently far below those expected, and one significant reason is the prevalence of counterfeit seeds whose germination rates are far lower than those of the genuine ones. The World Bank estimates that as much as half of all seeds sold in some African countrie...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/tackling-counterfeit-seeds-unclonable-labels-0322",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023020",
+    "date": "2023-03-22",
+    "title": "Tackling counterfeit seeds with “unclonable” labels",
+    "summary": "Average crop yields in Africa are consistently far below those expected, and one significant reason is the prevalence of counterfeit seeds whose germination rates are far lower than those of the genuine ones. The World Bank estimates that as much as half of all seeds sold in some African countrie...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/tackling-counterfeit-seeds-unclonable-labels-0322",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2023083",
+    "date": "2023-03-14",
+    "title": "Top 5 Open Source Firewall for Network Security",
+    "summary": "A firewall is a security system that is used to control network traffic and prevent unauthorized access to a network. It acts as a machinery between a private network and the internet, allowing only authorized traffic to go through. Firewalls have evolved from simple packet filters to modern Next...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Virtualattacks",
+    "sourceUrl": "https://virtualattacks.com/top-5-open-source-firewall-for-network-security/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2023073",
@@ -29029,6 +30319,18 @@
     "country": "Global",
     "sourceName": "Virtualattacks",
     "sourceUrl": "https://virtualattacks.com/top-5-open-source-firewall-for-network-security/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023084",
+    "date": "2023-03-11",
+    "title": "Understanding Signaling System 7 (SS7)",
+    "summary": "The Signaling System 7 (SS7) is a set of protocol suite telecommunication networks used to share information across the global public switched telephone network (PSTN). It was developed in the 1980s and has been used ever since. The SS7 protocol is crucial to the functioning of telecom networks, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Virtualattacks",
+    "sourceUrl": "https://virtualattacks.com/signaling-system-7-ss7/",
     "tags": [],
     "impact": 3
   },
@@ -29607,6 +30909,32 @@
     "impact": 3
   },
   {
+    "id": "2023021",
+    "date": "2023-03-10",
+    "title": "It’s a weird, weird quantum world",
+    "summary": "In 1994, as Professor Peter Shor PhD ’85 tells it, internal seminars at AT&T Bell Labs were lively affairs. The audience of physicists was an active and inquisitive bunch, often pelting speakers with questions throughout their talks. Shor, who worked at Bell Labs at the time, remembers several oc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/weird-weird-quantum-world-peter-shor-killian-lecture-0310",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023009",
+    "date": "2023-03-03",
+    "title": "Does Technology Win Wars?",
+    "summary": "The U.S. Military needs low-cost innovation—not big-ticket boondoggles.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/ukraine/does-technology-win-wars",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2023009",
     "date": "2023-03-03",
     "title": "Does Technology Win Wars?",
@@ -30156,6 +31484,47 @@
     "sourceName": "Foreign Affairs Cybersecurity",
     "sourceUrl": "https://www.foreignaffairs.com/united-states/stop-passing-buck-cybersecurity",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023010",
+    "date": "2023-02-01",
+    "title": "Stop Passing the Buck on Cybersecurity",
+    "summary": "Why companies must build safety into tech products.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Foreign Affairs Cybersecurity",
+    "sourceUrl": "https://www.foreignaffairs.com/united-states/stop-passing-buck-cybersecurity",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2023022",
+    "date": "2023-01-26",
+    "title": "Two Lincoln Laboratory software products honored with national Excellence in Technology Transfer Awards",
+    "summary": "The Federal Laboratory Consortium (FLC) has awarded 2023 Excellence in Technology Transfer Awards at the national level to two MIT Lincoln Laboratory software products developed to improve security: Keylime and the Forensic Video Exploitation and Analysis (FOVEA) tool suite. Keylime increases the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2023/lincoln-laboratory-excellence-technology-transfer-awards-0126",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023080",
+    "date": "2023-01-26",
+    "title": "HOW TO BECOME CERTIFIED LEAD IMPLEMENTER – ISO 27001",
+    "summary": "ABOUT CERTIFIED LEAD IMPLEMENTER TRAINING AND EXAMINATION FOR INFORMATION SECURITY MANAGEMENT SYSTEM ISO / IEC 27001 Learn and get certified as a professional in implementation of ISO 27001 standard through our self-paced E-learning interactive course which comprises of 4 modules. Upon completion...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Crimes Watch",
+    "sourceUrl": "https://www.cybercrimeswatch.com/3128/how-to-become-certified-lead-implementer-iso-27001/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -30808,6 +32177,20 @@
     "tags": [
       "vulnerability",
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2023090",
+    "date": "2023-01-08",
+    "title": "Happy 20th Birthday TaoSecurity Blog",
+    "summary": "Happy 20th birthday TaoSecurity Blog, born on 8 January 2003. Thank you BloggerBlogger (now part of Google) has continuously hosted this blog for 20 years, for free. I'd like to thank Blogger and Google for providing this platform for two decades. It's tough to find extant self-hosted security co...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2023/01/happy-20th-birthday-taosecurity-blog.html",
+    "tags": [
+      "google"
     ],
     "impact": 3
   },
