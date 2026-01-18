@@ -12,6 +12,92 @@
     "impact": 3
   },
   {
+    "id": "20262832",
+    "date": "2026-01-18",
+    "title": "Bitwarden, pour \"un monde où personne ne se fait pirater\" - Interview Michael Crandell",
+    "summary": "Avec 10 millions d'utilisateurs et 50 000 clients professionnels dans 180 pays, Bitwarden ne joue pas dans la même catégorie que ses concurrents mieux financés. Il n'empêche que la jeune pousse construit sa légitimité auprès des utilisateurs et responsables IT qui recherchent une solution digne d...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-591613-bitwarden-pour-un-monde-ou-personne-ne-se-fait-pirater---interview-michael-crandell.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262833",
+    "date": "2026-01-18",
+    "title": "Soldes d'hiver 2026 : CyberGhost VPN chute à 2,03 € par mois avec 4 mois offerts !",
+    "summary": "Entre paiements en ligne, messageries, Wi-Fi publics et vie personnelle connectée, nos vies numériques s’exposent sans arrêt. Pour sécuriser tout ça sans se ruiner, CyberGhost VPN propose une offre rare pour les soldes d'hiver : un abonnement à 2,03 € par mois + 4 mois offerts. Une vraie opportun...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-595645-oubliez-les-cyber-tracas-du-quotidien-cyberghost-vpn-a-2-03-par-mois-avec-4-mois-offerts.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262834",
+    "date": "2026-01-18",
+    "title": "Week in review: PoC for FortiSIEM flaw released, Rakuten Viber CISO/CTO on messaging risks",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: What security teams can learn from torrent metadata Security teams often spend time sorting through logs and alerts that point to activity happening outside corporate networks. Torrent traffic shows ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/18/week-in-review-poc-for-fortisiem-flaw-released-rakuten-viber-ciso-cto-on-messaging-risks/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262835",
+    "date": "2026-01-18",
+    "title": "Quantum Paper Proves Cats are Dogs",
+    "summary": "A new quantum paper has proven how easily the media is fooled. Let’s say you have two lists of numbers (we’re talking computers, so it’s how a language model represents “dog” and “cat” internally). And you want to know how similar they are. Do you see a cat, or a dog? Classical computers multiply...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76232",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262837",
+    "date": "2026-01-18",
+    "title": "Weekly Update 487",
+    "summary": "I thought Scott would cop it first when he posted about what his solar system really cost him last year. \"You're so gonna get that stupid AI-slop response from some people\", I joked. But no, he got other stupid responses instead! And I got the AI-slop responses! Draw your own conclusions on those...",
+    "region": "US",
+    "country": "Australia",
+    "sourceName": "Troy Hunt",
+    "sourceUrl": "https://www.troyhunt.com/weekly-update-487/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262838",
+    "date": "2026-01-18",
+    "title": "Will 2026 See a ‘ChatGPT Moment’ for Microchip Implants?",
+    "summary": "As Hollywood imagines our future, are brain and human microchip implants nearing a “ChatGPT moment” in 2026? Medical progress collides with privacy fears and state bans.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Lohrmann on Infrastructure",
+    "sourceUrl": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/will-2026-see-a-chatgpt-moment-for-microchip-implants",
+    "tags": [
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262827",
     "date": "2026-01-18",
     "title": "Panicos Georgiou: \"Your cybersecurity is only as strong as the least secure supplier in your ...",
@@ -1102,6 +1188,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262836",
+    "date": "2026-01-16",
+    "title": "What Are The IRS 1075 Safeguards Audit Requirements?",
+    "summary": "When you think about an IRS publication, you’re probably thinking about the complex forms you need to fill out, usually relating to taxes. That’s not all the IRS publishes, though, and one of the more important documents they maintain is called Publication 1075. When it comes to sensitive informa...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Ignyte Assurance Platform Blog",
+    "sourceUrl": "https://www.ignyteplatform.com/blog/security/irs-1075-safeguards-audit/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20262772",
