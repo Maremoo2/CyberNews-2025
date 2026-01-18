@@ -12,6 +12,256 @@
     "impact": 3
   },
   {
+    "id": "20262807",
+    "date": "2026-01-17",
+    "title": "[Ekstra] Airbus vil teste 5G fra bakke til satellitt",
+    "summary": "Satellitt-produsenten Airbus vil bruke sin rom-kompetanse til å teste mobilkommunikasjon mellom bakke og satellitt.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/airbus-vil-teste-5g-fra-bakke-til-satellitt/567072",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262808",
+    "date": "2026-01-17",
+    "title": "Autonomous Supply Chains: Catalyst for Building Cyber-Resilience",
+    "summary": "... cybersecurity the most urgent barrier to autonomous ... attack surface and diminishes human oversight turning it into a security liability.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sdcexec.com/safety-security/risk-compliance/article/22956554/accenture-autonomous-supply-chains-catalyst-for-building-cyberresilience",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262809",
+    "date": "2026-01-17",
+    "title": "Pentagon's Use of Grok Raises AI Security Concerns - BankInfoSecurity",
+    "summary": "A former senior defense cybersecurity official who requested anonymity to discuss the military's AI considerations said the core issue is whether Grok ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/pentagons-use-grok-raises-ai-security-concerns-a-30546",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262810",
+    "date": "2026-01-17",
+    "title": "Ukraine–Germany operation targets Black Basta, Russian leader wanted - Security Affairs",
+    "summary": "Black Basta ransomware-as-a-service (RaaS) has been active since April 2022, it impacted several businesses and critical infrastructure entities ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/187008/cyber-crime/ukraine-germany-operation-targets-black-basta-russian-leader-wanted.html",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262811",
+    "date": "2026-01-17",
+    "title": "Best Cybersecurity Stocks To Consider - January 17th - MarketBeat",
+    "summary": "... network/security appliances and Globant's broader tech and security services. Cybersecurity as a sector is supported by rising cyber threats and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketbeat.com/instant-alerts/best-cybersecurity-stocks-to-consider-january-17th-2026-01-17/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262812",
+    "date": "2026-01-17",
+    "title": "CEOs, security executives are divided on cyber risks of AI, survey finds - RamaOnHealthcare",
+    "summary": "– Asked how confident they were that AI would strengthen their companies' cybersecurity, 19.5% of CEOs said they weren't confident compared to 30% of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ramaonhealthcare.com/ceos-security-executives-are-divided-on-cyber-risks-of-ai-survey-finds/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262813",
+    "date": "2026-01-17",
+    "title": "US Hackers Reportedly Caused a Blackout in Venezuela - WIRED",
+    "summary": "And former US Cybersecurity and Infrastructure Security Agency director ... US Cyber Command also added in a somewhat ambiguous statement to the Times ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wired.com/story/security-news-this-week-us-hackers-reportedly-caused-a-blackout-in-venezuela/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262814",
+    "date": "2026-01-17",
+    "title": "Bipartisan Bill to Boost Rural Hospitals' Cyber Defenses Clears Senate Committee",
+    "summary": "In developing the strategy, HHS would have to work with the Cybersecurity and Infrastructure Security ... “Cyber attacks on the health care ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.vitallaw.com/news/bipartisan-bill-to-boost-rural-hospitals-cyber-defenses-clears-senate-committee/cspd01803236578a8e479f8aa1be75977a34fb",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262815",
+    "date": "2026-01-17",
+    "title": "Anatomy of an Attack: The Payroll Pirates and the Power of Social Engineering",
+    "summary": "Additional Resources · Nine stories of Unit 42 in action · The state of cybersecurity incident response · 42 tips on your road to cyber resilience ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://unit42.paloaltonetworks.com/social-engineering-payroll-pirates/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262816",
+    "date": "2026-01-17",
+    "title": "Social Engineering in Cyber Security: The Human Attack Surface - Insight News Media",
+    "summary": "Social engineering in cybersecurity is not a technical trick; it is a psychological one. Instead of breaking systems, attackers manipulate people, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://insightnews.media/topic/social-engineering-in-cyber-security-the-human-attack-surface/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262817",
+    "date": "2026-01-17",
+    "title": "CIO Playbook for Post-Quantum Security - BankInfoSecurity",
+    "summary": "She has covered a wide range of topics including business, news, culture, science, technology and cybersecurity. ... © 2026 Information Security Media ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/cio-playbook-for-post-quantum-security-a-30537",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262818",
+    "date": "2026-01-17",
+    "title": "Five ways the ManageMyHealth cyber attack could have been avoided - NZ Herald",
+    "summary": "The vulnerability of your medical information has been vividly illustrated over the past month with the ManageMyHealth ransomware attack, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nzherald.co.nz/business/five-ways-the-managemyhealth-cyber-attack-could-have-been-avoided/premium/RHHJPLCHQJA7VJEAYFTV47POCI/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262819",
+    "date": "2026-01-17",
+    "title": "Over 500 Aisuru, Kimwolf botnet C2 servers severed - SC Media",
+    "summary": "... cyberattacks amid a twofold increase in industrial control system vulnerability exploitation. China Bans Cyber Attacks: Examining Internet Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scworld.com/brief/over-500-aisuru-kimwolf-botnet-c2-servers-severed",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262820",
+    "date": "2026-01-17",
+    "title": "Third-Party Risks in 2026: Outlook and Security Strategies - Hackernoon",
+    "summary": "The State of Third-Party Cybersecurity in 2026. Third-party risk is everywhere in 2026. It is apparent on the web, where third-party code runs on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://hackernoon.com/third-party-risks-in-2026-outlook-and-security-strategies",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262821",
+    "date": "2026-01-17",
+    "title": "Brussels in move to bar Chinese suppliers from EU's critical infrastructure - Financial Times",
+    "summary": "Proposed Cybersecurity Act would phase out groups such as ... Cyber Security · Europe has 'lost the internet', warns Belgium's cyber security chief.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ft.com/content/eb677cb3-f86c-42de-b819-277bcb042295",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262822",
+    "date": "2026-01-17",
+    "title": "Dissecting CrashFix: KongTuke's New Toy - Huntress",
+    "summary": "The code below is responsible for displaying the fake CrashFix security warning through a pop-up window. It creates a centered 400x600 pop-up window ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huntress.com/blog/malicious-browser-extention-crashfix-kongtuke",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262823",
+    "date": "2026-01-17",
+    "title": "Senate Bill Calls for Stronger DOD Cyber Workforce Strategy - MeriTalk",
+    "summary": "... cybersecurity positions as of September 2025, equaling about 25,000 empty positions. “Cyberattacks pose a significant threat to our national security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.meritalk.com/articles/senate-bill-calls-for-stronger-dod-cyber-workforce-strategy/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262806",
     "date": "2026-01-17",
     "title": "What Organizations Should Know About Cybersecurity Compliance",
