@@ -12,6 +12,47 @@
     "impact": 3
   },
   {
+    "id": "20262824",
+    "date": "2026-01-18",
+    "title": "Google Chrome now lets you turn off on-device AI model powering scam detection",
+    "summary": "Google Chrome now lets you delete the local AI models that power the \"Enhanced Protection\" feature, which was upgraded with AI capabilities last year. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262825",
+    "date": "2026-01-17",
+    "title": "Credential-stealing Chrome extensions target enterprise HR platforms",
+    "summary": "Malicious Chrome extensions on the Chrome Web Store masquerading as productivity and security tools for enterprise HR and ERP platforms were discovered stealing authentication credentials or blocking management pages used to respond to security incidents. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262826",
+    "date": "2026-01-17",
+    "title": "Malicious GhostPoster browser extensions found with 840,000 installs",
+    "summary": "Another set of 17 malicious extensions linked to the GhostPoster campaign has been discovered in Chrome, Firefox, and Edge stores, where they accumulated a total of 840,000 installations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-ghostposter-browser-extensions-found-with-840-000-installs/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262807",
     "date": "2026-01-17",
     "title": "[Ekstra] Airbus vil teste 5G fra bakke til satellitt",
