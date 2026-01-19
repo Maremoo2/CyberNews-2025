@@ -848,9 +848,20 @@ export function getTrendAcceleration(incidents, field = 'themes', filters = {}) 
   const sortedQuarters = Object.keys(quarters).sort();
   
   if (sortedQuarters.length < 3) {
+    // Provide more informative message for YTD scenarios
+    const currentYear = new Date().getFullYear();
+    const hasCurrentYearData = sortedQuarters.some(q => q.startsWith(`${currentYear}`));
+    
+    if (hasCurrentYearData && sortedQuarters.length < 3) {
+      return {
+        trends: [],
+        note: `Trend acceleration analysis requires at least 3 quarters of data. Currently have ${sortedQuarters.length} quarter(s). This analysis will become available as more ${currentYear} data is collected throughout the year.`
+      };
+    }
+    
     return {
       trends: [],
-      note: 'Need at least 3 quarters of data for acceleration detection'
+      note: `Need at least 3 quarters of data for acceleration detection (currently have ${sortedQuarters.length} quarter(s))`
     };
   }
   

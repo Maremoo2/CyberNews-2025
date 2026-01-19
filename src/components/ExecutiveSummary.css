@@ -83,6 +83,16 @@
   border: 1px solid #c3e6cb;
 }
 
+.methodology-hint {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
 .count-type-label {
   margin-bottom: 0.5rem;
 }
@@ -115,6 +125,18 @@
   font-size: 1.15rem;
   line-height: 1.8;
   opacity: 0.95;
+}
+
+.narrative-clarification {
+  margin-top: 1rem;
+  opacity: 0.85;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 1rem;
+}
+
+.narrative-clarification small {
+  font-size: 0.85rem;
 }
 
 /* Summary Grid */
