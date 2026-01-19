@@ -1,5 +1,480 @@
 [
   {
+    "id": "20262962",
+    "date": "2026-01-19",
+    "title": "[Ekstra] Omfattende teknisk svikt",
+    "summary": "Kundeservice og chat var nede i flere timer mandag morgen. Posten peker på problemer hos en underleverandør.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/posten-bring-oppe-igjen-etter-omfattende-teknisk-svikt/567141",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262963",
+    "date": "2026-01-19",
+    "title": "Malicious Chrome Extension Crashes Browser in ClickFix Variant ‘CrashFix’",
+    "summary": "Posing as an ad blocker, the malicious extension crashes the browser to lure victims into installing malware. The post Malicious Chrome Extension Crashes Browser in ClickFix Variant ‘CrashFix’ appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/malicious-chrome-extension-crashes-browser-in-clickfix-variant-crashfix/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262964",
+    "date": "2026-01-19",
+    "title": "42,000 Impacted by Ingram Micro Ransomware Attack",
+    "summary": "The compromised personal information includes names, dates of birth, Social Security numbers, and employment-related data. The post 42,000 Impacted by Ingram Micro Ransomware Attack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/42000-impacted-by-ingram-micro-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262965",
+    "date": "2026-01-19",
+    "title": "CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures",
+    "summary": "Cybersecurity researchers have disclosed details of an ongoing campaign dubbed KongTuke that used a malicious Google Chrome extension masquerading as an ad blocker to deliberately crash the web browser and trick victims into running arbitrary commands using ClickFix-like lures to deliver a previo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262966",
+    "date": "2026-01-19",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Anti-regime activists hijacked Iran’s Badr satellite and briefly took control of state TV channels to broadcast messages from Crown Prince Reza Pahlavi, calling for protests against the Islamic Republic. Fantasy Hub is a sophisticated Android Remote Access Trojan (RAT) sold as a Malware-as-a-Serv...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=SecurityAffairs",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262967",
+    "date": "2026-01-19",
+    "title": "Hacktivists hijacked Iran ’s state TV to air anti-regime messages and an appeal to protest from Reza Pahlavi",
+    "summary": "Pierluigi Paganini January 18, 2026 Anti-regime activists briefly took control of Iran ’s Badr satellite, hijacking state TV to broadcast Crown Prince Reza Pahlavi’s calls for protests against the Islamic Republic. Pahlavi’s media team also shared the footage of the hack. “Several Iranian state T...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187055/hacktivism/hacktivists-hijacked-iran-state-tv-to-broadcast-anti-regime-messages-and-reza-pahlavis-protest-appeal.html?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262968",
+    "date": "2026-01-19",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c0518bd0d43d103 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262969",
+    "date": "2026-01-19",
+    "title": "Global tensions are pushing cyber activity toward dangerous territory",
+    "summary": "Cybersecurity is inseparable from geopolitics. Ongoing conflicts, sanctions, trade wars, geoeconomic rivalry, and technological competition have pushed state competition into cyberspace. States use cyber operations to exert pressure on rivals, enabling disruption without resorting to conventional...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/cybersecurity-geopolitical-tensions/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262970",
+    "date": "2026-01-19",
+    "title": "A new European standard outlines security requirements for AI",
+    "summary": "The European Telecommunications Standards Institute (ETSI) has released a new European Standard that addresses a growing concern for security teams working with AI. The standard, ETSI EN 304 223, sets baseline cybersecurity requirements for AI models and systems intended for real-world use. Addre...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/etsi-european-standard-ai-security/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262971",
+    "date": "2026-01-19",
+    "title": "When the Olympics connect everything, attackers pay attention",
+    "summary": "Global sporting events bring a surge of network traffic, new systems, and short term partnerships. That mix draws attention from cyber threat actors who see opportunity in scale and distraction. A new Palo Alto Networks threat study on the Milan Cortina 2026 Winter Olympic Games outlines how atta...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/palo-alto-networks-olympic-cybersecurity-risks-report/?&web_view=true",
+    "tags": [
+      "aws",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262972",
+    "date": "2026-01-19",
+    "title": "Canadian investment regulator confirms hackers hit 750,000 investors",
+    "summary": "The Canadian Investment Regulatory Organization (CIRO) confirmed on Friday that approximately 750,000 investors were impacted by a cyber incident last year. The self-regulatory organization, which is independent of the Canadian government, oversees all investment and mutual fund dealers in the co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/canada-ciro-investing-regulator-confirms-data-breach?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262973",
+    "date": "2026-01-19",
+    "title": "Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor Operations",
+    "summary": "Cybersecurity researchers have disclosed a cross-site scripting (XSS) vulnerability in the web-based control panel used by operators of the StealC information stealer, allowing them to gather crucial insights on one of the threat actors using the malware in their operations. \"By exploiting it, we...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262975",
+    "date": "2026-01-19",
+    "title": "Easterly helms RSAC, Third party apps report, Self-poisoning AI - CISO Series",
+    "summary": "This week's Department of Know is hosted by Sarah Lane with guests Dmitriy Sokolovskiy, senior vice president, information security, Semrush, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/the-department-of-know-easterly-helms-rsac-third-party-apps-report-self-poisoning-ai/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262976",
+    "date": "2026-01-19",
+    "title": "Compax Venture Partners with Allot for its New Mobile Cybersecurity Services - WebWire",
+    "summary": "Allot Ltd. (NASDAQ: ALLT) (TASE: ALLT), a leading global provider of innovative security-as-a-service (SECaaS) and network intelligence solutions ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.webwire.com/ViewPressRel.asp?aId=349330",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262977",
+    "date": "2026-01-19",
+    "title": "NSA dual-hat question, third-party report, GhostPoster extension continues - CISO Series",
+    "summary": "... Cyber Command and the National Security Agency if he's confirmed to the job.” He would replace Gen. Timothy Haugh who had been Cybercom commander ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-nsa-dual-hat-question-third-party-report-ghostposter-extension-continues/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262978",
+    "date": "2026-01-19",
+    "title": "Argus: New Python-Powered Toolkit Streamlines Information Gathering and Reconnaissance",
+    "summary": "... Cyber Security NewsCybersecurity. Security researchers and penetration testers now have access to a comprehensive open-source reconnaissance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/argus-new-python-powered-toolkit-streamlines/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262979",
+    "date": "2026-01-19",
+    "title": "Partouche Faces Delays in Digital Product Security Enhancements Amid Cyberattack ...",
+    "summary": "Partouche, cyber security, digital products, cyberattack, Luxembourg, cybersecurity delays, European Union, cyber resilience act, digital safety ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weareiowa.com/article/news/local/plea-agreement-reached-in-des-moines-murder-trial/524-3069d9d4-6f9b-4039-b884-1d2146bd744f?y-news-29450079-2026-01-19-partouche-faces-delays-in-digital-product-security-enhancements-amid-cyberattack-concerns-in-luxembourg",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262980",
+    "date": "2026-01-19",
+    "title": "Forward to the Past: The Y2K38 Problem Ahead - BitSight Technologies",
+    "summary": "Free Cyber Security Reports. Security Ratings Snapshot · Attack Surface ... Cybersecurity Glossary · Do Not Sell or Share My Personal Information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/what-is-y2k38-problem",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262981",
+    "date": "2026-01-19",
+    "title": "China Claims Over 10 Quantum-Based Cyber Weapons Are Being Tested for Warfare",
+    "summary": "AI and Advanced TechInfrastructure SecurityCybersecurity. China Claims Over 10 Quantum-Based Cyber Weapons Are Being Tested for Warfare. Military ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/subject-matter-areas/cybersecurity/china-claims-over-10-quantum-based-cyber-weapons-are-being-tested-for-warfare/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262982",
+    "date": "2026-01-19",
+    "title": "Bipartisan bill pushes Pentagon to close cyber talent gaps, hardwire workforce strategy into ...",
+    "summary": "Proposed by Gary Peters, a Michigan Democrat and ranking member of the Homeland Security and Governmental Affairs Committee, and Mike Rounds, a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/regulation-standards-and-compliance/bipartisan-bill-pushes-pentagon-to-close-cyber-talent-gaps-hardwire-workforce-strategy-into-national-security/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262983",
+    "date": "2026-01-19",
+    "title": "BodySnatcher Vulnerability Allows Attackers to Impersonate Any ServiceNow User",
+    "summary": "... Cyber Security NewsCybersecurityVulnerability. Security researchers have disclosed a critical vulnerability in ServiceNow's Virtual Agent API and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/bodysnatcher-vulnerability-allows-attackers-to-impersonate-any-servicenow-user/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262984",
+    "date": "2026-01-19",
+    "title": "DHS Finalizing Replacement for Disbanded Critical Infrastructure Security Council, Sources Say",
+    "summary": "... cyber attacks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/federal-pages/dhs/dhs-finalizing-replacement-for-disbanded-critical-infrastructure-security-council-sources-say/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262985",
+    "date": "2026-01-19",
+    "title": "IonQ taps national security veteran Katie Arrington as CIO, signals stronger cyber posture",
+    "summary": "Earlier, as Deputy CIO for Cybersecurity, she led defense-wide oversight of cyber strategy, governance, and compliance. A former state legislator and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/ionq-taps-national-security-veteran-katie-arrington-as-cio-signals-stronger-cyber-posture/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262986",
+    "date": "2026-01-19",
+    "title": "CrashFix Campaign Uses Malicious Browser Extensions to Push Fake Security Warnings",
+    "summary": "Lucas Martin is an Investigative cybersecurity journalist dedicated to breaking stories on ransomware cartels, data breaches, and state-sponsored ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/crashfix-malicious-browser-extensions-fake-security-warnings/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "state-sponsored",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262987",
+    "date": "2026-01-19",
+    "title": "The preparedness paradox: understanding AI risk and reward | World Economic Forum",
+    "summary": "Across the cyber landscape, AI is transforming corporate defence strategies and exposing a growing divide between strategic optimism and security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/01/preparedness-paradox-understanding-ai-risk-reward-cyber-ecosystem/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262988",
+    "date": "2026-01-19",
+    "title": "NCSC launch new operation technology principles - UKAuthority",
+    "summary": "... Cyber Security Centre (NCSC) publishes principles designed to reduce risks from cyber threats. The Secure Connectivity Principles for Operational ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ukauthority.com/articles/ncsc-launch-new-operation-technology-principles",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262989",
+    "date": "2026-01-19",
+    "title": "A week in security (January 12 - January 18) - Malwarebytes",
+    "summary": "Cybersecurity risks should never spread beyond a headline. If something looks dodgy to you, check if it's a scam using Malwarebytes Scam Guard, a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/01/a-week-in-security-january-12-january-18",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262990",
+    "date": "2026-01-19",
+    "title": "Researchers Release PoC for Kerberos Relay Attack via DNS CNAME Exploitation",
+    "summary": "Any Priya is a cybersecurity reporter at Cyber Press, specializing in cyber attacks, dark web monitoring, data breaches, vulnerabilities, and malware.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/poc-for-kerberos-relay-attack/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262991",
+    "date": "2026-01-19",
+    "title": "Can hackers eavesdrop and track people via Bluetooth audio devices? - Panda Security",
+    "summary": "A Belgium-based cybersecurity research group called COSIC at KU Leuven discovered the flaw and reported it to Google in August 2025. The cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pandasecurity.com/en/mediacenter/can-hackers-eavesdrop-and-track-people-via-bluetooth-audio-devices/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262992",
+    "date": "2026-01-19",
+    "title": "Private Sector Intelligence Careers | Security Magazine",
+    "summary": "It requires explicit formation in cognitive skills, decision support, and structured thinking that most traditional academic pathways still treat as ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102073-private-sector-intelligence-careers",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262993",
+    "date": "2026-01-19",
+    "title": "Rubrik unveils sovereign cloud to keep sensitive data local - SecurityBrief Australia",
+    "summary": "Rubrik has launched Rubrik Security Cloud Sovereign, a new version of its data security ... CyberCX extends Australian Open cyber security deal.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/rubrik-unveils-sovereign-cloud-to-keep-sensitive-data-local",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262994",
+    "date": "2026-01-19",
+    "title": "Group-IB helps Betsson Group combat online fraud and enhance customer protection",
+    "summary": "Group-IB partners with Betsson Group to enhance online gaming cybersecurity ... Cyber Security Services - Group ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/media-center/press-releases/betsson-online-fraud-protection/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262873",
     "date": "2026-01-19",
     "title": "With New AI Executive Order, Security Burdens Shift to Users And Organizations",
@@ -7349,6 +7824,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262974",
+    "date": "2026-01-14",
+    "title": "Secure Your Spot at RSAC 2026 Conference",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.darkreading.com/events/rsac-2026-conference",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
   },
   {
     "id": "20262734",
