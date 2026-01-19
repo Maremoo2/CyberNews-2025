@@ -111,14 +111,19 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         </div>
         <p className="summary-subtitle">
           {populationMode === 'incidents' 
-            ? `Key insights from ${analysis.totalIncidents} incidents in ${selectedYear}` 
+            ? `Key insights from ${analysis.totalIncidents} incident-related articles published in ${selectedYear}` 
             : `Coverage of ${analysis.totalAllItems} items (includes explainers, products, and opinions)`}
         </p>
         <div className="counting-note">
           <span className="count-badge">
-            {populationMode === 'incidents' ? 'Incidents only (recommended for executive view)' : 'All content types'}
+            {populationMode === 'incidents' 
+              ? 'Incident-related articles only (recommended for executive view)' 
+              : 'All content types'}
           </span>
           <span className="quality-note">{analysis.curatedCount} curated ({Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%)</span>
+          <div className="methodology-hint">
+            ℹ️ Multiple articles may cover the same underlying incident
+          </div>
         </div>
       </div>
 
@@ -141,6 +146,12 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         <div className="narrative-card">
           <h3>The Story of {selectedYear}</h3>
           <p className="narrative-text">{analysis.narrative}</p>
+          <p className="narrative-clarification">
+            <small><em>
+              Based on {analysis.totalIncidents} incident-related articles. 
+              Note: Multiple news articles may report on the same underlying event.
+            </em></small>
+          </p>
         </div>
       </div>
 
@@ -181,7 +192,8 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               </div>
               <p className="insight-text">
-                <strong>{analysis.severityDistribution.critical}</strong> critical incidents require immediate attention
+                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-impact incidents 
+                ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
               </p>
             </>
           )}
@@ -190,6 +202,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         {/* Top Attack Vectors */}
         <div className="summary-card vectors-card">
           <h3>⚔️ Top Attack Vectors</h3>
+          <div className="count-type-label">
+            <small>Count type: MITRE technique mentions</small>
+          </div>
           {!analysis.dataEnriched || analysis.topVectors.length === 0 ? (
             <div className="no-enrichment-message">
               <p>⚠️ MITRE technique data not available</p>
@@ -208,7 +223,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
               </div>
               {analysis.topVectors.length > 0 && (
                 <p className="insight-text">
-                  Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} incidents
+                  Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} mentions
                 </p>
               )}
             </>
@@ -218,6 +233,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         {/* Most Targeted Sectors */}
         <div className="summary-card sectors-card">
           <h3>🎯 Most Targeted Sectors</h3>
+          <div className="count-type-label">
+            <small>Count type: tag mentions</small>
+          </div>
           <div className="sector-list">
             {analysis.topSectors.length > 0 ? (
               analysis.topSectors.map(([sector, count], index) => (
@@ -233,7 +251,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
           </div>
           {analysis.topSectors.length > 0 && (
             <p className="insight-text">
-              <strong>{capitalize(analysis.topSectors[0]?.[0])}</strong> sector hit hardest with {analysis.topSectors[0]?.[1]} incidents
+              <strong>{capitalize(analysis.topSectors[0]?.[0])}</strong> sector mentioned most with {analysis.topSectors[0]?.[1]} articles
             </p>
           )}
         </div>
@@ -287,6 +305,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 // Helper functions
 function generateNarrative(year, severity, topThemes, attributionRate, kpis, dataEnriched) {
   const criticalCount = severity.critical;
+  const highCount = severity.high;
   const topTheme = topThemes?.themes?.[0]?.name || 'various strategic threats';
   const attributionPct = attributionRate.rate;
   
@@ -295,12 +314,15 @@ function generateNarrative(year, severity, topThemes, attributionRate, kpis, dat
     return `${year} data is being collected and analyzed. ${criticalCount > 0 ? `${criticalCount} critical incidents have been identified.` : ''} Full analysis including severity distribution, themes, and MITRE mapping will be available once enrichment is complete. Run the enrichment script to enable comprehensive analysis.`;
   }
   
+  // Calculate high-impact (critical + high severity)
+  const highImpactCount = criticalCount + highCount;
+  
   if (year === 2026) {
-    return `${year} saw ${criticalCount} critical incidents requiring immediate response, with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incidents were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
+    return `${year} saw ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high severity), with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incidents were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
   } else if (year === 2025) {
-    return `${year} was marked by ${criticalCount} critical incidents. ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. Attribution rate of ${attributionPct}% reflects the challenge of identifying sophisticated threat actors. Cloud infrastructure and supply chains became prime targets.`
+    return `${year} was marked by ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high severity). ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. Attribution rate of ${attributionPct}% reflects the challenge of identifying sophisticated threat actors. Cloud infrastructure and supply chains became prime targets.`
   }
-  return `${year} presented significant cybersecurity challenges with ${criticalCount} critical incidents and an attribution rate of ${attributionPct}%.`
+  return `${year} presented significant cybersecurity challenges with ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high) and an attribution rate of ${attributionPct}%.`
 }
 
 function formatVectorName(vector) {

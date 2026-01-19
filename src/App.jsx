@@ -26,6 +26,7 @@ import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
 import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
 import DataHealthDashboard from './components/DataHealthDashboard'
+import DeduplicationStats from './components/DeduplicationStats'
 import { countUniqueIncidents } from './utils/populationUtils'
 
 // Month helpers
@@ -412,8 +413,20 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="header-text">
-            <h1>Security News Year in Review {selectedYear}</h1>
-            <p className="subtitle">Overview of cybersecurity incidents</p>
+            <h1>
+              {(() => {
+                const currentYear = new Date().getFullYear();
+                const today = new Date().toISOString().split('T')[0];
+                return selectedYear === currentYear 
+                  ? `Security News — ${selectedYear} YTD (as of ${today})`
+                  : `Security News Year in Review ${selectedYear}`;
+              })()}
+            </h1>
+            <p className="subtitle">
+              {selectedYear === new Date().getFullYear()
+                ? "Year-to-date coverage of cybersecurity news and incidents"
+                : "Overview of cybersecurity incidents"}
+            </p>
             <p className="last-updated" title={`Data last refreshed: ${lastUpdated.iso}`}>
               Last updated: {lastUpdated.iso}
             </p>
@@ -479,8 +492,25 @@ function App() {
         </div>
       </section>
 
+      {/* Data Methodology Note */}
+      <section className="methodology-note-section" aria-label="Data methodology">
+        <div className="methodology-note">
+          <div className="note-icon">ℹ️</div>
+          <div className="note-content">
+            <strong>About the data:</strong> This report summarizes <strong>news articles and items published in {selectedYear}</strong>.
+            Item counts represent news articles and updates from RSS feeds. Multiple articles may report on the same underlying incident.
+            {selectedYear === new Date().getFullYear() && (
+              <span className="ytd-note"> As we are early in {selectedYear}, trend analysis requiring quarterly data is limited.</span>
+            )}
+          </div>
+        </div>
+      </section>
+
       {/* Data Health Dashboard */}
       <DataHealthDashboard incidents={incidentsData} />
+
+      {/* Deduplication Statistics - Show estimated unique incidents */}
+      <DeduplicationStats incidents={incidentsData} />
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />

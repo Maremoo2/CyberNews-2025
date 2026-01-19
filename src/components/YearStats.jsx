@@ -55,7 +55,7 @@ function YearStats({ incidents, selectedYear }) {
       <div className="stats-grid">
         <div className="stat-item">
           <div className="stat-number">{stats.totalIncidents}</div>
-          <div className="stat-label">items</div>
+          <div className="stat-label">articles/items</div>
         </div>
         <div className="stat-item">
           <div className="stat-number">{stats.regionsCount}</div>
