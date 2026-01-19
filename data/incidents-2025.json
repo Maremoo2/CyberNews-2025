@@ -3416,6 +3416,21 @@
     "impact": 5
   },
   {
+    "id": "20251420",
+    "date": "2025-12-19",
+    "title": "Cybersecurity Predictions for 2026: Human Risk, AI Data Leaks, and the Next Big Breach | UpGuard",
+    "summary": "Get one step ahead of the next big shock. Four security predictions for 2026—likely, uncomfortable, and easy to miss.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/cybersecurity-predictions-2026-human-risk-ai-data-leaks",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501121",
     "date": "2025-12-19",
     "title": "TikTok fortsetter å overføre personopplysninger til Kina",
@@ -4021,6 +4036,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20251468",
+    "date": "2025-12-17",
+    "title": "KI in der Cybersicherheit: Gekommen, um zu bleiben",
+    "summary": "",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/ki-in-der-cybersicherheit-gekommen-um-zu-bleiben",
+    "tags": [],
     "impact": 3
   },
   {
@@ -12107,6 +12134,20 @@
     "impact": 3
   },
   {
+    "id": "20251421",
+    "date": "2025-09-26",
+    "title": "Roblox executors: It’s all fun and games until someone gets hacked",
+    "summary": "You could be getting more than you bargained for when you download that cheat tool promising quick wins",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/kids-online/roblox-executors-fun-games-someone-gets-hacked/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025954",
     "date": "2025-09-26",
     "title": "Cloud Security in the CNAPP Era: Eight Important Takeaways",
@@ -12131,6 +12172,21 @@
     "sourceUrl": "https://www.trendmicro.com/en_us/research/25/i/cnapp-multi-cloud.html",
     "tags": [
       "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251422",
+    "date": "2025-09-25",
+    "title": "DeceptiveDevelopment: From primitive crypto theft to sophisticated AI-based deception",
+    "summary": "Malware operators collaborate with covert North Korean IT workers, posing a threat to both headhunters and job seekers",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/deceptivedevelopment-from-primitive-crypto-theft-to-sophisticated-ai-based-deception/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -12443,6 +12499,20 @@
     "impact": 3
   },
   {
+    "id": "20251423",
+    "date": "2025-09-22",
+    "title": "Watch out for SVG files booby-trapped with malware",
+    "summary": "What you see is not always what you get as cybercriminals increasingly weaponize SVG files as delivery vectors for stealthy malware",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/malware/svg-files-spreading-malware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501205",
     "date": "2025-09-22",
     "title": "Using AI to assist in rare disease diagnosis",
@@ -12530,6 +12600,22 @@
     "impact": 3
   },
   {
+    "id": "20251424",
+    "date": "2025-09-19",
+    "title": "Gamaredon X Turla collab",
+    "summary": "Notorious APT group Turla collaborates with Gamaredon, both FSB-associated groups, to compromise high‑profile targets in Ukraine",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025960",
     "date": "2025-09-19",
     "title": "How AI-Native Development Platforms Enable Fake Captcha Pages",
@@ -12562,6 +12648,21 @@
       "collins-aerospace"
     ],
     "impact": 5
+  },
+  {
+    "id": "20251425",
+    "date": "2025-09-18",
+    "title": "Small businesses, big targets: Protecting your business against ransomware",
+    "summary": "Long known to be a sweet spot for cybercriminals, small businesses are more likely to be victimized by ransomware than large enterprises",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/small-businesses-big-targets-protecting-business-ransomware/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "202501207",
@@ -12709,6 +12810,18 @@
     "impact": 5
   },
   {
+    "id": "20251426",
+    "date": "2025-09-16",
+    "title": "HybridPetya: The Petya/NotPetya copycat comes with a twist",
+    "summary": "HybridPetya is the fourth publicly known real or proof-of-concept bootkit with UEFI Secure Boot bypass functionality",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/hybridpetya-petya-notpetya-copycat-twist/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "202501214",
     "date": "2025-09-16",
     "title": "Erlend Andreas Methi",
@@ -12845,6 +12958,21 @@
     "impact": 3
   },
   {
+    "id": "20251427",
+    "date": "2025-09-12",
+    "title": "Introducing HybridPetya: Petya/NotPetya copycat with UEFI Secure Boot bypass",
+    "summary": "UEFI copycat of Petya/NotPetya exploiting CVE-2024-7344 discovered on VirusTotal",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/introducing-hybridpetya-petya-notpetya-copycat-uefi-secure-boot-bypass/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025104",
     "date": "2025-09-12",
     "title": "Red Sift now offered through GuidePoint Security in new partnership",
@@ -12856,6 +12984,18 @@
     "tags": [
       "malware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20251428",
+    "date": "2025-09-11",
+    "title": "Are cybercriminals hacking your systems – or just logging in?",
+    "summary": "As bad actors often simply waltz through companies’ digital front doors with a key, here’s how to keep your own door locked tight",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/cybercriminals-hacking-systems-logging-in/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -13000,6 +13140,36 @@
     "impact": 3
   },
   {
+    "id": "20251429",
+    "date": "2025-09-09",
+    "title": "Preventing business disruption and building cyber-resilience with MDR",
+    "summary": "Given the serious financial and reputational risks of incidents that grind business to a halt, organizations need to prioritize a prevention-first cybersecurity strategy",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/preventing-business-disruption-building-cyber-resilience-mdr/",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251469",
+    "date": "2025-09-09",
+    "title": "Unmasking The Gentlemen Ransomware: Tactics, Techniques, and Procedures Revealed",
+    "summary": "An analysis of the Gentlemen ransomware group, which employs advanced, adaptive tactics, techniques, and procedure to target critical industries worldwide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html",
+    "tags": [
+      "ransomware",
+      "apt"
+    ],
+    "impact": 5
+  },
+  {
     "id": "202501218",
     "date": "2025-09-09",
     "title": "Breaking the networking wall in AI infrastructure ",
@@ -13094,6 +13264,65 @@
     "tags": [
       "malware",
       "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251430",
+    "date": "2025-09-05",
+    "title": "Under lock and key: Safeguarding business data with encryption",
+    "summary": "As the attack surface expands and the threat landscape grows more complex, it’s time to consider whether your data protection strategy is fit for purpose",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/under-lock-key-safeguarding-business-data-encryption/",
+    "tags": [
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251431",
+    "date": "2025-09-04",
+    "title": "GhostRedirector poisons Windows servers: Backdoors with a side of Potatoes",
+    "summary": "ESET researchers have identified a new threat actor targeting Windows servers with a passive C++ backdoor and a malicious IIS module that manipulates Google search results",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/ghostredirector-poisons-windows-servers-backdoors-side-potatoes/",
+    "tags": [
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251470",
+    "date": "2025-09-04",
+    "title": "Three Critical Facts About Cyber Risk Management",
+    "summary": "For CISOs responsible for cyber risk management, these three insights will help build a strong and reliable foundation for your proactive security strategy.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/i/cyber-risk-management-facts.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251471",
+    "date": "2025-09-04",
+    "title": "An MDR Analysis of the AMOS Stealer Campaign Targeting macOS via ‘Cracked’ Apps",
+    "summary": "Trend™ Research analyzed a campaign distributing Atomic macOS Stealer (AMOS), a malware family targeting macOS users. Attackers disguise the malware as “cracked” versions of legitimate apps, luring users into installation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/i/an-mdr-analysis-of-the-amos-stealer-campaign.html",
+    "tags": [
+      "malware",
       "ai-ml"
     ],
     "impact": 3
@@ -13194,6 +13423,20 @@
     "impact": 3
   },
   {
+    "id": "20251472",
+    "date": "2025-08-29",
+    "title": " Operation Serengeti 2.0: Trend Micro Helps Law Enforcement Fight Cybercrime in Africa",
+    "summary": "Operation Serengeti 2.0: With Trend Micro’s support, INTERPOL led a major crackdown across Africa, arresting cybercriminals, dismantling infrastructures, recovering illicit funds, and protecting tens of thousands of victims.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/operation-serengeti-trend-micro.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
     "id": "2025432",
     "date": "2025-08-29",
     "title": "The Secret to Hacking SaaS? Forget Passwords — Go for Tokens",
@@ -13227,6 +13470,53 @@
     "impact": 5
   },
   {
+    "id": "20251432",
+    "date": "2025-08-28",
+    "title": "This month in security with Tony Anscombe – August 2025 edition",
+    "summary": "From Meta shutting down millions of WhatsApp accounts linked to scam centers all the way to attacks at water facilities in Europe, August 2025 saw no shortage of impactful cybersecurity news",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2025/",
+    "tags": [
+      "critical-infrastructure",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251473",
+    "date": "2025-08-28",
+    "title": "Trend Vision One™ Email Security Raises the Standard",
+    "summary": "Stay ahead of evolving threats with AI-powered email and collaboration security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/email-security-standards.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251474",
+    "date": "2025-08-28",
+    "title": "TAOTH Campaign Exploits End-of-Support Software to Target Traditional Chinese Users and Dissidents",
+    "summary": "The TAOTH campaign exploited abandoned software and spear-phishing to deploy multiple malware families, targeting dissidents and other high-value individuals across Eastern Asia.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/taoth-campaign.html",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501220",
     "date": "2025-08-28",
     "title": "Personopplysninger i valgkamp",
@@ -13250,6 +13540,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20251433",
+    "date": "2025-08-27",
+    "title": "Don’t let “back to school” become “back to (cyber)bullying”",
+    "summary": "Cyberbullying is a fact of life in our digital-centric society, but there are ways to push back",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/kids-online/dont-let-back-to-school-become-back-to-bullying/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -13277,6 +13579,36 @@
       "malware",
       "cloud",
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251434",
+    "date": "2025-08-26",
+    "title": "First known AI-powered ransomware uncovered by ESET Research",
+    "summary": "The discovery of PromptLock shows how malicious use of AI models could supercharge ransomware and other threats",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/ransomware/first-known-ai-powered-ransomware-uncovered-eset-research/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251475",
+    "date": "2025-08-26",
+    "title": "Trend Vision One Integrates Microsoft Defender for Endpoint",
+    "summary": "Discover how Trend Vision One integrates with Microsoft Defender for Endpoint to unify visibility, close security gaps, and accelerate risk mitigation - maximizing protection without replacing existing tools.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/vision-one-integrates-microsoft-defender.html",
+    "tags": [
+      "malware",
+      "microsoft"
     ],
     "impact": 3
   },
@@ -13401,6 +13733,21 @@
     "impact": 3
   },
   {
+    "id": "20251476",
+    "date": "2025-08-22",
+    "title": "Leadership, Innovation, and the Future of AI: Lessons from Trend Micro CEO & Co-Founder Eva Chen",
+    "summary": "Discover how AI is reshaping cybersecurity through our CEO, Eva Chen’s industry briefing series. Gain practical strategies, real-world insights, and a clear roadmap to secure your AI initiatives with confidence.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/eva-chen-future-of-ai.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025886",
     "date": "2025-08-22",
     "title": "7 Web Application Risks You Can Reveal with Penetration Testing",
@@ -13482,6 +13829,20 @@
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/huang-ceo-nvidia-rassicura-cinesi-i-nostri-chip-h20-non-sono-minaccia-la-sicurezza-AHfQxEHC",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251435",
+    "date": "2025-08-21",
+    "title": "\"What happens online stays online\" and other cyberbullying myths, debunked",
+    "summary": "Separating truth from fiction is the first step towards making better parenting decisions. Let’s puncture some of the most common misconceptions about online harassment.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/kids-online/what-happens-online-stays-online-and-other-cyberbullying-myths-debunked/",
+    "tags": [
+      "malware"
+    ],
     "impact": 3
   },
   {
@@ -13571,6 +13932,24 @@
     "impact": 3
   },
   {
+    "id": "20251477",
+    "date": "2025-08-20",
+    "title": "Warlock: From SharePoint Vulnerability Exploit to Enterprise Ransomware",
+    "summary": "Warlock ransomware exploits unpatched Microsoft SharePoint vulnerabilities to gain access, escalate privileges, steal credentials, move laterally, and deploy ransomware with data exfiltration across enterprise environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/warlock-ransomware.html",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501224",
     "date": "2025-08-20",
     "title": "MindJourney enables AI to explore simulated 3D worlds to improve spatial interpretation",
@@ -13609,6 +13988,18 @@
     "impact": 3
   },
   {
+    "id": "20251436",
+    "date": "2025-08-19",
+    "title": "The need for speed: Why organizations are turning to rapid, trustworthy MDR",
+    "summary": "How top-tier managed detection and response (MDR) can help organizations stay ahead of increasingly agile and determined adversaries",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/need-speed-organizations-turning-rapid-trustworthy-mdr/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2025309",
     "date": "2025-08-19",
     "title": "The Ultimate Guide to Software Supply Chain Security Risks, Threats, and Mitigations",
@@ -13619,6 +14010,21 @@
     "sourceUrl": "https://sectigostore.com/blog/software-supply-chain-security-risks-threats-and-mitigations/",
     "tags": [
       "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251437",
+    "date": "2025-08-18",
+    "title": "Investors beware: AI-powered financial scams swamp social media",
+    "summary": "Can you tell the difference between legitimate marketing and deepfake scam ads? It’s not always as easy as you may think.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/investors-beware-ai-powered-financial-scams-swamp-social-media/",
+    "tags": [
+      "finance",
       "ai-ml"
     ],
     "impact": 3
@@ -13666,6 +14072,21 @@
       "microsoft"
     ],
     "impact": 5
+  },
+  {
+    "id": "20251478",
+    "date": "2025-08-14",
+    "title": "Crypto24 Ransomware Group Blends Legitimate Tools with Custom Malware for Stealth Attacks",
+    "summary": "Crypto24 is a ransomware group that stealthily blends legitimate tools with custom malware, using advanced evasion techniques to bypass security and EDR technologies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/crypto24-ransomware-stealth-attacks.html",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
   },
   {
     "id": "2025433",
@@ -13761,6 +14182,51 @@
     "impact": 3
   },
   {
+    "id": "20251438",
+    "date": "2025-08-12",
+    "title": "Supply-chain dependencies: Check your resilience blind spot",
+    "summary": "Does your business truly understand its dependencies, and how to mitigate the risks posed by an attack on them?",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/supply-chain-dependencies-resilience-blind-spot/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251439",
+    "date": "2025-08-12",
+    "title": "How the always-on generation can level up its cybersecurity game",
+    "summary": "Digital natives are comfortable with technology, but may be more exposed to online scams and other threats than they think",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/kids-online/young-people-level-up-cybersecurity-game/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251479",
+    "date": "2025-08-12",
+    "title": "New Ransomware Charon Uses Earth Baxia APT Techniques to Target Enterprises",
+    "summary": "We uncovered a campaign that makes use of Charon, a new ransomware family, and advanced APT-style techniques to target organizations with customized ransom demands.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/h/new-ransomware-charon.html",
+    "tags": [
+      "ransomware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501227",
     "date": "2025-08-12",
     "title": "Dion: the distributed orthonormal update revolution is here",
@@ -13817,6 +14283,37 @@
     "impact": 3
   },
   {
+    "id": "20251440",
+    "date": "2025-08-11",
+    "title": "WinRAR zero-day exploited in espionage attacks against high-value targets",
+    "summary": "The attacks used spearphishing campaigns to target financial, manufacturing, defense, and logistics companies in Europe and Canada, ESET research finds",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/winrar-zero-day-exploited-espionage-attacks-high-value-targets/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251441",
+    "date": "2025-08-11",
+    "title": "Update WinRAR tools now: RomCom and others exploiting zero-day vulnerability",
+    "summary": "ESET Research discovered a zero-day vulnerability in WinRAR being exploited in the wild in the guise of job application documents; the weaponized archives exploited a path traversal flaw to compromise their targets",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
     "id": "615",
     "date": "2025-08-10",
     "title": "Google Salesforce Data Breach",
@@ -13833,6 +14330,32 @@
       "voice-phishing"
     ],
     "impact": 4
+  },
+  {
+    "id": "20251442",
+    "date": "2025-08-08",
+    "title": "Black Hat USA 2025: Is a high cyber insurance premium about your risk, or your insurer’s?",
+    "summary": "A sky-high premium may not always reflect your company’s security posture",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2025-cyber-insurance-premium/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251443",
+    "date": "2025-08-08",
+    "title": "Android adware: What is it, and how do I get it off my device?",
+    "summary": "Is your phone suddenly flooded with aggressive ads, slowing down performance or leading to unusual app behavior? Here’s what to do.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/mobile-security/android-adware-what-is-it-how-get-it-off-my-device/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
   },
   {
     "id": "2025492",
@@ -13891,6 +14414,32 @@
     "country": "India",
     "sourceName": "Mashable Cybersecurity",
     "sourceUrl": "https://in.mashable.com/digital-culture/98272/instagram-map-sparks-privacy-panic-over-location-sharing-and-geotagging",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251444",
+    "date": "2025-08-07",
+    "title": "Black Hat USA 2025: Policy compliance and the myth of the silver bullet",
+    "summary": "Who’s to blame when the AI tool managing a company’s compliance status gets it wrong?",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/black-hat-usa-2025-policy-compliance-cybersecurity-silver-bullet/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251445",
+    "date": "2025-08-07",
+    "title": "Black Hat USA 2025: Does successful cybersecurity today increase cyber-risk tomorrow?",
+    "summary": "Success in cybersecurity is when nothing happens, plus other standout themes from two of the event’s keynotes",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/black-hat-usa-2025-successful-cybersecurity-cyber-risk/",
     "tags": [],
     "impact": 3
   },
@@ -13976,6 +14525,20 @@
     "tags": [
       "data-breach",
       "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251446",
+    "date": "2025-08-05",
+    "title": "ESET Threat Report H1 2025: ClickFix, infostealer disruptions, and ransomware deathmatch",
+    "summary": "Threat actors are embracing ClickFix, ransomware gangs are turning on each other – toppling even the leaders – and law enforcement is disrupting one infostealer after another",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/podcasts/eset-threat-report-h1-2025-clickfix-infostealer-disruptions-ransomware-deathmatch/",
+    "tags": [
+      "ransomware"
     ],
     "impact": 3
   },
@@ -14154,6 +14717,33 @@
     "impact": 3
   },
   {
+    "id": "20251447",
+    "date": "2025-08-01",
+    "title": "Is your phone spying on you? | Unlocked 403 cybersecurity podcast (S2E5)",
+    "summary": "Here's what you need to know about the inner workings of modern spyware and how to stay away from apps that know too much",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/is-your-phone-spying-on-you-unlocked-403-cybersecurity-podcast-s2e5/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251448",
+    "date": "2025-08-01",
+    "title": "Why the tech industry needs to stand firm on preserving end-to-end encryption",
+    "summary": "Restricting end-to-end encryption on a single-country basis would not only be absurdly difficult to enforce, but it would also fail to deter criminal activity",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/privacy/tech-industry-end-to-end-encryption/",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025768",
     "date": "2025-08-01",
     "title": "What is Ransomware-as-a-Service (RaaS)?",
@@ -14218,6 +14808,20 @@
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/le-polizze-cybersecurity-diventano-sempre-piu-importanti-piani-aziendali-la-gestione-rischio-AHkA7VyB",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251449",
+    "date": "2025-07-31",
+    "title": "This month in security with Tony Anscombe – July 2025 edition",
+    "summary": "Here's a look at cybersecurity stories that moved the needle, raised the alarm, or offered vital lessons in July 2025",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2025/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -14295,6 +14899,36 @@
     "impact": 4
   },
   {
+    "id": "20251450",
+    "date": "2025-07-29",
+    "title": "The hidden risks of browser extensions – and how to stay safe",
+    "summary": "Not all browser add-ons are handy helpers – some may contain far more than you have bargained for",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/hidden-risks-browser-extensions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251480",
+    "date": "2025-07-29",
+    "title": "Gunra Ransomware Group Unveils Efficient Linux Variant ",
+    "summary": "This blog discusses how Gunra ransomware’s new Linux variant accelerates and customizes encryption, expanding the group’s reach with advanced cross-platform tactics.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/gunra-ransomware-linux-variant.html",
+    "tags": [
+      "ransomware",
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025310",
     "date": "2025-07-29",
     "title": "5 Real-World Software Nightmares That Code Integrity Verification Could Have Prevented",
@@ -14351,6 +14985,36 @@
     "tags": [
       "malware",
       "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251481",
+    "date": "2025-07-28",
+    "title": "Unlocking the Power of Amazon Security Lake for Proactive Security",
+    "summary": "Security is a central challenge in modern application development and maintenance, requiring not just traditional practices but also a deep understanding of application architecture and data flow. While organizations now have access to rich data like logs and telemetry, the real challenge lies in...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/amazon-security-lake-proactive-security.html",
+    "tags": [
+      "ai-ml",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251482",
+    "date": "2025-07-28",
+    "title": "Revisiting UNC3886 Tactics to Defend Against Present Risk",
+    "summary": "We examine the past tactics used by UNC3886 to gain insight on how to best strengthen defenses against the ongoing and emerging threats of this APT group.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/revisiting-unc3886-tactics-to-defend-against-present-risk.html",
+    "tags": [
+      "apt",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -14413,6 +15077,64 @@
     "impact": 3
   },
   {
+    "id": "20251451",
+    "date": "2025-07-25",
+    "title": "SharePoint under fire: ToolShell attacks hit organizations worldwide",
+    "summary": "The ToolShell bugs are being exploited by cybercriminals and APT groups alike, with the US on the receiving end of 13 percent of all attacks",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/sharepoint-under-fire-toolshell-attacks-hit-organizations-worldwide/",
+    "tags": [
+      "vulnerability",
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251452",
+    "date": "2025-07-24",
+    "title": "ToolShell: An all-you-can-eat buffet for threat actors",
+    "summary": "ESET Research has been monitoring attacks involving the recently discovered ToolShell zero-day vulnerabilities",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/toolshell-an-all-you-can-eat-buffet-for-threat-actors/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251453",
+    "date": "2025-07-24",
+    "title": "Rogue CAPTCHAs: Look out for phony verification pages spreading malware",
+    "summary": "Before rushing to prove that you're not a robot, be wary of deceptive human verification pages as an increasingly popular vector for delivering malware",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/rogue-captchas-look-out-phony-verification-pages-spreading-malware/",
+    "tags": [
+      "malware",
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251483",
+    "date": "2025-07-24",
+    "title": "Proactive Email Security: The Power of AI",
+    "summary": "Lead with AI-powered email security to stay ahead of attackers and personalize user interaction at every touchpoint, bridging technology and behavior with precision.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/proactive-email-security.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501243",
     "date": "2025-07-24",
     "title": "Navigating medical education in the era of generative AI",
@@ -14467,6 +15189,51 @@
       "apt",
       "ai-ml",
       "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251454",
+    "date": "2025-07-22",
+    "title": "Why is your data worth so much? | Unlocked 403 cybersecurity podcast (S2E4)",
+    "summary": "Behind every free online service, there's a price being paid. Learn why your digital footprint is so valuable, and when you might actually be the product.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/why-is-your-data-worth-so-much-unlocked-403-cybersecurity-podcast-s2e4/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251484",
+    "date": "2025-07-22",
+    "title": "Back to Business: Lumma Stealer Returns with Stealthier Methods",
+    "summary": "Lumma Stealer has re-emerged shortly after its takedown. This time, the cybergroup behind this malware appears to be intent on employing more covert tactics while steadily expanding its reach. This article shares the latest methods used to propagate this threat.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/lumma-stealer-returns.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251485",
+    "date": "2025-07-22",
+    "title": "Proactive Security Insights for SharePoint Attacks (CVE-2025-53770 and CVE-2025-53771)",
+    "summary": "CVE-2025-53770 and CVE-2025-53771 are vulnerabilities in on-premise Microsoft SharePoint Servers that evolved from previously patched flaws, allowing unauthenticated remote code execution through advanced deserialization and ViewState abuse.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/cve-2025-53770-and-cve-2025-53771-sharepoint-attacks.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
     ],
     "impact": 3
   },
@@ -14642,6 +15409,18 @@
     "impact": 3
   },
   {
+    "id": "20251486",
+    "date": "2025-07-17",
+    "title": "Securing Tomorrow: An Interview with Trend Micro VP of Product Management Michael Habibi",
+    "summary": "Proactive security in a rapidly evolving threat landscape",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/endpoint-protection-epp-gartner-magic-quadrant-july-2025.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "202501250",
     "date": "2025-07-17",
     "title": "Transparency on Microsoft Defender for Office 365 email security effectiveness",
@@ -14671,6 +15450,20 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "20251487",
+    "date": "2025-07-16",
+    "title": "CISA's NIMBUS 2000 Initiative: Understanding Key Findings and Strengthening Cloud Identity Security",
+    "summary": "This blog explores key findings from CISA’s NIMBUS 2000 Cloud Identity Security Technical Exchange and how Trend Vision One™ Cloud Security aligns with these priorities. It highlights critical challenges in token validation, secrets management, and logging visibility—offering insights into how in...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/nimbus-2000-initiative-findings.html",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 5
   },
   {
     "id": "202501251",
@@ -14776,6 +15569,37 @@
       "google"
     ],
     "impact": 5
+  },
+  {
+    "id": "20251455",
+    "date": "2025-07-15",
+    "title": "Unmasking AsyncRAT: Navigating the labyrinth of forks",
+    "summary": "ESET researchers map out the labyrinthine relationships among the vast hierarchy of AsyncRAT variants",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/unmasking-asyncrat-navigating-labyrinth-forks/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251488",
+    "date": "2025-07-15",
+    "title": "Preventing Zero-Click AI Threats: Insights from EchoLeak",
+    "summary": "A zero-click exploit called EchoLeak reveals how AI assistants like Microsoft 365 Copilot can be manipulated to leak sensitive data without user interaction. This entry breaks down how the attack works, why it matters, and what defenses are available to proactively mitigate this emerging AI-nativ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/preventing-zero-click-ai-threats-insights-from-echoleak.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
   },
   {
     "id": "202501254",
@@ -15062,6 +15886,22 @@
     "impact": 3
   },
   {
+    "id": "20251489",
+    "date": "2025-07-07",
+    "title": "BERT Ransomware Group Targets Asia and Europe on Multiple Platforms",
+    "summary": "BERT is a newly emerged ransomware group that pairs simple code with effective execution—carrying out attacks across Europe and Asia. In this entry, we examine the group’s tactics, how their variants have evolved, and the tools they use to get past defenses and speed up encryption across platforms.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/bert-ransomware-group-targets-asia-and-europe-on-multiple-platforms.html",
+    "tags": [
+      "ransomware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501261",
     "date": "2025-07-07",
     "title": "AI Testing and Evaluation: Learnings from pharmaceuticals and medical devices",
@@ -15131,6 +15971,32 @@
     "impact": 3
   },
   {
+    "id": "20251456",
+    "date": "2025-07-04",
+    "title": "How to get into cybersecurity | Unlocked 403 cybersecurity podcast (S2E3)",
+    "summary": "Cracking the code of a successful cybersecurity career starts here. Hear from ESET's Robert Lipovsky as he reveals how to break into and thrive in this fast-paced field.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/how-get-cybersecurity-unlocked-403-cybersecurity-podcast-s2e3/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251457",
+    "date": "2025-07-04",
+    "title": "Task scams: Why you should never pay to get paid",
+    "summary": "Some schemes might sound unbelievable, but they’re easier to fall for than you think. Here’s how to avoid getting played by gamified job scams.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/task-scams-why-you-should-never-pay-to-get-paid/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025435",
     "date": "2025-07-04",
     "title": "How to Easily Escalate to Root on Linux Using the Latest Sudo Vulnerabilities",
@@ -15172,6 +16038,36 @@
     "sourceName": "SN Wire",
     "sourceUrl": "https://snwire.com/plutosec-enhances-cybersecurity-for-businesses-with-comprehensive-digital-protection-solutions/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251458",
+    "date": "2025-07-03",
+    "title": "How government cyber cuts will affect you and your business",
+    "summary": "Deep cuts in cybersecurity spending risk creating ripple effects that will put many organizations at a higher risk of falling victim to cyberattacks",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/business-security/how-government-cyber-cuts-will-affect-you-and-your-business/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251490",
+    "date": "2025-07-03",
+    "title": "AI Dilemma: Emerging Tech as Cyber Risk Escalates",
+    "summary": "As AI adoption accelerates, businesses face mounting cyber threats—and urgent choices about secure implementation",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/g/ai-cyber-risks.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -15224,6 +16120,22 @@
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/cybersicurezza-nell-area-euro-investimenti-i-75-miliardi-AH47W3RB",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251459",
+    "date": "2025-07-02",
+    "title": "Gamaredon in 2024: Cranking out spearphishing campaigns against Ukraine with an evolved toolset",
+    "summary": "ESET Research analyzes Gamaredon’s updated cyberespionage toolset, new stealth-focused techniques, and aggressive spearphishing operations observed throughout 2024",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/gamaredon-2024-cranking-out-spearphishing-campaigns-ukraine-evolved-toolset/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -15280,6 +16192,35 @@
     "tags": [
       "data-breach",
       "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251460",
+    "date": "2025-07-01",
+    "title": "ESET Threat Report H1 2025: Key findings",
+    "summary": "ESET Chief Security Evangelist Tony Anscombe looks at some of the report's standout findings and their implications for organizations in 2025",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/eset-threat-report-h1-2025-key-findings/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251461",
+    "date": "2025-07-01",
+    "title": "ESET APT Activity Report Q4 2024–Q1 2025: Malware sharing, wipers and exploits",
+    "summary": "ESET experts discuss Sandworm’s new data wiper, relentless campaigns by UnsolicitedBooker, attribution challenges amid tool-sharing, and other key findings from the latest APT Activity Report",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/podcasts/eset-apt-activity-report-q4-2024q1-2025-malware-sharing-wipers-exploits/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
       "ai-ml"
     ],
     "impact": 3
@@ -15432,6 +16373,50 @@
     "impact": 3
   },
   {
+    "id": "20251462",
+    "date": "2025-06-28",
+    "title": "This month in security with Tony Anscombe – June 2025 edition",
+    "summary": "From Australia's new ransomware payment disclosure rules to another record-breaking DDoS attack, June 2025 saw no shortage of interesting cybersecurity news",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-june-2025/",
+    "tags": [
+      "ransomware",
+      "ddos"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251491",
+    "date": "2025-06-27",
+    "title": "Why Trend Micro Continues to be Named a CNAPP Leader",
+    "summary": "Trend Micro is recognized for our Cloud CNAPP capabilities and product strategy—affirming our vision to deliver a cloud security solution that predicts, protects, and responds to threats across hybrid and multi-cloud environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/idc-cnapp-leader-2025.html",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251492",
+    "date": "2025-06-27",
+    "title": "How to Build an Effective Security Awareness Program",
+    "summary": "This is a step-by-step guide to build a strong security awareness and training program that empowers your employees and protects your business.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/security-awareness-program.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501268",
     "date": "2025-06-27",
     "title": "Unveiling RIFT: Enhancing Rust malware analysis through pattern matching",
@@ -15566,6 +16551,18 @@
     "tags": [
       "ransomware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20251463",
+    "date": "2025-06-26",
+    "title": "ESET Threat Report H1 2025",
+    "summary": "A view of the H1 2025 threat landscape as seen by ESET telemetry and from the perspective of ESET threat detection and research experts",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/eset-threat-report-h1-2025/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -15712,6 +16709,22 @@
       "patient care"
     ],
     "impact": 4
+  },
+  {
+    "id": "20251493",
+    "date": "2025-06-24",
+    "title": "Why a Classic MCP Server Vulnerability Can Undermine Your Entire AI Agent",
+    "summary": "A single SQL injection bug in Anthropic’s SQLite MCP server—forked over 5,000 times—can seed stored prompts, exfiltrate data, and hand attackers the keys to entire agent workflows. This entry unpacks the attack chain and lays out concrete fixes to shut it down.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/why-a-classic-mcp-server-vulnerability-can-undermine-your-entire-ai-agent.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "202501273",
@@ -15876,6 +16889,23 @@
     "impact": 3
   },
   {
+    "id": "20251494",
+    "date": "2025-06-19",
+    "title": "An Investigation of AWS Credential Exposure via Overprivileged Containers",
+    "summary": "Overprivileged or misconfigured containers in Amazon EKS can expose sensitive AWS credentials to threats like packet sniffing and API spoofing, highlighting the need for least privilege and proactive security to detect and reduce these risks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/aws-credential-exposure-overprivileged-containers.html",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2025990",
     "date": "2025-06-19",
     "title": "Meilleur gestionnaire de mots de passe gratuit ou payant, le comparatif en janvier 2026",
@@ -15886,6 +16916,22 @@
     "sourceUrl": "https://www.clubic.com/application-web/article-854952-1-gestionnaires-mots-meilleur-logiciel-gratuit-windows.html",
     "tags": [
       "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251495",
+    "date": "2025-06-18",
+    "title": "Uncovering a Tor-Enabled Docker Exploit",
+    "summary": "A recent attack campaign took advantage of exposed Docker Remote APIs and used the Tor network to deploy a stealthy cryptocurrency miner. This blog breaks down the attack chain.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/tor-enabled-docker-exploit.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
       "ai-ml"
     ],
     "impact": 3
@@ -15983,6 +17029,23 @@
     "impact": 4
   },
   {
+    "id": "20251496",
+    "date": "2025-06-17",
+    "title": "Critical Langflow Vulnerability (CVE-2025-3248) Actively Exploited to Deliver Flodrix Botnet  ",
+    "summary": "This blog uncovers an active campaign exploiting CVE-2025-3248 in Langflow versions before 1.3.0 that deploys the Flodrix botnet, enabling threat actors to achieve full system compromise, initiate DDoS attacks, and potentially exfiltrate sensitive data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/langflow-vulnerability-flodric-botnet.html",
+    "tags": [
+      "vulnerability",
+      "ddos",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
     "id": "202501280",
     "date": "2025-06-17",
     "title": "New methods boost reasoning in small and large language models",
@@ -16055,6 +17118,23 @@
     "sourceName": "MIT Cyber Security",
     "sourceUrl": "https://news.mit.edu/2025/gaspare-loduca-named-vp-information-systems-technology-and-cio-0617",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251497",
+    "date": "2025-06-16",
+    "title": "Clone, Compile, Compromise: Water Curse’s Open-Source Malware Trap on GitHub ",
+    "summary": "The Trend Micro™ Managed Detection and Response team uncovered a threat campaign orchestrated by an active group, Water Curse. The threat actor exploits GitHub, one of the most trusted platforms for open-source software, as a delivery channel for weaponized repositories.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/water-curse.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -16174,6 +17254,20 @@
     "impact": 3
   },
   {
+    "id": "20251498",
+    "date": "2025-06-13",
+    "title": "Anubis: A Closer Look at an Emerging Ransomware with Built-in Wiper",
+    "summary": "Anubis is an emerging ransomware-as-a-service (RaaS) group that adds a destructive edge to the typical double-extortion model with its file-wiping feature. We explore its origins and examine the tactics behind its dual-threat approach.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/anubis-a-closer-look-at-an-emerging-ransomware.html",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501284",
     "date": "2025-06-13",
     "title": "TRUST er et nasjonalt KI-senter og Datatilsynet er med!",
@@ -16200,6 +17294,20 @@
       "google"
     ],
     "impact": 3
+  },
+  {
+    "id": "20251499",
+    "date": "2025-06-12",
+    "title": "Critical SAP Vulnerability Exposes Enterprises",
+    "summary": "CVE-2025-31324 in SAP NetWeaver Visual Composer enables unauthenticated file uploads, exposing systems to RCE and data loss - learn what to do about it.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/sap-vulnerability-fix.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
   },
   {
     "id": "202501285",
@@ -16354,6 +17462,61 @@
     "impact": 3
   },
   {
+    "id": "20251500",
+    "date": "2025-06-11",
+    "title": "Innovation in the Fast Lane: Lessons from Motorsport and Cybersecurity",
+    "summary": "Learn how Trend Micro and NEOM McLaren Formula E Team turn creativity into innovation by rethinking team structures, workflows, and data use.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/motorsport-cybersecurity.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251501",
+    "date": "2025-06-11",
+    "title": "Ensuring Secure Container Deployments with Image Signature Verification",
+    "summary": "Ensure your container deployments are secure with a verified image signature.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/secure-containers-verified-image-signature.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251502",
+    "date": "2025-06-11",
+    "title": "Enabling Secure AI Inference: Trend Cybertron Leverages NVIDIA Universal LLM NIM Microservices",
+    "summary": "Learn how Trend's Cybertron has been harnessing the power of NVIDIA Universal LLM NIM Microservices.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/cybertron-nvidia-universal-llm-nim-microservices.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251503",
+    "date": "2025-06-11",
+    "title": "Operation Secure: Trend Micro's Threat Intelligence Fuels INTERPOL's Infostealer Infrastructure Takedown ",
+    "summary": "In this blog, we discuss how Trend Micro played a pivotal role in Operation Secure, a multi-national law enforcement effort that dismantled the infrastructure behind widespread infostealer malware campaigns across Asia and the Pacific.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/interpol-operation-secure.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
     "id": "2025499",
     "date": "2025-06-11",
     "title": "Microsoft Patches Critical SMB Vulnerability That Puts Windows Networks at Risk - CVE-2025-33073",
@@ -16416,6 +17579,18 @@
     "impact": 5
   },
   {
+    "id": "20251504",
+    "date": "2025-06-09",
+    "title": "Keeping Pace and Embracing Emerging Technologies",
+    "summary": "Trend Micro and the NEOM McLaren Formula E Team stay ahead of the curve by embracing new technologies, fostering a no-blame culture, and making split-second decisions in high-stakes environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/emerging-technologies-motorsport.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2025203",
     "date": "2025-06-09",
     "title": "Elon Musk's DOGE Installed Starlink At The White House Against Wishes Of Security Officials",
@@ -16459,6 +17634,50 @@
     "tags": [
       "ddos",
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251505",
+    "date": "2025-06-06",
+    "title": "NEOM McLaren Formula E Team & Trend Micro Innovation History",
+    "summary": "Explore how innovation becomes a team sport when Trend Micro and the NEOM McLaren Formula E Team leaders come together to talk culture, risk, and forward thinking.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/neom-mclaren-innovation-history.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251506",
+    "date": "2025-06-06",
+    "title": "Threat Intelligence Sweeping now supports container security telemetry data",
+    "summary": "Threat Intelligence Sweeping starts to support sweep container security telemetry data. Users can now use the TI tool to identify possible malicious activity in their container-based environments. The trigger events are visible in workbench alert.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/vision-one-threat-intelligence-stops-threats.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251507",
+    "date": "2025-06-06",
+    "title": "How Google’s Wiz Acquisition Impacts CNAPP",
+    "summary": "Google aims to stake out a share of the CNAPP market and compete head-on against AWS and Microsoft Azure with its planned Wiz acquisition. What are the implications for companies invested in AWS and Azure cloud infrastructure?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/google-wiz-acquisition-cnapp.html",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft",
+      "google",
+      "aws"
     ],
     "impact": 3
   },
@@ -16516,6 +17735,21 @@
     "sourceUrl": "https://www.sdmmag.com/articles/104357-why-physical-security-integrators-must-embrace-cybersecurity",
     "tags": [
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251464",
+    "date": "2025-06-05",
+    "title": "BladedFeline: Whispering in the dark",
+    "summary": "ESET researchers analyzed a cyberespionage campaign conducted by BladedFeline, an Iran-aligned APT group with likely ties to OilRig",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/bladedfeline-whispering-dark/",
+    "tags": [
+      "apt",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -16654,6 +17888,18 @@
     "impact": 5
   },
   {
+    "id": "20251508",
+    "date": "2025-06-04",
+    "title": "Driving Success on the Track or in the Boardroom",
+    "summary": "Discover how the Trend Micro and the NEOM McLaren Formula E Team partnership is powered by a common vision for winning, on the track and in the boardroom.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/f/driving-success-neom-mclaren.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2025770",
     "date": "2025-06-04",
     "title": "How to Know If Remote Employees Are Working",
@@ -16781,6 +18027,18 @@
     "impact": 3
   },
   {
+    "id": "20251465",
+    "date": "2025-06-02",
+    "title": "Don’t let dormant accounts become a doorway for cybercriminals",
+    "summary": "Do you have online accounts you haven't used in years? If so, a bit of digital spring cleaning might be in order.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/dont-let-dormant-accounts-become-doorway-cybercriminals/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "202501294",
     "date": "2025-06-02",
     "title": "Discover how automatic attack disruption protects critical assets while ensuring business continuity",
@@ -16845,6 +18103,20 @@
     "sourceName": "Between The Hacks",
     "sourceUrl": "https://www.betweenthehacks.com/blog/10-minute-security-checkup",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251466",
+    "date": "2025-05-30",
+    "title": "This month in security with Tony Anscombe – May 2025 edition",
+    "summary": "From a flurry of attacks targeting UK retailers to campaigns corralling end-of-life routers into botnets, it's a wrap on another month filled with impactful cybersecurity news",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2025/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -17028,6 +18300,51 @@
       "data broker"
     ],
     "impact": 4
+  },
+  {
+    "id": "20251467",
+    "date": "2025-05-27",
+    "title": "Word to the wise: Beware of fake Docusign emails",
+    "summary": "Cybercriminals impersonate the trusted e-signature brand and send fake Docusign notifications to trick people into giving away their personal or corporate data",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/personal-data-fraudsters-docusign-scam-emails/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251509",
+    "date": "2025-05-27",
+    "title": "Trend Micro Leading the Fight to Secure AI",
+    "summary": "New MITRE ATLAS submission helps strengthen organizations’ cyber resilience",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/mitre-atlas-secure-ai.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251510",
+    "date": "2025-05-27",
+    "title": "Earth Lamia Develops Custom Arsenal to Target Multiple Industries",
+    "summary": "Trend™ Research has been tracking an active APT threat actor named Earth Lamia, targeting multiple industries in Brazil, India and Southeast Asia countries at least since 2023. The threat actor primarily exploits vulnerabilities in web applications to gain access to targeted organizations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "202501300",
@@ -17372,6 +18689,23 @@
     "impact": 5
   },
   {
+    "id": "20251511",
+    "date": "2025-05-19",
+    "title": "Fake CAPTCHA Attacks Deploy Infostealers and RATs in a Multistage Payload Chain",
+    "summary": "We have detected a new tactic involving fake CAPTCHA pages that trick users into executing harmful commands in Windows. This scheme uses disguised files sent via phishing and other malicious methods.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/unmasking-fake-captcha-cases.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "202501309",
     "date": "2025-05-19",
     "title": "Microsoft extends Zero Trust to secure the agentic workforce",
@@ -17407,6 +18741,35 @@
     "sourceName": "PCI Security Standards Blog",
     "sourceUrl": "https://blog.pcisecuritystandards.org/pci-ssc-launches-new-pin-listing-program",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251512",
+    "date": "2025-05-18",
+    "title": "Using Agentic AI & Digital Twin for Cyber Resilience",
+    "summary": "Learn how Trend is combining agentic AI and digital twin to transform the way organizations protect themselves from cyber threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/ai-digital-twin-cyber-resilience.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251513",
+    "date": "2025-05-18",
+    "title": "Trend Secures AI Infrastructure with NVIDIA",
+    "summary": "Together, we are focused on securing the full AI lifecycle—from development and training to deployment and inference—across cloud, data center, and AI factories.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/trend-secures-ai-infrastructure-with-nvidia.html",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -17755,6 +19118,35 @@
     "sourceUrl": "https://theconversation.com/mands-cyberattacks-used-a-little-known-but-dangerous-technique-and-anyone-could-be-vulnerable-256739",
     "tags": [
       "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251514",
+    "date": "2025-05-13",
+    "title": "Trend Micro Puts a Spotlight on AI at Pwn2Own Berlin",
+    "summary": "Get a sneak peak into how Trend Micro's Pwn2Own Berlin 2025 is breaking new ground, focusing on AI infrastructure and finding the bugs to proactively safeguard the future of computing.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/pwn2own-berlin-2025.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251515",
+    "date": "2025-05-13",
+    "title": "Earth Ammit Disrupts Drone Supply Chains Through Coordinated Multi-Wave Attacks in Taiwan ",
+    "summary": "Trend™ Research discusses the evolving tradecraft of threat actor Earth Ammit, proven by the advanced toolset used in its TIDRONE and VENOM campaigns that targeted the drone supply chain.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html",
+    "tags": [
+      "supply-chain",
       "ai-ml"
     ],
     "impact": 3

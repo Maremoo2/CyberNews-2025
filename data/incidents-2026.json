@@ -1,5 +1,561 @@
 [
   {
+    "id": "20262873",
+    "date": "2026-01-19",
+    "title": "With New AI Executive Order, Security Burdens Shift to Users And Organizations",
+    "summary": "Preparing for the future of AI regulation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102079-with-new-ai-executive-order-security-burdens-shift-to-users-and-organizations",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262874",
+    "date": "2026-01-19",
+    "title": "Ces 17 extensions malveillantes ont transformé 840 000 navigateurs en bombes à retardement",
+    "summary": "Une nouvelle série de 17 extensions malveillantes associées à GhostPoster a été identifiée sur Chrome, Edge et Firefox, pour un total de 840 000 installations. Malgré une première alerte fin 2025 et le retrait précédent de plusieurs modules, la campagne reste très active.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595861-ces-17-extensions-malveillantes-ont-transforme-840-000-navigateurs-en-bombes-a-retardement.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262875",
+    "date": "2026-01-19",
+    "title": "All In One SEO Plugin Flaw Exposes AI Token to Low-Privilege WordPress Users",
+    "summary": "A newly disclosed security vulnerability in the All In One SEO ecosystem has drawn attention across the WordPress community due to its potential reach and impact. The flaw affects the widely used AIOSEO plugin, which is active on more than 3 million WordPress websites. It allows low-privileged us...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/all-in-one-seo-wordpress-ai-token/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262876",
+    "date": "2026-01-19",
+    "title": "The Year Ransomware Went Fully Decentralized: Cyble’s 2025 Threat Analysis",
+    "summary": "Cyble’s Annual Threat Landscape Report for 2025 documents a cybercrime environment that remained volatile even as international law enforcement agencies escalated disruption efforts. Large-scale takedowns, arrests, and infrastructure seizures failed to slow adversaries for long. Instead, cybercri...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cyble-2025-threat-landscape-ransomware-report/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262877",
+    "date": "2026-01-19",
+    "title": "Threat Hunting in 2026: Why Proactive Defence Is the Only Way Forward",
+    "summary": "Threat hunting is no longer a reactive activity that focuses on pursuing signals after trouble has been done. The role of the threat hunter is changing as attackers become more persistent and repurpose tried-and-true methods. Proactive threat hunting is not only possible but also necessary for co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/threat-hunting-in-2026/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262878",
+    "date": "2026-01-19",
+    "title": "Attack Surface Visibility Tops CISO Infrastructure Security Priorities for 2026",
+    "summary": "As organizations look toward 2026, infrastructure security is becoming one of the most defining challenges for cybersecurity leaders. Expanding cloud adoption, hybrid IT environments, growing reliance on APIs, and a rapidly widening digital footprint are making it harder for organizations to unde...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/attack-surface-visibility-ciso-priorities/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262879",
+    "date": "2026-01-19",
+    "title": "EU and INTERPOL Hunt Black Basta Ransomware Kingpin, Suspects Identified in Ukraine",
+    "summary": "European and international law enforcement agencies have intensified their pursuit of individuals connected to the Black Basta ransomware operation. Authorities confirmed that the alleged leader of the Russia-linked ransomware-as-a-service (RaaS) group has been placed on both the European Union’s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/black-basta-ransomware-eu-most-wanted-interpol/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262880",
+    "date": "2026-01-19",
+    "title": "Amazon to remotely disable Fire TV Blaster devices by the end of March",
+    "summary": "Amazon has begun notifying Fire TV Blaster owners via email that support for the device will end “in the coming weeks,” and all units will soon stop functioning entirely. This marks the first time the company is remotely disabling a Fire TV accessory, regardless of its current usability or softwa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/amazon-to-remotely-disable-fire-tv-blaster-devices-by-the-end-of-march/",
+    "tags": [
+      "ai-ml",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262881",
+    "date": "2026-01-19",
+    "title": "Law enforcement tracks ransomware group blamed for massive financial losses",
+    "summary": "Law enforcement agencies in Ukraine and Germany have identified two members of a Russian-affiliated ransomware group and carried out searches in western Ukraine. Search (Source: Cyber ​​Police of Ukraine) Investigators also named the alleged organizer, a Russian national, and placed him on an int...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/international-ransomware-group-investigation-ukraine/",
+    "tags": [
+      "ransomware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262882",
+    "date": "2026-01-19",
+    "title": "Keepnet bets on agentic AI behavioral training to curb security mistakes",
+    "summary": "Keepnet launched its Agentic AI for Behavioral Microlearning solution, which moves success metrics from “completion rates” to behavior change and verifiable incident reduction. Agentic AI autonomously plans, creates, delivers, and optimizes training based on real-time risk data, eliminating manua...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/keepnet-agentic-ai-for-behavioral-microlearning/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262883",
+    "date": "2026-01-19",
+    "title": "British Army to spend £279 million on permanent cyber regiment base",
+    "summary": "The British Army has announced a new permanent base for its cyber regiment, backed by £279 million in government spending. The plan centres on 13 Signal Regiment, the unit responsible for defending Army networks and supporting cyber operations. The regiment will relocate to Duke of Gloucester Bar...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/british-army-cyber-operations-279-million-spending/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262884",
+    "date": "2026-01-19",
+    "title": "SEON Identity Verification combines KYC checks with real-time fraud intelligence",
+    "summary": "SEON has unveiled the launch of its AI-powered Identity Verification solution, bringing ID verification, liveness detection and proof of address checks into its unified risk platform. SEON’s solution is built on more than 900 real-time fraud signals, helping organizations assess not just whether ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/seon-identity-verification/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262885",
+    "date": "2026-01-19",
+    "title": "Global tensions are pushing cyber activity toward dangerous territory",
+    "summary": "Cybersecurity is inseparable from geopolitics. Ongoing conflicts, sanctions, trade wars, geoeconomic rivalry, and technological competition have pushed state competition into cyberspace. States use cyber operations to exert pressure on rivals, enabling disruption without resorting to conventional...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/cybersecurity-geopolitical-tensions/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262886",
+    "date": "2026-01-19",
+    "title": "Rubrik introduces Security Cloud Sovereign for data sovereignty and regulatory compliance",
+    "summary": "Rubrik announced Rubrik Security Cloud Sovereign, an offering that gives global organizations control over their data to support national security and operational continuity. Rubrik Security Cloud Sovereign gives customers the ability to maintain control over where data resides and who has access...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/rubrik-introduces-security-cloud-sovereign-for-data-sovereignty-and-regulatory-compliance/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262887",
+    "date": "2026-01-19",
+    "title": "Review: AI Strategy and Security",
+    "summary": "AI Strategy and Security is a guide for organizations planning enterprise AI programs. The book targets technology leaders, security professionals, and executives responsible for strategy, governance, and operational execution. It treats AI adoption as an organizational discipline that spans plan...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/review-ai-strategy-and-security/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262888",
+    "date": "2026-01-19",
+    "title": "Bytebase: Open-source database DevOps tool",
+    "summary": "Bytebase is a DevOps platform for managing database schema and data changes through a structured workflow. It provides a central place for teams to submit change requests, run reviews, and track executions across environments. The open-source edition is designed for organizations that want to run...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/bytebase-open-source-database-devops-tool/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262889",
+    "date": "2026-01-19",
+    "title": "Unmasking UAT-8837: The Zero-Day Exploit That Could Ruin Your Year",
+    "summary": "Executive Summary A sophisticated China-linked threat actor, identified as UAT-8837, has been observed exploiting a critical zero-day vulnerability in the Sitecore platform. Tracked as CVE-2025-53690, this insecure deserialization flaw allows attackers to bypass authentication and execute remote ...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/unmasking-uat-8837-the-zero-day-exploit-that-could-ruin-your-year/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20262890",
+    "date": "2026-01-19",
+    "title": "The Ultimate Villa Renovation Guide: Ideas to Boost Comfort & Style",
+    "summary": "In this post, I will talk about the ultimate villa renovation guide. Renovating a villa is more than just a cosmetic upgrade; it’s an opportunity to redefine your living space, enhance functionality, and reflect your personal style. Working with a villa renovation company in Dubai can transform y...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/ultimate-villa-renovation-guide/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262891",
+    "date": "2026-01-19",
+    "title": "How Cloud Consulting Services Guide Companies Through Digital Change",
+    "summary": "In this post, I will show you how cloud consulting services guide companies through digital change. Cloud transformation is more than just a buzzword. It is a strategic business shift that involves adopting cloud computing to modernize IT processes and foster innovation. It’s more than just movin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-cloud-consulting-services-guide-companies/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262892",
+    "date": "2026-01-19",
+    "title": "How to Detect Fake Social Media Profiles",
+    "summary": "In this post, we will show you how to detect fake social media profiles. With the increasing prevalence of social media platforms in our daily lives, fake social media profiles have become a significant concern. These profiles are often created for various malicious purposes, such as identity the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/detect-fake-social-media-profiles/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262893",
+    "date": "2026-01-19",
+    "title": "How Citation Management and Local SEO Audits Work Together to Improve Local Visibility",
+    "summary": "In this post, I will show you how citation management and local SEO audits work together to improve local visibility. Local search visibility is shaped by more than keywords and rankings. Behind every map result or “near me” search is a network of business data, listings, and location signals tha...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-citation-management-and-local-seo-audits-work-together/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262894",
+    "date": "2026-01-19",
+    "title": "What To Do If You’ve Been Scammed Online: A Comprehensive Guide",
+    "summary": "Are you wondering what to do next after being scammed online? We will show you the ideal steps to take. In today’s digital age, online scams have become increasingly prevalent, and many people fall victim to them. It can be a profoundly distressing experience if you’ve been scammed online. Howeve...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/next-after-scammed-online/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262895",
+    "date": "2026-01-19",
+    "title": "16 Best CyberVista Alternatives For Learning Cybersecurity",
+    "summary": "In this post, I will show you the 16 best CyberVista alternatives for learning cybersecurity. Cybersecurity risks keep increasing, with reports showing a 40% increase between 2020 and 2024. As an individual or company, it’s essential that you’re knowledgeable about cybersecurity practices, no mat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/best-cybervista-alternatives-for-learning-cybersecurity/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262896",
+    "date": "2026-01-19",
+    "title": "What You Need to Know About NIST Cybersecurity Framework",
+    "summary": "I will talk about NIST Cybersecurity Framework today. In today’s threat landscape, maintaining robust cybersecurity measures is a top priority for every organization. With persistent and increasingly sophisticated cyber-attacks, safeguarding sensitive data, protecting intellectual property, and e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/nist-cybersecurity-framework/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262898",
+    "date": "2026-01-19",
+    "title": "Nelson’s Ghost Chip: Mind the Quantum Gap",
+    "summary": "French Admiral Brueys anchored his fleet in a defensive line he considered unassailable at Aboukir Bay in 1798. Armed broadsides faced anyone approaching from the sea. The landward side went largely ungunned. Mind the gap. Along came Admiral Nelson who simply sailed the gap and unloaded cannons i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76254",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262899",
+    "date": "2026-01-19",
+    "title": "Bessent’s Weakness and Desperation on Full Display: US “needs” Greenland",
+    "summary": "What’s different between Trump and Hitler is the speed. Hitler took years to move from rhetorical revisionism to Anschluss to Sudetenland. Anschluss logic for Canada (“51st state” rhetoric, economic coercion framing) Sudetenland logic for Greenland (protecting strategic interests, the current hol...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76249",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262949",
+    "date": "2026-01-19",
+    "title": "Five Chrome extensions caught hijacking enterprise sessions",
+    "summary": "A coordinated campaign of malicious browser add-ons has bypassed Chrome Web Store’s defenses, weaponizing extensions advertised as productivity tools to steal corporate session tokens and attempt full account takeover. “The extensions work in concert to steal authentication tokens, block incident...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118607/five-chrome-extensions-caught-hijacking-enterprise-sessions.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262950",
+    "date": "2026-01-19",
+    "title": "Python-Bibliotheken für Hugging-Face-Modelle vergiftet",
+    "summary": "Python-Libraries sind mit manipulierten Metadaten in KI-Modellen infiziert und können beim Laden Schadcode ausgeführen. Agus_Gatam – shutterstock NeMo, Uni2TS und FlexTok, Python-Bibliotheken für Künstliche Intelligenz (KI) und Machine Learning (ML), die in Hugging-Face-Modellen verwendet werden,...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118563/python-bibliotheken-fur-hugging-face-modelle-vergiftet.html",
+    "tags": [
+      "iot",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262951",
+    "date": "2026-01-19",
+    "title": "The culture you can’t see is running your security operations",
+    "summary": "Here’s what nobody admits: Your firewall isn’t the problem. Your SIEM isn’t the problem. That shiny new EDR tool you just bought? Also, not the problem. The problem is Steve from accounting, who uses “Password123” because he can’t be bothered to remember anything more complex. The problem is your...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118141/the-culture-you-cant-see-is-running-your-security-operations.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262952",
+    "date": "2026-01-19",
+    "title": "Fahndung nach Kopf von Black Basta",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_1415668481.jpg?quality=50&strip=all 3008w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_1415668481.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118512/fahndung-nach-kopf-von-black-basta.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262953",
+    "date": "2026-01-19",
+    "title": "From arts degree to cybersecurity: Rona Michele Spiegel brings fresh perspective to cyber leadership",
+    "summary": "Rona Michele Spiegel’s journey to cybersecurity might seem unconventional to some: She studied the arts. But as someone who grew up when computers first appeared and everyone wanted to experiment with them, she did a lot of multimedia work. She was always interested in technology and discussed wi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4098234/from-arts-degree-to-cybersecurity-how-rona-michele-spiegel-became-a-cybersecurity-leader.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262954",
+    "date": "2026-01-19",
+    "title": "7 top cybersecurity projects for 2026",
+    "summary": "As 2026 finds CISOs’ battle against relentless cyberattackers escalating once again, strong and carefully planned cybersecurity projects are the best way to stay a step ahead of attackers and prevent them from gaining the upper hand. From data governance to zero trust, here are several essential ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116992/7-top-cybersecurity-projects-for-2026.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262955",
+    "date": "2026-01-19",
+    "title": "ServiceNow BodySnatcher flaw highlights risks of rushed AI integrations",
+    "summary": "Many software and SaaS companies are building AI agents into their products, but these features can expand the attack surface of those platforms, especially when rushed to market. A privilege escalation vulnerability revealed last week in ServiceNow’s platform is the latest example of how AI agen...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118264/servicenow-bodysnatcher-flaw-highlights-risks-of-rushed-ai-integrations.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262956",
+    "date": "2026-01-19",
+    "title": "Suspects Linked to Black Basta Ransomware Group Raided in Ukraine",
+    "summary": "Oleg Evgenievich Nefedov, allegedly one of the founders of Black Basta, was also placed on Europol’s and Interpol’s Most Wanted lists",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/suspects-black-basta-ransomware/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262957",
+    "date": "2026-01-19",
+    "title": "Cyber Breaches, Compliance and Reputation Top UK Corporate Concerns",
+    "summary": "UK firms face confluence of cyber-related risks in 2026, says Nardello & Co",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-breaches-compliance/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262958",
+    "date": "2026-01-19",
+    "title": "Researchers Exploit Bug in StealC Infostealer to Collect Evidence",
+    "summary": "CyberArk says it exploited a vulnerability in the StealC infostealer to gather intelligence",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/researchers-exploit-bug-stealc/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262959",
+    "date": "2026-01-19",
+    "title": "IaaS, PaaS and SaaS Explained: Best Cloud Models for Scalable Projects",
+    "summary": "Cloud service models are often explained in terms of convenience: how fast you can deploy, how little infrastructure you need to manage, or how easy it is to scale. For high-load systems, those explanations are incomplete. When traffic, data volume, or internal system pressure grows, projects rar...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/iaas-paas-and-saas-explained-best-cloud-models-for-scalable-projects",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262960",
+    "date": "2026-01-19",
+    "title": "How ‘Reprompt’ Attack Let Hackers Steal Data From Microsoft Copilot",
+    "summary": "Varonis found a “Reprompt” attack that let a single link hijack Microsoft Copilot Personal sessions and exfiltrate data; Microsoft patched it in January 2026. The post How ‘Reprompt’ Attack Let Hackers Steal Data From Microsoft Copilot appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-reprompt-attack-microsoft-copilot/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262961",
+    "date": "2026-01-19",
+    "title": "OpenAI hostname hints at a new ChatGPT feature codenamed \"Sonata\"",
+    "summary": "OpenAI is reportedly testing a new feature or product codenamed \"Sonata,\" and it could be related to music or audio-related experiences on ChatGPT. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hostname-hints-at-a-new-chatgpt-feature-codenamed-sonata/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262868",
     "date": "2026-01-19",
     "title": "Acting CISA chief sought ouster of agency's chief information officer - Politico",
@@ -170,6 +726,21 @@
     "tags": [
       "data-breach",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262897",
+    "date": "2026-01-18",
+    "title": "A Big Candy Casino Review",
+    "summary": "A Big Candy Casino hits the screen with bright Australian energy and a modern, speed-first feel. It looks playful, but it moves with purpose. Fast loads, clean lines, and a vibe that pulls you straight into the action. This is a platform built for momentum. Games are easy to spot. Key sections ar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/a-big-candy-casino-review/",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -9695,6 +10266,25 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20262948",
+    "date": "2026-01-13",
+    "title": "deVixor: An Evolving Android Banking RAT with Ransomware Capabilities Targeting Iran",
+    "summary": "Executive Summary deVixor is an actively developed Android banking malware campaign operating at scale, targeting Iranian users through phishing websites that masquerade as legitimate automotive businesses. Distributed as malicious APK files, deVixor has evolved from a basic SMS-harvesting threat...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/devixor-android-banking-rat-ransomware-iran/",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "mobile",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20262604",
@@ -24455,6 +25045,674 @@
       "certification",
       "government"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20262900",
+    "date": "2026-01-05",
+    "title": "How to Comply with HECVAT in 2026 (Free Checklist) | UpGuard",
+    "summary": "If you're in the education industry, you need to be aware of the data security requirements stipulated in HECVAT. Learn how to comply with this standard.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/how-to-comply-with-hecvat",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262901",
+    "date": "2026-01-05",
+    "title": "8 Tips for Lowering Your Cyber Insurance Premium in 2026 | UpGuard",
+    "summary": "With some clever strategies, you can reduce your cybersecurity premium. Learn the top 8 tactics you should be implementing,",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/reducing-your-cybersecurity-insurance-premium",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262902",
+    "date": "2026-01-05",
+    "title": "Top 8 Network Segmentation Best Practices in 2026 | UpGuard",
+    "summary": "Learn more about network segmentation best practices and how you can limit the spread of a potential cyber attack.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/network-segmentation-best-practices",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262903",
+    "date": "2026-01-05",
+    "title": "How to Prepare for a PCI DSS 4.0 Audit in 7 Steps in 2026 | UpGuard",
+    "summary": "This article covers how to prepare for a PCI DSS onsite audit and maintain compliance with PCI requirements.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/how-to-prepare-for-a-pci-dss-audit",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262904",
+    "date": "2026-01-05",
+    "title": "Top 10 Attack Surface Management Software Solutions in 2026 | UpGuard",
+    "summary": "This guide outlines the main considerations of effective attack surface management software and the best solutions currently on the market.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/best-attack-surface-management-software-solutions",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262905",
+    "date": "2026-01-05",
+    "title": "9 Best Data Leak Detection Software Solutions in 2026 | UpGuard",
+    "summary": "This guide outlines the main considerations of effective data leak detection software and the best solutions currently on the market.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/best-data-leak-detection-software-solutions",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262906",
+    "date": "2026-01-05",
+    "title": "19 Most Common Types of Phishing Attacks in 2026 | UpGuard",
+    "summary": "Learn the most commonly used phishing attacks and how to identify them.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/types-of-phishing-attacks",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262907",
+    "date": "2026-01-05",
+    "title": "Meeting the Third-Party Risk Requirements of NIST CSF in 2026 | UpGuard",
+    "summary": "Learn how to comply with the supply chain risk management security requirements of NIST CSF 2.0",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/nist-csf-third-party-risk-requirements",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262908",
+    "date": "2026-01-05",
+    "title": "Meeting the Third-Party Risk Requirements of PCI DSS in 2026 | UpGuard",
+    "summary": "Learn which PCI requirements are relevant to the third-party risk management process and how the UpGuard platform can help comply with each requirement.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/pci-dss-third-party-risk-requirements",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262909",
+    "date": "2026-01-05",
+    "title": "The Biggest Security Risks in Your Supply Chain in 2026 | UpGuard",
+    "summary": "Learn about the biggest security risks in your supply and how to successfully mitigate their impact.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/biggest-supply-chain-security-risks",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262910",
+    "date": "2026-01-05",
+    "title": "Meeting the Third-Party Risk Requirements of NIST 800-53 in 2026 | UpGuard",
+    "summary": "Learn how to comply with the third-party risk management (TPRM) requirements outlined in NIST 800-53.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/third-party-risk-requirements-nist-800-53",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262911",
+    "date": "2026-01-05",
+    "title": "Meeting the Third-Party Risk Requirements of ISO 27001 in 2026 | UpGuard",
+    "summary": "Learn which ISO 27001 controls are relevant to TPRM and how the UpGuard platform can help meet each control’s objectives.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/iso-27001-third-party-risk-requirements",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262912",
+    "date": "2026-01-05",
+    "title": "9 Third-Party Risk Cyber Gaps in 2026 | UpGuard",
+    "summary": "Understanding your existing third-party cybersecurity gaps allows you to better manage third-party risk. Learn more in this guide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/third-party-risk-cyber-gaps",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262913",
+    "date": "2026-01-05",
+    "title": "Meeting ISO Third-Party Risk Management Requirements in 2026 | UpGuard",
+    "summary": "Learn how to intelligently implement the most relevant ISO controls to support your Third-Party Risk Management program in 2023.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/iso-third-party-risk-management-requirements",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262914",
+    "date": "2026-01-05",
+    "title": "The 6 Biggest Cyber Threats for Financial Services in 2026 | UpGuard",
+    "summary": "Learn about the biggest cyber threats every financial service should be aware of in 2021 and how to successfully defend against them.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/biggest-cyber-threats-for-financial-services",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262915",
+    "date": "2026-01-05",
+    "title": "Vendor Management Best Practices in 2026 | UpGuard",
+    "summary": "Vendor management is the process through which organizations steer service excellence, and minimize risks to obtain optimum benefits from their vendors.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/vendor-management-best-practices",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262916",
+    "date": "2026-01-05",
+    "title": "Top 5 Free Open Port Check Tools in 2026 | UpGuard",
+    "summary": "These open port scanners will help you detect security vulnerabilities in your ecosystem.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/best-open-port-scanners",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262917",
+    "date": "2026-01-05",
+    "title": "How to Map Your Digital Footprint: A Guide for Businesses in 2026 | UpGuard",
+    "summary": "One of the best ways of identifying vulnerabilities in your ecosystem is by mapping your digital footprint. Read this post to learn the correct process.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/how-to-map-your-digital-footprint",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262918",
+    "date": "2026-01-05",
+    "title": "What is UPnP? Yes, It's Still Dangerous in 2026 | UpGuard",
+    "summary": "If UPnP is currently enabled on your router, you could be at risk of a swathe of cyberattacks. Find out what UPnP is and how to best protect yourself.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/what-is-upnp",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262919",
+    "date": "2026-01-05",
+    "title": "Essential Eight Compliance Guide (Updated 2026) | UpGuard",
+    "summary": "The Australian government is mandating compliance with the Essential Eight framework. Learn about each of the controls and how to achieve compliance.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/essential-eight",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262920",
+    "date": "2026-01-05",
+    "title": "Top 8 Australian Cybersecurity Frameworks (Updated 2026) | UpGuard",
+    "summary": "We've compiled 10 of the best cybersecurity frameworks to protect Australian businesses from cyberattacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/australian-cybersecurity-frameworks",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262921",
+    "date": "2026-01-05",
+    "title": "How to be Compliant with Biden's Cybersecurity Executive Order | UpGuard",
+    "summary": "The United States President has signed a Cybersecurity Executive Order that calls for a complete reformation of cybersecurity standards.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/cybersecurity-executive-order",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262922",
+    "date": "2026-01-05",
+    "title": "11 Ways to Prevent Supply Chain Attacks in 2026 (Highly Effective) | UpGuard",
+    "summary": "Supply chain attacks are on the rise. Follow these prevention tips to avoid falling victim to these devastating breaches.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/how-to-prevent-supply-chain-attacks",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262923",
+    "date": "2026-01-05",
+    "title": "Assume Breach Mentality vs. Supply Chain Attacks in 2026 | UpGuard",
+    "summary": "Supply chain attacks could be prevented if all network activity is assumed to be malicious. Learn how to implement an Assume Breach framework.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/prevent-supply-chain-attacks-with-assume-breach",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262924",
+    "date": "2026-01-05",
+    "title": "What is Vendor Due Diligence? Choosing Secure Vendors in 2026 | UpGuard",
+    "summary": "Your vendors need to follow stringent cybersecurity practices to protect you from cyberattacks. Learn the correct vendor due diligence process.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/vendor-due-diligence",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262925",
+    "date": "2026-01-05",
+    "title": "How to Create a Secure Password in 2026: The Password Security Checklist | UpGuard",
+    "summary": "Learn how to create a secure password and keep your passwords secure with this in-depth guide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/the-password-security-checklist",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262926",
+    "date": "2026-01-05",
+    "title": "Third-Party Risk Management Guide for 2026 | UpGuard",
+    "summary": "Learn how to build and scale your third-party risk management program with expert guidance and a practical implementation checklist to minimize risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/third-party-risk-management",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262927",
+    "date": "2026-01-05",
+    "title": "Ansible vs Chef [includes Infographic] | UpGuard",
+    "summary": "Both Ansible and Chef are tools to help the sysadmin or devops professionals better manage large numbers of servers. Learn more about each.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/ansible-vs-chef",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262928",
+    "date": "2026-01-05",
+    "title": "11 Steps to Secure SQL in 2026 | UpGuard",
+    "summary": "Cover your back-end with these 11 steps to improve security for MySQL and Microsoft SQL Server and protect your data against most common threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/11-steps-to-secure-sql",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262929",
+    "date": "2026-01-05",
+    "title": "Bitbucket vs GitHub (Updated for 2026) | UpGuard",
+    "summary": "Bitbucket and Github are two of the largest web-based hosting services for source code and development projects.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/bitbucket-vs-github",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262930",
+    "date": "2026-01-05",
+    "title": "How to Comply With CPS 234 (Updated for 2026) | UpGuard",
+    "summary": "This is a complete overview of how to comply with Prudential Standard CPS 234. Learn about the key requirements and how to meet them in this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/cps-234-compliance",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262931",
+    "date": "2026-01-05",
+    "title": "Why is Third-Party Risk Management Important in 2026? | UpGuard",
+    "summary": "This is a complete overview that outlines why third-party risk management is important. Learn about successful TPRM programs in this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/third-party-risk-management-important",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262932",
+    "date": "2026-01-05",
+    "title": "Vendor Risk Management Best Practices in 2026 | UpGuard",
+    "summary": "Vendor risk management can help prevent data breaches and is increasingly a key part of regulatory compliance.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/vendor-risk-management-best-practices",
+    "tags": [
+      "data-breach",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262933",
+    "date": "2026-01-05",
+    "title": "What Is Email Security? Best Practices for 2026 | UpGuard",
+    "summary": "This is a complete overview of email security. Learn about email security best practices and how to implement them with this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/email-security",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262934",
+    "date": "2026-01-05",
+    "title": "Website Security Checklist: Protect Your Website in 2026 | UpGuard",
+    "summary": "Before putting your website into production, be sure to complete the 13 steps in this checklist to protect against the most common hacks and exploits.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/the-website-security-checklist",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262935",
+    "date": "2026-01-05",
+    "title": "9 Ways to Prevent Third-Party Data Breaches in 2026 | UpGuard",
+    "summary": "This is a complete guide to preventing third-party data breaches. Learn about how organizations like yours are keeping themselves and their customers safe.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/prevent-third-party-data-breaches",
+    "tags": [
+      "data-breach",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262936",
+    "date": "2026-01-05",
+    "title": "116 Must-Know Data Breach Statistics for 2026 | UpGuard",
+    "summary": "116 data breach statistics that cover risk, cost, prevention, industry trends, and more. Assess and analyze these stats and learn to prevent data breaches.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/data-breach-statistics",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262937",
+    "date": "2026-01-05",
+    "title": "Vendor Risk Management Checklist (Updated 2026) | UpGuard",
+    "summary": "This is a complete vendor risk management checklist. Learn how to reduce your third and fourth-party risk with this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/vendor-risk-management-checklist",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262938",
+    "date": "2026-01-05",
+    "title": "25 Working from Home Security Tips for Staff and Employers in 2026 | UpGuard",
+    "summary": "This is a complete overview of how to stay secure while working from home. Learn what you can do as an employee and employer in this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/working-from-home-security-tips",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262939",
+    "date": "2026-01-05",
+    "title": "How to Prevent Data Breaches in 2026 (Highly Effective Strategy) | UpGuard",
+    "summary": "Learn how to implement an effective security control strategy for defending against data breaches in 2026.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/prevent-data-breaches",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262940",
+    "date": "2026-01-05",
+    "title": "Third-Party Risk Assessment Best Practices in 2026 | UpGuard",
+    "summary": "This is a complete overview of the best practices for third-party risk assessment. Learn how to reduce your third-party risk exposure effectively.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/third-party-risk-assessment-best-practices",
+    "tags": [
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262941",
+    "date": "2026-01-05",
+    "title": "DigitalOcean vs AWS: Which Cloud Server is Better in 2026? | UpGuard",
+    "summary": "This is a complete guide to DigitalOcean vs AWS. Learn about their differences and which is right platform for you with this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/digitalocean-vs-aws",
+    "tags": [
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262942",
+    "date": "2026-01-05",
+    "title": "How to Automate Vendor Risk Management in 2026 | UpGuard",
+    "summary": "Third-party vendors are an important source of strategic advantage, cost savings, and expertise. Yet outsourcing is not without cybersecurity risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/automate-vendor-risk-management",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262943",
+    "date": "2026-01-05",
+    "title": "Five Things You Need to Know About Third-Party Risk in 2026 | UpGuard",
+    "summary": "Third and fourth party breaches account for over half of all data exposure. Here's what you need to know about third party cyber risk to protect you.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/five-things-to-know-about-third-party-risk",
+    "tags": [
+      "data-breach",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262944",
+    "date": "2026-01-05",
+    "title": "Top 11 Questionnaires for IT Vendor Assessment in 2026 | UpGuard",
+    "summary": "This is a complete overview of the top 11 questionnaires for IT vendor assessment. Learn which security questionnaire is right for you in this in post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/top-vendor-assessment-questionnaires",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262945",
+    "date": "2026-01-05",
+    "title": "What is SOX Compliance? 2026 Requirements, Controls and More | UpGuard",
+    "summary": "This is a complete overview of SOX Compliance. Learn how to ensure your organization is compliant with the SOX Act in this in-depth post.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/sox-compliance",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262946",
+    "date": "2026-01-05",
+    "title": "Top Cybersecurity Metrics and KPIs for 2026 | UpGuard",
+    "summary": "Discover the most important cybersecurity metrics and KPIs to monitor your risk posture, track performance, and meet compliance goals.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/cybersecurity-metrics",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20262947",
+    "date": "2026-01-05",
+    "title": "The Top Cybersecurity Websites and Blogs of 2026 | UpGuard",
+    "summary": "This is a complete guide to the best cybersecurity and information security websites and blogs. Learn where CISOs and senior management stay up to date.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/cybersecurity-websites",
+    "tags": [],
     "impact": 3
   },
   {
