@@ -213,7 +213,7 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
             <div className="theme-stats">
               <div className="theme-stat">
                 <span className="stat-value">{theme.uniqueIncidents}</span>
-                <span className="stat-label">incidents</span>
+                <span className="stat-label">articles</span>
               </div>
               {theme.yoyChange && (
                 <div className="theme-stat trend-up">
