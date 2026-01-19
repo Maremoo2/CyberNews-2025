@@ -22,6 +22,17 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'rss-feeds-config.json');
 const METADATA_FILE = path.join(PROJECT_ROOT, 'data', 'metadata.json');
 
+// Default metadata structure
+const DEFAULT_METADATA = {
+  lastUpdated: null,
+  lastRssFetch: null,
+  lastInoreaderFetch: null,
+  lastEnrichment: null,
+  totalIncidents2025: 0,
+  totalIncidents2026: 0,
+  totalIncidents: 0
+};
+
 // Parse command line arguments
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
@@ -127,26 +138,10 @@ function loadMetadata() {
       const data = fs.readFileSync(METADATA_FILE, 'utf-8');
       return JSON.parse(data);
     }
-    return {
-      lastUpdated: null,
-      lastRssFetch: null,
-      lastInoreaderFetch: null,
-      lastEnrichment: null,
-      totalIncidents2025: 0,
-      totalIncidents2026: 0,
-      totalIncidents: 0
-    };
+    return { ...DEFAULT_METADATA };
   } catch (error) {
     console.error(`Error loading metadata from ${METADATA_FILE}:`, error.message);
-    return {
-      lastUpdated: null,
-      lastRssFetch: null,
-      lastInoreaderFetch: null,
-      lastEnrichment: null,
-      totalIncidents2025: 0,
-      totalIncidents2026: 0,
-      totalIncidents: 0
-    };
+    return { ...DEFAULT_METADATA };
   }
 }
 
