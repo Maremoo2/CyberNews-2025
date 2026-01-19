@@ -264,6 +264,64 @@ Tasks:
 - See `ANALYTICS_PROPOSAL.md` for detailed technical proposal
 - See `YEAR_ROUTING_FIX.md` for data infrastructure foundation
 
+## Advanced Features (Optional)
+
+Hvis du vil ta det enda et hakk opp (valgfritt) - If you want to take it even a notch higher (optional):
+
+### False positive-rate
+- **Hvor ofte cluster-regelen feiler** (How often the cluster rule fails)
+- Track and measure clustering accuracy over time
+- Identify patterns in misclassified incidents
+- Calculate precision, recall, and F1 scores for clustering algorithm
+- Generate reports showing:
+  - Incidents incorrectly merged together
+  - Incidents that should have been merged but weren't
+  - Root causes of clustering failures
+- Implement continuous monitoring and alerting when false positive rate exceeds threshold
+
+### Manual override
+- **Flagg "split incident" / "merge incident"** (Flag "split incident" / "merge incident")
+- Allow security analysts to manually override automatic clustering decisions
+- Provide UI/API for marking incidents that should be split or merged
+- Track all manual overrides with:
+  - Reviewer name and timestamp
+  - Justification for override
+  - Link to related incidents
+- Use manual overrides to:
+  - Improve clustering algorithm
+  - Train ML models
+  - Create gold-set examples
+- See `config/manual-clustering-overrides.json` for implementation details
+
+### Actor correlation
+- **Hvilke clusters deler TTPs** (Which clusters share TTPs)
+- Analyze which incident clusters share Tactics, Techniques, and Procedures
+- Identify threat actor patterns across multiple campaigns
+- Generate correlation matrices showing:
+  - Shared MITRE ATT&CK techniques between clusters
+  - Common infrastructure (IPs, domains, tools)
+  - Timeline overlaps suggesting coordinated activity
+  - Attribution confidence levels
+- Enable pivot analysis: "Show me all clusters using technique T1566.001"
+- Support threat hunting workflows by highlighting TTP relationships
+
+### Heatmap
+- **Mediedekning vs faktisk impact** (Media coverage vs actual impact)
+- Visualize the relationship between media attention and real-world impact
+- Create interactive heatmaps showing:
+  - X-axis: Media coverage (number of articles, source prominence)
+  - Y-axis: Actual impact (affected entities, financial loss, severity)
+  - Color intensity: Discrepancy between coverage and impact
+- Identify:
+  - Over-hyped incidents (high media coverage, low actual impact)
+  - Under-reported incidents (low media coverage, high actual impact)
+  - Aligned incidents (proportional coverage to impact)
+- Use cases:
+  - Prioritize incident response based on actual impact, not hype
+  - Identify media bias and sensationalism
+  - Guide communication and PR strategies
+  - Optimize resource allocation
+
 ## Questions to Resolve
 
 1. Should severity classification be automated or require manual approval?

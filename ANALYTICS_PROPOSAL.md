@@ -345,6 +345,138 @@ For each major sector:
 3. Predictive threat modeling
 4. Integration with external threat intel feeds
 
+## Advanced Features (Optional)
+
+Hvis du vil ta det enda et hakk opp (valgfritt) - If you want to take it even a notch higher (optional):
+
+### False Positive Rate Tracking
+**Hvor ofte cluster-regelen feiler** (How often the cluster rule fails)
+
+Track and measure clustering accuracy over time to improve data quality and algorithm performance:
+
+- **Metrics Collection**:
+  - Calculate precision, recall, and F1 scores for clustering algorithm
+  - Track false positives (incidents incorrectly merged)
+  - Track false negatives (incidents that should have been merged)
+  - Measure clustering confidence scores
+
+- **Analysis & Reporting**:
+  - Generate daily/weekly clustering quality reports
+  - Identify patterns in misclassified incidents
+  - Root cause analysis for clustering failures
+  - Trend analysis showing improvement over time
+
+- **Alerting & Monitoring**:
+  - Set thresholds for acceptable false positive rates
+  - Alert when quality metrics degrade
+  - Dashboard widgets showing real-time clustering health
+
+- **Implementation**:
+  - Compare automated clustering against gold-set labels
+  - Use manual overrides as ground truth
+  - A/B test different clustering algorithms
+  - Continuous learning and algorithm refinement
+
+### Manual Override System
+**Flagg "split incident" / "merge incident"** (Flag "split incident" / "merge incident")
+
+Allow security analysts to manually override automatic clustering decisions:
+
+- **Override Types**:
+  - **Merge**: Combine incidents that were incorrectly kept separate
+  - **Split**: Separate incidents that were incorrectly grouped together
+
+- **Workflow**:
+  1. Analyst reviews clustering audit report
+  2. Identifies incorrect clustering decision
+  3. Flags incident with override action (merge/split)
+  4. Provides justification and reasoning
+  5. System re-runs enrichment with override applied
+
+- **Metadata Tracking**:
+  - Reviewer name and timestamp
+  - Justification for override
+  - Link to related incidents
+  - Confidence level in override decision
+  - Supporting evidence (URLs, notes)
+
+- **Uses**:
+  - Improve clustering algorithm training data
+  - Create high-quality gold-set examples
+  - Enable continuous algorithm improvement
+  - Validate automated decisions
+
+- **Implementation**: See `config/manual-clustering-overrides.json` for current structure
+
+### Actor Correlation Analysis
+**Hvilke clusters deler TTPs** (Which clusters share TTPs)
+
+Analyze which incident clusters share Tactics, Techniques, and Procedures to identify threat actor patterns:
+
+- **TTP Correlation**:
+  - Map all clusters to MITRE ATT&CK framework
+  - Identify shared techniques across clusters
+  - Calculate similarity scores based on TTP overlap
+  - Detect campaign patterns and coordinated activity
+
+- **Correlation Matrices**:
+  - Visual heatmap of cluster-to-cluster TTP sharing
+  - Network graphs showing connected clusters
+  - Timeline views of related activities
+  - Geographic correlation overlays
+
+- **Pattern Detection**:
+  - Common infrastructure (IPs, domains, tools)
+  - Timing patterns suggesting coordination
+  - Targeting patterns (sectors, regions)
+  - Attribution confidence levels
+
+- **Use Cases**:
+  - Threat hunting: "Show all clusters using T1566.001"
+  - Campaign tracking: Link related but dispersed attacks
+  - Actor profiling: Build comprehensive threat actor profiles
+  - Predictive analysis: Anticipate next moves based on TTP patterns
+
+- **Technical Implementation**:
+  - TTP fingerprinting for each cluster
+  - Jaccard similarity for TTP set comparison
+  - Graph database for relationship queries
+  - Interactive pivot analysis interface
+
+### Media Coverage vs Impact Heatmap
+**Mediedekning vs faktisk impact** (Media coverage vs actual impact)
+
+Visualize the relationship between media attention and real-world impact:
+
+- **Data Collection**:
+  - **Media Coverage**: Article count, source prominence, social media mentions, news cycle duration
+  - **Actual Impact**: Affected entities, financial loss, data volume, recovery time, severity score
+
+- **Heatmap Visualization**:
+  - **X-axis**: Media coverage intensity (0-100 scale)
+  - **Y-axis**: Actual impact severity (0-100 scale)
+  - **Color intensity**: Discrepancy magnitude
+  - **Bubble size**: Number of incidents in category
+
+- **Quadrant Analysis**:
+  - **Over-hyped** (high media, low impact): Media sensationalism
+  - **Under-reported** (low media, high impact): Critical blind spots
+  - **Aligned** (proportional): Accurate coverage
+  - **Ignored** (no media, no impact): Noise and non-events
+
+- **Use Cases**:
+  - **Prioritization**: Focus on high-impact, not high-hype incidents
+  - **Resource Allocation**: Deploy resources based on actual threat
+  - **Communication Strategy**: Identify where to amplify or clarify messaging
+  - **Media Bias Detection**: Recognize and account for reporting biases
+  - **Threat Intelligence**: Find under-reported but critical threats
+
+- **Advanced Features**:
+  - Time-series animation showing coverage/impact over time
+  - Sector-specific heatmaps (healthcare vs finance)
+  - Regional comparisons (US vs EU vs Asia media coverage)
+  - Predictive analysis: Forecast which incidents will be over/under-reported
+
 ## Conclusion
 
 This analytical layer will transform the CyberNews platform from a data repository into a strategic intelligence tool. By adding narrative context, relationship mapping, and prioritization, we enable security leaders to make informed decisions quickly.
