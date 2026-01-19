@@ -1,0 +1,205 @@
+/* Deduplication Statistics Component Styles */
+.deduplication-stats {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deduplication-stats .stats-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.deduplication-stats .stats-header h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.deduplication-stats .stats-header .subtitle {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card.primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 10%, #f8f9fa 10%);
+  border-color: #667eea;
+}
+
+.stat-card.highlight {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 10%, #f8f9fa 10%);
+  border-color: #f5576c;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #34495e;
+  margin: 0.25rem 0;
+}
+
+.stat-description {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+}
+
+.confidence-distribution {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.confidence-distribution h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.confidence-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.confidence-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bar-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.confidence-icon {
+  font-size: 1.2rem;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 32px;
+  background: white;
+  border-radius: 20px;
+  padding: 4px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.bar-fill {
+  height: 24px;
+  border-radius: 16px;
+  transition: width 0.5s ease;
+  min-width: 24px;
+}
+
+.bar-fill.high {
+  background: linear-gradient(90deg, #2ecc71, #27ae60);
+}
+
+.bar-fill.medium {
+  background: linear-gradient(90deg, #f39c12, #e67e22);
+}
+
+.bar-fill.low {
+  background: linear-gradient(90deg, #e74c3c, #c0392b);
+}
+
+.bar-value {
+  position: absolute;
+  right: 12px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.bar-description {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-left: 2rem;
+}
+
+.methodology-note {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #856404;
+}
+
+.methodology-note strong {
+  color: #533f03;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .deduplication-stats {
+    padding: 1.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+  }
+
+  .bar-container {
+    height: 28px;
+  }
+
+  .bar-fill {
+    height: 20px;
+  }
+}

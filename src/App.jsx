@@ -26,6 +26,7 @@ import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
 import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
 import DataHealthDashboard from './components/DataHealthDashboard'
+import DeduplicationStats from './components/DeduplicationStats'
 import { countUniqueIncidents } from './utils/populationUtils'
 
 // Month helpers
@@ -507,6 +508,9 @@ function App() {
 
       {/* Data Health Dashboard */}
       <DataHealthDashboard incidents={incidentsData} />
+
+      {/* Deduplication Statistics - Show estimated unique incidents */}
+      <DeduplicationStats incidents={incidentsData} />
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />
