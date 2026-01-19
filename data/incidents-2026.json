@@ -12,6 +12,95 @@
     "impact": 3
   },
   {
+    "id": "20262862",
+    "date": "2026-01-19",
+    "title": "Canada’s Investment Regulator Investigates Cyber Incident, Data Exposure Confirmed",
+    "summary": "The Canadian Investment Regulatory Organization (CIRO) has confirmed that it detected a cybersecurity threat earlier this month and took immediate steps to contain the situation. The CIRO cybersecurity incident, first identified on August 11, 2025, prompted CIRO to proactively shut down parts of ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ciro-cybersecurity-incident/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262863",
+    "date": "2026-01-19",
+    "title": "A new European standard outlines security requirements for AI",
+    "summary": "The European Telecommunications Standards Institute (ETSI) has released a new European Standard that addresses a growing concern for security teams working with AI. The standard, ETSI EN 304 223, sets baseline cybersecurity requirements for AI models and systems intended for real-world use. Addre...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/etsi-european-standard-ai-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262864",
+    "date": "2026-01-19",
+    "title": "When the Olympics connect everything, attackers pay attention",
+    "summary": "Global sporting events bring a surge of network traffic, new systems, and short term partnerships. That mix draws attention from cyber threat actors who see opportunity in scale and distraction. A new Palo Alto Networks threat study on the Milan Cortina 2026 Winter Olympic Games outlines how atta...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/palo-alto-networks-olympic-cybersecurity-risks-report/",
+    "tags": [
+      "cloud",
+      "aws",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262865",
+    "date": "2026-01-19",
+    "title": "Cyber risk keeps winning, even as AI takes over",
+    "summary": "Cyber risk continues to dominate global business concerns, with AI rising quickly alongside it. According to a new risk survey from Allianz, both are influencing how organizations plan for disruption, resilience, and recovery across regions and industries. Cyber incidents stay on top Cyber incide...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/allianz-ai-cyber-risk-report/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262866",
+    "date": "2026-01-19",
+    "title": "Data Fiduciary vs. Significant Data Fiduciary: What Changes in 2026",
+    "summary": "India’s digital economy is expanding at an unprecedented pace, with AI-driven personalization, digital payments, cloud-native services, and data-driven citizen... The post Data Fiduciary vs. Significant Data Fiduciary: What Changes in 2026 appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/data-fiduciary-vs-significant-data-fiduciary-what-changes-in-2026/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20262867",
+    "date": "2026-01-19",
+    "title": "Southeast Asia CISOs Top 13 Predictions for 2026: Securing AI, Centering Identity, and Making Resilience Strategic",
+    "summary": "In my recent conversation with CISOs across Southeast Asia, they shared with me a pragmatic view of 2026. Attackers are shifting tactics, AI is amplifying both risk and response, and IT-OT boundaries are blurring. Three priorities stand out to me, hardening cloud and AI infrastructure, treating i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117844/southeast-asia-cisos-13-top-predictions-for-2026-securing-ai-centering-identity-and-making-resilience-strategic.html",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262854",
     "date": "2026-01-19",
     "title": "New OpenAI leak hints at upcoming ChatGPT features",
