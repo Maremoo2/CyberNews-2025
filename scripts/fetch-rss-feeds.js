@@ -20,6 +20,18 @@ const __dirname = path.dirname(__filename);
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONFIG_FILE = path.join(PROJECT_ROOT, 'config', 'rss-feeds-config.json');
+const METADATA_FILE = path.join(PROJECT_ROOT, 'data', 'metadata.json');
+
+// Default metadata structure
+const DEFAULT_METADATA = {
+  lastUpdated: null,
+  lastRssFetch: null,
+  lastInoreaderFetch: null,
+  lastEnrichment: null,
+  totalIncidents2025: 0,
+  totalIncidents2026: 0,
+  totalIncidents: 0
+};
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -114,6 +126,35 @@ function saveIncidents(incidents, year) {
   } catch (error) {
     console.error(`Error saving incidents to ${filePath}:`, error.message);
     process.exit(1);
+  }
+}
+
+/**
+ * Load metadata
+ */
+function loadMetadata() {
+  try {
+    if (fs.existsSync(METADATA_FILE)) {
+      const data = fs.readFileSync(METADATA_FILE, 'utf-8');
+      return JSON.parse(data);
+    }
+    return { ...DEFAULT_METADATA };
+  } catch (error) {
+    console.error(`Error loading metadata from ${METADATA_FILE}:`, error.message);
+    return { ...DEFAULT_METADATA };
+  }
+}
+
+/**
+ * Save metadata
+ */
+function saveMetadata(metadata) {
+  try {
+    const json = JSON.stringify(metadata, null, 2);
+    fs.writeFileSync(METADATA_FILE, json);
+    console.log(`✅ Updated metadata in ${METADATA_FILE}`);
+  } catch (error) {
+    console.error(`Error saving metadata to ${METADATA_FILE}:`, error.message);
   }
 }
 
@@ -222,6 +263,15 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   
   // Convert date
   const date = formatDate(item.pubDate || item.isoDate || item.published || new Date());
+  
+  // Validate date is not in the future
+  const today = new Date();
+  today.setHours(23, 59, 59, 999); // End of today
+  const incidentDate = new Date(date);
+  if (incidentDate > today) {
+    console.log(`  ⚠️  Skipping item with future date (${date}): ${title}`);
+    return null;
+  }
   
   // Generate tags and impact
   const combinedText = `${title} ${summary}`;
@@ -471,6 +521,20 @@ async function main() {
         saveIncidents(mergedIncidents, yearNum);
       }
       console.log(`\n✅ Successfully added ${totalNew} new incidents!`);
+      
+      // Update metadata
+      const metadata = loadMetadata();
+      metadata.lastRssFetch = new Date().toISOString();
+      metadata.lastUpdated = new Date().toISOString();
+      
+      // Update incident counts
+      const incidents2025 = loadExistingIncidents(2025);
+      const incidents2026 = loadExistingIncidents(2026);
+      metadata.totalIncidents2025 = incidents2025.length;
+      metadata.totalIncidents2026 = incidents2026.length;
+      metadata.totalIncidents = incidents2025.length + incidents2026.length;
+      
+      saveMetadata(metadata);
     }
   } else {
     console.log('\n✅ No new articles to add');
