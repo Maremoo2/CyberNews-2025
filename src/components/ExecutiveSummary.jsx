@@ -192,7 +192,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               </div>
               <p className="insight-text">
-                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-impact incidents 
+                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity articles 
                 ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
               </p>
             </>
@@ -314,15 +314,15 @@ function generateNarrative(year, severity, topThemes, attributionRate, kpis, dat
     return `${year} data is being collected and analyzed. ${criticalCount > 0 ? `${criticalCount} critical incidents have been identified.` : ''} Full analysis including severity distribution, themes, and MITRE mapping will be available once enrichment is complete. Run the enrichment script to enable comprehensive analysis.`;
   }
   
-  // Calculate high-impact (critical + high severity)
-  const highImpactCount = criticalCount + highCount;
+  // Calculate high-severity articles (critical + high severity)
+  const highSeverityCount = criticalCount + highCount;
   
   if (year === 2026) {
-    return `${year} saw ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high severity), with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incidents were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
+    return `${year} saw ${highSeverityCount} high-severity articles (${criticalCount} critical, ${highCount} high severity), with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incident-related articles were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. With only ${attributionPct}% attribution rate, many threats remain unidentified. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
   } else if (year === 2025) {
-    return `${year} was marked by ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high severity). ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. Attribution rate of ${attributionPct}% reflects the challenge of identifying sophisticated threat actors. Cloud infrastructure and supply chains became prime targets.`
+    return `${year} was marked by ${highSeverityCount} high-severity articles (${criticalCount} critical, ${highCount} high severity). ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. Attribution rate of ${attributionPct}% reflects the challenge of identifying sophisticated threat actors. Cloud infrastructure and supply chains became prime targets.`
   }
-  return `${year} presented significant cybersecurity challenges with ${highImpactCount} high-impact incidents (${criticalCount} critical, ${highCount} high) and an attribution rate of ${attributionPct}%.`
+  return `${year} presented significant cybersecurity challenges with ${highSeverityCount} high-severity articles (${criticalCount} critical, ${highCount} high) and an attribution rate of ${attributionPct}%.`
 }
 
 function formatVectorName(vector) {

@@ -256,8 +256,8 @@ function TrendDashboard({ selectedYear, selectedMonth, selectedRegion, incidents
         {/* Statistics Overview */}
         <div className="dashboard-card stats-card">
           <h3>📊 Statistics</h3>
-          <div className="stat-item interactive-stat" title="Total number of incidents recorded in 2026">
-            <span className="stat-label">Total incidents:</span>
+          <div className="stat-item interactive-stat" title="Total number of articles recorded in 2026">
+            <span className="stat-label">Total articles:</span>
             <span className="stat-value highlight-number">{dashboardData.stats.totalIncidents.toLocaleString()}</span>
           </div>
           <div className="stat-item interactive-stat" title="Unique threat actors identified">

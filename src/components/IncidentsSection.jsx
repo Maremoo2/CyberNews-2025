@@ -173,7 +173,7 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
         <div className="tabs">
           {[
             { id: "all", label: "ALL", count: tabCounts.all, tooltip: "All content types" },
-            { id: "incident", label: "INCIDENTS", count: tabCounts.incident, tooltip: "Incidents, breaches, attacks & campaigns" },
+            { id: "incident", label: "INCIDENT-RELATED ARTICLES", count: tabCounts.incident, tooltip: "Incidents, breaches, attacks & campaigns" },
             { id: "vulnerability", label: "VULNERABILITIES", count: tabCounts.vulnerability, tooltip: "Vulnerabilities and CVEs" },
             { id: "policy", label: "POLICY", count: tabCounts.policy, tooltip: "Policy, regulation & legal" },
             { id: "opinion", label: "OPINION/PREDICTIONS", count: tabCounts.opinion, tooltip: "Opinions, predictions & forecasts" }
