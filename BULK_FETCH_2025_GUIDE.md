@@ -74,11 +74,11 @@ npm run fetch-2025-bulk -- --max-iterations=50
 
 **File:** `config/rss-feeds-config.json`
 
-The `maxItemsPerFeed` has been increased to 500 to allow fetching more historical data when RSS feeds support it.
+The regular RSS feed configuration uses `maxItemsPerFeed: 50` for ongoing article collection. The bulk fetch script has its own internal logic that requests up to 1,000 items per page directly from the Inoreader API, independent of this config setting.
 
 ```json
 {
-  "maxItemsPerFeed": 500,
+  "maxItemsPerFeed": 50,
   "feeds": [...]
 }
 ```
@@ -87,7 +87,7 @@ The `maxItemsPerFeed` has been increased to 500 to allow fetching more historica
 
 **File:** `config/inoreader-config.json`
 
-The Inoreader configuration already supports 500 items per request:
+The Inoreader configuration uses 500 items per request, which helps when using the Inoreader fetch method:
 
 ```json
 {
@@ -95,6 +95,8 @@ The Inoreader configuration already supports 500 items per request:
   "feeds": [...]
 }
 ```
+
+**Note:** The bulk fetch script (`fetch-2025-bulk.js`) requests 1,000 items per page internally and does not rely on these config values for its pagination.
 
 ## Understanding the Output
 

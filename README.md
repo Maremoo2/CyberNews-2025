@@ -363,7 +363,7 @@ The RSS feed configuration is in `config/rss-feeds-config.json`:
 - Tag keyword patterns (18+ categories including ransomware, data-breach, vulnerability, phishing, etc.)
 - Impact level keywords (1-5 scale)
 - Company/product keywords for automatic tagging
-- `maxItemsPerFeed`: 500 (increased from 50 to fetch more historical data)
+- `maxItemsPerFeed`: 50 (default for regular fetches)
 
 ### Bulk Historical Fetch
 
