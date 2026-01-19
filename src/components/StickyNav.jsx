@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './StickyNav.css';
 
-function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange }) {
+function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqueIncidents, totalArticles }) {
   const [isSticky, setIsSticky] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
@@ -83,6 +83,19 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange }) {
           >
             💼 CISO Mode
           </button>
+
+          {/* Data Volume Badge */}
+          {uniqueIncidents && totalArticles && (
+            <div className="data-volume-badge">
+              <span className="badge-item unique" title="Estimated unique incidents (deduplicated)">
+                🎯 {uniqueIncidents.toLocaleString()} unique incidents
+              </span>
+              <span className="badge-separator">•</span>
+              <span className="badge-item articles" title="Total incident-related articles">
+                📰 {totalArticles.toLocaleString()} articles
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="nav-center">

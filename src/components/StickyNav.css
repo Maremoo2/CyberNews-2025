@@ -39,6 +39,41 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.data-volume-badge {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e6f0ff 100%);
+  border: 1px solid #c7d7ff;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4a5568;
+  box-shadow: 0 1px 3px rgba(102, 126, 234, 0.1);
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+.badge-item.unique {
+  color: #667eea;
+}
+
+.badge-item.articles {
+  color: #4299e1;
+}
+
+.badge-separator {
+  color: #cbd5e0;
+  font-weight: 400;
 }
 
 .year-toggle {
@@ -187,6 +222,13 @@
   .nav-left {
     justify-content: space-between;
     width: 100%;
+  }
+
+  .data-volume-badge {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
   }
 
   .nav-center {

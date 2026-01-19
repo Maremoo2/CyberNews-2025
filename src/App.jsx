@@ -480,6 +480,8 @@ function App() {
         onYearChange={setSelectedYear}
         cisoMode={cisoMode}
         onCisoModeChange={setCisoMode}
+        uniqueIncidents={uniqueIncidentCount}
+        totalArticles={totalSourceCount}
       />
 
       {/* Hero / Value Proposition */}
