@@ -272,7 +272,7 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
   let oldestArticleDate = null;
   
   const itemsPerRequest = 1000; // Request maximum items per page
-  const target2025Start = new Date('2025-01-01T00:00:00Z').getTime() / 1000; // 2025-01-01 in Unix timestamp
+  const target2025StartTimestamp = new Date('2025-01-01T00:00:00Z').getTime() / 1000; // 2025-01-01 in Unix timestamp
   
   while (iteration < MAX_ITERATIONS) {
     iteration++;
@@ -292,7 +292,7 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
     if (continuationToken) {
       console.log(`     Continuation: ${continuationToken}`);
     } else if (olderThanTimestamp) {
-      const otDate = new Date(olderThanTimestamp * 1000).toISOString().split('T')[0];
+      const otDate = unixToDate(olderThanTimestamp);
       console.log(`     Older than: ${otDate} (timestamp: ${olderThanTimestamp})`);
     } else {
       console.log(`     Starting from most recent articles`);
@@ -396,7 +396,7 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
       }
       
       // Check if oldest timestamp is before our target (2025-01-01)
-      if (oldestTimestampInPage && oldestTimestampInPage < target2025Start) {
+      if (oldestTimestampInPage && oldestTimestampInPage < target2025StartTimestamp) {
         console.log(`  🛑 Reached articles before 2025 (timestamp check), stopping pagination`);
         break;
       }
@@ -410,12 +410,12 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
         
         // Respectful delay between requests
         await new Promise(resolve => setTimeout(resolve, 2000));
-      } else if (oldestTimestampInPage && oldestTimestampInPage > target2025Start) {
+      } else if (oldestTimestampInPage && oldestTimestampInPage > target2025StartTimestamp) {
         // No continuation token, but we haven't reached 2025 yet
         // Use time-based pagination with the oldest timestamp from this page
         olderThanTimestamp = oldestTimestampInPage;
         continuationToken = null;
-        const otDate = new Date(olderThanTimestamp * 1000).toISOString().split('T')[0];
+        const otDate = unixToDate(olderThanTimestamp);
         console.log(`  ➡️  No continuation token, using time-based pagination (ot=${otDate})`);
         
         // Respectful delay between requests
