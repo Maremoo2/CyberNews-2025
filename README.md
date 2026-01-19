@@ -162,6 +162,9 @@ npm run fetch-rss
 
 # Fetch latest news from Inoreader (legacy method)
 npm run fetch-news
+
+# Bulk fetch historical 2025 articles (for collecting 40-50k articles)
+npm run fetch-2025-bulk -- --max-iterations=100
 ```
 
 ---
@@ -355,11 +358,32 @@ npm run fetch-news
 ### Configuration
 
 The RSS feed configuration is in `config/rss-feeds-config.json`:
-- 33 RSS feed URLs with source names
+- 128 RSS feed URLs with source names (increased from 33)
 - Default region/country mappings for each source
 - Tag keyword patterns (18+ categories including ransomware, data-breach, vulnerability, phishing, etc.)
 - Impact level keywords (1-5 scale)
 - Company/product keywords for automatic tagging
+- `maxItemsPerFeed`: 500 (increased from 50 to fetch more historical data)
+
+### Bulk Historical Fetch
+
+For collecting large volumes of historical articles (e.g., 40-50k articles from 2025), use the bulk fetch feature:
+
+```bash
+# Test with dry run
+npm run fetch-2025-bulk -- --dry-run --max-iterations=10
+
+# Run actual bulk fetch (takes 2-3 hours)
+npm run fetch-2025-bulk -- --max-iterations=100
+```
+
+The bulk fetch uses Inoreader's pagination API to fetch historical articles throughout 2025. See [BULK_FETCH_2025_GUIDE.md](./BULK_FETCH_2025_GUIDE.md) for detailed instructions.
+
+**GitHub Actions:** You can also trigger the bulk fetch via GitHub Actions:
+1. Go to Actions → "Fetch 2025 Articles (Bulk)"
+2. Click "Run workflow"
+3. Configure max_iterations and dry_run options
+4. The workflow will automatically commit fetched articles
 
 ### Year Routing
 
