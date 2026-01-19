@@ -21,6 +21,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
+const METADATA_FILE = path.join(PROJECT_ROOT, 'data', 'metadata.json');
 
 // Load entity normalization mappings
 const ENTITY_NORMALIZATION = JSON.parse(
@@ -1134,6 +1135,38 @@ async function processIncidents() {
   } else {
     fs.writeFileSync(outputFile, JSON.stringify(enrichedIncidents, null, 2));
     console.log(`\n✅ Enriched incidents saved to ${outputFile}`);
+    
+    // Update metadata
+    try {
+      let metadata = {};
+      if (fs.existsSync(METADATA_FILE)) {
+        metadata = JSON.parse(fs.readFileSync(METADATA_FILE, 'utf-8'));
+      }
+      
+      metadata.lastEnrichment = new Date().toISOString();
+      metadata.lastUpdated = new Date().toISOString();
+      
+      // Update incident counts
+      const incidents2025File = path.join(PROJECT_ROOT, 'data', 'incidents-2025.json');
+      const incidents2026File = path.join(PROJECT_ROOT, 'data', 'incidents-2026.json');
+      
+      if (fs.existsSync(incidents2025File)) {
+        const incidents2025 = JSON.parse(fs.readFileSync(incidents2025File, 'utf-8'));
+        metadata.totalIncidents2025 = incidents2025.length;
+      }
+      
+      if (fs.existsSync(incidents2026File)) {
+        const incidents2026 = JSON.parse(fs.readFileSync(incidents2026File, 'utf-8'));
+        metadata.totalIncidents2026 = incidents2026.length;
+      }
+      
+      metadata.totalIncidents = (metadata.totalIncidents2025 || 0) + (metadata.totalIncidents2026 || 0);
+      
+      fs.writeFileSync(METADATA_FILE, JSON.stringify(metadata, null, 2));
+      console.log(`✅ Updated metadata in ${METADATA_FILE}`);
+    } catch (error) {
+      console.error(`⚠️  Failed to update metadata: ${error.message}`);
+    }
   }
 }
 

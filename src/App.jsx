@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react'
 import './App.css'
 import incidents2025 from '../data/incidents-2025-enriched.json'
 import incidents2026 from '../data/incidents-2026-enriched.json'
+import metadata from '../data/metadata.json'
 import InteractiveTagCloud from './components/InteractiveTagCloud'
 import YearWheel from './components/YearWheel'
 import YearStats from './components/YearStats'
@@ -143,27 +144,21 @@ function App() {
   }
   const incidentsData = yearDataMap[selectedYear] || incidents2025
 
-  // Calculate last updated date from actual data
+  // Get last updated date from metadata
   const lastUpdated = useMemo(() => {
-    if (!incidentsData || incidentsData.length === 0) {
-      return { formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), iso: new Date().toISOString().split('T')[0] };
+    if (metadata && metadata.lastUpdated) {
+      const date = new Date(metadata.lastUpdated);
+      return { 
+        formatted: date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+        iso: date.toISOString().split('T')[0]
+      };
     }
-    const dates = incidentsData
-      .map(inc => inc.date)
-      .filter(date => date)
-      .map(date => new Date(date))
-      .filter(date => !isNaN(date.getTime()));
-    
-    if (dates.length === 0) {
-      return { formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), iso: new Date().toISOString().split('T')[0] };
-    }
-    
-    const maxDate = new Date(Math.max(...dates));
+    // Fallback to current date if metadata is not available
     return { 
-      formatted: maxDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
-      iso: maxDate.toISOString().split('T')[0]
+      formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+      iso: new Date().toISOString().split('T')[0] 
     };
-  }, [incidentsData]);
+  }, []);
 
   // Calculate unique incidents vs total sources
   const uniqueIncidentCount = useMemo(() => countUniqueIncidents(incidentsData), [incidentsData]);
@@ -419,8 +414,8 @@ function App() {
           <div className="header-text">
             <h1>Security News Year in Review {selectedYear}</h1>
             <p className="subtitle">Overview of cybersecurity incidents</p>
-            <p className="last-updated" title={`Last data from: ${lastUpdated.iso}`}>
-              Last updated (from data): {lastUpdated.iso}
+            <p className="last-updated" title={`Data last refreshed: ${lastUpdated.iso}`}>
+              Last updated: {lastUpdated.iso}
             </p>
             {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
               <p className="enrichment-timestamp" title="Analytics generation date">
