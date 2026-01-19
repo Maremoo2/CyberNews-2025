@@ -194,10 +194,10 @@ function StrategicRiskThemes({ incidents, selectedYear, filters }) {
       <div className="themes-header">
         <h2>🎯 Strategic Risk Themes {selectedYear}</h2>
         <p className="themes-subtitle">
-          Top 5 strategic risks based on {analysis.totalIncidents} incidents
+          Top 5 strategic risks based on {analysis.totalIncidents} incident-related articles
         </p>
         <div className="themes-note">
-          <strong>Count type: unique incidents</strong> - Each incident mapped to up to 3 themes with confidence scoring
+          <strong>Count type: incident-related articles</strong> - Each article mapped to up to 3 themes with confidence scoring
         </div>
       </div>
 

@@ -29,8 +29,8 @@ function ThreatLandscapeSnapshot({ incidents }) {
     const criticalCount = incidents.filter(i => i.severity === 'critical').length;
     const highCount = incidents.filter(i => i.impact >= 4).length;
     const topImpact = criticalCount > 0 
-      ? `${criticalCount} Critical Incidents` 
-      : `${highCount} High-Impact Events`;
+      ? `${criticalCount} Critical Articles` 
+      : `${highCount} High-Impact Articles`;
 
     // Top 3 Themes
     const themeCounts = {};

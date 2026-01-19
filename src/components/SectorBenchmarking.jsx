@@ -169,12 +169,25 @@ function getTopInsights(benchmarks, avgCritical) {
   const highestCritical = benchmarks.reduce((max, b) => 
     b.criticalRate > max.criticalRate ? b : max
   );
-  insights.push(
-    <li key="critical">
-      <strong>{capitalizeFirst(highestCritical.sector)}</strong> has the highest critical incident rate 
-      at {highestCritical.criticalRate}% ({Math.round(highestCritical.criticalRate / avgCritical * 10) / 10}x average)
-    </li>
-  );
+  
+  // Check if all sectors have 0% critical rate
+  if (highestCritical.criticalRate === 0 && avgCritical === 0) {
+    insights.push(
+      <li key="critical">
+        No sectors recorded critical incidents in this period.
+      </li>
+    );
+  } else {
+    const multiplier = avgCritical > 0 
+      ? Math.round(highestCritical.criticalRate / avgCritical * 10) / 10 
+      : '—';
+    insights.push(
+      <li key="critical">
+        <strong>{capitalizeFirst(highestCritical.sector)}</strong> has the highest critical incident rate 
+        at {highestCritical.criticalRate}% {multiplier !== '—' ? `(${multiplier}x average)` : ''}
+      </li>
+    );
+  }
 
   // Highest exploit-led rate
   const highestExploit = benchmarks.reduce((max, b) => 

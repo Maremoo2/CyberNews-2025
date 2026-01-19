@@ -194,36 +194,6 @@
     "enrichmentVersion": "1.0"
   },
   {
-    "id": "20262968",
-    "date": "2026-01-19",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9c0518bd0d43d103 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9c0518bd0d43d103 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.419Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
     "id": "20262969",
     "date": "2026-01-19",
     "title": "Global tensions are pushing cyber activity toward dangerous territory",
@@ -9266,36 +9236,6 @@
         "data breach",
         "malware"
       ],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.434Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20262651",
-    "date": "2026-01-16",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bec8d61bcb2d0ef • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gootloader-now-uses-1-000-part-zip-archives-for-stealthy-delivery/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bec8d61bcb2d0ef • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
@@ -21859,66 +21799,6 @@
     "enrichmentVersion": "1.0"
   },
   {
-    "id": "20262164",
-    "date": "2026-01-14",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bdc22d348d9d0ea • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5073724-extended-security-update/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bdc22d348d9d0ea • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.446Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20262165",
-    "date": "2026-01-14",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bdc22d34a540bcf • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bdc22d34a540bcf • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.446Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
     "id": "20262166",
     "date": "2026-01-14",
     "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
@@ -21971,36 +21851,6 @@
     "impact": 3,
     "aiAnalysis": {
       "summary": "Vulnerabilities in popular AI and ML Python libraries used in Hugging Face models with tens of millions of downloads allow remote attackers to hide malicious code in metadata. The code then executes automatically when a file containing the poisoned metadata is loaded. The open source libraries - ...",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.446Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20262168",
-    "date": "2026-01-14",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bdc22d34817b5c8 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bdc22d34817b5c8 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
       "status": "New",
       "buzzwords": [],
       "threatActors": [],
@@ -29382,96 +29232,6 @@
       "buzzwords": [
         "malware"
       ],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.453Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20261754",
-    "date": "2026-01-13",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bd31256da86cb7b • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bd31256da86cb7b • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.453Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20261755",
-    "date": "2026-01-13",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bd31256db7e3a0d • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/facebook-login-thieves-now-using-browser-in-browser-trick/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bd31256db7e3a0d • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
-      "threatActors": [],
-      "malwareFamilies": [],
-      "companies": [],
-      "cves": [],
-      "mitreAttack": [],
-      "impactScore": 3,
-      "region": "US",
-      "country": "Global",
-      "trends": []
-    },
-    "enrichedAt": "2026-01-19T12:16:23.453Z",
-    "enrichmentVersion": "1.0"
-  },
-  {
-    "id": "20261756",
-    "date": "2026-01-13",
-    "title": "Access denied",
-    "summary": "Cloudflare Ray ID: 9bd31256dfdcaf0a • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Cyber",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/?&web_view=true",
-    "tags": [
-      "Cyber"
-    ],
-    "impact": 3,
-    "aiAnalysis": {
-      "summary": "Cloudflare Ray ID: 9bd31256dfdcaf0a • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
-      "status": "New",
-      "buzzwords": [],
       "threatActors": [],
       "malwareFamilies": [],
       "companies": [],
