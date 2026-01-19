@@ -202,6 +202,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         {/* Top Attack Vectors */}
         <div className="summary-card vectors-card">
           <h3>⚔️ Top Attack Vectors</h3>
+          <div className="count-type-label">
+            <small>Count type: MITRE technique mentions</small>
+          </div>
           {!analysis.dataEnriched || analysis.topVectors.length === 0 ? (
             <div className="no-enrichment-message">
               <p>⚠️ MITRE technique data not available</p>
@@ -220,7 +223,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
               </div>
               {analysis.topVectors.length > 0 && (
                 <p className="insight-text">
-                  Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} incidents
+                  Most common: <strong>{formatVectorName(analysis.topVectors[0]?.[0])}</strong> with {analysis.topVectors[0]?.[1]} mentions
                 </p>
               )}
             </>
@@ -230,6 +233,9 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         {/* Most Targeted Sectors */}
         <div className="summary-card sectors-card">
           <h3>🎯 Most Targeted Sectors</h3>
+          <div className="count-type-label">
+            <small>Count type: tag mentions</small>
+          </div>
           <div className="sector-list">
             {analysis.topSectors.length > 0 ? (
               analysis.topSectors.map(([sector, count], index) => (
@@ -245,7 +251,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
           </div>
           {analysis.topSectors.length > 0 && (
             <p className="insight-text">
-              <strong>{capitalize(analysis.topSectors[0]?.[0])}</strong> sector hit hardest with {analysis.topSectors[0]?.[1]} incidents
+              <strong>{capitalize(analysis.topSectors[0]?.[0])}</strong> sector mentioned most with {analysis.topSectors[0]?.[1]} articles
             </p>
           )}
         </div>

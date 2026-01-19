@@ -131,6 +131,7 @@ function SectorAnalysis({ incidents }) {
       <div className="sector-header">
         <h2>🎯 Sector Analysis</h2>
         <p className="sector-subtitle">Understanding why specific sectors are targeted</p>
+        <p className="counting-label"><small><em>Count type: incident mentions (includes keyword matching)</em></small></p>
       </div>
 
       <div className="sector-grid">

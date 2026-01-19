@@ -52,8 +52,9 @@ function SectorBenchmarking({ incidents, filters }) {
       </div>
 
       <div className="methodology-note">
-        <strong>Methodology:</strong> Sector KPIs calculated from incident data. 
+        <strong>Methodology:</strong> Sector KPIs calculated from unique incident data (deduplicated). 
         Enables strategic comparisons like "Energy has 2x higher critical rate than Finance."
+        <br/><small><em>Count type: unique incidents per sector</em></small>
       </div>
 
       <div className="benchmark-grid">
