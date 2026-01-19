@@ -61,11 +61,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Get count of new articles
-          NEW_COUNT=$(git diff data/incidents-2025.json | grep -c '^+  {' || echo "0")
+          # Count new articles by comparing before/after article counts
+          OLD_COUNT=$(git show HEAD:data/incidents-2025.json | jq 'length' 2>/dev/null || echo "0")
+          NEW_COUNT=$(jq 'length' data/incidents-2025.json)
+          ADDED=$((NEW_COUNT - OLD_COUNT))
           
           git add data/incidents-2025.json
-          git commit -m "chore: bulk fetch 2025 articles (+${NEW_COUNT} articles) [skip ci]"
+          git commit -m "chore: bulk fetch 2025 articles (+${ADDED} articles) [skip ci]"
           
           # Try a few times to handle concurrent updates
           for i in 1 2 3 4 5; do

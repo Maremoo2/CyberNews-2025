@@ -152,6 +152,13 @@ function unixToDate(timestamp) {
 }
 
 /**
+ * Get timestamp fallback for missing date
+ */
+function getTimestampFallback(item) {
+  return item.published || item.updated || Math.floor(Date.now() / 1000);
+}
+
+/**
  * Generate tags from text using keyword matching
  */
 function generateTags(text, config) {
@@ -215,11 +222,11 @@ function transformItem(item, feedConfig, config, nextId) {
     if (!isNaN(parsedDate.getTime())) {
       date = parsedDate.toISOString().split('T')[0];
     } else {
-      const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+      const timestamp = getTimestampFallback(item);
       date = unixToDate(timestamp);
     }
   } else {
-    const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+    const timestamp = getTimestampFallback(item);
     date = unixToDate(timestamp);
   }
   
@@ -326,11 +333,11 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
             if (!isNaN(parsedDate.getTime())) {
               articleDate = parsedDate.toISOString().split('T')[0];
             } else {
-              const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+              const timestamp = getTimestampFallback(item);
               articleDate = unixToDate(timestamp);
             }
           } else {
-            const timestamp = item.published || item.updated || Math.floor(Date.now() / 1000);
+            const timestamp = getTimestampFallback(item);
             articleDate = unixToDate(timestamp);
           }
           
@@ -467,7 +474,7 @@ async function main() {
       }
       console.log('\n⚠️  Not saving changes (dry-run mode)');
     } else {
-      // Assign proper sequential IDs
+      // Assign proper sequential IDs (use 5 digits to support up to 99,999 articles)
       let maxId = 0;
       for (const incident of existing2025) {
         if (incident.id && incident.id.startsWith('2025')) {
@@ -480,7 +487,7 @@ async function main() {
       
       for (const article of allNewArticles) {
         maxId++;
-        article.id = `2025${String(maxId).padStart(3, '0')}`;
+        article.id = `2025${String(maxId).padStart(5, '0')}`; // 5 digits: supports up to 99,999 articles
       }
       
       // Merge with existing and sort by date (newest first)

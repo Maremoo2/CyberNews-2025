@@ -6,9 +6,14 @@ This guide explains how to use the bulk fetch functionality to collect historica
 
 ## Current Status
 
-- **Current 2025 articles:** 1,063
+Check the current article count by running:
+```bash
+cat data/incidents-2025.json | jq 'length'
+```
+
+As of the initial implementation, the repository had approximately 1,000 articles from 2025.
+
 - **Target:** 40,000-50,000 articles
-- **Remaining needed:** ~43,000-49,000 articles
 
 ## How It Works
 
