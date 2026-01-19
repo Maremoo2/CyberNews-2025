@@ -12,6 +12,121 @@
     "impact": 3
   },
   {
+    "id": "20262854",
+    "date": "2026-01-19",
+    "title": "New OpenAI leak hints at upcoming ChatGPT features",
+    "summary": "OpenAI is internally testing a new update for ChatGPT, at least on the web. It'll begin rolling out in the coming weeks. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262855",
+    "date": "2026-01-18",
+    "title": "Korea's Next Cyber Crisis Won't Come From Tech — It's Already Hiding in the Funeral Industry",
+    "summary": "Korea's Funeral Sector: The Hidden Security Void in a High-Trust Industry ... Under Korean law, ISMS certification is mandatory for information and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://koreatechdesk.com/korea-funeral-industry-cybersecurity-gap",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262856",
+    "date": "2026-01-18",
+    "title": "The main targets of cybercriminals: the elderly - VietNamNet",
+    "summary": "Experts say it is necessary to strengthen communication campaigns and improve information security and cybersecurity skills so that the Internet truly ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://vietnamnet.vn/en/the-main-targets-of-cybercriminals-the-elderly-2482597.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262857",
+    "date": "2026-01-18",
+    "title": "GootLoader uses malformed ZIP files to bypass security controls",
+    "summary": "GootLoader is used by ransomware actors for initial access, then handed off to others. Built to evade detection, it accounted for 11% of bypassing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/187037/cyber-crime/gootloader-uses-malformed-zip-files-to-bypass-security-controls.html",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262858",
+    "date": "2026-01-18",
+    "title": "Capture The Bug adds US tech leaders for North American push",
+    "summary": "The Hamilton-founded cybersecurity company said the appointments reflect changing security practices among software organisations. Many teams now ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.nz/story/capture-the-bug-adds-us-tech-leaders-for-north-american-push",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262859",
+    "date": "2026-01-18",
+    "title": "The Early Script Gets The Mitigation | Behind The CVE Issue 10 - LinkedIn",
+    "summary": "The Cyber Security Hub™. World's Premier Cyber Security Portal. Published Jan 18, 2026. + Follow. January is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/early-script-gets-mitigation-behind-cve-issue-10-hcbre",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262860",
+    "date": "2026-01-18",
+    "title": "Real-time cloud security: The American seal for a Tel Aviv start-up - The Jerusalem Post",
+    "summary": "Israeli cybersecurity start-up ARMO, which developed the open-source cloud security platform Kubescape and the CADR system for real-time detection ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jpost.com/consumerism/article-883684",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262861",
+    "date": "2026-01-18",
+    "title": "Cybersecurity Stocks To Follow Now - January 18th - MarketBeat",
+    "summary": "Investor demand for these stocks is being driven by rising cyber risk and regulation, boosting need for security software, hardware, incident response ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketbeat.com/instant-alerts/cybersecurity-stocks-to-follow-now-january-18th-2026-01-18/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262850",
     "date": "2026-01-18",
     "title": "Trump Sells Venezuelan Oil to Fund Domestic Shock Troops and Concentration Camps",
