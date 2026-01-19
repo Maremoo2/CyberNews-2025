@@ -271,22 +271,39 @@ Hvis du vil ta det enda et hakk opp (valgfritt) - If you want to take it even a 
 ### False positive-rate
 - **Hvor ofte cluster-regelen feiler** (How often the cluster rule fails)
 - Track and measure clustering accuracy over time
-- Identify patterns in misclassified incidents
+- **Critical requirements**:
+  - Store which clusters were incorrect (case_id, incident_ids, error_type)
+  - Analyze why they failed:
+    - Same organization but different incidents?
+    - Same date/timeframe causing false grouping?
+    - Same attack type but different actors?
+    - Similar keywords but different context?
+  - Maintain historical trend data (improvement over time)
+  - Track failure patterns by category (org-based, date-based, TTP-based)
 - Calculate precision, recall, and F1 scores for clustering algorithm
 - Generate reports showing:
-  - Incidents incorrectly merged together
-  - Incidents that should have been merged but weren't
-  - Root causes of clustering failures
+  - Incidents incorrectly merged together (false positives)
+  - Incidents that should have been merged but weren't (false negatives)
+  - Root causes of clustering failures with examples
+  - Weekly/monthly trend showing algorithm improvement
 - Implement continuous monitoring and alerting when false positive rate exceeds threshold
 
 ### Manual override
 - **Flagg "split incident" / "merge incident"** (Flag "split incident" / "merge incident")
 - Allow security analysts to manually override automatic clustering decisions
+- **Critical requirements**:
+  - Access control: Define who can perform overrides (role-based permissions)
+  - Complete audit trail: Log all changes with before/after state
+  - Permanent overrides: Manual decisions persist across re-runs
+  - Version tracking: Maintain history of all override changes
+  - Prevent automatic override: System respects manual decisions permanently
 - Provide UI/API for marking incidents that should be split or merged
 - Track all manual overrides with:
   - Reviewer name and timestamp
-  - Justification for override
+  - Justification for override (required field)
   - Link to related incidents
+  - Before/after cluster state (case_ids, incident_ids)
+  - Override type (split/merge/reassign)
 - Use manual overrides to:
   - Improve clustering algorithm
   - Train ML models
@@ -296,21 +313,42 @@ Hvis du vil ta det enda et hakk opp (valgfritt) - If you want to take it even a 
 ### Actor correlation
 - **Hvilke clusters deler TTPs** (Which clusters share TTPs)
 - Analyze which incident clusters share Tactics, Techniques, and Procedures
+- **Critical requirements**:
+  - Match beyond just group names - use multi-factor correlation:
+    - MITRE ATT&CK techniques (primary matching)
+    - Timing patterns (coordinated activity windows)
+    - Target sector alignment (same industries)
+    - Infrastructure overlap (domains, IPs, malware families)
+    - Tool and technique fingerprints
+  - Confidence scoring for correlations (avoid false campaigns)
+  - Weighted matching: TTP + timing + sector = high confidence
 - Identify threat actor patterns across multiple campaigns
 - Generate correlation matrices showing:
   - Shared MITRE ATT&CK techniques between clusters
-  - Common infrastructure (IPs, domains, tools)
+  - Common infrastructure (IPs, domains, tools, malware families)
   - Timeline overlaps suggesting coordinated activity
-  - Attribution confidence levels
+  - Target sector patterns
+  - Attribution confidence levels (low/medium/high)
 - Enable pivot analysis: "Show me all clusters using technique T1566.001"
 - Support threat hunting workflows by highlighting TTP relationships
+- Prevent false correlations through multi-factor validation
 
 ### Heatmap
 - **Mediedekning vs faktisk impact** (Media coverage vs actual impact)
 - Visualize the relationship between media attention and real-world impact
+- **Critical requirements**:
+  - Objective impact measurement (not sentiment-based):
+    - Downtime duration (hours/days)
+    - Data volume lost/stolen (GB/TB)
+    - Affected sector criticality (healthcare > retail)
+    - Regulatory consequences (fines, mandates)
+    - Affected entity count (users, organizations)
+    - Financial losses (estimated ranges)
+  - Separate "perceived severity" (article language) from actual impact
+  - Multi-factor impact scoring independent of media tone
 - Create interactive heatmaps showing:
   - X-axis: Media coverage (number of articles, source prominence)
-  - Y-axis: Actual impact (affected entities, financial loss, severity)
+  - Y-axis: Actual impact (objective metrics, not article sentiment)
   - Color intensity: Discrepancy between coverage and impact
 - Identify:
   - Over-hyped incidents (high media coverage, low actual impact)
@@ -321,6 +359,128 @@ Hvis du vil ta det enda et hakk opp (valgfritt) - If you want to take it even a 
   - Identify media bias and sensationalism
   - Guide communication and PR strategies
   - Optimize resource allocation
+
+## Enterprise-Tier Features (Next Level)
+
+Hvis du vil bli next level - For enterprise-grade intelligence capabilities:
+
+### Incident confidence drift
+- **Track confidence score evolution over time**
+- Monitor how incident confidence changes throughout its lifecycle:
+  - Initial state: Low confidence (rumors, unverified reports)
+  - Investigation: Medium confidence (multiple sources, partial verification)
+  - Confirmation: High confidence (official statements, verified evidence)
+- Visualizations:
+  - Timeline showing confidence progression per incident
+  - Heatmap of incidents by initial vs. final confidence
+  - Average time-to-high-confidence by sector/region
+- Use cases:
+  - Understand real incident timelines (not just publication date)
+  - Identify fast-confirming vs. slow-confirming incident types
+  - Train models on confidence evolution patterns
+  - Improve early detection and triage
+
+### Time-to-confirm
+- **Measure days from rumor to confirmation**
+- Track the incident confirmation timeline:
+  - Day 0: First rumor or unverified report
+  - Day X: Official disclosure or verified confirmation
+  - Calculate: Time-to-confirm = X - 0
+- Metrics by category:
+  - Average time-to-confirm by sector (healthcare, finance, government)
+  - By region (US, EU, Asia, Norway)
+  - By incident type (ransomware, breach, DDoS)
+  - By disclosure method (voluntary, regulatory, media)
+- Use cases:
+  - **SOC**: Set realistic confirmation timelines
+  - **Crisis management**: Plan response windows
+  - **Leadership**: Set expectations for incident verification
+  - Identify sectors with good/poor disclosure practices
+- Advanced analysis:
+  - Compare detection speed by organization maturity
+  - Regulatory impact on disclosure speed (GDPR, NIS2)
+
+### Detection vs disclosure gap
+- **Three critical timestamps for every incident**
+- Track the complete incident timeline:
+  - **T1**: When the attack actually occurred (breach date)
+  - **T2**: When it was detected internally (detection date)
+  - **T3**: When it became publicly known (disclosure date)
+- Calculate key gaps:
+  - **Dwell time**: T2 - T1 (attacker undetected in environment)
+  - **Disclosure lag**: T3 - T2 (delay from detection to public)
+  - **Total gap**: T3 - T1 (breach to public knowledge)
+- Analysis dimensions:
+  - Compare gaps by sector (which industries detect faster?)
+  - By region (regulatory pressure effects)
+  - By incident type (ransomware detected faster than espionage)
+  - Trend over time (are organizations improving?)
+- Reveals:
+  - **Security maturity**: Short T2-T1 = good detection
+  - **Regulatory pressure**: Short T3-T2 = strong disclosure laws
+  - **Attacker sophistication**: Long T2-T1 = stealthy attacks
+- Use cases:
+  - Benchmark detection capabilities
+  - Measure regulatory effectiveness
+  - Identify detection blind spots
+
+### Source bias analysis
+- **Analyze media source reporting patterns**
+- Track which media sources:
+  - **Over-report**: Disproportionate coverage vs. actual impact
+  - **Under-report**: Miss critical incidents in their coverage area
+  - **Publish first**: Consistent early reporting (speed leaders)
+  - **Most accurate**: High correlation between initial report and final facts
+- Metrics per source:
+  - Coverage volume vs. incident severity correlation
+  - First-to-publish rate
+  - Accuracy score (initial vs. final facts alignment)
+  - Sector/region focus bias
+  - Sensationalism score (language analysis)
+- Visualizations:
+  - Source reliability matrix (accuracy vs. speed)
+  - Coverage heatmap by source and incident type
+  - Bias vector analysis (which topics over/under covered)
+- Use cases:
+  - **OSINT quality improvement**: Prioritize reliable sources
+  - Weight sources in automated collection (credibility scoring)
+  - Identify coverage gaps (what's being missed?)
+  - Media relationship management (who to brief first)
+- Advanced features:
+  - Source clustering (similar reporting patterns)
+  - Bias drift over time (source quality changes)
+  - Recommendation engine: "Best sources for ransomware incidents"
+
+### Incident lifecycle states
+- **Beyond binary open/closed status**
+- Track incidents through realistic states:
+  - **Emerging**: Initial rumors, unverified reports, low confidence
+  - **Active**: Confirmed ongoing attack, live incident response
+  - **Contained**: Attack stopped, but investigation/remediation ongoing
+  - **Resolved**: Incident closed, root cause known, fixes deployed
+  - **Dormant**: No recent activity, but could reactivate (APT campaigns)
+  - **Escalated**: Incident severity increased, broader impact discovered
+  - **De-escalated**: Initial severity overestimated, actual impact lower
+- State transitions:
+  - Track state change history with timestamps
+  - Calculate average time in each state
+  - Identify stuck incidents (long time in "active" or "contained")
+- Metrics:
+  - Time-to-containment by incident type
+  - Containment-to-resolution duration
+  - Reactivation rate (resolved → active again)
+  - Escalation frequency by sector
+- Visualizations:
+  - Sankey diagram of state flows
+  - Current state distribution dashboard
+  - Time-in-state histograms
+  - State transition heatmap (which transitions are common?)
+- Use cases:
+  - **Better situational awareness**: Know what's actually happening now
+  - **Resource planning**: How many incidents in active response?
+  - **Trend analysis**: Are we getting faster at containment?
+  - **Realistic reporting**: More nuanced than "open/closed"
+  - **Forecasting**: Predict resource needs based on lifecycle patterns
 
 ## Questions to Resolve
 
