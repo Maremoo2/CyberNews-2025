@@ -1,5 +1,468 @@
 [
   {
+    "id": "20262995",
+    "date": "2026-01-19",
+    "title": "Research reveals a surprising line of  defence against cyber attacks: accountants",
+    "summary": "Egor Komarov/UnsplashWhen Optus, Medibank and non-bank lender Latitude Financial were hit by separate cyber attacks in the past few years, millions of Australians felt the fallout: stolen personal data, disrupted services and weeks of uncertainty. Each breach raised the same uncomfortable questio...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Conversation Cybersecurity",
+    "sourceUrl": "https://theconversation.com/research-reveals-a-surprising-line-of-defence-against-cyber-attacks-accountants-272428",
+    "tags": [
+      "data-breach",
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262996",
+    "date": "2026-01-19",
+    "title": "Rogue agents and shadow AI: Why VCs are betting big on AI security",
+    "summary": "Misaligned agents are just one layer of the AI security challenge that startup Witness AI is trying to solve. It detects employee use of unapproved tools, blocking attacks, and ensuring compliance.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/19/rogue-agents-and-shadow-ai-why-vcs-are-betting-big-on-ai-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262997",
+    "date": "2026-01-19",
+    "title": "Wi-Fi public et nomadisme : 5 erreurs que font 90% des travailleurs mobiles",
+    "summary": "Télétravail à domicile, déplacements professionnels, missions à l’étranger, espaces de coworking… Vous savez que vos collaborateurs se connectent chaque jour depuis des réseaux que vous ne contrôlez pas : une box à la maison, le Wi-Fi d’un hôtel, un hotspot partagé. Ces connexions servent à consu...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-594652-wi-fi-public-et-nomadisme-5-erreurs-que-font-90-des-travailleurs-mobiles.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262998",
+    "date": "2026-01-19",
+    "title": "Ce que deviennent vraiment vos données après une fuite (et pourquoi ça vous rattrape plus tard)",
+    "summary": "Entre le mail laconique qui signale une « intrusion maîtrisée » et l’arnaque parfaitement crédible qui tombe quelques mois plus tard, les mêmes données volées ont déjà servi à alimenter un petit marché souterrain, recyclées et revendues au gré des opportunités. Voici comment limiter la casse.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-594799-ce-que-deviennent-vraiment-vos-donnees-apres-une-fuite-et-pourquoi-ca-vous-rattrape-plus-tard.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20262999",
+    "date": "2026-01-19",
+    "title": "3 millions d’euros détournés : de l’importance de verrouiller sa session quand on s’absente de son poste …",
+    "summary": "À Bayonne, un employé municipal a profité d'ordinateurs laissés ouverts et sans surveillance pour détourner près de 3 millions d’euros sur plusieurs années. Une affaire édifiante qui rappelle à quel point une simple négligence numérique peut avoir de lourdes conséquences.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595843-millions-d-euros-detournes-de-l-importance-de-verrouiller-sa-session-quand-on-s-absente-de-son-poste.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263000",
+    "date": "2026-01-19",
+    "title": "Un fournisseur d'énergie cachait des informations cruciales à ses clients, la Répression des fraudes le sanctionne",
+    "summary": "La DGCCRF a annoncé, lundi, avoir sanctionné d'une amende de 10 000 euros le fournisseur de gaz propane Europropane, coupable d'un défaut d'informations aux consommateurs.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595966-un-fournisseur-d-energie-cachait-des-informations-cruciales-a-ses-clients-la-repression-des-fraudes-le-sanctionne.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263001",
+    "date": "2026-01-19",
+    "title": "StealC, spécialiste du vol de cookies de sessions, victime d’une faille embarrassante",
+    "summary": "Vendre un malware conçu pour voler des cookies suppose un minimum de rigueur côté sécurité. Avec StealC, cette rigueur a manifestement fait défaut. Une faille web basique dans son panneau de contrôle aurait permis à des chercheurs d’observer l’activité des opérateurs… et de leur voler leurs propr...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595903-stealc-specialiste-du-vol-de-cookies-de-sessions-victime-d-une-faille-embarrassante.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263002",
+    "date": "2026-01-19",
+    "title": "Booster l'open source : Bruxelles reçoit des centaines de réponses pour faire avancer le projet",
+    "summary": "Lancée début janvier, la consultation publique sur l'open source européen n'est pas passée inaperçue. Celle-ci a collecté déjà près de 600 réponses en seulement quelques jours, émanant d'organisations, de sociétés ou de citoyens.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595870-booster-l-open-source-bruxelles-recoit-des-centaines-de-reponses-pour-faire-avancer-le-projet.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263003",
+    "date": "2026-01-19",
+    "title": "How to Remove Saved Passwords From Google Chrome (And Why You Should)",
+    "summary": "It usually starts with a small convenience. You log into a site once, Chrome offers to remember the password, and you click “Save” without thinking twice. Weeks turn into months, devices multiply, and before you know it, your browser knows more about your digital life than you do. This is exactly...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/how-to-delete-saved-passwords-in-google-chrome/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263004",
+    "date": "2026-01-19",
+    "title": "Surfshark VPN adds post-quantum encryption to the WireGuard protocol",
+    "summary": "VPN provider Surfshark has rolled out post-quantum encryption support for its WireGuard protocol, marking a significant step toward future-proofing user privacy against the looming threat of quantum computing. The new feature, now live across Surfshark’s apps, integrates quantum-resistant cryptog...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/surfshark-vpn-adds-post-quantum-encryption-to-the-wireguard-protocol/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263005",
+    "date": "2026-01-19",
+    "title": "Italy probes Activision Blizzard over ‘dark patterns’ in mobile games",
+    "summary": "Italy’s competition watchdog has launched two investigations into Activision Blizzard, now part of Microsoft, over potentially unlawful commercial practices in Call of Duty: Mobile and Diablo Immortal. The probe focuses on alleged exploitative in-game systems that may manipulate players, especial...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/italy-probes-activision-blizzard-over-dark-patterns-in-mobile-games/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263006",
+    "date": "2026-01-19",
+    "title": "Pass’Sport data breach exposed 6.4 million account holders in France",
+    "summary": "Have I Been Pwned (HIBP) has added the December 2025 data breach of France's Pass'Sport program to its database, making 6.4 million compromised accounts searchable and notifying impacted individuals. The leak, initially misattributed to the French family benefits agency CAF, was later confirmed b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/passsport-data-breach-exposed-6-4-million-account-holders-in-france/",
+    "tags": [
+      "data-breach",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263007",
+    "date": "2026-01-19",
+    "title": "New CrashFix attack uses fake uBlock extension to drop ModeloRAT malware",
+    "summary": "A novel infection chain involving a fake uBlock Origin Lite extension triggers a PowerShell-delivered browser crash mechanism dubbed “CrashFix” to drop a Python backdoor named ModeloRAT. The operation was discovered in January 2026 by Huntress analyst Tanner Filip during an investigation into sus...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/new-crashfix-attack-uses-fake-ublock-extension-to-drop-modelorat-malware/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263008",
+    "date": "2026-01-19",
+    "title": "Fake browser crash alerts turn Chrome extension into enterprise backdoor",
+    "summary": "Browser extensions are a high-risk attack vector for enterprises, allowing threat actors to bypass traditional security controls and gain a foothold on corporate endpoints. Case in point: A recently identified malicious extension called NexShield proves that a single user install from an official...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/19/fake-browser-crash-alert-chrome-edge-extension/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263009",
+    "date": "2026-01-19",
+    "title": "Top 10 Data Masking Techniques Enterprises Use to Prevent Large-Scale Data Breaches",
+    "summary": "In this post, I will show top 10 data masking techniques enterprises use to prevent large-scale data breaches. Data breaches present a major threat to enterprises, exposing sensitive personal and business information. Protecting data is essential for maintaining customer trust, meeting regulatory...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/top-data-masking-techniques-enterprises-use/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263010",
+    "date": "2026-01-19",
+    "title": "Understanding Access Control Systems and Security Management",
+    "summary": "In this post, I will talk about understanding access control systems and security management. In today’s fast-paced world, ensuring the security of assets, data, and personnel is a top priority for organizations across various sectors. One crucial component in the realm of security solutions is t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/understanding-access-control-systems/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263011",
+    "date": "2026-01-19",
+    "title": "Practical Steps to Avoid Loan Scams When Borrowing Online",
+    "summary": "In this post, I will give you practical steps to avoid loan scams when borrowing online. In today’s digital age, borrowing money online has become increasingly convenient and accessible. However, with this convenience comes the risk of falling into the traps of loan scams. Knowing Fast Loans is c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/steps-to-avoid-loan-scams/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263012",
+    "date": "2026-01-19",
+    "title": "Why Is Identity Theft Protection Crucial in Today’s Digital World?",
+    "summary": "In this post, learn why identity theft protection is crucial in today’s digital world. Protecting personal information has never been more critical in our increasingly digital world. Identity theft is a growing concern that can have devastating consequences for its victims. This blog post will ex...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/why-is-identity-theft-protection-crucial/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20263013",
+    "date": "2026-01-19",
+    "title": "ISO/IEC 42001 Certification: AI Governance at the Organizational Level",
+    "summary": "The organization behind Data Privacy Manager, Legit, has achieved ISO/IEC 42001 certification, the international standard for Artificial Intelligence Management Systems (AIMS). ISO 42001 defines how organizations establish governance, accountability, and risk management for the use of artificial ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Data Privacy Manager Blog",
+    "sourceUrl": "https://dataprivacymanager.net/iso-iec-42001-certification-ai-governance-at-the-organizational-level/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263014",
+    "date": "2026-01-19",
+    "title": "G7 Publishes 2030 Deadline for Post-Quantum Migration",
+    "summary": "We’re a few weeks into 2026 and the G7 Cyber Expert Group has released their roadmap for post-quantum cryptography transition in the financial sector. While it’s framed as non-binding guidance this document signals regulatory timelines are tight. Six Phases The roadmap uses phases to describe the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76263",
+    "tags": [
+      "malware",
+      "finance",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263015",
+    "date": "2026-01-19",
+    "title": "Neue EU-Schwachstellen-Datenbank gestartet",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2692564999.jpg?quality=50&strip=all 8960w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2692564999.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118661/neue-eu-schwachstellen-datenbank-gestartet.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263016",
+    "date": "2026-01-19",
+    "title": "ChatGPT Health Raises Big Security, Safety Concerns",
+    "summary": "ChatGPT Health promises robust data protection, but elements of the rollout raise big questions regarding user security and safety.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/chatgpt-health-security-safety-concerns",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263017",
+    "date": "2026-01-19",
+    "title": "Researchers Uncover PDFSIDER Malware Built for Long-Term, Covert System Access",
+    "summary": "New malware PDFSIDER enables covert, long-term access to compromised systems via advanced techniques",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/pdfsider-anti-vm-checks-hidden/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263018",
+    "date": "2026-01-19",
+    "title": "Russian Hacktivists Intensify Disruptive Cyber Pressure on UK Orgs",
+    "summary": "UK NCSC warned of disruptive cyber attacks by Russian hacktivists targeting critical infrastructure",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/russia-cyber-pressure-uk-orgs/",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263019",
+    "date": "2026-01-19",
+    "title": "Malicious Google Chrome Extensions Hijack Workday and Netsuite ",
+    "summary": "Users of widely used HR and ERP platforms targeted with malicious extensions which were available in the Chrome Web Store",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malicious-google-chrome-extension/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263020",
+    "date": "2026-01-19",
+    "title": "The Impact of Cyber Threats on Remote Learning Environments",
+    "summary": "Many schools, colleges, and training programmes now use remote learning as a standard aspect of their education. It is flexible, easy to get to, and lets you study from practically anywhere. It also makes you more vulnerable to cyber assaults at the same time. When learning happens online, classr...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/the-impact-of-cyber-threats-on-remote-learning-environments",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263021",
+    "date": "2026-01-19",
+    "title": "Acting CISA Director Pushed to Remove Agency CIO",
+    "summary": "The drama at the Cybersecurity and Infrastructure Security Agency is not helpful when it needs to focus on defending networks and infrastructure. The post Acting CISA Director Pushed to Remove Agency CIO appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-cisa-leadership-crisis/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263022",
+    "date": "2026-01-19",
+    "title": "UK govt. warns about ongoing Russian hacktivist group attacks",
+    "summary": "The U.K. government is warning of continued malicious activity from Russian-aligned hacktivist groups targeting critical infrastructure and local government organizations in the country in disruptive denial-of-service (DDoS) attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-govt-warns-about-ongoing-russian-hacktivist-group-attacks/",
+    "tags": [
+      "ddos",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263023",
+    "date": "2026-01-19",
+    "title": "Hacker admits to leaking stolen Supreme Court data on Instagram",
+    "summary": "A Tennessee man has pleaded guilty to hacking the U.S. Supreme Court's electronic filing system and breaching accounts at the AmeriCorps U.S. federal agency and the Department of Veterans Affairs. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-admits-to-leaking-stolen-supreme-court-data-on-instagram/",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263024",
+    "date": "2026-01-19",
+    "title": "Jordanian pleads guilty to selling access to 50 corporate networks",
+    "summary": "A Jordanian man has pleaded guilty to operating as an \"access broker\" who sold access to the computer networks of at least 50 companies. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/jordanian-pleads-guilty-to-selling-access-to-50-corporate-networks/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263025",
+    "date": "2026-01-19",
+    "title": "Ingram Micro says ransomware attack affected 42,000 people",
+    "summary": "​Information technology giant Ingram Micro has revealed that a ransomware attack on its systems in July 2025 led to a data breach affecting over 42,000 individuals. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ingram-micro-says-ransomware-attack-affected-42-000-people/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263026",
+    "date": "2026-01-19",
+    "title": "From Extension to Infection: An In-Depth Analysis of the Evelyn Stealer Campaign Targeting Software Developers",
+    "summary": "This blog entry provides an in-depth analysis of the multistage delivery of the Evelyn information stealer, which was used in a campaign targeting software developers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/analysis-of-the-evelyn-stealer-campaign.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262962",
     "date": "2026-01-19",
     "title": "[Ekstra] Omfattende teknisk svikt",
