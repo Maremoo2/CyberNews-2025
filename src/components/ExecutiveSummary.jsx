@@ -365,7 +365,7 @@ function getHardestHitDescription(sectors) {
   if (sectors.length === 0) {
     return 'Organizations across all sectors faced significant cyber threats.'
   }
-  return `${capitalize(sectors[0]?.[0])} sector bore the brunt with ${sectors[0]?.[1]} recorded incidents, due to high-value data and critical infrastructure dependencies.`
+  return `${capitalize(sectors[0]?.[0])} sector bore the brunt with ${sectors[0]?.[1]} incident-related articles, due to high-value data and critical infrastructure dependencies.`
 }
 
 function getAttackerEvolutionDescription(year) {

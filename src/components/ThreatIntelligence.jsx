@@ -211,7 +211,7 @@ function ThreatIntelligence({ incidents }) {
       <div className="intel-header">
         <h2>🎯 MITRE ATT&CK Framework Analysis</h2>
         <p className="intel-subtitle">
-          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incidents)
+          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incident-related articles)
         </p>
         <button 
           className="collapse-toggle"
@@ -227,7 +227,7 @@ function ThreatIntelligence({ incidents }) {
       <div className="intel-intro">
         <p>
           The MITRE ATT&CK framework provides a comprehensive matrix of tactics (the "why") and techniques (the "how") 
-          used by cyber adversaries. This analysis maps the {mitreAnalysis.totalIncidents} incidents to the framework, 
+          used by cyber adversaries. This analysis maps the {mitreAnalysis.totalIncidents} incident-related articles to the framework, 
           revealing the most common attack patterns and helping organizations prioritize their defenses.
         </p>
       </div>
@@ -243,7 +243,7 @@ function ThreatIntelligence({ incidents }) {
                 <span className="technique-count">{technique.count}</span>
               </div>
               <h4>{technique.name}</h4>
-              <p className="technique-usage">Used in {technique.count} incidents</p>
+              <p className="technique-usage">Used in {technique.count} articles</p>
             </div>
           ))}
         </div>
@@ -259,7 +259,7 @@ function ThreatIntelligence({ incidents }) {
                 <span className="tactic-icon">{tactic.icon}</span>
                 <div className="tactic-title">
                   <h4>{tactic.name}</h4>
-                  <p className="tactic-count">{tactic.count} incidents</p>
+                  <p className="tactic-count">{tactic.count} articles</p>
                 </div>
               </div>
               <p className="tactic-description">{tactic.description}</p>
