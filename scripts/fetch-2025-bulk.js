@@ -265,25 +265,38 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
   
   const allNewArticles = [];
   let continuationToken = null;
+  let olderThanTimestamp = null; // Unix timestamp for time-based pagination
   let iteration = 0;
   let consecutiveEmptyResponses = 0;
   let totalFetched = 0;
   let oldestArticleDate = null;
   
   const itemsPerRequest = 1000; // Request maximum items per page
+  const target2025Start = new Date('2025-01-01T00:00:00Z').getTime() / 1000; // 2025-01-01 in Unix timestamp
   
   while (iteration < MAX_ITERATIONS) {
     iteration++;
     
-    // Build URL with continuation token if available
+    // Build URL with continuation token or older-than timestamp
     const separator = feedConfig.url.includes('?') ? '&' : '?';
     let fetchUrl = `${feedConfig.url}${separator}n=${itemsPerRequest}`;
+    
+    // Use continuation token if available, otherwise use ot (older than) parameter
     if (continuationToken) {
       fetchUrl += `&c=${continuationToken}`;
+    } else if (olderThanTimestamp) {
+      fetchUrl += `&ot=${olderThanTimestamp}`;
     }
     
     console.log(`\n  📄 Page ${iteration}/${MAX_ITERATIONS}`);
-    console.log(`     Continuation: ${continuationToken || 'none (first page)'}`);
+    if (continuationToken) {
+      console.log(`     Continuation: ${continuationToken}`);
+    } else if (olderThanTimestamp) {
+      const otDate = new Date(olderThanTimestamp * 1000).toISOString().split('T')[0];
+      console.log(`     Older than: ${otDate} (timestamp: ${olderThanTimestamp})`);
+    } else {
+      console.log(`     Starting from most recent articles`);
+    }
     
     try {
       const data = await fetchWithRetry(fetchUrl);
@@ -315,6 +328,7 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
       let newIn2025 = 0;
       let duplicates = 0;
       let outsideYear = 0;
+      let oldestTimestampInPage = null; // Track oldest Unix timestamp in this page
       
       for (const item of data.items) {
         try {
@@ -326,24 +340,29 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
             continue;
           }
           
-          // Extract date to check if it's from 2025
+          // Extract date and timestamp to check if it's from 2025
           let articleDate;
+          let articleTimestamp;
           if (item.date_published) {
             const parsedDate = new Date(item.date_published);
             if (!isNaN(parsedDate.getTime())) {
               articleDate = parsedDate.toISOString().split('T')[0];
+              articleTimestamp = Math.floor(parsedDate.getTime() / 1000);
             } else {
-              const timestamp = getTimestampFallback(item);
-              articleDate = unixToDate(timestamp);
+              articleTimestamp = getTimestampFallback(item);
+              articleDate = unixToDate(articleTimestamp);
             }
           } else {
-            const timestamp = getTimestampFallback(item);
-            articleDate = unixToDate(timestamp);
+            articleTimestamp = getTimestampFallback(item);
+            articleDate = unixToDate(articleTimestamp);
           }
           
-          // Track oldest article date
+          // Track oldest article date and timestamp in this page
           if (!oldestArticleDate || articleDate < oldestArticleDate) {
             oldestArticleDate = articleDate;
+          }
+          if (!oldestTimestampInPage || articleTimestamp < oldestTimestampInPage) {
+            oldestTimestampInPage = articleTimestamp;
           }
           
           // Skip if not from 2025
@@ -376,15 +395,33 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
         break;
       }
       
-      // Check for continuation token
+      // Check if oldest timestamp is before our target (2025-01-01)
+      if (oldestTimestampInPage && oldestTimestampInPage < target2025Start) {
+        console.log(`  🛑 Reached articles before 2025 (timestamp check), stopping pagination`);
+        break;
+      }
+      
+      // Determine pagination strategy for next request
+      // Priority: continuation token > time-based pagination with ot parameter
       if (data.continuation) {
         continuationToken = data.continuation;
+        olderThanTimestamp = null; // Clear ot when we have continuation
         console.log(`  ➡️  Has continuation token, will fetch next page`);
         
         // Respectful delay between requests
         await new Promise(resolve => setTimeout(resolve, 2000));
+      } else if (oldestTimestampInPage && oldestTimestampInPage > target2025Start) {
+        // No continuation token, but we haven't reached 2025 yet
+        // Use time-based pagination with the oldest timestamp from this page
+        olderThanTimestamp = oldestTimestampInPage;
+        continuationToken = null;
+        const otDate = new Date(olderThanTimestamp * 1000).toISOString().split('T')[0];
+        console.log(`  ➡️  No continuation token, using time-based pagination (ot=${otDate})`);
+        
+        // Respectful delay between requests
+        await new Promise(resolve => setTimeout(resolve, 2000));
       } else {
-        console.log(`  🏁 No continuation token, end of feed`);
+        console.log(`  🏁 No continuation token and reached target date range, end of feed`);
         break;
       }
       
