@@ -88,7 +88,7 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uni
           {uniqueIncidents && totalArticles && (
             <div className="data-volume-badge">
               <span className="badge-item unique" title="Estimated unique incidents (deduplicated)">
-                🎯 {uniqueIncidents.toLocaleString()} unique incidents
+                🎯 {uniqueIncidents.toLocaleString()} estimated unique incidents
               </span>
               <span className="badge-separator">•</span>
               <span className="badge-item articles" title="Total incident-related articles">

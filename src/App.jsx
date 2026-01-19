@@ -27,7 +27,7 @@ import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
 import DataHealthDashboard from './components/DataHealthDashboard'
 import DeduplicationStats from './components/DeduplicationStats'
-import { countUniqueIncidents } from './utils/populationUtils'
+import { enhanceIncidents } from './utils/deduplicationUtils'
 
 // Month helpers
 const MONTHS_EN = [
@@ -161,9 +161,17 @@ function App() {
     };
   }, []);
 
-  // Calculate unique incidents vs total sources
-  const uniqueIncidentCount = useMemo(() => countUniqueIncidents(incidentsData), [incidentsData]);
-  const totalSourceCount = incidentsData?.length || 0;
+  // Calculate estimated unique incidents vs total articles using deduplication
+  const deduplicationStats = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return { estimatedUniqueIncidents: 0, totalArticles: 0 };
+    }
+    const result = enhanceIncidents(incidentsData);
+    return result.stats;
+  }, [incidentsData]);
+  
+  const uniqueIncidentCount = deduplicationStats.estimatedUniqueIncidents;
+  const totalSourceCount = deduplicationStats.totalArticles;
 
   // Check if data is enriched and get enrichment timestamp
   const enrichmentInfo = useMemo(() => {
