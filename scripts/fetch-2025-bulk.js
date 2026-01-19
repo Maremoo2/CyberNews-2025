@@ -272,7 +272,7 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
   let oldestArticleDate = null;
   
   const itemsPerRequest = 1000; // Request maximum items per page
-  const target2025StartTimestamp = new Date('2025-01-01T00:00:00Z').getTime() / 1000; // 2025-01-01 in Unix timestamp
+  const target2025StartTimestamp = Math.floor(new Date('2025-01-01T00:00:00Z').getTime() / 1000); // 2025-01-01 in Unix timestamp
   
   while (iteration < MAX_ITERATIONS) {
     iteration++;
@@ -410,8 +410,8 @@ async function fetchFeedWithPagination(feedConfig, config, existingUrls) {
         
         // Respectful delay between requests
         await new Promise(resolve => setTimeout(resolve, 2000));
-      } else if (oldestTimestampInPage && oldestTimestampInPage > target2025StartTimestamp) {
-        // No continuation token, but we haven't reached 2025 yet
+      } else if (oldestTimestampInPage && oldestTimestampInPage >= target2025StartTimestamp) {
+        // No continuation token, but we haven't reached before 2025 yet
         // Use time-based pagination with the oldest timestamp from this page
         olderThanTimestamp = oldestTimestampInPage;
         continuationToken = null;
