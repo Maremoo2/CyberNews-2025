@@ -1,5 +1,355 @@
 [
   {
+    "id": "20263027",
+    "date": "2026-01-19",
+    "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
+    "summary": "Cybersecurity researchers have disclosed details of a security flaw that leverages indirect prompt injection targeting Google Gemini as a way to bypass authorization guardrails and use Google Calendar as a data extraction mechanism. The vulnerability, Miggo Security's Head of Research, Liad Eliya...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263028",
+    "date": "2026-01-19",
+    "title": "Google Gemini AI Tricked Into Leaking Calendar Data via Meeting Invites",
+    "summary": "AI assistants are built to make life easier, but a new discovery shows that even a simple meeting invite can be turned into a Trojan Horse. Researchers at Miggo Security found a scary flaw in how Google Gemini interacts with Google Calendar, where an attacker can send you a normal-looking invite ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/google-gemini-ai-calendar-data-leak-meeting-invite/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263029",
+    "date": "2026-01-19",
+    "title": "Ingram Micro admits ransomware raid exposed staff records",
+    "summary": "Ingram Micro disclosed that a July 2025 ransomware attack compromised the personal data of tens of thousands of employees. The distributor's filing with the attorney general's office in Maine confirmed the total number of affected people as 42,521. A letter is being sent to each explaining that e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/19/ingram_micro_ransomware_affects/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263030",
+    "date": "2026-01-19",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "The Evelyn Stealer campaign targets software developers by exploiting the Visual Studio Code (VSC) extension ecosystem. This sophisticated attack chain involves a multistage delivery method designed to exfiltrate sensitive information. The ValleyRAT campaign targets job seekers by disguising mali...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Trend%20Micro",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263031",
+    "date": "2026-01-19",
+    "title": "From Extension to Infection: An In-Depth Analysis of the Evelyn Stealer Campaign Targeting Software Developers",
+    "summary": "Malware This blog entry provides an in-depth analysis of the multistage delivery of the Evelyn information stealer, which was used in a campaign targeting software developers. By: Ahmed Mohamed Ibrahim Jan 19, 2026 Read time: ( words) Key takeaways Analysis of the Evelyn Stealer campaign targetin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/analysis-of-the-evelyn-stealer-campaign.html?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263032",
+    "date": "2026-01-19",
+    "title": "TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking",
+    "summary": "The researcher who discovered the vulnerability saw more than 2,500 internet-exposed devices. The post TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263033",
+    "date": "2026-01-19",
+    "title": "[Ekstra] – Kunstig intelligens kan øke snittlønnen med 21 prosent",
+    "summary": "En Stanford-rapport konkluderer med at KI både kan øke lønninger og utjevne forskjeller.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kunstig-intelligens-kan-oke-snittlonnen-med-21-prosent/567111",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263034",
+    "date": "2026-01-19",
+    "title": "Jordanian Admits in US Court to Selling Access to 50 Enterprise Networks",
+    "summary": "Operating as an access broker, the defendant sold unauthorized access to compromised networks to an undercover agent. The post Jordanian Admits in US Court to Selling Access to 50 Enterprise Networks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/jordanian-admits-in-us-court-to-selling-access-to-50-enterprise-networks/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263035",
+    "date": "2026-01-19",
+    "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
+    "summary": "In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263036",
+    "date": "2026-01-19",
+    "title": "Iranian state TV feed reportedly hijacked to air anti-regime messages",
+    "summary": "About 10 minutes of unauthorized video aired on Iranian state television over the weekend, according to multiple reports.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/iran-state-television-reported-hack-opposition",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263037",
+    "date": "2026-01-19",
+    "title": "‘SolyxImmortal’ Information Stealer Emerges",
+    "summary": "The information stealer abuses legitimate APIs and libraries to exfiltrate data to Discord webhooks. The post ‘SolyxImmortal’ Information Stealer Emerges appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/solyximmortal-information-stealer-emerges/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263038",
+    "date": "2026-01-19",
+    "title": "Cyber Insights 2026: Information Sharing",
+    "summary": "Information sharing is necessary for efficient cybersecurity, and is widespread; but never quite perfect in practice. The post Cyber Insights 2026: Information Sharing appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-information-sharing/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263039",
+    "date": "2026-01-19",
+    "title": "DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses",
+    "summary": "Just a few years ago, the cloud was touted as the “magic pill” for any cyber threat or performance issue. Many were lured by the “always-on” dream, trading granular control for the convenience of managed services. In recent years, many of us have learned (often the hard way) that public cloud ser...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263040",
+    "date": "2026-01-19",
+    "title": "New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs",
+    "summary": "A team of academics from the CISPA Helmholtz Center for Information Security in Germany has disclosed the details of a new hardware vulnerability affecting AMD processors. The security flaw, codenamed StackWarp, can allow bad actors with privileged control over a host server to run malicious code...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263041",
+    "date": "2026-01-19",
+    "title": "New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout",
+    "summary": "US officials told The New York Times that cyberattacks were used to turn off the lights in Caracas and disrupt air defense radars. The post New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/new-reports-reinforce-cyberattacks-role-in-maduro-capture-blackout/",
+    "tags": [
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263042",
+    "date": "2026-01-19",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c0518bd0d43d103 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263050",
+    "date": "2026-01-19",
+    "title": "Vulnerability Workflow n8n | CVE-2026-21858 - Stormshield",
+    "summary": "Stormshield Network Security (SNS) firewalls detect and block exploitation of CVE-2026-21858 with its protocol inspection: http:mix.364 = Web : ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.stormshield.com/news/security-alert-cve-2026-21858/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263051",
+    "date": "2026-01-19",
+    "title": "The Great Container Disconnect: A Security Leader's Mandate for Prevention in 2026",
+    "summary": "Cyber Attacks · Vulnerabilities · Webinars · Expert Insights · Contact ... A resilient security posture is attainable, but it hinges on security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/01/the-great-container-disconnect-security.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263052",
+    "date": "2026-01-19",
+    "title": "Threat Actors Impersonate Malwarebytes to Steal User Login Credentials - Cyber Press",
+    "summary": "... Cyber Security NewsCybersecurityThreats. Security researchers have identified an active malware campaign running between January 11 and January 15 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/malwarebytes-impersonation-login-credential-theft/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263053",
+    "date": "2026-01-19",
+    "title": "Canada trains Philippine forces in defensive cyber ops - SecurityBrief Asia",
+    "summary": "The Canadian Armed Forces Cyber Command will deliver a five-day cyber security training course to Philippine military counterparts.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/canada-trains-philippine-forces-in-defensive-cyber-ops",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263054",
+    "date": "2026-01-19",
+    "title": "New Spear-Phishing Campaign Abuses Google Ads to Deliver EndRAT Malware",
+    "summary": "... Cyber Security NewsCybersecurityMalwarePhishing. Security researcher has documented Operation Poseidon, a sophisticated spear-phishing campaign ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/google-ads-spear-phishing-endrat-malware/",
+    "tags": [
+      "phishing",
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263055",
+    "date": "2026-01-19",
+    "title": "Researchers Gain Access to Hacker-Controlled Domain Server via Name Server Delegation Flaw",
+    "summary": "... Cyber Security NewsCybersecurity. Security researchers have discovered a sophisticated affiliate advertising operation that deploys malicious push ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/name-server-delegation-flaw-hacker-domain-access/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263056",
+    "date": "2026-01-19",
+    "title": "Unifying Detection and Response with Athena Security - CISO Series",
+    "summary": "There's fragmentation there. There's alert fatigue on the SOC side, and if you go to the Reddit cybersecurity subreddit, you'll see a whole bunch of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/unifying-detection-and-response-with-athena-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262995",
     "date": "2026-01-19",
     "title": "Research reveals a surprising line of  defence against cyber attacks: accountants",
@@ -3168,6 +3518,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263043",
+    "date": "2026-01-16",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bec8d61bcb2d0ef • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gootloader-now-uses-1-000-part-zip-archives-for-stealthy-delivery/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
   },
   {
     "id": "20262836",
@@ -8261,6 +8625,48 @@
     "impact": 5
   },
   {
+    "id": "20263044",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d348d9d0ea • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5073724-extended-security-update/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263045",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d34a540bcf • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263046",
+    "date": "2026-01-14",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bdc22d34817b5c8 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262974",
     "date": "2026-01-14",
     "title": "Secure Your Spot at RSAC 2026 Conference",
@@ -11148,6 +11554,48 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263047",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256da86cb7b • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263048",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256db7e3a0d • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/facebook-login-thieves-now-using-browser-in-browser-trick/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263049",
+    "date": "2026-01-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9bd31256dfdcaf0a • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
   },
   {
     "id": "20262948",
