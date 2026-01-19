@@ -1,0 +1,119 @@
+name: Fetch 2025 Articles (Bulk)
+
+on:
+  workflow_dispatch:
+    # Allow manual triggering only
+    inputs:
+      max_iterations:
+        description: 'Maximum iterations per feed (default: 100)'
+        required: false
+        default: '100'
+      dry_run:
+        description: 'Dry run mode (true/false)'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: cybernews-2025-bulk-fetch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-2025-bulk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6 hours max for large fetches
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Fetch 2025 articles in bulk
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            npm run fetch-2025-bulk -- --dry-run --max-iterations=${{ github.event.inputs.max_iterations }}
+          else
+            npm run fetch-2025-bulk -- --max-iterations=${{ github.event.inputs.max_iterations }}
+          fi
+      
+      - name: Check for changes
+        id: git-check
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git diff --exit-code data/incidents-2025.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Count new articles by comparing before/after article counts
+          OLD_COUNT=$(git show HEAD:data/incidents-2025.json | jq 'length' 2>/dev/null || echo "0")
+          NEW_COUNT=$(jq 'length' data/incidents-2025.json)
+          ADDED=$((NEW_COUNT - OLD_COUNT))
+          
+          git add data/incidents-2025.json
+          git commit -m "chore: bulk fetch 2025 articles (+${ADDED} articles) [skip ci]"
+          
+          # Try a few times to handle concurrent updates
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i: fetch + rebase + push"
+            git fetch origin main
+            
+            if ! git rebase origin/main; then
+              echo "Rebase failed. Aborting rebase..."
+              git rebase --abort
+              echo "Backing off before retry..."
+              sleep $((i * 3))
+              continue
+            fi
+            
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            
+            echo "Push rejected (race). Backing off..."
+            sleep $((i * 3))
+          done
+          
+          echo "Push failed after retries"
+          exit 1
+      
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Bulk Fetch Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "**Mode:** Dry Run (no changes saved)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Mode:** Live Fetch" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "**Max Iterations:** ${{ github.event.inputs.max_iterations }}" >> $GITHUB_STEP_SUMMARY
+          
+          # Count current articles
+          CURRENT_COUNT=$(jq 'length' data/incidents-2025.json)
+          echo "**Current 2025 articles:** $CURRENT_COUNT" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.git-check.outputs.changed }}" = "true" ]; then
+            echo "**Status:** ✅ New articles fetched and committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Status:** No new articles found" >> $GITHUB_STEP_SUMMARY
+          fi
