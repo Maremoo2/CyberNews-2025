@@ -1,5 +1,129 @@
 [
   {
+    "id": "20263057",
+    "date": "2026-01-19",
+    "title": "L'URSSAF victime d'une gigantesque fuite de données : jusqu'à 12 millions de salariés concernés, alors que faire ?",
+    "summary": "L'URSSAF a elle-même annoncé, lundi en fin de journée, avoir été victime d'une énorme fuite de données, touchant jusqu'à 12 millions de salariés. Des pirates ont exploité un compte partenaire compromis pour accéder aux informations d'embauche.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596026-l-urssaf-victime-d-une-gigantesque-fuite-de-donnees-jusqu-a-12-millions-de-salaries-concernes-alors-que-faire.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263058",
+    "date": "2026-01-19",
+    "title": "Flare Research: Phishing Kits Now Operate Like SaaS Platforms",
+    "summary": "Phishing is no longer the sloppy fake login page scam teams have trained for — it’s a polished, commercialized industry built to steal sessions, defeat multi-factor authentication (MFA), and automate account takeovers at scale. Flare researchers recently analyzed the phishing kit economy in the c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/flare-research-phishing-kits-now-operate-like-saas-platforms/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263059",
+    "date": "2026-01-19",
+    "title": "AI-Powered Phishing Makes Human Risk Management Critical",
+    "summary": "Security teams aren’t just fighting more attacks — they’re fighting faster ones, and the gap between detection and damage is shrinking by the day. As AI accelerates phishing, impersonation, and automated reconnaissance, organizations are finding that traditional “detect-and-respond” approaches st...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ai-powered-phishing-makes-human-risk-management-critical/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263060",
+    "date": "2026-01-19",
+    "title": "MY TAKE: From ‘holy mackeral’ to ‘daily routine’ — AI vendors maneuver to commandeer your life",
+    "summary": "An email from Claude landed in my inbox Friday morning with a subject line that stopped me cold: “Using Claude for your everyday life.” Related: AI’s fortune teller effect Not “Unlock the power of AI” or “Transform your productivity.” Just… everyday life. Meal planning. Learning Spanish. Vacation...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/my-take-from-holy-mackeral-to-daily-routine-ai-vendors-maneuver-to-commandeer-your-life/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263061",
+    "date": "2026-01-19",
+    "title": "How To Turn Employees Into Proactive Cybersecurity Partners",
+    "summary": "Cybersecurity is most effective when it moves beyond technical safeguards and becomes part of the shared mission of every team in the organization. Rather than treating employees as potential weak links, forward-thinking organizations are shifting toward a model where people throughout the busine...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://www.canarytrap.com/proactive-cybersecurity/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263062",
+    "date": "2026-01-19",
+    "title": "Mandiant pushes organizations to dump insecure NTLMv1 by releasing a way to crack it",
+    "summary": "Google’s Mandiant security division has come up with an unusual tactic to persuade organizations to stop using the aged and hugely insecure NTLMv1 authentication protocol: publish a data lookup that makes cracking NTLMv1 credentials trivial for attackers. The intention, Mandiant explained, is to ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118800/mandiant-pushes-organizations-to-dump-insecure-ntlmv1-by-releasing-a-way-to-crack-it.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263063",
+    "date": "2026-01-19",
+    "title": "Fake ad blocker extension crashes the browser for ClickFix attacks",
+    "summary": "A malvertising campaign is using a fake ad-blocking Chrome and Edge extension named NexShield that intentionally crashes the browser in preparation for ClickFix attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263064",
+    "date": "2026-01-19",
+    "title": "New PDFSider Windows malware deployed on Fortune 100 firm's network",
+    "summary": "Ransomware attackers targeting a Fortune 100 company in the finance sector used a new malware strain, dubbed PDFSider, to deliver malicious payloads on Windows systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-pdfsider-windows-malware-deployed-on-fortune-100-firms-network/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263027",
     "date": "2026-01-19",
     "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
