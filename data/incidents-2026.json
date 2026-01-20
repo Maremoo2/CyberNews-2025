@@ -1,5 +1,538 @@
 [
   {
+    "id": "20263189",
+    "date": "2026-01-20",
+    "title": "UK says it will consider banning social media for children",
+    "summary": "British ministers will visit Australia to “learn first-hand from their approach,” the government’s Monday announcement said, alluding to the country’s controversial ban on social media use for children under age 16.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-says-it-will-consider-social-media-ban-kids",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263190",
+    "date": "2026-01-20",
+    "title": "Lawmakers move to extend two cyber programs (again) in funding proposal",
+    "summary": "The extension in the $1.2 trillion funding deal is the latest short-term solution in a monthslong saga for CISA 2015, which provides liability protections to encourage private companies to share digital threat information with the federal government.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/lawmakers-move-to-extend-two-cyber-programs-again",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263191",
+    "date": "2026-01-20",
+    "title": "FinOps prices the rooms, ITAM manages the hotel - ITAM Review",
+    "summary": "FinOps prices the rooms, ITAM manages the hotel Unit cost visibility versus ownership, risk and obligation The FinOps Foundation recently published a practical article on modelling data centre costs using the FOCUS standard. It’s a pragmatic approach to identifying data centre costs, building uni...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2026/01/20/finops-prices-the-rooms-itam-manages-the-hotel/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263192",
+    "date": "2026-01-20",
+    "title": "Hackers target Afghan government workers with fake correspondence from senior officials",
+    "summary": "Hackers are targeting Afghan government employees with phishing emails disguised as official correspondence from the office of the country’s prime minister, researchers found.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/hackers-target-afghan-workers",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263193",
+    "date": "2026-01-20",
+    "title": "Cyber Breaches, Compliance and Reputation Top UK Corporate Concerns",
+    "summary": "UK business leaders are most concerned about cybersecurity breaches over the coming year, but doubt their ability to manage related risk, according to a new study from Nardello & Co. The global investigations firm polled 250 business leaders at enterprises with a minimum turnover of £250m to bett...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-breaches-compliance/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263194",
+    "date": "2026-01-20",
+    "title": "Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution",
+    "summary": "A set of three security vulnerabilities has been disclosed in mcp-server-git, the official Git Model Context Protocol (MCP) server maintained by Anthropic, that could be exploited to read or delete arbitrary files and execute code under certain conditions. \"These flaws can be exploited through pr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263195",
+    "date": "2026-01-20",
+    "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
+    "summary": "Cybersecurity researchers have uncovered a new phishing campaign that exploits social media private messages to propagate malicious payloads, likely with the intent to deploy a remote access trojan (RAT). The activity delivers \"weaponized files via Dynamic Link Library (DLL) sideloading, combined...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263196",
+    "date": "2026-01-20",
+    "title": "Sjønasjonen Norge navigerer i blinde",
+    "summary": "Norge er 7/8 hav. Likevel foreslår statens eksperter en sikkerhetsløsning for nøyaktig tid som i praksis stopper ved strandlinja.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-sjonasjonen-norge-navigerer-i-blinde/567156",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263197",
+    "date": "2026-01-20",
+    "title": "Chainlit Vulnerabilities May Leak Sensitive Information",
+    "summary": "The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data. The post Chainlit Vulnerabilities May Leak Sensitive Information appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/chainlit-vulnerabilities-may-leak-sensitive-information/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263198",
+    "date": "2026-01-20",
+    "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
+    "summary": "Cybersecurity researchers have disclosed details of a security flaw that leverages indirect prompt injection targeting Google Gemini as a way to bypass authorization guardrails and use Google Calendar as a data extraction mechanism. The vulnerability, Miggo Security's Head of Research, Liad Eliya...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263199",
+    "date": "2026-01-20",
+    "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
+    "summary": "A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic. The blockchain intelligence company said Tudou Guarantee has effectively ceased transactions through its public Telegr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263200",
+    "date": "2026-01-20",
+    "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+    "summary": "Cybersecurity researchers have disclosed details of a malware campaign that's targeting software developers with a new information stealer called Evelyn Stealer by weaponizing the Microsoft Visual Studio Code (VS Code) extension ecosystem. \"The malware is designed to exfiltrate sensitive informat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263201",
+    "date": "2026-01-20",
+    "title": "Webinar: Why execs don’t buy SOC teams the tools they need",
+    "summary": "Learn how security leaders and SOC teams can work together to close the gap between platform decisions and operational needs. Join Sumo Logic and BleepingComputer on January 29 for a practical webinar on aligning security tools with real-world workflows. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-execs-dont-buy-soc-teams-the-tools-they-need/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263202",
+    "date": "2026-01-20",
+    "title": "UK launches landmark 'Report Fraud' service to tackle cybercrime and fraud",
+    "summary": "British authorities are rolling out Report Fraud, a platform intended to win back public trust over how law enforcement responds to widespread cybercrime and fraud.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-report-fraud-platform-launch-police-cybercrime",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263203",
+    "date": "2026-01-20",
+    "title": "The Hidden Risk of Orphan Accounts",
+    "summary": "The Problem: The Identities Left Behind As organizations grow and evolve, employees, contractors, services, and systems come and go - but their accounts often remain. These abandoned or “orphan” accounts sit dormant across applications, platforms, assets, and cloud consoles. The reason they persi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263204",
+    "date": "2026-01-20",
+    "title": "New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs",
+    "summary": "A team of academics from the CISPA Helmholtz Center for Information Security in Germany has disclosed the details of a new hardware vulnerability affecting AMD processors. The security flaw, codenamed StackWarp, can allow bad actors with privileged control over a host server to run malicious code...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263205",
+    "date": "2026-01-20",
+    "title": "UK warns of sustained cyberthreat from pro-Russian hacktivists",
+    "summary": "The National Cyber Security Centre highlighted the group known as NoName057(16) and other Russia-aligned operations that have targeted U.K. websites.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-ncsc-warning-russia-aligned-hacktivist-groups",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263206",
+    "date": "2026-01-20",
+    "title": "News Release:CyberCloak.Tech Partnership with Shamar Information Security Inspires New ...",
+    "summary": "Sioux City, IA – CyberCloak.Tech announced the launch of a new educational resource explaining Blue Team, Red Team, and Purple Team cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://kscj.com/2026/01/20/news-releasecybercloak-tech-partnership-with-shamar-information-security-inspires-new-blue-red-and-purple-team-cybersecurity-resource-for-small-businesses-1-16-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263207",
+    "date": "2026-01-20",
+    "title": "Schneider Electric EcoStruxure Foxboro DCS - CISA",
+    "summary": "General Security Recommendations. We strongly recommend the following industry cybersecurity best practices. * Locate control and safety system ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://us-cert.cisa.gov/news-events/ics-advisories/icsa-26-020-01",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263208",
+    "date": "2026-01-20",
+    "title": "Cybersecurity Act: Focus on Security Standards Welcomed, But Industry Warns Against ...",
+    "summary": "The Computer & Communications Industry Association (CCIA Europe) applauds the Commission's decision to focus on technical security benchmarks and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ccianet.org/news/2026/01/cybersecurity-act-focus-on-security-standards-welcomed-but-industry-warns-against-exclusionary-amendments/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263209",
+    "date": "2026-01-20",
+    "title": "Guardz Announces Industry Veteran Rob Rae as Strategic Advisor to Advance MSP ...",
+    "summary": "PRNewswire/ -- Guardz, the cybersecurity ... Guardz 2025 SMB Cybersecurity Report: Nearly 50% of U.S. Small Businesses Have Been Hit by Cyber Attack.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/il/news-releases/guardz-announces-industry-veteran-rob-rae-as-strategic-advisor-to-advance-msp-focused-cybersecurity-302665172.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263210",
+    "date": "2026-01-20",
+    "title": "Commission strengthens EU cybersecurity resilience and capabilities",
+    "summary": "... security of the EU's Information and Communication Technologies (ICT) supply chains. ... It ensures that products reaching EU citizens are cyber-secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/commission-strengthens-eu-cybersecurity-resilience-and-capabilities",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263211",
+    "date": "2026-01-20",
+    "title": "Zero Day Initiative — Pwn2Own Automotive 2026 - The Full Schedule",
+    "summary": "Viettel Cyber Security (@vcslab) targeting ChargePoint Home Flex (Model CPH50-K) in the Level 2 Electric Vehicle Chargers category for a total of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.zerodayinitiative.com/blog/2026/1/20/pwn2own-automotive-2026-the-full-schedule",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263212",
+    "date": "2026-01-20",
+    "title": "Amazon Quick Sight expands dashboard customization in tables and pivot tables",
+    "summary": "Building on our recent launch of customizable tables and pivot tables, Amazon Quick Sight now enables readers to add or remove fields, change aggregations, and modify formatting directly in dashboards—all without requiring updates from dashboard authors. These enhanced capabilities empower reader...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quicksight-expands-dashboard-customization-tables-pivot-tables",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263213",
+    "date": "2026-01-20",
+    "title": "NYDFS Regulated Entities Face Stronger Cybersecurity Regulations | Insights",
+    "summary": "... security event alerting tools (or reasonable equivalents). These ... cyber risks posed by TPSPs demands a proactive, risk-based, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ropesgray.com/en/insights/alerts/2026/01/nydfs-regulated-entities-face-stronger-cybersecurity-regulations",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263214",
+    "date": "2026-01-20",
+    "title": "Top 5 AI Security Risks in 2026 - Group-IB",
+    "summary": "In cybersecurity, that can translate into very real risks. For instance, a biased threat-detection model might prioritize certain attack patterns ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/ai-security-risks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263215",
+    "date": "2026-01-20",
+    "title": "WPair Scanner Released to Detect WhisperPair Flaw in Google Fast Pair Protocol",
+    "summary": "... Cyber Security NewsCybersecurity. Security researcher released WPair, an open-source Android application designed to identify and test devices ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/wpair-scanner-released/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263216",
+    "date": "2026-01-20",
+    "title": "Mastercard CEO Michael Miebach On Cybersecurity at World Economic Forum",
+    "summary": "Only together can we stay ahead of criminals and uphold safety, rights, and resilience for a secure digital future.” Truly, it is time for all of us ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/mastercard-ceo-michael-miebach-on-cybersecurity-at-world-economic-forum/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263217",
+    "date": "2026-01-20",
+    "title": "Palo Alto Networks: Inside the Winter Olympics of Cybercrime | Cyber Magazine",
+    "summary": "Palo Alto Networks recommends applying AI and machine learning to filter out noise and monitor security logs. Organisations should accelerate zero ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/how-the-2026-winter-games-is-a-hotbed-for-cybercrime",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263218",
+    "date": "2026-01-20",
+    "title": "UK NCSC urges critical infrastructure and local authorities to reinforce DoS defences amid ...",
+    "summary": "The U.K. National Cyber Security Centre (NCSC) issued fresh guidance calling on local government and critical infrastructure operators to harden ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/critical-infrastructure/uk-ncsc-urges-critical-infrastructure-and-local-authorities-to-reinforce-dos-defences-amid-pro-russia-hacktivist-surge/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263219",
+    "date": "2026-01-20",
+    "title": "Why the UK's complex supply chains create cybersecurity headaches | New Civil Engineer",
+    "summary": "The final point is often a good starting point for SMEs shoring up their cyber security: map out all assets. Because you can't secure what you don't ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newcivilengineer.com/opinion/why-the-uks-complex-supply-chains-create-cybersecurity-headaches-20-01-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263220",
+    "date": "2026-01-20",
+    "title": "World Economic Forum: How Financial Services Lag on Cyber | FinTech Magazine",
+    "summary": "... cyber security risks, according to the World Economic Forum's Global Cybersecurity Outlook 2026. Financial services companies are failing to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fintechmagazine.com/cybersecurity/world-economic-forum-how-financial-services-lag-on-cyber",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263221",
+    "date": "2026-01-20",
+    "title": "8 Key Trends that will Define Africa's Cyber Security Landscape in 2026",
+    "summary": "With over 200,000 unfilled cybersecurity roles on the continent, cyber sovereignty now depends on building local “defenders of tomorrow” rather than ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itnewsafrica.com/2026/01/8-key-trends-that-will-define-africas-cyber-security-landscape-in-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263222",
+    "date": "2026-01-20",
+    "title": "Google Gemini Privacy Controls Bypassed to Expose Private Meeting Data - Cyber Press",
+    "summary": "... Cyber Security News · Cybersecurity ... Set Cyberpress as a Preferred Source in Google. TAGS; Cyber Security · Cyber security news · vulnerability.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/google-gemini-privacy-controls-bypassed/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263223",
+    "date": "2026-01-20",
+    "title": "Multimodal reinforcement learning with agentic verifier for AI agents",
+    "summary": "At a glance Today’s multimodal AI systems can give answers that sound right but may not be grounded in what they actually observe over time, leading to unpredictable errors and safety risks in real-world settings. Argos is a verification framework for multimodal reinforcement learning that trains...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263224",
+    "date": "2026-01-20",
+    "title": "Overtredelsesgebyr for manglende innsyn",
+    "summary": "Datatilsynet har ilagt Timegrip AS et overtredelsesgebyr på 250 000 kroner. Bakgrunnen er at ansatte i en butikkjede ikke fikk innsyn i egne opplysninger om timeføring.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/overtredelsesgebyr-for-manglende-innsyn/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263155",
     "date": "2026-01-20",
     "title": "The AI Fix #84: A hungry ghost trapped in a jar gains access to the Pentagon’s network",
