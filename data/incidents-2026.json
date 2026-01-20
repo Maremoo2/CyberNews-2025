@@ -1,5 +1,496 @@
 [
   {
+    "id": "20263155",
+    "date": "2026-01-20",
+    "title": "The AI Fix #84: A hungry ghost trapped in a jar gains access to the Pentagon’s network",
+    "summary": "In episode 84 of The AI Fix, Graham and Mark stare straight into the digital abyss and ask the most important question of our age: \"Is AI just a hungry ghost trapped in a jar?\" Also this week, we explore how a shadowy group of disgruntled insiders trying to destroy AI by poisoning its training da...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/the-ai-fix-84/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263156",
+    "date": "2026-01-20",
+    "title": "Comment Gemini a pu exposer des données d’entreprise à partir d’une invitation Google",
+    "summary": "En exploitant Gemini, des chercheurs ont montré comment des données de réunions pouvaient être réexposées dans Google Agenda sans interaction visible.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596143-comment-gemini-a-pu-exposer-des-donnees-d-entreprise-a-partir-d-une-invitation-google.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263157",
+    "date": "2026-01-20",
+    "title": "NVIDIA au coeur d’une polémique : des millions de livres piratés pour entraîner son IA ?",
+    "summary": "NVIDIA se retrouve sous le feu des projecteurs après le dépôt d’une plainte amendée dans le cadre d’une action collective intentée par plusieurs auteurs américains. En cause : l’utilisation présumée de millions de livres piratés pour entraîner ses modèles d’intelligence artificielle. Les plaignan...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596146-nvidia-au-coeur-d-une-polemique-des-millions-de-livres-pirates-pour-entrainer-son-ia.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263158",
+    "date": "2026-01-20",
+    "title": "Ingram Micro confirme une fuite de données personnelles après l’attaque de l’été dernier",
+    "summary": "Ingram Micro, l’un des principaux distributeurs IT mondiaux, vient d’apporter des précisions sur l’attaque subie cet été, et le volet données s’avère plus sensible qu’attendu.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596089-ingram-micro-confirme-une-fuite-de-donnees-personnelles-apres-l-attaque-de-l-ete-dernier.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263159",
+    "date": "2026-01-20",
+    "title": "Cloudflare Zero-Day Let Attackers Bypass WAF via ACME Certificate Validation Path",
+    "summary": "A critical zero-day vulnerability in Cloudflare exposed a fundamental weakness in how security exceptions are handled at scale. The flaw allowed attackers to bypass Cloudflare’s Web Application Firewall (WAF) entirely and directly access protected origin servers by abusing a certificate validatio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cloudflare-zero-day-waf-bypass-acme/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cloud",
+      "cloudflare"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263160",
+    "date": "2026-01-20",
+    "title": "When Language Becomes the Attack Surface: Inside the Google Gemini Calendar Exploit",
+    "summary": "Security teams have spent decades hardening software against malicious input, yet a recent vulnerability involving Google Gemini demonstrates how those assumptions begin to fracture when language itself becomes executable. The issue, disclosed by cybersecurity researchers at Miggo Security, expos...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/google-gemini-calendar-exploit/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263161",
+    "date": "2026-01-20",
+    "title": "UK authorities warn of pro-Russia groups targeting critical infrastructure, local government",
+    "summary": "The alert comes just over a month after a joint advisory from CISA, the FBI and Western allies citing hacktivist activity against OT providers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/uk-warn-pro-russia-critical-infrastructure/809992/",
+    "tags": [
+      "government",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263162",
+    "date": "2026-01-20",
+    "title": "CEOs and CISOs differ on AI’s security value and risks",
+    "summary": "A new report also found that American and British executives see AI very differently.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ceos-cisos-ai-cybersecurity-us-uk/809981/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263163",
+    "date": "2026-01-20",
+    "title": "Researchers believe VoidLink malware is a one-man AI-assisted project",
+    "summary": "Check Point Research has uncovered VoidLink, a sophisticated, modular malware framework almost entirely authored by artificial intelligence. The researchers first documented VoidLink last week, but today they have published a new report portraying it as the first convincingly documented case of h...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/researchers-believe-voidlink-malware-is-a-one-man-ai-assisted-project/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263164",
+    "date": "2026-01-20",
+    "title": "Google Gemini flaw turns Calendar invites into covert data leak channels",
+    "summary": "Security researchers have uncovered a novel attack chain that leveraged standard Google Calendar invites to silently exfiltrate private data through Google Gemini, Google’s AI assistant. The exploit relied entirely on natural language, bypassing traditional security mechanisms and exposing a crit...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/google-gemini-flaw-turns-calendar-invites-into-covert-data-leak-channels/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263165",
+    "date": "2026-01-20",
+    "title": "HackerOne extends Safe Harbor protections to AI testing",
+    "summary": "HackerOne has unveiled the Good Faith AI Research Safe Harbor, a new industry framework that establishes authorisation and legal protections for researchers testing AI systems in good faith. As AI systems scale rapidly across critical products and services, legal ambiguity around testing can slow...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/hackerone-good-faith-ai-research-safe-harbor-framework/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263166",
+    "date": "2026-01-20",
+    "title": "Ping Identity launches Universal Services for ongoing identity assurance",
+    "summary": "Ping Identity announced its Universal Services, a set of identity services that enable organizations to move beyond authentication and continuously establish, validate, and protect trust across every digital interaction. As impersonation attacks, synthetic identities, and AI-driven social enginee...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/ping-identity-universal-services/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263167",
+    "date": "2026-01-20",
+    "title": "Initial access broker pleads guilty to selling access to 50 corporate networks",
+    "summary": "A 40-year-old Jordanian man has admitted to selling unauthorized access to computer networks of at least 50 companies, the US Attorney’s Office of the District of New Jersey has announced. Feras Khalil Ahmad Albashiti has pleaded guilty last Thursday to fraud and related activity in connection wi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/initial-access-broker-pleads-guilty/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263168",
+    "date": "2026-01-20",
+    "title": "Endace pushes packet capture into real-time security workflows",
+    "summary": "Endace has announced the release of OSm 7.3, a major software update that makes network packet data faster, more affordable, and more user-friendly. Faster search, API-driven automation, and instant forensics With threats evolving at unprecedented speed and regulations like DORA, GDPR, HIPAA, and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/endace-pushes-packet-capture-into-real-time-security-workflows/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263169",
+    "date": "2026-01-20",
+    "title": "LayerX Links GhostPoster to 17 Extensions and 840K Downloads ",
+    "summary": "A malicious browser extension campaign dubbed GhostPoster is showing just how quietly trusted add-ons can turn into long-running malware implants — hiding payloads inside image files and staying dormant long enough to evade store reviews. LayerX expanded on Koi Security’s original findings, linki...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/layerx-links-ghostposter-to-17-extensions-and-840k-downloads/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263170",
+    "date": "2026-01-20",
+    "title": "AWS Console Supply Chain Flaw Could Have Enabled GitHub Repo Hijacks",
+    "summary": "A supply chain weakness in AWS build automation could have allowed attackers to hijack trusted GitHub repositories and push malicious code into widely used AWS software components. Wiz researchers said the issue, dubbed CodeBreach, created a path from a single pull request into privileged CI/CD w...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/aws-console-supply-chain-flaw-could-have-enabled-github-repo-hijacks/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263171",
+    "date": "2026-01-20",
+    "title": "Cisco Secure Email Appliance RCE Exploited in Attacks",
+    "summary": "Cisco has confirmed active exploitation of a remote code execution (RCE) vulnerability impacting its Secure Email Gateway and Secure Email and Web Manager appliances. The company has already released a patch for the vulnerability that is being exploited. The attack “allows the threat actors to ex...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cisco-secure-email-appliance-rce-exploited-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263172",
+    "date": "2026-01-20",
+    "title": "2026s Unsettling Opening Act",
+    "summary": "2026s Unsettling Opening Act It’s only January, but I’ve already witnessed a seismic shift in how threats operate. Gone are the days of purely manual, or even semi-automated, attacks. We’re now contending with adversaries leveraging artificial intelligence in ways that were once confined to sci-f...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/2026s-unsettling-opening-act/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263173",
+    "date": "2026-01-20",
+    "title": "Engaging Cisco Talos Incident Response is just the beginning",
+    "summary": "Cisco Talos Incident Response Retainer provides expert, proactive, and reactive cybersecurity support to quickly contain threats and strengthen defenses.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/engaging-cisco-talos-incident-response-just-beginning/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263174",
+    "date": "2026-01-20",
+    "title": "Fünf Chrome-Erweiterungen, die Unternehmenssitzungen kapern",
+    "summary": "Forscher haben fünf bösartige Chrome-Erweiterungen entdeckt.T. Schneider – shutterstock.com Forscher des Security-Anbieters Socket haben eine koordinierte Kampagne entdeckt, die auf bösartigen Chrome-Add-ons basiert. Die Angreifer haben die Abwehrmechanismen des Chrome Web Stores umgangen und Erw...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119111/funf-chrome-erweiterungen-die-unternehmenssitzungen-kapern.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263175",
+    "date": "2026-01-20",
+    "title": "Google Gemini Flaw Turns Calendar Invites Into Attack Vector",
+    "summary": "The indirect prompt injection vulnerability allows an attacker to weaponize invites to circumvent Google's privacy controls and access private data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/google-gemini-flaw-calendar-invites-attack-vector",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263176",
+    "date": "2026-01-20",
+    "title": "Microsoft &amp; Anthropic MCP Servers At Risk of RCE, Cloud Takeovers",
+    "summary": "Researchers found the popular model context protocol (MCP) servers, which are integral components of AI services, carry serious vulnerabilities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/microsoft-anthropic-mcp-servers-risk-takeovers",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263178",
+    "date": "2026-01-20",
+    "title": "Chainlit Security Flaws Highlight Infrastructure Risks in AI Apps",
+    "summary": "2 security vulnerabilities in the Chainlit framework expose risks from web flaws in AI applications",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/chainlit-security-flaws-ai-apps/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263179",
+    "date": "2026-01-20",
+    "title": "Prompt Injection Bugs Found in Official Anthropic Git MCP Server",
+    "summary": "Three vulnerabilities in Anthropic's Git server for the MCP can be exploited via prompt injection",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/prompt-injection-bugs-anthropic/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263180",
+    "date": "2026-01-20",
+    "title": "Cyber Risks Among CEOs’ Top Worries Amid Weak Short Term Growth Outlook",
+    "summary": "PwC’s 29th Global CEO Survey shows cyber risk rising to the top of CEO concerns as confidence in short term business growth weakens",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-risks-among-ceos-top-worries/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263181",
+    "date": "2026-01-20",
+    "title": "Linkedin Phishing Campaign Exploits Open-Source Pen Testing Tool to Compromise Business Execs ",
+    "summary": "Cybersecurity Researchers at ReliaQuest warn of an ongoing campaign delivered to “high-value individuals” via LinkedIn messages",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/linkedin-phishing-campaign-targets/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263182",
+    "date": "2026-01-20",
+    "title": "AI Supercharges Attacks in Cybercrime's New 'Fifth Wave'",
+    "summary": "Weaponized AI is fueling a new wave of cybercrime, said Group-IB in its latest report",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-supercharges-attacks-cybercrime/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263183",
+    "date": "2026-01-20",
+    "title": "PCI SSC 2025 Community Meetings Now Available on Global Content Library",
+    "summary": "We are excited to share that the 2025 Community Meeting content – from North America, Europe, and Asia-Pacific – is now available in the PCI SSC Global Content Library, exclusively on PCI SSC's YouTube channel!",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/pci-ssc-2025-community-meetings-now-available-on-global-content-library",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263184",
+    "date": "2026-01-20",
+    "title": "NCSC Warns of Increased Russian Hacktivist Threat to UK Online Services",
+    "summary": "National Cyber Security Centre says these ideologically motivated attackers are moving beyond simple website disruptions. The post NCSC Warns of Increased Russian Hacktivist Threat to UK Online Services appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-ncsc-russian-hackers-target-uk/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263185",
+    "date": "2026-01-20",
+    "title": "Gemini AI assistant tricked into leaking Google Calendar data",
+    "summary": "Using only natural language instructions, researchers were able to bypass Google Gemini's defenses against malicious prompt injection and create misleading events to leak private Calendar data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gemini-ai-assistant-tricked-into-leaking-google-calendar-data/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263186",
+    "date": "2026-01-20",
+    "title": "Microsoft PowerToys adds new CursorWrap mouse 'teleport' tool",
+    "summary": "Microsoft has released PowerToys 0.97, with a new mouse utility for multi-monitor setups and significant improvements to the Command Palette quick launcher. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-new-cursorwrap-mouse-teleport-tool/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263187",
+    "date": "2026-01-20",
+    "title": "Make Identity Threat Detection your security strategy for 2026",
+    "summary": "Identity-based attacks are one of the primary paths attackers use to breach corporate networks. Tenfold shows how Identity Threat Detection helps spot suspicious account activity before real damage occurs. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/make-identity-threat-detection-your-security-strategy-for-2026/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263188",
+    "date": "2026-01-20",
+    "title": "Webinar: Aligning cybersecurity purchases with what your SOC team needs",
+    "summary": "Learn how security leaders and SOC teams can work together to close the gap between platform decisions and operational needs. Join Sumo Logic and BleepingComputer on January 29 for a practical webinar on aligning security tools with real-world workflows. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/webinar-aligning-cybersecurity-purchases-with-what-your-soc-team-needs/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263127",
     "date": "2026-01-20",
     "title": "Access denied",
@@ -4943,6 +5434,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263177",
+    "date": "2026-01-16",
+    "title": "Microsoft stacks up 113 CVEs for January Patch Tuesday",
+    "summary": "Categories: X-opsTags: Patch Tuesday, Microsoft, Windows",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/microsoft-stacks-up-113-cves-for-january-patch-tuesday",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
   },
   {
     "id": "20263043",
