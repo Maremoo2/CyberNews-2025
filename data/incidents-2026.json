@@ -1,5 +1,474 @@
 [
   {
+    "id": "20263094",
+    "date": "2026-01-20",
+    "title": "The Post-Breach Narrative: Winning Back Trust After the Headlines Fade",
+    "summary": "Understanding trust as a strategic asset.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102080-the-post-breach-narrative-winning-back-trust-after-the-headlines-fade",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263095",
+    "date": "2026-01-20",
+    "title": "Hong Kong strives to be ‘fortress’ that safeguards digital security: I&T chief",
+    "summary": "Hong Kong is striving to become a “fortress” that safeguards digital security, the city’s innovation and technology (I&T) minister has said, stressing that cyber warfare is not just a confrontation of technologies but a “full-spectrum contest” that transcends geographical boundaries and integrate...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3340519/hong-kong-strives-be-fortress-safeguards-digital-security-it-minister-says?utm_source=rss_feed",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263096",
+    "date": "2026-01-20",
+    "title": "Ce faux bloqueur de pubs fait planter Chrome et Edge pour mieux vous piéger",
+    "summary": "Une extension malveillante fait évoluer les attaques ClickFix en provoquant volontairement le crash du navigateur. Une approche plus convaincante, conçue pour leurrer les internautes, et ciblant en priorité les environnements d’entreprise.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596074-ce-faux-bloqueur-de-pubs-fait-planter-chrome-et-edge-pour-mieux-vous-pieger.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263097",
+    "date": "2026-01-20",
+    "title": "iPhone : des dizaine d'apps exposent les données de millions d'utilisateurs",
+    "summary": "Près de 200 applications iOS, majoritairement dédiées à l'intelligence artificielle, exposent les données personnelles de millions d'utilisateurs. Les chercheurs de CovertLabs ont développé Firehound, un registre qui identifie et catalogue les fuites massives causées par des bases de données mal ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596053-iphone-des-dizaine-d-apps-exposent-les-donnees-de-millions-d-utilisateurs.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263098",
+    "date": "2026-01-20",
+    "title": "Le Français VirtualBrowser obtient la première certification CSPN de l'ANSSI pour la navigation web sécurisée",
+    "summary": "L'éditeur français VirtualBrowser vient de décrocher la certification CSPN de l'ANSSI, une première pour une solution de sécurisation de la navigation web. L'entreprise propose une technologie qui isole les menaces en ligne pour protéger les entreprises.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596023-le-francais-virtualbrowser-obtient-la-premiere-certification-cspn-de-l-anssi-pour-la-navigation-web-securisee.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263099",
+    "date": "2026-01-20",
+    "title": "Surfshark sécurise le protocole Wireguard pour l'ère post-quantique",
+    "summary": "Surfshark active une protection post-quantique sur son protocole WireGuard et publie une étude sur l'état des applications du quotidien.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595993-surfshark-securise-le-protocole-wireguard-pour-l-ere-post-quantique.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263100",
+    "date": "2026-01-20",
+    "title": "Votre cerveau comme mot de passe ? Le Français Yneuro lance la première authentification neuronale",
+    "summary": "La start-up française Yneuro a officiellement lancé, lundi, la commercialisation de Neuro ID, une technologie d'authentification par signature neuronale testée sur 70 000 personnes, qui transforme l'activité cérébrale en signature de sécurité inviolable.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596020-votre-cerveau-comme-mot-de-passe-le-francais-yneuro-lance-la-premiere-authentification-neuronale.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263101",
+    "date": "2026-01-20",
+    "title": "4 mois offerts en ce moment : CyberGhost tape fort pour les soldes d'hiver",
+    "summary": "Les soldes ne concernent pas que les vêtements et les gadgets. Dans l’univers de la sécurité numérique aussi, les bonnes affaires tombent au bon moment. En ce moment, CyberGhost VPN propose une offre exceptionnelle : 2,19 € par mois pour 2 ans, avec 2 mois supplémentaires offerts. Une promo idéal...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596011-mois-offerts-pendant-les-soldes-cyberghost-vpn-degaine-de-supers-promos-sur-tous-ses-abonnements.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263102",
+    "date": "2026-01-20",
+    "title": "Radware targets API blind spots with real-time lifecycle protection",
+    "summary": "Radware has unveiled the launch of its Radware API Security Service, an end-to-end solution designed to protect APIs throughout their entire lifecycle using real-time production traffic. Radware API Security Service offers APIs advanced protection against the OWASP Top 10 API Security Risks, incl...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/radware-api-security-service/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263103",
+    "date": "2026-01-20",
+    "title": "Sophos expands security stack to govern apps, data, and AI in hybrid work",
+    "summary": "Sophos has announced Sophos Workspace Protection, expanding its portfolio to help organizations secure hybrid work and govern the use of emerging technologies, including AI. Built around the Sophos Protected Browser, powered by Island, the solution enables organizations to protect applications, d...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/sophos-expands-security-stack-to-govern-apps-data-and-ai-in-hybrid-work/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263104",
+    "date": "2026-01-20",
+    "title": "Let’s Encrypt rolls out 6-day and IP-based certificates",
+    "summary": "Let’s Encrypt says its short-lived TLS certificates with a 6-day lifetime are now generally available. Each certificate is valid for 160 hours from the time it is issued. To request one, operators must select the “shortlived” profile in their ACME client. The option is opt-in and works with clien...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/lets-encrypt-6-day-tls-certificates/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263105",
+    "date": "2026-01-20",
+    "title": "Confusion and fear send people to Reddit for cybersecurity advice",
+    "summary": "A strange charge appears on a bank account. An email claims a package is on the way. A social media account stops accepting a password that worked yesterday. When these moments hit, many people do the same thing. They open Reddit and ask strangers for help. A new study shows how often this happen...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/20/reddit-cybersecurity-help-questions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263106",
+    "date": "2026-01-20",
+    "title": "Erase Backgrounds in Seconds with the 100% Free Tool",
+    "summary": "In this post, I will show you how to erase backgrounds in seconds with the 100% free tool. Background removal is no longer a skill exclusive to professional designers. It’s becoming an essential workplace skill for more professionals, while ordinary people increasingly seek to master image editin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/erase-backgrounds-in-seconds/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263107",
+    "date": "2026-01-20",
+    "title": "Top 8 WordPress LMS Plugins to Use in 2026",
+    "summary": "Explore the top WordPress LMS plugins for 2026. Compare features, pricing, and ideal use cases to find the best learning management system for your website. The demand for online learning continues to grow in 2026, and WordPress remains one of the most popular platforms for building education-foc...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/top-wordpress-lms-plugins/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263108",
+    "date": "2026-01-20",
+    "title": "The Ultimate WordPress Security Guide",
+    "summary": "Read this WordPress security guide to learn how to secure your WordPress site. Over 90,000 brute force attacks are made on WordPress websites every single minute. That’s insane! Isn’t it? That’s why it’s highly necessary to worry about the security of your WordPress. Owners of tiny websites may b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/ultimate-wordpress-security-guide/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263109",
+    "date": "2026-01-20",
+    "title": "The Evolution of Location-Aware Authentication for Mobile Workforces",
+    "summary": "In this post, I will talk about the evolution of location-aware authentication for mobile workforces. Managing a distributed workforce is one of the most complex challenges in modern business. If you oversee teams in the field, you know the constant battle: ensuring employees are where they say t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/location-aware-authentication-for-mobile-workforces/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263110",
+    "date": "2026-01-20",
+    "title": "Malware Trends Report 2025: New Security Risks for Businesses in 2026",
+    "summary": "Summarizing the past year’s threat landscape based on activity observed in ANY.RUN’s Interactive Sandbox, this annual report provides insights into the most detected malware types, families, TTPs, and phishing threats of 2025. For additional insights, view ANY.RUN’s quarterly malware trends repor...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/malware-trends-2025/",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263111",
+    "date": "2026-01-20",
+    "title": "DOJ Announces Registry to Take Guns Away from Liberals",
+    "summary": "The gun rights movement’s foundational argument for forty years: registration leads to confiscation. The NRA has fought every attempt at a federal gun registry on exactly this basis. Know who has guns, and you can take them. The DOJ just mandated registration in the loudest way possible. American...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76295",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263112",
+    "date": "2026-01-20",
+    "title": "Ignoring Red Lines for Profit: the Problem So Much Bigger Than Grok",
+    "summary": "Americans seem unable to speak the truth about what’s happening to them. They dance around and wave their hands, like in a comforting trance that prevents accuracy, avoiding science. Oh Lord, give me strength, for I can not judge and must appear happy all the time with it. Warzel and Gilbert fram...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76272",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263113",
+    "date": "2026-01-20",
+    "title": "What is SDP (Software Defined Perimeter)?",
+    "summary": "A Software Defined Perimeter (SDP) is a representative architecture that implements Zero Trust security principles in network access control. SDP aims to significantly reduce the network attack surface by completely hiding the existence of applications and services from unauthenticated and unauth...",
+    "region": "ASIA",
+    "country": "South Korea",
+    "sourceName": "Cloudbric",
+    "sourceUrl": "https://www.cloudbric.com/what-is-sdp/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263114",
+    "date": "2026-01-20",
+    "title": "Emerging Risks: Typosquatting in the MCP Ecosystem | UpGuard",
+    "summary": "The MCP server ecosystem is susceptible to brand impersonation for both local and remote servers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/typosquatting-in-the-mcp-ecosystem",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263115",
+    "date": "2026-01-20",
+    "title": "Critical Infrastructure Attacks Became Routine for Hacktivists in 2025",
+    "summary": "Hacktivists moved well beyond their traditional DDoS attacks and website defacements in 2025, increasingly targeting industrial control systems (ICS), ransomware, breaches, and data leaks, as their sophistication and alignment with nation-state interests grew. That was one of the conclusions in C...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/hacktivists-critical-infrastructure-attacks-2025/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ddos",
+      "state-sponsored",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263116",
+    "date": "2026-01-20",
+    "title": "CrashFix attack hijacks browser failures to deliver ModelRAT malware via fake Chrome extension",
+    "summary": "Security researchers have uncovered a malicious browser extension campaign, dubbed CrashFix, that deliberately crashes victims’ browsers and then uses the resulting confusion to trick users into running attacker-supplied commands.The activity, attributed to a threat cluster Huntress calls KongTuk...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119047/crashfix-attack-hijacks-browser-failures-to-deliver-modelrat-malware-via-fake-chrome-extension.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263117",
+    "date": "2026-01-20",
+    "title": "Google Gemini flaw exposes new AI prompt injection risks for enterprises",
+    "summary": "A newly disclosed weakness in Google’s Gemini shows how attackers could exploit routine calendar invitations to influence the model’s behavior, underscoring emerging security risks as enterprises embed generative AI into everyday productivity and decision-making workflows. The vulnerability was i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119029/google-gemini-flaw-exposes-new-ai-prompt-injection-risks-for-enterprises.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263118",
+    "date": "2026-01-20",
+    "title": "Why the future of security starts with who, not where",
+    "summary": "For a long time, cybersecurity was pretty straightforward: Guard the edges, and everything inside should be fine. Firewalls, DMZs, VPNs — these were the go-to tools. Back then, it worked. Apps lived in data centers, and everyone showed up at the office. But that world disappeared before most comp...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118753/why-the-future-of-security-starts-with-who-not-where.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263119",
+    "date": "2026-01-20",
+    "title": "Fake-Video mit Reinhold Würth wirbt für dubiose Geldanlagen",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_1476774605.jpg?quality=50&strip=all 2557w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_1476774605.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118949/fake-video-mit-reinhold-wurth-wirbt-fur-dubiose-geldanlagen.html",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263120",
+    "date": "2026-01-20",
+    "title": "EU vulnerability database goes live",
+    "summary": "A free, publicly accessible database for IT security vulnerabilities, the db.gcve.eu, has been created by GCVE (Global Cybersecurity Vulnerability Enumeration). The aim is to end dependence on US databases and strengthen digital sovereignty in Europe. The initiative came together after a brief sc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4118848/new-eu-vulnerability-database-launched.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263121",
+    "date": "2026-01-20",
+    "title": "Secure web browsers for the enterprise compared: How to pick the right one",
+    "summary": "Web browsers have long been the security sinkhole of enterprise infrastructure. While email is often cited as the most common entry point, malware often enters via the browser and is more difficult to prevent. Phishing, drive-by attacks, ransomware, SQL injections, man-in-the-middle (MitM), and o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/573875/secure-web-browsers-for-the-enterprise-compared-how-to-pick-the-right-one.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263122",
+    "date": "2026-01-20",
+    "title": "Synchronized Security and Security Heartbeat: Elevating Cyber Defenses, Automatically",
+    "summary": "The original and best cybersecurity system now includes Sophos Workspace Protection.Categories: Products & ServicesTags: Workspace, Firewall, Endpoint",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/synchronized-security-and-security-heartbeat-elevating-cyber-defenses-automatically",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263123",
+    "date": "2026-01-20",
+    "title": "Introducing Sophos Workspace Protection",
+    "summary": "An integrated bundle of security solutions that protect apps, data, workers, and guests easily and affordably – wherever they are.Categories: Products & ServicesTags: Workspace",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/introducing-sophos-workspace-protection",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263124",
+    "date": "2026-01-20",
+    "title": "Risk of AI Model Collapse to Drive Zero Trust Data Governance, Gartner Says ",
+    "summary": "Gartner predicts 50% of organizations will adopt zero trust data governance by 2028",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-model-collapse-zero-trust-data/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263125",
+    "date": "2026-01-20",
+    "title": "Scam Marketplace Tudou Guarantee Shutters Telegram Ops",
+    "summary": "A notorious marketplace for fraud, Tudou Guarantee, appears to have closed its public Telegram groups",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/scam-market-tudou-guarantee-shut/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263126",
+    "date": "2026-01-20",
+    "title": "Blockchain in Cybersecurity – Will It Really Make the Internet More Secure?",
+    "summary": "Top Uses of Blockchain in Cybersecurity – And Will It Really Make the Internet More Secure? As cyberattacks grow more sophisticated and data breaches become almost routine, organizations are rethinking how trust and security are built into the internet. Traditional cybersecurity models rely heavi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TS Factory InfoSec Digest",
+    "sourceUrl": "https://www.tsfactory.com/forums/blogs/top-uses-of-blockchain-in-cybersecurity/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263091",
     "date": "2026-01-20",
     "title": "[Ekstra] Uavklart framtid for Norges første «smart-fengsel»",
