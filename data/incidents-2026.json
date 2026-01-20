@@ -1,5 +1,418 @@
 [
   {
+    "id": "20263127",
+    "date": "2026-01-20",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c0e5659d9b5d0dc • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263128",
+    "date": "2026-01-20",
+    "title": "APT-Grade PDFSider Malware Used by Ransomware Groups",
+    "summary": "Providing cyberespionage and remote code execution capabilities, the malware is executed via DLL sideloading. The post APT-Grade PDFSider Malware Used by Ransomware Groups appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/apt-grade-pdfsider-malware-used-by-ransomware-groups/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263129",
+    "date": "2026-01-20",
+    "title": "Cloudflare Fixes ACME Validation Bug Allowing WAF Bypass to Origin Servers",
+    "summary": "Cloudflare has addressed a security vulnerability impacting its Automatic Certificate Management Environment (ACME) validation logic that made it possible to bypass security controls and access origin servers. \"The vulnerability was rooted in how our edge network processed requests destined for t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cloudflare-fixes-acme-validation-bug.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263130",
+    "date": "2026-01-20",
+    "title": "Why Secrets in JavaScript Bundles are Still Being Missed",
+    "summary": "Leaked API keys are no longer unusual, nor are the breaches that follow. So why are sensitive tokens still being so easily exposed? To find out, Intruder’s research team looked at what traditional vulnerability scanners actually cover and built a new secrets detection method to address gaps in ex...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263131",
+    "date": "2026-01-20",
+    "title": "Predator bots are exploiting APIs at scale. Here’s how defenders must respond.",
+    "summary": "The rise of malicious bots is changing how the internet operates, underscoring the need for stronger safeguards that keep humans firmly in control. Bots now account for more than half of global web traffic, and a new class of “predator bots” has emerged, unleashing self-learning programs that ada...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/malicious-bots-predator-bots-api-security-machine-speed-defense/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263132",
+    "date": "2026-01-20",
+    "title": "[Ekstra] Ny Linux-trussel: Kan rette seg mot programvareutviklere",
+    "summary": "«Voidlink» er navnet på den seneste Linux-trusselen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/sikkerhetsforskere-advarer-avansert-linux-skadevare-retter-seg-mot-nettskyen/567114",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263133",
+    "date": "2026-01-20",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A new strain of malware known as PDFSider has been deployed in ransomware attacks against a Fortune 100 company in the finance sector. Attackers utilized social engineering tactics. The cybercriminal group known as \"The Com,\" which includes subgroups like \"Shiny Hunters\" and \"Scattered Lapsus$ Hu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Resecurity",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263134",
+    "date": "2026-01-20",
+    "title": "Resecurity | PDFSIDER Malware - Exploitation of DLL Side-Loading for AV and EDR Evasion",
+    "summary": "PDFSIDER is a newly identified malware variant distributed through DLL side-loading, designed to covertly deploy a backdoor with encrypted command-and-control (C2) capabilities. The malware uses a fake cryptbase.dll to bypass endpoint detection mechanisms. The malware is identified as an Advanced...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.resecurity.com/es/blog/article/pdfsider-malware-exploitation-of-dll-side-loading-for-av-and-edr-evasion?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263135",
+    "date": "2026-01-20",
+    "title": "Weaponized Invite Enabled Calendar Data Theft via Google Gemini",
+    "summary": "A simple payload allowed attackers to create a new event leaking summaries of the victim’s private meetings. The post Weaponized Invite Enabled Calendar Data Theft via Google Gemini appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/weaponized-invite-enabled-calendar-data-theft-via-google-gemini/",
+    "tags": [
+      "data-breach",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263136",
+    "date": "2026-01-20",
+    "title": "Add Punycode to your Threat Hunting Routine, (Tue, Jan 20th)",
+    "summary": "IDNs or “International Domain Names” have been with us for a while now (see RFC3490[1]). They are (ab)used in many attack scenarios because.. it works! Who can immediately spot the difference between: https://youtube.com/ And: https://youtube.com/ The magic is to replace classic characters by oth...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32640",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263137",
+    "date": "2026-01-20",
+    "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
+    "summary": "A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic. The blockchain intelligence company said Tudou Guarantee has effectively ceased transactions through its public Telegr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263138",
+    "date": "2026-01-20",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c0cf7e938e7d0f6 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-govt-warns-about-ongoing-russian-hacktivist-group-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263139",
+    "date": "2026-01-20",
+    "title": "[Ekstra] Ny finsk aktør tilbyr «ekte digital suverenitet» i Norge",
+    "summary": "Sier de er første aktør som tilbyr ekte digitalsuverenitet i Norden.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ny-finsk-aktor-tilbyr-ekte-digital-suverenitet-i-norge/567177",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263140",
+    "date": "2026-01-20",
+    "title": "MS Cybersecurity MS Data Science & AI - YouTube",
+    "summary": "Go to channel UnixGuy | Cyber Security · How I Would Learn Cyber Security If I Could Start Over in 2026 (6 Month Plan). UnixGuy | Cyber Security•1.1M ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=D52mcjMDYtY",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263141",
+    "date": "2026-01-20",
+    "title": "GTMaritime launches new cybersecurity system - Smart Maritime Network",
+    "summary": "Blockchain and Cyber Security. GTMaritime reports that it has launched a new cybersecurity system designed to provide fleet-wide visibility of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://smartmaritimenetwork.com/2026/01/20/gtmaritime-launches-new-cybersecurity-system/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263142",
+    "date": "2026-01-20",
+    "title": "Brussels plans to force governments to block Huawei from 5G - POLITICO",
+    "summary": "5G Certification and standards Critical infrastructure Cyber Espionage Cybersecurity ... Internet of Things Network security Supply chains Telecoms.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.eu/article/brussels-plans-force-governments-block-huawei-zte-5g/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263143",
+    "date": "2026-01-20",
+    "title": "Transport Canberra launches investigation into cybersecurity risks in Chinese-built electric buses",
+    "summary": "British media have reported that the UK's National Cyber Security Centre and Department for Transport found Yutong electric buses could be remotely ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.abc.net.au/news/2026-01-20/security-concerns-over-chinese-electric-buses-transport-canberra/106250794",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263144",
+    "date": "2026-01-20",
+    "title": "European cybersecurity group Allurity appoints Henrik Brinkhagen as CEO of ID North",
+    "summary": "Identity security is a foundational part of modern cybersecurity and essential to protecting sensitive information and maintaining confidence across ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/european-cybersecurity-group-allurity-appoints-henrik-brinkhagen-as-ceo-of-id-north-302665198.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263145",
+    "date": "2026-01-20",
+    "title": "AI FOMO Is Outpacing Governance and Security Teams - Cybersecurity Insiders",
+    "summary": "AI adoption is accelerating faster than the security and governance frameworks meant to support it. When AI is rolled out without the right ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/ai-fomo-is-outpacing-governance-and-security-teams/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263146",
+    "date": "2026-01-20",
+    "title": "AI Security Risks Worry EY and KPMG Execs - Business Insider",
+    "summary": "AI agents are the latest twist in executives' ongoing concerns over cybersecurity, and it's proving to be an incredibly challenging problem. Somewhat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.businessinsider.com/ai-security-risks-worry-ey-kpmg-execs-cybersecurity-davos-2026-1",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263147",
+    "date": "2026-01-20",
+    "title": "Real-World Examples of AI in Cybersecurity - Group-IB",
+    "summary": "In practice, this means: your security team doesn't have to wait hours or days to notice subtle deviations in network traffic; an AI-enabled system ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/examples-of-ai-in-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263148",
+    "date": "2026-01-20",
+    "title": "Hana Omori selected as Top CEO of the Year in Cyber Security Research by IAOTP - Bluffton Today",
+    "summary": "... Network were not involved in the creation of this content. Hana Omori selected as Top CEO of the Year in Cyber Security Research by IAOTP.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.blufftontoday.com/press-release/story/38875/hana-omori-selected-as-top-ceo-of-the-year-in-cyber-security-research-by-iaotp/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263149",
+    "date": "2026-01-20",
+    "title": "Ransomware attack on Ingram Micro impacts 42,000 individuals - Security Affairs",
+    "summary": "The company detected a cyber incident on July 3, 2025 and launched an investigation with the help of cybersecurity experts. The company quickly ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/187083/data-breach/ransomware-attack-on-ingram-micro-impacts-42000-individuals.html",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263150",
+    "date": "2026-01-20",
+    "title": "Check Point research confirms Gen AI adoption is leaking Sensitive Information",
+    "summary": "... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE FROM AUTHOR. Ransomware-encryted · Research · Credential theft is often the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/check-point-research-confirms-gen-ai-adoption-is-leaking-sensitive-information/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263151",
+    "date": "2026-01-20",
+    "title": "Real-time Threat Intelligence: Empowering Proactive Cybersecurity with Seceon",
+    "summary": "For organizations to effectively combat today's sophisticated cyber threats, they require intelligent, adaptive, and scalable security solutions.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/real-time-threat-intelligence-empowering-proactive-cybersecurity-with-seceon/",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263152",
+    "date": "2026-01-20",
+    "title": "Former CISA Leader Jen Easterly Joins RSAC as CEO - HSToday",
+    "summary": "CybersecurityInfrastructure SecurityCybersecurity and Infrastructure Security Agency ... Cyber Command—and as a senior technology leader at ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/industry/people-on-the-move/former-cisa-leader-jen-easterly-joins-rsac-as-ceo/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263153",
+    "date": "2026-01-20",
+    "title": "The International Conference on the EU Cyber Security and Resilience Acts",
+    "summary": "The EU Cyber Acts Conference helps international developers understand Europe's leadership in cybersecurity, setting benchmark standards for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.biometricupdate.com/202601/the-international-conference-on-the-eu-cyber-security-and-resilience-acts",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263154",
+    "date": "2026-01-20",
+    "title": "Aktuelle nyheter 2026",
+    "summary": "Aktuelle nyheter 2026",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263094",
     "date": "2026-01-20",
     "title": "The Post-Breach Narrative: Winning Back Trust After the Headlines Fade",
