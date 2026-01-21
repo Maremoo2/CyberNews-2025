@@ -733,8 +733,6 @@ function extractBlockingKeys(incident) {
   
   // Block 2: Leak site references (same leak = same incident)
   if (BLOCKING_PATTERNS.leakSite.test(text)) {
-    // Reset regex lastIndex
-    BLOCKING_PATTERNS.leakSite.lastIndex = 0;
     titleMatches.forEach(org => {
       keys.add(`leak_site:${org.toLowerCase()}`);
     });
@@ -742,8 +740,6 @@ function extractBlockingKeys(incident) {
   
   // Block 3: Ransom note indicators (same ransom note = same incident)
   if (BLOCKING_PATTERNS.ransomNote.test(text)) {
-    // Reset regex lastIndex
-    BLOCKING_PATTERNS.ransomNote.lastIndex = 0;
     titleMatches.forEach(org => {
       keys.add(`ransom_note:${org.toLowerCase()}`);
     });
@@ -754,6 +750,14 @@ function extractBlockingKeys(incident) {
   domains.forEach(domain => keys.add(`domain:${domain}`));
   
   // Block 5: Known threat actors
+  // Updated with 2026 threat actors from research (Jan 2026):
+  // - UAC-0184: Russian-aligned APT targeting Ukraine
+  // - Volt Typhoon: China-linked APT targeting critical infrastructure
+  // - Kimwolf: Botnet infecting 2M+ Android TV devices
+  // - RondoDox: Botnet exploiting React2Shell CVE-2025-55182
+  // - Zestix: Cybercriminal group selling stolen ShareFile/Nextcloud data
+  // - NoName057: Pro-Russian hacktivist group conducting DDoS attacks
+  // - MuddyWater/Seedworm: Iranian APT using RustyWater Rust-based RAT
   const knownActors = [
     'lockbit', 'blackcat', 'alphv', 'conti', 'clop', 'apt28', 'apt29', 
     'lazarus', 'kimsuky', 'scattered spider', 'killnet', 'anonymous',
