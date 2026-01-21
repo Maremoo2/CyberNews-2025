@@ -85,7 +85,7 @@ function normalizeOrgName(orgName) {
  * Normalize sector using keyword matching and overrides
  * P1 requirement: Return 'unknown' instead of defaulting to technology
  */
-function normalizeSector(text, existingSector) {
+function normalizeSector(text) {
   const lowerText = text.toLowerCase();
   
   // Check overrides first
@@ -118,7 +118,9 @@ function normalizeSector(text, existingSector) {
 /**
  * Normalize attack types using glossary-based term mapping
  * Consolidates synonyms (e.g., spearphishing -> phishing)
+ * Reserved for future normalization enhancements
  */
+// eslint-disable-next-line no-unused-vars
 function normalizeAttackType(attackType) {
   if (!attackType) return null;
   const lowerType = attackType.toLowerCase();
