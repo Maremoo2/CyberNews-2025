@@ -27,6 +27,8 @@ import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
 import DataHealthDashboard from './components/DataHealthDashboard'
 import DeduplicationStats from './components/DeduplicationStats'
+import GlossaryPanel from './components/GlossaryPanel'
+import GlossaryAnalytics from './components/GlossaryAnalytics'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 
 // Month helpers
@@ -519,6 +521,9 @@ function App() {
       {/* Data Health Dashboard */}
       <DataHealthDashboard incidents={incidentsData} />
 
+      {/* Glossary Analytics - Term Usage Statistics */}
+      <GlossaryAnalytics incidents={incidentsData} />
+
       {/* Deduplication Statistics - Show estimated unique incidents */}
       <DeduplicationStats incidents={incidentsData} />
 
@@ -611,6 +616,9 @@ function App() {
 
       {/* Back to Top Button */}
       <BackToTop />
+
+      {/* Glossary Panel */}
+      <GlossaryPanel />
 
       <footer className="footer">
         <div className="footer-reflection">

@@ -67,13 +67,15 @@ function SectorAnalysis({ incidents }) {
       }
     }
 
-    // Count incidents per sector
+    // Count incidents per sector - track both article mentions and unique incidents
     const sectorCounts = {}
     const sectorIncidents = {}
+    const sectorUniqueIncidents = {}
     
     Object.keys(sectorDefinitions).forEach(sector => {
       sectorCounts[sector] = 0
       sectorIncidents[sector] = []
+      sectorUniqueIncidents[sector] = new Set()
     })
 
     incidents.forEach(incident => {
@@ -85,6 +87,10 @@ function SectorAnalysis({ incidents }) {
         if (sectorCounts[sector] !== undefined) {
           sectorCounts[sector]++;
           sectorIncidents[sector].push(incident);
+          // Track unique incidents via case_id for deduplication
+          if (incident.case_id) {
+            sectorUniqueIncidents[sector].add(incident.case_id);
+          }
         }
       } else {
         // Fallback to keyword matching
@@ -100,6 +106,10 @@ function SectorAnalysis({ incidents }) {
             }
             sectorCounts[sector]++;
             sectorIncidents[sector].push(incident);
+            // Track unique incidents via case_id for deduplication
+            if (incident.case_id) {
+              sectorUniqueIncidents[sector].add(incident.case_id);
+            }
             matched = true;
           }
         });
@@ -117,6 +127,7 @@ function SectorAnalysis({ incidents }) {
       .map(([sector, count]) => ({
         name: sector,
         count,
+        uniqueIncidents: sectorUniqueIncidents[sector].size,
         ...sectorDefinitions[sector],
         percentage: ((count / incidents.length) * 100).toFixed(1)
       }))
@@ -131,7 +142,11 @@ function SectorAnalysis({ incidents }) {
       <div className="sector-header">
         <h2>🎯 Sector Analysis</h2>
         <p className="sector-subtitle">Understanding why specific sectors are targeted</p>
-        <p className="counting-label"><small><em>Count type: incident mentions (includes keyword matching)</em></small></p>
+        <p className="counting-label">
+          <small>
+            <em>📰 Article mentions (includes media coverage) • 🔵 Unique incidents (deduplicated)</em>
+          </small>
+        </p>
       </div>
 
       <div className="sector-grid">
@@ -142,8 +157,11 @@ function SectorAnalysis({ incidents }) {
               <div>
                 <h3>{capitalize(sector.name)}</h3>
                 <div className="sector-stats">
-                  <span className="sector-count">{sector.count} incidents</span>
-                  <span className="sector-percentage">{sector.percentage}% of total</span>
+                  <span className="sector-count">
+                    🔵 {sector.uniqueIncidents} unique incidents<br/>
+                    📰 {sector.count} article mentions
+                  </span>
+                  <span className="sector-percentage">{sector.percentage}% of coverage</span>
                 </div>
               </div>
             </div>
@@ -171,7 +189,7 @@ function SectorAnalysis({ incidents }) {
       <div className="sector-insight">
         <h3>💡 Strategic Insight</h3>
         <p>
-          <strong>{capitalize(sectorData[0]?.name)}</strong> dominated incidents with <strong>{sectorData[0]?.count} attacks</strong> ({sectorData[0]?.percentage}%). 
+          <strong>{capitalize(sectorData[0]?.name)}</strong> dominated with <strong>{sectorData[0]?.uniqueIncidents} unique incidents</strong> (covered in {sectorData[0]?.count} articles, {sectorData[0]?.percentage}% of total coverage). 
           This concentration reflects {getSectorInsight(sectorData[0]?.name)}. 
           Organizations in these sectors must prioritize {getRecommendation(sectorData[0]?.name)}.
         </p>

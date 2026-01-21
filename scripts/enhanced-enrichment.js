@@ -45,6 +45,15 @@ const ENTITY_NORMALIZATION = JSON.parse(
   fs.readFileSync(path.join(PROJECT_ROOT, 'config', 'entity-normalization.json'), 'utf8')
 );
 
+// Load glossary and term normalization
+const CYBERSECURITY_GLOSSARY = JSON.parse(
+  fs.readFileSync(path.join(PROJECT_ROOT, 'config', 'cybersecurity-glossary.json'), 'utf8')
+);
+
+const TERM_NORMALIZATION = JSON.parse(
+  fs.readFileSync(path.join(PROJECT_ROOT, 'config', 'term-normalization.json'), 'utf8')
+);
+
 // ============================================================================
 // ENTITY NORMALIZATION FUNCTIONS
 // ============================================================================
@@ -76,7 +85,7 @@ function normalizeOrgName(orgName) {
  * Normalize sector using keyword matching and overrides
  * P1 requirement: Return 'unknown' instead of defaulting to technology
  */
-function normalizeSector(text, existingSector) {
+function normalizeSector(text) {
   const lowerText = text.toLowerCase();
   
   // Check overrides first
@@ -104,6 +113,86 @@ function normalizeSector(text, existingSector) {
   // P1 fix: Return 'unknown' instead of defaulting to existingSector
   // This prevents technology from being a catch-all fallback
   return bestMatch || 'unknown';
+}
+
+/**
+ * Normalize attack types using glossary-based term mapping
+ * Consolidates synonyms (e.g., spearphishing -> phishing)
+ * Reserved for future normalization enhancements
+ */
+// eslint-disable-next-line no-unused-vars
+function normalizeAttackType(attackType) {
+  if (!attackType) return null;
+  const lowerType = attackType.toLowerCase();
+  
+  // Check all normalization categories
+  const allMappings = {
+    ...TERM_NORMALIZATION.attack_type_normalization,
+    ...TERM_NORMALIZATION.malware_normalization,
+    ...TERM_NORMALIZATION.technique_normalization
+  };
+  
+  return allMappings[lowerType] || attackType;
+}
+
+/**
+ * Extract and normalize cybersecurity terms from text
+ * Returns array of normalized terms found in the text
+ */
+function extractGlossaryTerms(text) {
+  const lowerText = text.toLowerCase();
+  const foundTerms = [];
+  
+  // Check against glossary terms
+  for (const [termKey, termData] of Object.entries(CYBERSECURITY_GLOSSARY.terms)) {
+    // Check if term appears in text
+    if (lowerText.includes(termKey.replace(/-/g, ' ')) || 
+        lowerText.includes(termKey.replace(/-/g, '-'))) {
+      
+      // If term has normalization target, use that
+      const normalizedTerm = termData.normalized_to || termKey;
+      
+      if (!foundTerms.includes(normalizedTerm)) {
+        foundTerms.push(normalizedTerm);
+      }
+    }
+    
+    // Also check related terms
+    if (termData.related_terms) {
+      for (const relatedTerm of termData.related_terms) {
+        if (lowerText.includes(relatedTerm.replace(/-/g, ' '))) {
+          const normalizedTerm = termData.normalized_to || termKey;
+          if (!foundTerms.includes(normalizedTerm)) {
+            foundTerms.push(normalizedTerm);
+          }
+        }
+      }
+    }
+  }
+  
+  return foundTerms;
+}
+
+/**
+ * Calculate glossary term boost for confidence scoring
+ * More relevant glossary terms = higher confidence
+ */
+function calculateGlossaryBoost(text, category) {
+  const terms = extractGlossaryTerms(text);
+  let boost = 0;
+  
+  // Filter terms by category if specified
+  const relevantTerms = terms.filter(term => {
+    const termData = CYBERSECURITY_GLOSSARY.terms[term];
+    if (!termData) return false;
+    if (!category) return true;
+    return termData.category === category;
+  });
+  
+  // Boost: +0.1 per relevant term, capped at +0.5
+  boost = Math.min(relevantTerms.length * 0.1, 0.5);
+  
+  return { boost, terms: relevantTerms };
 }
 
 // Severity scoring configuration
@@ -440,6 +529,9 @@ function mapMitreAttack(incident) {
   const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`.toLowerCase();
   const mappings = [];
   
+  // Get glossary boost for attack-type terms
+  const glossaryBoost = calculateGlossaryBoost(text, 'attack-type');
+  
   for (const [techniqueId, technique] of Object.entries(MITRE_TECHNIQUES)) {
     let totalSignals = 0;
     
@@ -448,6 +540,17 @@ function mapMitreAttack(incident) {
       if (matches) {
         totalSignals += signal.weight;
       }
+    }
+    
+    // Apply glossary boost if technique matches glossary terms
+    const techniqueHasGlossaryTerms = glossaryBoost.terms.some(term => {
+      const termData = CYBERSECURITY_GLOSSARY.terms[term];
+      return termData && termData.mitre_techniques && 
+             termData.mitre_techniques.some(t => techniqueId.startsWith(t.split('.')[0]));
+    });
+    
+    if (techniqueHasGlossaryTerms) {
+      totalSignals += glossaryBoost.boost;
     }
     
     // Two-signal rule: need at least 1.0 total weight to map
@@ -1172,6 +1275,9 @@ function calculateSeverityBreakdown(severity) {
 function enrichIncident(incident, allIncidents, blockingIndex) {
   const text = `${incident.title} ${incident.summary} ${incident.tags?.join(' ')}`;
   
+  // Extract glossary terms for tracking (Phase 4: Quality)
+  const glossaryTerms = extractGlossaryTerms(text);
+  
   // Normalize sector/tags
   const normalizedSector = normalizeSector(text, incident.tags?.[0]);
   const normalizedTags = normalizedSector ? [normalizedSector, ...(incident.tags || []).slice(1)] : incident.tags;
@@ -1269,6 +1375,9 @@ function enrichIncident(incident, allIncidents, blockingIndex) {
       name: t.theme_name,
       confidence: t.confidence
     })),
+    
+    // Glossary terms (NEW: Phase 4 - Quality tracking)
+    glossary_terms: glossaryTerms,
     
     // Quality indicators
     is_curated,

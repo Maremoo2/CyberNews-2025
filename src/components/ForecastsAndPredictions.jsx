@@ -46,6 +46,10 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
           provides insights into likely developments. These forecasts combine observed trends with 
           threat intelligence to help organizations prepare for emerging risks.
         </p>
+        <p className="forecast-note">
+          <strong>Note:</strong> Prediction inputs are based on <strong>media coverage volume</strong> (article counts), 
+          not confirmed unique incidents. Trends reflect what security topics dominated public discourse.
+        </p>
       </div>
 
       {/* Top Predictions */}
@@ -59,7 +63,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
           <div className="prediction-content">
             <p className="prediction-why">
               <strong>Why:</strong> AI tools are increasingly accessible, and we observed{' '}
-              {forecasts?.ai_related || 'numerous'} AI-related incidents in {selectedYear}. 
+              {forecasts?.ai_related || 'numerous'} AI-related articles covering security incidents, research, and policy in {selectedYear}. 
               Attackers will leverage AI for more convincing phishing, automated vulnerability discovery, 
               and evasion of traditional defenses.
             </p>
@@ -87,7 +91,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
           <h3>☁️ Cloud Security Incidents Continue to Rise</h3>
           <div className="prediction-content">
             <p className="prediction-why">
-              <strong>Why:</strong> With {forecasts?.cloud || 'many'} cloud-related incidents in {selectedYear}, 
+              <strong>Why:</strong> With {forecasts?.cloud || 'many'} cloud-related articles in {selectedYear}, 
               and continued cloud adoption, misconfigurations and identity issues will persist as major 
               attack vectors.
             </p>

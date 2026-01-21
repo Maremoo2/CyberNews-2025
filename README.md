@@ -61,6 +61,14 @@ Map MITRE techniques against mentioned security tools:
 - Example: *"T1190 (Exploit Public-Facing Application) appears in 15% of incidents, but WAF mentioned in only 3%"*
 - Real control gap analysis for security teams
 
+### 📚 Interactive Cybersecurity Glossary
+CISO-friendly terminology support:
+- **50+ curated terms** with definitions, categories, and MITRE mappings
+- **Hover tooltips** providing instant context for technical terms
+- **Searchable glossary panel** with category filtering
+- **Term normalization** consolidating variants (spearphishing → phishing)
+- **Usage analytics** showing most common terminology patterns
+
 ---
 
 ## 📋 Core Features

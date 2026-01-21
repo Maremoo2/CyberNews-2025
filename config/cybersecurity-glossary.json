@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "description": "Strategic cybersecurity glossary for threat intelligence platform - selective terms only",
+  "last_updated": "2026-01-21",
+  "terms": {
+    "phishing": {
+      "definition": "A social engineering attack where attackers impersonate trusted entities to steal credentials or sensitive information via email, SMS, or other communication channels.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566"],
+      "related_terms": ["spearphishing", "smishing", "vishing", "quishing", "whaling"]
+    },
+    "spearphishing": {
+      "definition": "Targeted phishing attacks directed at specific individuals or organizations, often using personalized information to increase success rates.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566.001", "T1566.002"],
+      "normalized_to": "phishing"
+    },
+    "smishing": {
+      "definition": "Phishing attacks conducted via SMS/text messages.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566"],
+      "normalized_to": "phishing"
+    },
+    "vishing": {
+      "definition": "Voice phishing - social engineering attacks conducted over phone calls.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566"],
+      "normalized_to": "phishing"
+    },
+    "quishing": {
+      "definition": "QR code phishing - attacks using malicious QR codes to redirect victims to phishing sites.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566"],
+      "normalized_to": "phishing"
+    },
+    "ransomware": {
+      "definition": "Malware that encrypts victim's data and demands payment (ransom) for decryption keys, often combined with data exfiltration threats.",
+      "category": "malware",
+      "mitre_techniques": ["T1486", "T1490"],
+      "related_terms": ["crypto-locker", "encryption-malware"]
+    },
+    "credential-stuffing": {
+      "definition": "Automated attacks using lists of stolen username/password pairs to gain unauthorized access to accounts.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1110.004"],
+      "related_terms": ["credential-spraying", "password-spraying"]
+    },
+    "lateral-movement": {
+      "definition": "Techniques attackers use to move through a network after initial compromise, accessing additional systems and resources.",
+      "category": "tactic",
+      "mitre_techniques": ["T1021"],
+      "related_terms": ["east-west-movement", "network-propagation"]
+    },
+    "exfiltration": {
+      "definition": "Unauthorized transfer of data from a victim's network to attacker-controlled systems.",
+      "category": "tactic",
+      "mitre_techniques": ["T1567", "T1041"],
+      "related_terms": ["data-theft", "data-extraction"]
+    },
+    "zero-day": {
+      "definition": "Previously unknown vulnerability with no available patch, often exploited before vendor awareness.",
+      "category": "vulnerability",
+      "mitre_techniques": ["T1190", "T1203"],
+      "related_terms": ["0-day", "unknown-vulnerability"]
+    },
+    "apt": {
+      "definition": "Advanced Persistent Threat - sophisticated, long-term cyber operations typically conducted by nation-state actors.",
+      "category": "actor-type",
+      "related_terms": ["nation-state", "state-sponsored"]
+    },
+    "bec": {
+      "definition": "Business Email Compromise - social engineering attack targeting businesses to fraudulently transfer funds or sensitive data.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1566.002"],
+      "related_terms": ["ceo-fraud", "whaling"]
+    },
+    "ceo-fraud": {
+      "definition": "Type of BEC attack impersonating executive leadership to authorize fraudulent transactions.",
+      "category": "attack-type",
+      "normalized_to": "bec"
+    },
+    "supply-chain-attack": {
+      "definition": "Attack targeting less-secure elements in the supply chain to compromise the primary target.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1195"],
+      "related_terms": ["third-party-compromise", "vendor-attack"]
+    },
+    "ddos": {
+      "definition": "Distributed Denial of Service - attack overwhelming systems with traffic to disrupt availability.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1498", "T1499"],
+      "related_terms": ["dos", "denial-of-service"]
+    },
+    "keylogger": {
+      "definition": "Malware or hardware that records keystrokes to capture sensitive information like passwords.",
+      "category": "malware",
+      "mitre_techniques": ["T1056.001"],
+      "related_terms": ["keystroke-logging"]
+    },
+    "rootkit": {
+      "definition": "Malware designed to hide its presence and provide privileged access to attackers while evading detection.",
+      "category": "malware",
+      "mitre_techniques": ["T1014", "T1564"],
+      "related_terms": ["stealth-malware"]
+    },
+    "trojan": {
+      "definition": "Malware disguised as legitimate software to trick users into installing it.",
+      "category": "malware",
+      "mitre_techniques": ["T1204"],
+      "related_terms": ["trojan-horse"]
+    },
+    "rat": {
+      "definition": "Remote Access Trojan - malware providing attackers remote control over compromised systems.",
+      "category": "malware",
+      "mitre_techniques": ["T1219"],
+      "related_terms": ["remote-access-tool"]
+    },
+    "backdoor": {
+      "definition": "Mechanism for bypassing normal authentication to maintain unauthorized access to a system.",
+      "category": "technique",
+      "mitre_techniques": ["T1546", "T1574"],
+      "related_terms": ["persistence-mechanism"]
+    },
+    "watering-hole": {
+      "definition": "Attack compromising websites frequented by target organizations to infect visitors.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1189"],
+      "related_terms": ["strategic-web-compromise"]
+    },
+    "pass-the-hash": {
+      "definition": "Attack technique using stolen password hashes to authenticate without knowing the plaintext password.",
+      "category": "technique",
+      "mitre_techniques": ["T1550.002"],
+      "related_terms": ["hash-authentication"]
+    },
+    "sql-injection": {
+      "definition": "Attack inserting malicious SQL code into application queries to manipulate databases.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1190"],
+      "related_terms": ["sqli", "sql-poisoning"]
+    },
+    "xss": {
+      "definition": "Cross-Site Scripting - injecting malicious scripts into trusted websites to execute in victim browsers.",
+      "category": "attack-type",
+      "mitre_techniques": ["T1059"],
+      "related_terms": ["cross-site-scripting"]
+    },
+    "social-engineering": {
+      "definition": "Psychological manipulation to trick people into divulging confidential information or performing actions.",
+      "category": "technique",
+      "mitre_techniques": ["T1566", "T1204"],
+      "related_terms": ["human-hacking"]
+    },
+    "pretexting": {
+      "definition": "Social engineering using fabricated scenarios to extract information from targets.",
+      "category": "technique",
+      "mitre_techniques": ["T1598"],
+      "related_terms": ["pretext-attack"]
+    },
+    "mitre-attack": {
+      "definition": "MITRE ATT&CK - globally accessible knowledge base of adversary tactics and techniques based on real-world observations.",
+      "category": "framework",
+      "related_terms": ["attack-framework", "threat-modeling"]
+    },
+    "cve": {
+      "definition": "Common Vulnerabilities and Exposures - standardized identifier for known security vulnerabilities.",
+      "category": "standard",
+      "related_terms": ["vulnerability-id"]
+    },
+    "ioc": {
+      "definition": "Indicator of Compromise - forensic artifacts suggesting a security breach has occurred.",
+      "category": "detection",
+      "related_terms": ["compromise-indicator"]
+    },
+    "edr": {
+      "definition": "Endpoint Detection and Response - security solution monitoring endpoint devices for threats.",
+      "category": "defense",
+      "related_terms": ["endpoint-security"]
+    },
+    "siem": {
+      "definition": "Security Information and Event Management - platform providing real-time analysis of security alerts.",
+      "category": "defense",
+      "related_terms": ["security-monitoring"]
+    },
+    "soar": {
+      "definition": "Security Orchestration, Automation, and Response - platform automating security operations workflows.",
+      "category": "defense",
+      "related_terms": ["security-automation"]
+    },
+    "soc": {
+      "definition": "Security Operations Center - centralized team monitoring and responding to security incidents.",
+      "category": "organizational",
+      "related_terms": ["security-team"]
+    },
+    "threat-intelligence": {
+      "definition": "Evidence-based knowledge about existing or emerging threats to inform security decisions.",
+      "category": "practice",
+      "mitre_techniques": [],
+      "related_terms": ["cyber-intelligence", "threat-data"]
+    },
+    "threat-hunting": {
+      "definition": "Proactive search through networks to detect threats that evade automated detection systems.",
+      "category": "practice",
+      "related_terms": ["proactive-detection"]
+    },
+    "red-teaming": {
+      "definition": "Simulated cyber attacks by authorized teams to test organizational defenses.",
+      "category": "practice",
+      "related_terms": ["penetration-testing", "offensive-security"]
+    },
+    "penetration-test": {
+      "definition": "Authorized simulated attack to evaluate security posture and identify vulnerabilities.",
+      "category": "practice",
+      "related_terms": ["pentest", "security-assessment"]
+    },
+    "vulnerability-management": {
+      "definition": "Ongoing process of identifying, assessing, prioritizing, and remediating security vulnerabilities.",
+      "category": "practice",
+      "related_terms": ["vuln-management"]
+    },
+    "incident-response": {
+      "definition": "Organized approach to addressing and managing security breach or attack aftermath.",
+      "category": "practice",
+      "related_terms": ["ir", "breach-response"]
+    },
+    "mfa": {
+      "definition": "Multi-Factor Authentication - security control requiring multiple verification methods.",
+      "category": "defense",
+      "related_terms": ["2fa", "two-factor-authentication"]
+    },
+    "zero-trust": {
+      "definition": "Security model requiring strict identity verification for every person and device accessing resources.",
+      "category": "architecture",
+      "related_terms": ["never-trust-always-verify"]
+    },
+    "defense-in-depth": {
+      "definition": "Layered security approach using multiple defensive mechanisms to protect assets.",
+      "category": "strategy",
+      "related_terms": ["layered-security"]
+    },
+    "shadow-it": {
+      "definition": "IT systems and solutions built and used within organizations without approval from IT department.",
+      "category": "risk",
+      "related_terms": ["unsanctioned-it"]
+    }
+  }
+}
