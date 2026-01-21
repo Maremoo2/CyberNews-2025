@@ -1,5 +1,107 @@
 [
   {
+    "id": "20263276",
+    "date": "2026-01-21",
+    "title": "The Email Insider Threat Has Evolved in the Era of Generative AI",
+    "summary": "Seemingly harmless tools such as AI grammar checkers pose a number of intellectual property risks",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102082-the-email-insider-threat-has-evolved-in-the-era-of-generative-ai",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263277",
+    "date": "2026-01-21",
+    "title": "Bandit: Open-source tool designed to find security issues in Python code",
+    "summary": "Bandit is an open-source tool that scans Python source code for security issues that show up in everyday development. Many security teams and developers use it as a quick way to spot risky coding patterns early in the lifecycle, especially in projects that already rely on automated linting and te...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/bandit-open-source-tool-find-security-issues-python-code/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263278",
+    "date": "2026-01-21",
+    "title": "The 2026 State of Pentesting: Why delivery and follow-through matter more than ever",
+    "summary": "Penetration testing has evolved significantly over the past several years. While uncovering exploitable vulnerabilities remains the core goal, the real differentiator today is how findings are handled after the testing concludes. The method of reporting, delivery, and remediation tracking play a ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/plextrac-pentest-programs-reporting/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263279",
+    "date": "2026-01-21",
+    "title": "Security leaders push for continuous controls as audits stay manual",
+    "summary": "Security teams say they want real-time insight into controls, but still rely on periodic checks that trail daily operations. New RegScale research shows how wide that gap remains and where organizations are directing time, staff, and budget to manage it. How organizations measure the ROI of AI to...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/regscale-continuous-controls-monitoring/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263280",
+    "date": "2026-01-21",
+    "title": "Third Party Risk Management: So vermeiden Sie Compliance-Unheil",
+    "summary": "Third Party Risk Management hilft Unternehmen, das Risiko von Compliance-Verstößen zu vermeiden. Foto: Diyajyoti – shutterstock.comIn Zeiten der Digitalisierung ist es für Unternehmen unerlässlich, auf die Unterstützung von Drittanbietern zurückzugreifen. Sei es im Bereich der IT-Infrastruktur od...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3495375/third-party-risk-management-so-vermeiden-sie-compliance-unheil.html",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263281",
+    "date": "2026-01-21",
+    "title": "Three vulnerabilities in Anthropic Git MCP Server could let attackers tamper with LLMs",
+    "summary": "Threat actors could use prompt injection attacks to take advantage of three vulnerabilities in Anthropic’s official Git MCP server and cause mayhem with AI systems. This alert comes from researchers at Israel-based Cyata, which urges infosec leaders to make sure corporate developers using the off...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119571/three-vulnerabilities-found-in-anthropic-git-mcp-server-could-let-attackers-tamper-with-llms.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263283",
+    "date": "2026-01-21",
+    "title": "OpenAI's ChatGPT Atlas browser is testing actions feature",
+    "summary": "Chromium-based ChatGPT Atlas browser is testing a new feature likely called \"Actions,\" and it can also understand videos, which is why you might see ChatGPT generating timestamps for videos. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-atlas-browser-is-testing-actions-feature/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263251",
     "date": "2026-01-21",
     "title": "Establishing a Unified Legal Framework on Cybersecurity and Network Information Security ...",
@@ -60,6 +162,21 @@
       "google"
     ],
     "impact": 3
+  },
+  {
+    "id": "20263282",
+    "date": "2026-01-20",
+    "title": "Airlock Digital Announces Independent TEI Study Quantifying Measurable ROI & Security Impact",
+    "summary": "Airlock Digital, a leader in proactive application control and endpoint security, announced the release of The Total Economic Impact (TEI) of Airlock Digital, an independent study commissioned by Airlock Digital and conducted by Forrester Consulting. The study demonstrates a significant 224% retu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119592/airlock-digital-announces-independent-tei-study-quantifying-measurable-roi-security-impact.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
   },
   {
     "id": "20263246",
