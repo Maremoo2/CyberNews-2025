@@ -69,6 +69,66 @@ CISO-friendly terminology support:
 - **Term normalization** consolidating variants (spearphishing → phishing)
 - **Usage analytics** showing most common terminology patterns
 
+### 🎛️ Global Filter Bar (NEW)
+Comprehensive filtering system for precise analysis:
+- **Content Type Toggle**: Switch between incidents and articles
+- **Severity Filtering**: Critical, high, moderate, or low severity
+- **Actor Type**: Filter by nation-state, cybercriminal, hacktivist, or insider threats
+- **Sector Filtering**: Target specific industries (finance, healthcare, government, etc.)
+- **Region Selection**: Focus on US, Europe, Asia, or Norway
+- **Date Range Picker**: Analyze specific time periods
+- **Active Filter Summary**: Visual badges showing applied filters
+
+### 📊 Trend Continuity Analysis (NEW)
+Month-over-month trend tracking:
+- **MoM Percentage Changes**: Track growth or decline in incident volume
+- **Trending Attacks**: Identify attacks with >20% increase
+- **New Attack Types**: Spot emerging threat vectors
+- **Severity Trends**: Track how incident severity changes over time
+- **Moving Averages**: Smooth out noise to see real trends
+
+### 📈 Year-over-Year Comparison (NEW)
+Strategic 2025 vs 2026 analysis:
+- **Side-by-Side Metrics**: Compare total incidents, avg impact, critical events
+- **Attack Type Evolution**: See which attacks are growing/declining
+- **Sector Trends**: Identify which industries face increased risk
+- **Severity Distribution**: Compare overall threat landscape changes
+- **Executive Insights**: Automated summary of key changes
+
+### 📆 Quarterly Review Mode (NEW)
+Perfect for board presentations and strategic planning:
+- **Q1-Q4 Summaries**: Comprehensive quarterly breakdowns
+- **QoQ Changes**: Quarter-over-quarter growth indicators
+- **Top Attacks & Sectors**: Most impacted areas per quarter
+- **Unique Actor Counts**: Track threat actor activity
+- **Strategic Focus Areas**: Automated recommendations based on patterns
+
+### ⚖️ Bias Indicator (NEW)
+Transparent data quality and limitations:
+- **Source Distribution**: Shows which sources dominate the data
+- **Regional Bias Detection**: Identifies geographic coverage gaps
+- **Language Bias**: Tracks English vs. other language content
+- **Bias Alerts**: Automatically flags concentration risks
+- **Transparency Notes**: Explains why biases matter for decision-making
+
+### 🧪 Validation Dashboard (NEW)
+Self-audit metrics showing system quality:
+- **Overall Quality Score**: Composite 0-100 score
+- **Deduplication Accuracy**: Measures duplicate detection effectiveness
+- **False Merge Rate**: Tracks incorrectly merged incidents
+- **Attribution Coverage**: Shows % of incidents with threat actor attribution
+- **MITRE Coverage**: Tracks technique mapping completeness
+- **Enrichment Completeness**: Measures data enrichment quality
+- **Learning System Status**: Shows corrections and improvements over time
+
+### 🧠 Learning Memory System (NEW)
+System learns from corrections:
+- **False Merge Tracking**: Records and learns from incorrect merges
+- **New Term Discovery**: Automatically captures emerging terminology
+- **Manual Corrections**: Stores analyst corrections for future reference
+- **Attribution Improvements**: Tracks attribution confidence changes
+- **Continuous Improvement**: System gets smarter over time
+
 ---
 
 ## 📋 Core Features
@@ -85,6 +145,10 @@ CISO-friendly terminology support:
 - **Curated subset** with multi-signal validation for operational use
 - **Transparent methodology** with documented counting rules and limitations
 - **Automated enrichment pipeline** with configurable confidence thresholds
+- **Single Source of Truth**: `/config/taxonomy.json` ensures consistency across all definitions
+  - Centralized severity levels, actor types, sectors, themes
+  - MITRE ATT&CK framework mapping
+  - Eliminates inconsistencies across the system
 
 ### Interactive Dashboard
 - 📊 Regional filtering (US, Europe, Asia, Norway)
