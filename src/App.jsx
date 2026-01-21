@@ -27,6 +27,7 @@ import IncidentsSection from './components/IncidentsSection'
 import BackToTop from './components/BackToTop'
 import DataHealthDashboard from './components/DataHealthDashboard'
 import DeduplicationStats from './components/DeduplicationStats'
+import GlossaryPanel from './components/GlossaryPanel'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 
 // Month helpers
@@ -611,6 +612,9 @@ function App() {
 
       {/* Back to Top Button */}
       <BackToTop />
+
+      {/* Glossary Panel */}
+      <GlossaryPanel />
 
       <footer className="footer">
         <div className="footer-reflection">
