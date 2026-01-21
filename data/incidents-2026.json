@@ -1,5 +1,138 @@
 [
   {
+    "id": "20263284",
+    "date": "2026-01-21",
+    "title": "[Ekstra] Tieto-sjef advarer mot exit: – Amerikanske skyplattformer ligger betydelig foran europeiske",
+    "summary": "Flere etterspør en exit-strategi fra IT-gigantene, men Public 360-leder Bent Philipps mener prisen kan bli høy.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/tieto-sjef-advarer-mot-exit-kan-ramme-innovasjonsevne/567090",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263285",
+    "date": "2026-01-21",
+    "title": "ISC Stormcast For Wednesday, January 21st, 2026 https://isc.sans.edu/podcastdetail/9774, (Wed, Jan 21st)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32642",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263286",
+    "date": "2026-01-21",
+    "title": "Threat Actors Leverage LinkedIn Messaging To Deliver Sophisticated Malware",
+    "summary": "... cybersecurity researchers. The operation underscores a growing trend in which a. ... The Cyber Security Hub™. World's Premier Cyber Security Portal.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/threat-actors-leverage-linkedin-messaging-deliver-8crxe",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263287",
+    "date": "2026-01-21",
+    "title": "Axiologik & Precursor launch UK cyber resilience tool - SecurityBrief UK",
+    "summary": "Axiologik and Precursor launch AxioSECURE to help UK organisations meet looming Cyber Security and Resilience Bill requirements.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/axiologik-precursor-launch-uk-cyber-resilience-tool",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263288",
+    "date": "2026-01-21",
+    "title": "The Role AI Plays in Data Privacy - Cybersecurity Insiders",
+    "summary": "Adaptive learning: This key feature quickly adapts to changing cyber threats. As threats evolve, AI systems analyze new patterns to enhance security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/the-role-ai-plays-in-data-privacy/",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263289",
+    "date": "2026-01-21",
+    "title": "EU plan to phase-out high-risk tech draws fire from China's Huawei | Reuters",
+    "summary": "... cyber attacks decisively,\" EU tech chief Henna Virkkunen said in a statement. ... The EU adopted a 5G security \"toolbox\" in 2020 to curb the use ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/business/media-telecom/eu-phase-out-high-risk-tech-targets-huawei-chinese-companies-2026-01-20/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263290",
+    "date": "2026-01-21",
+    "title": "LLMs in the SOC (Part 1) | Why Benchmarks Fail Security Operations Teams | SentinelOne",
+    "summary": "SentinelLABS' analysis of benchmarks for LLM in cybersecurity, including those published by major players such as Microsoft and Meta, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sentinelone.com/labs/llms-in-the-soc-part-1-why-benchmarks-fail-security-operations-teams/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263291",
+    "date": "2026-01-21",
+    "title": "Brussels pushes for stronger cybersecurity oversight of high-risk technology suppliers",
+    "summary": "Beyond supply-chain security, the proposal significantly strengthens the role of the EU Agency for Cybersecurity, ENISA. The agency would gain a more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.euronews.com/next/2026/01/20/brussels-pushes-for-stronger-cybersecurity-oversight-of-high-risk-technology-suppliers",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263292",
+    "date": "2026-01-21",
+    "title": "10 Top Cybersecurity CEOs On AI's Impact In 2026 - CRN",
+    "summary": "From agentic-powered security to emerging AI opportunities for partners, here's what the CEOs from 10 leading cybersecurity vendors are expecting ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crn.com/news/security/2026/10-top-cybersecurity-ceos-on-ai-s-impact-in-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263276",
     "date": "2026-01-21",
     "title": "The Email Insider Threat Has Evolved in the Era of Generative AI",
