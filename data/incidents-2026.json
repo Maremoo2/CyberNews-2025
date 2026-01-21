@@ -1,5 +1,460 @@
 [
   {
+    "id": "20263427",
+    "date": "2026-01-21",
+    "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
+    "summary": "As many as 3,136 individual IP addresses linked to likely targets of the Contagious Interview activity have been identified, with the campaign claiming 20 potential victim organizations spanning artificial intelligence (AI), cryptocurrency, financial services, IT services, marketing, and software...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263428",
+    "date": "2026-01-21",
+    "title": "Black Basta’s alleged ringleader identified as authorities raid homes of other members",
+    "summary": "Law enforcement agencies from multiple European countries are still pursuing leads on people involved in the Black Basta ransomware group, nearly a year after the group’s internal chat logs were leaked, exposing key details about its operations, and at least six months since the group claimed res...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/black-basta-leader-europol-most-wanted-list/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263429",
+    "date": "2026-01-21",
+    "title": "Small Devices, Big Risk: USB Drives Threaten Enterprise Security",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/usb-drives-threaten-enterprise-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263430",
+    "date": "2026-01-21",
+    "title": "CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training",
+    "summary": "CyberNut emerged from stealth in May 2024 with $800k in pre-seed funding for its cybersecurity platform. The post CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cybernut-closes-5m-growth-capital-for-k-12-security-awareness-training/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263431",
+    "date": "2026-01-21",
+    "title": "Greek police arrest scammers using fake cell tower hidden in car trunk",
+    "summary": "A vehicle search uncovered a mobile computing system hidden in the trunk and connected to a roof-mounted transmitter disguised as a shark-fin antenna.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/greek-police-arrest-scammers-using-hidden-cell-towers",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263432",
+    "date": "2026-01-21",
+    "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+    "summary": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution. The most severe of the lot is a critical security flaw impacting Zoom Node Multimedia Routers (MMRs) that could permit a meeting p...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263433",
+    "date": "2026-01-21",
+    "title": "Asymmetric Security Emerges From Stealth With $4.2 Million in Funding",
+    "summary": "The startup’s platform leverages AI to automate forensic investigations, accelerating incident response. The post Asymmetric Security Emerges From Stealth With $4.2 Million in Funding appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/asymmetric-security-emerges-from-stealth-with-4-2-million-in-funding/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263434",
+    "date": "2026-01-21",
+    "title": "EU unveils new plans to tackle Huawei, ZTE as China alleges protectionism",
+    "summary": "A draft proposal released on Tuesday, revising the EU’s Cybersecurity Act and its Network Information Systems Directive, would see member states phase out the use of high-risk suppliers within their critical national infrastructure.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/eu-unveils-new-plans-to-tackle-huawei-zte",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263435",
+    "date": "2026-01-21",
+    "title": "aiFWall Emerges from Stealth With an AI Firewall",
+    "summary": "aiFWall is a firewall protection for AI deployments built to use AI to improve its own performance. The post aiFWall Emerges from Stealth With an AI Firewall appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/aifwall-emerges-from-stealth-with-an-ai-firewall/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263436",
+    "date": "2026-01-21",
+    "title": "[Ekstra] Signal-grunnlegger med Chat GPT-konkurrent: Skal ivareta privatlivet",
+    "summary": "«Confer» skal minske bekymringene rundt de mest sensitive samtalene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/signal-grunnleggeren-med-chat-gpt-konkurrent-skal-ivareta-privatlivet/567225",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263437",
+    "date": "2026-01-21",
+    "title": "LastPass Users Targeted With Backup-Themed Phishing Emails",
+    "summary": "Threat actors may have wanted to take advantage of the holiday weekend in the United States to increase their chances of success. The post LastPass Users Targeted With Backup-Themed Phishing Emails appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/lastpass-users-targeted-with-backup-themed-phishing-emails/",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263438",
+    "date": "2026-01-21",
+    "title": "North Korean Hackers Target macOS Developers via Malicious VS Code Projects",
+    "summary": "The hackers trick victims into accessing GitHub or GitLab repositories that are opened using Visual Studio Code. The post North Korean Hackers Target macOS Developers via Malicious VS Code Projects appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/north-korean-hackers-target-macos-developers-via-malicious-vs-code-projects/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263439",
+    "date": "2026-01-21",
+    "title": "Why Identity Security Must Move Beyond MFA",
+    "summary": "By integrating identity threat detection with MFA, organizations can protect sensitive data, maintain operational continuity, and reduce risk exposure. The post Why Identity Security Must Move Beyond MFA appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/why-identity-security-must-move-beyond-mfa/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263440",
+    "date": "2026-01-21",
+    "title": "Anthropic quietly fixed flaws in its Git MCP server",
+    "summary": "Anthropic has fixed three bugs in its official Git MCP server that researchers say can be chained with other MCP tools to remotely execute malicious code or overwrite files via prompt injection. The Git MCP server, mcp-server-git, connects AI tools such as Copilot, Claude, and Cursor to Git repos...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/20/anthropic_prompt_injection_flaws/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263441",
+    "date": "2026-01-21",
+    "title": "MITRE Launches New Security Framework for Embedded Systems ",
+    "summary": "The Embedded Systems Threat Matrix (ESTM) aims to help organizations protect critical embedded systems. The post MITRE Launches New Security Framework for Embedded Systems appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/mitre-launches-new-security-framework-for-embedded-systems/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263442",
+    "date": "2026-01-21",
+    "title": "Amazon EC2 C8gn instances are now available in additional regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Region Asia Pacific (Mumbai), Africa (Cape Town), Europe (Ireland, London), Canada West (Calgary). The new instances provide up to 30% bett...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8gn-instances-additional-regions",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263443",
+    "date": "2026-01-21",
+    "title": "Amazon CloudWatch Database Insights on-demand analysis now available in four additional Regions",
+    "summary": "Amazon CloudWatch Database Insights expands the availability of its on-demand analysis experience to four additional Regions - Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). CloudWatch Database Insights is a monitoring and diagnostics solution th...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudwatch-database-insights-on-demand-analysis-available-additional-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263444",
+    "date": "2026-01-21",
+    "title": "UK Cyber Command Sounds Alarm As Russian-Aligned Hacktivists Escalate Attacks",
+    "summary": "The alert, released on 19 January by the National Cyber Security Centre (NCSC) — the British government's cybersecurity arm within GCHQ — paints a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/uk-cyber-command-sounds-alarm-russian-aligned-hacktivists-qibhe",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263445",
+    "date": "2026-01-21",
+    "title": "Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance",
+    "summary": "Amazon Elastic Container Registry (ECR) now enables you to share common image layers across repositories within a registry through a capability called blob mounting. This feature is especially valuable if you manage multiple microservices or applications built from common base images. With blob m...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263446",
+    "date": "2026-01-21",
+    "title": "Cybersecurity on the Health Care Front Lines Against AI and Ransomware | AHA",
+    "summary": "In this conversation, Larry Pierce, director of cybersecurity and information security officer for Atlantic Health, unpacks how the growth of AI is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aha.org/advancing-health-podcast/2026-01-21-cybersecurity-health-care-front-lines-against-ai-and-ransomware",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263447",
+    "date": "2026-01-21",
+    "title": "The NCSC and SIA put cybersecurity in the spotlight at Swissbau 2026 - Admin",
+    "summary": "2026 — The 2026 edition of Swissbau, the construction and real estate industry trade fair in Basel from 20 to 23 January, the National Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sbfi.admin.ch/en/newnsb/czUOJaavnbAKIA-BrzOWE",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263448",
+    "date": "2026-01-21",
+    "title": "Cybersecurity Governance Challenges Faced by Public Authorities | Onrec",
+    "summary": "This dependency comes with a need to secure private information and preserve public confidence. This presents several cybersecurity governance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://onrec.com/news/news-archive/cybersecurity-governance-challenges-faced-by-public-authorities",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263449",
+    "date": "2026-01-21",
+    "title": "AWS Transfer Family Terraform module now supports web apps",
+    "summary": "You can now use the AWS Transfer Family Terraform module to deploy Transfer Family web apps, which enable end users to transfer files to and from Amazon S3 over a web interface. This release streamlines centralized provisioning of web apps with federated authentication and user access controls, e...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263450",
+    "date": "2026-01-21",
+    "title": "China hits back at EU over cyber bill - POLITICO",
+    "summary": "... Cyber Espionage Cybersecurity ... Internet of Things Markets Network security Protectionism Security Supply chains Technology Telecoms Transport.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.eu/article/china-hit-back-eu-cyber-security-tech-bill/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263451",
+    "date": "2026-01-21",
+    "title": "Best Cybersecurity Newsletters Shortlist For 2026 - Cybercrime Magazine",
+    "summary": "Cybercrime Magazine for cybercrime trends (by us!) If you wake up and can't remember where to go for your daily dose of hacking, privacy and security, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/best-cybersecurity-newsletters-shortlist-for-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263452",
+    "date": "2026-01-21",
+    "title": "European Commission proposes revised Cybersecurity Act to boost EU cyber resilience ...",
+    "summary": "It ensures that products reaching EU citizens are cyber-secure by design through a simpler certification process. It also facilitates compliance with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/regulation-standards-and-compliance/european-commission-proposes-revised-cybersecurity-act-to-boost-eu-cyber-resilience-secure-ict-supply-chains/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263453",
+    "date": "2026-01-21",
+    "title": "Dispel rolls out Integrated Threat Monitoring for OT remote access as industrial attack ...",
+    "summary": "According to the SANS State of ICS/OT Security 2025 report, nearly half of OT cybersecurity incidents originate from unauthorized external access, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/dispel-rolls-out-integrated-threat-monitoring-for-ot-remote-access-as-industrial-attack-surfaces-expand/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263454",
+    "date": "2026-01-21",
+    "title": "The NCSC and SIA put cybersecurity in the spotlight at Swissbau 2026 - news.admin.ch",
+    "summary": "That is why the National Cyber Security Centre (NCSC) and the Swiss Society of Engineers and Architects (SIA) are jointly focusing on cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.admin.ch/en/newnsb/czUOJaavnbAKIA-BrzOWE",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263455",
+    "date": "2026-01-21",
+    "title": "Managed Security Services (MSS): Empowering Organizations with Next-Generation Cybersecurity",
+    "summary": "Why Managed Security Services Are No Longer Optional Cybersecurity has evolved from a back-office IT function into a boardroom-level business ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/01/managed-security-services-mss-empowering-organizations-with-next-generation-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263456",
+    "date": "2026-01-21",
+    "title": "Top 10: Construction Cybersecurity Solutions",
+    "summary": "Physical safety is often a main security concern within construction sites, meaning the threat of cyber risks goes unnoticed. As a result, vital data ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://constructiondigital.com/top10/top-10-construction-cybersecurity-solutions",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263457",
+    "date": "2026-01-21",
+    "title": "A new era of agents, a new era of posture ",
+    "summary": "The rise of AI Agents marks one of the most exciting shifts in technology today. Unlike traditional applications or cloud resources, these agents are not passive components- they reason, make decisions, invoke tools, and interact with other agents and systems on behalf of users. This autonomy bri...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/21/new-era-of-agents-new-era-of-posture/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263358",
     "date": "2026-01-21",
     "title": "Two Unique DHS Cyber Incidents Exposed 1M People’s Data",
