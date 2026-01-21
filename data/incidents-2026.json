@@ -1,5 +1,19 @@
 [
   {
+    "id": "20263251",
+    "date": "2026-01-21",
+    "title": "Establishing a Unified Legal Framework on Cybersecurity and Network Information Security ...",
+    "summary": "... cybersecurity and network information security in Vietnam. The Law on Cybersecurity will take effect from 1 July 2026. Key Features. Scope of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=adb68e91-15c9-4240-9039-d0ba28523190",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263231",
     "date": "2026-01-21",
     "title": "News alert: Forrester study finds Airlock Digital’s app control cuts breaches to zero with 224% ROI",
@@ -44,6 +58,439 @@
     "tags": [
       "ai-ml",
       "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263246",
+    "date": "2026-01-20",
+    "title": "HackerOne rolls out industry framework to support ‘good faith’ AI research",
+    "summary": "Four years ago, the Department of Justice announced it would no longer seek criminal charges against independent and third-party security researchers for “good faith” security research under the Computer Fraud and Abuse Act. Now, a prominent bug bounty platform is attempting to build a framework ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/hackerone-industry-framework-good-faith-ai-research/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263247",
+    "date": "2026-01-20",
+    "title": "EU Plans Phase Out of High Risk Telecom Suppliers, in Proposals Seen as Targeting China",
+    "summary": "Under the new rules, measures for 5G cybersecurity would become mandatory. The post EU Plans Phase Out of High Risk Telecom Suppliers, in Proposals Seen as Targeting China appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/eu-plans-phase-out-of-high-risk-telecom-suppliers-in-proposals-seen-as-targeting-china/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263248",
+    "date": "2026-01-20",
+    "title": "Supreme Court to consider whether geofence warrants are constitutional",
+    "summary": "The Supreme Court agreed to hear a case challenging the constitutionality of geofence warrants, which let law enforcement compel companies to provide the location data of cell phones at specific times and places.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/supreme-court-geofence-constitutionality",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263249",
+    "date": "2026-01-20",
+    "title": "North Korea-Linked Hackers Target Developers via Malicious VS Code Projects",
+    "summary": "The North Korean threat actors associated with the long-running Contagious Interview campaign have been observed using malicious Microsoft Visual Studio Code (VS Code) projects as lures to deliver a backdoor on compromised endpoints. The latest finding demonstrates continued evolution of the new ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/north-korea-linked-hackers-target.html",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263250",
+    "date": "2026-01-20",
+    "title": "Congressional appropriators move to extend information-sharing law, fund CISA",
+    "summary": "Congressional appropriators announced funding legislation this week that extends an expiring cyber threat information-sharing law and provides $2.6 billion for the Cybersecurity and Infrastructure Security Agency (CISA), including money for election security and directives on staffing levels. The...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/congressional-appropriators-move-to-extend-information-sharing-law-fund-cisa/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263252",
+    "date": "2026-01-20",
+    "title": "SageMaker Unified Studio adds support for cross-Region and IAM role-based subscriptions",
+    "summary": "Amazon SageMaker Unified Studio now supports cross-Region subscriptions and IAM role-based subscriptions for simple and flexible data access and governance. With cross-Region support, you can subscribe to AWS Glue tables and views, as well as Amazon Redshift tables and views published in a differ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263253",
+    "date": "2026-01-20",
+    "title": "Amazon Aurora and RDS for PostgreSQL, MySQL and MariaDB now support r8g, r7g, and r7i database instances in additional AWS Regions",
+    "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in additional Asia Pacific regions (Hong Kong, Osaka, and Jakarta). R8G instances are now supported for Amazon Aurora wit...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-aurora-rds-r8g-r7g-r7i-instances-additional-regions/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263254",
+    "date": "2026-01-20",
+    "title": "Amazon Corretto January 2026 Quarterly Updates",
+    "summary": "On January 20, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 25.0.2, 21.0.10, 17.0.18, 11.0.30, and 8u482 are now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready dist...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-corretto-january-2026-quarterly-updates",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263255",
+    "date": "2026-01-20",
+    "title": "Cybersecurity Predictions for 2026 Signal the Maturation of Risk-First Security Models",
+    "summary": "Explore the top cybersecurity predictions for 2026, from attack-path modeling and CTEM to AI threat hunting and the evolution of cyber insurance.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blog.qualys.com/qualys-insights/2026/01/20/cybersecurity-predictions-2026-risk-first-security",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263256",
+    "date": "2026-01-20",
+    "title": "Cybersecurity Tip of the Week: Security Fatigue is Real – and Dangerous - UTHSC News",
+    "summary": "With constant emails, alerts, deadlines, and system notifications, it's easy to feel overwhelmed and click through messages without thinking. Scammers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.uthsc.edu/announcements/cybersecurity-tip-of-the-week-security-fatigue-is-real-and-dangerous/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263257",
+    "date": "2026-01-20",
+    "title": "Gemini flaw exposes calendar info, hacker admits to Supreme Court data leak, researchers ...",
+    "summary": "Security firm Resecurity says it uses a fake PDF24 executable to evade AV and EDR, runs commands in memory over an AES-encrypted C2 channel, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-gemini-prompt-injection-flaw-exposes-calendar-info-hacker-admits-to-supreme-court-data-leak-researchers-uncover-pdfsider-malware/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263258",
+    "date": "2026-01-20",
+    "title": "Amazon RDS Blue/Green Deployments reduces downtime to under five seconds",
+    "summary": "Amazon Relational Database Service (Amazon RDS) now supports faster Blue/Green Deployments switchover, reducing your primary database, or writer node, upgrade downtime to typically five seconds or lower for single-Region configurations. Blue/Green Deployment creates a staging environment (Green) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263259",
+    "date": "2026-01-20",
+    "title": "Amazon EC2 G7e instances are now generally available",
+    "summary": "Today, Amazon announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7e instances, accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs. G7e instances offer up to 2.3x inference performance compared to G6e. Customers can use G7e instances to deploy large lang...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-g7e-instances-generally-available",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263260",
+    "date": "2026-01-20",
+    "title": "Amazon EVS now supports VCF and VMware ESX software version selection",
+    "summary": "Amazon Elastic VMware Service (Amazon EVS) now supports the ability to specify supported combinations of VMware Cloud Foundation (VCF) and ESX software versions when setting up your EVS environments and hosts. Amazon EVS lets you run VCF natively within your Amazon Virtual Private Cloud (VPC), po...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263261",
+    "date": "2026-01-20",
+    "title": "ARPA-H funds digital twin tech for healthcare cybersecurity",
+    "summary": "Health IT security teams use digital twins to map exposures, trace likely attack paths and focus on network systems with the greatest risks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.healthcareitnews.com/news/arpa-h-funds-digital-twin-tech-healthcare-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263262",
+    "date": "2026-01-20",
+    "title": "AWS expands managed integrations for AWS IoT Device Management service coverage to the Middle East (UAE) region",
+    "summary": "AWS IoT Device Management now offers the managed integrations feature in the Middle East (UAE) region. Organizations operating in this region can now better serve their local customers, helping them build unified Internet of Things (IoT) solutions that can easily onboard and manage diverse IoT de...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/managed-integrations-iot-device-coverage-uae/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263263",
+    "date": "2026-01-20",
+    "title": "Amazon RDS for Oracle extends support for bare metal instances to Standard Edition 2",
+    "summary": "Amazon RDS for Oracle now supports bare metal instances with Bring Your Own License (BYOL) license for Oracle Standard Edition 2. You can use M7i, R7i, X2iedn, X2idn, X2iezn, M6i, M6id, M6in, R6i, R6id, and R6in bare metal instances at 25% lower price compared to equivalent virtualized instances....",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-oracle-support-bare-metal-instances-standard-edition-2",
+    "tags": [
+      "amazon",
+      "meta",
+      "oracle",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263264",
+    "date": "2026-01-20",
+    "title": "Amazon Quick Suite launches expanded size, faster ingestion, and richer data type support for SPICE datasets",
+    "summary": "Amazon Quick Suite SPICE engine is now supporting higher scale, faster ingestion, and broader data types to power advanced analytics and AI-driven workloads. With this launch, customers can load up to 2TB of data per dataset, doubling the previous 1TB limit, when using the new data preparation ex...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quick-suite-launches-expanded-spice",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263265",
+    "date": "2026-01-20",
+    "title": "Amazon Bedrock Reserved Tier available now for Claude Opus 4.5 and Haiku 4.5",
+    "summary": "Today, Amazon Bedrock announces the expansion of the Reserved service tier designed for workloads requiring predictable performance and guaranteed tokens-per-minute capacity. The Reserved tier provides the ability to reserve prioritized compute capacity, keeping service levels predictable for you...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-claude-opus-haiku/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263266",
+    "date": "2026-01-20",
+    "title": "Cyber security demands accountability beyond IT - HR Leader",
+    "summary": "When a breach occurs, the difference between minor disruption and major fallout often comes down to how well-prepared the whole organisation is, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hrleader.com.au/business/27730-cybersecurity-demands-accountability-beyond-it",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263267",
+    "date": "2026-01-20",
+    "title": "FTC To Hold Age Verification Workshop on January 28, 2026 - Hunton Andrews Kurth LLP",
+    "summary": "Privacy & Information Security Law Blog. Global Privacy and ... Cyber Attack, Cybersecurity, Cybersecurity and Infrastructure Security Agency ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/ftc-to-hold-age-verification-workshop-on-january-28-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263268",
+    "date": "2026-01-20",
+    "title": "10 Defining Moments in Space and Cybersecurity in 2025 | January/February 2026",
+    "summary": "Ukraine Confirms Russia Space Cyber Attack. Russia's invasion of Ukraine has been going on almost four years and a key element of this war has been ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://interactive.satellitetoday.com/via/january-february-2026/10-defining-moments-in-space-and-cybersecurity-in-2025",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263269",
+    "date": "2026-01-20",
+    "title": "Sophos Expands Portfolio with Workspace Protection to Secure Hybrid Work and Govern ...",
+    "summary": "Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sophos.com/press/press-releases/2026/01/sophos-workspace-protection",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263270",
+    "date": "2026-01-20",
+    "title": "AWS Glue is now available in Asia Pacific (New Zealand) Region",
+    "summary": "AWS Glue is now available in the Asia Pacific (New Zealand) Region, enabling customers to build and run their ETL workloads closer to their data sources in this region. AWS Glue is a serverless data integration service that makes it simple to discover, prepare, and combine data for analytics, mac...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-glue-available-new-zealand-region",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263271",
+    "date": "2026-01-20",
+    "title": "WEF: Financial Services Must Look to AI for Cybersecurity | Cyber Magazine",
+    "summary": "The survey of 804 leaders, including 316 Chief Information Security Officers, 105 CEOs and 123 other C-level executives including Chief Risk Officers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/world-economic-forum-how-financial-services-lag-on-cyber",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263272",
+    "date": "2026-01-20",
+    "title": "How AI & IT/OT convergence shift OT cybersecurity - IoT Analytics",
+    "summary": "5 key OT cybersecurity trends: How IT/OT convergence and AI are changing security architectures, from zero trust to hybrid security models.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://iot-analytics.com/ot-cybersecurity-trends-ai-it-ot-convergence/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263273",
+    "date": "2026-01-20",
+    "title": "Four priorities for AI-powered identity and network access security in 2026 - Microsoft",
+    "summary": "But even so, the cybersecurity race only continues to intensify. AI has quickly become a powerful tool misused by threat actors, who use it to slip ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/20/four-priorities-for-ai-powered-identity-and-network-access-security-in-2026/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263274",
+    "date": "2026-01-20",
+    "title": "Proposal for a Regulation for the EU Cybersecurity Act | Shaping Europe's digital future",
+    "summary": "It also enhances the security of the EU's Information and Communication Technologies (ICT) supply chains. It ensures that products reaching EU ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263275",
+    "date": "2026-01-20",
+    "title": "Weaponized AI: Inside The Criminal Ecosystem Fueling The Fifth Wave of Cybercrime",
+    "summary": "Group-IB delivers comprehensive protection against modern cybercrime through an intelligence-led security ecosystem built on deep adversary insight ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/resources/research-hub/weaponized-ai/",
+    "tags": [
+      "Data/IT"
     ],
     "impact": 3
   },
