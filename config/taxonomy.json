@@ -1,0 +1,339 @@
+{
+  "version": "1.0",
+  "description": "Single Source of Truth for all CyberNews definitions - ensures consistency across the entire system",
+  "last_updated": "2026-01-21",
+  
+  "contentTypes": {
+    "incident": {
+      "label": "Incident",
+      "description": "Actual breach, attack, or compromise event",
+      "icon": "🔴"
+    },
+    "article": {
+      "label": "Article",
+      "description": "General cybersecurity news article",
+      "icon": "📰"
+    },
+    "vulnerability": {
+      "label": "Vulnerability",
+      "description": "CVE, zero-day, or security vulnerability disclosure",
+      "icon": "🔓"
+    },
+    "policy": {
+      "label": "Policy",
+      "description": "Regulatory, compliance, or policy announcement",
+      "icon": "📋"
+    },
+    "opinion": {
+      "label": "Opinion",
+      "description": "Editorial or opinion piece",
+      "icon": "💭"
+    },
+    "research": {
+      "label": "Research",
+      "description": "Security research, study, or whitepaper",
+      "icon": "🔬"
+    }
+  },
+
+  "severityLevels": {
+    "critical": {
+      "label": "Critical",
+      "range": [80, 100],
+      "color": "#dc2626",
+      "icon": "🔴",
+      "description": "Severe impact, widespread consequences, immediate action required"
+    },
+    "high": {
+      "label": "High",
+      "range": [60, 79],
+      "color": "#ea580c",
+      "icon": "🟠",
+      "description": "Significant impact, prioritized response needed"
+    },
+    "moderate": {
+      "label": "Moderate",
+      "range": [25, 59],
+      "color": "#f59e0b",
+      "icon": "🟡",
+      "description": "Moderate impact, standard response procedures"
+    },
+    "low": {
+      "label": "Low",
+      "range": [0, 24],
+      "color": "#84cc16",
+      "icon": "🟢",
+      "description": "Minor impact, low priority"
+    }
+  },
+
+  "attributionLevels": {
+    "high": {
+      "label": "High Confidence",
+      "description": "Multiple sources, strong technical evidence, confirmed by authorities",
+      "weight": 1.0,
+      "icon": "✅"
+    },
+    "medium": {
+      "label": "Medium Confidence",
+      "description": "Single source or circumstantial evidence, not officially confirmed",
+      "weight": 0.5,
+      "icon": "⚠️"
+    },
+    "low": {
+      "label": "Low Confidence",
+      "description": "Speculation or unverified reports",
+      "weight": 0.2,
+      "icon": "❓"
+    }
+  },
+
+  "actorTypes": {
+    "nation-state": {
+      "label": "Nation-State",
+      "description": "State-sponsored advanced persistent threat groups",
+      "icon": "🏛️",
+      "examples": ["APT28", "APT29", "Lazarus Group"]
+    },
+    "cybercriminal": {
+      "label": "Cybercriminal",
+      "description": "Financially motivated criminal organizations",
+      "icon": "💰",
+      "examples": ["LockBit", "ALPHV/BlackCat", "Conti"]
+    },
+    "hacktivist": {
+      "label": "Hacktivist",
+      "description": "Ideologically or politically motivated actors",
+      "icon": "✊",
+      "examples": ["Anonymous", "Killnet"]
+    },
+    "insider": {
+      "label": "Insider Threat",
+      "description": "Malicious or negligent insiders",
+      "icon": "👤"
+    },
+    "unknown": {
+      "label": "Unknown",
+      "description": "Attribution not determined",
+      "icon": "❓"
+    }
+  },
+
+  "attackTypes": {
+    "ransomware": {
+      "label": "Ransomware",
+      "mitre_techniques": ["T1486", "T1490"],
+      "keywords": ["ransomware", "encryption", "ransom", "extortion"]
+    },
+    "phishing": {
+      "label": "Phishing",
+      "mitre_techniques": ["T1566"],
+      "keywords": ["phishing", "spearphishing", "smishing", "vishing", "credential harvesting"],
+      "variants": ["spearphishing", "smishing", "vishing", "whaling", "quishing"]
+    },
+    "data-breach": {
+      "label": "Data Breach",
+      "mitre_techniques": ["T1567", "T1041"],
+      "keywords": ["data breach", "data leak", "exfiltration", "stolen data"]
+    },
+    "ddos": {
+      "label": "DDoS",
+      "mitre_techniques": ["T1498", "T1499"],
+      "keywords": ["DDoS", "denial of service", "botnet"]
+    },
+    "supply-chain": {
+      "label": "Supply Chain Attack",
+      "mitre_techniques": ["T1195"],
+      "keywords": ["supply chain", "third-party", "vendor compromise"]
+    },
+    "zero-day": {
+      "label": "Zero-Day Exploit",
+      "mitre_techniques": ["T1190"],
+      "keywords": ["zero-day", "0-day", "exploit in the wild"]
+    },
+    "malware": {
+      "label": "Malware",
+      "mitre_techniques": ["T1204", "T1106"],
+      "keywords": ["malware", "trojan", "backdoor", "RAT"]
+    },
+    "credential-theft": {
+      "label": "Credential Theft",
+      "mitre_techniques": ["T1078", "T1552"],
+      "keywords": ["credential", "password", "token", "stolen credentials"]
+    }
+  },
+
+  "sectors": {
+    "finance": {
+      "label": "Finance & Banking",
+      "icon": "🏦",
+      "keywords": ["bank", "financial", "fintech", "crypto exchange", "payment"]
+    },
+    "healthcare": {
+      "label": "Healthcare",
+      "icon": "🏥",
+      "keywords": ["hospital", "healthcare", "medical", "health system", "clinic"]
+    },
+    "government": {
+      "label": "Government",
+      "icon": "🏛️",
+      "keywords": ["government", "federal", "state agency", "municipality", "public sector"]
+    },
+    "energy": {
+      "label": "Energy & Utilities",
+      "icon": "⚡",
+      "keywords": ["energy", "power grid", "utility", "oil", "gas", "nuclear"]
+    },
+    "technology": {
+      "label": "Technology",
+      "icon": "💻",
+      "keywords": ["tech company", "software", "SaaS", "cloud provider", "IT services"]
+    },
+    "retail": {
+      "label": "Retail & E-commerce",
+      "icon": "🛒",
+      "keywords": ["retail", "e-commerce", "online store", "shopping"]
+    },
+    "education": {
+      "label": "Education",
+      "icon": "🎓",
+      "keywords": ["university", "college", "school", "education"]
+    },
+    "manufacturing": {
+      "label": "Manufacturing",
+      "icon": "🏭",
+      "keywords": ["manufacturing", "factory", "industrial", "production"]
+    },
+    "telecommunications": {
+      "label": "Telecommunications",
+      "icon": "📡",
+      "keywords": ["telecom", "mobile carrier", "ISP", "network provider"]
+    },
+    "transportation": {
+      "label": "Transportation",
+      "icon": "✈️",
+      "keywords": ["airline", "airport", "transportation", "logistics", "shipping"]
+    }
+  },
+
+  "strategicThemes": {
+    "cloud-exfiltration": {
+      "id": "cloud-exfiltration",
+      "label": "Cloud Exfiltration & SaaS Abuse",
+      "icon": "☁️",
+      "description": "Data theft via cloud services and SaaS platforms"
+    },
+    "exploit-led": {
+      "id": "exploit-led",
+      "label": "Exploit-Led Intrusions",
+      "icon": "🔓",
+      "description": "Initial access through vulnerability exploitation"
+    },
+    "identity-abuse": {
+      "id": "identity-abuse",
+      "label": "Identity & Token Abuse",
+      "icon": "🔑",
+      "description": "Credential theft and authentication bypass"
+    },
+    "ransomware": {
+      "id": "ransomware",
+      "label": "Ransomware & Extortion Economy",
+      "icon": "💰",
+      "description": "Ransomware attacks and double extortion tactics"
+    },
+    "supply-chain": {
+      "id": "supply-chain",
+      "label": "Supply Chain & Third-Party Compromise",
+      "icon": "🔗",
+      "description": "Attacks via trusted vendors and software supply chain"
+    },
+    "disinformation": {
+      "id": "disinformation",
+      "label": "Disinformation & Deepfakes",
+      "icon": "🎭",
+      "description": "Fake content and information manipulation"
+    },
+    "botnets": {
+      "id": "botnets",
+      "label": "Botnets, DDoS & Commodity Malware",
+      "icon": "🤖",
+      "description": "Large-scale automated attacks and commodity malware"
+    },
+    "mobile-spyware": {
+      "id": "mobile-spyware",
+      "label": "Mobile/Android & Spyware Ecosystem",
+      "icon": "📱",
+      "description": "Mobile device targeting and surveillance"
+    },
+    "ot-ics": {
+      "id": "ot-ics",
+      "label": "OT/ICS & Critical Infrastructure",
+      "icon": "⚙️",
+      "description": "Industrial control systems and critical infrastructure"
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "label": "Regulatory & Disclosure Pressure",
+      "icon": "📋",
+      "description": "Compliance requirements and mandatory disclosure"
+    }
+  },
+
+  "regions": {
+    "US": {
+      "label": "United States",
+      "icon": "🇺🇸",
+      "description": "North America region"
+    },
+    "EU": {
+      "label": "Europe",
+      "icon": "🇪🇺",
+      "description": "European region"
+    },
+    "ASIA": {
+      "label": "Asia",
+      "icon": "🌏",
+      "description": "Asia-Pacific region"
+    },
+    "NO": {
+      "label": "Norway",
+      "icon": "🇳🇴",
+      "description": "Norway specific incidents"
+    }
+  },
+
+  "mitreAttackFramework": {
+    "tactics": {
+      "initial-access": "Initial Access",
+      "execution": "Execution",
+      "persistence": "Persistence",
+      "privilege-escalation": "Privilege Escalation",
+      "defense-evasion": "Defense Evasion",
+      "credential-access": "Credential Access",
+      "discovery": "Discovery",
+      "lateral-movement": "Lateral Movement",
+      "collection": "Collection",
+      "command-and-control": "Command and Control",
+      "exfiltration": "Exfiltration",
+      "impact": "Impact"
+    }
+  },
+
+  "dataQualityMetrics": {
+    "curated": {
+      "label": "Curated",
+      "description": "High-quality enrichment with multi-signal validation",
+      "criteria": [
+        "Multiple enrichment signals present",
+        "Verified MITRE mapping",
+        "Confirmed severity scoring",
+        "Quality source"
+      ]
+    },
+    "confidence_weights": {
+      "high": 1.0,
+      "medium": 0.5,
+      "low": 0.2
+    }
+  }
+}

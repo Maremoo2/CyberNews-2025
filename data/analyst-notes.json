@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "description": "Analyst notes - manual contextual notes per incident, cluster, trend, or month",
+  "last_updated": "2026-01-21",
+  
+  "incidentNotes": {},
+  
+  "clusterNotes": {},
+  
+  "trendNotes": {},
+  
+  "monthlyNotes": {
+    "2026-01": {
+      "note": "Strong start to 2026 with increased phishing campaigns targeting financial sector. Several incidents appear related to same initial access via VPN vulnerabilities.",
+      "author": "System",
+      "created_at": "2026-01-21T14:20:00Z",
+      "tags": ["phishing", "vpn", "financial-sector"]
+    }
+  },
+  
+  "metadata": {
+    "total_notes": 1,
+    "last_note_added": "2026-01-21T14:20:00Z"
+  }
+}

@@ -1,0 +1,236 @@
+.global-filter-bar {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 80px;
+  z-index: 100;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-bar-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-icon {
+  font-size: 24px;
+}
+
+.filter-bar-title h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.active-filter-badge {
+  background: #3b82f6;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.filter-bar-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.reset-button,
+.expand-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.reset-button:hover:not(:disabled),
+.expand-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.reset-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filter-bar-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.filter-bar-content.collapsed {
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+}
+
+.filter-bar-content.expanded {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e2e8f0;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.filter-label-icon {
+  font-size: 16px;
+}
+
+.filter-select,
+.filter-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-select:hover,
+.filter-input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-select:focus,
+.filter-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.filter-select option {
+  background: #1e293b;
+  color: white;
+  padding: 8px;
+}
+
+.date-range-group {
+  grid-column: span 2;
+}
+
+.date-range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-separator {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.active-filters-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+
+.summary-label {
+  color: #94a3b8;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.filter-chip {
+  background: rgba(59, 130, 246, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-chip button {
+  background: none;
+  border: none;
+  color: #93c5fd;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  transition: color 0.2s;
+}
+
+.filter-chip button:hover {
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .filter-bar-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .date-range-group {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .global-filter-bar {
+    position: relative;
+    top: 0;
+  }
+  
+  .filter-bar-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .date-range-group {
+    grid-column: span 1;
+  }
+  
+  .date-range-inputs {
+    flex-direction: column;
+  }
+  
+  .active-filters-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
