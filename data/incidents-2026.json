@@ -1,5 +1,656 @@
 [
   {
+    "id": "20263358",
+    "date": "2026-01-21",
+    "title": "Two Unique DHS Cyber Incidents Exposed 1M People’s Data",
+    "summary": "Within two weeks of each other, two separate states have announced data security incidents.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102089-two-unique-dhs-cyber-incidents-exposed-1m-peoples-data",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263359",
+    "date": "2026-01-21",
+    "title": "Virus et menaces en ligne : voici les 4 promos antivirus à connaître en ce début d'année",
+    "summary": "Nouvelle année, nouveaux usages… et malheureusement toujours les mêmes menaces en ligne. Virus, ransomwares, tentatives de phishing ou vols de données continuent de viser aussi bien les PC que les Mac. La bonne nouvelle, c’est qu’en ce début d’année, plusieurs solutions antivirus de référence son...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596479-virus-et-menaces-en-ligne-voici-les-4-promos-antivirus-a-connaitre-en-ce-debut-d-annee.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263360",
+    "date": "2026-01-21",
+    "title": "USB et clés piégées : pourquoi interdire les supports amovibles ?",
+    "summary": "Dans votre entreprise, tout le monde fait circuler des clés USB d'un poste à l'autre sans et d'un endroit à un autre sans que personne ne se méfie de ce petit objet banal par lequel les cybercriminels infiltrent vos systèmes et lancent des attaques dévastatrices.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/dossier-594712-usb-et-cles-piegees-pourquoi-interdire-les-supports-amovibles.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263361",
+    "date": "2026-01-21",
+    "title": "Avec VoidLink, l’IA franchit un cap dans le développement des malwares, et ce n’est pas bon signe",
+    "summary": "Une semaine après la publication de son premier rapport sur VoidLink, Check Point fait état de nouveaux éléments inquiétants. Des erreurs opérationnelles auraient exposé la manière dont le framework a été conçu, révélant un développement largement assisté par intelligence artificielle.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596371-avec-voidlink-l-ia-franchit-un-cap-dans-le-developpement-des-malwares-et-ce-n-est-pas-bon-signe.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263362",
+    "date": "2026-01-21",
+    "title": "Le mondialement connu NordVPN est soldé (et cela ne va pas durer)",
+    "summary": "Alors que les soldes d’hiver battent leur plein, NordVPN, l’un des VPN les plus reconnus au monde, propose une offre particulièrement intéressante pour sécuriser votre navigation et protéger vos données personnelles en ligne",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596425-le-tres-connu-nordvpn-est-solde-et-cela-ne-va-pas-durer.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263363",
+    "date": "2026-01-21",
+    "title": "Le Danemark a peur de l'espionnage américain : il ordonne la désactivation du Bluetooth dans ses rangs",
+    "summary": "Au regard des tensions géopolitiques avec les États-Unis, le Danemark ordonne la désactivation du Bluetooth dans ses administrations. Une mesure drastique pour contrer les risques d'espionnage.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596383-le-danemark-a-peur-de-l-espionnage-americain-il-ordonne-la-desactivation-du-bluetooth-dans-ses-rangs.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263364",
+    "date": "2026-01-21",
+    "title": "Hacktivists Became More Dangerous in 2025",
+    "summary": "Hacktivists became significantly more dangerous in 2025, moving beyond their traditional DDoS attacks and website defacements to target critical infrastructure and ransomware attacks. That’s one of the conclusions of a new blog post from Cyble adapted from the threat intelligence company’s 2025 T...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/hacktivists-became-more-dangerous-in-2025/",
+    "tags": [
+      "ransomware",
+      "ddos",
+      "apt",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263365",
+    "date": "2026-01-21",
+    "title": "Critical Vulnerability in Advanced Custom Fields: Extended Plugin Puts 100,000 WordPress Sites at Risk",
+    "summary": "A critical security flaw has been discovered in a widely used ACF add-on plugin for WordPress, placing up to 100,000 websites at risk of a full site takeover. The vulnerability affects the Advanced Custom Fields: Extended plugin, an add-on designed to extend the functionality of the popular Advan...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/acf-add-on-vulnerability-wordpress/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263366",
+    "date": "2026-01-21",
+    "title": "CFOs, CISOs clash over cybersecurity spending as threats mount: Expel",
+    "summary": "Four in 10 finance leaders said quantified risk reduction would make it easier to justify a cybersecurity spending hike.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cfos-cisos-clash-cybersecurity-spending-expel/810091/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263367",
+    "date": "2026-01-21",
+    "title": "LastPass warns backup request is phishing campaign in disguise",
+    "summary": "The company said customers were sent deceptive emails over the holiday weekend claiming the company was doing maintenance.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/backup-request-phishing-campaign-lastpass/810083/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263368",
+    "date": "2026-01-21",
+    "title": "Tesla, Sony, Alpine hacked on the first day of Pwn2Own Automotive 2026",
+    "summary": "The first day of Pwn2Own Automotive 2026 has concluded with security researchers earning $516,500 in rewards for discovering 37 unique zero-day vulnerabilities across a range of modern automotive systems. The Munich-based team Fuzzware.io emerged as the early frontrunner in the “Master of Pwn” co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/tesla-sony-alpine-hacked-on-the-first-day-of-pwn2own-automotive-2026/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263369",
+    "date": "2026-01-21",
+    "title": "Russia developing new AI system to detect and block VPN traffic",
+    "summary": "Roskomnadzor (RKN), Russia’s federal internet regulator, plans to deploy machine learning technologies to enhance its ability to detect and block VPN traffic at the national level. The initiative, outlined in the agency’s 2026 digital transformation plan, signals a strategic pivot toward algorith...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/russia-developing-new-ai-system-to-detect-and-block-vpn-traffic/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263370",
+    "date": "2026-01-21",
+    "title": "Check Point Exposure Management unifies threat intelligence, context, and remediation",
+    "summary": "Check Point announced Check Point Exposure Management, a new approach designed to help organizations defend against attacks by turning fragmented exposure data into prioritized, actionable, and safe remediation. Exposure Management delivers real-time situational awareness by unifying threat intel...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/check-point-exposure-management/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263371",
+    "date": "2026-01-21",
+    "title": "Cohesity enhances identity resilience with ITDR capabilities",
+    "summary": "Cohesity has unveiled Identity Threat Detection and Response (ITDR) capabilities that expand its Identity Resilience portfolio, providing a more comprehensive approach to securing and recovering critical identity systems such as Active Directory (AD) and Microsoft Entra ID. Identity is foundation...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/cohesity-itdr/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263372",
+    "date": "2026-01-21",
+    "title": "EU tightens cybersecurity rules for tech supply chains",
+    "summary": "The European Commission has proposed a new cybersecurity package aimed at strengthening the EU’s cyber resilience, including a revised EU Cybersecurity Act designed to secure ICT supply chains and ensure products reaching EU citizens are secure by design through a streamlined certification proces...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/eu-cybersecurity-act-revised/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263373",
+    "date": "2026-01-21",
+    "title": "Vectra AI helps organizations prevent AI-powered cyberattacks",
+    "summary": "Vectra AI launched the next generation of its flagship platform, purpose-built to protect the AI enterprise by delivering preemptive security and proactive defense against AI-powered cyberattacks. As enterprises embed AI across applications and infrastructure, they are becoming AI enterprises: al...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/vectra-ai-platform-cyberattacks-defense/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263374",
+    "date": "2026-01-21",
+    "title": "Rust package registry adds security tools and metrics to crates.io",
+    "summary": "The Rust project updated crates.io to include a Security tab on individual crate pages. The tab shows security advisories drawn from the RustSec database and lists which versions of a crate may have known issues. This change gives developers a way to view advisory information before selecting a c...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/rust-crates-io-security-update/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263375",
+    "date": "2026-01-21",
+    "title": "OpenAI adds age prediction to ChatGPT to strengthen teen safety",
+    "summary": "OpenAI is rolling out age prediction on ChatGPT consumer plans to help determine whether an account likely belongs to someone under 18. Age prediction builds on protections already in place. ChatGPT relies on an age prediction model that evaluates behavioral and account level signals. These inclu...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/chatgpt-age-prediction-teen-safety/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263376",
+    "date": "2026-01-21",
+    "title": "RansomHub claims alleged breach of Apple partner Luxshare",
+    "summary": "Chinese electronic manufacturer and Apple partner Luxshare Precision Industry has allegedly been breached by affiliates of the RansomHub ransomware-as-a-service outfit. Luxshare is one of the primary assemblers of Apple’s wireless earbuds, iPhones, and Vision Pro devices, as well as a producer of...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/luxshare-data-breach-apple-ransomhub/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263377",
+    "date": "2026-01-21",
+    "title": "GNU InetUtils Telnetd Flaw Lets Attackers Log In as Root",
+    "summary": "A researcher found a vulnerability in GNU InetUtils telnetd that could let remote attackers gain root access without a password, putting any exposed Telnet service at risk of full system compromise. The flaw requires no user interaction and can be exploited over the network with a crafted login r...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/gnu-inetutils-telnetd-flaw-lets-attackers-log-in-as-root/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263378",
+    "date": "2026-01-21",
+    "title": "Oracle WebLogic Proxy Bug Enables Unauthenticated Remote Compromise",
+    "summary": "Oracle is recommending customers patch a vulnerability in its Fusion Middleware stack that could let remote attackers compromise exposed systems through the WebLogic proxy layer. The flaw affects proxy components that route web traffic to backend WebLogic servers, putting internet-facing and DMZ ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/oracle-weblogic-proxy-bug-enables-unauthenticated-remote-compromise/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "oracle"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263379",
+    "date": "2026-01-21",
+    "title": "LinkedIn Phishing Abuses DLL Sideloading for Persistent Access ",
+    "summary": "Threat actors are increasingly using LinkedIn messages — not just email — to trick employees into running malware. ReliaQuest researchers recently analyzed a campaign that shows how quickly social media phishing can escalate into full endpoint compromise. The attack uses a weaponized download del...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/linkedin-phishing-abuses-dll-sideloading-for-persistent-access/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263380",
+    "date": "2026-01-21",
+    "title": "Azure DNS Behavior Can Turn Private Endpoints Into DoS Risks",
+    "summary": "A subtle design limitation in Microsoft Azure’s Private Endpoint implementation is creating an unexpected denial-of-service (DoS) risk for cloud environments that rely heavily on Private Link for secure connectivity. Azure’s DNS behavior with Private Endpoints and Private DNS zones across multipl...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/azure-dns-behavior-can-turn-private-endpoints-into-dos-risks/",
+    "tags": [
+      "cloud",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263381",
+    "date": "2026-01-21",
+    "title": "These 10 massive outages prove just how easily the internet can go dark",
+    "summary": "Internet outages are incredibly disruptive in our modern world. We don’t realize just how much is actually connected until everything goes down. While massive outages are uncommon, they do happen—here are 10 of the worst.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/biggest-internet-outages-in-history/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20263382",
+    "date": "2026-01-21",
+    "title": "Retail LMS Software: Transforming Customer Service Through Continuous Learning",
+    "summary": "In this post, I will talk about retail LMS software. Also, I will address transforming customer service through continuous learning. Customer service is everything in retail today. The landscape has changed. Competition is no longer just about price or product. It is about the experience you prov...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/retail-lms-software/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263383",
+    "date": "2026-01-21",
+    "title": "Casino Stream Chats Now Double as Tech Support",
+    "summary": "In this post, I will talk about how casino stream chats now double as tech support So once you have the basic idea of casino streaming in place, the surprising twist is how often it turns into a help desk on the fly. In the corner of a Twitch window, people are no longer just […] The post Casino ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/casino-stream-chats-as-tech-support/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263386",
+    "date": "2026-01-21",
+    "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
+    "summary": "Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. Our mission is to keep you informed with the most pressing developments in the world of cybersecurity. This digest serves as your gateway to critical updates and emerging threats across the industry. This week’s headlines highlight the growing sec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://www.canarytrap.com/cyber-roundup-january-21/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20263387",
+    "date": "2026-01-21",
+    "title": "EU reviews cybersecurity to limit danger from high-risk suppliers",
+    "summary": "The European Commission has presented a new cybersecurity package to strengthen the European Union’s resilience to increasing cyber and hybrid attacks from state and criminal actors. The key is to reduce risks from high-risk suppliers outside the EU, especially in critical infrastructure such as ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120006/eu-reviews-cybersecurity-wants-to-reduce-risks-from-high-risk-suppliers.html",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263388",
+    "date": "2026-01-21",
+    "title": "Contagious Interview turns VS Code into an attack vector",
+    "summary": "Threat actors behind the long-running Contagious Interview campaign were seen expanding from traditional social-engineering lures to the abuse of Microsoft Visual Studio Code (VS Code) as an execution and persistence mechanism. According to new findings from Jamf Threat Labs, the actors are embed...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119927/contagious-interview-turns-vs-code-into-an-attack-vector.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263389",
+    "date": "2026-01-21",
+    "title": "Complex VoidLink Linux Malware Created by AI",
+    "summary": "Researchers say the advanced framework was built almost entirely by agents, marking a significant evolution in the use of AI to develop wholly original malware.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/voidlink-linux-malware-ai",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263390",
+    "date": "2026-01-21",
+    "title": "'Damn Vulnerable' Training Apps Leave Vendors' Clouds Exposed",
+    "summary": "Hackers are already leveraging these over-permissioned programs to access the IT systems of major security vendors.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/vulnerable-vendors-training-apps",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263391",
+    "date": "2026-01-21",
+    "title": "Phishing and Spoofed Sites Remain Primary Entry Points For Olympics",
+    "summary": "Cyber risks for the Milano-Cortina 2026 Winter Games include phishing and spoofed websites as key threat vectors",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phishing-spoofed-sites-olympic/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263392",
+    "date": "2026-01-21",
+    "title": "Peruvian Loan Scam Harvests Cards and PINs via Fake Applications",
+    "summary": "Loan phishing operation in Peru is stealing card info by impersonating financial institutions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/loan-scam-harvests-cards-pins/",
+    "tags": [
+      "phishing",
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263393",
+    "date": "2026-01-21",
+    "title": "VoidLink Linux Malware Was Built Using an AI Agent, Researchers Reveal ",
+    "summary": "Sophisticated malware previously thought to be the work of a well-resourced cyber-crime group was built by one person - with the aid of AI tools",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/voidlink-linux-malware-built-using/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263394",
+    "date": "2026-01-21",
+    "title": "EU Unveils Cybersecurity Overhaul with Proposed Update to Cybersecurity Act",
+    "summary": "The EU’s Cybersecurity Act 2.0 will aim to address some of the challenges of the current CSA, including the slow rollout of certification schemes",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/eu-unveils-cybersecurity-act-2/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263395",
+    "date": "2026-01-21",
+    "title": "Is Poki Legit? Browser Gaming Safety & Trustworthiness in 2026",
+    "summary": "Downloaded a sketchy mobile game once and watched your phone slow to a crawl? I get it. When you're hunting for quick gaming fixes during your lunch break, the last thing you need is malware, spam, or your kid stumbling onto inappropriate content. But with so many gaming websites out there, you m...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/is-poki-legit-browser-gaming-safety-trustworthiness-in-2026",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263396",
+    "date": "2026-01-21",
+    "title": "EU’s New Cybersecurity Act Could Ban High-Risk Suppliers",
+    "summary": "This sweeping update introduces measures to identify and potentially exclude \"high-risk\" third countries and companies across 18 essential sectors. The post EU’s New Cybersecurity Act Could Ban High-Risk Suppliers appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-eu-2026-cybersecurity-act/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263397",
+    "date": "2026-01-21",
+    "title": "Fortinet admins report patched FortiGate firewalls getting hacked",
+    "summary": "Fortinet customers are seeing attackers exploiting a patch bypass for a previously fixed critical FortiGate authentication vulnerability (CVE-2025-59718) to hack patched firewalls. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/",
+    "tags": [
+      "vulnerability",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263398",
+    "date": "2026-01-21",
+    "title": "Fake Lastpass emails pose as password vault backup alerts",
+    "summary": "LastPass is warning of a new phishing campaign disguised as a maintenance notification from the service, asking users to back up their vaults in the next 24 hours. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-password-vault-backup-alerts/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263399",
+    "date": "2026-01-21",
+    "title": "Microsoft shares workaround for Outlook freezes after Windows update",
+    "summary": "Microsoft shared a temporary workaround for customers experiencing Outlook freezes after installing this month's Windows security updates. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-outlook-freezes-after-windows-update/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263400",
+    "date": "2026-01-21",
+    "title": "You Got Phished? Of Course! You're Human...",
+    "summary": "Phishing succeeds not because users are careless, but because attackers exploit human timing, context, and emotion. Flare shows how modern phishing has become industrialized, scalable, and increasingly hard to spot. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/you-got-phished-of-course-youre-human/",
+    "tags": [
+      "vulnerability",
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263401",
+    "date": "2026-01-21",
+    "title": "Hackers exploit security testing apps to breach Fortune 500 firms",
+    "summary": "Threat actors are exploiting misconfigured web applications used for security training and internal penetration testing, such as DVWA, OWASP Juice Shop, Hackazon, and bWAPP, to gain access to cloud environments of Fortune 500 companies and security vendors. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-security-testing-apps-to-breach-fortune-500-firms/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263402",
+    "date": "2026-01-21",
+    "title": "GitLab warns of high-severity 2FA bypass, denial-of-service flaws",
+    "summary": "GitLab has patched a high-severity two-factor authentication bypass impacting community and enterprise editions of its software development platform. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-high-severity-2fa-bypass-denial-of-service-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263403",
+    "date": "2026-01-21",
+    "title": "Tesla hacked, 37 zero-days demoed at Pwn2Own Automotive 2026",
+    "summary": "Security researchers have hacked the Tesla Infotainment System and earned $516,500 after exploiting 37 zero-days on the first day of the Pwn2Own Automotive 2026 competition. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/tesla-hacked-37-zero-days-demoed-at-pwn2own-automotive-2026/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263331",
     "date": "2026-01-21",
     "title": "Cyber Insights 2026: API Security – Harder to Secure, Impossible to Ignore",
@@ -1183,6 +1834,62 @@
       "ai-ml",
       "google"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20263384",
+    "date": "2026-01-20",
+    "title": "Best SEO Agency in Dubai Rise Powering Rankings, Traffic, and Digital Success",
+    "summary": "In this post, I will talk about the best SEO agency in Dubai and the new age of online growth. Dubai has emerged as a highly competitive digital market all over the world. The battle that the brands are engaging in is no longer the battle of gaining attention, but the battle of being visible […] ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/best-seo-agency-in-dubai/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263385",
+    "date": "2026-01-20",
+    "title": "Mesotherapy in Dubai The Popular Skin Boost Redefining Modern Beauty",
+    "summary": "Mesotherapy in Dubai has been the most discussed way of aesthetic treatment to individuals seeking to see a visible skin enhancement without going through the invasive methods. This treatment is a good fit in the contemporary self care practices in a city that is innovative in terms of beauty and...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/mesotherapy-in-dubai/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263404",
+    "date": "2026-01-20",
+    "title": "Million-dollar hacks and a manhunt.",
+    "summary": "Authorities pursue Black Basta. British authorities launch a new national service to fight fraud and cybercrime. LinkedIn private messages get infected with RATs. Researchers uncover a new malicious extension that intentionally crashes the browser. Ingram Micro discloses a ransomware-related data...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2471/notes",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263405",
+    "date": "2026-01-20",
+    "title": "Are we a trade or a profession? [CISO Perspectives]",
+    "summary": "Please enjoy this encore of CISO Perspectives. We're sharing a episode from another N2K show we thought you might like. It's the second episode of the new season of the show CISO Perspectives with Kim Jones. Enjoy! Show Notes: Cybersecurity has an identity problem where the industry as a whole is...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/cso-perspectives-public/108/notes",
+    "tags": [],
     "impact": 3
   },
   {
@@ -4043,6 +4750,34 @@
     "impact": 2
   },
   {
+    "id": "20263406",
+    "date": "2026-01-19",
+    "title": "Investing in the security tech market with NightDragon. [T-Minus Space Daily Special Edition]",
+    "summary": "While our team is away from the mic observing the Martin Luther King, Jr. holiday in the United States, we share this thoughtful discussion from our T-Minus Space Daily team. Signals Intelligence (SIGINT) is the practice of intercepting and analyzing electronic signals, like phone calls, emails, ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://space.n2k.com/podcasts/t-minus/ds133",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263407",
+    "date": "2026-01-19",
+    "title": "Pentesting at the speed of thought. [CyberWire-X]",
+    "summary": "While our team is observing the Martin Luther King, Jr. holiday in the United States, please enjoy this CyberWire-X episode featuring the team from Horizon3.ai. In this CyberWire-X episode, Dave Bittner speaks with Horizon3.ai co-founder and CEO Snehal Antani about how continuous autonomous penet...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/cyberwire-x/54/notes",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263327",
     "date": "2026-01-19",
     "title": "Grupo NGO gains 24/7 security visibility without expanding its IT team",
@@ -6403,6 +7138,21 @@
     "impact": 3
   },
   {
+    "id": "20263408",
+    "date": "2026-01-18",
+    "title": "Deepen Desai: A doctor in computer viruses. [CISO] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Deepen Desai, Global Chief Information Security Officer at Zscaler, shares his story as a doctor that treats computer viruses. He describes how he got into the security field and his work with Zscaler. He says what it's like learning and growing in this f...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/104/notes",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20262897",
     "date": "2026-01-18",
     "title": "A Big Candy Casino Review",
@@ -6912,6 +7662,21 @@
     "tags": [
       "ai-ml",
       "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263409",
+    "date": "2026-01-17",
+    "title": "Picture perfect deception. [Research Saturday]",
+    "summary": "Today we are joined by Ben Folland, Security Operations Analyst from Huntress, discussing their work on \"ClickFix Gets Creative: Malware Buried in Images.\" This analysis covers a ClickFix campaign that uses fake human verification checks and a realistic Windows Update screen to trick users into m...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/408/notes",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -7929,6 +8694,22 @@
       "vulnerability",
       "critical-infrastructure",
       "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263410",
+    "date": "2026-01-16",
+    "title": "Who turned out the lights?",
+    "summary": "Who turned out the lights in Venezuela? The European Space Agency confirms a series of cyberattacks. Dutch police nab the alleged operator of a notorious malware testing service. The U.S. and allies issue new guidance on OT security. Researchers warn of automated exploitation of a critical Hewlet...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2470/notes",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "government"
     ],
     "impact": 5
   },
@@ -10231,6 +11012,23 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20263411",
+    "date": "2026-01-15",
+    "title": "A long day without bars.",
+    "summary": "Verizon hit by a major wireless outage. Poland blocks an attack on its power grid. A massive database of French citizens exposed. Microsoft shuts down a cybercrime-as-a-service operation. The UK backs away from digital ID plans. California probes Grok deepfakes. The FTC settles with GM over locat...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2469/notes",
+    "tags": [
+      "data-breach",
+      "malware",
+      "critical-infrastructure",
+      "microsoft"
+    ],
+    "impact": 5
   },
   {
     "id": "20262754",
@@ -13047,6 +13845,25 @@
     "sourceUrl": "https://www.lastwatchdog.com/news-alert-panorays-study-finds-most-cisos-lack-vendor-visibility-as-supply-chain-attacks-climb/",
     "tags": [
       "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263412",
+    "date": "2026-01-14",
+    "title": "CVEs don’t sleep.",
+    "summary": "Patch Tuesday fallout, China sidelines Western security vendors, and a critical flaw puts industrial switches at risk of remote takeover. A ransomware attack disrupts a Belgian hospital, crypto scams hit investment clients, and Eurail discloses a data breach. Analysts press Congress to go on offe...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2468/notes",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "healthcare",
       "ai-ml"
     ],
     "impact": 5
@@ -15981,6 +16798,36 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263413",
+    "date": "2026-01-13",
+    "title": "Source code in the wild aisle.",
+    "summary": "Stolen Target source code looks real. CISA pulls the plug on Gogs. SAP rushes patches for critical flaws. A suspected Russian spy emerges in Sweden, while Cloudflare threatens to walk away from Italy. Researchers flag a Wi-Fi chipset bug, a long-running Magecart skimming campaign, and a surge in ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2467/notes",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws",
+      "cloudflare"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263414",
+    "date": "2026-01-13",
+    "title": "Is the cyber talent ecosystem broken? [CISO Perspectives]",
+    "summary": "Please enjoy this encore of CISO Perspectives We're sharing an episode from another N2K show we thought you might like. It's the first episode of the new season of the show CISO Perspectives with Kim Jones. Enjoy! Show Notes: The cyber talent ecosystem faces severe indigestion, which has stifled ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/cso-perspectives-public/107/notes",
+    "tags": [],
+    "impact": 4
   },
   {
     "id": "20263047",
@@ -19433,6 +20280,25 @@
     "impact": 3
   },
   {
+    "id": "20263415",
+    "date": "2026-01-12",
+    "title": "A picture worth a thousand breaches.",
+    "summary": "The FBI warns of Kimsuky quishing. Singapore warns of a critical vulnerability in Advantech IoT management platforms. Russia’s Fancy Bear targets energy research, defense collaboration, and government communications. Malaysia and Indonesia suspend access to X. Researchers warn a large-scale fraud...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2466/notes",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "iot",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20262605",
     "date": "2026-01-12",
     "title": "The State of Ransomware in Enterprise 2025",
@@ -21889,6 +22755,20 @@
     "impact": 3
   },
   {
+    "id": "20263416",
+    "date": "2026-01-11",
+    "title": "Laura Hoffner: Setting your sights high. [Intelligence] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Laura Hoffner, Executive Vice President at Concentric, shares her story about her time working as a Naval Intelligence Officer and supporting special operations around the globe for 12 years, to now, where she transitioned to the Naval Reserves and joined...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/103/notes",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20261951",
     "date": "2026-01-11",
     "title": "Wearable Tech Beyond Gadgets: The Future of Smart Clothing and Scarves",
@@ -22701,6 +23581,22 @@
     "tags": [
       "microsoft",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263417",
+    "date": "2026-01-10",
+    "title": "Walking on EggStremes. [Research Saturday]",
+    "summary": "This week, we are joined by Martin Zugec, Technical Solutions Director from Bitdefender, sharing their work and findings on \"EggStreme Malware: Unpacking a New APT Framework Targeting a Philippine Military Company.\" Built for long-term espionage, the campaign uses DLL sideloading, in-memory execu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/407/notes",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -23542,6 +24438,20 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20263418",
+    "date": "2026-01-09",
+    "title": "Is interim the new permanent?",
+    "summary": "The NSA reshuffles its cybersecurity leadership. A new report unmasks ICE’s latest surveillance system. CISA marks a milestone by retiring ten Emergency Directives. Trend Micro patches a critical vulnerability. Grok dials back the nudes, a bit. Cambodia extradites a cybercrime kingpin to China. G...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2465/notes",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
   },
   {
     "id": "20262607",
@@ -24966,6 +25876,26 @@
       "Data/IT"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263419",
+    "date": "2026-01-08",
+    "title": "America goes solo on cyber.",
+    "summary": "The US withdraws from global cybersecurity institutions. A maximum-severity vulnerability called Ni8mare allows full compromise of a workflow automation platform. Cisco patches ISE. Researchers uncover a sophisticated multi-stage malware campaign targeting manufacturing and government organizatio...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2464/notes",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "government",
+      "ai-ml",
+      "aws",
+      "cisco"
+    ],
+    "impact": 3
   },
   {
     "id": "20262608",
@@ -26997,6 +27927,25 @@
     "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/2026/01",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263420",
+    "date": "2026-01-07",
+    "title": "Cyberattack in the fast lane.",
+    "summary": "Jaguar Land Rover reveals the fiscal results of last year’s cyberattack. A Texas gas station chain suffers a data spill. Taiwan tracks China’s energy-sector attacks. Google and Veeam push patches. Threat actors target obsolete D-Link routers. Sedgwick Government Solutions confirms a data breach. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2463/notes",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government",
+      "critical-infrastructure",
+      "ai-ml",
+      "google"
     ],
     "impact": 3
   },
@@ -29143,6 +30092,25 @@
     "impact": 2
   },
   {
+    "id": "20263421",
+    "date": "2026-01-06",
+    "title": "X marks the violation.",
+    "summary": "Grok’s non-consensual imagery draws scrutiny from the European Commission. Researchers link several major data breaches to a single threat actor. The UK unveils a new Cyber Action Plan. A stealthy ClickFix campaign targets the hospitality sector. VVS Stealer malware targets Discord users. Covenan...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2462/notes",
+    "tags": [
+      "data-breach",
+      "malware",
+      "cloud",
+      "healthcare",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20261960",
     "date": "2026-01-06",
     "title": "The State of Ransomware 2025",
@@ -30761,6 +31729,21 @@
       "government"
     ],
     "impact": 3
+  },
+  {
+    "id": "20263422",
+    "date": "2026-01-05",
+    "title": "A city goes dark as cyber questions multiply.",
+    "summary": "Venezuela blames physical attacks for blackout as cyber questions swirl. Trump reverses a chip technology sale over national security issues, and removes sanctions linked to Predator spyware. Greek officials say an air traffic shutdown was not a cyberattack. The U.S. Army launches a new officer s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2461/notes",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
   },
   {
     "id": "20262900",
@@ -33702,6 +34685,20 @@
     "impact": 5
   },
   {
+    "id": "20263423",
+    "date": "2026-01-04",
+    "title": "Michael Scott: A team of humble intellects. [Information security] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Chief Information Security Officer at Immuta, Michael Scott shares his story from working at a forgotten internet service provider to leading the security fight for major food chain restaurants. Michael explains how the different roles at various companie...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/102/notes",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20261813",
     "date": "2026-01-04",
     "title": "You can unlock SwitchBot’s first deadbolt smart lock with your face",
@@ -34225,6 +35222,21 @@
     "impact": 4
   },
   {
+    "id": "20263424",
+    "date": "2026-01-03",
+    "title": "Don’t trust that app!",
+    "summary": "While our team is out on winter break, please enjoy this episode of Research Saturday. Today we are joined by ⁠⁠Selena Larson⁠⁠, co-host of ⁠⁠Only Malware in the Building⁠⁠ and Staff Threat Researcher and Lead Intelligence Analysis and Strategy at ⁠⁠Proofpoint⁠⁠, sharing their work on \"Microsoft ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/392/notes",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2026321",
     "date": "2026-01-03",
     "title": "Hackers claim Resecurity hack, firm says it was a honeypot",
@@ -34693,6 +35705,18 @@
       "banking",
       "education"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20263425",
+    "date": "2026-01-02",
+    "title": "Cyber and its \"Hive\" Mind",
+    "summary": "While our team is out on winter break, please enjoy this episode of Cyber Things from our partners at Armis. Welcome to Episode 2 of Cyber Things, a special edition podcast produced in partnership by Armis and N2K CyberWire in an homage to Stranger Things. Host ⁠Rebecca Cradick⁠, VP of Global Com...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/cyber-things/2/notes",
+    "tags": [],
     "impact": 3
   },
   {
@@ -36517,6 +37541,20 @@
       "law-enforcement"
     ],
     "impact": 5
+  },
+  {
+    "id": "20263426",
+    "date": "2026-01-01",
+    "title": "Confronting China’s Expanding Cyber Threats [Threat Vector]",
+    "summary": "While our team is out on winter break, please enjoy this episode of Threat Vector from our partners at Palo Alto Networks. In this episode of Threat Vector, host David Moulton talks with Wendi Whitmore, Chief Security Intelligence Officer at Palo Alto Networks, about the increasing scale of China...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/threat-vector/65/notes",
+    "tags": [
+      "palo alto"
+    ],
+    "impact": 3
   },
   {
     "id": "20262497",
