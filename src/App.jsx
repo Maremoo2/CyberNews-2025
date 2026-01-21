@@ -29,7 +29,14 @@ import DataHealthDashboard from './components/DataHealthDashboard'
 import DeduplicationStats from './components/DeduplicationStats'
 import GlossaryPanel from './components/GlossaryPanel'
 import GlossaryAnalytics from './components/GlossaryAnalytics'
+import GlobalFilterBar from './components/GlobalFilterBar'
+import BiasIndicator from './components/BiasIndicator'
+import TrendContinuity from './components/TrendContinuity'
+import YearComparison from './components/YearComparison'
+import ValidationDashboard from './components/ValidationDashboard'
+import QuarterlyReview from './components/QuarterlyReview'
 import { enhanceIncidents } from './utils/deduplicationUtils'
+import learningLog from '../data/learning-log.json'
 
 // Month helpers
 const MONTHS_EN = [
@@ -138,6 +145,16 @@ function App() {
     criticalOnly: false,
     curatedOnly: false,
     highConfidenceOnly: false
+  })
+  
+  // Global filter state
+  const [globalFilters, setGlobalFilters] = useState({
+    contentType: 'all',
+    severity: 'all',
+    actorType: 'all',
+    sector: 'all',
+    region: 'all',
+    dateRange: { start: '', end: '' }
   })
 
   // Get incidents data based on selected year using object lookup for maintainability
@@ -494,6 +511,12 @@ function App() {
         totalArticles={totalSourceCount}
       />
 
+      {/* Global Filter Bar */}
+      <GlobalFilterBar 
+        onFilterChange={setGlobalFilters}
+        initialFilters={globalFilters}
+      />
+
       {/* Hero / Value Proposition */}
       <section className="hero-section" aria-label="About this site">
         <div className="hero-content">
@@ -557,6 +580,21 @@ function App() {
 
       {/* Trend Acceleration - Emerging vs. Declining Threats */}
       <TrendAcceleration incidents={incidentsData} filters={{}} />
+
+      {/* Trend Continuity - Month-over-Month Analysis */}
+      <TrendContinuity incidents={incidentsData} />
+
+      {/* Year Comparison - 2025 vs 2026 */}
+      <YearComparison incidents2025={incidents2025} incidents2026={incidents2026} />
+
+      {/* Quarterly Review - Q1-Q4 Summaries */}
+      <QuarterlyReview incidents={incidentsData} />
+
+      {/* Bias Indicator - Source & Regional Bias */}
+      <BiasIndicator incidents={incidentsData} />
+
+      {/* Validation Dashboard - Data Quality Metrics */}
+      <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
