@@ -896,6 +896,13 @@
       "defaultRegion": "US",
       "defaultCountry": "United States",
       "weight": 2
+    },
+    {
+      "name": "CyberWire Daily Podcast",
+      "url": "https://feeds.megaphone.fm/cyberwire-daily-podcast",
+      "defaultRegion": "US",
+      "defaultCountry": "United States",
+      "weight": 5
     }
   ],
   "tagKeywords": {
