@@ -1,5 +1,327 @@
 [
   {
+    "id": "20263231",
+    "date": "2026-01-21",
+    "title": "News alert: Forrester study finds Airlock Digital’s app control cuts breaches to zero with 224% ROI",
+    "summary": "ATLANTA, Jan. 20, 2026, CyberNewswire — Airlock Digital, a leader in proactive application control and endpoint security, announced the release of The Total Economic Impact (TEI) of Airlock Digital, an independent study commissioned by Airlock Digital and conducted by Forrester Consulting. The st...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-forrester-study-finds-airlock-digitals-app-control-cuts-breaches-to-zero-with-224-roi/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263235",
+    "date": "2026-01-21",
+    "title": "Flaws in Chainlit AI dev framework expose servers to compromise",
+    "summary": "Two vulnerabilities in popular AI development framework Chainlit could enable attackers to read arbitrary files and database content from servers. If left unpatched, the flaws could allow attackers to leak API keys and other secret tokens to facilitate lateral movement inside the organization’s i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119469/flaws-in-chainlit-ai-dev-framework-expose-servers-to-compromise.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263241",
+    "date": "2026-01-21",
+    "title": "Google says Gemini won’t have ads, as ChatGPT prepares to add them",
+    "summary": "OpenAI recently rolled out ads to ChatGPT in the United States if you use $8 Go subscription or a free account, but Google says it does not plan to put ads in Gemini. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-says-gemini-wont-have-ads-as-chatgpt-prepares-to-add-them/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263225",
+    "date": "2026-01-20",
+    "title": "Lawsuit Filed After 320,000 Impacted by Monroe University Breach",
+    "summary": "The lawsuit claims the university didn’t enact reasonable data security measures.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102086-lawsuit-filed-after-320-000-impacted-by-monroe-university-breach",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263226",
+    "date": "2026-01-20",
+    "title": "EU moves to force Huawei out of networks, opening door to wider Chinese tech bans",
+    "summary": "The European Commission wants to force EU member states to remove Chinese companies Huawei Technologies and ZTE from its mobile networks, as part of a sweeping new cybersecurity act unveiled on Tuesday. While the bloc’s executive arm has recommended that capitals weed equipment from those provide...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/china/article/3340610/eu-moves-force-huawei-out-networks-opening-door-wider-chinese-tech-bans?utm_source=rss_feed",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263227",
+    "date": "2026-01-20",
+    "title": "UStrive security lapse exposed personal data of its users, including children",
+    "summary": "The online mentoring site UStrive exposed email addresses, phone numbers, and other non-public information to other logged-in users. The nonprofit told TechCrunch that the issue is now fixed, but wouldn't commit to alerting affected individuals.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/20/ustrive-security-lapse-exposed-personal-data-of-its-users-including-children/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263228",
+    "date": "2026-01-20",
+    "title": "C'est du sérieux ! L'Europe se blinde contre les cybermenaces avec de nouvelles règles et décisions fortes",
+    "summary": "La Commission européenne a présenté mardi un nouveau paquet cybersécurité. Symbolisée par la révision du Cybersecurity Act, la démarche doit renforcer la protection des infrastructures critiques de la zone.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596248-c-est-du-serieux-l-europe-se-blinde-contre-les-cybermenaces-avec-de-nouvelles-regles-et-decisions-fortes.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263229",
+    "date": "2026-01-20",
+    "title": "Une cyberattaque va faire très mal aux jeunes de Bourgogne-Franche-Comté",
+    "summary": "Un nouveau hack a récemment eu lieu contre une entité publique française. Cette fois, il s'agit d'une institution de Bourgogne-Franche-Comté.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596263-une-cyberattaque-va-faire-tres-mal-aux-jeunes-de-bourgogne-franche-comte.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263230",
+    "date": "2026-01-20",
+    "title": "Ransomware and Supply Chain Attacks Set Records in 2025",
+    "summary": "Ransomware and supply chain attacks set records in 2025, with ransomware attacks up more than 50% and supply chain attacks nearly doubling – trends that suggest further trouble ahead in 2026. Those are some of the data points from a new blog and annual threat landscape report from threat intellig...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ransomware-and-supply-chain-attacks-set-record/",
+    "tags": [
+      "ransomware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263232",
+    "date": "2026-01-20",
+    "title": "News alert: One Identity launches AI-powered ‘Identity Manager’ to speed threat response",
+    "summary": "ALISO VIEJO, Calif., Jan. 20, 2026, CyberNewswire — One Identity, a trusted leader in identity security, today announces a major upgrade to One Identity Manager, a top-rated IGA solution, strengthening identity governance as a critical security control for modern enterprise environments. And I go...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-one-identity-launches-ai-powered-identity-manager-to-speed-threat-response/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263233",
+    "date": "2026-01-20",
+    "title": "Trump’s Attack on The Atlantic Is Working",
+    "summary": "The Atlantic seems to be publishing analysis of whether guardrails can hold a bus that already left the road. It’s disappointing, far below the pedigree and reputation of the brand. A new article, as a shining example, claims Trump can be constrained and applies no standard of evidence for what c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76313",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263234",
+    "date": "2026-01-20",
+    "title": "Virtru vs. Paubox: HIPAA Email Encryption Comparison",
+    "summary": "If you’re looking for an email encryption solution, you’ll find no shortage of vendors out there. But the devil is in the details: Not all email encryption is created equal — and these solutions vary widely in their strength and versatility.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/email-encryption/software/virtru-vs-paubox",
+    "tags": [
+      "supply-chain",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263236",
+    "date": "2026-01-20",
+    "title": "'CrashFix' Scam Crashes Browsers, Delivers Malware",
+    "summary": "The attack consists of a NexShield malicious browser extension, a social engineering technique to crash the browser, and a Python-based RAT.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/crashfix-scam-crashes-browsers-delivers-malware",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263237",
+    "date": "2026-01-20",
+    "title": "Mass Spam Attacks Leverage Zendesk Instances",
+    "summary": "The CRM vendor advised ignoring or deleting suspicious emails and said the attacks were not tied to any breach or software vulnerability.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/mass-spam-attacks-zendesk-instances",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263238",
+    "date": "2026-01-20",
+    "title": "Vulnerabilities Threaten to Break Chainlit AI Framework",
+    "summary": "Familiar bugs in a popular open source framework for AI chatbots could give attackers dangerous powers in the cloud.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-break-chainlit-ai-framework",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263239",
+    "date": "2026-01-20",
+    "title": "New iOS and iPadOS Flaws Leave Millions of iPhones at Risk",
+    "summary": "Critical iOS and iPadOS WebKit flaws put millions of iPhones and iPads at risk of silent takeover. Apple urges users to update immediately. The post New iOS and iPadOS Flaws Leave Millions of iPhones at Risk appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-ios-ipad-os-flaws-iphones-at-risk/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "aws",
+      "apple"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263240",
+    "date": "2026-01-20",
+    "title": "Google Gemini Flaw Let Attackers Access Private Calendar Data",
+    "summary": "Security researchers found a Google Gemini flaw that let hidden instructions in a meeting invite extract private calendar data and create deceptive events. The post Google Gemini Flaw Let Attackers Access Private Calendar Data appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-google-gemini-flaw-private-calendar-data/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263242",
+    "date": "2026-01-20",
+    "title": "OpenAI rolls out age prediction model on ChatGPT to detect your age",
+    "summary": "OpenAI is rolling out an age prediction model on ChatGPT to detect your age and apply possible safety-related restrictions to prevent misuse by teens. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-age-prediction-model-on-chatgpt-to-detect-your-age/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263243",
+    "date": "2026-01-20",
+    "title": "ACF plugin bug gives hackers admin on 50,000 WordPress sites",
+    "summary": "A critical-severity vulnerability in the Advanced Custom Fields: Extended (ACF Extended) plugin for WordPress can be exploited remotely by unauthenticated attackers to obtain administrative permissions. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/acf-plugin-bug-gives-hackers-admin-on-50-000-wordpress-sites/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263244",
+    "date": "2026-01-20",
+    "title": "VoidLink cloud malware shows clear signs of being AI-generated",
+    "summary": "The recently discovered cloud-focused VoidLink malware framework is believed to have been developed by a single person with the help of an artificial intelligence model. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/voidlink-cloud-malware-shows-clear-signs-of-being-ai-generated/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263245",
+    "date": "2026-01-20",
+    "title": "EU plans cybersecurity overhaul to block foreign high-risk suppliers",
+    "summary": "The European Commission has proposed new cybersecurity legislation mandating the removal of high-risk suppliers to secure telecommunications networks and strengthening defenses against state-backed and cybercrime groups targeting critical infrastructure. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/eu-plans-cybersecurity-overhaul-to-block-foreign-high-risk-suppliers/",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20263189",
     "date": "2026-01-20",
     "title": "UK says it will consider banning social media for children",
