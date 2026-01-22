@@ -68,6 +68,11 @@ function ExecutiveSummary({ incidents, selectedYear }) {
 
     // Generate narrative based on data
     const narrative = generateNarrative(selectedYear, severityData.distribution, topThemes, attributionRate, kpis, dataEnriched)
+    
+    const curatedCount = filteredIncidents.filter(i => i.is_curated).length;
+    const curatedPercentage = filteredIncidents.length > 0 
+      ? Math.round((curatedCount / filteredIncidents.length) * 100)
+      : 0;
 
     return {
       severityDistribution: severityData.distribution,
@@ -78,7 +83,8 @@ function ExecutiveSummary({ incidents, selectedYear }) {
       narrative,
       totalIncidents: filteredIncidents.length,
       totalAllItems: incidents.length,
-      curatedCount: filteredIncidents.filter(i => i.is_curated).length,
+      curatedCount,
+      curatedPercentage,
       attributionRate: attributionRate.rate,
       criticalRate: kpis.criticalRate,
       exploitLedRate: kpis.exploitLedRate,
@@ -120,7 +126,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
               ? 'Incident-related articles only (recommended for executive view)' 
               : 'All content types'}
           </span>
-          <span className="quality-note">{analysis.curatedCount} curated ({Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%)</span>
+          <span className="quality-note">{analysis.curatedCount} curated ({analysis.curatedPercentage}%)</span>
           <div className="methodology-hint">
             ℹ️ Multiple articles may cover the same underlying incident
           </div>
@@ -204,10 +210,10 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               )}
               {/* Show severity model status when curated rate is low */}
-              {(Math.round(analysis.curatedCount / analysis.totalIncidents * 100) < 10) && (
+              {analysis.curatedPercentage < 10 && (
                 <div className="severity-model-badge" style={{marginTop: '12px', padding: '8px', background: 'rgba(155, 89, 182, 0.15)', borderLeft: '3px solid #9b59b6', borderRadius: '4px'}}>
                   <p style={{margin: 0, fontSize: '0.8rem', color: '#ecf0f1'}}>
-                    📊 <strong>Severity model conservative / pending enrichment</strong> — Curated rate: {Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%
+                    📊 <strong>Severity model conservative / pending enrichment</strong> — Curated rate: {analysis.curatedPercentage}%
                   </p>
                 </div>
               )}

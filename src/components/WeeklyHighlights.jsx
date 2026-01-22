@@ -44,9 +44,15 @@ function WeeklyHighlights({ incidents }) {
       incidentGroups[key].incidents.push(incident);
       incidentGroups[key].count++;
       
-      // Collect tags
+      // Collect tags, filtering out meaningless ones for consistency with rest of app
       if (incident.tags && Array.isArray(incident.tags)) {
-        incident.tags.forEach(tag => incidentGroups[key].tags.add(tag));
+        const excludedTags = ['unknown', 'general', 'misc', 'other', 'n/a', 'none', ''];
+        incident.tags.forEach(tag => {
+          const lowerTag = tag.toLowerCase();
+          if (!excludedTags.includes(lowerTag)) {
+            incidentGroups[key].tags.add(tag);
+          }
+        });
       }
       
       // Keep the latest date
