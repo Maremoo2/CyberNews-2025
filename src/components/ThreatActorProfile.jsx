@@ -281,7 +281,7 @@ function ThreatActorProfile({ incidents }) {
         <div className="insights-grid">
           <div className="insight-card">
             <h4>🎯 Primary Threat</h4>
-            <p style={{color: 'white'}}>
+            <p>
               <strong>{actorAnalysis.categoryDistribution[0]?.name}</strong> dominate with{' '}
               <strong>{actorAnalysis.categoryDistribution[0]?.count} incidents</strong> (
               {actorAnalysis.categoryDistribution[0]?.percentage}%). This indicates that{' '}
@@ -291,12 +291,12 @@ function ThreatActorProfile({ incidents }) {
 
           <div className="insight-card">
             <h4>🛡️ Defense Priorities</h4>
-            <p style={{color: 'white'}}>{getDefensePriority(actorAnalysis.categoryDistribution[0]?.category)}</p>
+            <p>{getDefensePriority(actorAnalysis.categoryDistribution[0]?.category)}</p>
           </div>
 
           <div className="insight-card">
             <h4>📊 Threat Diversity</h4>
-            <p style={{color: 'white'}}>
+            <p>
               With {actorAnalysis.categoryDistribution.length} active actor categories and{' '}
               {actorAnalysis.topActors.length} identified groups, organizations face a{' '}
               {actorAnalysis.categoryDistribution.length >= 3 ? 'diverse' : 'focused'} threat landscape 

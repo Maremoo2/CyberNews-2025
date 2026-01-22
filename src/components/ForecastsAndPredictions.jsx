@@ -261,7 +261,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
 
       {/* Action Plan */}
       <div className="action-plan">
-        <h3 style={{color: '#000000'}}>📋 Strategic Action Plan for {nextYear}</h3>
+        <h3>📋 Strategic Action Plan for {nextYear}</h3>
         <div className="quarters-grid">
           <div className="quarter-card">
             <h4>Q1 {nextYear}: Assess and Plan</h4>

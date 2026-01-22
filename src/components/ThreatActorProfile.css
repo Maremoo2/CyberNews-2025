@@ -269,7 +269,8 @@
   margin: 0;
   line-height: 1.7;
   font-size: 0.95rem;
-  opacity: 0.95;
+  opacity: 1;
+  color: white;
 }
 
 /* Confidence Badges */
