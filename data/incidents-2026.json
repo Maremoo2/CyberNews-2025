@@ -1,5 +1,451 @@
 [
   {
+    "id": "20263639",
+    "date": "2026-01-22",
+    "title": "Researchers find Jordan government used Cellebrite phone-cracking tech against activists",
+    "summary": "Jordanian authorities used Cellebrite phone-cracking technology to access the devices of domestic activists and human rights defenders and then extract information from them, according to an investigation published Thursday. The nonconsensual access stood in conflict with international human righ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/researchers-find-jordan-government-used-cellebrite-phone-cracking-tech-against-activists/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263640",
+    "date": "2026-01-22",
+    "title": "House of Lords backs legislation to ban social media for children under 16",
+    "summary": "Britain’s House of Lords voted by an overwhelming margin to ban children under age 16 from accessing social media, setting up a vote on the law in the House of Commons.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/house-lords-bans-social-media",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263641",
+    "date": "2026-01-22",
+    "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
+    "summary": "A critical security flaw has been disclosed in the GNU InetUtils telnet daemon (telnetd) that went unnoticed for nearly 11 years. The vulnerability, tracked as CVE-2026-24061, is rated 9.8 out of 10.0 on the CVSS scoring system. It affects all versions of GNU InetUtils from version 1.9.3 up to an...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263642",
+    "date": "2026-01-22",
+    "title": "The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity",
+    "summary": "To all those who are fighting the good fight in the world of cyber, keep collaborating to ensure our world never succumbs to the chaos of the Upside Down. The post The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/the-upside-down-is-real-what-stranger-things-teaches-us-about-modern-cybersecurity/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263643",
+    "date": "2026-01-22",
+    "title": "Old Attack, New Speed: Researchers Optimize Page Cache Exploits",
+    "summary": "A team of researchers from the Graz University of Technology in Austria has revived page Linux page cache attacks. The post Old Attack, New Speed: Researchers Optimize Page Cache Exploits appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/old-attack-new-speed-researchers-optimize-page-cache-exploits/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263644",
+    "date": "2026-01-22",
+    "title": "ThreatsDay Bulletin: Pixel Zero-Click, Redis RCE, China C2s, RAT Ads, Crypto Scams & 15+ Stories",
+    "summary": "Most of this week’s threats didn’t rely on new tricks. They relied on familiar systems behaving exactly as designed, just in the wrong hands. Ordinary files, routine services, and trusted workflows were enough to open doors without forcing them. What stands out is how little friction attackers no...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/threatsday-bulletin-pixel-zero-click.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263645",
+    "date": "2026-01-22",
+    "title": "Webinar Today: Rethinking Email Security for Mid-Sized Organizations",
+    "summary": "See how modern AI-driven detection can block sophisticated attacks that traditional tools miss The post Webinar Today: Rethinking Email Security for Mid-Sized Organizations appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/webinar-today-rethinking-email-security-for-mid-sized-organizations/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263646",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Fem år før vi kan ringe direkte fra mobil via satellitt",
+    "summary": "Teknologi og frekvenser er bare to av utfordringene for mobilsamtaler til satellitt. Tillitsgrøfta mellom USA og Europa en tredje.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/fem-ar-for-vi-kan-ringe-direkte-fra-mobil-via-satellitt/567258",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263647",
+    "date": "2026-01-22",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c1f33c91bfad0ec • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263648",
+    "date": "2026-01-22",
+    "title": "Jordan used Cellebrite phone-hacking tools against activists critical of Gaza war, report finds",
+    "summary": "The findings, published by Citizen Lab Thursday, are based on the research institute’s digital forensic analysis of seized phones in four cases and Jordanian court records in three cases.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/jordan-used-cellebrite-against-activists-critical-gaza-war",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263649",
+    "date": "2026-01-22",
+    "title": "AiStrike Raises $7 Million in Seed Funding",
+    "summary": "The startup’s AI-native platform unifies exposure analysis, threat intelligence, investigation, and response. The post AiStrike Raises $7 Million in Seed Funding appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/aistrike-raises-7-million-in-seed-funding/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263650",
+    "date": "2026-01-22",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c1eddf86909d0e7 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-security-testing-apps-to-breach-fortune-500-firms/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263651",
+    "date": "2026-01-22",
+    "title": "Actively exploited Cisco UC bug requires immediate, version‑specific patching",
+    "summary": "Cisco has released patches for a critical remote code execution vulnerability in its unified communications products that attackers are actively exploiting. The US Cybersecurity and Infrastructure Security Agency has added the flaw to its Known Exploited Vulnerabilities catalog, confirming the ex...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4120613/actively-exploited-cisco-uc-bug-requires-immediate-version%E2%80%91specific-patching.html",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263652",
+    "date": "2026-01-22",
+    "title": "New Wave of Attacks Targeting FortiGate Firewalls",
+    "summary": "Hackers bypass the FortiCloud SSO login authentication to create new accounts and change device configurations. The post New Wave of Attacks Targeting FortiGate Firewalls appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/new-wave-of-attacks-targeting-fortigate-firewalls/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263653",
+    "date": "2026-01-22",
+    "title": "Peruvian Peaks: The Digital Loan Illusion | Group-IB Blog",
+    "summary": "Cyber Security Services - Group-IB logo. Scroll to top ... AI Cybersecurity Hub. Products. Threat Intelligence · Fraud Protection ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/peru-digital-loan-scam/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263654",
+    "date": "2026-01-22",
+    "title": "Microsoft Security success stories: Why integrated security is the foundation of AI transformation",
+    "summary": "AI is transforming how organizations operate and how they approach security. In this new era of agentic AI, every interaction, digital or human, must be built on trust. As businesses modernize, they’re not just adopting AI tools, they’re rearchitecting their digital foundations. And that means se...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263655",
+    "date": "2026-01-22",
+    "title": "AWS expands Resource Control Policies support for Cognito and CloudWatch Logs",
+    "summary": "AWS Resource Control Policies (RCPs) now provide support for Amazon Cognito and Amazon CloudWatch Logs. Resource control policies (RCPs) are a type of organization policy that you can use to manage permissions in your organization. RCPs offer central control over the maximum available permissions...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-expands-resource-control-policies",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263656",
+    "date": "2026-01-22",
+    "title": "Eli Lilly's security head on how AI helps, hurts cybersecurity - Healthcare Brew",
+    "summary": "The trillion-dollar biopharma is balancing innovation with caution. A portrait of Andrea Abell, chief information security officer at Eli Lilly, a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.healthcare-brew.com/stories/2026/01/22/eli-lilly-security-head-ai-helps-hurts-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263657",
+    "date": "2026-01-22",
+    "title": "CISA Warns of Actively Exploited Cisco Unified CM Zero-Day RCE Vulnerability",
+    "summary": "... Cyber Security NewsCybersecurityVulnerabilities. The Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/cisa-warns-of-actively-exploited-cisco-unified-cm-zero-day-rce-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263658",
+    "date": "2026-01-22",
+    "title": "BlackBerry Secure Communications Blog",
+    "summary": "Mobile Security Risk: How to Explain It's Real, Then Mitigate It ... Cyber threats have moved to mobile communications, where identity, metadata ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.blackberry.com/en/secure-communications/insights/blog",
+    "tags": [
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263659",
+    "date": "2026-01-22",
+    "title": "Critical Chainlit AI Vulnerabilities Allow Hackers to Take Over Cloud Environments",
+    "summary": "... Cyber Press · Home · Cyber Attack · Threats · Cyber AI · Data Breach · Vulnerability ... Cyber Security NewsCybersecurityVulnerabilities. Zafran Labs ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/critical-chainlit-ai-vulnerabilities/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263660",
+    "date": "2026-01-22",
+    "title": "Google steps up Ransomware Protection for its Drive Users - Cybersecurity Insiders",
+    "summary": "Overall, Google's latest initiatives highlight its commitment to strengthening cloud security, combating cybercrime, and promoting trust in AI- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/google-steps-up-ransomware-protection-for-its-drive-users/",
+    "tags": [
+      "ransomware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263661",
+    "date": "2026-01-22",
+    "title": "Top 10 Ransomware Attacks Over The Past Year - Cybercrime Magazine",
+    "summary": "Breaking coverage on cyberattacks and data breaches, and the most recent privacy and security stories. HACK. Another organization gets hacked ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/top-10-ransomware-attacks-over-the-past-year/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263662",
+    "date": "2026-01-22",
+    "title": "New director assumes leadership of AFOSI PJ's cybersecurity mission",
+    "summary": "“We have a hand in making sure that when technology gets fielded, the right level of care and security has gone into it before it ends up in the hands ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.osi.af.mil/News/Features/Display/Article/4384818/new-director-assumes-leadership-of-afosi-pjs-cybersecurity-mission/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263663",
+    "date": "2026-01-22",
+    "title": "Top 10: Malware Detection Platforms - Cyber Magazine",
+    "summary": "Its scanning engine is so effective that it is licenced by over 30% of other security companies globally, making it a quiet but massive force in the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/top10/top-10-malware-detection-platforms",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263664",
+    "date": "2026-01-22",
+    "title": "Powering the AI Enterprise with New Software Firewall Capabilities - Palo Alto Networks",
+    "summary": "Our HMF unifies security across your entire cybersecurity estate, shifting operations from a reactive \"break/fix\" model to a proactive \"predict and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/blog/network-security/powering-the-ai-enterprise-with-new-software-firewall-capabilities/",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263665",
+    "date": "2026-01-22",
+    "title": "New measures to strengthen cybersecurity resilience and capabilities - EU Reporter",
+    "summary": "... Online TV · Online Radio · Contact · Cyber Security. New measures to strengthen cybersecurity resilience and capabilities. SHARE: Published. 38 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eureporter.co/defence/cybercrime-2/2026/01/22/new-measures-to-strengthen-cybersecurity-resilience-and-capabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263666",
+    "date": "2026-01-22",
+    "title": "Cybersecurity Alert: Manage My Health Data Breach | The Portal",
+    "summary": "Report any suspicious activity immediately to ICT Support. Review our Cyber Security Portal for guidance and best practices. If you have any general ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://portal.fireandemergency.nz/notices-news-and-events/news/cybersecurity-alert-manage-my-health-data-breach/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263667",
+    "date": "2026-01-22",
+    "title": "Claroty secures $150 million Series F as cyber threats to critical infrastructure drive rapid ...",
+    "summary": "However, security leaders charged with protecting CPS still face a number of challenges – unclear ownership between IT and OT teams, no maturity model ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/claroty-secures-150-million-series-f-as-cyber-threats-to-critical-infrastructure-drive-rapid-growth-in-cps-security-market/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263668",
+    "date": "2026-01-22",
+    "title": "Teradata Appoints Ken Ricketts as Chief Information Security Officer - PR Newswire",
+    "summary": "Ken Ricketts is a seasoned cybersecurity leader with more than two decades of experience spanning cloud security, regulatory compliance, and incident ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/teradata-appoints-ken-ricketts-as-chief-information-security-officer-302666405.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263599",
     "date": "2026-01-22",
     "title": "Hacking the grid: How digital sabotage turns infrastructure into a weapon",
