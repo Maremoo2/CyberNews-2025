@@ -1,5 +1,421 @@
 [
   {
+    "id": "20263571",
+    "date": "2026-01-22",
+    "title": "Claroty Raises $150 Million in Series F Funding",
+    "summary": "Claroty has raised a total of roughly $900 million and its valuation has reportedly reached $3 billion. The post Claroty Raises $150 Million in Series F Funding appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/claroty-raises-150-million-in-series-f-funding/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263572",
+    "date": "2026-01-22",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "PurpleBravo, a North Korean state-sponsored threat group, poses a significant threat to the IT software supply chain. The group targets software developers, particularly in the cryptocurrency and software development sectors. A recent security incident involving Gainsight applications integrated ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Recorded%20Future",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263573",
+    "date": "2026-01-22",
+    "title": "PurpleBravo’s Targeting of the IT Software Supply Chain",
+    "summary": "PurpleBravo is a North Korean state-sponsored threat group that overlaps with the “Contagious Interview” campaign first documented in November 2023. It targets software developers, especially in the software development and cryptocurrency verticals, via fake recruiter outreach, interview coding t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.recordedfuture.com/research/purplebravos-targeting-it-software-supply-chain?&web_view=true",
+    "tags": [
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263574",
+    "date": "2026-01-22",
+    "title": "Filling the Most Common Gaps in Google Workspace Security",
+    "summary": "Security teams at agile, fast-growing companies often have the same mandate: secure the business without slowing it down. Most teams inherit a tech stack optimized for breakneck growth, not resilience. In these environments, the security team is the helpdesk, the compliance expert, and the incide...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263575",
+    "date": "2026-01-22",
+    "title": "Kvanteteknologi: : Industrien satser tungt – FFI advarer mot kvantehype",
+    "summary": "Regjeringen vil ha mer kvanteforskning, og Universitetet i Oslo starter nytt studieprogram i kvanteteknologi. Hva med norske bedrifter? Er de klare til å ta teknologien i bruk?",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/hva-trenger-norge-kvanteteknologer-til/567234",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263576",
+    "date": "2026-01-22",
+    "title": "Furl Raises $10 Million for Autonomous Vulnerability Remediation",
+    "summary": "The startup will use the new funding to accelerate product development and deepen remediation capabilities. The post Furl Raises $10 Million for Autonomous Vulnerability Remediation appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/furl-raises-10-million-for-autonomous-vulnerability-remediation/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263577",
+    "date": "2026-01-22",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "This advisory details a sophisticated attack leveraging Windows' built-in utilities, known as LOLBins (Living Off the Land Binaries), to deploy Remcos and NetSupport Manager, both of which are remote access tools often abused by cybercriminals. A sophisticated phishing campaign has been identifie...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Malwarebytes",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263578",
+    "date": "2026-01-22",
+    "title": "Can you use too many LOLBins to drop some RATs?",
+    "summary": "Recently, our team came across an infection attempt that stood out—not for its sophistication, but for how determined the attacker was to take a “living off the land” approach to the extreme. The end goal was to deploy Remcos, a Remote Access Trojan (RAT), and NetSupport Manager, a legitimate rem...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/01/can-you-use-too-many-lolbins-to-drop-some-rats?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263579",
+    "date": "2026-01-22",
+    "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
+    "summary": "A new malicious package discovered in the Python Package Index (PyPI) has been found to impersonate a popular library for symbolic mathematics to deploy malicious payloads, including a cryptocurrency miner, on Linux hosts. The package, named sympy-dev, mimics SymPy, replicating the latter's proje...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263580",
+    "date": "2026-01-22",
+    "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
+    "summary": "A new security flaw in SmarterTools SmarterMail email software has come under active exploitation in the wild, two days after the release of a patch. The vulnerability, which currently does not have a CVE identifier, is tracked by watchTowr Labs as WT-2026-0001. It was patched by SmarterTools on ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263581",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Prøver å saksøke Telenor for 600 mill: – Kravene er så gamle at de er foreldet ",
+    "summary": "Telia kjemper fortsatt for 600-millioners søksmålet. Torsdag starter ankesaken.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/prover-a-saksoke-telenor-for-600-millioner-kravene-er-sa-gamle-at-de-er-foreldet-br/566982",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263582",
+    "date": "2026-01-22",
+    "title": "Atlassian, GitLab, Zoom Release Security Patches",
+    "summary": "Fixes were rolled out for over two dozen vulnerabilities, including critical- and high-severity bugs. The post Atlassian, GitLab, Zoom Release Security Patches appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/atlassian-gitlab-zoom-release-security-patches/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263583",
+    "date": "2026-01-22",
+    "title": "Cisco fixed actively exploited Unified Communications zero day",
+    "summary": "Pierluigi Paganini January 21, 2026 Cisco patched a critical zero-day remote code execution flaw, tracked as CVE-2026-20045 (CVSS score of 8.2), actively exploited in attacks. An unauthenticated, remote attacker can exploit the flaw to execute arbitrary commands on the underlying operating system...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187177/security/cisco-fixed-actively-exploited-unified-communications-zero-day.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263584",
+    "date": "2026-01-22",
+    "title": "Hackers Targeting Cisco Unified CM Zero-Day ",
+    "summary": "Cisco has released patches for CVE-2026-20045, a critical vulnerability that can be exploited for unauthenticated remote code execution. The post Hackers Targeting Cisco Unified CM Zero-Day appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/hackers-targeting-cisco-unified-cm-zero-day/",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263585",
+    "date": "2026-01-22",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c1d7b960afbd0e6 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-android-malware-uses-ai-to-click-on-hidden-browser-ads/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263586",
+    "date": "2026-01-22",
+    "title": "Is AI-Generated Code Secure?, (Thu, Jan 22nd)",
+    "summary": "The title of this diary is perhaps a bit catchy but the question is important. I don’t consider myself as a good developer. That’s not my day job and I’m writing code to improve my daily tasks. I like to say “I’m writing sh*ty code! It works for me, no warranty that it will for for you”. Today, m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32648",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263587",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Lanserer nytt nettsted for digital sikkerhet",
+    "summary": "Regjeringens mål er at folk skal kunne gjøre egen virksomhet og Norge mer motstandsdyktig.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/lanserer-nytt-nettsted-for-digital-sikkerhet/567297",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263588",
+    "date": "2026-01-22",
+    "title": "Sikkert.no skal styrke Norges digitale motstandskraft",
+    "summary": "Sikkert.no skal bidra til å styrke Norges digitale motstandskraft ved å gi tydelige, like og korrekte råd om digital sikkerhet. Den nye nasjonale portalen for digital sikkerhet er utviklet av NSM, i tett samarbeid med Datatilsynet, Digitaliseringsdirektoratet og Politiet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://nsm.no/aktuelt/article-3640",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263589",
+    "date": "2026-01-22",
+    "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
+    "summary": "Cybersecurity company Arctic Wolf has warned of a \"new cluster of automated malicious activity\" that involves unauthorized firewall configuration changes on Fortinet FortiGate devices. The activity, it said, commenced on January 15, 2026, adding it shares similarities with a December 2025 campaig...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263590",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Trøndelag: Trenger 103 basestasjoner",
+    "summary": "Trøndelag fylke vil bruke ny finansieringsmodell for å tette hullene. Men for øyeblikket finnes det ikke penger.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/trondelag-kommuner-trenger-103-basestasjoner-for-god-nok-mobildekning/565925",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263591",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Telenor selger seg ut av Thailand",
+    "summary": "Telenor har inngått avtale om å selge sin eierandel i True Corporation til en samlet verdi på rundt 39 milliarder kroner.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-selger-seg-ut-av-thailand/567276",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263592",
+    "date": "2026-01-22",
+    "title": "Your Security Blind Spots are Like the Elephant in the SOC - Cybersecurity Insiders",
+    "summary": "Nobody could have been farther than the truth. This story captures what it's like in cybersecurity today. Security technologies are like those blind ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/your-security-blind-spots-are-like-the-elephant-in-the-soc/",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263593",
+    "date": "2026-01-22",
+    "title": "Industrial AI drives new approach to OT cyber security - SecurityBrief Australia",
+    "summary": "Industrial AI and IT/OT convergence are forcing factories to abandon closed networks and adopt hybrid, zero trust cyber security architectures.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/industrial-ai-drives-new-approach-to-ot-cyber-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263594",
+    "date": "2026-01-22",
+    "title": "MITRE introduces ESTM 3.0 to protect embedded systems across critical infrastructure",
+    "summary": "Moreover, the framework has proven valuable in various applications, including cyber threat modeling and attack path analysis, and its alignment with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/regulation-standards-and-compliance/mitre-introduces-estm-3-0-to-protect-embedded-systems-across-critical-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263595",
+    "date": "2026-01-22",
+    "title": "Ivanti: How To Save Time and Prevent Cyber Risks with AEM",
+    "summary": "Ivanti Cybersecurity Research on Autonomous Endpoint Management highlights enterprise productivity, visibility & security gains while blocking IT ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/ivanti-how-to-prevent-it-breaking-points-with-aem",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263596",
+    "date": "2026-01-22",
+    "title": "Securing the Smart Grid: Cyber challenges of connected energy assets - Atos",
+    "summary": "Atos enables energy sector organizations to secure both local and distributed critical systems through a comprehensive suite of cybersecurity, cloud, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://atos.net/en/blog/securing-the-smart-grid-cyber-challenges-of-connected-energy-assets",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263597",
+    "date": "2026-01-22",
+    "title": "Resurgence of a multi‑stage AiTM phishing and BEC campaign abusing SharePoint ",
+    "summary": "Microsoft Defender Researchers uncovered a multi‑stage adversary‑in‑the‑middle (AiTM) phishing and business email compromise (BEC) campaign targeting multiple organizations in the energy sector, resulting in the compromise of various user accounts. The campaign abused SharePoint file‑sharing serv...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/",
+    "tags": [
+      "phishing",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263598",
+    "date": "2026-01-22",
+    "title": "Felles portal for økt digital motstandskraft",
+    "summary": "Tirsdag 20. januar ble første versjon av en felles myndighetsportal for digital sikkerhet lansert. Målet er at den nye portalen sikkert.no skal være en felles inngang til råd og veiledning om digital sikkerhet for både innbyggere og virksomheter.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/felles-portal-for-okt-digital-motstandskraft/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263539",
     "date": "2026-01-22",
     "title": "European Space Agency’s cybersecurity in freefall as yet another breach exposes spacecraft and mission data",
