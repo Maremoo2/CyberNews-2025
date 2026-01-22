@@ -1,5 +1,162 @@
 [
   {
+    "id": "20263528",
+    "date": "2026-01-22",
+    "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
+    "summary": "Cisco has released fresh patches to address what it described as a \"critical\" security vulnerability impacting multiple Unified Communications (CM) products and Webex Calling Dedicated Instance that it has been actively exploited as a zero-day in the wild. The vulnerability, CVE-2026-20045 (CVSS ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263529",
+    "date": "2026-01-22",
+    "title": "[Ekstra] Arko AS: : Kripos henlegger mystisk hackerjakt",
+    "summary": "Mens trusselaktør sprer påstand om datatyveri, har ingen klart å finne spor etter inntrengere eller faktiske lekkasjer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/henlegger-pastand-om-datainnbrudd-mot-leverandor-av-pasientjournal/567123",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263530",
+    "date": "2026-01-22",
+    "title": "NIST officials detail impact of staff cuts on encryption and other priorities",
+    "summary": "The National Institute for Standards and Technology is starting 2026 with a smaller staff, a shrinking budget and some big responsibilities around supporting national security and cybersecurity. At a meeting Wednesday of the Information Security Privacy Advisory Board, NIST officials provided upd...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/encryption-nist-officials-detail-staff-cuts-impact/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263531",
+    "date": "2026-01-22",
+    "title": "ISC Stormcast For Thursday, January 22nd, 2026 https://isc.sans.edu/podcastdetail/9776, (Thu, Jan 22nd)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32646",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263532",
+    "date": "2026-01-22",
+    "title": "Amazon RDS for SQL Server enhances differential and transaction log restores support",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports differential and transaction log restores for instances configured with Multi-AZ and instances with read replicas in the same region. The native SQL Server backup and restore component provides an essential safeguard for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-diff-and-log-restores-for-maz-and-rr/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263533",
+    "date": "2026-01-22",
+    "title": "Why Higher Ed CIOs Must Rethink Cybersecurity - BankInfoSecurity",
+    "summary": "The security and IT supporting it will have to match that reality.\" Focusing on the Building Blocks of Security. To navigate the complex higher ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/higher-ed-cios-must-rethink-cybersecurity-a-30579",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263534",
+    "date": "2026-01-22",
+    "title": "Art Gilliland, Delinea | theCUBE + NYSE Wired: Cyber Security Leaders - YouTube",
+    "summary": "Art Gilliland, Delinea | theCUBE + NYSE Wired: Cyber Security Leaders 00:00 - Intro 00:06 - Identity-Focused Cybersecurity: Navigating Threats and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=-nZcT2NqRYQ",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263535",
+    "date": "2026-01-22",
+    "title": "The MCMC and BlackBerry Cybersecurity Centre of Excellence (CCoE) of Malaysia",
+    "summary": "Attending Courses at the CCoE — Your Journey to a Career in Cybersecurity. Cybersecurity Awareness. BlackBerry's security awareness training will ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.blackberry.com/en/secure-communications/ccoe",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263536",
+    "date": "2026-01-22",
+    "title": "Cybersecurity and Vendor Contracts: Protecting Patient Data - Orthodontic Products",
+    "summary": "This is not only a safeguard against disputes but also a critical asset during a cyber attack. Since almost every IT company servicing the U.S. dental ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://orthodonticproductsonline.com/practice-management/it/cybersecurity-vendor-contracts-orthodontic-practices/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263537",
+    "date": "2026-01-22",
+    "title": "How NordPass Can Save Your Business From Password Chaos - Cyber Magazine",
+    "summary": "Security beyond password management. NordPass is more than just a password manager, however. It's an advanced cybersecurity platform that helps ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/how-nordpass-can-save-your-business-from-password-chaos",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263538",
+    "date": "2026-01-22",
+    "title": "ASTRID-Net: SE-enhanced triple attention deep learning framework for IoT and IIoT security",
+    "summary": "Zhukabayeva, T., Zholshiyeva, L., Karabayev, N., Khan, S. & Alnazzawi, N. Cybersecurity solutions for industrial internet of Things–Edge computing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-36731-8",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263514",
     "date": "2026-01-22",
     "title": "Smashing Security podcast #451: I hacked the government, and your headphones are next",
