@@ -203,6 +203,14 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                   </p>
                 </div>
               )}
+              {/* Show severity model status when curated rate is low */}
+              {(Math.round(analysis.curatedCount / analysis.totalIncidents * 100) < 10) && (
+                <div className="severity-model-badge" style={{marginTop: '12px', padding: '8px', background: 'rgba(155, 89, 182, 0.15)', borderLeft: '3px solid #9b59b6', borderRadius: '4px'}}>
+                  <p style={{margin: 0, fontSize: '0.8rem', color: '#ecf0f1'}}>
+                    📊 <strong>Severity model conservative / pending enrichment</strong> — Curated rate: {Math.round(analysis.curatedCount / analysis.totalIncidents * 100)}%
+                  </p>
+                </div>
+              )}
             </>
           )}
         </div>
@@ -325,7 +333,11 @@ function generateNarrative(year, severity, topThemes, attributionRate, kpis, dat
   // Calculate high-severity articles (critical + high severity)
   const highSeverityCount = criticalCount + highCount;
   
+  // Note: High/critical severity is underrepresented early in the year because severity is only assigned when impact is confirmed
   if (year === 2026) {
+    if (highSeverityCount === 0) {
+      return `${year} incident tracking is underway. High/critical severity classifications are underrepresented early-year because severity is only set when impact is confirmed; many incidents remain 'moderate/low' until investigations conclude. "${topTheme}" is emerging as a key strategic risk. ${kpis.exploitLedRate}% of incident-related articles are exploit-led. <strong>Confirmed attribution rate (incident-level): ${attributionPct}%</strong> — Note: Actor listings include article-level mentions and suspected associations.`
+    }
     return `${year} saw ${highSeverityCount} high-severity articles (${criticalCount} critical, ${highCount} high severity), with "${topTheme}" emerging as the dominant strategic risk. ${kpis.exploitLedRate}% of incident-related articles were exploit-led, demonstrating attackers' continued focus on internet-facing vulnerabilities. <strong>Confirmed attribution rate (incident-level): ${attributionPct}%</strong> — Note: Actor listings include article-level mentions and suspected associations. The landscape continues to shift toward more sophisticated, strategic campaigns leveraging cloud infrastructure and identity-based attacks.`
   } else if (year === 2025) {
     return `${year} was marked by ${highSeverityCount} high-severity articles (${criticalCount} critical, ${highCount} high severity). ${topTheme} dominated the threat landscape, with attackers exploiting trust relationships and weak identity management. <strong>Confirmed attribution rate (incident-level): ${attributionPct}%</strong> — Actor listings include article-level mentions. Cloud infrastructure and supply chains became prime targets.`

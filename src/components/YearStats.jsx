@@ -16,21 +16,14 @@ function YearStats({ incidents, selectedYear }) {
       }
     })
 
-    // Find most common tag (exclude generic/meaningless tags)
-    const excludedTags = ['unknown', 'general', 'misc', 'other', 'n/a', 'none'];
-    const tagCounts = {}
+    // Find most common source (not tag)
+    const sourceCounts = {}
     incidents.forEach(incident => {
-      if (incident.tags) {
-        incident.tags.forEach(tag => {
-          const lowerTag = tag.toLowerCase();
-          if (!excludedTags.includes(lowerTag)) {
-            tagCounts[tag] = (tagCounts[tag] || 0) + 1
-          }
-        })
-      }
+      const source = incident.sourceName || 'Unknown';
+      sourceCounts[source] = (sourceCounts[source] || 0) + 1;
     })
-    const tagEntries = Object.entries(tagCounts).sort((a, b) => b[1] - a[1])
-    const mostCommonTag = tagEntries.length > 0 ? tagEntries[0][0] : 'N/A'
+    const sourceEntries = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1])
+    const mostCommonSource = sourceEntries.length > 0 ? sourceEntries[0][0] : 'N/A'
 
     // Find busiest month
     const monthCounts = Array(12).fill(0)
@@ -48,7 +41,7 @@ function YearStats({ incidents, selectedYear }) {
     return {
       totalIncidents: incidents.length,
       regionsCount: regions.size,
-      mostCommonTag,
+      mostCommonSource,
       busiestMonth: busiestMonthIndex >= 0 ? MONTHS_EN[busiestMonthIndex] : 'N/A'
     }
   }, [incidents])
@@ -66,8 +59,8 @@ function YearStats({ incidents, selectedYear }) {
           <div className="stat-label">regions</div>
         </div>
         <div className="stat-item">
-          <div className="stat-text">{stats.mostCommonTag}</div>
-          <div className="stat-label">most used tag</div>
+          <div className="stat-text">{stats.mostCommonSource}</div>
+          <div className="stat-label">most common source</div>
         </div>
         <div className="stat-item">
           <div className="stat-text">{stats.busiestMonth}</div>

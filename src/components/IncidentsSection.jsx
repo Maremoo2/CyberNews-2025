@@ -305,16 +305,24 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
                 </h3>
                 <p className="summary">{item.summary}</p>
                 <div className="tags">
-                  {(item.tags || []).slice(0, 6).map((t) => (
-                    <button
-                      key={t}
-                      className={`tag ${selectedTags.includes(t) ? 'selected' : ''}`}
-                      onClick={() => onTagClick(t)}
-                      aria-label={selectedTags.includes(t) ? `Remove filter: ${t}` : `Filter on: ${t}`}
-                    >
-                      {t}
-                    </button>
-                  ))}
+                  {(item.tags || [])
+                    .filter(t => {
+                      // Filter out unwanted tags (unknown, empty, and source names that shouldn't be displayed as tags)
+                      const lowerTag = t.toLowerCase();
+                      const excludedTags = ['unknown', 'general', 'misc', 'other', 'n/a', 'none', ''];
+                      return !excludedTags.includes(lowerTag);
+                    })
+                    .slice(0, 6)
+                    .map((t) => (
+                      <button
+                        key={t}
+                        className={`tag ${selectedTags.includes(t) ? 'selected' : ''}`}
+                        onClick={() => onTagClick(t)}
+                        aria-label={selectedTags.includes(t) ? `Remove filter: ${t}` : `Filter on: ${t}`}
+                      >
+                        {t}
+                      </button>
+                    ))}
                 </div>
               </article>
             );
