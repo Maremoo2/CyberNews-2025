@@ -218,39 +218,74 @@ function DataHealthDashboard({ incidents }) {
                   <div className="completeness-stat">
                     <span className="stat-label">Sector/Tags:</span>
                     <span className="stat-value">{completeness.percentages.with_sector}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_sector}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_sector}%`,
+                      background: completeness.percentages.with_sector >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_sector >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                   {completeness.sectorQuality && (
                     <div className="completeness-stat">
                       <span className="stat-label">Sector (Enriched):</span>
                       <span className="stat-value">{completeness.sectorQuality.enrichmentRate}%</span>
-                      <span className="stat-bar" style={{ width: `${completeness.sectorQuality.enrichmentRate}%` }}></span>
+                      <span className="stat-bar" style={{ 
+                        width: `${completeness.sectorQuality.enrichmentRate}%`,
+                        background: completeness.sectorQuality.enrichmentRate >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                    completeness.sectorQuality.enrichmentRate >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                    'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                      }}></span>
                     </div>
                   )}
                   <div className="completeness-stat">
                     <span className="stat-label">Country:</span>
                     <span className="stat-value">{completeness.percentages.with_country}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_country}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_country}%`,
+                      background: completeness.percentages.with_country >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_country >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                   <div className="completeness-stat">
                     <span className="stat-label">Incident Type:</span>
                     <span className="stat-value">{completeness.percentages.with_incident_type}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_incident_type}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_incident_type}%`,
+                      background: completeness.percentages.with_incident_type >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_incident_type >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                   <div className="completeness-stat">
                     <span className="stat-label">Actor Category:</span>
                     <span className="stat-value">{completeness.percentages.with_actor_category}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_actor_category}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_actor_category}%`,
+                      background: completeness.percentages.with_actor_category >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_actor_category >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                   <div className="completeness-stat">
                     <span className="stat-label">MITRE Mapping:</span>
                     <span className="stat-value">{completeness.percentages.with_mitre_mapping}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_mitre_mapping}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_mitre_mapping}%`,
+                      background: completeness.percentages.with_mitre_mapping >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_mitre_mapping >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                   <div className="completeness-stat">
                     <span className="stat-label">Timeline Status:</span>
                     <span className="stat-value">{completeness.percentages.with_milestones}%</span>
-                    <span className="stat-bar" style={{ width: `${completeness.percentages.with_milestones}%` }}></span>
+                    <span className="stat-bar" style={{ 
+                      width: `${completeness.percentages.with_milestones}%`,
+                      background: completeness.percentages.with_milestones >= 80 ? 'linear-gradient(90deg, #4caf50 0%, #8bc34a 100%)' :
+                                  completeness.percentages.with_milestones >= 50 ? 'linear-gradient(90deg, #ffa726 0%, #ffb74d 100%)' :
+                                  'linear-gradient(90deg, #ef5350 0%, #e57373 100%)'
+                    }}></span>
                   </div>
                 </div>
               </div>

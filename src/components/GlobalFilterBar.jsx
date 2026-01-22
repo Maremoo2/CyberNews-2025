@@ -88,8 +88,6 @@ function GlobalFilterBar({
             onChange={(e) => handleFilterChange('contentType', e.target.value)}
           >
             <option value="all">All Content</option>
-            <option value="incident">🔴 Incidents Only</option>
-            <option value="article">📰 Articles Only</option>
             {Object.entries(taxonomy.contentTypes).map(([key, type]) => (
               <option key={key} value={key}>
                 {type.icon} {type.label}

@@ -282,6 +282,11 @@ export default function IncidentsSection({ incidents, onTagClick, selectedTags, 
                   <time className="date">{formatDate(item.date)}</time>
                   <span className={`region ${item.region?.toLowerCase()}`}>{item.region}</span>
                   {item.severity === "critical" && <span className="badge critical">CRITICAL</span>}
+                  {item.sourceName && (
+                    <span className="source-badge" title={`Source: ${item.sourceName}`}>
+                      📰 {item.sourceName}
+                    </span>
+                  )}
                 </div>
                 <h3 className="title">
                   {impactBadge && (

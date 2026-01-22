@@ -485,7 +485,7 @@
 .completeness-stat .stat-bar {
   flex: 1;
   height: 8px;
-  background: linear-gradient(90deg, #4caf50 0%, #8bc34a 100%);
   border-radius: 4px;
   transition: width 0.3s ease;
+  /* Color will be determined by percentage value in component */
 }

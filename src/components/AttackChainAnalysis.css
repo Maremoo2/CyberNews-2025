@@ -175,10 +175,13 @@
   padding: 0.5rem;
   border-radius: 4px;
   transition: background 0.2s ease;
+  cursor: pointer;
+  user-select: none;
 }
 
 .chain-examples summary:hover {
-  background: #f8f9fa;
+  background: #e3f2fd;
+  color: #1976d2;
 }
 
 .chain-examples ul {
