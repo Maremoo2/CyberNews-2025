@@ -1,5 +1,477 @@
 [
   {
+    "id": "20263539",
+    "date": "2026-01-22",
+    "title": "European Space Agency’s cybersecurity in freefall as yet another breach exposes spacecraft and mission data",
+    "summary": "It has just been a few weeks since reports emerged of the Christmas cyber attack suffered by the European Space Agency (ESA), and the situation has already become worse. Read more in my article on the Hot for Security blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/european-space-agencys-cybersecurity-in-freefall-as-yet-another-breach-exposes-spacecraft-and-mission-data",
+    "tags": [
+      "data-breach",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263540",
+    "date": "2026-01-22",
+    "title": "IPTV : 5 000 abonnés de plus identifiés, la fin de l’impunité approche",
+    "summary": "Pendant longtemps dans de nombreux pays, l’IPTV illégale a prospéré dans une zone grise, à l’abri du regard des autorités. Les réseaux étaient traqués, les serveurs parfois coupés, mais les utilisateurs restaient largement invisibles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596605-iptv-5-000-abonnes-de-plus-identifies-la-fin-de-l-impunite-approche.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263541",
+    "date": "2026-01-22",
+    "title": "Menaces sur Mac : pourquoi une protection dédiée devient indispensable en 2026",
+    "summary": "Virus, ransomwares, phishing : pourquoi macOS n’est plus à l’abri en 2026 et comment se protéger efficacement.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596488-je-pensais-mon-mac-protege-jusqu-a-ce-que-les-menaces-arrivent.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263542",
+    "date": "2026-01-22",
+    "title": "Reconnaissance faciale, spyware, fausses antennes relais... l'Irlande renforce ses outils de surveillance",
+    "summary": "L'Irlande veut autoriser ses forces de l'ordre à utiliser des logiciels espions et à intercepter les communications chiffrées. Le projet de loi, présenté le 19 janvier, légalise également les capteurs IMSI, ces équipements qui simulent des antennes relais pour localiser les téléphones. Les défens...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596512-reconnaissance-faciale-spyware-fausses-antennes-relais-l-irlande-renforce-ses-outils-de-surveillance.html",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263543",
+    "date": "2026-01-22",
+    "title": "Sécurité informatique : comment protéger son ordinateur sans payer d’abonnement ?",
+    "summary": "Avast a non seulement la bonne idée de vous proposer une solution étoffée sur le plan de la cybersécurité, mais en plus, sans avoir à dépenser 1€.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596032-securite-informatique-comment-proteger-son-ordinateur-sans-payer-d-abonnement.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263544",
+    "date": "2026-01-22",
+    "title": "Ingram Micro Data Breach Affects Over 42,000 People After Ransomware Attack",
+    "summary": "Ingram Micro, one of the world’s largest IT distributors, has confirmed that sensitive personal data was leaked following a ransomware attack that disrupted its operations last year. The Ingram Micro data breach incident, which paralysed the company’s logistics systems for nearly a week in July 2...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ingram-micro-data-breach/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263545",
+    "date": "2026-01-22",
+    "title": "Ireland to legalize spyware and expand state surveillance powers",
+    "summary": "The Irish government has approved the drafting of a sweeping new surveillance law, the Communications Bill, which expands the State’s capabilities to lawfully intercept all forms of digital communication, including encrypted messaging, IoT data, and emails, and sets the legal ground for the deplo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/ireland-to-legalize-spyware-and-expand-state-surveillance-powers/",
+    "tags": [
+      "iot",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263546",
+    "date": "2026-01-22",
+    "title": "Claroty raises $150 million to advance global CPS protection platform",
+    "summary": "Claroty has secured $150 million in Series F funding led by Golub Growth, an affiliate of Golub Capital, with additional confirmed participation from existing investors up to $50 million. This investment will support global expansion through organic and inorganic growth as the company continues t...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/claroty-150-million-funding/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263547",
+    "date": "2026-01-22",
+    "title": "Tesla, Sony, and Alpine systems compromised on day one of Pwn2Own Automotive 2026",
+    "summary": "Security researchers uncovered 37 previously unknown vulnerabilities on the opening day of Pwn2Own Automotive 2026, earning a combined $516,500 in prize money, according to results released by Trend Micro’s Zero Day Initiative. The Master of Pwn leaderboard (Source: Trend Micro) Successful demons...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/pwn2own-automotive-2026-vulnerability-disclosure/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263548",
+    "date": "2026-01-22",
+    "title": "OpenWrt One gains support for running Debian",
+    "summary": "Debian now runs on the OpenWrt One hardware platform following recent engineering work by Collabora. OpenWrt One is a developer focused router designed to support embedded Linux work on standardized hardware. The platform serves as a reference device for the OpenWrt community and includes open ha...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/openwrt-one-running-debian/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263549",
+    "date": "2026-01-22",
+    "title": "TeraWave space-based network aims for 6 Tbps connectivity worldwide",
+    "summary": "Blue Origin announced TerraWave, a satellite communications network designed to support enterprise, data center, and government users that rely on reliable connectivity for mission-critical operations. The network will provide symmetrical data speeds of up to 6 Tbps worldwide. The TerraWave archi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/blue-origin-terrawave-space-based-network/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263550",
+    "date": "2026-01-22",
+    "title": "EaseUS Disk Copy 7.0.0 enables backup, restore, and migration without multiple drives connected",
+    "summary": "EaseUS announced EaseUS Disk Copy 7.0.0, representing a shift in how disk cloning and backup workflows are handled on Windows. The update introduces disk imaging–based backup and restore capabilities, allowing users to create disk image and restore them to physical storage without being constrain...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/easeus-disk-copy-7-0-0-disk-cloning-and-backup/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263551",
+    "date": "2026-01-22",
+    "title": "Exposed training apps are showing up in active cloud attacks",
+    "summary": "Security teams often spin up vulnerable applications for demos, training, or internal testing. A recent Pentera research report documents how those environments are being left exposed on the public internet and actively exploited. The research focuses on intentionally vulnerable apps such as OWAS...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/pentera-exposed-training-apps/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263552",
+    "date": "2026-01-22",
+    "title": "Hackers Turn AWS Buckets into LastPass Phishing Lures to Steal Vault Credentials",
+    "summary": "Executive Summary An ongoing phishing campaign is impersonating LastPass and abusing Amazon S3–hosted URLs as the first redirect hop to a fake LastPass domain, attempting to harvest victims’ master passwords and vault access. The operation—active since Jan 19, 2026 (US holiday weekend)—pushes ema...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/hackers-turn-aws-buckets-into-lastpass-phishing-lures-to-steal-vault-credentials/",
+    "tags": [
+      "phishing",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263553",
+    "date": "2026-01-22",
+    "title": "Cisco Unified CM and Webex Security Alert: Active Zero-Day CVE-2026-20045 Fixed",
+    "summary": "Cisco has recently issued security updates to fix a critical vulnerability impacting several Unified Communications Manager (CM) products and Webex Calling Dedicated Instance. Tracked as CVE-2026-20045, the flaw has been actively exploited as a zero-day in real-world attacks, creating a serious r...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/cisco-unified-cm-and-webex-security-alert-active-zero-day-cve-2026-20045-fixed/",
+    "tags": [
+      "vulnerability",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263554",
+    "date": "2026-01-22",
+    "title": "Data Security Protection Tips That Would Help Save Your Money",
+    "summary": "This post will provide you with data security protection tips to help you save money. Read on! For years, businesses have focused on safeguarding their customers’ passwords monetary and other confidential information from outside intrusion. However, consumers and individuals must now take data pr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/data-security-protection-tips/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263555",
+    "date": "2026-01-22",
+    "title": "2025 Q4 Ransomware Report",
+    "summary": "BlackFog’s 2025 Q4 Ransomware Report - The Unrelenting Surge: Ransomware Closes Q4 at Record Levels",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/2025-q4-ransomware-report/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263556",
+    "date": "2026-01-22",
+    "title": "Data Breach Prevention: Practical Ways To Stop Data Loss",
+    "summary": "Data breaches are costly cyberthreats. Learn how data breach prevention strategies reduce risk and stop the most common causes in our guide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/data-breach-prevention-ways-to-stop-data-loss/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263557",
+    "date": "2026-01-22",
+    "title": "How A Clear Data Loss Prevention Policy Reduces Risk",
+    "summary": "Find out what's needed to create a strong data loss prevention policy and why this matters in a complex environment.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/clear-data-loss-prevention-policy-reduces-risk/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263558",
+    "date": "2026-01-22",
+    "title": "Getting A Data Loss Prevention Strategy Right",
+    "summary": "A strong data loss prevention strategy can be the difference between stopping a potential breach early or a costly mistake. Here's what firms need to know when creating one.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/getting-a-data-loss-prevention-strategy-right/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263559",
+    "date": "2026-01-22",
+    "title": "ANY.RUN Sandbox & MISP Integration: Confirm Alerts Faster, Stop Incidents Early ",
+    "summary": "Most SOC teams are overloaded with routine work. Tier 1 & 2 analysts spend too much time validating alerts, moving samples between tools, and chasing missing context. When integrations are weak, investigations slow down, MTTR grows, and SLAs suffer delays. That directly increases operational risk...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/anyrun-sandbox-misp-integration/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263560",
+    "date": "2026-01-22",
+    "title": "Azure AI Studio and Azure OpenAI",
+    "summary": "The rapid evolution of AI, particularly with powerful platforms like Azure AI Studio and Azure OpenAI, presents an exciting frontier for innovation. However, as I’ve explored in previous posts on Google Vertex and AWS Bedrock, this new landscape also introduces a complex web of identity and acces...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Identity Defined Security Alliance Blog",
+    "sourceUrl": "https://www.idsalliance.org/blog/azure-ai-studio-and-azure-openai/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "google",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263561",
+    "date": "2026-01-22",
+    "title": "VoidLink malware was almost entirely made by AI",
+    "summary": "VoidLink, the high-impact Linux malware framework disclosed last week, is back under scrutiny for claims that the bulk of its development was done by artificial intelligence (AI). According to the follow-up analysis from Check Point Research (CPR), which first disclosed VoidLink, the malware was ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120607/voidlink-malware-was-almost-entirely-made-by-ai.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263562",
+    "date": "2026-01-22",
+    "title": "Warum Microsoft-365-Konfigurationen geschützt werden müssen",
+    "summary": "Lesen Sie, warum CISOs den M365-Tenant stärker in den Blick nehmen müssen.IB Photography – shutterstock.com Im Jahr 2010 war Office 365 eine einfache Suite mit Office-Anwendungen und zusätzlicher E-Mail-Funktion. Das hat sich 15 Jahre später mit Microsoft 365 geändert: Die Suite ist ein wesentlic...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120020/warum-microsoft-365-konfigurationen-geschutzt-werden-mussen.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263563",
+    "date": "2026-01-22",
+    "title": "73% of CISOs more likely to consider AI-enabled security solution",
+    "summary": "CISO’s are increasingly turning to AI-enabled security technologies to augment their organizations’ cyber defense and extend the capabilities of their teams. According to Foundry’s latest Security Priorities Study, 73% of security decision-makers are now more likely to consider a security solutio...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120218/73-of-cisos-more-likely-to-consider-ai-enabled-security-solution.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263564",
+    "date": "2026-01-22",
+    "title": "Curl eliminates bug bounty program due to AI slop",
+    "summary": "Lately, the Curl code library has been receiving a lot of AI-generated reports from users hoping to receive financial compensation from the tool’s bug bounty program. Going through all the reports has taken up so many resources that Curl has decided to eliminate compensation for bug hunters altog...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120215/ai-junk-causes-curl-to-stop-paying-bug-hunters.html",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263565",
+    "date": "2026-01-22",
+    "title": "LastPass Warns of Phishing Campaign Attempting to Steal Master Passwords",
+    "summary": "Phoney email alerts suggest users need to backup their LastPass accounts within 24 hours. LastPass says it would never require this action from users",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/lastpass-phishing-master-passwords/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263566",
+    "date": "2026-01-22",
+    "title": "UK Executives Warn They May Not Survive a Major Cyber-Attack, Vodafone Survey Finds",
+    "summary": "UK Executives Warn They May Not Survive a Major Cyber-Attack, Vodafone Survey Finds",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/uk-execs-warn-may-not-suruvie/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20263567",
+    "date": "2026-01-22",
+    "title": "Over 160,000 Companies Notify Regulators of GDPR Breaches",
+    "summary": "DLA Piper finds 22% increase in breached firms notifying European GDPR regulators",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/160000-companies-regulator-gdpr/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263568",
+    "date": "2026-01-22",
+    "title": "Incognito by Default: Guide to Setting Up a VPN to Ensure Your Privacy",
+    "summary": "The most trivial of situations risk exposing your privacy; for instance, when using public Wi-Fi in a café to open a link, using a shared network to check your bank balance, or when logging in from a hotel in a different country. Each of these actions reveals your browsing habits, location, and d...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/incognito-by-default-guide-to-setting-up-a-vpn-to-ensure-your-privacy",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263569",
+    "date": "2026-01-22",
+    "title": "LastPass Warns of Phishing Campaign Targeting Its Customers",
+    "summary": "The campaign targets customers with urgent \"maintenance\" alerts designed to steal master passwords within hours. The post LastPass Warns of Phishing Campaign Targeting Its Customers appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-lastpass-phishing-campaign/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263570",
+    "date": "2026-01-22",
+    "title": "Hackers breach Fortinet FortiGate devices, steal firewall configs",
+    "summary": "Fortinet FortiGate devices are being targeted in automated attacks that create rogue accounts and steal firewall configuration data, according to cybersecurity company Arctic Wolf. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-fortinet-fortigate-devices-steal-firewall-configs/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263528",
     "date": "2026-01-22",
     "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
