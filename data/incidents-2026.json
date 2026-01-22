@@ -1,5 +1,190 @@
 [
   {
+    "id": "20263514",
+    "date": "2026-01-22",
+    "title": "Smashing Security podcast #451: I hacked the government, and your headphones are next",
+    "summary": "In episode 451 of \"Smashing Security,\" we meet the cybercriminal who hacked the US Supreme Court, Veterans Affairs, and more - and then helpfully posted screenshots (and even someone’s blood type) on an account called \"I hacked the government.\" Plus we discuss how researchers uncovered a creepy f...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/smashing-security-podcast-451/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263515",
+    "date": "2026-01-22",
+    "title": "What Security Leaders Could Expect in 2026",
+    "summary": "Experts share their thoughts on trends, technologies and leadership qualities shaping the future of security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102084-what-security-leaders-could-expect-in-2026",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263516",
+    "date": "2026-01-22",
+    "title": "What Background Checks Miss: The Human Layer Behind Modern Screening",
+    "summary": "As background checks become more standard, they can run the risk of becoming less thorough.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102083-what-background-checks-miss-the-human-layer-behind-modern-screening",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263518",
+    "date": "2026-01-22",
+    "title": "One in Ten UK Businesses Fear They Would Not Survive a Major Cyberattack",
+    "summary": "UK businesses are facing growing pressure from cyber threats, with a new survey warning that many may not withstand major UK businesses cyberattack. The findings highlight how exposed companies across the country remain to online fraud and cybercrime, as gaps in training, weak password practices,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/uk-businesses-cyberattack/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263519",
+    "date": "2026-01-22",
+    "title": "Unbounded AI use can break your systems",
+    "summary": "In this Help Net Security video, James Wickett, CEO of DryRun Security, explains cyber risks many teams underestimate as they add AI to products. He focuses on how fast LLM features are pushed into live applications without limits or guardrails. The video also looks at AI-generated code and why i...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/unbounded-ai-risk-video/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263520",
+    "date": "2026-01-22",
+    "title": "The internet’s oldest trust mechanism is still one of its weakest links",
+    "summary": "Attackers continue to rely on domain names as an entry point into enterprise systems. A CSC domain security study finds that large organizations leave this part of their attack surface underprotected, even as attacks become more frequent. The research examined the Forbes Global 2000 and compared ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/csc-domain-security-practices/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263521",
+    "date": "2026-01-22",
+    "title": "A new framework helps banks sort urgent post-quantum crypto work from the rest",
+    "summary": "Financial institutions now have a concrete method for deciding where post-quantum cryptography belongs on their security roadmaps. New research coordinated by Europol sets out a scoring framework that helps banks rank systems and business use cases based on quantum risk and the time required to m...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/europol-post-quantum-cryptography-migration/",
+    "tags": [
+      "finance",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263522",
+    "date": "2026-01-22",
+    "title": "macOS Tahoe improves privacy and communication safety",
+    "summary": "macOS Tahoe privacy and security features focus on screening unwanted contact, limiting tracking, and keeping more decisions on the device. Most updates run quietly in the background and require little setup. Built-in filtering for calls and messages Apple reduced exposure to social engineering a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/macos-tahoe-security/",
+    "tags": [
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263523",
+    "date": "2026-01-22",
+    "title": "Protect Your Clinic from Data Leaks",
+    "summary": "In this post, I will show you how to protect your clinic from data leaks. As a clinic manager, you’re tasked with safeguarding one of the most sensitive types of information there is: patient data. The challenge is immense, and the stakes have never been higher. For the 14th consecutive year, the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/protect-your-clinic-from-data-leaks/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263524",
+    "date": "2026-01-22",
+    "title": "Why Cybersecurity is a Business Strategy",
+    "summary": "In this post, I will talk about why cybersecurity is a business strategy. For years, many business leaders have viewed cybersecurity through a narrow lens: a mandatory IT expense, a technical burden, and a cost center that offers no tangible return on investment. This perspective, however, is not...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cybersecurity-business-strategy/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263525",
+    "date": "2026-01-22",
+    "title": "A Business Guide to a Perfect IT Setup",
+    "summary": "Read on for our business guide to a perfect IT setup. As a business owner, you wear many hats, but “Chief Technology Officer” probably wasn’t in the job description. You’re likely all too familiar with the frustration of a computer that won’t cooperate, the sinking feeling when the server goes do...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/business-guide-to-a-perfect-it-setup/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263526",
+    "date": "2026-01-22",
+    "title": "Tokenization vs Encryption: How to Choose",
+    "summary": "As enterprises continue their rapid shift toward digital-first operations, data protection has evolved from a technical safeguard into a... The post Tokenization vs Encryption: How to Choose appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/tokenization-vs-encryption-how-to-choose/",
+    "tags": [
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263527",
+    "date": "2026-01-22",
+    "title": "UStrive Security Oversight Exposed Personal Information of Users",
+    "summary": "UStrive, an online mentoring platform for high school and college students, recently had a serious security lapse that exposed the personal information of its users — including minors. The nonprofit said the issue has been fixed, but it hasn’t committed to notifying affected users or shared many ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/u-strive-security-oversight-exposed-personal-information-of-users",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
     "id": "20263484",
     "date": "2026-01-22",
     "title": "Announcing availability of second-generation AWS Outposts racks in 20 more countries",
@@ -28,6 +213,22 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263517",
+    "date": "2026-01-21",
+    "title": "Researchers say they convinced Gemini to leak Google Calendar data",
+    "summary": "Google's AI assistant was tricked into providing sensitive data with a simple calendar invite. Google's AI assistant Gemini has surged to the top of AI leaderboards since the search giant's latest update last month.However, cybersecurity researchers say the AI chatbot still has some privacy probl...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/tech/104935/researchers-say-they-convinced-gemini-to-leak-google-calendar-data",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "google"
     ],
     "impact": 3
   },
