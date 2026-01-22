@@ -244,6 +244,16 @@
   color: #c53030;
 }
 
+.source-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: #e6f7ff;
+  color: #0066cc;
+  border: 1px solid #91d5ff;
+}
+
 .title {
   margin: 0 0 1rem 0;
   font-size: 1.25rem;
