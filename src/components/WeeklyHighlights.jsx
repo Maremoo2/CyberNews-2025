@@ -25,9 +25,37 @@ function WeeklyHighlights({ incidents }) {
     // Group by title similarity or incidentId to find most covered stories
     const incidentGroups = {};
     
+    // Stop phrases that indicate generic/non-specific titles
+    const genericTitlePatterns = [
+      /^cyber security news/i,
+      /^security news/i,
+      /^news update/i,
+      /^daily brief/i,
+      /^weekly roundup/i,
+      /^threat intel/i
+    ];
+    
     recentIncidents.forEach(incident => {
-      // Use incidentId if available, otherwise use first few words of title
-      const key = incident.incidentId || incident.title?.substring(0, 50) || 'unknown';
+      let key;
+      
+      // Always prefer incidentId if available
+      if (incident.incidentId) {
+        key = incident.incidentId;
+      } else if (incident.title) {
+        // Check if title is generic - if so, treat each as unique to avoid over-merging
+        const isGenericTitle = genericTitlePatterns.some(pattern => pattern.test(incident.title));
+        
+        if (isGenericTitle) {
+          // Use full title + source to ensure uniqueness for generic titles
+          key = `${incident.title}-${incident.sourceName || ''}-${incident.date}`;
+        } else {
+          // For specific titles, extract key organization/incident name (first 40 chars)
+          // This helps group similar coverage of same incident
+          key = incident.title.substring(0, 40);
+        }
+      } else {
+        key = `unknown-${incident.date}`;
+      }
       
       if (!incidentGroups[key]) {
         incidentGroups[key] = {

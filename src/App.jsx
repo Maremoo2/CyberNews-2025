@@ -517,11 +517,11 @@ function App() {
                 : "Overview of cybersecurity incidents"}
             </p>
             <div className="data-timestamp-section">
-              <p className="data-through" title="Latest article date in dataset">
-                📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'}
+              <p className="data-through" title="Latest article published date in dataset">
+                📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'} <em>(latest article published)</em>
               </p>
               <p className="last-updated" title={`System last refreshed: ${lastUpdated.utc}`}>
-                🔄 Last updated: {lastUpdated.utc}
+                🔄 Last updated: {lastUpdated.utc} <em>(last pipeline run)</em>
               </p>
               {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
                 <p className="enrichment-timestamp" title="Analytics generation date">
