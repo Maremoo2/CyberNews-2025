@@ -143,6 +143,11 @@ function CISOMode({ onModeChange, incidents }) {
           <div className="ciso-description">
             Executive-level view with enhanced filtering for strategic decision making
           </div>
+          
+          <div className="ciso-methodology-note">
+            <small>📊 <strong>Data source:</strong> Aggregated from {incidents.length} cybersecurity news articles. 
+            Multiple articles may cover the same incident. Technical sections hidden for executive clarity.</small>
+          </div>
 
           <div className="filter-options">
             <label className={`filter-option ${mode.incidentOnly ? 'active' : ''}`}>

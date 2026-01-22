@@ -82,6 +82,17 @@ function QuarterlyReview({ incidents }) {
       
       q.actorCount = q.actors.size;
       
+      // Detect if quarter is partial (not all 3 months have data)
+      const monthsInQuarter = new Set();
+      q.incidents.forEach(incident => {
+        if (incident.date) {
+          const date = new Date(incident.date);
+          monthsInQuarter.add(date.getMonth());
+        }
+      });
+      q.isPartial = monthsInQuarter.size < 3;
+      q.monthsWithData = Array.from(monthsInQuarter).sort((a, b) => a - b);
+      
       return q;
     });
 
@@ -97,13 +108,20 @@ function QuarterlyReview({ incidents }) {
     return `Q${quarterNum}`;
   };
 
-  const getQuarterMonths = (quarterNum) => {
+  const getQuarterMonths = (quarterNum, isPartial, monthsWithData) => {
     const months = {
       1: 'Jan-Mar',
       2: 'Apr-Jun',
       3: 'Jul-Sep',
       4: 'Oct-Dec'
     };
+    
+    if (isPartial && monthsWithData && monthsWithData.length > 0) {
+      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const dataMonths = monthsWithData.map(m => monthNames[m]).join(', ');
+      return `${dataMonths} (partial)`;
+    }
+    
     return months[quarterNum] || '';
   };
 
@@ -119,7 +137,7 @@ function QuarterlyReview({ incidents }) {
       <div className="quarters-grid">
         {quarterlyData.map((quarter, index) => {
           const prevQuarter = index > 0 ? quarterlyData[index - 1] : null;
-          const qoqChange = prevQuarter 
+          const qoqChange = prevQuarter && prevQuarter.count > 0
             ? ((quarter.count - prevQuarter.count) / prevQuarter.count * 100).toFixed(1)
             : null;
           
@@ -127,8 +145,8 @@ function QuarterlyReview({ incidents }) {
             <div key={quarter.quarter} className="quarter-card">
               <div className="quarter-card-header">
                 <div className="quarter-title">
-                  <h4>{quarter.year} {getQuarterName(quarter.quarterNum)}</h4>
-                  <span className="quarter-period">{getQuarterMonths(quarter.quarterNum)}</span>
+                  <h4>{quarter.year} {getQuarterName(quarter.quarterNum)}{quarter.isPartial ? ' (YTD)' : ''}</h4>
+                  <span className="quarter-period">{getQuarterMonths(quarter.quarterNum, quarter.isPartial, quarter.monthsWithData)}</span>
                 </div>
                 {qoqChange !== null && (
                   <div className={`qoq-badge ${qoqChange > 0 ? 'increase' : 'decrease'}`}>
@@ -141,7 +159,7 @@ function QuarterlyReview({ incidents }) {
                 <div className="quarter-metric-row">
                   <div className="quarter-metric">
                     <span className="metric-value">{quarter.count}</span>
-                    <span className="metric-label">Total Incidents</span>
+                    <span className="metric-label">Incident Articles</span>
                   </div>
                   <div className="quarter-metric">
                     <span className="metric-value">{quarter.avgImpact}</span>

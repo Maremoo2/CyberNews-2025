@@ -67,12 +67,12 @@ function TrendContinuity({ incidents }) {
       const countChange = month.count - prevMonth.count;
       const countChangePercent = prevMonth.count > 0 
         ? ((countChange / prevMonth.count) * 100).toFixed(1)
-        : 0;
+        : null; // Return null instead of 0 when no prior data
       
       const impactChange = month.avgImpact - prevMonth.avgImpact;
       const impactChangePercent = prevMonth.avgImpact > 0
         ? ((impactChange / prevMonth.avgImpact) * 100).toFixed(1)
-        : 0;
+        : null; // Return null instead of 0 when no prior data
 
       // Find new attack types
       const prevAttacks = Object.keys(prevMonth.attackTypes);
@@ -153,11 +153,17 @@ function TrendContinuity({ incidents }) {
                 <div className="month-change-summary">
                   <span 
                     className="change-badge"
-                    style={{ color: getChangeColor(parseFloat(month.changes.countPercent)) }}
+                    style={{ color: month.changes.countPercent !== null ? getChangeColor(parseFloat(month.changes.countPercent)) : '#64748b' }}
                   >
-                    {getChangeIcon(parseFloat(month.changes.countPercent))}
-                    {month.changes.countPercent > 0 ? '+' : ''}
-                    {month.changes.countPercent}%
+                    {month.changes.countPercent !== null ? (
+                      <>
+                        {getChangeIcon(parseFloat(month.changes.countPercent))}
+                        {month.changes.countPercent > 0 ? '+' : ''}
+                        {month.changes.countPercent}%
+                      </>
+                    ) : (
+                      'N/A (insufficient history)'
+                    )}
                   </span>
                 </div>
               )}
@@ -167,7 +173,7 @@ function TrendContinuity({ incidents }) {
               <div className="metric">
                 <span className="metric-label">Avg Impact</span>
                 <span className="metric-value">{month.avgImpact}</span>
-                {month.changes && month.changes.impactPercent !== 0 && (
+                {month.changes && month.changes.impactPercent !== null && month.changes.impactPercent !== 0 && (
                   <span 
                     className="metric-change"
                     style={{ color: getChangeColor(parseFloat(month.changes.impactPercent)) }}

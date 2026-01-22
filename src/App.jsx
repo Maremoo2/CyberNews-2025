@@ -34,6 +34,7 @@ import BiasIndicator from './components/BiasIndicator'
 import TrendContinuity from './components/TrendContinuity'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
+import WeeklyHighlights from './components/WeeklyHighlights'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -169,15 +170,28 @@ function App() {
       const date = new Date(metadata.lastUpdated);
       return { 
         formatted: date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
-        iso: date.toISOString().split('T')[0]
+        iso: date.toISOString().split('T')[0],
+        utc: date.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
       };
     }
     // Fallback to current date if metadata is not available
+    const now = new Date();
     return { 
-      formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
-      iso: new Date().toISOString().split('T')[0] 
+      formatted: now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+      iso: now.toISOString().split('T')[0],
+      utc: now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
     };
   }, []);
+
+  // Calculate the latest data point (newest article date)
+  const latestDataPoint = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) return null;
+    const latestDate = incidentsData.reduce((latest, incident) => {
+      if (!incident.date) return latest;
+      return incident.date > latest ? incident.date : latest;
+    }, '1970-01-01');
+    return latestDate !== '1970-01-01' ? latestDate : null;
+  }, [incidentsData]);
 
   // Calculate estimated unique incidents vs total articles using deduplication
   const deduplicationStats = useMemo(() => {
@@ -502,14 +516,19 @@ function App() {
                 ? "Year-to-date coverage of cybersecurity news and incidents"
                 : "Overview of cybersecurity incidents"}
             </p>
-            <p className="last-updated" title={`Data last refreshed: ${lastUpdated.iso}`}>
-              Last updated: {lastUpdated.iso}
-            </p>
-            {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
-              <p className="enrichment-timestamp" title="Analytics generation date">
-                Analytics generated: {enrichmentInfo.timestamp}
+            <div className="data-timestamp-section">
+              <p className="data-through" title="Latest article published date in dataset">
+                📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'} <em>(latest article published)</em>
               </p>
-            )}
+              <p className="last-updated" title={`System last refreshed: ${lastUpdated.utc}`}>
+                🔄 Last updated: {lastUpdated.utc} <em>(last pipeline run)</em>
+              </p>
+              {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
+                <p className="enrichment-timestamp" title="Analytics generation date">
+                  📊 Analytics generated: {enrichmentInfo.timestamp}
+                </p>
+              )}
+            </div>
             <p className="data-counts">
               {uniqueIncidentCount === totalSourceCount ? (
                 <span className="count-item">
@@ -589,14 +608,19 @@ function App() {
         </div>
       </section>
 
-      {/* Data Health Dashboard */}
-      <DataHealthDashboard incidents={incidentsData} />
+      {/* Weekly Highlights - Top 3 This Week */}
+      {selectedYear === new Date().getFullYear() && (
+        <WeeklyHighlights incidents={incidentsData} />
+      )}
 
-      {/* Glossary Analytics - Term Usage Statistics */}
-      <GlossaryAnalytics incidents={incidentsData} />
+      {/* Data Health Dashboard (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DataHealthDashboard incidents={incidentsData} />}
 
-      {/* Deduplication Statistics - Show estimated unique incidents */}
-      <DeduplicationStats incidents={incidentsData} />
+      {/* Glossary Analytics - Term Usage Statistics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <GlossaryAnalytics incidents={incidentsData} />}
+
+      {/* Deduplication Statistics - Show estimated unique incidents (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DeduplicationStats incidents={incidentsData} />}
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />
@@ -637,11 +661,11 @@ function App() {
       {/* Quarterly Review - Q1-Q4 Summaries */}
       <QuarterlyReview incidents={incidentsData} />
 
-      {/* Bias Indicator - Source & Regional Bias */}
-      <BiasIndicator incidents={incidentsData} />
+      {/* Bias Indicator - Source & Regional Bias (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <BiasIndicator incidents={incidentsData} />}
 
-      {/* Validation Dashboard - Data Quality Metrics */}
-      <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />
+      {/* Validation Dashboard - Data Quality Metrics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />}
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
@@ -679,8 +703,8 @@ function App() {
         <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
       </div>
 
-      {/* Methodology and Limitations */}
-      <MethodologyAndLimitations />
+      {/* Methodology and Limitations (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <MethodologyAndLimitations />}
 
       {/* Year Wheel */}
       <YearWheel 
@@ -702,8 +726,8 @@ function App() {
       {/* Back to Top Button */}
       <BackToTop />
 
-      {/* Glossary Panel */}
-      <GlossaryPanel />
+      {/* Glossary Panel (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <GlossaryPanel />}
 
       <footer className="footer">
         <div className="footer-reflection">

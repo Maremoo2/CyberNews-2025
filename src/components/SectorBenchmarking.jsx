@@ -52,9 +52,9 @@ function SectorBenchmarking({ incidents, filters }) {
       </div>
 
       <div className="methodology-note">
-        <strong>Methodology:</strong> Sector KPIs calculated from unique incident data (deduplicated). 
+        <strong>Methodology:</strong> Sector KPIs calculated from incident-related articles tagged with sector classifications.
         Enables strategic comparisons like "Energy has 2x higher critical rate than Finance."
-        <br/><small><em>Count type: unique incidents per sector</em></small>
+        <br/><small><em>Count type: sector-tagged incident articles (not fully deduplicated across sectors)</em></small>
       </div>
 
       <div className="benchmark-grid">
@@ -69,7 +69,7 @@ function SectorBenchmarking({ incidents, filters }) {
             >
               <div className="sector-header">
                 <h3>{getSectorIcon(sector.sector)} {capitalizeFirst(sector.sector)}</h3>
-                <span className="incident-count">{sector.totalIncidents} incidents</span>
+                <span className="incident-count">{sector.totalIncidents} article mentions</span>
               </div>
 
               <div className="kpi-grid">

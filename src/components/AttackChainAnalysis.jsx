@@ -32,6 +32,16 @@ function AttackChainAnalysis({ incidents, filters }) {
       <div className="section-header">
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
+        <div className="explanation-box">
+          <p className="explanation-text">
+            <strong>What are attack chains?</strong> These are typical attack sequences reconstructed from MITRE ATT&CK tags in reported incidents. 
+            They show how attackers progress from initial compromise to their final objective. Only multi-stage attacks are shown (incidents with 2+ different tactics).
+          </p>
+          <p className="explanation-example">
+            <em>Example:</em> An attack might start with "Initial Access" (phishing), move to "Execution" (running malware), 
+            establish "Persistence" (creating backdoors), and end with "Exfiltration" (stealing data).
+          </p>
+        </div>
         <div className="metadata">
           <span className="count-badge">
             {chainData.totalMultiStagedIncidents} multi-stage incidents
@@ -43,7 +53,7 @@ function AttackChainAnalysis({ incidents, filters }) {
       </div>
 
       <div className="methodology-note">
-        <strong>Methodology:</strong> Attack chains are reconstructed from incidents with multiple MITRE tactics, 
+        <strong>Technical note:</strong> Attack chains are reconstructed from incidents with multiple MITRE tactics, 
         ordered by typical attack progression (Initial Access → Execution → Persistence → etc.)
       </div>
 

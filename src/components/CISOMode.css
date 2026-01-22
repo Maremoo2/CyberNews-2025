@@ -60,10 +60,24 @@
 .ciso-description {
   color: #7f8c8d;
   font-size: 0.95rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding: 0.8rem;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 6px;
+}
+
+.ciso-methodology-note {
+  color: #5a6c7d;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 0.8rem;
+  background: rgba(102, 126, 234, 0.08);
+  border-left: 3px solid #667eea;
+  border-radius: 4px;
+}
+
+.ciso-methodology-note small {
+  line-height: 1.5;
 }
 
 .filter-options {
