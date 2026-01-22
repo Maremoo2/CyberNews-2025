@@ -1,5 +1,544 @@
 [
   {
+    "id": "20263599",
+    "date": "2026-01-22",
+    "title": "Hacking the grid: How digital sabotage turns infrastructure into a weapon",
+    "summary": "Today's power grid equipment incorporates internet-connected – and therefore hackable – computers. Joe Raedle/Getty ImagesThe darkness that swept over the Venezuelan capital in the predawn hours of Jan. 3, 2026, signaled a profound shift in the nature of modern conflict: the convergence of physic...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Conversation Cybersecurity",
+    "sourceUrl": "https://theconversation.com/hacking-the-grid-how-digital-sabotage-turns-infrastructure-into-a-weapon-272874",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263600",
+    "date": "2026-01-22",
+    "title": "Under Armour says it’s ‘aware’ of data breach claims after 72M customer records were posted online",
+    "summary": "TechCrunch obtained a sample of the stolen data, which contained names, email addresses, dates of birth, and the user's approximate geographic location. Under Armour confirmed some sensitive information was taken in the breach.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/22/under-armour-says-its-aware-of-data-breach-claims-after-72m-customer-records-were-posted-online/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263601",
+    "date": "2026-01-22",
+    "title": "1Password is introducing a new phishing prevention feature",
+    "summary": "1Password’s browser extension will notify users of a potential phishing attack. | Image: 1Password A successful phishing attack can cost a business an average of $4.8 million, according to research from IBM. To help reduce the risk of one succeeding, either at work or at home, 1Password is introd...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/864980/1password-security-phishing-attack-prevention-password-browser-extension-scammers",
+    "tags": [
+      "phishing",
+      "ibm"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263602",
+    "date": "2026-01-22",
+    "title": "Un parc éolien français paralysé par des hacktivistes, et des infrastructures hydrauliques menacées, l'ANSSI alerte",
+    "summary": "L'ANSSI, inquiète des hacktivistes qui s'attaquent aux infrastructures hydrauliques françaises, tire la sonnette d'alarme. Un parc éolien a même récemment été paralysé pendant plusieurs heures.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596704-un-parc-eolien-francais-paralyse-par-des-hacktivistes-et-des-infrastructures-hydrauliques-menacees-l-anssi-alerte.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263603",
+    "date": "2026-01-22",
+    "title": "Huawei et ZTE : le torchon brûle entre L'UE et la Chine",
+    "summary": "Alors que l’Union européenne propose le retrait progressif des équipements jugés à haut risque, dont Huawei et ZTE, de 18 secteurs critiques, Pékin juge ces mesures discriminatoires et menace de défendre ses entreprises.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596614-huawei-et-zte-le-torchon-brule-entre-l-ue-et-la-chine.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263604",
+    "date": "2026-01-22",
+    "title": "Sur Android, ce nouveau malware se sert de l’IA pour cliquer sur des pubs à votre insu",
+    "summary": "Un nouveau malware Android utilise l’IA pour générer des clics publicitaires sans interaction visible. Derrière cette fraude discrète, une mécanique plus aboutie qu’il n’y paraît, et une diffusion qui s’appuie sur des usages très répandus.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596662-sur-android-ce-nouveau-malware-se-sert-de-l-ia-pour-cliquer-sur-des-pubs-a-votre-insu.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263605",
+    "date": "2026-01-22",
+    "title": "L'expertise française de Thales s'exporte jusqu'en Alaska, où on utilise son outil de carte d'identité numérique",
+    "summary": "L'Alaska lance sa toute première application d'identification mobile pour ses citoyens. Conçu par le Français Thales, l'outil fait du téléphone portable une carte d'identité officielle, déjà adoptée par des milliers de résidents.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596686-l-expertise-francaise-de-thales-s-exporte-jusqu-en-alaska-ou-on-utilise-son-outil-de-carte-d-identite-numerique.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263606",
+    "date": "2026-01-22",
+    "title": "Attention à ce mail qui vous donne 24 heures pour sauvegarder votre coffre LastPass, c’est une arnaque",
+    "summary": "Une nouvelle campagne de phishing cible les utilisateurs et utilisatrices de LastPass. Des mails imitant le support du service évoquent une maintenance fictive afin de récupérer l’accès aux coffres.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596620-attention-a-ce-mail-qui-vous-donne-24-heures-pour-sauvegarder-votre-coffre-lastpass-c-est-une-arnaque.html",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263607",
+    "date": "2026-01-22",
+    "title": "64% des scripts tiers dans les pages web ont accès vos données sensibles",
+    "summary": "Une nouvelle étude ayant passé au crible 4 700 sites web montre comment la sécurité web s'est dégradée es 12 derniers mois. Les services tiers dispose d'un accès vos données sans justification, et les sites gouvernementaux sont de plus en plus infectés.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596596-des-scripts-tiers-dans-les-pages-web-ont-acces-vos-donnees-sensibles.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263608",
+    "date": "2026-01-22",
+    "title": "Une entreprise donnait les données des clients de son programme de fidélité à un réseau social, la CNIL voit rouge",
+    "summary": "La CNIL a sanctionné de 3,5 millions d'euros une entreprise reconnue coupable de transmission illégale de données de fidélité à un réseau social, sans consentement. Plus de 10,5 millions de personnes sont potentiellement concernées.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596599-une-entreprise-donnait-les-donnees-des-clients-de-son-programme-de-fidelite-a-un-reseau-social-la-cnil-voit-rouge.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263609",
+    "date": "2026-01-22",
+    "title": "Fortinet Admins Report Active Exploits on “Fixed” FortiOS 7.4.9 Firmware",
+    "summary": "Network administrators worldwide are scrambling this morning following credible reports that the critical Fortinet Single Sign-On (SSO) vulnerability, tracked as CVE-2025-59718, is being actively exploited on systems previously thought to be patched. The vulnerability, originally disclosed in Dec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/active-exploits-on-fixed-fortios-749-firmware/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263610",
+    "date": "2026-01-22",
+    "title": "IT teams aren’t equipped to stop rogue AI agents",
+    "summary": "Autonomous systems represent an attack surface existing cybersecurity services models aren’t designed to protect.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/rogue-ai-agents-threaten-msps-mssps-akati-sekurity/810231/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263611",
+    "date": "2026-01-22",
+    "title": "Pwn2Own Automotive 2026 Day 2 uncovers 29 zero-days, awards $439,250",
+    "summary": "The second day of Pwn2Own Automotive 2026 concluded with researchers earning an additional $439,250 for discovering 29 new zero-day vulnerabilities across modern automotive systems. This brings the event’s cumulative total to $955,750 for 66 unique bugs, with Munich-based Fuzzware.io continuing t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/pwn2own-automotive-2026-day-2-uncovers-29-zero-days-awards-439250/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263612",
+    "date": "2026-01-22",
+    "title": "AdGuard open-sources its custom VPN protocol ‘TrustTunnel’",
+    "summary": "AdGuard has officially open-sourced the protocol that powers its VPN service, now named TrustTunnel, marking a major step toward transparency and broader community collaboration in the VPN space. The protocol is designed to evade censorship, avoid traffic throttling, and maintain robust privacy p...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/adguard-open-sources-its-custom-vpn-protocol-trusttunnel/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263613",
+    "date": "2026-01-22",
+    "title": "Obsidian Security unveils end-to-end SaaS supply chain security to stop integration-led breaches",
+    "summary": "Obsidian Security announced end-to-end SaaS supply chain security solution, empowering organizations to monitor, control and contain the security risk hiding inside interconnected SaaS ecosystems. Companies depend on hundreds of SaaS applications to operate their business. The security threat pos...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/obsidian-saas-supply-chain-security/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263614",
+    "date": "2026-01-22",
+    "title": "Energy sector orgs targeted with AiTM phishing campaign",
+    "summary": "Organizations in the energy sector are being targeted with phishing emails aimed at compromising enterprise accounts, Microsoft warns. The attack campaign The attacks started with phishing emails with “NEW PROPOSAL – NDA” in the subject line, coming from a compromised email address belonging to a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/energy-sector-aitm-phishing-sharepoint-misuse/",
+    "tags": [
+      "phishing",
+      "critical-infrastructure",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263615",
+    "date": "2026-01-22",
+    "title": "The Death of “Patch Everything”",
+    "summary": "In this post, I will talk about the death of “Patch Everything”. In 2026, “zero vulnerability backlog” is mathematically impossible. It’s also unwise. The theme in cybersecurity today is simplification, unification, and power. And most importantly, aligning with business objectives. To keep up, t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/death-of-patch-everything/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263618",
+    "date": "2026-01-22",
+    "title": "CVE-2026-20045: Critical Zero-Day in Cisco Products Is Actively Exploited in the Wild",
+    "summary": "Hot on heels of the DoS vulnerability in Palo Alto Networks’ GlobalProtect (CVE-2026-0227), security professionals are facing another major challenge. This time, Cisco announced that several of its unified communications products are affected by a critical remote code execution (RCE) vulnerabilit...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-20045-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "cisco",
+      "palo alto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263620",
+    "date": "2026-01-22",
+    "title": "xAI is a Digital Epstein Island: Pentagon Funds the CSAM Generation and Distribution",
+    "summary": "December 2025 xAI management removed prevention of child sexual abuse material (CSAM). Pentagon contracts in July for $200 million remained active, funding xAI generation and distribution of CSAM. To be clear, Elon Musk apparently weighed in to remove safety and then xAI’s chatbot Grok admitted t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76345",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263621",
+    "date": "2026-01-22",
+    "title": "Spanish e-retailer PcComponentes denies report it was hacked",
+    "summary": "Spanish online electronics retailer PcComponentes has denied a hacker’s claims to have stolen data on its customers. Hackrisk.io, a strategic cyber threat intelligence platform developed and maintained by Hackmanac, reported that a malicious actor using the alias ‘daghetiaw’ claimed to have hacke...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120572/a-hacker-using-the-alias-daghetiaw-claims-to-have-breached-the-security-of-pccomponentes.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263622",
+    "date": "2026-01-22",
+    "title": "Hacker legen Websites von Conceptnet-Kunden lahm",
+    "summary": "Der Regensburger IT-Dienstleister Conceptnet wurde Opfer einer Ransomware-Attacke.fadfebrian – shutterstock.com Der Regensburger IT-Dienstleister Conceptnet informiert derzeit auf seiner Internetseite über eine technische Störung, die durch einen Ransomware-Angriff verursacht wurde. Berichten zuf...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120644/hacker-legen-websites-von-conceptnet-kunden-lahm.html",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263623",
+    "date": "2026-01-22",
+    "title": "Actively exploited Cisco UC bug requires immediate, version‑specific patching",
+    "summary": "Cisco has released patches for a critical remote code execution vulnerability in its unified communications products that attackers are actively exploiting. The US Cybersecurity and Infrastructure Security Agency has added the flaw to its Known Exploited Vulnerabilities catalog, confirming the ex...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120613/actively-exploited-cisco-uc-bug-requires-immediate-version%e2%80%91specific-patching.html",
+    "tags": [
+      "vulnerability",
+      "government",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263624",
+    "date": "2026-01-22",
+    "title": "Latin American Orgs Lack Confidence in Cyber Defenses, Skills",
+    "summary": "Cybersecurity professionals in Latin America are least likely to have faith in their countries' preparedness for cyberattacks on critical infrastructure, the World Economic Forum says.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/latin-american-confidence-cyber-defenses-skills",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263625",
+    "date": "2026-01-22",
+    "title": "DPRK Actors Deploy VS Code Tunnels for Remote Hacking",
+    "summary": "A spear-phishing campaign tied to the Democratic People's Republic of Korea (DPRK) uses trusted Microsoft infrastructure to avoid detection.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/dprk-vs-code-tunnels-remote-hacking",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263627",
+    "date": "2026-01-22",
+    "title": "Critical Appsmith Flaw Enables Account Takeovers",
+    "summary": "Critical vulnerability in Appsmith allows account takeover via flawed password reset process",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/appsmith-flaw-account-takeovers/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263628",
+    "date": "2026-01-22",
+    "title": "RealHomes CRM Plugin Flaw Affected 30,000 WordPress Sites",
+    "summary": "Security flaw in RealHomes CRM plugin allowed file uploads; patches released for 30,000+ sites",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/realhomes-crm-plugin-flaw/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263629",
+    "date": "2026-01-22",
+    "title": "Zero-Day Exploits Surge, Nearly 30% of Flaws Attacked Before Disclosure",
+    "summary": "VulnCheck analysts found that vulnerabilities exploited before being publicly disclosed rose from 23.6% in 2024 to 28.96% in 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/zeroday-exploits-surge-vulncheck/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263630",
+    "date": "2026-01-22",
+    "title": "Zendesk Support Systems Abused in Large-Scale Global Spam Campaign",
+    "summary": "A widespread spam campaign is currently exploiting customer support systems built on Zendesk, flooding inboxes worldwide with unsolicited emails that appear to come from legitimate companies. The abuse relies on a common configuration choice: many Zendesk-powered help desks allow anyone to submit...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/zendesk-support-systems-abused-in-large-scale-global-spam-campaign",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263631",
+    "date": "2026-01-22",
+    "title": "Staying Secure While Using Online Income and Freelancing Platforms",
+    "summary": "Online earning opportunities are highly enticing and meant to trigger a reaction in people. And while many of them are genuine, some could be scams in disguise. In other cases, people enter situations that require extra care, such as freelancing and receiving confidential or generally private com...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/staying-secure-while-using-online-income-and-freelancing-platforms",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263632",
+    "date": "2026-01-22",
+    "title": "Under Armour Ransomware Attack Exposes 72M Email Addresses",
+    "summary": "Many records also contained additional personal information such as names, dates of birth, genders, geographic locations, and purchase information. The post Under Armour Ransomware Attack Exposes 72M Email Addresses appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-under-armour-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263633",
+    "date": "2026-01-22",
+    "title": "Zoom and GitLab Patch RCE, DoS, and 2FA Bypass Vulnerabilities",
+    "summary": "Both platforms serve as backbone infrastructure for remote work and software development, making these flaws particularly dangerous for business continuity. The post Zoom and GitLab Patch RCE, DoS, and 2FA Bypass Vulnerabilities appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-zoom-gitlab-security-flaws-patched/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263634",
+    "date": "2026-01-22",
+    "title": "Microsoft Teams to add brand impersonation warnings to calls",
+    "summary": "Microsoft will soon add new fraud protection features to Teams calls, warning users about external callers who attempt to impersonate trusted organizations in social engineering attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-add-brand-impersonation-warnings-to-calls/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263635",
+    "date": "2026-01-22",
+    "title": "INC ransomware opsec fail allowed data recovery for 12 US orgs",
+    "summary": "An operational security failure allowed researchers to recover data that the INC ransomware gang stole from a dozen U.S. organizations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inc-ransomware-opsec-fail-allowed-data-recovery-for-12-us-orgs/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263636",
+    "date": "2026-01-22",
+    "title": "Why Active Directory password resets are surging in hybrid work",
+    "summary": "Hybrid work has driven a surge in Active Directory password resets, turning minor lockouts into major productivity drains. Specops shows why remote access, cached credentials, and security policies are fueling the spike. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/why-active-directory-password-resets-are-surging-in-hybrid-work/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263637",
+    "date": "2026-01-22",
+    "title": "Microsoft updates Notepad and Paint with more AI features",
+    "summary": "Microsoft is rolling out new artificial intelligence features with the latest updates to the Notepad and Paint apps for Windows 11 Insiders. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-updates-notepad-and-paint-with-more-ai-features/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263638",
+    "date": "2026-01-22",
+    "title": "Hackers exploit 29 zero-days on second day of Pwn2Own Automotive",
+    "summary": "Hackers collect $439,250 after exploiting 29 zero-day vulnerabilities on the second day of Pwn2Own Automotive 2026. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-29-zero-day-vulnerabilities-on-second-day-of-pwn2own-automotive/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263571",
     "date": "2026-01-22",
     "title": "Claroty Raises $150 Million in Series F Funding",
@@ -1258,6 +1797,51 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263616",
+    "date": "2026-01-21",
+    "title": "7 Subtitle Tools That Save You Hours of Work",
+    "summary": "In this post, I will show you 7 subtitle tools that save you hours of work. Subtitle work looks different depending on the kind of videos you make. A short social clip, a training video, or a long interview all come with very different subtitling needs. The tools you use matter just as much as […...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/subtitle-tools-that-save-hours-of-work/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263617",
+    "date": "2026-01-21",
+    "title": "AIEnhancer as a Strategic Watermark Remover for Modern Image Workflows",
+    "summary": "In this post, I will talk about AIEnhancer as a strategic watermark remover for modern image workflows. Images usually fail quietly. A small visual flaw delays approval, creates doubt, or forces a last-minute replacement. From a management perspective, these moments accumulate into real inefficie...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/aienhancer-strategic-watermark-remover/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263626",
+    "date": "2026-01-21",
+    "title": "AI Agents Undermine Progress in Browser Security",
+    "summary": "Web browser companies have put in substantial effort over the past three decades to strengthen the browser security stack against abuses. Agentic browsers are undoing all that work.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/ai-agents-undermine-progress-browser-security",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -32621,6 +33205,18 @@
       "open-source"
     ],
     "impact": 2
+  },
+  {
+    "id": "20263619",
+    "date": "2026-01-06",
+    "title": "Common PCI DSS Compliance Mistakes",
+    "summary": "5/5 - (1 vote) Last Updated on January 7, 2026 by Narendra Sahoo PCI DSS compliance requires an organizational implementation of the required processes and procedures. Your compliance efforts are typically sabotaged by mistakes made from the top. We’re going to briefly discuss the top PCI DSS Com...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "VISTA InfoSec Blog",
+    "sourceUrl": "https://vistainfosec.com/blog/common-pci-dss-compliance-mistakes/",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "20263421",
