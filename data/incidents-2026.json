@@ -1,5 +1,476 @@
 [
   {
+    "id": "20263484",
+    "date": "2026-01-22",
+    "title": "Announcing availability of second-generation AWS Outposts racks in 20 more countries",
+    "summary": "Second-generation AWS Outposts racks can now be shipped and installed at your data center and on-premises locations in Argentina, Bangladesh, Colombia, Dominican Republic, Ecuador, India, Kazakhstan, Mexico, Morocco, Nigeria, Oman, Panama, Qatar, Senegal, Serbia, South Africa, Republic of Korea, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/availability-second-generation-aws-outposts-racks-more-countries",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263485",
+    "date": "2026-01-22",
+    "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+    "summary": "Amazon EC2 High Memory U7i instances are available in new regions. U7i-6tb.112xlarge instances are now available in AWS Asia Pacific (Thailand, Sydney, Singapore), Canada (Central), and AWS GovCloud (US-East), u7i-8tb.112xlarge instances are now available in AWS South America (Sao Paulo), and u7i...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec-high-memory-ui-instances-additional-regions/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263482",
+    "date": "2026-01-21",
+    "title": "GCVE launches as a decentralized system for tracking software vulnerabilities",
+    "summary": "A European cybersecurity organization has launched a decentralized system for identifying and numbering software security vulnerabilities, introducing a fundamental shift in how the global technology community could track and manage security flaws. The Global CVE Allocation System, or GCVE, will ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/gcve-vulnerability-database-launches/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263483",
+    "date": "2026-01-21",
+    "title": "Lawmakers probe CISA leader over staffing decisions",
+    "summary": "The acting head of the Cybersecurity and Infrastructure Security Agency faced pointed questions from lawmakers Wednesday over CISA personnel decisions and staffing levels. Members of the House Homeland Security Committee asked Madhu Gottumukkala about a reported attempt to fire the agency’s chief...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-madhu-gottumukkala-house-homeland-hearing-workforce-staffing-levels/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263486",
+    "date": "2026-01-21",
+    "title": "European States Spin Wheels on Cybersecurity Directive - Morrison Foerster",
+    "summary": "... Network and Information Security 2 Directive (NIS2), and which states have harmonized their approach to NIS2, and which have diverged. According ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mofo.com/resources/news/260121-european-states-spin-wheels-on-cybersecurity-directive",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263487",
+    "date": "2026-01-21",
+    "title": "EU and UK Cybersecurity Rules for the Semiconductor Sector - Morrison Foerster",
+    "summary": "With regulations focusing on cybersecurity compliance and reporting requirements, companies may leverage their existing security controls, policies, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mofo.com/resources/insights/260121-cybersecurity-at-the-core-eu-and-uk-cybersecurity-rules",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263488",
+    "date": "2026-01-21",
+    "title": "AT&T expands in Charlotte, hiring 200 people for cybersecurity jobs in new office",
+    "summary": "AT&T's Chief Information Security Officer Rich Baich wants to tap into the Charlotte area's cyber expertise, which serves the region's major ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.charlotteobserver.com/news/business/article314402307.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263489",
+    "date": "2026-01-21",
+    "title": "AI and Digital Transformation",
+    "summary": "You’ve been thinking about digital transformation for years. Maybe you’re even somewhere down the path of transforming your organization. And now there is this AI thing that looks real, even if you were skeptical at first. Does this mean you need two transformations? And then another one when qua...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/blogs/enterprise-strategy/ai-and-digital-transformation/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263490",
+    "date": "2026-01-21",
+    "title": "McCaul Highlights Importance of Cybersecurity Capabilities at Homeland Security Hearing",
+    "summary": "During his tenure as chairman, McCaul authored the Cybersecurity and Infrastructure Security Agency Act and championed the passage of the Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://mccaul.house.gov/media-center/press-releases/mccaul-highlights-importance-cybersecurity-capabilities-homeland",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263491",
+    "date": "2026-01-21",
+    "title": "Survey: AI, fraud among top cybersecurity trends for 2026 | ABA Banking Journal",
+    "summary": "Among top executives, CEOs listed cyber-enabled fraud as their top concern, while chief information security officers remain concerned about ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://bankingjournal.aba.com/2026/01/survey-ai-fraud-among-top-cybersecurity-trends-for-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263492",
+    "date": "2026-01-21",
+    "title": "When Checklists Aren't Enough: Moving Beyond Compliance Theater - CISO Series",
+    "summary": "In last month's CISO Series AMA on r/cybersecurity, we asked security leaders who've made the shift from compliance-driven to risk-based programs ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/when-checklists-arent-enough-moving-beyond-compliance-theater/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263493",
+    "date": "2026-01-21",
+    "title": "Congress Proposes Steep Cuts to CISA - BankInfoSecurity",
+    "summary": "It preserves staffing levels, regional field offices and election security operations. The compromise funding bill reverses some of the gains CISA ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/congress-proposes-steep-cuts-to-cisa-a-30577",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263494",
+    "date": "2026-01-21",
+    "title": "AHA podcast: Cybersecurity on the Health Care Front Lines Against AI and Ransomware",
+    "summary": "Larry Pierce, director of cybersecurity and information security officer for Atlantic Health, unpacks how the growth of artificial intelligence is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aha.org/news/headline/2026-01-21-aha-podcast-cybersecurity-health-care-front-lines-against-ai-and-ransomware",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263495",
+    "date": "2026-01-21",
+    "title": "Why Smarter Password Security Starts with NordPass | Technology Magazine",
+    "summary": "Security beyond password management. NordPass is more than just a password manager – it's a full-fledged cybersecurity platform designed to help ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://technologymagazine.com/news/how-nordpass-can-save-your-business-from-password-chaos",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263496",
+    "date": "2026-01-21",
+    "title": "Western Alliance Appoints Stephen McMaster as Chief Information Security Officer",
+    "summary": "McMaster is a seasoned financial services technology and security executive with more than 25 years of experience leading cybersecurity, risk ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.businesswire.com/news/home/20260121262396/en/Western-Alliance-Appoints-Stephen-McMaster-as-Chief-Information-Security-Officer",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263497",
+    "date": "2026-01-21",
+    "title": "Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS GovCloud (US-West)",
+    "summary": "Today, Amazon Bedrock introduces the expansion of the Reserved service tier designed for workloads requiring predictable performance and guaranteed tokens-per-minute capacity. The Reserved tier provides the ability to reserve prioritized compute capacity, keeping service levels predictable for yo...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263498",
+    "date": "2026-01-21",
+    "title": "AWS introduces additional policy details to access denied error messages",
+    "summary": "AWS now includes the AWS Identity and Access Management (IAM) and AWS Organizations policy’s Amazon Resource Name (ARN) in access denied error messages in same account and same organization scenarios. This allows you to quickly identify the exact policy responsible for the denied access and take ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263499",
+    "date": "2026-01-21",
+    "title": "Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven automation",
+    "summary": "Today AWS announced enhanced scheduling orchestration to track AWS tagging events, self-service troubleshooting via informational resource tags, an optional EC2 insufficient-capacity retry flow using alternate instance types, and automatic creation of a dedicated EventBridge bus for scheduling ev...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263500",
+    "date": "2026-01-21",
+    "title": "South Dakota SCIF plan puzzles DHS, CISA officials - POLITICO",
+    "summary": "Senior officials at the Department of Homeland Security have pushed the nation's cyber defense agency to back the installation of a secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/01/20/south-dakota-scif-cisa-noem-00736496",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263501",
+    "date": "2026-01-21",
+    "title": "Chinese firms directed to not buy US, Israeli cybersecurity software | SC Media",
+    "summary": "... Cyber Attacks: Examining Internet Security with Chinese Flag and Binary Data Through a. (Adobe Stock). The continued cyber brinksmanship between the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scmagazine.com/news/chinese-firms-directed-to-not-buy-us-israeli-cybersecurity-software",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263502",
+    "date": "2026-01-21",
+    "title": "Chairman Garbarino Opens Oversight Hearing with CISA, TSA, and S&T",
+    "summary": "Traditional terror tactics have given way to more sophisticated methods of attack. Cybersecurity is now at the forefront of these conversations, with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/21/chairman-garbarino-opens-oversight-hearing-with-cisa-tsa-and-st/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263503",
+    "date": "2026-01-21",
+    "title": "Cost of High-Impact IT Outages for Financial Services Companies",
+    "summary": "Our channels: Cyber Risk · Chief IT · Australian Security · Asia Pacific ... ENJOY OUR OTHER CHANNELS. The Australian Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/cost-of-high-impact-it-outages-for-financial-services-companies/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263504",
+    "date": "2026-01-21",
+    "title": "Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging",
+    "summary": "Amazon SageMaker HyperPod now provides enhanced troubleshooting capabilities for lifecycle scripts, making it easier to identify and resolve issues during cluster node provisioning. SageMaker HyperPod helps you provision resilient clusters for running AI/ML workloads and developing state-of-the-a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-lcs-enhanced-debug/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263505",
+    "date": "2026-01-21",
+    "title": "Amazon Connect can now automatically select random samples of agent contacts for evaluation",
+    "summary": "Amazon Connect can now provide managers with random samples of agent contacts for evaluation, so they can provide fair coaching feedback to agents. Managers can specify how many contacts they need to review per agent, as per union agreements, regulations, or internal guidelines. They then receive...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-automatically-select-random-contacts-evaluation/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263506",
+    "date": "2026-01-21",
+    "title": "Amazon EMR Serverless now supports AWS KMS customer managed keys for encrypting local disks",
+    "summary": "Amazon EMR Serverless now supports encrypting local disks with AWS Key Management Service (KMS) customer managed keys (CMKs). You can now meet strict regulatory and compliance requirements with additional encryption options beyond default AWS-owned keys, giving you greater control over your encry...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-aws-kms-customer-managed",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263507",
+    "date": "2026-01-21",
+    "title": "New PixelCode Attack Smuggles Malware Using Image Pixel Encoding Technique",
+    "summary": "... Cyber Security NewsCybersecurityMalware. Security researchers have demonstrated a covert delivery technique that encodes malicious executables into ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/new-pixelcode-attack-smuggles-malware-using-image-pixel-encoding-technique/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263508",
+    "date": "2026-01-21",
+    "title": "Hong Kong issues Code of Practice under the Protection of Critical Infrastructures ... - Mayer Brown",
+    "summary": "On 1 January 2026, the Office of the Commissioner of Critical Infrastructure (Computer-system Security) issued a Code of Practice (the “CoP”) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mayerbrown.com/en/insights/publications/2026/01/hong-kong-issues-code-of-practice-under-the-protection-of-critical-infrastructures-computer-systems-ordinance",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263509",
+    "date": "2026-01-21",
+    "title": "Evolving cyber attacks are threatening the grid, but a new era of security monitoring has arrived",
+    "summary": "Cyber threats to utilities, transmisison operators, and generators are rapidly evolving, underscoring the importance of network security.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.renewableenergyworld.com/power-grid/grid-modernization/evolving-cyber-attacks-are-threatening-the-grid-but-a-new-era-of-security-monitoring-has-arrived/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263510",
+    "date": "2026-01-21",
+    "title": "New measures to strengthen cybersecurity resilience and capabilities - EU Reporter",
+    "summary": "... Online TV · Online Radio · Contact · Cyber Security. New measures to strengthen cybersecurity resilience and capabilities. SHARE: Published. 3 minutes ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eureporter.co/defence/cybercrime-2/2026/01/21/new-measures-to-strengthen-cybersecurity-resilience-and-capabilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263511",
+    "date": "2026-01-21",
+    "title": "Defense partnership expands hands-on cyber opportunities for students - WVU E-News",
+    "summary": "... Cybersecurity and Electromagnetic Spectrum and Employ Scholars ... Cyber and the University's head of national security and cyberspace programs.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://enews.wvu.edu/articles/2026/01/21/defense-partnership-expands-hands-on-cyber-opportunities-for-students",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263512",
+    "date": "2026-01-21",
+    "title": "AWS Clean Rooms adds support for join and partition hints in SQL",
+    "summary": "AWS Clean Rooms announces support for join and partition hints for SQL queries, enabling optimization of join strategies and data partitioning for improved query performance and reduced costs. This launch enables you to apply SQL hints to your queries using comment-style syntax in pre-approved an...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263513",
+    "date": "2026-01-21",
+    "title": "The new Cyber Trinity: Humans, AI agents, and trust in Asia/Pacific - IDC",
+    "summary": "Cybersecurity professional monitoring AI-driven security systems in an enterprise operations environment. Asia/Pacific enterprises are entering a new ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.idc.com/resource-center/blog/the-new-cyber-trinity-humans-ai-agents-and-trust-in-asia-pacific/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263458",
     "date": "2026-01-21",
     "title": "Expert Insight on Under Armour’s Exposed Customer Data",
