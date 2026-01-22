@@ -613,14 +613,14 @@ function App() {
         <WeeklyHighlights incidents={incidentsData} />
       )}
 
-      {/* Data Health Dashboard */}
-      <DataHealthDashboard incidents={incidentsData} />
+      {/* Data Health Dashboard (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DataHealthDashboard incidents={incidentsData} />}
 
-      {/* Glossary Analytics - Term Usage Statistics */}
-      <GlossaryAnalytics incidents={incidentsData} />
+      {/* Glossary Analytics - Term Usage Statistics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <GlossaryAnalytics incidents={incidentsData} />}
 
-      {/* Deduplication Statistics - Show estimated unique incidents */}
-      <DeduplicationStats incidents={incidentsData} />
+      {/* Deduplication Statistics - Show estimated unique incidents (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DeduplicationStats incidents={incidentsData} />}
 
       {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
       <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />
@@ -661,11 +661,11 @@ function App() {
       {/* Quarterly Review - Q1-Q4 Summaries */}
       <QuarterlyReview incidents={incidentsData} />
 
-      {/* Bias Indicator - Source & Regional Bias */}
-      <BiasIndicator incidents={incidentsData} />
+      {/* Bias Indicator - Source & Regional Bias (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <BiasIndicator incidents={incidentsData} />}
 
-      {/* Validation Dashboard - Data Quality Metrics */}
-      <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />
+      {/* Validation Dashboard - Data Quality Metrics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />}
 
       {/* Year Stats */}
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
@@ -703,8 +703,8 @@ function App() {
         <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
       </div>
 
-      {/* Methodology and Limitations */}
-      <MethodologyAndLimitations />
+      {/* Methodology and Limitations (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <MethodologyAndLimitations />}
 
       {/* Year Wheel */}
       <YearWheel 
@@ -726,8 +726,8 @@ function App() {
       {/* Back to Top Button */}
       <BackToTop />
 
-      {/* Glossary Panel */}
-      <GlossaryPanel />
+      {/* Glossary Panel (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <GlossaryPanel />}
 
       <footer className="footer">
         <div className="footer-reflection">
