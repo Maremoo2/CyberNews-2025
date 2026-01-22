@@ -1,5 +1,364 @@
 [
   {
+    "id": "20263458",
+    "date": "2026-01-21",
+    "title": "Expert Insight on Under Armour’s Exposed Customer Data",
+    "summary": "72 million emails have been exposed.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102090-expert-insight-on-under-armours-exposed-customer-data",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263459",
+    "date": "2026-01-21",
+    "title": "Hong Kong needs constant vigilance to thwart cybercriminals",
+    "summary": "The pressing need to protect the public from cybercriminals is one of the biggest challenges facing governments around the world. Hong Kong is a prime target, given its status as an international financial centre. The city has been hit with alarming hacking attacks and multiple scams. There is a ...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/opinion/comment/article/3340658/hong-kong-needs-constant-vigilance-thwart-cybercriminals?utm_source=rss_feed",
+    "tags": [
+      "finance",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263460",
+    "date": "2026-01-21",
+    "title": "Le faux numéro d'opposition bancaire, une arnaque sournoise contre laquelle il est possible de se protéger",
+    "summary": "Les arnaques au faux numéro d'opposition bancaire ont explosé ces derniers mois. Cybermalveillance.gouv.fr veut alerter le grand public sur cette technique d'hameçonnage par SMS, qui vide des comptes en quelques minutes.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596494-le-faux-numero-d-opposition-bancaire-une-arnaque-sournoise-contre-laquelle-il-est-possible-de-se-proteger.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263461",
+    "date": "2026-01-21",
+    "title": "EU to Phase Out ‘High-risk’ Mobile and Telecom Network Products",
+    "summary": "The European Commission has proposed a new cybersecurity legislative package that proponents say will strengthen the security of the EU's Information and Communication Technologies (ICT) supply chains by phasing out “high-risk” mobile and telecom network products from countries deemed to be risky...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/eu-high-risk-mobile-telecom-network-products/",
+    "tags": [
+      "supply-chain",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263462",
+    "date": "2026-01-21",
+    "title": "Acting CISA chief defends workforce cuts, declares agency ‘back on mission’",
+    "summary": "Lawmakers in both parties expressed concerns about CISA losing roughly a thousand employees.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-acting-director-house-hearing/810175/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263463",
+    "date": "2026-01-21",
+    "title": "Microsoft updates the security baseline for Microsoft 365 Apps for enterprise",
+    "summary": "Microsoft has published version 2512 of its security baseline for Microsoft 365 Apps for enterprise. The baseline documents recommended policy settings for Office applications used in enterprise environments and maps those settings to current management tools. What the v2512 baseline covers The v...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/22/microsoft-365-security-baseline-2512/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263464",
+    "date": "2026-01-21",
+    "title": "Fully patched FortiGate firewalls are getting compromised via CVE-2025-59718?",
+    "summary": "CVE-2025-59718, a critical authentication bypass flaw that attackers exploited in December 2025 to compromise FortiGate appliances, appears to persist in newer, purportedly fixed releases of the underlying FortiOS. According to Fortinet, CVE-2025-59718 had been fixed in FortiOS versions 7.6.4 or ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/patched-fortigate-compromised-via-cve-2025-59718/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263465",
+    "date": "2026-01-21",
+    "title": "RCE flaw in Cisco enterprise communications products probed by attackers (CVE-2026-20045)",
+    "summary": "Cisco has fixed a critical remote code execution vulnerability (CVE-2026-20045) in some of its unified communications solutions that’s being targeted by attackers in the wild, the company announced on Wednesday via a security advisory. About CVE-2026-20045 CVE-2026-20045 is a code injection vulne...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/21/cisco-enterprise-communications-cve-2026-20045/",
+    "tags": [
+      "vulnerability",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263466",
+    "date": "2026-01-21",
+    "title": "Comparing Comprehensive Email Threat Protection Solutions With AI Capabilities",
+    "summary": "Comprehensive email threat protection with artificial intelligence (AI) capabilities is now essential for any business facing the growing volume and complexity of digital threats. Email remains a prime target because it’s accessible and frequently used for personal and professional communication....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/email-threat-protection-with-ai-capabilities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263467",
+    "date": "2026-01-21",
+    "title": "How to Evaluate the Best ISO 27001 Consulting Firms",
+    "summary": "In this post, I will show you how to evaluate the best ISO 27001 consulting firms. The best ISO 27001 consulting firms help organizations align with the international data standards. They build and maintain a structured information security management system (ISMS). Because ISO 27001 requires ris...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-evaluate-the-best-iso-27001-consulting-firms/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263468",
+    "date": "2026-01-21",
+    "title": "News alert: Reflectiz study finds most third-party web apps access sensitive data without justification",
+    "summary": "BOSTON, Jan. 21, 2026, CyberNewswire — Reflectiz today announced the release of its 2026 State of Web Exposure Research, revealing a sharp escalation in client?side risk across global websites, driven primarily by third?party applications, marketing tools, and unmanaged digital integrations. Acco...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-reflectiz-study-finds-most-third-party-web-apps-access-sensitive-data-without-justification/",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263469",
+    "date": "2026-01-21",
+    "title": "Trump Worries ICE Execution of Renee Good Could Prevent Her Father From Loving Him",
+    "summary": "The news is getting truly bizarre. “…I learned that her parents, and her father in particular… I hope he still is, but I don’t know, [he] was a tremendous Trump fan,” he said. “He was all for Trump. Loved Trump, and it’s terrible.” […] “I was told that by a lot of people,” said Trump, … Continue ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76332",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263470",
+    "date": "2026-01-21",
+    "title": "GitLab 2FA login protection bypass lets attackers take over accounts",
+    "summary": "A critical two-factor authentication bypass vulnerability in the Community and Enterprise editions of the GitLab application development platform has to be patched immediately, say experts. The hole is one of five vulnerabilities patched Wednesday as part of new versions of GitLab. Three are rank...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120316/gitlab-2fa-login-protection-bypass-lets-attackers-take-over-accounts.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263471",
+    "date": "2026-01-21",
+    "title": "Misconfigured demo environments are turning into cloud backdoors to the enterprise",
+    "summary": "Internal testing, product demonstrations, and security training are critical practices in cybersecurity, giving defenders and everyday users the tools and wherewithal to prevent and respond to enterprise threats. However, according to new research from Pentera Labs, when left in default or miscon...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120258/misconfigured-demo-environments-are-turning-into-cloud-backdoors-to-the-enterprise.html",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263472",
+    "date": "2026-01-21",
+    "title": "Ingram Micro admits 42,000 people impacted by ransomware attack",
+    "summary": "In July 2025, Ingram Micros suffered devastating consequences from a ransomware in which the IT distributor’s logistics were paralyzed for a week. It has now emerged that sensitive data was also leaked. As Ingram Micro confirmed in a mandatory filing with US authorities, more than 42,000 people a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120208/hackers-steal-around-42000-data-records-from-ingram-micro.html",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263473",
+    "date": "2026-01-21",
+    "title": "Oracle releases 337 security patches, including fix for critical Apache Tika flaw",
+    "summary": "Oracle has handed security teams their first big patching workload of the year, with its latest quarterly update containing a hefty 337 security fixes across its product range, including 27 rated critical. This imposing number of patches won’t surprise anyone whose job it is to look after Oracle ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120197/oracle-releases-337-security-patches-including-fix-for-critical-apache-tika-flaw.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "oracle"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263474",
+    "date": "2026-01-21",
+    "title": "'Contagious Interview' Attack Now Delivers Backdoor Via VS Code",
+    "summary": "Once trust is granted to the repository's author, a malicious app executes arbitrary commands on the victim's system with no other user interaction.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/contagious-interview-attack-delivers-backdoor",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263475",
+    "date": "2026-01-21",
+    "title": "Phishing Campaign Zeroes in on LastPass Customers",
+    "summary": "The bait incudes plausible subject lines and credible messages, most likely thanks to attackers' use of large language models to craft them.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/phishing-campaign-zeroes-lastpass-customers",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263476",
+    "date": "2026-01-21",
+    "title": "Zendesk ticket systems hijacked in massive global spam wave",
+    "summary": "People worldwide are being targeted by a massive spam wave originating from unsecured Zendesk support systems, with victims reporting receiving hundreds of emails with strange and sometimes alarming subject lines. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zendesk-ticket-systems-hijacked-in-massive-global-spam-wave/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263477",
+    "date": "2026-01-21",
+    "title": "Chainlit AI framework bugs let hackers breach cloud environments",
+    "summary": "Two high-severity vulnerabilities in Chainlit, a popular open-source framework for building conversational AI applications, allow reading any file on the server and leak sensitive information. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chainlit-ai-framework-bugs-let-hackers-breach-cloud-environments/",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263478",
+    "date": "2026-01-21",
+    "title": "Cisco fixes Unified Communications RCE zero day exploited in attacks",
+    "summary": "Cisco has fixed a critical Unified Communications and Webex Calling remote code execution vulnerability, tracked as CVE-2026-20045, that has been actively exploited as a zero-day in attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-fixes-unified-communications-rce-zero-day-exploited-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263479",
+    "date": "2026-01-21",
+    "title": "New Android malware uses AI to click on hidden browser ads",
+    "summary": "A new family of Android click-fraud trojans leverages TensorFlow machine learning models to automatically detect and interact with specific advertisement elements. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-android-malware-uses-ai-to-click-on-hidden-browser-ads/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263480",
+    "date": "2026-01-21",
+    "title": "Online retailer PcComponentes says data breach claims are fake",
+    "summary": "PcComponentes, a major technology retailer in Spain, has denied claims of a data breach on its systems impacting 16 million customers, but confirmed it suffered a credential stuffing attack. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/online-retailer-pccomponentes-says-data-breach-claims-are-fake/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263481",
+    "date": "2026-01-21",
+    "title": "DOGE and the data trail.",
+    "summary": "DOGE staff face scrutiny over possible Hatch Act violations. GitLab fixes a serious 2FA bypass. North Korean hackers target macOS developers through Visual Studio Code. Researchers say the VoidLink malware may be largely AI-built. MITRE rolls out a new embedded systems threat matrix. Oracle drops...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2472/notes",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "oracle"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263427",
     "date": "2026-01-21",
     "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
