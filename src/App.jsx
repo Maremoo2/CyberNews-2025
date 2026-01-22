@@ -34,6 +34,7 @@ import BiasIndicator from './components/BiasIndicator'
 import TrendContinuity from './components/TrendContinuity'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
+import WeeklyHighlights from './components/WeeklyHighlights'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -169,15 +170,28 @@ function App() {
       const date = new Date(metadata.lastUpdated);
       return { 
         formatted: date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
-        iso: date.toISOString().split('T')[0]
+        iso: date.toISOString().split('T')[0],
+        utc: date.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
       };
     }
     // Fallback to current date if metadata is not available
+    const now = new Date();
     return { 
-      formatted: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
-      iso: new Date().toISOString().split('T')[0] 
+      formatted: now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+      iso: now.toISOString().split('T')[0],
+      utc: now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
     };
   }, []);
+
+  // Calculate the latest data point (newest article date)
+  const latestDataPoint = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) return null;
+    const latestDate = incidentsData.reduce((latest, incident) => {
+      if (!incident.date) return latest;
+      return incident.date > latest ? incident.date : latest;
+    }, '1970-01-01');
+    return latestDate !== '1970-01-01' ? latestDate : null;
+  }, [incidentsData]);
 
   // Calculate estimated unique incidents vs total articles using deduplication
   const deduplicationStats = useMemo(() => {
@@ -502,14 +516,19 @@ function App() {
                 ? "Year-to-date coverage of cybersecurity news and incidents"
                 : "Overview of cybersecurity incidents"}
             </p>
-            <p className="last-updated" title={`Data last refreshed: ${lastUpdated.iso}`}>
-              Last updated: {lastUpdated.iso}
-            </p>
-            {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
-              <p className="enrichment-timestamp" title="Analytics generation date">
-                Analytics generated: {enrichmentInfo.timestamp}
+            <div className="data-timestamp-section">
+              <p className="data-through" title="Latest article date in dataset">
+                📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'}
               </p>
-            )}
+              <p className="last-updated" title={`System last refreshed: ${lastUpdated.utc}`}>
+                🔄 Last updated: {lastUpdated.utc}
+              </p>
+              {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
+                <p className="enrichment-timestamp" title="Analytics generation date">
+                  📊 Analytics generated: {enrichmentInfo.timestamp}
+                </p>
+              )}
+            </div>
             <p className="data-counts">
               {uniqueIncidentCount === totalSourceCount ? (
                 <span className="count-item">
@@ -588,6 +607,11 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Weekly Highlights - Top 3 This Week */}
+      {selectedYear === new Date().getFullYear() && (
+        <WeeklyHighlights incidents={incidentsData} />
+      )}
 
       {/* Data Health Dashboard */}
       <DataHealthDashboard incidents={incidentsData} />
