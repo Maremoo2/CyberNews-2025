@@ -53,7 +53,7 @@ function AttackChainAnalysis({ incidents, filters }) {
       </div>
 
       <div className="methodology-note">
-        <strong>Technical note:</strong> Attack chains are reconstructed from incidents with multiple MITRE tactics, 
+        <strong>Methodology:</strong> Attack chains are reconstructed from incidents with multiple MITRE tactics, 
         ordered by typical attack progression (Initial Access → Execution → Persistence → etc.)
       </div>
 
