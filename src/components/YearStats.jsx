@@ -16,12 +16,16 @@ function YearStats({ incidents, selectedYear }) {
       }
     })
 
-    // Find most common tag
+    // Find most common tag (exclude generic/meaningless tags)
+    const excludedTags = ['unknown', 'general', 'misc', 'other', 'n/a', 'none'];
     const tagCounts = {}
     incidents.forEach(incident => {
       if (incident.tags) {
         incident.tags.forEach(tag => {
-          tagCounts[tag] = (tagCounts[tag] || 0) + 1
+          const lowerTag = tag.toLowerCase();
+          if (!excludedTags.includes(lowerTag)) {
+            tagCounts[tag] = (tagCounts[tag] || 0) + 1
+          }
         })
       }
     })

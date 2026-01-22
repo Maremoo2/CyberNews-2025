@@ -32,7 +32,6 @@ import GlossaryAnalytics from './components/GlossaryAnalytics'
 import GlobalFilterBar from './components/GlobalFilterBar'
 import BiasIndicator from './components/BiasIndicator'
 import TrendContinuity from './components/TrendContinuity'
-import YearComparison from './components/YearComparison'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import { enhanceIncidents } from './utils/deduplicationUtils'
@@ -633,8 +632,7 @@ function App() {
       {/* Trend Continuity - Month-over-Month Analysis */}
       <TrendContinuity incidents={incidentsData} />
 
-      {/* Year Comparison - 2025 vs 2026 */}
-      <YearComparison incidents2025={incidents2025} incidents2026={incidents2026} />
+      {/* Note: Year-over-Year Comparison removed due to incomplete 2025 data (only ~1k articles) */}
 
       {/* Quarterly Review - Q1-Q4 Summaries */}
       <QuarterlyReview incidents={incidentsData} />
