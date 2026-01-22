@@ -299,7 +299,56 @@ function App() {
   const filteredIncidents = useMemo(() => {
     let filtered = incidentsData
 
-    // CISO Mode Filters (applied first for executive view)
+    // Global Filters (applied first)
+    // Content Type Filter
+    if (globalFilters.contentType !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.content_type === globalFilters.contentType
+      );
+    }
+
+    // Severity Filter
+    if (globalFilters.severity !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.severity === globalFilters.severity
+      );
+    }
+
+    // Actor Type Filter
+    if (globalFilters.actorType !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.actor_category === globalFilters.actorType
+      );
+    }
+
+    // Sector Filter
+    if (globalFilters.sector !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.sector === globalFilters.sector
+      );
+    }
+
+    // Region Filter from global filters
+    if (globalFilters.region !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.region === globalFilters.region
+      );
+    }
+
+    // Date Range Filter
+    if (globalFilters.dateRange.start || globalFilters.dateRange.end) {
+      filtered = filtered.filter(incident => {
+        const incidentDate = new Date(incident.date);
+        const startDate = globalFilters.dateRange.start ? new Date(globalFilters.dateRange.start) : null;
+        const endDate = globalFilters.dateRange.end ? new Date(globalFilters.dateRange.end) : null;
+        
+        if (startDate && incidentDate < startDate) return false;
+        if (endDate && incidentDate > endDate) return false;
+        return true;
+      });
+    }
+
+    // CISO Mode Filters (applied after global filters for executive view)
     if (cisoMode.enabled) {
       // NEW: Incident-only filter (exclude explainers, opinions, products)
       if (cisoMode.incidentOnly) {
@@ -361,7 +410,7 @@ function App() {
 
     // Sort by date descending (newest first)
     return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
-  }, [incidentsData, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly, cisoMode])
+  }, [incidentsData, globalFilters, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly, cisoMode])
 
   const handleTagClick = (tag) => {
     if (selectedTags.includes(tag)) {
