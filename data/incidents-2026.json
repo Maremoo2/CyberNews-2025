@@ -1,5 +1,341 @@
 [
   {
+    "id": "20263731",
+    "date": "2026-01-23",
+    "title": "AIs are Getting Better at Finding and Exploiting Internet Vulnerabilities",
+    "summary": "Really interesting blog post from Anthropic: In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. Th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Schneier on Security",
+    "sourceUrl": "https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-internet-vulnerabilities.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263732",
+    "date": "2026-01-23",
+    "title": "Security Vendors, Fortune 500 Companies Exposed and Exploited",
+    "summary": "Customer-managed business cloud environments are being actively exploited.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102093-security-vendors-fortune-500-companies-exposed-and-exploited",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263733",
+    "date": "2026-01-23",
+    "title": "Ring can verify videos now, but that might not help you with most AI fakes",
+    "summary": "Ring has launched a new Ring Verify tool that the company says can \"verify that Ring videos you receive haven't been edited or changed.\" But since Ring won't verify videos that have been altered in any way, it probably won't be able to verify those videos you see on TikTok that look like they're ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/news/866441/ring-verify-security-camera-ai-fakes-video-verification",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263734",
+    "date": "2026-01-23",
+    "title": "Boom di attacchi hacker, aziende a caccia di Cybersecurity analysis ",
+    "summary": "A fotografare questo scenario, suggerendo anche soluzioni da adottare, il Richmond Cyber resilience forum promosso da Richmond Italia",
+    "region": "EU",
+    "country": "Italy",
+    "sourceName": "Il Sole 24 Ore",
+    "sourceUrl": "https://www.ilsole24ore.com/art/boom-attacchi-hacker-aziende-caccia-cybersecurity-analysis-AIfCaF1",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263735",
+    "date": "2026-01-23",
+    "title": "Dans Teams, Microsoft va serrer la vis sur les appels externes",
+    "summary": "Microsoft continue de sécuriser Teams contre les arnaques par ingénierie sociale. Avec Brand Impersonation Protection, l’éditeur veut réduire l’impact des appels externes frauduleux qui s’appuient sur l’usurpation d’identité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596782-dans-teams-microsoft-va-serrer-la-vis-sur-les-appels-externes.html",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263736",
+    "date": "2026-01-23",
+    "title": "1Password déploie l'arme ultime contre le phishing : pourquoi il faut l'activer",
+    "summary": "Le gestionnaire de mots de passe 1Password vient d'introduire un dispositif de sécurité supplémentaire pour contrer les tentatives d'hameçonnage. Cette protection intervient au moment précis où l'utilisateur s'apprête à transmettre ses identifiants à un site potentiellement malveillant.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596758-password-deploie-l-arme-ultime-contre-le-phishing-pourquoi-il-faut-l-activer.html",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263737",
+    "date": "2026-01-23",
+    "title": "On ne voit presque jamais ExpressVPN à ce prix, et cette offre touche à sa fin !",
+    "summary": "Les grandes promotions VPN ne durent jamais très longtemps. Avec son offre d’hiver, ExpressVPN descend à 2,39 € par mois et ajoute 4 mois offerts, une opportunité rare sur un service aussi premium.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596674-on-ne-voit-presque-jamais-expressvpn-a-ce-prix-et-cette-offre-touche-a-sa-fin.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263738",
+    "date": "2026-01-23",
+    "title": "The Cyber Express Weekly Roundup: FortiOS Exploits, Ransomware, Hacktivist Surge, and EU Telecom Rules",
+    "summary": "The third week of 2026 highlights a series of cybersecurity events affecting businesses, critical infrastructure, and regulatory compliance. This week, network administrators are grappling with the exploitation of a previously patched FortiOS vulnerability, while ransomware attacks continue to ex...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/tce-january-2026-cybersecurity-roundup/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "mobile",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263739",
+    "date": "2026-01-23",
+    "title": "Phishing Kits Now Sync With Live Phone Scammers to Defeat Multifactor Authentication",
+    "summary": "Researchers discover phishing toolkits specifically engineered for voice-based social engineering attacks—often called \"vishing\"—that synchronize fake login pages with live phone conversations to defeat multifactor authentication. These custom kits, sold as-a-service to criminals, enable attacker...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/phishing-toolkits-to-defeat-mfa/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263740",
+    "date": "2026-01-23",
+    "title": "GitLab Releases Critical Patch Updates to Address Multiple High-Severity Vulnerabilities",
+    "summary": "GitLab has issued a new GitLab patch release addressing a range of security vulnerabilities and stability issues across multiple supported versions. The latest updates, versions 18.8.2, 18.7.2, and 18.6.4, apply to both GitLab Community Edition and Enterprise Edition and are now available for sel...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/gitlab-patch-release-security-vulnerabilities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263741",
+    "date": "2026-01-23",
+    "title": "Manage My Health Data Breach Sparks Warnings Over Impersonation and Phishing Attempts",
+    "summary": "The fallout from the Manage My Health data breach is continuing, with the company warning that fraudsters may now be attempting to contact affected users by impersonating the online patient portal. Manage My Health, which operates a widely used digital health platform in New Zealand, confirmed th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/manage-my-health-data-breach-phishing/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263742",
+    "date": "2026-01-23",
+    "title": "New Mullvad security audit finds no critical flaws or privacy risks",
+    "summary": "A newly published white-box security audit of Mullvad's account and payment backend services found no high- or critical-severity issues, and auditors confirmed that user privacy and data confidentiality remain intact. The audit, conducted by German security firm X41 D-Sec in late 2025, uncovered ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/new-mullvad-security-audit-finds-no-critical-flaws-or-privacy-risks/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263743",
+    "date": "2026-01-23",
+    "title": "1Password targets AI-driven phishing with built-in prevention",
+    "summary": "To help reduce phishing risk, 1Password added an extra layer of protection and began rolling out a phishing prevention feature designed to stop users before they share passwords with scammers. How 1Password phishing prevention works When a user clicks a link whose URL doesn’t match a saved login,...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/1password-phishing-prevention-feature/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263744",
+    "date": "2026-01-23",
+    "title": "Raspberry Pi now offers a branded USB flash drive, starts at $30",
+    "summary": "Raspberry Pi has launched a USB flash drive optimized for use across its lineup of single-board computers. The drive is offered in two capacities, with the 128GB model priced at $30 and the 256GB version at $55. The Raspberry Pi Flash Drive is a compact, high-capacity USB 3.0 Type-A device with a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/raspberry-pi-usb-flash-drive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263745",
+    "date": "2026-01-23",
+    "title": "Elastic Agent Builder expands how developers build production-ready AI agents",
+    "summary": "Elastic announced the general availability of Agent Builder, a set of capabilities that helps developers quickly build secure, reliable, and context-driven AI agents. AI agents need the right context to perform complex tasks accurately. Built on Elasticsearch, Agent Builder excels at context engi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/elastic-agent-builder-2/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263746",
+    "date": "2026-01-23",
+    "title": "Ring now lets users verify whether videos have been altered",
+    "summary": "To give users peace of mind, Ring has introduced a new content authenticity feature that allows them to verify whether a Ring video has been edited or altered. Ring Verify adds a digital security seal that breaks if the video is changed in any way. “Think of it like the tamper-evident seal on a m...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/ring-verify-videos/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263747",
+    "date": "2026-01-23",
+    "title": "iboss unveils AI-powered SSPM capability to reduce SaaS risk",
+    "summary": "iboss announced SSPM, an AI-powered SaaS Security Posture Management capability integrated into the iboss Zero Trust SASE platform. SSPM connects directly to SaaS applications via API to continuously analyze configurations, permissions, and data exposure, giving organizations an actionable view o...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/iboss-sspm-ai-powered-saas-security-posture-management-capability/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263748",
+    "date": "2026-01-23",
+    "title": "One-time SMS links that never expire can expose personal data for years",
+    "summary": "Online services often treat one-time links sent by text message as low-risk conveniences. A new study shows that these links can expose large amounts of personal data for years. Malicious URLs continue to shift from email to SMS According to to Proofpoint, cybercriminals favor malicious URLs over...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/sms-private-urls-data-exposure-study/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263749",
+    "date": "2026-01-23",
+    "title": "Gmail Verified Blue Email Tick: What It Is & How to Get One",
+    "summary": "If you’ve ever noticed a blue checkmark next to a sender name in Gmail, you’ve seen Gmail’s verified sender signal in action. It’s subtle and easy to miss, but changes how people read an email. As inboxes fill with look-alike domains and brand impersonation attempts, users rely more on visual cue...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cheap SSL Shop",
+    "sourceUrl": "https://www.cheapsslshop.com/blog/gmail-verified-blue-email-tick-what-it-is-how-to-get-one",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263750",
+    "date": "2026-01-23",
+    "title": "4 Cybersecurity Risks Emerging From Cross-Border Online Services",
+    "summary": "In this post, I will talk about cybersecurity risks emerging from cross-border online services. Global online services have never been easier to access. From cloud tools to digital marketplaces, users now expect seamless experiences regardless of where a platform is based. That convenience, howev...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cybersecurity-risks-emerging-from-cross-border-online-services/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263751",
+    "date": "2026-01-23",
+    "title": "Unterschätztes Risiko: Insider-Bedrohungen endlich ernst nehmen",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2692866681.png?quality=50&strip=all 2500w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2692866681.png?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121235/unterschatztes-risiko-insider-bedrohungen-endlich-ernst-nehmen.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263752",
+    "date": "2026-01-23",
+    "title": "Hackers Disable Windows Security With New Malware Attack",
+    "summary": "Unlike traditional attacks that rely on exploits, this succeeds through social engineering combined with abuse of Windows' own security architecture. The post Hackers Disable Windows Security With New Malware Attack appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-hackers-disable-windows-security/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263753",
+    "date": "2026-01-23",
+    "title": "Fortinet confirms critical FortiCloud auth bypass not fully patched",
+    "summary": "Days after admins began reporting that their fully patched firewalls are being hacked, Fortinet confirmed it's working to fully address a critical FortiCloud SSO authentication bypass vulnerability that should have already been patched since early December. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-confirms-critical-forticloud-auth-bypass-not-fully-patched/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20263720",
     "date": "2026-01-23",
     "title": "[Ekstra] Helse Midt-Norge: Ny strategi kan ta 22.000 brukere bort fra Microsoft",
