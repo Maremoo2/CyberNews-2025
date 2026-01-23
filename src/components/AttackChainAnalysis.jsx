@@ -37,13 +37,13 @@ function AttackChainAnalysis({ incidents, filters }) {
         
         {/* Confidence Badge - using centralized rules with raw numbers */}
         {(() => {
-          // Rough estimate: unique incidents ≈ total items / average coverage ratio (typically 2-3x)
-          const estimatedUniqueIncidents = Math.round(incidents.length / 2.5);
-          const coveragePct = ((chainData.totalMultiStagedIncidents / estimatedUniqueIncidents) * 100);
+          // totalMultiStagedIncidents = items (articles) with 2+ MITRE tactics
+          // Use incident-related items as denominator for accurate coverage
+          const coveragePct = ((chainData.totalMultiStagedIncidents / incidents.length) * 100);
           const confidence = getAttackChainConfidence(
             coveragePct,
             chainData.totalMultiStagedIncidents,
-            estimatedUniqueIncidents
+            incidents.length
           );
           return (
             <div style={{ margin: '1rem 0' }}>

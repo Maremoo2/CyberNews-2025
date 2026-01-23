@@ -41,26 +41,26 @@ export function getMitreConfidence(coveragePct, mappedItems, totalItems, method 
 
 /**
  * Attack Chain Reconstruction Confidence
- * @param {number} coveragePct - Percentage of multi-stage incidents vs estimated unique incidents
- * @param {number} multiStageIncidents - Count of multi-stage incidents
- * @param {number} estimatedUniqueIncidents - Count of estimated unique incidents
+ * @param {number} coveragePct - Percentage of items with multi-tactic mapping
+ * @param {number} multiStageItems - Count of items with 2+ MITRE tactics
+ * @param {number} incidentRelatedItems - Total incident-related items
  * @returns {object} { level: string, tooltip: string }
  */
-export function getAttackChainConfidence(coveragePct, multiStageIncidents, estimatedUniqueIncidents) {
+export function getAttackChainConfidence(coveragePct, multiStageItems, incidentRelatedItems) {
   const pct = parseFloat(coveragePct) || 0;
   
   // Medium if coverage >= 5%
   if (pct >= 5) {
     return {
       level: "medium",
-      tooltip: `Chains reconstructed from multi-tactic items; partial visibility. Coverage: ${pct.toFixed(1)}% (${multiStageIncidents}/${estimatedUniqueIncidents} estimated incidents).`
+      tooltip: `Chains reconstructed from multi-tactic items; partial visibility. Coverage: ${multiStageItems}/${incidentRelatedItems} incident-related items (${pct.toFixed(1)}%). Keyword-based.`
     };
   }
   
   // Low if < 5%
   return {
     level: "low",
-    tooltip: `Very limited chain data ${pct.toFixed(1)}% (${multiStageIncidents}/${estimatedUniqueIncidents}). Use as directional signals only.`
+    tooltip: `Very limited chain data: ${multiStageItems}/${incidentRelatedItems} items (${pct.toFixed(1)}%). Use as directional signals only.`
   };
 }
 
@@ -68,11 +68,11 @@ export function getAttackChainConfidence(coveragePct, multiStageIncidents, estim
  * Severity Model Confidence
  * @param {number} curationRatePct - Percentage of manually curated items
  * @param {number} curatedCount - Actual count of curated items
- * @param {number} totalItems - Total items
+ * @param {number} incidentRelatedItems - Total incident-related items (denominator)
  * @param {number} severityCoveragePct - Percentage of incidents with severity assigned
  * @returns {object} { level: string, tooltip: string }
  */
-export function getSeverityConfidence(curationRatePct, curatedCount, totalItems, severityCoveragePct = 100) {
+export function getSeverityConfidence(curationRatePct, curatedCount, incidentRelatedItems, severityCoveragePct = 100) {
   const curation = parseFloat(curationRatePct) || 0;
   const coverage = parseFloat(severityCoveragePct) || 0;
   
@@ -80,7 +80,7 @@ export function getSeverityConfidence(curationRatePct, curatedCount, totalItems,
   if (curation >= 25 && coverage >= 70) {
     return {
       level: "high",
-      tooltip: `High curation ${curation.toFixed(1)}% (${curatedCount}/${totalItems} items) with comprehensive severity assessment (${coverage.toFixed(0)}% coverage).`
+      tooltip: `High curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%) with comprehensive severity assessment (${coverage.toFixed(0)}% coverage).`
     };
   }
   
@@ -88,14 +88,14 @@ export function getSeverityConfidence(curationRatePct, curatedCount, totalItems,
   if (curation >= 10 || coverage >= 40) {
     return {
       level: "medium",
-      tooltip: `Severity requires confirmed impact. Moderate curation ${curation.toFixed(1)}% (${curatedCount}/${totalItems} items) or coverage (${coverage.toFixed(0)}%).`
+      tooltip: `Severity requires confirmed impact. Moderate curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%) or coverage (${coverage.toFixed(0)}%).`
     };
   }
   
   // Low: else
   return {
     level: "low",
-    tooltip: `Severity is conservative and requires confirmed impact. Low curation ${curation.toFixed(1)}% (${curatedCount}/${totalItems} items), early-year enrichment pending.`
+    tooltip: `Severity is conservative and requires confirmed impact. Low curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%), early-year enrichment pending.`
   };
 }
 
