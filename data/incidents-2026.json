@@ -1,5 +1,384 @@
 [
   {
+    "id": "20263805",
+    "date": "2026-01-23",
+    "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2025-68645 (CVSS score: 8.8) - A PHP rem...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263806",
+    "date": "2026-01-23",
+    "title": "Cyberattack disrupts digital systems at renowned Dresden museum network",
+    "summary": "Germany's Dresden State Art Collections network said it was able to keep facilities open and protect artworks while responding to a cyberattack against large portions of its digital infrastructure.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/dresden-state-art-collections-cyberattack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263807",
+    "date": "2026-01-23",
+    "title": "[Ekstra] Apple skal være i ferd med å utvikle sin egen «KI-dings» ",
+    "summary": "Er på størrelse med en Airtag, ifølge kilder.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/apple-skal-vaere-i-ferd-med-a-utvikle-sin-egen-ki-dings/567270",
+    "tags": [
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263808",
+    "date": "2026-01-23",
+    "title": "Fortinet Confirms FortiCloud SSO Exploitation Against Patched Devices",
+    "summary": "Similar to recent FortiCloud single sign-on (SSO) login vulnerabilities, the attacks bypass authentication. The post Fortinet Confirms FortiCloud SSO Exploitation Against Patched Devices appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fortinet-confirms-forticloud-sso-exploitation-against-patched-devices/",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263809",
+    "date": "2026-01-23",
+    "title": "In Other News: €1.2B GDPR Fines, Net-NTLMv1 Rainbow Tables, Rockwell Security Notice",
+    "summary": "Other noteworthy stories that might have slipped under the radar: Cloudflare WAF bypass, Canonical Snap Store abused for malware delivery, Curl terminating bug bounty program The post In Other News: €1.2B GDPR Fines, Net-NTLMv1 Rainbow Tables, Rockwell Security Notice appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-e1-2b-gdpr-fines-net-ntlmv1-rainbow-tables-rockwell-security-notice/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263810",
+    "date": "2026-01-23",
+    "title": "Phishers Abuse SharePoint in New Campaign Targeting Energy Sector",
+    "summary": "Threat actors are leveraging the file-sharing service for payload delivery in AitM phishing and BEC attacks. The post Phishers Abuse SharePoint in New Campaign Targeting Energy Sector appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/phishers-abuse-sharepoint-in-new-campaign-targeting-energy-sector/",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263811",
+    "date": "2026-01-23",
+    "title": "Germany expels Russian diplomat accused of spying on Ukraine war effort",
+    "summary": "“Russia’s aggressive actions have consequences,\" Foreign Minister Johann Wadephul said after Germany announced a Russian diplomat had been expelled on suspicions of espionage.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/germany-expels-russian-diplomat-accused-spying-ukraine-war",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263812",
+    "date": "2026-01-23",
+    "title": "Sikkerhetssjokket som treffer norske bedrifter",
+    "summary": "Små og mellomstore bedrifter står foran en av de største endringene på IT-sikkerhetsområdet på mange år.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-sikkerhetssjokket-som-treffer-norske-bedrifter/567306",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263813",
+    "date": "2026-01-23",
+    "title": "Fortinet Confirms Active FortiCloud SSO Bypass on Fully Patched FortiGate Firewalls",
+    "summary": "Fortinet has officially confirmed that it's working to completely plug a FortiCloud SSO authentication bypass vulnerability following reports of fresh exploitation activity on fully-patched firewalls. \"In the last 24 hours, we have identified a number of cases where the exploit was to a device th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fortinet-confirms-active-forticloud-sso.html",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263814",
+    "date": "2026-01-23",
+    "title": "[Ekstra] Kripos slår alarm: Massiv hackerbølge mot norske bedrifter",
+    "summary": "En uvanlig aktiv kriminell gruppering utnytter sårbarheter i norske brannmurer. Nå frykter politiet at langt flere er hacket uten å vite det.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kripos-slar-alarm-massiv-hackerbolge-mot-norske-bedrifter/567357",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263815",
+    "date": "2026-01-23",
+    "title": "Cyber Insights 2026: Regulations and the Tangled Mess of Compliance Requirements",
+    "summary": "Cyber regulations are where politics meets business – where business becomes subject to political realities. The post Cyber Insights 2026: Regulations and the Tangled Mess of Compliance Requirements appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-regulations-and-the-tangled-mess-of-compliance-requirements/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263816",
+    "date": "2026-01-23",
+    "title": "Product Categories for Technologies That Use Post-Quantum Cryptography Standards",
+    "summary": "By December 1, 2025, the Secretary of Homeland Security, acting through the Director of the Cybersecurity and Infrastructure Security Agency (CISA), ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263817",
+    "date": "2026-01-23",
+    "title": "Rubrik Cybersecurity Summit | From recovery to resilience - Digit.fyi",
+    "summary": "The Rubrik Cyber Security Summit moved beyond the headlines, going behind the scenes of the top cyber threats affecting businesses.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.digit.fyi/rubrik-cybersecurity-summit-from-recovery-to-resilience/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263818",
+    "date": "2026-01-23",
+    "title": "European Commission Proposes Cybersecurity Act 2: New EU Supply Chain Rules and ...",
+    "summary": "First, it would introduce the EU's first horizontal framework for ICT supply chain security—this is an entirely new addition that is not contained in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globalpolicywatch.com/2026/01/european-commission-proposes-cybersecurity-act-2-new-eu-supply-chain-rules-and-certification-reforms/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263819",
+    "date": "2026-01-23",
+    "title": "New Android Malware emerges with automated Ad Clicking abilities - Cybersecurity Insiders",
+    "summary": "According to mobile security researchers from the European cybersecurity firm Dr. Web, Android Phantom is being disguised within altered versions of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/new-android-malware-emerges-with-automated-ad-clicking-abilities/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263820",
+    "date": "2026-01-23",
+    "title": "5 Hot Cybersecurity Certifications for Salary Growth in 2026 - Cybercrime Magazine",
+    "summary": "Certified Information Systems Security Professional (CISSP) @ $112,000. 4. Certified Information Security Manager (CISM) @ $95,000. 5. Certified ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/5-hot-cybersecurity-certifications-for-salary-growth-in-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263821",
+    "date": "2026-01-23",
+    "title": "European Commission Proposes Targeted Amendments to NIS2 to Simplify Compliance ...",
+    "summary": "Other supervisory tools under Articles 32 and 33 (e.g., on‑site inspections, security scans, or targeted information requests) remain available.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.insideprivacy.com/data-security/cybersecurity/european-commission-proposes-targeted-amendments-to-nis2-to-simplify-compliance-and-align-with-proposed-cybersecurity-act-2/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263822",
+    "date": "2026-01-23",
+    "title": "House Homeland Security hearing probes escalating cyber, drone, AI threats to US ...",
+    "summary": "Witnesses at the hearing included Madhu Gottumukkala, acting director of the CISA (Cybersecurity and Infrastructure Security Agency); Ha Nguyen ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/critical-infrastructure/house-homeland-security-hearing-probes-escalating-cyber-drone-ai-threats-to-us-transportation-critical-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263823",
+    "date": "2026-01-23",
+    "title": "European Commission strengthens EU cybersecurity resilience and capabilities - EEAS",
+    "summary": "The package includes a proposal for a revised Cybersecurity Act, which enhances the security of the EU's Information and Communication Technologies ( ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eeas.europa.eu/delegations/african-union-au/european-commission-strengthens-eu-cybersecurity-resilience-and-capabilities_en",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263824",
+    "date": "2026-01-23",
+    "title": "Shipowners gain insights into fleet cyber security - Riviera Maritime Media",
+    "summary": "Regulatory pressure is increasing within the maritime industry to manage cyber risks and be prepared to tackle any security breaches. Which is why ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.rivieramm.com/news-content-hub/shipowners-gain-insight-on-fleet-cybersecurity-87495",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263825",
+    "date": "2026-01-23",
+    "title": "Chertoff Group Appoints Three Cybersecurity Experts to Advisory Board - GovCon Wire",
+    "summary": "The three cybersecurity professionals will strengthen its cybersecurity and technical advisory capabilities, the global security and growth advisory ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govconwire.com/articles/chertoff-cybersecurity-advisory-board",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263826",
+    "date": "2026-01-23",
+    "title": "SharePoint attack, SmarterMail bypass flaw, AI worries Davos - CISO Series",
+    "summary": "Cybersecurity News: Multi-stage SharePoint attack, SmarterMail bypass flaw, AI worries Davos. By. Steve Prentice. -. January 23, 2026.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-multi-stage-sharepoint-attack-smartermail-bypass-flaw-ai-worries-davos/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263827",
+    "date": "2026-01-23",
+    "title": "This Week's Top Five Stories in Cyber | Cyber Magazine",
+    "summary": "Ivanti: How To Save Time and Prevent Cyber Risks with AEM. Cyber Security · WEF: Financial Services Must Look to AI for Cybersecurity. Cyber Security.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/top-five-stories-in-cyber-jan-23",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263828",
+    "date": "2026-01-23",
+    "title": "Live Webinar | Minimize Outage: Mastering Reliability and AI-Driven API Protection",
+    "summary": "government information security.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/webinars/live-webinar-minimize-outage-mastering-reliability-ai-driven-api-w-6765",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263829",
+    "date": "2026-01-23",
+    "title": "The Age of AI Agents Brings a Risk No One Is Prepared For - Barron's",
+    "summary": "... cybersecurity attack. It is also an opportunity for CrowdStrike, Okta, and other cybersecurity stocks.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.barrons.com/articles/agentic-ai-cybersecurity-stocks-crowdstrike-ed44bfbf",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263830",
+    "date": "2026-01-23",
+    "title": "Amazon Connect adds conditional logic and real-time updates to Step-by-Step Guides",
+    "summary": "Amazon Connect Step-by-Step Guides now enables managers to build more dynamic and responsive guided experiences. Managers can create conditional user interfaces that adapt based on user interactions, making workflows more efficient. For example, managers can configure dropdown menus to show or hi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-conditional-logic-real-time-updates-step-by-step-guides/",
+    "tags": [
+      "apt",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263774",
     "date": "2026-01-23",
     "title": "Dresden State Art Collections Targeted In Cyber Breach",
