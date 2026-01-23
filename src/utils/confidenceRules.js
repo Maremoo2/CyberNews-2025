@@ -5,6 +5,8 @@
  * Makes confidence determination transparent and defensible for executive reporting.
  */
 
+import { formatCoverage, validateMetric } from './consistencyChecks.js';
+
 /**
  * MITRE ATT&CK Mapping Confidence
  * @param {number} coveragePct - Percentage of items with MITRE technique mapping
@@ -16,11 +18,31 @@
 export function getMitreConfidence(coveragePct, mappedItems, totalItems, method = "keyword-based") {
   const pct = parseFloat(coveragePct) || 0;
   
+  // Validate metric consistency
+  const validation = validateMetric({
+    n: mappedItems,
+    N: totalItems,
+    label: "MITRE coverage",
+    noun: "incident-related items"
+  });
+  
+  if (!validation.isValid) {
+    console.error("MITRE confidence calculation error:", validation.errors);
+  }
+  
+  // Format coverage consistently
+  const coverage = formatCoverage({
+    n: mappedItems,
+    N: totalItems,
+    noun: "incident-related items",
+    digits: 1
+  });
+  
   // High: coverage >= 60% and not keyword-only (won't hit this in V1)
   if (pct >= 60 && method !== "keyword-based") {
     return {
       level: "high",
-      tooltip: `Manual validation with ${pct.toFixed(1)}% coverage (${mappedItems}/${totalItems} items). Confirmed tactical analysis.`
+      tooltip: `Manual validation with ${coverage.formattedText}. Confirmed tactical analysis.`
     };
   }
   
@@ -28,14 +50,14 @@ export function getMitreConfidence(coveragePct, mappedItems, totalItems, method 
   if (pct >= 20) {
     return {
       level: "medium",
-      tooltip: `Keyword-based mapping; interpret as signals, not confirmed TTPs. Coverage: ${pct.toFixed(1)}% (${mappedItems}/${totalItems} incident-related items).`
+      tooltip: `Keyword-based mapping; interpret as signals, not confirmed TTPs. Coverage: ${coverage.formattedText}.`
     };
   }
   
   // Low: < 20%
   return {
     level: "low",
-    tooltip: `Limited mapping coverage ${pct.toFixed(1)}% (${mappedItems}/${totalItems} items) for strong conclusions. Early-stage data.`
+    tooltip: `Limited mapping coverage ${coverage.formattedText} for strong conclusions. Early-stage data.`
   };
 }
 
@@ -49,18 +71,38 @@ export function getMitreConfidence(coveragePct, mappedItems, totalItems, method 
 export function getAttackChainConfidence(coveragePct, multiStageItems, incidentRelatedItems) {
   const pct = parseFloat(coveragePct) || 0;
   
+  // Validate metric consistency
+  const validation = validateMetric({
+    n: multiStageItems,
+    N: incidentRelatedItems,
+    label: "Attack chains",
+    noun: "incident-related items"
+  });
+  
+  if (!validation.isValid) {
+    console.error("Attack chain confidence calculation error:", validation.errors);
+  }
+  
+  // Format coverage consistently
+  const coverage = formatCoverage({
+    n: multiStageItems,
+    N: incidentRelatedItems,
+    noun: "incident-related items",
+    digits: 1
+  });
+  
   // Medium if coverage >= 5%
   if (pct >= 5) {
     return {
       level: "medium",
-      tooltip: `Chains reconstructed from multi-tactic items; partial visibility. Coverage: ${multiStageItems}/${incidentRelatedItems} incident-related items (${pct.toFixed(1)}%). Keyword-based.`
+      tooltip: `Chains reconstructed from multi-tactic items; partial visibility. Coverage: ${coverage.formattedText}. Keyword-based.`
     };
   }
   
   // Low if < 5%
   return {
     level: "low",
-    tooltip: `Very limited chain data: ${multiStageItems}/${incidentRelatedItems} items (${pct.toFixed(1)}%). Use as directional signals only.`
+    tooltip: `Very limited chain data: ${coverage.formattedText}. Use as directional signals only.`
   };
 }
 
@@ -76,11 +118,31 @@ export function getSeverityConfidence(curationRatePct, curatedCount, incidentRel
   const curation = parseFloat(curationRatePct) || 0;
   const coverage = parseFloat(severityCoveragePct) || 0;
   
+  // Validate metric consistency
+  const validation = validateMetric({
+    n: curatedCount,
+    N: incidentRelatedItems,
+    label: "Curation",
+    noun: "incident-related items"
+  });
+  
+  if (!validation.isValid) {
+    console.error("Severity confidence calculation error:", validation.errors);
+  }
+  
+  // Format coverage consistently
+  const curationCoverage = formatCoverage({
+    n: curatedCount,
+    N: incidentRelatedItems,
+    noun: "incident-related items",
+    digits: 1
+  });
+  
   // High: curationRate >= 25% and severityCoverage >= 70%
   if (curation >= 25 && coverage >= 70) {
     return {
       level: "high",
-      tooltip: `High curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%) with comprehensive severity assessment (${coverage.toFixed(0)}% coverage).`
+      tooltip: `High curation: ${curationCoverage.formattedText} with comprehensive severity assessment (${coverage.toFixed(0)}% coverage).`
     };
   }
   
@@ -88,14 +150,14 @@ export function getSeverityConfidence(curationRatePct, curatedCount, incidentRel
   if (curation >= 10 || coverage >= 40) {
     return {
       level: "medium",
-      tooltip: `Severity requires confirmed impact. Moderate curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%) or coverage (${coverage.toFixed(0)}%).`
+      tooltip: `Severity requires confirmed impact. Moderate curation: ${curationCoverage.formattedText} or coverage (${coverage.toFixed(0)}%).`
     };
   }
   
   // Low: else
   return {
     level: "low",
-    tooltip: `Severity is conservative and requires confirmed impact. Low curation: ${curatedCount}/${incidentRelatedItems} incident-related items (${curation.toFixed(1)}%), early-year enrichment pending.`
+    tooltip: `Severity is conservative and requires confirmed impact. Low curation: ${curationCoverage.formattedText}, early-year enrichment pending.`
   };
 }
 
