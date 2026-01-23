@@ -105,7 +105,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
             onClick={() => setPopulationMode('incidents')}
             aria-pressed={populationMode === 'incidents'}
           >
-            INCIDENTS ({analysis.totalIncidents})
+            INCIDENT-RELATED ITEMS ({analysis.totalIncidents})
           </button>
           <button 
             className={populationMode === 'all' ? 'toggle-btn active' : 'toggle-btn'}
@@ -117,13 +117,13 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         </div>
         <p className="summary-subtitle">
           {populationMode === 'incidents' 
-            ? `Key insights from ${analysis.totalIncidents} incident-related articles published in ${selectedYear}` 
+            ? `Key insights from ${analysis.totalIncidents} incident-related items published in ${selectedYear}` 
             : `Coverage of ${analysis.totalAllItems} items (includes explainers, products, and opinions)`}
         </p>
         <div className="counting-note">
           <span className="count-badge">
             {populationMode === 'incidents' 
-              ? 'Incident-related articles only (recommended for executive view)' 
+              ? 'Incident-related items only (recommended for executive view)' 
               : 'All content types'}
           </span>
           <span className="quality-note">{analysis.curatedCount} curated ({analysis.curatedPercentage}%)</span>

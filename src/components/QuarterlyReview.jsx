@@ -159,7 +159,7 @@ function QuarterlyReview({ incidents }) {
                 <div className="quarter-metric-row">
                   <div className="quarter-metric">
                     <span className="metric-value">{quarter.count}</span>
-                    <span className="metric-label">Incident Articles</span>
+                    <span className="metric-label">Incident-Related Items</span>
                   </div>
                   <div className="quarter-metric">
                     <span className="metric-value">{quarter.avgImpact}</span>
@@ -214,7 +214,7 @@ function QuarterlyReview({ incidents }) {
                 <div className="highlight-section">
                   <h5>⚠️ Critical Events</h5>
                   <p className="highlight-stat">
-                    {quarter.severityCounts.critical} critical incidents
+                    {quarter.severityCounts.critical} critical items
                     {quarter.severityCounts.critical > 0 && (
                       <span className="highlight-detail">
                         {' '}({((quarter.severityCounts.critical / quarter.count) * 100).toFixed(0)}% of total)

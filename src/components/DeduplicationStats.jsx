@@ -20,7 +20,7 @@ function DeduplicationStats({ incidents }) {
     <div className="deduplication-stats">
       <div className="stats-header">
         <h3>📊 Data Volume Analysis</h3>
-        <p className="subtitle">Estimated unique incidents vs news coverage</p>
+        <p className="subtitle">Estimated unique incidents vs incident-related items coverage</p>
       </div>
 
       <div className="stats-grid">
@@ -28,8 +28,8 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">📰</div>
           <div className="stat-content">
             <div className="stat-value">{stats.totalArticles.toLocaleString()}</div>
-            <div className="stat-label">Total Articles</div>
-            <div className="stat-description">News items published</div>
+            <div className="stat-label">Incident-Related Items</div>
+            <div className="stat-description">News articles published</div>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-content">
             <div className="stat-value">{stats.deduplicationRatio}x</div>
             <div className="stat-label">Coverage Ratio</div>
-            <div className="stat-description">Articles per incident</div>
+            <div className="stat-description">Items per incident</div>
           </div>
         </div>
       </div>
