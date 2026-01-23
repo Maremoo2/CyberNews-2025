@@ -1,5 +1,167 @@
 [
   {
+    "id": "20263720",
+    "date": "2026-01-23",
+    "title": "[Ekstra] Helse Midt-Norge: Ny strategi kan ta 22.000 brukere bort fra Microsoft",
+    "summary": "Helse Midt-Norge vurderer å flytte brukerne sine over på ChromeOS eller det tyske Linux-alternativet Igel av økonomiske og geopolitiske hensyn.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/en-av-norges-storste-offentlige-aktorer-kan-ta-22-000-brukere-bort-fra-microsoft/567261",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263721",
+    "date": "2026-01-23",
+    "title": "ISC Stormcast For Friday, January 23rd, 2026 https://isc.sans.edu/podcastdetail/9778, (Fri, Jan 23rd)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32652",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263722",
+    "date": "2026-01-23",
+    "title": "Claroty raises USD $150m to boost CPS cyber security - SecurityBrief Asia",
+    "summary": "It cited research from Gartner on cyber attacks that cross from digital systems into physical assets. Market pressures. Claroty said the market for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/claroty-raises-usd-150m-to-boost-cps-cyber-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263723",
+    "date": "2026-01-23",
+    "title": "Modern Red Teaming & EDR Evasion Techniques - EC-Council",
+    "summary": "Masters of Cyber Security · Master of Science in Computer Science · MBA in ... Certified Cybersecurity Technician (C|CT). CUSTOMER SERVICE. Partner ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/cyber-talks/modern-red-teaming-edr-evasion-technique/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263724",
+    "date": "2026-01-23",
+    "title": "GitLab Patches Critical Authentication and Denial-of-Service Flaws - LinkedIn",
+    "summary": "World's Premier Cyber Security Portal ... The disclosures underscore persistent challenges in securing software supply chains and developer ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/gitlab-patches-critical-authentication-denial-of-service-xshte",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263725",
+    "date": "2026-01-23",
+    "title": "Comment on NIST SP 800-82 | CSRC",
+    "summary": "... cybersecurity standards and practices, and address changes in the OT threat ... Computer Security Resource Center · CSRC Logo · Updates 2026. Call ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://csrc.nist.gov/News/2026/comment-on-nist-sp-800-82",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263726",
+    "date": "2026-01-23",
+    "title": "Deploying Local AI Agents in Kubernetes and Securing Them with Zero Trust - AppGate",
+    "summary": "Kubernetes provides powerful orchestration, but its security model was not built to enforce Zero Trust principles on autonomous workloads. Network ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.appgate.com/blog/deploying-local-ai-agents-in-kubernetes-and-securing-them-with-zero-trust",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263727",
+    "date": "2026-01-23",
+    "title": "A Cyber-Resilient UAV Swarm Framework for Fire-Fighting with AI-Based In-Flight Defect Inspection",
+    "summary": "... cyber attack simulations using GNS3 and Ettercap to evaluate operational reliability and communication security. ... network-level cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scirp.org/journal/paperinformation?paperid=149054",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263728",
+    "date": "2026-01-23",
+    "title": "The Case for Cyber Pressure Against Venezuela | Lawfare",
+    "summary": "A U.S. campaign to pressure Caracas would hold promise. Sign for U.S. Cyber Command, National Security Agency, and Central Security Service, Fort ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/the-case-for-cyber-pressure-against-venezuela",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263729",
+    "date": "2026-01-23",
+    "title": "AI Risks a Key Driver Behind Cyber Insurance Growth, Evolution | MSSP Alert",
+    "summary": "... cyber insurance and those that buy it ... Security, Data Security, Cybersecurity insurance. AI Risks a Key Driver ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msspalert.com/news/ai-risks-a-key-driver-behind-cyber-insurance-growth-evolution",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263730",
+    "date": "2026-01-23",
+    "title": "2 Top Cybersecurity Stocks to Buy in January - Yahoo Finance",
+    "summary": "AI-enabled cyberattacks increased 72% in 2025. Palo Alto has a very profitable security business and is expanding its footprint with its Cyberark ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/2-top-cybersecurity-stocks-buy-135000488.html",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263712",
     "date": "2026-01-23",
     "title": "More employees get AI tools, fewer rely on them at work",
