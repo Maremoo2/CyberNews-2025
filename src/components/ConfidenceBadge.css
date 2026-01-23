@@ -1,0 +1,88 @@
+/* ConfidenceBadge Component Styles */
+
+.confidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid;
+  cursor: help;
+  transition: all 0.2s ease;
+}
+
+.confidence-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Size variants */
+.confidence-badge.size-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  gap: 0.3rem;
+}
+
+.confidence-badge.size-large {
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  gap: 0.5rem;
+}
+
+/* Confidence levels */
+.confidence-badge.confidence-high {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: #15803d;
+  border-color: rgba(22, 163, 74, 0.3);
+}
+
+.confidence-badge.confidence-high:hover {
+  background-color: rgba(22, 163, 74, 0.15);
+  border-color: rgba(22, 163, 74, 0.5);
+}
+
+.confidence-badge.confidence-medium {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #d97706;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.confidence-badge.confidence-medium:hover {
+  background-color: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+.confidence-badge.confidence-low {
+  background-color: rgba(220, 38, 38, 0.1);
+  color: #b91c1c;
+  border-color: rgba(220, 38, 38, 0.3);
+}
+
+.confidence-badge.confidence-low:hover {
+  background-color: rgba(220, 38, 38, 0.15);
+  border-color: rgba(220, 38, 38, 0.5);
+}
+
+.confidence-icon {
+  font-size: 1em;
+  line-height: 1;
+}
+
+.confidence-text {
+  white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .confidence-badge {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.6rem;
+  }
+  
+  .confidence-badge.size-large {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+}

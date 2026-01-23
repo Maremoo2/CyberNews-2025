@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import './AttackChainAnalysis.css';
 import { getAttackChains } from '../utils/analyticsUtils';
+import ConfidenceBadge from './ConfidenceBadge';
 
 /**
  * Attack Chain Reconstruction Component
@@ -32,6 +33,17 @@ function AttackChainAnalysis({ incidents, filters }) {
       <div className="section-header">
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
+        
+        {/* Confidence Badge - making uncertainty visible */}
+        <div style={{ margin: '1rem 0' }}>
+          <ConfidenceBadge 
+            level="medium" 
+            metric="Attack chain mapping"
+            percentage={((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(0)}
+            tooltip="Based on keyword-matched MITRE tactics from news articles. Chains show media-reported patterns, not confirmed attack sequences. Limited to incidents with 2+ tactics."
+          />
+        </div>
+        
         <div className="coverage-badge">
           ⚠️ Coverage: {chainData.totalMultiStagedIncidents} items ({((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(1)}% of total)
           <span className="coverage-note">Based on keyword-matched MITRE tactics. Interpret as media signals, not confirmed TTPs.</span>

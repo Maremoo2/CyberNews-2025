@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
 import { isDataEnriched, getEnrichmentQualityMessage, filterToIncidentsOnly } from '../utils/populationUtils'
+import ConfidenceBadge from './ConfidenceBadge'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   // Default to incident-only analysis (P0 requirement)
@@ -168,6 +169,20 @@ function ExecutiveSummary({ incidents, selectedYear }) {
           <div className="count-type-label">
             <small>Count type: unique incidents</small>
           </div>
+          
+          {/* Confidence Badge for severity data */}
+          {analysis.dataEnriched && (
+            <div style={{ marginBottom: '0.75rem' }}>
+              <ConfidenceBadge 
+                level={analysis.curatedPercentage >= 10 ? 'medium' : 'low'} 
+                metric="Severity classification"
+                percentage={analysis.curatedPercentage}
+                tooltip={`Only ${analysis.curatedPercentage}% of items are manually curated. Severity requires confirmed impact, not just disclosure. Early-year data pending enrichment.`}
+                size="small"
+              />
+            </div>
+          )}
+          
           {!analysis.dataEnriched ? (
             <div className="no-enrichment-message">
               <p>⚠️ Severity data not available</p>
