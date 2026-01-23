@@ -1,5 +1,400 @@
 [
   {
+    "id": "20263774",
+    "date": "2026-01-23",
+    "title": "Dresden State Art Collections Targeted In Cyber Breach",
+    "summary": "Digital infrastructure for the Dresden State Art Collections was impacted by a cyber incident.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102094-dresden-state-art-collections-targeted-in-cyber-breach",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263775",
+    "date": "2026-01-23",
+    "title": "TikTok Strikes Deal to Create New U.S. Entity and Loosen App’s Ties to China",
+    "summary": "The Chinese parent company of the popular video app said a group of non-Chinese investors would create an American TikTok to avoid a federal ban.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "New York Times Cybersecurity",
+    "sourceUrl": "https://www.nytimes.com/2026/01/22/technology/tiktok-deal-oracle-bytedance-china-us.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263776",
+    "date": "2026-01-23",
+    "title": "Des pare-feu FortiGate compromis en quelques secondes par des attaques automatisées",
+    "summary": "Depuis mi-janvier, des pare-feu FortiGate sont visés par une campagne automatisée mêlant export de configuration, création de comptes et accès à distance. Un mode opératoire qui rappelle la vague d’attaques observée en décembre, sur fond de failles SSO et de patch à l'efficacité questionnée.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596809-des-pare-feu-fortigate-compromis-en-quelques-secondes-par-des-attaques-automatisees.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263777",
+    "date": "2026-01-23",
+    "title": "NIST is rethinking its role in analyzing software vulnerabilities",
+    "summary": "As the agency’s vulnerability database buckles under a flood of submissions, it’s planning to shift some responsibilities to other parties.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/nist-cve-vulnerability-analysis-nvd-review/810300/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263778",
+    "date": "2026-01-23",
+    "title": "5 cybersecurity trends to watch in 2026",
+    "summary": "Corporations across the globe are facing a dynamic risk environment, as AI adoption surges with few guardrails, business resilience takes center stage and the insurance industry raises major concerns about the U.S. cyber market.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/5-cybersecurity-trends-2026/810354/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263779",
+    "date": "2026-01-23",
+    "title": "Session rotates APT signing key ahead of SHA-1 deprecation deadline",
+    "summary": "The Session team has announced a critical signing key rotation for its APT repositories and GitHub releases, driven by the upcoming rejection of the SHA-1 algorithm in APT version 1.2.7, which takes effect on February 1, 2026. Users who rely on Session-related Debian packages must install the new...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/session-rotates-apt-signing-key-ahead-of-sha-1-deprecation-deadline/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263780",
+    "date": "2026-01-23",
+    "title": "Pwn2Own Automotive 2026 wraps with $1M in payouts and 76 zero-days",
+    "summary": "The third and final day of Pwn2Own Automotive 2026 concluded with a flurry of successful exploits and bug collisions, pushing the event’s total payout to $1,047,000 USD across 76 unique zero-day vulnerabilities. Fuzzware.io’s trio, Tobias Scharnowski (@ScepticCtf), Felix Buchmann (@diff_fusion), ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/pwn2own-automotive-2026-wraps-with-1m-in-payouts-and-76-zero-days/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263781",
+    "date": "2026-01-23",
+    "title": "1Password introduces new built-in phishing protection to fight AI scams",
+    "summary": "1Password has introduced a new browser-based phishing protection feature to intercept credential theft before it happens, in response to a surge in AI-generated phishing attacks that are becoming harder for users to detect. The feature, now rolling out to individual, family, and business users, e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/1password-introduces-new-built-in-phishing-protection-to-fight-ai-scams/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263782",
+    "date": "2026-01-23",
+    "title": "Okta users under attack: Modern phishing kits are turbocharging vishing attacks",
+    "summary": "Threat actors who specialize in vishing (i.e., voice phishing) have started using phishing kits that can intercept targets’ login credentials while also allowing attackers to control the authentication flow in a targeted user’s browser in real-time. At least two custom-made phishing kits are curr...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/okta-vishing-adaptable-phishing-kits/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263783",
+    "date": "2026-01-23",
+    "title": "Critical Vulnerabilities and Phishing Campaigns Dominate Cybersecurity Headlines",
+    "summary": "Major Threats & Vulnerabilities Zero-Day and Actively Exploited Vulnerabilities A critical vulnerability in Oracle WebLogic allows unauthenticated remote access through the proxy layer. Oracle advises immediate patching, placing affected components behind a WAF, and tightening access controls. A ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/critical-vulnerabilities-and-phishing-campaigns-dominate-cybersecurity-headlines/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "ai-ml",
+      "oracle"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263784",
+    "date": "2026-01-23",
+    "title": "How Advanced Cyber Defense Platforms Are Changing Threat Detection and Incident Response in 2026",
+    "summary": "In this post, I will show you how advanced cyber defense platforms are changing threat detection and incident response in 2026. Cybersecurity in 2026 no longer looks like a battle against isolated threats. It looks more like a continuous arms race, where attackers adapt faster than most tradition...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cyber-defense-platforms-incident-response/",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20263787",
+    "date": "2026-01-23",
+    "title": "CVE-2026-24061: Decade-Old Vulnerability in GNU InetUtils telnetd Enables Remote Root Access",
+    "summary": "A new day, a new challenge for cyber defenders. Right after the disclosure of a nasty zero-day vulnerability in Cisco’s unified communication management products (CVE-2026-20045), security researchers spotted a novel bug that had gone unnoticed for 11 years. A critical authentication bypass issue...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-24061-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263789",
+    "date": "2026-01-23",
+    "title": "Enterprise Password Management for the Breach Era",
+    "summary": "This blog was originally published here. Credential breaches are a top concern for IT Directors and CISOs across every industry. When attackers compromise user credentials at scale, the ability to reset passwords quickly and securely becomes mission-critical. Yet, most enterprises still rely on l...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Identity Defined Security Alliance Blog",
+    "sourceUrl": "https://www.idsalliance.org/blog/enterprise-password-management-for-the-breach-era/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263790",
+    "date": "2026-01-23",
+    "title": "2026 DoD Secure Enclave Guidance Validates Data-Centric Security for CMMC",
+    "summary": "For defense contractors pursuing CMMC Level 2 certification, the concept of the \"Secure Enclave\" is the gold standard. It represents a walled garden where Controlled Unclassified Information (CUI) lives, safe from the open internet and unauthorized users.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/cmmc/secure-enclaves-dod-guidance",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263792",
+    "date": "2026-01-23",
+    "title": "NETSCOUT recognized for leadership in network detection and response",
+    "summary": "We’re proud to share that NETSCOUT has been recognized for industry-leading excellence in network detection and response (NDR). This acknowledgment, from Quadrant Knowledge Solutions’ 2025 SPARK Matrix™ for NDR, highlights what our customers already know: NETSCOUT delivers unmatched visibility, p...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117431/netscout-recognized-for-leadership-in-network-detection-and-response.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263793",
+    "date": "2026-01-23",
+    "title": "Smarter DDoS security at scale",
+    "summary": "In today’s digital landscape, encrypted traffic is the norm—not the exception. While encryption such as Transport Layer Security (TLS) 1.3 protects user privacy and data integrity, it also presents a growing challenge for security teams: How do you defend against threats hidden inside encrypted t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117454/smarter-ddos-security-at-scale.html",
+    "tags": [
+      "ddos",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263794",
+    "date": "2026-01-23",
+    "title": "Ransomware-Attacke auf Verkehrsgesellschaft Main-Tauber",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/480442374_625365396806507_3730545703312550477_n.jpg?quality=50&strip=all 2048w, https://b2b-contenthub.com/wp-content/uploads/2026/01/480442374_625365396806507_3730545703312550477_n.jpg?resize=300%2C168&quality=50&strip=all 300w, https...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121451/ransomware-attacke-auf-verkehrsgesellschaft-main-tauber.html",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263795",
+    "date": "2026-01-23",
+    "title": "Healthy Security Cultures Thrive on Risk Reporting",
+    "summary": "The signs of an effective security culture are shifting as companies call on CISOs and security teams to raise their hands unabashedly.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/healthy-security-cultures-thrive-on-risk-reporting",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263796",
+    "date": "2026-01-23",
+    "title": "NHS Issues Open Letter Demanding Improved Cybersecurity Standards from Suppliers",
+    "summary": "Open letter by NHS technology leaders outlines plans to identify risks to software supply chain security across health and social care system",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nhs-open-letter-demands-improved/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263797",
+    "date": "2026-01-23",
+    "title": "Under Armour Investigates Data Breach After 72 Million Records Allegedly Exposed",
+    "summary": "Under Armour said there is no evidence at this point to suggest the incident affected systems used to process payments or store customer passwords",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/under-armour-investigates-data/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263798",
+    "date": "2026-01-23",
+    "title": "Practical Guide to Different Types of Cyber Tabletop Exercises in 2026",
+    "summary": "Cyber incidents in 2026 will definitely not be purely technical failures. Given the nature of attacks we saw in 2025, it’s very reasonable to expect cyber crises to turn into full-blown enterprise-wide crises. They will involve executives, legal teams, regulators, communications, suppliers, and c...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/practical-guide-to-different-types-of-cyber-tabletop-exercises-in-2026",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263799",
+    "date": "2026-01-23",
+    "title": "Okta Uncovers Custom Phishing Kits Built for Vishing Callers",
+    "summary": "They can intercept user credentials while providing real-time context that helps attackers convince victims to approve MFA challenges during phone calls.. The post Okta Uncovers Custom Phishing Kits Built for Vishing Callers appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-phishing-kits-vishing-callers/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263800",
+    "date": "2026-01-23",
+    "title": "US to deport Venezuelans who emptied bank ATMs using malware",
+    "summary": "South Carolina federal prosecutors announced that two Venezuelan nationals convicted of stealing hundreds of thousands of dollars from U.S. banks in an ATM jackpotting scheme will be deported after serving their sentences. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-to-deport-venezuelans-who-emptied-bank-atms-using-malware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263801",
+    "date": "2026-01-23",
+    "title": "Hackers exploit critical telnetd auth bypass flaw to get root",
+    "summary": "A coordinated campaign has been observed targeting a recently disclosed critical-severity vulnerability that has been present in the GNU InetUtils telnetd server for 11 years. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-telnetd-auth-bypass-flaw-to-get-root/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263802",
+    "date": "2026-01-23",
+    "title": "What an AI-Written Honeypot Taught Us About Trusting Machines",
+    "summary": "AI-generated code can introduce subtle security flaws when teams over-trust automated output. Intruder shows how an AI-written honeypot introduced hidden vulnerabilities that were exploited in attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/what-an-ai-written-honeypot-taught-us-about-trusting-machines/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263803",
+    "date": "2026-01-23",
+    "title": "Microsoft: Outlook for iOS crashes, freezes due to coding error",
+    "summary": "Microsoft confirmed today that Outlook mobile may crash or freeze when launched on iPad devices due to a coding error. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-for-ios-crashes-freezes-due-to-coding-error/",
+    "tags": [
+      "mobile",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263804",
+    "date": "2026-01-23",
+    "title": "Hackers get $1,047,000 for 76 zero-days at Pwn2Own Automotive 2026",
+    "summary": "Pwn2Own Automotive 2026 has ended with security researchers earning $1,047,000 after exploiting 76 zero-day vulnerabilities between January 21 and January 23. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-get-1-047-000-for-76-zero-days-at-pwn2own-automotive-2026/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263754",
     "date": "2026-01-23",
     "title": "Under Armour Looking Into Data Breach Affecting Customers’ Email Addresses",
@@ -879,6 +1274,38 @@
       "ransomware",
       "cloud",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263788",
+    "date": "2026-01-22",
+    "title": "DORA Compliance in the EU: Proving Operational Readiness",
+    "summary": "DORA (a quick recap: the Digital Operational Resilience Act) sets out five pillars and a common rulebook to harmonize ICT resilience across financial services, in all EU Member States. It standardizes how firms and critical third-party providers across Europe govern ICT risk, test resilience, and...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MazeBolt Security Blog",
+    "sourceUrl": "https://mazebolt.com/blog/dora-compliance-in-the-eu-proving-operational-readiness",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "finance"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263791",
+    "date": "2026-01-22",
+    "title": "Introducing Intent-Based Policy Management for Cisco Hybrid Mesh Firewall",
+    "summary": "Hybrid Mesh Firewall introduces intent-based policy management across multi-vendor firewalls through Cisco Security Cloud Control with Mesh Policy Engine.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/introducing-intent-based-policy-management-for-cisco-hybrid-mesh-firewall/",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "cisco"
     ],
     "impact": 3
   },
@@ -3782,6 +4209,34 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263785",
+    "date": "2026-01-21",
+    "title": "Explore Advanced VR Arcade Machines and Motion Simulators with VART Arcade",
+    "summary": "In this post, we will explore advanced VR Arcade machines and motion simulators with VART Arcade. The global entertainment industry is undergoing a powerful transformation driven by immersive technologies. Virtual reality is no longer limited to gaming consoles or headsets at home—it has expanded...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/advanced-vr-arcade-machines-and-motion-simulators/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20263786",
+    "date": "2026-01-21",
+    "title": "VR Arcade Startup Costs Explained: Equipment, Space, and Budget",
+    "summary": "In this post, I will talk about VR Arcade startup costs. Also, I will explain its equipment, space, and budget. The global demand for immersive entertainment has made the vr arcade industry one of the most exciting opportunities in the modern entertainment market. A virtual reality arcade combine...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/vr-arcade-startup-costs-explained/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
