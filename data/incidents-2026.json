@@ -1,5 +1,304 @@
 [
   {
+    "id": "20263754",
+    "date": "2026-01-23",
+    "title": "Under Armour Looking Into Data Breach Affecting Customers’ Email Addresses",
+    "summary": "Clothing retailer Under Armour is investigating a recent data breach that purloined customers’ email addresses and other personal information, but so far there are no signs the hackers stole any passwords or financial information. The breach is believed to have happened late last year, and affect...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/under-armour-looking-into-data-breach-affecting-customers-email-addresses/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263755",
+    "date": "2026-01-23",
+    "title": "TikTok Forms U.S. Joint Venture to Continue Operations Under 2025 Executive Order",
+    "summary": "TikTok on Friday officially announced that it formed a joint venture that will allow the hugely popular video-sharing application to continue operating in the U.S. The new venture, named TikTok USDS Joint Venture LLC, has been established in compliance with the Executive Order signed by U.S. Pres...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/tiktok-forms-us-joint-venture-to.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263756",
+    "date": "2026-01-23",
+    "title": "Phishing Attack Uses Stolen Credentials to Install LogMeIn RMM for Persistent Access",
+    "summary": "Cybersecurity researchers have disclosed details of a new dual-vector campaign that leverages stolen credentials to deploy legitimate Remote Monitoring and Management (RMM) software for persistent remote access to compromised hosts. \"Instead of deploying custom viruses, attackers are bypassing se...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263757",
+    "date": "2026-01-23",
+    "title": "Organizations Warned of Exploited Zimbra Collaboration Vulnerability",
+    "summary": "CISA has added the Zimbra flaw to the KEV catalog along with three other bugs exploited in the wild. The post Organizations Warned of Exploited Zimbra Collaboration Vulnerability appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/organizations-warned-of-exploited-zimbra-collaboration-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263758",
+    "date": "2026-01-23",
+    "title": "Infotainment, EV Charger Exploits Earn Hackers $1M at Pwn2Own Automotive 2026",
+    "summary": "Pwn2Own participants disclosed a total of 76 vulnerabilities during the three-day event. The post Infotainment, EV Charger Exploits Earn Hackers $1M at Pwn2Own Automotive 2026 appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/infotainment-ev-charger-exploits-earn-hackers-1m-at-pwn2own-automotive-2026/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263759",
+    "date": "2026-01-23",
+    "title": "Fresh SmarterMail Flaw Exploited for Admin Access",
+    "summary": "The exploitation of the authentication bypass vulnerability started two days after patches were released. The post Fresh SmarterMail Flaw Exploited for Admin Access appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fresh-smartermail-flaw-exploited-for-admin-access/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263760",
+    "date": "2026-01-23",
+    "title": "Journalsystemet nede på alle sykehus i Nord-Norge",
+    "summary": "Journalsystemet til Universitetssykehuset i Nord-Norge (UNN) var nede.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/journalsystemet-nede-pa-alle-sykehus-i-nord-norge/567345",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263761",
+    "date": "2026-01-23",
+    "title": "Crims hit the easy button for IT helpdesk scams",
+    "summary": "Criminals can more easily pull off social engineering scams and other forms of identity fraud thanks to custom voice-phishing kits being sold on dark web forums and messaging platforms.These kits are sold as a service to \"a growing number\" of digital intruders targeting victims' Google, Microsoft...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/22/crims_sell_voice_phishing_kits/?&web_view=true",
+    "tags": [
+      "phishing",
+      "microsoft",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263762",
+    "date": "2026-01-23",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c264613882cd103 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inc-ransomware-opsec-fail-allowed-data-recovery-for-12-us-orgs/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263763",
+    "date": "2026-01-23",
+    "title": "[Ekstra] IT-leveranser er blitt et maktmiddel for Donald Trump",
+    "summary": "Eksperter mener norske virksomheter må vurdere risiko med nye øyne for å sikre egen handlefrihet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/analyse-it-leveranser-er-blitt-et-maktmiddel-for-donald-trump/567255",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263764",
+    "date": "2026-01-23",
+    "title": "2 Venezuelans Convicted in US for Using Malware to Hack ATMs",
+    "summary": "Dozens of Venezuelan nationals have been charged by the US for their role in ATM jackpotting attacks. The post 2 Venezuelans Convicted in US for Using Malware to Hack ATMs appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/2-venezuelans-convicted-in-us-for-using-malware-to-hack-atms/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263765",
+    "date": "2026-01-23",
+    "title": "Phishing attacks abuse SharePoint, target energy orgs",
+    "summary": "Unknown attackers are abusing Microsoft SharePoint file-sharing services to target multiple energy-sector organizations, harvest user credentials, take over corporate inboxes, and then send hundreds of phishing emails from compromised accounts to contacts inside and outside those organizations.Th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/22/crims_compromised_energy_firms_microsoft/?&web_view=true",
+    "tags": [
+      "phishing",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263766",
+    "date": "2026-01-23",
+    "title": "Microsoft Flags Multi-Stage AitM Phishing and BEC Attacks Targeting Energy Firms",
+    "summary": "Microsoft has warned of a multi‑stage adversary‑in‑the‑middle (AitM) phishing and business email compromise (BEC) campaign targeting multiple organizations in the energy sector. \"The campaign abused SharePoint file‑sharing services to deliver phishing payloads and relied on inbox rule creation to...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/microsoft-flags-multi-stage-aitm.html",
+    "tags": [
+      "phishing",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263767",
+    "date": "2026-01-23",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1769155082.792482fa",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/01/22/cisa-adds-four-known-exploited-vulnerabilities-catalog?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263768",
+    "date": "2026-01-23",
+    "title": "Marlink Cyber exposes ISC BIND flaw that could knock critical infrastructure DNS offline",
+    "summary": "The disclosure reflects a coordinated research effort aimed at strengthening critical infrastructure security. “Two malformed DNS resource record ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/marlink-cyber-exposes-isc-bind-flaw-that-could-knock-critical-infrastructure-dns-offline/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263769",
+    "date": "2026-01-23",
+    "title": "AI surge exposes cloud security gaps, report warns - New Zealand",
+    "summary": "Our survey of these experts indicates that while cybersecurity spend is increasing, the maturity and effectiveness of cyber defenses are not keeping ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.nz/story/ai-surge-exposes-cloud-security-gaps-report-warns",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263770",
+    "date": "2026-01-23",
+    "title": "Schneider Electric EcoStruxure Process Expert - CISA",
+    "summary": "Also, understand that VPNs are only as secure as the connected devices. For more information refer to the Schneider Electric Recommended Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-01",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263771",
+    "date": "2026-01-23",
+    "title": "How Best to Prepare Your Data for Your Tools - CISO Series",
+    "summary": "Joining us is our sponsored guest, Matt Goodrich, director of information security, Alteryx. ... cybersecurity. This show thrives on your ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/how-best-to-prepare-your-data-for-your-tools-2/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263772",
+    "date": "2026-01-23",
+    "title": "Emerging AI and Agentic Risk: The Future of Cyber Security Compliance with Cordell Robinson",
+    "summary": "Source: https://www.podbean.com/eau/pb-hvt3m-1a27514 In this week's Fish Fry podcast, I chat with cybersecurity expert Cordell Robinson about ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=_C-Ypc2NmX8",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263773",
+    "date": "2026-01-23",
+    "title": "Chairman Garbarino Celebrates House Passage of the FY2026 Department of Homeland ...",
+    "summary": "... cyber threats. Provides $20 million to strengthen the Cybersecurity and Infrastructure Security Agency (CISA) workforce, supporting threat hunting ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/22/chairman-garbarino-celebrates-house-passage-of-the-fy2026-department-of-homeland-security-appropriations-bill/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263731",
     "date": "2026-01-23",
     "title": "AIs are Getting Better at Finding and Exploiting Internet Vulnerabilities",
