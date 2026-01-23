@@ -1,5 +1,211 @@
 [
   {
+    "id": "20263669",
+    "date": "2026-01-22",
+    "title": "L'effrayante stratégie des hackers : quand les outils de confiance deviennent des chevaux de Troie",
+    "summary": "Des cybercriminels détournent des logiciels de gestion informatique légitimes, pour pirater des entreprises. La campagne, sophistiquée et décortiquée par KnowBe4, transforme des outils professionnels de confiance en véritables chevaux de Troie invisibles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596680-l-effrayante-strategie-des-hackers-quand-les-outils-de-confiance-deviennent-des-chevaux-de-troie.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263670",
+    "date": "2026-01-22",
+    "title": "Financial Firms Are Failing Basic Cybersecurity, Bank of England Finds",
+    "summary": "The Bank of England’s CBEST cybersecurity assessment program found that financial organizations are failing when it comes to basic cybersecurity practices. The lengthy report doesn’t specify how widespread the financial firm cybersecurity failings are, but any lack of basic cybersecurity controls...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/financial-firm-cybersecurity-lacking-boe/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263671",
+    "date": "2026-01-22",
+    "title": "Threat Modeling is Step 1 to Secure Agentic AI",
+    "summary": "Last Updated on January 22, 2026 The post Threat Modeling is Step 1 to Secure Agentic AI appeared first on Pivot Point Security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Pivot Point Security Blog",
+    "sourceUrl": "https://www.pivotpointsecurity.com/threat-modeling-is-step-1-to-secure-agentic-ai/?utm_source=rss&utm_medium=rss&utm_campaign=threat-modeling-is-step-1-to-secure-agentic-ai",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263672",
+    "date": "2026-01-22",
+    "title": "News Alert: Halo Security earns SOC 2 Type II certification, shows sustained operational security",
+    "summary": "MIAMI, Jan. 22, 2026, CyberNewswire — Halo Security, a leading provider of external attack surface management and penetration testing services, today announced it has successfully achieved SOC 2 Type II compliance following an extensive multi-month audit by Insight Assurance. This certification v...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-halo-security-earns-soc-2-type-ii-certification-shows-sustained-operational-security/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263673",
+    "date": "2026-01-22",
+    "title": "Trump’s “Low IQ” Racist Rant: the Somalia His Advisors Destroyed",
+    "summary": "Trump has been on a racist lunatic rant at Davos calling Africans “low-IQ” and mocking Somalia as a “failed state” while his own key advisor’s firm actively supported the dictator who destroyed it. The people who took money to whitewash Somalia’s destruction now blame Somalis for their “failed cu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76359",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263674",
+    "date": "2026-01-22",
+    "title": "Trivial Telnet authentication bypass exposes devices to complete takeover",
+    "summary": "Computers with Telnet open are in immediate danger of being compromised due to a critical vulnerability that allows attackers to bypass authentication. The Telnet remote access protocol has long been superseded by the more secure and encrypted SSH, but many IoT and embedded devices have continued...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4120997/trivial-telnet-authentication-bypass-exposes-devices-to-complete-takeover.html",
+    "tags": [
+      "vulnerability",
+      "iot"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263675",
+    "date": "2026-01-22",
+    "title": "Risky Chinese Electric Buses Spark Aussie Gov't Review",
+    "summary": "Deployed across Australia and Europe, China's electric buses are vulnerable to cybercriminals and sport a virtual kill switch the Chinese state could activate.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/chinese-electric-buses-aussie-govt",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263676",
+    "date": "2026-01-22",
+    "title": "Fortinet Firewalls Hit With Malicious Configuration Changes",
+    "summary": "Automated infections of potentially fully patched FortiGate devices are allowing threat actors to steal firewall configuration files.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/fortinet-firewalls-malicious-configuration-changes",
+    "tags": [
+      "malware",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263677",
+    "date": "2026-01-22",
+    "title": "From a Whisper to a Scream: Europe Frets About Overreliance on US Tech",
+    "summary": "Concern is growing across Europe about relying on US cybersecurity companies, and Greenland takeover talk is eroding trust across the EU even further.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/europe-frets-about-overreliance-on-us-tech",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263678",
+    "date": "2026-01-22",
+    "title": "Okta SSO accounts targeted in vishing-based data theft attacks",
+    "summary": "Okta is warning about custom phishing kits built specifically for voice-based social engineering (vishing) attacks. BleepingComputer has learned that these kits are being used in active attacks to steal Okta SSO credentials for data theft. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/okta-sso-accounts-targeted-in-vishing-based-data-theft-attacks/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263679",
+    "date": "2026-01-22",
+    "title": "Curl ending bug bounty program after flood of AI slop reports",
+    "summary": "The developer of the popular curl command-line utility and library announced that the project will end its HackerOne security bug bounty program at the end of this month, after being overwhelmed by low-quality AI-generated vulnerability reports. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/curl-ending-bug-bounty-program-after-flood-of-ai-slop-reports/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263680",
+    "date": "2026-01-22",
+    "title": "SmarterMail auth bypass flaw now exploited to hijack admin accounts",
+    "summary": "Hackers began exploiting an authentication bypass vulnerability in SmarterTools' SmarterMail email server and collaboration tool that allows resetting admin passwords. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/smartermail-auth-bypass-flaw-now-exploited-to-hijack-admin-accounts/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263681",
+    "date": "2026-01-22",
+    "title": "Watering Hole Attack Targets EmEditor Users with Information-Stealing Malware",
+    "summary": "TrendAI™ Research provides a technical analysis of a compromised EmEditor installer used to deliver multistage malware that performs a range of malicious actions.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/watering-hole-attack-targets-emeditor-users.html",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263682",
+    "date": "2026-01-22",
+    "title": "Stabilized but smaller.",
+    "summary": "CISA’s acting director assures Congress the agency has “stabilized”. Google and Cisco patch critical vulnerabilities. Fortinet firewalls are being hit by automated attacks that create rogue accounts. A global spam campaign leverages unsecured Zendesk support systems. LastPass warns of attempted a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2473/notes",
+    "tags": [
+      "government",
+      "ai-ml",
+      "google",
+      "cisco",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20263639",
     "date": "2026-01-22",
     "title": "Researchers find Jordan government used Cellebrite phone-cracking tech against activists",
