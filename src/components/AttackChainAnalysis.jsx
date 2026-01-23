@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import './AttackChainAnalysis.css';
 import { getAttackChains } from '../utils/analyticsUtils';
 import ConfidenceBadge from './ConfidenceBadge';
+import { getAttackChainConfidence } from '../utils/confidenceRules';
 
 /**
  * Attack Chain Reconstruction Component
@@ -34,15 +35,22 @@ function AttackChainAnalysis({ incidents, filters }) {
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
         
-        {/* Confidence Badge - making uncertainty visible */}
-        <div style={{ margin: '1rem 0' }}>
-          <ConfidenceBadge 
-            level="medium" 
-            metric="Attack chain mapping"
-            percentage={((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(0)}
-            tooltip="Based on keyword-matched MITRE tactics from news articles. Chains show media-reported patterns, not confirmed attack sequences. Limited to incidents with 2+ tactics."
-          />
-        </div>
+        {/* Confidence Badge - using centralized rules */}
+        {(() => {
+          const coveragePct = ((chainData.totalMultiStagedIncidents / incidents.length) * 100);
+          const confidence = getAttackChainConfidence(coveragePct);
+          return (
+            <div style={{ margin: '1rem 0' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="Attack chains"
+                value={`${coveragePct.toFixed(1)}%`}
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
         
         <div className="coverage-badge">
           ⚠️ Coverage: {chainData.totalMultiStagedIncidents} items ({((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(1)}% of total)

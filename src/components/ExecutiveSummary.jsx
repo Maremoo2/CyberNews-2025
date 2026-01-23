@@ -3,6 +3,7 @@ import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
 import { isDataEnriched, getEnrichmentQualityMessage, filterToIncidentsOnly } from '../utils/populationUtils'
 import ConfidenceBadge from './ConfidenceBadge'
+import { getSeverityConfidence } from '../utils/confidenceRules'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   // Default to incident-only analysis (P0 requirement)
@@ -170,18 +171,21 @@ function ExecutiveSummary({ incidents, selectedYear }) {
             <small>Count type: unique incidents</small>
           </div>
           
-          {/* Confidence Badge for severity data */}
-          {analysis.dataEnriched && (
-            <div style={{ marginBottom: '0.75rem' }}>
-              <ConfidenceBadge 
-                level={analysis.curatedPercentage >= 10 ? 'medium' : 'low'} 
-                metric="Severity classification"
-                percentage={analysis.curatedPercentage}
-                tooltip={`Only ${analysis.curatedPercentage}% of items are manually curated. Severity requires confirmed impact, not just disclosure. Early-year data pending enrichment.`}
-                size="small"
-              />
-            </div>
-          )}
+          {/* Confidence Badge for severity data - using centralized rules */}
+          {analysis.dataEnriched && (() => {
+            const confidence = getSeverityConfidence(analysis.curatedPercentage, 100);
+            return (
+              <div style={{ marginBottom: '0.75rem' }}>
+                <ConfidenceBadge 
+                  level={confidence.level}
+                  label="Severity model"
+                  value={`${analysis.curatedPercentage}% curated`}
+                  tooltip={confidence.tooltip}
+                  size="sm"
+                />
+              </div>
+            );
+          })()}
           
           {!analysis.dataEnriched ? (
             <div className="no-enrichment-message">

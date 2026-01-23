@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { filterToIncidentsOnly } from '../utils/populationUtils'
 import './ThreatIntelligence.css'
 import ConfidenceBadge from './ConfidenceBadge'
+import { getMitreConfidence } from '../utils/confidenceRules'
 
 // MITRE ATT&CK Tactics and Techniques
 const MITRE_TACTICS = {
@@ -215,15 +216,22 @@ function ThreatIntelligence({ incidents }) {
           Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incident-related items)
         </p>
         
-        {/* Confidence Badge - making uncertainty visible */}
-        <div style={{ margin: '1rem auto', maxWidth: '800px' }}>
-          <ConfidenceBadge 
-            level="medium" 
-            metric="MITRE mapping"
-            percentage={((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100).toFixed(0)}
-            tooltip="Keyword-based mapping from news articles to MITRE techniques. Shows media-reported patterns, not confirmed tactical analysis. Use as threat signals, not operational TTPs."
-          />
-        </div>
+        {/* Confidence Badge - using centralized rules */}
+        {(() => {
+          const coveragePct = ((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100);
+          const confidence = getMitreConfidence(coveragePct, "keyword-based");
+          return (
+            <div style={{ margin: '1rem auto', maxWidth: '800px' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="MITRE coverage"
+                value={`${coveragePct.toFixed(1)}%`}
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
         
         <div className="coverage-warning">
           ⚠️ Coverage: {((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100).toFixed(1)}% of items mapped to MITRE (keyword-based). 

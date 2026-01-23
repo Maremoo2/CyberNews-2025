@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import './ValidationDashboard.css';
 import ConfidenceBadge from './ConfidenceBadge';
+import { getDataQualityConfidence } from '../utils/confidenceRules';
 
 function ValidationDashboard({ incidents, learningLog }) {
   const validationMetrics = useMemo(() => {
@@ -116,15 +117,21 @@ function ValidationDashboard({ incidents, learningLog }) {
           Self-audit metrics showing data quality and enrichment accuracy
         </p>
         
-        {/* Confidence Badge for overall data quality */}
-        <div style={{ marginTop: '0.75rem' }}>
-          <ConfidenceBadge 
-            level={validationMetrics.qualityScore >= 70 ? 'high' : validationMetrics.qualityScore >= 50 ? 'medium' : 'low'} 
-            metric="Data quality"
-            percentage={Math.round(validationMetrics.qualityScore)}
-            tooltip="Composite score based on deduplication accuracy, false merge rate, attribution quality, MITRE coverage, and enrichment completeness."
-          />
-        </div>
+        {/* Confidence Badge for overall data quality - using centralized rules */}
+        {(() => {
+          const confidence = getDataQualityConfidence(validationMetrics.qualityScore);
+          return (
+            <div style={{ marginTop: '0.75rem' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="Data quality"
+                value={`${Math.round(validationMetrics.qualityScore)}/100`}
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
       </div>
 
       {/* Overall Quality Score */}

@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import './DeduplicationStats.css';
 import { enhanceIncidents } from '../utils/deduplicationUtils';
+import ConfidenceBadge from './ConfidenceBadge';
+import { getDedupeConfidence } from '../utils/confidenceRules';
 
 /**
  * Deduplication Statistics Component
@@ -21,6 +23,22 @@ function DeduplicationStats({ incidents }) {
       <div className="stats-header">
         <h3>📊 Data Volume Analysis</h3>
         <p className="subtitle">Estimated unique incidents vs incident-related items coverage</p>
+        
+        {/* Confidence Badge - using centralized rules */}
+        {(() => {
+          const confidence = getDedupeConfidence(null, false);
+          return (
+            <div style={{ marginTop: '0.75rem' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="Deduplication"
+                value="heuristic"
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
       </div>
 
       <div className="stats-grid">
