@@ -149,7 +149,10 @@ function QuarterlyReview({ incidents }) {
                   <span className="quarter-period">{getQuarterMonths(quarter.quarterNum, quarter.isPartial, quarter.monthsWithData)}</span>
                 </div>
                 {qoqChange !== null && (
-                  <div className={`qoq-badge ${qoqChange > 0 ? 'increase' : 'decrease'}`}>
+                  <div 
+                    className={`qoq-badge ${qoqChange > 0 ? 'increase' : 'decrease'}`}
+                    title={`Quarter-over-Quarter change: (${quarter.count} - ${prevQuarter.count}) / ${prevQuarter.count} × 100 = ${qoqChange}%. Compares item count with previous quarter.`}
+                  >
                     {qoqChange > 0 ? '↑' : '↓'} {Math.abs(qoqChange)}% QoQ
                   </div>
                 )}

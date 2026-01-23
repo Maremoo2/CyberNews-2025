@@ -77,6 +77,21 @@
   font-weight: 600;
   color: #34495e;
   margin: 0.25rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.info-tooltip {
+  display: inline-block;
+  cursor: help;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.info-tooltip:hover {
+  opacity: 1;
 }
 
 .stat-description {

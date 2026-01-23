@@ -37,7 +37,10 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">🎯</div>
           <div className="stat-content">
             <div className="stat-value">{stats.estimatedUniqueIncidents.toLocaleString()}</div>
-            <div className="stat-label">Estimated Unique Incidents</div>
+            <div className="stat-label">
+              Estimated Unique Incidents
+              <span className="info-tooltip" title="How calculated: Articles are grouped by title similarity, source, and date. High-confidence matches (same source within 48h, or 70%+ title similarity) are counted as one incident. This is an estimate; some unrelated articles may be merged, while duplicate coverage may be counted separately if titles differ significantly.">ℹ️</span>
+            </div>
             <div className="stat-description">Deduplicated events</div>
           </div>
         </div>
@@ -46,7 +49,10 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">📈</div>
           <div className="stat-content">
             <div className="stat-value">{stats.deduplicationRatio}x</div>
-            <div className="stat-label">Coverage Ratio</div>
+            <div className="stat-label">
+              Coverage Ratio
+              <span className="info-tooltip" title="How calculated: Total items ÷ Estimated unique incidents. A ratio of 3.0x means each incident is covered by an average of 3 news articles. Higher ratios indicate major incidents with extensive media coverage.">ℹ️</span>
+            </div>
             <div className="stat-description">Items per incident</div>
           </div>
         </div>
