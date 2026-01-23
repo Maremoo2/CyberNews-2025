@@ -216,10 +216,15 @@ function ThreatIntelligence({ incidents }) {
           Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incident-related items)
         </p>
         
-        {/* Confidence Badge - using centralized rules */}
+        {/* Confidence Badge - using centralized rules with raw numbers */}
         {(() => {
           const coveragePct = ((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100);
-          const confidence = getMitreConfidence(coveragePct, "keyword-based");
+          const confidence = getMitreConfidence(
+            coveragePct, 
+            mitreAnalysis.totalIncidents,
+            mitreAnalysis.totalAllItems,
+            "keyword-based"
+          );
           return (
             <div style={{ margin: '1rem auto', maxWidth: '800px' }}>
               <ConfidenceBadge 

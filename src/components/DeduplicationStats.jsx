@@ -56,10 +56,10 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-content">
             <div className="stat-value">{stats.estimatedUniqueIncidents.toLocaleString()}</div>
             <div className="stat-label">
-              Estimated Unique Incidents
-              <span className="info-tooltip" title="How calculated: Articles are grouped by title similarity, source, and date. High-confidence matches (same source within 48h, or 70%+ title similarity) are counted as one incident. This is an estimate; some unrelated articles may be merged, while duplicate coverage may be counted separately if titles differ significantly.">ℹ️</span>
+              Estimated Unique Incidents (Clustered)
+              <span className="info-tooltip" title="How calculated: Articles are grouped using heuristics (title similarity + source + date window ±48h). This is a clustering estimate — not confirmed incident count. Fingerprint method: org + attack type + date window.">ℹ️</span>
             </div>
-            <div className="stat-description">Deduplicated events</div>
+            <div className="stat-description">Heuristic deduplication</div>
           </div>
         </div>
 

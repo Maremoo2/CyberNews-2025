@@ -171,9 +171,14 @@ function ExecutiveSummary({ incidents, selectedYear }) {
             <small>Count type: unique incidents</small>
           </div>
           
-          {/* Confidence Badge for severity data - using centralized rules */}
+          {/* Confidence Badge for severity data - using centralized rules with raw numbers */}
           {analysis.dataEnriched && (() => {
-            const confidence = getSeverityConfidence(analysis.curatedPercentage, 100);
+            const confidence = getSeverityConfidence(
+              analysis.curatedPercentage,
+              analysis.curatedCount,
+              analysis.totalIncidents,
+              100
+            );
             return (
               <div style={{ marginBottom: '0.75rem' }}>
                 <ConfidenceBadge 
@@ -217,8 +222,17 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               </div>
               <p className="insight-text">
-                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity items 
-                ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
+                {(analysis.severityDistribution.critical + analysis.severityDistribution.high) === 0 ? (
+                  <>
+                    <strong>High/Critical:</strong> Not enough confirmed impact data yet 
+                    (coverage: {analysis.curatedPercentage}%). Model conservative, pending enrichment.
+                  </>
+                ) : (
+                  <>
+                    <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity items 
+                    ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
+                  </>
+                )}
               </p>
               {selectedYear >= 2026 && (
                 <div className="severity-disclaimer" style={{marginTop: '12px', padding: '10px', background: 'rgba(241, 196, 15, 0.1)', borderLeft: '3px solid #f1c40f', borderRadius: '4px'}}>

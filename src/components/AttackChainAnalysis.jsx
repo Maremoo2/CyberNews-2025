@@ -35,10 +35,16 @@ function AttackChainAnalysis({ incidents, filters }) {
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
         
-        {/* Confidence Badge - using centralized rules */}
+        {/* Confidence Badge - using centralized rules with raw numbers */}
         {(() => {
-          const coveragePct = ((chainData.totalMultiStagedIncidents / incidents.length) * 100);
-          const confidence = getAttackChainConfidence(coveragePct);
+          // Rough estimate: unique incidents ≈ total items / average coverage ratio (typically 2-3x)
+          const estimatedUniqueIncidents = Math.round(incidents.length / 2.5);
+          const coveragePct = ((chainData.totalMultiStagedIncidents / estimatedUniqueIncidents) * 100);
+          const confidence = getAttackChainConfidence(
+            coveragePct,
+            chainData.totalMultiStagedIncidents,
+            estimatedUniqueIncidents
+          );
           return (
             <div style={{ margin: '1rem 0' }}>
               <ConfidenceBadge 
