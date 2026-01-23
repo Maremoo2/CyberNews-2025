@@ -1,5 +1,105 @@
 [
   {
+    "id": "20263712",
+    "date": "2026-01-23",
+    "title": "More employees get AI tools, fewer rely on them at work",
+    "summary": "People across many organizations now have access to AI tools, and usage keeps spreading. Some groups rely on AI during regular work, others treat it as an occasional helper. That gap between access and routine use sits at the center of new research from Deloitte on enterprise AI adoption. The res...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/deloitte-enterprise-ai-adoption/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263713",
+    "date": "2026-01-23",
+    "title": "Agentic AI edges closer to everyday production use",
+    "summary": "Many security and operations teams now spend less time asking whether agentic AI belongs in production and more time working out how to run it safely at scale. A new Dynatrace research report looks at how large organizations are moving agentic AI from pilots into live environments and where those...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/cybersecurity-agentic-ai-operations/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263714",
+    "date": "2026-01-23",
+    "title": "Microsoft introduces winapp, an open-source CLI for building Windows apps",
+    "summary": "Microsoft has released winapp, a new command line interface aimed at simplifying the process of building Windows applications. The open-source tool targets developers who rely on terminal based workflows and want a consistent way to create, configure, and manage Windows apps across projects. Brin...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/microsoft-introduces-winapp-an-open-source-cli-for-building-windows-apps/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263715",
+    "date": "2026-01-23",
+    "title": "New infosec products of the week: January 23, 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from cside, Obsidian Security, Rubrik, SEON, and Vectra AI. cside targets hidden website privacy violations with Privacy Watch cside announced the launch of Privacy Watch. The platform prevents website privacy v...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/23/new-infosec-products-of-the-week-january-23-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263717",
+    "date": "2026-01-23",
+    "title": "10 wichtige Security-Eigenschaften: So setzen Sie die Kraft Ihres IT-Sicherheitstechnik-Teams frei",
+    "summary": "Lesen Sie, worauf es bei der Zusammenarbeit zwischen Ihrem IT-Security- und Engineering-Team ankommt. Foto: Lipik Stock Media – shutterstock.comSecurity-Teams bestehen in erster Linie aus Mitarbeitern, die für den Betrieb und die Einhaltung von Vorschriften und Richtlinien zuständig sind. IT-Sich...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3492187/10-wichtige-security-eigenschaften-so-setzen-sie-die-kraft-ihres-it-sicherheitstechnik-teams-frei.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263718",
+    "date": "2026-01-23",
+    "title": "Ransomware gang’s slip-up led to data recovery for 12 US firms",
+    "summary": "Twelve US companies hit by the INC ransomware group were able to recover encrypted data after a cybersecurity firm discovered the cloud storage infrastructure where the gang stockpiled what it stole. Researchers at Florida-based Cyber Centaurs said Thursday they took advantage of a lapse in opera...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121134/ransomware-gangs-slip-up-led-to-data-recovery-for-12-us-firms.html",
+    "tags": [
+      "ransomware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263719",
+    "date": "2026-01-22",
+    "title": "Common Apple Pay scams, and how to stay safe",
+    "summary": "Here’s how the most common scams targeting Apple Pay users work and what you can do to stay one step ahead",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/common-apple-pay-scams-how-stay-safe/",
+    "tags": [
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263683",
     "date": "2026-01-22",
     "title": "Ireland plans law allowing law enforcement to use spyware",
@@ -6038,6 +6138,22 @@
       "google"
     ],
     "impact": 3
+  },
+  {
+    "id": "20263716",
+    "date": "2026-01-20",
+    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+    "summary": "A new Internet-of-Things (IoT) botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf’s ability to scan the local networks o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Krebs on Security",
+    "sourceUrl": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+    "tags": [
+      "ddos",
+      "malware",
+      "iot"
+    ],
+    "impact": 5
   },
   {
     "id": "20263384",
