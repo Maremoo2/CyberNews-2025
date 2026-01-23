@@ -198,14 +198,17 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               </div>
               <p className="insight-text">
-                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity articles 
+                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity items 
                 ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
               </p>
               {selectedYear >= 2026 && (
                 <div className="severity-disclaimer" style={{marginTop: '12px', padding: '10px', background: 'rgba(241, 196, 15, 0.1)', borderLeft: '3px solid #f1c40f', borderRadius: '4px'}}>
                   <p style={{margin: 0, fontSize: '0.85rem', color: '#000000'}}>
-                    ⚠️ <strong>Early-year limitation:</strong> Severity is based on confirmed impact at time of reporting. 
-                    Many incidents in {selectedYear} are still under investigation and may be reclassified as more information becomes available.
+                    ⚠️ <strong>Severity Model Conservative:</strong> High/critical severity requires confirmed impact, not just disclosure. 
+                    Early in {selectedYear}, many incidents are still under investigation. Current model coverage is limited (curation ~2-3%).
+                    {(analysis.severityDistribution.critical + analysis.severityDistribution.high) === 0 && (
+                      <span> Low counts reflect pending enrichment, not absence of threats.</span>
+                    )}
                   </p>
                 </div>
               )}

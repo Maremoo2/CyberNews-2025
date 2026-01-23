@@ -22,6 +22,26 @@
   margin-bottom: 1rem;
 }
 
+.attack-chain-analysis .coverage-badge {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border-left: 4px solid #ff9800;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #e65100;
+  font-weight: 600;
+}
+
+.attack-chain-analysis .coverage-note {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: #f57c00;
+  font-style: italic;
+}
+
 .attack-chain-analysis .explanation-box {
   background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
   border-left: 4px solid #4caf50;

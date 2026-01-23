@@ -32,6 +32,10 @@ function AttackChainAnalysis({ incidents, filters }) {
       <div className="section-header">
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
+        <div className="coverage-badge">
+          ⚠️ Coverage: {chainData.totalMultiStagedIncidents} items ({((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(1)}% of total)
+          <span className="coverage-note">Based on keyword-matched MITRE tactics. Interpret as media signals, not confirmed TTPs.</span>
+        </div>
         <div className="explanation-box">
           <p className="explanation-text">
             <strong>What are attack chains?</strong> These are typical attack sequences reconstructed from MITRE ATT&CK tags in reported incidents. 
