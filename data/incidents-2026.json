@@ -1,5 +1,134 @@
 [
   {
+    "id": "20263887",
+    "date": "2026-01-24",
+    "title": "Le faux bon plan des extensions IA qui exfiltrent du code à grande échelle",
+    "summary": "ChatGPT – 中文版 et ChatMoss sont des extensions disponibles sur le Visual Studio Code Marketplace, destinées à fournir des suggestions et complétions de code. Mais ce que l’utilisateur ne sait pas, c’est que le contenu des fichiers ouverts est envoyé vers des serveurs distants situés en Chine sans ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596944-le-faux-bon-plan-des-extensions-ia-qui-exfiltrent-du-code-a-grande-echelle.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263888",
+    "date": "2026-01-24",
+    "title": "Quoi ? Des clés de chiffrement BitLocker remises au FBI? Et la vie privée alors ?",
+    "summary": "Microsoft a remis au FBI des clés BitLocker pour accéder à trois ordinateurs saisis dans le cadre d’une enquête à Guam. Les fichiers chiffrés ont pu être ouverts grâce aux clés stockées sur les serveurs de la société.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596935-quoi-des-cles-de-chiffrement-bitlocker-remises-au-fbi-et-la-vie-privee-alors.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263889",
+    "date": "2026-01-24",
+    "title": "How to Pick Human Machine Interfaces Software in 2026 – 9 Things Experts Recommend",
+    "summary": "In this post, I will show you how to pick human machine interfaces software in 2026. Cybersecurity compliance is no longer limited to firewalls, but it is allowed to also include transparency in SBOM and Zero Trust identity. Human machine interfaces would no longer be passive dashboards in 2026 b...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-pick-human-machine-interfaces-software/",
+    "tags": [],
+    "impact": 2
+  },
+  {
+    "id": "20263890",
+    "date": "2026-01-24",
+    "title": "Building a Secure Creator Platform: Privacy & Safety Explained",
+    "summary": "Building a creator platform is definitely a huge milestone. Your platform might have a powerful feature set, unique branding, and a loyal user base. And your platform’s growing popularity might make the creators and users vulnerable to security attacks, compromising data and overall revenue.​ In ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/building-a-secure-creator-platform/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263891",
+    "date": "2026-01-24",
+    "title": "China Dunks on Elon Musk for His “Not True” FSD Stock-Pumping",
+    "summary": "Musk tried pumping his stocks with fake FSD timelines at Davos. Chinese state media and Tesla China both harshly contradicted the renowned liar, and within hours. No hedging. No diplomatic softening. No “we cannot confirm yet”. Just: Elon Musk lied. First, let’s all admit FSD is far, far behind o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76457",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263892",
+    "date": "2026-01-24",
+    "title": "Nazi Coat Hitler Saluting Bovino Says Don’t Call Him a Nazi",
+    "summary": "Hey kids, history is useful. For example, a lot of Nazis today love to say there is no true Nazi, and that they can’t ever be called one credibly, while they plainly do everything they think that a Nazi would. The accusations against Border Patrol commander Gregory Bovino have merit not least of ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76442",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263893",
+    "date": "2026-01-24",
+    "title": "Windows Users Are Cooked: Microsoft’s Encryption Mushroom Cloud Isn’t Going Away",
+    "summary": "The huge Microsoft encryption mushroom cloud in the news isn’t a surprise, yet it still hurts to watch. Microsoft just seized the dubious award for being the only major platform that enterprise customers can NOT trust. The only real moat of Microsoft, giving their main customers a safe island if ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76427",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263894",
+    "date": "2026-01-24",
+    "title": "Under Armour Data Breach Investigation After 72 Million Records Appear Online",
+    "summary": "Under Armour is publicly investigating claims of a major data breach after a cybercriminal posted approximately 72 million customer records on underground forums. The incident, first flagged in late January 2026, follows earlier reports of a ransomware claim tied to an intrusion in November 2025....",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/under-armour-data-breach-investigation-after-72-million-records-appear-online",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20263895",
+    "date": "2026-01-24",
+    "title": "Konni hackers target blockchain engineers with AI-built malware",
+    "summary": "The North Korean hacker group Konni (Opal Sleet, TA406) is using AI-generated PowerShell malware to target developers and engineers in the blockchain sector. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/konni-hackers-target-blockchain-engineers-with-ai-built-malware/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263882",
     "date": "2026-01-24",
     "title": "Multi-Stage Phishing Campaign Targets Russia with Amnesia RAT and Ransomware",

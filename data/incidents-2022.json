@@ -752,6 +752,36 @@
     "impact": 3
   },
   {
+    "id": "2022001",
+    "date": "2022-12-07",
+    "title": "A faster way to preserve privacy online",
+    "summary": "Searching the internet can reveal information a user would rather keep private. For instance, when someone looks up medical symptoms online, they could reveal their health conditions to Google, an online medical database like WebMD, and perhaps hundreds of these companies’ advertisers and busines...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/online-information-user-data-privacy-1207",
+    "tags": [
+      "malware",
+      "healthcare",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022002",
+    "date": "2022-11-30",
+    "title": "3 Questions: Why cybersecurity is on the agenda for corporate boards of directors ",
+    "summary": "Organizations of every size and in every industry are vulnerable to cybersecurity risks — a dynamic landscape of threats and vulnerabilities and a corresponding overload of possible mitigating controls. MIT Senior Lecturer Keri Pearlson, who is also the executive director of the research consorti...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/cybersecurity-corporate-boards-directors-1130",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2022002",
     "date": "2022-11-30",
     "title": "3 Questions: Why cybersecurity is on the agenda for corporate boards of directors ",
@@ -2064,6 +2094,36 @@
     "sourceUrl": "https://news.mit.edu/2022/mit-policy-hackathon-solutions-technology-policy-challenges-1128",
     "tags": [
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022003",
+    "date": "2022-11-28",
+    "title": "MIT Policy Hackathon produces new solutions for technology policy challenges",
+    "summary": "Almost three years ago, the Covid-19 pandemic changed the world. Many are still looking to uncover a “new normal.” “Instead of going back to normal, [there’s a new generation that] wants to build back something different, something better,” says Jorge Sandoval, a second-year graduate student in M...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/mit-policy-hackathon-solutions-technology-policy-challenges-1128",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022004",
+    "date": "2022-11-21",
+    "title": "Building resilience for the next supply chain disruption ",
+    "summary": "The great supply slowdown of the early 2020s has generated renewed interest in the topic of supply chain resilience — the practice of building a supply chain that can resist disruptions. As companies patch holes from shortages related to the Covid-19 pandemic, many are wondering what will cause t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/building-resilience-next-supply-chain-disruption-james-rice-1121",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -3464,6 +3524,20 @@
     "impact": 3
   },
   {
+    "id": "2022042",
+    "date": "2022-11-20",
+    "title": "Best of TaoSecurity Blog Kindle Edition Sale",
+    "summary": "I'm running a #BlackFriday #CyberMonday sale on my four newest #Kindle format books. Volumes 1-4 of The Best of TaoSecurity Blog will be half off starting 9 pm PT Tuesday 22 Nov and ending 9 pm PT Tueday 29 Nov. They are here. There also appears to be a daily deal right now for the paperback of V...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2022/11/best-of-taosecurity-blog-kindle-edition.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2022043",
     "date": "2022-11-18",
     "title": "TaoSecurity on Mastodon",
@@ -4016,18 +4090,16 @@
     "impact": 3
   },
   {
-    "id": "2022005",
-    "date": "2022-10-28",
-    "title": "Helping blockchain communities fix bugs",
-    "summary": "If the crypto enthusiasts are right, the next decade will see billions of people begin using applications built off distributed, user-owned blockchains. The new paradigm has been dubbed Web 3. But Web 3 still has some significant challenges to overcome if it’s going to replace the digital world a...",
+    "id": "2022043",
+    "date": "2022-11-18",
+    "title": "TaoSecurity on Mastodon",
+    "summary": "I am now using Mastodon as a replacement for the blue bird. This is my attempt to verify myself via my blog. I am no longer posting to my old bird account.Copyright 2003-2020 Richard Bejtlich and TaoSecurity (taosecurity.blogspot.com and www.taosecurity.com)",
     "region": "US",
     "country": "United States",
-    "sourceName": "MIT Cyber Security",
-    "sourceUrl": "https://news.mit.edu/2022/metrika-blockchain-1028",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 4
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2022/11/taosecurity-on-mastodon.html",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2022005",
@@ -4672,6 +4744,46 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2022005",
+    "date": "2022-10-28",
+    "title": "Helping blockchain communities fix bugs",
+    "summary": "If the crypto enthusiasts are right, the next decade will see billions of people begin using applications built off distributed, user-owned blockchains. The new paradigm has been dubbed Web 3. But Web 3 still has some significant challenges to overcome if it’s going to replace the digital world a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/metrika-blockchain-1028",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2022005",
+    "date": "2022-10-28",
+    "title": "Helping blockchain communities fix bugs",
+    "summary": "If the crypto enthusiasts are right, the next decade will see billions of people begin using applications built off distributed, user-owned blockchains. The new paradigm has been dubbed Web 3. But Web 3 still has some significant challenges to overcome if it’s going to replace the digital world a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/metrika-blockchain-1028",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2022006",
+    "date": "2022-09-22",
+    "title": "Peter Shor wins Breakthrough Prize in Fundamental Physics",
+    "summary": "Peter Shor, the Morss Professor of Applied Mathematics at MIT, has been named a recipient of the 2023 Breakthrough Prize in Fundamental Physics. He shares the $3 million prize with three others for “foundational work in the field of quantum information”: David Deutsch at the University of Oxford,...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/shor-spielman-breakthrough-prize-0922",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2022006",
@@ -5941,6 +6053,37 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2022007",
+    "date": "2022-09-21",
+    "title": "Six Lincoln Laboratory inventions win 2022 R&D 100 Awards",
+    "summary": "Six technologies developed at MIT Lincoln Laboratory are among this year's R&D 100 Award winners. The awards recognize the 100 most significant innovations that have transitioned to use or been made available for sale or license in the past year. R&D World magazine manages the awards program, whi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/lincoln-laboratory-inventions-win-rd-100-awards-0921",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "2022008",
+    "date": "2022-09-07",
+    "title": "Collaborative machine learning that preserves privacy",
+    "summary": "Training a machine-learning model to effectively perform a task, such as image classification, involves showing the model thousands, millions, or even billions of example images. Gathering such enormous datasets can be especially challenging when privacy is a concern, such as with medical images....",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/collaborative-machine-learning-privacy-0907",
+    "tags": [
+      "malware",
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "2022008",
@@ -7335,6 +7478,36 @@
     "sourceUrl": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
     "tags": [
       "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022018",
+    "date": "2022-08-31",
+    "title": "Student Loan Breach Exposes 2.5M Records",
+    "summary": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022019",
+    "date": "2022-08-30",
+    "title": "Watering Hole Attacks Push ScanBox Keylogger",
+    "summary": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+    "tags": [
+      "apt",
+      "critical-infrastructure",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -8765,6 +8938,36 @@
     "impact": 3
   },
   {
+    "id": "2022020",
+    "date": "2022-08-29",
+    "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+    "summary": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022021",
+    "date": "2022-08-26",
+    "title": "Ransomware Attacks are on the Rise",
+    "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2022021",
     "date": "2022-08-26",
     "title": "Ransomware Attacks are on the Rise",
@@ -10145,17 +10348,17 @@
     "impact": 5
   },
   {
-    "id": "2022023",
-    "date": "2022-08-24",
-    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
-    "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+    "id": "2022022",
+    "date": "2022-08-25",
+    "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+    "summary": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
     "region": "US",
     "country": "United States",
     "sourceName": "Threatpost",
-    "sourceUrl": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "sourceUrl": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
     "tags": [
-      "ai-ml",
-      "twitter"
+      "data-breach",
+      "ai-ml"
     ],
     "impact": 5
   },
@@ -10833,6 +11036,50 @@
       "twitter"
     ],
     "impact": 5
+  },
+  {
+    "id": "2022023",
+    "date": "2022-08-24",
+    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+    "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "tags": [
+      "ai-ml",
+      "twitter"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2022023",
+    "date": "2022-08-24",
+    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+    "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "tags": [
+      "ai-ml",
+      "twitter"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2022024",
+    "date": "2022-08-23",
+    "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+    "summary": "CISA is warning that Palo Alto Networks’ PAN-OS is under active attack and needs to be patched ASAP.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
+    "tags": [
+      "palo alto"
+    ],
+    "impact": 3
   },
   {
     "id": "2022024",
@@ -12675,6 +12922,47 @@
     "impact": 3
   },
   {
+    "id": "2022025",
+    "date": "2022-08-22",
+    "title": "Fake Reservation Links Prey on Weary Travelers",
+    "summary": "Fake travel reservations are exacting more pain from the travel weary, already dealing with the misery of canceled flights and overbooked hotels.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/reservation-links-prey-on-travelers/180462/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022028",
+    "date": "2022-08-22",
+    "title": "YouTube disrupted in Pakistan as former PM Imran Khan streams speech",
+    "summary": "NetBlocks metrics confirm the disruption of YouTube on multiple internet providers in Pakistan on Sunday 21 August 2022. The disruption comes as former Prime Minister Imran Khan makes a live broadcast to the public, despite a ban issued by the Pakistan Electronic Media Regulatory Authority (PEMRA...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Crimes Watch",
+    "sourceUrl": "https://www.cybercrimeswatch.com/3120/youtube-disrupted-in-pakistan-as-former-pm-imran-khan-streams-speech/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022009",
+    "date": "2022-08-21",
+    "title": "Bringing lessons from cybersecurity to the fight against disinformation ",
+    "summary": "Mary Ellen Zurko remembers the feeling of disappointment. Not long after earning her bachelor’s degree from MIT, she was working her first job of evaluating secure computer systems for the U.S. government. The goal was to determine whether systems were compliant with the “Orange Book,” the govern...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/bringing-lessons-cybersecurity-fight-against-disinformation-0821",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2022009",
     "date": "2022-08-21",
     "title": "Bringing lessons from cybersecurity to the fight against disinformation ",
@@ -14208,17 +14496,20 @@
     "impact": 3
   },
   {
-    "id": "2022027",
-    "date": "2022-08-18",
-    "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
-    "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "id": "2022026",
+    "date": "2022-08-19",
+    "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+    "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
     "region": "US",
     "country": "United States",
     "sourceName": "Threatpost",
-    "sourceUrl": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "sourceUrl": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
     "tags": [
       "vulnerability",
-      "google"
+      "malware",
+      "cloud",
+      "mobile",
+      "aws"
     ],
     "impact": 3
   },
@@ -14894,6 +15185,51 @@
     "tags": [
       "vulnerability",
       "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022027",
+    "date": "2022-08-18",
+    "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
+    "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022027",
+    "date": "2022-08-18",
+    "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
+    "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threatpost",
+    "sourceUrl": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022010",
+    "date": "2022-08-11",
+    "title": "Thinking like a cyber-attacker to protect user data",
+    "summary": "A component of computer processors that connects different parts of the chip can be exploited by malicious agents who seek to steal secret information from programs running on the computer, MIT researchers have found. Modern computer processors contain many computing units, called cores, which sh...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/chip-interconnect-side-channel-attacks-0811",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -16155,14 +16491,14 @@
     "impact": 3
   },
   {
-    "id": "2022029",
-    "date": "2022-07-29",
-    "title": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1",
-    "summary": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1 .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br ...",
+    "id": "2022044",
+    "date": "2022-08-10",
+    "title": "The Humble Hub",
+    "summary": "Over the weekend I organized some old computing equipment. I found this beauty in one of my boxes. It's a Netgear EN104TP hub. I've mentioned this device before, in this blog and my books. This sort of device was the last of the true hubs. In an age where cables seem reserved for data centers or ...",
     "region": "US",
     "country": "United States",
-    "sourceName": "Information Trust Exchange Governing Association",
-    "sourceUrl": "https://itega.org/2022/07/29/privacy-beat-w3c-now-seeks-nominees-to-new-governing-board-of-directors-as-it-transitions-its-relationship-with-mit-by-jan-1/",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2022/08/the-humble-hub.html",
     "tags": [],
     "impact": 3
   },
@@ -16703,6 +17039,42 @@
     "country": "United States",
     "sourceName": "Information Trust Exchange Governing Association",
     "sourceUrl": "https://itega.org/2022/07/29/privacy-beat-w3c-now-seeks-nominees-to-new-governing-board-of-directors-as-it-transitions-its-relationship-with-mit-by-jan-1/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022029",
+    "date": "2022-07-29",
+    "title": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1",
+    "summary": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1 .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/07/29/privacy-beat-w3c-now-seeks-nominees-to-new-governing-board-of-directors-as-it-transitions-its-relationship-with-mit-by-jan-1/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022029",
+    "date": "2022-07-29",
+    "title": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1",
+    "summary": "W3C now seeks nominees to new governing board of directors as it transitions its relationship with MIT by Jan. 1 .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/07/29/privacy-beat-w3c-now-seeks-nominees-to-new-governing-board-of-directors-as-it-transitions-its-relationship-with-mit-by-jan-1/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022030",
+    "date": "2022-07-24",
+    "title": "Ball in Pelosi’s and Cantwell’s courts to decide if a national privacy law will end ‘creepy’ targeting; advertisers worrying?",
+    "summary": "Ball in Pelosi’s and Cantwell’s courts to decide if a national privacy law will end ‘creepy’ targeting; advertisers worrying? .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/07/24/privacy-beat-ball-in-pelosis-and-cantwells-courts-to-decide-if-a-national-privacy-law-will-end-creepy-targeting-advertisers-worrying/",
     "tags": [],
     "impact": 3
   },
@@ -17811,14 +18183,14 @@
     "impact": 3
   },
   {
-    "id": "2022031",
-    "date": "2022-06-21",
-    "title": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB?",
-    "summary": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB? .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> padding:0;<br /> }<b...",
+    "id": "2022039",
+    "date": "2022-06-30",
+    "title": "How I Introduced the Cybersecurity World to a Cold War Hero",
+    "summary": "[Links and resources updated on October 4, 2022]If you told me a year ago that I would meet a cold war hero at a birthday party, I wouldn’t have believed you. And I would be even more skeptical if you told me she would be an unintimidating, approachable music professor with an infectious smile. T...",
     "region": "US",
     "country": "United States",
-    "sourceName": "Information Trust Exchange Governing Association",
-    "sourceUrl": "https://itega.org/2022/06/21/privacy-beat-will-california-drive-privacy-as-dc-abdicates-what-is-sharing-and-does-it-cover-rtb/",
+    "sourceName": "Between The Hacks",
+    "sourceUrl": "https://www.betweenthehacks.com/blog/dr-merryl-goldberg",
     "tags": [],
     "impact": 3
   },
@@ -18363,6 +18735,45 @@
     "impact": 3
   },
   {
+    "id": "2022031",
+    "date": "2022-06-21",
+    "title": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB?",
+    "summary": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB? .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> padding:0;<br /> }<b...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/06/21/privacy-beat-will-california-drive-privacy-as-dc-abdicates-what-is-sharing-and-does-it-cover-rtb/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022031",
+    "date": "2022-06-21",
+    "title": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB?",
+    "summary": "Will California drive privacy as DC abdicates? | What is “sharing” and does it cover RTB? .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> padding:0;<br /> }<b...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/06/21/privacy-beat-will-california-drive-privacy-as-dc-abdicates-what-is-sharing-and-does-it-cover-rtb/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022011",
+    "date": "2022-06-14",
+    "title": "Stronger security for smart devices",
+    "summary": "Researchers are pushing to outpace hackers and develop stronger protections that keep data safe from malicious agents who would steal information by eavesdropping on smart devices. Much of the work done to prevent these “side-channel attacks” has focused on the vulnerability of digital processors...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/analog-digital-converter-attack-side-channel-0614",
+    "tags": [
+      "vulnerability",
+      "iot"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2022011",
     "date": "2022-06-14",
     "title": "Stronger security for smart devices",
@@ -19769,6 +20180,37 @@
     "tags": [
       "vulnerability",
       "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022012",
+    "date": "2022-06-10",
+    "title": "Researchers discover a new hardware vulnerability in the Apple M1 chip ",
+    "summary": "William Shakespeare might have been talking about Apple’s recently released M1 chip via his prose in “A Midsummer Night’s Dream”: “And though she be but little, she is fierce.” The company’s software runs on the little squares made of custom silicon systems, resulting in Apple's most powerful chi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/researchers-discover-hardware-vulnerability-apple-m1-0610",
+    "tags": [
+      "vulnerability",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022013",
+    "date": "2022-06-09",
+    "title": "Keeping web-browsing data safe from hackers",
+    "summary": "Malicious agents can use machine learning to launch powerful attacks that steal information in ways that are tough to prevent and often even more difficult to study. Attackers can capture data that “leaks” between software programs running on the same computer. They then use machine-learning algo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/side-channel-attacks-detection-0609",
+    "tags": [
+      "data-breach",
+      "apt",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -21215,15 +21657,16 @@
     "impact": 3
   },
   {
-    "id": "2022033",
-    "date": "2022-05-29",
-    "title": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted",
-    "summary": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> pad...",
+    "id": "2022032",
+    "date": "2022-06-08",
+    "title": "Google shifts “First Party Sets” venue after rejection; Rosewell claims CMA violation;  data-exchange comment period opens",
+    "summary": "Google shifts “First Party Sets” venue after rejection; Rosewell claims CMA violation; data-exchange comment period opens .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; }<br /> p{<br /> mar...",
     "region": "US",
     "country": "United States",
     "sourceName": "Information Trust Exchange Governing Association",
-    "sourceUrl": "https://itega.org/2022/05/29/privacy-beat-googles-first-party-sets-runs-into-opposition-at-w3c-group-meeting-independent-privacy-entity-promoted/",
+    "sourceUrl": "https://itega.org/2022/06/08/privacy-beat-google-shifts-first-party-sets-venue-after-rejection-rosewell-claims-cma-violation-data-exchange-comment-period-opens/",
     "tags": [
+      "ai-ml",
       "google"
     ],
     "impact": 3
@@ -21859,6 +22302,46 @@
     "impact": 3
   },
   {
+    "id": "2022033",
+    "date": "2022-05-29",
+    "title": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted",
+    "summary": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> pad...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/05/29/privacy-beat-googles-first-party-sets-runs-into-opposition-at-w3c-group-meeting-independent-privacy-entity-promoted/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022033",
+    "date": "2022-05-29",
+    "title": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted",
+    "summary": "Google’s “First Party Sets” runs into opposition at W3C group meeting; independent privacy entity promoted .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; } p{<br /> margin:10px 0;<br /> pad...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/05/29/privacy-beat-googles-first-party-sets-runs-into-opposition-at-w3c-group-meeting-independent-privacy-entity-promoted/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022014",
+    "date": "2022-05-17",
+    "title": "Zero-trust architecture may hold the answer to cybersecurity insider threats",
+    "summary": "For years, organizations have taken a defensive \"castle-and-moat\" approach to cybersecurity, seeking to secure the perimeters of their networks to block out any malicious actors. Individuals with the right credentials were assumed to be trustworthy and allowed access to a network's systems and da...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/zero-trust-architecture-may-hold-answer-cybersecurity-insider-threats-0517",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2022014",
     "date": "2022-05-17",
     "title": "Zero-trust architecture may hold the answer to cybersecurity insider threats",
@@ -23126,6 +23609,35 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "2022015",
+    "date": "2022-05-12",
+    "title": "Technique protects privacy when making online recommendations",
+    "summary": "Algorithms recommend products while we shop online or suggest songs we might like as we listen to music on streaming apps. These algorithms work by using personal information like our past purchases and browsing history to generate tailored recommendations. The sensitive nature of such data makes...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/privacy-online-recommendations-0512",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022016",
+    "date": "2022-03-28",
+    "title": "Security tool guarantees privacy in surveillance footage",
+    "summary": "Surveillance cameras have an identity problem, fueled by an inherent tension between utility and privacy. As these powerful little devices have cropped up seemingly everywhere, the use of machine learning tools has automated video content analysis at a massive scale — but with increasing mass sur...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/privid-security-tool-guarantees-privacy-surveillance-footage-0328",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
   },
   {
     "id": "2022016",
@@ -24424,6 +24936,34 @@
     "country": "United States",
     "sourceName": "Information Trust Exchange Governing Association",
     "sourceUrl": "https://itega.org/2022/03/25/can-multistakeholder-governance-help-avoid-platform-capture-of-web-if-iab-tech-lab-wont-control-uid2-who-will/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022034",
+    "date": "2022-03-25",
+    "title": "Can multistakeholder governance help avoid platform “capture” of web? | If IAB Tech Lab won’t control UID2, who will?",
+    "summary": "Privacy Beat Your weekly privacy news update. VIEW IN YOUR BROWSER (ABOVE: Screen capture, March 24, 2022) Multistakeholder governance to stop web “capture” by dominant intermediaries? Clues in Berjon’s expert personal post Technologies governed by multi-stakeholder organizations that prevent dom...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/03/25/can-multistakeholder-governance-help-avoid-platform-capture-of-web-if-iab-tech-lab-wont-control-uid2-who-will/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022035",
+    "date": "2022-03-24",
+    "title": "Can multistakeholder governance help avoid platform “capture” of web? | If IAB Tech Lab won’t control UID2, who will?",
+    "summary": "Can multistakeholder governance help avoid platform “capture” of web? | If IAB Tech Lab won’t control UID2, who will? .entry-content table, .entry-content tr td {border:none!important; }<br /> .mcnDividerBlockInner, .mcnShareBlock, #templateFooter {display:none!important; }<br /> p{<br /> margin:...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/03/24/privacy-beat-can-multistakeholder-governance-help-avoid-platform-capture-of-web-iab-tech-lab-wont-control-uid2-who-will/",
     "tags": [
       "apt"
     ],
@@ -26178,6 +26718,42 @@
     "impact": 3
   },
   {
+    "id": "2022036",
+    "date": "2022-02-26",
+    "title": "Biden-advised commission says federal law should require “opt-in” consent; change would disrupt $370-billion advertising industry",
+    "summary": "Biden-advised bipartisan commission says federal law should require “opt-in” data consent; result would disrupt $370-billion advertising industry Online companies should by law have to get “opt-in” permission to collect, share, disclose or use personal data, with consent as easy to withdraw as to...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/02/26/biden-advised-commission-says-federal-law-should-require-opt-in-consent-change-would-disrupt-370-billion-advertising-industry/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022037",
+    "date": "2022-02-26",
+    "title": "Biden-advised commission says federal law should require “opt-in” consent; change would disrupt $370-billion advertising industry",
+    "summary": "Biden-advised bipartisan commission says federal law should require “opt-in” data consent; result would disrupt $370-billion advertising industry Online companies should by law have to get “opt-in” permission to collect, share, disclose or use personal data, with consent as easy to withdraw as to...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/02/26/privacy-beat-biden-advised-commission-says-federal-law-should-require-opt-in-consent-change-would-disrupt-370-billion-advertising-industry/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2022017",
+    "date": "2022-02-23",
+    "title": "A security technique to fool would-be cyber attackers",
+    "summary": "Multiple programs running on the same computer may not be able to directly access each other’s hidden information, but because they share the same memory hardware, their secrets could be stolen by a malicious program through a “memory timing side-channel attack.” This malicious program notices de...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "MIT Cyber Security",
+    "sourceUrl": "https://news.mit.edu/2022/cyber-security-attackers-0223",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2022017",
     "date": "2022-02-23",
     "title": "A security technique to fool would-be cyber attackers",
@@ -27432,6 +28008,33 @@
     "impact": 3
   },
   {
+    "id": "2022038",
+    "date": "2022-02-14",
+    "title": "Facebook and Mozilla propose alternative to browser control of ad measurement and privacy; LMC’s NewsPassID reports pilot results",
+    "summary": "Facebook and Mozilla propose alternative to browser control of ad measurement and privacy; LMC’s NewsPassID reports pilot results TO VIEW A CLEANER FORMAT OF THIS WEEK’S PRIVACY BEAT USE THIS LINK. A fundamental twist in efforts to maintain effective advertising alongside personal privacy was unv...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Information Trust Exchange Governing Association",
+    "sourceUrl": "https://itega.org/2022/02/14/3160/",
+    "tags": [
+      "ai-ml",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022045",
+    "date": "2022-02-02",
+    "title": "What is threat modeling ❓ Definition, Methods, Example",
+    "summary": "Threat modeling is a method for upgrading the security of an application, system, or business process by distinguishing objections and weaknesses, just as carrying out countermeasures to stay away from or alleviate the impacts of structure dangers.Threat modeling supports recognizing the security...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-threat-modeling-definition-methods-example-d0dbc0b1f7f3?source=rss-952c3fe8c7c7------2",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2022045",
     "date": "2022-02-02",
     "title": "What is threat modeling ❓ Definition, Methods, Example",
@@ -28624,6 +29227,34 @@
     "sourceUrl": "https://d0znpp.medium.com/what-is-an-ssl-certificate-meaning-and-types-4596b124c3f0?source=rss-952c3fe8c7c7------2",
     "tags": [
       "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022046",
+    "date": "2022-01-31",
+    "title": "What is an SSL certificate ❓ Meaning and Types",
+    "summary": "IntroductionWebsite/application owners have tons of aspects to look into. However, ensuring end-to-end security ranks top as it is the most crucial factor that an end-user watches out for. Additionally, improved security bags higher ranking, and better SEO.SSL certificate is one of the many appro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-an-ssl-certificate-meaning-and-types-4596b124c3f0?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022047",
+    "date": "2022-01-28",
+    "title": "What is Cross Site Request Forgery CSRF | Example and Methods of protection",
+    "summary": "Organizations aspiring for all-around resource security against the damage-causing cyber vulnerabilities must upgrade their knowledge and get acquainted with all the existing types. CSRF is what is covered sizably in the post.What is CSRF Attack?A counterpart of XSS, CSRF is one of the multiples ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-cross-site-request-forgery-csrf-example-and-methods-of-protection-59623ccd51b1?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -29962,6 +30593,33 @@
     "impact": 3
   },
   {
+    "id": "2022048",
+    "date": "2022-01-26",
+    "title": "Server side template injection — SSTI vulnerability ⚠️",
+    "summary": "Server side template injection — SSTI vulnerability ⚠️IntroductionThere is hardly any software development or other linked elements that haven’t fallen into the trap of cyber vulnerabilities. Templates, used for HTML code management on the server-side, are amongst them. The attack targeting the s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/server-side-template-injection-ssti-vulnerability-%EF%B8%8F-8209660a3036?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022049",
+    "date": "2022-01-25",
+    "title": "What is XMPP ❓ — Extensible Messaging & Presence Protocol",
+    "summary": "What is XMPP ❓ — Extensible Messaging & Presence ProtocolIntroductionIn the early 2000s, when the idea of chat applications was shaping, XMPP was allowing developers to construct interactive chat applications. Since its genesis, this protocol has come a long way and is now included in the tech st...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-xmpp-extensible-messaging-presence-protocol-1365b71bb55e?source=rss-952c3fe8c7c7------2",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2022049",
     "date": "2022-01-25",
     "title": "What is XMPP ❓ — Extensible Messaging & Presence Protocol",
@@ -31154,6 +31812,36 @@
     "sourceUrl": "https://d0znpp.medium.com/what-is-cryptojacking-attack-definition-and-prevention-fe800ca2aab8?source=rss-952c3fe8c7c7------2",
     "tags": [
       "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022050",
+    "date": "2022-01-19",
+    "title": "What is Cryptojacking Attack ❓ Definition and Prevention",
+    "summary": "IntroductionA conceivable threat to cryptocurrency owners, cryptojacking is an attack using which threat attackers can mine cryptocurrency at the expenditure of the target’s resources and network health. If not managed properly at the premature stage, the consequences of this vulnerability can be...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-cryptojacking-attack-definition-and-prevention-fe800ca2aab8?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022051",
+    "date": "2022-01-18",
+    "title": "What is API Abuse ❓ Prevention measures.",
+    "summary": "APIs are paramount for constructing a steadfast and constant communication bridge that empowers devices to pass-on desired information seamlessly. Hackers adopt many ways to exploit the APIs and corrupt the targeted device. This API exploitation is a potential threat to API security and needs for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-api-abuse-prevention-measures-1c277f4ba85d?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "encryption"
     ],
     "impact": 3
   },
@@ -32538,18 +33226,18 @@
     "impact": 4
   },
   {
-    "id": "2022040",
-    "date": "2022-01-09",
-    "title": "What I’ve learnt writing cyber strategies with grand scopes",
-    "summary": "As part of my new role, one of my first tasks has been to develop a cybersecurity strategy for the Health and Social Care sector. I was recently asked: “How do you write a cybersecurity strategy for something so big and complex?” I’ve learnt a few lessons here and in previous roles about writing ...",
-    "region": "EU",
-    "country": "United Kingdom",
-    "sourceName": "Black Swan Security",
-    "sourceUrl": "https://blog.blackswansecurity.com/2022/01/what-ive-learnt-writing-cyber-strategies-with-grand-scopes/",
+    "id": "2022052",
+    "date": "2022-01-14",
+    "title": "What is RAT Remote Access Trojan ❓ Detection and Removal",
+    "summary": "IntroductionHumans live in the 21st century where a large portion of our exchanges are taken care of on the web. Thus, people, businesses and organizations are presented with new online protection dangers. A significant number of these digital dangers will break into your framework and challenge ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-rat-remote-access-trojan-detection-and-removal-ac6786fd9011?source=rss-952c3fe8c7c7------2",
     "tags": [
       "malware"
     ],
-    "impact": 3
+    "impact": 4
   },
   {
     "id": "2022040",
@@ -33178,6 +33866,49 @@
     "sourceUrl": "https://blog.blackswansecurity.com/2022/01/what-ive-learnt-writing-cyber-strategies-with-grand-scopes/",
     "tags": [
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022040",
+    "date": "2022-01-09",
+    "title": "What I’ve learnt writing cyber strategies with grand scopes",
+    "summary": "As part of my new role, one of my first tasks has been to develop a cybersecurity strategy for the Health and Social Care sector. I was recently asked: “How do you write a cybersecurity strategy for something so big and complex?” I’ve learnt a few lessons here and in previous roles about writing ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2022/01/what-ive-learnt-writing-cyber-strategies-with-grand-scopes/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022040",
+    "date": "2022-01-09",
+    "title": "What I’ve learnt writing cyber strategies with grand scopes",
+    "summary": "As part of my new role, one of my first tasks has been to develop a cybersecurity strategy for the Health and Social Care sector. I was recently asked: “How do you write a cybersecurity strategy for something so big and complex?” I’ve learnt a few lessons here and in previous roles about writing ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2022/01/what-ive-learnt-writing-cyber-strategies-with-grand-scopes/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2022041",
+    "date": "2022-01-08",
+    "title": "What do we protect in Cybersecurity?",
+    "summary": "I’ve moved from the private sector back into the public sector, focusing on Health & Social Care. During my work, I am regularly reminded of the government security doctrine that was in effect when I last worked in the public sector many years ago; its influence remains even as it has now been re...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2022/01/what-do-we-protect/",
+    "tags": [
+      "government",
+      "ai-ml"
     ],
     "impact": 3
   },
