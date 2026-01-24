@@ -1,5 +1,275 @@
 [
   {
+    "id": "20263847",
+    "date": "2026-01-24",
+    "title": "Remote Invite Scams are on the rise in America - Cybersecurity Insiders",
+    "summary": "... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE FROM AUTHOR. News-6 · News · Australia probes Cybersecurity Risks linked to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/remote-invite-scams-are-on-the-rise-in-america/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263848",
+    "date": "2026-01-23",
+    "title": "February 2026 Midwest Cyber Security Alliance Meeting - Foley & Lardner LLP",
+    "summary": "Cybersecurity compliance is becoming more complex, requiring organizations to navigate a wide range of standards, frameworks, and regulatory ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.foley.com/insights/events/2026/02/february-2026-midwest-cyber-security-alliance-meeting-navigating-the-2026-cyber-compliance-alphabet-soup-and-regulatory-maze/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263849",
+    "date": "2026-01-23",
+    "title": "From runtime risk to real‑time defense: Securing AI agents ",
+    "summary": "AI agents, whether developed in Microsoft Copilot Studio or on alternative platforms, are becoming a powerful means for organizations to create custom solutions designed to enhance productivity and automate organizational processes by seamlessly integrating with internal data and systems. From a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263850",
+    "date": "2026-01-23",
+    "title": "Amazon Route 53 Domains adds support for .ai, and other top-level domains",
+    "summary": "Amazon Route 53 Domains now supports registration and management of ten new top-level domains (TLDs): .ai, .nz, .shop, .bot, .moi, .spot, .free, .deal, .now, and .hot. This expansion enhances Route 53's capabilities as a domain registration and DNS management service, offering customers more opti...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263851",
+    "date": "2026-01-23",
+    "title": "Amazon RDS for Oracle now supports replicas in Oracle multi-tenant configuration",
+    "summary": "Amazon RDS for Oracle now supports database replicas for instances set up in Oracle multi-tenant configuration. Oracle multi-tenant configuration allows customers to host multiple, isolated pluggable databases in a single container database, which allows for cost reduction through consolidation a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-for-oracle-replica-multi-tenant-configuration-support",
+    "tags": [
+      "malware",
+      "amazon",
+      "oracle",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263852",
+    "date": "2026-01-23",
+    "title": "AWS Security Agent now supports GitHub Enterprise Cloud",
+    "summary": "AWS Security Agent now supports GitHub Enterprise Cloud, enabling customers to connect their GitHub Enterprise Organization and leverage AI-powered security capabilities across their private repositories. With this expansion, development teams can integrate security analysis directly into their G...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-security-agent-ghe-support",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263853",
+    "date": "2026-01-23",
+    "title": "Cybersecurity must be treated as core digital infrastructure : Alok Tiwari, MD, National ...",
+    "summary": "... cyber security and AI-led modernisation. He highlights NICSI's focus on agentic AI for faster, secure transformation of legacy systems, the shift ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.expresscomputer.in/news/cyber-security-must-be-treated-as-core-digital-infrastructure-alok-tiwari-md-national-informatics-centre-services-inc/131996/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263854",
+    "date": "2026-01-23",
+    "title": "NHS England Probe Suppliers for Cybersecurity Controls - BankInfoSecurity",
+    "summary": "... Cyber Security Center's software code of practice. Among the most disruptive cyber incidents affecting patient care in the United Kingdom was a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/nhs-england-probe-suppliers-for-cybersecurity-controls-a-30591",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263855",
+    "date": "2026-01-23",
+    "title": "EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection",
+    "summary": "EC2 Auto Scaling is introducing a new policy condition key autoscaling:ForceDelete. This condition key is used with the DeleteAutoScalingGroup action to control whether the ForceDelete parameter can be used during deletion, which determines if an Auto Scaling group (ASG) can be deleted while it s...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263856",
+    "date": "2026-01-23",
+    "title": "Building Cyber Readiness Early: Why Youth Education Is a Security Imperative - Check Point Blog",
+    "summary": "Learn why early cybersecurity education is essential for reducing digital risk, closing the talent gap, and preparing young people for an ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blog.checkpoint.com/company-and-culture/building-cyber-readiness-early-why-youth-education-is-a-security-imperative/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263857",
+    "date": "2026-01-23",
+    "title": "Amazon EVS now supports multiple VMware NSX Edge Gateways",
+    "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the ability to deploy multiple VMware NSX Tier-0 Gateways within VMware Software-Defined Data Centers (SDDC), enabling enhanced network segmentation and more flexible routing configurations. Multiple NSX Tier-0 G...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-multiple-vmware-nsx-edge-gateways",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263858",
+    "date": "2026-01-23",
+    "title": "Announcing general availability of Amazon EC2 M4 Max Mac instances",
+    "summary": "Amazon Web Services announces general availability of Amazon EC2 M4 Max Mac instances, powered by the latest Mac Studio hardware. Amazon EC2 M4 Max Mac instances are the next-generation EC2 Mac instances, that enable Apple developers to migrate their most demanding build and test workloads onto A...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m4-max-mac-instances-ga",
+    "tags": [
+      "malware",
+      "amazon",
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263859",
+    "date": "2026-01-23",
+    "title": "DETANGLE project supports EU cybersecurity regulations - Innovation News Network",
+    "summary": "Standardising security ensures there is no “weakest link” that foreign adversaries or cybercriminals can exploit to destabilise the European economy.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.innovationnewsnetwork.com/detangle-project-supports-eu-cybersecurity-regulations/65802/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263860",
+    "date": "2026-01-23",
+    "title": "UK bill accelerates shift to offensive cyber security - SecurityBrief Asia",
+    "summary": "New UK cyber bill pushes critical sectors towards continuous offensive security testing as state-backed and criminal threats intensify.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/uk-bill-accelerates-shift-to-offensive-cyber-security",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263861",
+    "date": "2026-01-23",
+    "title": "Digital Identity Fatigue: Too Many Logins, Too Little Control - Panda Security",
+    "summary": "However smart tools password managers and passkeys can make the process less painful – for businesses and individuals. cybersecurity · privacy ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pandasecurity.com/en/mediacenter/digital-identity-fatigue-too-many-logins-too-little-control/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263862",
+    "date": "2026-01-23",
+    "title": "College Students now get 12 months of Microsoft 365 Premium and LinkedIn Premium Career on us ",
+    "summary": "We’ve put together something special just for students—a limited time offer that helps you study smarter, stand out in your job search, and turn your ambitions into reality. The post College Students now get 12 months of Microsoft 365 Premium and LinkedIn Premium Career on us appeared first on Mi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/01/15/college-students-now-get-12-months-of-microsoft-365-premium-and-linkedin-premium-career-on-us/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20263863",
+    "date": "2026-01-23",
+    "title": "CISA Releases Product Categories List to Propel Post-Quantum Cryptography Adoption ...",
+    "summary": "WASHINGTON - Today, the Cybersecurity and Infrastructure Security Agency (CISA), a component of the Department of Homeland Security (DHS), ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-releases-product-categories-list-propel-post-quantum-cryptography-adoption-pursuant-president",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263864",
+    "date": "2026-01-23",
+    "title": "Claroty Raises $150M to Boost Cyber-Physical Security Platform Development",
+    "summary": "The event brings together government and industry leaders to discuss federal cybersecurity priorities, emerging threats and implementation challenges.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govconwire.com/articles/claroty-150m-series-f-cyber-physical-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263831",
     "date": "2026-01-23",
     "title": "149M Credentials Exposed — FaceBook, Instagram, Government and More Included",
