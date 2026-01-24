@@ -1,5 +1,238 @@
 [
   {
+    "id": "20263831",
+    "date": "2026-01-23",
+    "title": "149M Credentials Exposed — FaceBook, Instagram, Government and More Included",
+    "summary": "96 GB of pure credential data were exposed. But who was collecting them in the first place?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102095-149m-credentials-exposed-facebook-instagram-government-and-more-included",
+    "tags": [
+      "data-breach",
+      "government",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263832",
+    "date": "2026-01-23",
+    "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
+    "summary": "Security researchers have attributed the attempted use of destructive \"wiper\" malware across Poland's energy infrastructure in late December to a Russian-backed hacking group known for causing power outages in neighboring Ukraine.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/",
+    "tags": [
+      "malware",
+      "government",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263833",
+    "date": "2026-01-23",
+    "title": "CISA Adds Five Enterprise Software Flaws to Known Exploited Vulnerabilities Catalog",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five enterprise software flaws to its Known Exploited Vulnerabilities (KEV) Catalog in an 18-hour span. On January 22, CISA added vulnerabilities from Versa and Zimbra to the KEV catalog, along with flaws affecting Vite an...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cisa-adds-enterprise-software-flaws-to-kev/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "government",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263834",
+    "date": "2026-01-23",
+    "title": "Tesla Fined £20K For Hiding Dangerous Drivers from Law",
+    "summary": "The UK system wasn’t designed for a world where the registered keeper wants to absorb unlimited convictions without meaningful consequence. Enter Tesla, which obviously treats a £1,000 privacy fine when speeding dangerously as a privilege tax, or even a marketing event to promote the brand. If yo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76384",
+    "tags": [],
+    "impact": 2
+  },
+  {
+    "id": "20263835",
+    "date": "2026-01-23",
+    "title": "CA Tesla Kills One in “Veered” Crash Into Train Platform",
+    "summary": "Imagine thinking you are safe from the infamous “veered” Tesla, let alone other car crashes, when you stand on an elevated platform waiting for a train. The crash happened shortly before 3 p.m. on Jan. 22 at the Iron Point Station, near an outlet mall next to Highway 50, the Sacramento Regional T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76382",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263836",
+    "date": "2026-01-23",
+    "title": "Microsoft's BitLocker Problem: Encryption Without Data Sovereignty",
+    "summary": "It’s 2026. Do you know where your encryption keys are?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/zero-trust/microsoft-bitlocker-encryption",
+    "tags": [
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263837",
+    "date": "2026-01-23",
+    "title": "Fortinet confirms new zero-day attacks against customer devices",
+    "summary": "Fortinet has confirmed that a new attack campaign observed recently against customer devices is exploiting an unpatched issue to bypass authentication. The new attacks are different from a previous campaign seen in December that targeted two vulnerabilities related to FortiCloud single sign-on (S...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121682/fortinet-confirms-new-zero-day-attacks-against-customer-devices.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263838",
+    "date": "2026-01-23",
+    "title": "The cybercrime industry continues to challenge CISOs in 2026",
+    "summary": "Cybercriminals have built structured criminal groups with an organizational model similar to that of a legitimate business. “Cybercrime has become industrialized, a return on investment (ROI)-oriented economy, focused on speed and monetization,” according to Martin Zugec, Bitdefender’s director o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4119555/cybercrime-inc-the-new-industry-challenging-cisos-in-2026.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263839",
+    "date": "2026-01-23",
+    "title": "Swipe, Plug-in, Pwned: Researchers Find New Ways to Hack Vehicles",
+    "summary": "Security researchers exploited dozens of vulnerabilities in vehicle infotainment systems and EV chargers during the latest Pwn2Own contest at Automotive World 2026.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/researchers-find-new-ways-hack-vehicles",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263840",
+    "date": "2026-01-23",
+    "title": "Exploited Zero-Day Flaw in Cisco UC Could Affect Millions",
+    "summary": "Mass scanning is underway for CVE-2026-20045, which Cisco tagged as critical because successful exploitation could lead to a complete system takeover.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/exploited-zero-day-flaw-cisco-uc-affect-millions",
+    "tags": [
+      "vulnerability",
+      "cisco"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263842",
+    "date": "2026-01-23",
+    "title": "Data Leak Exposes 149M Logins, Including Gmail, Facebook",
+    "summary": "A massive unsecured database exposed 149 million logins, raising concerns over infostealer malware and credential theft. The post Data Leak Exposes 149M Logins, Including Gmail, Facebook appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-149-million-passwords-exposed-infostealer-database/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "malware",
+      "ai-ml",
+      "facebook"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263843",
+    "date": "2026-01-23",
+    "title": "ShinyHunters claim to be behind SSO-account data theft attacks",
+    "summary": "The ShinyHunters extortion gang claims it is behind a wave of ongoing voice phishing attacks targeting single sign-on (SSO) accounts at Okta, Microsoft, and Google, enabling threat actors to breach corporate SaaS platforms and steal company data for extortion. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-claim-to-be-behind-sso-account-data-theft-attacks/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "malware",
+      "ai-ml",
+      "microsoft",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263844",
+    "date": "2026-01-23",
+    "title": "Malicious AI extensions on VSCode Marketplace steal developer data",
+    "summary": "Two malicious extensions in Microsoft's Visual Studio Code (VSCode) Marketplace that were collectively installed 1.5 million times, exfiltrate developer data to China-based servers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-ai-extensions-on-vscode-marketplace-steal-developer-data/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263845",
+    "date": "2026-01-23",
+    "title": "CISA confirms active exploitation of four enterprise software bugs",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) in the U.S. warned of active exploitation of four vulnerabilities impacting enterprise software from Versa and Zimbra, the Vite frontend tooling framework, and the Prettier code formatter. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-confirms-active-exploitation-of-four-enterprise-software-bugs/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263846",
+    "date": "2026-01-23",
+    "title": "TikTok lives to scroll another day.",
+    "summary": "At long last, a TikTok deal. Officials urge lawmakers to keep an eye on the quantum ball. Fortinet confirms active exploitation of a critical authentication bypass flaw. Ireland plans to authorize spyware for law enforcement. Okta warns customers of sophisticated vishing kits. Under Armour invest...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2474/notes",
+    "tags": [
+      "vulnerability",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20263805",
     "date": "2026-01-23",
     "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
@@ -1654,6 +1887,18 @@
       "cloud",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20263841",
+    "date": "2026-01-22",
+    "title": "Dark Reading Confidential: Reviving the Hacker Ethos That Built Cybersecurity",
+    "summary": "Dark Reading Confidential Episode 14: How curious, ethical problem solving can continue to serve as a guiding principle for an evolving cybersecurity sector.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/untitled",
+    "tags": [],
     "impact": 3
   },
   {
