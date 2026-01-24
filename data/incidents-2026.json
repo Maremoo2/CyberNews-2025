@@ -1,5 +1,81 @@
 [
   {
+    "id": "20263875",
+    "date": "2026-01-24",
+    "title": "La Poste a affronté la plus grande cyberattaque DDoS jamais enregistrée en France",
+    "summary": "Philippe Bertrand, le directeur de la sécurité de La Poste, est revenu sur la terrible cyberattaque subie il y a quelques semaines, qui a paralysé une partie des activités du groupe. Une première en France, par son intensité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596890-la-poste-a-affronte-la-plus-grande-cyberattaque-ddos-jamais-enregistree-en-france.html",
+    "tags": [
+      "ddos",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263876",
+    "date": "2026-01-24",
+    "title": "Piratage de données : voici les 3 points clés qui vous effraient le plus",
+    "summary": "À l’heure où nos usages numériques se multiplient, s’appuyer au quotidien sur une suite de protection complète et premium n’a plus rien d’accessoire, mais devient un véritable réflexe de bon sens.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595057-piratage-de-donnees-voici-les-3-points-cles-qui-vous-effraient-le-plus.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263877",
+    "date": "2026-01-24",
+    "title": "Dernière chance pour profiter de CyberGhost à -83 % : l’offre d’hiver touche à sa fin !",
+    "summary": "Les promotions VPN les plus intéressantes sont souvent limitées dans le temps, et celle-ci en fait clairement partie. Avec son offre d’hiver, CyberGhost tombe à 2,03 € par mois, avec 4 mois offerts, une réduction rare sur une solution aussi complète.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-596656-derniere-chance-pour-profiter-de-cyberghost-a--83-l-offre-d-hiver-touche-a-sa-fin.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263878",
+    "date": "2026-01-24",
+    "title": "“You Need a Dictator”: Pentagon Told to Drop China Focus, Threaten Canada",
+    "summary": "Trump lashed out at Canada, sounding like a syphilitic lunatic, ranting about healthy trade deals with China. …China, who will “eat them up” within the first year! Two days earlier at Davos, Trump explained: “Sometimes you need a dictator!” His warning about China is especially notable, because T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76393",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263881",
+    "date": "2026-01-24",
+    "title": "Caught in the funnel. [Research Saturday]",
+    "summary": "Today we have Andrew Northern, Principal Security Researcher at Censys, discussing \"From Evasion to Evidence: Exploiting the Funneling Behavior of Injects\". This research explains how modern web malware campaigns use multi-stage JavaScript injections, redirects, and fake CAPTCHAs to selectively d...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/409/notes",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263871",
     "date": "2026-01-24",
     "title": "[Ekstra] Studenter lager prompte-app: Problemet er ikke teknologien, men folkene som bruker den",
@@ -68,6 +144,35 @@
     "sourceUrl": "https://www.cybersecurity-insiders.com/remote-invite-scams-are-on-the-rise-in-america/",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263879",
+    "date": "2026-01-23",
+    "title": "ESET Research: Sandworm behind cyberattack on Poland’s power grid in late 2025",
+    "summary": "The attack involved data-wiping malware that ESET researchers have now analyzed and named DynoWiper",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/eset-research-sandworm-cyberattack-poland-power-grid-late-2025/",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263880",
+    "date": "2026-01-23",
+    "title": "Children and chatbots: What parents should know",
+    "summary": "As children turn to AI chatbots for answers, advice, and companionship, questions emerge about their safety, privacy, and emotional development",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/kids-online/children-chatbots-what-parents-should-know/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
