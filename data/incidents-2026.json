@@ -1,5 +1,20 @@
 [
   {
+    "id": "20263935",
+    "date": "2026-01-25",
+    "title": "Microsoft releases emergency OOB update to fix Outlook freezes",
+    "summary": "Microsoft has released emergency, out-of-band updates on Saturday for Windows 10, Windows 11, and Windows Server to fix an issue that prevented Microsoft Outlook classic from opening when using PSTs stored in cloud storage. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/",
+    "tags": [
+      "cloud",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263922",
     "date": "2026-01-25",
     "title": "This Week in Open Source #13",
@@ -41,6 +56,20 @@
     "tags": [
       "google",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263934",
+    "date": "2026-01-24",
+    "title": "2025 Was a Wake-Up Call to Protect Human Decisions, Not Just Systems",
+    "summary": "Cybersecurity must shift from solely protecting systems to safeguarding human decision-making under uncertainty and system failures.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/wake-up-call-to-protect-human-decisions-not-just-systems",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
