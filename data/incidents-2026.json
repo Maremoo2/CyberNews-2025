@@ -1,5 +1,183 @@
 [
   {
+    "id": "20263922",
+    "date": "2026-01-25",
+    "title": "This Week in Open Source #13",
+    "summary": "by Daryl Ducharme, Google Open Source This Week in Open Source for January 23, 2026 A look around the world of open source Can you believe we're already wrapping up the first month of the year? January is coming to a close. The open source ecosystem is buzzing with activity, from the upcoming com...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/01/this-week-in-open-source-13.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263923",
+    "date": "2026-01-25",
+    "title": "A JSON schema package for Go",
+    "summary": "by Jonathan Amsterdam & Sam Thanawalla, The Go Team JSON Schema is a specification for describing JSON values that has become a critical part of LLM infrastructure. We recently released github.com/google/jsonschema-go/jsonschema, a comprehensive JSON Schema package for Go. We use it in the offici...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/01/a-json-schema-package-for-go.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263924",
+    "date": "2026-01-25",
+    "title": "Mentor Org Applications for Google Summer of Code 2026 open through Feb 3",
+    "summary": "by Stephanie Taylor, Mary Radomile & Lucila Ortíz, Google Open Source Attention open source enthusiasts! Mentoring organization applications for Google Summer of Code (GSoC) 2026 are officially open. This is your opportunity to guide students and developers early in their careers. The application...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/01/mentor-org-applications-for-google-summer-of-code-2026-open-through-feb-3.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263925",
+    "date": "2026-01-24",
+    "title": "Why Cybersecurity Works Better When Defenders Share Data - iHLS",
+    "summary": "Cyber · Cyber Security · Data Security · Security · Defense · Defense Tech · Dual-use technology · HLS · ISR · Intelligence · News · Survivability & ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://i-hls.com/archives/133488",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263926",
+    "date": "2026-01-24",
+    "title": "UST: How to Guide Secure and Responsible AI Development | Cyber Magazine",
+    "summary": "AI, digital transformation and economic resilience are reshaping the cybersecurity agenda. At the intersection of these priorities is Heather Dawe, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/heather-dawe-ust-on-building-responsible-ai",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263927",
+    "date": "2026-01-24",
+    "title": "Geopolitics & AI Arms Race Impact On National Defenses: WEF Cybersecurity Head Akshay ...",
+    "summary": "Geopolitics & AI Arms Race Impact On National Defenses: WEF Cybersecurity Head Akshay Joshi At Davos ... Secure Humanity's Future | AQ1B. DRM News. New.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=IpCe_pjVMXo",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263928",
+    "date": "2026-01-24",
+    "title": "WARNING: Fortinet Confirms Ongoing Exploitation of Critical FortiCloud SSO Flaw Despite Patch",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2025-59718 to its Known Exploited Vulnerabilities (KEV) Catalog on December 16, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/warning-fortinet-confirms-ongoing-exploitation-1bb6e",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263929",
+    "date": "2026-01-24",
+    "title": "Subcommittee Chairman Ogles Requests Testimony from LinkedIn, Amazon, Palo Alto ...",
+    "summary": "... Cyber Infiltration of US Companies, Networks. January 23, 2026 ... Cybersecurity and Infrastructure Security Agency, can take to reduce risk.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/01/23/subcommittee-chairman-ogles-requests-testimony-from-linkedin-amazon-palo-alto-networks-on-north-koreas-cyber-infiltration-of-us-companies-networks/",
+    "tags": [
+      "malware",
+      "amazon",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263930",
+    "date": "2026-01-24",
+    "title": "Information Security Manager - IT-Online",
+    "summary": "The Information Security Manager will lead our client's cybersecurity strategy, governance, and operations across a hybrid cloud infrastructure. This ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://it-online.co.za/2026/01/23/information-security-manager-12/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263931",
+    "date": "2026-01-24",
+    "title": "U.S. CISA adds a flaw in Broadcom VMware vCenter Server to its Known ... - Security Affairs",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw impacting Broadcom VMware vCenter to its Known Exploited Vulnerabilities ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/187267/security/u-s-cisa-adds-a-flaw-in-broadcom-vmware-vcenter-server-to-its-known-exploited-vulnerabilities-catalog.html",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263932",
+    "date": "2026-01-24",
+    "title": "Germany news: Berlin vows aggressive cybersecurity stance - DW.com",
+    "summary": "Dobrindt said Germany's institutions, infrastructure and companies are under constant threat of cyber attack, adding, \"We cannot accept that.\" German ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dw.com/en/germany-news-berlin-vows-aggressive-cybersecurity-stance/live-75639462",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263933",
+    "date": "2026-01-24",
+    "title": "Endpoint Security and Network Monitoring News for the Week of January 23rd - Solutions Review",
+    "summary": "Sophos, a global provider of innovative security solutions for defeating cyber-attacks, has announced Sophos Workspace Protection. The new ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://solutionsreview.com/endpoint-security/endpoint-security-and-network-monitoring-news-for-the-week-of-january-23rd-sophos-obsidian-security-vectra-ai-and-more/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263916",
     "date": "2026-01-24",
     "title": "Gmail’s spam filter and automatic sorting are broken",
