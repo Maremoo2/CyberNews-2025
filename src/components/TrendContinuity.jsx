@@ -147,7 +147,7 @@ function TrendContinuity({ incidents }) {
             <div className="month-header">
               <div className="month-title">
                 <h4>{formatMonthName(month.month)}</h4>
-                <span className="month-count">{month.count} incidents</span>
+                <span className="month-count">{month.count} incident-related items</span>
               </div>
               {month.changes && (
                 <div className="month-change-summary">
@@ -233,11 +233,11 @@ function TrendContinuity({ incidents }) {
                     <p>
                       {month.changes.count > 0 ? (
                         <>
-                          <strong>{Math.abs(month.changes.count)} more incidents</strong> than previous month
+                          <strong>{Math.abs(month.changes.count)} more items</strong> than previous month
                         </>
                       ) : (
                         <>
-                          <strong>{Math.abs(month.changes.count)} fewer incidents</strong> than previous month
+                          <strong>{Math.abs(month.changes.count)} fewer items</strong> than previous month
                         </>
                       )}
                     </p>
@@ -254,13 +254,19 @@ function TrendContinuity({ incidents }) {
         <div className="insights-grid">
           {(() => {
             const recentMonths = monthlyTrends.slice(-3);
-            const avgGrowth = recentMonths
-              .filter(m => m.changes)
-              .reduce((sum, m) => sum + parseFloat(m.changes.countPercent), 0) / 
-              (recentMonths.length - 1);
+            // Filter out null percentages and calculate average
+            const validPercentages = recentMonths
+              .filter(m => m.changes && m.changes.countPercent !== null)
+              .map(m => parseFloat(m.changes.countPercent));
+            
+            const avgGrowth = validPercentages.length > 0
+              ? validPercentages.reduce((sum, val) => sum + val, 0) / validPercentages.length
+              : 0;
             
             const acceleration = avgGrowth > 10 ? 'accelerating' : 
                                avgGrowth < -10 ? 'declining' : 'stable';
+            
+            const hasEnoughData = validPercentages.length >= 2;
             
             return (
               <>
@@ -269,7 +275,15 @@ function TrendContinuity({ incidents }) {
                   <div>
                     <strong>Overall Trend</strong>
                     <p>
-                      Incident rate is <strong>{acceleration}</strong> with {avgGrowth.toFixed(1)}% avg monthly change
+                      {hasEnoughData ? (
+                        <>
+                          Item volume is <strong>{acceleration}</strong> with {avgGrowth.toFixed(1)}% avg monthly change
+                        </>
+                      ) : (
+                        <>
+                          <strong>N/A</strong> (requires ≥2 months of data)
+                        </>
+                      )}
                     </p>
                   </div>
                 </div>

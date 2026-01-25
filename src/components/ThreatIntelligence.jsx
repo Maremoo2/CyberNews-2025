@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import { filterToIncidentsOnly } from '../utils/populationUtils'
 import './ThreatIntelligence.css'
+import ConfidenceBadge from './ConfidenceBadge'
+import { getMitreConfidence } from '../utils/confidenceRules'
 
 // MITRE ATT&CK Tactics and Techniques
 const MITRE_TACTICS = {
@@ -211,8 +213,35 @@ function ThreatIntelligence({ incidents }) {
       <div className="intel-header">
         <h2>🎯 MITRE ATT&CK Framework Analysis</h2>
         <p className="intel-subtitle">
-          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incident-related articles)
+          Understanding attack patterns through the industry-standard framework for adversary tactics and techniques (analyzing {mitreAnalysis.totalIncidents} incident-related items)
         </p>
+        
+        {/* Confidence Badge - using centralized rules with raw numbers */}
+        {(() => {
+          const coveragePct = ((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100);
+          const confidence = getMitreConfidence(
+            coveragePct, 
+            mitreAnalysis.totalIncidents,
+            mitreAnalysis.totalAllItems,
+            "keyword-based"
+          );
+          return (
+            <div style={{ margin: '1rem auto', maxWidth: '800px' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="MITRE coverage"
+                value={`${coveragePct.toFixed(1)}%`}
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
+        
+        <div className="coverage-warning">
+          ⚠️ Coverage: {((mitreAnalysis.totalIncidents / mitreAnalysis.totalAllItems) * 100).toFixed(1)}% of items mapped to MITRE (keyword-based). 
+          Interpret as media signals, not confirmed TTPs.
+        </div>
         <button 
           className="collapse-toggle"
           onClick={() => setIsExpanded(!isExpanded)}
@@ -227,7 +256,7 @@ function ThreatIntelligence({ incidents }) {
       <div className="intel-intro">
         <p>
           The MITRE ATT&CK framework provides a comprehensive matrix of tactics (the "why") and techniques (the "how") 
-          used by cyber adversaries. This analysis maps the {mitreAnalysis.totalIncidents} incident-related articles to the framework, 
+          used by cyber adversaries. This analysis maps the {mitreAnalysis.totalIncidents} incident-related items to the framework, 
           revealing the most common attack patterns and helping organizations prioritize their defenses.
         </p>
       </div>

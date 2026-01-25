@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react'
 import './ExecutiveSummary.css'
 import { getSeverityDistribution, getTopThemes, getAttributionRate, calculateKPIs } from '../utils/analyticsUtils'
 import { isDataEnriched, getEnrichmentQualityMessage, filterToIncidentsOnly } from '../utils/populationUtils'
+import ConfidenceBadge from './ConfidenceBadge'
+import { getSeverityConfidence } from '../utils/confidenceRules'
 
 function ExecutiveSummary({ incidents, selectedYear }) {
   // Default to incident-only analysis (P0 requirement)
@@ -105,7 +107,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
             onClick={() => setPopulationMode('incidents')}
             aria-pressed={populationMode === 'incidents'}
           >
-            INCIDENTS ({analysis.totalIncidents})
+            INCIDENT-RELATED ITEMS ({analysis.totalIncidents})
           </button>
           <button 
             className={populationMode === 'all' ? 'toggle-btn active' : 'toggle-btn'}
@@ -117,13 +119,13 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         </div>
         <p className="summary-subtitle">
           {populationMode === 'incidents' 
-            ? `Key insights from ${analysis.totalIncidents} incident-related articles published in ${selectedYear}` 
+            ? `Key insights from ${analysis.totalIncidents} incident-related items published in ${selectedYear}` 
             : `Coverage of ${analysis.totalAllItems} items (includes explainers, products, and opinions)`}
         </p>
         <div className="counting-note">
           <span className="count-badge">
             {populationMode === 'incidents' 
-              ? 'Incident-related articles only (recommended for executive view)' 
+              ? 'Incident-related items only (recommended for executive view)' 
               : 'All content types'}
           </span>
           <span className="quality-note">{analysis.curatedCount} curated ({analysis.curatedPercentage}%)</span>
@@ -168,6 +170,28 @@ function ExecutiveSummary({ incidents, selectedYear }) {
           <div className="count-type-label">
             <small>Count type: unique incidents</small>
           </div>
+          
+          {/* Confidence Badge for severity data - using centralized rules with raw numbers */}
+          {analysis.dataEnriched && (() => {
+            const confidence = getSeverityConfidence(
+              analysis.curatedPercentage,
+              analysis.curatedCount,
+              analysis.totalIncidents,
+              100
+            );
+            return (
+              <div style={{ marginBottom: '0.75rem' }}>
+                <ConfidenceBadge 
+                  level={confidence.level}
+                  label="Severity model"
+                  value={`${analysis.curatedPercentage}% curated`}
+                  tooltip={confidence.tooltip}
+                  size="sm"
+                />
+              </div>
+            );
+          })()}
+          
           {!analysis.dataEnriched ? (
             <div className="no-enrichment-message">
               <p>⚠️ Severity data not available</p>
@@ -198,14 +222,26 @@ function ExecutiveSummary({ incidents, selectedYear }) {
                 </div>
               </div>
               <p className="insight-text">
-                <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity articles 
-                ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
+                {(analysis.severityDistribution.critical + analysis.severityDistribution.high) === 0 ? (
+                  <>
+                    <strong>High/Critical:</strong> Not enough confirmed impact data yet 
+                    (coverage: {analysis.curatedPercentage}%). Model conservative, pending enrichment.
+                  </>
+                ) : (
+                  <>
+                    <strong>{analysis.severityDistribution.critical + analysis.severityDistribution.high}</strong> high-severity items 
+                    ({analysis.severityDistribution.critical} critical, {analysis.severityDistribution.high} high severity)
+                  </>
+                )}
               </p>
               {selectedYear >= 2026 && (
                 <div className="severity-disclaimer" style={{marginTop: '12px', padding: '10px', background: 'rgba(241, 196, 15, 0.1)', borderLeft: '3px solid #f1c40f', borderRadius: '4px'}}>
                   <p style={{margin: 0, fontSize: '0.85rem', color: '#000000'}}>
-                    ⚠️ <strong>Early-year limitation:</strong> Severity is based on confirmed impact at time of reporting. 
-                    Many incidents in {selectedYear} are still under investigation and may be reclassified as more information becomes available.
+                    ⚠️ <strong>Severity Model Conservative:</strong> High/critical severity requires confirmed impact, not just disclosure. 
+                    Early in {selectedYear}, many incidents are still under investigation. Current model coverage is limited (curation ~2-3%).
+                    {(analysis.severityDistribution.critical + analysis.severityDistribution.high) === 0 && (
+                      <span> Low counts reflect pending enrichment, not absence of threats.</span>
+                    )}
                   </p>
                 </div>
               )}

@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import './AttackChainAnalysis.css';
 import { getAttackChains } from '../utils/analyticsUtils';
+import ConfidenceBadge from './ConfidenceBadge';
+import { getAttackChainConfidence } from '../utils/confidenceRules';
 
 /**
  * Attack Chain Reconstruction Component
@@ -32,6 +34,34 @@ function AttackChainAnalysis({ incidents, filters }) {
       <div className="section-header">
         <h2>🔗 Attack Chain Reconstruction</h2>
         <p className="subtitle">Most common attack paths in {new Date().getFullYear()}</p>
+        
+        {/* Confidence Badge - using centralized rules with raw numbers */}
+        {(() => {
+          // totalMultiStagedIncidents = items (articles) with 2+ MITRE tactics
+          // Use incident-related items as denominator for accurate coverage
+          const coveragePct = ((chainData.totalMultiStagedIncidents / incidents.length) * 100);
+          const confidence = getAttackChainConfidence(
+            coveragePct,
+            chainData.totalMultiStagedIncidents,
+            incidents.length
+          );
+          return (
+            <div style={{ margin: '1rem 0' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="Attack chains"
+                value={`${coveragePct.toFixed(1)}%`}
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
+        
+        <div className="coverage-badge">
+          ⚠️ Coverage: {chainData.totalMultiStagedIncidents} items ({((chainData.totalMultiStagedIncidents / incidents.length) * 100).toFixed(1)}% of total)
+          <span className="coverage-note">Based on keyword-matched MITRE tactics. Interpret as media signals, not confirmed TTPs.</span>
+        </div>
         <div className="explanation-box">
           <p className="explanation-text">
             <strong>What are attack chains?</strong> These are typical attack sequences reconstructed from MITRE ATT&CK tags in reported incidents. 

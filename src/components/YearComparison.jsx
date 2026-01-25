@@ -82,11 +82,15 @@ function YearComparison({ incidents2025, incidents2026 }) {
     const changes = {
       totalIncidents: {
         value: data2026.totalIncidents - data2025.totalIncidents,
-        percent: ((data2026.totalIncidents - data2025.totalIncidents) / data2025.totalIncidents * 100).toFixed(1)
+        percent: data2025.totalIncidents > 0
+          ? ((data2026.totalIncidents - data2025.totalIncidents) / data2025.totalIncidents * 100).toFixed(1)
+          : 'N/A'
       },
       avgImpact: {
         value: (data2026.avgImpact - data2025.avgImpact).toFixed(1),
-        percent: ((data2026.avgImpact - data2025.avgImpact) / data2025.avgImpact * 100).toFixed(1)
+        percent: data2025.avgImpact > 0
+          ? ((data2026.avgImpact - data2025.avgImpact) / data2025.avgImpact * 100).toFixed(1)
+          : 'N/A'
       },
       critical: {
         value: data2026.severityCounts.critical - data2025.severityCounts.critical,

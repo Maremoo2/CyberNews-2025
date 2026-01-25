@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import './DeduplicationStats.css';
 import { enhanceIncidents } from '../utils/deduplicationUtils';
+import ConfidenceBadge from './ConfidenceBadge';
+import { getDedupeConfidence } from '../utils/confidenceRules';
 
 /**
  * Deduplication Statistics Component
@@ -20,7 +22,23 @@ function DeduplicationStats({ incidents }) {
     <div className="deduplication-stats">
       <div className="stats-header">
         <h3>📊 Data Volume Analysis</h3>
-        <p className="subtitle">Estimated unique incidents vs news coverage</p>
+        <p className="subtitle">Estimated unique incidents vs incident-related items coverage</p>
+        
+        {/* Confidence Badge - using centralized rules */}
+        {(() => {
+          const confidence = getDedupeConfidence(null, false);
+          return (
+            <div style={{ marginTop: '0.75rem' }}>
+              <ConfidenceBadge 
+                level={confidence.level}
+                label="Deduplication"
+                value="heuristic"
+                tooltip={confidence.tooltip}
+                size="sm"
+              />
+            </div>
+          );
+        })()}
       </div>
 
       <div className="stats-grid">
@@ -28,8 +46,8 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">📰</div>
           <div className="stat-content">
             <div className="stat-value">{stats.totalArticles.toLocaleString()}</div>
-            <div className="stat-label">Total Articles</div>
-            <div className="stat-description">News items published</div>
+            <div className="stat-label">Incident-Related Items</div>
+            <div className="stat-description">News articles published</div>
           </div>
         </div>
 
@@ -37,8 +55,11 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">🎯</div>
           <div className="stat-content">
             <div className="stat-value">{stats.estimatedUniqueIncidents.toLocaleString()}</div>
-            <div className="stat-label">Estimated Unique Incidents</div>
-            <div className="stat-description">Deduplicated events</div>
+            <div className="stat-label">
+              Estimated Unique Incidents (Clustered)
+              <span className="info-tooltip" title="How calculated: Articles are grouped using heuristics (title similarity + source + date window ±48h). This is a clustering estimate — not confirmed incident count. Fingerprint method: org + attack type + date window.">ℹ️</span>
+            </div>
+            <div className="stat-description">Heuristic deduplication</div>
           </div>
         </div>
 
@@ -46,8 +67,11 @@ function DeduplicationStats({ incidents }) {
           <div className="stat-icon">📈</div>
           <div className="stat-content">
             <div className="stat-value">{stats.deduplicationRatio}x</div>
-            <div className="stat-label">Coverage Ratio</div>
-            <div className="stat-description">Articles per incident</div>
+            <div className="stat-label">
+              Coverage Ratio
+              <span className="info-tooltip" title="How calculated: Total items ÷ Estimated unique incidents. A ratio of 3.0x means each incident is covered by an average of 3 news articles. Higher ratios indicate major incidents with extensive media coverage.">ℹ️</span>
+            </div>
+            <div className="stat-description">Items per incident</div>
           </div>
         </div>
       </div>
