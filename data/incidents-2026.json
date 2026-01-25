@@ -1,5 +1,121 @@
 [
   {
+    "id": "20263939",
+    "date": "2026-01-25",
+    "title": "149 millions d’identifiants Gmail, Facebook et Roblox découverts dans un fichier public",
+    "summary": "Un chercheur en cybersécurité a mis la main sur 149 millions d'identifiants volés, accessibles en ligne sans aucune protection. Gmail, Facebook, Netflix, des sites gouvernementaux et même OnlyFans sont touchés.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596971-millions-d-identifiants-gmail-facebook-et-roblox-decouverts-dans-un-fichier-public.html",
+    "tags": [
+      "ai-ml",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263940",
+    "date": "2026-01-25",
+    "title": "Télétravail, déplacements, coworking : comment garder la main sur la sécurité réseau quand vos équipes sont partout",
+    "summary": "Le réseau de l’entreprise n’a plus d’adresse fixe. Il passe par des box personnelles, des Wi-Fi d’hôtel, des coworkings et des partages de connexion improvisés. La sécurité n’a plus de périmètre stable. Elle doit suivre les équipes.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-595039-teletravail-deplacements-coworking-comment-garder-la-main-sur-la-securite-reseau-quand-vos-equipes-sont-partout.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263941",
+    "date": "2026-01-25",
+    "title": "Week in review: Fully patched FortiGate firewalls are getting compromised, attackers probe Cisco RCE flaw",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Review: AI Strategy and Security AI Strategy and Security is a guide for organizations planning enterprise AI programs. The book targets technology leaders, security professionals, and executives res...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/25/week-in-review-fully-patched-fortigate-firewalls-are-getting-compromised-attackers-probe-cisco-rce-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263942",
+    "date": "2026-01-25",
+    "title": "Trump Tariffs Crush Americans, Push World Trade Away to Canada",
+    "summary": "Trump has announced an even higher tax burden on Americans, claiming domestic hardship will pressure Canada to listen to him. He makes about as much sense as if he was telling a Canadian woman that if she doesn’t date him then Trump will beat his own wife. Think about it. If you don’t listen to …...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76522",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263943",
+    "date": "2026-01-25",
+    "title": "Public Execution of Alex Pretti by Trump Stormtroopers",
+    "summary": "Three shootings in seventeen days. Trump stormtroopers blocking law enforcement and local police from the scene. The self-proclaimed “War Secretary”, formerly from Minnesota, cheering stormtroopers in Minnesota who publicly execute citizens. And video evidence contradicting every Trump administra...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76507",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263944",
+    "date": "2026-01-25",
+    "title": "Trump says Epstein Files buried by ‘Discombobulator’ energy weapon",
+    "summary": "Trump says he can get people to stop talking about his role in CSAM and the Epstein Files, simply by deploying a “Discombobulator” weapon. “At one point, they launched something; I don’t know how to describe it. It was like a very intense sound wave. Suddenly I felt like my head was exploding fro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76500",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263945",
+    "date": "2026-01-25",
+    "title": "Cybersecurity’s New Business Case: Fraud",
+    "summary": "Government security leaders are struggling. Cyber investments are lagging. Resources are being cut. The problem is getting worse. Let’s explore solutions.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Lohrmann on Infrastructure",
+    "sourceUrl": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/cybersecuritys-new-business-case-fraud",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263946",
+    "date": "2026-01-25",
+    "title": "Lauren Van Wazer: You have to be your own North Star. [CISSP] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Lauren Van Wazer, Vice President, Global Public Policy and Regulatory Affairs for Akamai Technologies, shares her story as she followed her own North Star and landed where she is today. She describes her career path, highlighting how she went from working...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/105/notes",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263936",
     "date": "2026-01-25",
     "title": "[Ekstra] Teknologiekspert: Chat GPTs siste utvei kan være «som å tisse i buksa»",
