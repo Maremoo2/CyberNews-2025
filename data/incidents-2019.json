@@ -714,6 +714,36 @@
     "impact": 3
   },
   {
+    "id": "2019006",
+    "date": "2019-06-22",
+    "title": "CISA Statement on Iranian Cybersecurity Threats",
+    "summary": "In response to reports of an increase in cybersecurity threats, the Department of Homeland Security’s (DHS) Cybersecurity and Infrastructure Security Agency (CISA) Director Christopher C. Krebs issued the following statement:“CISA is aware of a recent rise in malicious cyber activity directed at ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-statement-iranian-cybersecurity-threats",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019005",
+    "date": "2019-06-20",
+    "title": "CISA’s ICT Supply Chain Risk Management Task Force Makes Key Acquisition Recommendation",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and government and industry members of the Information and Communications Technology (ICT) Supply Chain Risk Management Task Force gathered in Washington, D.C. today to update members on progress towards the development of an initial rec...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisas-ict-supply-chain-risk-management-task-force-makes-key-acquisition",
+    "tags": [
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2019005",
     "date": "2019-06-20",
     "title": "CISA’s ICT Supply Chain Risk Management Task Force Makes Key Acquisition Recommendation",
@@ -2244,19 +2274,18 @@
     "impact": 5
   },
   {
-    "id": "2019003",
-    "date": "2019-04-10",
-    "title": "CISA Partners with Secure Community Network to Hold Incident Response Exercise",
-    "summary": "WASHINGTON – Yesterday, the Cybersecurity and Infrastructure Security Agency (CISA) hosted a tabletop exercise in collaboration with the Secure Community Network (SCN). The exercise brought together Jewish community leaders from across the nation, along with federal and state law enforcement and ...",
+    "id": "2019004",
+    "date": "2019-04-30",
+    "title": "CISA Releases National Critical Functions Set",
+    "summary": "The Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA) today released the inaugural set of National Critical Functions. These are functions used or supported by government and the private sector that are of such vital importance to the United States that the...",
     "region": "US",
     "country": "United States",
     "sourceName": "CISA News",
-    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-partners-secure-community-network-hold-incident-response-exercise",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-releases-national-critical-functions-set",
     "tags": [
-      "malware",
       "government"
     ],
-    "impact": 3
+    "impact": 5
   },
   {
     "id": "2019003",
@@ -3005,6 +3034,52 @@
     "tags": [
       "malware",
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019003",
+    "date": "2019-04-10",
+    "title": "CISA Partners with Secure Community Network to Hold Incident Response Exercise",
+    "summary": "WASHINGTON – Yesterday, the Cybersecurity and Infrastructure Security Agency (CISA) hosted a tabletop exercise in collaboration with the Secure Community Network (SCN). The exercise brought together Jewish community leaders from across the nation, along with federal and state law enforcement and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-partners-secure-community-network-hold-incident-response-exercise",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019003",
+    "date": "2019-04-10",
+    "title": "CISA Partners with Secure Community Network to Hold Incident Response Exercise",
+    "summary": "WASHINGTON – Yesterday, the Cybersecurity and Infrastructure Security Agency (CISA) hosted a tabletop exercise in collaboration with the Secure Community Network (SCN). The exercise brought together Jewish community leaders from across the nation, along with federal and state law enforcement and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-partners-secure-community-network-hold-incident-response-exercise",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019002",
+    "date": "2019-02-26",
+    "title": "CISA’s ICT Supply Chain Risk Management Task Force Launches Work Streams",
+    "summary": "WASHINGTON – The Cybersecurity and Infrastructure Security Agency (CISA) and government and industry members of the Information and Communications Technology (ICT) Supply Chain Risk Management Task Force gathered in Washington this week and last week as part of the Task Force’s o",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisas-ict-supply-chain-risk-management-task-force-launches-work-streams",
+    "tags": [
+      "supply-chain",
+      "government",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -4525,16 +4600,16 @@
     "impact": 3
   },
   {
-    "id": "2019008",
-    "date": "2019-02-15",
-    "title": "The importance of cybersecurity in Fintech",
-    "summary": "Fintech companies rely mostly on their rapid adaptability to emergent changes. That is to say that these companies – the likes of Revolut, Monzo, TransferWise, Acorns, Addepar etc, just to name a few – owe their very existence to their ability to meet their ever-changing user’s needs quickly and ...",
+    "id": "2019007",
+    "date": "2019-02-19",
+    "title": "AI: The New Cyber Crime Solution… and Threat",
+    "summary": "AI: The New Cyber Crime Solution… and Threat Artificial Intelligence has been seen by many as the latest solution for a growing threat: the rise of cyber attacks in recent years. Machine learning and other AI solutions can be embedded within algorithms in basically any software. Given the fact th...",
     "region": "ASIA",
     "country": "Global",
     "sourceName": "Aghiath Chbib",
-    "sourceUrl": "https://aghiathchbib.com/2019/02/15/the-importance-of-cybersecurity-in-fintech/",
+    "sourceUrl": "https://aghiathchbib.com/2019/02/19/ai-the-new-cyber-crime-solution-and-threat/",
     "tags": [
-      "apt"
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -5221,6 +5296,48 @@
     "sourceUrl": "https://aghiathchbib.com/2019/02/15/the-importance-of-cybersecurity-in-fintech/",
     "tags": [
       "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019008",
+    "date": "2019-02-15",
+    "title": "The importance of cybersecurity in Fintech",
+    "summary": "Fintech companies rely mostly on their rapid adaptability to emergent changes. That is to say that these companies – the likes of Revolut, Monzo, TransferWise, Acorns, Addepar etc, just to name a few – owe their very existence to their ability to meet their ever-changing user’s needs quickly and ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/02/15/the-importance-of-cybersecurity-in-fintech/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019008",
+    "date": "2019-02-15",
+    "title": "The importance of cybersecurity in Fintech",
+    "summary": "Fintech companies rely mostly on their rapid adaptability to emergent changes. That is to say that these companies – the likes of Revolut, Monzo, TransferWise, Acorns, Addepar etc, just to name a few – owe their very existence to their ability to meet their ever-changing user’s needs quickly and ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/02/15/the-importance-of-cybersecurity-in-fintech/",
+    "tags": [
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019001",
+    "date": "2019-02-14",
+    "title": "Statement from CISA Director Krebs on Election Security",
+    "summary": "Cybersecurity and Infrastructure Security Agency (CISA) Director Christopher C. Krebs released the following statement today on the agency’s election security work.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/statement-cisa-director-krebs-election-security",
+    "tags": [
+      "government"
     ],
     "impact": 3
   },
@@ -6639,6 +6756,32 @@
     "impact": 3
   },
   {
+    "id": "2019009",
+    "date": "2019-02-13",
+    "title": "Challenges And Risks Of AI In Cybersecurity",
+    "summary": "AI seems to be the answer to cybercrime damages that will cost the world $6 trillion every year by the time we reach 2021. By Aghiath Chbib — Read on www.bizcatalyst360.com/challenges-and-risks-of-ai-in-cybersecurity/",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/02/13/challenges-and-risks-of-ai-in-cybersecurity-bizcatalyst-360/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019010",
+    "date": "2019-02-05",
+    "title": "5 Recent Events That Changed Cybersecurity ﻿",
+    "summary": "The long-running struggle between cybersecurity and hackers has existed in computing since the beginning of the 1970s. Its impact on users and businesses has escalated over the past decades: the expansion of the internet to all corners of the world, and the ever-growing digitization of society, w...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/02/05/5-recent-events-that-changed-cybersecurity-%ef%bb%bf/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2019010",
     "date": "2019-02-05",
     "title": "5 Recent Events That Changed Cybersecurity ﻿",
@@ -7933,6 +8076,34 @@
     "country": "Global",
     "sourceName": "Aghiath Chbib",
     "sourceUrl": "https://aghiathchbib.com/2019/01/31/smart-contracts-challenges-and-opportunities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019011",
+    "date": "2019-01-31",
+    "title": "Blockchain Smart Contracts: Challenges and Opportunities",
+    "summary": "Blockchain Smart Contracts: Challenges and Opportunities by Aghiath Chbib One of the main reasons why blockchain attracted so much attention lately, is probably due to the possibility that it can allow deeper layers of trust — Read on Hedgethink.com (https://www.hedgethink.com/smart-contracts-cha...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/01/31/smart-contracts-challenges-and-opportunities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2019012",
+    "date": "2019-01-24",
+    "title": "Blockchain Security: The Theory and The Facts",
+    "summary": "Blockchain Security: The Theory and The Facts In whatever place we look at we always read the same story: how Blockchain is a new technology offering trust and security due to the way it is structured. But is that so? Is blockchain really so hacker proof as it praises itself to be? When we look a...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/01/24/blockchain-security-the-theory-and-the-facts/",
     "tags": [
       "ai-ml"
     ],
@@ -9439,15 +9610,19 @@
     "impact": 3
   },
   {
-    "id": "2019014",
-    "date": "2019-01-14",
-    "title": "Digital Forensics: Turning the Tides in a Criminal Investigation",
-    "summary": "What is Digital Forensics? Digital Forensics is a term that almost no one knows what it stands for…Digital Forensics can turn the tides completely in a criminal investigation and it is more important then ever in the current digital age in which we all live. The shift to the digital world brings ...",
+    "id": "2019013",
+    "date": "2019-01-16",
+    "title": "Revolutionising​ Cybersecurity With Digital Forensics Part 1",
+    "summary": "Cyber security breaches have become rapidly one of the main concerns among all kinds of organizations. Even though companies are investing in complex new solutions against undesired guests, the task has never been easier. The various backdoors, loose ends and interconnected computer systems, mean...",
     "region": "ASIA",
     "country": "Global",
     "sourceName": "Aghiath Chbib",
-    "sourceUrl": "https://aghiathchbib.com/2019/01/14/digital-forensics-turning-the-tides-in-criminal-investigation/",
-    "tags": [],
+    "sourceUrl": "https://aghiathchbib.com/2019/01/16/revolutionising-cybersecurity-with-digital-forensics-part-1/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -10036,6 +10211,44 @@
     "sourceName": "Aghiath Chbib",
     "sourceUrl": "https://aghiathchbib.com/2019/01/14/digital-forensics-turning-the-tides-in-criminal-investigation/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2019014",
+    "date": "2019-01-14",
+    "title": "Digital Forensics: Turning the Tides in a Criminal Investigation",
+    "summary": "What is Digital Forensics? Digital Forensics is a term that almost no one knows what it stands for…Digital Forensics can turn the tides completely in a criminal investigation and it is more important then ever in the current digital age in which we all live. The shift to the digital world brings ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/01/14/digital-forensics-turning-the-tides-in-criminal-investigation/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2019014",
+    "date": "2019-01-14",
+    "title": "Digital Forensics: Turning the Tides in a Criminal Investigation",
+    "summary": "What is Digital Forensics? Digital Forensics is a term that almost no one knows what it stands for…Digital Forensics can turn the tides completely in a criminal investigation and it is more important then ever in the current digital age in which we all live. The shift to the digital world brings ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/01/14/digital-forensics-turning-the-tides-in-criminal-investigation/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2019015",
+    "date": "2019-01-11",
+    "title": "Cybersecurity Trends For 2019: The Year of the Intelligent Security",
+    "summary": "Cybersecurity Trends For 2019: The Year of the Intelligent Security The rise of cyberattacks in recent years has transformed cybersecurity into a top priority for businesses. Furthermore, these attacks have been targeting indiscriminately not only small businesses and users, but large firms and n...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2019/01/11/cybersecurity-trends-for-2019-the-year-of-the-intelligent-security/",
+    "tags": [
+      "malware"
+    ],
     "impact": 3
   },
   {
