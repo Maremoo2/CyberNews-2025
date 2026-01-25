@@ -1,5 +1,77 @@
 [
   {
+    "id": "20263916",
+    "date": "2026-01-24",
+    "title": "Gmail’s spam filter and automatic sorting are broken",
+    "summary": "Some Gmail users have noticed that promotional emails that normally go to their own siloed tab have started flooding their inbox. Reports have been hitting the Google forums and Reddit that messages are bypassing the Updates and Promotional filters and going straight to Gmail inboxes. Some are al...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/867247/gmails-spam-filter-broken",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263917",
+    "date": "2026-01-24",
+    "title": "Dogma: Warum Deutsche glauben, Amerikaner protestieren nicht",
+    "summary": "Als Amerikaner finde ich es äußerst seltsam, dass Deutsche russische Angriffe auf kritische Infrastruktur erleben, aber versuchen, die Nachrichten auf „linksextreme” oder „Umweltaktivisten”-Bedrohungen zu lenken. Nehmen wir Juni 2025 als Beispiel. Bundesinnenminister Alexander Dobrindt präsentier...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76471",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20263918",
+    "date": "2026-01-24",
+    "title": "Dogma: Why Germans Can’t See Americans Resisting Trump",
+    "summary": "As an American, I find it extremely odd that Germans experience Russian attacks on critical infrastructure yet try to force the news to report “left-wing” or “environmentalist” threats. Look at June 2025, for example. Germany’s Interior Minister Alexander Dobrindt presented a national security re...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76469",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263919",
+    "date": "2026-01-24",
+    "title": "“Call a Republican” Stunt in SF Reveals Green Party of Texas",
+    "summary": "Someone in Colorado smoked a lot of weed when they came up with a political payphone concept. Boulder residents designing interventions for places that they imagine, rather than understand, is a pretty good microcosm of how a lot of heavily funded “depolarization” work operates. What strikes me i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76464",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263921",
+    "date": "2026-01-24",
+    "title": "Sandworm hackers linked to failed wiper attack on Poland’s energy systems",
+    "summary": "A cyberattack targeting Poland's power grid in late December 2025 has been linked to the Russian state-sponsored hacking group Sandworm, which attempted to deploy a new destructive data-wiping malware dubbed DynoWiper during the attack.. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-linked-to-failed-wiper-attack-on-polands-energy-systems/",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263896",
     "date": "2026-01-24",
     "title": "Åtte teknologiske gjennombrudd som vil få stor betydning",
@@ -642,6 +714,24 @@
     "sourceUrl": "https://www.cybersecurity-insiders.com/remote-invite-scams-are-on-the-rise-in-america/",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263920",
+    "date": "2026-01-23",
+    "title": "Europe's GCVE Raises Concerns Over Fragmentation in Vulnerability Databases",
+    "summary": "GCVE would enhance global collaboration, flexibility, and efficiency in tracking security flaws. Duplicate entries and a decentralization policy may create more chaos for defenders.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/gcve-raises-concerns-fragmentation-vulnerability-database",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
     ],
     "impact": 3
   },
