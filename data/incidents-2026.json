@@ -1,5 +1,34 @@
 [
   {
+    "id": "20263977",
+    "date": "2026-01-25",
+    "title": "Stephen Collinson Uses CNN to Promote Dictator Trump Into Normalcy",
+    "summary": "A reporter in 1930s Berlin who treated the rise of fascism as political drama to narrate from a ringside seat would be culpable — not for being a Nazi, but for professional choices that served Nazi ends. Stephen Collinson is CNN’s senior White House reporter. His value proposition depends on comp...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76329",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263983",
+    "date": "2026-01-25",
+    "title": "1Password adds pop-up warnings for suspected phishing sites",
+    "summary": "The 1Password digital vault and password manager has added built-in protection against phishing URLs to help users identify malicious pages and prevent them from sharing account credentials with threat actors. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/1password-adds-pop-up-warnings-for-suspected-phishing-sites/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263956",
     "date": "2026-01-25",
     "title": "[Ekstra] Slik fungerer Irans «halal-internett»",
@@ -6680,6 +6709,18 @@
     "impact": 3
   },
   {
+    "id": "20263978",
+    "date": "2026-01-21",
+    "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
+    "summary": "Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. Our mission is to keep you informed with the most pressing developments in the world of cybersecurity. This digest serves as your gateway to critical updates and emerging threats across the industry. This week’s headlines highlight the growing sec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/cyber-roundup-january-21/",
+    "tags": [],
+    "impact": 5
+  },
+  {
     "id": "20263785",
     "date": "2026-01-21",
     "title": "Explore Advanced VR Arcade Machines and Motion Simulators with VART Arcade",
@@ -12786,6 +12827,20 @@
       "ai-ml"
     ],
     "impact": 2
+  },
+  {
+    "id": "20263979",
+    "date": "2026-01-19",
+    "title": "How To Turn Employees Into Proactive Cybersecurity Partners",
+    "summary": "Cybersecurity is most effective when it moves beyond technical safeguards and becomes part of the shared mission of every team in the organization. Rather than treating employees as potential weak links, forward-thinking organizations are shifting toward a model where people throughout the busine...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/proactive-cybersecurity/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
   },
   {
     "id": "20263406",
@@ -28344,6 +28399,20 @@
     "impact": 3
   },
   {
+    "id": "20263980",
+    "date": "2026-01-12",
+    "title": "Leadership and Security Culture: How Leaders Set the Tone",
+    "summary": "Leadership plays a decisive role in shaping whether security becomes a shared organizational value or remains an isolated technical function. A strong security culture does not emerge from policies alone. It is built through consistent leadership behavior, clear expectations, and daily reinforcem...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/leadership-security-culture/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
     "id": "20263415",
     "date": "2026-01-12",
     "title": "A picture worth a thousand breaches.",
@@ -36011,6 +36080,18 @@
     "impact": 3
   },
   {
+    "id": "20263981",
+    "date": "2026-01-07",
+    "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
+    "summary": "Welcome to this year’s first edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. Canary Trap wishes you a wonderful start into 2026! At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gatewa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/cyber-roundup-january-7/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20263420",
     "date": "2026-01-07",
     "title": "Cyberattack in the fast lane.",
@@ -39819,6 +39900,20 @@
       "critical-infrastructure",
       "certification",
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263982",
+    "date": "2026-01-05",
+    "title": "Empowering Employees to Recognize Social Engineering in the Age of AI",
+    "summary": "Social engineering has become one of the most urgent challenges in modern cybersecurity, with AI-driven social engineering rapidly reshaping how attackers manipulate trust at scale. As attackers increasingly rely on AI to scale deception, the human layer is no longer just a soft target on the edg...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/social-engineering-ai/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
