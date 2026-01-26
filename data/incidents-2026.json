@@ -1,5 +1,166 @@
 [
   {
+    "id": "20263996",
+    "date": "2026-01-26",
+    "title": "2024 VMware Flaw Now in Attackers’ Crosshairs",
+    "summary": "The critical-severity vulnerability can be exploited via crafted network packets for remote code execution. The post 2024 VMware Flaw Now in Attackers’ Crosshairs appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/2024-vmware-flaw-now-in-attackers-crosshairs/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20263997",
+    "date": "2026-01-26",
+    "title": "[Ekstra] Norsk eID-konflikt kan havne hos Efta",
+    "summary": "I årevis har folk som trenger hjelp med BankID, blitt utestengt fra tjenester andre tar for gitt.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/norsk-eid-konflikt-kan-havne-hos-efta/566641",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263998",
+    "date": "2026-01-26",
+    "title": "ISC Stormcast For Monday, January 26th, 2026 https://isc.sans.edu/podcastdetail/9780, (Mon, Jan 26th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32656",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263999",
+    "date": "2026-01-26",
+    "title": "Scanning Webserver with /$(pwd)/ as a Starting Path, (Sun, Jan 25th)",
+    "summary": "Based on the sensors reporting to ISC, this activity started on the 13 Jan 2026. My own sensor started seeing the first scan on the 21 Jan 2026 with limited probes. So far, this activity has been limited to a few scans based on the reports available in ISC [5] (select Match Partial URL and Draw):...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32654",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20264000",
+    "date": "2026-01-26",
+    "title": "Pwn2Own Automotive 2026 uncovers 76 zero-days, pays out more than $1 M - The Register",
+    "summary": "Even cybercriminals fail security basics ... If you've ever felt bad because a cybercriminal nabbed your data, don't worry - breaches happen to everyone ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/25/pwn2own_automotive_2026_identifies_76_0days/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264001",
+    "date": "2026-01-26",
+    "title": "Taher Amine ELHOUARI Announces Major Milestones in Cybersecurity Expertise and ...",
+    "summary": "... information systems security, cloud security governance and secure development practices. Operational Impact Across Sectors. Taher Amine's ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.barchart.com/story/news/37221160/taher-amine-elhouari-announces-major-milestones-in-cybersecurity-expertise-and-global-recognition",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264002",
+    "date": "2026-01-26",
+    "title": "TechMatrix Selects Tenable One to Strengthen Cybersecurity and Exposure Management",
+    "summary": "... security with greater accuracy and speed. Naoya Kishima, Country Manager, Tenable Japan. Cyber risk is no longer defined only by external threats. It ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thefastmode.com/technology-solutions/46813-techmatrix-selects-tenable-one-to-strengthen-cybersecurity-and-exposure-management",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264003",
+    "date": "2026-01-26",
+    "title": "SonicWall firewalls strengthen security for IoT era - SecurityBrief Asia",
+    "summary": "SecurityBrief Asia - Technology news for CISOs & cybersecurity decision-makers. SecurityBrief Asia ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/sonicwall-firewalls-strengthen-security-for-iot-era",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264004",
+    "date": "2026-01-26",
+    "title": "Okta warns of real-time vishing kits defeating MFA - SecurityBrief Australia",
+    "summary": "Okta described a common attack sequence. It said an attacker starts with reconnaissance on a target and gathers names, applications and phone numbers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/okta-warns-of-real-time-vishing-kits-defeating-mfa",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264005",
+    "date": "2026-01-26",
+    "title": "Ransomware Attack Disrupts Operations at Japan's Largest Port - Maritime Fairtrade",
+    "summary": "David Suzuki, managing director of the cybersecurity firm Blackpanda in Japan, noted this concerning trend. Despite the incident at Nagoya, Toyota ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://maritimefairtrade.org/ransomware-attack-disrupts-operations-at-japans-largest-port/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264006",
+    "date": "2026-01-26",
+    "title": "WitFoo Deepens New Zealand Commitment via Strategic OEM Partnership with SSS Cybersecurity",
+    "summary": "WELLINGTON, NEW ZEALAND, January 26, 2026 /EINPresswire.com/ -- WitFoo, the cyber security software innovator founded by veterans of the US ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://natlawreview.com/press-releases/witfoo-deepens-new-zealand-commitment-strategic-oem-partnership-sss",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263992",
     "date": "2026-01-26",
     "title": "Brakeman: Open-source vulnerability scanner for Ruby on Rails applications",
