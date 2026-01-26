@@ -1,5 +1,608 @@
 [
   {
+    "id": "20264085",
+    "date": "2026-01-26",
+    "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
+    "summary": "Cybersecurity researchers have discovered an ongoing campaign that's targeting Indian users with a multi-stage backdoor as part of a suspected cyber espionage campaign. The activity, per the eSentire Threat Response Unit (TRU), involves using phishing emails impersonating the Income Tax Departmen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/indian-users-targeted-in-tax-phishing.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264086",
+    "date": "2026-01-26",
+    "title": "Judge awards British critic of Saudis $4.1 million, finds the regime hacked his devices",
+    "summary": "A London judge said there was a \"compelling basis\" to conclude that Saudi Arabia was behind spyware infections aimed at YouTuber and regime critic Ghanem Al-Masarir.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/london-judge-sides-with-saudi-critic-spyware-case",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264087",
+    "date": "2026-01-26",
+    "title": "Malicious VS Code AI Extensions with 1.5 Million Installs Steal Developer Source Code",
+    "summary": "Cybersecurity researchers have discovered two malicious Microsoft Visual Studio Code (VS Code) extensions that are advertised as artificial intelligence (AI)-powered coding assistants, but also harbor covert functionality to siphon developer data to China-based servers. The extensions, which have...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264088",
+    "date": "2026-01-26",
+    "title": "Access System Flaws Enabled Hackers to Unlock Doors at Major European Firms",
+    "summary": "More than 20 vulnerabilities were found and patched in Dormakaba physical access control systems. The post Access System Flaws Enabled Hackers to Unlock Doors at Major European Firms appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/access-system-flaws-enabled-hackers-to-unlock-doors-at-major-european-firms/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264089",
+    "date": "2026-01-26",
+    "title": "Russian state hackers likely behind wiper malware attack on Poland’s power grid",
+    "summary": "A major cyberattack that nearly cut electricity to half-a-million people in Poland last year was reportedly carried out by the Russia-linked hacking group Sandworm, which likely attempted to knock out systems using wiper malware.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russia-eset-sandworm-poland-hack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264090",
+    "date": "2026-01-26",
+    "title": "Romania probes two suspects over alleged hitman-for-hire website",
+    "summary": "Police seized devices and cryptocurrency in multiple raids aimed at an alleged assassins-for-hire platform, Romanian authorities said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/romania-assassins-for-hire-website-investigation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264091",
+    "date": "2026-01-26",
+    "title": "[Ekstra] Høyner hastigheten kraftig: Starlink-konkurrent skal bygge nettverk i verdensrommet",
+    "summary": "Blue Origins har avduket «Terawave».",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nytt-rom-nettverk-skal-fa-flere-hundre-ganger-hoyere-hastighet-enn-starlink/567378",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264092",
+    "date": "2026-01-26",
+    "title": "FHI: Ingen påvist helsefare ved mobilbruk",
+    "summary": "En forskningsoppsummering finner ingen fare for kreft, infertilitet eller nedsatt hjernefunksjon ved eksponering for elektromagnetiske felt i hverdagen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/fhi-ingen-pavist-helseeffekt-av-mobilbruk-tradlose-nettverk-og-5g-under-grenseverdiene/567456",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264093",
+    "date": "2026-01-26",
+    "title": "ShinyHunters Leak Alleged Data of Millions From SoundCloud, Crunchbase and Betterment",
+    "summary": "ShinyHunters claim to have leaked millions of records from SoundCloud and Crunchbase after failed extortion attempts, with possible links to an Okta vishing campaign. The notorious ShinyHunters hackers are back in the news. The group has set up a dark web .onion leak site and has published allege...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/shinyhunters-leak-soundcloud-crunchbase-betterment-data/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264094",
+    "date": "2026-01-26",
+    "title": "Upwind Raises $250 Million at $1.5 Billion Valuation",
+    "summary": "The CNAPP company will use the fresh investment to scale its runtime-first cloud security offering across data, AI and code. The post Upwind Raises $250 Million at $1.5 Billion Valuation appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/upwind-raises-250-million-at-1-5-billion-valuation/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264095",
+    "date": "2026-01-26",
+    "title": "Industry, government, nonprofits weigh voluntary rules for commercial hacking tools",
+    "summary": "An international effort to create voluntary standards for the commercial cyber intrusion industry is wrestling with questions like who they should apply to, how to incentivize and measure compliance and what to do with companies with a checkered past. The first round of the Pall Mall Process focu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/industry-government-nonprofits-weigh-voluntary-rules-for-commercial-hacking-tools/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264096",
+    "date": "2026-01-26",
+    "title": "Critical VMware vCenter Server bug under attack",
+    "summary": "You've got to keep your software updated. Some unknown miscreants are exploiting a critical VMware vCenter Server bug more than a year after Broadcom patched the flaw. The vulnerability, tracked as CVE-2024-37079, is an out-of-bounds write flaw in vCenter Server's implementation of the DCERPC pro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/23/critical_vmware_vcenter_server_bug/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264097",
+    "date": "2026-01-26",
+    "title": "EU launches formal investigation into X and Grok over sexual images",
+    "summary": "A new investigation of X and its Grok bot will determine whether the company \"treated rights of European citizens — including those of women and children — as collateral damage of its service,\" EU officials said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/grok-sexually-explicit-images-eu-formal-investigation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264098",
+    "date": "2026-01-26",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A massive data breach has exposed 149 million credentials, including those from major platforms such as Facebook, Instagram, and government domains. This breach underscores the ongoing threat posed by infostealing malware. Uzbekistan's nationwide license plate surveillance system has been exposed...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=TechCrunch",
+    "tags": [
+      "data-breach",
+      "malware",
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264099",
+    "date": "2026-01-26",
+    "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
+    "summary": "A failed December effort to bring down parts of Poland’s energy grid was the work of Russian government hackers known for causing past energy disruptions, according to a security research firm that investigated the incident. Last week, Polish Energy Minister Milosz Motyka told reporters that the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264100",
+    "date": "2026-01-26",
+    "title": "⚡ Weekly Recap: Firewall Flaws, AI-Built Malware, Browser Traps, Critical CVEs & More",
+    "summary": "Security failures rarely arrive loudly. They slip in through trusted tools, half-fixed problems, and habits people stop questioning. This week’s recap shows that pattern clearly. Attackers are moving faster than defenses, mixing old tricks with new paths. “Patched” no longer means safe, and every...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/weekly-recap-firewall-flaws-ai-built.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264101",
+    "date": "2026-01-26",
+    "title": "Crunchbase Confirms Data Breach After Hacking Claims",
+    "summary": "Crunchbase was targeted alongside SoundCloud and Betterment in a ShinyHunters campaign. The post Crunchbase Confirms Data Breach After Hacking Claims appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/crunchbase-confirms-data-breach-after-hacking-claims/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264102",
+    "date": "2026-01-26",
+    "title": "Rockwell Automation: Cyber Resilience Crucial to ESG Goals",
+    "summary": "This collaboration, alongside our secure development lifecycle processes and ongoing efforts to comply with global cybersecurity standards, reaffirms ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/rockwell-automation-cyber-resilience-crucial-for-esg",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264103",
+    "date": "2026-01-26",
+    "title": "Closing the cyber workforce gap: Why hands-on experience matters | SC Media",
+    "summary": "I worked on cyber policy issues at both the FBI and the Cybersecurity and Infrastructure Security Agency (CISA) for more than a decade, and I have ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scworld.com/perspective/closing-the-cyber-workforce-gap-why-hands-on-experience-matters",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264104",
+    "date": "2026-01-26",
+    "title": "Wiper Malware Targeting Poland's Power Grid Tied to Moscow",
+    "summary": "The legislation will implement the EU's Network and Information Security ... In analysis of the December 2015 attacks against Ukraine, the U.S. ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/wiper-malware-targeting-polands-power-grid-tied-to-moscow-a-30596",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264105",
+    "date": "2026-01-26",
+    "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances",
+    "summary": "AWS is announcing flexible billing for Amazon WorkSpaces Core managed instances, adding monthly flat-rate pricing alongside existing hourly billing. Customers can now choose the optimal pricing model based on their end user usage patterns. Monthly billing is ideal for predictable full-time deskto...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264106",
+    "date": "2026-01-26",
+    "title": "Crunchbase hacked and data breach confirmed by ShinyHunters - Cybersecurity Insiders",
+    "summary": "According to available information, the Crunchbase attack occurred in December 2025 and is believed to have been carried out using vishing techniques, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/crunchbase-hacked-and-data-breach-confirmed-by-shinyhunters/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264107",
+    "date": "2026-01-26",
+    "title": "Israeli-founded cyber startup raises $250m, attains unicorn status at $1.5b valuation",
+    "summary": "Israeli-founded cybersecurity startup Upwind Security said Monday it had nabbed $250 million in fresh capital from investors, giving it a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.timesofisrael.com/israeli-founded-cyber-startup-raises-250m-attains-unicorn-status-at-1-5b-valuation/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264108",
+    "date": "2026-01-26",
+    "title": "Critical Python PLY Library Vulnerability Enables Remote Code Execution - Cyber Press",
+    "summary": "... Cyber Security NewsCybersecurityVulnerability. A critical security issue has been disclosed in the Python PLY (Python Lex‑Yacc) library that can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/vulnerability-in-python-ply/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264109",
+    "date": "2026-01-26",
+    "title": "Hong Kong's critical infrastructure cybersecurity regime: How the ordinance and Code of ...",
+    "summary": "... Infrastructure (Computer-system Security) (Commissioner), marking a pivotal advancement in Hong Kong's cybersecurity regime.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/hong-kongs-critical-infrastructure-cybersecurity-regime-how-the-ordinance-and-code-of-practice-impact-cios-suppliers-and-beyond/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264110",
+    "date": "2026-01-26",
+    "title": "Building cyber resilience at national scale: Why strategy matters more than ever",
+    "summary": "Cybersecurity, therefore, is no longer a narrow technical concern. It is a foundational element of economic growth, national security, and inclusive ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.worldbank.org/en/digital-development/building-cyber-resilience-at-national-scale--why-strategy-matter",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264111",
+    "date": "2026-01-26",
+    "title": "Malaga Port security hub blocks 1,000 cyber attacks a month | Sur in English",
+    "summary": "City council becomes first public body to join new regional defence network ... Malaga's cyber-security centre is blocking an average of 1,000 digital ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.surinenglish.com/malaga/malaga-city/malaga-cybersecurity-centre-thwarts-1000-attacks-month-20260126142806-nt.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264112",
+    "date": "2026-01-26",
+    "title": "Aarhus University invests €40M to boost Danish cybersecurity - Science|Business",
+    "summary": "... cybersecurity. Image removed. Aarhus University aims to strengthen Danish cyber security.Photo: Jens Hartmann Schmidt, AU Photo. 26 January 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://sciencebusiness.net/network-updates/aarhus-university-invests-eu40m-boost-danish-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264113",
+    "date": "2026-01-26",
+    "title": "Why EU's Revised Cybersecurity Act Bans High-Risk Suppliers | Cyber Magazine",
+    "summary": "“Cybersecurity threats are not just technical challenges,” says Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/why-ec-revised-cybersecurity-act-bans-high-risk-suppliers",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264114",
+    "date": "2026-01-26",
+    "title": "Why 'Use MFA' Inspires Fatigue but 'MFA Blocked This Breach Last Month' Inspires Cooperation",
+    "summary": "Or is there a way to address cybersecurity fatigue without weakening defenses? Promise, price and limits of advanced defenses. Security information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.corporatecomplianceinsights.com/use-mfa-inspires-fatigue-mfa-blocked-cooperation/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264115",
+    "date": "2026-01-26",
+    "title": "Data Protection | Freeths",
+    "summary": "Last year, the UK was the most targeted country in Europe for cyber-attacks, with over 600,000 organisations being targeted. The Cyber Security and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.freeths.co.uk/horizon-scanner/data-protection/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264116",
+    "date": "2026-01-26",
+    "title": "Moscow likely behind wiper attack on Poland's power grid, experts say - The Register",
+    "summary": "Russia was probably behind the failed attempts to compromise the systems of Poland's power companies in December, cybersecurity researchers claim.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/26/moscow_likely_behind_wiper_attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264117",
+    "date": "2026-01-26",
+    "title": "Pentasecurity to Exhibit at Cyber Security & Cloud Expo Global 2026 in London",
+    "summary": "... cybersecurity space, particularly in the European region. The Cyber Security & Cloud Expo is one of the world's largest cybersecurity and cloud ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.einpresswire.com/article/885771674/pentasecurity-to-exhibit-at-cyber-security-cloud-expo-global-2026-in-london",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264118",
+    "date": "2026-01-26",
+    "title": "Will The Cybercrime Economy Plateau In 2026?",
+    "summary": "This week in cybersecurity from the editors at Cybercrime Magazine. ... IT security industry. As reported in a 2025 Cybercrime Magazine article ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/will-the-cybercrime-economy-plateau-in-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264119",
+    "date": "2026-01-26",
+    "title": "Generative AI and cybersecurity: What Sophos experts expect in 2026",
+    "summary": "AI will make it easier to weaponize known vulnerabilities, orchestrate attack campaigns, lowering the barrier for basic hacking and enabling broad, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sophos.com/blog/generative-ai-and-cybersecurity-what-sophos-experts-expect-in-2026",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264120",
+    "date": "2026-01-26",
+    "title": "CISA publishes initial list of hardware and software categories supporting post-quantum ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released an initial list of hardware and software categories that currently ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/cisa-publishes-initial-list-of-hardware-and-software-categories-supporting-post-quantum-cryptography-to-guide-adoption/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264121",
+    "date": "2026-01-26",
+    "title": "NIST issues draft Transit Community Profile to support cybersecurity programs ... - Industrial Cyber",
+    "summary": "Strategic Focus Area 1, Secure and Manage Critical Assets, reflects a core priority for U.S. transit agencies, ensuring safe, efficient, and reliable ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/nist/nist-issues-draft-transit-community-profile-to-support-cybersecurity-programs-across-transit-agencies/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264122",
+    "date": "2026-01-26",
+    "title": "TechMatrix adopts Tenable One as cyber incidents reshape risk thinking among system integrators",
+    "summary": "Tenable One has already delivered significant improvements across TechMatrix's security program. “TechMatrix can now accurately assess the importance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/techmatrix-adopts-tenable-one-as-cyber-incidents-reshape-risk-thinking-among-system-integrators/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264123",
+    "date": "2026-01-26",
+    "title": "How businesses can make their cybersecurity training stick? | IT Pro - ITPro",
+    "summary": "“Finance and HR teams should focus on social engineering and data protection, while developers and DevOps teams need a deeper understanding of secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itpro.com/security/how-businesses-can-make-cybersecurity-training-stick",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264124",
+    "date": "2026-01-26",
+    "title": "AI Security Testing Improves, Yet Vulnerabilities Remain A Major Global Risk - YouTube",
+    "summary": "... Cybersecurity at the World Economic Forum, discusses the rapidly evolving cyber risks emerging from advances in artificial intelligence. As AI ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=LoagCvlIjbQ",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264125",
+    "date": "2026-01-26",
+    "title": "Fincantieri Signs Cyber Resilience Contract with Italian Navy - Marine Link",
+    "summary": "The program is aimed at reinforcing platform protection and supporting the security of naval operations. The technology developed by e-phors is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marinelink.com/news/fincantieri-signs-cyber-resilience-534835",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264047",
     "date": "2026-01-26",
     "title": "Grid Protection in Severe Weather: What Security Leaders Need to Know ",
