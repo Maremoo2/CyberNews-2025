@@ -1,5 +1,67 @@
 [
   {
+    "id": "20263992",
+    "date": "2026-01-26",
+    "title": "Brakeman: Open-source vulnerability scanner for Ruby on Rails applications",
+    "summary": "Brakeman is an open-source security scanner used by teams that build applications with Ruby on Rails. The tool focuses on application code and configuration, giving developers and security teams a way to identify common classes of web application risk during development and testing. Brakeman anal...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/brakeman-open-source-vulnerability-scanner-ruby-on-rails/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263993",
+    "date": "2026-01-26",
+    "title": "Incident response lessons learned the hard way",
+    "summary": "In this Help Net Security video, Ryan Seymour, VP, Consulting and Education at ConnectSecure, shares lessons from more than two decades in cybersecurity incident response. He explains why many response failures are set in motion long before an attack begins. The focus is on how teams prepare to m...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/incident-response-failures-video/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263994",
+    "date": "2026-01-26",
+    "title": "AWS releases updated PCI PIN compliance report for payment cryptography",
+    "summary": "Amazon Web Services has published an updated Payment Card Industry Personal Identification Number (PCI PIN) compliance package for its AWS Payment Cryptography service, confirming a recent third-party audit of the platform. The report package is now accessible through AWS’s compliance portal. Two...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/amazon-aws-pci-pin-compliance/",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "encryption",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20263995",
+    "date": "2026-01-26",
+    "title": "ChatGPT Temporary chat feature is getting a much-needed upgrade",
+    "summary": "OpenAI is testing a big upgrade for ChatGPT's temporary chat feature. The update will allow you to retain personalization in temporary chat, and still block temporary chat from influencing your account. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-temporary-chat-feature-is-getting-a-much-needed-upgrade/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263984",
     "date": "2026-01-25",
     "title": "Cybersecurity 101: How to Secure Your Home Network Like a Pro - DataDrivenInvestor",
