@@ -1,5 +1,205 @@
 [
   {
+    "id": "20264009",
+    "date": "2026-01-26",
+    "title": "La messagerie Signal explose en Europe depuis un an et c'est grâce à Trump",
+    "summary": "La messagerie Signal poursuit sa lancée en Europe et décroche la première place du Google Play Store finlandais en janvier 2026. Plus globalement, Signal semble profiter des tensions géopolitiques croissantes depuis le début de l'année dernière.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597046-la-messagerie-signal-explose-en-europe-depuis-un-an-et-c-est-grace-a-trump.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264010",
+    "date": "2026-01-26",
+    "title": "Droit d'auteur : pourquoi la Cour de Justice de l'UE refuse de criminaliser les VPN",
+    "summary": "L'avocat général de la Cour de justice de l'Union européenne considère que les éditeurs qui mettent en place un géoblocage efficace ne peuvent être tenus responsables si des utilisateurs contournent ces protections avec un VPN. L'usage de ce dernier n'est aucunement criminalisé et l'outil conserv...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-596989-droit-d-auteur-pourquoi-la-cour-de-justice-de-l-ue-refuse-de-criminaliser-les-vpn.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264011",
+    "date": "2026-01-26",
+    "title": "Top 3 factors for selecting an identity access management tool",
+    "summary": "Identity and access management (IAM) ensures that people and entities with digital identities have the right level of access to your enterprise resources.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/spons/top-3-factors-for-selecting-an-identity-access-management-tool/809937/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264012",
+    "date": "2026-01-26",
+    "title": "Quantum computing firm IonQ acquires US semiconductor firm SkyWater for $1.8 billion",
+    "summary": "IonQ and SkyWater Technology have entered into a definitive agreement pursuant to which IonQ will acquire SkyWater for $35.00 per share in a cash-and-stock transaction, subject to a collar, implying a total equity value of approximately $1.8 billion. “This transformational acquisition enables Ion...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/ionq-skywater-1-8-billion-acquisition/",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264013",
+    "date": "2026-01-26",
+    "title": "Google ties AI Search to Gmail and Photos, raising new privacy questions",
+    "summary": "Google is expanding Personal Intelligence into AI Mode in Google Search to deliver more personalized search results. AI Mode can securely connect to your Gmail and Google Photos to provide tailored recommendations without requiring you to repeatedly explain your preferences or ongoing plans. Pers...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/google-ai-mode-personal-intelligence/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264014",
+    "date": "2026-01-26",
+    "title": "Microsoft Entra ID will auto-enable passkey profiles, synced passkeys",
+    "summary": "Starting March 2026, Microsoft Entra ID will automatically enable passkey profiles and introduce support for synced passkeys. Passkey profiles move into general availability The update brings passkey profiles and synced passkeys into general availability. Administrators gain access to a new passk...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/microsoft-auto-enable-entra-id-passkeys/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264015",
+    "date": "2026-01-26",
+    "title": "Inside Microsoft’s veteran-to-tech workforce pipeline",
+    "summary": "The technology workforce is changing, and military veterans are increasingly being recognized as one of the industry’s most valuable and dependable talent pools. In this Help Net Security interview, Chris Cortez, Vice President of Military Affairs at Microsoft and longtime leader of the Microsoft...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/microsoft-veteran-tech-workforce/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264016",
+    "date": "2026-01-26",
+    "title": "Firewalla outlines a zero trust approach to fixing flat home networks",
+    "summary": "Firewalla announced a new approach to modernizing large, flat home networks, helping users improve security, scalability, and performance without the pain of IP renumbering or reconfiguring dozens of devices. Using zero trust network architecture and microsegmentation powered by Firewalla AP7 and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/firewalla-ap7/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264017",
+    "date": "2026-01-26",
+    "title": "Fix Staff Shortage & Burnout in Your SOC with Better Threat Intelligence",
+    "summary": "In cybersecurity, humans occupy both ends of the vulnerability spectrum. They click what should never be clicked, reuse passwords like heirlooms, and generously donate credentials to phishing pages that look “kind of legit.” Yet the same species becomes the strongest link once you step inside a S...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/soc-staff-shortage-burnout/",
+    "tags": [
+      "vulnerability",
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264018",
+    "date": "2026-01-26",
+    "title": "Dobrindt zu Cyberangriffen: “Wir werden zurückschlagen”",
+    "summary": "Innenminister Dobrindt will, dass Behörden offensiver gegen Cyberattacken vorgehen können.hotocosmos1 – shutterstock.com Die Bundesregierung will auf Cyberangriffe künftig offensiver reagieren. “Wir werden zurückschlagen, auch im Ausland. Wir werden Angreifer stören und ihre Infrastruktur zerstör...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121852/dobrindt-zu-cyberangriffen-wir-werden-zuruckschlagen.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264019",
+    "date": "2026-01-26",
+    "title": "CISO’s predictions for 2026",
+    "summary": "Last year was defined by AI hype, new attack models, and intensifying global tensions. As 2026 begins, security teams are asking what the next phase will look like. Will AI continue to accelerate risk, or will controls and governance finally catch up? CSO spoke to 10 security leaders about their ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4116527/cisos-predictions-for-2026.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264020",
+    "date": "2026-01-26",
+    "title": "Wiper Attack on Polish Power Grid Linked to Russia’s Sandworm",
+    "summary": "A destructive cyber attack targeting Poland’s energy sector has been linked to Russian APT group Sandworm",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/wiper-attack-polish-power-grid/",
+    "tags": [
+      "apt",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264021",
+    "date": "2026-01-26",
+    "title": "Gmail Spam Filter Breakdown Affects 1.8B Users",
+    "summary": "The disruption began Saturday (5am Pacific time, Jan .24) affecting approximately 1.8 billion Gmail users worldwide with widespread email misclassification. The post Gmail Spam Filter Breakdown Affects 1.8B Users appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-gmail-spam-filter-breaks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264022",
+    "date": "2026-01-26",
+    "title": "CISA says critical VMware RCE flaw now actively exploited",
+    "summary": "CISA has flagged a critical VMware vCenter Server vulnerability as actively exploited and ordered U.S. federal agencies to secure their servers within three weeks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-says-critical-vmware-rce-flaw-now-actively-exploited/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20263996",
     "date": "2026-01-26",
     "title": "2024 VMware Flaw Now in Attackers’ Crosshairs",
@@ -4096,6 +4296,21 @@
     "tags": [
       "ransomware",
       "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264007",
+    "date": "2026-01-22",
+    "title": "Cybersecurity Superintelligence: beyond the human execution bottleneck",
+    "summary": "PAPER \"Towards Cybersecurity Superintelligence: from AI-guided humans to human-guided AI: link The hype vs. reality problemThe integration of Large Language Models (LLMs) into cybersecurity has triggered a wave of tools promising to automate analysis, defense, and incident response. However, most...",
+    "region": "EU",
+    "country": "Spain",
+    "sourceName": "Alias Robotics",
+    "sourceUrl": "https://news.aliasrobotics.com/cybersecurity-superintelligence-beyond-the-human-execution-bottleneck/",
+    "tags": [
+      "malware",
       "ai-ml"
     ],
     "impact": 3
@@ -31223,6 +31438,21 @@
       "ransomware",
       "phishing",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264008",
+    "date": "2026-01-11",
+    "title": "Game-Theoretic AI for Cybersecurity: How Strategic Guidance Improves Attack and Defense",
+    "summary": "PAPER \"Cybersecurity AI: A Game-Theoretic AI for Guiding Attack and Defense\": link Speed Is Not StrategyCybersecurity AI has become fast. In many domains, faster than humans. Automated agents can execute thousands of actions per hour, explore vast attack surfaces and scale far beyond what any sec...",
+    "region": "EU",
+    "country": "Spain",
+    "sourceName": "Alias Robotics",
+    "sourceUrl": "https://news.aliasrobotics.com/game-theoretic-ai-for-cybersecurity-how-strategic-guidance-improves-attack-and-defense/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
