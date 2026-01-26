@@ -1,5 +1,567 @@
 [
   {
+    "id": "20264047",
+    "date": "2026-01-26",
+    "title": "Grid Protection in Severe Weather: What Security Leaders Need to Know ",
+    "summary": "Malicious cyber actors may take advantage of weather crises.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102096-grid-protection-in-severe-weather-what-security-leaders-need-to-know",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20264048",
+    "date": "2026-01-26",
+    "title": "Saudi satirist hacked with Pegasus spyware wins damages in court battle",
+    "summary": "The London High Court awarded the London-based satirist and human rights activist Ghanem Al-Masarir more than £3 million, after finding the Saudi government hacked his phone and was likely behind a physical attack targeting him in London.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/26/saudi-satirist-hacked-with-pegasus-spyware-wins-damages-in-court-battle/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264049",
+    "date": "2026-01-26",
+    "title": "Cyber-assurance : les 5 prérequis techniques que les assureurs imposent maintenant",
+    "summary": "Huit entreprises sur dix manquent de préparation aux cyberattaques qu'elles pourraient subir. Couplée à un système de cybersécurité, la cyber-assurance devient alors indispensable, mais les assureurs exigent désormais des preuves techniques de sécurité avant tout contrat.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/dossier-595015-cyber-assurance-les-5-prerequis-techniques-que-les-assureurs-imposent-maintenant.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264050",
+    "date": "2026-01-26",
+    "title": "Mullvad fait auditer ses services de création de compte et de paiement, voici ce qu’il faut retenir",
+    "summary": "Un audit indépendant s’est penché sur l’infrastructure qui permet de créer un compte Mullvad, payer un abonnement et connecter des appareils. Les résultats font état de quelques faiblesses internes, mais aucune ne met en péril les données des utilisateurs et utilisatrices.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597145-mullvad-fait-auditer-ses-services-de-creation-de-compte-et-de-paiement-voici-ce-qu-il-faut-retenir.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264051",
+    "date": "2026-01-26",
+    "title": "Vous pensiez que Telnet avait disparu ? Cette faille activement exploitée vient de prouver le contraire",
+    "summary": "Une faille critique dans telnetd, composant Telnet de GNU InetUtils, permet de court-circuiter l’authentification et d’obtenir un accès root au système ciblé, à distance.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597088-vous-pensiez-que-telnet-avait-disparu-cette-faille-activement-exploitee-vient-de-prouver-le-contraire.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264052",
+    "date": "2026-01-26",
+    "title": "Cybercrime group claims credit for voice phishing attacks",
+    "summary": "Security researchers at Okta previously disclosed a social engineering campaign involving custom phishing kits.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cybercrime-group-voice-phishing-attacks-Okta/810493/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264053",
+    "date": "2026-01-26",
+    "title": "Federal agencies abruptly pull out of RSAC after organizer hires Easterly",
+    "summary": "The decision fits a pattern of government withdrawal from the cybersecurity community under the Trump administration.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-nsa-fbi-rsac-conference-jen-easterly/810482/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264054",
+    "date": "2026-01-26",
+    "title": "New $6,000 malware toolkit Stanley delivers page spoofing via Chrome Web Store",
+    "summary": "A $6,000 malware toolkit known as “Stanley” is being sold on Russian cybercrime forums, offering a malicious Chrome extension that spoofs entire websites while preserving the real domain in the browser’s address bar, complete with a promise that it will pass Chrome Web Store review. Discovered by...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/new-6000-malware-toolkit-stanley-delivers-page-spoofing-via-chrome-web-store/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264055",
+    "date": "2026-01-26",
+    "title": "Microsoft quietly gave FBI access to BitLocker encryption keys",
+    "summary": "Microsoft provided the FBI with BitLocker recovery keys to access encrypted data on user devices, revealing a significant privacy gap that undermines trust in the company’s security architecture. The incident reportedly occurred early in 2025, when federal investigators served Microsoft with a se...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-quietly-gave-fbi-access-to-bitlocker-encryption-keys/",
+    "tags": [
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264056",
+    "date": "2026-01-26",
+    "title": "Apple updates AirTag with expanded range and improved findability",
+    "summary": "Apple has released a new version of its AirTag tracking accessory that extends its connectivity range and improves how items are located. The updated AirTag uses a second-generation Ultra Wideband chip, similar to the chip in the iPhone 17 lineup, to increase the distance at which Precision Findi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/new-apple-airtag-2026/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264057",
+    "date": "2026-01-26",
+    "title": "EU opens new investigation into Grok on X",
+    "summary": "The European Commission has opened a new formal investigation into X under the Digital Services Act over risks linked to the deployment of its AI tool Grok in the EU. Regulators are examining whether X properly assessed and mitigated risks tied to the spread of illegal content following Grok’s in...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/european-commission-grok-x-investigation/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264058",
+    "date": "2026-01-26",
+    "title": "Upwind secures $250 million to expand runtime-first cloud security for AI workloads",
+    "summary": "Upwind has raised $250 million in Series B funding, bringing its total funding to $430 million. The round was led by Bessemer Venture Partners, with participation from Salesforce Ventures and Picture Capital. Existing investors include Greylock, Cyberstarts, Leaders Fund, Craft Ventures, TCV, Alt...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/upwind-250-million-funding/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264059",
+    "date": "2026-01-26",
+    "title": "Booz Allen’s Vellox Reverser accelerates malware analysis and threat intelligence",
+    "summary": "Booz Allen Hamilton announced the general availability of Vellox Reverser, a malware reverse engineering and threat intelligence product designed to accelerate cyber defense. Built with a resilient agentic AI architecture, Vellox Reverser automates time-intensive in-depth malware analysis of the ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/booz-allen-vellox-reverser/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264060",
+    "date": "2026-01-26",
+    "title": "Stellar Cyber expands Autonomous SOC capabilities with agentic AI",
+    "summary": "Stellar Cyber announced updates in version 6.3 that advance its goal of an autonomous SOC. Powered by agentic AI, the release helps security teams reduce alert volume and improve response by automating threat detection, investigation, triage, and response across identity, network, endpoint, email...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/stellar-cyber-autonomous-soc-6-3/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264061",
+    "date": "2026-01-26",
+    "title": "Poland repels data-wiping malware attack on energy systems",
+    "summary": "Suspected Russian cyber attackers tried to take down parts of Poland’s energy infrastructure with new data-wiping malware – and failed. According to information shared by the Polish government earlier this month, the attacks happened on 29 and 30 December 2025, and targeted two combined heat and ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/26/poland-energy-malware-attack/",
+    "tags": [
+      "malware",
+      "government",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264062",
+    "date": "2026-01-26",
+    "title": "Energy Firms Targeted in SharePoint AiTM Session Hijacking",
+    "summary": "Threat actors are abusing Microsoft SharePoint links to run an adversary-in-the-middle (AiTM) phishing campaign against energy firms, compromising accounts and enabling follow-on BEC attacks. The operation uses trusted-looking SharePoint URLs and compromised vendor email accounts to blend into no...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/energy-firms-targeted-in-sharepoint-aitm-session-hijacking/",
+    "tags": [
+      "phishing",
+      "malware",
+      "supply-chain",
+      "critical-infrastructure",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264063",
+    "date": "2026-01-26",
+    "title": "20,000 WordPress Sites at Risk From Plugin Admin Backdoor",
+    "summary": "A WordPress plugin flaw puts thousands of websites one step away from full compromise by letting attackers create administrator accounts without logging in. The issue affects the LA-Studio Element Kit for Elementor plugin that has 20,000+ active installs, and it enables unauthenticated admin user...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/20000-wordpress-sites-at-risk-from-plugin-admin-backdoor/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264064",
+    "date": "2026-01-26",
+    "title": "VPN for PC: A Complete Guide to Security, Privacy, and Performance",
+    "summary": "In this post, I will talk about VPN for PC. Read on as I guide you through security, privacy, and performance. These days, our PCs are almost always connected to the internet. We use them for work, online shopping, streaming movies, video calls, and even managing our finances. While this constant...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/vpn-for-pc-guide/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264065",
+    "date": "2026-01-26",
+    "title": "How to Use a VPN to Protect Your Online Privacy",
+    "summary": "Discover how to utilize a VPN to safeguard your online privacy. ‍In today’s digital age, online privacy has become a growing concern for individuals and businesses. With the increasing number of cyber threats and the pervasive tracking of online activities, it has become essential to take proacti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-use-a-vpn-to-protect-your-online-privacy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264066",
+    "date": "2026-01-26",
+    "title": "Balancing Price and Exclusivity with Dedicated DC Proxies",
+    "summary": "In this post, I will talk about balancing price and exclusivity with dedicated DC proxies. In today’s data-driven digital landscape, proxies aren’t just tools—they’re lifelines for automation, security, and scalability. Whether managing large-scale price monitoring, search engine optimization, pe...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/balancing-price-and-exclusivity-with-dedicated-dc-proxies/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20264067",
+    "date": "2026-01-26",
+    "title": "The Void: A New MaaS Infostealer Targeting 20+ Browsers",
+    "summary": "Find out how Model Context Protocol (MCP) could be abused as a covert channel for data theft: five real risks, examples, and mitigations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/the-void-a-new-maas-infostealer/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264068",
+    "date": "2026-01-26",
+    "title": "Security Hygiene That Holds Up Under Pressure",
+    "summary": "Nowadays, security hygiene has become more than a checklist of technical tasks. It can be defined as the daily discipline that prevents breaches, reduces exposure, and strengthens organizational resilience. Even as advanced tools like AI-driven detection and zero-trust architectures emerge, the f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/security-hygiene/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264069",
+    "date": "2026-01-26",
+    "title": "Privacy and Data Governance — Keys to Innovation and Trust in the AI Era",
+    "summary": "Cisco 2026 Data and Privacy Benchmark Study shares insights into how privacy unlocks competitive advantage for business growth and builds trust in AI era.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/privacy-data-governance-innovation-trust/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264070",
+    "date": "2026-01-26",
+    "title": "Digitale Integrität: Warum Firewall und IDS nicht reichen",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?quality=50&strip=all 800w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01/...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4121937/digitale-integritat-warum-firewall-und-ids-nicht-reichen.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264071",
+    "date": "2026-01-26",
+    "title": "Microsoft handed over BitLocker keys to law enforcement, raising enterprise data control concerns",
+    "summary": "Microsoft gave Windows users’ BitLocker encryption keys for to US law enforcement officers, providing access to encrypted data, according to a news report. The US Federal Bureau of Investigation approached Microsoft with a search warrant in early 2025, seeking keys to unlock encrypted data stored...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122151/microsoft-handed-over-bitlocker-keys-to-law-enforcement-raising-enterprise-data-control-concerns-2.html",
+    "tags": [
+      "ai-ml",
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264072",
+    "date": "2026-01-26",
+    "title": "Microsoft releases second out-of-band fix for Windows in a week",
+    "summary": "Outlook users have reported difficulties with Microsoft’s January Patch Tuesday updates, forcing Microsoft, once again, to patch some of its patches. Users reported that, after applying the January 13 Windows updates, some applications became unresponsive or encountered unexpected errors when ope...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122144/microsoft-releases-second-out-of-band-fix-for-windows-in-a-week-2.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264073",
+    "date": "2026-01-26",
+    "title": "DPRK's Konni Targets Blockchain Developers With AI-Generated Backdoor",
+    "summary": "The North Korean threat group is using a new PowerShell backdoor to compromise development environments and target cryptocurrency holdings, according to researchers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/dprks-konni-targets-blockchain-developers-ai-generated-backdoor",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264074",
+    "date": "2026-01-26",
+    "title": "CISA Releases List of Post-Quantum Cryptography Product Categories",
+    "summary": "CISA released initial list of PQC-capable hardware and software to guide companies amid quantum threats",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cisa-post-quantum-cryptography/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264075",
+    "date": "2026-01-26",
+    "title": "Researchers Uncover “Haxor” SEO Poisoning Marketplace",
+    "summary": "Fortra researchers have discovered a new SEO poisoning operation known as “HaxorSEO”",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/researchers-haxor-seo-poisoning/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264076",
+    "date": "2026-01-26",
+    "title": "Law Firm Investigates Coupang Security Failures Ahead of Class Action Deadline",
+    "summary": "The US law firm Hagens Berman will lead a class action lawsuit against Coupang over security failures that led to a June 2025 data breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/law-firm-coupang-security-failures/",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264077",
+    "date": "2026-01-26",
+    "title": "Okta Flags Customized, Reactive Vishing Attacks Which Bypass MFA",
+    "summary": "Threat actors posing as IT support teams use phishing kits to generate fake login sites in real-time to trick victims into handing over credentials",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/okta-flags-vishing-attacks-which/",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264078",
+    "date": "2026-01-26",
+    "title": "Microsoft Shared BitLocker Keys With FBI, Raising Privacy Fears",
+    "summary": "Microsoft confirmed it can hand over BitLocker recovery keys stored in the cloud under warrant, reviving debate over who controls encrypted data. The post Microsoft Shared BitLocker Keys With FBI, Raising Privacy Fears appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-bitlocker-keys-fbi-privacy/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264079",
+    "date": "2026-01-26",
+    "title": "Cloudflare misconfiguration behind recent BGP route leak",
+    "summary": "Cloudflare has shared more details about a recent 25-minute Border Gateway Protocol (BGP) route leak affecting IPv6 traffic, which caused measurable congestion, packet loss, and approximately 12 Gbps of dropped traffic. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cloudflare-misconfiguration-behind-recent-bgp-route-leak/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "cloudflare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264080",
+    "date": "2026-01-26",
+    "title": "EU launches investigation into X over Grok-generated sexual images",
+    "summary": "The European Commission is now investigating whether X properly assessed risks before deploying its Grok artificial intelligence tool, following its use to generate sexually explicit images. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/eu-launches-investigation-into-x-over-grok-generated-sexual-images/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264081",
+    "date": "2026-01-26",
+    "title": "Nearly 800,000 Telnet servers exposed to remote attacks",
+    "summary": "Internet security watchdog Shadowserver tracks nearly 800,000 IP addresses with Telnet fingerprints amid ongoing attacks exploiting a critical authentication bypass vulnerability in the GNU InetUtils telnetd server. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nearly-800-000-telnet-servers-exposed-to-remote-attacks/",
+    "tags": [
+      "data-breach",
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264082",
+    "date": "2026-01-26",
+    "title": "6 Okta security settings you might have overlooked",
+    "summary": "Okta misconfigurations can quietly weaken identity security as SaaS environments evolve. Nudge Security shows six Okta security settings teams often overlook and how to fix them. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/6-okta-security-settings-you-might-have-overlooked/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264083",
+    "date": "2026-01-26",
+    "title": "Hackers can bypass npm’s Shai-Hulud defenses via Git dependencies",
+    "summary": "The defense mechanisms that NPM introduced after the 'Shai-Hulud' supply-chain attacks have weaknesses that allow threat actors to bypass them via Git dependencies. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-can-bypass-npms-shai-hulud-defenses-via-git-dependencies/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264084",
+    "date": "2026-01-26",
+    "title": "PeckBirdy: A Versatile Script Framework for LOLBins Exploitation Used by China-aligned Threat Groups",
+    "summary": "PeckBirdy is a sophisticated JScript-based C&C framework used by China-aligned APT groups to exploit LOLBins across multiple environments, delivering advanced backdoors to target gambling industries and Asian government entities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/peckbirdy-script-framework.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264023",
     "date": "2026-01-26",
     "title": "Fem tøffe tester for personvernet i år",
