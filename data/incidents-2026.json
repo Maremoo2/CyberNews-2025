@@ -1,5 +1,356 @@
 [
   {
+    "id": "20264023",
+    "date": "2026-01-26",
+    "title": "Fem tøffe tester for personvernet i år",
+    "summary": "28. januar markeres den internasjonale personverndagen. Teknologirådet setter søkelyset på fem saker der personvern og teknologi er i spill i år.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-fem-toffe-tester-for-personvernet-i-2026/567363",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264024",
+    "date": "2026-01-26",
+    "title": "Cyber Insights 2026: Threat Hunting in an Age of Automation and AI",
+    "summary": "Understanding how threat hunting differs from reactive security provides a deeper understanding of the role, while hinting at how it will evolve in the future. The post Cyber Insights 2026: Threat Hunting in an Age of Automation and AI appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-threat-hunting-in-an-age-of-automation-and-ai/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264025",
+    "date": "2026-01-26",
+    "title": "Winning Against AI-Based Attacks Requires a Combined Defensive Approach",
+    "summary": "If there’s a constant in cybersecurity, it’s that adversaries are always innovating. The rise of offensive AI is transforming attack strategies and making them harder to detect. Google’s Threat Intelligence Group, recently reported on adversaries using Large Language Models (LLMs) to both conceal...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/winning-against-ai-based-attacks.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264026",
+    "date": "2026-01-26",
+    "title": "‘Stanley’ Malware Toolkit Enables Phishing via Website Spoofing",
+    "summary": "Priced $2,000 - $6,000 on a cybercrime forum, the MaaS toolkit promises publication on the Chrome Web Store. The post ‘Stanley’ Malware Toolkit Enables Phishing via Website Spoofing appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/stanley-malware-toolkit-enables-phishing-via-website-spoofing/",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264027",
+    "date": "2026-01-26",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c3fc29a4f646e48 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-ai-extensions-on-vscode-marketplace-steal-developer-data/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264028",
+    "date": "2026-01-26",
+    "title": "TikTok Finalizes a Deal to Form a New American Entity",
+    "summary": "TikTok has finalized a deal to create a new American entity, avoiding the looming threat of a ban in the United States. The post TikTok Finalizes a Deal to Form a New American Entity appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/tiktok-finalizes-a-deal-to-form-a-new-american-entity/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264029",
+    "date": "2026-01-26",
+    "title": "EU-kommisjonen oppretter sak mot X",
+    "summary": "EU-kommisjonen oppretter sak mot Elon Musks KI-robot Grok mandag, opplyser tre høytstående EU-kilder til den tyske avisa Handelsblatt.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/eu-kommisjonen-oppretter-sak-mot-x/567447",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264030",
+    "date": "2026-01-26",
+    "title": "Nike is investigating a possible data breach, after WorldLeaks claims",
+    "summary": "Pierluigi Paganini January 25, 2026 Nike is probing a potential security breach after the WorldLeaks cybercrime group claimed it accessed and stole data from the company’s systems. The footwear and apparel giant said it has launched an investigation to assess the impact and verify the claims. “We...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187303/data-breach/nike-is-investigating-a-possible-data-breach-after-worldleaks-claims.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264031",
+    "date": "2026-01-26",
+    "title": "[Ekstra] Slipper til KI i kommunal saksbehandling:  – Må vi endre måten vi jobber på",
+    "summary": "Kommunen lover at det fortsatt er menneske og ikke maskin som skal fatte vedtakene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/tester-ki-i-kommunal-saksbehandling/567303",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264032",
+    "date": "2026-01-26",
+    "title": "Konni Hackers Deploy AI-Generated PowerShell Backdoor Against Blockchain Developers",
+    "summary": "The North Korean threat actor known as Konni has been observed using PowerShell malware generated using artificial intelligence (AI) tools to target developers and engineering teams in the blockchain sector. The phishing campaign has targeted Japan, Australia, and India, highlighting the adversar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/konni-hackers-deploy-ai-generated.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264033",
+    "date": "2026-01-26",
+    "title": "Russian Sandworm Hackers Blamed for Cyberattack on Polish Power Grid",
+    "summary": "10 years after disrupting the Ukrainian power grid, the APT targeted Poland with data-wiping malware. The post Russian Sandworm Hackers Blamed for Cyberattack on Polish Power Grid appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/russian-sandworm-hackers-blamed-for-cyberattack-on-polish-power-grid/",
+    "tags": [
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264034",
+    "date": "2026-01-26",
+    "title": "Viveka Health Achieves HITRUST e1 Certification, Validating Commitment to Foundational ...",
+    "summary": "... Cybersecurity Services (HACS). Palindrome Technologies, a distinguished Cyber Security Research and Testing Lab, today announced it has been ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/viveka-health-achieves-hitrust-e1-certification-validating-commitment-to-foundational-cybersecurity-302649734.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264035",
+    "date": "2026-01-26",
+    "title": "Microsoft Patch woes, Sandworm in Poland, Dresden Museum hit - CISO Series",
+    "summary": "... security updates.” This problem issue affects Windows 11 version 25H2 ... Acting as a media network for cyber information and exchange, CISO ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-microsoft-patch-problems-sandworm-hits-poland-dresden-museum-cyberattack/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264036",
+    "date": "2026-01-26",
+    "title": "OT Security, In Practice: 4 Cross‑Industry Trends from Global Assessments and How CISOs ...",
+    "summary": "About the author: Dotan Shemer is a Cyber Security Consulting Manager at Sygnia, where he leads and delivers cybersecurity consulting engagements and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/01/ot-security-in-practice-4-crossindustry.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264037",
+    "date": "2026-01-26",
+    "title": "Georgia Tech Settles Cybersecurity Whistleblower Suit For $875K - Security - Mondaq",
+    "summary": "Two former cybersecurity team members of Georgia Tech's research arm alleged that it had purposely failed to comply with government cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mondaq.com/unitedstates/security/1735710/georgia-tech-settles-cybersecurity-whistleblower-suit-for-%24875k",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264038",
+    "date": "2026-01-26",
+    "title": "Bet365's John Eccleshare on AI's Dual Role in Cybersecurity - Infosecurity Magazine",
+    "summary": "As AI technology accelerates, many CISOs and cybersecurity leaders are grappling with the balance between security and meeting business requirements ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/interviews/bet365s-john-eccleshare-ai/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264039",
+    "date": "2026-01-26",
+    "title": "Building resilient healthcare cybersecurity through leadership, culture and security by design",
+    "summary": "As cyberthreats intensify and Digital Transformation accelerates, strong leadership and culture have become just as critical as technology in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.intelligentciso.com/2026/01/26/building-resilient-healthcare-cybersecurity-through-leadership-culture-and-security-by-design/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264040",
+    "date": "2026-01-26",
+    "title": "2026 Report Finds Executive-Level CISO Titles More Prevalent than Ever",
+    "summary": "The chief information security officer (CISO) has become one of the most dynamic and high-impact roles in the enterprise. As cybersecurity grows more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://huntscanlon.com/2026-report-finds-executive-level-ciso-titles-more-prevalent-than-ever/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264041",
+    "date": "2026-01-26",
+    "title": "CISA Releases Secure Connectivity Principles Checklist for OT Network Connectivity",
+    "summary": "The newly released guidance directly addresses mounting cybersecurity risks threatening industrial control systems and critical infrastructure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/cisa-releases-secure-connectivity-principles-checklist-for-ot-network-connectivity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264042",
+    "date": "2026-01-26",
+    "title": "Securing digital identity through biometric authentication - Innovation News Network",
+    "summary": "Nothing in the cards' secure element is accessible from outside, providing a new level of hacker-proof cybersecurity solution. QuardLock is CardLab's ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.innovationnewsnetwork.com/securing-digital-identity-through-biometric-authentication/65812/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264043",
+    "date": "2026-01-26",
+    "title": "A week in security (January 19 - January 25) - Malwarebytes",
+    "summary": "How to prevent a rootkit attack. Stay safe! We don't just report on threats—we remove them. Cybersecurity risks should never spread beyond a headline.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/01/a-week-in-security-january-19-january-25",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264044",
+    "date": "2026-01-26",
+    "title": "Russia-linked Sandworm APT implicated in major cyber attack on Poland's power grid",
+    "summary": "The cybersecurity firm also shared an associated IoC hash for defensive use. “Fast forward a decade and Sandworm continues to target entities ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityaffairs.com/187309/hacking/russia-linked-sandworm-apt-implicated-in-major-cyber-attack-on-polands-power-grid.html?amp",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264045",
+    "date": "2026-01-26",
+    "title": "CISA Warns of Actively Exploited Critical VMware vCenter RCE Vulnerability - Cyber Press",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code execution (RCE) vulnerability in Broadcom VMware ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/vmware-vcenter-rce-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264046",
+    "date": "2026-01-26",
+    "title": "Is 2026 the year of soft unplugging? - Panda Security",
+    "summary": "However, completely unplugging from the digital world is considered a luxury, and regular folks can't afford it. Almost every aspect of people's lives ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pandasecurity.com/en/mediacenter/is-2026-the-year-of-soft-unplugging/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264009",
     "date": "2026-01-26",
     "title": "La messagerie Signal explose en Europe depuis un an et c'est grâce à Trump",
