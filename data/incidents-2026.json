@@ -1,5 +1,668 @@
 [
   {
+    "id": "20264260",
+    "date": "2026-01-27",
+    "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
+    "summary": "Meta on Tuesday announced it's adding Strict Account Settings on WhatsApp to secure certain users against advanced cyber attacks because of who they are and what they do. The feature, similar to Lockdown Mode in Apple iOS and Advanced Protection in Android, aims to protect individuals, such as jo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html",
+    "tags": [
+      "apple",
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264261",
+    "date": "2026-01-27",
+    "title": "Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities",
+    "summary": "Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft. The campaigns have been codenamed Gopher Strike and Sheet Attack by Zscaler ThreatLabz, which identified them in September 2025. \"While t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264262",
+    "date": "2026-01-27",
+    "title": "WhatsApp releases account feature that looks to combat spyware",
+    "summary": "WhatsApp unveiled a lockdown-style feature on Tuesday similar to those offered by other tech providers aimed at blocking sophisticated cyberattacks, with spyware in mind. The “Strict Account Settings” feature will roll out in the coming weeks and once enabled, will allow users to limit features i...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/whatsapp-strict-account-settings-lockdown-style-spyware-protection/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264263",
+    "date": "2026-01-27",
+    "title": "Dozens more are charged in Ploutus ATM jackpotting conspiracy",
+    "summary": "The Justice Department has said that between February 2024 and December 2025, the gang stole at least $5.4 million from at least 63 ATMs, most of which belonged to credit unions.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/dozens-more-charged-ploutus-jackpotting-atm",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264264",
+    "date": "2026-01-27",
+    "title": "Nike probes potential cyber incident after hackers claim data leak",
+    "summary": "The company said in a brief statement that it takes consumer privacy and data security seriously and is “actively assessing the situation,” but offered few details about the scope of the alleged breach or whether customer information may have been exposed.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nike-probes-alleged-cyber-incident",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264265",
+    "date": "2026-01-27",
+    "title": "Memcyco Raises $37 Million for Anti-Impersonation Technology",
+    "summary": "The startup will use the investment to fuel global expansion of its agentless platform, including in Latin America. The post Memcyco Raises $37 Million for Anti-Impersonation Technology appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/memcyco-raises-37-million-for-anti-impersonation-technology/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264266",
+    "date": "2026-01-27",
+    "title": "LevelBlue scoops up Alert Logic’s managed services from Fortra",
+    "summary": "LevelBlue, a Dallas-based managed security services provider, announced Tuesday that it is expanding its managed detection and response business through a strategic partnership with cybersecurity firm Fortra that includes the acquisition of Fortra’s Alert Logic managed services unit. The companie...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/levelblue-fortra-alert-logic-mdr-acquisition-partnership/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264267",
+    "date": "2026-01-27",
+    "title": "Over 100 Organizations Targeted in ShinyHunters Phishing Campaign",
+    "summary": "Domains set up by the threat actor suggest attacks aimed at Atlassian, Canva, Epic Games, HubSpot, Moderna, ZoomInfo, and WeWork. The post Over 100 Organizations Targeted in ShinyHunters Phishing Campaign appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/over-100-organizations-targeted-in-shinyhunters-phishing-campaign/",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264268",
+    "date": "2026-01-27",
+    "title": "14 land protesterer mot russisk GPS-jamming",
+    "summary": "Landene rundt Østersjøen og Nordsjøen advarer mot farene ved signalforstyrrelsene og sender et åpent brev til det internasjonale maritime samfunnet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/14-land-protesterer-mot-russisk-gps-jamming/567504",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264269",
+    "date": "2026-01-27",
+    "title": "ClickFix Attacks Expand Using Fake CAPTCHAs, Microsoft Scripts, and Trusted Web Services",
+    "summary": "Cybersecurity researchers have disclosed details of a new campaign that combines ClickFix-style fake CAPTCHAs with a signed Microsoft Application Virtualization (App-V) script to distribute an information stealer called Amatera. \"Instead of launching PowerShell directly, the attacker uses this sc...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html",
+    "tags": [
+      "apt",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264270",
+    "date": "2026-01-27",
+    "title": "Russian security systems firm Delta hit by cyberattack, services disrupted",
+    "summary": "Building and car alarm systems managed by Russian company Delta have been disrupted by a cyberattack blamed on a \"hostile foreign state.\"",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russia-delta-security-alarm-company-cyberattack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264271",
+    "date": "2026-01-27",
+    "title": "‘PackageGate’ Flaws Open JavaScript Ecosystem to Supply Chain Attacks",
+    "summary": "The protections against NPM supply chain attacks could be bypassed, leading to arbitrary code execution. The post ‘PackageGate’ Flaws Open JavaScript Ecosystem to Supply Chain Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/packagegate-flaws-open-javascript-ecosystem-to-supply-chain-attacks/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264272",
+    "date": "2026-01-27",
+    "title": "UK plans sweeping overhaul of policing amid surge in online crimes",
+    "summary": "The British Home Office published proposals that would include the creation of a new National Police Service, described by officials as Britain’s equivalent of the FBI.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-national-policing-overhaul-cybercrime",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264273",
+    "date": "2026-01-27",
+    "title": "Emergency Microsoft update fixes in-the-wild Office zero-day",
+    "summary": "Pierluigi Paganini January 26, 2026 Microsoft released out-of-band security updates to address an actively exploited Office zero-day vulnerability tracked as CVE-2026-21509. The issue is a security feature bypass vulnerability that affects multiple Office versions, including Microsoft Office 2016...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187349/hacking/emergency-microsoft-update-fixes-in-the-wild-office-zero-day.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264274",
+    "date": "2026-01-27",
+    "title": "[Ekstra] Frankrike: Kaster ut amerikansk teknologi for 200.000 ansatte",
+    "summary": "Franske myndigheter kaster ut amerikansk konferanseteknologi til fordel for det egenutviklede alternativet Visio.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/frankrike-kaster-ut-amerikansk-teknologi-for-200-000-ansatte/567498",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264275",
+    "date": "2026-01-27",
+    "title": "Cyber Insights 2026: Quantum Computing and the Potential Synergy With Advanced AI",
+    "summary": "Quantum computers are coming, with a potential computing power almost beyond comprehension. The post Cyber Insights 2026: Quantum Computing and the Potential Synergy With Advanced AI appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-quantum-computing-and-the-potential-synergy-with-advanced-ai/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264276",
+    "date": "2026-01-27",
+    "title": "Chrome, Edge Extensions Caught Stealing ChatGPT Sessions",
+    "summary": "Marketed as ChatGPT enhancement and productivity tools, the extensions allow the threat actor to access the victim's ChatGPT data. The post Chrome, Edge Extensions Caught Stealing ChatGPT Sessions appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/chrome-edge-extensions-caught-stealing-chatgpt-sessions/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264277",
+    "date": "2026-01-27",
+    "title": "CTEM in Practice: Prioritization, Validation, and Outcomes That Matter",
+    "summary": "Cybersecurity teams increasingly want to move beyond looking at threats and vulnerabilities in isolation. It’s not only about what could go wrong (vulnerabilities) or who might attack (threats), but where they intersect in your actual environment to create real, exploitable exposure. Which exposu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/ctem-in-practice-prioritization.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264278",
+    "date": "2026-01-27",
+    "title": "[Ekstra] Disse vil lede seksjon for teknologi og forvaltning i DFØ",
+    "summary": "Fem kvinner og 16 menn ønsker å lede teknologi og forvaltningsavdelingen i Direktoratet for forvaltning og økonomistyring (DFØ).",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/millionjobb-disse-vil-lede-seksjon-for-teknologi-og-forvaltning-i-dfo/567369",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264279",
+    "date": "2026-01-27",
+    "title": "Microsoft announces the 2026 Security Excellence Awards winners",
+    "summary": "In today’s fast‑moving digital arena, security isn’t a solo act—it’s a team sport. Every day, defenders across the globe suit up, strategize, and work shoulder‑to‑shoulder to protect organizations and communities from an ever‑evolving field of cyberthreats. That shared spirit of collaboration is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/27/microsoft-announces-the-2026-security-excellence-awards-winners/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264280",
+    "date": "2026-01-27",
+    "title": "I'll Show You Our Resilience Plan Once Our Cloud Storage Is Back Online - CISO Series",
+    "summary": "[Voiceover] Ten-second security tip, go! [Johann Balaguer] Think of your entire cybersecurity program as the foundation of your house. A poor ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/ill-show-you-our-resilience-plan-once-our-cloud-storage-is-back-online/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264281",
+    "date": "2026-01-27",
+    "title": "Ten cybersecurity predictions for 2026 from experts: How AI will reshape cyber risks",
+    "summary": "Rather than introducing entirely new threats, AI is expected to accelerate existing attack techniques, reduce operational costs for attackers, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://dig.watch/updates/ten-cybersecurity-predictions-for-2026-from-experts-how-ai-will-reshape-cyber-risks",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264282",
+    "date": "2026-01-27",
+    "title": "Why cybersecurity frameworks matter more than ever - SecurityBrief Australia",
+    "summary": "As cyber spend soars past USD $100 billion, rising breaches show Australian firms need clear security frameworks more than extra tools.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/why-cybersecurity-frameworks-matter-more-than-ever",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264283",
+    "date": "2026-01-27",
+    "title": "AI is being used by over 80% of Ethical Hackers for greater Precision",
+    "summary": "... cybersecurity experts, governments, and technology companies worldwide. Q Day refers to the hypothetical... Hacker-cyber-security · Lazarus hacking ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/ai-is-being-used-by-over-80-of-ethical-hackers-for-greater-precision/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264284",
+    "date": "2026-01-27",
+    "title": "Mutare Selected as AHA Preferred Cybersecurity & Risk Provider for Voice Security",
+    "summary": "PRNewswire/ -- Mutare Inc., the authority in enterprise voice security, today announced it has been selected by the American Hospital Association ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/mutare-selected-as-aha-preferred-cybersecurity--risk-provider-for-voice-security-302670810.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264285",
+    "date": "2026-01-27",
+    "title": "Embracing Choice in Cybersecurity: TrendAI Vision One™ and SentinelOne Integration",
+    "summary": "... Cyber Risk Exposure Management (CREM). This enriched endpoint ... Network | Security Strategies | Articles, News, Reports. Authors. Jenny ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.trendmicro.com/pt_br/research/26/a/embracing-choice-in-cybersecurity.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264286",
+    "date": "2026-01-27",
+    "title": "Latvia's SAB warns of Russian ICS cyber threat to European and Western critical infrastructure",
+    "summary": "The report comes as Latvia experienced a full spectrum of cyber-attacks in 2025. From the national security perspective, the most significant threats ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/latvias-sab-warns-of-russian-ics-cyber-threat-to-european-and-western-critical-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264287",
+    "date": "2026-01-27",
+    "title": "House Homeland Security Cmte Chairman calls for USCIS, CBP and ICE leaders to testify",
+    "summary": "Cybersecurity officials are concerned that a quantum computer in the not too distant future will be able to break traditional encryption methods. ( ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/federal-newscast/2026/01/house-homeland-security-cmte-chairman-calls-for-uscis-cbp-and-ice-leaders-to-testify/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264288",
+    "date": "2026-01-27",
+    "title": "Talking Points for Government CISOs and Cybersecurity Leaders in 2026",
+    "summary": "Stop talking as much about hacking, zero-day exploits, critical network vulnerabilities, next-generation firewalls, and other technical security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/talking-points-for-government-cisos-and-cybersecuirty-leaders-in-2026/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264289",
+    "date": "2026-01-27",
+    "title": "Office zero-day exploited in the wild forces Microsoft OOB patch - The Register",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency has been quick to add the flaw to its Known Exploited Vulnerabilities catalog, giving Federal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/27/office_zeroday_exploited_in_the/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264290",
+    "date": "2026-01-27",
+    "title": "Check Point Software Technologies and Hendrick Motorsports Partner to Strengthen Cyber ...",
+    "summary": "(NASDAQ: CHKP), a pioneer and global leader in cyber security solutions, today announced a new official partnership with NASCAR powerhouse Hendrick ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.checkpoint.com/press-releases/check-point-software-technologies-and-hendrick-motorsports-partner-to-strengthen-cyber-security-for-racing-operations/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264291",
+    "date": "2026-01-27",
+    "title": "incident Response with AI & ML for OT/IOT/IIOT Attack Detection & Prevention - EC-Council",
+    "summary": "Bio: Atdhe Buja is an Assistant Professor of Computer Science, Digital Forensics, and Cybersecurity at the Commonwealth University of Pennsylvania, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/cyber-talks/incident-response-with-ai-ml-for-ot-iot-iiot-attack-detection-prevention/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264292",
+    "date": "2026-01-27",
+    "title": "Cybersecurity Must Remain Financial Sector's Focus In 2026 | Insights | Sidley Austin LLP",
+    "summary": "... cyber, privacy, and national security risks. It examines shifting regulatory expectations, emerging technologies such as AI and quantum computing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sidley.com/en/insights/publications/2026/01/cybersecurity-must-remain-financial-sector-focus-in-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264293",
+    "date": "2026-01-27",
+    "title": "How AWS Brings AI-Powered Cloud Security to Nationwide | Cyber Magazine",
+    "summary": "Nationwide, the world's largest building society, has deepened its partnership with AWS in a move designed to strengthen its cybersecurity posture and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/aws-ai-powered-cloud-security-for-nationwide",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264294",
+    "date": "2026-01-27",
+    "title": "Finnish cybersecurity expert warns Europe of cost, security risks in U.S. tech dependence",
+    "summary": "In an interview with Yle on Monday, cybersecurity expert Petteri Jarvinen said it was \"odd\" that Europe is boosting its defense posture while leaving ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://english.news.cn/europe/20260127/fd2b7eecf7f14bd0af5277ed24fd2ce6/c.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264295",
+    "date": "2026-01-27",
+    "title": "What to Watch in 2026: Key EU Privacy & Cybersecurity Developments",
+    "summary": "Daniel Cooper is co-chair of Covington's Data Privacy and Cyber Security Practice, and advises clients on information technology regulatory and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.insideprivacy.com/european-union-2/what-to-watch-in-2026-key-eu-privacy-cybersecurity-developments/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264296",
+    "date": "2026-01-27",
+    "title": "AI-driven cyber war is near, Israel cyber chief warns | The Jerusalem Post",
+    "summary": "Karadi also presented Israel's new national multi-year cyber plan, focusing on three core pillars: cloud security, Cyber-AI, and readiness for the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jpost.com/defense-and-tech/article-884683",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264297",
+    "date": "2026-01-27",
+    "title": "Managing cyber risk under escalating threat and enforcement pressure - A&O Shearman",
+    "summary": "... cybersecurity standards. On the product security side, reporting obligations under the Cyber Resilience Act (CRA) will come into force in 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aoshearman.com/insights/cross-border-white-collar-crime-and-investigations-review-2026/managing-cyber-risk-under-escalating-threat-and-enforcement-pressure",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264298",
+    "date": "2026-01-27",
+    "title": "Microsoft Office Zero-Day Actively Exploited in Targeted Cyberattacks - Cyber Press",
+    "summary": "... Cyber AttackCyber Security NewsCybersecurityZero-day. Microsoft has disclosed a critical security feature bypass vulnerability affecting Office ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/microsoft-office-zero-day-actively-exploited-in-targeted-cyberattacks/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264299",
+    "date": "2026-01-27",
+    "title": "Nike Investigates Ransomware Group's Claims of Data Breach | PYMNTS.com",
+    "summary": "“We always take consumer privacy and data security very seriously,” Nike said in the report. “We are investigating a potential cyber security incident ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pymnts.com/cybersecurity/2026/nike-investigates-ransomware-groups-claims-of-data-breach/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264300",
+    "date": "2026-01-27",
+    "title": "Cloud Security Posture Management | Group-IB",
+    "summary": "Need CSPM. For organizations, the cloud brings speed and scale; for adversaries, it opens new attack paths. Without CSPM, security teams struggle ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/products/cloud-security-posture-management/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264301",
+    "date": "2026-01-27",
+    "title": "WD Discovery Desktop App Vulnerability Allows Arbitrary Code Execution on Windows",
+    "summary": "... Cyber Security NewsCybersecurityVulnerability. Western Digital has disclosed a critical security vulnerability in its WD Discovery desktop ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/wd-discovery-desktop-app-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264302",
+    "date": "2026-01-27",
+    "title": "From AI threats to quantum security: cybersecurity trends in 2026 - Surfshark",
+    "summary": "AI stays in the spotlight, powering both cyberthreats and defenses. In 2025, everyone and everything was focused on AI and the countless ways it can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://surfshark.com/blog/cybersecurity-trends-in-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264303",
+    "date": "2026-01-27",
+    "title": "Cybersecurity pips AI to become top UK tech investment for 2026 - Consultancy.uk",
+    "summary": "... cyber security is top of every agenda. As a result, a new poll of 151 UK business leaders suggests cybersecurity, not AI, is now the leading ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.consultancy.uk/news/amp/42892/cybersecurity-pips-ai-to-become-top-uk-tech-investment-for-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264304",
+    "date": "2026-01-27",
+    "title": "UniRG: Scaling medical imaging report generation with multimodal reinforcement learning",
+    "summary": "At a glance AI-driven medical image report generation can help medical providers become more efficient and productive. Current models are difficult to train because reporting practices vary widely among providers. Universal Report Generation (UniRG) uses reinforcement learning to align model trai...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/blog/unirg-scaling-medical-imaging-report-generation-with-multimodal-reinforcement-learning/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264218",
     "date": "2026-01-27",
     "title": "The AI Fix #85: ChatGPT gets ads, pets get AI therapists, and everyone’s wrong about LLMs",
