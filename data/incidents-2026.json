@@ -1,5 +1,243 @@
 [
   {
+    "id": "20264126",
+    "date": "2026-01-26",
+    "title": "Microsoft Releases Emergency Fix for Exploited Office Zero-Day",
+    "summary": "Microsoft has released an emergency fix for an actively-exploited zero-day vulnerability affecting Microsoft Office. The vulnerability, CVE-2026-21509, is labeled a Microsoft Office Security Feature Bypass vulnerability that exploits the software weakness CWE-807 (Reliance on Untrusted Inputs in ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/microsoft-emergency-fix-for-office-zero-day/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264127",
+    "date": "2026-01-26",
+    "title": "ShinyHunters, CL0P Return with New Claimed Victims",
+    "summary": "The ShinyHunters and CL0P threat groups have returned with new claimed victims. ShinyHunters has resurfaced with a new onion-based data leak site, with the group publishing data allegedly stolen from three victims, with two apparently linked to recent vishing attacks targeting single sign-on (SSO...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/shinyhunters-cl0p-return-with-new-victims/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264128",
+    "date": "2026-01-26",
+    "title": "France to replace Zoom and Teams with sovereign platform ‘Visio’",
+    "summary": "The French government has announced the full rollout of Visio, a domestically developed video conferencing platform that will replace Microsoft Teams, Zoom, and other non-European tools across all state administrations by 2027. The move is part of France’s strategic push to regain control over cr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/france-to-replace-zoom-and-teams-with-sovereign-platform-visio/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264129",
+    "date": "2026-01-26",
+    "title": "Chrome extensions on the Web Store pose as AI tools to steal user data",
+    "summary": "Researchers have uncovered two active campaigns involving dozens of malicious Chrome extensions still live on official browser extension stores. These extensions, many disguised as AI productivity tools or utilities, silently steal session tokens, hijack search results, inject ads, exfiltrate dat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/chrome-extensions-on-the-web-store-pose-as-ai-tools-to-steal-user-data/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264130",
+    "date": "2026-01-26",
+    "title": "Claude expands tool connections using MCP",
+    "summary": "Anthropic has added interactive tool support to its Claude AI platform, a change powered by the open Model Context Protocol (MCP). The update lets users work directly with external applications inside Claude’s interface rather than relying solely on text interactions with connected services. Inte...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/anthropic-claude-mcp-integration/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264131",
+    "date": "2026-01-26",
+    "title": "“Coerced Perpetual, Infinite Detention”: Trump’s Use of Hitler’s Schutzhaft to Bypass American Courts",
+    "summary": "The courts have not been defeated. They have been bypassed. In 1933, this distinction did not matter. There is no evidence it matters now. A federal judge wrote Sunday that the Trump administration is attempting to “coerce perpetual, infinite detention” by defying court orders. Three hundred fort...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76627",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264132",
+    "date": "2026-01-26",
+    "title": "Imperva Customers Protected Against CVE-2026-21962 in Oracle HTTP and WebLogic",
+    "summary": "What Is CVE-2026-21962? CVE-2026-21962 is a critical (CVSS 10.0) vulnerability in the Oracle HTTP Server and the WebLogic Server Proxy Plug-in for Apache HTTP Server and Microsoft IIS. An unauthenticated attacker with HTTP access can exploit this flaw by sending crafted requests to the affected p...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Imperva Blog",
+    "sourceUrl": "https://www.imperva.com/blog/imperva-customers-protected-against-cve-2026-21962-in-oracle-http-and-weblogic/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft",
+      "oracle"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264133",
+    "date": "2026-01-26",
+    "title": "Russian hackers accused of attack on Poland electricity grid",
+    "summary": "On Dec. 29 and 30, the Polish electricity grid was subjected to a cyberattack that nearly knocked out power to hundreds of thousands of households. Security firm ESET has since conducted a closer examination of the attack and concluded that it was carried out by Sandworm, a group of hackers with ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122256/russian-hackers-accused-of-attack-on-polands-power-grid.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264134",
+    "date": "2026-01-26",
+    "title": "Sandworm Blamed for Wiper Attack on Poland Power Grid",
+    "summary": "Researchers attributed the failed attempt to the infamous Russian APT Sandworm, which is notorious for wiper attacks on critical infrastructure organizations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/sandworm-wiper-attack-poland-power-grid",
+    "tags": [
+      "apt",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264136",
+    "date": "2026-01-26",
+    "title": "eScan Antivirus Supply Chain Breach Delivers Signed Malware",
+    "summary": "Supply chain breach in eScan antivirus distributes multi-stage malware via legitimate updates",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/escan-antivirus-breach-delivers/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264137",
+    "date": "2026-01-26",
+    "title": "Cloudflare IPv6 BGP Route Leak Caused by Router Policy Misconfiguration",
+    "summary": "Cloudflare experienced a Border Gateway Protocol (BGP) route leak that lasted about 25 minutes. This was the result of a misconfiguration in a routing policy on one of its routers in Miami, Florida. The misconfiguration caused IPv6 routing information to be advertised incorrectly to external netw...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/cloudflare-i-pv6-bgp-route-leak-caused-by-router-policy-misconfiguration",
+    "tags": [
+      "data-breach",
+      "malware",
+      "cloud",
+      "cloudflare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264138",
+    "date": "2026-01-26",
+    "title": "New malware service guarantees phishing extensions on Chrome web store",
+    "summary": "A new malware-as-a-service (MaaS) called 'Stanley' promises malicious Chrome extensions that can clear Google's review process and publish them to the Chrome Web Store. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-malware-service-guarantees-phishing-extensions-on-chrome-web-store/",
+    "tags": [
+      "phishing",
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264139",
+    "date": "2026-01-26",
+    "title": "New ClickFix attacks abuse Windows App-V scripts to push malware",
+    "summary": "A new malicious campaign mixes the ClickFix method with fake CAPTCHA and a signed Microsoft Application Virtualization (App-V) script to ultimately deliver the Amatera infostealing malware. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-clickfix-attacks-abuse-windows-app-v-scripts-to-push-malware/",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264140",
+    "date": "2026-01-26",
+    "title": "Microsoft patches actively exploited Office zero-day vulnerability",
+    "summary": "Microsoft has released emergency security updates to patch a high-severity Office zero-day vulnerability exploited in attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264141",
+    "date": "2026-01-26",
+    "title": "When encryption meets enforcement.",
+    "summary": "Microsoft granted the FBI access to laptops encrypted with BitLocker. The EU opens an investigation into Grok’s creation of sexually explicit images. Glimmers of access pierce Iran’s internet blackout. Koi Security warns npm fixes fall short against PackageGate exploits. Some Windows 11 devices f...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2475/notes",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "ai-ml",
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264085",
     "date": "2026-01-26",
     "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
@@ -5814,6 +6052,18 @@
       "cloud",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20264135",
+    "date": "2026-01-22",
+    "title": "Dark Reading Confidential: Reviving the Hacker Ethos That Built Cybersecurity",
+    "summary": "Dark Reading Confidential Episode 14: How curious, ethical problem-solving can continue to serve as a guiding principle for an evolving cybersecurity sector.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/reviving-hacker-ethos-that-built-cybersecurity",
+    "tags": [],
     "impact": 3
   },
   {
