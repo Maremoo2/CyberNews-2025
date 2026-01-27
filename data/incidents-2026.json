@@ -1,5 +1,204 @@
 [
   {
+    "id": "20264205",
+    "date": "2026-01-27",
+    "title": "Cybercriminals say they sold data stolen from US medical manufacturer",
+    "summary": "A ransomware group called Rhysida today took credit for a November 2025 data breach at Cytek Biosciences, a medical manufacturer based in Fremont, California. Cytek sent data breach notices to 331 people in November. According to the notice, the following personal info was compromised in the brea...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/cybercriminals-say-they-sold-data-stolen-from-us-medical-manufacturer/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264206",
+    "date": "2026-01-27",
+    "title": "Critical Grist-Core Vulnerability Allows RCE Attacks via Spreadsheet Formulas",
+    "summary": "A critical security flaw has been disclosed in Grist‑Core, an open-source, self-hosted version of the Grist relational spreadsheet-database, that could result in remote code execution. The vulnerability, tracked as CVE-2026-24002 (CVSS score: 9.1), has been codenamed Cellbreak by Cyera Research L...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/critical-grist-core-vulnerability.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264207",
+    "date": "2026-01-27",
+    "title": "China-Linked Hackers Have Used the PeckBirdy JavaScript C2 Framework Since 2023",
+    "summary": "Cybersecurity researchers have discovered a JScript-based command-and-control (C2) framework called PeckBirdy that has been put to use by China-aligned APT actors since 2023 to target multiple environments. The flexible framework has been put to use against Chinese gambling industries and malicio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/china-linked-hackers-have-used.html",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264208",
+    "date": "2026-01-27",
+    "title": "LayerX: Malicious ChatGPT Chrome extensions are stealing account credentials",
+    "summary": "ChatGPT users beware: your browser extensions could be used to steal your accounts and identity. LayerX Research has identified at least 16 Chrome browser extensions for ChatGPT floating around the internet that promise to enhance work productivity. All show signs of being built by the same threa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/chatgpt-browser-extensions-steal-your-data/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264209",
+    "date": "2026-01-27",
+    "title": "Organizations Warned of Exploited Linux Vulnerabilities",
+    "summary": "The flaws allow threat actors to obtain root privileges or bypass authentication via Telnet and gain shell access as root. The post Organizations Warned of Exploited Linux Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/organizations-warned-of-exploited-linux-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264210",
+    "date": "2026-01-27",
+    "title": "[Ekstra] Anklaget Visma for mislighold – måtte selv betale erstatning",
+    "summary": "Den skybaserte løsningen var ikke mulig å integrere med SAP, mente Forsvaret og krevde pengene tilbake. Slik gikk det ikke.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/anklaget-visma-for-mislighold-matte-selv-betale-erstatning/567216",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264211",
+    "date": "2026-01-27",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1769507808.bae0620e",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2018-14634?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264212",
+    "date": "2026-01-27",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Badbox 2.0 is a China-based botnet that has infected over ten million Android streaming devices. It is known for engaging in advertising fraud and compromising devices through pre-installed malware or malicious apps from unofficial marketplaces.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=KrebsonSecurity",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264213",
+    "date": "2026-01-27",
+    "title": "Who Operates the Badbox 2.0 Botnet?",
+    "summary": "The cybercriminals in control of Kimwolf — a disruptive botnet that has infected more than 2 million devices — recently shared a screenshot indicating they’d compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Andr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264214",
+    "date": "2026-01-27",
+    "title": "Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks",
+    "summary": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features. The post Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-patches-office-zero-day-likely-exploited-in-targeted-attacks/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264215",
+    "date": "2026-01-27",
+    "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+    "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks. The vulnerability, tracked as CVE-2026-21509, carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office. ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264216",
+    "date": "2026-01-27",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Manage My Health, a widely used digital health platform in New Zealand, experienced a cyberattack that compromised documents stored in the \"My Health Documents\" section. The breach exposed sensitive documents including clinical letters. The telecommunications sector experienced a four-fold increa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=The%20Cyber%20Express",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264217",
+    "date": "2026-01-27",
+    "title": "Manage My Health Data Breach Sparks Warnings Over Impersonation and Phishing Attempts",
+    "summary": "The fallout from the Manage My Health data breach is continuing, with the company warning that fraudsters may now be attempting to contact affected users by impersonating the online patient portal. Manage My Health, which operates a widely used digital health platform in New Zealand, confirmed th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/manage-my-health-data-breach-phishing/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264189",
     "date": "2026-01-27",
     "title": "How to Safeguard Executives Through Proactive Planning and Managing Online Presence",
