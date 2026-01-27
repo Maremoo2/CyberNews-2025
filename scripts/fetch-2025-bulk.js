@@ -247,7 +247,6 @@ function transformItem(item, feedConfig, config, nextId) {
       date = `${currentYear}-12-31`;
       console.log(`  ℹ️  Adjusted future year to end of current year (${date}): ${title.substring(0, 50)}...`);
     }
-    // If date is in the past, keep original date
   }
   
   // Only include articles from 2025
