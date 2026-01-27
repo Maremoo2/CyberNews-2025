@@ -1,5 +1,105 @@
 [
   {
+    "id": "20264164",
+    "date": "2026-01-27",
+    "title": "Data Privacy Week 2026: Why Secure Access is the New Data Protection Perimeter",
+    "summary": "By Vijender Yadav, CEO & Co-founder, Accops The cybersecurity industry is currently grappling with a paradox: encryption, compliance, and spending are at record highs, yet data privacy remains fragile. This stems from a reliance on a 2021 playbook to fight a 2026 war. Historically, data protectio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/data-privacy-week-2026-securing-data/",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264165",
+    "date": "2026-01-27",
+    "title": "AI’s appetite for data is testing enterprise guardrails",
+    "summary": "Privacy programs are taking on more operational responsibility across the enterprise. A new Cisco global benchmark study shows expanding mandates, rising investment, and sustained pressure around data quality, accountability, and cross-border data management tied to AI systems. Privacy programs g...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/cisco-ai-expands-privacy-programs/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264166",
+    "date": "2026-01-27",
+    "title": "Cybersecurity jobs available right now: January 27, 2026",
+    "summary": "CISO micro1 | USA | Remote – View job details As a CISO, you will define the enterprise security vision and implement a zero-trust architecture across systems and data pipelines. You will secure AI Labs environments, oversee identity and access management and security governance, ensure regulator...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/cybersecurity-jobs-available-right-now-january-27-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264167",
+    "date": "2026-01-27",
+    "title": "Ivanti expands Neurons platform with agentic AI and autonomous endpoint management",
+    "summary": "Ivanti announced AI advancements to the Ivanti Neurons platform, introducing solutions that transform how IT and security teams harness AI-driven intelligence to achieve impactful business outcomes. These features include agentic AI capabilities for Ivanti Neurons for IT Service Management (ITSM)...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/ivanti-neurons-ai-advancements/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264168",
+    "date": "2026-01-27",
+    "title": "How Regulated Industries Use Privacy-Enhancing Technologies (PETs)",
+    "summary": "With increasing volume of data and regulatory controls that are only tightening, regulated industries have a hard paradox to... The post How Regulated Industries Use Privacy-Enhancing Technologies (PETs) appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/how-regulated-industries-use-privacy-enhancing-technologies/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264170",
+    "date": "2026-01-27",
+    "title": "CNAPP-Kaufratgeber",
+    "summary": "Gorodenkoff | shutterstock.com Cloud Security bleibt ein diffiziles Thema und die Tools, mit denen sie sich gewährleisten lässt, werden zunehmend komplexer und schwieriger zu durchschauen – auch dank der ungebrochenen Liebe der Branche zu Akronymen. Mit CNAPP kommt nun ein weiteres hinzu. CNAPP –...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3970431/cnapp-kaufratgeber.html",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264171",
+    "date": "2026-01-27",
+    "title": "Unplugged holes in the npm and yarn package managers could let attackers bypass defenses against Shai-Hulud",
+    "summary": "Javascript developers should consider moving away from the npm and yarn platforms for distributing their work because newly-found holes allow threat actors to run malicious worm attacks like Shai-Hulud, says an Israeli researcher. The warning comes from Oren Yomtov of Koi Security, who blogged Mo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122436/unplugged-holes-in-the-npm-and-yarn-package-managers-could-let-attackers-bypass-defenses-against-shai-hulud-2.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264142",
     "date": "2026-01-27",
     "title": "CISA publishes a post-quantum shopping list for agencies. Security professionals aren’t sold",
@@ -25,6 +125,20 @@
     "tags": [
       "phishing",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264169",
+    "date": "2026-01-26",
+    "title": "Who Operates the Badbox 2.0 Botnet?",
+    "summary": "The cybercriminals in control of Kimwolf — a disruptive botnet that has infected more than 2 million devices — recently shared a screenshot indicating they’d compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Andr...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Krebs on Security",
+    "sourceUrl": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+    "tags": [
+      "malware"
     ],
     "impact": 3
   },
