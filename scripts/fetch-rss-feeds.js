@@ -262,15 +262,25 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
   const summary = truncate(stripHtml(contentHtml), 300);
   
   // Convert date
-  const date = formatDate(item.pubDate || item.isoDate || item.published || new Date());
+  let date = formatDate(item.pubDate || item.isoDate || item.published || new Date());
   
-  // Validate date is not in the future
+  // Adjust future dates instead of skipping
   const today = new Date();
   today.setHours(23, 59, 59, 999); // End of today
   const incidentDate = new Date(date);
   if (incidentDate > today) {
-    console.log(`  ⚠️  Skipping item with future date (${date}): ${title}`);
-    return null;
+    const articleYear = incidentDate.getFullYear();
+    const currentYear = today.getFullYear();
+    
+    if (articleYear === currentYear) {
+      // Same year: use today's date
+      date = today.toISOString().split('T')[0];
+      console.log(`  ℹ️  Adjusted future date to today (${date}): ${title.substring(0, 50)}...`);
+    } else if (articleYear > currentYear) {
+      // Future year: use December 31st of current year
+      date = `${currentYear}-12-31`;
+      console.log(`  ℹ️  Adjusted future year to end of current year (${date}): ${title.substring(0, 50)}...`);
+    }
   }
   
   // Generate tags and impact
