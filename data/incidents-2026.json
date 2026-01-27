@@ -1,5 +1,335 @@
 [
   {
+    "id": "20264142",
+    "date": "2026-01-27",
+    "title": "CISA publishes a post-quantum shopping list for agencies. Security professionals aren’t sold",
+    "summary": "The Cybersecurity and Infrastructure Security Agency is hoping to guide federal agencies through the murky process of updating their technology stack with quantum-resistant encryption. On Jan. 23, the agency released a list of different IT software and hardware products that are commonly purchase...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-post-quantum-cryptography-procurement-guide-expert-criticism/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264143",
+    "date": "2026-01-27",
+    "title": "A new wave of ‘vishing’ attacks is breaking into SSO accounts in real time",
+    "summary": "Threat hunters and researchers are racing to contain a wave of voice-phishing attacks targeting single sign-on tools, already leading to data theft and extortion attempts. Multiple cybercrime groups are combining voice calls and advanced phishing kits to trick victims into handing over access — i...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/shinyhunters-voice-phishing-sso-okta-mfa-bypass-data-theft/",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264144",
+    "date": "2026-01-26",
+    "title": "OMB rescinds ‘burdensome’ Biden-era secure software memo",
+    "summary": "The Trump administration is rescinding a Biden-era memo that was intended to help agencies buy secure software, with the current Office of Management and Budget saying it relied on “unproven and burdensome” processes. A former Biden administration official said the move is “the first major policy...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/omb-rescinds-burdensome-biden-era-secure-software-memo/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264145",
+    "date": "2026-01-26",
+    "title": "Google agrees to pay $68 million to settle voice recording lawsuit",
+    "summary": "Google has agreed to pay $68 million to settle a class-action lawsuit alleging its voice-activated assistant illegally recorded and shared the plaintiffs’ private conversations with third parties without their consent.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/google-settles-millions-privacy-recording",
+    "tags": [
+      "google",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264146",
+    "date": "2026-01-26",
+    "title": "Some ChatGPT browser extensions are stealing your data",
+    "summary": "ChatGPT users beware: your browser extensions could be used to steal your accounts and identity. LayerX Research has identified at least 16 Chrome browser extensions for ChatGPT floating around the internet that promise to enhance work productivity. All show signs of being built by the same threa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/chatgpt-browser-extensions-steal-your-data/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264147",
+    "date": "2026-01-26",
+    "title": "Supreme Court to hear case of man who says he was illegally tracked with a Facebook pixel",
+    "summary": "The Supreme Court said Monday that it will hear a case stemming from the use of a Facebook tracking pixel to monitor the streaming habits of the user of a sports website.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/supreme-court-case-facebook-tracking",
+    "tags": [
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264148",
+    "date": "2026-01-26",
+    "title": "Rethinking Cybersecurity in a Platform World - BankInfoSecurity",
+    "summary": "It's expected as part of the platform. What This Means for Incumbent Security Vendors. As platforms expand into security, it's fair to ask: Are ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/blogs/rethinking-cybersecurity-in-platform-world-p-4035",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264149",
+    "date": "2026-01-26",
+    "title": "Inside the Making of a Cyber Defender - Embry-Riddle Aeronautical University",
+    "summary": "... set out to find an education that went beyond standard IT and discovered it in Embry‑Riddle's Cyber Intelligence and Security program.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://erau.edu/hub-spoke/stories/inside-the-making-of-a-cyber-defender",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264150",
+    "date": "2026-01-26",
+    "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
+    "summary": "Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints. These new blueprint have Instance Metadata Service Version 2 (IMDSv2) enforced by default, and support IPv6-only instances. With just a few clicks, you can create a Lightsail virtual private server (VPS) of your preferre...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/",
+    "tags": [
+      "amazon",
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264151",
+    "date": "2026-01-26",
+    "title": "Amazon Bedrock now supports 1-hour duration for prompt caching",
+    "summary": "Amazon Bedrock now supports a 1-hour time-to-live (TTL) option for prompt caching for select Anthropic Claude models. With this update, you can extend the persistence of cached prompt prefixes from the default 5 minutes to 1 hour, improving cost efficiency and performance for long-running agentic...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264152",
+    "date": "2026-01-26",
+    "title": "Amazon Managed Grafana now available in the AWS GovCloud (US) Regions",
+    "summary": "Amazon Managed Grafana is now available in both AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, enabling government customers and regulated industries to securely visualize and analyze their operational data while meeting stringent compliance requirements. Amazon Managed Grafana is a f...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-managed-grafana-aws-govcloud-us-regions",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264153",
+    "date": "2026-01-26",
+    "title": "Nova claims to have hacked KPMG, which denies being compromised (update)",
+    "summary": "“We are aware of claims on social media alleging that KPMG data has been accessed. The IT infrastructure and security systems managed by KPMG have not ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.techzine.eu/news/security/138240/nova-ransomware-group-claims-to-have-hacked-kpmg-netherlands/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264154",
+    "date": "2026-01-26",
+    "title": "The Trump Administration's Cyber Strategy Fundamentally Misunderstands China's Threat",
+    "summary": "Meanwhile, the administration has weakened the foundations of U.S. cyber defenses. The Cybersecurity and Infrastructure Security Agency (CISA) has ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cfr.org/articles/the-trump-administrations-cyber-strategy-fundamentally-misunderstands-chinas-threat",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264155",
+    "date": "2026-01-26",
+    "title": "Shields Up: Perspectives on Cybersecurity Best Practices in Canada - IAPP",
+    "summary": "... cyber security experts and government leaders in technology and data support institutions and affected individuals across Canada. The discussion ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://iapp.org/conference/iapp-canada-symposium/agenda/shields-up-perspectives-on-cybersecurity-best-practices-in-canada",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264156",
+    "date": "2026-01-26",
+    "title": "Cyber threats in industry: prevention and effective defense",
+    "summary": "Even the first steps in the area of cyber security can have a major impact and better protect a company and its data from cyber attacks. This includes ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.all-about-industries.com/cyberthreats-industry-prevention-effective-defense-a-f64fdebb6b8a86faac2e3ee24fc923d6/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264157",
+    "date": "2026-01-26",
+    "title": "AWS Transfer Family now supports Amazon FSx for NetApp ONTAP",
+    "summary": "AWS Transfer Family customers can now access file system data stored in Amazon FSx for NetApp ONTAP over SFTP, FTPS, and FTP. AWS Transfer Family provides fully managed file transfers over SFTP, FTP, FTPS, AS2, and web browser-based interfaces. With this launch, you can now access FSx for ONTAP f...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264158",
+    "date": "2026-01-26",
+    "title": "AWS IAM Identity Center now supports IPv6",
+    "summary": "AWS IAM Identity Center now supports Internet Protocol version 6 (IPv6) through new dual-stack endpoints. Customers can now connect to AWS IAM Identity Center using IPv6, IPv4, or dual-stack clients. The existing AWS IAM Identity Center endpoints supporting IPv4 remain available for backward comp...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264159",
+    "date": "2026-01-26",
+    "title": "Security strategies for safeguarding governmental data - Microsoft",
+    "summary": "Cybersecurity is the ultimate team sport, and as a Deputy CISO, I'm uniquely positioned with my fellow Deputy CISOs to share information and research, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/26/security-strategies-for-safeguarding-governmental-data/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264160",
+    "date": "2026-01-26",
+    "title": "Nike says it is investigating possible data breach - Reuters",
+    "summary": "\"We always take consumer privacy and data security very seriously,\" Nike said in a statement. \"We are investigating a potential cyber security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/sustainability/boards-policy-regulation/nike-says-it-is-investigating-possible-data-breach-2026-01-26/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264161",
+    "date": "2026-01-26",
+    "title": "Malicious Microsoft VSCode AI extensions might have hit over 1.5 million users",
+    "summary": "In a new advisory, Fortinet said it had identified a fresh attack path being used to abuse SAML-based SSO in FortiOS, even on systems ... Researchers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/malicious-microsoft-vscode-ai-extensions-might-have-hit-over-1-5-million-users/",
+    "tags": [
+      "microsoft",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264162",
+    "date": "2026-01-26",
+    "title": "Webinar | From Continuous Controls Monitoring to Continuous Assurance: How a Security ...",
+    "summary": "Why traditional compliance models—and even legacy CCM—can't keep up with evolving regulations, distributed environments, and continuous cyber threats.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/webinars/webinar-from-continuous-controls-monitoring-to-continuous-assurance-w-6771",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264163",
+    "date": "2026-01-26",
+    "title": "Nike says it is investigating possible data breach - Cyber Security Review",
+    "summary": "Nike says it is investigating a potential data breach, after a group known for cyber attacks reportedly claimed to have leaked a trove of data ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/nike-says-it-is-investigating-possible-data-breach/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264126",
     "date": "2026-01-26",
     "title": "Microsoft Releases Emergency Fix for Exploited Office Zero-Day",
