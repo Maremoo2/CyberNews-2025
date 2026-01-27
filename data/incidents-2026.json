@@ -1,5 +1,580 @@
 [
   {
+    "id": "20264218",
+    "date": "2026-01-27",
+    "title": "The AI Fix #85: ChatGPT gets ads, pets get AI therapists, and everyone’s wrong about LLMs",
+    "summary": "In episode 85 of The AI Fix, Graham discovers that Silicon Valley has the solution to your pet's mental health crisis, and Mark explains why AI godfather Yann LeCun thinks the entire AI industry is wrong about LLMs. Also in this episode, OpenAI decides to ruin ChatGPT with ads; Sam Altman and Elo...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/the-ai-fix-85/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264219",
+    "date": "2026-01-27",
+    "title": "Amid Trump attacks and weaponized sanctions, Europeans look to rely less on US tech",
+    "summary": "European governments are looking to move away from U.S. tech and reclaim their digital sovereignty at a time of unpredictability and volatility in the United States.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/27/amid-trump-attacks-and-weaponized-sanctions-europeans-look-to-rely-less-on-us-tech/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264220",
+    "date": "2026-01-27",
+    "title": "WhatsApp&#8217;s new &#8216;lockdown&#8217; settings add another layer of protection against cyberattacks",
+    "summary": "WhatsApp is launching new \"Strict Account Settings\" that add even more protections against cyberattacks. The feature is built for people at a high-risk of attacks - such as journalists or public figures - and automatically blocks attachments and media from senders you don't know, while silencing ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/news/868722/whatsapp-strict-account-settings-cyberattacks",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264221",
+    "date": "2026-01-27",
+    "title": "Microsoft corrige en urgence une faille zero-day dans Office, déjà activement exploitée",
+    "summary": "Microsoft vient de sonner l’alerte sur l’exploitation active d’une faille zero-day dans Office et de proposer des mesures de protection. Selon votre version et votre configuration, il faudra peut-être mettre la main à la pâte.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597379-microsoft-corrige-en-urgence-une-faille-zero-day-dans-office-deja-activement-exploitee.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264222",
+    "date": "2026-01-27",
+    "title": "Faille Telnet : plus de 800 000 serveurs toujours accessibles à distance malgré les alertes",
+    "summary": "Malgré une baisse rapide du nombre de serveurs exposés en ligne depuis la divulgation de la faille affectant telnetd, près de 800 000 adresses IP sont toujours possiblement menacées.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597355-faille-telnet-plus-de-800-000-serveurs-toujours-accessibles-a-distance-malgre-les-alertes.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264223",
+    "date": "2026-01-27",
+    "title": "Interconnectedness, extortion risk make cybersecurity a healthcare C-suite priority",
+    "summary": "A new report from Trellix reviews the biggest breaches, describes the most effective defenses and profiles the most dangerous attackers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/health-care-cybersecurity-threats-report-trellix/810608/",
+    "tags": [
+      "data-breach",
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264224",
+    "date": "2026-01-27",
+    "title": "WhatsApp introduces new security mode that shields high-risk users",
+    "summary": "WhatsApp announced a new “Strict Account Settings” mode, a lockdown-style feature designed to shield high-risk users such as journalists, activists, and public figures from advanced cyberattacks. On the same day, the platform also announced a significant behind-the-scenes security enhancement: a ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/whatsapp-introduces-new-security-mode-that-shields-high-risk-users/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264225",
+    "date": "2026-01-27",
+    "title": "Surfshark infrastructure audit finds TLS config gap and redirect flaw",
+    "summary": "VPN provider Surfshark has successfully completed a comprehensive infrastructure security audit conducted by Polish cybersecurity firm SecuRing, uncovering two medium-severity issues. The assessment focused on the resilience of Surfshark's systems against unauthorized access and disruptions, conf...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/surfshark-infrastructure-audit-finds-tls-config-gap-and-redirect-flaw/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264226",
+    "date": "2026-01-27",
+    "title": "SoundCloud breach added to HIBP, 29.8 million accounts exposed",
+    "summary": "The SoundCloud data breach disclosed in December 2025 has now been indexed in Have I Been Pwned (HIBP), confirming that nearly 30 million user accounts had their email addresses mapped to public profile data and later leaked online. The breach impacted approximately 20% of the platform’s users, a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/soundcloud-breach-added-to-hibp-29-8-million-accounts-exposed/",
+    "tags": [
+      "data-breach",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264227",
+    "date": "2026-01-27",
+    "title": "WhatsApp denies encryption flaw allegations, calls lawsuit “fiction”",
+    "summary": "A newly filed lawsuit in the US alleges that WhatsApp’s end-to-end encryption (E2EE) is an illusion, claiming Meta employees can access user messages at will. Meta has dismissed the allegations as “absurd,” firmly defending WhatsApp’s encryption model and promising legal action in response. The l...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/whatsapp-denies-encryption-flaw-allegations-calls-lawsuit-fiction/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "encryption",
+      "aws",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264228",
+    "date": "2026-01-27",
+    "title": "Attackers use Windows App-V scripts to slip infostealer past enterprise defenses",
+    "summary": "A malware delivery campaign detailed by Blackpoint researchers employs an impressive array of tricks to deliver an infostealer to employees without triggering enterprise defenses or close examination by security researchers. The attackers aim to get the Amatera Stealer installed on target Windows...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/malware-delivery-via-windows-app-v-lolbin/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264229",
+    "date": "2026-01-27",
+    "title": "Tenable One AI Exposure delivers unified visibility and governance across AI, cloud and SaaS",
+    "summary": "Tenable announced general availability of Tenable One AI Exposure. With this release, the Tenable One Exposure Management Platform unifies AI protection, discovery and usage governance across the enterprise, including SaaS platforms, cloud services, APIs and agents. AI is deeply embedded and inte...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/tenable-one-ai-exposure-delivers-unified-visibility-and-governance-across-ai-cloud-and-saas/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264230",
+    "date": "2026-01-27",
+    "title": "NICE Actimize Insights Network combats fraudulent transfers",
+    "summary": "NICE Actimize launched Actimize Insights Network, an intelligence network designed to give financial institutions real-time visibility into counterparty risk. Leveraging insights from its Fraud and Financial Crime network, the Actimize Insights Network delivers the scale and precision needed to p...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/nice-actimize-insights-network/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264231",
+    "date": "2026-01-27",
+    "title": "HackerOne brings Agentic PTaaS to continuous, expert-validated pentesting",
+    "summary": "HackerOne announced Agentic Pentest as a Service (Agentic PTaaS), delivering continuous security validation by combining autonomous agent execution with human expertise to ensure every finding reflects exploitable risk that security teams can trust and act on at scale. Enterprise security teams f...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/hackerone-brings-agentic-ptaas-to-continuous-expert-validated-pentesting/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264232",
+    "date": "2026-01-27",
+    "title": "Microsoft brings AI-powered investigations to security teams",
+    "summary": "Microsoft Purview Data Security Investigations is now available. The tool is part of Microsoft Purview and is intended for scenarios such as data breach and leak investigations, credential exposure, internal fraud and bribery, sensitive data exposure in Teams, and inappropriate content investigat...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/microsoft-purview-data-security-investigations/",
+    "tags": [
+      "data-breach",
+      "mobile",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264233",
+    "date": "2026-01-27",
+    "title": "AWS adds IPv6 support to IAM Identity Center through dual-stack endpoints",
+    "summary": "Amazon Web Services has added IPv6 support to IAM Identity Center through new dual-stack endpoints. The update allows identity services to operate over IPv6 networks while continuing to support IPv4. The change applies to access portals, managed applications, and service APIs that use dual-stack ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/aws-iam-identity-center-ipv6/",
+    "tags": [
+      "malware",
+      "cloud",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264234",
+    "date": "2026-01-27",
+    "title": "Lawsuit Claims Meta Can Access WhatsApp Messages Despite Encryption Promises",
+    "summary": "A new class-action lawsuit is challenging one of WhatsApp’s core privacy claims, alleging that Meta Platforms can read user messages despite assurances that chats are protected by end-to-end encryption. Filed in federal court in California, the suit accuses Meta of misleading billions of users by...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/lawsuit-claims-meta-can-access-whatsapp-messages-despite-encryption-promises/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "encryption",
+      "aws",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264235",
+    "date": "2026-01-27",
+    "title": "Living Off the Web: How Fake Captcha Turned Trust Into a Malware Delivery Channel",
+    "summary": "Fake Captcha pages look harmless — routine browser checks asking users to “verify” they’re human — but behind that familiar friction, attackers have quietly transformed trusted web workflows into a scalable malware delivery interface. Recent analysis by Censys researchers shows that what once app...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/living-off-the-web-how-fake-captcha-turned-trust-into-a-malware-delivery-channel/",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264236",
+    "date": "2026-01-27",
+    "title": "Microsoft Issues Emergency Patch for Active Office Zero-Day",
+    "summary": "Microsoft has released emergency out-of-band security updates to fix an actively exploited zero-day vulnerability in Microsoft Office. The flaw allows threat actors to bypass built-in Office security protections after tricking users into opening malicious files, typically delivered through phishi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/microsoft-issues-emergency-patch-for-active-office-zero-day/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264238",
+    "date": "2026-01-27",
+    "title": "Critical GNU InetUtils Telnetd Vulnerability Allows Authentication Bypass and Root Access",
+    "summary": "The discovery of CVE-2026-24061 exposes a long-standing critical weakness in the GNU InetUtils telnet daemon (telnetd). Exploitation of this vulnerability enables remote authentication bypass and full root compromise, putting legacy and misconfigured systems at severe risk. The flaw remained unde...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/critical-gnu-inetutils-telnetd-vulnerability-allows-authentication-bypass-and-root-access/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264239",
+    "date": "2026-01-27",
+    "title": "CVE-2026-21509: Actively Exploited Microsoft Office Zero-Day Forces Emergency Patch",
+    "summary": "Shortly after its January Patch Tuesday release, addressing 114 vulnerabilities, including a zero-day in Windows Desktop Manager (CVE-2026-20805), Microsoft rushed out an emergency out-of-band update to fix another bug under active exploitation. This time, attackers are targeting CVE-2026-21509, ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/latest-threats/cve-2026-21509-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264240",
+    "date": "2026-01-27",
+    "title": "Shadow AI Threat Grows Inside Enterprises as BlackFog Research Finds 60% of Employees Would Take Risks to Meet Deadlines",
+    "summary": "BlackFog research shows Shadow AI growth as 60% of employees accept security risks to work faster using unsanctioned AI tools.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/blackfog-research-shadow-ai-threat-grows/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264241",
+    "date": "2026-01-27",
+    "title": "If you ask these two questions, you’re asking the wrong thing",
+    "summary": "For the past five years, I’ve been writing openly about all kinds of things in our industry - what I am seeing, what works, what doesn’t, what’s not being talked about, what we are missing, and so on. I’ve intentionally tried to stay away from a lot of nonsense that dominates security conversatio...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Venture in Security",
+    "sourceUrl": "https://ventureinsecurity.net/p/if-you-ask-these-two-questions-youre",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264242",
+    "date": "2026-01-27",
+    "title": "4 Probleme, die CISOs behindern",
+    "summary": "Lesen Sie, welche strategischen Probleme CISOs bei ihren Aufgaben behindern.alphaspirit.it – shutterstock.com Viele Sicherheitsverantwortliche glauben, dass ein Cybervorfall unvermeidlich ist – unklsar ist lediglich der Zeitpunkt. Diese Überzeugung spiegelt sich in der gängigen Redewendung wider,...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122799/4-probleme-die-cisos-behindern.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264243",
+    "date": "2026-01-27",
+    "title": "CISA releases technology readiness list for post-quantum cryptography",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) has released a new advisory mapping post-quantum cryptography (PQC) standards to common enterprise hardware and software categories, giving CIOs and security teams an early reference for evaluating quantum-safe technology readiness.Is...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122752/cisa-releases-technology-readiness-list-for-post-quantum-cryptography.html",
+    "tags": [
+      "mobile",
+      "government",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264244",
+    "date": "2026-01-27",
+    "title": "WorldLeaks Extortion Group Claims It Stole 1.4TB of Nike Data",
+    "summary": "The sportswear brand is investigating an alleged breach of its network that exposed some 188,347 files of highly sensitive corporate data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/worldeaks-extortion-group-stole-1.4tb-nike-data",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264245",
+    "date": "2026-01-27",
+    "title": "Hand CVE Over to the Private Sector",
+    "summary": "How MITRE has mismanaged the world's vulnerability database for decades and wasted millions along the way.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/hand-cve-over-to-private-sector",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264247",
+    "date": "2026-01-27",
+    "title": "Beyond MFA: Building true resilience against identity-based attacks",
+    "summary": "Categories: Sophos InsightsTags: Identity Security, MFA, Sophos ITDR",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/beyond-mfa-building-true-resilience-against-identity-based-attacks",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264248",
+    "date": "2026-01-27",
+    "title": "Pyodide Sandbox Escape Enables Remote Code Execution in Grist-Core",
+    "summary": "Critical sandbox escape vulnerability in Grist-Core enables remote code execution via a malicious formula",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/pyodide-sandbox-escape-rce-grist/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264249",
+    "date": "2026-01-27",
+    "title": "PeckBirdy Framework Tied to China-Aligned Cyber Campaigns",
+    "summary": "PeckBirdy command-and-control framework targeting gambling, government sectors in Asia since 2023 has been linked to China-aligned APTs",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/peckbirdy-framework-tied-china/",
+    "tags": [
+      "apt",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264250",
+    "date": "2026-01-27",
+    "title": "Over 80% of Ethical Hackers Now Use AI ",
+    "summary": "Bugcrowd study reveals 82% of security researchers now use AI, a big increase from 2023 figures",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/over-80-of-ethical-hackers-now-use/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264251",
+    "date": "2026-01-27",
+    "title": "Nike investigates data breach after extortion gang leaks files",
+    "summary": "Nike is investigating what it described as a \"potential cyber security incident\" after the World Leaks ransomware gang leaked 1.4 TB of files allegedly stolen from the sportswear giant. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nike-investigates-data-breach-after-extortion-gang-leaks-files/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264252",
+    "date": "2026-01-27",
+    "title": "Critical sandbox escape flaw found in popular vm2 NodeJS library",
+    "summary": "A critical-severity vulnerability in the vm2 Node.js sandbox library, tracked as CVE-2026-22709, allows escaping the sandbox and executing arbitrary code on the underlying host system. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-sandbox-escape-flaw-discovered-in-popular-vm2-nodejs-library/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264253",
+    "date": "2026-01-27",
+    "title": "US charges 31 more suspects linked to ATM malware attacks",
+    "summary": "A Nebraska federal grand jury charged 31 additional defendants for their involvement in an ATM jackpotting operation allegedly orchestrated by members of the Venezuelan gang Tren de Aragua. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-31-more-suspects-linked-to-atm-malware-attacks/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264254",
+    "date": "2026-01-27",
+    "title": "From Cipher to Fear: The psychology behind modern ransomware extortion ",
+    "summary": "Modern ransomware has shifted from encryption to psychological extortion that exploits fear, liability, and exposure. Flare shows how today's ransomware groups weaponize stolen data and pressure tactics to force payment. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/from-cipher-to-fear-the-psychology-behind-modern-ransomware-extortion/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264255",
+    "date": "2026-01-27",
+    "title": "Over 6,000 SmarterMail servers exposed to automated hijacking attacks ",
+    "summary": "Nonprofit security organization Shadowserver has found over 6,000 SmarterMail servers exposed online and likely vulnerable to attacks exploiting a critical authentication bypass vulnerability. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-6-000-smartermail-servers-exposed-to-automated-hijacking-attacks/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264256",
+    "date": "2026-01-27",
+    "title": "Have I Been Pwned: SoundCloud data breach impacts 29.8 million accounts",
+    "summary": "Hackers have stolen the personal and contact information belonging to over 29.8 million SoundCloud user accounts after breaching the audio streaming platform's systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/have-i-been-pwned-soundcloud-data-breach-impacts-298-million-accounts/",
+    "tags": [
+      "data-breach",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264259",
+    "date": "2026-01-27",
+    "title": "Celebrating Data Privacy Week with NIST’s Privacy Engineering Program",
+    "summary": "Grab your party hats – it’s Data Privacy Week! Data Privacy Week is a global initiative led by the National Cybersecurity Alliance to spread awareness about online privacy and empower individuals and businesses to respect privacy, safeguard data, and enable trust. In celebration of this week, the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "NIST Cybersecurity Insights",
+    "sourceUrl": "https://www.nist.gov/blogs/cybersecurity-insights/celebrating-data-privacy-week-nists-privacy-engineering-program",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264205",
     "date": "2026-01-27",
     "title": "Cybercriminals say they sold data stolen from US medical manufacturer",
@@ -805,6 +1380,50 @@
       "Cyber"
     ],
     "impact": 3
+  },
+  {
+    "id": "20264246",
+    "date": "2026-01-26",
+    "title": "Beauty in Destruction: Exploring Malware's Impact Through Art",
+    "summary": "Artistic initiatives turn cybersecurity into immersive exhibits at the Museum of Malware Art, transforming digital threats into thought-provoking experiences.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/beauty-in-destruction-exploring-malware-impact-through-art",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264257",
+    "date": "2026-01-26",
+    "title": "Embracing Choice in Cybersecurity: TrendAI Vision One™ and SentinelOne Integration",
+    "summary": "Discover how the TrendAI Vision One and SentinelOne integration exemplifies our commitment to endpoint flexibility.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/embracing-choice-in-cybersecurity.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264258",
+    "date": "2026-01-26",
+    "title": "Pwn2Own: Researchers Earn $1 Million for 76 Zero-Days",
+    "summary": "Discover how TrendAI Zero Day Initiative (ZDI) identified critical vulnerabilities across connected vehicles, EV chargers, and automotive systems.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/a/pwn2own-researchers-earn-1-million-for-76-zero-days.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
   },
   {
     "id": "20264169",
@@ -7173,6 +7792,20 @@
       "ransomware",
       "cloud",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264237",
+    "date": "2026-01-22",
+    "title": "Top 7 Exposure Management Platforms",
+    "summary": "Exposure management platforms help security teams identify, prioritize, and reduce real-world cyber risk across their environments — without drowning them in vulnerability noise. Instead of treating every common vulnerability and exposure (CVE) the same, a modern exposure management platform conn...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/products/best-exposure-management-platforms/",
+    "tags": [
+      "vulnerability"
     ],
     "impact": 3
   },
