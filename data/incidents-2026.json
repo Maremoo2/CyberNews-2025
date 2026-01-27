@@ -1,5 +1,240 @@
 [
   {
+    "id": "20264189",
+    "date": "2026-01-27",
+    "title": "How to Safeguard Executives Through Proactive Planning and Managing Online Presence",
+    "summary": "Organizations can think about executive protection in three simple steps: assess, design and then deliver.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102097-how-to-safeguard-executives-through-proactive-planning-and-managing-online-presence",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264190",
+    "date": "2026-01-27",
+    "title": "Meta accéderait à vos messages WhatsApp chiffrés en permanence, selon cette nouvelle plainte",
+    "summary": "Un groupe international d'utilisateurs WhatsApp a déposé une plainte collective contre Meta à San Francisco. Les plaignants accusent l'entreprise de pouvoir accéder aux messages prétendument chiffrés de bout en bout. Meta qualifie ces allégations de \"fausses et absurdes\".",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597298-meta-accederait-a-vos-messages-whatsapp-chiffres-en-permanence-selon-cette-nouvelle-plainte.html",
+    "tags": [
+      "ai-ml",
+      "meta",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264191",
+    "date": "2026-01-27",
+    "title": "CISA Flags Actively Exploited VMware vCenter RCE Flaw in KEV Catalog",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability affecting VMware vCenter Server to its Known Exploited Vulnerabilities (KEV) catalog, confirming that the flaw is being actively exploited in real-world attacks. The update stresses CVE-2024-37079,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/vmware-vcenter-cve-2024-37079-exploited/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264192",
+    "date": "2026-01-27",
+    "title": "Canada Marks Data Privacy Week 2026 as Commissioner Pushes for Privacy by Design",
+    "summary": "As Data Privacy Week 2026 gets underway from January 26 to 30, Canada’s Privacy Commissioner Philippe Dufresne has renewed calls for stronger data protection practices, modern privacy laws, and a privacy-first approach to emerging technologies such as artificial intelligence. In a statement marki...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/data-privacy-week-2026-canada-urges-privacy/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264193",
+    "date": "2026-01-27",
+    "title": "Microsoft issues emergency fix for actively exploited Office flaw",
+    "summary": "Microsoft has released an out-of-band security update for Office products to address CVE-2026-21509, a high-severity vulnerability that is currently being exploited in the wild. The flaw allows attackers to bypass key security features and execute malicious payloads through specially crafted Offi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-issues-emergency-fix-for-actively-exploited-office-flaw/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264194",
+    "date": "2026-01-27",
+    "title": "NETSCOUT adds Wi-Fi 7 observability and real-time SSL certificate monitoring",
+    "summary": "NETSCOUT announced new capabilities that further enhance its observability solutions to address critical gaps in remote site management and risks stemming from expired SSL/TLS certificates. New nGeniusONE solution enhancements support real-time deep packet inspection (DPI) over Ethernet or Wi-Fi ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/netscout-ngeniusone-enhancements/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264195",
+    "date": "2026-01-27",
+    "title": "Microsoft reveals actively exploited Office zero-day, provides emergency fix (CVE-2026-21509)",
+    "summary": "Microsoft released emergency Office security updates to fix a security feature bypass vulnerability (CVE-2026-21509) that its threat intelligence and security teams spotted being exploited in the wild in zero-day attacks. Users and admins are advised to review the associated advisory and to imple...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/microsoft-reveals-actively-exploited-office-zero-day-provides-emergency-fix-cve-2026-21509/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264196",
+    "date": "2026-01-27",
+    "title": "Zscaler expands AI security capabilities to deliver visibility, control, and governance",
+    "summary": "Zscaler has announced new AI security innovations designed to empower enterprises to secure the fast growing use of AI, while maintaining visibility, control, and governance. As organizations adopt generative AI and prepare for the use of agentic AI, they face rising risk of cyberattacks and data...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/27/zscaler-ai-security-suite/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264197",
+    "date": "2026-01-27",
+    "title": "Curiosity Beat Urgency: What Our Latest Phishing Data Reveals",
+    "summary": "Phishing is still one of the most effective ways for attackers to get a foothold in an organisation. Last year we looked at data from more than 500,000 phishing simulations. These simulations were conducted by us and based on real-world attack techniques and psychological triggers used by attacke...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberPilot",
+    "sourceUrl": "https://www.cyberpilot.io/cyberpilot-blog/what-our-phishing-data-showed-us-in-2025",
+    "tags": [
+      "phishing",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264198",
+    "date": "2026-01-27",
+    "title": "STRATEGIC REEL: Certificate expiration is speeding up — outpacing legacy management",
+    "summary": "The clock on digital trust is about to speed up — and many organizations are not prepared for what comes next. Related: The Google Bazel tool outage TLS certificates — the quiet backbone of secure online communication — are headed toward dramatically shorter lifespans, and organizations will have...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/strategic-reel-certificate-expiration-is-speeding-up-outpacing-legacy-management/",
+    "tags": [
+      "malware",
+      "encryption",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264199",
+    "date": "2026-01-27",
+    "title": "“Hope You Die…Faggot”: Silicon Valley VC Keith Rabois Reaction to Public Execution of Pretti",
+    "summary": "Have you heard of Keith “Hope You Die…Faggot” Rabois? Never accountable. Not for $2.3 billion in losses. Not for a 95% value wipeout. Not for shouting death threats. Not for harassment. Not for backing a fraud-adjacent sports league. Does this Silicon Valley elite operate above the law? In practi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76647",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264200",
+    "date": "2026-01-27",
+    "title": "Overcoming AI fatigue",
+    "summary": "AI is now everywhere within enterprises. Many CISOs I speak with feel stuck between wanting to move forward and not knowing where to begin. The fear of getting both security’s use of AI and securing AI within the organization wrong often stops their process before it begins. That said, unlike oth...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122255/overcoming-ai-fatigue.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264201",
+    "date": "2026-01-27",
+    "title": "AI overload to accelerate zero-trust data governance adoption",
+    "summary": "Gartner has warned that the increasing volume of data generated by AI threatens the future reliability of large language models (LLMs). So much so, that it predicts that 50% of organizations will implement a zero-trust stance for data governance by 2028 due to the proliferation of unverified AI-g...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122266/50-of-organizations-will-adopt-zero-trust-data-governance-by-2028.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264202",
+    "date": "2026-01-27",
+    "title": "Weekly Update 488",
+    "summary": "It's the discussion about the reaction of some people in the UK regarding their impending social media ban for under 16s that bugged me most. Most noteably was the hand-waving around \"the gov is just trying to siphon up all our IDs\" and \"this means everyone will have to show ID, not just under 16...",
+    "region": "US",
+    "country": "Australia",
+    "sourceName": "Troy Hunt",
+    "sourceUrl": "https://www.troyhunt.com/weekly-update-488/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264203",
+    "date": "2026-01-27",
+    "title": "Microsoft Releases Patch for Office Zero Day Amid Evidence of Exploitation",
+    "summary": "Microsoft urged customers running Microsoft Office 2016 and 2019 to apply the patch to be protected",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/microsoft-patch-office-zero-day/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264204",
+    "date": "2026-01-27",
+    "title": "World Leaks Ransomware Group Claims 1.4TB Nike Data Breach",
+    "summary": "Nike is investigating after the World Leaks ransomware group posted a 1.4TB data dump",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/worldleaks-ransomware-14tb-nike/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264178",
     "date": "2026-01-27",
     "title": "Vos caméras de surveillance vous espionnent-elles ? L'erreur que tout le monde fait",
