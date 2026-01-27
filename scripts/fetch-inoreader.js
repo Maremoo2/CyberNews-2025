@@ -307,13 +307,24 @@ function transformItem(item, feedConfig, config, nextIdGenerator) {
     date = unixToDate(timestamp);
   }
   
-  // Validate date is not in the future
+  // Adjust future dates instead of skipping
   const today = new Date();
   today.setHours(23, 59, 59, 999); // End of today
   const incidentDate = new Date(date);
   if (incidentDate > today) {
-    console.log(`  ⚠️  Skipping item with future date (${date}): ${title}`);
-    return null;
+    const articleYear = incidentDate.getFullYear();
+    const currentYear = today.getFullYear();
+    
+    if (articleYear === currentYear) {
+      // Same year: use today's date
+      date = today.toISOString().split('T')[0];
+      console.log(`  ℹ️  Adjusted future date to today (${date}): ${title.substring(0, 50)}...`);
+    } else if (articleYear > currentYear) {
+      // Future year: use December 31st of current year
+      date = `${currentYear}-12-31`;
+      console.log(`  ℹ️  Adjusted future year to end of current year (${date}): ${title.substring(0, 50)}...`);
+    }
+    // If date is in the past, keep original date
   }
   
   // Generate tags and impact

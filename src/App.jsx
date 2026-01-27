@@ -505,7 +505,7 @@ function App() {
             <h1>
               {(() => {
                 const currentYear = new Date().getFullYear();
-                const today = new Date().toISOString().split('T')[0];
+                const today = latestDataPoint || new Date().toISOString().split('T')[0];
                 return selectedYear === currentYear 
                   ? `Security News — ${selectedYear} YTD (as of ${today})`
                   : `Security News Year in Review ${selectedYear}`;
