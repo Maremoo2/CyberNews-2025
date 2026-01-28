@@ -1490,6 +1490,30 @@
   {
     "id": "2006001",
     "date": "2006-09-06",
+    "title": "Securing Network Infrastructure Devices",
+    "summary": "Learn about the threats and risks associated with network infrastructure devices and how you can protect your network from cyber-attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/securing-network-infrastructure-devices",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2006002",
+    "date": "2006-09-06",
+    "title": "Safeguarding Your Data",
+    "summary": "Protect both your personal and work-related data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/safeguarding-your-data",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2006001",
+    "date": "2006-09-06",
     "title": "Safeguarding Your Data",
     "summary": "Protect both your personal and work-related data.",
     "region": "US",

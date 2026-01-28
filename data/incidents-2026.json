@@ -1,5 +1,538 @@
 [
   {
+    "id": "20264367",
+    "date": "2026-01-28",
+    "title": "Beware! Fake ChatGPT browser extensions are stealing your login credentials",
+    "summary": "If you've installed a browser extension to enhance your ChatGPT experience, you might want to think again. Read more in my article on the Hot for Security blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/beware-fake-chatgpt-browser-extensions-are-stealing-your-login-credentials",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264368",
+    "date": "2026-01-28",
+    "title": "Strong Privacy Requires Strong Security — and GenAI Raises the Stakes",
+    "summary": "Privacy and security are not competing disciplines; they are inseparable components of the same responsibility.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102098-strong-privacy-requires-strong-security-and-genai-raises-the-stakes",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264369",
+    "date": "2026-01-28",
+    "title": "Hong Kong hit with record cyberattacks in 2025 as AI-linked threats rise",
+    "summary": "The number of cyberattacks in Hong Kong hit a record high in 2025, with detected system vulnerabilities tripling, prompting experts to warn that artificial intelligence (AI) could pose a major risk of further attacks this year. Edmond Lai Shiao-bun, chief digital officer of the Hong Kong Producti...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3341538/hong-kong-hit-record-cyberattacks-2025-ai-linked-threats-rise?utm_source=rss_feed",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264370",
+    "date": "2026-01-28",
+    "title": "Can Meta Read Your WhatsApp Chats? App Responds With Anti-Spyware Update",
+    "summary": "WhatsApp tightens user protections WhatsApp launches Strict Account Settings to boost security.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/tech/105139/can-meta-read-your-whatsapp-chats-app-responds-with-anti-spyware-update",
+    "tags": [
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264371",
+    "date": "2026-01-28",
+    "title": "Fuite de données chez Nike : un groupe de cyberextorsion revendique le vol de 1,4 To de fichiers",
+    "summary": "Un groupe de cybercriminels affirme avoir exfiltré plusieurs centaines de milliers de documents internes de Nike. La marque dit enquêter, sans confirmer la fuite ni l’authenticité de fichiers brièvement publiés sur un site de leaks, puis retirés.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597718-fuite-de-donnees-chez-nike-un-groupe-de-cyberextorsion-revendique-le-vol-de-1-4-to-de-fichiers.html",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264372",
+    "date": "2026-01-28",
+    "title": "NordVPN : un VPN complet et fiable pour sécuriser sa navigation en 2026 à prix réduit",
+    "summary": "Entre la généralisation du télétravail, l’explosion des usages mobiles et la multiplication des attaques de type phishing ou malwares, protéger ses connexions est devenu un réflexe plus qu’une option.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-597625-nordvpn-un-vpn-complet-et-fiable-pour-securiser-sa-navigation-en-2026-a-prix-reduit.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264373",
+    "date": "2026-01-28",
+    "title": "Microsoft va devoir arrêter de pister les enfants avec Microsoft 365 Education",
+    "summary": "L'autorité autrichienne de protection des données ordonne à Microsoft de cesser d'utiliser des cookies de tracking sur les appareils d'élèves utilisant sa suite bureautique. L'entreprise dispose de quatre semaines pour se mettre en conformité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597463-microsoft-va-devoir-arreter-de-pister-les-enfants-avec-microsoft-365-education.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264374",
+    "date": "2026-01-28",
+    "title": "L'OSINT est une technique de renseignement que vous utilisez chaque jour sans le savoir, sur Google et ailleurs",
+    "summary": "Expert en cybersécurité, Baptiste Robert explique les secrets de l'OSINT, cette discipline qui transforme les données publiques en renseignements exploitables, du conflit ukrainien aux divorces contentieux. Mal sollicitée, la pratique peut très vite être à la limite de la légalité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597568-du-divorce-a-la-guerre-l-osint-est-une-technique-de-renseignement-que-vous-utilisez-chaque-jour-sans-le-savoir-interview.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264375",
+    "date": "2026-01-28",
+    "title": "AHA Releases New Guides to Strengthen Hospital Emergency and Cyber Preparedness",
+    "summary": "Healthcare organizations in the United States face threats, ranging from public health emergencies to cyberattacks. To support hospitals and health systems in enhancing their preparedness and resilience, the American Hospital Association (AHA) has released two comprehensive resources for cyber pr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cyber-preparedness-in-healthcare/",
+    "tags": [
+      "malware",
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264376",
+    "date": "2026-01-28",
+    "title": "US Charges 87 in Major ATM Jackpotting Scheme Linked to Tren de Aragua",
+    "summary": "A federal grand jury in Nebraska has issued a new indictment in a major international cybercrime case involving an “ATM jackpotting” scheme tied to the violent transnational gang Tren de Aragua (TdA). The latest charges bring the total number of defendants accused in the operation to 87, highligh...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/atm-jackpotting-scheme/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264377",
+    "date": "2026-01-28",
+    "title": "Hackers Exploit React2Shell Vulnerability to Deploy Miners and Botnets Worldwide",
+    "summary": "Threat actors have been actively exploiting a critical vulnerability in React Server Components, tracked as CVE-2025-55182 and commonly referred to as React2Shell, to compromise systems across multiple industry sectors worldwide. React2Shell affects the Flight protocol, which is responsible for c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cve-2025-55182-react2shell-active-exploitation/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264378",
+    "date": "2026-01-28",
+    "title": "Signal president warns AI agents are making encryption irrelevant",
+    "summary": "Signal Foundation president Meredith Whittaker said artificial intelligence agents embedded within operating systems are eroding the practical security guarantees of end-to-end encryption (E2EE). The remarks were made during an interview with Bloomberg at the World Economic Forum in Davos. While ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/signal-president-warns-ai-agents-are-making-encryption-irrelevant/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264379",
+    "date": "2026-01-28",
+    "title": "n8n adds Chat Hub to centralize AI access inside automation workflows",
+    "summary": "Teams using automation platforms are starting to treat conversational AI as another operational interface. That change is reflected in a new feature from n8n, which has introduced a built-in Chat Hub designed to let users interact with AI models and internal automation through a single chat inter...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/n8n-chat-hub-centralize-ai-access/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264380",
+    "date": "2026-01-28",
+    "title": "French government abandons Zoom and Microsoft Teams over security concerns",
+    "summary": "France intends to phase out non-European videoconferencing platforms such as Zoom and Microsoft Teams from its public administration, opting instead for a nationally developed solution due to security considerations. Ending the use of paid software licenses is expected to generate significant sav...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/france-zoom-teams-visio-public-administration/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264381",
+    "date": "2026-01-28",
+    "title": "McAfee upgrades Scam Detector to spot QR code scams and suspicious messages",
+    "summary": "McAfee announced upgrades to Scam Detector that improve protection across common scam channels. The enhanced tool helps users check QR code safety and identify suspicious direct messages across apps. In 2025, according to McAfee’s 2026 State of the Scamiverse report, Americans were hit hard by on...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/mcafee-scam-detector-upgrade/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264382",
+    "date": "2026-01-28",
+    "title": "Cloudbrink adds AI innovations to its platform to protect agents, apps, and data",
+    "summary": "Cloudbrink has expanded security and performance benefits for AI agents and online AI services. The new AI capabilities are available on the same platform as Cloudbrink’s secure connectivity, allowing companies to secure users, apps, and AI in a more unified way. According to a McKinsey report, 8...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/cloudbrink-ai-platform-innovations/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264383",
+    "date": "2026-01-28",
+    "title": "Fortinet expands FortiCNAPP with network, data, and runtime-aware risk prioritization",
+    "summary": "Fortinet announced new enhancements to FortiCNAPP that help organizations better understand and prioritize cloud risk beyond what many CNAPP solutions offer. By correlating cloud configuration, identity exposure, vulnerabilities, network enforcement, data sensitivity, and runtime behavior within ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/fortinet-forticnapp-enhancements/",
+    "tags": [
+      "malware",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264384",
+    "date": "2026-01-28",
+    "title": "Teleport’s Agentic Identity Framework protects AI agents in production environments",
+    "summary": "Teleport has unveiled the Teleport Agentic Identity Framework, an AI-centered framework that provides organizations with a roadmap for securely deploying agentic AI across production cloud and on-premises environments. The framework will evolve alongside the industry and community needs, defining...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/teleport-agentic-identity-framework/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264385",
+    "date": "2026-01-28",
+    "title": "Yubico extends hardware passkey deployment options",
+    "summary": "Yubico announced a significant expansion of YubiKey as a Service, introducing new capabilities that make modern organizations more agile and cyber resilient. With new Self-Service Ordering of YubiKeys enabled through a more streamlined Customer Portal, organizations can deliver phishing-resistanc...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/yubikeys-self-service-ordering-feature/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264386",
+    "date": "2026-01-28",
+    "title": "Volante’s Multi-cloud Resiliency Service keeps payments running during cloud outages",
+    "summary": "Volante Technologies announced the launch of its Multi-cloud Resiliency Service, engineered to keep financial institutions’ payment operations running seamlessly during major cloud provider outages. Built on Volante’s cloud-native payments platform, the service provides cross-cloud continuity, el...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/volante-technologies-multi-cloud-resiliency-service/",
+    "tags": [
+      "malware",
+      "cloud",
+      "finance",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264387",
+    "date": "2026-01-28",
+    "title": "Pondurance RansomSnare blocks file encryption and data exfiltration",
+    "summary": "Pondurance launched RansomSnare, a new module for its MDR service that halts ransomware attacks at the moment the malicious process attempts to encrypt files and prevents threat actors from exfiltrating sensitive data. RansomSnare is a next-generation ransomware prevention capability that works b...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/pondurance-ransomsnare-module/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264388",
+    "date": "2026-01-28",
+    "title": "WhatsApp rolls out new security feature to protect users from sophisticated attacks",
+    "summary": "To add an extra layer of protection to its end-to-end encryption, WhatsApp has begun rolling out a new privacy and security feature called Strict Account Settings. It is designed to help users protect their accounts from sophisticated cyberattacks. “We think you should be able to have a private c...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/whatsapp-strict-account-settings/",
+    "tags": [
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264389",
+    "date": "2026-01-28",
+    "title": "Microsoft patches actively exploited Office zero-day vulnerability",
+    "summary": "Executive Summary In a swift response to escalating cyber threats, Microsoft has issued an emergency security update to remediate a high-severity zero-day vulnerability affecting several versions of Microsoft Office. Tracked as CVE-2026-21509, this security feature bypass flaw impacts Microsoft O...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264390",
+    "date": "2026-01-28",
+    "title": "The Week in Vulnerabilities: Cyble Urges Oracle, OpenStack Fixes",
+    "summary": "Cyble Vulnerability Intelligence researchers tracked 1,031 vulnerabilities in the last week, and nearly 200 already have a publicly available Proof-of-Concept (PoC), significantly increasing the likelihood of real-world attacks on those vulnerabilities. A total of 72 vulnerabilities were rated as...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/week-in-vulnerabilities-oracle-openstack/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "oracle"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264391",
+    "date": "2026-01-28",
+    "title": "Critical FortiCloud SSO zero‑day forces emergency service disablement at Fortinet",
+    "summary": "Fortinet has disclosed a critical authentication bypass zero-day vulnerability affecting its FortiCloud single sign-on feature after the company took the emergency step of temporarily disabling the cloud authentication service globally to stop active exploitation. The US Cybersecurity and Infrast...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123500/critical-forticloud-sso-zero%e2%80%91day-forces-emergency-service-disablement-at-fortinet.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264392",
+    "date": "2026-01-28",
+    "title": "Sicarii ransomware locks your data and throws away the keys",
+    "summary": "A newly observed Sicarii ransomware strain contains a critical encryption key handling defect that can leave encrypted data unrecoverable, even if a victim pays the ransom or uses a provided decryptor. Analysts at the Halcyon Ransomware Research Center found that Sicarii generates fresh RSA key p...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123492/sicarii-ransomware-locks-your-data-and-throws-away-the-keys.html",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264393",
+    "date": "2026-01-28",
+    "title": "Always-on privileged access is pervasive — and fraught with risks",
+    "summary": "Privileged access management (PAM) has always been about ensuring least privilege. But the nature of enterprise cybersecurity — on top of the complexity of system operations — has prompted far too many users to log in at the highest possible privilege and stay there, even when most of their tasks...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123184/always-on-privileged-access-is-pervasive-and-fraught-with-risks.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264394",
+    "date": "2026-01-28",
+    "title": "Delegation is a risk decision every leader makes, not an ops choice",
+    "summary": "You make delegation decisions every day. Sometimes they look like management choices: who owns a workflow, which team runs a tool, how quickly something should ship. Other times, they barely register at all. You accept a default setting. You enable automation. You let a system act on your behalf ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123227/delegation-is-a-risk-decision-every-leader-makes-not-an-ops-choice.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264395",
+    "date": "2026-01-28",
+    "title": "Skills CISOs need to master in 2026",
+    "summary": "Three decades ago, when Steve Katz became the world’s first CISO at Citicorp/Citigroup, he quickly realized that his role was more than solving problems with tech. Katz had to communicate well, meet with C-level executives, and do anything in his power to reduce risk. “The basic philosophy that I...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4117799/skills-cisos-need-to-master-in-2026.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264396",
+    "date": "2026-01-28",
+    "title": "Diese Unternehmen hat es schon erwischt",
+    "summary": "Lesen Sie, welche Unternehmen in Deutschland aktuell von Cyberangriffen betroffen sind.Roman Samborskyi | shutterstock.com Sie denken, Ihre Sicherheitsmaßnahmen können Sie langfristig vor Cyberangriffen schützen? Oder dass Ihr Unternehmen zu klein und damit uninteressant für Hacker ist? Egal, ob ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3577944/diese-unternehmen-hats-schon-erwischt.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264399",
+    "date": "2026-01-28",
+    "title": "AI Security Threats Loom as Enterprise Usage Jumps 91%",
+    "summary": "Zscaler analysts found critical vulnerabilities in 100% of enterprise AI systems, with 90% compromised in under 90 minutes",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-security-threats-loom-zscaler/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264400",
+    "date": "2026-01-28",
+    "title": "Researchers Uncover 454,000+ Malicious Open Source Packages",
+    "summary": "Sonatype warns that open source threats became industrialized with a surge in malicious packages in 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/454000-malicious-open-source/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264401",
+    "date": "2026-01-28",
+    "title": "Chinese Money Launderers Drive Global Ecosystem Worth $82bn",
+    "summary": "Chainalysis claims Chinese money launderers now account for 20% of global activity",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/chinese-money-launderers-global/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264402",
+    "date": "2026-01-28",
+    "title": "Trump’s Acting Cyber Chief Allegedly Leaked Data to ChatGPT",
+    "summary": "Sources say event triggered internal cybersecurity alerts and a DHS–level review into whether federal information had been improperly exposed. The post Trump’s Acting Cyber Chief Allegedly Leaked Data to ChatGPT appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-cisa-cyber-chief-chatgpt/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264403",
+    "date": "2026-01-28",
+    "title": "Android Phones Get AI-Powered Anti-Theft Features",
+    "summary": "Enhanced lockouts and stronger remote locking aim to make stolen devices far harder—and less profitable—for criminals. The post Android Phones Get AI-Powered Anti-Theft Features appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-android-anti-theft-features/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264404",
+    "date": "2026-01-28",
+    "title": "New WhatsApp lockdown feature protects high-risk users from hackers",
+    "summary": "Meta has started rolling out a new WhatsApp lockdown-style security feature designed to protect journalists, public figures, and other high-risk individuals from sophisticated threats, including spyware attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-gets-new-lockdown-feature-that-blocks-cyberattacks/",
+    "tags": [
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264359",
     "date": "2026-01-28",
     "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
@@ -292,6 +825,21 @@
     "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264397",
+    "date": "2026-01-27",
+    "title": "Microsoft Office vulnerability (CVE-2026-21509) in active exploitation",
+    "summary": "Categories: Threat ResearchTags: Microsoft Office, vulnerability, advisory",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/microsoft-office-vulnerability-cve-2026-21509-in-active-exploitation",
+    "tags": [
+      "vulnerability",
+      "microsoft"
     ],
     "impact": 3
   },
@@ -2950,6 +3498,21 @@
     "tags": [
       "phishing",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264398",
+    "date": "2026-01-26",
+    "title": "Generative AI and cybersecurity: What Sophos experts expect in 2026",
+    "summary": "Categories: Sophos InsightsTags: Sophos AI, Gen AI, Year in Review",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/generative-ai-and-cybersecurity-what-sophos-experts-expect-in-2026",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
