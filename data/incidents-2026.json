@@ -1,5 +1,123 @@
 [
   {
+    "id": "20264359",
+    "date": "2026-01-28",
+    "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
+    "summary": "Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild. The vulnerability, assigned the CVE identifier CVE-2026-24858 (CVSS score: 9.4), has been described as an authentication bypass related to FortiOS single...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264360",
+    "date": "2026-01-28",
+    "title": "[Ekstra] Ekspert om hackerbølgen: – Det kan være for sent å bare oppdatere",
+    "summary": "Kripos ber virksomheter oppdatere, men sikkerhetsekspert Gøran Tømte advarer om at det alene ikke er nok.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ekspert-om-hackerbolgen-det-kan-vaere-for-sent-a-bare-oppdatere/567429",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264361",
+    "date": "2026-01-28",
+    "title": "[Ekstra] Rapport: Derfor kan KI-modellene snart «kollapse»",
+    "summary": "Den økende mengden KI-generert innhold på nettet er en trussel mot KI-modellenes troverdighet, mener Gartner.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/rapport-derfor-kan-ki-modellene-snart-kollapse/567459",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264362",
+    "date": "2026-01-28",
+    "title": "Data Protection Day 2026: From Compliance to Resilience",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/data-protection-day-2026-from-compliance-to-resilience/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264363",
+    "date": "2026-01-28",
+    "title": "ISC Stormcast For Wednesday, January 28th, 2026 https://isc.sans.edu/podcastdetail/9784, (Wed, Jan 28th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32660",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264364",
+    "date": "2026-01-28",
+    "title": "Cybercriminals and nation-state groups are exploiting a six-month old WinRAR defect",
+    "summary": "Google Threat Intelligence Group warned that a diverse and growing collection of attackers, including nation-state groups and financially motivated cybercriminals, are exploiting a path-traversal vulnerability affecting WinRAR that was disclosed and patched six months ago. The high-severity vulne...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/winrar-defect-active-exploits-google-threat-intel/",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264365",
+    "date": "2026-01-28",
+    "title": "iba Systems ibaPDA - ICS Advisories - CISA",
+    "summary": "A lock ( A locked padlock ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-027-01",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264366",
+    "date": "2026-01-28",
+    "title": "Top 5 Third-Party Vulnerabilities Attackers Exploit - BitSight Technologies",
+    "summary": "Learn the top 5 vulnerabilities cyber attackers exploit in your third-party vendors. Explore how these risks impact your supply chain security and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/top-third-party-vulnerabilities-supply-chain-risk",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264349",
     "date": "2026-01-28",
     "title": "CISO Salaries Continue to Rise Despite Economic Uncertainty",
