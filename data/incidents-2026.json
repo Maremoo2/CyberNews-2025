@@ -1,5 +1,679 @@
 [
   {
+    "id": "20264433",
+    "date": "2026-01-28",
+    "title": "Why Your Security Team Needs to Hire Non-Traditional Professionals",
+    "summary": "Aaron Walton, Threat Analyst at Expel, discusses the value non-traditional professionals in cybersecurity.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102088-why-your-security-team-needs-to-hire-non-traditional-professionals",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264434",
+    "date": "2026-01-28",
+    "title": "Hygon’s chips ‘safe’ from AMD security flaw amid China’s tech self-reliance drive",
+    "summary": "Chips from Chinese semiconductor designer Hygon Information Technology were found unaffected by a recently disclosed vulnerability in products developed by its US tech licenser and former joint venture partner Advanced Micro Devices (AMD), according to analysts, which showed progress in China’s s...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/tech/tech-trends/article/3341570/hygons-chips-safe-amd-security-flaw-amid-chinas-tech-self-reliance-drive?utm_source=rss_feed",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264435",
+    "date": "2026-01-28",
+    "title": "Trump’s acting cybersecurity chief uploaded sensitive government docs to ChatGPT",
+    "summary": "A report cited officials as saying that Homeland Security sought to determine if there was any harm to government security as a result of the lapse.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/28/trumps-acting-cybersecurity-chief-uploaded-sensitive-government-docs-to-chatgpt/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264436",
+    "date": "2026-01-28",
+    "title": "Fortinet confirme une nouvelle faille critique exploitée sur FortiGate",
+    "summary": "Après plusieurs jours de flou autour d’un possible contournement de correctif, Fortinet confirme l’exploitation active d’une nouvelle faille zero-day liée à FortiCloud SSO. En attendant les patchs, l’éditeur a bloqué les attaques directement côté serveur.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597814-fortinet-confirme-une-nouvelle-faille-critique-exploitee-sur-fortigate.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264437",
+    "date": "2026-01-28",
+    "title": "Technique d'OSINT surréaliste, le suivi des pizzas livrées près du Pentagone prédit-il l'attaque des USA sur l'Iran ?",
+    "summary": "Un pic de commandes de pizzas près du Pentagone coïncide avec les menaces de Donald Trump contre l'Iran. Cette technique d'OSINT improbable, qui fait le buzz, s'impose désormais comme baromètre des tensions géopolitiques.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597823-technique-d-osint-surrealiste-le-suivi-des-pizzas-livrees-pres-du-pentagone-predit-il-l-attaque-des-usa-sur-l-iran.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264438",
+    "date": "2026-01-28",
+    "title": "Telegram, Coco, Kick : un oubli du gouvernement pourrait fragiliser plusieurs affaires",
+    "summary": "Ces derniers mois, la fermeté affichée des autorités françaises face aux plateformes numériques s’est traduite par une série de procédures très médiatisées. Telegram, la plateforme de streaming Kick ou encore le site Coco se retrouvent au cœur d’enquêtes sensibles, sur fond de régulation des serv...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597793-telegram-coco-kick-un-oubli-du-gouvernement-pourrait-fragiliser-plusieurs-affaires.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264439",
+    "date": "2026-01-28",
+    "title": "Cette faille WinRAR corrigée depuis des mois est toujours massivement exploitée par les cybercriminels",
+    "summary": "Corrigée depuis l’été 2025, une faille critique de WinRAR continue pourtant d’être exploitée dans des attaques bien réelles. Google Threat Intelligence Group décrit un même schéma d’infection, avec des archives piégées utilisées pour déposer des fichiers persistants sur des systèmes Windows encor...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597766-cette-faille-winrar-corrigee-depuis-des-mois-est-toujours-massivement-exploitee-par-les-cybercriminels.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264440",
+    "date": "2026-01-28",
+    "title": "Surfshark passe avec succès un nouvel audit mais change la donne sur Android",
+    "summary": "Surfshark a publié les résultats d'un audit de sécurité mené par SecuRing sur son infrastructure réseau. Le fournisseur de VPN ajuste aussi le support de ses applications Android et abandonne les versions antérieures à Marshmallow.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597724-surfshark-passe-avec-succes-un-nouvel-audit-mais-change-la-donne-sur-android.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264441",
+    "date": "2026-01-28",
+    "title": "L'alerte est lancée sur TA584, le groupe cybercriminel qui fait trembler l'Europe",
+    "summary": "Le groupe cybercriminel TA584, potentiellement affililé à la Russie, multiplie ses attaques et cible désormais l'Europe sans restriction. Avec de nouvelles techniques d'ingénierie sociale et des malwares sophistiqués, il est une menace croissante.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597772-l-alerte-est-lancee-sur-ta584-le-groupe-cybercriminel-qui-fait-trembler-l-europe.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264442",
+    "date": "2026-01-28",
+    "title": "Corporate workers lean on shadow AI to enhance speed",
+    "summary": "A report shows senior corporate executives are willing to allow unsanctioned AI use, which could place company data at risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/corporate-workers-shadow-ai-speed/810721/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264443",
+    "date": "2026-01-28",
+    "title": "AI tools break quickly, underscoring need for governance",
+    "summary": "In a new report, the security firm Zscaler said it identified severe vulnerabilities in every enterprise tool it tested — sometimes on its first prompt.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ai-vulnerabilities-governance-zscaler/810718/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264444",
+    "date": "2026-01-28",
+    "title": "Microsoft ordered to halt illegal tracking of children in Austria",
+    "summary": "The Austrian Data Protection Authority (DSB) has ruled that Microsoft unlawfully installed tracking cookies on a student’s device through its Microsoft 365 Education platform, marking a second victory for privacy rights group noyb in its campaign against the tech giant. The DSB found that Microso...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-ordered-to-halt-illegal-tracking-of-children-in-austria/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264445",
+    "date": "2026-01-28",
+    "title": "Bitwarden fixed mobile app flaw that could expose 2FA codes",
+    "summary": "Bitwarden has completed its 2025 third-party security audits, uncovering and resolving several low- and medium-severity issues across its web and mobile applications. The assessments, conducted by Fracture Labs and Unit 42 (Palo Alto Networks), identified no critical or high-risk vulnerabilities,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/bitwarden-fixed-mobile-app-flaw-that-could-expose-2fa-codes/",
+    "tags": [
+      "vulnerability",
+      "supply-chain",
+      "mobile",
+      "palo alto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264446",
+    "date": "2026-01-28",
+    "title": "WinRAR vulnerability still a go-to tool for hackers, Mandiant warns",
+    "summary": "State-sponsored hackers and financially motivated attackers continue leveraging a critical WinRAR vulnerability (CVE-2025-8088) that’s been fixed over half a year ago. CVE-2025-8088 is a path traversal vulnerability that can be exploited via maliciously crafted RAR archives. “The exploit chain of...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/winrar-vulnerability-exploited-cve-2025-8088/",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264447",
+    "date": "2026-01-28",
+    "title": "Veracode’s platform enhancements help prevent software supply chain attacks",
+    "summary": "Veracode announced significant platform innovations introduced through the second half of 2025. Headlining the release is Package Firewall, a preventive control for software supply chains, advancing the company’s mission to help organizations run secure software from code to cloud. With supply ch...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/veracode-platform-innovations/",
+    "tags": [
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264448",
+    "date": "2026-01-28",
+    "title": "MIND DLP for Agentic AI protects sensitive data and controls AI access",
+    "summary": "MIND announced DLP for Agentic AI, a data-centric approach to AI security designed to help organizations safely achieve the business value of agentic AI by ensuring sensitive data and AI systems interact safely and responsibly. Agentic AI can autonomously create, access, transform and share data ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/mind-dlp-for-agentic-ai/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264449",
+    "date": "2026-01-28",
+    "title": "Rein Security launches to provide protection inside application production environments",
+    "summary": "Rein Security emerged from stealth to address blind spots in application and AI security. Building on an initial $8 million seed round led by Glilot Capital, Rein delivers a patent pending technology that provides real-time context and protection inside application production environments. Enterp...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/rein-security-application-protection/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264450",
+    "date": "2026-01-28",
+    "title": "Fortinet Confirms CVE-2026-24858 SSO Flaw Under Active Attack",
+    "summary": "Fortinet confirmed active exploitation of an authentication bypass flaw in FortiCloud SSO that could lead to administrative takeover of affected systems. The issue allows unauthorized attackers to log in to devices they do not own, bypassing expected account boundaries. This vulnerability “… may ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortinet-confirms-cve-2026-24858-sso-flaw-under-active-attack/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264451",
+    "date": "2026-01-28",
+    "title": "CVE-2025-56005: Python PLY Flaw Enables Remote Code Execution",
+    "summary": "A vulnerability in the Python PLY (Python Lex-Yacc) library allows attackers to execute arbitrary code on vulnerable systems, raising concerns for applications that rely on cached parser tables. The flaw, which affects PLY version 3.11 distributed via PyPI, has a publicly available proof-of-conce...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cve-2025-56005-python-ply-flaw-enables-remote-code-execution/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264452",
+    "date": "2026-01-28",
+    "title": "React Server Components Flaws Enable DoS Attacks",
+    "summary": "Multiple vulnerabilities in React Server Components allow attackers to trigger denial-of-service (DoS) conditions on vulnerable servers. The flaws stem from incomplete remediation of earlier fixes and affect widely used packages in the React ecosystem, prompting calls for immediate patching. Thes...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/react-server-components-flaws-enable-dos-attacks/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264453",
+    "date": "2026-01-28",
+    "title": "LayerX Finds Malicious ChatGPT Extensions Hijack User Accounts",
+    "summary": "As AI productivity tools surge in popularity, attackers are quietly abusing malicious Chrome extensions to hijack ChatGPT accounts and extract sensitive data. Although the campaign is still in its early stages, LayerX researchers warn it reveals a growing security blind spot for organizations ado...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/layerx-finds-malicious-chatgpt-extensions-hijack-user-accounts/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264454",
+    "date": "2026-01-28",
+    "title": "Smarter Security, Smaller Teams: Building Resilience with Limited Resources",
+    "summary": "Security operations have reached an inflection point. Threats are growing more sophisticated, environments are becoming more distributed, and workloads continue to expand — but security teams rarely grow at the same pace. Traditional approaches that rely on high alert volumes, sprawling toolsets,...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/security/smarter-security-smaller-teams-building-resilience-with-limited-resources/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20264455",
+    "date": "2026-01-28",
+    "title": "CVE-2026-24858: FortiOS SSO Zero-Day Exploited in the Wild",
+    "summary": "The year 2026 has started with an avalanche of zero-day vulnerabilities, causing a menace for cyber defenders. Right after Microsoft Office zero-day (CVE-2026-21509) and a critical flaw in Cisco products (CVE-2026-20045) that were repeatedly exploited for in-the-wild attacks, Fortinet has disclos...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-24858-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "microsoft",
+      "cisco",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264456",
+    "date": "2026-01-28",
+    "title": "Attackers Are Taking Over Real Email Threads to Deliver Phishing: New Enterprise Risk",
+    "summary": "Think you can trust every email that comes from a business partner? Unfortunately, that’s no longer guaranteed; attackers now slip into legitimate threads and send messages that look fully authentic. That’s exactly what happened in a new case uncovered by ANY.RUN researchers; a trust takeover ins...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/enterprise-email-thread-phishing/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264457",
+    "date": "2026-01-28",
+    "title": "Privacy Day Is Not Just an Awareness Day",
+    "summary": "Privacy Day is often treated as a reminder, a moment to restate principles, share statistics, and reaffirm that privacy matters. And it does. Awareness is still necessary. But awareness alone no longer reflects where most organizations actually struggle. Today, the gap is not between knowing that...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Data Privacy Manager Blog",
+    "sourceUrl": "https://dataprivacymanager.net/privacy-day-is-not-just-an-awareness-day/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264458",
+    "date": "2026-01-28",
+    "title": "From the Last Supper to the Next Breakfast: Why Virtru Is Critical Infrastructure for Defense's Data-Driven Future",
+    "summary": "When defense industry leaders gathered for the infamous \"Last Supper\" in 1993, they consolidated around a simple principle: build bigger platforms, integrate them vertically, and control the entire system. That model worked for an era when defense meant aircraft carriers, fighter jets, and missil...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/data-centric-security/last-supper-next-breakfast-virtru-infrastructure",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264459",
+    "date": "2026-01-28",
+    "title": "Productivity at a Price: The Rising Cost of AI Convenience | UpGuard",
+    "summary": "AI tools offer efficiency, but at a cost. UpGuard reveals how PII leaks and new supply chain vulnerabilities are hidden in widely used AI workflows.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "UpGuard Blog",
+    "sourceUrl": "https://upguard-staging.webflow.io/blog/productivity-and-the-rising-cost-of-ai-convenience",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264460",
+    "date": "2026-01-28",
+    "title": "Palo Alto unveils Quantum-Safe Security to mitigate cryptographic risk",
+    "summary": "Palo Alto Networks unveiled its Quantum-Safe Security solution at the company’s virtual Quantum-Safe Summit Tuesday. The solution is designed to help organizations prepare for the post-quantum era by addressing the transition from current cryptography to quantum-resistant algorithms without disru...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123719/palo-alto-warns-of-quantum-risk-to-digital-security.html",
+    "tags": [
+      "encryption",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264461",
+    "date": "2026-01-28",
+    "title": "Massives Datenleck bedroht rund 150 Millionen Benutzer",
+    "summary": "Die offengelegten Zugangsdaten stellen ein erhebliches Sicherheitsrisiko dar.Digineer Station – shutterstock.com Der Cybersicherheitsforscher Jeremiah Fowler deckte kürzlich ein Datenleck mit 149 Millionen Login-Daten auf. Zu den Opfern zählen vor allem Nutzer großer Tech-und Streaming-Anbieter. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123589/massives-datenleck-bedroht-rund-150-millionen-benutzer.html",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20264462",
+    "date": "2026-01-28",
+    "title": "China-Backed 'PeckBirdy' Takes Flight for Cross-Platform Attacks",
+    "summary": "In two separate campaigns, attackers used the JScript C2 framework to target Chinese gambling websites and Asian government entities with new backdoors.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/china-backed-peckbirdy-cross-platform-attacks",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264463",
+    "date": "2026-01-28",
+    "title": "Surging Cyberattacks Boost Latin America to Riskiest Region",
+    "summary": "The region is up against tactics like data-leak extortion, credential-stealing campaigns, edge-device exploitation, and attackers leveraging AI.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/surging-cyberattacks-latin-america-riskiest-region",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264465",
+    "date": "2026-01-28",
+    "title": "Eeny, meeny, miny, moe? How ransomware operators choose victims",
+    "summary": "Most ransomware attacks are opportunistic, not targeted at a specific sector or regionCategories: Threat ResearchTags: Ransomware, cybercrime, state-sponsored ransomware, victimization",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/eeny-meeny-miny-moe-how-ransomware-operators-choose-victims",
+    "tags": [
+      "ransomware",
+      "malware",
+      "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264466",
+    "date": "2026-01-28",
+    "title": "Autonomous System Uncovers Long-Standing OpenSSL Flaws",
+    "summary": "A recent update has fixed 12 vulnerabilities in OpenSSL, some existing in the codebase for years",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/12-openssl-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "encryption",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264467",
+    "date": "2026-01-28",
+    "title": "Critical and High Severity n8n Sandbox Flaws Allow RCE",
+    "summary": "Two critical security flaws in n8n have exposed sandboxing vulnerabilities, enabling remote code execution for attackers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/n8n-sandbox-flaws-allow-rce/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264468",
+    "date": "2026-01-28",
+    "title": "Emojis in PureRAT’s Code Point to AI-Generated Malware Campaign",
+    "summary": "Researchers discover that PureRAT’s code now contains emojis – indicating it has been written by AI based-on comments ripped from social media.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/emojis-in-purerats-code/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264469",
+    "date": "2026-01-28",
+    "title": "Streamlining Multi-IXP Access with Remote Peering",
+    "summary": "Accessing multiple Internet Exchange Points (IXPs) has long been the hallmark of a truly global network. Yet the process of connecting to each exchange, individually, physically, and contractually, has traditionally created more friction than reach. Organisations wanting to expand their internet ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/streamlining-multi-ixp-access-with-remote-peering",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264470",
+    "date": "2026-01-28",
+    "title": "AI and Cybersecurity Basics Every Student Should Know Before College",
+    "summary": "Going to college usually means more freedom, more online accounts, and more time on Wi-Fi that everyone can use. It also means that you have a greater possibility of getting hacked, scammed, or locked out of your own system. When you add AI to the equation, the risk goes up since scammers can now...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/ai-and-cybersecurity-basics-every-student-should-know-before-college",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264471",
+    "date": "2026-01-28",
+    "title": "Coffee with the Council Podcast: PCI SSC Releases Version 2.0 of the PCI Secure Software Standard ",
+    "summary": "Welcome to our podcast series, Coffee with the Council. I'm Alicia Malone, Director of Communications and Public Relations for the PCI Security Standards Council. Well, happy new year and welcome to the fifth season of our podcast series. The Council is off and running with its first major piece ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-pci-ssc-releases-version-2-0-of-the-pci-secure-software-standard",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20264472",
+    "date": "2026-01-28",
+    "title": "New sandbox escape flaw exposes n8n instances to RCE attacks",
+    "summary": "Two vulnerabilities in the n8n workflow automation platform could allow attackers to fully compromise affected instances, access sensitive data, and execute arbitrary code on the underlying host. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264473",
+    "date": "2026-01-28",
+    "title": "FBI seizes RAMP cybercrime forum used by ransomware gangs",
+    "summary": "The FBI has seized the notorious RAMP cybercrime forum, a platform used to advertise a wide range of malware and hacking services, and one of the few remaining forums that openly allowed the promotion of ransomware operations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-seizes-ramp-cybercrime-forum-used-by-ransomware-gangs/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264474",
+    "date": "2026-01-28",
+    "title": "Empire cybercrime market owner pleads guilty to drug conspiracy",
+    "summary": "​A Virginia man who co-created Empire Market, one of the largest dark web marketplaces at the time, pleaded guilty to federal drug conspiracy charges for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/empire-cybercrime-market-owner-pleads-guilty-to-drug-conspiracy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264475",
+    "date": "2026-01-28",
+    "title": "AI Is Rewriting Compliance Controls and CISOs Must Take Notice",
+    "summary": "AI agents are now executing regulated actions, reshaping how compliance controls actually work. Token Security explains why CISOs must rethink identity, access, and auditability as AI becomes a digital employee. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ai-is-rewriting-compliance-controls-and-cisos-must-take-notice/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264476",
+    "date": "2026-01-28",
+    "title": "SolarWinds warns of critical Web Help Desk RCE, auth bypass flaws",
+    "summary": "SolarWinds has released security updates to patch critical authentication bypass and remote command execution vulnerabilities in its Web Help Desk IT help desk software. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/solarwinds-warns-of-critical-web-help-desk-rce-auth-bypass-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264477",
+    "date": "2026-01-28",
+    "title": "Hackers hijack exposed LLM endpoints in Bizarre Bazaar operation",
+    "summary": "A malicious campaign is actively targeting exposed LLM (Large Language Model) service endpoints to commercialize unauthorized access to AI infrastructure. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-exposed-llm-endpoints-in-bizarre-bazaar-operation/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264478",
+    "date": "2026-01-28",
+    "title": "Slovakian man pleads guilty to operating darknet marketplace",
+    "summary": "A Slovakian national admitted on Tuesday to helping operate a darknet marketplace that sold narcotics, cybercrime tools and services, fake government IDs, and stolen personal information for more than two years. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/slovakian-man-pleads-guilty-to-operating-kingdown-market-cybercrime-marketplace/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264405",
     "date": "2026-01-28",
     "title": "Access denied",
@@ -1245,6 +1919,20 @@
     "country": "United States",
     "sourceName": "BleepingComputer",
     "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264464",
+    "date": "2026-01-27",
+    "title": "Drowning in spam or scam emails? Here’s probably why",
+    "summary": "Has your inbox recently been deluged with unwanted and even outright malicious messages? Here are 10 possible reasons – and how to stem the tide.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/cybersecurity/drowning-spam-scam-emails-why/",
     "tags": [
       "ai-ml"
     ],
