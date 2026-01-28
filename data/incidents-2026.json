@@ -1,5 +1,21 @@
 [
   {
+    "id": "20264330",
+    "date": "2026-01-28",
+    "title": "Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd database instances in additional AWS Regions",
+    "summary": "AWS memory optimized R6id database instances are now generally available for Amazon RDS for PostgreSQL, MySQL, and MariaDB in the Tel Aviv region. R6gd instances are now supported for Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Osaka), and EU (Spain, Zurich) regions. AWS Gravit...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264322",
     "date": "2026-01-28",
     "title": "OpenAI's ChatGPT ad costs are on par with live NFL broadcasts",
@@ -10,6 +26,315 @@
     "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264327",
+    "date": "2026-01-27",
+    "title": "Judge dismisses case alleging use of Flock cameras in Virginia city is unconstitutional",
+    "summary": "A Virginia federal judge ruled that the warrantless use of Flock automated license plate cameras in Norfolk, Virginia, is constitutional and dismissed a case seeking to eradicate them.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/judge-dismisses-flock-case",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264328",
+    "date": "2026-01-27",
+    "title": "WhatsApp unveils anti-spyware ‘lockdown’ feature",
+    "summary": "WhatsApp is rolling out a new security feature designed to curb spyware that will block attachments and media from people not in a user’s contacts list.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/whatsapp-spyware-anti-lockdown",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264329",
+    "date": "2026-01-27",
+    "title": "Chinese money launderers moved more than $16 billion of illicit crypto in 2025, report finds",
+    "summary": "In 2025, Chinese-language organizations laundered on average $44 million in illicit crypto each day, amounting to $16.1 billion.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/chinese-money-launderers-moved-more-crypto-2025",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264331",
+    "date": "2026-01-27",
+    "title": "The College of Professional Studies To Host Cybersecurity, Stronger Together 2026 Conference",
+    "summary": "... cybersecurity conference that treats cyber threats as real-world public safety risks. Framed around a hypothetical attack on the opening ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://mediarelations.gwu.edu/college-professional-studies-host-cybersecurity-stronger-together-2026-conference",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264332",
+    "date": "2026-01-27",
+    "title": "Amazon Connect now supports granular access controls for cases",
+    "summary": "Amazon Connect now enables you to apply tag-based access control to cases, giving administrators more control over who can view and manage case data. With this capability, you can associate tags with case templates and configure security profiles to control which users can access cases that inclu...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264333",
+    "date": "2026-01-27",
+    "title": "NIST Seeks Public Comments on OT Cybersecurity Guide Update - ExecutiveGov",
+    "summary": "... cyber threats. Table of Contents. Toggle. Why Is NIST Revising Special ... cybersecurity policy, health IT, green IT and national security. We ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/nist-ot-cybersecurity-guide-update",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264334",
+    "date": "2026-01-27",
+    "title": "AWS Deadline Cloud now supports editing job name and description",
+    "summary": "AWS Deadline Cloud now supports editing job names and descriptions after submission. This new feature makes it easier to organize and identify jobs after submission by updating names or adding useful tracking details in the description field. Job names and descriptions are critical metadata for o...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/",
+    "tags": [
+      "aws",
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264335",
+    "date": "2026-01-27",
+    "title": "Trump's acting cyber chief uploaded sensitive files into a public version of ChatGPT",
+    "summary": "The interim director of the Cybersecurity and Infrastructure Security Agency triggered an internal cybersecurity warning with the uploads — and a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264336",
+    "date": "2026-01-27",
+    "title": "Why transparency is a strategic imperative for cybersecurity - Kaspersky",
+    "summary": "... cybersecurity provision. Corporate clients demand visibility into how ... it and how it affects their security and privacy. In this regard, a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kaspersky.com/resource-center/preemptive-safety/transparency-and-cybersecurity",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264337",
+    "date": "2026-01-27",
+    "title": "AWS Network Firewall now supports GenAI traffic visibility and enforcement with Web category-based filtering",
+    "summary": "AWS Network Firewall now provides visibility into generative AI (GenAI) application traffic and supports traffic filtering based on web categories. This new capability simplifies governance by enabling you to identify and control access to GenAI services, social media platforms, streaming sites, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264338",
+    "date": "2026-01-27",
+    "title": "How Threat Intelligence Will Change Cybersecurity in 2026 - Cyber Press",
+    "summary": "In 2026, threat intelligence accelerates with automation, context, and prediction—changing how security teams detect, analyze, and respond to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/how-threat-intelligence-will-change-cybersecurity-in-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264339",
+    "date": "2026-01-27",
+    "title": "Amazon WorkSpaces announces advanced printer redirection",
+    "summary": "AWS announces advanced printer redirection for Amazon WorkSpaces Personal, enabling Windows users to access the full feature set of their printers from their virtual desktop environments. With this feature, customers can now use printer-specific capabilities such as double-sided printing, paper t...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264340",
+    "date": "2026-01-27",
+    "title": "Will Q Day spell a Doomsday for Cybersecurity by cracking all Digital Encryptions on Earth",
+    "summary": "Doomsday for cybersecurity looms as Q Day could let quantum ... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/will-q-day-spell-a-doomsday-for-cybersecurity-by-cracking-all-digital-encryptions-on-earth/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264341",
+    "date": "2026-01-27",
+    "title": "Schneider Electric Zigbee Products | CISA",
+    "summary": "General Security Recommendations. We strongly recommend the following industry cybersecurity best practices. https://www.se.com/us/en/download/ ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-027-03",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264342",
+    "date": "2026-01-27",
+    "title": "Financial support for small businesses to improve cybersecurity of products",
+    "summary": "Digital padlock icon, cyber security network and data protection technology on virtual interface screen. AdobeStock © ipopba. This will allow micro ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/financial-support-small-businesses-improve-cybersecurity-products",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264343",
+    "date": "2026-01-27",
+    "title": "Group-IB launches Cloud Security Posture Management with advanced misconfiguration ...",
+    "summary": "Group-IB, a leading creator of cybersecurity technologies to investigate, prevent, and fight digital crime, announced today the launch of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/media-center/press-releases/cspm-launch/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264344",
+    "date": "2026-01-27",
+    "title": "AWS Marketplace expands AMI self-service listing experience to FPGA products",
+    "summary": "AWS Marketplace now offers a self-service listing experience for sellers listing Amazon Machine Image (AMI) products with FPGA (Field Programmable Gate Array) images. This new capability eliminates the previous dependency on manual Product Load Forms and accelerates time-to-market for AWS partner...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264345",
+    "date": "2026-01-27",
+    "title": "BC Law's Cyber Security Initiative – Boston College Law School Magazine",
+    "summary": "Another crucial way to protect yourself and to prevent further harm from cyber attacks is to have an incident response plan in place that is up to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://lawmagazine.bc.edu/2026/01/bc-laws-cyber-security-initiative/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264346",
+    "date": "2026-01-27",
+    "title": "RSAC 2026—Where The World Talks Security - Cybercrime Magazine",
+    "summary": "For 35 years, RSAC has been a driving force behind the world's cybersecurity community. The power of community is a key focus for the 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/rsac-2026-where-the-world-talks-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264347",
+    "date": "2026-01-27",
+    "title": "SimSpace integrates with Rilian Defense Platform to expand cyber readiness for GCC allies",
+    "summary": "The joint solution meets sovereign security, compliance, and control needs while promoting the adoption of modern cyber capabilities among allied ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/simspace-integrates-with-rilian-defense-platform-to-expand-cyber-readiness-for-gcc-allies/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264348",
+    "date": "2026-01-27",
+    "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of ...",
+    "summary": "HUB Cyber Security Ltd. (Nasdaq: HUBC) is a global leader in confidential computing, AI-driven data fabric, and cybersecurity. HUB's Secured Data ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/hub-cyber-security-announces-receipt-134500191.html",
+    "tags": [
+      "Data/IT"
     ],
     "impact": 3
   },
