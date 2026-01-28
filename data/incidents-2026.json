@@ -1,5 +1,508 @@
 [
   {
+    "id": "20264479",
+    "date": "2026-01-28",
+    "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
+    "summary": "Cybersecurity researchers have flagged a new malicious Microsoft Visual Studio Code (VS Code) extension for Moltbot (formerly Clawdbot) on the official Extension Marketplace that claims to be a free artificial intelligence (AI) coding assistant, but stealthily drops a malicious payload on comprom...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264480",
+    "date": "2026-01-28",
+    "title": "FTC commissioner says online age verification ‘offers a better way’ to protect kids",
+    "summary": "FTC Commissioner Mark Meador framed the issue through the lens of child safety, citing statistics showing increases in self-harm among children in the digital era.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ftc-commissioner-age-verification-children-online",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264481",
+    "date": "2026-01-28",
+    "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+    "summary": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM. Operational technology (OT) cybersecurity company Dragos, in a new intelligence brief published Tuesday, des...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264482",
+    "date": "2026-01-28",
+    "title": "Teen swatting suspects arrested in Hungary and Romania",
+    "summary": "Police raids led to the arrests of three Hungarians and one Romanian suspected of swatting and doxxing incidents, authorities said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/teen-swatting-doxxing-suspects-arrested-hungary-romania",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264483",
+    "date": "2026-01-28",
+    "title": "Odd WebLogic Request. Possible CVE-2026-21962 Exploit Attempt or AI Slop?, (Wed, Jan 28th)",
+    "summary": "I was looking for possible exploitation of CVE-2026-21962, a recently patched WebLogic vulnerability. While looking for related exploit attempts in our data, I came across the following request: GET /weblogic//weblogic/..;/bea_wls_internal/ProxyServlet host: 71.126.165.182 user-agent: Mozilla/5.0...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32662",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264484",
+    "date": "2026-01-28",
+    "title": "[Ekstra] Nytt utpressings­virus laget med KI har en fatal feil",
+    "summary": "«Sicarii» inneholder en fatal feil, ifølge sikkerhetsforskere.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/brukte-ki-til-a-lage-utpressingsvirus-kan-ikke-dekryptere-filene/567520",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264485",
+    "date": "2026-01-28",
+    "title": "Russian security systems firm Delta hit by cyberattack, services disrupted",
+    "summary": "A cyberattack has disrupted operations at Delta, a Russian provider of alarm and security systems for homes, businesses and vehicles, causing widespread service outages and a wave of customer complaints. Delta said on Monday that it had been hit by a “large-scale, coordinated and well-organized” ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russia-delta-security-alarm-company-cyberattack?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264486",
+    "date": "2026-01-28",
+    "title": "Cyber Insights 2026: Offensive Security; Where It Is and Where It’s Going",
+    "summary": "Malicious attacks are increasing in frequency, sophistication and damage. Defenders need to find and harden system weaknesses before attackers can attack them. The post Cyber Insights 2026: Offensive Security; Where It Is and Where It’s Going appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-offensive-security-where-it-is-and-where-its-going/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264487",
+    "date": "2026-01-28",
+    "title": "Mesh Security Raises $12 Million for CSMA Platform",
+    "summary": "The investment will allow Mesh to advance its autonomous, agentic capabilities, and scale sales and customer support efforts. The post Mesh Security Raises $12 Million for CSMA Platform appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/mesh-security-raises-12-million-for-csma-platform/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264488",
+    "date": "2026-01-28",
+    "title": "Critical vm2 Node.js Flaw Allows Sandbox Escape and Arbitrary Code Execution",
+    "summary": "A critical sandbox escape vulnerability has been disclosed in the popular vm2 Node.js library that, if successfully exploited, could allow attackers to run arbitrary code on the underlying operating system. The vulnerability, tracked as CVE-2026-22709, carries a CVSS score of 9.8 out of 10.0 on t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/critical-vm2-nodejs-flaw-allows-sandbox.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264489",
+    "date": "2026-01-28",
+    "title": "U.S. CISA adds Microsoft Office, GNU InetUtils, SmarterTools SmarterMail, and Linux Kernel flaws to its Known Exploited Vulnerabilities catalog",
+    "summary": "Pierluigi Paganini January 27, 2026 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Microsoft Office, GNU InetUtils, SmarterTools SmarterMail, and Linux Kernel flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: CVE-2018-146...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187375/security/u-s-cisa-adds-microsoft-office-gnu-inetutils-smartertools-smartermail-and-linux-kernel-flaws-to-its-known-exploited-vulnerabilities-catalog.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264490",
+    "date": "2026-01-28",
+    "title": "Why We Can’t Let AI Take the Wheel of Cyber Defense",
+    "summary": "The fastest way to squander the promise of AI is to mistake automation for assurance, and novelty for resilience. The post Why We Can’t Let AI Take the Wheel of Cyber Defense appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/why-we-cant-let-ai-take-the-wheel-of-cyber-defense/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264491",
+    "date": "2026-01-28",
+    "title": "Cyberattack on Poland’s power grid hit around 30 energy facilities, new report says",
+    "summary": "Adding to previous research about an operation against Poland's electrical grid, analysts at Dragos say it affected dozens of facilities and disrupted operational technology.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/poland-electrical-grid-cyberattack-30-facilities-affected",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264492",
+    "date": "2026-01-28",
+    "title": "8 Dimensions of Trustworthy ITAM Data - ITAM Review",
+    "summary": "Accurate ITAM data strengthens careers and helps expand teams. I’ve seen it with my own eyes, people drive up the accuracy of their ITAM data, referred to as “Trustworthy Data” in the ISO/IEC 19770-1 ITAM standard, and their reputation climbs up with it. Decisions are sharper, less things get ove...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://itassetmanagement.net/2026/01/28/8-dimensions-of-trustworthy-itam-data/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264493",
+    "date": "2026-01-28",
+    "title": "UK leaders warned country risks 'absorbing' cyber and hybrid attacks without offensive deterrence",
+    "summary": "The government must do more to actively disrupt and deter foreign cyber and hybrid threats, U.K. ministers were told at at a parliamentary hearing.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-government-warned-cyber-hybrid-threats-offensive-operations",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264494",
+    "date": "2026-01-28",
+    "title": "Rein Security Emerges From Stealth With $8M, Bringing Inside-Out AppSec Approach",
+    "summary": "Rein aims to close the production visibility gap by stopping attacks inside the application runtime. The post Rein Security Emerges From Stealth With $8M, Bringing Inside-Out AppSec Approach appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/rein-security-emerges-from-stealth-with-8m-bringing-inside-out-protection-to-appsec/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264495",
+    "date": "2026-01-28",
+    "title": "Pyodide Sandbox Escape Enables Remote Code Execution in Grist-Core",
+    "summary": "A critical sandbox escape vulnerability in Grist-Core has been disclosed that allows remote code execution (RCE) through a single malicious spreadsheet formula. The issue was uncovered by Cyera Research Labs and affects Grist’s Python formula execution layer, where untrusted formulas are evaluate...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/pyodide-sandbox-escape-rce-grist/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264496",
+    "date": "2026-01-28",
+    "title": "Two High-Severity n8n Flaws Allow Authenticated Remote Code Execution",
+    "summary": "Cybersecurity researchers have disclosed two new security flaws in the n8n workflow automation platform, including a crucial vulnerability that could result in remote code execution. The weaknesses, discovered by the JFrog Security Research team, are listed below - CVE-2026-1470 (CVSS score: 9.9)...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264497",
+    "date": "2026-01-28",
+    "title": "From Triage to Threat Hunts: How AI Accelerates SecOps",
+    "summary": "If you work in security operations, the concept of the AI SOC agent is likely familiar. Early narratives promised total autonomy. Vendors seized on the idea of the \"Autonomous SOC\" and suggested a future where algorithms replaced analysts. That future has not arrived. We have not seen mass layoff...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/from-triage-to-threat-hunts-how-ai.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264498",
+    "date": "2026-01-28",
+    "title": "Mustang Panda Deploys Updated COOLCLIENT Backdoor in Government Cyber Attacks",
+    "summary": "Threat actors with ties to China have been observed using an updated version of a backdoor called COOLCLIENT in cyber espionage attacks in 2025 to facilitate comprehensive data theft from infected endpoints. The activity has been attributed to Mustang Panda (aka Earth Preta, Fireant, HoneyMyte, P...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/mustang-panda-deploys-updated.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264499",
+    "date": "2026-01-28",
+    "title": "WhatsApp unveils high-security mode, latest tech firm to offer users stronger protection | Reuters",
+    "summary": "Reporter covering cybersecurity, surveillance, and disinformation for Reuters. Work has included investigations into state-sponsored espionage, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/business/media-telecom/whatsapp-unveils-high-security-mode-latest-tech-firm-offer-users-stronger-2026-01-27/",
+    "tags": [
+      "state-sponsored",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264500",
+    "date": "2026-01-28",
+    "title": "Is Kristi Noem Building a Shady Security Empire? - Esquire",
+    "summary": "Senior officials at the Department of Homeland Security have pushed the nation's cyber defense agency [CISA] to back the installation of a secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.esquire.com/news-politics/politics/a70161627/kristi-noem-south-dakota-cybersecurity-scif/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264501",
+    "date": "2026-01-28",
+    "title": "LiteRT: The Universal Framework for On-Device AI",
+    "summary": "LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264502",
+    "date": "2026-01-28",
+    "title": "A self-evolution cyber attack scheme generation system for cybersecurity evaluation - Nature",
+    "summary": "Abstract. With the increasing complexity of network attacks, defense systems face significant challenges in maintaining cybersecurity. To effectively ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-37012-0",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264503",
+    "date": "2026-01-28",
+    "title": "Zero Trust Is Not Stuck. We Are Just Executing It Poorly - Cybersecurity Insiders",
+    "summary": "Identity matters. Perimeters are gone. Implicit trust is dangerous. Continuous verification is the goal. And yet, if you ask most security leaders how ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/zero-trust-is-not-stuck-we-are-just-executing-it-poorly/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264504",
+    "date": "2026-01-28",
+    "title": "PAC RADAR \"Cybersecurity Services IT/OT France 2025\" - Atos",
+    "summary": "PAC highlights Atos' strong market position and the breadth of its OT security services, which include auditing, consulting, field operations, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://atos.net/en/lp/pac-cyber-services",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264505",
+    "date": "2026-01-28",
+    "title": "Check Point Software's 2026 Cyber Security Report Shows - GlobeNewswire",
+    "summary": "Check Point's 2026 report shows global cyber attacks hitting record highs, with nearly 2000 weekly as AI‑driven, automated threats rapidly ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globenewswire.com/news-release/2026/01/28/3227653/0/en/Check-Point-Software-s-2026-Cyber-Security-Report-Shows-Global-Attacks-Reach-Record-Levels-as-AI-Accelerates-the-Threat-Landscape.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264506",
+    "date": "2026-01-28",
+    "title": "Top 10: Cybersecurity Companies in BFSI - Cyber Magazine",
+    "summary": "In the era of open banking and fintech integration, Okta serves as the primary line of defence for identity security. Banks use Okta to secure open ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/top10/top-10-cybersecurity-companies-in-bsfi",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264507",
+    "date": "2026-01-28",
+    "title": "Khalifa University and Google.org Back Major Cybersecurity Training Initiative",
+    "summary": "The initiative was organized with support from Google.org, the UAE Cyber Security Council, and CyberE71, underscoring strong public and private ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://techafricanews.com/2026/01/28/khalifa-university-and-google-org-back-major-cybersecurity-training-initiative/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264508",
+    "date": "2026-01-28",
+    "title": "New year, new laws? Data, AI and cybersecurity in 2026 - Fox Williams",
+    "summary": "The UK Cyber Security and Resilience Bill aims to modernise cybersecurity regulations and will likely be passed and implemented in stages in 2026. The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.foxwilliams.com/2026/01/28/new-year-new-laws-data-ai-and-cybersecurity-in-2026/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264509",
+    "date": "2026-01-28",
+    "title": "Offense-First Cyber Strategy Won't Stop China's Threat, Analysis Warns - HSToday",
+    "summary": "... Cybersecurity Strategy, is warning that the Trump ... CybersecurityInfrastructure SecurityCybersecurity and Infrastructure Security Agency ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/subject-matter-areas/cybersecurity/offense-first-cyber-strategy-wont-stop-chinas-threat-analysis-warns/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264510",
+    "date": "2026-01-28",
+    "title": "AI-driven playbooks for security operations centers? X's and O's created on the fly - IDC",
+    "summary": "Cybersecurity, like many other technology domains, does not exist in a static environment. It's mission statement, after all, is to protect digital ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.idc.com/resource-center/blog/ai-driven-playbooks-for-security-operations-centers-xs-and-os-created-on-the-fly/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264511",
+    "date": "2026-01-28",
+    "title": "Province Noord-Brabant, TNO and partners join forces on cyber security",
+    "summary": "TNO works closely with high-tech companies, cybersecurity firms, and educational institutions. This broad public-private partnership enables product ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tno.nl/en/newsroom/2026/01/province-noord-brabant-tno-partners-join/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264512",
+    "date": "2026-01-28",
+    "title": "Cyber and Data Insider - January 2026 - Kennedys Law",
+    "summary": "... cybersecurity regime and the UK Cyber Security and Resilience Bill. Data protection. Article. The Data (Use and Access) Act 2025 – commencement ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/cyber-and-data-insider-january-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264433",
     "date": "2026-01-28",
     "title": "Why Your Security Team Needs to Hire Non-Traditional Professionals",
