@@ -1,5 +1,153 @@
 [
   {
+    "id": "20264349",
+    "date": "2026-01-28",
+    "title": "CISO Salaries Continue to Rise Despite Economic Uncertainty",
+    "summary": "CISO salaries rise despite economic concerns.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102092-ciso-salaries-continue-to-rise-despite-economic-uncertainty",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264350",
+    "date": "2026-01-28",
+    "title": "77% of Financial Service Organizations Accrued Security Debt in 2025",
+    "summary": "Financial service organizations accrue security debt.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102091-77-of-financial-service-organizations-accrued-security-debt-in-2025",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264351",
+    "date": "2026-01-28",
+    "title": "Major Cyberattack Cripples Russia’s Alarm and Vehicle Security Provider Delta",
+    "summary": "A cyberattack on Delta, a Russian provider of alarm and security systems for homes, businesses, and vehicles, has disrupted operations and triggered widespread service outages, leaving many customers unable to access critical security functions. Delta, which serves tens of thousands of users acro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cyberattack-on-delta/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264352",
+    "date": "2026-01-28",
+    "title": "Why prevention-first secrets security will define enterprise scale: Learnings from a leading telecom",
+    "summary": "Once a secret enters Git, it’s expensive to remediate. But the real problem runs deeper than cost. Grégory Maitrallain, Solution Architect at Orange Business, discovered this reality during their implementation: “Once a secret is pushed to GitLab or GitHub, you cannot remove it. You can modify it...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/gitguardian-prevention-first-secrets-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264353",
+    "date": "2026-01-28",
+    "title": "Grammarly and QuillBot are among widely used Chrome extensions facing serious privacy questions",
+    "summary": "A new study shows that some of the most widely used AI-powered browser extensions are a privacy risk. They collect lots of data and require a high level of browser access. The research was conducted by Incogni, which analyzed 442 AI-powered Google Chrome extensions for its 2026 privacy risk repor...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/incogni-chrome-extensions-privacy-risks-report/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264354",
+    "date": "2026-01-28",
+    "title": "Audits for AI systems that keep changing",
+    "summary": "Security and risk teams often rely on documentation and audit artifacts that reflect how an AI system worked months ago. ETSI’s continuous auditing based conformity assessment specification (ETSI TS 104 008) describes a different approach, where conformity is evaluated through recurring measureme...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/etsi-ts-104-008-ai-continuous-auditing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264355",
+    "date": "2026-01-28",
+    "title": "Fortinet starts patching exploited FortiCloud SSO zero-day (CVE-2026-24858)",
+    "summary": "Fortinet has begun releasing FortiOS versions that fix CVE-2026-24858, a critical zero-day vulnerability that allowed attackers to log into targeted organizations’ FortiGate firewalls. “This vulnerability was found being exploited in the wild by two malicious FortiCloud accounts, which were locke...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/28/fortinet-forticloud-sso-zero-day-vulnerability-cve-2026-24858/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264356",
+    "date": "2026-01-28",
+    "title": "Gold & Goblins Guide: How to Mine, Merge Goblins, and Build a Powerful Empire",
+    "summary": "In this Gold & Goblins guide, I will show you how to mine, merge Goblins, and build a powerful empire. Gold & Goblins is a mobile game that combines idle mining mechanics with clever merge strategies, creating a fun and addictive experience. At its core, you manage a team of little goblins who di...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/gold-goblins-guide/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264357",
+    "date": "2026-01-28",
+    "title": "Linux Security in 2026: Threat Landscape, Trending Attacks, and How to Harden Your Servers",
+    "summary": "Linux underpins cloud infrastructure, containers, edge devices, and supercomputers — and while it’s long been regarded as a secure platform, attackers are increasingly focusing on its ubiquitous presence. In this guide, we’ll step through the current threat landscape, trending attacks specific to...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Crimes Watch",
+    "sourceUrl": "https://www.cybercrimeswatch.com/3181/linux-security-threats-attacks-server-hardening-guide/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264358",
+    "date": "2026-01-28",
+    "title": "AI-powered polymorphic attack lures victims to phishing webpages",
+    "summary": "AI-fueled attacks can transform an innocuous webpage into a customed phishing page. The attacks, revealed in a research from Palo Alto Networks’ Unit 42, are clever in how they combine various obfuscation techniques. The combination though can be lethal, difficult to discover, and represent yet a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123217/ai-powered-polymorphic-attacks-lures-victims-to-phishing-webpages.html",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264330",
     "date": "2026-01-28",
     "title": "Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd database instances in additional AWS Regions",
