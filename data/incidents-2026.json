@@ -1,5 +1,427 @@
 [
   {
+    "id": "20264405",
+    "date": "2026-01-28",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c504912ba83d0db • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-sandbox-escape-flaw-discovered-in-popular-vm2-nodejs-library/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264406",
+    "date": "2026-01-28",
+    "title": "If you don’t control your keys, you don’t control your data",
+    "summary": "A recent Forbes investigation revealed that Microsoft has allegedly been handing over Bitlocker encryption recovery keys to law enforcement when served with warrants. Microsoft says it receives about 20 such requests annually. Taken narrowly, this may appear to be a routine case of lawful complia...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/microsoft-bitlocker-recovery-keys-data-sovereignty-virtru-op-ed/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264407",
+    "date": "2026-01-28",
+    "title": "Critical FortiCloud SSO zero‑day forces emergency service disablement at Fortinet",
+    "summary": "Fortinet has disclosed a critical authentication bypass zero-day vulnerability affecting its FortiCloud single sign-on feature after the company took the emergency step of temporarily disabling the cloud authentication service globally to stop active exploitation. The US Cybersecurity and Infrast...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4123500/critical-forticloud-sso-zero%E2%80%91day-forces-emergency-service-disablement-at-fortinet.html",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264408",
+    "date": "2026-01-28",
+    "title": "Tidligere Trump-rådgiver: : Vil bygge gigantisk datasenter på Grønland",
+    "summary": "Datasenteret skal etter planen være i drift allerede om halvannet år, og skal drives med flytende naturgass som fraktes til øya.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/tidligere-trump-radgiver-vil-bygge-gigantisk-datasenter-pa-gronland/567477",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264409",
+    "date": "2026-01-28",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c4ff005ce58d0eb • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nike-investigates-data-breach-after-extortion-gang-leaks-files/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264410",
+    "date": "2026-01-28",
+    "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
+    "summary": "When security teams discuss credential-related risk, the focus typically falls on threats such as phishing, malware, or ransomware. These attack methods continue to evolve and rightly command attention. However, one of the most persistent and underestimated risks to organizational security remain...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264411",
+    "date": "2026-01-28",
+    "title": "Google Warns of Active Exploitation of WinRAR Vulnerability CVE-2025-8088",
+    "summary": "Google on Tuesday revealed that multiple threat actors, including nation-state adversaries and financially motivated groups, are exploiting a now-patched critical security flaw in RARLAB WinRAR to establish initial access and deploy a diverse array of payloads. \"Discovered and patched in July 202...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264412",
+    "date": "2026-01-28",
+    "title": "Fake Python Spellchecker Packages on PyPI Delivered Hidden Remote Access Trojan",
+    "summary": "Cybersecurity researchers have discovered two malicious packages in the Python Package Index (PyPI) repository that masquerade as spellcheckers but contain functionality to deliver a remote access trojan (RAT). The packages, named spellcheckerpy and spellcheckpy, are no longer available for downl...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fake-python-spellchecker-packages-on.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264413",
+    "date": "2026-01-28",
+    "title": "Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities",
+    "summary": "Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft. The campaigns have been codenamed Gopher Strike and Sheet Attack by Zscaler ThreatLabz, which identified them in September 2025. \"While t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264414",
+    "date": "2026-01-28",
+    "title": "WhatsApp Boosts Account Security for At-Risk Individuals",
+    "summary": "New Strict Account Settings allow users to block attachments and media and silence calls from unknown people. The post WhatsApp Boosts Account Security for At-Risk Individuals appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/whatsapp-boosts-account-security-for-at-risk-individuals/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264415",
+    "date": "2026-01-28",
+    "title": "[Ekstra] Chat GPT er anklaget for drap",
+    "summary": "Forskere advarer mot å snakke om følelser med Chat GPT og andre populære chatroboter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/chat-gpt-er-anklaget-for-drap/567408",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264416",
+    "date": "2026-01-28",
+    "title": "US Charges 31 More Defendants in Massive ATM Hacking Probe",
+    "summary": "A total of 87 individuals, mostly Venezuelan nationals, have been charged for their role in the ATM jackpotting scheme. The post US Charges 31 More Defendants in Massive ATM Hacking Probe appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/us-charges-31-more-defendants-in-massive-atm-hacking-probe/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264417",
+    "date": "2026-01-28",
+    "title": "APTs, Cybercriminals Widely Exploiting WinRAR Vulnerability",
+    "summary": "Russian and Chinese state-sponsored threat actors have been exploiting CVE-2025-8088 since July 2025. The post APTs, Cybercriminals Widely Exploiting WinRAR Vulnerability appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/apts-cybercriminals-widely-exploiting-winrar-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264418",
+    "date": "2026-01-28",
+    "title": "Cybercriminals and nation-state groups are exploiting a six-month old WinRAR defect",
+    "summary": "Google Threat Intelligence Group warned that a diverse and growing collection of attackers, including nation-state groups and financially motivated cybercriminals, are exploiting a path-traversal vulnerability affecting WinRAR that was disclosed and patched six months ago. The high-severity vulne...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/winrar-defect-active-exploits-google-threat-intel/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264419",
+    "date": "2026-01-28",
+    "title": "Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems",
+    "summary": "Indurex was founded by Jalal Bouhdada, who previously led industrial cybersecurity company Applied Risk. The post Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/indurex-emerges-from-stealth-to-close-security-gap-in-cyber-physical-systems/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264420",
+    "date": "2026-01-28",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A recent phishing scam has been identified, exploiting a legitimate Microsoft email address to deliver scam emails. This advisory provides details on the scam's operation and its implications. Two high-severity DNS cache poisoning vulnerabilities have been discovered in BIND (CVE-2025-40778 and C...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Ars%20Technica",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264421",
+    "date": "2026-01-28",
+    "title": "There's a rash of scam spam coming from a real Microsoft address",
+    "summary": "There are reports that a legitimate Microsoft email address—which Microsoft explicitly says customers should add to their allow list—is delivering scam spam. The emails originate from no-reply-powerbi@microsoft.com, an address tied to Power BI. The Microsoft platform provides analytics and busine...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://arstechnica.com/information-technology/2026/01/theres-a-rash-of-scam-spam-coming-from-a-real-microsoft-address/?&web_view=true",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264422",
+    "date": "2026-01-28",
+    "title": "Fortinet Patches Exploited FortiCloud SSO Authentication Bypass",
+    "summary": "Tracked as CVE-2026-24858, the bug allows attackers to log into devices registered to other FortiCloud accounts. The post Fortinet Patches Exploited FortiCloud SSO Authentication Bypass appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fortinet-patches-exploited-forticloud-sso-authentication-bypass/",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264423",
+    "date": "2026-01-28",
+    "title": "High-Severity Remote Code Execution Vulnerability Patched in OpenSSL",
+    "summary": "A total of 12 vulnerabilities have been fixed in OpenSSL, all discovered by a single cybersecurity firm. The post High-Severity Remote Code Execution Vulnerability Patched in OpenSSL appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/high-severity-remote-code-execution-vulnerability-patched-in-openssl/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264424",
+    "date": "2026-01-28",
+    "title": "Clawdbot becomes Moltbot, but can't shed security concerns - The Register",
+    "summary": "Eric Schwake, director of cybersecurity strategy at Salt Security, told The Register: \"A significant gap exists between the consumer enthusiasm for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/27/clawdbot_moltbot_security_concerns/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264425",
+    "date": "2026-01-28",
+    "title": "The end of the security perimeter: How AI and SaaS are redefining data security",
+    "summary": "Cybersecurity is a big umbrella, and there are several major types, each focused on protecting a different part of the digital world. And below...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/the-end-of-the-security-perimeter-how-ai-and-saas-are-redefining-data-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264426",
+    "date": "2026-01-28",
+    "title": "Computer Security: A final dash to protect your account - CERN",
+    "summary": "The past two years have brought a lot of new computer-security deployments at CERN. Spurred on by the 2023 cybersecurity audit, a lot has already been ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://home.cern/news/news/computing/computer-security-final-dash-protect-your-account",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264427",
+    "date": "2026-01-28",
+    "title": "Atos Recognized as Best In Class in IT/OT Cybersecurity Services in 2025 by PAC ...",
+    "summary": "PAC highlights Atos' strong market position and the breadth of its OT security services, which include auditing, consulting, field operations, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://atos.net/en/2026/news_2026_01_28/atos-recognized-as-best-in-class-in-it-ot-cybersecurity-services-in-2025-by-pac-innovation-radar-france",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264428",
+    "date": "2026-01-28",
+    "title": "Press Release-FSC releases “Financial Operational Resilience on Cybersecurity Ecosystem ...",
+    "summary": "... cyber security authorities in other countries, and engage with international cyber security organizations in a joint effort to strengthen cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fsc.gov.tw/en/home.jsp?id=54&parentpath=0,2&mcustomize=multimessage_view.jsp&dataserno=202601280002&dtable=News",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264429",
+    "date": "2026-01-28",
+    "title": "Claroty Team82 reveals critical RCE vulnerability in IDIS Cloud Manager Viewer tied to ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued CVE-2025-12556 with a CVSS v4 score of 8.7. “Clicking on untrusted links is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/claroty-team82-reveals-critical-rce-vulnerability-in-idis-cloud-manager-viewer-tied-to-spear-phishing-risk/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264430",
+    "date": "2026-01-28",
+    "title": "Maia 200: The AI accelerator built for inference",
+    "summary": "Today, we’re proud to introduce Maia 200, a breakthrough inference accelerator engineered to dramatically improve the economics of AI token generation. Maia 200 is an AI inference powerhouse: an accelerator built on TSMC’s 3nm process with native FP8/FP4 tensor cores, a redesigned memory system w...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264431",
+    "date": "2026-01-28",
+    "title": "Tailor Gemini CLI to your workflow with hooks",
+    "summary": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264432",
+    "date": "2026-01-28",
+    "title": "Varsler tilsyn med alle Norges kommuner",
+    "summary": "Som en del av Totalforsvarsåret 2026, har Datatilsynet satt i gang et omfattende tilsyn med hvordan norske kommuner sikrer personopplysninger.",
+    "region": "NO",
+    "country": "Norway",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/varsler-tilsyn-med-alle-norges-kommuner/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264367",
     "date": "2026-01-28",
     "title": "Beware! Fake ChatGPT browser extensions are stealing your login credentials",
