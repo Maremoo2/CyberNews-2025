@@ -1,5 +1,323 @@
 [
   {
+    "id": "20264322",
+    "date": "2026-01-28",
+    "title": "OpenAI's ChatGPT ad costs are on par with live NFL broadcasts",
+    "summary": "OpenAI plans to begin rolling out ads on ChatGPT in the United States if you have a free or $8 Go subscription, but the catch is that the ads could be very expensive for advertisers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264305",
+    "date": "2026-01-27",
+    "title": "Nike Investigates Alleged Data Breach Tied to World Leaks",
+    "summary": "Nike is investigating a potential cybersecurity incident after an extortion group known as World Leaks claimed it stole and leaked a massive trove of internal company data. The group alleged it exfiltrated 1.4 terabytes of files from the global sportswear brand, raising concerns about exposure of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/nike-investigates-alleged-data-breach-tied-to-world-leaks/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264306",
+    "date": "2026-01-27",
+    "title": "Shadow AI and the Growing Risk to Enterprise Security",
+    "summary": "AI use is spreading across enterprises faster than security teams can track, often in the shadows. Employees, including senior managers, increasingly use unsanctioned AI tools, exposing sensitive data without governance or visibility. “IT/security and business teams often work in silos, leading t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/shadow-ai-and-the-growing-risk-to-enterprise-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264307",
+    "date": "2026-01-27",
+    "title": "How Retrofitting Is Redefining Scalability in Modern Automation Systems",
+    "summary": "In this post, I will talk about how Retrofitting is redefining scalability in modern automation systems. Everyone loves to talk about greenfield automation projects. Fresh floors, clean data, and shiny demo videos characterize greenfield automation projects. Reality looks different. Most operatio...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-retrofitting-is-redefining-scalability/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264309",
+    "date": "2026-01-27",
+    "title": "Nike Investigates Possible Data Breach Following Dark Web Leak Claims",
+    "summary": "A hacker group stated via their dark web page that they have leaked thousands upon thousands of internally-stored electronic documents belonging to Nike. Nike has stated that they are currently conducting an investigation into whether or not their internal data was leaked online as stated by the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/nike-data-breach-on-dark-web/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264310",
+    "date": "2026-01-27",
+    "title": "What The Atlantic Won’t Write: Minnesota Didn’t Prove MAGA Wrong",
+    "summary": "The question nobody seems to want asked in print: what would it actually take to win against fascism in America? Not to resist. To win. The question has ugly answers, due to the ugliness of Trump wanting to get as ugly as possible, which is perhaps why journalists avoid it. We shouldn’t look at w...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76696",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264311",
+    "date": "2026-01-27",
+    "title": "Public Execution of Pretti: ICE Shot Him in the Back and Denied Him Medical Care",
+    "summary": "A doctor who attended the public execution offered this perspective to the court: The physician said their view “was partially obstructed,” but that they’d seen ICE agents shoot the 37-year-old ICU nurse multiple times. …I informed the ICE agents that I am a physician, and I asked to assess the v...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76692",
+    "tags": [
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264312",
+    "date": "2026-01-27",
+    "title": "Fixes released for a serious Microsoft Office zero-day flaw",
+    "summary": "Microsoft is warning admins of an Office security bypass zero day vulnerability that can be triggered simply by a user opening a document. The flaw is currently being actively exploited. “The vulnerability is serious,” said Johannes Ullrich, dean of research at the SANS Institute. “The root cause...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123146/fixes-released-for-a-serious-microsoft-office-zero-day-flaw-2.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264313",
+    "date": "2026-01-27",
+    "title": "AI &amp; the Death of Accuracy: What It Means for Zero-Trust",
+    "summary": "AI \"model collapse,\" where LLMs over time train on more and more AI-generated data and become degraded as a result, can introduce inaccuracies, promulgate malicious activity, and impact PII protections.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/ai-death-accuracy-zero-trust",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264314",
+    "date": "2026-01-27",
+    "title": "Vibe-Coded 'Sicarii' Ransomware Can't Be Decrypted",
+    "summary": "A new ransomware strain that entered the scene last year has poorly designed code and an odd \"Hebrew\" identity that might be a false flag.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/vibe-coded-sicarii-ransomware-decrypted",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264315",
+    "date": "2026-01-27",
+    "title": "Critical Telnet Server Flaw Exposes Forgotten Attack Surface",
+    "summary": "While telnet is considered obsolete, the network protocol is still used by hundreds of thousands of legacy systems and IoT devices for remote access.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/critical-telnet-server-flaw-forgotten-attack-surface",
+    "tags": [
+      "vulnerability",
+      "iot"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264316",
+    "date": "2026-01-27",
+    "title": "Microsoft Rushes Emergency Patch for Office Zero-Day",
+    "summary": "To exploit the vulnerability, an attacker would need either system access or be able to convince a user to open a malicious Office file.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rushes-emergency-patch-office-zero-day",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264317",
+    "date": "2026-01-27",
+    "title": "'Stanley' Toolkit Turns Chrome Into Undetectable Phishing Vector",
+    "summary": "The malware-as-a-service kit enables malicious extensions to overlay pages on real websites without changing the visible URL, signaling a fresh challenge for enterprise security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/stanley-toolkit-chrome-undetectable-phishing",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264318",
+    "date": "2026-01-27",
+    "title": "Nike Probes Major Data Breach Claim After Extortion Gang Leaks Massive Internal Files",
+    "summary": "Nike has confirmed that it is investigating a possible data breach after a well-known cybercrime group claimed to have stolen and publicly leaked around 1.4 terabytes of internal data tied to the sportswear giant’s business operations. The company acknowledged the situation but stopped short of c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/nike-probes-major-data-breach-claim-after-extortion-gang-leaks-massive-internal-files",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264319",
+    "date": "2026-01-27",
+    "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
+    "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to provi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Google Online Security Blog",
+    "sourceUrl": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
+    "tags": [
+      "iot",
+      "mobile",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264320",
+    "date": "2026-01-27",
+    "title": "Microsoft Issues Emergency Patch for Active Office Zero-Day",
+    "summary": "Microsoft released an emergency Office patch to fix an actively exploited zero-day flaw that lets attackers bypass security via malicious files. The post Microsoft Issues Emergency Patch for Active Office Zero-Day appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-office-zero-day-emergency-patch-january-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264321",
+    "date": "2026-01-27",
+    "title": "Apple Issues Urgent Software Fix Affecting Over 2 Billion iPhones",
+    "summary": "Apple released urgent iOS updates, including iOS 12.5.8 for older iPhones, after emergency-call issues in Australia and a 2027 certificate deadline. The post Apple Issues Urgent Software Fix Affecting Over 2 Billion iPhones appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-apple-urgent-iphone-software-update-january-2026/",
+    "tags": [
+      "mobile",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264323",
+    "date": "2026-01-27",
+    "title": "Fortinet blocks exploited FortiCloud SSO zero day until patch is ready",
+    "summary": "Fortinet has confirmed a new, actively exploited critical FortiCloud single sign-on (SSO) authentication bypass vulnerability, tracked as CVE-2026-24858, and says it has mitigated the zero-day attacks by blocking FortiCloud SSO connections from devices running vulnerable firmware versions. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264324",
+    "date": "2026-01-27",
+    "title": "Chinese Mustang Panda hackers deploy infostealers via CoolClient backdoor",
+    "summary": "The Chinese espionage threat group Mustang Panda has updated its CoolClient backdoor to a new variant that can steal login data from browsers and monitor the clipboard. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-mustang-panda-hackers-deploy-infostealers-via-coolclient-backdoor/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264325",
+    "date": "2026-01-27",
+    "title": "WinRAR path traversal flaw still exploited by numerous hackers",
+    "summary": "Multiple threat actors, both state-sponsored and financially motivated, are exploiting the CVE-2025-8088 high-severity vulnerability in WinRAR for initial access and to deliver various malicious payloads. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/winrar-path-traversal-flaw-still-exploited-by-numerous-hackers/",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264326",
+    "date": "2026-01-27",
+    "title": "“The hackers made me do it,” or did they?",
+    "summary": "Microsoft rushes an emergency fix for an actively exploited Office zero-day. A suspected cyberattack halts rail service in Spain. The FBI probes Signal chats in Minnesota. The UK moves to overhaul policing for the cyber age. Romania investigates a hitman-for-hire site. A UK court awards $4.1 mill...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2476/notes",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264260",
     "date": "2026-01-27",
     "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
@@ -2042,6 +2360,18 @@
       "phishing",
       "Cyber"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20264308",
+    "date": "2026-01-26",
+    "title": "Casino Online in France: How Local Players Choose Safe Gaming Platforms",
+    "summary": "Here is a practical guide to finding a secure online casino in France. Learn how to verify licenses, use local payment methods like Neosurf, and choose the best international platforms. France has a long-standing love for iGaming. Whether it’s a weekend trip to the prestigious casinos of Deauvill...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/casino-online-in-france-safe-gaming-platforms/",
+    "tags": [],
     "impact": 3
   },
   {
