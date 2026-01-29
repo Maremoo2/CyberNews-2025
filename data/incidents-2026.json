@@ -1,5 +1,385 @@
 [
   {
+    "id": "20264632",
+    "date": "2026-01-29",
+    "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
+    "summary": "A study by OMICRON has revealed widespread cybersecurity gaps in the operational technology (OT) networks of substations, power plants, and control centers worldwide. Drawing on data from more than 100 installations, the analysis highlights recurring technical, organizational, and functional issu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264633",
+    "date": "2026-01-29",
+    "title": "Cyber Insights 2026: Zero Trust and Following the Path",
+    "summary": "Zero Trust is not a thing; it is an idea. It is not a product; it is a concept – it is a destination that has no precise route and may never be reached. The post Cyber Insights 2026: Zero Trust and Following the Path appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-zero-trust-and-following-the-path/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264634",
+    "date": "2026-01-29",
+    "title": "LABYRINTH CHOLLIMA Evolves into Three Adversaries",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/labyrinth-chollima-evolves-into-three-adversaries/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264635",
+    "date": "2026-01-29",
+    "title": "Google Disrupts IPIDEA Proxy Network ",
+    "summary": "One of the largest residential proxy networks, IPIDEA enrolled devices through SDKs for mobile and desktop. The post Google Disrupts IPIDEA Proxy Network appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/google-disrupts-ipidea-proxy-network/",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264636",
+    "date": "2026-01-29",
+    "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+    "summary": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM. Operational technology (OT) cybersecurity company Dragos, in a new intelligence brief published Tuesday, des...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html?&web_view=true",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264637",
+    "date": "2026-01-29",
+    "title": "Long-running North Korea threat group splits into 3 distinct operations",
+    "summary": "A North Korea-backed threat group operating since 2009 has splintered into three distinct groups with specialized malware and objectives, CrowdStrike said in a report released Thursday. Labeled “Labyrinth Chollima” by the company, the group follows a divergence pattern CrowdStrike observed previo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/north-korea-labyrinth-chollima-splits-crowdstrike/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264638",
+    "date": "2026-01-29",
+    "title": "3 Decisions CISOs Need to Make to Prevent Downtime Risk in 2026",
+    "summary": "Beyond the direct impact of cyberattacks, enterprises suffer from a secondary but potentially even more costly risk: operational downtime, any amount of which translates into very real damage. That’s why for CISOs, it’s key to prioritize decisions that reduce dwell time and protect their company ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/3-decisions-cisos-need-to-make-to.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264639",
+    "date": "2026-01-29",
+    "title": "[Ekstra] Se listen: : 91 personer vil lede ny avdeling for digitale tjenester i DIO",
+    "summary": "34 kvinner og 57 menn ønsker å lede avdeling for digitale tjenester i Departementenes digitaliseringsorganisasjon (DIO).",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/disse-91-sokerne-vil-lede-ny-avdeling-for-digitale-tjenester-i-dio/567501",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264640",
+    "date": "2026-01-29",
+    "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
+    "summary": "Cybersecurity researchers have flagged a new malicious Microsoft Visual Studio Code (VS Code) extension for Moltbot (formerly Clawdbot) on the official Extension Marketplace that claims to be a free artificial intelligence (AI) coding assistant, but stealthily drops a malicious payload on comprom...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html?&web_view=true",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264641",
+    "date": "2026-01-29",
+    "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
+    "summary": "SolarWinds has released security updates to address multiple security vulnerabilities impacting SolarWinds Web Help Desk, including four critical vulnerabilities that could result in authentication bypass and remote code execution (RCE). The list of vulnerabilities is as follows - CVE-2025-40536 ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264642",
+    "date": "2026-01-29",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c5797621e33d0c4 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/escan-confirms-update-server-breached-to-push-malicious-update/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264643",
+    "date": "2026-01-29",
+    "title": "[Ekstra] DNV investerer 200 millioner i helse-KI",
+    "summary": "Det norske kvalitetssikringsselskapet blir hovedaksjonær i Recare for å rulle ut kunstig intelligens til europeiske sykehus.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/dnv-investerer-200-millioner-i-helse-ki/567592",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264644",
+    "date": "2026-01-29",
+    "title": "A fake romance turns into an Android spyware infection",
+    "summary": "ESET researchers have identified an Android spyware campaign that uses romance scam tactics to target individuals in Pakistan. The operation relies on a malicious app disguised as a chat service that routes conversations through WhatsApp. Behind the romance lure, the app’s primary function is to ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/ghostchat-android-romance-spyware/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264645",
+    "date": "2026-01-29",
+    "title": "PwC and Google Cloud Ink $400 Million Deal to Scale AI-Powered Defense",
+    "summary": "The announcement comes just weeks after Palo Alto Networks and Google Cloud announced a multibillion-dollar AI and cloud security deal. The post PwC and Google Cloud Ink $400 Million Deal to Scale AI-Powered Defense appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/pwc-and-google-cloud-ink-400-million-deal-to-scale-ai-powered-defense/",
+    "tags": [
+      "google",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264646",
+    "date": "2026-01-29",
+    "title": "Google Disrupts IPIDEA — One of the World’s Largest Residential Proxy Networks",
+    "summary": "Google on Wednesday announced that it worked together with other partners to disrupt IPIDEA, which it described as one of the largest residential proxy networks in the world. To that end, the company said it took legal action to take down dozens of domains used to control devices and proxy traffi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/google-disrupts-ipidea-one-of-worlds.html",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264647",
+    "date": "2026-01-29",
+    "title": "[Ekstra] Telia Norge 2025: 2G-stenging og lavere inntekter",
+    "summary": "OPPDATERT: Stenging av 2G-nettet og opprettelse av egen fastnettdivisjon er blant milepælene i fjor, sier den nye Telia Norge-sjefen Bjørn Ivar Moen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telia-norge-2025-2g-stenging-og-lavere-inntekter/567583",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264648",
+    "date": "2026-01-29",
+    "title": "Blokkerte 2,1 milliarder digitale trusler i fjor",
+    "summary": "Telenor blokkerte mer enn 5,5 millioner utrygge nettsider og forsøk på digital kriminalitet hver dag gjennom hele 2025.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-blokkerte-2-1-milliarder-digitale-trusler-i-fjor/567580",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264649",
+    "date": "2026-01-29",
+    "title": "Driving efficiency: Kaspersky launches OT Calculator to align cybersecurity investments with ...",
+    "summary": "It enables OT leaders, security professionals, and executive teams to develop clear, data-driven business cases and recognize the value of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kaspersky.com/about/press-releases/driving-efficiency-kaspersky-launches-ot-calculator-to-align-cybersecurity-investments-with-business-goals",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264650",
+    "date": "2026-01-29",
+    "title": "Shoppers are avoiding businesses that do not take Cybersecurity on Serious Note",
+    "summary": "... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE ... AI-robot-working-cyber-security · Zero Trust Is Not Stuck. We Are ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/shoppers-are-avoiding-businesses-that-do-not-take-cybersecurity-on-serious-note/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264651",
+    "date": "2026-01-29",
+    "title": "Indurex launches to secure critical infrastructure at intersection of AI, CPS ... - Industrial Cyber",
+    "summary": "Founded by a team of seasoned experts in operational technology (OT), cybersecurity, and process safety systems, Indurex enters the market at a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/indurex-launches-to-secure-critical-infrastructure-at-intersection-of-ai-cps-security-as-cyber-physical-risks-converge/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264652",
+    "date": "2026-01-29",
+    "title": "Cyber Maturity Assessment (CMA) - KPMG International",
+    "summary": "Cyber Maturity Assessment (CMA) · KPMG · Services · Advisory · Consulting · Cyber Security · Cyber Maturity Assessment (CMA).",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://kpmg.com/de/en/services/advisory/consulting/cyber-security/cyber-maturity-assessment.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264653",
+    "date": "2026-01-29",
+    "title": "Rolling the Digital Dice: Cyberopoly Recap - Absolute Software",
+    "summary": "Cybersecurity Awareness Series: Risk Is Inherent in the Modern Workforce ... Risk is inherent in the modernized workforce. Many employees rely on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.absolute.com/blog/rolling-the-digital-dice-cyberopoly-recap",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264654",
+    "date": "2026-01-29",
+    "title": "'We're losing massively': EU cyber chief warns Europe's defenses lag - POLITICO",
+    "summary": "Investing in security services but not in cybersecurity creates a “loophole,” Lepassaar warned. The agency chief's warnings come one week after the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.eu/article/we-are-losing-massively-against-hackers-eu-cyber-chief-warns/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264655",
+    "date": "2026-01-29",
+    "title": "AI & New Cybersecurity Reality- Conversations with Dale Hoak_Final - EC-Council",
+    "summary": "Moreover, given the constant influx of critical information from agencies such as the FBI, CISA, and the Department of Homeland Security, it was ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/the-cybersecurity-podcast/ai-new-cybersecurity-reality-conversations-with-dale-hoak_final/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264656",
+    "date": "2026-01-29",
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing into a masterclass for agentic architecture.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264657",
+    "date": "2026-01-29",
+    "title": "Colorado state auditor's office raises cybersecurity concerns - YouTube",
+    "summary": "A new audit has raised concerns about whether the State of Colorado is protected against cyber attacks. For video licensing inquiries, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=GkiNe5X1o4Q",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264592",
     "date": "2026-01-29",
     "title": "The New Battleground of Cybersecurity",
