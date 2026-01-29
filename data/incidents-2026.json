@@ -1,5 +1,317 @@
 [
   {
+    "id": "20264513",
+    "date": "2026-01-28",
+    "title": "Four arrested in crackdown on Discord-based SWATting and doxing",
+    "summary": "How badly do you want to win an online argument? I certainly hope it's not enough to put the life of the other person at risk. Police in Hungary and Romania have arrested four young men suspected of making hoax bomb threats and terrorising internet users through SWATting and doxing attacks. Read ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/four-arrested-crackdown-discord-swatting-doxing",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264514",
+    "date": "2026-01-28",
+    "title": "2026 Enterprise Security Trends: What Leaders Must Prepare For In An Interconnected Risk Landscape",
+    "summary": "Enterprise organizations are navigating a world where cyber incidents are causing physical shutdowns, and physical breaches are creating digital vulnerabilities, all while cloud-dependent systems are becoming the backbone of operations, and AI is being used as a tool by both defenders and attackers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102101-2026-enterprise-security-trends-what-leaders-must-prepare-for-in-an-interconnected-risk-landscape",
+    "tags": [
+      "data-breach",
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264515",
+    "date": "2026-01-28",
+    "title": "Malicious Open Source Software Packages Neared 500,000 in 2025",
+    "summary": "Malicious open source software packages have become a critical problem threatening the software supply chain. That’s one of the major takeaways of a new report titled “State of the Software Supply Chain” by open source software security company Sonatype. Sonatype said its researchers identified m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/malicious-open-source-software-packages/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264516",
+    "date": "2026-01-28",
+    "title": "Government’s new approach to software security oversight could complicate things for vendors",
+    "summary": "Software companies cheered the elimination of a government-wide attestation mandate. What comes next could be messy.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/white-house-software-security-attestation-elimination/810765/",
+    "tags": [
+      "supply-chain",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264517",
+    "date": "2026-01-28",
+    "title": "Pornhub and sister sites blocked in the UK due to Online Safety Act",
+    "summary": "Adult content giant Aylo will restrict access to its content-sharing platforms, including Pornhub, RedTube, and YouPorn, in the United Kingdom beginning February 2, 2026. The decision follows the company’s growing concerns about the effectiveness and privacy implications of the UK's Online Safety...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/pornhub-and-sister-sites-blocked-in-the-uk-due-to-online-safety-act/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264518",
+    "date": "2026-01-28",
+    "title": "OPNsense 26.1 brings updates to open-source firewall management",
+    "summary": "OPNsense, the open-source firewall and network security platform, reached version 26.1, adding a range of updates affecting management, traffic visibility, automation interfaces, and core services. Changes in firewall management and APIs Version 26.1, code-named Witty Woodpecker, introduces revis...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/opnsense-26-1-open-source-firewall/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264519",
+    "date": "2026-01-28",
+    "title": "Federal Cyber Agencies Withdraw From RSAC Raising Collaboration Concerns",
+    "summary": "Several U.S. federal cybersecurity agencies have withdrawn from the upcoming RSA Conference, prompting discussion about the impact on public–private collaboration and critical infrastructure defense. Security Boulevard reports that CISA, the FBI, and the NSA will not participate in this year’s ev...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/news/federal-cyber-agencies-withdraw-from-rsac-raising-collaboration-concerns/",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264520",
+    "date": "2026-01-28",
+    "title": "OpenSSL Vulnerabilities Cause Risk of Remote Code Execution",
+    "summary": "OpenSSL has issued emergency security updates after patching a set of newly discovered vulnerabilities identified by AISLE researchers. One of the flaws is rated high severity and could allow remote attackers to execute malicious code in applications that process untrusted cryptographic data. Whi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/openssl-vulnerabilities-cause-risk-of-remote-code-execution/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "encryption",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264521",
+    "date": "2026-01-28",
+    "title": "Insider Data Breach Prompts US Treasury to Sever Ties with Booz Allen",
+    "summary": "As a result of an insider incident where the private information of 406,000 individuals was made public by an ex-employee of Booz Allen Hamilton, the U.S. Treasury has cancelled all contracts with Booz Allen Hamilton. This was coupled with pressure to improve cybersecurity for federal contractors...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/us-treasury-cancels-booz-allen-contracts-data-breach/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264522",
+    "date": "2026-01-28",
+    "title": "Bridging Compliance and Cybersecurity in Financial Reporting in 2026",
+    "summary": "Bridging Compliance and Cybersecurity in Financial Reporting Guest post by Marcie Clark is the Director of Regulatory Services for Donnelley Financial Solutions Although financial compliance and cybersecurity look like two separate responsibilities to many businesses, they are linked together in ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/bridging-compliance-and-cybersecurity/",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264525",
+    "date": "2026-01-28",
+    "title": "Critical bug in popular vm2 Node.js sandboxing library puts projects at risk",
+    "summary": "A critical vulnerability has been patched in vm2, a widely used library for the Node.js JavaScript runtime that allows untrusted code to be executed inside a sandbox within the same process as trusted application code. The flaw allows for a sandbox escape, which is as serious as it gets for a sof...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123782/critical-bug-in-popular-vm2-node-js-sandboxing-library-puts-projects-at-risk.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264526",
+    "date": "2026-01-28",
+    "title": "Months After Patch, WinRAR Bug Poised to Hit SMBs Hardest",
+    "summary": "Russian and Chinese nation-state attackers are exploiting a months-old WinRAR vulnerability, despite a patch that came out last July.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/months-after-patch-winrar-bug-poised-smbs-hardest",
+    "tags": [
+      "vulnerability",
+      "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264527",
+    "date": "2026-01-28",
+    "title": "Fortinet Confirms New Zero-Day Behind Malicious SSO Logins",
+    "summary": "To stop the ongoing attacks, the cybersecurity vendor took the drastic step of temporarily disabling FortiCloud single sign-on (SSO) authentication for all devices.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/fortinet-new-zero-day-malicious-sso-logins",
+    "tags": [
+      "vulnerability",
+      "supply-chain",
+      "cloud",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264528",
+    "date": "2026-01-28",
+    "title": "Consumers Reluctant to Shop at Stores That Don't Take Security Seriously",
+    "summary": "The retail sector must adapt as consumers become more cybersecurity-conscious. Increased attack transparency is a good place to start.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/consumers-reluctant-to-shop-at-stores-hit-by-cyberattacks",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264529",
+    "date": "2026-01-28",
+    "title": "Burner phones and lead-lined bags: a history of UK security tactics in China",
+    "summary": "Starmer’s team is wary of spies but such fears are not new – with Theresa May once warned to get dressed under a duvetWhen prime ministers travel to China, heightened security arrangements are a given – as is the quiet game of cat and mouse that takes place behind the scenes as each country tests...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Guardian - Data & Computer Security",
+    "sourceUrl": "https://www.theguardian.com/politics/2026/jan/28/burner-phones-history-uk-security-tactics-china-keir-starmer-visit",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264530",
+    "date": "2026-01-28",
+    "title": "WhatsApp Adds One-Tap Security Settings for Added Privacy",
+    "summary": "WhatsApp rolled out Strict Account Settings, a lockdown-style mode that blocks unknown attachments, disables link previews, and silences unknown callers. The post WhatsApp Adds One-Tap Security Settings for Added Privacy appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-whatsapp-strict-account-settings-lockdown-security-mode/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264531",
+    "date": "2026-01-28",
+    "title": "Initial access hackers switch to Tsundere Bot for ransomware attacks",
+    "summary": "A prolific initial access broker tracked as TA584 has been observed using the Tsundere Bot alongside XWorm remote access trojan to gain network access that could lead to ransomware attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/initial-access-hackers-switch-to-tsundere-bot-for-ransomware-attacks/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264532",
+    "date": "2026-01-28",
+    "title": "Cyberattack on Polish energy grid impacted around 30 facilities",
+    "summary": "The coordinated attack on Poland's power grid in late December targeted multiple distributed energy resource (DER) sites across the country, including combined heat and power (CHP) facilities and wind and solar dispatch systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cyberattack-on-polish-energy-grid-impacted-around-30-facilities/",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264533",
+    "date": "2026-01-28",
+    "title": "eScan confirms update server breached to push malicious update",
+    "summary": "MicroWorld Technologies, the maker of the eScan antivirus product, has confirmed that one of its update servers was breached and used to distribute an unauthorized update later analyzed as malicious to a small subset of customers earlier this month. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/escan-confirms-update-server-breached-to-push-malicious-update/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264534",
+    "date": "2026-01-28",
+    "title": "Viral Moltbot AI assistant raises concerns over data security",
+    "summary": "Security researchers are warning of insecure deployments in enterprise environments of the Moltbot (formerly Clawdbot) AI assistant, which can lead to leaking API keys, OAuth tokens, conversation history, and credentials. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/viral-moltbot-ai-assistant-raises-concerns-over-data-security/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264535",
+    "date": "2026-01-28",
+    "title": "When the Director uses the wrong chat window.",
+    "summary": "CISA’s interim director uploaded sensitive government material into the public version of ChatGPT. The cyberattack on Poland’s power grid compromised roughly 30 energy facilities. The EU and India sign a new partnership that includes expanded cyber cooperation. Meta rolls out enhanced WhatsApp se...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2477/notes",
+    "tags": [
+      "malware",
+      "government",
+      "critical-infrastructure",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264479",
     "date": "2026-01-28",
     "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
@@ -2422,6 +2734,20 @@
     "country": "United States",
     "sourceName": "BleepingComputer",
     "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264523",
+    "date": "2026-01-27",
+    "title": "Masterclass on Governing Cybersecurity in the AI Era",
+    "summary": "Masterclass on Governing Cybersecurity in the AI Era Originally published at pwc website , click here to read it there As AI rapidly transforms the way we work, serve customers, and compete, cybersecurity has become a top management and boardroom priority – no longer just an IT issue. It now stan...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/masterclass-on-governing-cybersecurity/",
     "tags": [
       "ai-ml"
     ],
@@ -32740,6 +33066,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20264524",
+    "date": "2026-01-13",
+    "title": "Global CISO Summit – Pakistan 2026",
+    "summary": "Global CISO Summit – Pakistan 2026 The cybersecurity landscape is evolving at breakneck speed, and the need for resilient, forward-thinking leadership has never been greater. That is why I am thrilled to share the details for the upcoming Global CISO Forum 2026 – Pakistan Edition, taking place al...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/global-ciso-summit-pakistan-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20263867",
