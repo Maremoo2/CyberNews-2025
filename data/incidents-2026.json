@@ -1,5 +1,702 @@
 [
   {
+    "id": "20264658",
+    "date": "2026-01-29",
+    "title": "Wi-Fi public : ce réflexe simple peut éviter bien des problèmes en déplacement",
+    "summary": "Se connecter à un réseau Wi-Fi public dans un café, un hôtel ou un aéroport peut exposer les données personnelles à des risques souvent sous-estimés. Dans ce contexte, l’usage d’un VPN permet de chiffrer la connexion et de limiter les interceptions.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598048-wi-fi-public-cette-promo-cyberghost-vpn-peut-renforcer-votre-securite-en-deplacement.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264659",
+    "date": "2026-01-29",
+    "title": "Cet antivirus a diffusé un malware via une mise à jour, et vous ne pourrez pas vous en débarrasser comme ça",
+    "summary": "Une compromission d’un serveur de mise à jour d’eScan a permis la diffusion d’un composant malveillant via l’infrastructure officielle de l’éditeur. L’activité observée montre un malware conçu pour s’installer et, surtout, empêcher toute correction automatique.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598054-cet-antivirus-a-diffuse-un-malware-via-une-mise-a-jour-et-vous-ne-pourrez-pas-vous-en-debarrasser-comme-ca.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264660",
+    "date": "2026-01-29",
+    "title": "RAMP, place forte du ransomware, tombe aux mains du FBI",
+    "summary": "Le FBI a saisi RAMP, un forum de cybercriminalité connu pour autoriser la promotion de campagnes de ransomware. L’opération marque la chute d’un espace devenu central dans un écosystème pourtant de plus en plus discret.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598012-ramp-place-forte-du-ransomware-tombe-aux-mains-du-fbi.html",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264661",
+    "date": "2026-01-29",
+    "title": "Free retouche son VPN mobile pour vous faire gagner du temps",
+    "summary": "Free déploie une mise à jour de son application mobile qui simplifie l’activation du VPN inclus pour ses abonnés. Une évolution discrète, mais concrète, qui vise surtout à lever les freins à l’usage d’une fonction déjà existante.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597988-free-retouche-son-vpn-mobile-pour-vous-faire-gagner-du-temps.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264662",
+    "date": "2026-01-29",
+    "title": "EU Data Breach Notifications Surge as GDPR Changes Loom",
+    "summary": "EU data breach notifications have surged 22% in the last year and GDPR fines remain high, according to a new report from law firm DLA Piper. The “sustained high level of data enforcement activity across Europe” noted in the report occurs amid the EU Digital Omnibus legislative process that critic...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/eu-data-breach-notifications-surge/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264663",
+    "date": "2026-01-29",
+    "title": "CISA, security researchers warn FortiCloud SSO flaw is under attack",
+    "summary": "The exploitation activity comes weeks after a similar authentication bypass vulnerability was found.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-researchers-warn-forticloud-flaw-attack/810861/",
+    "tags": [
+      "vulnerability",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264664",
+    "date": "2026-01-29",
+    "title": "Windows is blocking the ASUS Armoury Crate app on ROG laptops",
+    "summary": "A growing number of ASUS ROG users are reporting that Windows Smart App Control is blocking the Armoury Crate software. This is disrupting essential system functions, RGB controls, controller mappings, and firmware updates on a wide range of devices, including ROG desktops, laptops, and handhelds...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/windows-is-blocking-the-asus-armoury-crate-app-on-rog-laptops/",
+    "tags": [
+      "malware",
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264665",
+    "date": "2026-01-29",
+    "title": "France fines employment agency €5 million for exposing data of 43M people",
+    "summary": "The French data protection authority (CNIL) has imposed a €5 million fine on France Travail for failing to adequately secure the personal data of job seekers, following a cyberattack that exposed sensitive information belonging to roughly 43 million individuals. The CNIL concluded that France Tra...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/france-fines-employment-agency-e5-million-for-exposing-data-of-43m-people/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264666",
+    "date": "2026-01-29",
+    "title": "Google disrupts proxy network used by 550+ threat groups",
+    "summary": "Google has disrupted Ipidea, a massive residential proxy network consisting of user devices that are being used as the last-mile link in cyberattack chains. “In a single seven day period in January 2026, GTIG observed over 550 individual threat groups that we track utilizing IP addresses tracked ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/ipidea-proxy-network-disrupted/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264667",
+    "date": "2026-01-29",
+    "title": "Virtue AI AgentSuite enables enterprises to test and secure AI agents",
+    "summary": "Virtue AI announced AgentSuite, a multi-layer security and compliance platform for enterprise AI agents. Organizations worldwide are deploying agents that modify databases, trigger payments, and access systems containing sensitive information. AgentSuite is the AI-native platform built specifical...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/virtue-ai-agentsuite-platform/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264668",
+    "date": "2026-01-29",
+    "title": "eScan AV supply chain compromise: Users targeted with malicious updates",
+    "summary": "The update infrastructure for eScan antivirus, a product of Indian cybersecurity company MicroWorld Technologies, has been compromised by unknown attackers to deliver a persistent downloader to enterprise and consumer endpoints. The supply chain compromise also resulted in the eScan antivirus on ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/escan-antivirus-update-supply-chain-compromised/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264669",
+    "date": "2026-01-29",
+    "title": "Druva Threat Watch offers continuous threat monitoring of backup data",
+    "summary": "Druva announced the launch of Threat Watch, a zero-touch, automated cloud-native solution for proactive threat monitoring of backup data. Threat Watch is designed to continuously scan backup snapshots to identify dormant threats and indicators of compromise (IOCs), empowering IT and security team...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/druva-threat-watch-offers-continuous-threat-monitoring-of-backup-data/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264670",
+    "date": "2026-01-29",
+    "title": "France Travail fined €5 million for failing to protect job seeker data",
+    "summary": "France data protection authority CNIL has fined public employment agency France Travail €5 million for failing to ensure the security of personal data of job seekers. Attackers gained access to the organization’s systems through social engineering techniques that targeted accounts used by staff a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/france-travail-5-million-eur-fine/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264671",
+    "date": "2026-01-29",
+    "title": "Google Disrupts Major Residential Proxy Network IPIDEA",
+    "summary": "Google moved to disrupt what it believes is one of the world’s largest residential proxy networks, targeting the IPIDEA ecosystem of proxy and VPN services. The action aims to cut off infrastructure that has quietly enabled cybercrime, espionage, and fraud by routing malicious traffic through mil...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/google-disrupts-major-residential-proxy-network-ipidea/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264672",
+    "date": "2026-01-29",
+    "title": "Top 7 Threat Intelligence Platforms & Software",
+    "summary": "Threat intelligence platforms (TIPs) help security teams turn overwhelming volumes of threat data into clear, actionable priorities. They aggregate intelligence from external sources — such as commercial and open-source feeds — alongside internal signals like security logs and alerts, then enrich...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/products/threat-intelligence-platforms/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264673",
+    "date": "2026-01-29",
+    "title": "Cal.com Access Control Flaws Expose Millions of Bookings",
+    "summary": "A vulnerability in Cal.com, a popular open-source scheduling platform used by millions, potentially puts user accounts and sensitive booking data at risk. Gecko Security researchers revealed that attackers could take over any Cal.com account and access private meeting details across organizations...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cal-com-access-control-flaws-expose-millions-of-bookings/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264674",
+    "date": "2026-01-29",
+    "title": "5 Best Practices for SSL/TLS Certificate and Private Key Security",
+    "summary": "In today’s world of constant data breaches, phishing campaigns, and MITM attacks, the security of SSL is paramount. Most online transactions, data exchanges, and API communications work under the hood of an SSL/TLS certificate. Recent supply chain attacks highlight how compromised private keys ca...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cheap SSL Shop",
+    "sourceUrl": "https://www.cheapsslshop.com/blog/best-practices-for-ssl-certificate-and-private-key-security",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "supply-chain",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264675",
+    "date": "2026-01-29",
+    "title": "Crypto Trading Bot Banana Gun Expands to BNB Chain With High-Speed Execution on Banana Pro",
+    "summary": "As activity on BNB Chain continues to concentrate around fast-moving tokens and retail-driven flows, Banana Gun has extended its execution infrastructure to support BNB Chain inside Banana Pro, its browser-based trading terminal built for speed-critical markets. The update allows traders to execu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/banana-gun-expands-to-bnb-chain/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264676",
+    "date": "2026-01-29",
+    "title": "How to Use insMind’s AI Image Generator to Improve Clarity and Trust in Cybersecurity Content",
+    "summary": "In this post, I will show you how to use insMind’s AI image generator to improve clarity and trust in cybersecurity content. In cybersecurity, trust depends on clarity. Complex threats, abstract attack flows, and invisible system processes are difficult to explain using text alone. As security co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-use-insminds-ai-image-generator/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264677",
+    "date": "2026-01-29",
+    "title": "11 Best Password Generators Of 2026",
+    "summary": "We have covered you in this post if you are looking for the best password generators. Your password can give a stranger access to your life. For instance, if someone gets the password of your social media accounts, they access your private conversations. If someone gains access to the password of...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/best-password-generators/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264678",
+    "date": "2026-01-29",
+    "title": "Why Synergy Between Automation Testing and DevOps is the Key to Modern Software Scaling",
+    "summary": "In this post, you will learn why synergy between automation testing and DevOps is the key to modern software scaling. In the modern digital landscape, the pressure to deliver software at “light speed” has moved from a competitive advantage to a baseline requirement. However, speed often comes at ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/synergy-between-automation-testing-and-devops/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264679",
+    "date": "2026-01-29",
+    "title": "6 Ways To Optimize Your DevOps Team Productivity",
+    "summary": "This post will show you 6 ways to optimize your DevOps team productivity. Every DevOps team benefits significantly from the optimization that maximizes the performance of the individual members of the group. There are many different ways to achieve excellent performance through optimization. Belo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/6-ways-to-optimize-your-devops-team-productivity/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20264680",
+    "date": "2026-01-29",
+    "title": "Before You Climb: Why Many CMMC Preparation Efforts Miss the Mark",
+    "summary": "Last Updated on January 29, 2026 The post Before You Climb: Why Many CMMC Preparation Efforts Miss the Mark appeared first on Pivot Point Security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Pivot Point Security Blog",
+    "sourceUrl": "https://www.pivotpointsecurity.com/before-you-climb-why-many-cmmc-preparation-efforts-miss-the-mark/?utm_source=rss&utm_medium=rss&utm_campaign=before-you-climb-why-many-cmmc-preparation-efforts-miss-the-mark",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264685",
+    "date": "2026-01-29",
+    "title": "Streets of Minneapolis",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76730",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264686",
+    "date": "2026-01-29",
+    "title": "AI search framework that teaches AI models to think like experts",
+    "summary": "Cisco Foundation AI introduces AI search framework for more efficient search by models",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/ai-search-framework-teaches-ai-models-to-think-like-experts/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264687",
+    "date": "2026-01-29",
+    "title": "Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model",
+    "summary": "Cisco Foundation AI introduces the first open-weight reasoning model for security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/foundation-sec-8b-reasoning-first-open-weight-security-reasoning-model/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264688",
+    "date": "2026-01-29",
+    "title": "Introducing The PEAK Threat Hunting Assistant: Agentic AI to Supercharge Your Hunt",
+    "summary": "Learn about the PEAK Threat Hunting Assistant, introduced by Cisco Foundation AI",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/introducing-peak-threat-hunting-assistant/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264689",
+    "date": "2026-01-29",
+    "title": "Cisco Foundation AI Advances Agentic Security Systems for the AI Era",
+    "summary": "Cisco Foundation AI is building agentic security for the AI era",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/foundation-ai-advances-agentic-security-systems-for-ai-era/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264690",
+    "date": "2026-01-29",
+    "title": "Identitäten im Fokus von Cyberkriminellen",
+    "summary": "Cyberkriminelle haben es inzwischen vermehrt auf digitale Identitäten abgesehen.khunkornStudio – shutterstock.com Der State of Incident Response Report 2026 von Eye Security zeigt: Cyberangriffe auf Unternehmen erfolgen zunehmend unbemerkt und die Schäden entstehen innerhalb von Minuten. Demnach ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124384/identitaten-im-fokus-von-cyberkriminellen.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264691",
+    "date": "2026-01-29",
+    "title": "Critical RCE bugs expose the n8n automation platform to host‑level compromise",
+    "summary": "Two critical sandbox escape flaws in the popular n8n workflow automation platform are allowing authenticated users to achieve remote code execution on affected instances. According to new JFrog findings, sandboxing safeguards meant to contain untrusted workflow logic can be bypassed, exposing ent...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124343/critical-rce-bugs-expose-the-n8n-automation-platform-to-host%e2%80%91level-compromise.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264692",
+    "date": "2026-01-29",
+    "title": "'Semantic Chaining' Jailbreak Dupes Gemini Nano Banana, Grok 4",
+    "summary": "If an attacker splits a malicious prompt into discrete chunks, some large language models (LLMs) will get lost in the details and miss the true intent.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/semantic-chaining-jailbreak-gemini-nano-banana-grok-4",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264695",
+    "date": "2026-01-29",
+    "title": "Google Disrupts Extensive Residential Proxy Networks",
+    "summary": "Google has taken coordinated action against the massive IPIDEA residential proxy network, enhancing customer protections and disrupting cybercrime operations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/google-disrupts-proxy-networks/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264696",
+    "date": "2026-01-29",
+    "title": "Operation Winter SHIELD: FBI Issues Call to Arms for Organizations to Improve Cybersecurity",
+    "summary": "The FBI outlines ten actions which organizations can take to defend networks against cybercriminal and nation-state threats",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fbi-operation-winter-shield-cyber/",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264697",
+    "date": "2026-01-29",
+    "title": "France Fines National Employment Agency €5m Over 2024 Data Breach",
+    "summary": "The French data protection regulator said that France Travail’s response to a 2024 data breach violated GDPR",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/france-finesemployment-agency-5m/",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264698",
+    "date": "2026-01-29",
+    "title": "New CISA Guidance Targets Insider Threat Risks",
+    "summary": "CISA urges action against insider threats with publication of a new infographic offering strategies to manage risks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cisa-targets-insider-threat-risks/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264699",
+    "date": "2026-01-29",
+    "title": "FBI Takes Down RAMP Ransomware Forum",
+    "summary": "The dark web forum administrator confirmed the takedown and said they had “no plans to rebuild”",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fbi-takes-down-ramp-ransomware/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264700",
+    "date": "2026-01-29",
+    "title": "Ransomware Victim Numbers Rise, Despite Drop in Active Extortion Groups",
+    "summary": "Ransomware victims surged in Q4 2025 despite fewer active extortion groups, with data leaks rising 50%, ReliaQuest researchers report",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ransomware-numbers-rise-despite/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264701",
+    "date": "2026-01-29",
+    "title": "US Data Breaches Hit Record High but Victim Numbers Decline",
+    "summary": "Non-profit ITRC says the number of data breaches increased 5% annually to reach a record total in 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/us-data-breaches-record-high/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264702",
+    "date": "2026-01-29",
+    "title": "Top 5 Social Media API for Data Collection and Analytics in 2026",
+    "summary": "Social media data collection requires APIs providing reliable access, comprehensive coverage, structured formats enabling analysis. Serious data-driven strategies depend on complete information versus partial insights from limited access. Data collection and analytics demand high-volume access, h...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/top-5-social-media-api-for-data-collection-and-analytics-in-2026",
+    "tags": [
+      "malware"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20264703",
+    "date": "2026-01-29",
+    "title": "Essential Strategies to Prevent Exchange Server Downtime",
+    "summary": "A major issue which Exchange admins often face is server downtime. There are multiple reasons that can cause downtime, such as power failure, hardware failure, database corruption, etc. Although even after taking all the precautions against known issues, there is still a chance that some unforese...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/essential-strategies-to-prevent-exchange-server-downtime",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264704",
+    "date": "2026-01-29",
+    "title": "PCI Security Standards Council Publishes First-Ever Annual Report",
+    "summary": "The PCI Security Standards Council (PCI SSC) announced the release of its inaugural Annual Report, marking a significant milestone in the Council’s nearly 20-year history of advancing global payment security through industry collaboration, innovation, and education.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/pci-security-standards-council-publishes-first-ever-annual-report",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264705",
+    "date": "2026-01-29",
+    "title": "Match Group breach exposes data from Hinge, Tinder, OkCupid, and Match",
+    "summary": "Match Group, the owner of multiple popular online dating services, Tinder, Match.com, Meetic, OkCupid, and Hinge, confirmed a cybersecurity incident that compromised user data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/match-group-breach-exposes-data-from-hinge-tinder-okcupid-and-match/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264706",
+    "date": "2026-01-29",
+    "title": "Marquis blames ransomware breach on SonicWall cloud backup hack",
+    "summary": "Marquis Software Solutions, a Texas-based financial services provider, is blaming a ransomware attack that impacted its systems and affected dozens of U.S. banks and credit unions in August 2025 on a security breach reported by SonicWall a month later. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/marquis-blames-ransomware-breach-on-sonicwall-cloud-backup-hack/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "cloud",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264707",
+    "date": "2026-01-29",
+    "title": "Not a Kids Game: From Roblox Mod to Compromising Your Company",
+    "summary": "Seemingly harmless game mods can hide infostealer malware that quietly steals identities. Flare shows how Roblox mods can turn a home PC infection into corporate compromise. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264708",
+    "date": "2026-01-29",
+    "title": "Aisuru botnet sets new record with 31.4 Tbps DDoS attack",
+    "summary": "The Aisuru/Kimwolf botnet launched a new massive distributed denial of service (DDoS) attack in December 2025, peaking at 31.4 Tbps and 200 million requests per second. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/aisuru-botnet-sets-new-record-with-314-tbps-ddos-attack/",
+    "tags": [
+      "ddos",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264709",
+    "date": "2026-01-29",
+    "title": "New Microsoft Teams feature will let you report suspicious calls",
+    "summary": "Microsoft plans to introduce a call reporting feature in Teams by mid-March, allowing users to flag suspicious or unwanted calls as potential scams or phishing attempts. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
+    "tags": [
+      "phishing",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264710",
+    "date": "2026-01-29",
+    "title": "France fines unemployment agency €5 million over data breach",
+    "summary": "The French data protection authority fined the national employment agency €5 million (nearly €6 million) for failing to secure job seekers' data, which allowed hackers to steal the personal information of 43 million people. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/france-fines-unemployment-agency-5-million-over-data-breach/",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264632",
     "date": "2026-01-29",
     "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
@@ -1355,6 +2052,20 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264693",
+    "date": "2026-01-28",
+    "title": "How Can CISOs Respond to Ransomware Getting More Violent?",
+    "summary": "Ransomware defense requires focusing on business resilience. This means patching issues promptly, improving user education, and deploying multifactor authentication.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/how-cisos-respond-ransomware-getting-more-violent",
+    "tags": [
+      "ransomware"
     ],
     "impact": 3
   },
@@ -4463,6 +5174,36 @@
     "sourceName": "BleepingComputer",
     "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
     "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264681",
+    "date": "2026-01-27",
+    "title": "Latest FINRA Report Puts Brokers on Notice about AI Governance",
+    "summary": "Last Updated on January 29, 2026 The post Latest FINRA Report Puts Brokers on Notice about AI Governance appeared first on Pivot Point Security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Pivot Point Security Blog",
+    "sourceUrl": "https://www.pivotpointsecurity.com/latest-finra-report-puts-brokers-on-notice-about-ai-governance/?utm_source=rss&utm_medium=rss&utm_campaign=latest-finra-report-puts-brokers-on-notice-about-ai-governance",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264694",
+    "date": "2026-01-27",
+    "title": "WorldLeaks Extortion Group Claims It Stole 1.4TB of Nike Data",
+    "summary": "The sportswear brand is investigating an alleged breach of its network that exposed some 188,347 files of highly sensitive corporate data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/worldeaks-extortion-group-stole-1-4tb-nike-data",
+    "tags": [
+      "data-breach",
+      "malware",
       "ai-ml"
     ],
     "impact": 3
@@ -16614,6 +17355,23 @@
     "impact": 3
   },
   {
+    "id": "20264682",
+    "date": "2026-01-21",
+    "title": "Why the Best SIEM for Security Operations Is Crucial for Cloud-Based Environments",
+    "summary": "Cloud computing has transformed how businesses operate, but it’s also created new security challenges that traditional tools weren’t designed to handle. Organizations moving to AWS, Azure, Google Cloud, or hybrid environments need visibility across distributed infrastructure that spans multiple r...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/why-the-best-siem-for-security-operations-is-crucial-for-cloud-based-environments/",
+    "tags": [
+      "malware",
+      "cloud",
+      "google",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263978",
     "date": "2026-01-21",
     "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
@@ -25136,6 +25894,20 @@
     "impact": 3
   },
   {
+    "id": "20264683",
+    "date": "2026-01-18",
+    "title": "Top 10 SIEM Tools for Integrating with Existing Security Systems",
+    "summary": "Security Information and Event Management (SIEM) platforms have become central to modern cybersecurity strategies. These systems collect, analyze, and correlate data from multiple security tools to give organizations a complete view of their threat environment. However, not all SIEM solutions int...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/top-10-siem-tools-for-integrating-with-existing-security-systems/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20263408",
     "date": "2026-01-18",
     "title": "Deepen Desai: A doctor in computer viruses. [CISO] [Career Notes]",
@@ -29008,6 +29780,20 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264684",
+    "date": "2026-01-15",
+    "title": "Best EDR Software: Key Features to Ensure Maximum Protection",
+    "summary": "Cybersecurity threats are getting more sophisticated every day. Traditional antivirus programs can’t keep up with the complex attacks that modern businesses face. That’s where Endpoint Detection and Response (EDR) solutions come into play. This technology has become a must-have for organizations ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/best-edr-software-key-features-to-ensure-maximum-protection/",
+    "tags": [
+      "malware"
     ],
     "impact": 3
   },
