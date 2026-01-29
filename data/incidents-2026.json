@@ -1,5 +1,501 @@
 [
   {
+    "id": "20264711",
+    "date": "2026-01-29",
+    "title": "NSA pick champions foreign spying law as nomination advances",
+    "summary": "The testimony by Army Lt. Gen. Joshua Rudd about the importance of Section 702 of the Foreign Intelligence Surveillance Act (FISA) could put him at loggerheads with the commander-in-chief and other national security officials, such as Director of National Intelligence Tulsi Gabbard, who has dispa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nsa-pick-champions-fsa-renewal-nomination-advances",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264712",
+    "date": "2026-01-29",
+    "title": "French government agency fined nearly $6 million for data security failings",
+    "summary": "The French data protection authority fined the country's national employment agency nearly $6 million for poor data security.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/france-travail-fined-cnil",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264713",
+    "date": "2026-01-29",
+    "title": "Cyberattack on large Russian bread factory disrupts supply deliveries",
+    "summary": "The Vladimir Bread Factory — one of the largest bakery producers in its region — said in a statement that its internal digital systems were hit overnight on Sunday, knocking out office computers, servers and electronic document management tools.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cyberattack-russian-bread-factory-supply-disruptions",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264714",
+    "date": "2026-01-29",
+    "title": "Feds get second guilty plea in takedown of dark web Empire Market",
+    "summary": "Both men charged with co-creating the dark web marketplace Empire Market have now pleaded guilty to federal drug conspiracy charges, closing the book on one of the major cybercrime cases of the early 2020s.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/feds-second-guilty-plea",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264715",
+    "date": "2026-01-29",
+    "title": "LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’",
+    "summary": "An LLMjacking operation has been targeting exposed LLMs and MCPs at scale, for commercial monetization. The post LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’ appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264716",
+    "date": "2026-01-29",
+    "title": "N8n Vulnerabilities Could Lead to Remote Code Execution",
+    "summary": "The two bugs impacted n8n’s sandbox mechanism and could be exploited via weaknesses in the AST sanitization logic. The post N8n Vulnerabilities Could Lead to Remote Code Execution appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/n8n-vulnerabilities-could-lead-to-remote-code-execution/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264717",
+    "date": "2026-01-29",
+    "title": "[Ekstra] Får omfattende KI-oppgradering: Snart kan Chrome surfe på nettet for deg",
+    "summary": "Google kunngjør kraftig oppgradering av nettleseren.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/far-omfattende-ki-oppgradering-snart-kan-chrome-surfe-pa-nettet-for-deg/567577",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264718",
+    "date": "2026-01-29",
+    "title": "Latvia says Russia remains its top cyber threat as attacks hit record high",
+    "summary": "In its annual report released this week, Latvia’s national security service, SAB, said 2025 marked an all-time high in registered cyber threats targeting the country, with activity surging significantly past levels seen before Russia’s invasion of Ukraine in 2022.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/latvia-says-russia-remains-top-cyber-threat-record-attacks",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264719",
+    "date": "2026-01-29",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c5957c71ca6d0fb • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-exposed-llm-endpoints-in-bizarre-bazaar-operation/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264720",
+    "date": "2026-01-29",
+    "title": "Notorious Russia-based RAMP cybercrime forum apparently seized by FBI",
+    "summary": "RAMP was used by Russian, Chinese and English-speaking cybercriminals and particularly catered to ransomware groups and their affiliates.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/notorious-russia-based-ramp-forum-seized",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264721",
+    "date": "2026-01-29",
+    "title": "ThreatsDay Bulletin: New RCEs, Darknet Busts, Kernel Bugs & 25+ More Stories",
+    "summary": "This week’s updates show how small changes can create real problems. Not loud incidents, but quiet shifts that are easy to miss until they add up. The kind that affects systems people rely on every day. Many of the stories point to the same trend: familiar tools being used in unexpected ways. Sec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264722",
+    "date": "2026-01-29",
+    "title": "SolarWinds Patches Critical Web Help Desk Vulnerabilities",
+    "summary": "The four critical flaws could be exploited without authentication for remote code execution or authentication bypass. The post SolarWinds Patches Critical Web Help Desk Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264723",
+    "date": "2026-01-29",
+    "title": "GoTo Resolve Tool’s Background Activities Compared to Ransomware Tactics",
+    "summary": "A new security alert has been issued over a computer program that is acting as a silent gateway for intruders. The tool, known by the technical name HEURRemoteAdmin.GoToResolve.gen, is being called a “Potentially Unwanted Application” (PUA) by experts because of the way it hides its activity from...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/goto-resolve-activities-ransomware-tactics/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264724",
+    "date": "2026-01-29",
+    "title": "Notorious Russia-based RAMP cybercrime forum apparently seized by FBI",
+    "summary": "A splash page and other evidence points to a full seizure of the RAMP cybercrime forum by U.S. law enforcement.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ramp-cybercrime-forum-appreantly-seized-fbi",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264725",
+    "date": "2026-01-29",
+    "title": "Critical RCE bugs expose the n8n automation platform to host‑level compromise",
+    "summary": "Two critical sandbox escape flaws in the popular n8n workflow automation platform are allowing authenticated users to achieve remote code execution on affected instances. According to new JFrog findings, sandboxing safeguards meant to contain untrusted workflow logic can be bypassed, exposing ent...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4124343/critical-rce-bugs-expose-the-n8n-automation-platform-to-host%E2%80%91level-compromise.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264726",
+    "date": "2026-01-29",
+    "title": "ISC Stormcast For Thursday, January 29th, 2026 https://isc.sans.edu/podcastdetail/9786, (Thu, Jan 29th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32664",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264727",
+    "date": "2026-01-29",
+    "title": "Du trenger ikke en full sky-exit",
+    "summary": "Du trenger delvise utganger for de kritiske risikoscenariene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-du-trenger-ikke-en-full-sky-exit/567541",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264728",
+    "date": "2026-01-29",
+    "title": "Malicious Chrome extensions can spy on your ChatGPT chats",
+    "summary": "Researchers discovered 16 malicious browser extensions for Google Chrome and Microsoft Edge that steal ChatGPT session tokens, giving attackers access to accounts, including conversation history and metadata. The 16 malicious extensions (15 for Chrome and 1 for Edge) claim to improve and optimize...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/01/malicious-chrome-extensions-can-spy-on-your-chatgpt-chats?&web_view=true",
+    "tags": [
+      "microsoft",
+      "google",
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264729",
+    "date": "2026-01-29",
+    "title": "Auditors at Bitpanda's German subsidiary flagged information security issues, echoing ...",
+    "summary": "These included inadequate information security and data storage systems, insufficient tests to identify and protect against cybersecurity threats, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.icij.org/investigations/coin-laundry/auditors-at-bitpandas-german-subsidiary-flagged-information-security-issues-echoing-regulators-concerns/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264730",
+    "date": "2026-01-29",
+    "title": "Cyber Security Stocks Gain as $190 Billion Move to Zero Trust Replaces Old Systems",
+    "summary": "CADSI represents more than 900 Canadian companies across defence, security, cybersecurity, aerospace, and advanced technologies, serving as the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/cyber-security-stocks-gain-as-190-billion-move-to-zero-trust-replaces-old-systems-302674286.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264731",
+    "date": "2026-01-29",
+    "title": "New Innovations for Agility in Cyber Regulation and Compliance - Lawfare",
+    "summary": "Since then, of course, regulations have expanded to cover the multiplying cybersecurity and broader IT security risks to cover all aspects of security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/new-innovations-for-agility-in-cyber-regulation-and-compliance",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264732",
+    "date": "2026-01-29",
+    "title": "Andy Ogles Grills Cybersecurity and Infrastructure Security Agency Director About Workforce ...",
+    "summary": "At a House Homeland Security Committee hearing on Wednesday, Rep. Andy Ogles (R-TN) questioned Madhu Gottumukkala, Acting Director of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=4mgcqkrD_ow",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264733",
+    "date": "2026-01-29",
+    "title": "2026 Zero Trust Report - Bridging the Execution Gap — Unifying Security from Edge to Cloud",
+    "summary": "Yet despite near-universal acceptance, Zero Trust execution remains uneven. Based on a survey of 851 IT, networking, and cybersecurity professionals, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/2026-zero-trust-report-bridging-the-execution-gap-unifying-security-from-edge-to-cloud/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264734",
+    "date": "2026-01-29",
+    "title": "Is America's Cyber Weakness Self-Inflicted? - War on the Rocks",
+    "summary": "It means a short set of standards enforced by the Federal Communications Commission, potentially using the Cybersecurity and Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://warontherocks.com/2026/01/is-americas-cyber-weakness-self-inflicted/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264735",
+    "date": "2026-01-29",
+    "title": "Third Party & Supply Chain Cyber Security Summit 2026",
+    "summary": "The event focuses on cybersecurity practices related to third-party and supply chain risk, with an emphasis on end-to-end implementation ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.helpnetsecurity.com/event/third-party-supply-chain-cyber-security-summit-2026-2/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264736",
+    "date": "2026-01-29",
+    "title": "How CrowdStrike's ISO Certificate Sets AI Security Standards | Cyber Magazine",
+    "summary": "“CrowdStrike is among the first cybersecurity companies to achieve ISO 42001 certification, the world's first AI management system standard,” says ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/how-crowdstrikes-iso-certificate-sets-ai-security-standards",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264737",
+    "date": "2026-01-29",
+    "title": "Palo Alto Networks Completes Chronosphere Acquisition, Unifying Observability and ...",
+    "summary": "Trusted by more than 70,000 organizations worldwide, we provide comprehensive AI-powered security solutions across network, cloud, security operations ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-chronosphere-acquisition--unifying-observability-and-security-for-the-ai-era",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264738",
+    "date": "2026-01-29",
+    "title": "Students earn top ranking in cyber competition - WSU Insider - Washington State University",
+    "summary": "... Security Group, a student club that has about 50 members studying in ... The prestigious cybersecurity skills competition, supported by Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.wsu.edu/news/2026/01/29/students-earn-top-ranking-in-cyber-competition/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264739",
+    "date": "2026-01-29",
+    "title": "AI-assisted cybersecurity team discovers 12 OpenSSL vulnerabilities, claims humans are ...",
+    "summary": "OpenSSL is a security standard that protects most of the internet, and cybersecurity researchers have recently discovered vulnerabilities in the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/ai-assisted-cybersecurity-team-discovers-12-openssl-vulnerabilities-claims-humans-are-the-limiting-factor-some-vulnerabilities-have-been-around-for-decades",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264740",
+    "date": "2026-01-29",
+    "title": "Trump's acting cyber chief uploads sensitive files to public ChatGPT — report - TRT World",
+    "summary": "According to Politico, Madhu Gottumukkala, the acting head of the US Cybersecurity and Infrastructure Security Agency, has triggered an internal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.trtworld.com/article/118f3bd16aee",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264741",
+    "date": "2026-01-29",
+    "title": "Q&A: Why Cybersecurity Is Now a Core Business Risk, Not Just a Technical Problem",
+    "summary": "Michael Daniels, Michael Daniel, CEO of the Cyber Threat Alliance and Former Cybersecurity Advisor to President Barack Obama, spoke to the IT Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itsecurityguru.org/2026/01/29/qa-why-cybersecurity-is-now-a-core-business-risk-not-just-a-technical-problem/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264742",
+    "date": "2026-01-29",
+    "title": "Cyber Security for Critical Assets (CS4CA) Canada 2026",
+    "summary": "The event brings together senior leaders responsible for cybersecurity across Canada's critical infrastructure sectors, including energy, utilities, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.helpnetsecurity.com/event/cyber-security-for-critical-assets-cs4ca-canada-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264743",
+    "date": "2026-01-29",
+    "title": "AWS announces Deployment Agent SOPs in AWS MCP Server (preview)",
+    "summary": "AWS announces the launch of deployment Standard Operating Procedures (SOPs) available in the AWS MCP Server. SOPs are structured, natural language instructions that guide AI agents through complex, multi-step tasks to ensure consistent, reliable, and efficient behavior. With these automated proce...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264744",
+    "date": "2026-01-29",
+    "title": "New Microsoft Data Security Index report explores secure AI adoption to protect sensitive data",
+    "summary": "Generative AI and agentic AI are redefining how organizations innovate and operate, unlocking new levels of productivity, creativity and collaboration across industry teams. From accelerating content creation to streamlining workflows, AI offers transformative benefits that empower organizations ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264658",
     "date": "2026-01-29",
     "title": "Wi-Fi public : ce réflexe simple peut éviter bien des problèmes en déplacement",
