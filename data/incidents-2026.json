@@ -1,5 +1,410 @@
 [
   {
+    "id": "20264536",
+    "date": "2026-01-29",
+    "title": "Crooks are hijacking and reselling AI infrastructure: Report",
+    "summary": "For years, CSOs have worried about their IT infrastructure being used for unauthorized cryptomining. Now, say researchers, they’d better start worrying about crooks hijacking and reselling access to exposed corporate AI infrastructure. In a report released Wednesday, researchers at Pillar Securit...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4123806/crooks-are-hijacking-and-reselling-ai-infrastructure-report.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264541",
+    "date": "2026-01-29",
+    "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.35",
+    "summary": "Kubernetes version 1.35 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.35. Starting today, you can create new EKS clusters using version 1.35 and upgrade e...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264542",
+    "date": "2026-01-29",
+    "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports application resiliency testing with AWS Fault Injection Service",
+    "summary": "Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) now supports application resiliency testing with AWS Fault Injection Service (FIS), a fully managed service for running controlled fault injection experiments to improve application performance, observability, and resilienc...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264543",
+    "date": "2026-01-29",
+    "title": "US cyber chief uploaded sensitive files into public ChatGPT, Sicarii ransomware can't be ...",
+    "summary": "... security alerts inside the Department of Homeland Security. The documents weren't classified, but the uploads prompted an internal review to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-us-cyber-chief-uploaded-sensitive-files-into-public-chatgpt-vibe-coded-sicarii-ransomware-cant-be-decrypted-whatsapp-account-feature-combats-spyware/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264544",
+    "date": "2026-01-29",
+    "title": "The State of Cybersecurity in the Finance Sector: Six Trends to Watch - Darktrace",
+    "summary": "Your data. Our AI. Elevate your network security with Darktrace AI. Get a demo.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darktrace.com/fr/blog/the-state-of-cybersecurity-in-the-finance-sector-six-trends-to-watch",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264545",
+    "date": "2026-01-29",
+    "title": "Bennie Thompson Grills Security Officials On Staffing Cut Impacts To 'Offensive Cyber Operations'",
+    "summary": "At a House Homeland Security Committee hearing, Rep. Bennie Thompson (D-MS) questioned cybersecurity officials about the impacts of staffing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=t3J-JxF2XMo",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264537",
+    "date": "2026-01-28",
+    "title": "Fortinet’s latest zero-day vulnerability carries frustrating familiarities for customers",
+    "summary": "Fortinet customers are confronting another actively exploited zero-day vulnerability that allows attackers to bypass authentication in the single sign-on flow for FortiCloud and gain privileged access to multiple Fortinet firewall products and related services. The vendor issued a security adviso...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ortinet-zero-day-cve-2026-24858-forticloud-sso-auth-bypass/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264538",
+    "date": "2026-01-28",
+    "title": "Lawmakers wonder when Trump administration will weigh on soon-expired surveillance powers",
+    "summary": "There’s a growing question on Capitol Hill as the expiration of sweeping U.S. government surveillance powers looms: Where is the Trump administration? The Senate Judiciary Committee held a hearing Wednesday on the 2024 law that revised the surveillance authorities known as Section 702, a part of ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/trump-administration-section-702-fisa-renewal-senate-judiciary-hearing/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264539",
+    "date": "2026-01-28",
+    "title": "Undressed victims file class action lawsuit against xAI for Grok deepfakes",
+    "summary": "A class of individuals who say they were victimized by nude or undressed deepfakes generated by Grok have filed a lawsuit against parent company xAI, calling the tool “a generative artificial intelligence chatbot that humiliates and sexually exploits women and girls by undressing them and posing ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/grok-undressed-victims-file-class-action-lawsuit-against-xai-elon-musk/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264540",
+    "date": "2026-01-28",
+    "title": "CrowdStrike Named a Customers’ Choice in 2026 Gartner® Voice of the Customer for Endpoint Protection Platforms",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-voice-of-the-customer-for-epp-report/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264546",
+    "date": "2026-01-28",
+    "title": "Amazon EC2 R7gd instances are now available in Europe (Paris) Region",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances with up to 3.8 TB of local NVMe-based SSD block-level storage are available in Europe (Paris) Region. R7gd are powered by AWS Graviton3 processors with DDR5 memory are built on the AWS Nitro System. They are ideal for memory...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/r7gd-instances-available-in-paris",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264547",
+    "date": "2026-01-28",
+    "title": "Amazon MSK Replicator is now available in Asia Pacific (New Zealand)",
+    "summary": "You can now use Amazon MSK Replicator to replicate streaming data across Amazon Managed Streaming for Apache Kafka (Amazon MSK) clusters in Asia Pacific (New Zealand) Region. MSK Replicator is a feature of Amazon MSK that enables you to reliably replicate data across Amazon MSK clusters in differ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264548",
+    "date": "2026-01-28",
+    "title": "The New Crypto Wars - The Federalist Society",
+    "summary": "Prof. Susan Landau, Professor of Cyber Security and Policy, Department of Computer Science; Senior Fellow, Center for International Law & Governance; ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fedsoc.org/events/the-new-crypto-wars",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264549",
+    "date": "2026-01-28",
+    "title": "Cyber Check-In Program Boosts Government Trust in Cloud Vendors - GovTech",
+    "summary": "The nonprofit advisory group GovRAMP reports that its Progressing Security Snapshot Program leads to steady cybersecurity improvements for cloud ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/cyber-check-in-program-boosts-government-trust-in-cloud-vendors",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264550",
+    "date": "2026-01-28",
+    "title": "Cybersecurity Camp Launched for Middle School Students | Cedarville University",
+    "summary": "The hands-on program will teach computer safety, digital security fundamentals and basic networking skills, equipping students to navigate the online ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cedarville.edu/news/2026/cybersecurity-camp-launched-for-middle-school-students",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264551",
+    "date": "2026-01-28",
+    "title": "CISA Urges Critical Infrastructure Organizations to Take Action Against Insider Threats",
+    "summary": "As the nation's cyber defense agency and national coordinator for critical infrastructure security, the Cybersecurity and Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-urges-critical-infrastructure-organizations-take-action-against-insider-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264552",
+    "date": "2026-01-28",
+    "title": "How Autonomous AI Cyberattacks Will Transform Security: Experts - CRN",
+    "summary": "But it also means organizations will need to embrace an automated approach to cybersecurity in a far greater way, in order to avoid being overwhelmed ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crn.com/news/security/2026/how-autonomous-ai-cyberattacks-will-transform-security-experts",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264553",
+    "date": "2026-01-28",
+    "title": "UK firms prioritise cyber resilience and AI growth - Digital Watch Observatory",
+    "summary": "UK firms are ramping up cybersecurity investment as geopolitical tensions and cyber ... Network security Sociocultural Sustainable development. Related ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://dig.watch/updates/uk-firms-prioritise-cyber-resilience-ai-growth",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264554",
+    "date": "2026-01-28",
+    "title": "Mastering AI Fluency: The New Imperative for MSP Cyber Resilience - MSSP Alert",
+    "summary": "MSPs need to move beyond legacy tools and build the AI fluency needed to deliver adaptive, intelligence-driven security for their customers.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msspalert.com/perspective/mastering-ai-fluency-the-new-imperative-for-msp-cyber-resilience",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264555",
+    "date": "2026-01-28",
+    "title": "Fortinet Releases Guidance to Address Ongoing Exploitation of Authentication Bypass ... - CISA",
+    "summary": "CISA urges users to check for indicators of compromise on all internet-accessible Fortinet products affected by this vulnerability and immediately ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/01/28/fortinet-releases-guidance-address-ongoing-exploitation-authentication-bypass-vulnerability-cve-2026",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264556",
+    "date": "2026-01-28",
+    "title": "Seven Most Violated NERC Standards and How to Maintain Compliance - TRC Companies",
+    "summary": "CIP-003 – Cyber Security – Security Management Controls. Violation: CIP-003 violations often stem from delayed reviews or missing documentation for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.trccompanies.com/insights/seven-most-violated-nerc-standards-and-how-to-maintain-compliance/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264557",
+    "date": "2026-01-28",
+    "title": "Statement by CSTO Deputy Secretary General Valery Semerikov at the INFOFORUM-2026 ...",
+    "summary": "Dear colleagues, organizers, and guests of the 28th National Forum on Information Security,. I am pleased to welcome you to this important event, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://en.odkb-csto.org/news/news_odkb/vystuplenie-zamestitelya-generalnogo-sekretarya-odkb-valeriya-semerikova-na-na-bolshom-natsionalnom-/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264558",
+    "date": "2026-01-28",
+    "title": "SUU Online Cybersecurity MBA Programs Ranked Nationally",
+    "summary": "SUU's online Cybersecurity MBA programs ranked 8th ... Tags: Student Computer Science CurStu Cyber Security College of STEM Prospective Students ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.suu.edu/news/2026/01/cybersecurity-masters-programs-ranked-nationally.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264559",
+    "date": "2026-01-28",
+    "title": "No Agency Is Too Small | SECURITY.COM",
+    "summary": "With 69% of agencies prioritizing endpoint security—it's clear government teams face many of the same cybersecurity challenges as other organizations.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.security.com/expert-perspectives/no-agency-too-small",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264560",
+    "date": "2026-01-28",
+    "title": "No Agency Is Too Small - Cyber Security Review",
+    "summary": "Back when nation-state threat actors were primarily targeting large government agencies, government contractors, and large companies, security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/no-agency-is-too-small/",
+    "tags": [
+      "state-sponsored",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264561",
+    "date": "2026-01-28",
+    "title": "Auburn Engineering's online cybersecurity engineering graduate program draws No. 7 ...",
+    "summary": "Coursework spans advanced operating systems, secure cloud computing, digital forensics, computer and network security, cybersecurity threats and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://eng.auburn.edu/news/2026/01/online-graduate-cybersecurity-program-earns-national-acclaim.html",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264562",
+    "date": "2026-01-28",
+    "title": "HKCERT Releases \"Hong Kong Cybersecurity Outlook 2026\" Security Incidents Hit Record ...",
+    "summary": "The report reveals that cyberattacks have become more automated, targeted, and destructive with the rapid proliferation of Artificial Intelligence (AI) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://vietnamnews.vn/media-outreach/1764721/hkcert-releases-hong-kong-cybersecurity-outlook-2026-security-incidents-hit-record-high-with-27-annual-increase.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264513",
     "date": "2026-01-28",
     "title": "Four arrested in crackdown on Discord-based SWATting and doxing",
@@ -5437,6 +5842,22 @@
     "tags": [
       "phishing",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264563",
+    "date": "2026-01-26",
+    "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
+    "summary": "Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints. These new blueprints have Instance Metadata Service Version 2 (IMDSv2) enforced by default. With just a few clicks, you can create a Lightsail virtual private server (VPS) of your preferred size with Node.js, LAMP, or Ru...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/",
+    "tags": [
+      "amazon",
+      "meta",
+      "Data/IT"
     ],
     "impact": 3
   },
