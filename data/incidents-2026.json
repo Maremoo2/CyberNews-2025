@@ -1,5 +1,520 @@
 [
   {
+    "id": "20264592",
+    "date": "2026-01-29",
+    "title": "The New Battleground of Cybersecurity",
+    "summary": "Security magazine talks with James Maude, Field CTO at BeyondTrust, about what believes is the new battleground of cybersecurity.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102100-the-new-battleground-of-cybersecurity",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264593",
+    "date": "2026-01-29",
+    "title": "Google découvre un réseau secret qui exploitait des millions de téléphones Android",
+    "summary": "Google a neutralisé le plus vaste réseau clandestin de serveurs proxy résidentiels au monde. Cette structure détournait la connexion de millions d'utilisateurs à leur insu pour masquer des activités cybercriminelles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598000-google-decouvre-un-reseau-secret-qui-exploitait-des-millions-de-telephones-android.html",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264594",
+    "date": "2026-01-29",
+    "title": "Les Francais sont-ils trop naïfs face au chiffrement de bout en bout ?",
+    "summary": "Selon une enquête menée par Proton, les Français seraient les moins sensibilisés au chiffrement de bout en bout parmi quatre pays étudiés. Entre méconnaissance technique et confiance aveugle dans les lois, cette forme de naïveté profiterait directement aux géants américains.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597805-les-francais-sont-ils-trop-naifs-face-au-chiffrement-de-bout-en-bout.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264595",
+    "date": "2026-01-29",
+    "title": "France Travail frappé par une amende de 5 millions d’euros après une fuite de données",
+    "summary": "La CNIL a décidé de frapper fort. L'organisme vient d'infliger une amende de 5 millions d’euros à France Travail (ex-Pôle emploi), pour manquement à ses obligations en matière de sécurité des données personnelles. En cause : l'intrusion survenue début 2024 ayant exposé les informations sensibles ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598006-france-travail-frappe-par-une-amende-de-5-millions-d-euros-apres-une-fuite-de-donnees.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264596",
+    "date": "2026-01-29",
+    "title": "La France met tout en œuvre pour faire régner la cybersécurité dans le pays : vraie stratégie ou effet d'annonce ?",
+    "summary": "Le gouvernement présente jeudi la nouvelle stratégie nationale de cybersécurité de la France. Cinq piliers et des mesures concrètes, pour bâtir une cyber de premier rang d'ici 2030. Mais la crainte d'un simple effet d'annonce guette.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597919-la-france-met-tout-en-uvre-pour-faire-regner-la-cybersecurite-dans-le-pays-vraie-strategie-ou-effet-d-annonce.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264597",
+    "date": "2026-01-29",
+    "title": "\"Mentir sur internet, ce n'est pas grave, mais mentez bien\" : l'étonnant mais utile conseil cyber de Baptiste Robert",
+    "summary": "Réfléchir avant de cliquer, adopter un gestionnaire de mots de passe et… mentir sur ses données personnelles, voilà les principaux conseils de cybersécurité livrés par Baptiste Robert, expert français en OSINT.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597571-mentir-sur-internet-ce-n-est-pas-grave-mais-mentez-bien-l-etonnant-mais-utile-conseil-cyber-de-baptiste-robert.html",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264598",
+    "date": "2026-01-29",
+    "title": "Nation-State Hackers, Cybercriminals Weaponize Patched WinRAR Flaw Despite Six-Month-Old Fix",
+    "summary": "Russian and Chinese espionage groups continue to exploit an N-day vulnerability (CVE-2025-8088) in WinRAR alongside financially motivated actors, all leveraging a path traversal vulnerability that drops malware into Windows Startup folders. Google Threat Intelligence Group discovered widespread e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/nation-state-hackers-weaponize-winrar-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "state-sponsored",
+      "finance",
+      "google"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264599",
+    "date": "2026-01-29",
+    "title": "Bumble, Panera Bread, Match Group, and CrunchBase Hit by New Wave of Cyberattacks",
+    "summary": "A new wave of cyberattacks has recently struck several prominent U.S. companies, including Bumble Inc., Panera Bread Co., Match Group Inc., and CrunchBase. Bumble Inc., the parent company of dating apps Bumble, Badoo, and BFF, reported that one of its contractor accounts was compromised in a phis...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/bumble-panera-crunchbase-match-cyberattacks/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264600",
+    "date": "2026-01-29",
+    "title": "Google Dismantles Massive Proxy Network That Hid Espionage, Cybercrime for Nation-State Actors",
+    "summary": "Google dismantled what is believed to be one of the world's largest residential proxy networks, taking legal action to seize domains controlling IPIDEA's infrastructure and removing millions of consumer devices unknowingly enrolled as proxy exit nodes. The takedown involved platform providers, la...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/google-dismantles-massive-proxy-network/",
+    "tags": [
+      "state-sponsored",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264601",
+    "date": "2026-01-29",
+    "title": "Acting CISA Chief Flagged for Uploading Sensitive Government Files Into ChatGPT",
+    "summary": "The acting head of the federal government’s top cyber defense agency triggered an internal cybersecurity warning last summer after uploading sensitive government documents into a public version of ChatGPT, according to four Department of Homeland Security officials familiar with the incident. The...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cisa-chief-internal-cybersecurity-warning/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264602",
+    "date": "2026-01-29",
+    "title": "Google dismantled IPIDEA, the world’s largest residential proxy network",
+    "summary": "Google Threat Intelligence Group (GTIG), in collaboration with industry partners, has dismantled what it identifies as one of the world’s largest residential proxy networks, IPIDEA. The action targeted the infrastructure behind a sprawling ecosystem of proxy and VPN services that covertly turned ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/google-dismantled-ipidea-the-worlds-largest-residential-proxy-network/",
+    "tags": [
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264603",
+    "date": "2026-01-29",
+    "title": "Conditional Access enforcement change coming to Microsoft Entra",
+    "summary": "Microsoft will change how Conditional Access policies are enforced in Microsoft Entra starting March 27, 2026, with a phased rollout continuing through June 2026. The change affects sign-ins through client applications that request only OIDC scopes or a limited set of directory scopes when Condit...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/microsoft-entra-conditional-access-policy-enforcement/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20264604",
+    "date": "2026-01-29",
+    "title": "N-able brings AI to endpoint, security, and recovery",
+    "summary": "N-able announced enhanced AI capabilities across its platform to help organizations operate securely, efficiently, and resiliently as AI reshapes both cyberthreats and IT complexity. As AI accelerates the speed, scale, and sophistication of cyberattacks, businesses are struggling to defend themse...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/n-able-enhanced-ai-capabilities/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264605",
+    "date": "2026-01-29",
+    "title": "Tosi Platform delivers unified connectivity, visibility, and security for OT at scale",
+    "summary": "Tosi customers worldwide gain access to the Tosi Platform, which unifies connectivity, visibility, and security across operational technology environments in every industry, regardless of size or complexity. At the heart of the platform is Tosi Control, a cloud-based console that enables OT and s...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/tosi-platform-control/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264606",
+    "date": "2026-01-29",
+    "title": "Sumsub’s AI Agent Verification binds automation to verified human identity",
+    "summary": "Sumsub announced the launch of its AI Agent Verification solution, an approach to controlling AI-driven automation by binding it to a real, verified human identity within Sumsub’s Know Your Agent (KYA) framework. As AI agents and browser-based automation grow in popularity, businesses struggle to...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/sumsub-ai-agent-verification/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264607",
+    "date": "2026-01-29",
+    "title": "cside VPN Detection enables control of VPN traffic to prevent fraud and legal exposure",
+    "summary": "cside announced the launch of VPN Detection. The new solution enables businesses to detect and manage traffic originating from virtual private networks. As verification laws and content distribution agreements tighten, cside VPN Detection helps address compliance requirements while protecting org...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/cside-vpn-detection-enables-control-of-vpn-traffic-to-prevent-fraud-and-legal-exposure/",
+    "tags": [
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264608",
+    "date": "2026-01-29",
+    "title": "Google agrees to pay $135 million over Android data harvesting claims",
+    "summary": "Google agrees to pay $135 million to settle a proposed class action lawsuit brought by Android smartphone users over alleged unauthorized cellular data transmissions. After fees and administrative costs are deducted, the remaining settlement funds would be divided among eligible class members, wi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/google-android-135-million-data-harvesting-settlement/",
+    "tags": [
+      "malware",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "google",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264609",
+    "date": "2026-01-29",
+    "title": "Samsung tackles shoulder surfing on Galaxy devices",
+    "summary": "Our phones hold our most personal details, and we use them everywhere. On the bus, in elevators, and while waiting in line, screens are often visible to people nearby. The closer phones align with daily habits, the more persistent privacy concerns become. Samsung is taking steps to address these ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/samsung-galaxy-privacy-feature/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264610",
+    "date": "2026-01-29",
+    "title": "SolarWinds fixes critical Web Help Desk RCE vulnerabilities, upgrade ASAP!",
+    "summary": "SolarWinds has fixed six critical and high-severity vulnerabilities in its popular Web Help Desk (WHD) support ticketing and asset management solution, and is urging customers to upgrade to v2026.1 as soon as possible. The vulnerabilities The WHD vulnerabilities fixed were unearthed by Jimi Sebre...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/solarwinds-web-help-desk-rce-vulnerabilities/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20264611",
+    "date": "2026-01-29",
+    "title": "Dynatrace RUM delivers end-to-end visibility for cloud-native and AI-powered user experiences",
+    "summary": "Dynatrace announced next-generation Real User Monitoring (RUM) capabilities that deliver unified insights across web and mobile applications. RUM has become essential to understanding how applications perform for real users. But as organizations shift to dynamic, cloud-native, and AI-driven archi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/dynatrace-real-user-monitoring/",
+    "tags": [
+      "malware",
+      "cloud",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264612",
+    "date": "2026-01-29",
+    "title": "Open-source malware zeroes in on developer environments",
+    "summary": "Open source malware activity during 2025 concentrated on a single objective: executing code inside developer environments, according to Sonatype. The focus reflected a broader shift in supply chain attacks away from end users and toward the tools, machines, and pipelines used to build software in...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/report-open-source-malware-activity/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264613",
+    "date": "2026-01-29",
+    "title": "From SSO to SOS: How CVE-2026-24858 Gave Hackers the Keys to Your Fortinet Gear",
+    "summary": "Fortinet has addressed a critical authentication bypass vulnerability, CVE-2026-24858, affecting FortiOS, FortiManager, FortiAnalyzer, FortiWeb and FortiProxy. The vulnerability, with a CVSS score of 9.4, is actively exploited in the wild, making it crucial for organizations to apply the necessar...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/from-sso-to-sos-how-cve-2026-24858-gave-hackers-the-keys-to-your-fortinet-gear/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264614",
+    "date": "2026-01-29",
+    "title": "SolarWinds Implements Security Updates to Address Critical Web Help Desk Vulnerabilities",
+    "summary": "SolarWinds has released important security updates to address several critical vulnerabilities impacting its Web Help Desk (WHD) product. These issues include remote code execution (RCE) and authentication bypass flaws that put organizations at significant risk. Given WHD’s extensive use across e...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/solarwinds-implements-security-updates-to-address-critical-web-help-desk-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264619",
+    "date": "2026-01-29",
+    "title": "Lotus C2 – A New C2 Framework Sold as a Cybercrime Kit",
+    "summary": "Learn how Lotus C2 enables credential theft, data exfiltration, and mass attacks, blurring red team and cybercrime lines.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/lotus-c2-new-framework-sold-as-a-cybercrime-kit/",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264620",
+    "date": "2026-01-29",
+    "title": "SOC & Business Success with ANY.RUN: Real-World Results & Cases ",
+    "summary": "Running a SOC today means constant trade-offs: too many alerts, not enough people, strict SLAs, and attacks that keep getting smarter. Most leaders aren’t asking for “the next cool product” but a proof that something actually cuts time, risk, and workload in real environments like theirs. Thousan...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/soc-business-success-cases-anyrun/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264621",
+    "date": "2026-01-29",
+    "title": "CISA chief uploaded sensitive government files to public ChatGPT",
+    "summary": "The acting director of the US Cybersecurity and Infrastructure Security Agency uploaded sensitive government contracting documents to a public version of ChatGPT last summer, triggering automated security alerts and raising questions about AI governance at the agency responsible for defending fed...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124320/cisa-chief-uploaded-sensitive-government-files-to-public-chatgpt.html",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264622",
+    "date": "2026-01-29",
+    "title": "Reports of GDPR violations have risen sharply",
+    "summary": "According to a recent report by law firm DLA Piper, organizations are increasingly being reported for violations of the General Data Protection Regulation (GDPR). According to the study, the average number of daily reports has risen above 400 for the first time since the GDPR came into force acro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4122281/reports-of-gdpr-violations-have-risen-sharply.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264623",
+    "date": "2026-01-29",
+    "title": "EU’s answer to CVE solves dependency issue, adds fragmentation risks",
+    "summary": "The security community has offered broad support for the creation of an EU-hosted vulnerability database as a means of reducing dependence on US databases. However, some experts have expressed concerns that the potential fragmentation of security intelligence risks impeding rapid vulnerability id...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123225/eus-answer-to-cve-solves-dependency-issue-adds-fragmentation-risks.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264624",
+    "date": "2026-01-29",
+    "title": "Kritik am Kritis-Dachgesetz: “Flickenteppich” befürchtet",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2678609805.png?quality=50&strip=all 2500w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2678609805.png?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124138/kritik-am-kritis-dachgesetz-flickenteppich-befurchtet.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264625",
+    "date": "2026-01-29",
+    "title": "NIST’s AI guidance pushes cybersecurity boundaries",
+    "summary": "For years, US cybersecurity guidance rested on a reassuring premise: New technologies introduce new wrinkles, but not fundamentally new problems. Artificial intelligence, according to that view, is still software, just faster, more complex, and more powerful. The controls that protect traditional...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123196/nists-ai-guidance-pushes-cybersecurity-boundaries.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264627",
+    "date": "2026-01-29",
+    "title": "Number of Cybersecurity Pros Surges 194% in Four Years",
+    "summary": "Cybersecurity is now the fifth fastest-growing occupation in the UK, says Socura",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/number-cybersecurity-pros-surges/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264628",
+    "date": "2026-01-29",
+    "title": "Cybersecurity Teams Embrace AI, Just Not at the Scale Marketing Suggests",
+    "summary": "Despite the seemingly widespread adoption of AI for security operations, security leaders primarily use it for “relatively basic use cases,” said a Sumo Logic study",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cybersecurity-teams-embrace-ai/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264629",
+    "date": "2026-01-29",
+    "title": "Advanced Security Protocols for Protecting Digital Assets and Accounts",
+    "summary": "The modern digital economy has turned World of Warcraft into a high-stakes environment.Thousands of hours of work go into your in-game character.It has a physical worth in the secondary market.Objects, precious metals, and successes have become digital capital.This value, therefore, is appealing ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/advanced-security-protocols-for-protecting-digital-assets-and-accounts",
+    "tags": [
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264630",
+    "date": "2026-01-29",
+    "title": "ShinyHunters Claims 14M Panera Bread Records Exposed in Data Breach",
+    "summary": "The dataset allegedly includes names, email addresses, postal addresses, phone numbers, and account-related details. The post ShinyHunters Claims 14M Panera Bread Records Exposed in Data Breach appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-panera-bread-data-breach/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264631",
+    "date": "2026-01-29",
+    "title": "Google rolls out Android theft protection feature updates",
+    "summary": "​Google has introduced stronger Android authentication safeguards and enhanced recovery tools to make smartphones more challenging targets for thieves. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-rolls-out-android-theft-protection-feature-updates/",
+    "tags": [
+      "mobile",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264578",
     "date": "2026-01-29",
     "title": "[Ekstra] Besøkte tek-selskaper i USA: – Vi må bli mye mindre avhengig",
@@ -460,6 +975,22 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264626",
+    "date": "2026-01-28",
+    "title": "Love? Actually: Fake dating app used as lure in targeted spyware campaign in Pakistan",
+    "summary": "ESET researchers discover an Android spyware campaign targeting users in Pakistan via romance scam tactics, revealing links to a broader spy operation",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/love-actually-fake-dating-app-used-lure-targeted-spyware-campaign-pakistan/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -37407,6 +37938,18 @@
     "impact": 3
   },
   {
+    "id": "20264615",
+    "date": "2026-01-12",
+    "title": "The Future of Cyber Defense: 7 Top EDR Tools You Should Know About",
+    "summary": "Endpoint Detection and Response (EDR) technology represents the frontline of modern cybersecurity, protecting organizations from sophisticated threats that traditional security tools miss. As cyber attacks become more advanced and frequent, EDR has evolved from an optional security layer to a fun...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/the-future-of-cyber-defense-7-top-edr-tools-you-should-know-about/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20263980",
     "date": "2026-01-12",
     "title": "Leadership and Security Culture: How Leaders Set the Tone",
@@ -41592,6 +42135,22 @@
     "sourceUrl": "https://www.jdsupra.com/legalnews/updates-to-nist-cybersecurity-guidance-3370720/",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264616",
+    "date": "2026-01-09",
+    "title": "Comparing the Top 10 EDR Solutions: Which One is Right for You?",
+    "summary": "Endpoint Detection and Response (EDR) has become foundational to modern cybersecurity strategies. As cyber attacks increasingly target endpoints—laptops, desktops, servers, and mobile devices—organizations need advanced tools to monitor these devices for malicious activity, investigate suspicious...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/comparing-the-top-10-edr-solutions-which-one-is-right-for-you/",
+    "tags": [
+      "malware",
+      "apt",
+      "mobile"
     ],
     "impact": 3
   },
@@ -47276,6 +47835,18 @@
     "impact": 2
   },
   {
+    "id": "20264617",
+    "date": "2026-01-06",
+    "title": "Best MDR Providers: How They Help Businesses Comply with Industry Regulations",
+    "summary": "Regulatory compliance has become a major concern for businesses across all sectors. Organizations face mounting pressure to meet stringent data protection standards while dealing with increasingly complex cyber threats. Managed Detection and Response (MDR) services offer a practical solution by c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/best-mdr-providers-how-they-help-businesses-comply-with-industry-regulations/",
+    "tags": [],
+    "impact": 4
+  },
+  {
     "id": "20263619",
     "date": "2026-01-06",
     "title": "Common PCI DSS Compliance Mistakes",
@@ -52929,6 +53500,18 @@
       "banking",
       "education"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20264618",
+    "date": "2026-01-02",
+    "title": "Best MDR Software for Small Business Security: A Comprehensive Guide",
+    "summary": "Managed Detection and Response (MDR) has become increasingly important for small businesses facing sophisticated cyber threats. While large enterprises employ dedicated security teams, small businesses often lack resources for in-house security expertise, making them attractive targets for cyberc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/best-mdr-software-for-small-business-security-a-comprehensive-guide/",
+    "tags": [],
     "impact": 3
   },
   {
