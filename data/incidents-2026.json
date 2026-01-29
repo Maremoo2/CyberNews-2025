@@ -1,5 +1,173 @@
 [
   {
+    "id": "20264564",
+    "date": "2026-01-29",
+    "title": "Smashing Security podcast #452: The dark web’s worst assassins, and Pegasus in the dock",
+    "summary": "In episode 452, a London-based YouTuber wins a landmark court case against Saudi Arabia after his phone was hacked with Pegasus spyware — exposing how a single, seemingly harmless text message can turn a smartphone into a round-the-clock surveillance device. Plus, we go looking for professional h...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/smashing-security-podcast-452/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264566",
+    "date": "2026-01-29",
+    "title": "Hottest cybersecurity open-source tools of the month: January 2026",
+    "summary": "This month’s roundup features exceptional open-source cybersecurity tools that are gaining attention for strengthening security across various environments. OpenAEV: Open-source adversarial exposure validation platform OpenAEV is an open source platform designed to plan, run, and review cyber adv...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/hottest-cybersecurity-open-source-tools-of-the-month-january-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264567",
+    "date": "2026-01-29",
+    "title": "A practical take on cyber resilience for CISOs",
+    "summary": "In this Help Net Security video, Shebani Baweja, CISO for Consumer, Private, Wealth & Business Banking at Standard Chartered, explains how security leaders should think about cyber resilience. She outlines why preparation for extreme events matters as much as day to day protection. Baweja describ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/cyber-resilience-strategy-video/",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264568",
+    "date": "2026-01-29",
+    "title": "What motivates hackers and what makes them walk away",
+    "summary": "Most hackers spend more time learning, testing, and comparing notes than breaking into systems. The work often happens alone or in small groups, shaped by curiosity, persistence, and a habit of examining how systems behave. Bugcrowd examined who these security researchers are, how they build skil...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/bugcrowd-hacker-community-research/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264569",
+    "date": "2026-01-29",
+    "title": "ImmuniWeb reports double-digit growth and platform advances",
+    "summary": "ImmuniWeb has hit another all-time sales record in 2025, while successfully sustaining double-digit year-over-year (YoY) growth and remaining profitable. During 2025, the company announced 4 major updates to the ImmuniWeb AI Platform. All products for web, mobile, and API security testing were en...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/immuniweb-2025-growth/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264570",
+    "date": "2026-01-29",
+    "title": "A fake romance turns into an Android spyware infection",
+    "summary": "ESET researchers have identified an Android spyware campaign that uses romance scam tactics to target individuals in Pakistan. The operation relies on a malicious app disguised as a chat service that routes conversations through WhatsApp. Behind the romance lure, the app’s primary function is to ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/29/ghostchat-android-romance-spyware/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264571",
+    "date": "2026-01-29",
+    "title": "Proactive Vulnerability Management: Building a Resilient Security Posture in the Age of Advanced Threats",
+    "summary": "In this post, I will talk about proactive vulnerability management and how to building a resilient security posture in the age of advanced threats. In an era where cyberattacks make headlines daily and the average cost of a data breach has surpassed $4.45 million according to IBM’s 2023 Cost of a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/proactive-vulnerability-management/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "ibm"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264572",
+    "date": "2026-01-29",
+    "title": "Key Pro Tips For Managing Software Vulnerabilities",
+    "summary": "Here, I will show you key pro tips for managing software vulnerabilities. Vulnerability management is the process of identifying, analyzing, and fixing defects in computer hardware or software that may be exploited by hostile actors to launch cyberattacks. A vulnerability refers to a security fla...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/key-pro-tips-for-managing-software-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264575",
+    "date": "2026-01-29",
+    "title": "Designing an End-to-End Data Protection Architecture",
+    "summary": "In a period characterized by the acceleration of digital faster, more regulatory bodies and constant cyber threats, data protection... The post Designing an End-to-End Data Protection Architecture appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/designing-an-end-to-end-data-protection-architecture/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264576",
+    "date": "2026-01-29",
+    "title": "10 Anzeichen für einen schlechten CSO",
+    "summary": "Sind IT-Mitarbeiter unzufrieden, kann das an schlechten Führungskräften oder an einer unzureichenden IT-Strategie liegen. Foto: fizkes – shutterstock.comUnternehmen können die für sie allgemein schlechte Lage am Arbeitsmarkt kaum beeinflussen. Doch sie können einige Faktoren vermeiden, die zu Kün...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3494128/auswirkungen-auf-it-fachkrafte-10-anzeichen-fur-einen-schlechten-cso.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264577",
+    "date": "2026-01-29",
+    "title": "SolarWinds, again: Critical RCE bugs reopen old wounds for enterprise security teams",
+    "summary": "SolarWinds is yet again disclosing security vulnerabilities in one of its widely-used products. The company has released updates to patch six critical authentication bypass and remote command execution vulnerabilities in its Web Help Desk (WHD) IT software. These flaws could allow attackers to by...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124030/solarwinds-again-critical-rce-bugs-reopen-old-wounds-for-enterprise-security-teams.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20264536",
     "date": "2026-01-29",
     "title": "Crooks are hijacking and reselling AI infrastructure: Report",
@@ -88,6 +256,46 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264565",
+    "date": "2026-01-28",
+    "title": "Samsung Galaxy S26 will have ‘pixel level’ privacy feature, Samsung confirms",
+    "summary": "That's a pixel-level feature, not a Pixel-level feature. Samsung is cooking up a fresh new privacy feature for the next Galaxy phones.The company announced in a pretty vague blog post that it's getting ready to show off new security functions that work \"at a pixel level\" for Galaxy phones in the ...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/mobile/105165/samsung-galaxy-s26-will-have-pixel-level-privacy-feature-samsung-confirms",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264573",
+    "date": "2026-01-28",
+    "title": "What Happens in a Data Breach When Your Password Gets Stolen",
+    "summary": "In this post, I will show you what happens in a data breach when your password gets stolen. When people hear the words data breach, they often imagine something loud. Alarms. Locked screens. Big warnings. But real breaches are quiet. Most times, you do not notice anything at all. Your phone still...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/data-breach-when-password-gets-stolen/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264574",
+    "date": "2026-01-28",
+    "title": "Helpful Tips for Navigating Legal Business Challenges",
+    "summary": "Here, I will show you helpful tips for navigating legal business challenges… Knowing how to control legal risks well can mean the difference between success and failure. Whether your company is new or well-established, knowing legal tactics well and out helps shield it from certain dangers. Prote...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/helpful-tips-for-navigating-legal-business-challenges/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
