@@ -1,5 +1,165 @@
 [
   {
+    "id": "20264804",
+    "date": "2026-01-30",
+    "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
+    "summary": "Ivanti has rolled out security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added by the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to its Known Exploited Vulnerabilities...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264805",
+    "date": "2026-01-30",
+    "title": "[Ekstra] Droppet Microsoft på grunn av Trump: – Det er sunn fornuft",
+    "summary": "Dansk digitaliseringssjef mener det må på plass en felles nasjonal strategi hvis norsk offentlighet ønsker å sikre sin digitale suverenitet i fremtiden.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/droppet-microsoft-pa-grunn-av-trump-det-er-sunn-fornuft/567559",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264806",
+    "date": "2026-01-30",
+    "title": "ISC Stormcast For Friday, January 30th, 2026 https://isc.sans.edu/podcastdetail/9788, (Fri, Jan 30th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32666",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264807",
+    "date": "2026-01-30",
+    "title": "CISA insider-threat warning comes with an ironic twist - The Register",
+    "summary": "Or maybe it's about hypocrisy. Either way, on Wednesday, the US Cybersecurity and Infrastructure Security Agency (CISA) called insider threats \"one of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/29/cisa_insider_threat_guidance/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264808",
+    "date": "2026-01-30",
+    "title": "AI-fuelled cyber attacks surge 70%, Check Point warns - SecurityBrief Australia",
+    "summary": "The company's Cyber Security Report 2026 said organisations faced an average of 1,968 cyber attacks per week in 2025. It said the figure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/ai-fuelled-cyber-attacks-surge-70-check-point-warns",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264809",
+    "date": "2026-01-30",
+    "title": "Lior Div, 7AI | theCUBE + NYSE Wired: Cyber Security Leaders - YouTube",
+    "summary": "Lior Div, 7AI | theCUBE + NYSE Wired: Cyber Security Leaders 00:00 - Intro 00:06 - Trailblazers in Cybersecurity: Unveiling Innovation, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=Yq6pCsNHzNc",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264810",
+    "date": "2026-01-30",
+    "title": "W&M IT Hosts Winter Externship Experience | Information Technology - William & Mary",
+    "summary": "In addition to networking, Oliver was eager to learn more about cybersecurity. He spent time with Chief Information Security Officer Pete Kellogg and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wm.edu/offices/it/news/wm-it-hosts-winter-externship-experience.php",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264811",
+    "date": "2026-01-30",
+    "title": "Rockwell Automation ControlLogix - ICS Advisories - CISA",
+    "summary": "Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet. Locate control system ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-03",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264812",
+    "date": "2026-01-30",
+    "title": "Contractors Racking Up Big Fines for Cybersecurity Violations - National Defense Magazine",
+    "summary": "... cyber threats to the security of sensitive government information and critical systems. On the rulemaking front, the Pentagon recently amended the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nationaldefensemagazine.org/articles/2026/1/30/contractors-racking-up-big-fines-for-cybersecurity-violations",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264813",
+    "date": "2026-01-30",
+    "title": "AI-fuelled cyber attacks surge 70%, Check Point warns - SecurityBrief New Zealand",
+    "summary": "It said attackers used automation and AI more frequently. It said this allowed campaigns to move faster and scale across more attack surfaces. Check ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.nz/story/ai-fuelled-cyber-attacks-surge-70-check-point-warns",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264814",
+    "date": "2026-01-30",
+    "title": "Change the server-side encryption type of Amazon S3 objects",
+    "summary": "You can now change the server-side encryption type of encrypted objects in Amazon S3 without any data movement. You can use the UpdateObjectEncryption API to atomically change the encryption key of your objects regardless of the object size or storage class. With S3 Batch Operations, you can use ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264794",
     "date": "2026-01-30",
     "title": "Securing Trust: Why Crisis Communication is Your First Line of Defense",
