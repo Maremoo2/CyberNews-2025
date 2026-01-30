@@ -1,5 +1,152 @@
 [
   {
+    "id": "20264794",
+    "date": "2026-01-30",
+    "title": "Securing Trust: Why Crisis Communication is Your First Line of Defense",
+    "summary": "Trust is lost in minutes during a crisis, and clear, human communication is the only way to win it back.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102099-securing-trust-why-crisis-communication-is-your-first-line-of-defense",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264795",
+    "date": "2026-01-30",
+    "title": "Security work keeps expanding, even with AI in the mix",
+    "summary": "Board attention continues to rise, and security groups now operate closer to executive decision making than in prior years, a pattern reflected the Voice of Security 2026 report by Tines. Within that environment, large numbers of teams already rely on AI, automation, and workflow tools as part of...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/central-role-ai-security-workflows/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264796",
+    "date": "2026-01-30",
+    "title": "Security teams are carrying more tools with less confidence",
+    "summary": "Enterprise environments now span multiple clouds, on-premises systems, and a steady flow of new applications. Hybrid and multi-cloud setups are common across large organizations, and they bring a constant stream of logs, alerts, and operational data. That environment already exists across many en...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/security-operations-tooling-confidence/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264797",
+    "date": "2026-01-30",
+    "title": "Wearable tech adoption continues as privacy worries grow",
+    "summary": "Over 1 billion users wear devices for tracking steps, sleep, heart rate, and other personal metrics. These devices collect a continuous stream of sensitive data, often tied to detailed user profiles and companion apps. New Clutch survey data show that as wearables settle into daily life, question...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/wearable-data-privacy-tech/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264798",
+    "date": "2026-01-30",
+    "title": "New infosec products of the month: January 2026",
+    "summary": "Here’s a look at the most interesting products from the past month, featuring releases from Acronis, Booz Allen Hamilton, cside, Descope, JumpCloud, MIND, Noction, Obsidian Security, Rubrik, SEON, SpyCloud, Tenable, Tosi and Vectra AI. Acronis Archival Storage brings compliance-ready, S3-compatib...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/new-infosec-products-of-the-month-january-2026/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264799",
+    "date": "2026-01-30",
+    "title": "Ivanti provides temporary patches for actively exploited EPMM zero-day (CVE-2026-1281)",
+    "summary": "Ivanti has released provisional patches that fix two critical code injection vulnerabilities in Endpoint Manager Mobile (EPMM), one of which (CVE-2026-1281) has been exploited in zero-day attacks and has been added to CISA’s Known Exploited Vulnerabilities catalog. Investigating potential comprom...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/ivanti-epmm-cve-2026-1281-cve-2026-1340/",
+    "tags": [
+      "vulnerability",
+      "mobile"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264800",
+    "date": "2026-01-30",
+    "title": "OT & IoT Security in MEA: Why Industrial Cyber Risks Are Surging",
+    "summary": "The Middle East and Africa (MEA) region is experiencing a rapid industrial change. The use of Operational Technology (OT)... The post OT & IoT Security in MEA: Why Industrial Cyber Risks Are Surging appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/ot-iot-security-in-mea-why-industrial-cyber-risks-are-surging/",
+    "tags": [
+      "malware",
+      "iot"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264801",
+    "date": "2026-01-30",
+    "title": "ShadowHS: A Fileless Linux Post‑Exploitation Framework Built on a Weaponized hackshell",
+    "summary": "Executive Summary Cyble Research & Intelligence Labs (CRIL) has identified a Linux intrusion chain leveraging a highly obfuscated, fileless loader that deploys a weaponized variant of hackshell entirely from memory. Cyble tracks this activity under the name ShadowHS, reflecting its fileless execu...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/shadowhs-fileless-linux-post-exploitation-framework/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264802",
+    "date": "2026-01-30",
+    "title": "Roughly half of employees are using unsanctioned AI tools, and enterprise leaders are major culprits",
+    "summary": "Shadow AI, the secret, unapproved use of AI by employees, isn’t going away. In fact, workers are getting more brazen, and their employers often don’t seem to care. In a new BlackFog survey, nearly half (49%) of workers admit to adopting AI tools without employer approval, many using free versions...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124775/roughly-half-of-employees-are-using-unsanctioned-ai-tools-and-enterprise-leaders-are-major-culprits-2.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264803",
+    "date": "2026-01-30",
+    "title": "Chinese APTs Hacking Asian Orgs With High-End Malware",
+    "summary": "Advanced persistent threat (APT) groups have deployed new cyber weapons against a variety of targets, highlighting the increasing threats to the region.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apts-asian-orgs-high-end-malware",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264761",
     "date": "2026-01-30",
     "title": "Microsoft links Windows 11 boot failures to failed December 2025 update",
