@@ -1,5 +1,252 @@
 [
   {
+    "id": "20264745",
+    "date": "2026-01-29",
+    "title": "Hacking attack leaves Russian car owners locked out of their vehicles",
+    "summary": "Imagine the scene. It's a cold Monday morning in Moscow. You walk out to your car, coffee in hand, ready to face the day. You press the button to unlock your car, and ... nothing happens. You try again. Still nothing. The alarm starts blaring. You can't turn it off. Read more in my article on the...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.fortra.com/blog/hacking-attack-leaves-russian-car-owners-locked-out-their-vehicles",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264746",
+    "date": "2026-01-29",
+    "title": "Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach",
+    "summary": "The fintech giant said it plans to \"seek recoupment of any expenses\" from its firewall provider SonicWall after a 2025 data breach exposed customer firewall configurations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/29/fintech-firm-marquis-blames-hack-at-firewall-provider-sonicwall-for-its-data-breach/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264747",
+    "date": "2026-01-29",
+    "title": "French Government To Replace Zoom and Teams With Visio, a Local Alternative",
+    "summary": "French officials will soon be expected to use new French-made video conferencing software as part of an effort to “regain digital independence,” the government said.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "New York Times Cybersecurity",
+    "sourceUrl": "https://www.nytimes.com/2026/01/29/world/europe/france-zoom-alternative-visio.html",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264748",
+    "date": "2026-01-29",
+    "title": "Security Researcher Finds Exposed Admin Panel for AI Toy",
+    "summary": "A security researcher investigating an AI toy for a neighbor found an exposed admin panel that could have leaked the personal data and conversations of the children using the toy. The findings, detailed in a blog post by security researcher Joseph Thacker, outlines the work he did with fellow res...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/security-researcher-finds-ai-toy-admin-panel/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264749",
+    "date": "2026-01-29",
+    "title": "MongoDB Ransomware Is Still Actively Hitting Exposed Databases",
+    "summary": "MongoDB ransom attacks are often seen as a solved problem, but new research from Flare shows the threat never went away. Instead of evolving, attackers have continued running the same low-effort, high-return playbook — scanning the internet for exposed MongoDB databases, wiping them, and demandin...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/mongodb-ransomware-is-still-actively-hitting-exposed-databases/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264750",
+    "date": "2026-01-29",
+    "title": "CVE-2025-15467: OpenSSL Vulnerability Leads to Denial-of-Service, Remote Code Execution",
+    "summary": "Just as organizations were working to patch the Microsoft Office zero-day (CVE-2026-21509), the cybersecurity world is confronted with another serious threat. OpenSSL disclosed a high-severity stack buffer overflow issue that can trigger denial-of-service (DoS) conditions and, under specific circ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2025-15467-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "encryption",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264751",
+    "date": "2026-01-29",
+    "title": "MY TAKE: Transparent vs. opaque — edit Claude’s personalized memory, or trust ChatGPT’s blindly?",
+    "summary": "After two years of daily ChatGPT use, I recently started experimenting with Claude, Anthropic’s competing AI assistant. Related: Microsofts see a ‘protopian’ AI future Claude is four to five times slower generating responses. But something emerged that matters more than speed: I discovered I had ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/my-take-transparent-vs-opaque-edit-claudes-personalized-memory-or-trust-chatgpts-blindly/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264752",
+    "date": "2026-01-29",
+    "title": "Minnesota 2026 is Foreign Regime Change Playbook Turned Against Americans",
+    "summary": "As a historian of disinformation, especially during the World Wars and after, I can’t help but compare tactics deployed by America overseas to the recent “voter” focus of Trump’s stormtroopers. Minnesota is currently experiencing the domestic deployment of destabilization and election-capture tec...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76732",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264753",
+    "date": "2026-01-29",
+    "title": "ShinyHunters ramp up new vishing campaign with 100s in crosshairs",
+    "summary": "Notorious extortion group ShinyHunters released tens of GB of files it claims to have stolen from dating apps Hinge, Match, OkCupid and Bumble. While there is no official confirmation about how the companies were breached, researchers believe the group’s activities triggered a recent Okta advisor...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124684/shinyhunters-ramp-up-new-vishing-campaign-with-100s-in-crosshairs.html",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264754",
+    "date": "2026-01-29",
+    "title": "Trump Administration Rescinds Biden-Era SBOM Guidance",
+    "summary": "Federal agencies will no longer be required to solicit software bills of material (SBOMs) from tech vendors, nor attestations that they comply with NIST's Secure Software Development Framework (SSDF). What that means long term is unclear.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/trump-administration-rescinds-biden-era-sbom-guidance",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264755",
+    "date": "2026-01-29",
+    "title": "More Critical Flaws on n8n Could Compromise Customer Security",
+    "summary": "A new around of vulnerabilities in the popular AI automation platform could let attackers hijack servers and steal credentials.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/critical-flaws-n8n-compromise-customer-security",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264756",
+    "date": "2026-01-29",
+    "title": "From Quantum to AI Risks: Preparing for Cybersecurity's Future",
+    "summary": "As 2026 begins, these journalists urge the cybersecurity industry to prioritize patching vulnerabilities, preparing for quantum threats, and refining AI applications, in the latest edition of Reporters' Notebook.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/quantum-ai-risks-cybersecuritys-future",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264757",
+    "date": "2026-01-29",
+    "title": "Hugging Face abused to spread thousands of Android malware variants",
+    "summary": "A new Android malware campaign is using the Hugging Face platform as a repository for thousands of variations of an APK payload that collects credentials for popular financial and payment services. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/",
+    "tags": [
+      "malware",
+      "mobile",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264758",
+    "date": "2026-01-29",
+    "title": "Ivanti warns of two EPMM flaws exploited in zero-day attacks",
+    "summary": "Ivanti has disclosed two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340, that were exploited in zero-day attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264759",
+    "date": "2026-01-29",
+    "title": "Google disrupts IPIDEA residential proxy networks fueled by malware",
+    "summary": "IPIDEA, one of the largest residential proxy networks used by threat actors, was disrupted earlier this week by Google Threat Intelligence Group (GTIG) in collaboration with industry partners. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-disrupts-ipidea-residential-proxy-networks-fueled-by-malware/",
+    "tags": [
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264760",
+    "date": "2026-01-29",
+    "title": "Proxy wars and open doors.",
+    "summary": "Google dismantles a huge residential proxy network. Did the FBI take down the notorious RAMP cybercrime forum? A long running North Korea backed cyber operation has splintered into three specialized threat groups. U.S. military cyber operators carried out a covert operation to disrupt Russian tro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/daily-podcast/2478/notes",
+    "tags": [
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264711",
     "date": "2026-01-29",
     "title": "NSA pick champions foreign spying law as nomination advances",
