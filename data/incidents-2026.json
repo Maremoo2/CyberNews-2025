@@ -1,5 +1,255 @@
 [
   {
+    "id": "20264841",
+    "date": "2026-01-30",
+    "title": "Hugging Face infra abused to spread Android RAT in a large-scale malware campaign",
+    "summary": "An Android malware campaign is reportedly abusing Hugging Face’s public hosting infrastructure to distribute a remote access trojan (RAT). The operation relies on social engineering, staged payload delivery, and abuse of Android permissions to achieve persistence over infected devices. According ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4124958/hugging-face-infra-abused-to-spread-android-rat-in-a-large-scale-malware-campaign.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264842",
+    "date": "2026-01-30",
+    "title": "Cybersecurity can be America’s secret weapon in the AI race",
+    "summary": "Much of the public conversation about the U.S. “winning” the AI race with China centers exclusively on each nations’ ability to develop and implement leading AI models. But amid escalating cyber threats, the rising reality is that the race will not be won merely by the nation with the most advanc...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ai-race-china-us-cloud-cybersecurity-trust-security-op-ed/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264843",
+    "date": "2026-01-30",
+    "title": "Badges, Bytes and Blackmail",
+    "summary": "Behind the scenes of law enforcement in cyber: what do we know about caught cybercriminals? What brought them in, where do they come from and what was their function in the crimescape? Introduction: One view on the scattered fight against cybercrime The growing sophistication and diversification ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264844",
+    "date": "2026-01-30",
+    "title": "[Ekstra] Kraftig KI-verktøy: Lar deg lage avanserte «spillverdener» med enkel tekst",
+    "summary": "«Project Genie» er Googles nyeste KI-påfunn.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kraftig-ki-verktoy-lar-deg-lage-avanserte-spillverdener-med-enkel-tekst/567637",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264845",
+    "date": "2026-01-30",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c60a87bcd90dd2f • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/marquis-blames-ransomware-breach-on-sonicwall-cloud-backup-hack/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264846",
+    "date": "2026-01-30",
+    "title": "Hugging Face Abused to Deploy Android RAT",
+    "summary": "Android users were lured to applications that served a malicious payload hosted in a Hugging Face repository. The post Hugging Face Abused to Deploy Android RAT appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/hugging-face-abused-to-deploy-android-rat/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264847",
+    "date": "2026-01-30",
+    "title": "Op Bizarre Bazaar: New LLMjacking Campaign Targets Unprotected Models",
+    "summary": "Researchers have identified a new kind of theft where hackers break into a company’s AI and sell its power to others. According to an investigation by Pillar Security Research, a major campaign named Operation Bizarre Bazaar was active between December 2025 and January 2026. During this two-month...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/operation-bizarre-bazaar-llmjacking-unprotected-models/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264848",
+    "date": "2026-01-30",
+    "title": "ICS Devices Bricked Following Russia-Linked Intrusion Into Polish Power Grid",
+    "summary": "Sandworm/Electrum hackers targeted communication and control systems at 30 sites. The post ICS Devices Bricked Following Russia-Linked Intrusion Into Polish Power Grid appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ics-devices-bricked-in-russia-linked-strike-on-polish-power-grid/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264849",
+    "date": "2026-01-30",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c5ff8d67df5d0df • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264850",
+    "date": "2026-01-30",
+    "title": "Bill Gates om USAs bruk av teknologi mot Europa: – Inntil nylig var jeg sikker på at det ikke ville skje",
+    "summary": "Kan USA tenkes å stenge tilgangen til Microsoft-tjenester for Europa, lyder spørsmålet til selskapets grunnlegger på svensk TV. Det vil han ikke svare på.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/bill-gates-om-usas-bruk-av-teknologi-mot-europa-inntil-nylig-var-jeg-sikker-pa-at-det-ikke-ville-skje/567640",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264851",
+    "date": "2026-01-30",
+    "title": "Ivanti Patches Exploited EPMM Zero-Days",
+    "summary": "The critical-severity vulnerabilities could allow unauthenticated attackers to execute arbitrary code remotely. The post Ivanti Patches Exploited EPMM Zero-Days appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264852",
+    "date": "2026-01-30",
+    "title": "Security Researcher Finds Exposed Admin Panel for AI Toy",
+    "summary": "A security researcher investigating an AI toy for a neighbor found an exposed admin panel that could have leaked the personal data and conversations of the children using the toy. The findings, detailed in a blog post by security researcher Joseph Thacker, outlines the work he did with fellow res...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/security-researcher-finds-ai-toy-admin-panel/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264853",
+    "date": "2026-01-30",
+    "title": "MongoDB Ransomware Is Still Actively Hitting Exposed Databases",
+    "summary": "MongoDB ransom attacks are often seen as a solved problem, but new research from Flare shows the threat never went away. Instead of evolving, attackers have continued running the same low-effort, high-return playbook — scanning the internet for exposed MongoDB databases, wiping them, and demandin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/mongodb-ransomware-is-still-actively-hitting-exposed-databases/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264854",
+    "date": "2026-01-30",
+    "title": "Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup",
+    "summary": "A former Google engineer accused of stealing thousands of the company's confidential documents to build a startup in China has been convicted in the U.S., the Department of Justice (DoJ) announced Thursday. Linwei Ding (aka Leon Ding), 38, was convicted by a federal jury on seven counts of econom...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264855",
+    "date": "2026-01-30",
+    "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+    "summary": "SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-24423, carries a CVSS score of 9.3 out of 10.0. \"SmarterTools SmarterMail versions prior to ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264856",
+    "date": "2026-01-30",
+    "title": "[Ekstra] Telia Norge-sjefen: – Vi må være modige, litt ekstra framoverlent. Kanskje gjøre ting som kan endre spillet",
+    "summary": "Motivasjon, engasjement, risikovillighet og enkelhet er blant ordene den nye Telia Norge-sjefen velger å bruke når vi spør hvem han er som leder.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telia-norge-sjefen-risiko-og-motivasjon/567634",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264857",
+    "date": "2026-01-30",
+    "title": "AI-Enabled Cybersecurity Best Practices: What Security Leaders Must Adopt - EC-Council",
+    "summary": "Abstract: As artificial intelligence becomes deeply embedded in enterprise technology stacks, it is reshaping both cyber defense capabilities and the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/cyber-talks/ai-enabled-cybersecurity-best-practices-what-security-leaders-must-adopt/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264815",
     "date": "2026-01-30",
     "title": "Le botnet Aisuru signe un nouveau record DDoS à 31,4 Tb/s",
