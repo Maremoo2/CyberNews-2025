@@ -1,5 +1,391 @@
 [
   {
+    "id": "20264858",
+    "date": "2026-01-30",
+    "title": "AIs Are Getting Better at Finding and Exploiting Security Vulnerabilities",
+    "summary": "From an Anthropic blog post: In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates h...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Schneier on Security",
+    "sourceUrl": "https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-security-vulnerabilities.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264859",
+    "date": "2026-01-30",
+    "title": "Is Renewing CISA Enough to Restore Confidence for Cyber Threat Reporters?",
+    "summary": "Stop-and-go authorizations undermine real-time threat sharing.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102102-is-renewing-cisa-enough-to-restore-confidence-for-cyber-threat-reporters",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264860",
+    "date": "2026-01-30",
+    "title": "Russian hackers breached Polish power grid thanks to bad security, report says",
+    "summary": "The Polish government accused a Russian government hacking group of hacking into energy facilities taking advantage of default usernames and passwords.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/30/russian-hackers-breached-polish-power-grid-thanks-to-bad-security-report-says/",
+    "tags": [
+      "data-breach",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264861",
+    "date": "2026-01-30",
+    "title": "Ca y est, le VPN est en ligne de mire du gouvernement français",
+    "summary": "Après le vote de l'interdiction des réseaux sociaux aux moins de 15 ans, la ministre déléguée au Numérique Anne Le Hénanff a confirmé que les VPN figurent désormais en haut de sa liste de priorités. Une approche qui fait écho au Royaume-Uni, où la Chambre des lords vient d'adopter un amendement p...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598264-ca-y-est-le-vpn-est-en-ligne-de-mire-du-gouvernement-francais.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264862",
+    "date": "2026-01-30",
+    "title": "Tinder, Bumble... plusieurs applications de rencontre victimes d'une vague de cyberattaques",
+    "summary": "Beaucoup de personnes utilisent les applications de rencontre. Si c'est votre cas, vous avez peut-être été victime de cette cyberattaque.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598258-tinder-bumble-plusieurs-applications-de-rencontre-victimes-d-une-vague-de-cyberattaques.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264864",
+    "date": "2026-01-30",
+    "title": "Ce pays veut couper l'accès aux VPN aux mineurs",
+    "summary": "De l'autre côté de la Manche, on est encore plus en avance sur la régulation de l'internet. Après le Online Safety Act, ce sont les VPN qui pourraient se voir imposées de nouvelles contraintes.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598219-ce-pays-veut-couper-l-acces-aux-vpn-aux-mineurs.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264865",
+    "date": "2026-01-30",
+    "title": "The Cyber Express Weekly Roundup: Threats, Regulations, and Digital Security Trends",
+    "summary": "As January 2026 comes to a close, The Cyber Express takes a comprehensive look at the events defining the global cybersecurity landscape. Over the past week, organizations worldwide faced high-profile cyberattacks, emerging threats in AI and ad fraud, critical software vulnerabilities, and intens...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/the-cyber-express-weekly-roundup-january-2026/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264866",
+    "date": "2026-01-30",
+    "title": "Cisco sees vulnerability exploitation top phishing in Q4",
+    "summary": "The company’s recommendations included monitoring for abuses of multifactor authentication, a growing threat to the enterprise.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisco-threat-report-exploitation-phishing/810977/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264867",
+    "date": "2026-01-30",
+    "title": "How Granite complied with new federal cyber regs before a critical deadline",
+    "summary": "To reach Cybersecurity Maturity Model Certification Level 2, CTO Malcolm Jack learned implementation was as much about people as it was the technology.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/granite-federal-cyber-regulations/810966/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20264869",
+    "date": "2026-01-30",
+    "title": "“Encrypt it Already” campaign demands strong E2EE across popular platforms",
+    "summary": "The Electronic Frontier Foundation (EFF) has launched a new campaign, Encrypt It Already, urging major tech companies to implement and improve end-to-end encryption (E2EE) across their products and services. The initiative calls out firms like Apple, Google, Meta, and others for delaying or weake...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/encrypt-it-already-campaign-demands-strong-e2ee-across-popular-platforms/",
+    "tags": [
+      "ai-ml",
+      "encryption",
+      "google",
+      "apple",
+      "meta"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264870",
+    "date": "2026-01-30",
+    "title": "Ivanti Fixes Actively Exploited RCE Flaws in Endpoint Manager Mobile",
+    "summary": "Ivanti has issued security updates to fix two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM) that have been actively exploited in the wild. The flaws allow unauthenticated attackers to remotely execute arbitrary code on affected systems. The vulnerabilities “… could lead to una...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ivanti-fixes-actively-exploited-rce-flaws-in-endpoint-manager-mobile/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264871",
+    "date": "2026-01-30",
+    "title": "Former Google Engineer Convicted in AI Trade Secret Theft Case",
+    "summary": "A former Google engineer has been convicted in U.S. federal court for stealing thousands of confidential artificial intelligence documents. Prosecutors said the stolen information was used to support a China-based startup and described the case as a major instance of AI-related economic espionage...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/former-google-engineer-convicted-in-ai-trade-secret-theft-case/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264872",
+    "date": "2026-01-30",
+    "title": "Critical Exploits, Data Breaches, and AI Threats Define This Week in Cybersecurity",
+    "summary": "Major Threats & Vulnerabilities Zero-Day and Actively Exploited Vulnerabilities Microsoft patched CVE-2026-21509, a zero-day vulnerability in Office exploited via malicious OLE objects. Users are strongly urged to apply the emergency update immediately. Fortinet confirmed active exploitation of C...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/critical-exploits-data-breaches-and-ai-threats-define-this-week-in-cybersecurity/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml",
+      "microsoft",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264873",
+    "date": "2026-01-30",
+    "title": "Nvidia GPU Driver Flaws Enable Privilege Escalation Across Platforms",
+    "summary": "Nvidia has issued a security update to address several high-severity vulnerabilities in its GPU display driver stack that could allow attackers to execute arbitrary code and escalate privileges on affected systems. The issues impact both Windows and Linux environments and also reach into Nvidia’s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/nvidia-gpu-driver-flaws-enable-privilege-escalation-across-platforms/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264874",
+    "date": "2026-01-30",
+    "title": "No, Linux is not \"more secure\" than Windows",
+    "summary": "In Linux communities, especially among those new to the scene, I often see people hailing Linux as a security powerhouse in contrast to other operating systems. They imply that switching to Linux gives you some kind of shield of armor against common threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/no-linux-is-not-more-secure/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264875",
+    "date": "2026-01-30",
+    "title": "Why API Security Is No Longer an AppSec Problem – And What Security Leaders Must Do Instead",
+    "summary": "APIs are one of the most important technologies in digital business ecosystems. And yet, the responsibility for their security often falls to AppSec teams – and that’s a problem. This organizational mismatch creates systemic risk: business teams assume APIs are “secured,” while attackers exploit ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Wallarm Blog",
+    "sourceUrl": "https://lab.wallarm.com/why-api-security-no-longer-appsec-problem-what-security-leaders-must-do/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264876",
+    "date": "2026-01-30",
+    "title": "All About Offshore Software Development: A Practical Guide for Modern Businesses",
+    "summary": "Offshore software development has moved far beyond cost arbitrage. Today, companies choose offshore development to access specialized engineering talent, accelerate product delivery, and scale faster without operational friction. As digital transformation timelines shrink and hiring local enginee...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/offshore-software-development-practical-guide/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264877",
+    "date": "2026-01-30",
+    "title": "When \"Please Delete That Email\" Isn't Enough: The Real Cost of Accidental Data Sharing",
+    "summary": "Business users must share sensitive data to get their job done. For most organizations, all users have access to some sort of critical data that the organization intends to possess internally.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/email-encryption/dont-delete-emails-domain-wide-protection",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264878",
+    "date": "2026-01-30",
+    "title": "NIS2: Lieferketten als Risikofaktor",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2667391403.png?quality=50&strip=all 2500w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2667391403.png?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124984/nis2-lieferketten-als-risikofaktor.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264879",
+    "date": "2026-01-30",
+    "title": "Labyrinth Chollima Evolves into Three North Korean Hacking Groups",
+    "summary": "CrowdStrike assessed that two new threat actor groups have spun off from North Korean Labyrinth Chollima hackers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/labyrinth-chollima-dprk-three/",
+    "tags": [
+      "crowdstrike"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264880",
+    "date": "2026-01-30",
+    "title": "Love Leaked When Right Swipes Met the Wrong Hands",
+    "summary": "Match Group, the parent company behind some of the world’s most widely used dating platforms including Tinder, Hinge, OkCupid, and Match.com, confirmed that it was investigating a cybersecurity incident involving unauthorized access to internal systems. The disclosure followed claims made on unde...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/love-leaked-when-right-swipes-met-the-wrong-hands",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264881",
+    "date": "2026-01-30",
+    "title": "SoundCloud Data Breach Exposes Nearly 30M User Accounts",
+    "summary": "A SoundCloud breach affecting 29.8 million accounts exposed email addresses and profile data, increasing phishing risks. The post SoundCloud Data Breach Exposes Nearly 30M User Accounts appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-soundcloud-breach-exposes-nearly-30-million-users/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264882",
+    "date": "2026-01-30",
+    "title": "Apple Adds New iPhone Privacy Setting to Blur Location Data Shared With Carriers",
+    "summary": "Apple’s new iPhone privacy setting blurs location data shared with wireless carriers, limiting precise tracking while preserving emergency services. The post Apple Adds New iPhone Privacy Setting to Blur Location Data Shared With Carriers appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-apple-iphone-limit-precise-location-carriers/",
+    "tags": [
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264883",
+    "date": "2026-01-30",
+    "title": "Microsoft to disable NTLM by default in future Windows releases",
+    "summary": "Microsoft announced that it will disable the 30-year-old NTLM authentication protocol by default in upcoming Windows releases due to security vulnerabilities that expose organizations to cyberattacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-ntlm-by-default-in-future-windows-releases/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264884",
+    "date": "2026-01-30",
+    "title": "Operation Switch Off dismantles major pirate TV streaming services",
+    "summary": "The latest phase of the global law enforcement action resulted in seizing three industrial-scale illegal IPTV services. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/legal/operation-switch-off-dismantles-major-pirate-tv-streaming-services/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264885",
+    "date": "2026-01-30",
+    "title": "Microsoft fixes Outlook bug blocking access to encrypted emails",
+    "summary": "Microsoft has fixed a known issue that prevented Microsoft 365 customers from opening encrypted emails in classic Outlook after a recent update. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-blocking-access-to-encrypted-emails/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264841",
     "date": "2026-01-30",
     "title": "Hugging Face infra abused to spread Android RAT in a large-scale malware campaign",
@@ -931,6 +1317,18 @@
       "microsoft",
       "Cyber"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20264868",
+    "date": "2026-01-29",
+    "title": "Manufacturers fortify cyber defenses in response to dramatic surge in attacks",
+    "summary": "IT/OT convergence and other trends are making the manufacturing industry’s networks more vulnerable and more frequently targeted, but sector leaders are working to improve their cyber posture.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/manufacturing-sector-cyber-threats-collaboration-ransomware/810930/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -55816,6 +56214,21 @@
       "vulnerability"
     ],
     "impact": 5
+  },
+  {
+    "id": "20264863",
+    "date": "2026-01-04",
+    "title": "Meilleur antivirus : le comparatif en février 2026",
+    "summary": "En février 2026, l’offre antivirus n’a jamais été aussi large, ni aussi inégale. Entre les suites blindées de fonctions, les outils pensés pour sécuriser toute la maison et les solutions qui misent sur la simplicité, le bon choix dépend surtout de votre usage et de votre tolérance aux logiciels b...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/article-77079-1-guide-comparatif-meilleur-antivirus.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20263423",
