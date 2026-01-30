@@ -1,5 +1,367 @@
 [
   {
+    "id": "20264815",
+    "date": "2026-01-30",
+    "title": "Le botnet Aisuru signe un nouveau record DDoS à 31,4 Tb/s",
+    "summary": "Quelques semaines après le pic à 29,7 Tb/s observé par Cloudflare, le botnet Aisuru signe une nouvelle offensive culminant à plus de 30 Tb/s et des centaines de millions de requêtes par seconde. Une campagne visant surtout les télécoms, absorbée sans incident visible, qui confirme la normalisatio...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598132-le-botnet-aisuru-signe-un-nouveau-record-ddos-a-31-4-tb-s.html",
+    "tags": [
+      "ddos",
+      "cloud",
+      "ai-ml",
+      "cloudflare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264816",
+    "date": "2026-01-30",
+    "title": "Votre Mac mérite une vraie sécurité, cette offre Intego pourrait bien tout changer",
+    "summary": "On confie de plus en plus de choses à son Mac, qu’il s’agisse de documents personnels, de photos ou d’outils de travail. Pourtant, la question de la sécurité passe souvent au second plan, par habitude ou par confiance dans le système.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598081-votre-mac-merite-une-vraie-securite-cette-offre-intego-pourrait-bien-tout-changer.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264817",
+    "date": "2026-01-30",
+    "title": "Ad Fraud Is Exploding — Dhiraj Gupta of mFilterIt Explains How Brands Can Respond",
+    "summary": "Ad fraud isn’t just a marketing problem anymore — it’s a full-scale threat to the trust that powers the digital economy. As Data Privacy Week 2026 puts a global spotlight on protecting personal information and ensuring accountability online, the growing fraud crisis in digital advertising feels m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/data-privacy-week-2026-interview-dhiraj-gupta/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264818",
+    "date": "2026-01-30",
+    "title": "Ivanti Patches Two Zero-Days in Mobile Manager After Attackers Exploit Vulnerable Systems",
+    "summary": "Two code injection vulnerabilities allowed unauthenticated attackers to execute arbitrary code and access sensitive device information across compromised networks. Ivanti released emergency patches for two critical zero-day vulnerabilities in Endpoint Manager Mobile after discovering attackers ex...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ivanti-patches-critical-zero-day-flaws-in-epmm/",
+    "tags": [
+      "vulnerability",
+      "mobile"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264819",
+    "date": "2026-01-30",
+    "title": "CNIL Fine on France Travail After Hack Exposes 20 Years of Job Seekers’ Personal Data",
+    "summary": "On January 22, 2026, France’s data protection authority, the CNIL, imposed a €5 million fine on France Travail (formerly Pôle Emploi) for failing to properly secure the personal data of job seekers. The CNIL fine on France Travail highlights growing regulatory pressure across Europe to strengthen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cnil-fine-on-france-travail/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264820",
+    "date": "2026-01-30",
+    "title": "Cyble Research Discovers ShadowHS, an In-Memory Linux Framework for Long-Term Access",
+    "summary": "Cyble Research & Intelligence Labs (CRIL) has uncovered a post-exploitation Linux framework called ShadowHS, designed for stealthy, in-memory operations. Unlike traditional malware, ShadowHS leverages a fileless architecture and a weaponized version of hackshell, enabling attackers to maintain lo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/shadowhs-fileless-linux-exploitation-framework/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264821",
+    "date": "2026-01-30",
+    "title": "Cybersecurity Experts Arrested During Courthouse Pen Test Reach $600K Settlement",
+    "summary": "Two cybersecurity experts arrested during a sanctioned security assessment at the Dallas County Courthouse have reached a $600,000 settlement with Dallas County, Iowa, and its former sheriff, closing a legal dispute that lasted more than five years. The case has become a reference point in discus...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cybersecurity-experts-arrested/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264822",
+    "date": "2026-01-30",
+    "title": "Apple to limit mobile carrier access to precise iPhone location",
+    "summary": "In the upcoming iOS 26.3 update, Apple is introducing a new privacy setting that restricts how precisely cellular networks can track a user’s location. The feature, called Limit Precise Location, is part of a broader move to enhance hardware-level privacy protections without affecting user experi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/apple-to-limit-mobile-carrier-access-to-precise-iphone-location/",
+    "tags": [
+      "mobile",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264823",
+    "date": "2026-01-30",
+    "title": "Microsoft sets new timeline for Sentinel transition to Defender portal",
+    "summary": "Microsoft has updated the timeline for transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal from July 1, 2026 to March 31, 2027. The updated schedule extends access by nearly nine months. Microsoft said the updated timeline reflects feedback from ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/microsoft-transitioning-sentinel-to-defender-timeline/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264824",
+    "date": "2026-01-30",
+    "title": "Ex-Google engineer found guilty of stealing AI secrets",
+    "summary": "A federal jury in California convicted former Google software engineer Linwei Ding, also known as Leon Ding, on seven counts of economic espionage and seven counts of theft of trade secrets tied to AI technology. Ding faces a maximum sentence of 10 years in prison for each count of theft of trade...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/ex-google-engineer-espionage/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264825",
+    "date": "2026-01-30",
+    "title": "Arkose Titan Aims to make bot, scraping, and AI fraud economically unviable",
+    "summary": "Arkose Labs announced Arkose Titan, a unified platform that protects enterprises from human and AI-powered fraud, scraping and bot attacks. Unlike fragmented point solutions, Arkose Titan provides defense-in-depth through intelligent detection and adaptive mitigation against both traditional and ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/arkose-labs-titan/",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264826",
+    "date": "2026-01-30",
+    "title": "EFF calls out major tech companies on encryption promises",
+    "summary": "The Electronic Frontier Foundation (EFF) has introduced a new campaign called Encrypt It Already, focused on expanding the use of end-to-end encryption in consumer technology products and services. The effort examines public security commitments and the current availability of encryption protecti...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/electronic-frontier-foundation-encrypt-it-already/",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264827",
+    "date": "2026-01-30",
+    "title": "Apple’s new privacy feature limits how precisely carriers track your location",
+    "summary": "Apple users are already accustomed to managing app-level location permissions, and a new privacy feature in iOS 26.3 extends that control to cellular networks. Called Limit Precise Location, it reduces the amount of fine-grained location data that iPhones share with carriers. How it works Cellula...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/01/30/apple-limit-precise-location-ios/",
+    "tags": [
+      "mobile",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264828",
+    "date": "2026-01-30",
+    "title": "Story of Cyberattack: 16 Billion Leaked Credentials: “The Mega Leak”",
+    "summary": "What if the password you used years ago is still giving attackers access to your accounts today? What if a huge list of 16 billion leaked credentials containing usernames and passwords, covering Google, Apple, Facebook, GitHub, and even government portals, landed in hackers’ laps? That’s exactly ...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/story-of-cyberattack-16-billion-leaked-credentials-the-mega-leak/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government",
+      "ai-ml",
+      "google",
+      "apple",
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264829",
+    "date": "2026-01-30",
+    "title": "7 Best SOC Services for Cybersecurity in Financial Services: What You Need to Know",
+    "summary": "Financial institutions face more cyber threats than almost any other industry. Banks, credit unions, investment firms, and insurance companies manage sensitive customer data and massive financial transactions that make them prime targets for sophisticated attackers. Security Operations Centers (S...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/7-best-soc-services-for-cybersecurity-in-financial-services-what-you-need-to-know/",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264832",
+    "date": "2026-01-30",
+    "title": "Administrative ICE Murder in Dallas: A Disabled Man Dies",
+    "summary": "Another heartbreaking story about the abject cruelty of Trump’s stormtroopers. This is how Fox News reported the tragedy. “Mentally, I have never been worse,” Wael said in the video. “My father was always my hero, my safe place. He did everything for me, 24 hours a day, and ICE took him for no re...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76744",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264833",
+    "date": "2026-01-30",
+    "title": "The CSO guide to top security conferences",
+    "summary": "There is nothing like attending a face-to-face event for career networking and knowledge gathering, and we don’t have to tell you how helpful it can be to get a hands-on demo of a new tool or to have your questions answered by experts. Fortunately, plenty of great conferences are coming up in the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/559539/the-cso-guide-to-top-security-conferences.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264834",
+    "date": "2026-01-30",
+    "title": "Human risk management: CISOs’ solution to the security awareness training paradox",
+    "summary": "Cybersecurity guru Bruce Scheier is often quoted as saying, “People are the weakest link in the security chain.” No more accurate words have ever been spoken about cybersecurity. You can spend millions of dollars on firewalls, endpoint security tools, access controls, and data encryption, but one...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4123230/human-risk-management-cisos-solution-to-the-security-awareness-training-paradox.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264835",
+    "date": "2026-01-30",
+    "title": "New AI-Developed Malware Campaign Targets Iranian Protests",
+    "summary": "The RedKitten campaign distributes lures designed to target people seeking information about missing persons or political dissidents in Iran",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-malware-redkitten-iranian/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264836",
+    "date": "2026-01-30",
+    "title": "National Crime Agency and NatWest Issue Joint Warning Over Invoice Fraud Threat",
+    "summary": "Cyber fraudsters targeting corporate finance departments costs businesses millions a year",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nca-natwest-warning-over-invoice/",
+    "tags": [
+      "malware",
+      "finance",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264837",
+    "date": "2026-01-30",
+    "title": "Cybersecurity in 2026: AI as Both Sword and Shield",
+    "summary": "AI hasn’t just impacted cybersecurity recently – it has transformed the entire landscape. What was once a battle between human attackers and defenders has become an AI-augmented arms race. ML algorithms now orchestrate attacks as well as defences. Meanwhile, geopolitical tensions have spilt into ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/cybersecurity-in-2026-ai-as-both-sword-and-shield",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264838",
+    "date": "2026-01-30",
+    "title": "How to Get a Geocoding API Key: Step-by-Step Guide for Developers",
+    "summary": "Geocoding API keys enable applications converting addresses into coordinates and vice versa. Understanding how to Get a geocoding API key learned at https://distancematrix.ai/guides/get-geocoding-api-key quickly and properly helps developers in integrating location services into apps. API key acq...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/how-to-get-a-geocoding-api-key-step-by-step-guide-for-developers",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264839",
+    "date": "2026-01-30",
+    "title": "Comcast to Pay $117M in Security Breach Settlement",
+    "summary": "The breach was linked to a vulnerability known as “CitrixBleed,” a flaw affecting Citrix NetScaler Application Delivery Controller and Gateway appliances. The post Comcast to Pay $117M in Security Breach Settlement appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-comcast-security-breach-settlement/",
+    "tags": [
+      "data-breach",
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264840",
+    "date": "2026-01-30",
+    "title": "Windows 11 KB5074105 update fixes boot, sign-in, and activation issues",
+    "summary": "Microsoft has released the KB5074105 preview cumulative update for Windows 11 systems, which includes 32 changes, including fixes for sign-in, boot, and activation issues. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5074105-update-fixes-boot-sign-in-and-activation-issues/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264804",
     "date": "2026-01-30",
     "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
@@ -320,6 +682,21 @@
       "Cyber"
     ],
     "impact": 3
+  },
+  {
+    "id": "20264830",
+    "date": "2026-01-29",
+    "title": "What’s the Best SIEM Software for Security Management in Healthcare: Top Solutions",
+    "summary": "Healthcare organizations face unique cybersecurity challenges that make choosing the right Security Information and Event Management (SIEM) software critical. Medical facilities manage highly sensitive patient data protected by HIPAA regulations while operating around the clock with systems that ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/whats-the-best-siem-software-for-security-management-in-healthcare-top-solutions/",
+    "tags": [
+      "malware",
+      "healthcare"
+    ],
+    "impact": 5
   },
   {
     "id": "20264762",
@@ -9437,6 +9814,20 @@
     "tags": [
       "phishing",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264831",
+    "date": "2026-01-26",
+    "title": "5 Top Cybersecurity Trends 2025: How Automation and AI Will Enhance Incident Response",
+    "summary": "The cybersecurity industry continues to transform as threats become more sophisticated and attack surfaces expand. Organizations face increasing pressure to detect and respond to incidents faster while managing resource constraints and skill shortages. Understanding the top cybersecurity trends 2...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "ClearNetwork Inc Blog",
+    "sourceUrl": "https://clearnetwork.com/5-top-cybersecurity-trends-2025-how-automation-and-ai-will-enhance-incident-response/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },

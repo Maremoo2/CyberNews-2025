@@ -1,5 +1,19 @@
 [
   {
+    "id": "2021043",
+    "date": "2021-12-30",
+    "title": "What is SAML authentication ❓ How does it work ❓",
+    "summary": "Enterprises using various business apps have a tough time maintaining data’s secrecy and access grants as per user roles throughout the infrastructure landscape. SAML (Security Assertion Markup Language) shows up as a great aid at this front.Let’s see what is it, how it works, what are its advant...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "d0znpp on Medium",
+    "sourceUrl": "https://d0znpp.medium.com/what-is-saml-authentication-how-does-it-work-221533fd58cc?source=rss-952c3fe8c7c7------2",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021042",
     "date": "2021-12-30",
     "title": "What is SAML authentication ❓ How does it work ❓",
@@ -977,6 +991,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2021034",
+    "date": "2021-12-28",
+    "title": "NetBOM",
+    "summary": "What is NetBOM? A NetBOM is a network bill of materials. It is a list of the Internet servers that a device needs to connect to. Currently, when we buy products, we connect them to our network and give them unfettered access to the Internet. This means that even if a device is behind a firewall, ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Between The Hacks",
+    "sourceUrl": "https://www.betweenthehacks.com/blog/what-is-netbom",
+    "tags": [],
     "impact": 3
   },
   {
@@ -1818,6 +1844,21 @@
     "sourceUrl": "https://www.betweenthehacks.com/blog/what-is-netbom",
     "tags": [],
     "impact": 3
+  },
+  {
+    "id": "2021035",
+    "date": "2021-12-14",
+    "title": "log4shell",
+    "summary": "Last Update: December 28, 2021If you are reading this, you likely have heard about Log4Shell, the December, 2021 critical zero-day remote-code execution vulnerability, and subsequent vulnerabilities in the popular Log4j software library that is developed and maintained by the Apache Software Foun...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Between The Hacks",
+    "sourceUrl": "https://www.betweenthehacks.com/blog/log4shell",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
   },
   {
     "id": "2021034",
@@ -2868,6 +2909,18 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "2021036",
+    "date": "2021-11-30",
+    "title": "Hacking Humble Bundle",
+    "summary": "Last year, Humble Bundle teamed up with the great tech publisher, No Starch Press, to offer deeply discounted hacking ebooks for as little as one dollar with the Hacking 101 By No Starch Press Humble Bundle of ebooks. This year, on Giving Tuesday, No Starch Press has a new Hacking Book Bundle. Th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Between The Hacks",
+    "sourceUrl": "https://www.betweenthehacks.com/blog/hackinghumblebundle2021",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2021035",
@@ -3707,6 +3760,21 @@
     "sourceName": "Between The Hacks",
     "sourceUrl": "https://www.betweenthehacks.com/blog/hackinghumblebundle2021",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021001",
+    "date": "2021-11-06",
+    "title": "Meilleur VPN : le comparatif en janvier 2026",
+    "summary": "En 2026, un VPN reste un outil indispensable pour chiffrer votre trafic, masquer votre adresse IP et sécuriser votre navigation. Dans notre comparatif des meilleurs VPN, nous recommandons d'abord CyberGhost, un service simple à prendre en main, sérieux sur la sécurité et très bien positionné côté...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-844220-1-comparatif-vpn.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -4255,6 +4323,20 @@
     "impact": 3
   },
   {
+    "id": "2021032",
+    "date": "2021-10-20",
+    "title": "Recommendations for Parents about Cyber Bullying",
+    "summary": "Here are some dedicated tips for keeping younger children safe online. One of these training tips goes into the risks of young children on the Internet, covers cyber bullying and other risky Internet behavior. Here are the suggestions parents should take into account regarding kids online. • Talk...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Crimes Watch",
+    "sourceUrl": "https://www.cybercrimeswatch.com/3114/recommendations-for-parents-about-cyber-bullying/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021031",
     "date": "2021-10-20",
     "title": "Recommendations for Parents about Cyber Bullying",
@@ -5231,6 +5313,21 @@
     "sourceUrl": "https://www.cybercrimeswatch.com/3114/recommendations-for-parents-about-cyber-bullying/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021033",
+    "date": "2021-10-04",
+    "title": "WhatsApp, Facebook, Instagram server down in Pakistan?",
+    "summary": "Facebook-owned social media platforms, WhatsApp, Facebook, and Instagram are facing a worldwide outage, according to Downdetector, which offers real-time status and outage information for all kinds of services. .https://d-31038805491725975734.ampproject.net/2109102127000/frame.html Downdetector s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Crimes Watch",
+    "sourceUrl": "https://www.cybercrimeswatch.com/3110/whatsapp-facebook-instagram-server-down-in-pakistan/",
+    "tags": [
+      "ai-ml",
+      "facebook"
     ],
     "impact": 3
   },
@@ -6281,6 +6378,22 @@
     "tags": [
       "ai-ml",
       "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021012",
+    "date": "2021-09-13",
+    "title": "Prevention is Better Than Cure: The Ransomware Evolution",
+    "summary": "Ransomware tactics have continued to evolve over the years, and remain a prominent threat to both SMBs and larger organisations. Particularly during the peak of COVID-19, research by IBM found that ransomware incidents ‘exploded’ in June 2020, which saw twice as many ransomware attacks as the mon...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/09/prevention-is-better-than-cure.html",
+    "tags": [
+      "ransomware",
+      "ai-ml",
+      "ibm"
     ],
     "impact": 3
   },
@@ -8397,6 +8510,21 @@
     "impact": 3
   },
   {
+    "id": "2021013",
+    "date": "2021-08-13",
+    "title": "How Businesses Can Utilise Penetration Testing",
+    "summary": "Understand your security vulnerabilitiesArticle by Beau PetersThe basic approaches like phishing simulations are good, but they tend to have limited reach. This is why more agile methods, penetration testing among them, have been getting increasing attention. In essence, this sees experts with a ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/08/how-businesses-can-utilise-penetration.html",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 2
+  },
+  {
     "id": "2021012",
     "date": "2021-08-13",
     "title": "How Businesses Can Utilise Penetration Testing",
@@ -9460,6 +9588,18 @@
       "malware"
     ],
     "impact": 2
+  },
+  {
+    "id": "2021039",
+    "date": "2021-07-29",
+    "title": "Zeek in Action Videos",
+    "summary": "This is a quick note to point blog readers to my Zeek in Action YouTube video series for the Zeek network security monitoring project. Each video addresses a topic that I think might be of interest to people trying to understand their network using Zeek and adjacent tools and approaches, like Sur...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2021/07/zeek-in-action-videos.html",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2021038",
@@ -10302,6 +10442,20 @@
     "impact": 3
   },
   {
+    "id": "2021014",
+    "date": "2021-07-28",
+    "title": "Payment Security: Understanding the Four Corner Model",
+    "summary": "Introduction Online shopping digital payment transactions may seem quite simple, but in reality, just one single transaction sets off multiple, long-chain reactions. The Payment Card Industry comprises debit cards, credit cards, prepaid, e-purse/e-wallet, and POS payment transactions that enable ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/07/payment-security-understanding-four.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021013",
     "date": "2021-07-28",
     "title": "Payment Security: Understanding the Four Corner Model",
@@ -11296,6 +11450,20 @@
     "impact": 3
   },
   {
+    "id": "2021015",
+    "date": "2021-07-13",
+    "title": "Free Coventry University Course to Help Everyone Protect their Online Privacy    ",
+    "summary": "Now everyone can learn what privacy means, how your privacy is impacted when using the web and mobile apps, and how to protect your privacy online thanks to a free course from Coventry University.The UK university has worked closely with experts including Pat Walshe at PrivacyMatters to create an...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/07/free-coventry-university-course-to-help.html",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021014",
     "date": "2021-07-13",
     "title": "Free Coventry University Course to Help Everyone Protect their Online Privacy    ",
@@ -12290,6 +12458,22 @@
     "impact": 3
   },
   {
+    "id": "2021016",
+    "date": "2021-07-04",
+    "title": "Cyber Security Roundup for July 2021",
+    "summary": "A roundup of UK focused Cyber and Information Security News, Blog Posts, Reports and general Threat Intelligence from the previous calendar month, June 2021.How was UK Government Building CCTV Leaked?The Sun newspaper published CCTV workplace footage of Health Secretary Matt Hancock, kissing aide...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/07/cyber-security-roundup-for-july-2021.html",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021015",
     "date": "2021-07-04",
     "title": "Cyber Security Roundup for July 2021",
@@ -13426,6 +13610,18 @@
     "impact": 3
   },
   {
+    "id": "2021017",
+    "date": "2021-06-11",
+    "title": "Why Freelancers Should Prioritise Cybersecurity",
+    "summary": "Article by Beau PetersAs a freelancer in any industry, you are likely more susceptible to hackers and cybercrime than many other professions. Not only are you pulling in a constant stream of customer data, but as a worker on the go, you likely work exclusively in the digital realm with all of you...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/06/why-freelancers-should-prioritise-security.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2021016",
     "date": "2021-06-11",
     "title": "Why Freelancers Should Prioritise Cybersecurity",
@@ -14278,6 +14474,21 @@
     "impact": 3
   },
   {
+    "id": "2021018",
+    "date": "2021-06-08",
+    "title": "Top Cyber Security Challenges Post Lockdown",
+    "summary": "By Sam Jones | Cyber Tec Security Not too long ago things were looking bleak for the world, still under the dark cloud of the COVID pandemic, but with vaccine rollouts now taking place worldwide, there is finally a light at the end of the tunnel. It’s important to remember, however, as we slowly ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/06/CyberSecurity-Challenges-Post-Lockdown.html",
+    "tags": [
+      "data-breach",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021017",
     "date": "2021-06-08",
     "title": "Top Cyber Security Challenges Post Lockdown",
@@ -15343,6 +15554,18 @@
     "impact": 3
   },
   {
+    "id": "2021019",
+    "date": "2021-06-01",
+    "title": "Cyber Security Roundup for June 2021",
+    "summary": "A roundup of UK focused Cyber and Information Security News, Blog Posts, Reports and general Threat Intelligence from the previous calendar month, May 2021.UK Smarties Cities Cybersecurity WarningThe UK National Cyber Security Centre (NCSC) published its Smart Cities (connected places) guidance f...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/06/cyber-security-roundup-for-june-2021.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2021018",
     "date": "2021-06-01",
     "title": "Cyber Security Roundup for June 2021",
@@ -16195,6 +16418,21 @@
     "impact": 3
   },
   {
+    "id": "2021020",
+    "date": "2021-05-28",
+    "title": "Keeping Phishing Simulations on Track",
+    "summary": "The West Midlands Train service has come under fire after workers discovered that an email promising them a bonus payment after running trains during the pandemic was actually a phishing simulation test. Around 2,500 employees received a message which appeared to come from Julian Edwards, Managin...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/keeping-phishing-simulations-on-track.html",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021019",
     "date": "2021-05-28",
     "title": "Keeping Phishing Simulations on Track",
@@ -17260,6 +17498,21 @@
     "impact": 3
   },
   {
+    "id": "2021021",
+    "date": "2021-05-26",
+    "title": "How Hidden Vulnerabilities will Lead to Mobile Device Compromises",
+    "summary": "Your mobile device can be hacked very easily without your knowledge. Even if an attacker can’t get into your device they can attempt to gain access to the sensitive information instead that is stored inside such as your places visited, emails and contacts. It's not just consumers who are targeted...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/3-ways-a-Mobile-Device-can-be-Compromised.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021020",
     "date": "2021-05-26",
     "title": "How Hidden Vulnerabilities will Lead to Mobile Device Compromises",
@@ -18325,6 +18578,20 @@
     "impact": 3
   },
   {
+    "id": "2021022",
+    "date": "2021-05-19",
+    "title": "Cyber Security: Data ‘Re’-Assurance",
+    "summary": "How do you know company data is secure? How do organisations know their data is secure? And how can companies ensure that a network breach won’t result in a loss of sensitive data? The consequences of a data breach are potentially disastrous for any organisation, so companies need to be reassured...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/cyber-security-data-re-assurance.html",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021021",
     "date": "2021-05-19",
     "title": "Cyber Security: Data ‘Re’-Assurance",
@@ -19319,6 +19586,21 @@
     "impact": 3
   },
   {
+    "id": "2021023",
+    "date": "2021-05-13",
+    "title": "How to Ensure Security when Buying a Refurbished or Second-Hand Smartphone",
+    "summary": "Last year, a Which? investigation found that 31% of resold smartphone models from three of the major used and refurbished handset stores are no longer receiving security updates. Phone manufacturers only schedule data updates for a certain period after the release of a model, so those looking for...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/How-to-Ensure-Security-when-Buying-a-Refurbished-or-Second-Hand-Smartphone.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
     "id": "2021022",
     "date": "2021-05-13",
     "title": "How to Ensure Security when Buying a Refurbished or Second-Hand Smartphone",
@@ -20382,6 +20664,18 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "2021024",
+    "date": "2021-05-11",
+    "title": "10 Things You Might Not Know About Cyber Essentials",
+    "summary": "IASME delivers Cyber Essentials on behalf of UK NCSCBy Sam Jones | Cyber Tec Security and Dave WhiteleggWhat is Cyber Essentials? If you are just hearing about the Cyber Essentials scheme, read on as we unpack 10 things you might not know about Cyber Essentials. 1. UK Gov Launched Cyber Essential...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/10-things-you-might-not-know-about.html",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "2021023",
@@ -21232,6 +21526,18 @@
     "country": "United Kingdom",
     "sourceName": "IT Security Expert",
     "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/10-things-you-might-not-know-about.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021025",
+    "date": "2021-05-07",
+    "title": "Achieving PCI DSS Compliant Firewalls within a Small Business",
+    "summary": "The most important and integral part of any data security begins with having firewalls installed in the environment. Not just that, installing firewalls is an essential requirement of the Payment Card Industry Data Security Standard (PCI DSS). However, simply installing a firewall on the network ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/achieving-pci-dss-compliant-firewalls.html",
     "tags": [],
     "impact": 3
   },
@@ -22085,6 +22391,21 @@
     "sourceName": "IT Security Expert",
     "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/achieving-pci-dss-compliant-firewalls.html",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021026",
+    "date": "2021-05-06",
+    "title": "Cybersecurity Is Not A One-Stop-Shop",
+    "summary": "Cybersecurity is not a One-Stop-ShopBoris Johnson announced the Government’s roadmap to lift Coronavirus restrictions for both businesses and the general public earlier in February, and since then, this has provided a glimmer of hope for many across the country. However, since the start of the pa...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/cybersecurity-is-not-one-stop-shop.html",
+    "tags": [
+      "malware",
+      "government"
+    ],
     "impact": 3
   },
   {
@@ -23149,6 +23470,21 @@
     "tags": [
       "malware",
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021027",
+    "date": "2021-05-05",
+    "title": "The Role of Translation in Cyber Security and Data Privacy",
+    "summary": "Article by Shiela PulidoDue to our dependence on the internet for digital transformation, most people suffer from the risks of cyberattacks. It is an even greater concern this year due to the trend of remote working and international business expansions. According to IBM, the cost of cyber hacks ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/the-role-of-translation-in-cyber.html",
+    "tags": [
+      "malware",
+      "ibm"
     ],
     "impact": 3
   },
@@ -24215,6 +24551,18 @@
       "malware",
       "ibm"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2021028",
+    "date": "2021-05-04",
+    "title": "The Key to Cybersecurity is an Educated Workforce ",
+    "summary": "The United Kingdom's National Cyber Security Centre (NCSC) handled a record number of cybersecurity incidents over the last year, a 20% increase in cases handled the year before. With the increasing number and more innovative nature of cyber attacks, businesses of all sizes must prioritise cybers...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/the-key-to-cybersecurity-is-educated.html",
+    "tags": [],
     "impact": 3
   },
   {
@@ -25067,6 +25415,21 @@
     "sourceName": "IT Security Expert",
     "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/the-key-to-cybersecurity-is-educated.html",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021029",
+    "date": "2021-05-03",
+    "title": "Cyber Security Roundup for May 2021",
+    "summary": "A roundup of UK focused Cyber and Information Security News, Blog Posts, Reports and general Threat Intelligence from the previous calendar month, April 2021.Think Before You LinkedIn!Business social media platform LinkedIn is being exploited by nation-state threat actors to target UK citizens. T...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/05/cyber-security-roundup-for-may-2021.html",
+    "tags": [
+      "vulnerability",
+      "state-sponsored"
+    ],
     "impact": 3
   },
   {
@@ -26131,6 +26494,21 @@
     "tags": [
       "vulnerability",
       "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021030",
+    "date": "2021-04-30",
+    "title": "Which is more Important: Vulnerability Scans Or Penetration Tests?",
+    "summary": "Which Is Better? A Vulnerability Scan Or A Penetration Test?Vulnerability scanning and penetration tests are two very different ways to test your system for any vulnerabilities. Despite this, they are often confused about the same service, which leads to business owners purchasing one service whe...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2021/04/Vulnerability-Scan-V-Penetration-Test.html",
+    "tags": [
+      "vulnerability",
+      "malware"
     ],
     "impact": 3
   },
@@ -27200,6 +27578,20 @@
     "impact": 3
   },
   {
+    "id": "2021040",
+    "date": "2021-04-13",
+    "title": "New Book! The Best of TaoSecurity Blog, Volume 4",
+    "summary": "I've completed the TaoSecurity Blog book series.The new book is The Best of TaoSecurity Blog, Volume 4: Beyond the Blog with Articles, Testimony, and Scholarship. It's available now for Kindle, and I'm working on the print edition. I'm running a 50% off promo on Volumes 1-3 on Kindle through midn...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2021/04/new-book-best-of-taosecurity-blog.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021039",
     "date": "2021-04-13",
     "title": "New Book! The Best of TaoSecurity Blog, Volume 4",
@@ -28174,6 +28566,20 @@
     "country": "United States",
     "sourceName": "TaoSecurity",
     "sourceUrl": "https://taosecurity.blogspot.com/2021/04/new-book-best-of-taosecurity-blog.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021031",
+    "date": "2021-04-08",
+    "title": "About Jan Brennenstuhl",
+    "summary": "Hi. My name is Jan Brennenstuhl, I live and work in Berlin Germany, where I was born and raised. I am a product-minded software engineer, web security enthusiast & clean code artist with a huge interest in interdisciplinary software development and engineering leadership. I am a big fan of cyclin...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/about/",
     "tags": [
       "ai-ml"
     ],
@@ -29155,6 +29561,35 @@
     "sourceName": "Brennenstuhl on Security Engineering Blog",
     "sourceUrl": "https://www.janbrennenstuhl.eu/about/",
     "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021002",
+    "date": "2021-04-01",
+    "title": "Scenaro : 1. Victim opens the attacker’s web site. 2. Attacker sets up a web site which contain interesting and attractive content like ‘Do you want to make $1000 in a day? 3. Victim clicks to the interesting and attractive content URL. 4. Attacker creates a transparent ‘iframe’ in front of the URL which the victim attempts to click, so the victim thinks that he/she clicks on the ‘Do you want to make $1000 in a day?’ URL but actually he/she clicks on the content or URL that exists in the transparent ‘iframe’ which is setup by the attacker. What is the name of the attack which is mentioned in the scenario?",
+    "summary": "Scenaro : 1. Victim opens the attacker’s web site. 2. Attacker sets up a web site which contain interesting and attractive content like ‘Do you want to make $1000 in a day? 3. Victim clicks to the interesting and attractive content URL. 4. Attacker creates a transparent ‘iframe’ in front of the U...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/scenaro-1-victim-opens-the-attackers-web-site-2-attacker-sets-up-a-web-site-which-contain-interesting-and-attractive-content-like-do-you-want-to-make-1000-in-a-day-3-victim-clicks-to-the-i/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021041",
+    "date": "2021-04-01",
+    "title": "The Origins of the Names TaoSecurity and the Unit Formerly Known as TAO",
+    "summary": "What are the origins of the names TaoSecurity and the unit formerly known as TAO? IntroductionI've been reading Nicole Perlroth's new book This Is How They Tell Me the World Ends. Her discussion of the group formerly known as Tailored Access Operations, or TAO, reminded me of a controversy that a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2021/04/the-origins-of-names-taosecurity-and.html",
+    "tags": [
+      "malware",
       "ai-ml"
     ],
     "impact": 3
@@ -31162,6 +31597,91 @@
     "impact": 3
   },
   {
+    "id": "2021003",
+    "date": "2021-03-27",
+    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
+    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021002",
+    "date": "2021-03-27",
+    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
+    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021002",
+    "date": "2021-03-27",
+    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
+    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021002",
+    "date": "2021-03-27",
+    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
+    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021002",
+    "date": "2021-03-27",
+    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
+    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021002",
     "date": "2021-03-27",
     "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
@@ -31570,74 +32090,6 @@
     "impact": 3
   },
   {
-    "id": "2021002",
-    "date": "2021-03-27",
-    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
-    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "apt",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021002",
-    "date": "2021-03-27",
-    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
-    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "apt",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021002",
-    "date": "2021-03-27",
-    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
-    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "apt",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021002",
-    "date": "2021-03-27",
-    "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
-    "summary": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/sam-is-working-as-a-system-administrator-in-an-organization-he-captured-the-principle-characteristics-of-a-vulnerability-and-produced-a-numerical-score-to-reflect-its-severity-using-cvss-v3-0-to-pro/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "apt",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2021003",
     "date": "2021-03-27",
     "title": "Sam is working as a system administrator in an organization . He captured the principle characteristics of a vulnerability and produced a numerical score to reflect its severity using CVSS v3.0 to properly assess and prioritize the organization’s vulnerability management processes. The base score that Sam obtained after performing CVSS rating was 4.0 What is CVSS severity level of the vulnerability discovered by Sam in the above scenario?",
@@ -32318,6 +32770,291 @@
     "impact": 3
   },
   {
+    "id": "2021004",
+    "date": "2021-03-25",
+    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
+    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021005",
+    "date": "2021-03-25",
+    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
+    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021006",
+    "date": "2021-03-25",
+    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
+    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2021007",
+    "date": "2021-03-25",
+    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
+    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021003",
+    "date": "2021-03-25",
+    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
+    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021004",
+    "date": "2021-03-25",
+    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
+    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021005",
+    "date": "2021-03-25",
+    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
+    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2021006",
+    "date": "2021-03-25",
+    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
+    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021003",
+    "date": "2021-03-25",
+    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
+    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021004",
+    "date": "2021-03-25",
+    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
+    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021005",
+    "date": "2021-03-25",
+    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
+    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2021006",
+    "date": "2021-03-25",
+    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
+    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021003",
+    "date": "2021-03-25",
+    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
+    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021004",
+    "date": "2021-03-25",
+    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
+    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021005",
+    "date": "2021-03-25",
+    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
+    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2021006",
+    "date": "2021-03-25",
+    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
+    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021003",
+    "date": "2021-03-25",
+    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
+    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021004",
+    "date": "2021-03-25",
+    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
+    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021005",
+    "date": "2021-03-25",
+    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
+    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "2021006",
+    "date": "2021-03-25",
+    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
+    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2021003",
     "date": "2021-03-25",
     "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
@@ -33686,234 +34423,6 @@
     "impact": 3
   },
   {
-    "id": "2021003",
-    "date": "2021-03-25",
-    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
-    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021004",
-    "date": "2021-03-25",
-    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
-    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
-    "tags": [
-      "vulnerability"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021005",
-    "date": "2021-03-25",
-    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
-    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "critical-infrastructure",
-      "ai-ml"
-    ],
-    "impact": 5
-  },
-  {
-    "id": "2021006",
-    "date": "2021-03-25",
-    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
-    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021003",
-    "date": "2021-03-25",
-    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
-    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021004",
-    "date": "2021-03-25",
-    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
-    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
-    "tags": [
-      "vulnerability"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021005",
-    "date": "2021-03-25",
-    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
-    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "critical-infrastructure",
-      "ai-ml"
-    ],
-    "impact": 5
-  },
-  {
-    "id": "2021006",
-    "date": "2021-03-25",
-    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
-    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021003",
-    "date": "2021-03-25",
-    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
-    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021004",
-    "date": "2021-03-25",
-    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
-    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
-    "tags": [
-      "vulnerability"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021005",
-    "date": "2021-03-25",
-    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
-    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "critical-infrastructure",
-      "ai-ml"
-    ],
-    "impact": 5
-  },
-  {
-    "id": "2021006",
-    "date": "2021-03-25",
-    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
-    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021003",
-    "date": "2021-03-25",
-    "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
-    "summary": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to re...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/clark-a-professional-hacker-was-hired-by-an-organization-to-gather-sensitive-information-about-its-competitors-surreptitiously-clark-gathers-the-server-ip-address-of-the-target-organization-using/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021004",
-    "date": "2021-03-25",
-    "title": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabilities to perform further exploitation. What is the type of vulnerability assessment tool employed by john in the above scenario?",
-    "summary": "John a disgruntled ex-employee of an organization, contacted a professional hacker to exploit the organization. In the attack process, the professional hacker installed a scanner on a machine belonging to one of the victim and scanned several machines on the same network to identify vulnerabiliti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/john-a-disgruntled-ex-employee-of-an-organization-contacted-a-professional-hacker-to-exploit-the-organization-in-the-attack-process-the-professional-hacker-installed-a-scanner-on-a-machine-belongin/",
-    "tags": [
-      "vulnerability"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021005",
-    "date": "2021-03-25",
-    "title": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service disruption, the organization decided to install an OT security tool that further protects against security incidents such as cyber espionage, zero-day attack, and malware. Which of the following tools must the organization employ to protect its critical infrastructure?",
-    "summary": "An organization has automated the operation of critical infrastructure from a remote location. For this purpose, all the industrial control systems are connected to the INTERNET. To empower the manufacturing processs, ensure the reliability of industrial networks, and reduce downtime and service ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/an-organization-has-automated-the-operation-of-critical-infrastructure-from-a-remote-location-for-this-purpose-all-the-industrial-control-systems-are-connected-to-the-internet-to-empower-the-manufa/",
-    "tags": [
-      "vulnerability",
-      "malware",
-      "critical-infrastructure",
-      "ai-ml"
-    ],
-    "impact": 5
-  },
-  {
-    "id": "2021006",
-    "date": "2021-03-25",
-    "title": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support will send a computer technician. Jane promptly replied positively. Ralph entered Jane’s company using this opportunity and gathered sensitive informations by scanning terminals for passwords, searching for important documents in desks, and rummaging bins. What is the type of attack technique Ralph used on Jane?",
-    "summary": "Ralph, a professional hacker, targeted Jane , who had recently bought new systems for her company. After a few days, Ralph contacted Jane while masquerading as a legitimate customer support executive, informing that her systems need to be serviced for proper functioning and that customer support ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/ralph-a-professional-hacker-targeted-jane-who-had-recently-bought-new-systems-for-her-company-after-a-few-days-ralph-contacted-jane-while-masquerading-as-a-legitimate-customer-support-executive/",
-    "tags": [],
-    "impact": 3
-  },
-  {
     "id": "2021004",
     "date": "2021-03-25",
     "title": "Clark , a professional hacker, was hired by an organization to gather sensitive information about its competitors surreptitiously. Clark gathers the server IP address of the target organization using Whois footprinting. Further, he entered the server IP address as an input to an online tool to retrive information such as the network range of the target organization and to identify the network topology and operating system used in the network. What is the online tool employed by Clark in the above scenario?",
@@ -36194,6 +36703,76 @@
     "impact": 3
   },
   {
+    "id": "2021008",
+    "date": "2021-03-20",
+    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
+    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021007",
+    "date": "2021-03-20",
+    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
+    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021007",
+    "date": "2021-03-20",
+    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
+    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021007",
+    "date": "2021-03-20",
+    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
+    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021007",
+    "date": "2021-03-20",
+    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
+    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021007",
     "date": "2021-03-20",
     "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
@@ -36530,62 +37109,6 @@
     "impact": 3
   },
   {
-    "id": "2021007",
-    "date": "2021-03-20",
-    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
-    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021007",
-    "date": "2021-03-20",
-    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
-    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021007",
-    "date": "2021-03-20",
-    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
-    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021007",
-    "date": "2021-03-20",
-    "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
-    "summary": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote f...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/jason-an-attacker-targeted-an-organization-to-perform-an-attack-on-its-internet-facing-web-server-with-the-intention-of-gaining-access-to-backend-servers-which-are-protected-by-a-firewall-in-this/",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2021008",
     "date": "2021-03-20",
     "title": "Jason, an attacker, targeted an organization to perform an attack on its Internet-facing web server with the intention of gaining access to backend servers, which are protected by a firewall. In this process, he used a URL https://xyz.com/feed.php?url=externalsite.com/feed/to to obtain a remote feed and altered the URL input to the local host to view all the local resources on the target server. What is the type of attack Jason performed in the above scenario?",
@@ -37146,6 +37669,136 @@
     "impact": 3
   },
   {
+    "id": "2021009",
+    "date": "2021-03-18",
+    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
+    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021010",
+    "date": "2021-03-18",
+    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
+    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021008",
+    "date": "2021-03-18",
+    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
+    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021009",
+    "date": "2021-03-18",
+    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
+    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021008",
+    "date": "2021-03-18",
+    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
+    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021009",
+    "date": "2021-03-18",
+    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
+    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021008",
+    "date": "2021-03-18",
+    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
+    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021009",
+    "date": "2021-03-18",
+    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
+    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021008",
+    "date": "2021-03-18",
+    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
+    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021009",
+    "date": "2021-03-18",
+    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
+    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2021008",
     "date": "2021-03-18",
     "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
@@ -37770,110 +38423,6 @@
     "impact": 3
   },
   {
-    "id": "2021008",
-    "date": "2021-03-18",
-    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
-    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021009",
-    "date": "2021-03-18",
-    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
-    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021008",
-    "date": "2021-03-18",
-    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
-    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021009",
-    "date": "2021-03-18",
-    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
-    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021008",
-    "date": "2021-03-18",
-    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
-    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021009",
-    "date": "2021-03-18",
-    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
-    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2021008",
-    "date": "2021-03-18",
-    "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
-    "summary": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non – whitelisti...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/security-administrator-john-smith-has-noticed-abnormal-amounts-of-traffic-coming-from-local-computers-at-night-upon-reviewing-he-finds-that-user-data-have-been-exfiltered-by-an-attacker-av-tools-ar/",
-    "tags": [
-      "malware"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021009",
-    "date": "2021-03-18",
-    "title": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, reliability, and portability of an application. What is the type of web-service API mentioned in the above scenario?",
-    "summary": "Gillbert, a web developer, uses a centralized web API to reduce complexity and increase the integrity of updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT, POST, GET, and DELETE and can improve the overall performance, visibility, scalability, ...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/gillbert-a-web-developer-uses-a-centralized-web-api-to-reduce-complexity-and-increase-the-integrity-of-updating-and-changing-data-for-this-purpose-he-uses-a-web-service-that-uses-http-methods-such/",
-    "tags": [],
-    "impact": 3
-  },
-  {
     "id": "2021009",
     "date": "2021-03-18",
     "title": "Security administrator John Smith has noticed abnormal amounts of traffic coming from local computers at night. Upon reviewing, he finds that user data have been exfiltered by an attacker. AV tools are unable to find any malicious software, and the IDS/IPS has not reported on any non-whitelisted programs. What type of malware did the attacker use to bypass the company ‘s application whitelisting?",
@@ -38914,6 +39463,81 @@
     "impact": 3
   },
   {
+    "id": "2021011",
+    "date": "2021-03-17",
+    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
+    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021010",
+    "date": "2021-03-17",
+    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
+    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021010",
+    "date": "2021-03-17",
+    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
+    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021010",
+    "date": "2021-03-17",
+    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
+    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2021010",
+    "date": "2021-03-17",
+    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
+    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Info Savvy",
+    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2021010",
     "date": "2021-03-17",
     "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
@@ -39274,66 +39898,6 @@
     "impact": 3
   },
   {
-    "id": "2021010",
-    "date": "2021-03-17",
-    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
-    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
-    "tags": [
-      "vulnerability",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021010",
-    "date": "2021-03-17",
-    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
-    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
-    "tags": [
-      "vulnerability",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021010",
-    "date": "2021-03-17",
-    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
-    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
-    "tags": [
-      "vulnerability",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2021010",
-    "date": "2021-03-17",
-    "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
-    "summary": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issue. Ro...",
-    "region": "US",
-    "country": "Global",
-    "sourceName": "Info Savvy",
-    "sourceUrl": "https://info-savvy.com/attacker-lauren-has-gained-the-credentials-of-an-organizations-internal-server-system-and-she-was-often-logging-in-during-irregular-times-to-monitor-the-network-activities-the-organization-was-ske/",
-    "tags": [
-      "vulnerability",
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
     "id": "2021011",
     "date": "2021-03-17",
     "title": "Attacker lauren has gained the credentials of an organization’s internal server system, and she was often logging in during irregular times to monitor the network activities. The organization was skeptical about the login times and appointed security professional Robert to determine the issuee. Robert analyzed the compromised device to find incident details such as the type of attack, its severity, target, impact, method of propagation, and vulnerabilities exploited. What is the incident handling and response (IH&R) phase, in which Robert has determined this issues?",
@@ -39931,6 +40495,18 @@
       "vulnerability",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2021037",
+    "date": "2021-02-21",
+    "title": "Managing Identity Consciously",
+    "summary": "I had cause recently to participate in a workshop considering identity across an enterprise and I wanted to share some of my thinking which was unexpectedly useful. Identity is a slippery thing, it has real world hooks but in the digital world it can be many-faceted and complex. Both real world a...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2021/02/managing-identity-consciously/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -40774,6 +41350,18 @@
     "impact": 3
   },
   {
+    "id": "2021042",
+    "date": "2021-02-18",
+    "title": "Digital Offense Capabilities Are Currently Net Negative for the Security Ecosystem ",
+    "summary": "PropositionDigital offense capabilities are currently net negative for the security ecosystem.[0]The costs of improved digital offense currently outweigh the benefits. The legitimate benefits of digital offense accrue primarily to the security one percent (#securityonepercent), and to intelligenc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TaoSecurity",
+    "sourceUrl": "https://taosecurity.blogspot.com/2021/02/digital-offense-capabilities-are.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2021041",
     "date": "2021-02-18",
     "title": "Digital Offense Capabilities Are Currently Net Negative for the Security Ecosystem ",
@@ -41610,6 +42198,18 @@
     "country": "United States",
     "sourceName": "TaoSecurity",
     "sourceUrl": "https://taosecurity.blogspot.com/2021/02/digital-offense-capabilities-are.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2021038",
+    "date": "2021-01-30",
+    "title": "Why I don’t like PIGs in Security Risk",
+    "summary": "Probability times Impact Graphs (PIGs), sometimes called a risk matrix, are endemic in security risk assessment and management. They were adopted decades ago and embedded within standards and practices. They’re still there and extensively used across the discipline despite the academic work since...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2021/01/why-i-dont-like-pigs-in-security-risk/",
     "tags": [],
     "impact": 3
   },
