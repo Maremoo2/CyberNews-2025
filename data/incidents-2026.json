@@ -1,5 +1,440 @@
 [
   {
+    "id": "20264886",
+    "date": "2026-01-30",
+    "title": "Google Presentations Abused for Phishing, (Fri, Jan 30th)",
+    "summary": "Charlie, one of our readers, has forwarded an interesting phishing email. The email was sent to users of the Vivladi Webmail service. While not overly convincing, the email is likely sufficient to trick a non-empty group of users: The e-mail gets more interesting as the user clicks on the link. T...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32668",
+    "tags": [
+      "phishing",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264887",
+    "date": "2026-01-30",
+    "title": "In Other News: Paid for Being Jailed, Google’s $68M Settlement, CISA Chief’s ChatGPT Leak",
+    "summary": "Other noteworthy stories that might have slipped under the radar: Apple updates platform security guide, LastPass detects new phishing wave, CISA withdraws from RSA Conference. The post In Other News: Paid for Being Jailed, Google’s $68M Settlement, CISA Chief’s ChatGPT Leak appeared first on Sec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-paid-for-being-jailed-googles-68m-settlement-cisa-chiefs-chatgpt-leak/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "google",
+      "aws",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264888",
+    "date": "2026-01-30",
+    "title": "Coupang CEO questioned by police investigating obstruction of probe into data breach",
+    "summary": "Seoul Metropolitan Police, as part of their investigation into the data breach at online retail giant Coupang, brought in acting CEO Harold Rogers.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/coupang-acting-CEO-questioned-police-investigating-data-breach",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264889",
+    "date": "2026-01-30",
+    "title": "Google’s disruption rips millions out of devices out of malicious network",
+    "summary": "Millions of devices used as proxies by cybercriminals, espionage groups and data thieves have been removed from circulation following Google’s disruption of IPIDEA, a China-based residential proxy network. The reduction in available proxy devices came after Google’s Threat Intelligence Group used...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ipidea-proxy-network-disrupted-google-lumen/",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264890",
+    "date": "2026-01-30",
+    "title": "[Ekstra] Ekspert ut mot Datatilsynet: – Det blir for dumt",
+    "summary": "Datatilsynet brukte utdatert kryptering og manglet lovpålagte sikkerhetsstandarder, ifølge en kartlegging utført av Per Thorsheim.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ekspert-ut-mot-datatilsynet-det-blir-for-dumt/567649",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264891",
+    "date": "2026-01-30",
+    "title": "Aisy Launches Out of Stealth to Transform Vulnerability Management",
+    "summary": "Aisy has emerged from stealth mode with $2.3 million in seed funding for its AI-assisted platform. The post Aisy Launches Out of Stealth to Transform Vulnerability Management appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/aisy-launches-out-of-stealth-to-transform-vulnerability-management/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264892",
+    "date": "2026-01-30",
+    "title": "175,000 Exposed Ollama Hosts Could Enable LLM Abuse",
+    "summary": "Among them, 23,000 hosts were persistently responsible for the majority of activity observed over 293 days of scanning. The post 175,000 Exposed Ollama Hosts Could Enable LLM Abuse appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/175000-exposed-ollama-hosts-could-enable-llm-abuse/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264893",
+    "date": "2026-01-30",
+    "title": "Researchers Uncover Chrome Extensions Abusing Affiliate Links and Stealing ChatGPT Access",
+    "summary": "Cybersecurity researchers have discovered malicious Google Chrome extensions that come with capabilities to hijack affiliate links, steal data, and collect OpenAI ChatGPT authentication tokens. One of the extensions in question is Amazon Ads Blocker (ID: pnpchphmplpdimbllknjoiopmfphellj), which c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html",
+    "tags": [
+      "google",
+      "amazon",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264894",
+    "date": "2026-01-30",
+    "title": "Dating-app giants investigate incidents after cybercriminals claim to steal data",
+    "summary": "Bumble and Match said they each recently responded to network intrusions. The group ShinyHunters claimed to have stolen data from both.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/bumble-match-dating-apps-data-breaches",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264895",
+    "date": "2026-01-30",
+    "title": "[Ekstra] Ny laserteknologi på vei til Grønland – har én svakhet",
+    "summary": "– Blir som en fiberkabel til verdensrommet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/jammingsikker-kommunikasjon-pa-vei-til-gronland/567586",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264896",
+    "date": "2026-01-30",
+    "title": "China-Linked UAT-8099 Targets IIS Servers in Asia with BadIIS SEO Malware",
+    "summary": "Cybersecurity researchers have discovered a new campaign attributed to a China-linked threat actor known as UAT-8099 that took place between late 2025 and early 2026. The activity, discovered by Cisco Talos, has targeted vulnerable Internet Information Services (IIS) servers located across Asia, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/china-linked-uat-8099-targets-iis.html",
+    "tags": [
+      "malware",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264897",
+    "date": "2026-01-30",
+    "title": "White House Scraps ‘Burdensome’ Software Security Rules ",
+    "summary": "Two Biden-era memorandums have been revoked, but some of the resources they provide can still be used by government organizations. The post White House Scraps ‘Burdensome’ Software Security Rules appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/white-house-scraps-burdensome-software-security-rules/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264898",
+    "date": "2026-01-30",
+    "title": "Cyble Research Discovers ShadowHS, an In-Memory Linux Framework for Long-Term Access",
+    "summary": "Cyble Research & Intelligence Labs (CRIL) has uncovered a post-exploitation Linux framework called ShadowHS, designed for stealthy, in-memory operations. Unlike traditional malware, ShadowHS leverages a fileless architecture and a weaponized version of hackshell, enabling attackers to maintain lo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/shadowhs-fileless-linux-exploitation-framework/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264899",
+    "date": "2026-01-30",
+    "title": "Understanding the Russian Cyber Threat to the 2026 Winter Olympics - Unit 42",
+    "summary": "While past sanctions reflected regulatory enforcement, measures imposed since 2023 sit within a broader political and security context. Russia's ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://unit42.paloaltonetworks.com/russian-cyberthreat-2026-winter-olympics/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264900",
+    "date": "2026-01-30",
+    "title": "New Partner Revenue Measurement gives visibility into AWS service consumption",
+    "summary": "Today, AWS announces the launch of Partner Revenue Measurement, a new capability that gives AWS Partners visibility into how their solutions impact AWS service consumption across partner-managed and customer-managed accounts. Partner Revenue Measurement allows Partners to better understand their ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264901",
+    "date": "2026-01-30",
+    "title": "Over 3.28 Million Fortinet Devices Exposed Online With Risky Web Properties - Cyber Press",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-24858 to its Known Exploited Vulnerabilities catalog on January 27, 2026, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/over-3-28-million-fortinet-devices-exposed/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264902",
+    "date": "2026-01-30",
+    "title": "Orca Security Co-Founder & CEO Gil Geron: Cloud Security Pioneer - Cybercrime Magazine",
+    "summary": "Cybersecurity unicorn Orca is more than an innovator and a thought leader in the cloud security space—they're creators of it. Their founders ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/orca-security-co-founder-ceo-gil-geron-cloud-security-pioneer/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264903",
+    "date": "2026-01-30",
+    "title": "Healthcare breaches reach new cost highs as adversaries exploit expanding clinical attack ...",
+    "summary": "In its 2025 Healthcare Cybersecurity Threat Intelligence Report, Trellix warns that cloud adoption, remote access, and AI-driven workflows have ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/medical/healthcare-breaches-reach-new-cost-highs-as-adversaries-exploit-expanding-clinical-attack-surfaces-trellix-reports/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264904",
+    "date": "2026-01-30",
+    "title": "New Britain officials to provide update following suspected cyber attack - WFSB",
+    "summary": "... cyber attack on City Hall. A news conference was scheduled for Friday ... The City takes the security of its systems and the protection of information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wfsb.com/2026/01/29/new-britain-dealing-with-suspected-cyber-attack-city-systems/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264905",
+    "date": "2026-01-30",
+    "title": "US CISA Deputy Director uploads sensitive office files to Microsoft owned ChatGPT",
+    "summary": "A recent example highlighting these concerns involves the US Cybersecurity and Infrastructure Security Agency (CISA). According to a media report ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/us-cisa-deputy-director-uploads-sensitive-office-files-to-microsoft-owned-chatgpt/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264906",
+    "date": "2026-01-30",
+    "title": "Standardizing the BAS/CS of Critical Infrastructure Cybersecurity Alerts",
+    "summary": "Researchers push for widespread adoption of new standardized cybersecurity capabilities that could help secure industrial control systems ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.afcea.org/signal-media/cyber-edge/standardizing-bas/cs-critical-infrastructure-cybersecurity-alerts",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264907",
+    "date": "2026-01-30",
+    "title": "King Secures Agreement from National Security Advisor Nominee on Cybersecurity Posture",
+    "summary": "Deterrence policies are those where foes are aware that a serious response is likely if they decide to launch a cyberstrike on American interests, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.king.senate.gov/newsroom/press-releases/king-secures-agreement-from-national-security-advisor-nominee-on-cybersecurity-posture",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264908",
+    "date": "2026-01-30",
+    "title": "Security testers settle lawsuit years after Dallas County courthouse arrest - KCCI",
+    "summary": "According to court documents, the Iowa Judicial Branch signed agreements with cybersecurity firm Coalfire in 2019. Wynn and DeMercurio would evaluate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kcci.com/article/coalfire-contractors-settle-dallas-county-lawsuit/70179636",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264909",
+    "date": "2026-01-30",
+    "title": "Phoenix-area cybersecurity expert provides tips to protect yourself from data breaches",
+    "summary": "Our world is more interconnected than ever and experts say it puts businesses and governments more at risk of a cyber attack or data breach.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=2EU_WjupofI",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264910",
+    "date": "2026-01-30",
+    "title": "The role of AI in cybersecurity - Computer Weekly",
+    "summary": "Now we've all heard stories of how hackers are using these advances in AI to deliver highly targeted cyber attacks, which probably means IT security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/The-role-of-AI-in-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264911",
+    "date": "2026-01-30",
+    "title": "Whole-of-state cybersecurity: Protecting the public information ecosystem - Deloitte",
+    "summary": "The Cybersecurity and Infrastructure Security Agency has identified 16 critical infrastructure sectors, ranging from nuclear energy and health care to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/whole-of-state-cybersecurity.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264912",
+    "date": "2026-01-30",
+    "title": "How to Become a Cybersecurity Analyst in 2026: The Ultimate Career Guide - EC-Council",
+    "summary": "Overall, they are the key to a secure and dependable cybersecurity strategy. ... Cyber Security Analyst Salary in the United States. https://www.salary ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/cybersecurity-analyst-career-guide/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264913",
+    "date": "2026-01-30",
+    "title": "DOE's Liberty Eclipse simulates ransomware and stealth attacks to prepare utilities for real ...",
+    "summary": "The Department of Energy's Office of Cybersecurity, Energy Security, and Emergency Response brought utilities, industry experts, and government ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/utilities-energy-power-water-waste/does-liberty-eclipse-simulates-ransomware-and-stealth-attacks-to-prepare-utilities-for-real-world-grid-cyber-threats/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264914",
+    "date": "2026-01-30",
+    "title": "Federal Security Certification Training - Arlington, VA - CISA",
+    "summary": "Register for the ISC FSCT on April 2! This in-Person training is a half-day, instructor-led course covering the ISC, ISC Risk Management Process ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/events/federal-security-certification-training-arlington-va-0",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264858",
     "date": "2026-01-30",
     "title": "AIs Are Getting Better at Finding and Exploiting Security Vulnerabilities",
