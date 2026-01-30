@@ -1,5 +1,486 @@
 [
   {
+    "id": "20264761",
+    "date": "2026-01-30",
+    "title": "Microsoft links Windows 11 boot failures to failed December 2025 update",
+    "summary": "Microsoft has linked recent reports of Windows 11 boot failures after installing the January 2026 updates to previously failed attempts to install the December 2025 security update, which left systems in an \"improper state.\" [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264762",
+    "date": "2026-01-29",
+    "title": "The ‘staggering’ cybersecurity weakness that isn’t getting enough focus, according to a top Secret Service official",
+    "summary": "The internet domain registration system is a major weakness that malicious hackers can exploit, but is often being overlooked, a senior Secret Service official said Thursday. “It is staggering to me that we live in a world where domain registrars and registrars will do bulk registration of variou...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/secret-service-iana-domain-security-weakness/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264763",
+    "date": "2026-01-29",
+    "title": "New Apple feature will block cell networks from capturing precise location data",
+    "summary": "The new feature will not prevent location sharing with emergency responders and does not limit the location data users choose to share with apps, the company said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/new-apple-feature-block-location-data-cell-networks",
+    "tags": [
+      "apt",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264764",
+    "date": "2026-01-29",
+    "title": "US wants to push its view of AI cybersecurity standards to the rest of the world",
+    "summary": "The U.S. government wants the rest of the world to adopt its artificial intelligence cybersecurity standards, a top official with the Office of the National Cyber Director said Thursday. As part of an effort to advance American AI, the administration will be “undertaking diplomacy efforts to prom...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/us-global-ai-cybersecurity-standards-push-national-cyber-director/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264765",
+    "date": "2026-01-29",
+    "title": "Lawmakers, election officials blast Trump administration after Fulton County raid ",
+    "summary": "Following a federal raid on Fulton County, Georgia’s Elections Office, lawmakers and state election officials sharply criticized the Trump administration, accusing the White House of chasing baseless internet conspiracy theories about fraud in the 2020 election. Officials also warned the raid cou...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/fulton-county-election-raid-trump-administration-backlash/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264766",
+    "date": "2026-01-29",
+    "title": "Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries",
+    "summary": "A new joint investigation by SentinelOne SentinelLABS, and Censys has revealed that the open-source artificial intelligence (AI) deployment has created a vast \"unmanaged, publicly accessible layer of AI compute infrastructure\" that spans 175,000 unique Ollama hosts across 130 countries. These sys...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/researchers-find-175000-publicly.html",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264767",
+    "date": "2026-01-29",
+    "title": "NIST releases a new draft cybersecurity framework for systems that never stop moving",
+    "summary": "Critical infrastructure has been further defined by the Cybersecurity and Infrastructure Security Agency (CISA) as centering on chemical manufacturing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nextgov.com/cybersecurity/2026/01/nist-releases-new-draft-cybersecurity-framework-systems-never-stop-moving/411074/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264768",
+    "date": "2026-01-29",
+    "title": "CISA Issues New Guidance to Address Insider Threats - ExecutiveGov",
+    "summary": "Cybersecurity and Infrastructure Security Agency logo. CISA issued new guidance to counter insider threats.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/cisa-infographic-insider-threat-management-team",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264769",
+    "date": "2026-01-29",
+    "title": "Starting the Year with Cyber Intention: Human-Centric Insights from the Global Cybersecurity ...",
+    "summary": "This reinforces the importance of security awareness, behavioral resilience, and empowering individuals to recognize and resist manipulation. AI- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blog.knowbe4.com/starting-the-year-with-cyber-intention-human-centric-insights-from-the-global-cybersecurity-outlook-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264770",
+    "date": "2026-01-29",
+    "title": "CISA introduces POEM framework to strengthen insider threat mitigation across critical infrastructure",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a comprehensive document that calls upon critical infrastructure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/cisa-introduces-poem-framework-to-strengthen-insider-threat-mitigation-across-critical-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264771",
+    "date": "2026-01-29",
+    "title": "The US needs a cybersecurity roadmap - Atlantic Council",
+    "summary": "If the United States wishes to compete in cyberspace, it must compete against China to secure its offensive cyber supply chain. China ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.atlanticcouncil.org/in-depth-research-reports/report/the-us-needs-a-cybersecurity-roadmap/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264772",
+    "date": "2026-01-29",
+    "title": "Legislative Trends Shaping Cybersecurity for State Governments | StateTech Magazine",
+    "summary": "Today, we are similarly urging policymakers to look ahead: toward thoughtful application of cloud security, next-generation security information and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statetechmagazine.com/article/2026/01/legislative-trends-shaping-cybersecurity-state-governments",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264773",
+    "date": "2026-01-29",
+    "title": "Nevada Looks to Hire a Chief Information Security Officer - GovTech",
+    "summary": "Following a turbulent year in cybersecurity, the state Governor's Technology Office is seeking to hire a new cybersecurity lead to manage risk and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/workforce/nevada-looks-to-hire-a-chief-information-security-officer",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264774",
+    "date": "2026-01-29",
+    "title": "Head of United States Cyber Defence Uploaded Sensitive Documents To ChatGPT",
+    "summary": "The acting director of the U.S. Cybersecurity and Infrastructure Security Agency (CISA), Madhu Gottumukkala, has sparked a high-stakes internal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/united-states-cyber-defence-chief-uploaded-sensitive-sq2re",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264775",
+    "date": "2026-01-29",
+    "title": "The Future of Critical Infrastructure: Strategies for IT/OT Security, Workforce Readiness, and Trust",
+    "summary": "Webinar · Assessing the cybersecurity risk challenges with the convergence of OT and IT · Emerging goals and policies around OT and IT convergence ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/cme-event/federal-insights/the-future-of-critical-infrastructure-strategies-for-it-ot-security-workforce-readiness-and-trust/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264776",
+    "date": "2026-01-29",
+    "title": "Legislative Trends Shaping Cybersecurity for State Governments | StateTech Magazine",
+    "summary": "Cyber security lock in space. Legislative Trends Shaping Cybersecurity for State Governments. CrowdStrike delivers a 2026 policy outlook in which ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statetechmagazine.com/article/2026/01/legislative-trends-shaping-cybersecurity-state-governments?amp",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264777",
+    "date": "2026-01-29",
+    "title": "Cybersecurity, physical security and energy needs will join extreme weather to shape 2026 ...",
+    "summary": "Cybersecurity, physical security and energy needs will join extreme weather to shape 2026 facility resilience plans. Facilities managers will need to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.facilitiesdive.com/news/cybersecurity-physical-security-and-energy-needs-will-join-extreme-weather/810848/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264778",
+    "date": "2026-01-29",
+    "title": "Amazon Bedrock now supports server-side custom tools using the Responses API",
+    "summary": "Amazon Bedrock now supports server-side tools in the Responses API using OpenAI API-compatible service endpoints. Bedrock already supports client-side tool use with the Converse, Chat Completions, and Responses APIs. Now, with the launch of server-side tool use for Responses API, Amazon Bedrock c...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264779",
+    "date": "2026-01-29",
+    "title": "Amazon GameLift Servers now supports automatic scaling to and from zero instances",
+    "summary": "Amazon GameLift Servers now enables automatic scaling to and from zero instances, addressing a critical cost optimization challenge for game developers. Previously, developers had to maintain running instances even during periods of low or no activity in order for Fleet autoscaling to remain acti...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264780",
+    "date": "2026-01-29",
+    "title": "Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model",
+    "summary": "Today marks another milestone in Cisco's commitment to advancing AI-native cybersecurity. Following the success of Foundation-sec-8B and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.cisco.com/security/foundation-sec-8b-reasoning-first-open-weight-security-reasoning-model",
+    "tags": [
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264781",
+    "date": "2026-01-29",
+    "title": "Brazil and the European Union Reach Agreement to Recognize Mutual Adequacy in ...",
+    "summary": "Privacy & Information Security Law Blog ... On January 26, 2026, the Brazilian data protection authority (“ANPD”) announced that Brazil and the European ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/brazil-and-the-eu-reach-agreement-to-recognize-mutual-adequacy-in-personal-data-protection",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264782",
+    "date": "2026-01-29",
+    "title": "Trump's Indian-Origin Cybersecurity Chief Uploaded SENSITIVE Docs To ChatGPT",
+    "summary": "... IT veteran, PhD Info Systems, degrees US/India. #trump # ... Ed Weir, PhD, Former Social Security Manager · SURPRISE: Fed. Gov. PASSED ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=VcdG1_cPlPM",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264783",
+    "date": "2026-01-29",
+    "title": "Amazon Keyspaces (for Apache Cassandra) introduces pre-warming with WarmThroughput for your tables",
+    "summary": "Amazon Keyspaces (for Apache Cassandra) now supports table pre-warming, allowing you to proactively prepare both new and existing tables to meet future traffic demands. This capability is available for tables in both provisioned and on-demand capacity modes, including multi-Region replicated tabl...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264784",
+    "date": "2026-01-29",
+    "title": "Identifying and Addressing Cybersecurity Challenges to Protect America's Water Infrastructure",
+    "summary": "... cybersecurity. Archived Webcast. Panel 1. D. Scott Simonton, PE, PhD. Fellow. Marshall University Institute for Cyber Security. Matt Odermann.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.epw.senate.gov/public/index.cfm/hearings?ID=A196FB05-2749-40B1-98EA-F6DF28A3E59C",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264785",
+    "date": "2026-01-29",
+    "title": "Preparing for looming national cyber security threats in 2026 and beyond",
+    "summary": "Cyber attacks are becoming focused on targets tied to national security and economic stability.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/commentary/2026/01/preparing-for-looming-national-cyber-security-threats-in-2026-and-beyond/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264786",
+    "date": "2026-01-29",
+    "title": "Rockwell Automation ArmorStart LT - CISA",
+    "summary": "CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://us-cert.cisa.gov/news-events/ics-advisories/icsa-26-029-02",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264787",
+    "date": "2026-01-29",
+    "title": "Unveiling the socio-economic toll of cybercrime: evidence from South Korea - Nature",
+    "summary": "... cybersecurity legislation and more ... Woods DW, Simpson AC (2018) Cyber-Warranties as a Quality Signal for Information Security Products.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41599-026-06521-8",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264788",
+    "date": "2026-01-29",
+    "title": "#WorkinginCSA: Building Secure Cloud Adoption | Cyber Security Agency of Singapore",
+    "summary": "Jun Hong Tan is a Cybersecurity Consultant in CSA, and he is part of the Cloud Cybersecurity Programme Office. He specialises in architecture, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csa.gov.sg/about-csa/careers/working-in-csa/-workingincsa--building-secure-cloud-adoption/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264789",
+    "date": "2026-01-29",
+    "title": "Announcing increased 1 MB payload size support in Amazon EventBridge",
+    "summary": "Amazon EventBridge increases event payload size from 256 KB to 1 MB, enabling developers to ingest richer, complex payloads for their event-driven workloads without the need to split, compress, or externalize data. Amazon EventBridge is a serverless event router that enables you to create scalabl...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264790",
+    "date": "2026-01-29",
+    "title": "Amazon Cognito introduces inbound federation Lambda triggers",
+    "summary": "Amazon Cognito introduces inbound federation Lambda triggers that enable you to transform and customize federated user attributes during the authentication process. You can now modify responses from external SAML and OIDC providers before they are stored in your user pool, providing complete prog...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264791",
+    "date": "2026-01-29",
+    "title": "Pentagon leaders expect Cybercom 2.0 to help thwart Chinese actors 'living off the land'",
+    "summary": "A sign for the National Security Agency (NSA), US Cyber Command and Central Security Service, is seen near the visitor's entrance to the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://defensescoop.com/2026/01/28/cybercom-2-0-cyber-force-generation-china-living-off-the-land/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264792",
+    "date": "2026-01-29",
+    "title": "A quantum of context: Cybersecurity law after Q-Day - IAPP",
+    "summary": "This is critical to understanding the security threats presented by quantum computing. Sensitive information currently classified as low risk because ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://iapp.org/news/a/a-quantum-of-context-cybersecurity-law-after-q-day",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264793",
+    "date": "2026-01-29",
+    "title": "Turning threat reports into detection insights with AI",
+    "summary": "Security teams routinely need to transform unstructured threat knowledge, such as incident narratives, red team breach-path writeups, threat actor profiles, and public reports into concrete defensive action. The early stages of that work are often the slowest. These include extracting tactics, te...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264745",
     "date": "2026-01-29",
     "title": "Hacking attack leaves Russian car owners locked out of their vehicles",
