@@ -1,5 +1,290 @@
 [
   {
+    "id": "20264915",
+    "date": "2026-01-30",
+    "title": "Informant told FBI that Jeffrey Epstein had a ‘personal hacker’",
+    "summary": "The hacker allegedly developed zero-day exploits and offensive cyber tools and sold them to several countries, including an unnamed central African government, the U.K., and the United States.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/01/30/informant-told-fbi-that-jeffrey-epstein-had-a-personal-hacker/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264916",
+    "date": "2026-01-30",
+    "title": "Une interdiction ou régulation des VPN en France ? Une idée \"hyper dangereuse\", pour Clément Domingo",
+    "summary": "Le VPN, outil de protection numérique dont l'usage peut être détourné, est officiellement dans le viseur du gouvernement, qui pourrait se diriger vers une régulation, voire une interdiction. Pour le hacker éthique Clément Domingo, aka SaxX, l'idée est « hyper dangereuse ».",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598300-une-interdiction-ou-regulation-des-vpn-en-france-une-idee-hyper-dangereuse-et-stupide-pour-clement-domingo.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264917",
+    "date": "2026-01-30",
+    "title": "Default Credentials, Vulnerable Devices Exploited in Polish Energy Grid Attack",
+    "summary": "A cyberattack by Russian state-sponsored threat actors that targeted at least 30 wind and solar farms in Poland relied on default credentials, lack of multi-factor authentication (MFA) and outdated and misconfigured devices, according to a new report on the December 2025 incident by CERT Polska, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/default-credentials-polish-energy-grid-attack/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "state-sponsored",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264918",
+    "date": "2026-01-30",
+    "title": "Cybersecurity 2026: AI, CISA, manufacturing sector all in the hot seat",
+    "summary": "A look at the most important trends and issues in cyber this year.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cyber-trends-outlook-2026/810708/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264919",
+    "date": "2026-01-30",
+    "title": "Why Container Security Remains a Challenge for Developers",
+    "summary": "Container security incidents are an increasingly common rather than rare exception for development teams. A new BellSoft survey found that nearly one in four developers has experienced a container-related security incident, highlighting a growing gap between security objectives and the tools and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/why-container-security-remains-a-challenge-for-developers/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264920",
+    "date": "2026-01-30",
+    "title": "Securing AI Data Growth with Scalable Object Storage",
+    "summary": "In this post, I will talk about securing AI data growth with scalable object storage. Data volume continues to grow at warp speed and with it the pressure to securely store vast numbers of large data sets. An estimated 200 zettabytes of data storage exist now and arguably a majority of that data ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/securing-ai-data-growth-with-scalable-object-storage/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264921",
+    "date": "2026-01-30",
+    "title": "Ben Bankas Hate Speech and Incitement Roadshow: Comedian Celebrates Execution of Renee Good",
+    "summary": "He celebrated Renee Good’s killing in Poughkeepsie. Now he’s calling himself the victim for trying to bring his hate speech to her city. Three weeks ago, ICE agent Jonathan Ross shot Renee Good in the face, as she tried to drive away from him to avoid his escalating confrontation. She was unarmed...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76774",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264922",
+    "date": "2026-01-30",
+    "title": "The Atlantic Hires Epstein Files Guy David Brooks to Punch Down",
+    "summary": "RIP The Atlantic. They just hired an Epstein Files guy, which tells you The Atlantic isn’t in the journalism business anymore. It’s in the billionaire reassurance business. Apparently they pulled David Brooks in as the best in the industry at telling intellectual elites that mounting catastrophes...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76761",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264923",
+    "date": "2026-01-30",
+    "title": "Epstein Files: Bill Gates Got STD From Russians and Wanted to Hide It By Drugging Wife",
+    "summary": "The news about Bill Gates gets weirder by the day. He cheated on his wife through Epstein, caught a disease and then tried to cover it up with secret antibiotics? Microsoft founder asked for antibiotics to ‘surreptitiously give to Melinda’, according to newly released email To be fair, the convic...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76759",
+    "tags": [
+      "iot",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264924",
+    "date": "2026-01-30",
+    "title": "Trump Concentration Camp Plans Disclosed, as Journalists Arrested",
+    "summary": "Hundreds of millions of taxpayer dollars are being poured into hiring stormtroopers who report only to Trump, so they can fill concentration camps with people arrested without due process. The cost for acquiring two warehouses alone was $172 million. A third in El Paso, Texas, could be among the ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76752",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264925",
+    "date": "2026-01-30",
+    "title": "Is Your Healthcare Organization Making These 7 Dangerous Cybersecurity Mistakes?",
+    "summary": "It's no secret that the healthcare industry is ground zero for cyberattacks. And at ground zero, we won’t always find highly sophisticated hackers or innovative techniques. You’ll find something as simple, but destructive, as poor cyber hygiene.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/email-security/7-cyber-hygiene-mistakes",
+    "tags": [
+      "malware",
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264926",
+    "date": "2026-01-30",
+    "title": "Ivanti patches two actively exploited critical vulnerabilities in EPMM",
+    "summary": "IT software company Ivanti released patches for its Endpoint Manager Mobile (EPMM) product to fix two new remote code execution vulnerabilities already under attack in the wild. “We are aware of a very limited number of customers whose solution has been exploited at the time of disclosure,” the c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125196/ivanti-patches-two-actively-exploited-critical-vulnerabilities-in-epmm.html",
+    "tags": [
+      "vulnerability",
+      "mobile"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264927",
+    "date": "2026-01-30",
+    "title": "Startup Amutable plotting Linux security overhaul to counter hacking threats",
+    "summary": "If there’s one thing guaranteed to grab attention in the computer security world, it’s announcing yourself without fully explaining what it is you plan to do. This week, the Linux world got a taste of this enigmatic marketing ploy with the launch out of stealth of Berlin-based Linux security outf...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125145/startup-amutable-plotting-linux-security-overhaul-to-counter-hacking-threats.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264928",
+    "date": "2026-01-30",
+    "title": "2026: The Year Agentic AI Becomes the Attack-Surface Poster Child",
+    "summary": "Dark Reading asked readers whether agentic AI attacks, advanced deepfake threats, board recognition of cyber as a top priority, or password-less technology adoption would be most likely to become a trending reality for 2026.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/2026-agentic-ai-attack-surface-poster-child",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264929",
+    "date": "2026-01-30",
+    "title": "Out-of-the-Box Expectations for 2026 Reveal a Grab-Bag of Risk",
+    "summary": "Security teams need to be thinking about this list of emerging cybersecurity realities, to avoid rolling the dice on enterprise security risks (and opportunities).",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/cyber-expectations-2026-grab-bag-risk",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264930",
+    "date": "2026-01-30",
+    "title": "Tenable Tackles AI Governance, Shadow AI Risks, Data Exposure",
+    "summary": "The Tenable One AI Exposure add-on discovers unsanctioned AI use in the organization and enforces policy compliance with approved tools.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/tenable-tackles-ai-governance-shadow-ai-risks-data-exposure",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264931",
+    "date": "2026-01-30",
+    "title": "OpenClaw AI Runs Wild in Business Environments",
+    "summary": "The popular open source AI assistant (aka ClawdBot, MoltBot) has taken off, raising security concerns over its privileged, autonomous control within users' computers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/openclaw-ai-runs-wild-business-environments",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264932",
+    "date": "2026-01-30",
+    "title": "Good Vibes and Security Insight",
+    "summary": "Remember to subscribe (for free) on substack for more content!Continue reading on Medium »",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "2nd Sight Lab",
+    "sourceUrl": "https://2ndsightlab.medium.com/good-vibes-and-security-insight-b6e8276d07d4?source=rss-863161906cc5------2",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264933",
+    "date": "2026-01-30",
+    "title": "Crypto wallets received a record $158 billion in illicit funds last year",
+    "summary": "Illegal cryptocurrency flows hit a record $158 billion in 2025, reversing a three-year trend of declining amounts from $86B in 2021 to $64B in 2024. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/crypto-wallets-received-a-record-158-billion-in-illicit-funds-last-year/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264934",
+    "date": "2026-01-30",
+    "title": "Leaky chats collide with shifting security standards.",
+    "summary": "A popular chatbot exposes millions of private user messages. The White House rescinds Biden-era federal software security guidance. A senior Secret Service official urges more scrutiny of domain registration. The President’s NSA pick champions section 702. France looks to reduce reliance on U.S. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2479/notes",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264886",
     "date": "2026-01-30",
     "title": "Google Presentations Abused for Phishing, (Fri, Jan 30th)",
