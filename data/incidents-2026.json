@@ -1,5 +1,125 @@
 [
   {
+    "id": "20264972",
+    "date": "2026-01-31",
+    "title": "FBI takes notorious RAMP ransomware forum offline",
+    "summary": "The FBI has seized control of RAMP, a notorious cybercrime online forum that bragged to be the only place that allowed ransomware, and boasted over 14,000 active users. Now some of those users' details are likely to be in the hands of the police... Read more in my article on the Bitdefender blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-takes-notorious-ramp-ransomware-forum-offline",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264973",
+    "date": "2026-01-31",
+    "title": "\"MDR, aucune démocratie n'oserait\" : Xavier Niel ironise sur la sortie du gouvernement contre les VPN",
+    "summary": "Xavier Niel a réagi de manière très ironique à la déclaration de la ministre Anne Le Hénanff, qui a fait du VPN le prochain sujet de sa liste, avec une possible régulation. Ce qui fait bondir le fondateur de l'opérateur Free.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598330-mdr-aucune-democratie-n-oserait-xavier-niel-ironise-sur-la-sortie-du-gouvernement-contre-les-vpn.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264974",
+    "date": "2026-01-31",
+    "title": "VPN et serveurs virtuels, détail technique ou paramètre à surveiller ?",
+    "summary": "Quand vous vous connectez à un emplacement VPN, vous vous attendez à ce que le serveur s’y trouve, point. Sauf qu’entre la localisation affichée et la localisation réelle de l’infrastructure, il peut y avoir un décalage.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598237-vpn-et-serveurs-virtuels-detail-technique-ou-parametre-a-surveiller.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264975",
+    "date": "2026-01-31",
+    "title": "Vie privée en ligne : pourquoi de plus en plus d’utilisateurs tombent accro à ce VPN ?",
+    "summary": "Entre réseaux Wi-Fi partagés et navigation quotidienne, la protection de la vie privée en ligne est devenue une préoccupation concrète. L’offre actuelle sur Proton VPN, proposée à 2,99 € par mois pendant deux ans, permet d’envisager plus simplement l’usage d’un VPN sur la durée, pour renforcer sa...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598225-vie-privee-en-ligne-pourquoi-de-plus-en-plus-d-utilisateurs-tombent-accro-a-ce-vpn.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264976",
+    "date": "2026-01-31",
+    "title": "Stellantis sued over Chrysler data breach claimed by Everest ransomware",
+    "summary": "A new federal class action lawsuit filed in Michigan accuses automaker FCA US LLC, doing business as Stellantis North America, of failing to safeguard customer data, resulting in a December 2025 breach that exposed sensitive personal information belonging to tens of thousands of Chrysler and Jeep...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/stellantis-sued-over-chrysler-data-breach-claimed-by-everest-ransomware/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264977",
+    "date": "2026-01-31",
+    "title": "Former Google engineer convicted for leaking AI tech secrets to China",
+    "summary": "A former Google software engineer has been convicted by a US federal jury for stealing confidential AI trade secrets to benefit Chinese state-linked tech ventures. Linwei Ding, also known as Leon Ding, 38, was found guilty on January 29, 2026, of seven counts of economic espionage and seven count...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/former-google-engineer-convicted-for-leaking-ai-tech-secrets-to-china/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264978",
+    "date": "2026-01-31",
+    "title": "Panera Bread data breach exposed personal info of 5.1 million customers",
+    "summary": "In January 2026, Panera Bread suffered a data breach that exposed 14 million customer records, including the unique email addresses of 5.1 million accounts. After the bakery-café chain refused to comply with an extortion demand, the threat group known as ShinyHunters published the stolen data on ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/panera-bread-data-breach-exposed-personal-info-of-5-1-million-customers/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264979",
+    "date": "2026-01-31",
+    "title": "Why Hardware Security is the Backbone of Industrial Automation",
+    "summary": "In this post, I will show you why hardware security is the backbone of industrial automation. For decades, the conversation surrounding cybersecurity has focused heavily on software: firewalls, encryption protocols, and anti-virus suites. In the corporate IT world, this makes sense. However, as t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/why-hardware-security-is-the-backbone-of-industrial-automation/",
+    "tags": [
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264967",
     "date": "2026-01-31",
     "title": "[Ekstra] IT-gigant frigjør programvare fra Microsoft: – Etterspurt i alle sektorer",
@@ -100,6 +220,47 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264980",
+    "date": "2026-01-30",
+    "title": "CMMC Enclave Strategy vs Full Environment Compliance",
+    "summary": "With any security framework, be it ISO 27001, FedRAMP, or CMMC, the goal is not to secure “your business.” It’s to secure sensitive and controlled information that your business handles. This is a fundamentally important way of looking at your security. Why does this matter? It’s all about border...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Ignyte Assurance Platform Blog",
+    "sourceUrl": "https://www.ignyteplatform.com/blog/cmmc/enclave-strategy-full-environment/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264981",
+    "date": "2026-01-30",
+    "title": "This month in security with Tony Anscombe – January 2026 edition",
+    "summary": "The trends that emerged in January offer useful clues about the risks and priorities that security teams are likely to contend with throughout the year",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-january-2026-edition/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20264982",
+    "date": "2026-01-30",
+    "title": "DynoWiper update: Technical analysis and attribution",
+    "summary": "ESET researchers present technical details on a recent data destruction incident affecting a company in Poland’s energy sector",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/eset-research/dynowiper-update-technical-analysis-attribution/",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
     ],
     "impact": 3
   },
