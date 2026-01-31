@@ -1,5 +1,227 @@
 [
   {
+    "id": "20264983",
+    "date": "2026-01-31",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c68901d58e6cd3b • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/aisuru-botnet-sets-new-record-with-314-tbps-ddos-attack/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264984",
+    "date": "2026-01-31",
+    "title": "[Ekstra] Redd for KI?: En gruppe KI-veteraner skal sette mennesket i sentrum",
+    "summary": "«Humans&» mener vi må tenke nytt når det gjelder KI.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/redd-for-ki-na-vil-en-gruppe-ki-veteraner-sette-mennesket-i-sentrum/567462",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264985",
+    "date": "2026-01-31",
+    "title": "Mandiant Finds ShinyHunters-Style Vishing Attacks Stealing MFA to Breach SaaS Platforms",
+    "summary": "Google-owned Mandiant on Friday said it identified an \"expansion in threat activity\" that uses tradecraft consistent with extortion-themed attacks orchestrated by a financially motivated hacking group known as ShinyHunters. The attacks leverage advanced voice phishing (aka vishing) and bogus cred...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264986",
+    "date": "2026-01-31",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A supply chain attack targeted eScan antivirus software, distributing malware through its update server. The attack involved a malicious file that initiated a multi-stage infection chain. The Webrat malware campaign is actively targeting inexperienced security professionals and students by disgui...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Securelist",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264987",
+    "date": "2026-01-31",
+    "title": "Supply chain attack on eScan antivirus: detecting and remediating malicious updates",
+    "summary": "UPD 30.01.2026: Added technical details about the attack chain and more IoCs. On January 20, a supply chain attack has occurred, with the infected software being the eScan antivirus developed by an Indian company MicroWorld Technologies. The previously unknown malware was distributed through the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securelist.com/escan-supply-chain-attack/118688/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264988",
+    "date": "2026-01-31",
+    "title": "ShinyHunters claims it stole10M records from dating apps",
+    "summary": "ShinyHunters has added a fresh notch to its breach belt, claiming it has pinched more than 10 million records from Match Group, a US firm that owns some of the world's most widely used swipe-based dating platforms. The extort-and-leak crew says the stolen haul includes user data tied to Hinge, Ma...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/01/29/shinyhunters_match_group/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264989",
+    "date": "2026-01-31",
+    "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+    "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, and a large combined heat and power plant (CHP) supplying heat to almost half a million customers i...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264990",
+    "date": "2026-01-31",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "The EmEditor supply chain compromise involved tampering with Windows Installer (MSI) packages to embed malicious scripts. The attackers used look-alike domains and command-and-control (C2) infrastructure to execute their operations. A recent campaign has been identified involving 19 malicious VS ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=ReversingLabs",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264991",
+    "date": "2026-01-31",
+    "title": "Researcher’s Notebook: Inside the EmEditor supply chain compromise | ReversingLabs",
+    "summary": "This report documents technical and infrastructure findings from an investigation into the EmEditor software supply chain compromise in December 2025. Rather than presenting a full end-to-end attack narrative, the analysis highlights adversary tradecraft, installer-level tampering techniques, for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.reversinglabs.com/blog/emeditor-supply-chain-compromise?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264992",
+    "date": "2026-01-31",
+    "title": "LSU signs agreement with ARCYBER in effort to support university research, national security",
+    "summary": "LSU and Army officials celebrate cybersecurity partnership on Jan. 29, 2026. LSU and Army and Cyber Command (ARCYBER) have entered into a formal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://lsureveille.com/274105/uncategorized/lsu-signs-agreement-with-arcyber-in-effort-to-support-university-research-national-security/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264993",
+    "date": "2026-01-31",
+    "title": "Ex-Google engineer convicted of stealing AI secrets - The Register",
+    "summary": "In that role, he had access to information Google deemed confidential. Google employs various physical and network security measures, including ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/30/google_engineer_convicted_ai_secrets_china/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264994",
+    "date": "2026-01-31",
+    "title": "Cybersecurity in 2026: How AI will reshape the Digital Battlefield",
+    "summary": "The result is a cyber environment where speed, scale, and ambiguity favour the attacker, and where traditional security approaches centred on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.orfonline.org/expert-speak/cybersecurity-in-2026-how-ai-will-reshape-the-digital-battlefield",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264995",
+    "date": "2026-01-31",
+    "title": "EY: How Enterprises can Fight Non-Human Identity Risks | Cyber Magazine",
+    "summary": "Richard Watson, Global Cybersecurity Consulting Leader at EY ... From blind spots in visibility to new attack paths for cyber criminals, security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/ey-on-fighting-non-human-identity-risks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264996",
+    "date": "2026-01-31",
+    "title": "There's a high chance your family business clients have faced a cyber-attack, warns Deloitte",
+    "summary": "New report urges advisors to help family enterprises treat cybersecurity as strategic shield for long-term resilience.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.investmentnews.com/practice-management/theres-a-high-chance-your-family-business-clients-have-faced-a-cyber-attack-warns-deloitte/265070",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264997",
+    "date": "2026-01-31",
+    "title": "State CIO Group Seeks Federal Support for AI, Cybersecurity - GovInfoSecurity",
+    "summary": "It also helped some communities to modernize outdated systems. Whitaker said that NASCIO is asking for long-term, secure funding for the program, but ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/state-cio-group-seeks-federal-support-for-ai-cybersecurity-a-30655",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264972",
     "date": "2026-01-31",
     "title": "FBI takes notorious RAMP ransomware forum offline",
