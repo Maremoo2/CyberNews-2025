@@ -1,5 +1,195 @@
 [
   {
+    "id": "20265008",
+    "date": "2026-01-31",
+    "title": "eScan Antivirus Delivers Malware in Supply Chain Attack",
+    "summary": "Hackers compromised a MicroWorld Technologies update server and fed a malicious file to eScan customers. The post eScan Antivirus Delivers Malware in Supply Chain Attack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/escan-antivirus-delivers-malware-in-supply-chain-attack/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265009",
+    "date": "2026-01-31",
+    "title": "Researcher reveals evidence of Instagram private profiles leaking photos",
+    "summary": "A researcher has released detailed evidence showing some Instagram private accounts exposed photo links to unauthenticated visitors. The issue was later fixed, but Meta closed the report as not applicable and did not respond to multiple requests for comment. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/researcher-reveals-evidence-of-instagram-private-profiles-leaking-photos/",
+    "tags": [
+      "data-breach",
+      "meta",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265010",
+    "date": "2026-01-31",
+    "title": "Iran-Linked RedKitten Cyber Campaign Targets Human Rights NGOs and Activists",
+    "summary": "A Farsi-speaking threat actor aligned with Iranian state interests is suspected to be behind a new campaign targeting non-governmental organizations and individuals involved in documenting recent human rights abuses. The activity, observed by HarfangLab in January 2026, has been codenamed RedKitt...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/iran-linked-redkitten-cyber-campaign.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265011",
+    "date": "2026-01-31",
+    "title": "A hybrid XGBoost–SVM ensemble framework for robust cyber-attack detection in the internet ...",
+    "summary": "On the other hand, attackers and intruders aim to impair data integrity and patient safety with the prevalence of sophisticated cyber attacks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-37832-0",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265012",
+    "date": "2026-01-31",
+    "title": "Cyber Programs in Limbo as Senate Struggles to Clear Spending Bill Hurdles",
+    "summary": "Left in limbo by the uncertainty are funding for the Cybersecurity and Infrastructure Security Agency and authorization for a program that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.vitallaw.com/news/cyber-programs-in-limbo-as-senate-struggles-to-clear-spending-bill-hurdles/cspd012173dc1981944a00971c2ff3084845cb",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265013",
+    "date": "2026-01-31",
+    "title": "NHS WannaCry Ransomware Attack - Acronis",
+    "summary": "",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://acronis.com/en-us/blog/posts/nhs-cyber-attack/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265014",
+    "date": "2026-01-31",
+    "title": "UTEP Cybersecurity Clinic Completes First Year of Free Services for Community",
+    "summary": "... cyber resilience throughout the region. Students gain experience in cybersecurity risk assessment, security policy and workflow evaluation, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.utep.edu/newsfeed/2026/January/utep-cybersecurity-clinic-completes-first-year-of-free-services-for-community.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265015",
+    "date": "2026-01-31",
+    "title": "Resilience is essential as demands on government networks multiply",
+    "summary": "... Cybersecurity and Infrastructure Security Agency's 2020 Cost of Cyber Incident Study. ... It makes the network flexible, secure and resilient.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/commentary/2026/01/resilience-is-essential-as-demands-on-government-networks-multiply/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265016",
+    "date": "2026-01-31",
+    "title": "PwC and Google Cloud to Boost AI Security in the Cloud | MSSP Alert",
+    "summary": "“This collaboration reflects where the market is going,” said Hank Thomas, co-founder and CEO of cybersecurity venture capital firm Strategic Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msspalert.com/news/pwc-and-google-cloud-to-boost-ai-security-in-the-cloud",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265017",
+    "date": "2026-01-31",
+    "title": "NSA Publishes Phase One and Phase Two of Zero Trust Implementation Guidelines",
+    "summary": "World's Premier Cyber Security Portal. Published Jan 31, 2026. + Follow. The National Security Agency (NSA) has released ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/nsa-publishes-phase-one-two-zero-trust-implementation-r33ze",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265018",
+    "date": "2026-01-31",
+    "title": "New Jersey Chief Technology Officer Chris Rein Retires - GovTech",
+    "summary": "... Security Cybersecurity and Communications Integration Cell, and served as the state's deputy chief information security officer. His professional ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/workforce/new-jersey-chief-technology-officer-chris-rein-retires",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265019",
+    "date": "2026-01-31",
+    "title": "Akin Attorneys Co‑Author Cybersecurity Law Report Article on the E.U. Cyber Resilience Act",
+    "summary": "... network‑connected software and hardware, and highlight the regulation's secure‑by‑design requirements, ongoing security obligations, and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.akingump.com/en/insights/media-mentions/akin-attorneys-coauthor-cybersecurity-law-report-article-on-the-eu-cyber-resilience-act",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265020",
+    "date": "2026-01-31",
+    "title": "Cloudflare Mitigates Historic World Record 31.4 Tbps DDoS Attack! - LinkedIn",
+    "summary": "This development highlights a growing concern within the cybersecurity community. Consumer electronics, particularly smart TVs and streaming devices, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/cloudflare-mitigates-historic-world-record-314-bvrpe",
+    "tags": [
+      "ddos",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264998",
     "date": "2026-01-31",
     "title": "Streaming musical : cette plateforme victime de fuites, êtes-vous concerné ?",
