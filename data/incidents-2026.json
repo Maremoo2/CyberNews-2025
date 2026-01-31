@@ -1,5 +1,21 @@
 [
   {
+    "id": "20264966",
+    "date": "2026-01-31",
+    "title": "Smart Factories, New Risks: Securing the IIoT Edge",
+    "summary": "In this post, I will talk about securing the IIoT edge. For decades, the factory floor was a fortress of solitude. Industrial Control Systems (ICS) operated in an “air-gapped” environment, physically disconnected from the corporate IT network and the outside world. Security was defined by physica...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/securing-the-iiot-edge/",
+    "tags": [
+      "malware",
+      "iot",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264938",
     "date": "2026-01-31",
     "title": "AWS Lambda launches enhanced observability for Kafka event source mappings",
@@ -12,6 +28,24 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264965",
+    "date": "2026-01-30",
+    "title": "Meta Can Read Your WhatsApp Messages, Lawsuit Alleges",
+    "summary": "Meta denies the allegations. A new lawsuit claims that Meta's WhatsApp — the popular messaging platform — has made misleading privacy claims about the app. The lawsuit filed in the U.S. District Court in San Francisco alleges that Meta can \"store, analyze, and access virtually all of WhatsApp use...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/tech/105243/meta-can-read-your-whatsapp-messages-lawsuit-alleges",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws",
+      "meta",
+      "cisco"
     ],
     "impact": 3
   },
