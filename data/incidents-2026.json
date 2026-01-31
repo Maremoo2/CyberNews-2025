@@ -1,5 +1,110 @@
 [
   {
+    "id": "20264998",
+    "date": "2026-01-31",
+    "title": "Streaming musical : cette plateforme victime de fuites, êtes-vous concerné ?",
+    "summary": "Trois-cents millions. Ce n’est pas le nombre d’écoutes du dernier tube de l’été, mais la quantité astronomique de comptes SoundCloud dont les données circulent désormais librement. Une fuite massive qui transforme vos simples habitudes d'écoute en un potentiel cauchemar de cybersécurité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598378-streaming-musical-cette-plateforme-victime-de-fuites-etes-vous-concerne.html",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265002",
+    "date": "2026-01-31",
+    "title": "Juice Jacking Continues to Be a Cyber Problem in South Africa",
+    "summary": "“Juice jacking” may be a new term for some, but it has been around as a method of cyber attack for a long time. The former problem was that it was expensive to install, but now that has all changed. The tools required for juice jacking have become cheaper and easier and it’s now a […] The post Ju...",
+    "region": "ASIA",
+    "country": "South Africa",
+    "sourceName": "DaVinci Forensics",
+    "sourceUrl": "https://davinciforensics.co.za/cybersecurity/juice-jacking-cyber-threat-south-africa/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265003",
+    "date": "2026-01-31",
+    "title": "Nearly 30% of Private Accounts Potentially Exposed in Major Instagram Privacy Flaw",
+    "summary": "A recent security disclosure has reignited a long-standing concern about social media privacy: when a platform labels something as “private,” how strong is the technical enforcement behind that promise? A detailed report published sheds light on evidence presented by a security researcher suggest...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/nearly-30-of-private-accounts-potentially-exposed-in-major-instagram-privacy-flaw",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265004",
+    "date": "2026-01-31",
+    "title": "U.S. convicts ex-Google engineer for sending AI tech data to China",
+    "summary": "A U.S. federal jury has convicted Linwei Ding, a former software engineer at Google, for stealing AI supercomputer data from his employer and secretly sharing it with Chinese tech firms. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265005",
+    "date": "2026-01-31",
+    "title": "Cloud storage payment scam floods inboxes with fake renewals",
+    "summary": "Over the past few months, a large-scale cloud storage subscription scam campaign has been targeting users worldwide with repeated emails falsely warning recipients that their photos, files, and accounts are about to be blocked or deleted due to an alleged payment failure. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cloud-storage-payment-scam-floods-inboxes-with-fake-renewals/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265006",
+    "date": "2026-01-31",
+    "title": "Mandiant details how ShinyHunters abuse SSO to steal cloud data",
+    "summary": "Mandiant says a wave of recent ShinyHunters SaaS data-theft attacks is being fueled by targeted voice phishing (vishing) attacks and company-branded phishing sites that steal single sign-on (SSO) credentials and multi-factor authentication (MFA) codes. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/",
+    "tags": [
+      "phishing",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265007",
+    "date": "2026-01-31",
+    "title": "Researcher reveals evidence of private Instagram profiles leaking photos",
+    "summary": "A researcher has released detailed evidence showing some Instagram private accounts exposed photo links to unauthenticated visitors. The issue was later fixed, but Meta closed the report as not applicable and did not respond to multiple requests for comment. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/researcher-reveals-evidence-of-private-instagram-profiles-leaking-photos/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264983",
     "date": "2026-01-31",
     "title": "Access denied",
@@ -442,6 +547,20 @@
       "aws",
       "amazon",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265001",
+    "date": "2026-01-30",
+    "title": "Torq Moves SOCs Beyond SOAR With AI-Powered Hyper Automation",
+    "summary": "Investors poured $140 million into Torq's Series D Round, bringing the startup's valuation to $1.2 billion, to bring AI-based \"hyper automation\" to SOCs.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/torq-moves-socs-soar-ai-powered-hyper-automation",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -18585,6 +18704,20 @@
     "tags": [
       "ransomware",
       "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264999",
+    "date": "2026-01-22",
+    "title": "Governing Cybersecurity in the AI Era -pwc workshop 2026",
+    "summary": "Governing Cybersecurity in the AI Era As AI rapidly transforms the way we work, serve customers, and compete, cybersecurity has become a top management and boardroom priority – no longer just an IT issue. It now stands as a core pillar of digital trust. In response to this evolving landscape, A. ...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/governing-cybersecurity-in-the-ai-era/",
+    "tags": [
       "ai-ml"
     ],
     "impact": 3
@@ -39819,6 +39952,20 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20265000",
+    "date": "2026-01-13",
+    "title": "Future of Cyber Leadership: Global CISO Forum 2026 Comes to Pakistan",
+    "summary": "Future of Cyber Leadership: Global CISO Forum 2026 Comes to Pakistan The cybersecurity landscape is evolving at breakneck speed, and the need for resilient, forward-thinking leadership has never been greater. That is why I am thrilled to share the details for the upcoming Global CISO Forum 2026 –...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/future-of-cyber-leadership-global-ciso-forum-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20264524",
