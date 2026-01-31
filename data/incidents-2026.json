@@ -1,5 +1,449 @@
 [
   {
+    "id": "20264938",
+    "date": "2026-01-31",
+    "title": "AWS Lambda launches enhanced observability for Kafka event source mappings",
+    "summary": "AWS Lambda launches enhanced observability for Kafka event source mappings (ESM) that provides Amazon CloudWatch Logs and metrics to monitor event polling setup, scaling, and processing state of Kafka events. This capability allows customers to quickly diagnose setup issues and take timely correc...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-Lambda-observability-for-kafka-esm/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264935",
+    "date": "2026-01-30",
+    "title": "How Agentic Tool Chain Attacks Threaten AI Agent Security",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/how-agentic-tool-chain-attacks-threaten-ai-agent-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264936",
+    "date": "2026-01-30",
+    "title": "DOJ seizes piracy sites, Italian police dismantle illegal IPTV operation",
+    "summary": "A trio of domains that allegedly distributed pirated content, including movies, TV shows, video games and other content was seized by the U.S. government as part of a globally coordinated crackdown on copyright infringement, the Justice Department said Friday. The sites — zamunda.net, arenabg.com...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/doj-seizes-piracy-sites-zamunda-arenabg-zelka/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264937",
+    "date": "2026-01-30",
+    "title": "Department of Justice seizes domains for Bulgarian piracy sites",
+    "summary": "Three popular Bulgarian websites offering pirated TV shows, video games, movies and other content were seized by U.S. agencies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/bulgaria-piracy-sites-streaming-gaming-seized-us",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264939",
+    "date": "2026-01-30",
+    "title": "From Checkbox to Catalyst: How the C-Suite is Reframing Cybersecurity Training",
+    "summary": "For years, many organizations treated cybersecurity training as a mere compliance requirement ... Cyber SecurityInsights. ·5 min read. From Checkbox to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cpomagazine.com/cyber-security/from-checkbox-to-catalyst-how-the-c-suite-is-reframing-cybersecurity-training/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264940",
+    "date": "2026-01-30",
+    "title": "California Is Taking Action to Strengthen Cybersecurity with Grant Program | Cal OES News",
+    "summary": "When hackers attack these systems, it can cause delayed services, privacy risks, and disruptions to daily life. That's why strong cybersecurity is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.news.caloes.ca.gov/california-is-taking-action-to-strengthen-cybersecurity-with-grant-program/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264941",
+    "date": "2026-01-30",
+    "title": "CISA Warns of FortiCloud SSO Authentication Bypass Flaw Actively Exploited by Hackers",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning regarding a severe authentication bypass vulnerability ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/forticloud-sso-authentication-bypass-flaw/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264942",
+    "date": "2026-01-30",
+    "title": "Practical Security Guidance for Sandboxing Agentic Workflows and Managing Execution Risk",
+    "summary": "Manual approval of actions performed by the agent is the most common way to manage this risk, but it also introduces ongoing developer friction, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264943",
+    "date": "2026-01-30",
+    "title": "China's Typhoon hackers have changed the rules of cybersecurity | SC Media",
+    "summary": "The APTs are talking — are we listening? · Open-source and AI risks are growing · It's time for software security mandates · Mario Vuksan, chief ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scworld.com/perspective/chinas-typhoon-hackers-have-changed-the-rules-of-cybersecurity",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264944",
+    "date": "2026-01-30",
+    "title": "Advice firms' lack of focus on cybersecurity 'worrying' - Money Marketing",
+    "summary": "... security”. McKenna said there were “three new major forms of cyber attack” that advisers are vulnerable to that have emerged in the last three months.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.moneymarketing.co.uk/news/advice-firms-lack-of-focus-on-cybersecurity-is-worrying/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264945",
+    "date": "2026-01-30",
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 5 - SentinelOne",
+    "summary": "The Bad | 175,000 AI Systems Exposed Without Security Controls. SentinelLABS and Censys revealed this week a sprawling network of 175,000 open-source ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-5-7/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264946",
+    "date": "2026-01-30",
+    "title": "Trump says deal reached on stopgap spending bill for DHS, but weekend shutdown still possible",
+    "summary": "Senate Democrats and Republicans have struck a deal to pass a stopgap funding bill for the Department of Homeland Security, buying both sides more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/congress/2026/01/trump-says-negotiations-to-avoid-shutdown-are-close-after-senate-blocks-early-vote-on-spending-package-with-dhs-funding/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264947",
+    "date": "2026-01-30",
+    "title": "Punish the Wicked Reward the Righteous | Lawfare",
+    "summary": "The latest edition of the Seriously Risky Business cybersecurity ... security advice from the U.K.'s National Cyber Security Centre, for example.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/punish-the-wicked--reward-the-righteous",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264948",
+    "date": "2026-01-30",
+    "title": "Java devs want container security - not the hassle - The Register",
+    "summary": "This finding comes from BellSoft, which offers the Liberica JDK, a free, open-source implementation of Java SE. The company says it surveyed 427 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/01/30/java_developers_container_security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264949",
+    "date": "2026-01-30",
+    "title": "Tech Bills of the Week: Measures seek to boost cyber posture of utilities - Nextgov/FCW",
+    "summary": "... security and cybersecurity of U.S. pipelines and liquefied natural gas facilities. Energy would be responsible for improving information sharing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.fcw.com/policy/2026/01/tech-bills-week-measures-seek-boost-cyber-posture-utilities/411096/?oref=ng-homepage-river",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264950",
+    "date": "2026-01-30",
+    "title": "AI-driven attacks overwhelm security teams in 2026 - SecurityBrief UK",
+    "summary": "It said this leaves organisations exposed to cyber threats that security teams may not recognise. \"Traditional defensive cybersecurity will no ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/ai-driven-attacks-overwhelm-security-teams-in-2026",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264951",
+    "date": "2026-01-30",
+    "title": "Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs",
+    "summary": "Amazon RDS now supports Internet Protocol version 6 (IPv6) for VPC endpoints of RDS Service APIs, in addition to the existing IPv6 support for public endpoints. This allows you to configure dual-stack (IPv4 and IPv6) connectivity to access RDS Service APIs directly from within your VPC without in...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264952",
+    "date": "2026-01-30",
+    "title": "ShinyHunters targets dating apps Bumble and Match in Data Breach incident",
+    "summary": "The attack also underscores the importance of robust cybersecurity awareness training, particularly in defending against phishing and vishing attempts ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/shinyhunters-targets-dating-apps-bumble-and-match-in-data-breach-incident/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264953",
+    "date": "2026-01-30",
+    "title": "Cybersecurity in 2026: Responsible AI Defense | Forvis Mazars US",
+    "summary": "Cybersecurity in 2026: Responsible AI Defense. AI – Artificial Intelligence • January 30, 2026. Discover ways to enhance security resilience with lean ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.forvismazars.us/forsights/2026/01/cybersecurity-in-2026-responsible-ai-defense",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264954",
+    "date": "2026-01-30",
+    "title": "Most Organizations Can’t Use AI Agents Across Teams—Here’s Why",
+    "summary": "AI agents can’t work across teams because they lack the domain knowledge that exists only in developers’ minds (e.g., architectural patterns, business rules, design constraints). When agents make changes to another team’s code, they usually fail. Not because the agent lacks capability, but becaus...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/blogs/enterprise-strategy/most-organizations-cant-use-ai-agents-across-teams-heres-why/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264955",
+    "date": "2026-01-30",
+    "title": "Amazon SageMaker Unified Studio now supports AWS PrivateLink",
+    "summary": "Today, Amazon SageMaker announced a new capability allowing you to establish connectivity between your Amazon Virtual Private Cloud (VPC) and Amazon SageMaker Unified Studio without customer data traffic going through the public internet. Customers needing to go beyond the standard data transfer ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264956",
+    "date": "2026-01-30",
+    "title": "Amazon ECS now publishes container health status as a CloudWatch metric",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) now publishes container health status as a new metric in CloudWatch Container Insights with enhanced observability. Customers can now track the operational health of their containers through a dedicated CloudWatch metric and create alarms to respond p...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264957",
+    "date": "2026-01-30",
+    "title": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes",
+    "summary": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes. With additional storage volumes, customers can add up to three storage volumes, each with up to 64 TiB, in addition to the primary storage volume for their database instance. As a result, customers get flexi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
+    "tags": [
+      "amazon",
+      "oracle",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264958",
+    "date": "2026-01-30",
+    "title": "Amazon EC2 R8a instances are now available in Europe (Spain) and Europe (Frankfurt) Regions",
+    "summary": "Starting today, Amazon EC2 R8a instances are now available in Europe (Spain) and Europe (Frankfurt) Regions. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-perfo...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264959",
+    "date": "2026-01-30",
+    "title": "Amazon GameLift Streams expands streaming capability to six new regions",
+    "summary": "Starting today, Amazon GameLift Streams provides streaming capabilities in six new locations - eu-west-2 (London), eu-north-1 (Stockholm), sa-east-1 (São Paulo), ap-south-1 (Mumbai), ap-northeast-2 (Seoul), and ap-southeast-2 (Sydney) for all customers. New streaming locations enable customers to...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/glstreams-new-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264960",
+    "date": "2026-01-30",
+    "title": "France fines unemployment agency, Microsoft Teams flags calls - CISO Series",
+    "summary": "UK leaders warned about absorbing cyberattacks without offensive deterrence. During a UK parliamentary hearing on national security ministers were ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-france-fines-unemployment-agency-teams-flags-calls-uk-pushes-deterrence/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20264961",
+    "date": "2026-01-30",
+    "title": "Case study: Securing AI application supply chains",
+    "summary": "The rapid adoption of AI applications, including agents, orchestrators, and autonomous workflows, represents a significant shift in how software systems are built and operated. Unlike traditional applications, these systems are active participants in execution. They make decisions, invoke tools, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20264962",
+    "date": "2026-01-30",
+    "title": "GSA quietly rolls out CMMC-like cybersecurity framework for contractors - Nextgov/FCW",
+    "summary": "GSA's Office of the Chief Information Security Officer issued an IT security procedural guide on Jan. 5 for contractors to implement the National ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.fcw.com/acquisition/2026/01/gsa-quietly-rolls-out-cmmc-cybersecurity-framework-contractors/411094/?oref=ng-homepage-river",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264963",
+    "date": "2026-01-30",
+    "title": "'Intel Leak By US Cybersecurity Official' Amid Iran War Fears: Repeat Of Houthi Plan Leak On Signal?",
+    "summary": "... security systems. With DHS launching ... risks, this could be Washington's most embarrassing cyber lapse yet. INTERNATIONAL NEWS #cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=K5VJ2MiqhLs",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264964",
+    "date": "2026-01-30",
+    "title": "From the Desk of the Cyber Committee, February 2026 - AFCEA International",
+    "summary": "As artificial intelligence (AI) becomes the digital heartbeat of urban life, the need to secure and govern smart-city ecosystems has never been ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.afcea.org/signal-media/test-signal-landing-page-format/desk-cyber-committee-february-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264915",
     "date": "2026-01-30",
     "title": "Informant told FBI that Jeffrey Epstein had a ‘personal hacker’",
