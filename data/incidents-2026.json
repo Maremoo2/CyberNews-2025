@@ -1,5 +1,77 @@
 [
   {
+    "id": "20264967",
+    "date": "2026-01-31",
+    "title": "[Ekstra] IT-gigant frigjør programvare fra Microsoft: – Etterspurt i alle sektorer",
+    "summary": "Den danske IT-giganten Systematic har gjort sin sentrale programvare uavhengig av Microsoft. Det ble fremskyndet etter krav fra kundene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/it-gigant-frigjor-programvare-fra-microsoft-etterspurt-i-alle-sektorer/567414",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264968",
+    "date": "2026-01-31",
+    "title": "See Agentic AI Attack & Defense in Action | Live Webinar, February 5 - LinkedIn",
+    "summary": "World's Premier Cyber Security Portal ... AI in security is widely discussed and rarely demonstrated. Agentic AI has changed the threat landscape faster ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/see-agentic-ai-attack-defense-action-live-webinar-dwske",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264969",
+    "date": "2026-01-31",
+    "title": "Technology Sector Lookahead 2026 - Charles Russell Speechlys",
+    "summary": "The Regulation will also enable EU regulators to create cyber security certification schemes which will seek to secure ICT products, services and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.charlesrussellspeechlys.com/en/insights/expert-insights/tmt/2026/technology-sector-lookahead-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264970",
+    "date": "2026-01-31",
+    "title": "NSA Releases Phase One and Phase Two of the Zero Trust Implementation Guidelines",
+    "summary": "A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4393480/nsa-releases-phase-one-and-phase-two-of-the-zero-trust-implementation-guidelines/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20264971",
+    "date": "2026-01-31",
+    "title": "Customer Security Programme",
+    "summary": "Stronger cybersecurity posture. Swift users implement mandatory controls from the CSCF and validate them through independent assessments—raising the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.swift.com/myswift/customer-security-programme",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264966",
     "date": "2026-01-31",
     "title": "Smart Factories, New Risks: Securing the IIoT Edge",
