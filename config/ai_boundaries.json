@@ -1,0 +1,17 @@
+{
+  "allowed": [
+    "Propose hypotheses about patterns in aggregates",
+    "Identify uncertainties and required data",
+    "Suggest watch signals with thresholds",
+    "Recommend validation steps"
+  ],
+  "prohibited": [
+    "Merge/deduplicate incidents",
+    "Assign final severity as truth",
+    "Perform attribution as fact",
+    "Rewrite timestamps or counts",
+    "Override CISO filters",
+    "Silently remove items",
+    "Invent new incidents, CVEs, or actors not in aggregates"
+  ]
+}

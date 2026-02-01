@@ -1,0 +1,110 @@
+{
+  "week_start": "2026-01-26",
+  "week_end": "2026-02-01",
+  "week_number": 5,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 100,
+    "incident_related": 25,
+    "cluster_count": 8
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "12.3",
+    "phishing_pct": "-3.1",
+    "token_abuse_pct": "5.7",
+    "ransomware_pct": "-1.2"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "35.5",
+    "phishing_pct": "18.2",
+    "token_abuse_pct": "12.3",
+    "ransomware_pct": "8.5"
+  },
+  "top_themes": [
+    {
+      "theme": "supply chain compromise",
+      "confidence": 0.82,
+      "item_count": 15
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.78,
+      "item_count": 12
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.75,
+      "item_count": 10
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "finance",
+      "count": 18,
+      "percentage": "18.0"
+    },
+    {
+      "sector": "healthcare",
+      "count": 12,
+      "percentage": "12.0"
+    },
+    {
+      "sector": "technology",
+      "count": 10,
+      "percentage": "10.0"
+    }
+  ],
+  "attack_chain_distribution": [
+    {
+      "tactic": "initial_access",
+      "count": 22,
+      "percentage": "22.0"
+    },
+    {
+      "tactic": "execution",
+      "count": 18,
+      "percentage": "18.0"
+    },
+    {
+      "tactic": "persistence",
+      "count": 15,
+      "percentage": "15.0"
+    }
+  ],
+  "top_clusters": [
+    {
+      "title": "npm package hijacking campaign targeting developers",
+      "size": 15,
+      "confidence": 0.89
+    },
+    {
+      "title": "Healthcare ransomware attacks increasing",
+      "size": 12,
+      "confidence": 0.85
+    },
+    {
+      "title": "Financial sector phishing campaigns",
+      "size": 10,
+      "confidence": 0.80
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "67% from top 3 feeds",
+    "avg_confidence": 0.72,
+    "top_sources": [
+      {
+        "source": "SecurityWeek",
+        "count": 35
+      },
+      {
+        "source": "BleepingComputer",
+        "count": 22
+      },
+      {
+        "source": "ThreatPost",
+        "count": 10
+      }
+    ],
+    "total_sources": 15
+  }
+}

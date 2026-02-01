@@ -35,7 +35,7 @@ import TrendContinuity from './components/TrendContinuity'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
-import DataModelTooltip from './components/DataModelTooltip'
+import WeeklyAnalysis from './components/WeeklyAnalysis'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -675,6 +675,13 @@ function App() {
       {/* Weekly Highlights - Top 3 This Week */}
       {selectedYear === new Date().getFullYear() && (
         <WeeklyHighlights incidents={incidentsData} />
+      )}
+
+      {/* AI Weekly Intelligence Analysis */}
+      {selectedYear === new Date().getFullYear() && (
+        <div id="ai-analysis">
+          <WeeklyAnalysis />
+        </div>
       )}
 
       {/* Data Health Dashboard (Hidden in CISO Mode) */}
