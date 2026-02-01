@@ -66,7 +66,10 @@ function BiasIndicator({ incidents }) {
       biases.push({
         type: 'regional',
         severity: 'high',
-        message: `${usPercentage}% of data from US sources - significant Western bias`
+        message: `${usPercentage}% of data from US sources - significant Western bias`,
+        recommendation: usPercentage > 55 
+          ? 'Recommend adding DE/FR/NO language feeds to balance perspective'
+          : 'Consider expanding to non-English sources'
       });
     }
 
@@ -74,8 +77,11 @@ function BiasIndicator({ incidents }) {
     if (topSources.length > 0 && topSources[0].percentage > 30) {
       biases.push({
         type: 'source',
-        severity: 'medium',
-        message: `${topSources[0].percentage}% from single source (${topSources[0].source}) - source concentration risk`
+        severity: topSources[0].percentage > 35 ? 'high' : 'medium',
+        message: `${topSources[0].percentage}% from single source (${topSources[0].source}) - source concentration risk`,
+        recommendation: topSources[0].percentage > 35
+          ? 'Lower confidence weighting for this source; diversify feed sources'
+          : 'Monitor for over-reliance on single source'
       });
     }
 
@@ -85,7 +91,8 @@ function BiasIndicator({ incidents }) {
       biases.push({
         type: 'language',
         severity: 'medium',
-        message: `${englishPercentage}% English content - potential language bias`
+        message: `${englishPercentage}% English content - potential language bias`,
+        recommendation: 'Add non-English feeds (DE, FR, ES, CN) for global perspective'
       });
     }
 
@@ -131,10 +138,18 @@ function BiasIndicator({ incidents }) {
                 className="bias-alert"
                 style={{ borderLeftColor: getBiasSeverityColor(bias.severity) }}
               >
-                <span className="bias-type-badge" style={{ background: getBiasSeverityColor(bias.severity) }}>
-                  {bias.type}
-                </span>
-                <span className="bias-message">{bias.message}</span>
+                <div className="bias-alert-header">
+                  <span className="bias-type-badge" style={{ background: getBiasSeverityColor(bias.severity) }}>
+                    {bias.type}
+                  </span>
+                  <span className="bias-message">{bias.message}</span>
+                </div>
+                {bias.recommendation && (
+                  <div className="bias-recommendation">
+                    <span className="recommendation-icon">💡</span>
+                    <span className="recommendation-text">{bias.recommendation}</span>
+                  </div>
+                )}
               </div>
             ))}
           </div>

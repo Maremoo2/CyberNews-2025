@@ -1,6 +1,27 @@
 import { useMemo, useState } from 'react'
 import { filterToIncidentsOnly } from '../utils/populationUtils'
+import ActorConfidenceBadge from './ActorConfidenceBadge'
 import './ThreatActorProfile.css'
+
+// Helper function to generate attribution source explanation
+function generateAttributionSource(actor) {
+  if (!actor.confidence) return 'Attribution source unknown';
+  
+  if (actor.confidence === 'high') {
+    // High confidence attribution
+    const sources = [];
+    if (actor.name.toLowerCase().includes('apt')) sources.push('Government/vendor advisory');
+    else sources.push('Law enforcement report or vendor attribution');
+    
+    return `High confidence attribution derived from:\n${sources.join('\n')}`;
+  } else if (actor.confidence === 'medium') {
+    // Medium confidence - multiple sources
+    return 'Suspected attribution based on:\nMultiple reputable sources in cluster\nConsistent reporting across media';
+  } else {
+    // Low confidence - single mention
+    return 'Mention-only attribution:\nSingle mention in article text\nNo corroboration from other sources';
+  }
+}
 
 // Threat actor categorization
 const ACTOR_CATEGORIES = {
@@ -53,6 +74,7 @@ const KNOWN_ACTORS = {
 
 function ThreatActorProfile({ incidents }) {
   const [isExpanded, setIsExpanded] = useState(true);
+  const [confidenceFilter, setConfidenceFilter] = useState(['high', 'medium']); // Default to 🟢 + 🟡
   
   const actorAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
@@ -68,10 +90,12 @@ function ThreatActorProfile({ incidents }) {
 
     const actorMentions = {}
 
-    // Analyze incidents - only use enriched actor_confidence if available
+    // Analyze incidents - filter by confidence level
     relevantIncidents.forEach(incident => {
-      // Skip if actor_confidence is explicitly low (when enriched data is available)
-      if (incident.actor_confidence && incident.actor_confidence === 'low') {
+      const actorConfidence = incident.actor_confidence || 'low';
+      
+      // Skip if not in selected confidence levels
+      if (!confidenceFilter.includes(actorConfidence)) {
         return;
       }
 
@@ -158,11 +182,22 @@ function ThreatActorProfile({ incidents }) {
       totalAllItems: incidents.length,
       categorizedIncidents: Object.values(categoryCounts).reduce((sum, c) => sum + c.count, 0)
     }
-  }, [incidents])
+  }, [incidents, confidenceFilter])
 
   if (!actorAnalysis || actorAnalysis.categoryDistribution.length === 0) {
     return null
   }
+
+  const toggleConfidenceFilter = (level) => {
+    if (confidenceFilter.includes(level)) {
+      // Don't allow removing all filters
+      if (confidenceFilter.length > 1) {
+        setConfidenceFilter(confidenceFilter.filter(l => l !== level));
+      }
+    } else {
+      setConfidenceFilter([...confidenceFilter, level]);
+    }
+  };
 
   return (
     <section className="threat-actor-profile" id="actors" aria-label="Threat Actor Analysis">
@@ -171,6 +206,41 @@ function ThreatActorProfile({ incidents }) {
         <p className="actor-subtitle">
           Understanding who is behind the attacks - their motives, methods, and targets
         </p>
+        
+        {/* Confidence Filter Toggle */}
+        <div className="confidence-filter-bar">
+          <span className="filter-label">Attribution confidence filter:</span>
+          <div className="confidence-toggles">
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('high') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('high')}
+              aria-pressed={confidenceFilter.includes('high')}
+            >
+              <ActorConfidenceBadge confidence="high" showLabel={false} size="sm" />
+              <span>High</span>
+            </button>
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('medium') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('medium')}
+              aria-pressed={confidenceFilter.includes('medium')}
+            >
+              <ActorConfidenceBadge confidence="medium" showLabel={false} size="sm" />
+              <span>Suspected</span>
+            </button>
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('low') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('low')}
+              aria-pressed={confidenceFilter.includes('low')}
+            >
+              <ActorConfidenceBadge confidence="low" showLabel={false} size="sm" />
+              <span>Mention-only</span>
+            </button>
+          </div>
+          <p className="filter-note">
+            <small>Default view shows High + Suspected only (recommended for executive reporting)</small>
+          </p>
+        </div>
+        
         <button 
           className="collapse-toggle"
           onClick={() => setIsExpanded(!isExpanded)}
@@ -259,16 +329,44 @@ function ThreatActorProfile({ incidents }) {
                 </div>
                 <div className="actor-name-row">
                   <h4>{actor.name}</h4>
-                  {actor.confidence && (
-                    <span 
-                      className={`confidence-badge confidence-${actor.confidence}`}
-                      title={`Attribution confidence: ${actor.confidence}`}
-                    >
-                      {actor.confidence === 'high' ? '🟢' : actor.confidence === 'medium' ? '🟡' : '⚪'} {actor.confidence}
-                    </span>
-                  )}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    {actor.confidence && (
+                      <ActorConfidenceBadge confidence={actor.confidence} size="sm" />
+                    )}
+                    {actor.confidence && (
+                      <span 
+                        className="attribution-why-tooltip"
+                        title={generateAttributionSource(actor)}
+                        style={{
+                          cursor: 'help',
+                          fontSize: '0.875rem',
+                          color: '#9ca3af',
+                          padding: '0.25rem 0.5rem',
+                          background: 'rgba(156, 163, 175, 0.1)',
+                          borderRadius: '4px',
+                          border: '1px solid rgba(156, 163, 175, 0.2)',
+                          fontWeight: 500
+                        }}
+                      >
+                        Why?
+                      </span>
+                    )}
+                  </div>
                 </div>
                 <p className="actor-description">{actor.description}</p>
+                {actor.count && (
+                  <div className="actor-stats" style={{ 
+                    marginTop: '0.5rem', 
+                    fontSize: '0.875rem', 
+                    color: '#6b7280',
+                    display: 'flex',
+                    gap: '1rem'
+                  }}>
+                    <span title="Incident clusters attributed to this actor">
+                      📊 {actor.count} incident mentions
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>

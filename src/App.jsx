@@ -35,6 +35,7 @@ import TrendContinuity from './components/TrendContinuity'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
+import DataModelTooltip from './components/DataModelTooltip'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -378,6 +379,59 @@ function App() {
       if (cisoMode.highConfidenceOnly) {
         filtered = filtered.filter(incident => incident.confidence >= 70)
       }
+      // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
+      if (cisoMode.confirmedOnly) {
+        const preFilterCount = filtered.length;
+        
+        filtered = filtered.filter(incident => {
+          const text = `${incident.title} ${incident.summary}`.toLowerCase();
+          
+          // 1. Explicitly exclude promos (VPN deals, coupon language, product ads)
+          const promoKeywords = ['vpn deal', 'best vpn', 'discount', 'coupon', 'promo code', '% off', 'buy now', 'special offer'];
+          if (promoKeywords.some(kw => text.includes(kw))) {
+            return false;
+          }
+          
+          // 2. Exclude obvious opinion/editorial, but only if confidence is low
+          if (incident.content_type === 'opinion' || incident.content_type === 'editorial' || incident.content_type === 'commentary') {
+            if (!incident.confidence || incident.confidence < 60) {
+              return false;
+            }
+          }
+          
+          // 3. Exclude product announcements unless they're incident-related
+          if (incident.content_type === 'product' && incident.content_type !== 'incident') {
+            return false;
+          }
+          
+          // 4. Check for speculation keywords - only disqualify if multiple conditions met
+          const speculationKeywords = ['rumor', 'alleged', 'reportedly', 'claims', 'speculation', 'unconfirmed'];
+          const hasSpeculation = speculationKeywords.some(kw => text.includes(kw));
+          
+          if (hasSpeculation) {
+            // Only exclude if: low source credibility AND single-source AND no corroboration
+            const lowCredibility = !incident.is_curated && (!incident.confidence || incident.confidence < 60);
+            const singleSource = !incident._cluster || incident._cluster.articleCount <= 1;
+            
+            if (lowCredibility && singleSource) {
+              return false;
+            }
+          }
+          
+          // 5. Require 2-source rule OR curated OR high-confidence (source-weighted)
+          // High confidence: curated content or confidence >= 70 from reputable source
+          const isHighConfidence = incident.is_curated || incident.confidence >= 70;
+          const hasMultipleSources = incident._cluster && incident._cluster.articleCount >= 2;
+          const hasConfirmation = ['confirmed', 'official', 'announced', 'disclosed', 'admitted'].some(kw => text.includes(kw));
+          
+          return isHighConfidence || hasMultipleSources || hasConfirmation;
+        });
+        
+        // Track retention percentage
+        const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
+        // Store this for display (we'll add UI for this)
+        cisoMode._confirmedRetention = retentionPercent;
+      }
     }
 
     // Filter by month
@@ -516,6 +570,9 @@ function App() {
                 ? "Year-to-date coverage of cybersecurity news and incidents"
                 : "Overview of cybersecurity incidents"}
             </p>
+            <div style={{ marginTop: '0.75rem', marginBottom: '0.75rem' }}>
+              <DataModelTooltip />
+            </div>
             <div className="data-timestamp-section">
               <p className="data-through" title="Latest article published date in dataset">
                 📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'} <em>(latest article published)</em>
@@ -536,15 +593,22 @@ function App() {
                 </span>
               ) : (
                 <>
-                  <span className="count-item">
-                    <strong>{uniqueIncidentCount}</strong> unique items (deduplicated)
+                  <span className="count-item primary-metric" title={`Computed by: fingerprint(org + attack type + date ±3 days)\nLast pipeline run: ${lastUpdated.utc}\nCluster count may change as new sources arrive`}>
+                    <span className="metric-icon">🎯</span>
+                    <strong>{uniqueIncidentCount}</strong> estimated unique incidents (global clusters)
                   </span>
                   <span className="count-separator"> • </span>
-                  <span className="count-item">
-                    <strong>{totalSourceCount}</strong> total sources/articles
+                  <span className="count-item secondary-metric" title="Total incident-related articles/items">
+                    <span className="metric-icon">📰</span>
+                    <strong>{totalSourceCount}</strong> items/articles
                   </span>
                 </>
               )}
+            </p>
+            <p className="data-clarification">
+              <small>
+                <em>Note: "Unique incidents" = estimated clusters of related articles. "Items" = individual news articles. See Data Model tooltip for details.</em>
+              </small>
             </p>
           </div>
           <div className="year-selector">
