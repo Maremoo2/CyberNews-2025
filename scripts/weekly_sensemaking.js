@@ -49,10 +49,10 @@ for (const arg of args) {
 // Determine which aggregate to analyze
 if (!aggregatePath) {
   if (targetWeek) {
-    aggregatePath = path.join(PROJECT_ROOT, 'data', 'aggregates', `week_${targetWeek}.json`);
+    aggregatePath = path.join(PROJECT_ROOT, 'public', 'data', 'aggregates', `week_${targetWeek}.json`);
   } else {
     // Find the most recent aggregate file
-    const aggregatesDir = path.join(PROJECT_ROOT, 'data', 'aggregates');
+    const aggregatesDir = path.join(PROJECT_ROOT, 'public', 'data', 'aggregates');
     if (!fs.existsSync(aggregatesDir)) {
       console.error('❌ Error: No aggregates directory found. Run aggregate_weekly.js first.');
       process.exit(1);
@@ -314,24 +314,40 @@ try {
   process.exit(1);
 }
 
+// Strict validation function
+function validateAnalysisStrict(analysis) {
+  const errors = [];
+
+  if (analysis.disclaimer !== "AI-assisted analysis. Hypotheses, not facts.") {
+    errors.push(`Invalid disclaimer: "${analysis.disclaimer}"`);
+  }
+  if (!Array.isArray(analysis.hypotheses) || analysis.hypotheses.length !== 3) {
+    errors.push(`Expected 3 hypotheses, got ${analysis.hypotheses?.length ?? "null"}`);
+  }
+  if (!Array.isArray(analysis.uncertainties) || analysis.uncertainties.length !== 3) {
+    errors.push(`Expected 3 uncertainties, got ${analysis.uncertainties?.length ?? "null"}`);
+  }
+  if (!Array.isArray(analysis.signals_to_watch) || analysis.signals_to_watch.length !== 3) {
+    errors.push(`Expected 3 signals_to_watch, got ${analysis.signals_to_watch?.length ?? "null"}`);
+  }
+
+  for (const h of analysis.hypotheses || []) {
+    if (!["low", "medium"].includes(h.confidence)) {
+      errors.push(`Invalid confidence in hypothesis: "${h.confidence}"`);
+    }
+  }
+
+  if (errors.length) {
+    console.error("\n❌ FATAL: Analysis validation failed:");
+    for (const e of errors) console.error(`   - ${e}`);
+    console.error("\n⚠️  Analysis file will NOT be written.\n");
+    process.exit(1);
+  }
+}
+
 // Validate the response
 const analysis = result.analysis;
-
-// Ensure disclaimer is correct
-if (analysis.disclaimer !== "AI-assisted analysis. Hypotheses, not facts.") {
-  console.error('❌ Warning: Disclaimer text does not match required format');
-}
-
-// Ensure counts are correct
-if (analysis.hypotheses?.length !== 3) {
-  console.error(`❌ Warning: Expected 3 hypotheses, got ${analysis.hypotheses?.length}`);
-}
-if (analysis.uncertainties?.length !== 3) {
-  console.error(`❌ Warning: Expected 3 uncertainties, got ${analysis.uncertainties?.length}`);
-}
-if (analysis.signals_to_watch?.length !== 3) {
-  console.error(`❌ Warning: Expected 3 signals to watch, got ${analysis.signals_to_watch?.length}`);
-}
+validateAnalysisStrict(analysis);
 
 // Calculate input hash for reproducibility
 const aggregateContent = fs.readFileSync(aggregatePath, 'utf8');
@@ -341,7 +357,7 @@ const aggregateSha256 = createHash('sha256').update(aggregateContent).digest('he
 let codeCommit = 'unknown';
 try {
   codeCommit = execSync('git rev-parse HEAD', { cwd: PROJECT_ROOT }).toString().trim();
-} catch (e) {
+} catch {
   console.warn('⚠️  Could not determine git commit');
 }
 
@@ -361,7 +377,7 @@ const output = {
 };
 
 // Save the analysis
-const outputDir = path.join(PROJECT_ROOT, 'data', 'analysis');
+const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'analysis');
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }

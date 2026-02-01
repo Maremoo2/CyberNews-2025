@@ -24,6 +24,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+// Utility to clean and truncate cluster titles
+function cleanClusterTitle(title) {
+  if (!title) return "Untitled";
+  const cleaned = String(title)
+    .replace(/\s+/g, " ")  // Collapse whitespace
+    .trim();
+  if (cleaned.length > 120) {
+    return cleaned.slice(0, 120) + "...";
+  }
+  return cleaned;
+}
+
 // Parse command line arguments
 const args = process.argv.slice(2);
 let targetWeek = null;
@@ -281,7 +293,7 @@ function createClusters(incidents) {
   // Calculate cluster statistics
   return Object.values(clusters)
     .map(cluster => ({
-      title: cluster.incidents[0]?.title || cluster.title,
+      title: cleanClusterTitle(cluster.incidents[0]?.title || cluster.title),
       size: cluster.incidents.length,
       confidence: Math.min(0.95, 0.6 + (cluster.incidents.length / incidents.length) * 0.35)
     }))
@@ -355,7 +367,7 @@ const aggregate = {
 };
 
 // Save the aggregate
-const outputDir = path.join(PROJECT_ROOT, 'data', 'aggregates');
+const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'aggregates');
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
