@@ -1,5 +1,133 @@
 [
   {
+    "id": "20265046",
+    "date": "2026-02-01",
+    "title": "Datacenters : ce que révèle la première réunion à Bercy sur les projets en cours et à venir en France",
+    "summary": "La ministre Anne Le Hénanff dirigeait vendredi les premières Rencontres des Centres de données à Bercy. Avec 63 sites identifiés et 28,6 gigawatts recherchés pour faire de la France un hub de l'IA, les discussions progressent.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598390-data-centers-ce-que-revele-la-premiere-reunion-a-bercy-sur-les-projets-en-cours-et-a-venir-en-france.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265047",
+    "date": "2026-02-01",
+    "title": "Stop à l’exploitation silencieuse des données en ligne : comment protéger les usages web de votre entreprise",
+    "summary": "Le tout web a changé la donne en entreprise. Quand l’essentiel du travail passe par des interfaces en ligne, les accès, les sessions et les échanges deviennent une cible, surtout hors site. Il est temps de reprendre la main.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597163-stop-a-l-exploitation-silencieuse-des-donnees-en-ligne-comment-proteger-les-usages-web-de-votre-entreprise.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265048",
+    "date": "2026-02-01",
+    "title": "Dernières heures pour profiter de ce célèbre VPN à prix choc avec un mois offert !",
+    "summary": "Wi-Fi public, déplacements, connexions rapides… un simple réflexe peut éviter bien des soucis. Avec son offre actuelle, NordVPN rend cette protection plus facile à adopter au quotidien.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598276-dernieres-heures-pour-profiter-de-ce-celebre-vpn-a-prix-choc-avec-un-mois-offert.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265049",
+    "date": "2026-02-01",
+    "title": "Meilleur VPN : le comparatif en février 2026",
+    "summary": "Protéger ses connexions, éviter le pistage trop curieux et garder un peu de marge de manœuvre sur le web, en 2026, choisir le meilleur VPN dépend surtout de vos priorités. CyberGhost prend la tête de notre comparatif grâce à son équilibre d'ensemble, une appli facile à vivre, des fonctions solide...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-844220-1-comparatif-vpn.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265050",
+    "date": "2026-02-01",
+    "title": "Week in review: Microsoft fixes exploited Office zero-day, Fortinet patches FortiCloud SSO flaw",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: When open science meets real-world cybersecurity In this Help Net Security interview, Matthew Kwiatkowski, CISO at Fermilab, America’s particle physics and accelerator laboratory, discusses where cyb...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/01/week-in-review-microsoft-fixes-exploited-office-zero-day-fortinet-patches-forticloud-sso-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "microsoft",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265051",
+    "date": "2026-02-01",
+    "title": "The Rise of the Security Data Fabric: Converging SIEM, Data Engineering, and AI",
+    "summary": "In this post, I will talk about the rise of the security data fabric and converging SIEM, data engineering, and AI. For years, cybersecurity analytics has promised better visibility, faster detection, and more decisive response. In reality, many organizations found themselves buried under sprawli...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/converging-siem-data-engineering-and-ai/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265052",
+    "date": "2026-02-01",
+    "title": "Today’s Most Common Threats Against Cybersecurity",
+    "summary": "There’s no denying that cybersecurity is an issue for anyone who uses a device. It doesn’t matter if it’s a person, a business, or an institution. Since most people use some form of technology and are always connected online, this is an ideal target for cyberattacks. Many different types of secur...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/todays-most-common-threats-against-cybersecurity/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265053",
+    "date": "2026-02-01",
+    "title": "After TikTok: Navigating the Complex Web of Foreign Tech Bans",
+    "summary": "As federal and state governments extend their lists of banned foreign technologies, where is this trend heading next? Is your home network safe for work use?",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Lohrmann on Infrastructure",
+    "sourceUrl": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/after-tiktok-navigating-the-complex-web-of-foreign-tech-bans",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265054",
+    "date": "2026-02-01",
+    "title": "Richard Melick: Finding the right pattern to solve the problem. [Threat reporting] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Richard Melick, Director of Threat Reporting for Zimperium, talks about his journey, from working in the military to moving up to the big screens. He shares that he's been in the business of solving unique cybersecurity problems for so long that he has fo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/106/notes",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20265036",
     "date": "2026-02-01",
     "title": "Dropp risen: Fem bortkastede «lifehacks» for teknologiprodukter",
