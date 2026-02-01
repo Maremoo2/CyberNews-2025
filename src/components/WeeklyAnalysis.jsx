@@ -30,17 +30,20 @@ function WeeklyAnalysis() {
           attempts.push(`/data/analysis/week_${weekStr}.json`);
         }
 
-        // Try each file in order
+        // Try each file in order (silently)
         let data = null;
+        let foundFile = null;
         for (const url of attempts) {
           try {
             const response = await fetch(url);
             if (response.ok) {
               data = await response.json();
+              foundFile = url;
               break;
             }
+            // Silently continue on 404 - this is expected before first run
           } catch {
-            // Continue to next attempt
+            // Silently continue to next attempt - network errors are also expected
           }
         }
 
@@ -53,7 +56,10 @@ function WeeklyAnalysis() {
         setAnalysisData(data);
         setLoading(false);
       } catch (err) {
-        console.error('Error loading analysis:', err);
+        // Only log unexpected errors (not 404s)
+        if (err.message && !err.message.includes('404')) {
+          console.error('Error loading analysis:', err);
+        }
         setError('Failed to load analysis data');
         setLoading(false);
       }

@@ -12,6 +12,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createHash } from 'crypto';
+import { execSync } from 'child_process';
 import OpenAI from 'openai';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -261,6 +263,8 @@ async function callOpenAIWithRetry(maxRetries = 3) {
           { role: "user", content: userPrompt }
         ],
         temperature: 0.3,
+        max_tokens: 2000, // Limit output tokens for cost control
+        timeout: 90000, // 90 second timeout
         response_format: {
           type: "json_schema",
           json_schema: {
@@ -276,6 +280,7 @@ async function callOpenAIWithRetry(maxRetries = 3) {
       
       console.log(`✅ API call successful (${duration}s)`);
       console.log(`   Tokens used: ${completion.usage.total_tokens} (prompt: ${completion.usage.prompt_tokens}, completion: ${completion.usage.completion_tokens})`);
+      console.log(`   Cost estimate: $${((completion.usage.prompt_tokens * 0.0000025) + (completion.usage.completion_tokens * 0.00001)).toFixed(4)}`);
       
       return {
         analysis: JSON.parse(completion.choices[0].message.content),
@@ -328,13 +333,28 @@ if (analysis.signals_to_watch?.length !== 3) {
   console.error(`❌ Warning: Expected 3 signals to watch, got ${analysis.signals_to_watch?.length}`);
 }
 
+// Calculate input hash for reproducibility
+const aggregateContent = fs.readFileSync(aggregatePath, 'utf8');
+const aggregateSha256 = createHash('sha256').update(aggregateContent).digest('hex');
+
+// Get current git commit
+let codeCommit = 'unknown';
+try {
+  codeCommit = execSync('git rev-parse HEAD', { cwd: PROJECT_ROOT }).toString().trim();
+} catch (e) {
+  console.warn('⚠️  Could not determine git commit');
+}
+
 // Build the output with metadata
 const output = {
   generated_at: new Date().toISOString(),
   pipeline_run_id: `run_${new Date().toISOString().replace(/[:.]/g, '').slice(0, 15)}`,
   model: result.model || "gpt-4o-2024-08-06",
   prompt_version: "v1.0",
+  schema_version: "v1.0",
   aggregate_path: path.relative(PROJECT_ROOT, aggregatePath),
+  aggregate_sha256: aggregateSha256,
+  code_commit: codeCommit,
   token_usage: result.usage,
   duration_seconds: parseFloat(result.duration),
   analysis: analysis

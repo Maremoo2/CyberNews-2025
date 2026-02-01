@@ -21,7 +21,8 @@
     "audit-clustering": "node scripts/audit-clustering.js --year=2026",
     "audit-clustering-2025": "node scripts/audit-clustering.js --year=2025",
     "aggregate-weekly": "node scripts/aggregate_weekly.js",
-    "analyze-weekly": "node scripts/weekly_sensemaking.js"
+    "analyze-weekly": "node scripts/weekly_sensemaking.js",
+    "test-ai-safety": "node tests/test_ai_safety.js"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",

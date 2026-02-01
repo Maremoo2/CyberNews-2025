@@ -37,14 +37,51 @@ jobs:
         run: npm run aggregate-weekly
         
       - name: Run AI analysis
+        id: ai-analysis
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run analyze-weekly
       
-      - name: Check for changes
+      - name: Check for changes and prevent duplicates
         id: git-check
         run: |
-          git diff --exit-code data/ || echo "changed=true" >> $GITHUB_OUTPUT
+          # Check if there are any actual changes
+          if git diff --staged --quiet && git diff --quiet data/; then
+            echo "No changes detected"
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Get week identifier
+          WEEK_FILE=$(ls -1t data/aggregates/week_*.json 2>/dev/null | head -1 || echo "")
+          if [ -z "$WEEK_FILE" ]; then
+            echo "No aggregate files found"
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          WEEK=$(basename "$WEEK_FILE" .json | sed 's/week_//')
+          echo "week=$WEEK" >> $GITHUB_OUTPUT
+          
+          # Check if this week's files already exist in the repo
+          AGGREGATE_EXISTS=$(git ls-files "data/aggregates/week_${WEEK}.json" | wc -l)
+          ANALYSIS_EXISTS=$(git ls-files "data/analysis/week_${WEEK}.json" | wc -l)
+          
+          if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ]; then
+            echo "Week $WEEK already processed - skipping commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Determine what to commit
+          if [ "${{ steps.ai-analysis.outcome }}" == "success" ]; then
+            echo "commit_type=both" >> $GITHUB_OUTPUT
+          else
+            echo "commit_type=aggregate_only" >> $GITHUB_OUTPUT
+          fi
+          
+          echo "changed=true" >> $GITHUB_OUTPUT
       
       - name: Commit and push analysis results
         if: steps.git-check.outputs.changed == 'true'
@@ -53,13 +90,22 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Get the week identifier for commit message
-          WEEK_FILE=$(ls -1t data/aggregates/week_*.json | head -1)
-          WEEK=$(basename "$WEEK_FILE" .json | sed 's/week_//')
+          WEEK="${{ steps.git-check.outputs.week }}"
+          COMMIT_TYPE="${{ steps.git-check.outputs.commit_type }}"
           
-          # Add files before any retry logic to ensure they're staged
-          git add data/aggregates/*.json data/analysis/*.json
-          git commit -m "chore: add weekly AI analysis for week $WEEK"
+          # Stage appropriate files
+          if [ "$COMMIT_TYPE" == "both" ]; then
+            git add data/aggregates/week_${WEEK}.json data/analysis/week_${WEEK}.json
+            COMMIT_MSG="chore: add weekly AI analysis for week $WEEK"
+          else
+            git add data/aggregates/week_${WEEK}.json
+            COMMIT_MSG="chore: add weekly aggregate for week $WEEK (AI analysis failed)"
+          fi
+          
+          # Only commit if there are staged changes
+          git diff --staged --quiet && echo "No staged changes" && exit 0
+          
+          git commit -m "$COMMIT_MSG"
           
           # Try a few times to push (concurrent writers may conflict)
           for i in 1 2 3 4 5; do

@@ -235,25 +235,51 @@ All API keys are stored in environment variables or GitHub secrets, never commit
 ### 2. Schema Validation
 All AI outputs are validated against strict JSON schemas before being saved. Invalid outputs are rejected.
 
-### 3. Audit Trail
-Every analysis includes:
+### 3. Audit Trail & Reproducibility
+Every analysis includes complete metadata for reproducibility:
 - `generated_at`: ISO timestamp
 - `pipeline_run_id`: Unique run identifier
 - `model`: Exact model version used
 - `prompt_version`: System prompt version
+- `schema_version`: Output schema version
 - `aggregate_path`: Source data path
+- `aggregate_sha256`: SHA-256 hash of input aggregate (for reproducibility)
+- `code_commit`: Git commit hash of the code that generated the analysis
 - `token_usage`: OpenAI API token consumption
 - `duration_seconds`: Analysis duration
 
-### 4. Rate Limiting
-The system includes retry logic with exponential backoff to handle rate limits gracefully.
+This allows you to:
+- Verify exactly what data the AI saw
+- Reproduce analyses with the same inputs
+- Track changes in output quality over time
+- Debug unexpected analysis results
 
-### 5. Error Handling
-Comprehensive error handling ensures failures don't corrupt data or commit partial results.
+### 4. Rate Limiting & Cost Control
+- **Max tokens limit**: 2000 output tokens to prevent cost balloon
+- **Timeout**: 90 second timeout to prevent hanging
+- **Retry logic**: Exponential backoff for rate limit handling
+- **Cost logging**: Every run logs estimated cost
+
+### 5. Error Handling & Fail-Safe
+- If AI analysis fails, the workflow commits only the aggregate (preserves data)
+- Comprehensive error handling ensures failures don't corrupt existing data
+- Duplicate detection prevents re-processing the same week
+
+### 6. Input Safety Testing
+Automated test ensures the AI only sees aggregates, never raw incidents:
+```bash
+npm run test-ai-safety
+```
+
+This test validates:
+- No raw incident file patterns in the code
+- Only aggregate directory is accessed
+- No dynamic path construction to incident files
+- OpenAI calls do not reference raw incident arrays
 
 ## Cost Monitoring
 
-Each analysis logs token usage:
+Each analysis logs token usage and cost estimate:
 ```json
 "token_usage": {
   "prompt_tokens": 2500,
@@ -262,9 +288,19 @@ Each analysis logs token usage:
 }
 ```
 
+Console output includes:
+```
+Tokens used: 3700 (prompt: 2500, completion: 1200)
+Cost estimate: $0.0338
+```
+
 **Estimated cost per analysis**: $0.02-0.05 (based on gpt-4o-2024-08-06 pricing)
 
 **Monthly cost** (4 analyses): ~$0.10-0.20
+
+**Cost protection**:
+- Max output tokens: 2000 (prevents runaway generation)
+- Timeout: 90 seconds (prevents hanging requests)
 
 ## Testing
 
@@ -277,6 +313,13 @@ node tests/test_aggregation.js
 ```bash
 node tests/test_schema.js
 ```
+
+### Run AI Input Safety Tests
+```bash
+npm run test-ai-safety
+```
+
+This critical test ensures the AI model never sees raw incident data.
 
 ### Test with Sample Data
 ```bash
