@@ -1,5 +1,77 @@
 [
   {
+    "id": "20265058",
+    "date": "2026-02-01",
+    "title": "You don't need to pay for third-party antivirus software to protect your PC anymore",
+    "summary": "Do you still pay for third-party antivirus software like Norton or McAfee? You may be surprised to learn that there’s no real benefit to doing so. Software like this is mostly obsolete today.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/you-dont-need-to-pay-for-third-party-antivirus-software-to-protect-your-pc-anymore/",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265059",
+    "date": "2026-02-01",
+    "title": "I invited hackers to attack my home server, and the results were a wake-up call",
+    "summary": "Self-hosting is both an entertaining hobby if you like computers, and a reasonable way to save a few dollars if you swap out your subscription services for something you host yourself. It does come with a bit of risk, however, if you put your self-hosted services online so they're accessible from...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/made-honeypot-for-linux-server/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265060",
+    "date": "2026-02-01",
+    "title": "Real estate agents in Australia using apps that leave millions of lease documents at risk, digital researcher says",
+    "summary": "‘This is a blatant and disturbing disregard for the law and for people’s security,’ digital rights advocate saysGet our breaking news email, free app or daily news podcastAustralian platforms used by real estate agents to upload documentation for renters and landlords are leaving people’s persona...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Guardian - Data & Computer Security",
+    "sourceUrl": "https://www.theguardian.com/australia-news/2026/feb/02/real-estate-agents-in-australia-using-apps-that-leave-millions-of-lease-documents-at-risk-digital-researcher-says",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265061",
+    "date": "2026-02-01",
+    "title": "Exposed MongoDB instances still targeted in data extortion attacks",
+    "summary": "A threat actor is targeting exposed MongoDB instances in automated data extortion attacks demanding low ransoms from owners to restore the data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/exposed-mongodb-instances-still-targeted-in-data-extortion-attacks/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265062",
+    "date": "2026-02-01",
+    "title": "New Apple privacy feature limits location tracking on iPhones, iPads",
+    "summary": "Apple is introducing a new privacy feature that lets users limit the precision of location data shared with cellular networks on some iPhone and iPad models. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/new-apple-privacy-feature-limits-location-tracking-on-iphones-ipads/",
+    "tags": [
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265055",
     "date": "2026-02-01",
     "title": "Nå blir KI-modeller satt på harde prøver – med et klassisk Nintendo-spill",
