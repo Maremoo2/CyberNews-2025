@@ -42,7 +42,7 @@ function WeeklyAnalysis() {
               data = await response.json();
               break;
             }
-          } catch (e) {
+          } catch {
             // Continue to next attempt
           }
         }

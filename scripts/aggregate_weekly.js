@@ -18,7 +18,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { startOfWeek, endOfWeek, format, parseISO, getISOWeek, getISOWeekYear } from 'date-fns';
+import { startOfWeek, endOfWeek, format, getISOWeek, getISOWeekYear } from 'date-fns';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -236,14 +236,14 @@ function calculateAttackChainDistribution(incidents) {
     const mitreAttacks = incident.aiAnalysis?.mitreAttack || [];
     mitreAttacks.forEach(attack => {
       const tactic = (attack.tactic || '').toLowerCase().replace(/\s+/g, '_');
-      if (chainCounts.hasOwnProperty(tactic)) {
+      if (Object.prototype.hasOwnProperty.call(chainCounts, tactic)) {
         chainCounts[tactic]++;
       }
     });
   });
   
   return Object.entries(chainCounts)
-    .filter(([_, count]) => count > 0)
+    .filter(([, count]) => count > 0)
     .map(([tactic, count]) => ({
       tactic,
       count,
@@ -326,7 +326,7 @@ function calculateQualityMetadata(incidents) {
   
   const sortedSources = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1]);
   const topThreeSources = sortedSources.slice(0, 3);
-  const topThreeCount = topThreeSources.reduce((sum, [_, count]) => sum + count, 0);
+  const topThreeCount = topThreeSources.reduce((sum, [, count]) => sum + count, 0);
   const topThreePct = incidents.length > 0 ? ((topThreeCount / incidents.length) * 100).toFixed(0) : 0;
   
   const avgConfidence = confidenceCount > 0 ? (totalConfidence / confidenceCount).toFixed(2) : 0;
