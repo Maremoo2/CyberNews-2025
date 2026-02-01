@@ -168,7 +168,7 @@ function ExecutiveSummary({ incidents, selectedYear }) {
         <div className="summary-card severity-card">
           <h3>🎯 Severity Distribution</h3>
           <div className="count-type-label">
-            <small>Count type: unique incidents</small>
+            <small>Count type: incident-related items (not deduplicated)</small>
           </div>
           
           {/* Confidence Badge for severity data - using centralized rules with raw numbers */}

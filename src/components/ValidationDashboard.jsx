@@ -164,7 +164,7 @@ function ValidationDashboard({ incidents, learningLog }) {
         <div className="validation-metric-card">
           <div className="metric-header">
             <span className="metric-icon">🔍</span>
-            <h4>Deduplication Accuracy</h4>
+            <h4>URL Uniqueness Rate</h4>
           </div>
           <div className="metric-value-display">
             <span className="metric-big-value">{validationMetrics.dedupeAccuracy}%</span>
@@ -179,7 +179,7 @@ function ValidationDashboard({ incidents, learningLog }) {
             ></div>
           </div>
           <p className="metric-description">
-            Ratio of unique URLs to total incidents
+            Ratio of unique URLs to total items (not a deduplication accuracy measure)
           </p>
         </div>
 
@@ -187,23 +187,23 @@ function ValidationDashboard({ incidents, learningLog }) {
         <div className="validation-metric-card">
           <div className="metric-header">
             <span className="metric-icon">⚠️</span>
-            <h4>False Merge Rate</h4>
+            <h4>False Merges Detected</h4>
           </div>
           <div className="metric-value-display">
-            <span className="metric-big-value">{validationMetrics.falseMergeRate}%</span>
-            <span className="metric-sub-value">({validationMetrics.falseMerges} incidents)</span>
+            <span className="metric-big-value">{validationMetrics.falseMerges}</span>
+            <span className="metric-sub-value">detected (manual review)</span>
           </div>
           <div className="metric-bar">
             <div 
               className="metric-bar-fill"
               style={{ 
-                width: `${validationMetrics.falseMergeRate}%`,
-                background: validationMetrics.falseMergeRate < 5 ? '#16a34a' : '#dc2626'
+                width: `${Math.min(validationMetrics.falseMergeRate, 100)}%`,
+                background: validationMetrics.falseMerges === 0 ? '#16a34a' : '#dc2626'
               }}
             ></div>
           </div>
           <p className="metric-description">
-            Incidents incorrectly merged (lower is better)
+            False merges identified so far (not a proven 0% rate)
           </p>
         </div>
 
@@ -237,12 +237,12 @@ function ValidationDashboard({ incidents, learningLog }) {
         <div className="validation-metric-card">
           <div className="metric-header">
             <span className="metric-icon">🛡️</span>
-            <h4>MITRE ATT&CK Coverage</h4>
+            <h4>MITRE Mapping Coverage</h4>
           </div>
           <div className="metric-value-display">
             <span className="metric-big-value">{validationMetrics.mitreCoverageRate}%</span>
             <span className="metric-sub-value">
-              {validationMetrics.mitreConfidenceRate}% high confidence
+              (keyword-based mapping)
             </span>
           </div>
           <div className="metric-bar">
@@ -255,7 +255,10 @@ function ValidationDashboard({ incidents, learningLog }) {
             ></div>
           </div>
           <p className="metric-description">
-            Incidents mapped to MITRE techniques
+            Items with any MITRE technique mapping
+          </p>
+          <p className="metric-description" style={{ marginTop: '0.5rem', fontSize: '0.85rem', color: '#9ca3af' }}>
+            <strong>High-confidence MITRE:</strong> {validationMetrics.mitreConfidenceRate}% (pattern + context + disambiguation)
           </p>
         </div>
 

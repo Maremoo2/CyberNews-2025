@@ -35,6 +35,7 @@ import TrendContinuity from './components/TrendContinuity'
 import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
+import DataModelTooltip from './components/DataModelTooltip'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -516,6 +517,9 @@ function App() {
                 ? "Year-to-date coverage of cybersecurity news and incidents"
                 : "Overview of cybersecurity incidents"}
             </p>
+            <div style={{ marginTop: '0.75rem', marginBottom: '0.75rem' }}>
+              <DataModelTooltip />
+            </div>
             <div className="data-timestamp-section">
               <p className="data-through" title="Latest article published date in dataset">
                 📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'} <em>(latest article published)</em>
