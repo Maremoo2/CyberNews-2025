@@ -216,7 +216,7 @@
   gap: 1.5rem;
 }
 
-.quarter-card {
+.forecast-quarter-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 1.5rem;
@@ -224,20 +224,20 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.quarter-card h4 {
+.forecast-quarter-card h4 {
   margin: 0 0 1rem 0;
   font-size: 1.1rem;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   padding-bottom: 0.5rem;
 }
 
-.quarter-card ul {
+.forecast-quarter-card ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.quarter-card li {
+.forecast-quarter-card li {
   padding: 0.5rem 0;
   padding-left: 1.5rem;
   position: relative;
@@ -245,7 +245,7 @@
   font-size: 0.9rem;
 }
 
-.quarter-card li:before {
+.forecast-quarter-card li:before {
   content: '✓';
   position: absolute;
   left: 0;
