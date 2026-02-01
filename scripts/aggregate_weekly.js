@@ -30,7 +30,10 @@ function cleanClusterTitle(title) {
   const cleaned = String(title)
     .replace(/\s+/g, " ")  // Collapse whitespace
     .trim();
-  return cleaned.slice(0, 120) + (cleaned.length > 120 ? "..." : "");
+  if (cleaned.length > 120) {
+    return cleaned.slice(0, 120) + "...";
+  }
+  return cleaned;
 }
 
 // Parse command line arguments
