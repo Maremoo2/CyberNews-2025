@@ -48,7 +48,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/incidents-2026.json data/metadata.json
-          git commit -m "chore: update incidents with new articles from Inoreader [skip ci]"
+          git commit -m "chore: update incidents with new articles from Inoreader"
           
           # Try a few times to survive concurrent writers
           for i in 1 2 3 4 5; do
