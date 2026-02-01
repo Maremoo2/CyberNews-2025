@@ -27,11 +27,10 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 // Utility to clean and truncate cluster titles
 function cleanClusterTitle(title) {
   if (!title) return "Untitled";
-  return String(title)
+  const cleaned = String(title)
     .replace(/\s+/g, " ")  // Collapse whitespace
-    .trim()
-    .slice(0, 120)         // Truncate to 120 chars
-    + (title.length > 120 ? "..." : "");
+    .trim();
+  return cleaned.slice(0, 120) + (cleaned.length > 120 ? "..." : "");
 }
 
 // Parse command line arguments
