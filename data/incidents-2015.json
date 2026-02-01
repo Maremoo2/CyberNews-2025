@@ -2356,6 +2356,49 @@
     "impact": 3
   },
   {
+    "id": "2015001",
+    "date": "2015-05-21",
+    "title": "Abusing JSON: Why AWS CloudFormation sucks?!",
+    "summary": "AWS CloudFormation (CFN) is a file-based interface for provisioning AWS resources and in that way is Amazons answer on the ‘Infrastructure as Code’ paradigm. I am a huge fan of this approach and CFN is a big step into the right direction as it supports not just common DevOps ideas, by allowing de...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/why-aws-cloudformation-sucks/",
+    "tags": [
+      "cloud",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2015002",
+    "date": "2015-05-21",
+    "title": "Evolution of a Microservice: A Git History Visualisation",
+    "summary": "Microservices have revolutionized the way we develop and deploy software applications. But with great power comes great complexity. As microservices become more and more ubiquitous, developers must grapple with new challenges, such as managing dependencies, ensuring scalability, and maintaining c...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/microservice-evolution/",
+    "tags": [
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2015003",
+    "date": "2015-04-28",
+    "title": "Python Docopt: Convert Tuple List to Dictionary",
+    "summary": "Using Python Docopt (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I’d like to document the solution… 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 \"\"\" usage: mytool [options] options: --foo-...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/howto-convert-tuplelist-dictionary/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2015003",
     "date": "2015-04-28",
     "title": "Python Docopt: Convert Tuple List to Dictionary",
@@ -3265,6 +3308,20 @@
     "sourceName": "Brennenstuhl on Security Engineering Blog",
     "sourceUrl": "https://www.janbrennenstuhl.eu/howto-convert-tuplelist-dictionary/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2015004",
+    "date": "2015-04-15",
+    "title": "How to Migrate SVN to GIT with History?",
+    "summary": "Today I’d like to share my solution for a common problem a lot of IT companies experience when finally moving from Subversion (SVN) to Git as their central version control system (VCS): Converting a SVN repository into a Git repo including its commit history and authors. To achieve this, I decide...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/howto-convert-svn-git/",
+    "tags": [
+      "malware"
+    ],
     "impact": 3
   },
   {
@@ -4329,6 +4386,18 @@
     "tags": [
       "malware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2015005",
+    "date": "2015-03-25",
+    "title": "How to Check Github Licenses",
+    "summary": "On Github, every organization with a fast growing open-source codebase quickly figures out a couple of shortcomings regarding the Github web interface. Especially, when it comes to Github organizations that are already around for some time, you often find some information missing that could proba...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/github-license-checker/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -5241,6 +5310,23 @@
     "sourceName": "Brennenstuhl on Security Engineering Blog",
     "sourceUrl": "https://www.janbrennenstuhl.eu/github-license-checker/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2015006",
+    "date": "2015-03-18",
+    "title": "AWS Monocyte: Let's Build a Cloud Immune System",
+    "summary": "With Ireland and Frankfurt being available as AWS regions nowadays, Amazon (more or less) tried to extinguish EU and especially German legal concerns regarding storage and processing of privacy-related data. However, for European companies it remains difficult to prevent (accidental) usage of ser...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/aws-cloud-immune-system/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
     "impact": 3
   },
   {
