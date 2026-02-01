@@ -379,6 +379,26 @@ function App() {
       if (cisoMode.highConfidenceOnly) {
         filtered = filtered.filter(incident => incident.confidence >= 70)
       }
+      // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
+      if (cisoMode.confirmedOnly) {
+        filtered = filtered.filter(incident => {
+          // Exclude opinion and explainer content
+          if (incident.content_type === 'opinion' || incident.content_type === 'explainer' || 
+              incident.content_type === 'product' || incident.content_type === 'policy') {
+            return false;
+          }
+          // Check for speculation keywords in title/summary
+          const text = `${incident.title} ${incident.summary}`.toLowerCase();
+          const speculationKeywords = ['rumor', 'alleged', 'reportedly', 'claims', 'speculation', 'unconfirmed'];
+          if (speculationKeywords.some(kw => text.includes(kw))) {
+            return false;
+          }
+          // Require either: curated, or high confidence (70+), or confirmed keywords
+          const confirmedKeywords = ['confirmed', 'official', 'announced', 'disclosed', 'admitted'];
+          const hasConfirmed = confirmedKeywords.some(kw => text.includes(kw));
+          return incident.is_curated || incident.confidence >= 70 || hasConfirmed;
+        });
+      }
     }
 
     // Filter by month
@@ -540,15 +560,22 @@ function App() {
                 </span>
               ) : (
                 <>
-                  <span className="count-item">
-                    <strong>{uniqueIncidentCount}</strong> unique items (deduplicated)
+                  <span className="count-item primary-metric" title="Estimated unique incidents based on clustering (org + attack type + date ±3 days)">
+                    <span className="metric-icon">🎯</span>
+                    <strong>{uniqueIncidentCount}</strong> estimated unique incidents (global clusters)
                   </span>
                   <span className="count-separator"> • </span>
-                  <span className="count-item">
-                    <strong>{totalSourceCount}</strong> total sources/articles
+                  <span className="count-item secondary-metric" title="Total incident-related articles/items">
+                    <span className="metric-icon">📰</span>
+                    <strong>{totalSourceCount}</strong> items/articles
                   </span>
                 </>
               )}
+            </p>
+            <p className="data-clarification">
+              <small>
+                <em>Note: "Unique incidents" = estimated clusters of related articles. "Items" = individual news articles. See Data Model tooltip for details.</em>
+              </small>
             </p>
           </div>
           <div className="year-selector">
