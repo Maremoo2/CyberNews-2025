@@ -1,0 +1,90 @@
+name: Weekly Intelligence Analysis
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    # Allow manual triggering
+
+concurrency:
+  group: weekly-analysis
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run weekly aggregation
+        run: npm run aggregate-weekly
+        
+      - name: Run AI analysis
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run analyze-weekly
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code data/ || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push analysis results
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Get the week identifier for commit message
+          WEEK_FILE=$(ls -1t data/aggregates/week_*.json | head -1)
+          WEEK=$(basename "$WEEK_FILE" .json | sed 's/week_//')
+          
+          git add data/aggregates/*.json data/analysis/*.json
+          git commit -m "chore: add weekly AI analysis for week $WEEK"
+          
+          # Try a few times to survive concurrent writers
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i: fetch + rebase + push"
+            git fetch origin main
+            
+            # Clean working directory before rebase to avoid "unstaged changes" errors
+            git clean -fd
+            git restore .
+            
+            if ! git rebase origin/main; then
+              echo "Rebase failed (likely conflicts). Aborting rebase..."
+              git rebase --abort
+              echo "Backing off before retry..."
+              sleep $((i * 3))
+              continue
+            fi
+            
+            if git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            
+            echo "Push rejected (race). Backing off..."
+            sleep $((i * 3))
+          done
+          
+          echo "Push failed after retries"
+          exit 1

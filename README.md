@@ -129,6 +129,19 @@ System learns from corrections:
 - **Attribution Improvements**: Tracks attribution confidence changes
 - **Continuous Improvement**: System gets smarter over time
 
+### 🤖 AI-Powered Weekly Intelligence Analysis (NEW)
+Automated strategic analysis using OpenAI with strict safety constraints:
+- **Weekly Aggregation**: Automatically computes statistics from incident data
+- **Hypothesis Generation**: AI proposes 3 testable hypotheses about patterns
+- **Uncertainty Identification**: Highlights 3 key data gaps affecting analysis
+- **Watch Signals**: Recommends 3 metrics to monitor with specific thresholds
+- **Safety-First Design**: No raw data to AI, schema-locked outputs, audit trail
+- **Prominent Disclaimers**: All AI content clearly labeled as "hypotheses, not facts"
+- **Zero Hallucination Risk**: Model sees only aggregates, not individual articles
+- **Full Transparency**: Complete audit trail with model version, tokens used, timestamp
+
+📖 **[Read Full AI Analysis Documentation](docs/AI_ANALYSIS.md)**
+
 ---
 
 ## 📋 Core Features
@@ -225,6 +238,12 @@ npm run lint
 
 # Enrich incidents with MITRE ATT&CK and analytics
 npm run enrich-enhanced
+
+# Generate weekly aggregates
+npm run aggregate-weekly
+
+# Run AI weekly analysis (requires OPENAI_API_KEY in .env)
+npm run analyze-weekly
 
 # Validate year routing
 npm run validate-years
