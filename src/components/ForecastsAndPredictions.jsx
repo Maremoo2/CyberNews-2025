@@ -263,7 +263,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
       <div className="action-plan">
         <h3>📋 Strategic Action Plan for {nextYear}</h3>
         <div className="quarters-grid">
-          <div className="quarter-card">
+          <div className="forecast-quarter-card">
             <h4>Q1 {nextYear}: Assess and Plan</h4>
             <ul>
               <li>Conduct threat modeling based on these predictions</li>
@@ -272,7 +272,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
               <li>Update incident response playbooks</li>
             </ul>
           </div>
-          <div className="quarter-card">
+          <div className="forecast-quarter-card">
             <h4>Q2 {nextYear}: Deploy Foundations</h4>
             <ul>
               <li>Roll out MFA universally</li>
@@ -281,7 +281,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
               <li>Establish vendor risk management program</li>
             </ul>
           </div>
-          <div className="quarter-card">
+          <div className="forecast-quarter-card">
             <h4>Q3 {nextYear}: Mature Capabilities</h4>
             <ul>
               <li>Enhance threat detection with SIEM/SOAR</li>
@@ -290,7 +290,7 @@ function ForecastsAndPredictions({ incidents, selectedYear }) {
               <li>Implement data loss prevention</li>
             </ul>
           </div>
-          <div className="quarter-card">
+          <div className="forecast-quarter-card">
             <h4>Q4 {nextYear}: Optimize and Prepare</h4>
             <ul>
               <li>Measure security program effectiveness</li>
