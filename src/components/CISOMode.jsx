@@ -234,6 +234,11 @@ function CISOMode({ onModeChange, incidents }) {
             {mode.curatedOnly && <span className="filter-badge">Curated</span>}
             {mode.highConfidenceOnly && <span className="filter-badge">High Confidence</span>}
             {mode.confirmedOnly && <span className="filter-badge">Confirmed</span>}
+            {mode.confirmedOnly && mode._confirmedRetention && (
+              <span className="filter-retention-note">
+                📊 Confirmed-only retained: {mode._confirmedRetention}% of incident-related items
+              </span>
+            )}
           </div>
 
           {/* NEW: Most Disruptive Ongoing Cases */}

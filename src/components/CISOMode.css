@@ -159,6 +159,16 @@
   font-weight: 600;
 }
 
+.filter-retention-note {
+  font-size: 0.8125rem;
+  color: #6b7280;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 4px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
 @media (max-width: 768px) {
   .ciso-mode-panel {
     padding: 1rem;

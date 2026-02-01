@@ -381,23 +381,56 @@ function App() {
       }
       // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
       if (cisoMode.confirmedOnly) {
+        const preFilterCount = filtered.length;
+        
         filtered = filtered.filter(incident => {
-          // Exclude opinion and explainer content
-          if (incident.content_type === 'opinion' || incident.content_type === 'explainer' || 
-              incident.content_type === 'product' || incident.content_type === 'policy') {
-            return false;
-          }
-          // Check for speculation keywords in title/summary
           const text = `${incident.title} ${incident.summary}`.toLowerCase();
-          const speculationKeywords = ['rumor', 'alleged', 'reportedly', 'claims', 'speculation', 'unconfirmed'];
-          if (speculationKeywords.some(kw => text.includes(kw))) {
+          
+          // 1. Explicitly exclude promos (VPN deals, coupon language, product ads)
+          const promoKeywords = ['vpn deal', 'best vpn', 'discount', 'coupon', 'promo code', '% off', 'buy now', 'special offer'];
+          if (promoKeywords.some(kw => text.includes(kw))) {
             return false;
           }
-          // Require either: curated, or high confidence (70+), or confirmed keywords
-          const confirmedKeywords = ['confirmed', 'official', 'announced', 'disclosed', 'admitted'];
-          const hasConfirmed = confirmedKeywords.some(kw => text.includes(kw));
-          return incident.is_curated || incident.confidence >= 70 || hasConfirmed;
+          
+          // 2. Exclude obvious opinion/editorial, but only if confidence is low
+          if (incident.content_type === 'opinion' || incident.content_type === 'editorial' || incident.content_type === 'commentary') {
+            if (!incident.confidence || incident.confidence < 60) {
+              return false;
+            }
+          }
+          
+          // 3. Exclude product announcements unless they're incident-related
+          if (incident.content_type === 'product' && incident.content_type !== 'incident') {
+            return false;
+          }
+          
+          // 4. Check for speculation keywords - only disqualify if multiple conditions met
+          const speculationKeywords = ['rumor', 'alleged', 'reportedly', 'claims', 'speculation', 'unconfirmed'];
+          const hasSpeculation = speculationKeywords.some(kw => text.includes(kw));
+          
+          if (hasSpeculation) {
+            // Only exclude if: low source credibility AND single-source AND no corroboration
+            const lowCredibility = !incident.is_curated && (!incident.confidence || incident.confidence < 60);
+            const singleSource = !incident._cluster || incident._cluster.articleCount <= 1;
+            
+            if (lowCredibility && singleSource) {
+              return false;
+            }
+          }
+          
+          // 5. Require 2-source rule OR curated OR high-confidence (source-weighted)
+          // High confidence: curated content or confidence >= 70 from reputable source
+          const isHighConfidence = incident.is_curated || incident.confidence >= 70;
+          const hasMultipleSources = incident._cluster && incident._cluster.articleCount >= 2;
+          const hasConfirmation = ['confirmed', 'official', 'announced', 'disclosed', 'admitted'].some(kw => text.includes(kw));
+          
+          return isHighConfidence || hasMultipleSources || hasConfirmation;
         });
+        
+        // Track retention percentage
+        const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
+        // Store this for display (we'll add UI for this)
+        cisoMode._confirmedRetention = retentionPercent;
       }
     }
 
@@ -560,7 +593,7 @@ function App() {
                 </span>
               ) : (
                 <>
-                  <span className="count-item primary-metric" title="Estimated unique incidents based on clustering (org + attack type + date ±3 days)">
+                  <span className="count-item primary-metric" title={`Computed by: fingerprint(org + attack type + date ±3 days)\nLast pipeline run: ${lastUpdated.utc}\nCluster count may change as new sources arrive`}>
                     <span className="metric-icon">🎯</span>
                     <strong>{uniqueIncidentCount}</strong> estimated unique incidents (global clusters)
                   </span>
