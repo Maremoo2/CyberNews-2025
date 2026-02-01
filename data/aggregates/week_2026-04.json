@@ -1,0 +1,159 @@
+{
+  "week_start": "2026-01-19",
+  "week_end": "2026-01-25",
+  "week_number": 4,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1047,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-1.3",
+    "phishing_pct": "1.8",
+    "token_abuse_pct": "0.3",
+    "ransomware_pct": "-0.6"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.3",
+    "phishing_pct": "7.7",
+    "token_abuse_pct": "2.6",
+    "ransomware_pct": "4.5"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7361031518624642,
+      "item_count": 618
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6249283667621777,
+      "item_count": 327
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.617287488061127,
+      "item_count": 307
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5710601719197708,
+      "item_count": 186
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5542502387774594,
+      "item_count": 142
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5412607449856733,
+      "item_count": 108
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5359121298949379,
+      "item_count": 94
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5320916905444126,
+      "item_count": 84
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5320916905444126,
+      "item_count": 84
+    },
+    {
+      "theme": "spear phishing",
+      "confidence": 0.5206303724928367,
+      "item_count": 54
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 32,
+      "percentage": "3.1"
+    },
+    {
+      "sector": "technology",
+      "count": 27,
+      "percentage": "2.6"
+    },
+    {
+      "sector": "energy",
+      "count": 11,
+      "percentage": "1.1"
+    },
+    {
+      "sector": "healthcare",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "retail",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "finance",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "education",
+      "count": 4,
+      "percentage": "0.4"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Cybersecurity 101: How to Secure Your Home Network Like a Pro - DataDrivenInvestor",
+      "size": 36,
+      "confidence": 0.6120343839541547
+    },
+    {
+      "title": "Amazon Route 53 Domains adds support for .ai, and other top-level domains",
+      "size": 28,
+      "confidence": 0.609360076408787
+    },
+    {
+      "title": "UK cyber tests show banks' struggle with cybersecurity basics - American Banker",
+      "size": 26,
+      "confidence": 0.6086914995224451
+    },
+    {
+      "title": "[Ekstra] Slik fungerer Irans «halal-internett»",
+      "size": 22,
+      "confidence": 0.6073543457497612
+    },
+    {
+      "title": "Microsoft investigates Windows 11 boot failures after January updates | The Cyber Security Hub™",
+      "size": 18,
+      "confidence": 0.6060171919770774
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "55% from top 3 feeds",
+    "language_mix": "English: 878, Other: 97, French: 64, German: 8",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 327
+      },
+      {
+        "source": "Cyber",
+        "count": 186
+      },
+      {
+        "source": "Help Net Security",
+        "count": 64
+      }
+    ]
+  }
+}

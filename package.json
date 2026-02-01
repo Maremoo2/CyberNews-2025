@@ -19,12 +19,16 @@
     "gold-set:create": "node scripts/create-gold-set.js --create",
     "gold-set:validate": "node scripts/create-gold-set.js --validate",
     "audit-clustering": "node scripts/audit-clustering.js --year=2026",
-    "audit-clustering-2025": "node scripts/audit-clustering.js --year=2025"
+    "audit-clustering-2025": "node scripts/audit-clustering.js --year=2025",
+    "aggregate-weekly": "node scripts/aggregate_weekly.js",
+    "analyze-weekly": "node scripts/weekly_sensemaking.js"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
     "cheerio": "^1.0.0-rc.12",
+    "date-fns": "^3.0.0",
     "jsdom": "^24.0.0",
+    "openai": "^4.77.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "rss-parser": "^3.13.0"
@@ -34,6 +38,7 @@
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
+    "ajv": "^8.12.0",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
