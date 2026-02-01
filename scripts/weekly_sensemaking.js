@@ -357,7 +357,7 @@ const aggregateSha256 = createHash('sha256').update(aggregateContent).digest('he
 let codeCommit = 'unknown';
 try {
   codeCommit = execSync('git rev-parse HEAD', { cwd: PROJECT_ROOT }).toString().trim();
-} catch (e) {
+} catch {
   console.warn('⚠️  Could not determine git commit');
 }
 
