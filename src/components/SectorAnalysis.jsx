@@ -144,7 +144,7 @@ function SectorAnalysis({ incidents }) {
         <p className="sector-subtitle">Understanding why specific sectors are targeted</p>
         <p className="counting-label">
           <small>
-            <em>📰 Article mentions (includes media coverage) • 🔵 Unique incidents (deduplicated)</em>
+            <em>📰 Article mentions (item count) • 🔵 Sector-specific incident clusters (not globally deduplicated)</em>
           </small>
         </p>
       </div>
@@ -158,7 +158,7 @@ function SectorAnalysis({ incidents }) {
                 <h3>{capitalize(sector.name)}</h3>
                 <div className="sector-stats">
                   <span className="sector-count">
-                    🔵 {sector.uniqueIncidents} unique incidents<br/>
+                    🔵 {sector.uniqueIncidents} sector incident clusters<br/>
                     📰 {sector.count} article mentions
                   </span>
                   <span className="sector-percentage">{sector.percentage}% of coverage</span>
@@ -189,7 +189,7 @@ function SectorAnalysis({ incidents }) {
       <div className="sector-insight">
         <h3>💡 Strategic Insight</h3>
         <p>
-          <strong>{capitalize(sectorData[0]?.name)}</strong> dominated with <strong>{sectorData[0]?.uniqueIncidents} unique incidents</strong> (covered in {sectorData[0]?.count} articles, {sectorData[0]?.percentage}% of total coverage). 
+          <strong>{capitalize(sectorData[0]?.name)}</strong> dominated with <strong>{sectorData[0]?.uniqueIncidents} sector incident clusters</strong> (covered in {sectorData[0]?.count} articles, {sectorData[0]?.percentage}% of total coverage). 
           This concentration reflects {getSectorInsight(sectorData[0]?.name)}. 
           Organizations in these sectors must prioritize {getRecommendation(sectorData[0]?.name)}.
         </p>

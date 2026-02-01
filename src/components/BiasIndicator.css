@@ -67,6 +67,31 @@
   flex: 1;
 }
 
+.bias-recommendation {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: rgba(59, 130, 246, 0.15);
+  border-left: 3px solid #3b82f6;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.bias-recommendation .recommendation-icon {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.bias-recommendation .recommendation-text {
+  flex: 1;
+  font-size: 0.875rem;
+  color: #93c5fd;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 .bias-metrics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

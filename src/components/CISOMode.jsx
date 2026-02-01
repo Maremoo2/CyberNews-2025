@@ -9,6 +9,7 @@ import './CISOMode.css';
  * - Critical incidents only
  * - Curated (high-quality) incidents  
  * - High confidence mappings
+ * - Media signal vs confirmed toggle (NEW)
  * - Shows ongoing incidents list
  * - Most disruptive ongoing cases
  * - Fast-moving exploit-led exposure
@@ -16,10 +17,11 @@ import './CISOMode.css';
 function CISOMode({ onModeChange, incidents }) {
   const [mode, setMode] = useState({
     enabled: false,
-    incidentOnly: true,  // NEW: Default to incidents-only
+    incidentOnly: true,  // Default to incidents-only
     criticalOnly: false,
     curatedOnly: false,
-    highConfidenceOnly: false
+    highConfidenceOnly: false,
+    confirmedOnly: false  // NEW: Default to confirmed + credible (excludes speculation/opinion/promos)
   });
 
   const handleToggle = (field) => {
@@ -31,7 +33,7 @@ function CISOMode({ onModeChange, incidents }) {
     }
     
     // If disabling all filters, disable CISO mode
-    if (field !== 'enabled' && !newMode.incidentOnly && !newMode.criticalOnly && !newMode.curatedOnly && !newMode.highConfidenceOnly) {
+    if (field !== 'enabled' && !newMode.incidentOnly && !newMode.criticalOnly && !newMode.curatedOnly && !newMode.highConfidenceOnly && !newMode.confirmedOnly) {
       newMode.enabled = false;
     }
     
@@ -209,6 +211,21 @@ function CISOMode({ onModeChange, incidents }) {
                 </div>
               </div>
             </label>
+            
+            <label className={`filter-option ${mode.confirmedOnly ? 'active' : ''}`}>
+              <input
+                type="checkbox"
+                checked={mode.confirmedOnly}
+                onChange={() => handleToggle('confirmedOnly')}
+              />
+              <div className="filter-content">
+                <span className="filter-icon">✅</span>
+                <div className="filter-text">
+                  <strong>Confirmed Only</strong>
+                  <span className="filter-desc">Exclude opinion, promos, single-source speculation</span>
+                </div>
+              </div>
+            </label>
           </div>
 
           <div className="active-filters-summary">
@@ -216,6 +233,12 @@ function CISOMode({ onModeChange, incidents }) {
             {mode.criticalOnly && <span className="filter-badge">Critical</span>}
             {mode.curatedOnly && <span className="filter-badge">Curated</span>}
             {mode.highConfidenceOnly && <span className="filter-badge">High Confidence</span>}
+            {mode.confirmedOnly && <span className="filter-badge">Confirmed</span>}
+            {mode.confirmedOnly && mode._confirmedRetention && (
+              <span className="filter-retention-note">
+                📊 Confirmed-only retained: {mode._confirmedRetention}% of incident-related items
+              </span>
+            )}
           </div>
 
           {/* NEW: Most Disruptive Ongoing Cases */}

@@ -38,12 +38,21 @@ function MethodologyAndLimitations() {
           <h3>🔢 Counting Rules</h3>
           <div className="counting-explanation">
             <div className="counting-type">
-              <h4>Unique Incidents (Default)</h4>
+              <h4>Incident-Related Items (Default for Metrics)</h4>
               <p>
-                <span className="count-badge unique">Count type: unique incidents</span>
+                <span className="count-badge unique">Count type: incident-related items</span>
               </p>
               <p className="count-description">
-                Each incident is counted once, deduplicated by incident_id. This is the default counting method used in the Executive Summary and for all primary statistics.
+                Each news article/item is counted once. This is the default counting method used in severity distribution and most metrics. Note: Multiple articles may report on the same underlying incident.
+              </p>
+            </div>
+            <div className="counting-type">
+              <h4>Estimated Unique Incidents (Clusters)</h4>
+              <p>
+                <span className="count-badge mentions">Count type: incident clusters</span>
+              </p>
+              <p className="count-description">
+                Articles are grouped using heuristics (organization + attack type + date ±3 days) to estimate unique incidents. This is shown in the deduplication stats as "estimated unique incidents" and is an estimate, not a confirmed count.
               </p>
             </div>
             <div className="counting-type">
@@ -52,12 +61,12 @@ function MethodologyAndLimitations() {
                 <span className="count-badge mentions">Count type: tag mentions</span>
               </p>
               <p className="count-description">
-                When analyzing tags, sectors, or themes, counts represent mentions. Since a single incident can have multiple tags, sector totals may exceed the total number of unique incidents. This is explicitly indicated with labels.
+                When analyzing tags, sectors, or themes, counts represent mentions. Since a single item can have multiple tags, sector totals may exceed the total number of items. This is explicitly indicated with labels.
               </p>
             </div>
           </div>
           <div className="counting-note">
-            <strong>Important:</strong> Counts are always labeled with their type. Look for "unique incidents" vs "tag mentions" indicators throughout the dashboard.
+            <strong>Important:</strong> Counts are always labeled with their type. Look for "items/articles" vs "incident clusters" vs "tag mentions" indicators throughout the dashboard.
           </div>
         </div>
 

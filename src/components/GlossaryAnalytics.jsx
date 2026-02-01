@@ -69,7 +69,7 @@ function GlossaryAnalytics({ incidents }) {
     <div className="glossary-analytics">
       <h2>📊 Glossary Term Analytics</h2>
       <p className="analytics-description">
-        Analysis of cybersecurity terminology usage across {totalIncidents} incidents
+        Analysis of cybersecurity terminology usage across {totalIncidents} items/articles
       </p>
       
       <div className="analytics-summary">
@@ -79,7 +79,7 @@ function GlossaryAnalytics({ incidents }) {
         </div>
         <div className="summary-card">
           <div className="summary-value">{incidentsWithTerms}</div>
-          <div className="summary-label">Incidents Tagged</div>
+          <div className="summary-label">Items Tagged</div>
         </div>
         <div className="summary-card">
           <div className="summary-value">{coveragePercent}%</div>
@@ -141,7 +141,7 @@ function GlossaryAnalytics({ incidents }) {
       <div className="analytics-note">
         <p>
           <strong>Note:</strong> Term detection is automated using the cybersecurity glossary. 
-          Terms are extracted from incident titles, summaries, and tags during the enrichment process.
+          Terms are extracted from item titles, summaries, and tags during the enrichment process.
         </p>
       </div>
     </div>
