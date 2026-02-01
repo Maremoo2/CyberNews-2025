@@ -131,6 +131,30 @@ function DeduplicationStats({ incidents }) {
         organization name + attack type + date (±3 day window). Confidence scores are derived from source 
         credibility, enrichment data, and content analysis.
       </div>
+      
+      <div className="reconciliation-note" style={{ 
+        marginTop: '1rem', 
+        padding: '0.75rem', 
+        background: 'rgba(59, 130, 246, 0.1)', 
+        borderLeft: '3px solid #3b82f6',
+        borderRadius: '4px'
+      }}>
+        <strong>📊 Reconciliation Check:</strong>
+        <ul style={{ margin: '0.5rem 0 0 1.25rem', padding: 0, fontSize: '0.875rem' }}>
+          <li>
+            <strong>Total items:</strong> {stats.totalArticles.toLocaleString()} ✓
+          </li>
+          <li>
+            <strong>Estimated unique incidents:</strong> {stats.estimatedUniqueIncidents.toLocaleString()} ✓
+          </li>
+          <li>
+            <strong>Coverage ratio:</strong> {stats.deduplicationRatio}x (items per incident) ✓
+          </li>
+          <li style={{ marginTop: '0.5rem', color: '#9ca3af' }}>
+            <em>Note: Individual metrics may show different counts based on their specific filters (e.g., severity only shows incident-related items, sectors may use different deduplication scopes)</em>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

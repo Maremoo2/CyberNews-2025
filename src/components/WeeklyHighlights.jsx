@@ -15,6 +15,31 @@ function WeeklyHighlights({ incidents }) {
     // Filter incidents from last 7 days
     const recentIncidents = incidents.filter(incident => {
       if (!incident.date) return false;
+      
+      // Quality filter: exclude error/broken incidents
+      // Check for error indicators in title
+      const title = (incident.title || '').toLowerCase();
+      const errorIndicators = [
+        'access denied',
+        'cloudflare',
+        '403 forbidden',
+        '404 not found',
+        '500 internal server error',
+        'error',
+        'page not found',
+        'not available',
+        'unavailable'
+      ];
+      
+      const hasErrorIndicator = errorIndicators.some(indicator => title.includes(indicator));
+      if (hasErrorIndicator) return false;
+      
+      // Quality filter: require minimum title length
+      if (!incident.title || incident.title.length < 10) return false;
+      
+      // Quality filter: require summary to be present (not just errors)
+      if (!incident.summary || incident.summary.length < 20) return false;
+      
       return incident.date >= sevenDaysAgoStr;
     });
 
