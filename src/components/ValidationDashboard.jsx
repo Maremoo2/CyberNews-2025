@@ -197,7 +197,7 @@ function ValidationDashboard({ incidents, learningLog }) {
             <div 
               className="metric-bar-fill"
               style={{ 
-                width: `${Math.min(validationMetrics.falseMergeRate, 100)}%`,
+                width: validationMetrics.falseMerges === 0 ? '100%' : `${Math.min((validationMetrics.falseMerges / validationMetrics.totalIncidents) * 100, 100)}%`,
                 background: validationMetrics.falseMerges === 0 ? '#16a34a' : '#dc2626'
               }}
             ></div>

@@ -25,12 +25,12 @@ function WeeklyHighlights({ incidents }) {
         '403 forbidden',
         '404 not found',
         '500 internal server error',
-        'error',
         'page not found',
         'not available',
         'unavailable'
       ];
       
+      // Note: 'error' alone is too generic and may match legitimate incidents
       const hasErrorIndicator = errorIndicators.some(indicator => title.includes(indicator));
       if (hasErrorIndicator) return false;
       
