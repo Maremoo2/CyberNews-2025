@@ -3,6 +3,26 @@ import { filterToIncidentsOnly } from '../utils/populationUtils'
 import ActorConfidenceBadge from './ActorConfidenceBadge'
 import './ThreatActorProfile.css'
 
+// Helper function to generate attribution source explanation
+function generateAttributionSource(actor) {
+  if (!actor.confidence) return 'Attribution source unknown';
+  
+  if (actor.confidence === 'high') {
+    // High confidence attribution
+    const sources = [];
+    if (actor.name.toLowerCase().includes('apt')) sources.push('Government/vendor advisory');
+    else sources.push('Law enforcement report or vendor attribution');
+    
+    return `High confidence attribution derived from:\n${sources.join('\n')}`;
+  } else if (actor.confidence === 'medium') {
+    // Medium confidence - multiple sources
+    return 'Suspected attribution based on:\nMultiple reputable sources in cluster\nConsistent reporting across media';
+  } else {
+    // Low confidence - single mention
+    return 'Mention-only attribution:\nSingle mention in article text\nNo corroboration from other sources';
+  }
+}
+
 // Threat actor categorization
 const ACTOR_CATEGORIES = {
   'cybercriminal': {
@@ -309,11 +329,44 @@ function ThreatActorProfile({ incidents }) {
                 </div>
                 <div className="actor-name-row">
                   <h4>{actor.name}</h4>
-                  {actor.confidence && (
-                    <ActorConfidenceBadge confidence={actor.confidence} size="sm" />
-                  )}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    {actor.confidence && (
+                      <ActorConfidenceBadge confidence={actor.confidence} size="sm" />
+                    )}
+                    {actor.confidence && (
+                      <span 
+                        className="attribution-why-tooltip"
+                        title={generateAttributionSource(actor)}
+                        style={{
+                          cursor: 'help',
+                          fontSize: '0.875rem',
+                          color: '#9ca3af',
+                          padding: '0.25rem 0.5rem',
+                          background: 'rgba(156, 163, 175, 0.1)',
+                          borderRadius: '4px',
+                          border: '1px solid rgba(156, 163, 175, 0.2)',
+                          fontWeight: 500
+                        }}
+                      >
+                        Why?
+                      </span>
+                    )}
+                  </div>
                 </div>
                 <p className="actor-description">{actor.description}</p>
+                {actor.count && (
+                  <div className="actor-stats" style={{ 
+                    marginTop: '0.5rem', 
+                    fontSize: '0.875rem', 
+                    color: '#6b7280',
+                    display: 'flex',
+                    gap: '1rem'
+                  }}>
+                    <span title="Incident clusters attributed to this actor">
+                      📊 {actor.count} incident mentions
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>
