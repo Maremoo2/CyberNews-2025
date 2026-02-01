@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { filterToIncidentsOnly } from '../utils/populationUtils'
+import ActorConfidenceBadge from './ActorConfidenceBadge'
 import './ThreatActorProfile.css'
 
 // Threat actor categorization
@@ -53,6 +54,7 @@ const KNOWN_ACTORS = {
 
 function ThreatActorProfile({ incidents }) {
   const [isExpanded, setIsExpanded] = useState(true);
+  const [confidenceFilter, setConfidenceFilter] = useState(['high', 'medium']); // Default to 🟢 + 🟡
   
   const actorAnalysis = useMemo(() => {
     if (!incidents || incidents.length === 0) return null
@@ -68,10 +70,12 @@ function ThreatActorProfile({ incidents }) {
 
     const actorMentions = {}
 
-    // Analyze incidents - only use enriched actor_confidence if available
+    // Analyze incidents - filter by confidence level
     relevantIncidents.forEach(incident => {
-      // Skip if actor_confidence is explicitly low (when enriched data is available)
-      if (incident.actor_confidence && incident.actor_confidence === 'low') {
+      const actorConfidence = incident.actor_confidence || 'low';
+      
+      // Skip if not in selected confidence levels
+      if (!confidenceFilter.includes(actorConfidence)) {
         return;
       }
 
@@ -158,11 +162,22 @@ function ThreatActorProfile({ incidents }) {
       totalAllItems: incidents.length,
       categorizedIncidents: Object.values(categoryCounts).reduce((sum, c) => sum + c.count, 0)
     }
-  }, [incidents])
+  }, [incidents, confidenceFilter])
 
   if (!actorAnalysis || actorAnalysis.categoryDistribution.length === 0) {
     return null
   }
+
+  const toggleConfidenceFilter = (level) => {
+    if (confidenceFilter.includes(level)) {
+      // Don't allow removing all filters
+      if (confidenceFilter.length > 1) {
+        setConfidenceFilter(confidenceFilter.filter(l => l !== level));
+      }
+    } else {
+      setConfidenceFilter([...confidenceFilter, level]);
+    }
+  };
 
   return (
     <section className="threat-actor-profile" id="actors" aria-label="Threat Actor Analysis">
@@ -171,6 +186,41 @@ function ThreatActorProfile({ incidents }) {
         <p className="actor-subtitle">
           Understanding who is behind the attacks - their motives, methods, and targets
         </p>
+        
+        {/* Confidence Filter Toggle */}
+        <div className="confidence-filter-bar">
+          <span className="filter-label">Attribution confidence filter:</span>
+          <div className="confidence-toggles">
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('high') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('high')}
+              aria-pressed={confidenceFilter.includes('high')}
+            >
+              <ActorConfidenceBadge confidence="high" showLabel={false} size="sm" />
+              <span>High</span>
+            </button>
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('medium') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('medium')}
+              aria-pressed={confidenceFilter.includes('medium')}
+            >
+              <ActorConfidenceBadge confidence="medium" showLabel={false} size="sm" />
+              <span>Suspected</span>
+            </button>
+            <button
+              className={`confidence-toggle ${confidenceFilter.includes('low') ? 'active' : ''}`}
+              onClick={() => toggleConfidenceFilter('low')}
+              aria-pressed={confidenceFilter.includes('low')}
+            >
+              <ActorConfidenceBadge confidence="low" showLabel={false} size="sm" />
+              <span>Mention-only</span>
+            </button>
+          </div>
+          <p className="filter-note">
+            <small>Default view shows High + Suspected only (recommended for executive reporting)</small>
+          </p>
+        </div>
+        
         <button 
           className="collapse-toggle"
           onClick={() => setIsExpanded(!isExpanded)}
@@ -260,12 +310,7 @@ function ThreatActorProfile({ incidents }) {
                 <div className="actor-name-row">
                   <h4>{actor.name}</h4>
                   {actor.confidence && (
-                    <span 
-                      className={`confidence-badge confidence-${actor.confidence}`}
-                      title={`Attribution confidence: ${actor.confidence}`}
-                    >
-                      {actor.confidence === 'high' ? '🟢' : actor.confidence === 'medium' ? '🟡' : '⚪'} {actor.confidence}
-                    </span>
+                    <ActorConfidenceBadge confidence={actor.confidence} size="sm" />
                   )}
                 </div>
                 <p className="actor-description">{actor.description}</p>

@@ -23,6 +23,69 @@
   line-height: 1.6;
 }
 
+/* Confidence Filter Bar */
+.confidence-filter-bar {
+  margin: 1.5rem auto;
+  max-width: 900px;
+  padding: 1rem;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.confidence-filter-bar .filter-label {
+  display: block;
+  font-size: 0.875rem;
+  color: #374151;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.confidence-toggles {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.confidence-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 36px;
+}
+
+.confidence-toggle:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.confidence-toggle.active {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: #3b82f6;
+  color: #1e40af;
+}
+
+.confidence-filter-bar .filter-note {
+  margin: 0.75rem 0 0 0;
+  color: #6b7280;
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+.confidence-filter-bar .filter-note small {
+  font-size: inherit;
+}
+
 .collapse-toggle {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
