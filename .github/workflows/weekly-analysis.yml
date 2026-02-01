@@ -57,21 +57,26 @@ jobs:
           WEEK_FILE=$(ls -1t data/aggregates/week_*.json | head -1)
           WEEK=$(basename "$WEEK_FILE" .json | sed 's/week_//')
           
+          # Add files before any retry logic to ensure they're staged
           git add data/aggregates/*.json data/analysis/*.json
           git commit -m "chore: add weekly AI analysis for week $WEEK"
           
-          # Try a few times to survive concurrent writers
+          # Try a few times to push (concurrent writers may conflict)
           for i in 1 2 3 4 5; do
-            echo "Attempt $i: fetch + rebase + push"
+            echo "Attempt $i: fetch + push"
             git fetch origin main
             
-            # Clean working directory before rebase to avoid "unstaged changes" errors
-            git clean -fd
-            git restore .
-            
+            # Try to rebase, but preserve our commit
             if ! git rebase origin/main; then
-              echo "Rebase failed (likely conflicts). Aborting rebase..."
+              echo "Rebase failed. Aborting and retrying with new strategy..."
               git rebase --abort
+              
+              # Re-commit if needed (in case rebase abort lost the commit)
+              if ! git diff-index --quiet HEAD --; then
+                git add data/aggregates/*.json data/analysis/*.json
+                git commit -m "chore: add weekly AI analysis for week $WEEK" || true
+              fi
+              
               echo "Backing off before retry..."
               sleep $((i * 3))
               continue
@@ -82,7 +87,7 @@ jobs:
               exit 0
             fi
             
-            echo "Push rejected (race). Backing off..."
+            echo "Push rejected. Backing off..."
             sleep $((i * 3))
           done
           

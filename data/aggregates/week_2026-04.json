@@ -112,34 +112,33 @@
   "attack_chain_distribution": [],
   "top_clusters": [
     {
-      "title": "Cybersecurity 101: How to Secure Your Home Network Like a Pro - DataDrivenInvestor",
-      "size": 36,
-      "confidence": 0.6120343839541547
+      "title": "Access denied",
+      "size": 9,
+      "confidence": 0.6030085959885386
     },
     {
-      "title": "Amazon Route 53 Domains adds support for .ai, and other top-level domains",
-      "size": 28,
-      "confidence": 0.609360076408787
+      "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+      "size": 6,
+      "confidence": 0.6020057306590257
     },
     {
-      "title": "UK cyber tests show banks' struggle with cybersecurity basics - American Banker",
-      "size": 26,
-      "confidence": 0.6086914995224451
+      "title": "European Commission Proposes Cybersecurity Act 2: New EU Supply Chain Rules and ...",
+      "size": 3,
+      "confidence": 0.6010028653295129
     },
     {
-      "title": "[Ekstra] Slik fungerer Irans «halal-internett»",
-      "size": 22,
-      "confidence": 0.6073543457497612
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Sydney) and Europe (Frankfurt) regions",
+      "size": 3,
+      "confidence": 0.6010028653295129
     },
     {
-      "title": "Microsoft investigates Windows 11 boot failures after January updates | The Cyber Security Hub™",
-      "size": 18,
-      "confidence": 0.6060171919770774
+      "title": "LastPass Warns of Phishing Campaign Attempting to Steal Master Passwords",
+      "size": 3,
+      "confidence": 0.6010028653295129
     }
   ],
   "quality_metadata": {
     "source_concentration_warning": "55% from top 3 feeds",
-    "language_mix": "English: 878, Other: 97, French: 64, German: 8",
     "avg_confidence": 0,
     "top_sources": [
       {
@@ -154,6 +153,7 @@
         "source": "Help Net Security",
         "count": 64
       }
-    ]
+    ],
+    "total_sources": 59
   }
 }

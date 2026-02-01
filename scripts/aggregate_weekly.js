@@ -257,15 +257,15 @@ function createClusters(incidents) {
   const clusters = {};
   
   incidents.forEach(incident => {
-    // Simple clustering by extracting key terms from titles
+    // Improved clustering by extracting multiple key terms from titles
     const title = incident.title || '';
     const words = title.toLowerCase()
       .replace(/[^\w\s]/g, ' ')
       .split(/\s+/)
       .filter(w => w.length > 4); // Only words longer than 4 chars
     
-    // Use first significant word as cluster key
-    const clusterKey = words[0] || 'uncategorized';
+    // Use first 2-3 significant words as cluster key for better granularity
+    const clusterKey = words.slice(0, 3).join('-') || 'uncategorized';
     
     if (!clusters[clusterKey]) {
       clusters[clusterKey] = {
@@ -292,25 +292,12 @@ function createClusters(incidents) {
 // Helper function to calculate quality metadata
 function calculateQualityMetadata(incidents) {
   const sourceCounts = {};
-  const languages = {};
   let totalConfidence = 0;
   let confidenceCount = 0;
   
   incidents.forEach(incident => {
     const source = incident.sourceName || 'Unknown';
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
-    
-    // Simple language detection based on common words
-    const text = (incident.title + ' ' + incident.summary).toLowerCase();
-    if (text.match(/\b(the|and|or|is|are|was|were)\b/)) {
-      languages['English'] = (languages['English'] || 0) + 1;
-    } else if (text.match(/\b(le|la|les|de|et|est)\b/)) {
-      languages['French'] = (languages['French'] || 0) + 1;
-    } else if (text.match(/\b(der|die|das|und|ist|sind)\b/)) {
-      languages['German'] = (languages['German'] || 0) + 1;
-    } else {
-      languages['Other'] = (languages['Other'] || 0) + 1;
-    }
     
     // Calculate average confidence from MITRE mappings
     if (incident.aiAnalysis?.mitreAttack) {
@@ -333,11 +320,9 @@ function calculateQualityMetadata(incidents) {
   
   return {
     source_concentration_warning: topThreePct >= 50 ? `${topThreePct}% from top 3 feeds` : null,
-    language_mix: Object.entries(languages)
-      .map(([lang, count]) => `${lang}: ${count}`)
-      .join(', '),
     avg_confidence: parseFloat(avgConfidence),
-    top_sources: topThreeSources.map(([source, count]) => ({ source, count }))
+    top_sources: topThreeSources.map(([source, count]) => ({ source, count })),
+    total_sources: Object.keys(sourceCounts).length
   };
 }
 

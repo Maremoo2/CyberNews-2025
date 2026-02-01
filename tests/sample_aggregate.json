@@ -90,7 +90,6 @@
   ],
   "quality_metadata": {
     "source_concentration_warning": "67% from top 3 feeds",
-    "language_mix": "English: 75, French: 15, Other: 10",
     "avg_confidence": 0.72,
     "top_sources": [
       {
@@ -105,6 +104,7 @@
         "source": "ThreatPost",
         "count": 10
       }
-    ]
+    ],
+    "total_sources": 15
   }
 }

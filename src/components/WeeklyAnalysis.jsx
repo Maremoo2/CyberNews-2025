@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { getISOWeek, getISOWeekYear } from 'date-fns';
 import './WeeklyAnalysis.css';
 
 function WeeklyAnalysis() {
@@ -22,12 +23,8 @@ function WeeklyAnalysis() {
         for (let i = 0; i < 4; i++) {
           const date = new Date(currentDate);
           date.setDate(date.getDate() - (i * 7));
-          const year = date.getFullYear();
-          
-          // Calculate ISO week number
-          const firstDayOfYear = new Date(year, 0, 1);
-          const pastDaysOfYear = (date - firstDayOfYear) / 86400000;
-          const weekNumber = Math.ceil((pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7);
+          const year = getISOWeekYear(date);
+          const weekNumber = getISOWeek(date);
           
           const weekStr = `${year}-${String(weekNumber).padStart(2, '0')}`;
           attempts.push(`/data/analysis/week_${weekStr}.json`);

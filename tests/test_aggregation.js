@@ -137,11 +137,6 @@ console.log('✅ Top clusters structure valid\n');
 
 // Test 7: Validate quality metadata
 console.log('Test 7: Validating quality metadata...');
-if (!sample.quality_metadata.language_mix) {
-  console.error('❌ Missing language_mix in quality metadata');
-  process.exit(1);
-}
-
 if (typeof sample.quality_metadata.avg_confidence !== 'number') {
   console.error('❌ avg_confidence should be a number');
   process.exit(1);
@@ -149,6 +144,11 @@ if (typeof sample.quality_metadata.avg_confidence !== 'number') {
 
 if (!Array.isArray(sample.quality_metadata.top_sources)) {
   console.error('❌ top_sources should be an array');
+  process.exit(1);
+}
+
+if (typeof sample.quality_metadata.total_sources !== 'number') {
+  console.error('❌ total_sources should be a number');
   process.exit(1);
 }
 
