@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-01-26",
+  "week_end": "2026-02-01",
+  "week_number": 5,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1078,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-0.4",
+    "phishing_pct": "-3.3",
+    "token_abuse_pct": "-0.6",
+    "ransomware_pct": "-1.7"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "10.9",
+    "phishing_pct": "4.4",
+    "token_abuse_pct": "2.0",
+    "ransomware_pct": "2.8"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.736734693877551,
+      "item_count": 638
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6228200371057514,
+      "item_count": 331
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6094619666048238,
+      "item_count": 295
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5816326530612245,
+      "item_count": 220
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5526901669758812,
+      "item_count": 142
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5363636363636364,
+      "item_count": 98
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5363636363636364,
+      "item_count": 98
+    },
+    {
+      "theme": "microsoft",
+      "confidence": 0.5248608534322821,
+      "item_count": 67
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5230055658627087,
+      "item_count": 62
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5222634508348794,
+      "item_count": 60
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 52,
+      "percentage": "4.8"
+    },
+    {
+      "sector": "technology",
+      "count": 36,
+      "percentage": "3.3"
+    },
+    {
+      "sector": "energy",
+      "count": 17,
+      "percentage": "1.6"
+    },
+    {
+      "sector": "education",
+      "count": 8,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "finance",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "healthcare",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "retail",
+      "count": 3,
+      "percentage": "0.3"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access denied",
+      "size": 9,
+      "confidence": 0.6029220779220779
+    },
+    {
+      "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+      "size": 6,
+      "confidence": 0.6019480519480519
+    },
+    {
+      "title": "Google disrupts IPIDEA residential proxy networks fueled by malware",
+      "size": 3,
+      "confidence": 0.6009740259740259
+    },
+    {
+      "title": "Trump's acting cyber chief uploads sensitive files to public ChatGPT — report - TRT World",
+      "size": 3,
+      "confidence": 0.6009740259740259
+    },
+    {
+      "title": "Microsoft Issues Emergency Patch for Active Office Zero-Day",
+      "size": 3,
+      "confidence": 0.6009740259740259
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "59% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 331
+      },
+      {
+        "source": "Cyber",
+        "count": 220
+      },
+      {
+        "source": "Help Net Security",
+        "count": 81
+      }
+    ],
+    "total_sources": 64
+  }
+}
