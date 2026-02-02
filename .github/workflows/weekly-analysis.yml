@@ -43,6 +43,13 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run analyze-weekly
       
+      - name: Run executive brief
+        id: exec-brief
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run executive-brief
+      
       - name: Check for changes and prevent duplicates
         id: git-check
         run: |
@@ -60,8 +67,9 @@ jobs:
           # Check if this week's files already exist in the repo
           AGGREGATE_EXISTS=$(git ls-files "public/data/aggregates/week_${WEEK}.json" | wc -l)
           ANALYSIS_EXISTS=$(git ls-files "public/data/analysis/week_${WEEK}.json" | wc -l)
+          BRIEF_EXISTS=$(git ls-files "public/data/briefs/week_${WEEK}.json" | wc -l)
           
-          if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ]; then
+          if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ] && [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ "$BRIEF_EXISTS" -gt 0 ]; then
             echo "Week $WEEK already processed - skipping commit"
             echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
@@ -69,9 +77,21 @@ jobs:
           
           # Stage ONLY the specific files for this week
           git add "public/data/aggregates/week_${WEEK}.json"
+          
+          FILES_ADDED=""
           if [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ -f "public/data/analysis/week_${WEEK}.json" ]; then
             git add "public/data/analysis/week_${WEEK}.json"
-            echo "commit_type=both" >> $GITHUB_OUTPUT
+            FILES_ADDED="${FILES_ADDED}analysis "
+          fi
+          
+          if [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ -f "public/data/briefs/week_${WEEK}.json" ]; then
+            git add "public/data/briefs/week_${WEEK}.json"
+            FILES_ADDED="${FILES_ADDED}brief "
+          fi
+          
+          if [ -n "$FILES_ADDED" ]; then
+            echo "commit_type=with_ai" >> $GITHUB_OUTPUT
+            echo "files_added=$FILES_ADDED" >> $GITHUB_OUTPUT
           else
             echo "commit_type=aggregate_only" >> $GITHUB_OUTPUT
           fi
@@ -94,12 +114,13 @@ jobs:
           
           WEEK="${{ steps.git-check.outputs.week }}"
           COMMIT_TYPE="${{ steps.git-check.outputs.commit_type }}"
+          FILES_ADDED="${{ steps.git-check.outputs.files_added }}"
           
           # Files already staged in previous step
-          if [ "$COMMIT_TYPE" == "both" ]; then
-            COMMIT_MSG="chore: add weekly AI analysis for week $WEEK"
+          if [ "$COMMIT_TYPE" == "with_ai" ]; then
+            COMMIT_MSG="chore: add weekly AI content for week $WEEK ($FILES_ADDED)"
           else
-            COMMIT_MSG="chore: add weekly aggregate for week $WEEK (AI analysis failed)"
+            COMMIT_MSG="chore: add weekly aggregate for week $WEEK (AI processing failed)"
           fi
           
           git commit -m "$COMMIT_MSG"
@@ -116,8 +137,8 @@ jobs:
               
               # Re-commit if needed (in case rebase abort lost the commit)
               if ! git diff-index --quiet HEAD --; then
-                git add public/data/aggregates/*.json public/data/analysis/*.json
-                git commit -m "chore: add weekly AI analysis for week $WEEK" || true
+                git add public/data/aggregates/*.json public/data/analysis/*.json public/data/briefs/*.json
+                git commit -m "chore: add weekly AI content for week $WEEK" || true
               fi
               
               echo "Backing off before retry..."
