@@ -1,5 +1,432 @@
 [
   {
+    "id": "20265113",
+    "date": "2026-02-02",
+    "title": "Ransomware Without Encryption: Why Pure Exfiltration Attacks Are Surging",
+    "summary": "With pure exfiltration, businesses don’t realize they’re a victim until it’s too late.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102103-ransomware-without-encryption-why-pure-exfiltration-attacks-are-surging",
+    "tags": [
+      "ransomware",
+      "malware",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265114",
+    "date": "2026-02-02",
+    "title": "China moves to boost cybercrime penalties by adding exit ban after sentences",
+    "summary": "China is looking to escalate measures against cybercriminals operating inside and outside its borders by banning convicted citizens from leaving the country, even after they have completed their sentence. The draft Cybercrime Prevention and Control Law bill comes as China doubles down on working ...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/china/politics/article/3342128/china-moves-boost-cybercrime-penalties-adding-exit-ban-after-sentences?utm_source=rss_feed",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265115",
+    "date": "2026-02-02",
+    "title": "Catastrophe, il active le Wi-Fi Direct de l'imprimante de son entreprise, qui se fait voler 12 Go de secrets industriels",
+    "summary": "Une imprimante mal sécurisée a permis le vol de 12 Go de données industrielles sensibles. Le Wi-Fi Direct activé par un employé bienveillant s'est transformé en brèche fatale pour la cybersécurité de son entreprise.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598513-catastrophe-il-active-le-wi-fi-direct-de-l-imprimante-de-l-entreprise-qui-se-fait-voler-12-go-de-secrets-industriels.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265116",
+    "date": "2026-02-02",
+    "title": "Régulation VPN -  Pour NordVPN, \"il est important de concilier sécurité et vie privée\"",
+    "summary": "Nous rapportions en fin de semaine dernière que la ministre déléguée au Numérique Anne Le Hénanff a confirmé que les VPN figurent désormais en haut de sa liste de priorités. Chez NordVPN, on estime qu'il doit forcément exister un compromis.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598528-regulation-vpn---pour-nordvpn-il-est-important-de-concilier-securite-et-vie-privee.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265117",
+    "date": "2026-02-02",
+    "title": "MIcrosoft Edge laisse passer 30% des URL malveillantes",
+    "summary": "Lors d'un test indépendant mené le mois dernier, le navigateur de Microsoft aurait laissé passer près d'un tiers des URL malveillantes. Autant dire que malgré les efforts de l'entreprise, et la présence d'un module anti-phishing, le navigateur n'est certainement pas prêt à passer à l'ère agentique.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598461-microsoft-edge-laisse-passer-30-des-url-malveillantes.html",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265118",
+    "date": "2026-02-02",
+    "title": "Affaire WhatsApp : suite aux accusations, une enquête est en cours sur le chiffrement des messages",
+    "summary": "La semaine dernière, nous rapportions une plainte selon laquelle des employés de Meta seraient en mesure de lire les conversations des utilisateurs sur WhatsApp pourtant protégées par le chiffrement de bout en bout. Si Meta rejette catégoriquement ces accusations, une enquête fédérale américaine ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598426-affaire-whatsapp-suite-aux-accusations-une-enquete-est-en-cours-sur-le-chiffrement-des-messages.html",
+    "tags": [
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265119",
+    "date": "2026-02-02",
+    "title": "Russian APT28 Exploit Zero-Day Hours After Microsoft Discloses Office Vulnerability",
+    "summary": "Ukraine's cyber defenders warn Russian hackers weaponized a Microsoft zero-day within 24 hours of public disclosure, targeting government agencies with malicious documents delivering Covenant framework backdoors. Russian state-sponsored hacking group APT28 used a critical Microsoft Office zero-da...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/russian-apt28-exploit-zero-day-cve-2026-21509/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "state-sponsored",
+      "government",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265120",
+    "date": "2026-02-02",
+    "title": "Britain and Japan Join Forces on Cybersecurity and Strategic Minerals",
+    "summary": "Japan and Britain have agreed to expand cooperation on cybersecurity and critical mineral supply chains, framing the move as a strategic response to intensifying geopolitical, economic, and technological pressures. The British and Japanese cybersecurity strategy and agreement were confirmed durin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/britain-japanese-cybersecurity-cooperation/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265121",
+    "date": "2026-02-02",
+    "title": "Union Budget 2026–27: India Bets Big on Cloud, AI, and Cyber Resilience",
+    "summary": "When Union Finance Minister Nirmala Sitharaman of India presented the Union Budget 2026–27 on February 1, it became clear that this year’s financial roadmap is not only about fiscal numbers, it is also about shaping the infrastructure of India’s digital future. The India Budget 2026 sends a stron...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/india-budget-2026/",
+    "tags": [
+      "cloud",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265122",
+    "date": "2026-02-02",
+    "title": "U.S. and Bulgaria Shut Down Three Major Piracy Websites in EU Crackdown",
+    "summary": "In a major step against online piracy and illegal copyright distribution, U.S. law enforcement has partnered with Bulgarian authorities to dismantle three of the largest piracy websites operating in the European Union. The coordinated operation targeted platforms that allegedly provided unauthori...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/online-piracy-sites-seized-bulgarian-crackdown/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265123",
+    "date": "2026-02-02",
+    "title": "CrossCurve Bridge Hacked for $3M After Smart Contract Validation Vulnerability Exploited",
+    "summary": "CrossCurve bridge, formerly known as EYWA, has suffered a major cyberattack after attackers exploited a vulnerability in its smart contract infrastructure, draining approximately $3 million across multiple blockchain networks. The CrossCurve team confirmed the incident on Sunday, stating that its...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/crosscurve-bridge-3m-cyberattack/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265124",
+    "date": "2026-02-02",
+    "title": "Voice channels are the next major attack vector that security teams can’t monitor",
+    "summary": "Deepfake voices, live fraud, zero visibility: why voice channels are the next security blind spot.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/spons/voice-channels-are-the-next-major-attack-vector-that-security-teams-cant-m/810567/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20265125",
+    "date": "2026-02-02",
+    "title": "Notepad++ attributes hijacking attack to state-sponsored hackers",
+    "summary": "A months-long cyber-espionage campaign targeting Notepad++ users has been traced to a compromise of the app’s former shared hosting provider, enabling attackers to deliver malicious updates through hijacked traffic. The attack, now attributed to a likely Chinese state-sponsored group, exploited i...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/notepad-attributes-hijacking-attack-to-state-sponsored-hackers/",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265126",
+    "date": "2026-02-02",
+    "title": "341 OpenClaw skills distribute macOS malware via ClickFix instructions",
+    "summary": "A major supply-chain attack has been uncovered within the ClawHub skill marketplace for OpenClaw bots, involving 341 malicious skills. The discovery was led by Koi Security researcher Oren Yomtov and his AI assistant “Alex,” an OpenClaw bot configured for threat analysis. Suspicious of the rapidl...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/341-openclaw-skills-distribute-macos-malware-via-clickfix-instructions/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265127",
+    "date": "2026-02-02",
+    "title": "Microsoft sets a path to switch off NTLM across Windows",
+    "summary": "Windows is shifting to a more secure authentication approach, moving away from New Technology LAN Manager (NTLM) and toward stronger, Kerberos-based options. NTLM has been part of Windows for decades and continues to appear in some environments, particularly where legacy systems and older applica...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/microsoft-windows-ntlm-disabling/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265128",
+    "date": "2026-02-02",
+    "title": "Open-source AI pentesting tools are getting uncomfortably good",
+    "summary": "AI has come a long way in the pentesting world. We are now seeing open-source tools that can genuinely mimic how a human tester works, not just fire off scans. I dug into three of them, BugTrace-AI, Shannon, and CAI, the Cybersecurity AI framework, and put them up against real-world targets in a ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/open-source-ai-pentesting-tools-test/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265129",
+    "date": "2026-02-02",
+    "title": "Where NSA zero trust guidance aligns with enterprise reality",
+    "summary": "The NSA has published Phase One and Phase Two of its Zero Trust Implementation Guidelines, providing structured guidance for organizations working to implement zero trust cybersecurity practices. The documents are part of a larger series designed to support adoption of zero trust frameworks align...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/nsa-zero-trust-guidelines-cybersecurity-practices/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265130",
+    "date": "2026-02-02",
+    "title": "Swapping Privacy for Practicality: What to Know Before You Convert Crypto",
+    "summary": "In this post, I will talk about swapping privacy for practicality and discuss what to know before you convert crypto. Privacy-focused cryptocurrencies are often framed as a philosophical choice, but for many people they are simply a tool. The idea is straightforward: reduce how easily transaction...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/what-to-know-before-you-convert-crypto/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265131",
+    "date": "2026-02-02",
+    "title": "How Random Numbers Keep the Internet Running Smoothly",
+    "summary": "In this post, I will show you how random numbers keep the Internet running smoothly. You probably don’t think about random numbers when you log into your bank, place a bet, or tap “buy now.” That’s the point. They’re not supposed to get your attention. They’re supposed to do their job quietly, wi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-random-numbers-keep-the-internet-running-smoothly/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265132",
+    "date": "2026-02-02",
+    "title": "This stealthy Windows RAT holds live conversations with its operators",
+    "summary": "Security researchers at Point Wild have disclosed a new Windows malware campaign that uses a multi-stage infection chain to establish persistent, memory-resident access on compromised systems and steal sensitive data. The analysis found the malware relying on standard Windows components for execu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125567/this-stealthy-windows-rat-holds-live-conversations-with-its-operators.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265133",
+    "date": "2026-02-02",
+    "title": "Why non-human identities are your biggest security blind spot in 2026",
+    "summary": "Last month, while running a routine access audit on our Azure environment, I came across a service account called svc-dataloader-poc. It had not been touched in 793 days — two years of sitting dormant. When I checked its permissions, my stomach dropped: Owner-level access to three production subs...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125156/why-non-human-identities-are-your-biggest-security-blind-spot-in-2026.html",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265134",
+    "date": "2026-02-02",
+    "title": "Deutschland und Israel trainieren Abwehr von Cyberangriff",
+    "summary": "Bundesinnenminister Alexander Dobrindt mit dem israelischen Ministerpräsidenten Benjamin Netanjahu bei der Pressekonferenz.BMI/ Laurin Schmid Deutschland und Israel haben nach Angaben des Bundesinnenministeriums erstmals gemeinsam die Abwehr eines schweren Cyberangriffs trainiert. Die Übung mit d...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125429/deutschland-und-israel-trainieren-abwehr-von-cyberangriff.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265135",
+    "date": "2026-02-02",
+    "title": "CSO Barry Hensley on staying a step ahead of the cyber threat landscape",
+    "summary": "IT security was a critical element of retired US Col. Barry Hensley’s 24-year military career as an Army Signal Officer, as he was often responsible for the engineering and installation of “military networks, whether in garrison or in support of combat troops deployed.” “The pinnacle of my milita...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4101470/a-desire-to-protect-his-nation-made-barry-hensley-seek-a-career-in-cybersecurity-after-24-years-of-military-service.html",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20265136",
+    "date": "2026-02-02",
+    "title": "When responsible disclosure becomes unpaid labor",
+    "summary": "Responsible disclosure is built on an assumption that “doing the right thing” will be met with timely action, fair treatment, and professional respect, if not a bounty award. Increasingly, that assumption is failing. And when it does, organizations alienate researchers and create regulatory, lega...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4124766/when-responsible-disclosure-becomes-unpaid-labor.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265137",
+    "date": "2026-02-02",
+    "title": "Android RAT Uses Hugging Face to Host Malware",
+    "summary": "Bitdefender has discovered a new Android malware campaign that uses Hugging Face",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/android-rat-hugging-face-host/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265138",
+    "date": "2026-02-02",
+    "title": "Former Google Engineer Found Guilty of Stealing AI Secrets",
+    "summary": "Linwei Ding, a former Google engineer, has been found guilty of stealing trade secrets for China",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/former-google-engineer-guilty/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265139",
+    "date": "2026-02-02",
+    "title": "Major Cyber Attacks, Data Breaches, Ransomware Attacks in January 2026",
+    "summary": "January 2026 was a stark reminder that cyber risk is no longer confined to any single sector or geography. From global consumer brands to government agencies, healthcare providers, and education institutions, the month saw a relentless wave of cyber attacks, data breaches, and ransomware incident...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-in-january-2026",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "healthcare",
+      "government"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265140",
+    "date": "2026-02-02",
+    "title": "Microsoft fixes bug causing password sign-in option to disappear",
+    "summary": "Microsoft has fixed a known issue that was causing the password sign-in option to disappear from the lock screen options after installing Windows 11 updates released since August 2025. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-password-sign-in-option-to-disappear/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265141",
+    "date": "2026-02-02",
+    "title": "NationStates confirms data breach, shuts down game site",
+    "summary": "NationStates, a multiplayer browser-based game, has confirmed a data breach after taking its website offline earlier this week to investigate a security incident. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nationstates-confirms-data-breach-shuts-down-game-site/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265103",
     "date": "2026-02-02",
     "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
