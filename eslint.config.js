@@ -30,10 +30,9 @@ export default defineConfig([
     // Configuration for Node.js scripts
     files: ['scripts/**/*.js'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.node,
       parserOptions: {
-        ecmaVersion: 'latest',
         sourceType: 'module',
       },
     },
@@ -45,10 +44,9 @@ export default defineConfig([
     // Configuration for test files
     files: ['tests/**/*.js'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.node,
       parserOptions: {
-        ecmaVersion: 'latest',
         sourceType: 'module',
       },
     },

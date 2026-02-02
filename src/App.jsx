@@ -425,11 +425,7 @@ function App() {
           
           return isHighConfidence || hasMultipleSources || hasConfirmation;
         });
-        
-        // Track retention percentage
-        // const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
-        // TODO: Store retention percentage in proper state when UI is added
-        // cisoMode._confirmedRetention = retentionPercent;
+        // TODO: Add retention percentage tracking in future (GitHub issue needed)
       }
     }
 
