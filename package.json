@@ -22,6 +22,8 @@
     "audit-clustering-2025": "node scripts/audit-clustering.js --year=2025",
     "aggregate-weekly": "node scripts/aggregate_weekly.js",
     "analyze-weekly": "node scripts/weekly_sensemaking.js",
+    "executive-brief": "node scripts/executive_brief.js",
+    "daily-digest": "node scripts/daily_digest.js",
     "test-ai-safety": "node tests/test_ai_safety.js"
   },
   "dependencies": {
