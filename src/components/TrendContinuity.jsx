@@ -142,7 +142,7 @@ function TrendContinuity({ incidents }) {
       </div>
 
       <div className="trend-timeline">
-        {monthlyTrends.map((month, index) => (
+        {monthlyTrends.map((month) => (
           <div key={month.month} className="trend-month-card">
             <div className="month-header">
               <div className="month-title">

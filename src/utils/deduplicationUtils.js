@@ -14,9 +14,6 @@
 export function generateIncidentFingerprint(incident) {
   if (!incident) return null;
   
-  // Extract organization/victim from title or summary
-  const text = `${incident.title} ${incident.summary}`.toLowerCase();
-  
   // Try to extract organization name (simplified approach)
   const orgPatterns = [
     /(?:at|against|targeting|hit|breached?)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/,

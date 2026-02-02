@@ -382,8 +382,6 @@ function App() {
       }
       // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
       if (cisoMode.confirmedOnly) {
-        const preFilterCount = filtered.length;
-        
         filtered = filtered.filter(incident => {
           const text = `${incident.title} ${incident.summary}`.toLowerCase();
           
@@ -429,9 +427,9 @@ function App() {
         });
         
         // Track retention percentage
-        const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
-        // Store this for display (we'll add UI for this)
-        cisoMode._confirmedRetention = retentionPercent;
+        // const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
+        // TODO: Store retention percentage in proper state when UI is added
+        // cisoMode._confirmedRetention = retentionPercent;
       }
     }
 

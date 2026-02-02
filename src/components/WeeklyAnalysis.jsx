@@ -32,13 +32,11 @@ function WeeklyAnalysis() {
 
         // Try each file in order (silently)
         let data = null;
-        let foundFile = null;
         for (const url of attempts) {
           try {
             const response = await fetch(url);
             if (response.ok) {
               data = await response.json();
-              foundFile = url;
               break;
             }
             // Silently continue on 404 - this is expected before first run
