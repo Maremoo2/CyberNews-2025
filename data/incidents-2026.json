@@ -1,5 +1,148 @@
 [
   {
+    "id": "20265103",
+    "date": "2026-02-02",
+    "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
+    "summary": "The update infrastructure for eScan antivirus, a security solution developed by Indian cybersecurity company MicroWorld Technologies, has been compromised by unknown attackers to deliver a persistent downloader to enterprise and consumer systems. \"Malicious updates were distributed through eScan'...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/escan-antivirus-update-servers.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265104",
+    "date": "2026-02-02",
+    "title": "Open VSX Supply Chain Attack Used Compromised Dev Account to Spread GlassWorm",
+    "summary": "Cybersecurity researchers have disclosed details of a supply chain attack targeting the Open VSX Registry in which unidentified threat actors compromised a legitimate developer's resources to push malicious updates to downstream users. \"On January 30, 2026, four established Open VSX extensions pu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/open-vsx-supply-chain-attack-used.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265105",
+    "date": "2026-02-02",
+    "title": "[Ekstra] Frykter at Trump kan stenge europeiske nettsider",
+    "summary": "Per Buer og Varnish Software lanserer skytjeneste. Målet er å gjøre europeiske mediehus mer uavhengige av amerikanske giganter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/frykter-at-trump-kan-stenge-europeiske-nettsider/567571",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265106",
+    "date": "2026-02-02",
+    "title": "ISC Stormcast For Monday, February 2nd, 2026 https://isc.sans.edu/podcastdetail/9790, (Mon, Feb 2nd)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32672",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265107",
+    "date": "2026-02-02",
+    "title": "Dan Ramaswami, Andesite | The Cybersecurity Bridge.mp4 - YouTube",
+    "summary": "00:00 - Intro ; 00:06 - Exploring Cybersecurity: An Introduction and Insights with Dan Ramaswami ; 02:23 - Advancing AI: From Augmented Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=Odap5uxySEg",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265108",
+    "date": "2026-02-02",
+    "title": "Trump's head of cyber security uploads 'sensitive' items to ChatGPT, report says - YouTube",
+    "summary": "Madhu Gottumukkala, the acting director of the Cybersecurity and Infrastructure Security Agency, reportedly uploaded sensitive documents into a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=I40RHWedWVg",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265109",
+    "date": "2026-02-02",
+    "title": "Government Cyber Security Showcase Victoria 2026",
+    "summary": "Organised by Public Sector Network, the event is positioned to bring together senior government executives and cybersecurity practitioners to share ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/government-cyber-security-showcase-victoria-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265110",
+    "date": "2026-02-02",
+    "title": "Cybercriminals hijack AI hosting service to compromise users",
+    "summary": "Our channels: Cyber Risk · Chief IT · Australian Security · Asia Pacific · Southeast ... Cyber Security, Featured, Information Security, Vulnerabilities.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/cybercriminals-hijack-ai-hosting-service-to-compromise-users/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265111",
+    "date": "2026-02-02",
+    "title": "'A Jenga tower': Why NZ's health cyber security is leaving patients exposed – expert | Stuff",
+    "summary": "Prompted by a single breach, a cybersecurity specialist scanned hundreds of health systems and says the results point to a much bigger problem.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.stuff.co.nz/nz-news/360932663/jenga-tower-why-nzs-health-cyber-security-leaving-patients-exposed-expert",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265112",
+    "date": "2026-02-02",
+    "title": "Data privacy urged as strategic board issue in AI era - SecurityBrief Asia",
+    "summary": "Cybersecurity leaders warn boards must treat data privacy as a ... Organisations still focus on cyber security defences while data flows ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/data-privacy-urged-as-strategic-board-issue-in-ai-era",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265097",
     "date": "2026-02-02",
     "title": "Démantelement du réseau IPIDEA : votre smartphone Android servait peut-être de relais aux pirates",
