@@ -1,5 +1,494 @@
 [
   {
+    "id": "20265217",
+    "date": "2026-02-02",
+    "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+    "summary": "A high-severity security flaw has been disclosed in OpenClaw (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link. The issue, which is tracked as CVE-2026-25253 (CVSS score: 8.8), has been addressed in version 2026.1.29 relea...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265218",
+    "date": "2026-02-02",
+    "title": "How Three Companies Secure AI with CrowdStrike",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/how-three-companies-secure-ai-with-crowdstrike/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265219",
+    "date": "2026-02-02",
+    "title": "[Ekstra] Ny rekord: Forskere oppnådde 430 terabit i sekundet med vanlige fiberkabler",
+    "summary": "Forskere gjør imponerende gjennombrudd med eksisterende teknologi.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ny-rekord-forskere-oppnadde-430-terabit-i-sekundet-med-vanlige-fiberkabler/567691",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265220",
+    "date": "2026-02-02",
+    "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
+    "summary": "Microsoft has announced a three-phase approach to phase out New Technology LAN Manager (NTLM) as part of its efforts to shift Windows environments toward stronger, Kerberos-based options. The development comes more than two years after the tech giant revealed its plans to deprecate the legacy tec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265221",
+    "date": "2026-02-02",
+    "title": "ShinyHunters-Branded Extortion Activity Expands, Escalates",
+    "summary": "Hackers rely on evolved vishing and login harvesting to compromise SSO credentials for unauthorized MFA enrollment. The post ShinyHunters-Branded Extortion Activity Expands, Escalates appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/shinyhunters-branded-extortion-activity-expands-escalates/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265222",
+    "date": "2026-02-02",
+    "title": "Scanning for exposed Anthropic Models, (Mon, Feb 2nd)",
+    "summary": "Yesterday, a single IP address (%%ip:204.76.203.210%%) scanned a number of our sensors for what looks like an anthropic API node. The IP address is known to be a Tor exit node. The requests are pretty simple: GET /anthropic/v1/models Host: 67.171.182.193:8000 X-Api-Key: password Anthropic-Version...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32674",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265223",
+    "date": "2026-02-02",
+    "title": "Open VSX Publisher Account Hijacked in Fresh GlassWorm Attack",
+    "summary": "A hacker published malicious versions of four established VS Code extensions to distribute a GlassWorm malware loader. The post Open VSX Publisher Account Hijacked in Fresh GlassWorm Attack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/open-vsx-publisher-account-hijacked-in-fresh-glassworm-attack/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265224",
+    "date": "2026-02-02",
+    "title": "Notepad++ hijacked by suspected state-sponsored hackers",
+    "summary": "In a security update posted on the project’s website, the development team said the attack did not exploit a flaw in the editor’s source code itself. Instead, the compromise occurred at the infrastructure level, involving systems used to deliver software updates.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/popular-text-editor-hijacked-by-suspected-state-sponsored-hackers",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265225",
+    "date": "2026-02-02",
+    "title": "Default ICS Credentials Exploited in Destructive Attack on Polish Energy Facilities",
+    "summary": "Poland’s CERT has published a report on the recent attack, providing new details on targeted ICS and attribution. The post Default ICS Credentials Exploited in Destructive Attack on Polish Energy Facilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/default-ics-credentials-exploited-in-destructive-attack-on-polish-energy-facilities/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265226",
+    "date": "2026-02-02",
+    "title": "Spyware maker is hijacking diplomatic efforts to limit commercial hacking, civil society warns",
+    "summary": "Spyware maker NSO Group trumpeted the company’s participation in the Pall Mall Process, which drew criticism from civil society leaders and government officials who called out human rights abuses.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/spyware-maker-pall-mall-process-reputation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265227",
+    "date": "2026-02-02",
+    "title": "⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks & New Threats",
+    "summary": "Every week brings new discoveries, attacks, and defenses that shape the state of cybersecurity. Some threats are stopped quickly, while others go unseen until they cause real damage. Sometimes a single update, exploit, or mistake changes how we think about risk and protection. Every incident show...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265228",
+    "date": "2026-02-02",
+    "title": "Securing the Mid-Market Across the Complete Threat Lifecycle",
+    "summary": "For mid-market organizations, cybersecurity is a constant balancing act. Proactive, preventative security measures are essential to protect an expanding attack surface. Combined with effective protection that blocks threats, they play a critical role in stopping cyberattacks before damage is done...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/securing-mid-market-across-complete.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265229",
+    "date": "2026-02-02",
+    "title": "Drone sightings have doubled near UK military bases, warns British government",
+    "summary": "The surge in sightings has prompted the government to expand the powers available to service personnel to deal with the threat from uncrewed aerial vehicles without having to first involve law enforcement.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/military-drone-sightings-double-uk-government",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265230",
+    "date": "2026-02-02",
+    "title": "Hackers attempt to extort parents after school refuses to pay ransom fee",
+    "summary": "The attackers are believed to have gained access to the internal networks of OLV Pulhof, a secondary school in the Berchem district of Antwerp, shortly after the Christmas break.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/hackers-attempt-to-extort-parents-after-school-refuses-ransom-demand",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265231",
+    "date": "2026-02-02",
+    "title": "California tribal clinics warn patients of data breach that leaked SSNs and medical info",
+    "summary": "A ransomware group called Rhysida yesterday took credit for a November 2025 data breach at the MACT Health Board. MACT operates several medical clinics in California’s Sierra Foothills serving the local American Indian community. MACT in January notified an undisclosed number of patients about th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/california-tribal-clinics-warn-patients-of-data-breach-that-leaked-ssns-and-medical-info/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265232",
+    "date": "2026-02-02",
+    "title": "AWS announces Flexible Cost Allocation in AWS GovCloud (US)",
+    "summary": "AWS Network Firewall now supports flexible cost allocation through AWS Transit Gateway native attachments in AWS GovCloud (US) Regions, enabling you to automatically distribute data processing costs across different AWS accounts. Customers can create metering policies to apply data processing cha...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265233",
+    "date": "2026-02-02",
+    "title": "Amazon Connect now provides APIs to test and simulate voice interactions",
+    "summary": "Amazon Connect now offers APIs to configure and run tests that simulate contact center experiences, making it easy to validate workflows, self-service voice interactions, and their outcomes. With these APIs, you can programmatically configure test parameters, including the caller's phone number o...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265234",
+    "date": "2026-02-02",
+    "title": "Hanging Up on ShinyHunters: Experts Detail Vishing Defenses - GovInfoSecurity",
+    "summary": "Cybersecurity firm Sophos told Information Security Media Group that ... He lives in Scotland. You might also be interested in …",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/hanging-up-on-shinyhunters-experts-detail-vishing-defenses-a-30657",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265235",
+    "date": "2026-02-02",
+    "title": "Russian ransomware hackers allegedly hit Tulsa airport in cyberattack, dump private files ...",
+    "summary": "WHAT COULD YOU DO IF YOU KNEW HOW EVERY PIECE OF DATA WAS BEING USED? By Ross Moore, Cyber Security Support Analyst with Passageways Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/russian-ransomware-hackers-allegedly-hit-tulsa-airport-in-cyberattack-dump-private-files-online-as-proof/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265236",
+    "date": "2026-02-02",
+    "title": "Data and Cyber Update - January 2026 | Stephenson Harwood",
+    "summary": "... Cybersecurity Package; and the ICO publishes its response to the UK Cyber Security and Resilience (Network and Information Systems) Bill. In our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.stephensonharwood.com/insights/data-and-cyber-update-january-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265237",
+    "date": "2026-02-02",
+    "title": "Scam-checking just got easier: Malwarebytes is now in ChatGPT",
+    "summary": "Scams are getting harder to spot, and even savvy internet users get caught off guard. That's why Malwarebytes is the first cybersecurity provider ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/product/2026/02/scam-checking-just-got-easier-malwarebytes-is-now-in-chatgpt",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265238",
+    "date": "2026-02-02",
+    "title": "AWS HealthImaging adds JPEG XL support",
+    "summary": "AWS HealthImaging now supports storing and retrieving lossy compressed medical images in the JPEG XL transfer syntax (1.2.840.10008.1.2.4.112). It is now simpler than ever to integrate HealthImaging with applications that require JPEG XL encoded DICOM data, such as digital pathology whole slide i...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265239",
+    "date": "2026-02-02",
+    "title": "'Moltbook' social media site for AI agents had big security hole, cyber firm Wiz says | Reuters",
+    "summary": "... a major flaw that exposed private data on thousands of real people, according to research published on Monday by cybersecurity firm Wiz.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/legal/litigation/moltbook-social-media-site-ai-agents-had-big-security-hole-cyber-firm-wiz-says-2026-02-02/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265240",
+    "date": "2026-02-02",
+    "title": "Cyber physical security fact sheets offer tips for utilities - Water Finance & Management",
+    "summary": "... has released two new fact sheets on the top actions water/wastewater systems can take to strengthen physical and cybersecurity efforts.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://waterfm.com/cyber-physical-security-fact-sheets-offer-tips-for-utilities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265241",
+    "date": "2026-02-02",
+    "title": "The Chrysalis Backdoor: A Deep Dive into Lotus Blossom's toolkit - Cyber Security Review",
+    "summary": "Rapid7 Labs, together with the Rapid7 MDR team, has uncovered a sophisticated campaign attributed to the Chinese APT group Lotus Blossom.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/the-chrysalis-backdoor-a-deep-dive-into-lotus-blossoms-toolkit/",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265242",
+    "date": "2026-02-02",
+    "title": "Flock Safety engages Bishop Fox to bolster cybersecurity for public safety platform",
+    "summary": "... information security officer (CISO). ... SEATTLE — Absolute Security has published comprehensive research revealing the state of enterprise Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitysystemsnews.com/article/flock-safety-engages-bishop-fox-to-bolster-cybersecurity-for-public-safety-platform",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265243",
+    "date": "2026-02-02",
+    "title": "'Hot mess:' Former Trump cyber leader slams DHS leadership void - POLITICO",
+    "summary": "Bridget Bean, the former acting director of the Cybersecurity and Infrastructure Security Agency, said in an exclusive interview that without ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/02/02/bridget-bean-dhs-interview-00758528",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265244",
+    "date": "2026-02-02",
+    "title": "9 Identity Security Predictions for 2026 - The Hacker News",
+    "summary": "About the Author: Rex Booth is the Chief Information Security Officer at SailPoint. In this role, he leads the full spectrum of cybersecurity strategy ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/02/9-identity-security-predictions-for-2026.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265245",
+    "date": "2026-02-02",
+    "title": "Scottish council had \"gaps in cybersecurity\" prior to cyber-attack - Digit.fyi",
+    "summary": "A new report reveals that a Scottish council may have had \"gaps\" in their cybersecurity ahead of a sophisticated and significant cyber-attack.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.digit.fyi/scottish-council-had-gaps-in-cybersecurity-prior-to-cyber-attack/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265246",
+    "date": "2026-02-02",
+    "title": "Cybersecurity M&A Roundup: CrowdStrike and Palo Alto Networks Lead Investment in AI Security",
+    "summary": "2026 started with a raft of merger and acquisition (M&A) activity in the cybersecurity industry and the strong focus on AI-based acquisitions has ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news-features/cybersecurity-ma-roundup-jan-26/",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265247",
+    "date": "2026-02-02",
+    "title": "'A growing sense of threat' underpins EU's cybersecurity act revision - PV Tech",
+    "summary": "cyber security, cybersecurity, digitalisation, europe, european commission, european union, pv power plants, solar inverter, solar pv. Read Next.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pv-tech.org/eu-cybersecurity-act-solar-energy-security-threat/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265248",
+    "date": "2026-02-02",
+    "title": "Dealerships will find AI embedded in cybersecurity tools at NADA Show - Automotive News",
+    "summary": "Sean Patronis, chief information security officer for Reynolds and Reynolds' Proton cybersecurity division, said AI will enable tools that focus ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.autonews.com/retail/an-cyber-expectations-at-nada-01tk/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265249",
+    "date": "2026-02-02",
+    "title": "Daniel Ho Honoured with the \"Cyber Security Professional Awards 2025\" - Fox 21",
+    "summary": "This recognition reflects not only my personal dedication but also the trust and support from HGC, which continues to invest in cybersecurity talent, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fox21online.com/i/daniel-ho-honoured-with-the-cyber-security-professional-awards-2025-silver-award-in-telecommunications-services-sector/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265182",
     "date": "2026-02-02",
     "title": "Notepad++ says Chinese government hackers hijacked its software updates for months",
