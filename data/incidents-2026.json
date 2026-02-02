@@ -1,5 +1,592 @@
 [
   {
+    "id": "20265142",
+    "date": "2026-02-02",
+    "title": "Cyber Insights 2026: Malware and Cyberattacks in the Age of AI",
+    "summary": "Security leaders share how artificial intelligence is changing malware, ransomware, and identity-led intrusions, and how defenses must evolve. The post Cyber Insights 2026: Malware and Cyberattacks in the Age of AI appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-malware-and-cyberattacks-in-the-age-of-ai/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265143",
+    "date": "2026-02-02",
+    "title": "Over 1,400 MongoDB Databases Ransacked by Threat Actor",
+    "summary": "Of 3,100 unprotected MongoDB instances, half remain compromised, most of them by a single threat actor. The post Over 1,400 MongoDB Databases Ransacked by Threat Actor appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/over-1400-mongodb-databases-ransacked-by-threat-actor/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265144",
+    "date": "2026-02-02",
+    "title": "[Ekstra] Hun blir ny toppsjef for de norske supermaskinene",
+    "summary": "Hildegunn Vada er ansatt som administrerende direktør i Sigma2 etter å ha danket ut 20 andre søkere.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/hun-blir-ny-toppsjef-for-de-norske-supermaskinene/567727",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265145",
+    "date": "2026-02-02",
+    "title": "Microsoft Moves Closer to Disabling NTLM",
+    "summary": "The next major Windows Server and Windows releases will have the deprecated authentication protocol disabled by default. The post Microsoft Moves Closer to Disabling NTLM appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-moves-closer-to-disabling-ntlm/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265146",
+    "date": "2026-02-02",
+    "title": "We moved fast and broke things. It’s time for a change.",
+    "summary": "The phrase “Move fast and break things” is a guiding philosophy in the technology industry. The phrase was coined by Meta CEO and founder Mark Zuckerberg more than two decades ago: an operational directive for Facebook developers to prioritize speed and innovation even at the cost of stability. “...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/move-fast-break-things-cybersecurity-supply-chain-security-op-ed/",
+    "tags": [
+      "malware",
+      "meta",
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265147",
+    "date": "2026-02-02",
+    "title": "You are being redirected...",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://blog.sucuri.net/2026/01/shadow-directories-a-unique-method-to-hijack-wordpress-permalinks.html?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265148",
+    "date": "2026-02-02",
+    "title": "Japan, Britain to Boost Cybersecurity and Critical Minerals Cooperation as China’s Influence Grows",
+    "summary": "Japan and Britain agree to accelerate cooperation on cybersecurity and the supply of critical minerals, as China’s influence grows in the region. The post Japan, Britain to Boost Cybersecurity and Critical Minerals Cooperation as China’s Influence Grows appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/japan-britain-to-boost-cybersecurity-and-critical-minerals-cooperation-as-chinas-influence-grows/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265149",
+    "date": "2026-02-02",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A vulnerability identified as CVE-2025-0921 has been discovered in the Iconics Suite, a SCADA system used for industrial process control. This vulnerability allows for execution with unnecessary privileges, potentially leading to a DoS condition. Two evolving malware campaigns—Campaign Trio (Feb–...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Unit%2042",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265150",
+    "date": "2026-02-02",
+    "title": "Privileged File System Vulnerability Present in a SCADA System",
+    "summary": "This report details a vulnerability we found in the Iconics Suite, tracked as CVE-2025-0921 with a Medium CVSS score of 6.5. Iconics Suite is the name of a supervisory control and data acquisition (SCADA) system. This system is used for controlling and monitoring industrial processes in different...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://unit42.paloaltonetworks.com/iconics-suite-cve-2025-0921/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265151",
+    "date": "2026-02-02",
+    "title": "Notepad++ Official Update Mechanism Hijacked to Deliver Malware to Select Users",
+    "summary": "The maintainer of Notepad++ has revealed that state-sponsored attackers hijacked the utility's update mechanism to redirect update traffic to malicious servers instead. \"The attack involved [an] infrastructure-level compromise that allowed malicious actors to intercept and redirect update traffic...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/notepad-official-update-mechanism.html",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265152",
+    "date": "2026-02-02",
+    "title": "[Ekstra] Flytter hjem 35 petabyte: – Hovedårsaken er uten tvil datasuverenitet",
+    "summary": "Henter enorme mengder data fra AWS til norske servere. – Helt uaktuelt å lagre data noe annet sted enn i Norge.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/flytter-hjem-35-petabyte/567411",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265153",
+    "date": "2026-02-02",
+    "title": "Notepad++ Supply Chain Hack Conducted by China via Hosting Provider",
+    "summary": "The likely state-sponsored threat actor had access to the hosting provider for months and targeted only certain Notepad++ customers. The post Notepad++ Supply Chain Hack Conducted by China via Hosting Provider appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/notepad-supply-chain-hack-conducted-by-china-via-hosting-provider/",
+    "tags": [
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265154",
+    "date": "2026-02-02",
+    "title": "Iran-Linked RedKitten Cyber Campaign Targets Human Rights NGOs and Activists",
+    "summary": "A Farsi-speaking threat actor aligned with Iranian state interests is suspected to be behind a new campaign targeting non-governmental organizations and individuals involved in documenting recent human rights abuses. The activity, observed by HarfangLab in January 2026, has been codenamed RedKitt...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/01/iran-linked-redkitten-cyber-campaign.html?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265155",
+    "date": "2026-02-02",
+    "title": "CrossCurve Bridge Hacked for $3M After Smart Contract Validation Vulnerability Exploited",
+    "summary": "CrossCurve bridge, formerly known as EYWA, has suffered a major cyberattack after attackers exploited a vulnerability in its smart contract infrastructure, draining approximately $3 million across multiple blockchain networks. The CrossCurve team confirmed the incident on Sunday, stating that its...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/crosscurve-bridge-3m-cyberattack/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265156",
+    "date": "2026-02-02",
+    "title": "Daniel Ho Honoured with the \"Cyber Security Professional Awards 2025\" - The Manila Times",
+    "summary": "This marks Daniel's second consecutive win, reaffirming his exceptional leadership and continuous contribution to advancing cybersecurity capabilities ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.manilatimes.net/2026/02/02/tmt-newswire/media-outreach-newswire/daniel-ho-honoured-with-the-cyber-security-professional-awards-2025-silver-award-in-telecommunications-services-sector/2269568",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265157",
+    "date": "2026-02-02",
+    "title": "OT cybersecurity issues facing the UK energy industry",
+    "summary": "A coordinated attack on multiple sites could destabilize the entire network, causing widespread outages and economic disruption. Phil Tonkin. As ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://energy-oil-gas.com/news/ot-cybersecurity-issues-facing-the-uk-energy-industry/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265158",
+    "date": "2026-02-02",
+    "title": "The CISO Brief: Why tabletop exercises are an essential cyber security tool, and ...",
+    "summary": "In this episode of The CISO Brief, the Cyber Daily team outlines the importance of running regular tabletop cyber security exercises, the dangers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cyberdaily.au/digital-transformation/13166-the-ciso-brief-why-tabletop-exercises-are-an-essential-cyber-security-tool-and-understanding-employee-data-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265159",
+    "date": "2026-02-02",
+    "title": "Creating a cyber-aware risk culture requires teamwork | ABA Banking Journal",
+    "summary": "... Cybersecurity Framework 2.0, CISA's Cybersecurity Performance Goals and Sector-Specific Goals and Center for Internet Security Controls. (See this ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://bankingjournal.aba.com/2026/02/creating-a-cyber-aware-risk-culture-requires-teamwork/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265160",
+    "date": "2026-02-02",
+    "title": "CERT Polska details cyberattacks on Polish manufacturer, energy sites; fails to disrupt ...",
+    "summary": "The agency added that the attack on the CHP plant aimed to sabotage data by irreversibly damaging devices within the plant's internal network using ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/cert-polska-details-cyberattacks-on-polish-manufacturer-energy-sites-fails-to-disrupt-power-and-heat-supply/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265161",
+    "date": "2026-02-02",
+    "title": "Group-IB Strengthens Cybersecurity Collaboration with Law Enforcement in Hong Kong and ...",
+    "summary": "Group-IB strengthens its cybersecurity collaboration with the Hong Kong Police Force following the extension of the Cyber Security Action Task ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/media-center/press-releases/hong-kong-law-enforcement-collaboration/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265162",
+    "date": "2026-02-02",
+    "title": "Cyber security for manufacturing: a practical guide to protecting the factory floor",
+    "summary": "These cyber attacks are usually aimed at accessing, changing or destroying sensitive information; extorting money from users through ransomware; or ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.themanufacturer.com/articles/manufacturing-cyber-security-guide/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265163",
+    "date": "2026-02-02",
+    "title": "AI Risk and the Future of Enterprise Security - Palo Alto Networks",
+    "summary": "Readers will gain insight into: Defining ownership for AI risk across business, IT, and security teams; Building governance structures that support ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/resources/ebooks/ai-risk-and-the-future-of-enterprise-security",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265164",
+    "date": "2026-02-02",
+    "title": "FN HERSTAL OBTAINS RARE HIGH LEVEL US DEFENCE CYBERSECURITY CERTIFICATION",
+    "summary": "... information security.” Brian McManamon, President of Redspin: “As the CMMC 3rd Party Assessment Organization (C3PAO) responsible for conducting ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fnherstal.com/en/news/fn-herstal-obtains-rare-high-level-us-defence-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265165",
+    "date": "2026-02-02",
+    "title": "How to Secure Your Mid-Market Business Across the Complete Threat Lifecycle",
+    "summary": "It was originally designed to complement EPP and enable security analysts in enterprise environments to detect and respond to in-progress cyberattacks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/02/how-to-secure-your-mid-market-business.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265166",
+    "date": "2026-02-02",
+    "title": "When Your Browser Becomes The Attacker: AI Browser Exploits - The Hacker News",
+    "summary": "He is a tech enthusiast, with a background of Security Researcher and Hacker. Gal has led teams in multiple cybersecurity areas with an expertise in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/02/when-your-browser-becomes-attacker-ai.html",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265167",
+    "date": "2026-02-02",
+    "title": "Your Second-Biggest Threat? Your Own Workflows - Dark Reading",
+    "summary": "Security teams face two adversaries: threat actors and their own manual workflows. Learn how bottlenecks slow response times and what to do about it.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/your-second-biggest-threat-your-own-workflows",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265168",
+    "date": "2026-02-02",
+    "title": "Mitsubishi Electric Completes Acquisition of OT Cybersecurity Leader Nozomi Networks",
+    "summary": "Nozomi Networks, the leader in OT, IoT and cyber‑physical system security, announced that Mitsubishi Electric has completed its acquisition of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thefastmode.com/solution-vendors-m-a/46907-mitsubishi-electric-completes-acquisition-of-ot-cybersecurity-leader-nozomi-networks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265169",
+    "date": "2026-02-02",
+    "title": "In the Spotlight: Office for National Statistics (ONS) - THINK Digital Partners",
+    "summary": "The ONS is embedding security within digital delivery through Secure by Design, transforming cyber resilience from a technical function into an ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thinkdigitalpartners.com/news/2026/02/02/in-the-spotlight-office-for-national-statistics-ons/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265170",
+    "date": "2026-02-02",
+    "title": "StrongestLayer: Top 'Trusted' Platforms are Key Attack Surfaces - Security Boulevard",
+    "summary": "There's something of a renaissance happening in cybersecurity. No, it never went away, you're right, but the level of vocal engagement coming out ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/02/strongestlayer-top-trusted-platforms-are-key-attack-surfaces/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265171",
+    "date": "2026-02-02",
+    "title": "Cybersecurity Challenges and Barriers to Implementing Moodle for Blended Learning in ...",
+    "summary": "... cyber threats, illustrating how cybersecurity vulnerability is ... International Journal of Information Security Science, 10, 45-57. [4] ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.scirp.org/journal/paperinformation?paperid=149326",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265172",
+    "date": "2026-02-02",
+    "title": "Apex champions proactive firewall upgrades for MSPs - SecurityBrief New Zealand",
+    "summary": "cloud security · #. cybersecurity · #. endpoint protection · #. firewalls · #. ransomware. Search. Gae%cc%88lle perrin. #. Firewalls · #. Encryption.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.nz/story/apex-champions-proactive-firewall-upgrades-for-msps",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265173",
+    "date": "2026-02-02",
+    "title": "US FBI Launches “Operation Winter Shield” to counter escalating Cyber Threats",
+    "summary": "Join more than 600,000 security leaders and get early access to the latest cybersecurity research, expert guides, and insight on the trends shaping ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/us-fbi-launches-operation-winter-shield-to-counter-escalating-cyber-threats/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265174",
+    "date": "2026-02-02",
+    "title": "How to resolve Cloud Security gaps with Runtime Protection - Cybersecurity Insiders",
+    "summary": "By delivering continuous monitoring, behavioral analysis, and real-time response, it closes critical security gaps that exist beyond deployment. As ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/how-to-resolve-cloud-security-gaps-with-runtime-protection/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265175",
+    "date": "2026-02-02",
+    "title": "How powerful is AI in managing non-human identities - Security Boulevard",
+    "summary": "Cybersecurity is intricately linked with the proper control and protection of NHIs. Where the cloud computing and digital transformation revolution ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/02/how-powerful-is-ai-in-managing-non-human-identities/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265176",
+    "date": "2026-02-02",
+    "title": "Forget AI: This High‑Growth Security Platform Has Multibagger Potential - Yahoo Finance",
+    "summary": "Most cybersecurity programs or hardware only focus on one aspect of keeping your network safe, like cloud security, data protection, or threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/forget-ai-high-growth-security-052000402.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265177",
+    "date": "2026-02-02",
+    "title": "Open-source AI is a global security nightmare waiting to happen, say researchers - The Register",
+    "summary": "\"That undermines public safety, not enhances it.\" The duo have continued their work in cybersecurity since the incident, and now work together at an ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/01/opensource_ai_is_a_global/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265178",
+    "date": "2026-02-02",
+    "title": "Skills Displaces Cybersecurity As Top Concern For IBM i Shops - IT Jungle",
+    "summary": "... Security checks eventually are forced to take it. IBM i chief architect Steve Will said he was not surprised by the news. “This community has ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itjungle.com/2026/02/02/skills-displaces-cybersecurity-as-top-concern-for-ibm-i-shops/",
+    "tags": [
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265179",
+    "date": "2026-02-02",
+    "title": "Cyber security keeps failing because it's treated as an IT problem, according to former FTSE ...",
+    "summary": "According to experienced Chief Information Security Officer (CISO), Amy Lemberger, founder of The CISO Hub, the real issue is far more basic: no one ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ground.news/article/cyber-security-keeps-failing-because-its-treated-as-an-it-problem-according-to-former-ftse-250-chief-information-security-officer_9324cf",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265180",
+    "date": "2026-02-02",
+    "title": "HTX and Singtel Group deepen partnership to strengthen Singapore's public safety capabilities",
+    "summary": "... network services and cyber security. HTX and Singtel share a strong commitment towards harnessing innovation to support Singapore's public safety ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.singtel.com/about-us/media-centre/news-releases/htx-and-singtel-group-deepen-partnership-to-strengthen-singapore",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265181",
+    "date": "2026-02-02",
+    "title": "Secretariat requires mandatory identity verification for social media users - Vietnam News",
+    "summary": "They are among requirements in the Directive No. 57 on strengthening cybersecurity, information security and data security within the political system ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://vietnamnews.vn/Sci-Tech/1764966/secretariat-requires-mandatory-identity-verification-for-social-media-users.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265113",
     "date": "2026-02-02",
     "title": "Ransomware Without Encryption: Why Pure Exfiltration Attacks Are Surging",
