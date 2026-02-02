@@ -252,6 +252,8 @@ console.log(`   Temperature: 0.3\n`);
 
 // Call OpenAI API with retries
 async function callOpenAIWithRetry(maxRetries = 3) {
+  let lastError;
+  
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const startTime = Date.now();
@@ -263,8 +265,8 @@ async function callOpenAIWithRetry(maxRetries = 3) {
           { role: "user", content: userPrompt }
         ],
         temperature: 0.3,
-        max_tokens: 2000, // Limit output tokens for cost control
-        timeout: 90000, // 90 second timeout
+        max_tokens: 2000,
+        timeout: 90000,
         response_format: {
           type: "json_schema",
           json_schema: {
@@ -290,19 +292,25 @@ async function callOpenAIWithRetry(maxRetries = 3) {
       };
       
     } catch (error) {
-      console.error(`❌ Attempt ${attempt}/${maxRetries} failed:`, error.message);
+      lastError = error;
+      console.error(`❌ Attempt ${attempt}/${maxRetries} failed: ${error.status || 'ERROR'} ${error.message}`);
       
-      if (error.status === 429) {
-        console.log('   Rate limit hit. Waiting before retry...');
-        await new Promise(resolve => setTimeout(resolve, Math.pow(2, attempt) * 1000));
-      } else if (attempt < maxRetries) {
-        console.log('   Retrying...');
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      } else {
-        throw error;
+      // Only retry if we have attempts left
+      if (attempt < maxRetries) {
+        if (error.status === 429) {
+          const waitTime = Math.pow(2, attempt) * 1000;
+          console.log(`   Rate limit hit. Waiting ${waitTime/1000}s before retry...`);
+          await new Promise(resolve => setTimeout(resolve, waitTime));
+        } else {
+          console.log('   Retrying...');
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
       }
     }
   }
+  
+  // If we get here, all retries failed
+  throw lastError || new Error('All retry attempts failed without error');
 }
 
 // Execute the API call
@@ -311,6 +319,42 @@ try {
   result = await callOpenAIWithRetry();
 } catch (error) {
   console.error('\n❌ Failed to generate analysis:', error.message);
+  
+  // If quota exceeded, save a marker file and exit gracefully
+  if (error.message.includes('quota') || error.message.includes('429') || error.status === 429) {
+    const quotaMarker = {
+      generated_at: new Date().toISOString(),
+      status: "quota_exceeded",
+      error: error.message,
+      error_status: error.status || 429,
+      week_start: aggregate.week_start,
+      week_end: aggregate.week_end,
+      week_year: aggregate.week_year,
+      week_number: aggregate.week_number,
+      note: "OpenAI API quota exceeded. Analysis will be generated when quota is restored."
+    };
+    
+    const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'analysis');
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+    
+    const weekIdentifier = `${aggregate.week_year}-${String(aggregate.week_number).padStart(2, '0')}`;
+    const outputFile = path.join(outputDir, `week_${weekIdentifier}_pending.json`);
+    fs.writeFileSync(outputFile, JSON.stringify(quotaMarker, null, 2));
+    
+    console.log(`\n⚠️  Quota marker saved to: ${outputFile}`);
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('💡 ACTION REQUIRED:');
+    console.log('   1. Add OpenAI API credits at: https://platform.openai.com/settings/organization/billing');
+    console.log('   2. Re-run this workflow to generate the analysis');
+    console.log('   3. The aggregate data has been saved and is ready for analysis');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+    process.exit(0); // Exit gracefully, don't fail the workflow
+  }
+  
+  // For other errors, fail with exit code 1
+  console.error('\n💥 This appears to be a non-quota error. Check the logs above.\n');
   process.exit(1);
 }
 
