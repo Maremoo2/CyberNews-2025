@@ -94,7 +94,6 @@ function SectorAnalysis({ incidents }) {
         }
       } else {
         // Fallback to keyword matching
-        let matched = false;
         Object.entries(sectorDefinitions).forEach(([sector, definition]) => {
           if (definition.keywords.some(keyword => text.includes(keyword))) {
             // For technology sector, require incident/breach indicators
@@ -110,7 +109,6 @@ function SectorAnalysis({ incidents }) {
             if (incident.case_id) {
               sectorUniqueIncidents[sector].add(incident.case_id);
             }
-            matched = true;
           }
         });
         

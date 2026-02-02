@@ -30,10 +30,23 @@ export default defineConfig([
     // Configuration for Node.js scripts
     files: ['scripts/**/*.js'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.node,
       parserOptions: {
-        ecmaVersion: 'latest',
+        sourceType: 'module',
+      },
+    },
+    rules: {
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+    },
+  },
+  {
+    // Configuration for test files
+    files: ['tests/**/*.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      globals: globals.node,
+      parserOptions: {
         sourceType: 'module',
       },
     },

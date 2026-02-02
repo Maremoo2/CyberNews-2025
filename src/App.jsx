@@ -36,6 +36,7 @@ import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
 import WeeklyAnalysis from './components/WeeklyAnalysis'
+import DataModelTooltip from './components/DataModelTooltip'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -381,8 +382,6 @@ function App() {
       }
       // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
       if (cisoMode.confirmedOnly) {
-        const preFilterCount = filtered.length;
-        
         filtered = filtered.filter(incident => {
           const text = `${incident.title} ${incident.summary}`.toLowerCase();
           
@@ -426,11 +425,7 @@ function App() {
           
           return isHighConfidence || hasMultipleSources || hasConfirmation;
         });
-        
-        // Track retention percentage
-        const retentionPercent = preFilterCount > 0 ? ((filtered.length / preFilterCount) * 100).toFixed(1) : 0;
-        // Store this for display (we'll add UI for this)
-        cisoMode._confirmedRetention = retentionPercent;
+        // TODO: Add retention percentage tracking in future (GitHub issue needed)
       }
     }
 
