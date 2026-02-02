@@ -1,5 +1,517 @@
 [
   {
+    "id": "20265182",
+    "date": "2026-02-02",
+    "title": "Notepad++ says Chinese government hackers hijacked its software updates for months",
+    "summary": "The developer of the popular text editor Notepad++ said hackers associated with the Chinese government hijacked its software update mechanism to deliver tainted software to users for months.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/02/notepad-says-chinese-government-hackers-hijacked-its-software-updates-for-months/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265183",
+    "date": "2026-02-02",
+    "title": "GhostChat promet l'amour mais vole les données des utilisateurs, un piège Android qui inquiète les experts",
+    "summary": "Des chercheurs en cybersécurité ont dévoilé une campagne d'espionnage Android sophistiquée qui sévit au Pakistan. L'application malveillante GhostChat, déguisée en plateforme de rencontre, combine une arnaque sentimentale à une exfiltration massive de données.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598555-ghostchat-promet-l-amour-mais-vole-les-donnees-des-utilisateurs-un-piege-android-qui-inquiete-les-experts.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265184",
+    "date": "2026-02-02",
+    "title": "Un simple PDF partagé entre étudiants peut-il valoir une amende ?",
+    "summary": "Partager un manuel scolaire en version numérique \"pour dépanner\", envoyer un PDF dans un groupe privé, récupérer un cours via un camarade… Voilà des gestes somme toute banals, n'est-ce pas ?",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598561-un-simple-pdf-partage-entre-etudiants-peut-il-valoir-une-amende.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265185",
+    "date": "2026-02-02",
+    "title": "Notepad++ a blindé son infrastructure contre les hackers chinois",
+    "summary": "Le créateur de l'éditeur de texte open-source Notepad++ vient de publier un rapport détaillé sur une attaque ciblée qui a compromis son hébergeur. Les pirates ont pu rediriger certaines mises à jour vers des serveurs malveillants.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598549-notepad-a-blinde-son-infrastructure-contre-les-hackers-chinois.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265186",
+    "date": "2026-02-02",
+    "title": "Benefits of Executive Monitoring Platforms for Business Growth",
+    "summary": "When a CEO's deepfake appears in a fraudulent investor call, when stolen credentials surface on dark web marketplaces, or when executive impersonation attempts trick employees into wire transfers, the damage isn't just technical—it's existential. Yet most organizations treat executive protection ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/benefits-of-executive-monitoring-platforms/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265187",
+    "date": "2026-02-02",
+    "title": "ShinyHunters escalates tactics in extortion campaign linked to Okta environments",
+    "summary": "Researchers are tracking multiple clusters that are using social engineering to gain access to victims.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/shinyhunters-tactics-extortion-okta-environ/811112/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265188",
+    "date": "2026-02-02",
+    "title": "FCC urges telecoms to boost cybersecurity amid growing ransomware threat",
+    "summary": "The commission said it was aware of ransomware disruptions at a growing number of small and medium-sized telecoms.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/fcc-telecommunications-ransomware-warning/811100/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265189",
+    "date": "2026-02-02",
+    "title": "Activist platform StopICE denies breach after alleged hack raises alarm",
+    "summary": "An activist platform designed to track US immigration enforcement activity, StopICE.net, has come under fire after reports surfaced of a major data breach that allegedly compromised the personal information of over 100,000 users and handed it to federal authorities. StopICE.net serves as a crowds...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/activist-platform-stopice-denies-breach-after-alleged-hack-raises-alarm/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265190",
+    "date": "2026-02-02",
+    "title": "ShinyHunters flip the script on MFA in new data theft attacks",
+    "summary": "Multi-factor authentication (MFA) is supposed to defend against phishing attacks, but threat actors operating under the ShinyHunters banner are using it as a pretext in ongoing social engineering attacks aimed at bypassing it. Among those successfully targeted in these latest hacking spree are Pa...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/shinyhunters-mfa-social-engineering/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265191",
+    "date": "2026-02-02",
+    "title": "Malwarebytes in ChatGPT delivers AI-powered protection against scams",
+    "summary": "Malwarebytes announced Malwarebytes in ChatGPT, a new way for individuals and small businesses to get fast, trusted security assistance directly within ChatGPT. Users can ask Malwarebytes to check whether something is a scam or spam, tapping into the company’s deep cybersecurity expertise and dec...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/malwarebytes-in-chatgpt/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265192",
+    "date": "2026-02-02",
+    "title": "How state-sponsored attackers hijacked Notepad++ updates",
+    "summary": "Suspected Chinese state-sponsored attackers hijacked the Notepad++ update mechanism by compromising the software project’s shared hosting server and intercepting and redirecting update traffic destined for notepad-plus-plus.org, the software’s maintainer Don Ho confirmed on Monday. The attack tim...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/2025-notepad-supply-chain-compromise/",
+    "tags": [
+      "state-sponsored",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265193",
+    "date": "2026-02-02",
+    "title": "Span Cyber Security Arena 2026: Only 10 days left to secure early bird tickets",
+    "summary": "With preparations well underway, Span Cyber Security Arena 2026 is set to return for its third edition, bringing together domestic and international experts in cyber security. As in previous years, the conference is designed for everyone involved in that area – from regulatory and legal professio...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/02/span-cyber-security-arena-2026-tickets/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265194",
+    "date": "2026-02-02",
+    "title": "Fake Dating App Delivers Android Spyware in Targeted Campaign ",
+    "summary": "ESET researchers have uncovered a targeted Android spyware campaign using a fake dating app to lure victims into installing mobile surveillance malware. The campaign, focused on users in Pakistan, disguises spyware as a chat platform that promises access to exclusive profiles but instead quietly ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fake-dating-app-delivers-android-spyware-in-targeted-campaign/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265195",
+    "date": "2026-02-02",
+    "title": "Fake Clawdbot VS Code Extension Deploys ScreenConnect RAT ",
+    "summary": "A malicious Visual Studio (VS) Code extension posing as an AI-powered assistant was quietly installing remote access malware on developers’ systems. The fake extension, called ClawdBot Agent, appeared legitimate on the surface but executed malware automatically as soon as VS Code launched. “The l...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fake-clawdbot-vs-code-extension-deploys-screenconnect-rat/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265196",
+    "date": "2026-02-02",
+    "title": "Notepad++ Update Servers Hijacked in Targeted Supply Chain Attack",
+    "summary": "The Notepad++ project has confirmed that attackers quietly hijacked its software update infrastructure in a targeted campaign that allowed malicious binaries to be served to select users for months. Rather than exploiting a flaw in the editor’s code, the attackers compromised backend hosting syst...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/notepad-update-servers-hijacked-in-targeted-supply-chain-attack/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265197",
+    "date": "2026-02-02",
+    "title": "Iconics SCADA Vulnerability Can Render Systems Unbootable",
+    "summary": "A vulnerability in the Iconics Suite SCADA platform could allow attackers to disrupt industrial control systems by corrupting critical Windows binaries. The flaw enables misuse of privileged file system operations, potentially leaving affected systems unbootable. Successful exploitation of the vu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/iconics-scada-vulnerability-can-render-systems-unbootable/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265198",
+    "date": "2026-02-02",
+    "title": "Chrome Ad Blocker Caught Hijacking Amazon Affiliate Links",
+    "summary": "A Chrome browser extension advertised as a way to hide sponsored ads on Amazon has been caught quietly hijacking affiliate links in the background, redirecting commissions to its developer without users’ knowledge. Socket researchers found that the extension, Amazon Ads Blocker, replaces existing...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/chrome-ad-blocker-caught-hijacking-amazon-affiliate-links/",
+    "tags": [
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265199",
+    "date": "2026-02-02",
+    "title": "How immutable Linux can stop you from breaking your system",
+    "summary": "Linux is increasingly user-friendly, and as more and more apps become compatible, it is more tempting than ever to jump ship from Windows to Linux. However, there is one major drawback to Linux for anyone that wants to try it.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/immutable-linux-can-stop-you-from-breaking-your-system/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20265200",
+    "date": "2026-02-02",
+    "title": "UAC-0001 (APT28) Attack Detection: russia-Backed Actor Actively Exploits CVE-2026-21509 Targeting Ukraine and the EU",
+    "summary": "Right after Microsoft disclosed an actively exploited Office zero-day (CVE-2026-21509) on January 26, 2026, CERT-UA reported UAC-0001 (APT28) leveraging the vulnerability in the wild. The russia-backed threat actor targeted organizations in Ukraine and the EU with malicious Office documents, and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/detect-uac-0001-attacks-exploiting-cve-2026-21509/",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265201",
+    "date": "2026-02-02",
+    "title": "Texas GOP Says ICE is Turning the Country Blue",
+    "summary": "Apparently unlawful detention of tens of thousands of Americans into concentration camps is starting to worry the GOP even in Texas. [Rep. Pete] Sessions, who represents areas of central and west Texas in the state’s 17th Congressional District, suggested during an appearance on “CNN News Central...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76839",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265202",
+    "date": "2026-02-02",
+    "title": "Cyber Insurance Requirements Are Getting Tougher",
+    "summary": "Cyber insurance has shifted from a financial safeguard into a mechanism that actively shapes how organizations approach cybersecurity. According to a recent SecureAIT analysis, insurers are no longer willing to underwrite cyber risk based on questionnaires or high-level assurances alone. Instead,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/cyber-insurance-requirements/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265203",
+    "date": "2026-02-02",
+    "title": "Desperate Perth Renters Targeted by Rising Australian Housing Scam",
+    "summary": "For many residents in Perth, finding a rental has become a high-stakes challenge. As demand for housing surges, a troubling trend has just been revealed. An Australian housing scam preying on renters who are willing to stretch every dollar to secure a roof over their heads. These rent scams, ofte...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/perth-australian-housing-scam/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265204",
+    "date": "2026-02-02",
+    "title": "Human Risk Management: Das Paradoxon der Sicherheitsschulungen",
+    "summary": "Security Awareness Trainings sollten auf dem Human-Risk-Management-Ansatz basieren. FAMILY STOCK – shutterstock.com Unternehmen investieren Millionen von Dollar in Firewalls, Endpunktsicherheit oder Verschlüsselung. Doch eine einzige Person kann eine Katastrophe auslösen. Es reicht, wenn sie eine...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125591/human-risk-management-das-paradoxon-der-sicherheitsschulungen.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265205",
+    "date": "2026-02-02",
+    "title": "How risk culture turns cyber teams predictive",
+    "summary": "The first time you’ll hear, “We’re always in incident mode,” it won’t be said with drama. It will be said the way you mention the weather. Grey again. Pager again. And that’s the problem. When a constant alarm becomes normal, your team stops asking the only question that matters. Why do we keep e...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125172/how-risk-culture-turns-cyber-teams-predictive.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265206",
+    "date": "2026-02-02",
+    "title": "ShinyHunters Expands Scope of SaaS Extortion Attacks",
+    "summary": "Following its attacks on Salesforce instances last year, members of the cybercrime group have broadened their targeting and gotten more aggressive with extortion tactics.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-expands-scope-saas-extortion-attacks",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265207",
+    "date": "2026-02-02",
+    "title": "NSA Publishes New Zero Trust Implementation Guidelines",
+    "summary": "NSA released new guidelines to help organizations achieve target-level Zero Trust maturity",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nsa-zero-trust-implementation/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265208",
+    "date": "2026-02-02",
+    "title": "Notepad++ Update Hijacking Linked to Hosting Provider Compromise",
+    "summary": "A supply chain attack on Notepad++ update process was linked to compromised hosting infrastructure",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/notepad-update-hijacked/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265209",
+    "date": "2026-02-02",
+    "title": "Fancy Bear Exploits Microsoft Office Flaw in Ukraine, EU Cyber-Attacks",
+    "summary": "Russia-linked hacking group Fancy Bear is exploiting a brand-new vulnerability in Microsoft Office, CERT-UA says",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fancy-bear-exploits-office-flaw/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265210",
+    "date": "2026-02-02",
+    "title": "The AI Exchange: Innovators in Payment Security Featuring Soft Space",
+    "summary": "Welcome to the PCI Security Standards Council’s blog series, The AI Exchange: Innovators in Payment Security. This special, ongoing feature of our PCI Perspectives blog offers a resource for payment security industry stakeholders to exchange information about how they are adopting and implementin...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/the-ai-exchange-innovators-in-payment-security-featuring-soft-space",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265211",
+    "date": "2026-02-02",
+    "title": "Hugging Face Repositories Abused in New Android Malware Campaign",
+    "summary": "Attackers exploited Hugging Face’s trusted infrastructure to spread an Android RAT, using fake security apps and thousands of malware variants. The post Hugging Face Repositories Abused in New Android Malware Campaign appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-hugging-face-android-rat-malware-campaign/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265212",
+    "date": "2026-02-02",
+    "title": "Mozilla announces switch to disable all Firefox AI features",
+    "summary": "In response to user feedback on AI integration, Mozilla announced today that the next Firefox release will let users disable AI features entirely or manage them individually. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/software/mozilla-will-let-you-turn-off-all-firefox-ai-features/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265213",
+    "date": "2026-02-02",
+    "title": "Microsoft: January update shutdown bug affects more Windows PCs",
+    "summary": "Microsoft has confirmed that a known issue preventing some Windows 11 devices from shutting down also affects Windows 10 systems with Virtual Secure Mode (VSM) enabled. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-january-update-shutdown-bug-affects-more-windows-pcs/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265214",
+    "date": "2026-02-02",
+    "title": "CTM360 Report Warns of Global Surge in Fake High-Yield Investment Scams",
+    "summary": "Fake high-yield investment platforms are surging worldwide, promising \"guaranteed\" returns that mask classic Ponzi schemes.CTM360 explains how HYIP scams scale through social media, recycled templates, and referral abuse. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ctm360-report-warns-of-global-surge-in-fake-high-yield-investment-scams/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265215",
+    "date": "2026-02-02",
+    "title": "Notepad++ update feature hijacked by Chinese state hackers for months",
+    "summary": "Chinese state-sponsored threat actors were likely behind the hijacking of Notepad++ update traffic last year that lasted for almost half a year, the developer states in an official announcement today. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/notepad-plus-plus-update-feature-hijacked-by-chinese-state-hackers-for-months/",
+    "tags": [
+      "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265216",
+    "date": "2026-02-02",
+    "title": "Panera Bread breach impacts 5.1 million accounts, not 14 million customers ",
+    "summary": "The data breach notification service Have I Been Pwned says that a data breach at the U.S. food chain Panera Bread affected 5.1 million accounts, not 14 million customers as previously reported. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/panera-bread-data-breach-impacts-51-million-accounts-not-14-million-customers/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265142",
     "date": "2026-02-02",
     "title": "Cyber Insights 2026: Malware and Cyberattacks in the Age of AI",
