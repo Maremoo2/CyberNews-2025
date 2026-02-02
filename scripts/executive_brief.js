@@ -344,7 +344,7 @@ async function callOpenAIWithRetry(maxRetries = 3) {
     }
   }
   
-  throw lastError || new Error('Unexpected: All retry attempts failed without capturing error');
+  throw lastError || new Error('Failed to generate executive brief after all retry attempts without capturing error details');
 }
 
 // Execute the API call
