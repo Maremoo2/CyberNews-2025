@@ -36,6 +36,7 @@ import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
 import WeeklyAnalysis from './components/WeeklyAnalysis'
+import DataModelTooltip from './components/DataModelTooltip'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
