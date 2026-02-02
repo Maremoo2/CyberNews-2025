@@ -25,6 +25,8 @@ const scriptPath = path.join(PROJECT_ROOT, 'scripts', 'weekly_sensemaking.js');
 const scriptContent = fs.readFileSync(scriptPath, 'utf8');
 
 // Required patterns that indicate proper quota handling
+// Note: Script checks for both 'quota' AND '429' in message, plus status === 429
+// These are separate checks because errors may contain one or both indicators
 const requiredPatterns = [
   /error\.status\s*===\s*429/,                           // Checks for 429 status
   /error\.message\.includes\(['"]quota['"]\)/,          // Checks for quota in message

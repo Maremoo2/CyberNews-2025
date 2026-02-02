@@ -310,7 +310,8 @@ async function callOpenAIWithRetry(maxRetries = 3) {
   }
   
   // If we get here, all retries failed
-  throw lastError || new Error('All retry attempts failed without error');
+  // This should always have lastError, but include fallback for safety
+  throw lastError || new Error('Unexpected: All retry attempts failed without capturing error');
 }
 
 // Execute the API call
