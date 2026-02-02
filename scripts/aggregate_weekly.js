@@ -125,8 +125,18 @@ console.log(`📊 Previous week had ${prevWeekIncidents.length} incidents`);
 
 // Helper function to count incident-related items (severity >= 60 or has MITRE ATT&CK)
 function isIncidentRelated(incident) {
-  return (incident.impact >= 60) || 
-         (incident.aiAnalysis?.mitreAttack && incident.aiAnalysis.mitreAttack.length > 0);
+  // Schema-tolerant severity check: support multiple field names
+  const severity =
+    incident.impact ??
+    incident.impactScore ??
+    incident.severity ??
+    incident.aiAnalysis?.severity ?? 0;
+
+  return (
+    severity >= 60 ||
+    (incident.aiAnalysis?.mitreAttack?.length > 0) ||
+    incident.tags?.includes('incident')
+  );
 }
 
 // Helper function to extract themes from incidents
