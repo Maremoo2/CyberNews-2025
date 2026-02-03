@@ -1,159 +1,164 @@
 {
-  "week_start": "2026-02-02",
-  "week_end": "2026-02-08",
+  "week_start": "2026-01-26",
+  "week_end": "2026-02-01",
   "week_number": 5,
   "week_year": 2026,
   "counts": {
-    "total_items": 85,
+    "total_items": 1090,
     "incident_related": 0,
     "cluster_count": 5
   },
   "deltas_vs_last_week": {
-    "exploit_led_pct": "-1.4",
-    "phishing_pct": "-2.0",
-    "token_abuse_pct": "-2.0",
-    "ransomware_pct": "3.1"
+    "exploit_led_pct": "-0.5",
+    "phishing_pct": "-3.3",
+    "token_abuse_pct": "-0.6",
+    "ransomware_pct": "-1.7"
   },
   "attack_type_percentages": {
-    "exploit_led_pct": "9.4",
-    "phishing_pct": "2.4",
-    "token_abuse_pct": "0.0",
-    "ransomware_pct": "5.9"
+    "exploit_led_pct": "10.8",
+    "phishing_pct": "4.4",
+    "token_abuse_pct": "2.0",
+    "ransomware_pct": "2.8"
   },
   "top_themes": [
     {
       "theme": "malware",
-      "confidence": 0.7258823529411764,
-      "item_count": 48
+      "confidence": 0.7363302752293578,
+      "item_count": 644
     },
     {
       "theme": "data/it",
-      "confidence": 0.6505882352941177,
-      "item_count": 32
+      "confidence": 0.6255045871559634,
+      "item_count": 342
     },
     {
       "theme": "ai-ml",
-      "confidence": 0.6129411764705882,
-      "item_count": 24
+      "confidence": 0.608256880733945,
+      "item_count": 295
     },
     {
       "theme": "cyber",
-      "confidence": 0.5847058823529412,
-      "item_count": 18
-    },
-    {
-      "theme": "ransomware",
-      "confidence": 0.5470588235294118,
-      "item_count": 10
+      "confidence": 0.5807339449541284,
+      "item_count": 220
     },
     {
       "theme": "vulnerability",
-      "confidence": 0.5376470588235294,
-      "item_count": 8
+      "confidence": 0.5521100917431193,
+      "item_count": 142
     },
     {
-      "theme": "ransomware as a service",
-      "confidence": 0.5235294117647059,
-      "item_count": 5
+      "theme": "data breach",
+      "confidence": 0.5363302752293578,
+      "item_count": 99
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5363302752293578,
+      "item_count": 99
     },
     {
       "theme": "microsoft",
-      "confidence": 0.5235294117647059,
-      "item_count": 5
+      "confidence": 0.5245871559633027,
+      "item_count": 67
     },
     {
-      "theme": "state-sponsored",
-      "confidence": 0.5188235294117647,
-      "item_count": 4
+      "theme": "phishing",
+      "confidence": 0.5234862385321101,
+      "item_count": 64
     },
     {
-      "theme": "encryption",
-      "confidence": 0.5188235294117647,
-      "item_count": 4
+      "theme": "ransomware",
+      "confidence": 0.5220183486238532,
+      "item_count": 60
     }
   ],
   "sector_distribution": [
     {
       "sector": "government",
-      "count": 4,
-      "percentage": "4.7"
+      "count": 52,
+      "percentage": "4.8"
     },
     {
       "sector": "technology",
-      "count": 2,
-      "percentage": "2.4"
+      "count": 37,
+      "percentage": "3.4"
     },
     {
       "sector": "energy",
-      "count": 2,
-      "percentage": "2.4"
-    },
-    {
-      "sector": "finance",
-      "count": 2,
-      "percentage": "2.4"
-    },
-    {
-      "sector": "manufacturing",
-      "count": 1,
-      "percentage": "1.2"
-    },
-    {
-      "sector": "healthcare",
-      "count": 1,
-      "percentage": "1.2"
+      "count": 17,
+      "percentage": "1.6"
     },
     {
       "sector": "education",
-      "count": 1,
-      "percentage": "1.2"
+      "count": 8,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "finance",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "healthcare",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "retail",
+      "count": 3,
+      "percentage": "0.3"
     }
   ],
   "attack_chain_distribution": [],
   "top_clusters": [
     {
-      "title": "CrossCurve Bridge Hacked for $3M After Smart Contract Validation Vulnerability Exploited",
-      "size": 2,
-      "confidence": 0.608235294117647
+      "title": "Access denied",
+      "size": 9,
+      "confidence": 0.6028899082568807
     },
     {
-      "title": "Cyber Insights 2026: Malware and Cyberattacks in the Age of AI",
-      "size": 1,
-      "confidence": 0.6041176470588235
+      "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+      "size": 6,
+      "confidence": 0.6019266055045871
     },
     {
-      "title": "Over 1,400 MongoDB Databases Ransacked by Threat Actor",
-      "size": 1,
-      "confidence": 0.6041176470588235
+      "title": "Check Point Software's 2026 Cyber Security Report Shows Global Attacks Reach Record ... - iTWire",
+      "size": 3,
+      "confidence": 0.6009633027522936
     },
     {
-      "title": "[Ekstra] Hun blir ny toppsjef for de norske supermaskinene",
-      "size": 1,
-      "confidence": 0.6041176470588235
+      "title": "Google disrupts IPIDEA residential proxy networks fueled by malware",
+      "size": 3,
+      "confidence": 0.6009633027522936
     },
     {
-      "title": "Microsoft Moves Closer to Disabling NTLM",
-      "size": 1,
-      "confidence": 0.6041176470588235
+      "title": "Trump's acting cyber chief uploads sensitive files to public ChatGPT — report - TRT World",
+      "size": 3,
+      "confidence": 0.6009633027522936
     }
   ],
   "quality_metadata": {
-    "source_concentration_warning": "66% from top 3 feeds",
+    "source_concentration_warning": "59% from top 3 feeds",
     "avg_confidence": 0,
     "top_sources": [
       {
         "source": "Data/IT",
-        "count": 32
+        "count": 342
       },
       {
         "source": "Cyber",
-        "count": 18
+        "count": 220
       },
       {
         "source": "Help Net Security",
-        "count": 6
+        "count": 81
       }
     ],
-    "total_sources": 15
+    "total_sources": 64
   }
 }
