@@ -1,5 +1,104 @@
 [
   {
+    "id": "20265315",
+    "date": "2026-02-03",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c804ff98aed8eea • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265316",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Ice-Telia-samarbeidet: Styrkes eller svekkes robustheten?",
+    "summary": "Ice-Telia-samarbeidet er ikke uten utfordringer, selv om partene lover både bedre konkurranse og bedre robusthet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/analyse-ice-telia-samarbeidet-styrkes-eller-svekkes-robustheten/567754",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265317",
+    "date": "2026-02-03",
+    "title": "Think agentic AI is hard to secure today? Just wait a few months",
+    "summary": "Early experimentation with agentic AI has given CISOs a preview of the possible cybersecurity nightmares ahead. But with autonomous agent adoption expected to soar throughout 2026, CISOs’ lack of visibility into agentic identities, activities, and decision-making is set to get far worse in quick ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4123246/think-agentic-ai-is-hard-to-secure-today-just-wait-a-few-months.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265318",
+    "date": "2026-02-03",
+    "title": "Shai-Hulud & Co.: The software supply chain as Achilles’ heel",
+    "summary": "Today’s applications are based on numerous components, each of which, along with the development environments themselves, represents an attack surface. Regardless of whether companies develop code in-house or rely on third-party vendors, CISOs, security experts, and developers should pay particul...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4123250/shai-hulud-co-the-supply-chain-as-the-achilles-heel.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265319",
+    "date": "2026-02-03",
+    "title": "Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox",
+    "summary": "Mozilla on Monday announced a new controls section in its Firefox desktop browser settings that allows users to completely turn off generative artificial intelligence (GenAI) features. \"It provides a single place to block current and future generative AI features in Firefox,\" Ajit Varma, head of ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265320",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Ice og Telia slår sammen mobilnettene",
+    "summary": "Skal dele på basestasjoner, men ha egne kjernenett. Hevder det vil styrke, ikke svekke konkurransen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ice-og-telia-slar-sammen-mobilnettene/567748",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265321",
+    "date": "2026-02-03",
+    "title": "Elon Musk slår sammen SpaceX og xAI før børsnotering",
+    "summary": "Romfartsselskap SpaceX har kjøpt opp KI-selskapet xAI. Formålet med sammenslåingen er å opprette rombaserte datasentre.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/elon-musk-slar-sammen-spacex-og-xai-for-borsnotering/567745",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265301",
     "date": "2026-02-03",
     "title": "Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group",
