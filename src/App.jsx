@@ -36,6 +36,7 @@ import ValidationDashboard from './components/ValidationDashboard'
 import QuarterlyReview from './components/QuarterlyReview'
 import WeeklyHighlights from './components/WeeklyHighlights'
 import WeeklyAnalysis from './components/WeeklyAnalysis'
+import AIInsights from './components/AIInsights'
 import DataModelTooltip from './components/DataModelTooltip'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
@@ -670,6 +671,13 @@ function App() {
       {/* Weekly Highlights - Top 3 This Week */}
       {selectedYear === new Date().getFullYear() && (
         <WeeklyHighlights incidents={incidentsData} />
+      )}
+
+      {/* AI-Generated Insights - Daily Digest & Weekly Brief */}
+      {selectedYear === new Date().getFullYear() && (
+        <div id="ai-insights">
+          <AIInsights />
+        </div>
       )}
 
       {/* AI Weekly Intelligence Analysis */}
