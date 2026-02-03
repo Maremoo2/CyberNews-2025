@@ -11,9 +11,13 @@ function AIInsights() {
   useEffect(() => {
     async function loadInsights() {
       try {
-        // Load today's daily digest
+        // Load today's daily digest (using UTC date to match server-generated files)
         const today = new Date();
-        const dateStr = today.toISOString().split('T')[0]; // YYYY-MM-DD
+        // Use UTC date components to ensure consistent date across timezones
+        const year = today.getUTCFullYear();
+        const month = String(today.getUTCMonth() + 1).padStart(2, '0');
+        const day = String(today.getUTCDate()).padStart(2, '0');
+        const dateStr = `${year}-${month}-${day}`; // YYYY-MM-DD
         
         let digestData = null;
         try {
@@ -259,15 +263,23 @@ function AIInsights() {
   );
 }
 
-// Helper function to format dates
+// Helper function to format dates consistently
 function formatDate(dateStr) {
   if (!dateStr) return '';
-  const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { 
-    year: 'numeric', 
-    month: 'short', 
-    day: 'numeric' 
-  });
+  // Parse ISO date string (YYYY-MM-DD) using date-fns to avoid timezone issues
+  try {
+    // For ISO date strings, create date at noon UTC to avoid timezone edge cases
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const date = new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+    return date.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'short', 
+      day: 'numeric',
+      timeZone: 'UTC'
+    });
+  } catch (e) {
+    return dateStr;
+  }
 }
 
 export default AIInsights;

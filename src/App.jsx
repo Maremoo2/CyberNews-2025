@@ -159,6 +159,9 @@ function App() {
     region: 'all',
     dateRange: { start: '', end: '' }
   })
+  
+  // Memoize current year to avoid recalculating on every render
+  const currentYear = useMemo(() => new Date().getFullYear(), []);
 
   // Get incidents data based on selected year using object lookup for maintainability
   const yearDataMap = {
@@ -554,7 +557,6 @@ function App() {
           <div className="header-text">
             <h1>
               {(() => {
-                const currentYear = new Date().getFullYear();
                 const today = latestDataPoint || new Date().toISOString().split('T')[0];
                 return selectedYear === currentYear 
                   ? `Security News — ${selectedYear} YTD (as of ${today})`
@@ -562,7 +564,7 @@ function App() {
               })()}
             </h1>
             <p className="subtitle">
-              {selectedYear === new Date().getFullYear()
+              {selectedYear === currentYear
                 ? "Year-to-date coverage of cybersecurity news and incidents"
                 : "Overview of cybersecurity incidents"}
             </p>
@@ -661,7 +663,7 @@ function App() {
           <div className="note-content">
             <strong>About the data:</strong> This report summarizes <strong>news articles and items published in {selectedYear}</strong>.
             Item counts represent news articles and updates from RSS feeds. Multiple articles may report on the same underlying incident.
-            {selectedYear === new Date().getFullYear() && (
+            {selectedYear === currentYear && (
               <span className="ytd-note"> As we are early in {selectedYear}, trend analysis requiring quarterly data is limited.</span>
             )}
           </div>
@@ -669,19 +671,19 @@ function App() {
       </section>
 
       {/* Weekly Highlights - Top 3 This Week */}
-      {selectedYear === new Date().getFullYear() && (
+      {selectedYear === currentYear && (
         <WeeklyHighlights incidents={incidentsData} />
       )}
 
       {/* AI-Generated Insights - Daily Digest & Weekly Brief */}
-      {selectedYear === new Date().getFullYear() && (
+      {selectedYear === currentYear && (
         <div id="ai-insights">
           <AIInsights />
         </div>
       )}
 
       {/* AI Weekly Intelligence Analysis */}
-      {selectedYear === new Date().getFullYear() && (
+      {selectedYear === currentYear && (
         <div id="ai-analysis">
           <WeeklyAnalysis />
         </div>
