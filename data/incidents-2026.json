@@ -1,5 +1,605 @@
 [
   {
+    "id": "20265359",
+    "date": "2026-02-03",
+    "title": "HKMA launches quantum readiness and cybersecurity projects for banks in AI era",
+    "summary": "Hong Kong’s banking regulator has unveiled four flagship projects, including a quantum computing readiness index, to help the city’s lenders stay competitive and secure in the artificial intelligence era. The Hong Kong Monetary Authority (HKMA) said the initiatives formed part of its new Fintech ...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/business/banking-finance/article/3342268/hkma-launches-quantum-readiness-and-cybersecurity-projects-banks-ai-era?utm_source=rss_feed",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265360",
+    "date": "2026-02-03",
+    "title": "Piratage, IPTV : un Français sur trois a déjà franchi la ligne rouge",
+    "summary": "Les opérations de blocage s’enchaînent, les autorités et les ayants droit poursuivent leurs efforts et le mot IPTV revient régulièrement dans l'actualité ! Sur le papier, la lutte contre le piratage ne fait que s’intensifier. Dans les faits, les usages, eux, résistent.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598843-piratage-iptv-un-francais-sur-trois-a-deja-franchi-la-ligne-rouge.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265361",
+    "date": "2026-02-03",
+    "title": "Chez les pros, Bouygues Telecom propose des services de cybersécurité... sous marque blanche !",
+    "summary": "Bouygues Telecom a dévoilé, mardi, une nouvelle marque qui va proposer à ses clients des solutions de cybersécurité en marque blanche. Avec 80% de PME françaises visées par des cyberattaques l'an dernier, l'opérateur croit en ses chances.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598837-chez-les-pros-bouygues-telecom-propose-des-services-de-cybersecurite-sous-marque-blanche.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265362",
+    "date": "2026-02-03",
+    "title": "Ivanti alerte sur deux failles critiques dans EPMM, l’ANSSI appelle à corriger en urgence",
+    "summary": "Deux vulnérabilités critiques touchent Ivanti Endpoint Manager Mobile et permettent l’exécution de code à distance sans authentification. Exploitées dans des attaques ciblées, désormais accompagnées d’une preuve de concept publique, elles imposent un correctif rapide.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598825-ivanti-alerte-sur-deux-failles-critiques-dans-epmm-l-anssi-appelle-a-corriger-en-urgence.html",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265363",
+    "date": "2026-02-03",
+    "title": "Microsoft Office, la faille corrigée en urgence désormais exploitée dans des attaques visant l’Ukraine et l’Union européenne",
+    "summary": "Moins d’une semaine après la publication d’un patch par Microsoft, la vulnérabilité repérée dans Office se retrouve au cœur d’attaques attribuées à un groupe étatique affilié au renseignement russe.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598729-microsoft-office-la-faille-corrigee-en-urgence-desormais-exploitee-dans-des-attaques-visant-l-ukraine-et-l-union-europeenne.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265364",
+    "date": "2026-02-03",
+    "title": "Critical flaws in Ivanti EPMM lead to fast-moving exploitation attempts",
+    "summary": "Security researchers warn that the initial threat activity was highly targeted, as a limited number of users were impacted prior to disclosure.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-flaws-ivanti-epmm-exploitation/811228/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265365",
+    "date": "2026-02-03",
+    "title": "National cybersecurity strategies depend on public-private trust, report warns",
+    "summary": "An influential cybersecurity think tank urged governments to consult extensively with a wide variety of business stakeholders before making ambitious plans.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/national-cybersecurity-strategies-recommendations-ccpl/811212/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265366",
+    "date": "2026-02-03",
+    "title": "Lotus Blossom hackers deployed new Chrysalis backdoor via Notepad++ updates",
+    "summary": "New technical reports from Kaspersky and Rapid7 have revealed extensive details about the Notepad++ supply chain attack, confirming it was a months-long, highly targeted cyber-espionage campaign linked to the Chinese APT group Lotus Blossom. The attackers leveraged hijacked infrastructure to push...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/lotus-blossom-hackers-deployed-new-chrysalis-backdoor-via-notepad-updates/",
+    "tags": [
+      "malware",
+      "apt",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265367",
+    "date": "2026-02-03",
+    "title": "French police raid X’s Paris office in cybercrime investigation",
+    "summary": "French prosecutors conducted a search today at the Paris office of X (formerly Twitter) as part of a year-long cybercrime investigation into the platform’s AI assistant, Grok, and its alleged role in disseminating illegal content. The operation, overseen by the cybercrime section of the Paris pro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/french-police-raid-xs-paris-office-in-cybercrime-investigation/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "twitter"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265368",
+    "date": "2026-02-03",
+    "title": "Russian hackers are exploiting recently patched Microsoft Office vulnerability (CVE-2026-21509)",
+    "summary": "Russian state-sponsored hackers Fancy Bear (aka APT 28) are exploiting CVE-2026-21509, a Microsoft Office vulnerability for which Microsoft released an emergency fix last week. The exploitation CVE-2026-21509 allows unauthorized attackers to bypass a security feature (OLE mitigations in Microsoft...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/russian-hackers-are-exploiting-recently-patched-microsoft-office-vulnerability-cve-2026-21509/",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "state-sponsored",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265369",
+    "date": "2026-02-03",
+    "title": "Gremlin launches Disaster Recovery Testing for zone, region, and datacenter failovers",
+    "summary": "Gremlin, the proactive reliability platform, launched Disaster Recovery Testing: a new product built to safely and efficiently test zone, region, and datacenter evacuations and failovers. These large-scale tests ensure businesses maintain digital resilience and business continuity when faced with...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/gremlin-disaster-recovery-testing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265370",
+    "date": "2026-02-03",
+    "title": "Download: Tines Voice of Security 2026 report",
+    "summary": "Security teams everywhere are adopting AI. Yet manual work persists, workloads are rising, and burnout continues to climb. To understand what’s really changing, Tines surveyed 1,800+ security leaders and practitioners worldwide. The findings show where AI is delivering value, how security roles a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/tines-voice-of-security-2026-report/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265371",
+    "date": "2026-02-03",
+    "title": "Notepad++ supply chain attack: Researchers reveal details, IoCs, targets",
+    "summary": "Rapid7 researchers have attributed the recent hijacking of the Notepad++ update mechanism to Lotus Blossom (aka Billbug), a Chinese state-sponsored group known for targeting organizations in Southeast Asia for espionage purposes. On Wednesday, Kaspersky researchers shared the insights they’ve gle...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/notepad-supply-chain-attack-iocs-targets/",
+    "tags": [
+      "state-sponsored",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265372",
+    "date": "2026-02-03",
+    "title": "Flare Report: Infostealers Are Fueling Enterprise Identity Attacks",
+    "summary": "Once largely associated with consumer credential theft, infostealer malware is increasingly impacting enterprises. New research from Flare shows that a rising percentage of infections now expose enterprise Single Sign-On (SSO) and identity provider credentials, creating direct risk for corporate ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/flare-report-infostealers-are-fueling-enterprise-identity-attacks/",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265373",
+    "date": "2026-02-03",
+    "title": "Hundreds of Malicious Skills Found in OpenClaw’s ClawHub",
+    "summary": "A routine question about trust exposed a far more serious problem when researchers discovered hundreds of malicious skills hidden inside a widely used AI agent marketplace. Koi researchers analyzed ClawHub, the third-party skill repository for OpenClaw, and found that threat actors had quietly tu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/hundreds-of-malicious-skills-found-in-openclaws-clawhub/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265374",
+    "date": "2026-02-03",
+    "title": "Why Security is the Only Metric That Matters for Your VPS",
+    "summary": "In this post, I will talk about why security is the only metric that matters for your VPS. Data is not just an asset; it is a liability. A single breach, a corrupted database, or a prolonged outage can cost a business its reputation and its revenue. While many users look at processor speed or […]...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/why-security-is-the-only-metric-that-matters-for-your-vps/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265375",
+    "date": "2026-02-03",
+    "title": "10+ Best True People Search Alternatives in 2026",
+    "summary": "Want the best True People Search alternatives? Look no further! People can now look up other peoples’ contact details, addresses, and more online. Several tools and services enhance the possibilities of such information search. One of the well-known services on the internet that has this function...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/best-true-people-search-alternatives/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265376",
+    "date": "2026-02-03",
+    "title": "The Orifice: Why Ricky Gervais Shit-Talks The People Called Dogs While Campaigning for Dogs",
+    "summary": "A guy worth over a hundred million, sitting posh in his fluffy London mansion, tells a Puerto Rican artist whose community is being called “animals” by government officials that he isn’t allowed to use 30 seconds at a microphone to say “we’re human”. That’s not a joke. That’s not comedy or even c...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76887",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265377",
+    "date": "2026-02-03",
+    "title": "Tesla Autopilot Victim’s Family Alleges Deadly Design Flaws",
+    "summary": "Deadly design defects of Tesla have been a theme on this blog for a decade already. Still no regulation in America? Apparently we just get lawsuits like this one. This case is not an isolated incident. Last year, the California DMV found Tesla violated state law by using misleading terms like “Au...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76885",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265378",
+    "date": "2026-02-03",
+    "title": "Research: Ultra Processed Food (UPF) Addictive Like Cigarettes",
+    "summary": "Put your Pringles can down for a minute and read this: A study by researchers at three United States universities claims to have identified similarities between the addictive characteristics of ultra-processed foods (UPFs) and cigarettes, and has recommended similar levels of regulation. Accordin...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76883",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265379",
+    "date": "2026-02-03",
+    "title": "Cisco is Proud to Champion the UK’s Software Security Code of Practice",
+    "summary": "Cisco champions the UK’s Software Security Code of Practice in support of secure software supply chains and strengthening trust in digital services.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/cisco-proud-champion-of-uk-software-security-code-of-practice/",
+    "tags": [
+      "supply-chain",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265380",
+    "date": "2026-02-03",
+    "title": "Inside Cloud Malware Analysis: Techniques and Real-World Use Cases",
+    "summary": "Key Takeaways Cloud malware avoids files, running in memory and abusing cloud-native services to evade legacy antivirus Attackers exploit misconfigured IAM, APIs, storage, and legitimate management tools for stealthy persistence Fileless execution, living-off-the-land techniques, and encrypted cl...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/cloud-security/cloud-malware-analysis-techniques/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265381",
+    "date": "2026-02-03",
+    "title": "The Week in Vulnerabilities: Open-Sources Fixes Urged by Cyble",
+    "summary": "Cyble Vulnerability Intelligence researchers tracked 1,147 vulnerabilities in the last week, and more than 128 of the disclosed vulnerabilities already have a publicly available Proof-of-Concept (PoC), significantly increasing the likelihood of real-world attacks. A total of 108 vulnerabilities w...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/top-it-vulnerabilities-weekly-cyble/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265382",
+    "date": "2026-02-03",
+    "title": "The lazy myth that CISOs “don’t understand the business” has to go",
+    "summary": "There are many things we repeat in security that are just not true. “Security is a department of “No” (if anything, security gets told ‘No’). “There is a talent shortage in cyber” (yes, there is a huge gap of senior specialized talent, but an oversaturation of entry-level talent). “Security is th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Venture in Security",
+    "sourceUrl": "https://ventureinsecurity.net/p/the-lazy-myth-that-cisos-dont-understand",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265383",
+    "date": "2026-02-03",
+    "title": "Cyberrisiko Ruhestand",
+    "summary": "Wenn OT-Fachkräfte in den Ruhestand gehen, droht ein massiver Wissensverlust. Das kann erhebliche Folgen für die Cybersicherheit haben. vectorfusionart – shutterstock.com Zwar stellen Cyberkriminelle und staatlich unterstützte Angreifer gerade für den Industriesektor eine enorme und steigende Gef...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126366/cyberrisiko-ruhestand.html",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20265384",
+    "date": "2026-02-03",
+    "title": "From credentials to cloud admin in 8 minutes: AI supercharges AWS attack chain",
+    "summary": "Threat actors tore through an Amazon Web Services environment in under eight minutes, chaining together credential theft, privilege escalation, lateral movement, and GPU resource abuse with the help of large language models, an attack so fast that defenders had virtually no time to react. Accordi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126336/from-credentials-to-cloud-admin-in-8-minutes-ai-supercharges-aws-attack-chain.html",
+    "tags": [
+      "phishing",
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265385",
+    "date": "2026-02-03",
+    "title": "Dark Patterns Undermine Security One Click at a Time",
+    "summary": "People trust organizations to do the right thing, but websites’ and apps’ dark patterns pose a hidden threat that can lead to inadequate security behaviors.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/dark-patterns-undermine-security-one-click-at-a-time",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265386",
+    "date": "2026-02-03",
+    "title": "Sophos Protected Browser Early Access and FAQ",
+    "summary": "Categories: Products & ServicesTags: Workspace",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/sophos-protected-browser-early-access-and-faq",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265388",
+    "date": "2026-02-03",
+    "title": "Hundreds of Malicious Crypto Trading Add-Ons Found in Moltbot/OpenClaw",
+    "summary": "A security researcher found 386 malicious ‘skills’ published on ClawHub, a skill repository for the popular OpenClaw AI assistant project",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malicious-crypto-trading-skills/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265389",
+    "date": "2026-02-03",
+    "title": "SQL Injection Flaw Affects 40,000 WordPress Sites",
+    "summary": "40,000 WordPress sites are vulnerable to SQL injection in Quiz and Survey Master plugin",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/wordpress-sql-injection-flaw-40000/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265390",
+    "date": "2026-02-03",
+    "title": "DockerDash Exposes AI Supply Chain Weakness In Docker's Ask Gordon",
+    "summary": "DockerDash vulnerability allows RCE and data exfiltration via unverified metadata in Ask Gordon",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/dockerdash-weakness-dockers-ask/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265391",
+    "date": "2026-02-03",
+    "title": "UK ICO Launches Investigation into X Over AI Generated Non-Consensual Sexual Imagery",
+    "summary": "UK Data Protection Watchdog has “serious concerns” over data privacy on Elon Musk’s social platform",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ico-investigates-x-over-grok-ai/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265392",
+    "date": "2026-02-03",
+    "title": "Researchers Warn of New “Vect” RaaS Variant",
+    "summary": "A new ransomware-as-a-service operation dubbed “Vect” features custom malware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/researchers-warn-new-vect-raas/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265393",
+    "date": "2026-02-03",
+    "title": "Cybercrime Unit of Paris Prosecutors Raid Elon Musk’s X Offices in France",
+    "summary": "Elon Musk and X’s former CEO were summoned for voluntary interviews in Paris on April 20, 2026",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/paris-prosecutors-raid-elon-musk-x/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265394",
+    "date": "2026-02-03",
+    "title": "New Microsoft Update Improves Windows Sign-In Experience",
+    "summary": "Windows 11’s optional KB5074105 update fixes the missing password icon bug linked to August 29, 2025’s KB5064081 and delivers 32 improvements. The post New Microsoft Update Improves Windows Sign-In Experience appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-windows-11-stability-patch/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265395",
+    "date": "2026-02-03",
+    "title": "Iron Mountain: Data breach mostly limited to marketing materials",
+    "summary": "Iron Mountain, a leading data storage and recovery services company, says that a recent breach claimed by the Everest extortion gang is limited to mostly marketing materials. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/iron-mountain-data-breach-mostly-limited-to-marketing-materials/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265396",
+    "date": "2026-02-03",
+    "title": "AI Agent Identity Management: A New Security Control Plane for CISOs",
+    "summary": "Autonomous AI agents are creating a new identity blind spot as they operate outside traditional IAM controls. Token Security shows why managing the full lifecycle of AI agent identities is becoming a critical CISO priority. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ai-agent-identity-management-a-new-security-control-plane-for-cisos/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265397",
+    "date": "2026-02-03",
+    "title": "UK privacy watchdog probes Grok over AI-generated sexual images",
+    "summary": "The United Kingdom's data protection authority launched a formal investigation into X and its Irish subsidiary over reports that the Grok AI assistant was used to generate nonconsensual sexual images. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-privacy-watchdog-probes-grok-over-ai-generated-sexual-images/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265398",
+    "date": "2026-02-03",
+    "title": "Hackers exploit critical React Native Metro bug to breach dev systems",
+    "summary": "Hackers are targeting developers by exploiting the critical vulnerability CVE-2025-11953 in the Metro server for React Native to deliver malicious payloads for Windows and Linux. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-react-native-metro-bug-to-breach-dev-systems/",
+    "tags": [
+      "data-breach",
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265399",
+    "date": "2026-02-03",
+    "title": "French prosecutors raid X offices, summon Musk over Grok deepfakes",
+    "summary": "French prosecutors have raided X's offices in Paris on Tuesday as part of a criminal investigation into the platform's Grok AI tool, widely used to generate sexually explicit images. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/french-prosecutors-raid-x-offices-over-grok-sexual-deepfakes/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265346",
     "date": "2026-02-03",
     "title": "Hackers Leak 5.1 Million Panera Bread Records",
@@ -8237,6 +8837,20 @@
     "tags": [
       "microsoft",
       "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265387",
+    "date": "2026-01-29",
+    "title": "High Five: Sophos Named a 2026 Gartner® Peer Insights™ Customers' Choice for Endpoint Protection Platforms",
+    "summary": "This marks the fifth consecutive time with a Customers' Choice recognition for Sophos in the Endpoint Protection Platforms category.Categories: ProductsTags: Gartner, Sophos Endpoint, XDR, Third-Party Reviews",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/high-five-sophos-named-a-2026-gartner-peer-insights-customers-choice-for-endpoint-protection-platforms",
+    "tags": [
+      "supply-chain"
     ],
     "impact": 3
   },
