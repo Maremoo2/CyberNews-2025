@@ -38,7 +38,9 @@ if (!OPENAI_API_KEY) {
 
 // Initialize OpenAI client
 const openai = new OpenAI({
-  apiKey: OPENAI_API_KEY
+  apiKey: OPENAI_API_KEY,
+  timeout: 60 * 1000, // 60 seconds (in milliseconds)
+  maxRetries: 0 // We handle retries manually
 });
 
 // Parse command line arguments
@@ -298,7 +300,6 @@ async function callOpenAIWithRetry(maxRetries = 3) {
         ],
         temperature: 0.3,
         max_tokens: 2500,
-        timeout: 60000,
         response_format: {
           type: "json_schema",
           json_schema: {
