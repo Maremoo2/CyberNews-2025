@@ -1,5 +1,102 @@
 [
   {
+    "id": "20265322",
+    "date": "2026-02-03",
+    "title": "Data leaks jump 21% in Hong Kong, doxxing hits record low",
+    "summary": "Data leakage cases recorded by Hong Kong’s privacy watchdog increased 21 per cent last year, with hacking being the primary cause. But the number of doxxing cases has dropped significantly since legislation criminalising the act was passed in 2021, Privacy Commissioner for Personal Data Ada Chung...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3342216/data-leaks-jump-21-hong-kong-doxxing-hits-record-low?utm_source=rss_feed",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265323",
+    "date": "2026-02-03",
+    "title": "Qu’est-ce que le mode « NoSpy » de ce VPN et comment l’activer pour une confidentialité absolue ?",
+    "summary": "Naviguer sur Internet sans laisser de traces n’est plus un luxe réservé aux experts. En 2026, protéger ses données personnelles devient une évidence, surtout face à la multiplication des surveillances et des fuites d’informations. Certains VPN proposent désormais des fonctionnalités avancées comm...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-597925-qu-est-ce-que-le-mode-nospy-de-ce-vpn-et-comment-l-activer-pour-une-confidentialite-absolue.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265324",
+    "date": "2026-02-03",
+    "title": "Plus c'est gros, plus ça passe, vos données sont pillées pendant que vous discutez avec les hackers",
+    "summary": "Un malware qui cible Windows associe un outil de contrôle à distance interactif et un module de vol de données très étendu. Pendant que les attaquants échangent avec leurs victimes via une fenêtre de chat en direct, des informations sensibles sont collectées puis exfiltrées, sans laisser de trace...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598642-plus-c-est-gros-plus-ca-passe-vos-donnees-sont-pillees-pendant-que-vous-discutez-avec-les-hackers.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265325",
+    "date": "2026-02-03",
+    "title": "IPIDEA Proxy Network Dismantled: Global Cybercrime and Botnet Risks Exposed",
+    "summary": "Researchers have found what they believe is one of the world’s largest residential proxy networks: the IPIDEA proxy operation. The action targeted a little-known but deeply embedded component of the online ecosystem that has been quietly enabling large-scale cybercrime, espionage, and botnet acti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ipidea-proxy-residential-network-disruption/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265326",
+    "date": "2026-02-03",
+    "title": "Lt Gen (Dr) Rajesh Pant to Lead Webinar on AI-Driven Cyber Threats — Register Free Now",
+    "summary": "Cyble and The Cyber Express has announced a high-impact ai cybersecurity webinar February 2026, bringing urgent focus to the growing convergence of AI-driven cybercrime, ransomware escalation, and hacktivism-led disruption. Titled “AI, Ransomware & Hacktivism: The Cyber Risk Shift Most Leaders Ar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ai-cybersecurity-webinar-february-2026/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265327",
+    "date": "2026-02-03",
+    "title": "Why boards must prioritize non-human identity governance",
+    "summary": "Boards of Directors (BoDs) do three things exceptionally well when cyber is framed correctly. They set risk appetite, they allocate capital, and they demand evidence that the business can withstand disruption without losing momentum. Why cyber keeps becoming a board topic Boards typically address...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/gitguardian-boards-nhi-governance/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265328",
+    "date": "2026-02-03",
+    "title": "Mid season reflection with Kim Jones. [CISO Perspectives]",
+    "summary": "Please enjoy this encore of CISO Perspectives. In this mid-season episode, Kim takes a step back to reflect on the journey so far—revisiting key conversations, standout moments, and recurring themes that have shaped the season. During the episode, Kim sits down with N2K's own Ethan Cook to connec...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/cso-perspectives-public/110/notes",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20265315",
     "date": "2026-02-03",
     "title": "Access denied",
