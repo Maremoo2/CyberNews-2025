@@ -1,5 +1,685 @@
 [
   {
+    "id": "20265400",
+    "date": "2026-02-03",
+    "title": "Sean Cairncross’ cybersecurity agenda: less regulation, more cooperation",
+    "summary": "The Trump administration needs help from industry to reduce the cybersecurity regulatory burden and to back important cyber legislation on Capitol Hill, among other areas, National Cyber Director Sean Cairncross said Tuesday. “You know your regulatory scheme better than I do: Where there’s fricti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/sean-cairncross-industry-cut-cybersecurity-regulations-renew-cisa/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265401",
+    "date": "2026-02-03",
+    "title": "Poland detains defense ministry employee on suspicion of spying for Russia",
+    "summary": "The 60-year-old detainee, a Polish national, worked in the Ministry of National Defense’s strategy and planning department, including on military modernization projects, officials said. He was arrested at his workplace at the ministry’s headquarters in Warsaw.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/poland-detains-defense-ministry-employee-spying",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265402",
+    "date": "2026-02-03",
+    "title": "California city turns off Flock cameras after company shared data without authorization",
+    "summary": "The cameras will stay off until the Mountain View City Council can discuss how to handle the matter at a February 24 meeting, Police Chief Mike Canfield said in a letter to the community.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/california-city-turns-off-flock-cameras-unauthorized-sharing",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265403",
+    "date": "2026-02-03",
+    "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+    "summary": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critica...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "meta",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265404",
+    "date": "2026-02-03",
+    "title": "CrowdStrike Falcon Scores Perfect 100% in SE Labs’ Most Challenging Ransomware Test",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-scores-100-percent-in-se-labs-ransomware-test/",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265405",
+    "date": "2026-02-03",
+    "title": "UK investigating first suspected breach of cyber sanctions",
+    "summary": "HM Treasury said the Office of Financial Sanctions Implementation (OFSI) has recorded up to five potential breaches of cyber sanctions, all involving firms in the financial services sector.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/uk-investing-first-suspected-breach-cyber-sanctions",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265406",
+    "date": "2026-02-03",
+    "title": "Russian state hackers exploit new Microsoft Office flaw in attacks on Ukraine, EU",
+    "summary": "Ukraine’s computer emergency response team, CERT-UA, said attackers began abusing the flaw — tracked as CVE-2026-21509 — shortly after Microsoft disclosed it in early January.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russian-state-hackers-exploit-new-microsoft-flaw",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265407",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Nkom ber Telia og Ice gi dem flere opplysninger om mobil-sammenslåing",
+    "summary": "Nkom-sjefen sier at tre nett har vært sentralt i arbeidet med å bedre mobilkonkurransen, og vil følge med på hvordan sammenslåingen kan påvirke den.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nkom-ber-telia-og-ice-gi-dem-flere-opplysninger-om-mobil-sammenslaing/567787",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265408",
+    "date": "2026-02-03",
+    "title": "RADICL Raises $31 Million for vSOC",
+    "summary": "The company will use the investment to accelerate development of its autonomous virtual security operations center (vSOC). The post RADICL Raises $31 Million for vSOC appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/radicl-raises-31-million-for-vsoc/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265409",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Elon Musk: Vil bygge nettverk av datasentre i bane rundt jorden",
+    "summary": "Vil bygge et nettverk av datasentre i bane rundt jorden.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/derfor-vil-elon-musk-sende-en-million-satellitter-ut-i-verdensrommet/567694",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265410",
+    "date": "2026-02-03",
+    "title": "[Webinar] The Smarter SOC Blueprint: Learn What to Build, Buy, and Automate",
+    "summary": "Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress. Every vendor promises “complete coverage” or “AI-powered automation,” but inside most SOCs, teams are still overwhelmed, stretched thin, and unsure which tools are truly pulling their ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265411",
+    "date": "2026-02-03",
+    "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+    "summary": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package. Cybersecurity company VulnCheck said it first observed exploitation of CVE-2025-11953 (aka Metro4Shell) on December 21, 2025. With ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265412",
+    "date": "2026-02-03",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c82c127fbbfdd2f • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265413",
+    "date": "2026-02-03",
+    "title": "RapidFort Raises $42M to Automate Software Supply Chain Security",
+    "summary": "The company will use the latest capital to scale its go-to-market efforts and expand its platform’s capabilities. The post RapidFort Raises $42M to Automate Software Supply Chain Security appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/rapidfort-raises-42m-to-automate-software-supply-chain-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265414",
+    "date": "2026-02-03",
+    "title": "Hackers exploit critical React Native Metro bug to breach dev systems",
+    "summary": "Hackers are targeting developers by exploiting the critical vulnerability CVE-2025-11953 in the Metro server for React Native to deliver malicious payloads for Windows and Linux. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-critical-react-native-metro-bug-to-breach-dev-systems/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265415",
+    "date": "2026-02-03",
+    "title": "Critical React Native Vulnerability Exploited in the Wild",
+    "summary": "Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware. The post Critical React Native Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265416",
+    "date": "2026-02-03",
+    "title": "French police raid X offices in Paris and summon Musk for interview over child abuse material",
+    "summary": "Prosecutors also said X’s owner Elon Musk has been summoned for a voluntary interview in Paris in April, along with the company’s chief executive, Linda Yaccarino.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/french-police-raid-x-offices-elon-musk-image-incident",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265417",
+    "date": "2026-02-03",
+    "title": "Portland, ME schools warn 12,000+ people of data breach that leaked SSNs, financial and medical info",
+    "summary": "Portland Public Schools in Maine over the weekend confirmed it notified 12,128 people of a February 2025 data breach that compromised the following personal info: Names Social Security numbers Financial account info Medical info Health insurance info Government-issued ID (e.g. driver’s license) D...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/portland-me-schools-warn-12000-people-of-data-breach-that-leaked-ssns-financial-and-medical-info/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265418",
+    "date": "2026-02-03",
+    "title": "Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant ",
+    "summary": "OpenClaw (aka Moltbot and Clawdbot) is vulnerable to one-click remote code execution attacks. The post Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265419",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Notepad++ kapret av statssponsede hackere",
+    "summary": "Brukere ble selektivt omdirigert til skadevare i nesten et halvt år. Sikkerhetseksperter har avdekket en avansert bakdør, som knyttes til Kina.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/notepad-kapret-av-statssponsede-hackere/567763",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265420",
+    "date": "2026-02-03",
+    "title": "CrowdStrike Named a Customers’ Choice in 2026 Gartner Peer Insights™ Voice of the Customer for Application Security Posture Management Tools",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voice-of-the-customer-for-aspm/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265421",
+    "date": "2026-02-03",
+    "title": "Colorado clinic warns 65,000+ people of data breach that leaked SSNs, credit cards, and medical info",
+    "summary": "Alpine Ear, Nose & Throat this week confirmed it notified 65,648 people of a November 2024 data breach that compromised the following personal info: Names Social Security numbers Credit card numbers, expiration dates, and CVCs Financial account info Medical info Health insurance info Dates of bir...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/colorado-clinic-warns-65000-people-of-data-breach-that-leaked-ssns-credit-cards-and-medical-info/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265422",
+    "date": "2026-02-03",
+    "title": "Detecting and Monitoring OpenClaw (clawdbot, moltbot), (Tue, Feb 3rd)",
+    "summary": "Last week, a new AI agent framework was introduced to automate \"live\". It targets office work in particular, focusing on messaging and interacting with systems. The tool has gone viral not so much because of its features, which are similar to those of other agent frameworks, but because of a stre...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32678",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265423",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Chat GPT vil ha pasientjournalen din – leger er skeptiske",
+    "summary": "Flere forhold gjør leger skeptiske til den nye satsingen på KI-assistent.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/chat-gpt-vil-ha-pasientjournalen-din-leger-er-skeptiske/567492",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265424",
+    "date": "2026-02-03",
+    "title": "Microsoft SDL: Evolving security practices for an AI-powered world",
+    "summary": "Why AI changes the security landscape · AI security versus traditional cybersecurity · Expanded attack surface and hidden vulnerabilities · Loss of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/03/microsoft-sdl-evolving-security-practices-for-an-ai-powered-world/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265425",
+    "date": "2026-02-03",
+    "title": "AWS IAM Identity Center enables account access and application use in multiple AWS Regions",
+    "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where you first enabled it to additional Regions of your choice. This feature enhances resilience of user...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265426",
+    "date": "2026-02-03",
+    "title": "Build Production-Ready Drug Discovery and Robotics Pipelines with NVIDIA NIMs on SageMaker JumpStart",
+    "summary": "Amazon SageMaker JumpStart now enables one-click deployment of four NVIDIA NIMs models purpose-built for biosciences and physical AI: ProteinMPNN, Nemotron-3.5B-Instruct, MSA Search NIM, and Cosmos Reason. NVIDIA NIM™ provides prebuilt, optimized inference microservices for rapidly deploying the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/accelerate-biosciences-and-robotics-with-NVIDIA-NIMs-on-sagemaker-jumpstart",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265427",
+    "date": "2026-02-03",
+    "title": "PostgreSQL on Azure supercharged for AI",
+    "summary": "We are almost a century removed from when a group of computer scientists at Dartmouth College coined the term “Artificial Intelligence.” In the 75-year span, AI has become common vernacular, making inroads from imagined to mainstream. Today, we see entire industries being disrupted and entire eco...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://azure.microsoft.com/en-us/blog/postgresql-on-azure-supercharged-for-ai/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265428",
+    "date": "2026-02-03",
+    "title": "Founder of the UK's National Cyber Security Centre Joins Doppel as Strategic Advisor",
+    "summary": "\"There's so much chatter about AI and cybersecurity, and it's really hard, but really important, to focus on what's actually happening in the real ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/founder-of-the-uks-national-cyber-security-centre-joins-doppel-as-strategic-advisor-302677085.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265429",
+    "date": "2026-02-03",
+    "title": "Securing the Seed: Cybersecurity Challenges in the Cannabis Industry | News & Events",
+    "summary": "... cyber threats. Security must be proactively managed and cannot simply rely on IT solutions. Data Privacy and Regulatory Concerns. Data privacy is a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.clarkhill.com/news-events/news/cannabis-group-series-securing-the-seed-cybersecurity-challenges-in-the-cannabis-industry/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265430",
+    "date": "2026-02-03",
+    "title": "McDonald's is not lovin' your bigmac, happymeal, and mcnuggets passwords - The Register",
+    "summary": "Your favorite menu item might be easy to remember but it will not secure your account. icon Brandon Vigliarolo. Mon 2 Feb 2026 // 17:05 UTC.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/02/mcdonalds_password_advice/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265431",
+    "date": "2026-02-03",
+    "title": "Concentric AI: On how to get a secure GenAI rollout right - Cloud Computing News",
+    "summary": "Cloud Cybersecurity · Cyber Security & Cloud Expo · Interviews · Security, Privacy & Trust · TechEx Events. If you are a security leader, you will ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cloudcomputing-news.net/news/concentric-ai-on-how-to-get-a-secure-genai-rollout-right/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265432",
+    "date": "2026-02-03",
+    "title": "Truesec flags 'OpDenmark' cyber threat as Russian Legion issues large-scale attack ...",
+    "summary": "The group stated, 'DDoS is just the tip of the iceberg; after 48 hours, we will switch to real cyber attacks.' TrueSec added that since then, the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/utilities-energy-power-water-waste/truesec-flags-opdenmark-cyber-threat-as-russian-legion-issues-large-scale-attack-warning-against-denmark/",
+    "tags": [
+      "ddos",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265433",
+    "date": "2026-02-03",
+    "title": "Senate looks to create new state Department of Cybersecurity, Chief Information Officer",
+    "summary": "... Information Technology Services on matters of information security, cybersecurity strategies and implementation. The bill states that the CIO will ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://magnoliatribune.com/2026/02/03/senate-looks-to-create-new-state-department-of-cybersecurity-chief-information-officer/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265434",
+    "date": "2026-02-03",
+    "title": "What is Autonomous Penetration Testing and How Does it Work? - Cybercrime Magazine",
+    "summary": "This enables simulation of complex attack paths aligned with modern attacker tactics, techniques, and procedures (TTPs). Read the Full Story ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/what-is-autonomous-penetration-testing-and-how-does-it-work/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265435",
+    "date": "2026-02-03",
+    "title": "2026 Cloud Security Report - Closing the Cloud Complexity Gap - Cybersecurity Insiders",
+    "summary": "While this strategy enables business speed and agility, it has expanded the attack surface faster than traditional security models can protect it.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/2026-cloud-security-report-closing-the-cloud-complexity-gap/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265436",
+    "date": "2026-02-03",
+    "title": "CrowdStrike Named a Customers' Choice in the 2026 Gartner Peer Insights™ 'Voice of the ...",
+    "summary": "CrowdStrike (NASDAQ: CRWD), a global cybersecurity leader, has redefined modern security with the world's most advanced cloud-native platform for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crowdstrike.com/content/crowdstrike-www/locale-sites/us/en-us/press-releases/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voice-of-the-customer-for-aspm-tools-report.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265437",
+    "date": "2026-02-03",
+    "title": "The Shift to Proactive Cyber Exposure Management: How HDOs are Prioritizing Patient ...",
+    "summary": "By integrating clinical context, security teams can stop chasing low-level vulnerabilities and focus on the risks that actually threaten patient care.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.armis.com/blog/proactive-cyber-exposure-management-how-hdos-are-prioritizing-patient-safety/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265438",
+    "date": "2026-02-03",
+    "title": "Cybersecurity certification for TTTECH Industrial's IIoT platform Nerve",
+    "summary": "Press: Nerve is an IIoT platform that provides a secure basis for digitalization projects and IIoT applications. It received product certification ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tttech.com/press/cybersecurity-product-certification-iiot-platform-nerve",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265439",
+    "date": "2026-02-03",
+    "title": "Popular open-source coding application targeted in Chinese-linked supply-chain attack",
+    "summary": "A spokesperson for the Cybersecurity and Infrastructure Security Agency said the agency \"is aware of the reported compromise and is investigating ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/technology/popular-open-source-coding-application-targeted-chinese-linked-supply-chain-2026-02-02/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265440",
+    "date": "2026-02-03",
+    "title": "10 Cyber Security Tips to Follow in 2026 - Check Point Software",
+    "summary": "Discover the 10 cybersecurity tips organizations should take into consideration to protect their sensitive data and prevent costly breaches.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.checkpoint.com/cyber-hub/cyber-security/10-cyber-security-tips/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265441",
+    "date": "2026-02-03",
+    "title": "UK Small Businesses And Charities Reported Fewer Cyber Attacks in 2025. Why That's Not ...",
+    "summary": "Phishing Has Become an Everyday Business Risk. Among organizations that experienced a cybersecurity breach or attack in the past year, phishing was ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitdefender.com/en-au/blog/hotforsecurity/uk-small-businesses-and-charities-reported-fewer-cyber-attacks-in-2025-why-thats-not-good-news",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265442",
+    "date": "2026-02-03",
+    "title": "AI, Explain Yourself: Why Is Explainable AI (XAI) Becoming Critical for Cybersecurity? | Group-IB Blog",
+    "summary": "Cyber investigations: Cybersecurity teams cannot solely rely on an alert or risk score to understand the scope of an attack. They need evidence.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/blog/xai-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265443",
+    "date": "2026-02-03",
+    "title": "What happens after the attack: From cybersecurity to cyber resilience - Acronis",
+    "summary": "Cybersecurity plays a critical role in preventing attacks through controls such as firewalls, endpoint protection and email security.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.acronis.com/blog/posts/what-happens-after-the-attack-from-cybersecurity-to-cyber-resilience/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265444",
+    "date": "2026-02-03",
+    "title": "Cybersecurity Risk and Resilience Hackathon - DLA Piper",
+    "summary": "Cyber Security Risk and Resilience Hackathon. motion. 18 March 2026. share. LinkedIn Facebook Twitter Email Whatsapp Line WeChat Xing. Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dlapiper.com/en/events/2026/03/cyber-security-risk-resilience-and-response",
+    "tags": [
+      "facebook",
+      "twitter",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265445",
+    "date": "2026-02-03",
+    "title": "AWS Multi-party approval now requires one-time password verification for voting",
+    "summary": "AWS Multi-Party Approval now requires approvers to verify their voting actions with a one-time password (OTP) sent to their registered AWS Identity Center email address. This additional security layer prevents AWS IAM Identity Center administrators from bypassing multi-party approval controls by ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-multi-party-approval-requires-one-time-password-verification-for-voting",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265359",
     "date": "2026-02-03",
     "title": "HKMA launches quantum readiness and cybersecurity projects for banks in AI era",
