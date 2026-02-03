@@ -1204,6 +1204,35 @@
     "impact": 3
   },
   {
+    "id": "2009006",
+    "date": "2009-07-29",
+    "title": "Protecting Your Privacy ",
+    "summary": "Before submitting your name, email address, or other personal information on a website, look for the site's privacy policy. This policy should explain how the information will be used and whether or not the information will be distributed to other organizations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/protecting-your-privacy",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2009005",
+    "date": "2009-07-14",
+    "title": "Protecting Against Malicious Code",
+    "summary": "What is malicious code? Malicious code is unwanted files or programs that can cause harm to a computer or compromise data stored on a computer. Various classifications of malicious code include viruses, worms, and Trojan horses.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/protecting-against-malicious-code",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2009005",
     "date": "2009-07-14",
     "title": "Protecting Against Malicious Code",
@@ -2490,6 +2519,20 @@
     "tags": [
       "malware",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2009004",
+    "date": "2009-06-30",
+    "title": "Understanding Anti-Virus Software",
+    "summary": "Keep anti-virus software up to date to help protect your systems and information.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/understanding-anti-virus-software",
+    "tags": [
+      "malware"
     ],
     "impact": 3
   },
@@ -3695,6 +3738,18 @@
     "tags": [
       "malware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2009003",
+    "date": "2009-06-02",
+    "title": "Good Security Habits",
+    "summary": "There are some simple habits you can adopt that, if performed consistently, may dramatically reduce the chances that the information on your computer will be lost or corrupted.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/good-security-habits",
+    "tags": [],
     "impact": 3
   },
   {
@@ -4726,6 +4781,18 @@
     "country": "United States",
     "sourceName": "CISA Blog",
     "sourceUrl": "https://www.cisa.gov/news-events/news/good-security-habits",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2009002",
+    "date": "2009-05-21",
+    "title": "Choosing and Protecting Passwords",
+    "summary": "Passwords are a common form of authentication and are often the only barrier between you and your personal information. There are several programs attackers can use to help guess or crack passwords.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/choosing-and-protecting-passwords",
     "tags": [],
     "impact": 3
   },
@@ -5758,6 +5825,18 @@
     "country": "United States",
     "sourceName": "CISA Blog",
     "sourceUrl": "https://www.cisa.gov/news-events/news/choosing-and-protecting-passwords",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2009001",
+    "date": "2009-03-06",
+    "title": "2009 National Infrastructure Protection Plan Released",
+    "summary": "Risk management and stakeholder engagement are key elements of TSA's surface transportation initiatives. Unlike in aviation, where TSA has employees performing security functions, we utilize stakeholder partnerships, grant funding and rulemaking to enhance security in surface modes.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/2009-national-infrastructure-protection-plan-released",
     "tags": [],
     "impact": 3
   },
