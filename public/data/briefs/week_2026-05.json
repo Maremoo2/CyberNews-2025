@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-03T08:09:51.553Z",
+  "week_start": "2026-01-26",
+  "week_end": "2026-02-01",
+  "week_year": 2026,
+  "week_number": 5,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1867,
+    "completion_tokens": 652,
+    "total_tokens": 2519,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00067125,
+  "duration_seconds": 15.51,
+  "aggregate_sha256": "987053b2065ae3ab60ba209fa6e5d96c1f9a2dc55115fb2abcd85661057e1ef1",
+  "brief": {
+    "week_start": "2026-01-26",
+    "week_end": "2026-02-01",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cybersecurity Landscape",
+        "summary": "Malware-related incidents accounted for 59% of reported items this week, indicating a persistent threat to organizations.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Data Breaches Remain a Significant Concern",
+        "summary": "Data breaches were reported in multiple sectors, emphasizing the need for robust data protection measures.",
+        "cluster_reference": "data breach",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Attacks Show Notable Decrease",
+        "summary": "Phishing incidents decreased by 3.3% this week, suggesting potential improvements in user awareness and training.",
+        "cluster_reference": "phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Ransomware Threats Decline Slightly",
+        "summary": "Ransomware incidents fell by 1.7%, but vigilance is still required as this threat remains prevalent.",
+        "cluster_reference": "ransomware",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Government Sector Most Affected by Cyber Threats",
+        "summary": "The government sector reported the highest number of incidents at 52, highlighting vulnerabilities in public sector cybersecurity.",
+        "cluster_reference": "sector_distribution",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Overall decrease in phishing incidents by 3.3%",
+        "change_indicator": "-3.3%",
+        "significance": "This reduction may indicate improved defenses or user awareness."
+      },
+      {
+        "pattern": "Slight decline in ransomware incidents by 1.7%",
+        "change_indicator": "-1.7%",
+        "significance": "While this is a positive trend, continued monitoring is essential."
+      },
+      {
+        "pattern": "Minor decrease in exploit-led attacks by 0.5%",
+        "change_indicator": "-0.5%",
+        "significance": "A slight reduction, but exploit-led attacks remain a key area of concern."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased vulnerability to malware attacks",
+        "affected_sectors": [
+          "government",
+          "technology",
+          "education"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Potential data breaches in sensitive sectors",
+        "affected_sectors": [
+          "finance",
+          "healthcare",
+          "government"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Ongoing phishing threats despite recent decline",
+        "affected_sectors": [
+          "retail",
+          "education",
+          "technology"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Number of malware incidents",
+        "threshold": ">600 incidents",
+        "action": "Investigate and enhance malware defenses."
+      },
+      {
+        "metric": "Data breach reports",
+        "threshold": ">10 incidents",
+        "action": "Conduct a sector-wide review of data protection measures."
+      },
+      {
+        "metric": "Phishing attempt rates",
+        "threshold": ">5% increase week-over-week",
+        "action": "Reassess user training and awareness programs."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Access denied cluster",
+        "reason": "High confidence level suggests potential security gaps.",
+        "cluster_ref": "Access denied"
+      },
+      {
+        "item": "Cyber Security News Today cluster",
+        "reason": "Monitor for emerging threats and trends in cybersecurity.",
+        "cluster_ref": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates"
+      },
+      {
+        "item": "Google disrupts IPIDEA proxy networks",
+        "reason": "Investigate implications for organizational security and data integrity.",
+        "cluster_ref": "Google disrupts IPIDEA residential proxy networks fueled by malware"
+      }
+    ]
+  }
+}

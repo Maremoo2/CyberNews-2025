@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-02-03T08:09:35.785Z",
+  "pipeline_run_id": "run_2026-02-03T0809",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-05.json",
+  "aggregate_sha256": "987053b2065ae3ab60ba209fa6e5d96c1f9a2dc55115fb2abcd85661057e1ef1",
+  "code_commit": "c453f1b14283ba146f81c3c4e0a1707960feb669",
+  "token_usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 693,
+    "total_tokens": 2565,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 17.12,
+  "analysis": {
+    "week_start": "2026-01-26",
+    "week_end": "2026-02-01",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The decrease in phishing activity may be due to increased awareness or effective countermeasures.",
+        "why_now": "Phishing percentage decreased by 3.3% compared to last week.",
+        "supporting_signals": [
+          "phishing_pct: 4.4%",
+          "deltas_vs_last_week: phishing_pct -3.3%"
+        ],
+        "counter_signals": [
+          "phishing theme item_count: 64"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing reports over the next month to see if the trend continues.",
+          "Conduct surveys to assess awareness levels among targeted sectors."
+        ]
+      },
+      {
+        "claim": "The high concentration of malware-related items suggests a potential increase in malware threats.",
+        "why_now": "Malware is the top theme with 644 items, significantly higher than other themes.",
+        "supporting_signals": [
+          "top_themes: malware item_count 644",
+          "top_themes: malware confidence 0.736"
+        ],
+        "counter_signals": [
+          "No incident-related items reported."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Analyze the types of malware reported to identify any new or emerging threats.",
+          "Cross-reference with external malware threat reports for correlation."
+        ]
+      },
+      {
+        "claim": "The lack of incident-related items might indicate underreporting or effective prevention measures.",
+        "why_now": "There were zero incident-related items this week.",
+        "supporting_signals": [
+          "counts: incident_related 0",
+          "attack_chain_distribution: []"
+        ],
+        "counter_signals": [
+          "total_items: 1090"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Investigate reporting practices to determine if incidents are being documented elsewhere.",
+          "Review prevention measures in place to assess their effectiveness."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "Why there is a significant decrease in phishing percentage this week.",
+        "why_it_matters": "Understanding the cause could help reinforce effective strategies or address gaps.",
+        "what_data_would_reduce_uncertainty": "Detailed analysis of anti-phishing measures and their impact."
+      },
+      {
+        "unknown": "The reason for zero incident-related items despite a high total item count.",
+        "why_it_matters": "This could indicate a gap in incident reporting or a successful defense strategy.",
+        "what_data_would_reduce_uncertainty": "Access to incident logs or reports from other sources."
+      },
+      {
+        "unknown": "The impact of source concentration on the overall data quality.",
+        "why_it_matters": "High concentration from a few sources could bias the analysis.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of source data to ensure balanced reporting."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing activity percentage",
+        "threshold": "Increase by 2% or more",
+        "why_it_matters": "A rise could indicate a resurgence of phishing threats.",
+        "recommended_action": "Investigate the sources and methods of phishing attempts."
+      },
+      {
+        "signal": "Malware theme item count",
+        "threshold": "Exceeds 700 items",
+        "why_it_matters": "A significant increase could signal a new malware campaign.",
+        "recommended_action": "Initiate a detailed malware threat assessment."
+      },
+      {
+        "signal": "Incident-related item count",
+        "threshold": "More than 10 items",
+        "why_it_matters": "An increase could indicate a rise in successful attacks.",
+        "recommended_action": "Review and enhance incident response protocols.}],"
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
