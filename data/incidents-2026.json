@@ -1,5 +1,202 @@
 [
   {
+    "id": "20265346",
+    "date": "2026-02-03",
+    "title": "Hackers Leak 5.1 Million Panera Bread Records",
+    "summary": "ShinyHunters has claimed the theft of 14 million records from the US bakery-cafe chain’s systems. The post Hackers Leak 5.1 Million Panera Bread Records appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/hackers-leak-5-1-million-panera-bread-accounts/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265347",
+    "date": "2026-02-03",
+    "title": "When Cloud Outages Ripple Across the Internet",
+    "summary": "Recent major cloud service outages have been hard to miss. High-profile incidents affecting providers such as AWS, Azure, and Cloudflare have disrupted large parts of the internet, taking down websites and services that many other systems depend on. The resulting ripple effects have halted applic...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265348",
+    "date": "2026-02-03",
+    "title": "Notepad++ hijacking linked to Chinese Lotus Blossom crew",
+    "summary": "Security researchers have attributed the Notepad++ update hijacking to a Chinese government-linked espionage crew called Lotus Blossom (aka Lotus Panda, Billbug), which abused weaknesses in the update infrastructure to gain a foothold in high-value targets by delivering a newly identified backdoo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/02/02/notepad_hijacking_lotus_blossom/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265349",
+    "date": "2026-02-03",
+    "title": "Russia’s APT28 Rapidly Weaponizes Newly Patched Office Vulnerability ",
+    "summary": "The attacks targeting Europe were analyzed by Ukraine’s CERT-UA and the cybersecurity company Zscaler. The post Russia’s APT28 Rapidly Weaponizes Newly Patched Office Vulnerability appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/russias-apt28-rapidly-weaponizes-newly-patched-office-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265350",
+    "date": "2026-02-03",
+    "title": "Kasada Raises $20 Million for Anti-Bot Expansion",
+    "summary": "The company will invest in market expansion and accelerating product capabilities. The post Kasada Raises $20 Million for Anti-Bot Expansion appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/kasada-raises-20-million-for-anti-bot-expansion/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265351",
+    "date": "2026-02-03",
+    "title": "Svensk professor: «Apokalypse» for Europa hvis USA kobler ut teknologien",
+    "summary": "Deler av Europa gjør seg klar til en mulig framtid uten amerikansk teknologi – men full frakobling i dagens situasjon er helt umulig, ifølge professor.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/svensk-professor-apokalypse-for-europa-hvis-usa-kobler-ut-teknologien/567772",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265352",
+    "date": "2026-02-03",
+    "title": "Panera Bread breach affected 5.1 Million accounts, HIBP Confirms",
+    "summary": "Pierluigi Paganini February 02, 2026 Have I Been Pwned followed claims by the ShinyHunters gang, which said it stole data from over 14 million Panera Bread accounts. After Panera refused to pay, the group leaked a 760MB archive on its data leak site. ShinyHunters said it accessed Panera’s systems...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187556/data-breach/panera-bread-breach-affected-5-1-million-accounts-hibp-confirms.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265353",
+    "date": "2026-02-03",
+    "title": "[Ekstra] Må punge ut med millioner etter hackerangrep",
+    "summary": "Den hackede appen hadde ikke god nok sikkerhet, mener det svenske datatilsynet, og skriver ut en bot på seks millioner.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ma-punge-ut-med-millioner-etter-hackerangrep/567706",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265354",
+    "date": "2026-02-03",
+    "title": "Phishing Scam Uses Clean Emails and PDFs to Steal Dropbox Logins",
+    "summary": "If you have ever received a boring email about a business contract or a ‘request order,’ you might have clicked it without thinking twice. But a new report suggests that these routine messages are now part of a planned scam. Cybersecurity researchers at Forcepoint have discovered a new phishing s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/phishing-scam-emails-pdfs-steal-dropbox-logins/?&web_view=true",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265355",
+    "date": "2026-02-03",
+    "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
+    "summary": "The Russia-linked state-sponsored threat actor known as APT28 (aka UAC-0001) has been attributed to attacks exploiting a newly disclosed security flaw in Microsoft Office as part of a campaign codenamed Operation Neusploit. Zscaler ThreatLabz said it observed the hacking group weaponizing the sho...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "state-sponsored",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265356",
+    "date": "2026-02-03",
+    "title": "Hackers attempt to extort parents after school refuses to pay ransom fee",
+    "summary": "Cybercriminals who attacked a high school in Antwerp, Belgium, last month are now attempting to extort the parents of individual students after the school refused to pay a ransom. The attackers are believed to have gained access to the internal networks of OLV Pulhof, a secondary school in the Be...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/hackers-attempt-to-extort-parents-after-school-refuses-ransom-demand?&web_view=true",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265357",
+    "date": "2026-02-03",
+    "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+    "summary": "Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265358",
+    "date": "2026-02-03",
+    "title": "Nye sandkasserapporter om datadeling",
+    "summary": "Økt datadeling kan bidra til mer effektiv bekjempelse av økonomisk kriminalitet. Dagens regelverk setter imidlertid både klare grenser og åpner for et handlingsrom som ikke alltid utnyttes fullt ut. Det viser fire nye sluttrapporter fra felles sandkasseprosjekter i regi av Datatilsynet og Finanst...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/nye-sandkasserapporter-om-datadeling/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265329",
     "date": "2026-02-03",
     "title": "When Documents Become Attack Vectors",
