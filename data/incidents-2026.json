@@ -1,5 +1,287 @@
 [
   {
+    "id": "20265250",
+    "date": "2026-02-02",
+    "title": "Notepad++ updates got hijacked for months and could have spied for China",
+    "summary": "Users of the text and code editor Notepad++ may have unknowingly downloaded a malicious update for the app after its shared hosting servers were hijacked last year. On Monday, the app's developer, Don Ho, posted an update on the attack with more details, including that the hackers were \"likely a ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/872462/notepad-plus-plus-server-hijacking",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265251",
+    "date": "2026-02-02",
+    "title": "OpenClaw: all the news about the trending AI agent",
+    "summary": "An open-source AI agent called OpenClaw (formerly known as both Clawdbot and Moltbot) that runs on your own computer and “actually does things” is taking off inside tech circles. Users interact with OpenClaw via messaging apps like WhatsApp, Telegram, Signal, Discord, and iMessage, giving it the ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/news/872091/openclaw-moltbot-clawdbot-ai-agent-news",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265252",
+    "date": "2026-02-02",
+    "title": "Simulation de phishing : faut-il vraiment piéger vos salariés ? Oui, mais comment",
+    "summary": "Les attaques de phishing n'épargnent désormais plus les TPE-PME qui se font subtiliser leurs données sensibles. Grâce à un exercice bien élaboré, vos équipes pourront répondre à simulation réaliste pour acquérir les bons réflexes.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/dossier-595324-simulation-de-phishing-faut-il-vraiment-pieger-vos-salaries-oui-mais-comment.html",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265253",
+    "date": "2026-02-02",
+    "title": "Upcoming Firefox release to introduce centralized AI controls",
+    "summary": "Mozilla is launching a new AI controls panel in Firefox 148, set to roll out on February 24, allowing users to fully block or selectively manage AI-powered features within the browser. This move builds on Mozilla’s pledge to make artificial intelligence optional and transparent, reaffirming its p...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/upcoming-firefox-release-to-introduce-centralized-ai-controls/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265254",
+    "date": "2026-02-02",
+    "title": "Critical 1-click RCE bug in OpenClaw enables full system takeover and data theft",
+    "summary": "A pair of logic flaws in OpenClaw, the viral AI assistant formerly known as Moltbot, have been chained into a devastating 1-click remote code execution (RCE) exploit that could grant attackers full access to user data and control over the host machine. The flaw, independently discovered and weapo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/critical-1-click-rce-bug-in-openclaw-enables-full-system-takeover-and-data-theft/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265255",
+    "date": "2026-02-02",
+    "title": "OpenClaw’s Rapid Rise Exposes Thousands of AI Agents to the Public Internet",
+    "summary": "In just days, a viral open-source AI assistant went from niche experiment to a widespread internet-facing risk. OpenClaw, a self-hosted personal AI agent capable of executing actions on a user’s behalf, saw explosive adoption in late January 2026 — along with widespread public exposure that has r...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/openclaws-rapid-rise-exposes-thousands-of-ai-agents-to-the-public-internet/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265256",
+    "date": "2026-02-02",
+    "title": "AI Threats in 2026: A SecOps Playbook",
+    "summary": "As we enter 2026, the cybersecurity landscape is shifting into unfamiliar territory. Headlines about “deepfake fear” and “AI chaos” reflect a growing recognition that artificial intelligence is no longer just accelerating traditional attack methods. It is opening a new category of threats that we...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ai-threats-in-2026-a-secops-playbook/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265257",
+    "date": "2026-02-02",
+    "title": "Layered security apparel: why custom zip up hoodies work for on-the-go professionals",
+    "summary": "In this post, I will show you why custom zip up hoodies work for on-the-go professionals. Security work rarely happens in controlled environments. Whether operating at events, managing access points, providing mobile patrols, or supporting corporate security operations, professionals are expected...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/why-custom-zip-up-hoodies-work/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265258",
+    "date": "2026-02-02",
+    "title": "LED Module Manufacturer Solutions for Modern Lighting Systems",
+    "summary": "Modern lighting systems are no longer just about illumination, they are about efficiency, reliability, smart integration, and long-term performance. From commercial buildings and retail spaces to smart cities and architectural projects, the demand for advanced lighting solutions continues to grow...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/led-module-manufacturer-solutions-for-modern-lighting-systems/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265259",
+    "date": "2026-02-02",
+    "title": "Life’s a Breach: Notepad++ Integrity Compromised by China",
+    "summary": "The Stupid. It Burns. Six months of nation-state access to highly targeted networks simply because a widely-deployed tool treated TLS as the one and only integrity verification (rather than what it is, transport security). The “sophisticated” attack reads like a tourist getting their wallet stole...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76859",
+    "tags": [
+      "data-breach",
+      "malware",
+      "state-sponsored",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265260",
+    "date": "2026-02-02",
+    "title": "Trump Wants to Be Unpopular Like an Arsonist Wants to See Firetrucks: The Terror Function of Fomenting Hate",
+    "summary": "Jason Zengerle’s new Tucker Carlson biography is titled Hated by All the Right People. The book treats a “struggle” to be hated as Carlson’s personal brand—a story of grievance and ambition. It’s actually the operating manual for authoritarian consolidation, and Zengerle apparently never recogniz...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76850",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265261",
+    "date": "2026-02-02",
+    "title": "AI Didnt Break Cybersecurity",
+    "summary": "AI Didnt Break Cybersecurity I keep hearing the same sentence lately, from boards, executives, and even seasoned security leaders: “AI changed everything. Cybersecurity just can’t keep up.” I don’t buy it. AI didn’t break cybersecurity.What broke cybersecurity was poor governance that existed lon...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Dr. Erdal Ozkaya Personal Blog",
+    "sourceUrl": "https://erdalozkaya.com/ai-didnt-break-cybersecurity/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265262",
+    "date": "2026-02-02",
+    "title": "Microsoft disables NTLM in Windows",
+    "summary": "Microsoft has announced that the phase-out of NT LAN Manager (NTLM) is now transitioning to disabling the protocol by default, in an effort to increase security in Windows 11 and Windows Server. NTLM is a series of security protocols that were introduced in the 1990s, but since Kerberos became th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125947/microsoft-disables-ntlm-in-windows.html",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265263",
+    "date": "2026-02-02",
+    "title": "Attackers Harvest Dropbox Logins Via Fake PDF Lures",
+    "summary": "A malware-free phishing campaign targets corporate inboxes and asks employees to view \"request orders,\" ultimately leading to Dropbox credential theft.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/attackers-harvest-dropbox-logins-fake-pdf-lures",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265264",
+    "date": "2026-02-02",
+    "title": "County Pays $600K to Wrongfully Jailed Pen Testers",
+    "summary": "Iowa police arrested two penetration testers in 2019 for doing their jobs, highlighting the risk to security professionals in red teaming exercises.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/county-pays-600k-wrongfully-jailed-pen-testers",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265265",
+    "date": "2026-02-02",
+    "title": "Chinese Hackers Hijack Notepad++ Updates for 6 Months",
+    "summary": "State-sponsored threat actors compromised the popular code editor's hosting provider to redirect targeted users to malicious downloads.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/chinese-hackers-hijack-notepad-updates-6-months",
+    "tags": [
+      "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265266",
+    "date": "2026-02-02",
+    "title": "New GlassWorm attack targets macOS via compromised OpenVSX extensions",
+    "summary": "A new GlassWorm malware attack through compromised OpenVSX extensions focuses on stealing passwords, crypto-wallet data, and developer credentials and configurations from macOS systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-glassworm-attack-targets-macos-via-compromised-openvsx-extensions/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265267",
+    "date": "2026-02-02",
+    "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+    "summary": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265268",
+    "date": "2026-02-02",
+    "title": "Malicious MoltBot skills used to push password-stealing malware",
+    "summary": "More than 230 malicious packages for the personal AI assistant OpenClaw (formerly known as Moltbot and ClawdBot) have been published in less than a week on the tool's official registry and on GitHub. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265217",
     "date": "2026-02-02",
     "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
