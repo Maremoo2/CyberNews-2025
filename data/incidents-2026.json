@@ -1,5 +1,291 @@
 [
   {
+    "id": "20265273",
+    "date": "2026-02-03",
+    "title": "Russian ransomware hackers allegedly hit Tulsa airport in cyberattack, dump private files ...",
+    "summary": "Security company FireEye detected a new wave of attacks aimed at Netflix users, with cybercriminals now turning to phishing schemes in order to steal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/russian-ransomware-hackers-allegedly-hit-tulsa-airport-in-cyberattack-dump-private-files-online-as-proof/?lcp_page0=681",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265274",
+    "date": "2026-02-03",
+    "title": "Nebraska Finds an Interim State Cybersecurity Leader Within - GovTech",
+    "summary": "Nebraska's Deputy Chief Information Security Officer Bryce Bailey is assuming the role of interim CISO, taking the lead on state cybersecurity work.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/workforce/nebraska-finds-an-interim-state-cybersecurity-leader-within",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265275",
+    "date": "2026-02-03",
+    "title": "Experts Outline 2026 State and Local IT Priorities Amid AI Growth and Fiscal Uncertainty",
+    "summary": "“Local governments are under relentless attack,” Polk said. “They often have no choice but to pay the ransom because it's a disruption to services ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statetechmagazine.com/article/2026/02/experts-outline-2026-state-and-local-it-priorities-amid-ai-growth-and-fiscal-uncertainty",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265269",
+    "date": "2026-02-02",
+    "title": "As feds pull back, states look inward for election security support",
+    "summary": "It’s no secret that the Trump administration has radically altered the federal government’s relationship with state election officials since being sworn into power last year. While his first term included the creation of the Cybersecurity and Infrastructure Security Agency and the distribution of...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-election-security-cutbacks-states-trump-administration/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265270",
+    "date": "2026-02-02",
+    "title": "China-based espionage group compromised Notepad++ for six months",
+    "summary": "A China-based threat group operating for almost two decades broke into the internal systems of Notepad++, an extremely popular open source-code editor, to spy on a select group of targeted users, researchers at Rapid7 said Monday. Don Ho, the author and maintainer of the open-source tool, said in...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/china-espionage-group-lotus-blossom-attacks-notepad/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265271",
+    "date": "2026-02-02",
+    "title": "Netherlands latest European country to mull social media ban for children",
+    "summary": "The new Dutch minority government is pushing to raise the minimum age to access social media to 15 — the latest such proposal in Europe after France and the United Kingdom announced similar efforts.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/netherlands-social-media-ban-children",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265272",
+    "date": "2026-02-02",
+    "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
+    "summary": "A security audit of 2,857 skills on ClawHub has found 341 malicious skills across multiple campaigns, according to new findings from Koi Security, exposing users to new supply chain risks. ClawHub is a marketplace designed to make it easy for OpenClaw users to find and install third-party skills....",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265276",
+    "date": "2026-02-02",
+    "title": "GSA Updates Guide for Protecting CUI in Nonfederal Systems - ExecutiveGov",
+    "summary": "Cybersecurity graphic. GSA issued an updated IT security procedural guide for protecting CUI in nonfederal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/gsa-guide-cui-protection-nonfederal-systems",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265277",
+    "date": "2026-02-02",
+    "title": "AT&T Expands Charlotte Office, Hiring 200 Cybersecurity Pros for New Threat Fusion Center",
+    "summary": "The jobs are all cybersecurity positions. The telecommunications giant moved its Chief Security Office into temporary digs at 8505 IBM Drive at ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://country1037fm.com/2026/02/02/att-expands-charlotte-office-hiring-200-cybersecurity-pros-for-new-threat-fusion-center-2/",
+    "tags": [
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265278",
+    "date": "2026-02-02",
+    "title": "Announcing memory-optimized instance bundles for Amazon Lightsail",
+    "summary": "Amazon Lightsail now offers memory-optimized instance bundles with up to 512 GB memory. The new instance bundles are available in 7 sizes, with Linux and Windows operating system (OS) and application blueprints, for both IPv6-only and dual-stack networking types. You can create instances using th...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-lightsail-memory-optimized-instances/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265279",
+    "date": "2026-02-02",
+    "title": "DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available on SageMaker JumpStart",
+    "summary": "Today, AWS announced the availability of DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning document intelligence, multilingual codi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/new-models-on-sagemaker-jumpstart",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265280",
+    "date": "2026-02-02",
+    "title": "AWS STS now supports validation of select identity provider specific claims from Google, GitHub, CircleCI and OCI",
+    "summary": "AWS Security Token Service (STS) now supports validation of select identity provider specific claims from Google, GitHub, CircleCI and Oracle Cloud Infrastructure in IAM role trust policies and resource control policies for OpenID Connect (OIDC) federation into AWS via the AssumeRoleWithWebIdenti...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-sts-supports-validation-identity-provider-claims",
+    "tags": [
+      "malware",
+      "google",
+      "aws",
+      "oracle",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265281",
+    "date": "2026-02-02",
+    "title": "Amazon CloudFront announces mutual TLS support for origins",
+    "summary": "Amazon CloudFront announces support for mutual TLS authentication (mTLS) for origins, a security protocol that enables customers to verify that requests to their origin servers come only from their authorized CloudFront distributions using TLS certificates. This certificate-based authentication p...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-mutual-tls-for-origins/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265282",
+    "date": "2026-02-02",
+    "title": "New Britain, Conn., Works to Recover from Cyber Attack - GovTech",
+    "summary": "He noted the Connecticut Department of Emergency Services and Public Protection, the FBI and independent cybersecurity experts all were assisting with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/new-britain-conn-works-to-recover-from-cyber-attack",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265283",
+    "date": "2026-02-02",
+    "title": "WhatsApp's Strict Account Settings Explained - Cyber Magazine",
+    "summary": "According to the US Cybersecurity and Infrastructure Security Agency, \"exploitation of these vulnerabilities may allow an attacker to access ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/inside-whatsapps-strict-security-mode-amid-privacy-lawsuit",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265284",
+    "date": "2026-02-02",
+    "title": "Notepad++ patches update chain after targeted compromise - The Register",
+    "summary": "\"I've heard from 3 orgs now who've had security incidents on boxes with Notepad++ installed, where it appears Notepad++ processes have spawned the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/02/notepad_plusplus_intrusion/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265285",
+    "date": "2026-02-02",
+    "title": "Amazon Connect launches improved wait time estimates",
+    "summary": "Amazon Connect now delivers improved estimated wait time metrics for queues and enqueued contacts, empowering organizations. This allows contact centers to set accurate customer expectations, provide convenient options such as callbacks when hold times are extended, and balance workloads effectiv...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265286",
+    "date": "2026-02-02",
+    "title": "Disgruntled Employees become easy targets for hackers to bypass Data Security controls",
+    "summary": "What was once considered a manageable human resources issue has now become a critical cybersecurity threat. Most organizations, regardless of size or ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/disgruntled-employees-become-easy-targets-for-hackers-to-bypass-data-security-controls/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265287",
+    "date": "2026-02-02",
+    "title": "Infostealers without borders: macOS, Python stealers, and platform abuse",
+    "summary": "Infostealer threats are rapidly expanding beyond traditional Windows-focused campaigns, increasingly targeting macOS environments, leveraging cross-platform languages such as Python, and abusing trusted platforms and utilities to silently deliver credential-stealing malware at scale. Since late 2...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265250",
     "date": "2026-02-02",
     "title": "Notepad++ updates got hijacked for months and could have spied for China",
