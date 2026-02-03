@@ -1,5 +1,235 @@
 [
   {
+    "id": "20265329",
+    "date": "2026-02-03",
+    "title": "When Documents Become Attack Vectors",
+    "summary": "Why Indirect Prompt Injection Is an Architectural Problem, Not a Prompting OneRecent assessments of OpenClaw-style agents highlight a growing risk in agentic AI systems: when data is not clearly separated from instructions, documents themselves become attack surfaces. This post breaks down what t...",
+    "region": "EU",
+    "country": "Spain",
+    "sourceName": "Alias Robotics",
+    "sourceUrl": "https://news.aliasrobotics.com/when-documents-become-attack-vectors/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265330",
+    "date": "2026-02-03",
+    "title": "\"Opération Switch Off\" : coup dur pour l’IPTV après un vaste coup de filet d'envergure mondiale",
+    "summary": "À moins d'une semaine de la cérémonie d’ouverture des Jeux olympiques d’hiver de Milan-Cortina 2026, les autorités italiennes ont annoncé le démantèlement d’un vaste réseau IPTV illégal, présenté comme l’un des plus structurés de ces dernières années. Baptisée \"Opération Switch Off\", cette action...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598744-operation-switch-off-coup-dur-pour-l-iptv-apres-un-vaste-coup-de-filet-d-envergure-mondial.html",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265331",
+    "date": "2026-02-03",
+    "title": "Malwarebytes s'invite dans... ChatGPT",
+    "summary": "L'éditeur américain Malwarebyte, spécialisé dans les solutions de cybersécurité, annonce son intégration au sein de ChatGPT. Il devient alors le premier antivirus à déployer son expertise directement dans l'interface du chatbot d'OpenAI.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598612-malwarebytes-s-invite-dans-chatgpt.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265332",
+    "date": "2026-02-03",
+    "title": "France Approves Social Media Ban for Children Under 15 Amid Global Trend",
+    "summary": "French lawmakers have approved a social media ban for children under 15, a move aimed at protecting young people from harmful online content. The bill, which also restricts mobile phone use in high schools, was passed by a 130-21 vote in the National Assembly and is expected to take effect at the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/social-media-ban-for-children-france/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265333",
+    "date": "2026-02-03",
+    "title": "Critical vLLM Flaw Exposes Millions of AI Servers to Remote Code Execution",
+    "summary": "A newly disclosed security flaw has placed millions of AI servers at risk after researchers identified a critical vulnerability in vLLM, a widely deployed Python package for serving large language models. The issue, tracked as CVE-2026-22778 (GHSA-4r2x-xpjr-7cvv), enables remote code execution (R...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cve-2026-22778-vllm-rce-malicious-video-link/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265334",
+    "date": "2026-02-03",
+    "title": "Sandisk brings SPRandom to open source for large SSD testing",
+    "summary": "Enterprise storage environments already run long qualification cycles as solid-state drive capacities rise and validation teams try to mirror production workloads. Preconditioning steps now consume days of lab time for a single device, especially in data centers supporting AI training, analytics,...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/sprandom-open-source-ssd-testing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265335",
+    "date": "2026-02-03",
+    "title": "Firefox to let users manage and block AI features",
+    "summary": "Mozilla will add a set of controls in Firefox that let users manage and block GenAI features in the desktop browser. The controls will be included in Firefox version 148 on February 24, 2026. “We believe choice is more important than ever as AI becomes a part of people’s browsing experiences. Wha...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/mozilla-firefox-ai-controls-version-148/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265336",
+    "date": "2026-02-03",
+    "title": "Snowflake makes enterprise data AI-ready with native Postgres in its AI Data Cloud",
+    "summary": "Snowflake announced advancements that make data AI-ready by design, enabling enterprises to rely on data that is continuously available, usable, and governed as AI transitions from experimentation into real-world production systems. With new enhancements to Snowflake Postgres, the database now ru...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/snowflake-makes-enterprise-data-ai-ready-with-native-postgres-in-its-ai-data-cloud/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265337",
+    "date": "2026-02-03",
+    "title": "OpenAI releases Codex macOS app for agent-based software development",
+    "summary": "OpenAI has launched the new Codex app for macOS, a dedicated workspace for managing multiple AI coding agents in parallel. The app is designed to help developers reduce repetitive work and focus on higher-level engineering tasks. Codex can write features, fix bugs, answer questions about a codeba...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/03/openai-codex-macos-app/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265340",
+    "date": "2026-02-03",
+    "title": "Enterprise Phishing: How Attackers Abuse Trusted Microsoft & Google Platforms ",
+    "summary": "ANY.RUN observes a growing trend of phishing kit infrastructure being hosted on legitimate cloud and CDN platforms, rather than on newly registered domains. These campaigns often target enterprise users specifically, creating a global threat to businesses. The shift createsserious visibility chal...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/enterprise-phishing-analysis/",
+    "tags": [
+      "phishing",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "microsoft",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265341",
+    "date": "2026-02-03",
+    "title": "Trump Guts Security of Nuclear Plants to Feed Lust for AI",
+    "summary": "Grab’em by the fuel rods. Three Mile Island is a lesson apparently lost on the billionaire tech kids riding Trump’s descent into madness. NPR obtained copies of over a dozen of the new orders, none of which is publicly available. The orders slash hundreds of pages of requirements for security at ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76864",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265342",
+    "date": "2026-02-03",
+    "title": "Notepad++ infrastructure hijacked by Chinese APT in sophisticated supply chain attack",
+    "summary": "The popular open-source text editor Notepad++ was targeted in a sophisticated supply chain attack that allowed Chinese state-sponsored hackers to deliver malware through compromised software updates, the project’s maintainer disclosed in a blog post. The attack, which ran from June through Decemb...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126269/notepad-infrastructure-hijacked-by-chinese-apt-in-sophisticated-supply-chain-attack.html",
+    "tags": [
+      "malware",
+      "apt",
+      "state-sponsored",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265343",
+    "date": "2026-02-03",
+    "title": "New Password-Stealing Phishing Campaign Targets Corporate Dropbox Credentials",
+    "summary": "Multi-stage attack begins with fake message relating to business requests and evades detection with link hidden in a PDF",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/password-stealing-phishing-pdf/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265344",
+    "date": "2026-02-03",
+    "title": "Vibe-Coded Moltbook Exposes User Data, API Keys and More",
+    "summary": "Wiz Security claims Moltbook misconfiguration allowed full read and write access",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/moltbook-exposes-user-data-api/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265345",
+    "date": "2026-02-03",
+    "title": "Advanced Security Considerations for VPS-Based Forex Trading",
+    "summary": "In today’s threat landscape, online trading platforms are increasingly targeted by credential theft, session hijacking, malware, and denial-of-service attacks. For Forex traders relying on automated strategies and real-time execution, infrastructure security is no longer optional, it is a core op...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/advanced-security-considerations-for-vps-based-forex-trading",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265322",
     "date": "2026-02-03",
     "title": "Data leaks jump 21% in Hong Kong, doxxing hits record low",
@@ -588,6 +818,35 @@
     "tags": [
       "ransomware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265338",
+    "date": "2026-02-02",
+    "title": "Managing daily proxy rentals with Nsocks for stable routing and clean tests",
+    "summary": "This guide explains how to manage daily proxy rentals with Nsocks to achieve stable routing and run clean, repeatable tests. Daily proxy rentals are easiest to control when each IP is treated as a short term tool for a specific task, not a generic network switch. This guide explains how to choose...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/managing-daily-proxy-rentals-with-nsocks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265339",
+    "date": "2026-02-02",
+    "title": "Reliable proxy workflows with INSOCKS for SOCKS5 and HTTPS access",
+    "summary": "Ensure stable SOCKS5 and HTTPS connections with reliable proxy workflows using INSOCKS for smooth sessions, secure routing, and consistent performance Proxy operations become predictable when selection, testing, and scaling follow a consistent routine. This article explains how to choose the righ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/reliable-proxy-workflows-with-insocks/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
