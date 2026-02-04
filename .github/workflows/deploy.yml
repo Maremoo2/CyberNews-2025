@@ -12,8 +12,10 @@ on:
       - 'vite.config.js'
 
   # Trigger when other workflows complete
+  # NOTE: Workflow names must exactly match the 'name:' field in their workflow files
   workflow_run:
-    workflows: ["Weekly Intelligence Analysis", "Daily Digest"]
+    workflows: ["Weekly Intelligence Analysis", "Daily Digest", "Fetch Inoreader News", "Fetch RSS Feeds"]
+    branches: [main]
     types:
       - completed
 
@@ -25,6 +27,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write  # Required for workflow dispatch
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -51,6 +54,22 @@ jobs:
         
       - name: Generate enriched analytics data
         run: npm run enrich-enhanced
+        
+      - name: Verify data files exist
+        run: |
+          echo "=== Checking for data files ==="
+          JSON_COUNT=$(find public/data -type f -name "*.json" | wc -l)
+          echo "Total JSON files found: $JSON_COUNT"
+          if [ "$JSON_COUNT" -gt 0 ]; then
+            echo "First 20 data files:"
+            find public/data -type f -name "*.json" | head -20
+          fi
+          echo "=== Daily digest files ==="
+          ls -lah public/data/daily/ || echo "No daily digest files yet"
+          echo "=== Weekly brief files ==="
+          ls -lah public/data/briefs/ || echo "No weekly brief files yet"
+          echo "=== Weekly analysis files ==="
+          ls -lah public/data/analysis/ || echo "No weekly analysis files yet"
         
       - name: Build
         run: npm run build

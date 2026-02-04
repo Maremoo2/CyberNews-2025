@@ -198,10 +198,27 @@ jobs:
           echo "ERROR: Push failed after 5 attempts"
           exit 1
       
-      - name: Trigger deployment
+      - name: Log deployment trigger
         if: steps.git-check.outputs.changed == 'true'
         run: |
-          echo "Triggering deployment workflow"
-          gh workflow run deploy.yml --ref main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "✅ Data committed successfully"
+          echo "🚀 Triggering deployment workflow..."
+          echo "Files will be available at: https://maremoo2.github.io/CyberNews-2025/"
+      
+      - name: Trigger deployment
+        if: steps.git-check.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'deploy.yml',
+                ref: 'main'
+              });
+              console.log('✅ Deployment workflow triggered successfully');
+            } catch (error) {
+              console.error('❌ Failed to trigger deployment workflow:', error.message);
+              throw error;
+            }
