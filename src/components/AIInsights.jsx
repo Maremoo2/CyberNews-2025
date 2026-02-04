@@ -69,7 +69,12 @@ function AIInsights() {
         setLoading(false);
       } catch (err) {
         console.error('Error loading AI insights:', err);
-        setError('Failed to load AI insights');
+        console.error('Error details:', {
+          message: err.message,
+          stack: err.stack,
+          attemptedDate: dateStr
+        });
+        setError('Failed to load AI insights. Please check the console for details.');
         setLoading(false);
       }
     }
@@ -100,7 +105,14 @@ function AIInsights() {
         <div className="insights-section daily-digest">
           <div className="section-header">
             <h2>📰 Today's Threat Digest</h2>
-            <div className="section-date">{formatDate(dailyDigest.date)}</div>
+            <div className="section-metadata">
+              <div className="section-date">{formatDate(dailyDigest.date)}</div>
+              {dailyDigest.generated_at && (
+                <div className="section-timestamp" title="When this digest was last generated">
+                  Last run: {new Date(dailyDigest.generated_at).toLocaleString()}
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="digest-summary">
@@ -154,8 +166,15 @@ function AIInsights() {
         <div className="insights-section weekly-brief">
           <div className="section-header">
             <h2>📊 Weekly Intelligence Brief</h2>
-            <div className="section-date">
-              Week: {formatDate(weeklyBrief.week_start)} - {formatDate(weeklyBrief.week_end)}
+            <div className="section-metadata">
+              <div className="section-date">
+                Week: {formatDate(weeklyBrief.week_start)} - {formatDate(weeklyBrief.week_end)}
+              </div>
+              {weeklyBrief.generated_at && (
+                <div className="section-timestamp" title="When this brief was last generated">
+                  Last run: {new Date(weeklyBrief.generated_at).toLocaleString()}
+                </div>
+              )}
             </div>
           </div>
 

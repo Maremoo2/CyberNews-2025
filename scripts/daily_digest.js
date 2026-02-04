@@ -62,11 +62,27 @@ console.log(`\n📰 Daily Digest for ${targetDate}\n`);
 // Load enriched incident data for the target year
 const incidentFile = path.join(PROJECT_ROOT, 'data', `incidents-${targetYear}-enriched.json`);
 if (!fs.existsSync(incidentFile)) {
-  console.error(`❌ Error: Incident file not found: ${incidentFile}`);
+  console.error(`❌ Error: Incident file not found`);
+  console.error(`   Expected file: ${incidentFile}`);
+  console.error(`   Working directory: ${process.cwd()}`);
+  console.error(`\n💡 Possible solutions:`);
+  console.error(`   1. Run 'npm run fetch-news' to collect incident data`);
+  console.error(`   2. Run 'npm run enrich-enhanced' to enrich the data`);
+  console.error(`   3. Verify the year parameter (${targetYear}) is correct\n`);
   process.exit(1);
 }
 
-const allIncidents = JSON.parse(fs.readFileSync(incidentFile, 'utf8'));
+let allIncidents;
+try {
+  const incidentContent = fs.readFileSync(incidentFile, 'utf8');
+  allIncidents = JSON.parse(incidentContent);
+} catch (error) {
+  console.error(`❌ Error: Failed to parse incident file`);
+  console.error(`   File: ${incidentFile}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 The file may be corrupted or contain invalid JSON\n`);
+  process.exit(1);
+}
 
 // Filter incidents for the target date
 const todaysIncidents = allIncidents.filter(item => item.date === targetDate);
@@ -74,7 +90,9 @@ const todaysIncidents = allIncidents.filter(item => item.date === targetDate);
 console.log(`📊 Found ${todaysIncidents.length} items for ${targetDate}`);
 
 if (todaysIncidents.length === 0) {
-  console.log('⚠️  No items found for this date. Exiting.');
+  console.log('⚠️  No items found for this date. Exiting gracefully.');
+  console.log(`   Date filter: ${targetDate}`);
+  console.log(`   Total items in file: ${allIncidents.length}`);
   process.exit(0);
 }
 
@@ -321,14 +339,30 @@ const output = {
 
 // Save the digest
 const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'daily');
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
+try {
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+} catch (error) {
+  console.error(`❌ Error: Failed to create output directory`);
+  console.error(`   Directory: ${outputDir}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions\n`);
+  process.exit(1);
 }
 
 const outputFile = path.join(outputDir, `${targetDate}.json`);
-fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
 
-console.log(`\n✅ Daily digest saved to: ${outputFile}\n`);
+try {
+  fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
+  console.log(`\n✅ Daily digest saved to: ${outputFile}\n`);
+} catch (error) {
+  console.error(`❌ Error: Failed to write digest file`);
+  console.error(`   File: ${outputFile}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions and available disk space\n`);
+  process.exit(1);
+}
 
 // Display summary
 console.log('📊 DAILY DIGEST SUMMARY:');

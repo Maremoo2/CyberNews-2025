@@ -64,7 +64,9 @@ if (!aggregatePath) {
     // Find the most recent aggregate file
     const aggregatesDir = path.join(PROJECT_ROOT, 'public', 'data', 'aggregates');
     if (!fs.existsSync(aggregatesDir)) {
-      console.error('❌ Error: No aggregates directory found. Run aggregate_weekly.js first.');
+      console.error('❌ Error: No aggregates directory found');
+      console.error(`   Expected directory: ${aggregatesDir}`);
+      console.error(`\n💡 Run 'npm run aggregate-weekly' first to generate aggregate files\n`);
       process.exit(1);
     }
     
@@ -74,7 +76,9 @@ if (!aggregatePath) {
       .reverse();
     
     if (files.length === 0) {
-      console.error('❌ Error: No aggregate files found. Run aggregate_weekly.js first.');
+      console.error('❌ Error: No aggregate files found in directory');
+      console.error(`   Directory: ${aggregatesDir}`);
+      console.error(`\n💡 Run 'npm run aggregate-weekly' first to generate aggregate files\n`);
       process.exit(1);
     }
     
@@ -84,11 +88,28 @@ if (!aggregatePath) {
 
 // Load the aggregate
 if (!fs.existsSync(aggregatePath)) {
-  console.error(`❌ Error: Aggregate file not found: ${aggregatePath}`);
+  console.error(`❌ Error: Aggregate file not found`);
+  console.error(`   Expected path: ${aggregatePath}`);
+  console.error(`   Working directory: ${process.cwd()}`);
+  console.error(`\n💡 Possible solutions:`);
+  console.error(`   1. Run 'npm run aggregate-weekly' first`);
+  console.error(`   2. Check if the path is correct`);
+  console.error(`   3. If specifying --week or --aggregate, verify the format\n`);
   process.exit(1);
 }
 
-const aggregate = JSON.parse(fs.readFileSync(aggregatePath, 'utf8'));
+let aggregate;
+try {
+  const aggregateContent = fs.readFileSync(aggregatePath, 'utf8');
+  aggregate = JSON.parse(aggregateContent);
+} catch (error) {
+  console.error(`❌ Error: Failed to parse aggregate file`);
+  console.error(`   File: ${aggregatePath}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 The file may be corrupted or contain invalid JSON\n`);
+  process.exit(1);
+}
+
 console.log(`\n📊 Generating Executive Brief: ${path.basename(aggregatePath)}`);
 console.log(`📅 Week: ${aggregate.week_start} to ${aggregate.week_end}\n`);
 
@@ -411,15 +432,31 @@ const output = {
 
 // Save the brief
 const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'briefs');
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
+try {
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+} catch (error) {
+  console.error(`❌ Error: Failed to create output directory`);
+  console.error(`   Directory: ${outputDir}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions\n`);
+  process.exit(1);
 }
 
 const weekIdentifier = `${aggregate.week_year}-${String(aggregate.week_number).padStart(2, '0')}`;
 const outputFile = path.join(outputDir, `week_${weekIdentifier}.json`);
-fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
 
-console.log(`\n✅ Executive brief saved to: ${outputFile}\n`);
+try {
+  fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
+  console.log(`\n✅ Executive brief saved to: ${outputFile}\n`);
+} catch (error) {
+  console.error(`❌ Error: Failed to write brief file`);
+  console.error(`   File: ${outputFile}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions and available disk space\n`);
+  process.exit(1);
+}
 
 // Display summary
 console.log('📊 EXECUTIVE BRIEF SUMMARY:');
