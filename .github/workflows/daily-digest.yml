@@ -8,7 +8,7 @@ on:
     # Allow manual triggering
 
 concurrency:
-  group: daily-digest-${{ github.event.schedule || github.run_id }}
+  group: daily-digest-${{ github.event.schedule && 'scheduled' || github.run_id }}
   cancel-in-progress: false
 
 permissions:
@@ -18,22 +18,22 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Check if digest already exists
         id: check-existing
         run: |
@@ -44,7 +44,7 @@ jobs:
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Run daily digest
         id: daily-digest
         if: steps.check-existing.outputs.exists == 'false'
@@ -52,13 +52,13 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run daily-digest
-      
+
       - name: Check for changes
         id: git-check
         run: |
           TODAY=$(date +%Y-%m-%d)
           echo "date=$TODAY" >> $GITHUB_OUTPUT
-          
+
           # Check if digest file was created
           if [ -f "public/data/daily/${TODAY}.json" ]; then
             git add "public/data/daily/${TODAY}.json"
@@ -69,78 +69,79 @@ jobs:
           else
             echo "digest_created=false" >> $GITHUB_OUTPUT
           fi
-          
+
           # Check if there are staged changes
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Commit and push with smart conflict resolution
         if: steps.git-check.outputs.changed == 'true'
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           TODAY="${{ steps.git-check.outputs.date }}"
           DIGEST_STATUS="${{ steps.git-check.outputs.digest_created }}"
-          
+
           if [ "$DIGEST_STATUS" == "true" ]; then
             COMMIT_MSG="chore: add daily digest for $TODAY"
           else
             COMMIT_MSG="chore: add daily digest pending marker for $TODAY (quota exceeded)"
           fi
-          
+
           git commit -m "$COMMIT_MSG"
-          
+
           # Enhanced retry with conflict detection
           MAX_RETRIES=5
           for attempt in $(seq 1 $MAX_RETRIES); do
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
             echo "Attempt $attempt/$MAX_RETRIES: fetch + rebase + push"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            
+
             # Fetch latest
             git fetch origin main
-            
+
             # Check what changed upstream
             echo "📊 Upstream changes since our commit:"
             git log HEAD..origin/main --oneline --no-decorate || true
-            
+
             # Try rebase with conflict detection
             if git rebase origin/main 2>&1 | tee /tmp/rebase_output.txt; then
               echo "✅ Rebase succeeded"
             else
               echo "⚠️ Rebase failed. Analyzing conflicts..."
-              
+
               # Check for actual conflicts
               if grep -q "CONFLICT" /tmp/rebase_output.txt; then
                 echo "🔥 MERGE CONFLICT DETECTED"
                 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-                
+
                 # Show what files are conflicting
                 git status --short || true
-                
+
                 # For daily JSON files, use our version (they should be identical)
                 if [ -f "public/data/daily/${TODAY}.json" ]; then
                   echo "📝 Resolving conflict for public/data/daily/${TODAY}.json using 'ours' strategy"
                   git checkout --ours "public/data/daily/${TODAY}.json"
                   git add "public/data/daily/${TODAY}.json"
-                  
+
                   # Show diff for logging
                   echo "📋 Difference between versions:"
-                  git diff origin/main:public/data/daily/${TODAY}.json HEAD:public/data/daily/${TODAY}.json || echo "Files are identical"
+                  git diff origin/main:public/data/daily/${TODAY}.json HEAD:public/data/daily/${TODAY}.json 2>/dev/null || echo "Files are identical or this is a new file"
                 fi
-                
+
                 # Continue rebase
                 if git rebase --continue; then
                   echo "✅ Conflict resolved, rebase continued"
                 else
                   echo "❌ Could not continue rebase. Aborting..."
                   git rebase --abort
-                  sleep $((attempt * 3 + RANDOM % 5))
+                  JITTER=$((attempt % 5))
+                  sleep $((attempt * 3 + JITTER))
                   continue
                 fi
               else
@@ -150,7 +151,7 @@ jobs:
                 continue
               fi
             fi
-            
+
             # Try to push
             echo "📤 Attempting push..."
             if git push origin HEAD:main; then
@@ -159,15 +160,16 @@ jobs:
               echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
               exit 0
             fi
-            
+
             echo "⚠️ Push rejected. Repository changed during our attempt."
-            
+
             # Add jitter to backoff
-            BACKOFF=$((attempt * 3 + RANDOM % 5))
+            JITTER=$((attempt % 5))
+            BACKOFF=$((attempt * 3 + JITTER))
             echo "⏳ Backing off for ${BACKOFF}s before retry..."
             sleep $BACKOFF
           done
-          
+
           # If we get here, all retries failed
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           echo "❌ FAILURE: All $MAX_RETRIES push attempts failed"
@@ -187,14 +189,14 @@ jobs:
           echo "  3. Consider manually resolving if this persists"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           exit 1
-      
+
       - name: Log deployment trigger
         if: steps.git-check.outputs.changed == 'true'
         run: |
           echo "✅ Data committed successfully"
           echo "🚀 Triggering deployment workflow..."
           echo "Files will be available at: https://maremoo2.github.io/CyberNews-2025/"
-      
+
       - name: Trigger deployment
         if: steps.git-check.outputs.changed == 'true'
         uses: actions/github-script@v7
