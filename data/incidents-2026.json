@@ -1,5 +1,127 @@
 [
   {
+    "id": "20265500",
+    "date": "2026-02-04",
+    "title": "How 2026 Winter Olympics Security Is Preparing For The Opening Ceremony",
+    "summary": "Thousands of police and security officers will work during the Milan-Cortina Games’ opening ceremony. The involvement of some U.S. ICE personnel has stirred opposition.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "New York Times Cybersecurity",
+    "sourceUrl": "https://www.nytimes.com/2026/02/04/world/europe/winter-olympics-security-milan-cortina.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265501",
+    "date": "2026-02-04",
+    "title": "Spain Ban Social Media Platforms for Kids as Global Trend Grows",
+    "summary": "Spain is preparing to take one of the strongest steps yet in Europe’s growing push to regulate the digital world for young people. Spain will ban social media platforms for children under the age of 16, a move Prime Minister Pedro Sanchez framed as necessary to protect minors from what he called ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/spain-ban-social-media-platforms-kids/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265502",
+    "date": "2026-02-04",
+    "title": "How Secure by Design helps developers build secure software",
+    "summary": "Security isn’t just a feature, it’s a foundation. As cyber threats grow more sophisticated and regulations tighten, developers are being asked to do more than just write clean code. They’re being asked to build software that’s secure by design throughout its lifetime. To help developers meet this...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/cis-secure-software-design-guide/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265503",
+    "date": "2026-02-04",
+    "title": "Why incident response breaks down when it matters most",
+    "summary": "In this Help Net Security video, Jon David, Managing Director, NR Labs, discusses why incident response often breaks down during a breach. Drawing on years of experience watching real attackers operate across many industries, he walks through what tends to fail once pressure sets in. He explains ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/incident-response-failures-pressure-video/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265504",
+    "date": "2026-02-04",
+    "title": "Auto finance fraud is costing dealers up to $20,000 per incident",
+    "summary": "Auto retailers see fraud as a regular part of selling and financing vehicles, something that shows up often enough to plan around, according to Experian. Income and identity fraud lead the list Most fraud problems start with the borrower. Income and employment misrepresentation rank as the most c...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/auto-dealers-finance-fraud-losses/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265505",
+    "date": "2026-02-04",
+    "title": "The Data Behind Basketball’s Geographic Talent Pipeline",
+    "summary": "In this post, I will talk about the data behind basketball’s geographic talent pipeline. Every NBA and ABA superstar started somewhere—often in a city park or high school gym. Where those gyms are located says a lot about the evolution of basketball greatness. This article unpacks how geography a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/data-behind-basketballs-geographic-talent-pipeline/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265506",
+    "date": "2026-02-04",
+    "title": "Die besten DAST- & SAST-Tools",
+    "summary": "Tools für Dynamic und Static Application Security Testing helfen Entwicklern, ihren Quellcode zu härten. Wir zeigen Ihnen die besten Tools zu diesem Zweck.Chim | shutterstock.com Die Softwarelieferkette – respektive ihre Schwachstellen – haben in den vergangenen Jahren für viel Wirbel gesorgt. Ei...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3493611/dynamic-static-application-security-testing-die-besten-dast-sast-tools.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265507",
+    "date": "2026-02-04",
+    "title": "Weekly Update 489",
+    "summary": "This week I'm in Hong Kong, and the day after recording, I gave the talk shown in the image above at INTERPOL's Cybercrime Expert Group. I posted a little about this on Facebook and LinkedIn, but thought I'd expand on what really stuck with me after watching other speakers: the effort agencies ar...",
+    "region": "US",
+    "country": "Australia",
+    "sourceName": "Troy Hunt",
+    "sourceUrl": "https://www.troyhunt.com/weekly-update-489/",
+    "tags": [
+      "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265508",
+    "date": "2026-02-03",
+    "title": "OpenClaw Marketplace Flooded with 341 Malicious Skills in Major Supply Chain Attack",
+    "summary": "A massive, coordinated software supply chain attack has compromised the very heart of the OpenClaw AI assistant ecosystem. Dubbed \"ClawHavoc,\" the campaign flooded the platform's official \"ClawHub\" skill registry with 341 malicious plugins, using sophisticated social engineering to infect thousan...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/open-claw-marketplace-flooded-with-341-malicious-skills-in-major-supply-chain-attack",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20265460",
     "date": "2026-02-03",
     "title": "Cantwell claims telecoms blocked release of Salt Typhoon report ",
