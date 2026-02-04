@@ -55,6 +55,18 @@
   font-weight: 500;
 }
 
+.section-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.section-timestamp {
+  font-size: 0.85rem;
+  color: var(--text-muted, #999);
+  font-style: italic;
+}
+
 /* Daily Digest Specific Styles */
 .daily-digest {
   border-left: 4px solid #2196f3;

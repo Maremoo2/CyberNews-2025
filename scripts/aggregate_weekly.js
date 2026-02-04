@@ -93,11 +93,28 @@ console.log(`📅 Date range: ${weekStartStr} to ${weekEndStr}\n`);
 // Load incident data for the target year
 const incidentFile = path.join(PROJECT_ROOT, 'data', `incidents-${targetYear}-enriched.json`);
 if (!fs.existsSync(incidentFile)) {
-  console.error(`Error: Incident file not found: ${incidentFile}`);
+  console.error(`❌ Error: Incident file not found`);
+  console.error(`   Expected file: ${incidentFile}`);
+  console.error(`   Working directory: ${process.cwd()}`);
+  console.error(`\n💡 Possible solutions:`);
+  console.error(`   1. Run 'npm run fetch-news' to collect incident data`);
+  console.error(`   2. Run 'npm run enrich-enhanced' to enrich the data`);
+  console.error(`   3. Verify the year parameter (${targetYear}) is correct\n`);
   process.exit(1);
 }
 
-const allIncidents = JSON.parse(fs.readFileSync(incidentFile, 'utf8'));
+let allIncidents;
+try {
+  const incidentContent = fs.readFileSync(incidentFile, 'utf8');
+  allIncidents = JSON.parse(incidentContent);
+  console.log(`📊 Loaded ${allIncidents.length} incidents from ${targetYear}\n`);
+} catch (error) {
+  console.error(`❌ Error: Failed to parse incident file`);
+  console.error(`   File: ${incidentFile}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 The file may be corrupted or contain invalid JSON\n`);
+  process.exit(1);
+}
 console.log(`📊 Loaded ${allIncidents.length} total incidents from ${targetYear}`);
 
 // Filter incidents for the current week
@@ -378,14 +395,30 @@ const aggregate = {
 
 // Save the aggregate
 const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'aggregates');
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
+try {
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+} catch (error) {
+  console.error(`❌ Error: Failed to create output directory`);
+  console.error(`   Directory: ${outputDir}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions\n`);
+  process.exit(1);
 }
 
 const outputFile = path.join(outputDir, `week_${weekYear}-${String(weekNumber).padStart(2, '0')}.json`);
-fs.writeFileSync(outputFile, JSON.stringify(aggregate, null, 2));
 
-console.log(`\n✅ Aggregate saved to: ${outputFile}`);
+try {
+  fs.writeFileSync(outputFile, JSON.stringify(aggregate, null, 2));
+  console.log(`\n✅ Aggregate saved to: ${outputFile}`);
+} catch (error) {
+  console.error(`❌ Error: Failed to write aggregate file`);
+  console.error(`   File: ${outputFile}`);
+  console.error(`   Error: ${error.message}`);
+  console.error(`\n💡 Check file system permissions and available disk space\n`);
+  process.exit(1);
+}
 console.log(`\n📊 Summary:`);
 console.log(`   - Total items: ${aggregate.counts.total_items}`);
 console.log(`   - Incident-related: ${aggregate.counts.incident_related}`);

@@ -63,37 +63,74 @@ jobs:
           
           WEEK=$(basename "$WEEK_FILE" .json | sed 's/week_//')
           echo "week=$WEEK" >> $GITHUB_OUTPUT
+          echo "DEBUG: Processing week $WEEK"
           
-          # Check if this week's files already exist in the repo
-          AGGREGATE_EXISTS=$(git ls-files "public/data/aggregates/week_${WEEK}.json" | wc -l)
-          ANALYSIS_EXISTS=$(git ls-files "public/data/analysis/week_${WEEK}.json" | wc -l)
-          BRIEF_EXISTS=$(git ls-files "public/data/briefs/week_${WEEK}.json" | wc -l)
+          # Fetch latest from remote to ensure we check against the actual remote state
+          git fetch origin main || echo "DEBUG: Could not fetch origin/main (may not exist yet)"
           
+          # Check if this week's files already exist on the REMOTE main branch
+          # Use git ls-tree to check remote branch, with fallback for when remote doesn't exist
+          if git rev-parse origin/main >/dev/null 2>&1; then
+            AGGREGATE_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/aggregates/week_${WEEK}.json" | wc -l)
+            ANALYSIS_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/analysis/week_${WEEK}.json" | wc -l)
+            BRIEF_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/briefs/week_${WEEK}.json" | wc -l)
+            echo "DEBUG: Remote branch exists. Aggregate=$AGGREGATE_EXISTS, Analysis=$ANALYSIS_EXISTS, Brief=$BRIEF_EXISTS"
+          else
+            # Remote main doesn't exist yet (first run), so nothing is processed
+            AGGREGATE_EXISTS=0
+            ANALYSIS_EXISTS=0
+            BRIEF_EXISTS=0
+            echo "DEBUG: Remote main branch does not exist yet (first run)"
+          fi
+          
+          # Only skip if ALL files exist on remote AND all steps succeeded
           if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ] && [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ "$BRIEF_EXISTS" -gt 0 ]; then
-            echo "Week $WEEK already processed - skipping commit"
+            echo "Week $WEEK already fully processed on remote - skipping commit"
             echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
           
-          # Stage ONLY the specific files for this week
-          git add "public/data/aggregates/week_${WEEK}.json"
+          echo "DEBUG: Week $WEEK needs processing (at least one file missing or step failed)"
           
+          # Stage ONLY the specific files for this week that need to be added
           FILES_ADDED=""
-          if [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ -f "public/data/analysis/week_${WEEK}.json" ]; then
+          
+          # Only add aggregate if it doesn't exist on remote
+          if [ "$AGGREGATE_EXISTS" -eq 0 ] && [ -f "public/data/aggregates/week_${WEEK}.json" ]; then
+            git add "public/data/aggregates/week_${WEEK}.json"
+            FILES_ADDED="${FILES_ADDED}aggregate "
+            echo "DEBUG: Staging aggregate file"
+          fi
+          
+          # Add analysis if it was generated successfully and doesn't exist on remote
+          if [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -eq 0 ] && [ -f "public/data/analysis/week_${WEEK}.json" ]; then
             git add "public/data/analysis/week_${WEEK}.json"
             FILES_ADDED="${FILES_ADDED}analysis "
+            echo "DEBUG: Staging analysis file"
           fi
           
-          if [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ -f "public/data/briefs/week_${WEEK}.json" ]; then
+          # Add brief if it was generated successfully and doesn't exist on remote
+          if [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ "$BRIEF_EXISTS" -eq 0 ] && [ -f "public/data/briefs/week_${WEEK}.json" ]; then
             git add "public/data/briefs/week_${WEEK}.json"
             FILES_ADDED="${FILES_ADDED}brief "
+            echo "DEBUG: Staging brief file"
           fi
           
-          if [ -n "$FILES_ADDED" ]; then
+          if [ -z "$FILES_ADDED" ]; then
+            echo "DEBUG: No files to stage (all already exist on remote)"
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "DEBUG: Files to commit: $FILES_ADDED"
+          
+          # Determine commit type based on what was added
+          if echo "$FILES_ADDED" | grep -Eq "(analysis|brief)"; then
             echo "commit_type=with_ai" >> $GITHUB_OUTPUT
             echo "files_added=$FILES_ADDED" >> $GITHUB_OUTPUT
           else
             echo "commit_type=aggregate_only" >> $GITHUB_OUTPUT
+            echo "files_added=$FILES_ADDED" >> $GITHUB_OUTPUT
           fi
           
           # Check if staged changes exist
@@ -116,6 +153,9 @@ jobs:
           COMMIT_TYPE="${{ steps.git-check.outputs.commit_type }}"
           FILES_ADDED="${{ steps.git-check.outputs.files_added }}"
           
+          echo "DEBUG: Committing week $WEEK with type $COMMIT_TYPE"
+          echo "DEBUG: Files added: $FILES_ADDED"
+          
           # Files already staged in previous step
           if [ "$COMMIT_TYPE" == "with_ai" ]; then
             COMMIT_MSG="chore: add weekly AI content for week $WEEK ($FILES_ADDED)"
@@ -124,38 +164,38 @@ jobs:
           fi
           
           git commit -m "$COMMIT_MSG"
+          echo "DEBUG: Commit created successfully"
           
-          # Try a few times to push (concurrent writers may conflict)
+          # Try pushing with rebase retry logic (handle concurrent runs)
           for i in 1 2 3 4 5; do
-            echo "Attempt $i: fetch + push"
-            git fetch origin main
+            echo "DEBUG: Push attempt $i of 5"
             
-            # Try to rebase, but preserve our commit
-            if ! git rebase origin/main; then
-              echo "Rebase failed. Aborting and retrying with new strategy..."
-              git rebase --abort
-              
-              # Re-commit if needed (in case rebase abort lost the commit)
-              if ! git diff-index --quiet HEAD --; then
-                git add public/data/aggregates/*.json public/data/analysis/*.json public/data/briefs/*.json
-                git commit -m "chore: add weekly AI content for week $WEEK" || true
+            # Pull with rebase to integrate any concurrent changes
+            if git rev-parse origin/main >/dev/null 2>&1; then
+              echo "DEBUG: Pulling latest changes from origin/main"
+              if git pull --rebase origin main; then
+                echo "DEBUG: Rebase successful"
+              else
+                echo "DEBUG: Rebase failed, aborting and retrying..."
+                git rebase --abort
+                sleep $((i * 3))
+                continue
               fi
-              
-              echo "Backing off before retry..."
-              sleep $((i * 3))
-              continue
+            else
+              echo "DEBUG: origin/main does not exist, this is the first push"
             fi
             
+            # Try to push
             if git push origin HEAD:main; then
-              echo "Push succeeded"
+              echo "DEBUG: Push succeeded on attempt $i"
               exit 0
             fi
             
-            echo "Push rejected. Backing off..."
+            echo "DEBUG: Push rejected, backing off before retry..."
             sleep $((i * 3))
           done
           
-          echo "Push failed after retries"
+          echo "ERROR: Push failed after 5 attempts"
           exit 1
       
       - name: Trigger deployment

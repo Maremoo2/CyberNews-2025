@@ -57,8 +57,12 @@ function WeeklyAnalysis() {
         // Only log unexpected errors (not 404s)
         if (err.message && !err.message.includes('404')) {
           console.error('Error loading analysis:', err);
+          console.error('Error details:', {
+            message: err.message,
+            stack: err.stack
+          });
         }
-        setError('Failed to load analysis data');
+        setError('Failed to load analysis data. Please check the console for details.');
         setLoading(false);
       }
     }
@@ -118,8 +122,8 @@ function WeeklyAnalysis() {
           <span className="metadata-item">
             📅 Week: {analysis.week_start} to {analysis.week_end}
           </span>
-          <span className="metadata-item">
-            🕐 Generated: {new Date(analysisData.generated_at).toLocaleString()}
+          <span className="metadata-item" title="When this analysis was last generated">
+            🕐 Last Run: {new Date(analysisData.generated_at).toLocaleString()}
           </span>
           <span className="metadata-item">
             🤖 Model: {analysisData.model}
