@@ -1,5 +1,400 @@
 [
   {
+    "id": "20265598",
+    "date": "2026-02-04",
+    "title": "Exclusive: US used cyber weapons to disrupt Iranian air defenses during 2025 strikes",
+    "summary": "The U.S. military digitally disrupted Iranian air missile defense systems during its operation last year against the country’s nuclear program, some of the most sophisticated action Cyber Command has taken to date against Iran.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/iran-nuclear-cyber-strikes-us",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265599",
+    "date": "2026-02-04",
+    "title": "Ukraine tightens controls on Starlink terminals to counter Russian drones",
+    "summary": "Ukraine has rolled out a verification system for Starlink satellite internet terminals used by civilians and the military after confirming that Russian forces have begun installing the technology on attack drones.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ukraine-tightens-starlink-controls-counter-russian-drones",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265600",
+    "date": "2026-02-04",
+    "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
+    "summary": "Threat actors affiliated with China have been attributed to a fresh set of cyber espionage campaigns targeting government and law enforcement agencies across Southeast Asia throughout 2025. Check Point Research is tracking the previously undocumented activity cluster under the moniker Amaranth-Dr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265601",
+    "date": "2026-02-04",
+    "title": "Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation",
+    "summary": "The Series C funding will enable the company to expand its AI capabilities for disrupting criminal networks. The post Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/blockchain-intelligence-firm-trm-labs-raises-70-million-at-1-billion-valuation/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265602",
+    "date": "2026-02-04",
+    "title": "[Ekstra] Microsoft: Utleverer krypteringsnøkler til FBI: – Svært bekymringsfullt",
+    "summary": "Nå kommer professor med advarsel til danske kunder.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/microsoft-utleverer-krypteringsnokler-til-fbi/567826",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265603",
+    "date": "2026-02-04",
+    "title": "Research: Predator spyware can turn off Apple indicators showing when microphone, camera are in use",
+    "summary": "The new research from Jamf Threat Labs demonstrates how Predator spyware can stay hidden on targeted phones by “intercepting sensor activity” to hide the indicators.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/predator-spyware-iphone-camera-microphone-indicators",
+    "tags": [
+      "malware",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265604",
+    "date": "2026-02-04",
+    "title": "Vulnerabilities Allowed Full Compromise of Google Looker Instances",
+    "summary": "The flaws dubbed LookOut can be exploited for remote code execution and data exfiltration. The post Vulnerabilities Allowed Full Compromise of Google Looker Instances appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "google",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265605",
+    "date": "2026-02-04",
+    "title": "Seattle-area neurologist warns 13,500 people of data breach that leaked SSNs, medical info",
+    "summary": "Neurological Associates of Washington near Seattle this week confirmed it notified 13,500 state residents of a December 2025 data breach that compromised the following info: Names Social Security numbers Diagnoses Disability codes Medical info Dates of birth Addresses Other types of information A...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/seattle-area-neurologist-warns-13500-people-of-data-breach-that-leaked-ssns-medical-info/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265606",
+    "date": "2026-02-04",
+    "title": "Nets var nede over hele landet: Betalingsproblemer fikset",
+    "summary": "Kortbetalingsløsningen Nets hadde onsdag trøbbel, noe som førte til betalingsproblemer over hele landet. Nå er feilen rettet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nets-nede-i-norge-betalingsproblemer-over-hele-landet/567862",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265607",
+    "date": "2026-02-04",
+    "title": "Cyber Insights 2026: Cyberwar and Rising Nation State Threats",
+    "summary": "While both cyberwar and cyberwarfare will increase through 2026, cyberwarfare is likely to increase more dramatically. We hope it will never boil over – but we should be aware of the possibility and its consequences. The post Cyber Insights 2026: Cyberwar and Rising Nation State Threats appeared ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyber-insights-2026-cyberwar-and-rising-nation-state-threats/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265608",
+    "date": "2026-02-04",
+    "title": "Varonis Acquisition of AllTrue.ai Valued at $150 Million",
+    "summary": "The data security firm has acquired the AI trust, risk, and security management company to expand its capabilities. The post Varonis Acquisition of AllTrue.ai Valued at $150 Million appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/varonis-acquisition-of-alltrue-ai-valued-at-150-million/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265609",
+    "date": "2026-02-04",
+    "title": "[Ekstra] Lei av KI? Firefox går mot strømmen og gir deg mulighet til å slå KI helt av",
+    "summary": "Mozilla kunngjorde nye funksjoner til nettleseren.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/lei-av-ki-firefox-gar-mot-strommen-og-gir-deg-mulighet-til-a-sla-ki-helt-av/567739",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265610",
+    "date": "2026-02-04",
+    "title": "SVC's cybersecurity program reaccredited by federal agencies | Latrobe, PA",
+    "summary": "... Cyber Defense (NCAE-CD) by the National Security Agency (NSA) and Central Security Service (CSS). The program was first accredited in June 2020 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.stvincent.edu/news/2026/02/saint-vincent-colleges-cybersecurity-program-reaccredited-by-federal-agencies.html?feature",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265611",
+    "date": "2026-02-04",
+    "title": "Pfluger, Menendez Introduce Legislation to Strengthen the Cybersecurity of America's ...",
+    "summary": "The AI for Secure Networks Act addresses the rapid increase in cyber attacks that threaten the security of Americans' sensitive data and the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://pfluger.house.gov/news/documentsingle.aspx?DocumentID=2786",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265612",
+    "date": "2026-02-04",
+    "title": "Identifying and Addressing Cybersecurity Challenges to Protect America's Water Infrastructure",
+    "summary": "... cybersecurity. Live Webcast; Archived Webcast. Panel 1. D. Scott Simonton, PE, PhD. Fellow. Marshall University Institute for Cyber Security. Matt ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.epw.senate.gov/public/index.cfm/2026/2/identifying-and-addressing-cybersecurity-challenges-to-protect-america-s-water-infrastructure",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265613",
+    "date": "2026-02-04",
+    "title": "Civil Aviation Cybersecurity: EASA Part-IS Sets New Information Security Obligations",
+    "summary": "Looking Ahead: Part-IS is a significant regulatory milestone for EU aviation, embedding information security into core safety oversight. Affected ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=f152b346-e9f1-4f9b-ba07-d2c799848b03",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265614",
+    "date": "2026-02-04",
+    "title": "MITRE expands Caldera for OT with Modbus, BACnet simulators for industrial process ...",
+    "summary": "Industrial Cyber News Editor. Anna Ribeiro is a freelance journalist with over 14 years of experience in the areas of security, data storage, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/ics-security-framework/mitre-expands-caldera-for-ot-with-modbus-bacnet-simulators-for-industrial-process-security-testing/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265615",
+    "date": "2026-02-04",
+    "title": "WVUP, Washington State College of Ohio announce cybersecurity partnership",
+    "summary": "... Cyber Security and Network Administration, officials said. “We know what this will bring to this community,” Jackson said. “It brings a lot of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newsandsentinel.com/news/local-news/2026/02/wvup-washington-state-college-of-ohio-announce-cybersecurity-partnership/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265616",
+    "date": "2026-02-04",
+    "title": "Will establishing Data Centers in Space banish Data Security concerns across the World",
+    "summary": "Backed by over a decade of research and a global network of 600,000+ cybersecurity professionals, we provide actionable intelligence to help leaders ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/will-establishing-data-centers-in-space-banish-data-security-concerns-across-the-world/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265617",
+    "date": "2026-02-04",
+    "title": "Everest Ransomware breaches Iron Mountain only to exfiltrate data - Cybersecurity Insiders",
+    "summary": "... network. This highlights, once again, the critical role of employee awareness and robust email security in preventing cyber intrusions. What sets ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/everest-ransomware-breaches-iron-mountain-only-to-exfiltrate-data/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265618",
+    "date": "2026-02-04",
+    "title": "The CCPA Cyber Audit Standard: Is Your Organization Ready? - Davis Wright Tremaine",
+    "summary": "Audit reports must be completed yearly thereafter. In this session, Michael T. Borgia (Partner and Head of Information Security) and Andrew Lewis ( ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dwt.com/about/events/2026/02/ccpa-cyber-audit-standard",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265619",
+    "date": "2026-02-04",
+    "title": "Human in the Loop IR: Balancing AI Automation with Control and Compliance - EC-Council",
+    "summary": "Masters of Cyber Security · Master of Science in Computer ... AI-Enabled Cybersecurity Best Practices: What Security Leaders Must… January 18, 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/cyber-talks/human-in-the-loop-ir-balancing-ai-automation-with-control-and-compliance/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265620",
+    "date": "2026-02-04",
+    "title": "Cybersecurity News: Metro bug, more social bans, leaky Moltbook - CISO Series",
+    "summary": "It quickly saw a bunch of agents join up, boasting over a million members. But security researchers from Wiz and 404 Media found that the platform had ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-metro-bug-more-social-bans-leaky-moltbook/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265621",
+    "date": "2026-02-04",
+    "title": "Cyber Physical System (CPS) Security Market - MarketsandMarkets",
+    "summary": "Governments and industry organizations are augmenting the use of CPS security in safety, interoperability, and cybersecurity standards, and businesses ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketsandmarkets.com/Market-Reports/cyber-physical-system-cps-security-market-247212119.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265622",
+    "date": "2026-02-04",
+    "title": "Defending against deepfake cyberattacks: Why trust is the new security perimeter - Acronis",
+    "summary": "... Information Security Officer. Key takeaways from the report should ... What happens after the attack: From cybersecurity to cyber resilience.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.acronis.com/blog/posts/defending-against-deepfake-cyberattacks-why-trust-is-the-new-security-perimeter/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265623",
+    "date": "2026-02-04",
+    "title": "How MSPs in Australia can strengthen SME cybersecurity with the Cyber Health Check",
+    "summary": "How Acronis Cyber Protect Cloud helps MSPs Acronis Cyber Protect Cloud supports strong credential hygiene by enforcing security policies across ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.acronis.com/blog/posts/how-msps-in-australia-can-strengthen-sme-cybersecurity-with-the-cyber-health-check/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265624",
+    "date": "2026-02-04",
+    "title": "Detecting backdoored language models at scale",
+    "summary": "Today, we are releasing new research on detecting backdoors in open-weight language models. Our research highlights several key properties of language model backdoors, laying the groundwork for a practical scanner designed to detect backdoored models at scale and improve overall trust in AI syste...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265564",
     "date": "2026-02-04",
     "title": "Epstein Files Leak Sensitive Data, Victim Information, and Credentials",
