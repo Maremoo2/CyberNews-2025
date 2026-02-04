@@ -12,6 +12,7 @@ on:
       - 'vite.config.js'
 
   # Trigger when other workflows complete
+  # NOTE: Workflow names must exactly match the 'name:' field in their workflow files
   workflow_run:
     workflows: ["Weekly Intelligence Analysis", "Daily Digest", "Fetch Inoreader News", "Fetch RSS Feeds"]
     branches: [main]
@@ -57,7 +58,12 @@ jobs:
       - name: Verify data files exist
         run: |
           echo "=== Checking for data files ==="
-          find public/data -type f -name "*.json" | head -20
+          JSON_COUNT=$(find public/data -type f -name "*.json" | wc -l)
+          echo "Total JSON files found: $JSON_COUNT"
+          if [ "$JSON_COUNT" -gt 0 ]; then
+            echo "First 20 data files:"
+            find public/data -type f -name "*.json" | head -20
+          fi
           echo "=== Daily digest files ==="
           ls -lah public/data/daily/ || echo "No daily digest files yet"
           echo "=== Weekly brief files ==="
