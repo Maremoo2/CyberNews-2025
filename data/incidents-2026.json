@@ -1,5 +1,496 @@
 [
   {
+    "id": "20265564",
+    "date": "2026-02-04",
+    "title": "Epstein Files Leak Sensitive Data, Victim Information, and Credentials",
+    "summary": "Thousands of records released in relation to Jeffrey Epstein have been retracted due to inadequate redactions.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102113-epstein-files-leak-sensitive-data-victim-information-and-credentials",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265565",
+    "date": "2026-02-04",
+    "title": "Accusé d’avoir entraîné son IA avec des livres piratés, NVIDIA riposte",
+    "summary": "Mis en cause par plusieurs auteurs pour l’utilisation présumée de livres piratés dans l’entraînement de ses modèles d’intelligence artificielle, NVIDIA a officiellement riposté devant la justice américaine.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599050-accuse-d-avoir-entraine-son-ia-avec-des-livres-pirates-nvidia-riposte.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265566",
+    "date": "2026-02-04",
+    "title": "De nombreux groupes de hackers exploitent l'IA générative pour leurs cyberattaques, confirme l'ANSSI",
+    "summary": "L'ANSSI a publié mercredi sa synthèse sur les menaces liées à l'intelligence artificielle générative. Les groupes de pirates sont désormais très nombreux à l'utiliser pour automatiser leurs cyberattaques.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599041-de-nombreux-groupes-de-hackers-exploitent-l-ia-generative-pour-leurs-cyberattaques-confirme-l-anssi.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265567",
+    "date": "2026-02-04",
+    "title": "Microsoft prépare la fin de NTLM sur Windows et les entreprises vont devoir s'adapter",
+    "summary": "Protocole d’authentification hérité des années 1990, NTLM continue de hanter les systèmes Windows malgré ses failles connues. Microsoft prépare sa disparition progressive, avec une désactivation par défaut annoncée pour les prochaines versions majeures de l’OS.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598972-microsoft-prepare-la-fin-de-ntlm-sur-windows-et-les-entreprises-vont-devoir-s-adapter.html",
+    "tags": [
+      "apt",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265568",
+    "date": "2026-02-04",
+    "title": "Attention, la Gendarmerie nationale lance l'alerte : des escrocs se font passer pour elle",
+    "summary": "Des escrocs se font passer pour la Gendarmerie nationale, en falsifiant le numéro de brigades locales. Une arnaque téléphonique qui permet aux malfrats d'effectuer des vols de données bancaires.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598984-attention-la-gendarmerie-nationale-lance-l-alerte-des-escrocs-se-font-passer-pour-elle.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265569",
+    "date": "2026-02-04",
+    "title": "Windows 11 s’enrichit d’une fonctionnalité pensée pour la détection des cybermenaces",
+    "summary": "Un outil bien connu des professionnels de la cybersécurité débarque nativement dans Windows 11. Dans les dernières builds Insider, Sysmon devient une fonctionnalité système intégrée, activable en un clic. Une évolution qui simplifie nettement la vie des administrateurs et des équipes sécurité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598927-windows-11-s-enrichit-d-une-fonctionnalite-pensee-pour-la-detection-des-cybermenaces.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265570",
+    "date": "2026-02-04",
+    "title": "Autonomous attacks ushered cybercrime into AI era in 2025",
+    "summary": "Malwarebytes urged companies to adopt continuous monitoring and lock down identity systems as AI models get better at orchestrating intrusions.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cybercrime-ai-ransomware-mcp-malwarebytes/811360/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265571",
+    "date": "2026-02-04",
+    "title": "React2Shell exploitation undergoes significant change in threat activity",
+    "summary": "Researchers see a sudden consolidation of source IPs since late January.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/react2shell-exploitation-threat-activity/811359/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265572",
+    "date": "2026-02-04",
+    "title": "Global DNS hijack campaign reroutes traffic via sanctioned provider",
+    "summary": "A long-running DNS hijacking campaign has been uncovered abusing compromised routers to redirect internet traffic through rogue DNS resolvers hosted in Aeza International, a bulletproof hosting provider sanctioned by the US Treasury in 2025. The attackers built an invisible traffic redirection ne...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/global-dns-hijack-campaign-reroutes-traffic-via-sanctioned-provider/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265573",
+    "date": "2026-02-04",
+    "title": "Chrome extensions can use unfixable time-channel to leak tab URLs",
+    "summary": "A newly disclosed vulnerability in Chrome allows browser extensions to extract the full URL of any tab, even without explicit permissions, by exploiting subtle timing differences in the declarativeNetRequest API. The issue was reported by security researcher Luan Herrera (@lbherrera_) on January ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/chrome-extensions-can-use-unfixable-time-channel-to-leak-tab-urls/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265574",
+    "date": "2026-02-04",
+    "title": "Incognito dark web drug market operator gets 30 years in prison",
+    "summary": "Rui-Siang Lin, a Taiwanese national, was sentenced to 30 years in U.S. federal prison for operating Incognito Market, one of the world’s largest illicit online narcotics marketplaces. Incognito Market splash page and graphical interface Incognito Market operated on the dark web from October 2020 ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/incognito-dark-web-drug-market-operator-prison-sentence/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265575",
+    "date": "2026-02-04",
+    "title": "ConnectSecure introduces Linux patching capability to simplify cross-distro updates",
+    "summary": "ConnectSecure announced the launch of a new cross-platform Linux operating system patching capability. The update eliminates the complexity of managing fragmented Linux environments by delivering a single, unified interface for deploying critical security updates across the four most widely used ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/connectsecure-linux-patching-capability/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265576",
+    "date": "2026-02-04",
+    "title": "AI-Driven Attack Gains AWS Admin Privileges in Under 10 Minutes",
+    "summary": "Threat actors are using artificial intelligence (AI) to accelerate cloud intrusions. In a recent incident observed by Sysdig researchers, attackers escalated from stolen credentials to full administrative access in an AWS environment in under 10 minutes, illustrating how AI can shorten cloud atta...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ai-driven-attack-gains-aws-admin-privileges-in-under-10-minutes/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265577",
+    "date": "2026-02-04",
+    "title": "Why I finally stopped trusting my browser with my passwords",
+    "summary": "Browsers come packed with features that no one thinks twice about using, but one of the most important ones is the password manager. Access to your credit cards, bank accounts, and social media logins are all stored in one place. Rather than trusting them to my browser, I've opted to use BitWarde...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/bitwarden-replaced-default-feature-browser/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265578",
+    "date": "2026-02-04",
+    "title": "Grants 101: Where Nonprofits, Small Businesses, and Individuals Should Look First",
+    "summary": "In this post, I will talk about grants 101 and where nonprofits, small businesses, and individuals should look first. For nonprofits, small businesses, and individuals seeking financial support, grants can be an essential source of funding. However, one of the most common challenges is knowing wh...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/grants-101/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265579",
+    "date": "2026-02-04",
+    "title": "Movie Review: Melania, the “Latter-Day Eva Braun”",
+    "summary": "The Guardian offers this helpful review so you don’t have to suffer through the Trump disinformation flood yourself. No doubt there is a great documentary to be made about Melania Knauss, the ambitious model from out of Slovenia who married a New York real-estate mogul and then found herself cast...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76921",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265580",
+    "date": "2026-02-04",
+    "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
+    "summary": "Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. Our mission is to keep you informed with the most pressing developments in the world of cybersecurity. This digest serves as your gateway to critical updates and emerging threats across the industry. This week’s roundup highlights how quickly the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/cyber-roundup-february-4/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20265581",
+    "date": "2026-02-04",
+    "title": "Ransomware Attacks Have Surged 30% Since Q4 2025",
+    "summary": "Ransomware groups claimed more than 2,000 attacks in the last three months of 2025 – and they’re starting 2026 at the same elevated pace. Cyble recorded 2,018 claimed attacks by ransomware groups in the fourth quarter of 2025, an average of just under 673 a month. The threat groups maintained tha...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/ransomware-groups-q4-2025-cyble-report/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265582",
+    "date": "2026-02-04",
+    "title": "Russian hackers exploited a critical Office bug within days of disclosure",
+    "summary": "Russia-linked attackers are reportedly using a new Microsoft vulnerability as part of a coordinated espionage and malware campaign, Operation Neusploit. The campaign was spotted in January 2026 by Security researchers at ZScaler ThreatLabz, three days after Microsoft issued an urgent patch for th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127181/russian-hackers-exploited-a-critical-office-bug-within-days-of-disclosure.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265583",
+    "date": "2026-02-04",
+    "title": "Extra Extra! Announcing DR Global Latin America",
+    "summary": "Dark Reading has something new hitting the newsstand: a content section purpose-built for Latin American readers, featuring news, analysis, features, and multimedia.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/announcing-dr-global-latin-america",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265584",
+    "date": "2026-02-04",
+    "title": "Big Breach or Smooth Sailing? Mexican Gov't Faces Leak Allegations",
+    "summary": "A hacktivist group claims a 2.3-terabyte data breach exposes the information of 36 million Mexicans, but no sensitive accounts are at risk, says government.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/big-breach-or-nada-de-nada-mexican-govt-faces-leak-allegations",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265586",
+    "date": "2026-02-04",
+    "title": "Malicious use of virtual machine infrastructure",
+    "summary": "Bulletproof hosting providers are abusing the legitimate ISPsystem infrastructure to supply virtual machines to cybercriminalsCategories: Threat ResearchTags: virtual machine, cybercrime, Ransomware, ISPs",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/malicious-use-of-virtual-machine-infrastructure",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265587",
+    "date": "2026-02-04",
+    "title": "Global SystemBC Botnet Found Active Across 10,000 Infected Systems",
+    "summary": "SystemBC malware linked to 10,000 infected IPs, posing risks to sensitive government infrastructure",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/global-systembc-botnet-10000/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265588",
+    "date": "2026-02-04",
+    "title": "New Technical Markers Reveal Expanding ShadowSyndicate Cybercriminal Infrastructure",
+    "summary": "ShadowSyndicate cluster expands with new SSH fingerprints connecting servers to other ransomware ops",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/shadowsyndicate/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265589",
+    "date": "2026-02-04",
+    "title": "AI Drives Doubling of Phishing Attacks in a Year",
+    "summary": "Cofense claims AI is making phishing emails more personalized and sophisticated",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-double-volume-phishing-attacks/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265590",
+    "date": "2026-02-04",
+    "title": "Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover",
+    "summary": "Pillar Security discovered two new critical vulnerabilities in n8n that could lead to supply chain compromise, credential harvesting and complete takeover attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/two-critical-flaws-in-n8n-ai/",
+    "tags": [
+      "vulnerability",
+      "supply-chain",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265591",
+    "date": "2026-02-04",
+    "title": "Chinese Hackers Hijack Notepad++ Updates for Espionage",
+    "summary": "In a sophisticated software supply chain attack reminiscent of the SolarWinds breach, the developer of the widely-used Notepad++ text editor has confirmed that hackers linked to the Chinese government hijacked its software updates for months, delivering malware to a select group of high-value tar...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/chinese-hackers-hijack-notepad-updates-for-espionage",
+    "tags": [
+      "data-breach",
+      "malware",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265592",
+    "date": "2026-02-04",
+    "title": "CISA: VMware ESXi flaw now exploited in ransomware attacks",
+    "summary": "CISA confirmed on Wednesday that ransomware gangs have begun exploiting a high-severity VMware ESXi sandbox escape vulnerability that was previously used in zero-day attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-vmware-esxi-flaw-now-exploited-in-ransomware-attacks/",
+    "tags": [
+      "ransomware",
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265593",
+    "date": "2026-02-04",
+    "title": "CISA warns of five-year-old GitLab flaw exploited in attacks",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their systems against a five-year-old GitLab vulnerability that is actively being exploited in attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265594",
+    "date": "2026-02-04",
+    "title": "The Double-Edged Sword of Non-Human Identities",
+    "summary": "Leaked non-human identities like API keys and tokens are becoming a major breach driver in cloud environments. Flare shows how exposed machine credentials quietly grant attackers long-term access to enterprise systems. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
+    "tags": [
+      "data-breach",
+      "cloud"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265595",
+    "date": "2026-02-04",
+    "title": "EDR killer tool uses signed kernel driver from forensic software",
+    "summary": "Hackers are abusing a legitimate but long-revoked EnCase kernel driver in an EDR killer that can detect 59 security tools in attempts to deactivate them. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/edr-killer-tool-uses-signed-kernel-driver-from-forensic-software/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265596",
+    "date": "2026-02-04",
+    "title": "New Amaranth Dragon cyberespionage group exploits WinRAR flaw",
+    "summary": "A new threat actor called Amaranth Dragon, linked to APT41 state-sponsored Chinese operations, exploited the CVE-2025-8088 vulnerability in WinRAR in espionage attacks on government and law enforcement agencies. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-amaranth-dragon-cyberespionage-group-exploits-winrar-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "state-sponsored",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265597",
+    "date": "2026-02-04",
+    "title": "Microsoft rolls out native Sysmon monitoring in Windows 11",
+    "summary": "Microsoft has started rolling out built-in Sysmon functionality to some Windows 11 systems enrolled in the Windows Insider program. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-native-windows-11-sysmon-security-monitoring/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265549",
     "date": "2026-02-04",
     "title": "U.S. CISA adds SolarWinds Web Help Desk, Sangoma FreePBX, and GitLab flaws to its Known Exploited Vulnerabilities catalog",
@@ -914,6 +1405,20 @@
     "sourceUrl": "https://www.troyhunt.com/weekly-update-489/",
     "tags": [
       "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265585",
+    "date": "2026-02-03",
+    "title": "AI May Supplant Pen Testers, But Oversight &amp; Trust Are Not There Yet",
+    "summary": "Crowdsourced bug bounties and pen-testing firms see AI agents stealing the low-hanging vulnerabilities from their human counterparts. Oversight remains key.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/ai-supplant-pen-testers-oversight-trust-not-there-yet",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
