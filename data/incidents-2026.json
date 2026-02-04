@@ -1,5 +1,463 @@
 [
   {
+    "id": "20265518",
+    "date": "2026-02-04",
+    "title": "7 Data Breaches, Exposures to Know About (January 2026)",
+    "summary": "7 data incidents that made headlines in January.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102110-7-data-breaches-exposures-to-know-about-january-2026",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265519",
+    "date": "2026-02-04",
+    "title": "Privilege Disruption: The Key Choke Point for Cyber Deterrence",
+    "summary": "The government and private sector alike must recognize the importance of privilege disruption.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102111-privilege-disruption-the-key-choke-point-for-cyber-deterrence",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265520",
+    "date": "2026-02-04",
+    "title": "NordVPN fait auditer sa politique no-log pour la sixième fois, mais que valide vraiment le rapport ?",
+    "summary": "Pour la sixième fois depuis 2018, NordVPN a soumis sa politique de non-conservation des journaux d’activité à un audit indépendant. L’examen, mené par Deloitte Audit Lithuania, valide la conformité de la configuration observée avec les engagements affichés par le fournisseur.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598903-nordvpn-fait-auditer-sa-politique-no-log-pour-la-sixieme-fois-mais-que-valide-vraiment-le-rapport.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265521",
+    "date": "2026-02-04",
+    "title": "Les Big Tech au service de Trump pour traquer et intimider ses détracteurs",
+    "summary": "Le département de la Sécurité intérieure américain (DHS) utilise depuis plusieurs mois un outil juridique discret pour identifier des internautes critiques envers l'administration Trump. Ces demandes de données ciblent Meta, Google et d'autres plateformes. Surtout, elles ne passent pas par un juge.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598875-les-big-tech-au-service-de-trump-pour-traquer-et-intimider-ses-detracteurs.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265522",
+    "date": "2026-02-04",
+    "title": "Vérification d'âge : NordVPN refuse de sacrifier sécurité et confidentialité - Interview",
+    "summary": "Alors que le gouvernement français menace désormais de s’attaquer aux VPN après avoir interdit les réseaux sociaux aux moins de 15 ans, les fournisseurs tentent de se faire entendre dans le débat. Pour NordVPN, prendre ces outils de confidentialité pour cible au nom de la protection des mineurs s...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598810-nordvpn-ne-veut-pas-sacrifier-la-cybersecurite-la-confidentialite-et-la-liberte-au-service-de-la-verification-d-age.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265523",
+    "date": "2026-02-04",
+    "title": "PlugOS, un PC Android dans une clé USB-C sécurisée ? Ne tombez pas dans le piège !",
+    "summary": "TrustKernel commercialise depuis décembre 2025 une clé USB-C embarquant un système d'exploitation Android complet, baptisé PlugOS. L'objectif ? Transformer n'importe quel iPhone, smartphone Android ou PC en simple terminal d'affichage pour un environnement totalement isolé. Mais, attention, si ce...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598732-plugos-un-pc-android-dans-une-cle-usb-c-securisee-ne-tombez-pas-dans-le-piege.html",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265524",
+    "date": "2026-02-04",
+    "title": "Mountain View Shuts Down Flock Safety ALPR Cameras After Year-Long Unrestricted Data Access",
+    "summary": "Mountain View’s decision to shut down its automated license plate reader program is a reminder of an uncomfortable truth that surveillance technology is only as trustworthy as the systems—and vendors—behind it. This week, Police Chief Mike Canfield announced that all Flock Safety ALPR cameras in ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/flock-safety-alpr-cameras-shut-down/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265525",
+    "date": "2026-02-04",
+    "title": "Lakelands Public Health Confirms Cyberattack, Says Sensitive Data Unaffected",
+    "summary": "Lakelands Public Health has confirmed that it is actively responding to a cyberattack discovered on January 29, 2026, which affected some of its internal systems. The organization is sharing information about the Lakelands Public Health cyberattack incident proactively to maintain transparency an...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/lakelands-public-health-cyberattack/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265526",
+    "date": "2026-02-04",
+    "title": "Foxit Releases Security Updates for PDF Editor Cloud XSS Vulnerabilities",
+    "summary": "Foxit Software has released security updates addressing multiple cross-site scripting (XSS) vulnerabilities affecting Foxit PDF Editor Cloud and Foxit eSign, closing gaps that could have allowed attackers to execute arbitrary JavaScript within a user’s browser. The patches were issued as part of ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/foxit-pdf-editor-xss-vulnerabilities/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265527",
+    "date": "2026-02-04",
+    "title": "SECNAP CloudJacket MXDR integrates SOC, SIEM, and NDR",
+    "summary": "SECNAP Network Security announced the launch of CloudJacket MXDR, a next-generation managed extended detection and response solution. Built on the company’s patented CloudJacket platform, CloudJacket MXDR enhances SECNAP’s security portfolio by extending its existing capabilities, including advan...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/secnap-cloudjacket-mxdr/",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265528",
+    "date": "2026-02-04",
+    "title": "Major vulnerabilities found in Google Looker, putting self-hosted deployments at risk",
+    "summary": "Researchers at Tenable have disclosed two vulnerabilities, collectively referred to as “LookOut,” affecting Google Looker. Because the business intelligence platform is deployed by more than 60,000 organizations in 195 countries, the flaws could give attackers a path to system takeover or access ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/google-looker-vulnerabilities-cve-2025-12743/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "google",
+      "aws"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265529",
+    "date": "2026-02-04",
+    "title": "Avast brings deepfake scam detection to Windows PCs and mobile devices",
+    "summary": "Avast announced the full international availability of Avast Scam Guardian and Scam Guardian Pro on mobile devices, alongside the launch of Avast Deepfake Guard on Windows PCs, a new AI-powered feature designed to proactively analyze and detect malicious audio in video content. Together, these la...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/avast-deepfake-guard/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265530",
+    "date": "2026-02-04",
+    "title": "Apple Xcode 26.3 adds coding agent support from OpenAI and Anthropic",
+    "summary": "Apple released Xcode 26.3 with new agentic coding capabilities designed to let AI systems carry out development tasks inside the IDE. The release supports agents such as Anthropic’s Claude Agent and OpenAI’s Codex. Coding agents can break down tasks, make decisions based on a project’s architectu...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/apple-xcode-26-3-agentic-coding/",
+    "tags": [
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265531",
+    "date": "2026-02-04",
+    "title": "Socure unifies identity, fraud, and program integrity for government at scale",
+    "summary": "Socure has released Socure for Government (SocureGov) RiskOS to help public sector organizations deliver simpler, faster, and more transparent digital identity verification and fraud prevention at scale. SocureGov RiskOS unifies identity proofing, fraud detection, and program integrity into a sin...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/socure-socuregov-riskos/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265532",
+    "date": "2026-02-04",
+    "title": "Fingerprint enables enterprises to tell trusted AI agents apart from bots and scrapers",
+    "summary": "Fingerprint has released Authorized AI Agent Detection, its new ecosystem of AI agents, including OpenAI, AWS AgentCore, Browserbase, Manus and Anchor Browser. The ecosystem enables enterprises to detect authorized agentic AI traffic with 100% certainty, allowing organizations to distinguish trus...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/fingerprint-authorized-ai-agent-detection/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265533",
+    "date": "2026-02-04",
+    "title": "Detectify Internal Scanning finds and fixes vulnerabilities behind the firewall",
+    "summary": "Detectify has launched Internal Scanning, a solution that eliminates the visibility gap between external perimeters and internal environments, allowing security teams to discover and remediate vulnerabilities behind the firewall with the same speed and precision they apply to external assets. Org...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/detectify-internal-scanning-finds-and-fixes-vulnerabilities-behind-the-firewall/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265534",
+    "date": "2026-02-04",
+    "title": "Orion Security raises $32 million to build AI-powered data loss prevention solution",
+    "summary": "Orion Security has raised $32 million in a Series A round led by Norwest Venture Partners, with participation from IBM and existing investors including PICO Venture Partners, Lama Partners, and others. The round comes less than a year after the company’s Seed financing and brings total funding si...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/orion-security-funding-32-million/",
+    "tags": [
+      "ai-ml",
+      "ibm"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265535",
+    "date": "2026-02-04",
+    "title": "Global Threat Map: Open-source real-time situational awareness platform",
+    "summary": "Global Threat Map is an open-source project offering security teams a live view of reported cyber activity across the globe, pulling together open data feeds into a single interactive map. It visualizes indicators such as malware distribution, phishing activity, and attack traffic by geographic r...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/global-threat-map-open-source-osint/",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265536",
+    "date": "2026-02-04",
+    "title": "Five Predictions for Cyber Security Trends in 2026 ",
+    "summary": "During a recent Threat Watch Live session, Adam Pilton challenged Morten Kjaersgaard, Heimdal’s Chairman and Founder, to predict three cyber security trends for 2026. Adam added his own predictions, drawing from this experience as a former cybercrime detective. Spoiler: Both Morten and Adam agree...",
+    "region": "EU",
+    "country": "Denmark",
+    "sourceName": "Heimdal Security Blog",
+    "sourceUrl": "https://heimdalsecurity.com/blog/cyber-security-trends-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265537",
+    "date": "2026-02-04",
+    "title": "Fancy Bear: Russia-Linked APT Exploits Microsoft Office Zero-Day",
+    "summary": "Executive Summary A targeted cyber-espionage campaign conducted by the Russia-linked advanced persistent threat (APT) group Fancy Bear (APT28) has been observed exploiting a recently patched Microsoft Office vulnerability to compromise government, diplomatic, and defense-aligned organizations acr...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/fancy-bear-russia-linked-apt-exploits-microsoft-office-zero-day/",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "government",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265538",
+    "date": "2026-02-04",
+    "title": "Prompt Poaching: How Fake ChatGPT Extensions Stole 900k Users’ Data",
+    "summary": "Two fake AI extensions hit 900k Chrome users, stealing chats, code and data – a stark example of Prompt Poaching.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/prompt-poaching-fake-chatgpt-extensions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265539",
+    "date": "2026-02-04",
+    "title": "Release Notes: Workflow Improvements, MISP Integration & 2,000+ New Detections ",
+    "summary": "First month of the year, and we’re starting it off with updates that support faster decisions and more predictable SOC operations. In January, we introduced a major workflow enhancement with the new ANY.RUN Sandbox integration with MISP, alongside expanded detection coverage across behavior signa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/release-notes-january-2026/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265540",
+    "date": "2026-02-04",
+    "title": "Melania: $75 Million Denial-of-Service Attack on Documentary Film Industry",
+    "summary": "The Melania release is a coordinated takedown of the entire film industry Amazon MGM Studios paid $40 million to acquire a documentary and spent another $35 million marketing it — making it the most expensive documentary in history. Some argue it was a bribe. Some argue it was marketing. Neither ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76909",
+    "tags": [
+      "mobile",
+      "ai-ml",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265541",
+    "date": "2026-02-04",
+    "title": "Hackerangriff auf Romina Mineralbrunnen",
+    "summary": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/02/467510068_122131307660493869_19679345767413254_n.jpg?quality=50&strip=all 2048w, https://b2b-contenthub.com/wp-content/uploads/2026/02/467510068_122131307660493869_19679345767413254_n.jpg?resize=300%2C168&quality=50&strip=all 300w, htt...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127094/hackerangriff-auf-romina-mineralbrunnen.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265542",
+    "date": "2026-02-04",
+    "title": "Zero trust in practice: A deep technical dive into going fully passwordless in hybrid enterprise environments",
+    "summary": "Over the past three years, I’ve led passwordless migration initiatives at three Fortune 500 companies, and I can tell you with confidence that eliminating passwords from a hybrid Active Directory and Microsoft Entra ID environment is one of the most rewarding — and most underestimated — technical...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126694/zero-trust-in-practice-a-deep-technical-dive-into-going-fully-passwordless-in-hybrid-enterprise-environments.html",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265543",
+    "date": "2026-02-04",
+    "title": "Cybercriminals set sites on identities",
+    "summary": "Eye Security’s 2026 State of Incident Response Report shows that cyberattacks on companies are increasingly going undetected, and the damage occurs within minutes. According to the report, attackers are now focusing less on hacking systems and more on exploiting existing access points. Identity-b...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126064/identities-in-the-crosshairs-of-cybercriminals.html",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265544",
+    "date": "2026-02-04",
+    "title": "Should I stay or should I go?",
+    "summary": "Even the most seasoned CISOs sometimes run into insurmountable roadblocks at their organizations. Despite their best efforts at building relationships, and even with their technical depth and business acumen, they can’t garner the support needed to protect their organizations — and themselves — f...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4125356/should-i-stay-or-should-i-go-2.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265545",
+    "date": "2026-02-04",
+    "title": "Google Looker Bugs Allow Cross-Tenant RCE, Data Exfil",
+    "summary": "Attackers could even have used one vulnerable Lookout user to gain access to other GCP tenants' environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/google-looker-bugs-cross-tenant-rce-data-exfil",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265546",
+    "date": "2026-02-04",
+    "title": "SolarWinds Web Help Desk Vulnerability Actively Exploited ",
+    "summary": "CISA has added a critical CVE in SolarWinds Web Help Desk to its KEV Catalog",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/solarwinds-web-help-desk/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265547",
+    "date": "2026-02-04",
+    "title": "Chrome Add-On Caught Stealing Amazon Commissions",
+    "summary": "A Chrome extension posing as an Amazon ad blocker was caught hijacking affiliate links in the background, redirecting commissions without user consent. The post Chrome Add-On Caught Stealing Amazon Commissions appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-amazon-ads-blocker-extension-affiliate-hijacking/",
+    "tags": [
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265548",
+    "date": "2026-02-04",
+    "title": "Owner of Incognito dark web drugs market gets 30 years in prison",
+    "summary": "A Taiwanese man was sentenced to 30 years in prison for operating Incognito Market, one of the world's largest online narcotics marketplaces that sold over $105 million worth of illegal drugs to customers worldwide. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/taiwanese-man-gets-30-years-for-operating-dark-web-drug-market/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265509",
     "date": "2026-02-04",
     "title": "[Ekstra] Ansetter mange: Nå skal Forsvaret bruke KI for alvor",
