@@ -24,7 +24,42 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
-// Check for OpenAI API key
+// Parse command line arguments
+const args = process.argv.slice(2);
+let targetDate = null;
+let targetYear = new Date().getFullYear();
+let forceRegenerate = false;
+
+for (const arg of args) {
+  if (arg.startsWith('--date=')) {
+    targetDate = arg.split('=')[1]; // Format: YYYY-MM-DD
+  } else if (arg.startsWith('--year=')) {
+    targetYear = parseInt(arg.split('=')[1], 10);
+  } else if (arg === '--force') {
+    forceRegenerate = true;
+  }
+}
+
+// Determine the date to process
+if (!targetDate) {
+  targetDate = format(new Date(), 'yyyy-MM-dd');
+}
+
+console.log(`\n📰 Daily Digest for ${targetDate}\n`);
+
+// Set output paths
+const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'daily');
+const outputFile = path.join(outputDir, `${targetDate}.json`);
+
+// Check if digest already exists (skip unless --force flag)
+if (!forceRegenerate && fs.existsSync(outputFile)) {
+  console.log(`\n⚠️  Daily digest for ${targetDate} already exists`);
+  console.log(`   File: ${outputFile}`);
+  console.log(`   Use --force flag to regenerate\n`);
+  process.exit(0);
+}
+
+// Check for OpenAI API key (after file check so we can skip without needing API key)
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ Error: OPENAI_API_KEY environment variable not set');
@@ -38,26 +73,6 @@ const openai = new OpenAI({
   timeout: 60 * 1000, // 60 seconds (in milliseconds)
   maxRetries: 0 // We handle retries manually
 });
-
-// Parse command line arguments
-const args = process.argv.slice(2);
-let targetDate = null;
-let targetYear = new Date().getFullYear();
-
-for (const arg of args) {
-  if (arg.startsWith('--date=')) {
-    targetDate = arg.split('=')[1]; // Format: YYYY-MM-DD
-  } else if (arg.startsWith('--year=')) {
-    targetYear = parseInt(arg.split('=')[1], 10);
-  }
-}
-
-// Determine the date to process
-if (!targetDate) {
-  targetDate = format(new Date(), 'yyyy-MM-dd');
-}
-
-console.log(`\n📰 Daily Digest for ${targetDate}\n`);
 
 // Load enriched incident data for the target year
 const incidentFile = path.join(PROJECT_ROOT, 'data', `incidents-${targetYear}-enriched.json`);
@@ -338,7 +353,6 @@ const output = {
 };
 
 // Save the digest
-const outputDir = path.join(PROJECT_ROOT, 'public', 'data', 'daily');
 try {
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
@@ -350,8 +364,6 @@ try {
   console.error(`\n💡 Check file system permissions\n`);
   process.exit(1);
 }
-
-const outputFile = path.join(outputDir, `${targetDate}.json`);
 
 try {
   fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
