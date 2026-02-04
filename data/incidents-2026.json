@@ -1,5 +1,605 @@
 [
   {
+    "id": "20265460",
+    "date": "2026-02-03",
+    "title": "Cantwell claims telecoms blocked release of Salt Typhoon report ",
+    "summary": "More than a year after national security officials revealed that Chinese hackers had systematically infiltrated U.S. telecommunications networks, the top Senate Democrat on the committee overseeing the industry is calling for hearings with executives from the nation’s biggest telecom companies. I...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cantwell-claims-telecoms-blocked-release-of-salt-typhoon-report/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265461",
+    "date": "2026-02-03",
+    "title": "What’s next for DHS’s forthcoming replacement critical infrastructure protection panel, AI information sharing",
+    "summary": "A revised government-industry council devoted to critical infrastructure protection could be set up to have broader and more specific discussions on things like cybersecurity and threats to hardware and software that monitor and control industrial processes, known as operational technology (OT). ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/whats-next-for-dhss-forthcoming-replacement-critical-infrastructure-protection-panel-ai-information-sharing/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265462",
+    "date": "2026-02-03",
+    "title": "Ivanti’s EPMM is under active attack, thanks to two critical zero-days",
+    "summary": "Attackers are again focusing on a familiar target in the network edge space, actively exploiting two critical zero-day vulnerabilities in Ivanti software that allows administrators to set mobile device and application controls. The vulnerabilities — CVE-2026-1281 and CVE-2026-1340 — each carry a ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ivanti-endpoint-manager-mobile-zero-day-vulnerabilities-exploit/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265463",
+    "date": "2026-02-03",
+    "title": "CISA official says CIRCIA cyber reporting update is 'weeks' away",
+    "summary": "“I think that we'll have some news on CIRCIA in pretty short order, in the next couple of weeks, hopefully,” Nick Andersen, executive assistant director for cybersecurity at CISA, told reporters.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cisa-pfficial-says-circia-update-weeks-away",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265464",
+    "date": "2026-02-03",
+    "title": "CISA orders federal agencies to patch exploited SolarWinds bug by Friday",
+    "summary": "CVE-2025-40551 carries a critical severity score of 9.8 out of 10 and impacts SolarWinds Web Help Desk (WHD) — an IT service management platform used by many large organizations to handle ticketing, asset tracking and other tasks.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cisa-orders-agencies-patch-solarwinds-vuln",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265465",
+    "date": "2026-02-03",
+    "title": "Spain will ban social media for kids under 16",
+    "summary": "\"We will protect [children] from the digital Wild West,\" Prime Minister Pedro Sanchez reportedly said in remarks at the World Government Summit in Dubai.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/spain-to-ban-social-media-children",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265466",
+    "date": "2026-02-03",
+    "title": "Another Misstep in U.S.-China Tech Security Policy - Lawfare",
+    "summary": "These include rollbacks of key cybersecurity regulations, staffing cuts at other technology- and national security-focused agencies, and the U.S. ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/another-misstep-in-u.s.-china-tech-security-policy",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265467",
+    "date": "2026-02-03",
+    "title": "EU: NIS2 Update – EU Moves to Harmonise Cyber Controls, Refine Scope, and Add New In ...",
+    "summary": "... cyber security programme. Moreover, combined with certification, multinational entities should be able to develop a more portable, EU‑recognised ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/eu-nis2-update-eu-moves-to-harmonise-5161621/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265468",
+    "date": "2026-02-03",
+    "title": "White House Nixes Biden-Era Software Security Rules - GovInfoSecurity",
+    "summary": "... security. Analysts told Information Security Media Group the original requirements were designed to operationalize federal cybersecurity guidance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govinfosecurity.com/white-house-nixes-biden-era-software-security-rules-a-30670",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265469",
+    "date": "2026-02-03",
+    "title": "Senator says AT&T and Verizon blocked release of Salt Typhoon security reports",
+    "summary": "Cantwell wrote in a letter that she sought network security assessments conducted by Google-owned cybersecurity firm Mandiant, but said the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nextgov.com/cybersecurity/2026/02/senator-says-t-and-verizon-blocked-release-salt-typhoon-security-reports/411172/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265470",
+    "date": "2026-02-03",
+    "title": "Town of Ithaca, local schools receive funding to strengthen cybersecurity - 607 News Now",
+    "summary": "On February 2, Governor Kathy Hochul announced $9 million in support of 161 projects through the State and Local Cyber Security Grant Program.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://607newsnow.com/news/258852-town-of-ithaca-local-schools-receive-funding-to-strengthen-cybersecurity/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265471",
+    "date": "2026-02-03",
+    "title": "Recent ICO Data Breach Enforcement Emphasizes the Importance of a Robust Breach Response",
+    "summary": "... cybersecurity risk handling. Both decisions extensively cite guidance from the UK National Cyber Security Centre (NCSC) in determining what ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/recent-ico-data-breach-enforcement-7794437/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265472",
+    "date": "2026-02-03",
+    "title": "AI-powered mobile attacks have made device-centric security obsolete",
+    "summary": "AI-enabled attacks, such as highly targeted smishing campaigns and convincing deepfakes, are now among the most likely cyberattack vectors to succeed.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/commentary/2026/02/ai-powered-mobile-attacks-have-made-device-centric-security-obsolete/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265473",
+    "date": "2026-02-03",
+    "title": "Sophos CISO on Software Flaws, Vendor Risk and Secure by Design (video)",
+    "summary": "In this Infosecurity interview, we speak with Sophos CISO Ross McKerchar about one of the biggest topics dominating cybersecurity headlines today, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.infosecurity-magazine.com/interviews/sophos-ciso-software-flaws-vendor/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265474",
+    "date": "2026-02-03",
+    "title": "AWS Marketplace introduces localized billing for Professional Services from AWS EMEA",
+    "summary": "AWS Marketplace now offers a more localized experience for Europe, Middle East, and Africa (EMEA) customers purchasing Professional Service solutions via AWS EMEA Marketplace Operator. Customers can now procure Professional Services using localized payment methods and receive invoices from AWS EM...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-marketplace-localized-billing-professional/",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265475",
+    "date": "2026-02-03",
+    "title": "Amazon DynamoDB global tables now support replication across multiple AWS accounts",
+    "summary": "Amazon DynamoDB global tables now support replication across multiple AWS accounts. DynamoDB global tables is a fully managed, serverless, multi-Region, and multi-active database used by tens of thousands of customers to power business-critical applications. With this new capability, you can repl...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265476",
+    "date": "2026-02-03",
+    "title": "Amazon RDS now provides an enhanced console experience to connect to a database",
+    "summary": "Amazon RDS now provides an enhanced console experience that consolidates and provides all relevant information needed to connect to a database in one place, making it easier to connect to your RDS databases. The new console experience provides ready-made code snippets for Java, Python, Node.js an...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-provides-enhanced-console-experience",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265477",
+    "date": "2026-02-03",
+    "title": "Amazon Aurora DSQL now supports indexes on the NUMERIC data type",
+    "summary": "Amazon Aurora DSQL now supports index creation on NUMERIC data types. With this enhancement, you can now use NUMERIC columns in both primary keys and secondary indexes, which can improve query performance for workloads that rely on high-precision values such as currency amounts, measurements and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-indexes-numeric-data-type/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265478",
+    "date": "2026-02-03",
+    "title": "Amazon Quick Suite Enables Easy Resolution of Ambiguous Map Locations",
+    "summary": "Quick Sight in Amazon Quick Suite now enables authors to resolve or update ambiguous locations directly on map visuals for accurate geographical data visualization. When Quick Suite encounters location names that exist in multiple regions—such as cities like Springfield or Abbeville that appear i...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/quick-ambiguous-locations-resolution",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265479",
+    "date": "2026-02-03",
+    "title": "Oracle Database@AWS is now available in the Canada Central and Sydney AWS Regions",
+    "summary": "Oracle Database@AWS is now available in two additional AWS Regions: CA-Central-1 (Canada Central) and AP-Southeast-2 (Sydney), starting with one Availability Zone (AZ) in each Region. Oracle Database@AWS enables you to access database services on Oracle Cloud Infrastructure (OCI) managed Oracle E...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-canada-central-sydney-aws-regions",
+    "tags": [
+      "aws",
+      "oracle",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265480",
+    "date": "2026-02-03",
+    "title": "Amazon CloudWatch Application Signals now supports integration with Kiro powers",
+    "summary": "Today, AWS announces Amazon CloudWatch Application Signals integration with Kiro powers, enabling developers and operators to investigate application health issues faster with AI agent-assisted workflows in Kiro. Kiro Powers is a repository of curated and pre-packaged Model Context Protocol (MCP)...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/cloudwatch-application-signals-kiro-powers",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265481",
+    "date": "2026-02-03",
+    "title": "ZetaSQL is being renamed to GoogleSQL",
+    "summary": "by Olena Huang, GoogleSQL team We're excited to announce a small but significant change: the open-source project known as ZetaSQL has been officially renamed to GoogleSQL(https://github.com/google/googlesql). This move unifies the name of our powerful SQL dialect, analysis, and parsing libraries ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/02/zetasql-is-being-renamed-to-googlesql.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265482",
+    "date": "2026-02-03",
+    "title": "Empowering the RAF Association with Next-Generation Cyber Resilience",
+    "summary": "Together, we are modernising the Association's cyber security posture through a secure-by-design, zero trust architecture to enhance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/blog/2026/02/raf-association-next-generation-cyber-resilience/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265483",
+    "date": "2026-02-03",
+    "title": "McCrary Institute welcomes 13 new senior fellows to advance national security and cyber resilience",
+    "summary": "3, joining its already impressive stable of experts shaping policy recommendations on national security, emerging technologies and cybersecurity.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://eng.auburn.edu/news/2026/02/mccrary-institute-welcomes-thirteen-senior-fellows-to-advance-national-security-and-cyber-resilience",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265484",
+    "date": "2026-02-03",
+    "title": "European Commission Announces New Cybersecurity Package",
+    "summary": "The proposed revisions to the Cybersecurity Act will introduce four key elements: ICT Supply Chain Security Framework: A comprehensive framework shall ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/european-commission-announces-new-cybersecurity-package",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265485",
+    "date": "2026-02-03",
+    "title": "Specops: Managing device trust to prevent the next access breach - TechHQ",
+    "summary": "Want to learn more about cybersecurity from industry leaders? Check out Cyber Security & Cloud Expo taking place in Amsterdam, California, and London.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://techhq.com/news/specops-managing-device-trust-prevent-next-access-breach/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265486",
+    "date": "2026-02-03",
+    "title": "ChatGPT and the Lessons Shaping Government AI Use - ClearanceJobs",
+    "summary": "In one recent example cited by Politico, a senior official at the Cybersecurity and Infrastructure Security Agency (CISA) requested permission to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.clearancejobs.com/2026/02/03/chatgpt-and-the-lessons-shaping-government-ai-use/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265487",
+    "date": "2026-02-03",
+    "title": "In the AI Era, Preemptive Cybersecurity Is a Non-Negotiable - International Banker",
+    "summary": "Instead, preventing an attack before it materialises is paramount in the battle against AI-driven cyberattacks. Preemption has become essential, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://internationalbanker.com/technology/in-the-ai-era-preemptive-cybersecurity-is-a-non-negotiable/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265488",
+    "date": "2026-02-03",
+    "title": "Avation Light Engine Pro - ICS Advisories - CISA",
+    "summary": "CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-034-02",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265489",
+    "date": "2026-02-03",
+    "title": "New cybersecurity system expected to save Quincy money after 2022 data breach - KHQA",
+    "summary": "Quincy IT Director James Pioch said the software system has been beneficial in keeping private data secure. “It's a never-ending job. You've always ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.khqa.com/news/local/new-cybersecurity-system-expected-to-save-quincy-money-after-2022-data-breach/article_0fe13459-edb0-430f-8752-7351e3113ab3.html",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265490",
+    "date": "2026-02-03",
+    "title": "OpenClaw targets ClawHub users, Notepad++ delivers malware, APT28 attackers ...",
+    "summary": "... internet-wide attacks. (ZDNet). StopICE hacked, admins accuse sabotage. StopICE says it was targeted in an attack that sent fake text messages ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-openclaw-targets-clawhub-users-notepad-update-delivers-malware-apt28-attackers-abuse-microsoft-office-zero-day/",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265491",
+    "date": "2026-02-03",
+    "title": "Health-ISAC reports 55% surge in cyber incidents in 2025, as attacks rise and escalation ...",
+    "summary": "Looking ahead to 2026, health sector security professionals identified AI-enabled attacks as the leading cyber threat, followed by zero-day exploits, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/reports/health-isac-reports-55-surge-in-cyber-incidents-in-2025-as-attacks-rise-and-escalation-looms-in-2026/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265492",
+    "date": "2026-02-03",
+    "title": "Notepad++ hijacking linked to Chinese Lotus Blossom crew - The Register",
+    "summary": "The security sleuths did, however, publish a full list of file and network indicators of compromise, so be sure to give that a read. They note the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/02/notepad_hijacking_lotus_blossom/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265493",
+    "date": "2026-02-03",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "summary": "These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Binding ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/02/03/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265494",
+    "date": "2026-02-03",
+    "title": "Chinese Regulators Publish New Model Cases on Network Data Security Protection",
+    "summary": "These cases highlighted regulators' continued focus on data privacy and cybersecurity, and provided practical guidance on regulators' interpretation ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.arnoldporter.com/en/perspectives/advisories/2026/02/chinese-regulators-publish-new-model-cases",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265495",
+    "date": "2026-02-03",
+    "title": "Spies, lies and Irish cybersecurity with Professor Richard Aldrich | The Big Tech Show",
+    "summary": "Spies, lies and Irish cybersecurity with Professor Richard Aldrich | The Big Tech Show. 14 views · 1 hour ago ...more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=Z0zV0kOAjhU",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265496",
+    "date": "2026-02-03",
+    "title": "White House cyber shop is crafting AI security policy framework, top official says",
+    "summary": "The Office of the National Cyber Director has been developing a short National Cyber Strategy focused heavily on offensive cybersecurity operations, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.fcw.com/cybersecurity/2026/02/white-house-cyber-shop-crafting-ai-security-policy-framework-top-official-says/411154/?oref=ng-homepage-river",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265497",
+    "date": "2026-02-03",
+    "title": "AWS Lake Formation is now available in Asia Pacific (New Zealand) Region",
+    "summary": "AWS Lake Formation is now available in the Asia Pacific (New Zealand) Region, enabling you to centrally manage and scale fine-grained data access permissions and share data securely within and outside your organization. AWS Lake Formation is a service that allows you to define where your data res...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/AWS-Lake-Formation-Asia-Pacific-New-Zealand-Region",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265498",
+    "date": "2026-02-03",
+    "title": "Amazon Connect launches an appeals workflow for agent performance evaluations",
+    "summary": "Amazon Connect now provides an integrated workflow to capture and resolve agent appeals of performance evaluations, enhancing evaluation fairness and agent engagement. When agents disagree with an evaluation, they can appeal the evaluation along with their reasoning directly within the Connect UI...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-appeals-workflow-agent-performance-evaluations/",
+    "tags": [
+      "malware",
+      "apt",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265499",
+    "date": "2026-02-03",
+    "title": "AWS Management Console now displays Account Name on the Navigation bar for easier account identification",
+    "summary": "Today, AWS announces the general availability of displaying account name in AWS Management Console across all Public Regions. AWS customers now have an easy way to identify their accounts at a glance. Users can now quickly distinguish between accounts visually using the account name that appears ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/console-displays-account-name-on-nav-bar",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265446",
     "date": "2026-02-03",
     "title": "French Police Raid X Offices as Grok Investigations Grow",
