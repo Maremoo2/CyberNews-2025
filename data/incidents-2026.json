@@ -1,5 +1,135 @@
 [
   {
+    "id": "20265509",
+    "date": "2026-02-04",
+    "title": "[Ekstra] Ansetter mange: Nå skal Forsvaret bruke KI for alvor",
+    "summary": "Forsvarets nye data- og KI-senter skal bringe kunstig intelligens fra forskning til felt, fra prototyper til ferdig driftede løsninger. Nå skal det vokse.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/skal-ansette-mange-for-a-fa-fart-pa-forsvarets-bruk-av-ki/567715",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265510",
+    "date": "2026-02-04",
+    "title": "Coinbase confirms insider breach linked to leaked support tool screenshots",
+    "summary": "Coinbase has confirmed an insider breach after a contractor improperly accessed the data of approximately thirty customers, which BleepingComputer has learned is a new incident that occurred in December. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/coinbase-confirms-insider-breach-linked-to-leaked-support-tool-screenshots/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265511",
+    "date": "2026-02-04",
+    "title": "ISC Stormcast For Wednesday, February 4th, 2026 https://isc.sans.edu/podcastdetail/9794, (Wed, Feb 4th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32680",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265512",
+    "date": "2026-02-04",
+    "title": "Privacy & Information Security Law Blog - Hunton Andrews Kurth LLP",
+    "summary": "On January 20, 2026, the European Commission proposed a comprehensive new cybersecurity package aimed at strengthening the EU's cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/2026/02",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265513",
+    "date": "2026-02-04",
+    "title": "AI: Why It's the Biggest Cybersecurity Challenge for Security Teams in 2026 - Dice",
+    "summary": "AI is changing the skills cybersecurity professionals need to advance their careers. NIST's new Cyber AI Profile draft outlines how security teams ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dice.com/career-advice/ai-why-its-the-biggest-cybersecurity-challenge-for-security-teams-in-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265514",
+    "date": "2026-02-04",
+    "title": "Critical Vulnerability Alert: CVE-2025-40551 in SolarWinds Web Help Desk",
+    "summary": "90% Say Cyber Risk Is Harder Now—Discover Why. The 2025 State of Cyber Risk and Exposure report reveals why security leaders are under pressure: AI- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/cve-2025-40551-solarwinds-critical-vulnerability",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265515",
+    "date": "2026-02-04",
+    "title": "AI info-sharing center is in development, CISA official says - Nextgov/FCW",
+    "summary": "The AI-ISAC, led by the Department of Homeland Security — where CISA is housed — aims to overwatch AI-linked cybersecurity threats. The talks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://www.fcw.com/cybersecurity/2026/02/ai-info-sharing-center-development-cisa-official-says/411167/?oref=ng-homepage-river",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265516",
+    "date": "2026-02-04",
+    "title": "Cyber startup Orion raises $32 million Series A backed by IBM for AI-driven data-leak prevention",
+    "summary": "Cybersecurity company Orion Security, which develops AI-driven contextual data security solutions, has raised $32 million in a Series A round led ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/byzup00kw11e",
+    "tags": [
+      "data-breach",
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265517",
+    "date": "2026-02-04",
+    "title": "States Step Up as MS-ISAC Moves to Paid Model After Federal Funding Ends",
+    "summary": "Governments move to paid memberships to preserve shared cybersecurity defenses and threat intelligence ... Cyber security lock in space. Legislative ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statetechmagazine.com/article/2026/02/states-step-ms-isac-moves-paid-model-after-federal-funding-ends",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265500",
     "date": "2026-02-04",
     "title": "How 2026 Winter Olympics Security Is Preparing For The Opening Ceremony",
