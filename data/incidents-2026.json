@@ -1,5 +1,228 @@
 [
   {
+    "id": "20265549",
+    "date": "2026-02-04",
+    "title": "U.S. CISA adds SolarWinds Web Help Desk, Sangoma FreePBX, and GitLab flaws to its Known Exploited Vulnerabilities catalog",
+    "summary": "Pierluigi Paganini February 03, 2026 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added SolarWinds Web Help Desk, Sangoma FreePBX, and GitLab flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: CVE-2019-19006 Sangoma FreePBX Im...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187592/security/u-s-cisa-adds-solarwinds-web-help-desk-sangoma-freepbx-and-gitlab-flaws-to-its-known-exploited-vulnerabilities-catalog.html?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265550",
+    "date": "2026-02-04",
+    "title": "Orion Raises $32 Million for Data Security",
+    "summary": "The startup will use the funding to accelerate product development and go-to-market operations. The post Orion Raises $32 Million for Data Security appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/orion-raises-32-million-for-data-security/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265551",
+    "date": "2026-02-04",
+    "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
+    "summary": "An innovative approach to discovering, analyzing, and governing identity usage beyond traditional IAM controls. The Challenge: Identity Lives Outside the Identity Stack Identity and access management tools were built to govern users and directories. Modern enterprises run on applications. Over ti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265552",
+    "date": "2026-02-04",
+    "title": "DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft",
+    "summary": "The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation. The post DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265553",
+    "date": "2026-02-04",
+    "title": "Foxit Releases Security Updates for PDF Editor Cloud XSS Vulnerabilities",
+    "summary": "Foxit Software has released security updates addressing multiple cross-site scripting (XSS) vulnerabilities affecting Foxit PDF Editor Cloud and Foxit eSign, closing gaps that could have allowed attackers to execute arbitrary JavaScript within a user’s browser. The patches were issued as part of ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/foxit-pdf-editor-xss-vulnerabilities/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265554",
+    "date": "2026-02-04",
+    "title": "The First 90 Seconds: How Early Decisions Shape Incident Response Investigations",
+    "summary": "Many incident response failures do not come from a lack of tools, intelligence, or technical skills. They come from what happens immediately after detection, when pressure is high, and information is incomplete. I have seen IR teams recover from sophisticated intrusions with limited telemetry. I ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/the-first-90-seconds-how-early.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265555",
+    "date": "2026-02-04",
+    "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+    "summary": "Microsoft has warned that information-stealing attacks are \"rapidly expanding\" beyond Windows to target Apple macOS environments by leveraging cross-platform languages like Python and abusing trusted platforms for distribution at scale. The tech giant's Defender Security Research Team said it obs...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html?&web_view=true",
+    "tags": [
+      "microsoft",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265556",
+    "date": "2026-02-04",
+    "title": "Cryptominers, Reverse Shells Dropped in Recent React2Shell Attacks",
+    "summary": "Two IP addresses accounted for the majority of the 1.4 million exploitation attempts observed over the past week. The post Cryptominers, Reverse Shells Dropped in Recent React2Shell Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cryptominers-reverse-shells-dropped-in-recent-react2shell-attacks/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265557",
+    "date": "2026-02-04",
+    "title": "Fresh SolarWinds Vulnerability Exploited in Attacks",
+    "summary": "The critical-severity SolarWinds Web Help Desk flaw could lead to unauthenticated remote code execution. The post Fresh SolarWinds Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fresh-solarwinds-vulnerability-exploited-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265558",
+    "date": "2026-02-04",
+    "title": "Malicious Script Delivering More Maliciousness, (Wed, Feb 4th)",
+    "summary": "Today, I received an interesting email with a malicious attachment. When I had a look at the automatic scan results, it seemed to be a malicious script to create a Chrome Injector to steal data. Because InfoStealers are very common these days, it looked “legit” but there was something different. ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32682",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265559",
+    "date": "2026-02-04",
+    "title": "Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks",
+    "summary": "Wiz and Permiso have analyzed the AI agent social network and found serious security issues and threats. The post Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/security-analysis-of-moltbook-agent-network-bot-to-bot-prompt-injection-and-data-leaks/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265560",
+    "date": "2026-02-04",
+    "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+    "summary": "Microsoft has warned that information-stealing attacks are \"rapidly expanding\" beyond Windows to target Apple macOS environments by leveraging cross-platform languages like Python and abusing trusted platforms for distribution at scale. The tech giant's Defender Security Research Team said it obs...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
+    "tags": [
+      "microsoft",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265561",
+    "date": "2026-02-04",
+    "title": "How fake party invitations are being used to install remote access tools",
+    "summary": "“You’re invited!” It sounds friendly, familiar and quite harmless. But in a scam we recently spotted, that simple phrase is being used to trick victims into installing a full remote access tool on their Windows computers—giving attackers complete control of the system. What appears to be a casual...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.malwarebytes.com/blog/threat-intel/2026/02/how-fake-party-invitations-are-being-used-to-install-remote-access-tools?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265562",
+    "date": "2026-02-04",
+    "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
+    "summary": "The Eclipse Foundation, which maintains the Open VSX Registry, has announced plans to enforce security checks before Microsoft Visual Studio Code (VS Code) extensions are published to the open-source repository to combat supply chain threats. The move marks a shift from a reactive to a proactive ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265563",
+    "date": "2026-02-04",
+    "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities (KEV) catalog, flagging it as actively exploited in attacks. The vulnerability, tracked as CVE-2025-40551 (CVS...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20265518",
     "date": "2026-02-04",
     "title": "7 Data Breaches, Exposures to Know About (January 2026)",
