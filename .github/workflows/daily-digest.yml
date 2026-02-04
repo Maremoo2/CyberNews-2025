@@ -105,11 +105,3 @@ jobs:
           
           echo "Push failed after retries"
           exit 1
-      
-      - name: Trigger deployment
-        if: steps.git-check.outputs.changed == 'true'
-        run: |
-          echo "Triggering deployment workflow"
-          gh workflow run deploy.yml --ref main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
