@@ -66,7 +66,7 @@ jobs:
           echo "DEBUG: Processing week $WEEK"
           
           # Fetch latest from remote to ensure we check against the actual remote state
-          git fetch origin main || echo "Note: Could not fetch origin/main (may not exist yet)"
+          git fetch origin main || echo "DEBUG: Could not fetch origin/main (may not exist yet)"
           
           # Check if this week's files already exist on the REMOTE main branch
           # Use git ls-tree to check remote branch, with fallback for when remote doesn't exist
@@ -125,7 +125,7 @@ jobs:
           echo "DEBUG: Files to commit: $FILES_ADDED"
           
           # Determine commit type based on what was added
-          if echo "$FILES_ADDED" | grep -q "analysis\|brief"; then
+          if echo "$FILES_ADDED" | grep -Eq "(analysis|brief)"; then
             echo "commit_type=with_ai" >> $GITHUB_OUTPUT
             echo "files_added=$FILES_ADDED" >> $GITHUB_OUTPUT
           else
