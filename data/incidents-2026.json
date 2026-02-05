@@ -1,5 +1,531 @@
 [
   {
+    "id": "20265706",
+    "date": "2026-02-05",
+    "title": "Healthcare Cybersecurity Is in Crisis — These Proven Controls Could Be the Cure",
+    "summary": "New analysis of healthcare cyber losses suggests that foundational controls remain the most effective at reducing risk.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102112-healthcare-cybersecurity-is-in-crisis-these-proven-controls-could-be-the-cure",
+    "tags": [
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265707",
+    "date": "2026-02-05",
+    "title": "Windows 11 : comment repérer en un clic les PC qui doivent mettre à jour Secure Boot dans votre entreprise",
+    "summary": "Alors que le renouvellement des certificats Secure Boot est désormais en cours sur Windows 11, Microsoft dévoile un nouvel outil de suivi pour les équipes IT. Objectif, identifier rapidement les machines prêtes, celles qui attendent encore une mise à jour, et éviter les blocages liés au firmware ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599092-windows-11-comment-reperer-en-un-clic-les-pc-qui-doivent-mettre-a-jour-secure-boot-dans-votre-entreprise.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265708",
+    "date": "2026-02-05",
+    "title": "Le groupe russe APT28 utilise la faille CVE-2026-21509 d'Office pour pirater des diplomates",
+    "summary": "Oubliez la sophistication des attaques dignes des films d'espionnage. Parfois, une vieille recette remise au goût du jour suffit à faire trembler les chancelleries occidentales. Votre suite bureautique préférée vient de vous trahir, encore une fois.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599062-le-groupe-russe-apt28-utilise-la-faille-cve-2026-21509-d-office-pour-pirater-des-diplomates.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265709",
+    "date": "2026-02-05",
+    "title": "Ce spyware peut masquer les enregistrements furtifs de votre iPhone",
+    "summary": "De nouvelles analyses de Predator montrent que ce spyware pour iPhone ne se contente pas d’espionner : il repère les outils des chercheurs, coupe les voyants d’enregistrement et efface soigneusement ce qu’il laisse derrière lui.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599032-ce-spyware-peut-masquer-les-enregistrements-furtifs-de-votre-iphone.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265710",
+    "date": "2026-02-05",
+    "title": "Russian Cyberattacks Target Milan-Cortina Winter Olympics Ahead of Opening Ceremony",
+    "summary": "With the Milan-Cortina Winter Olympics just hours from opening, Russian cyberattacks have forced Italian authorities into a full-scale security response that blends digital defence with boots on the ground. Italy confirmed this week that it successfully thwarted a coordinated wave of cyber incide...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/russian-cyberattacks-winter-olympics-2026/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265711",
+    "date": "2026-02-05",
+    "title": "Critical n8n Vulnerability CVE-2026-25049 Enables Remote Command Execution",
+    "summary": "A newly disclosed critical vulnerability, tracked as CVE-2026-25049, in the workflow automation platform n8n, allows authenticated users to execute arbitrary system commands on the underlying server by exploiting weaknesses in the platform’s expression evaluation mechanism. With a CVSS score of 9...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/critical-n8n-vulnerability-cve-2026-25049-rce/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265712",
+    "date": "2026-02-05",
+    "title": "US FDA Reissues Cybersecurity Guidance to Reflect QMSR Transition and ISO 13485 Alignment",
+    "summary": "The US Food and Drug Administration (FDA) has reissued its final guidance on medical device cybersecurity to reflect the agency’s transition from the Quality System Regulation (QSR) to the Quality System Management Regulation (QMSR). The updated FDA cybersecurity guidance was published on 4 Febru...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/fda-cybersecurity-guidance-qmsr-update/",
+    "tags": [
+      "malware",
+      "healthcare",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265713",
+    "date": "2026-02-05",
+    "title": "What the Incognito Market Sentencing Reveals About Dark Web Drug Trafficking",
+    "summary": "The 30-year prison sentence handed to Rui-Siang Lin, the operator of the infamous Incognito Market, is more than just another darknet takedown story. Lin, who ran Incognito Market under the alias “Pharaoh,” oversaw one of the largest online narcotics operations in history, generating more than $1...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/incognito-market-mastermind-behind-bars/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265714",
+    "date": "2026-02-05",
+    "title": "Betterment data breach impacted 1.4 million customer accounts",
+    "summary": "Have I Been Pwned (HIBP) has added data from the January 2026 Betterment breach to its repository of compromised credentials, confirming that 1.4 million accounts were affected. According to the breach monitoring platform, three-quarters of the exposed email addresses had already appeared in prev...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/betterment-data-breach-impacted-1-4-million-customer-accounts/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265715",
+    "date": "2026-02-05",
+    "title": "Why a decade-old EnCase driver still works as an EDR killer",
+    "summary": "Attackers are leaning on a new EDR killer malware that can shut down 59 widely used endpoint security products by misusing a kernel driver that once shipped with Guidance Software’s EnCase digital forensics tool, Huntress researchers warn. This particular driver is legitimate but its certificate ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/edr-killer-vulnerable-encase-driver/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265716",
+    "date": "2026-02-05",
+    "title": "International sting dismantles illegal streaming empire serving millions",
+    "summary": "Actions by authorities from Italy, Romania, Spain, the United Kingdom, Canada, Kosovo and South Korea, supported by Eurojust and Europol, led to the seizure of multiple illegal streaming services. A total of 31 suspected members have been linked to the operation. The group engaged in unauthorised...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/eurojust-illegal-streaming-services-seizure/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265717",
+    "date": "2026-02-05",
+    "title": "GitHub enables multi-agent AI coding inside repository workflows",
+    "summary": "GitHub has expanded Agents HQ, enabling AI coding agents such as GitHub Copilot, Claude by Anthropic, and OpenAI Codex to execute development tasks directly within GitHub and developer editors while preserving repository context, session history, and review workflows. Copilot Pro+ and Copilot Ent...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/github-enables-coding-agents/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265718",
+    "date": "2026-02-05",
+    "title": "Police shut down global DDoS operation, arrest 20-year-old",
+    "summary": "Police officers from Poland’s Central Bureau for Combating Cybercrime (CBZC) have arrested a 20-year-old man suspected of carrying out global DDoS attacks targeting high-profile and strategically important websites. Arrest (Source: Poland’s Central Bureau for Combating Cybercrime) The suspect fac...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/ddos-poland-suspect-arrested/",
+    "tags": [
+      "ddos",
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265719",
+    "date": "2026-02-05",
+    "title": "Microsoft brings project-focused AI agents into OneDrive",
+    "summary": "Teams often rely on shared document collections to track project history, decisions, and operational knowledge. To support this workflow, Microsoft introduced Agents in OneDrive, allowing users to create AI assistants built from selected files and folders. The feature allows users to group projec...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/microsoft-onedrive-ai-agents/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265720",
+    "date": "2026-02-05",
+    "title": "Microsoft launches LiteBox, a security-focused open-source library OS",
+    "summary": "Microsoft has released LiteBox, a project intended to function as a security-focused library OS that can serve as a secure kernel for protecting a guest kernel using virtualization hardware. LiteBox was developed in collaboration with the Linux Virtualization Based Security (LVBS) project. The go...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/microsoft-litebox-security-focused-open-source-library-os/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265721",
+    "date": "2026-02-05",
+    "title": "AiStrike introduces AI-powered MDR to reduce costs and alert fatigue",
+    "summary": "AiStrike announced the launch of AiStrike MDR, an AI-powered managed detection and response (MDR) service designed to replace human-intensive MDR with an AI-led, expert-guided operating model built for scale, speed, and measurable outcomes. Enterprises and government organizations use AiStrike to...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/aistrike-introduces-ai-powered-mdr-to-reduce-costs-and-alert-fatigue/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265722",
+    "date": "2026-02-05",
+    "title": "Varonis acquires AllTrue.ai to enable safe, compliant AI at scale",
+    "summary": "Varonis is expanding its AI security capabilities through the acquisition of AllTrue.ai, which brings real-time visibility and security to AI systems, complementing Varonis’ understanding of enterprise data, identities, and access. Together, the combined platform helps organizations see and prote...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/varonis-alltrue-ai-acquisition/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265723",
+    "date": "2026-02-05",
+    "title": "Smart glasses are back, privacy issues included",
+    "summary": "AI smart glasses are the latest addition to fashion, and they include a camera, a microphone, AI, and privacy risks. After Google Glass failed to gain traction more than a decade ago, the category is seeing renewed interest as companies redesign the technology to look like ordinary eyewear. Meta ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/ai-smart-glasses-privacy-risk/",
+    "tags": [
+      "ai-ml",
+      "google",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265724",
+    "date": "2026-02-05",
+    "title": "What Is The Difference Between Hack And Virus?",
+    "summary": "This post will show you the difference between a hack and a virus. Since the inception of the internet era, most non-tech computer users have often used ‘hack’ and ‘virus’ interchangeably. This is understandable because a thin line exists between ‘hack’ and ‘virus.’ There are fundamental differen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/difference-between-hack-and-virus/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265726",
+    "date": "2026-02-05",
+    "title": "Trump Injected Nixon’s Attack Dog to Destroy the National Archives",
+    "summary": "James Byron, president and CEO of the Richard Nixon Foundation, is now performing the functions of Archivist of the United States. Let that sink in. Byron was injected when Secretary of State Marco Rubio’s 300-day tenure as acting archivist silently expired on February 4, 2026 under the Federal V...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76929",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265727",
+    "date": "2026-02-05",
+    "title": "France’s Cybersecurity Roadmap: Talent, Deterrence, and European Digital Sovereignty",
+    "summary": "Introduction France has released its National Cybersecurity Strategy for 2026-2030, and the document reveals an ambitious vision that extends far beyond traditional defense postures. Under the directive of President Emmanuel Macron, who frames cybersecurity as \"a prerequisite for freedom\" and \"a ...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/france-national-cybersecurity-strategy-2026/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265728",
+    "date": "2026-02-05",
+    "title": "Attackers exploit decade‑old Windows driver flaw to shut down modern EDR defenses",
+    "summary": "In a recent incident, attackers abused a legitimate but vulnerable Windows kernel driver to shut down endpoint security tools during an ongoing incident response. According to a Huntress report, the activity was observed during a customer investigation in early 2026 and involved the use of an old...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127968/attackers-exploit-decade%e2%80%91old-windows-driver-flaw-to-shut-down-modern-edr-defenses.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265729",
+    "date": "2026-02-05",
+    "title": "Ransomware-Attacke auf Buhlmann Group",
+    "summary": "Die Buhlmann Group wurde von einer Ransomware-Bande angegriffen. Der Hauptsitz in Deutschland ist jedoch verschont geblieben.Buhlmann Group Akira zählt zu den gefährlichsten Ransomware-Gruppen und ist bekannt für zahlreiche Angriffe auf deutsche Unternehmen. Nun hat es offenbar den Bremer Stahlhä...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127959/ransomware-attacke-auf-buhlmann-group.html",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265730",
+    "date": "2026-02-05",
+    "title": "The silent security gap in enterprise AI adoption",
+    "summary": "Most security leaders believe they know where their sensitive data lives and how it is protected. That confidence is increasingly misplaced. As enterprises deploy AI across customer support, software development, legal analysis and internal operations, a new data exposure surface has quietly emer...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127334/the-silent-security-gap-in-enterprise-ai-adoption.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265731",
+    "date": "2026-02-05",
+    "title": "Microsoft develops a new scanner to detect hidden backdoors in LLMs",
+    "summary": "Microsoft has developed a scanner designed to detect backdoors in open-weight AI models, addressing a critical blind spot for enterprises increasingly dependent on third-party LLMs. In a blog post, the company said its research focused on identifying hidden triggers and malicious behaviors embedd...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127897/microsoft-develops-a-new-scanner-to-detect-hidden-backdoors-in-llms.html",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265732",
+    "date": "2026-02-05",
+    "title": "Building trust with the board through evidence-based proof",
+    "summary": "Cybersecurity is a boardroom issue, but meaningful dialogue often breaks down at the table. Boards ask about cybersecurity investments and cyber resilience; they need answers rooted in reality, not prognostication. When cybersecurity leaders respond with a list of technologies deployed and potent...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127327/building-trust-with-the-board-through-evidence-based-proof.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265733",
+    "date": "2026-02-05",
+    "title": "Kurz vor Olympia: Italien wehrt russische Hacker-Angriffe ab",
+    "summary": "width=\"2488\" height=\"1399\" sizes=\"auto, (max-width: 2488px) 100vw, 2488px\">Russische Hacker haben kurz vor den Olympischen Winterspielen einige Standorte in Italien angegriffen. Die Angriffe wurden abgewehrt.FamVeld – shutterstock.com Wenige Tage vor Beginn der Olympischen Winterspiele in Mailand...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127850/kurz-vor-olympia-italien-wehrt-russische-hacker-angriffe-ab.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265734",
+    "date": "2026-02-05",
+    "title": "Software supply chain risks join the OWASP top 10 list, access control still on top",
+    "summary": "Software supply chain failures and mishandling of exceptional conditions are some of the additions to the updated OWASP Top 10, a list of top web application vulnerabilities. Most of the list has remained unchanged since 2021. In fact, the top item, broken access control, has been on the Open Wor...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4126865/software-supply-chain-risks-join-the-owasp-top-10-list-access-control-still-on-top.html",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265735",
+    "date": "2026-02-05",
+    "title": "Protests Don't Impede Iranian Spying on Expats, Syrians, Israelis",
+    "summary": "Iranian threat actors have been stealing credentials from people of interest across the Middle East, using spear-phishing and social engineering.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/iran-spies-expats-syrians-israelis",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265737",
+    "date": "2026-02-05",
+    "title": "New Hacking Campaign Exploits Microsoft Windows WinRAR Vulnerability ",
+    "summary": "Researchers at Check Point link ‘Amarath-Dragon’ attacks to prolific Chinese cyber-espionage operation",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hacking-exploits-windows-winrar/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265738",
+    "date": "2026-02-05",
+    "title": "AI-Enabled Voice and Virtual Meeting Fraud Surges 1000%+",
+    "summary": "Pindrop warns of 1210% increase in AI-powered fraud last year",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-voice-virtual-meeting-fraud/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265739",
+    "date": "2026-02-05",
+    "title": "Gaming Meets Cybersecurity: How CS2 Skins Help Protect Gaming Accounts",
+    "summary": "Counter-Strike 2 has grown beyond a competitive game. It now acts as a digital space where cosmetic items hold personal value. Rarity, demand, and long-term play shape that value. For many players, inventories represent years of careful collecting, not short-term rewards. As item value rises, att...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/gaming-meets-cybersecurity-how-cs2-skins-help-protect-gaming-accounts",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265740",
+    "date": "2026-02-05",
+    "title": "Varonis Acquires AllTrue to Strengthen AI Security Capabilities",
+    "summary": "The deal underscores a broader industry shift as security vendors race to address the risks introduced by LLMs, copilots, and autonomous AI agents. The post Varonis Acquires AllTrue to Strengthen AI Security Capabilities appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-varonis-buys-alltrue/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265741",
+    "date": "2026-02-05",
+    "title": "European Officials Warn of Russian Satellites Intercepting Communications",
+    "summary": "Russian Luch “inspector” satellites are suspected of shadowing European GEO spacecraft, raising fears of interception, jamming, and orbital risk. The post European Officials Warn of Russian Satellites Intercepting Communications appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-europe-warning-russian-satellites/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265742",
+    "date": "2026-02-05",
+    "title": "Data breach at fintech firm Betterment exposes 1.4 million accounts",
+    "summary": "Hackers stole email addresses and other personal information from 1.4 million accounts after breaching the systems of automated investment platform Betterment in January. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-betterment-exposes-14-million-accounts/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265743",
+    "date": "2026-02-05",
+    "title": "Zendesk spam wave returns, floods users with 'Activate account' emails",
+    "summary": "A fresh wave of spam is hitting inboxes worldwide, with users reporting that they are once again being bombarded by automated emails generated through companies' unsecured Zendesk support systems. Some recipients say they are receiving hundreds of messages with strange or alarming subject lines. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265695",
     "date": "2026-02-05",
     "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
@@ -273,6 +799,20 @@
     "tags": [
       "supply-chain",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265736",
+    "date": "2026-02-04",
+    "title": "OfferUp scammers are out in force: Here’s what you should know",
+    "summary": "The mobile marketplace app has a growing number of users, but not all of them are genuine. Watch out for these common scams.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/offerup-scammers-out-force-heres-what-you-should-know/",
+    "tags": [
+      "mobile"
     ],
     "impact": 3
   },
@@ -3007,6 +3547,20 @@
     "sourceUrl": "https://www.troyhunt.com/weekly-update-489/",
     "tags": [
       "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265725",
+    "date": "2026-02-03",
+    "title": "Buying in Paradise? Why You Need a Trusted San Miguel Real Estate Partner",
+    "summary": "In this post, I will talk about why you need a trusted San Miguel real estate partner. The allure of San Miguel de Allende is undeniable. It is a place where light bounces off ochre walls, where centuries-old cobblestones echo with the sound of daily life, and where an expatriate community has th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/buying-in-paradise-why-you-need-a-trusted-san-miguel-real-estate-partner/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
