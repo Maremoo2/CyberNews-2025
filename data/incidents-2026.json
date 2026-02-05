@@ -1,5 +1,450 @@
 [
   {
+    "id": "20265797",
+    "date": "2026-02-05",
+    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds. Cloudflare, which automatically detected and mitigated the activity, said it's part of a growing number...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265798",
+    "date": "2026-02-05",
+    "title": "Alleged 764 member arrested, charged with CSAM possession in New York",
+    "summary": "A 23-year-old New York man allegedly affiliated with 764 was arrested and charged with receiving child sexual abuse material. Aaron Corey of Albany, N.Y., faces up to 20 years in prison for trafficking CSAM during a three-month period ending in December. Corey, also known as “Baggeth,” is accused...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/764-member-arrested-charged-csam-new-york/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265799",
+    "date": "2026-02-05",
+    "title": "Russian hackers attacking European maritime and transport orgs using Microsoft Office exploit",
+    "summary": "Russian state-linked hackers are exploiting a Microsoft Office vulnerability to target maritime organizations across Europe as part of a “sophisticated espionage campaign,\" researchers said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russian-hackers-microsoft-office-europe",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265800",
+    "date": "2026-02-05",
+    "title": "Substack Discloses Security Incident After Hacker Leaks Data",
+    "summary": "The hacker claims to have stolen nearly 700,000 Substack user records, including email addresses and phone numbers. The post Substack Discloses Security Incident After Hacker Leaks Data appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/substack-discloses-security-incident-after-hacker-leaks-data/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265801",
+    "date": "2026-02-05",
+    "title": "Substack warns customers of data breach following hacker’s dark web claims",
+    "summary": "Customers of the newsletter platform Substack were notified on Wednesday of a breach, following a hacker's claims on the dark web of a trove of stolen data.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/substack-data-breach-notification",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265802",
+    "date": "2026-02-05",
+    "title": "[Ekstra] Tolletaten: – Palantir er ikke et overvåkingsselskap – de leverer en programvare",
+    "summary": "Tolletaten: – Palantir er ikke et overvåkingsselskap, de leverer en programvare.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/krever-full-stans-i-tolletatens-bruk-av-palantir/567883",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265803",
+    "date": "2026-02-05",
+    "title": "Italy blames Russia-linked hackers for cyberattacks ahead of Winter Olympics",
+    "summary": "Multiple Italian foreign ministry offices and facilities associated with the Winter Games were targeted by attacks.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/italy-blames-russia-linked-hackers-winter-games-cyberattack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265804",
+    "date": "2026-02-05",
+    "title": "Researchers uncover vast cyberespionage operation targeting dozens of governments worldwide",
+    "summary": "Unit 42 tracked the compromise of at least 70 institutions across the 37 countries — with the hackers maintaining access to some victims for months. In one country, the hackers gained access to the parliament and a senior elected official.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/research-cyber-espionage-targeting-dozens-worldwide",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265805",
+    "date": "2026-02-05",
+    "title": "Researchers Expose Network of 150 Cloned Law Firm Websites in AI-Powered Scam Campaign",
+    "summary": "Criminals are using AI to clone professional websites at an industrial scale. A new report shows how one AI-powered network grew to 150+ domains by hiding behind Cloudflare and rotating IP ranges. The post Researchers Expose Network of 150 Cloned Law Firm Websites in AI-Powered Scam Campaign appe...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/researchers-expose-network-of-150-cloned-law-firm-websites-in-ai-powered-scam-campaign/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265806",
+    "date": "2026-02-05",
+    "title": "VS Code Configs Expose GitHub Codespaces to Attacks",
+    "summary": "VS Code-integrated configuration files are automatically executed in Codespaces when the user opens a repository or pull request. The post VS Code Configs Expose GitHub Codespaces to Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/vs-code-configs-expose-github-codespaces-to-attacks/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265807",
+    "date": "2026-02-05",
+    "title": "[Ekstra] Ville tilby SpaceX-alternativ: Nå går det mot konkurs",
+    "summary": "I Danmark skulle de bygge rakettmotorer for å sende satellitter ut i rommet fra Skottland. Nå har den danske avdelingen av Orbex begjært oppbud.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ville-vaere-europeisk-alternativ-til-spacex-na-styrer-rakettfabrikken-mot-konkurs/567781",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265808",
+    "date": "2026-02-05",
+    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+    "summary": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next. Researchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. N...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265809",
+    "date": "2026-02-05",
+    "title": "Nullify Secures $12.5 Million in Seed Funding for Cybersecurity AI Workforce",
+    "summary": "This latest infusion, led by SYN Ventures, brings the company’s total funding to $16.9 million. The post Nullify Secures $12.5 Million in Seed Funding for Cybersecurity AI Workforce appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/nullify-secures-12-5-million-in-seed-funding-for-cybersecurity-ai-workforce/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265810",
+    "date": "2026-02-05",
+    "title": "Italy Averted Russian-Linked Cyberattacks Targeting Winter Olympics Websites, Foreign Minister Says",
+    "summary": "Italy has foiled a series of cyberattacks targeting some of its foreign ministry offices, including one in Washington. The post Italy Averted Russian-Linked Cyberattacks Targeting Winter Olympics Websites, Foreign Minister Says appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/italy-averted-russian-linked-cyberattacks-targeting-winter-olympics-websites-foreign-minister-says/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265811",
+    "date": "2026-02-05",
+    "title": "Developing a National Cybersecurity Strategy in the AI Era: A Playbook - Cisco Blogs",
+    "summary": "Cyber Workforce Development: Building long-term resilience through education, training, and public-sector talent pipelines. Secure-by-Design Standards ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.cisco.com/gov/national-cybersecurity-strategy-playbook",
+    "tags": [
+      "malware",
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265812",
+    "date": "2026-02-05",
+    "title": "Palo Alto Networks NextWave Program Accelerates Partner Profitability and AI-Driven ...",
+    "summary": "By focusing on platformization, Palo Alto Networks enables partners to integrate their customers' security stacks across the network, cloud, and SOC— ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-nextwave-program-accelerates-partner-profitability-and-ai-driven-security-outcomes",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265813",
+    "date": "2026-02-05",
+    "title": "Searchlight Cyber appoints Michael Gianarakis as CEO - SecurityBrief UK",
+    "summary": "Gianarakis spent the past year as Chief Product Officer at the UK-based cyber security firm. He joined after Searchlight acquired attack surface ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/searchlight-cyber-appoints-michael-gianarakis-as-ceo",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265814",
+    "date": "2026-02-05",
+    "title": "Fortinet: How to Counter Cyber Threats in Manufacturing",
+    "summary": "“The seventh instalment of the Fortinet State of Operational Technology and Cybersecurity Report shows that organisations are taking OT security more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/fortinet-how-to-tackle-manufacturing-cyber-threats",
+    "tags": [
+      "malware",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265815",
+    "date": "2026-02-05",
+    "title": "Palo Alto Networks NextWave Program Accelerates Partner Profitability and AI-Driven ...",
+    "summary": "PRNewswire/ -- Palo Alto Networks (NASDAQ: PANW), the global cybersecurity ... Information Security Policy · Site Map · RSS · Cookies. Copyright © 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/palo-alto-networks-nextwave-program-accelerates-partner-profitability-and-ai-driven-security-outcomes-302680193.html",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265816",
+    "date": "2026-02-05",
+    "title": "Gartner Identifies the Top Cybersecurity Trends for 2026",
+    "summary": "Analysts to Explore Cybersecurity Trends During Gartner Security & Risk Management Summit, March 16-17 in Sydney. The chaotic rise of AI, geopolitical ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-02-05-gartner-identifies-the-top-cybersecurity-trends-for-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265817",
+    "date": "2026-02-05",
+    "title": "CrowdStrike Enters into MoU with Aramco to Advance Saudi Arabia's Cybersecurity Transformation",
+    "summary": "Al Shafi , Aramco Vice President of Cybersecurity & Chief Information Security Officer. ... The proposed collaboration also includes joint innovation, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-enters-mou-aramco-advance-saudi-arabias",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265818",
+    "date": "2026-02-05",
+    "title": "Mississippi Bill Moves to Reshape State Tech Leadership - Government Technology",
+    "summary": "... information technology and cyber security issues,” a role that would include overseeing IT modernization efforts, advising on cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/policy/mississippi-bill-moves-to-reshape-state-tech-leadership",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265819",
+    "date": "2026-02-05",
+    "title": "The International Growth of the Space ISAC",
+    "summary": "The Space ISAC needs key global partnerships, as it aims to be an all-threats space security information source for the public and private space ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.afcea.org/signal-media/international/international-growth-space-isac",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265820",
+    "date": "2026-02-05",
+    "title": "Security Teams, MSSPs Will Wrestle with Agentic AI, Non-Human Identities in 2026",
+    "summary": "Keyfactor found that 85% of cybersecurity pros expect digital identities for agents will be as common as human and machine identities within five ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msspalert.com/news/security-teams-mssps-will-wrestle-with-agentic-ai-non-human-identities-in-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265821",
+    "date": "2026-02-05",
+    "title": "North America Critical Infrastructure Protection Market - MarketsandMarkets",
+    "summary": "The ecosystem in the CIP market in North America reflects an integrated mix of physical security, IT cybersecurity, and OT cybersecurity providers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketsandmarkets.com/Market-Reports/north-america-critical-infrastructure-protection-market-202448878.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265822",
+    "date": "2026-02-05",
+    "title": "Ferris State online Information Security & Intelligence program secures top-10 national ranking",
+    "summary": "Ferris State University's online programs saw major improvements in U.S. News & World Report rankings, showcasing their quality and expansion.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.9and10news.com/2026/02/04/ferris-state-online-information-security-intelligence-program-secures-top-10-national-ranking/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265823",
+    "date": "2026-02-05",
+    "title": "Dragos expands Microsoft partnership to integrate OT security with Azure and Sentinel",
+    "summary": "For customers, it provides a clear, future-ready path to secure modernization, establishing Dragos's OT-native cybersecurity as an integral capability ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/dragos-expands-microsoft-partnership-to-integrate-ot-security-with-azure-and-sentinel/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265824",
+    "date": "2026-02-05",
+    "title": "Critical SolarWinds Web Help Desk bug under attack - The Register",
+    "summary": "That's according to America's lead cyber-defense agency, which set a Friday deadline for federal agencies to patch the security flaw. The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/04/critical_solarwinds_web_help_desk/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265825",
+    "date": "2026-02-05",
+    "title": "The security implementation gap: Why Microsoft is supporting Operation Winter SHIELD",
+    "summary": "Every conversation I have with information security leaders tends to land in the same place. People understand what matters. They know the frameworks, the controls, and the guidance. They can explain why identity security, patching, and access control are critical. And yet incidents keep happenin...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265826",
+    "date": "2026-02-05",
+    "title": "Rethinking imitation learning with Predictive Inverse Dynamics Models",
+    "summary": "At a glance Imitation learning becomes easier when an AI agent understands why an action is taken. Predictive Inverse Dynamics Models (PIDMs) predict plausible future states, clarifying the direction of behavior during imitation learning. Even imperfect predictions reduce ambiguity, making it cle...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/blog/rethinking-imitation-learning-with-predictive-inverse-dynamics-models/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265766",
     "date": "2026-02-05",
     "title": "How to Protect Organizations During the Winter Olympics, According to CISOs",
