@@ -17,6 +17,9 @@ function AIInsights() {
       const day = String(today.getUTCDate()).padStart(2, '0');
       const dateStr = `${year}-${month}-${day}`; // YYYY-MM-DD
       
+      // Use Vite's BASE_URL to ensure correct path in both dev and production
+      const basePath = import.meta.env.BASE_URL || '/';
+      
       try {
         // Load daily digest - try today first, then fall back to recent days
         let digestData = null;
@@ -37,7 +40,7 @@ function AIInsights() {
         
         for (const attemptDateStr of digestAttempts) {
           try {
-            const digestUrl = `/data/daily/${attemptDateStr}.json`;
+            const digestUrl = `${basePath}data/daily/${attemptDateStr}.json`;
             const digestResponse = await fetch(digestUrl);
             if (digestResponse.ok) {
               digestData = await digestResponse.json();
@@ -65,7 +68,7 @@ function AIInsights() {
           const weekNumber = getISOWeek(date);
           
           const weekStr = `${weekYear}-${String(weekNumber).padStart(2, '0')}`;
-          attempts.push(`/data/briefs/week_${weekStr}.json`);
+          attempts.push(`${basePath}data/briefs/week_${weekStr}.json`);
         }
 
         console.log('[AIInsights] Attempting to fetch weekly brief from:', attempts);
