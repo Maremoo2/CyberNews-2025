@@ -4,7 +4,7 @@
   "week_number": 5,
   "week_year": 2026,
   "counts": {
-    "total_items": 1090,
+    "total_items": 1091,
     "incident_related": 0,
     "cluster_count": 5
   },
@@ -12,63 +12,63 @@
     "exploit_led_pct": "-0.5",
     "phishing_pct": "-3.3",
     "token_abuse_pct": "-0.6",
-    "ransomware_pct": "-1.7"
+    "ransomware_pct": "-1.8"
   },
   "attack_type_percentages": {
     "exploit_led_pct": "10.8",
     "phishing_pct": "4.4",
     "token_abuse_pct": "2.0",
-    "ransomware_pct": "2.8"
+    "ransomware_pct": "2.7"
   },
   "top_themes": [
     {
       "theme": "malware",
-      "confidence": 0.7363302752293578,
+      "confidence": 0.7361136571952337,
       "item_count": 644
     },
     {
       "theme": "data/it",
-      "confidence": 0.6255045871559634,
+      "confidence": 0.6253895508707608,
       "item_count": 342
     },
     {
       "theme": "ai-ml",
-      "confidence": 0.608256880733945,
+      "confidence": 0.6081576535288726,
       "item_count": 295
     },
     {
       "theme": "cyber",
-      "confidence": 0.5807339449541284,
+      "confidence": 0.580659945004583,
       "item_count": 220
     },
     {
       "theme": "vulnerability",
-      "confidence": 0.5521100917431193,
+      "confidence": 0.5520623281393218,
       "item_count": 142
     },
     {
       "theme": "data breach",
-      "confidence": 0.5363302752293578,
+      "confidence": 0.5362969752520623,
       "item_count": 99
     },
     {
       "theme": "data-breach",
-      "confidence": 0.5363302752293578,
+      "confidence": 0.5362969752520623,
       "item_count": 99
     },
     {
       "theme": "microsoft",
-      "confidence": 0.5245871559633027,
+      "confidence": 0.5245646196150321,
       "item_count": 67
     },
     {
       "theme": "phishing",
-      "confidence": 0.5234862385321101,
+      "confidence": 0.5234647112740605,
       "item_count": 64
     },
     {
       "theme": "ransomware",
-      "confidence": 0.5220183486238532,
+      "confidence": 0.5219981668194317,
       "item_count": 60
     }
   ],
@@ -96,17 +96,17 @@
     {
       "sector": "manufacturing",
       "count": 6,
-      "percentage": "0.6"
+      "percentage": "0.5"
     },
     {
       "sector": "finance",
       "count": 6,
-      "percentage": "0.6"
+      "percentage": "0.5"
     },
     {
       "sector": "healthcare",
       "count": 6,
-      "percentage": "0.6"
+      "percentage": "0.5"
     },
     {
       "sector": "retail",
@@ -119,27 +119,27 @@
     {
       "title": "Access denied",
       "size": 9,
-      "confidence": 0.6028899082568807
+      "confidence": 0.6028872593950504
     },
     {
       "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
       "size": 6,
-      "confidence": 0.6019266055045871
+      "confidence": 0.6019248395967003
     },
     {
       "title": "Check Point Software's 2026 Cyber Security Report Shows Global Attacks Reach Record ... - iTWire",
       "size": 3,
-      "confidence": 0.6009633027522936
+      "confidence": 0.6009624197983501
     },
     {
       "title": "Google disrupts IPIDEA residential proxy networks fueled by malware",
       "size": 3,
-      "confidence": 0.6009633027522936
+      "confidence": 0.6009624197983501
     },
     {
       "title": "Trump's acting cyber chief uploads sensitive files to public ChatGPT — report - TRT World",
       "size": 3,
-      "confidence": 0.6009633027522936
+      "confidence": 0.6009624197983501
     }
   ],
   "quality_metadata": {
