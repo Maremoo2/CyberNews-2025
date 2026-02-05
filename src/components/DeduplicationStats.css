@@ -47,8 +47,8 @@
 }
 
 .stat-card.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 10%, #f8f9fa 10%);
-  border-color: #667eea;
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 10%, #f8f9fa 10%);
+  border-color: #00d4ff;
 }
 
 .stat-card.highlight {

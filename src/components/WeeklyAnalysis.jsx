@@ -19,6 +19,9 @@ function WeeklyAnalysis() {
         const currentDate = new Date();
         const attempts = [];
         
+        // Use Vite's BASE_URL to ensure correct path in both dev and production
+        const basePath = import.meta.env.BASE_URL || '/';
+        
         // Generate potential file names for the last 4 weeks
         for (let i = 0; i < 4; i++) {
           const date = new Date(currentDate);
@@ -27,7 +30,7 @@ function WeeklyAnalysis() {
           const weekNumber = getISOWeek(date);
           
           const weekStr = `${year}-${String(weekNumber).padStart(2, '0')}`;
-          attempts.push(`/data/analysis/week_${weekStr}.json`);
+          attempts.push(`${basePath}data/analysis/week_${weekStr}.json`);
         }
 
         // Try each file in order (silently)

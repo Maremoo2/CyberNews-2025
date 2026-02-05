@@ -109,7 +109,7 @@
 }
 
 .narrative-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
@@ -180,7 +180,7 @@
 }
 
 .insight-text strong {
-  color: #667eea;
+  color: #00d4ff;
   font-weight: 600;
 }
 
@@ -256,7 +256,7 @@
 
 .vector-rank {
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
   font-size: 1.1rem;
 }
 
@@ -295,7 +295,7 @@
 
 .sector-rank {
   font-weight: 700;
-  color: #764ba2;
+  color: #0066cc;
   font-size: 1.1rem;
 }
 

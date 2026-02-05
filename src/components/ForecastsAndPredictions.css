@@ -24,7 +24,7 @@
 }
 
 .forecast-intro {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
@@ -82,7 +82,7 @@
 .prediction-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
   line-height: 1;
 }
 
@@ -122,7 +122,7 @@
 .prediction-why,
 .prediction-what,
 .prediction-action {
-  border-left: 3px solid #667eea;
+  border-left: 3px solid #00d4ff;
   padding-left: 1rem;
 }
 

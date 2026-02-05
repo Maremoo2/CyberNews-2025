@@ -39,7 +39,7 @@
 .snapshot-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  border-color: #667eea;
+  border-color: #00d4ff;
 }
 
 .card-icon {

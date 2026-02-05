@@ -65,7 +65,7 @@
 }
 
 .badge-item.unique {
-  color: #667eea;
+  color: #00d4ff;
 }
 
 .badge-item.articles {
@@ -103,7 +103,7 @@
 }
 
 .year-toggle button.active {
-  background: #667eea;
+  background: #00d4ff;
   color: white;
 }
 
@@ -121,14 +121,14 @@
 }
 
 .ciso-toggle:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #00d4ff;
+  color: #00d4ff;
 }
 
 .ciso-toggle.active {
-  background: #667eea;
+  background: #00d4ff;
   color: white;
-  border-color: #667eea;
+  border-color: #00d4ff;
 }
 
 .nav-center {
@@ -155,8 +155,8 @@
 }
 
 .nav-dropdown-trigger:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #00d4ff;
+  color: #00d4ff;
 }
 
 .section-dropdown {
@@ -196,12 +196,12 @@
 
 .section-dropdown button:hover {
   background: #f7fafc;
-  color: #667eea;
+  color: #00d4ff;
 }
 
 .section-dropdown button.active {
   background: #f0f4ff;
-  color: #667eea;
+  color: #00d4ff;
   font-weight: 600;
 }
 

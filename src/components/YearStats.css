@@ -1,6 +1,6 @@
 .year-stats-container {
   padding: 1.5rem 1rem;
-  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  background: linear-gradient(135deg, #00d4ff15 0%, #0066cc15 100%);
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -37,7 +37,7 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -45,7 +45,7 @@
 .stat-text {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
