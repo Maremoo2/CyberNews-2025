@@ -1,5 +1,320 @@
 [
   {
+    "id": "20265625",
+    "date": "2026-02-04",
+    "title": "OpenClaw&#8217;s AI &#8216;skill&#8217; extensions are a security nightmare",
+    "summary": "OpenClaw, the AI agent that has exploded in popularity over the past week, is raising new security concerns after researchers uncovered malware in hundreds of user-submitted \"skill\" add-ons on its marketplace. In a post on Monday, 1Password product VP Jason Meller says OpenClaw's skill hub has be...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/news/874011/openclaw-ai-skill-clawhub-extensions-security-nightmare",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265626",
+    "date": "2026-02-04",
+    "title": "Google Cloud’s customer chief returns to Microsoft as head of security",
+    "summary": "Microsoft has a new head of security. Hayete Gallot, who left Microsoft in October 2024 to become the president of Google Cloud's customer experience, is returning to the software giant as the executive vice president of security, reporting directly to CEO Satya Nadella. The move means Charlie Be...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/news/873930/google-cloud-hayete-gallot-microsoft-security",
+    "tags": [
+      "cloud",
+      "microsoft",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265627",
+    "date": "2026-02-04",
+    "title": "CISA Silently Updates Vulnerabilities Exploited by Ransomware Groups",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has been “silently” updating its Known Exploited Vulnerabilities (KEV) catalog when it concludes that vulnerabilities have been exploited by ransomware groups, according to a security researcher. CISA adds a “known” or “unknown” fie...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/vulnerabilities-exploited-by-ransomware-groups/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265628",
+    "date": "2026-02-04",
+    "title": "Ransomware Attacks Have Soared 30% in Recent Months",
+    "summary": "Ransomware attacks have soared 30% since late last year, and they’ve continued that trend so far in 2026, with many of the attacks affecting software and manufacturing supply chains. Those are some of the takeaways of new research published by Cyble today, which also looked at the top ransomware ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ransomware-attacks-soar-30-percent/",
+    "tags": [
+      "ransomware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265629",
+    "date": "2026-02-04",
+    "title": "Cryptography expert dissects the WhatsApp encryption controversy",
+    "summary": "The debate over WhatsApp’s long-standing claims of end-to-end encryption has reignited following a viral lawsuit accusing Meta of secretly accessing user messages. While the case lacks technical evidence, it has amplified public distrust and prompted a detailed rebuttal from respected cryptograph...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/cryptography-expert-dissects-the-whatsapp-encryption-controversy/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "encryption",
+      "aws",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265630",
+    "date": "2026-02-04",
+    "title": "Apple embraces agentic AI coding in macOS with Xcode 26.3",
+    "summary": "Apple has released Xcode 26.3 with native support for “agentic coding,” enabling developers to work alongside powerful AI coding agents, including Anthropic’s Claude Agent and OpenAI’s Codex, directly within the macOS development environment. This update marks a significant shift in Apple’s tooli...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/apple-embraces-agentic-ai-coding-in-macos-with-xcode-26-3/",
+    "tags": [
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265631",
+    "date": "2026-02-04",
+    "title": "OpenClaw or Open Door? Prompt Injection Creates AI Backdoors",
+    "summary": "OpenClaw has come under review after researchers at Zenity showed how it could be misused to establish persistent access. Rather than exploiting a software vulnerability, the technique relies on indirect prompt injection to influence the agent’s behavior and maintain ongoing control with minimal ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/openclaw-or-open-door-prompt-injection-creates-ai-backdoors/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 1
+  },
+  {
+    "id": "20265632",
+    "date": "2026-02-04",
+    "title": "Ingress-Nginx Vulnerability Enables Code Execution in Kubernetes",
+    "summary": "A recently disclosed vulnerability in ingress-nginx may allow authenticated attackers to execute code and access Kubernetes Secrets in affected clusters. The vulnerability could “… lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessibl...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/ingress-nginx-vulnerability-enables-code-execution-in-kubernetes/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265633",
+    "date": "2026-02-04",
+    "title": "Chrome Vulnerabilities Allow Code Execution and Browser Crashes ",
+    "summary": "Google has released a Chrome security update addressing two high-severity vulnerabilities that could allow attackers to execute arbitrary code or cause browser crashes. The issues affect core browser components and may be triggered when users visit specially crafted websites. One of the vulnerabi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/chrome-vulnerabilities-allow-code-execution-and-browser-crashes/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265634",
+    "date": "2026-02-04",
+    "title": "Tips to Prevent Personal Data Breaches on Your Website",
+    "summary": "In this post, I will talk about the tips to prevent personal data breaches on your website. Websites have become one of the easier places for attackers to steal personal data. More and more data is being processed in the browser. Beyond email addresses and phone numbers many site visitors will su...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/tips-to-prevent-personal-data-breaches-on-your-website/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265635",
+    "date": "2026-02-04",
+    "title": "News alert: MomentProof brings cryptographic proof to insurance claims as AI manipulation rises",
+    "summary": "WASHINGTON, Feb. 4, 2026, CyberNewswire — MomentProofShow us, Inc., a provider of AI-resilient digital asset certification and verification technology, today announced the successful deployment of MomentProof Enterprise for AXA, enabling cryptographically authentic, tamper-proof digital assets fo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-momentproof-brings-cryptographic-proof-to-insurance-claims-as-ai-manipulation-rises/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265636",
+    "date": "2026-02-04",
+    "title": "News alert: One Identity brings in new CTO to modernize legacy platforms for SaaS-first customers",
+    "summary": "ALISA VIEJO, Calif., Feb. 4, 2026, CyberNewswire — One Identity, a leader in unified identity security, today announced the appointment of Gihan Munasinghe as Chief Technology Officer. Munasinghe brings more than 15 years of experience leading global engineering organizations and delivering large...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-one-identity-brings-in-new-cto-to-modernize-legacy-platforms-for-saas-first-customers/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265637",
+    "date": "2026-02-04",
+    "title": "AWS ECR Scanning: The Practical Guide to Securing Your Containers",
+    "summary": "If you operate containers on AWS you’re likely familiar with how vulnerabilities can accumulate. The majority of container images currently include least one critical security flaw. Frequently hidden within a base image or an overlooked dependency. This makes enhancing your AWS container security...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/cloud-security/aws-ecr-scanning-securing-your-containers/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265638",
+    "date": "2026-02-04",
+    "title": "Threat actors hijack web traffic after exploiting React2Shell vulnerability: Report",
+    "summary": "Threat actors exploiting the React2Shell vulnerability in components of React servers are using their access to compromise web domains and divert web traffic for malicious purposes. That’s the conclusion of researchers at Datadog Security Labs, who said in a blog Wednesday that the primary target...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127554/threat-actors-hijack-web-traffic-after-exploiting-react2shell-vulnerability-report.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265639",
+    "date": "2026-02-04",
+    "title": "Ransomware Gang Goes Full 'Godfather' With Cartel",
+    "summary": "Since its launch in 2023, DragonForce has pushed a cartel model, emphasizing cooperation and coordination among ransomware gangs.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/ransomware-gang-full-godfather-cartel",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265640",
+    "date": "2026-02-04",
+    "title": "CISA Makes Unpublicized Ransomware Updates to KEV Catalog",
+    "summary": "A third of the \"flipped\" CVEs affected network edge devices, leading one researcher to conclude, \"Ransomware operators are building playbooks around your perimeter.\"",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265641",
+    "date": "2026-02-04",
+    "title": "Attackers Use Windows Screensavers to Drop Malware, RMM Tools",
+    "summary": "By tapping the unusual .scr file type, attackers leverage \"executables that don't always receive executable-level controls,\" one researcher noted.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265642",
+    "date": "2026-02-04",
+    "title": "Mission Accomplished — A Post in Every Security Section",
+    "summary": "Mission Accomplished — A Post in Every Security Section(Except the get the code section coming later)Mission accomplished. I have a post in every section on the new blog. Except the last one where I’m going to hopefully publish actual code — that’s coming later for various reasons. One of the coo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "2nd Sight Lab",
+    "sourceUrl": "https://2ndsightlab.medium.com/mission-accomplished-a-post-in-every-security-section-191e55409653?source=rss-863161906cc5------2",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265643",
+    "date": "2026-02-04",
+    "title": "Hackers compromise NGINX servers to redirect user traffic",
+    "summary": "A threat actor is compromising NGINX servers in a campaign that hijacks user traffic and reroutes it through the attacker's backend infrastructure. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265644",
+    "date": "2026-02-04",
+    "title": "Critical n8n flaws disclosed along with public exploits",
+    "summary": "Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265645",
+    "date": "2026-02-04",
+    "title": "A softer touch on cyber.",
+    "summary": "The White House preps a major overhaul of U.S. cybersecurity policy. A key Commerce security office loses staff as regulatory guardrails weaken. Lawmakers Press AT&T and Verizon after months of silence on Salt Typhoon. A vulnerability in the React Native Metro development server is under active e...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2482/notes",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20265598",
     "date": "2026-02-04",
     "title": "Exclusive: US used cyber weapons to disrupt Iranian air defenses during 2025 strikes",
