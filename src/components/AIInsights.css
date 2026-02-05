@@ -546,8 +546,25 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   }
 
+  /* Fix text colors for dark backgrounds */
+  .section-header h2,
+  .section-date,
+  .cluster-header h4,
+  .cluster-summary,
+  .top-thing-header h4,
+  .top-thing-summary,
+  .pattern-text,
+  .risk-header h4,
+  .sector-tag,
+  .signal-metric,
+  .signal-action .text,
+  .why-matters {
+    color: #e0e0e0 !important;
+  }
+
   .digest-summary {
     background: rgba(33, 150, 243, 0.1);
+    color: #e0e0e0;
   }
 
   .cluster-card.novel {
@@ -562,6 +579,7 @@
   .sector-tag {
     background: #2a2a2a;
     border-color: #444;
+    color: #e0e0e0;
   }
 
   .why-matters {

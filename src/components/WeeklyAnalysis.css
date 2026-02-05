@@ -398,8 +398,20 @@
     color: #ffb74d;
   }
 
+  /* Fix text colors for dark backgrounds */
+  .analysis-header h2,
+  .analysis-section h3,
+  .section-description,
+  .claim,
+  .content-section p,
+  .content-section li,
+  .analysis-footer h4 {
+    color: #e0e0e0 !important;
+  }
+
   .metadata-item {
     background: #2a2a2a;
+    color: #e0e0e0;
   }
 
   .analysis-footer {
@@ -409,6 +421,7 @@
   .input-tag {
     background: #1e1e1e;
     border-color: #333;
+    color: #e0e0e0;
   }
 
   .threshold-section {
