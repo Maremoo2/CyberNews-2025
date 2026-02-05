@@ -68,26 +68,35 @@ jobs:
           # Fetch latest from remote to ensure we check against the actual remote state
           git fetch origin main || echo "DEBUG: Could not fetch origin/main (may not exist yet)"
           
-          # Check if this week's files already exist on the REMOTE main branch
-          # Use git ls-tree to check remote branch, with fallback for when remote doesn't exist
-          if git rev-parse origin/main >/dev/null 2>&1; then
-            AGGREGATE_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/aggregates/week_${WEEK}.json" | wc -l)
-            ANALYSIS_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/analysis/week_${WEEK}.json" | wc -l)
-            BRIEF_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/briefs/week_${WEEK}.json" | wc -l)
-            echo "DEBUG: Remote branch exists. Aggregate=$AGGREGATE_EXISTS, Analysis=$ANALYSIS_EXISTS, Brief=$BRIEF_EXISTS"
-          else
-            # Remote main doesn't exist yet (first run), so nothing is processed
+          # Manual runs (workflow_dispatch) should always process and commit
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "DEBUG: Manual run detected - forcing processing and commit"
+            # Skip the existence checks entirely for manual runs
             AGGREGATE_EXISTS=0
             ANALYSIS_EXISTS=0
             BRIEF_EXISTS=0
-            echo "DEBUG: Remote main branch does not exist yet (first run)"
-          fi
-          
-          # Only skip if ALL files exist on remote AND all steps succeeded
-          if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ] && [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ "$BRIEF_EXISTS" -gt 0 ]; then
-            echo "Week $WEEK already fully processed on remote - skipping commit"
-            echo "changed=false" >> $GITHUB_OUTPUT
-            exit 0
+          else
+            # Check if this week's files already exist on the REMOTE main branch
+            # Use git ls-tree to check remote branch, with fallback for when remote doesn't exist
+            if git rev-parse origin/main >/dev/null 2>&1; then
+              AGGREGATE_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/aggregates/week_${WEEK}.json" | wc -l)
+              ANALYSIS_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/analysis/week_${WEEK}.json" | wc -l)
+              BRIEF_EXISTS=$(git ls-tree -r origin/main --name-only | grep "public/data/briefs/week_${WEEK}.json" | wc -l)
+              echo "DEBUG: Remote branch exists. Aggregate=$AGGREGATE_EXISTS, Analysis=$ANALYSIS_EXISTS, Brief=$BRIEF_EXISTS"
+            else
+              # Remote main doesn't exist yet (first run), so nothing is processed
+              AGGREGATE_EXISTS=0
+              ANALYSIS_EXISTS=0
+              BRIEF_EXISTS=0
+              echo "DEBUG: Remote main branch does not exist yet (first run)"
+            fi
+            
+            # Only skip if ALL files exist on remote AND all steps succeeded
+            if [ "$AGGREGATE_EXISTS" -gt 0 ] && [ "${{ steps.ai-analysis.outcome }}" == "success" ] && [ "$ANALYSIS_EXISTS" -gt 0 ] && [ "${{ steps.exec-brief.outcome }}" == "success" ] && [ "$BRIEF_EXISTS" -gt 0 ]; then
+              echo "Week $WEEK already fully processed on remote - skipping commit"
+              echo "changed=false" >> $GITHUB_OUTPUT
+              exit 0
+            fi
           fi
           
           echo "DEBUG: Week $WEEK needs processing (at least one file missing or step failed)"
