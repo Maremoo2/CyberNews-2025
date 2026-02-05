@@ -1,5 +1,336 @@
 [
   {
+    "id": "20265744",
+    "date": "2026-02-05",
+    "title": "SystemBC Infects 10,000 Devices After Defying Law Enforcement Takedown",
+    "summary": "The malware is known for dropping ransomware and other payloads, and for abusing infected machines to proxy traffic. The post SystemBC Infects 10,000 Devices After Defying Law Enforcement Takedown appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/systembc-infects-10000-devices-after-defying-law-enforcement-takedown/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265745",
+    "date": "2026-02-05",
+    "title": "Attackers exploit decade‑old Windows driver flaw to shut down modern EDR defenses",
+    "summary": "In a recent incident, attackers abused a legitimate but vulnerable Windows kernel driver to shut down endpoint security tools during an ongoing incident response. According to a Huntress report, the activity was observed during a customer investigation in early 2026 and involved the use of an old...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4127968/attackers-exploit-decade%E2%80%91old-windows-driver-flaw-to-shut-down-modern-edr-defenses.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265746",
+    "date": "2026-02-05",
+    "title": "The Buyer’s Guide to AI Usage Control",
+    "summary": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy contro...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265747",
+    "date": "2026-02-05",
+    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+    "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of the mo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265748",
+    "date": "2026-02-05",
+    "title": "Critical N8n Sandbox Escape Could Lead to Server Compromise",
+    "summary": "The vulnerability could allow attackers to execute arbitrary commands and steal credentials and other secrets. The post Critical N8n Sandbox Escape Could Lead to Server Compromise appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/critical-n8n-sandbox-escape-could-lead-to-server-compromise/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265749",
+    "date": "2026-02-05",
+    "title": "Cyberspy Group Hacked Governments and Critical Infrastructure in 37 Countries",
+    "summary": "Palo Alto Networks has not attributed the APT activity to any specific country, but evidence points to China. The post Cyberspy Group Hacked Governments and Critical Infrastructure in 37 Countries appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cyberspy-group-hacked-governments-and-critical-infrastructure-in-37-countries/",
+    "tags": [
+      "apt",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265750",
+    "date": "2026-02-05",
+    "title": "Why boards should be obsessed with their most ‘boring’ systems",
+    "summary": "Following a series of high-profile cyberattacks, boards of directors are now requiring their organizations to take greater responsibility for the risks posed by enterprise resource planning (ERP) systems pose after a series of high-profile cyberattacks. The Jaguar Land Rover (JLR), incident in Se...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/boardroom-erp-cybersecurity-sap-ransomware-resilience-op-ed/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265751",
+    "date": "2026-02-05",
+    "title": "[Ekstra] 44 kommuner har valgt journal – nå ryker skanneren og papiret",
+    "summary": "Gigantinnkjøp gir 20.000 ansatte skybasert verktøy. Flere store leverandører gikk tapende ut av konkurransen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/44-kommuner-har-valgt-journal-na-ryker-skanneren-og-papiret/567613",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265752",
+    "date": "2026-02-05",
+    "title": "Cisco, F5 Patch High-Severity Vulnerabilities",
+    "summary": "The security defects can lead to DoS conditions, arbitrary command execution, and privilege escalation. The post Cisco, F5 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cisco-f5-patch-high-severity-vulnerabilities/",
+    "tags": [
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265753",
+    "date": "2026-02-05",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c9175cf6e37d0fb • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265754",
+    "date": "2026-02-05",
+    "title": "Broken Phishing URLs, (Thu, Feb 5th)",
+    "summary": "For a few days, many phishing emails that landed into my mailbox contain strange URLs. They are classic emails asking you to open a document, verify your pending emails, … But the format of the URLs is broken! In a URL, parameters are extra pieces of information added after a question mark (?) to...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32686",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265755",
+    "date": "2026-02-05",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "A critical security breach has been identified in the update infrastructure of Notepad++, a widely used text editor for Windows. The breach, attributed to suspected Chinese state hackers. A recent phishing scam has been identified, exploiting a legitimate Microsoft email address to deliver scam e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=ARS%20Technica",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "phishing",
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265756",
+    "date": "2026-02-05",
+    "title": "Notepad++ users take note: It's time to check if you're hacked",
+    "summary": "According to independent researcher Kevin Beaumont, three organizations told him that devices inside their networks that had Notepad++ installed experienced “security incidents” that “resulted in hands on keyboard threat actors,” meaning the hackers were able to take direct control using a web-ba...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265757",
+    "date": "2026-02-05",
+    "title": "Major vulnerabilities found in Google Looker, putting self-hosted deployments at risk",
+    "summary": "Researchers at Tenable have disclosed two vulnerabilities, collectively referred to as “LookOut,” affecting Google Looker. Because the business intelligence platform is deployed by more than 60,000 organizations in 195 countries, the flaws could give attackers a path to system takeover or access ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/04/google-looker-vulnerabilities-cve-2025-12743/?&web_view=true",
+    "tags": [
+      "vulnerability",
+      "google",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265758",
+    "date": "2026-02-05",
+    "title": "Exposed AWS Credentials Lead to AI-Assisted Cloud Breach in 8 Minutes",
+    "summary": "On 28 November 2025, experts from the Sysdig Threat Research Team (TRT) watched an attacker take over a company’s cloud environment in record time. While we usually think of cyber attacks as slow, systematic processes, this person managed to gain total control in just eight minutes. It all starte...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/8-minute-takeover-ai-hijack-cloud-access/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265759",
+    "date": "2026-02-05",
+    "title": "[Ekstra] Norsk sjøfiberkjempe går i land",
+    "summary": "Tampnet skal bygge ut bredbånd til raffinerier, lagre og havneanlegg.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/norsk-sjofiberkjempe-gar-i-land/567841",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265760",
+    "date": "2026-02-05",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c9069064f74d0f7 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265761",
+    "date": "2026-02-05",
+    "title": "How cybersecurity can successfully navigate geopolitics | World Economic Forum",
+    "summary": "Cybersecurity is now central to international relations, business continuity and public trust. It can be developed to help secure a resilient ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/02/cybersecurity-and-geopolitics-the-challenges-to-build-resilience-in-a-fragmented-world/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265762",
+    "date": "2026-02-05",
+    "title": "Breaking the Exploitation Cycle: Defending AI at the Root - Cybersecurity Insiders",
+    "summary": "Every industry faces its own AI security challenges, shaped by the type of data it handles and the threats it attracts. Understanding these ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/breaking-the-exploitation-cycle-defending-ai-at-the-root/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265763",
+    "date": "2026-02-05",
+    "title": "Mastercard collaborates with Cyber Security Council to safeguard UAE's digital ecosystem",
+    "summary": "Through this collaboration, both entities will work together to advance cybersecurity resilience by sharing global best practices and supporting the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/february/mastercard-collaborates-with-cyber-security-council-to-safeguard-uae-s-digital-ecosystem/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265764",
+    "date": "2026-02-05",
+    "title": "Six trends that will reshape cybersecurity in 2026: Gartner - ARNnet",
+    "summary": "... cybersecurity trends for 2026, according to Gartner. With the structural break in business as usual, cyber security leaders will need to rethink ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.arnnet.com.au/article/4127681/six-trends-that-will-reshape-cyber-security-in-2026-gartner.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265765",
+    "date": "2026-02-05",
+    "title": "Introducing the Developer Knowledge API and MCP Server",
+    "summary": "Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the offi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265706",
     "date": "2026-02-05",
     "title": "Healthcare Cybersecurity Is in Crisis — These Proven Controls Could Be the Cure",
