@@ -1,5 +1,620 @@
 [
   {
+    "id": "20265646",
+    "date": "2026-02-04",
+    "title": "Taiwanese national sentenced to 30 years for running darknet Incognito Market",
+    "summary": "A Taiwanese national was sentenced to 30 years in U.S. prison for his role as an administrator of Incognito Market, a popular dark web platform that facilitated more than $100 million of drug sales.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/incognito-market-sentenced-thirty",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265647",
+    "date": "2026-02-04",
+    "title": "Microsofts patchetirsdag januar",
+    "summary": "NSM har ingen bemerkninger til Microsofts sikkerhetsoppdateringer for januar 2026.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://nsm.no/fagomrader/digital-sikkerhet/nasjonalt-cybersikkerhetssenter/varsler-fra-nsm/microsofts-patchetirsdag-januar",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265648",
+    "date": "2026-02-04",
+    "title": "What Security Teams Need to Know About OpenClaw, the AI Super Agent",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265649",
+    "date": "2026-02-04",
+    "title": "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models",
+    "summary": "Microsoft on Wednesday said it built a lightweight scanner that it said can detect backdoors in open-weight large language models (LLMs) and improve the overall trust in artificial intelligence (AI) systems. The tech giant's AI Security team said the scanner leverages three observable signals tha...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265650",
+    "date": "2026-02-04",
+    "title": "DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files",
+    "summary": "Threat hunters have disclosed details of a new, stealthy malware campaign dubbed DEAD#VAX that employs a mix of \"disciplined tradecraft and clever abuse of legitimate system features\" to bypass traditional detection mechanisms and deploy a remote access trojan (RAT) known as AsyncRAT. \"The attack...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265651",
+    "date": "2026-02-04",
+    "title": "AWS Batch now supports unmanaged compute environments for Amazon EKS",
+    "summary": "AWS Batch now extends its job scheduling capabilities to unmanaged compute environments on Amazon EKS. With unmanaged EKS compute environments, you can leverage AWS Batch's job orchestration while maintaining full control over your Kubernetes infrastructure for security, compliance, or operationa...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265652",
+    "date": "2026-02-04",
+    "title": "Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker JumpStart",
+    "summary": "Cartesia’s Sonic 3 model is now available in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. Sonic 3 is Cartesia's latest state space model (SSM) for streaming text-to-speech (TTS), delivering high naturalness, accurate transcript following, an...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265653",
+    "date": "2026-02-04",
+    "title": "Amazon EC2 G7e instances now available in US West (Oregon) region",
+    "summary": "Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in US West (Oregon) region. G7e instances offer up to 2.3x inference performance compared to G6e. Customers can use G7e instances to deploy large language models (LLMs), age...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265654",
+    "date": "2026-02-04",
+    "title": "Structured outputs now available in Amazon Bedrock",
+    "summary": "Amazon Bedrock now supports structured outputs, a capability that provides consistent, machine-readable responses from foundation models that adhere to your defined JSON schemas. Instead of prompting for valid JSON and adding extra checks in your application, you can specify the format you want a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265655",
+    "date": "2026-02-04",
+    "title": "Apache Spark lineage now available in Amazon SageMaker Unified Studio for IDC based domains",
+    "summary": "Amazon SageMaker announces general availability of Data Lineage for Apache Spark jobs executed on Amazon EMR and AWS Glue in SageMaker Unified Studio for IDC based domains. Data Lineage provides you with the information you need to identify the root cause of complex issues and understand the impa...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265656",
+    "date": "2026-02-04",
+    "title": "Amazon ECS adds Network Load Balancer support for Linear and Canary deployments",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) announces native support for linear and canary deployment strategies for ECS services using Network Load Balancers (NLB). Now, applications that commonly use NLB, such as those requiring TCP/UDP-based connections, low latency, long-lived connections, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265657",
+    "date": "2026-02-04",
+    "title": "Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud (US) Regions",
+    "summary": "Amazon Elastic Kubernetes Service (EKS) now offers a direct integration between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, streamlining the lifecycle management process for critical cluster operational software that needs to interact with AWS services outside the cluster. EKS ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265658",
+    "date": "2026-02-04",
+    "title": "Amazon EC2 and VPC now display related resources for security groups",
+    "summary": "Amazon Web Services (AWS) is announcing the general availability of the \"Related resources\" tab for security groups in the Amazon EC2 and VPC consoles. This new feature provides customers with a consolidated view of all resources that depend on a specific security group, eliminating the need to m...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265659",
+    "date": "2026-02-04",
+    "title": "Introducing Amazon EC2 C8id, M8id, and R8id instances",
+    "summary": "AWS is announcing the general availability of new Amazon EC2 C8id, M8id, and R8id instances powered by custom Intel Xeon 6 processors. These instances deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation C6id, M6id, and R6id instances. C8id, M8id, an...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265660",
+    "date": "2026-02-04",
+    "title": "Amazon Redshift now supports autonomics for multi-cluster environments",
+    "summary": "Amazon Redshift now supports autonomics—automatic optimization features—for multi-cluster environments. Database administrators managing distributed Amazon Redshift workloads can now benefit from autonomics that work intelligently across multiple warehouses, eliminating manual performance tuning ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265661",
+    "date": "2026-02-04",
+    "title": "AWS Batch now provides Array Job Status Summary in ListJobs API",
+    "summary": "AWS Batch now includes a status summary for Array Jobs in the ListJobs API response, giving you immediate visibility into the distribution of child job statuses without additional API calls. This enhancement helps you monitor large-scale workloads more efficiently. When you call the ListJobs API ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-batch-array-job-status-summary/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265662",
+    "date": "2026-02-04",
+    "title": "Amazon RDS for MySQL now supports new minor versions 8.0.45 and 8.4.8",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for MySQL now supports MySQL minor versions 8.0.45 and 8.4.8, the latest minors released by the MySQL community. We recommend upgrading to the newer minor versions to fix known security vulnerabilities in prior versions of MySQL and to benefit from ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mysql-minor-versions/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265663",
+    "date": "2026-02-04",
+    "title": "Energy Subcommittee Advances Five Bills to Strengthen American Cybersecurity",
+    "summary": "“Today the Energy Subcommittee marked up five bills that will update and enhance programs to help ensure the physical and cyber security of our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://republicans-energycommerce.house.gov/posts/energy-subcommittee-advances-five-bills-to-strengthen-american-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265664",
+    "date": "2026-02-04",
+    "title": "Five updates on the Trump admin's cybersecurity agenda - Federal News Network",
+    "summary": "From a new national cyber strategy to highly anticipated actions around AI security, here are five things worth watching on the cyber policy ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/cybersecurity/2026/02/five-updates-on-the-trump-admins-cybersecurity-agenda/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265665",
+    "date": "2026-02-04",
+    "title": "HHS Audit Flags Web App Security Gaps at Large Hospital - BankInfoSecurity",
+    "summary": "Auditors examined whether the audited hospital had implemented cybersecurity controls to prevent and detect cyberattacks, ensure continuity of patient ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/hhs-audit-flags-web-app-security-gaps-at-large-hospital-a-30671",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265666",
+    "date": "2026-02-04",
+    "title": "Pennsylvania promotes four interim IT officials to permanent roles - StateScoop",
+    "summary": "Ritter previously served for nearly two years as deputy CISO after nearly six years as enterprise IT security risk manager, according to his LinkedIn ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statescoop.com/pennsylvania-promotes-four-interim-it-officials-to-permanent-roles/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265667",
+    "date": "2026-02-04",
+    "title": "Springbrook Software 2026 Cybersecurity Survey: Local Governments Abandoning Aging ...",
+    "summary": "With agencies now the top target for bad actors, the drive to the cloud is no longer just about efficiency—it is a security imperative. We built ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/springbrook-software-2026-cybersecurity-survey-local-governments-abandoning-aging-legacy-systems-for-cloud-security-at-record-pace-302678793.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265668",
+    "date": "2026-02-04",
+    "title": "Water utilities urge feds to provide more cybersecurity assistance - Bond Buyer",
+    "summary": "For reprint and licensing requests for this article, click here . Cyber security Infrastructure Water bonds Washington DC Politics and policy.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bondbuyer.com/news/water-utilities-urge-feds-to-provide-cybersecurity-assistance",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265669",
+    "date": "2026-02-04",
+    "title": "Darktrace highlights growing unease as AI agents operate with access to critical data and processes",
+    "summary": "As cyber threats accelerate and IT environments grow more complex, security teams are increasingly turning to AI as a critical weapon in the fight ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/darktrace-highlights-growing-unease-as-ai-agents-operate-with-access-to-critical-data-and-processes/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265670",
+    "date": "2026-02-04",
+    "title": "Saudi Arabia Cybersecurity Market to Reach US$ 10.5 Billion by 2032 on Digitalization and ...",
+    "summary": "Technological advancements, particularly in cloud security, AI-driven threat detection, and automated cybersecurity solutions, are fueling market ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/saudi-arabia-cybersecurity-market-reach-184300869.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265671",
+    "date": "2026-02-04",
+    "title": "Chairman Capito Asks Witnesses About Cybersecurity Challenges Facing US Water ...",
+    "summary": "During the hearing, Chairman Capito asked Dr. Scott Simonton, a Fellow at Marshall University's Institute for Cyber Security, about the use of circuit ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=320025C7-BA82-4712-AB11-0AC5451B1CBD",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265672",
+    "date": "2026-02-04",
+    "title": "China CAC Issues Guidance on CBDT Security Management - Hunton Andrews Kurth LLP",
+    "summary": "On January 30, 2026, the Cybersecurity Administration of China (“CAC”) released a Q&A document (the “Guidance”) on policies and regulations for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/china-cac-issues-guidance-on-cbdt-security-management",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265673",
+    "date": "2026-02-04",
+    "title": "Chairman Latta Delivers Opening Statement at Subcommittee on Energy Markup to ...",
+    "summary": "“Today the Energy Subcommittee will mark up five bills that will update and enhance programs to help ensure the physical and cyber security of our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://energycommerce.house.gov/posts/chairman-latta-delivers-opening-statement-at-subcommittee-on-energy-markup-to-strengthen-american-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265674",
+    "date": "2026-02-04",
+    "title": "NIST Recognizes a New Cyber Reality: Systems That Never Stand Still | Armis",
+    "summary": "From a cybersecurity perspective, this creates a unique risk profile, one that doesn't map cleanly to traditional IT security models. It also explains ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.armis.com/blog/nist-recognizes-a-new-cyber-reality-systems-that-never-stand-still/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265675",
+    "date": "2026-02-04",
+    "title": "Bellevue University Cybersecurity: Top Affordable Program",
+    "summary": "“Cybersecurity today is not just a technical discipline—it's a business, societal, and national security priority,” said Doug Rausch, Maenner Endowed ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.bellevue.edu/bellevue-university-cybersecurity-program-ranks-no-1-in-affordability-for-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265676",
+    "date": "2026-02-04",
+    "title": "Full article: The cybersecurity dilemma game: moving cybersecurity beyond solutionism",
+    "summary": "Repair and maintenance are crucial in the field of cybersecurity, where people responsible for security find themselves facing a seemingly endless ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2026.2622335",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265677",
+    "date": "2026-02-04",
+    "title": "Cyber Training for K-12 Teachers - NICCS - CISA",
+    "summary": "Are you a K-12 educator interested in incorporating cybersecurity ... Official website of the Cybersecurity and Infrastructure Security Agency.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://niccs.cisa.gov/news-events/featured-stories/cyber-training-k-12-teachers",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265678",
+    "date": "2026-02-04",
+    "title": "What cybersecurity pros need to know about OpenClaw and Moltbook | Security Intelligence",
+    "summary": "We also dig into a growing signal problem across cybersecurity: Why AI-generated “slop” is overwhelming bug bounty programs. Why NIST may stop ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ibm.com/think/podcasts/security-intelligence/cybersecurity-pros-openclaw-motlbook",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265679",
+    "date": "2026-02-04",
+    "title": "Microsoft brings back Hayete Gallot to run security, new role for Bell - CNBC",
+    "summary": "Microsoft cybersecurity head Charlie Bell will take on a new role around engineering quality. Hayete Gallot will rejoin Microsoft, replacing Bell, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cnbc.com/2026/02/04/microsoft-brings-back-hayete-gallot-to-run-security-new-role-for-bell.html",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265680",
+    "date": "2026-02-04",
+    "title": "HHS-OIG Identifies Web Application Security Weaknesses at Large U.S. Hospital",
+    "summary": "The aim of the audit was to assess whether the hospital had implemented adequate cybersecurity controls to prevent and detect cyberattacks, if ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hipaajournal.com/hhs-oig-web-application-security-weaknesses-audit-large-hospital/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265681",
+    "date": "2026-02-04",
+    "title": "Civil Aviation Cybersecurity: EASA Part-IS Sets New Information Security Obligations",
+    "summary": "Affected organizations should assess the maturity of their information security capabilities, align governance policies, review contracts with ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/civil-aviation-cybersecurity-easa-part-9342393/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265682",
+    "date": "2026-02-04",
+    "title": "WVUP, Washington State College of Ohio announce cybersecurity partnership",
+    "summary": "The agreement allows students to earn an Associate of Applied Science in Cyber Security at WSCO and then transfer to WVUP to complete a Bachelor of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newsandsentinel.com/news/business/2026/02/wvup-washington-state-college-of-ohio-announce-cybersecurity-partnership/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265683",
+    "date": "2026-02-04",
+    "title": "Whitehouse Highlights Urgent Cyber Threats to U.S. Water Systems - Minority News",
+    "summary": "The water sector has modestly improved information sharing and coordination between the EPA and the Cybersecurity and Infrastructure Security Agency, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.epw.senate.gov/public/index.cfm/press-releases-democratic?ID=A68F59DD-2354-41B9-8264-C3A2057DF0CB",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265684",
+    "date": "2026-02-04",
+    "title": "How Intelligence and AI Are Changing Cyber Defense | Erin Whitmore, Former CIA",
+    "summary": "... cybersecurity is blending human intuition, artificial intelligence, and offensive ... Follow CSO for more Business IT and Web Security News!",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=CHQmkoEn-tA",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265685",
+    "date": "2026-02-04",
+    "title": "They Got In Through SonicWall. Then They Tried to Kill Every Security Tool | Huntress",
+    "summary": "EDR killer. The binary is a 64-bit Windows executable that deploys a kernel driver to terminate security software processes. It masquerades as a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huntress.com/blog/encase-byovd-edr-killer",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265686",
+    "date": "2026-02-04",
+    "title": "Why Smart People Fall For Phishing Attacks",
+    "summary": "In 2025, the U.S. Cybersecurity and Infrastructure Security Agency ... Stay Secure: Why Cyber Hygiene Should Be Part of Your Personal Hygiene ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://unit42.paloaltonetworks.com/psychology-of-phishing/",
+    "tags": [
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265625",
     "date": "2026-02-04",
     "title": "OpenClaw&#8217;s AI &#8216;skill&#8217; extensions are a security nightmare",
