@@ -1,5 +1,450 @@
 [
   {
+    "id": "20265766",
+    "date": "2026-02-05",
+    "title": "How to Protect Organizations During the Winter Olympics, According to CISOs",
+    "summary": "CISOs analyze Winter Olympic threats such as phishing, fraud and more.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102115-how-to-protect-organizations-during-the-winter-olympics-according-to-cisos",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265767",
+    "date": "2026-02-05",
+    "title": "2 Chinese nationals suspected of spying from French Airbnb placed under investigation",
+    "summary": "Two Chinese nationals suspected of trying to intercept satellite communications from ‌a base in an Airbnb rental property in southwestern France have been placed ‍under formal investigation, the Paris public prosecutor’s office said on Thursday. Police were first alerted last week when locals not...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/world/europe/article/3342564/2-chinese-nationals-suspected-spying-french-airbnb-placed-under-investigation?utm_source=rss_feed",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265768",
+    "date": "2026-02-05",
+    "title": "Data breach at govtech giant Conduent balloons, affecting millions more Americans",
+    "summary": "The ransomware attack at Conduent allowed hackers to steal a \"significant number of individuals’ personal information\" from the govtech giant's systems. Conduent handles personal and health data of more than 100 million people across America.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/05/data-breach-at-govtech-giant-conduent-balloons-affecting-millions-more-americans/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265769",
+    "date": "2026-02-05",
+    "title": "\"Cibler les VPN, c’est comme empoisonner le puits de tout un village\" - Interview NymVPN",
+    "summary": "Alors que Londres et Paris envisagent de serrer la vis sur les VPN au nom de la protection des mineurs, pour NymVPN, le risque est d'amoindrir les libertés numériques de tous. Le service plaide pour des solutions de vérification d’âge respectueuses de la vie privée plutôt que pour une mise au ban...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599086-cibler-les-vpn-c-est-comme-empoisonner-le-puits-de-tout-un-village---interview-nymvpn.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265770",
+    "date": "2026-02-05",
+    "title": "Des cybercriminels exploitent un pilote obsolète toujours accepté par Windows pour neutraliser antivirus et EDR",
+    "summary": "Des attaquants ont détourné un vieux driver signé il y a près de vingt ans, toujours accepté par Windows malgré un certificat expiré et révoqué, pour killer les solutions de sécurité et préparer le terrain à une attaque de ransomware.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599152-des-cybercriminels-exploitent-un-pilote-obsolete-toujours-accepte-par-windows-pour-neutraliser-antivirus-et-edr.html",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265771",
+    "date": "2026-02-05",
+    "title": "Substack Discloses Breach Exposing its User Details After Four-Month Delay",
+    "summary": "Data accessed in October 2025 went undetected until February, affecting subscribers across the newsletter platform with no evidence of misuse yet identified. Substack disclosed a security breach that exposed user email addresses, phone numbers and internal metadata to unauthorized third parties, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/substack-discloses-breach/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265772",
+    "date": "2026-02-05",
+    "title": "Critical flaw in SolarWinds Web Help Desk under exploitation",
+    "summary": "The vulnerability could allow an attacker to achieve remote code execution.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-flaw-solarwinds-web-help-desk-exploitation/811487/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265773",
+    "date": "2026-02-05",
+    "title": "Asian government’s espionage campaign breached critical infrastructure in 37 countries",
+    "summary": "The victims included national telecommunications firms, finance ministries and police agencies, with most targets suggesting an economic focus, Palo Alto Networks said.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/asian-governments-espionage-campaign-breached-critical-infrastructure-in-3/811472/",
+    "tags": [
+      "data-breach",
+      "finance",
+      "government",
+      "critical-infrastructure",
+      "ai-ml",
+      "palo alto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265774",
+    "date": "2026-02-05",
+    "title": "Cloudflare mitigates record-breaking 31.4 Tbps DDoS attack in Q4 2025",
+    "summary": "Cloudflare successfully mitigated a new record-setting Distributed Denial-of-Service (DDoS) attack that peaked at 31.4 terabits per second (Tbps), the largest ever disclosed publicly. The staggering 31.4 Tbps attack was part of a broader surge of hyper-volumetric DDoS activity, most notably orche...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/cloudflare-mitigates-record-breaking-31-4-tbps-ddos-attack-in-q4-2025/",
+    "tags": [
+      "ddos",
+      "cloud",
+      "cloudflare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265775",
+    "date": "2026-02-05",
+    "title": "RenEngine campaign infected 400,000 users via cracked games",
+    "summary": "A dual-stage malware campaign leveraging a previously undiscovered loader, RenEngine, has infected over 400,000 systems globally, with more than 5,000 new infections daily. Active since at least April 2025, the operation uses cracked versions of popular AAA games as a vector for stealthy informat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/renengine-campaign-infected-400000-users-via-cracked-games/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265776",
+    "date": "2026-02-05",
+    "title": "RansomHouse leaks allegedly Apple-linked data from supplier Luxshare",
+    "summary": "RansomHouse has published what it claims is sensitive, proprietary information stolen from Luxshare Precision Industry Co. Ltd., a key supplier in Apple's global manufacturing chain. The data dump, released on the group’s leak site, includes engineering files, circuit board layouts, and confident...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/ransomhouse-leaks-allegedly-apple-linked-data-from-supplier-luxshare/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265777",
+    "date": "2026-02-05",
+    "title": "Substack suffers apparent data breach affecting nearly 700,000 users",
+    "summary": "Substack, the subscription-based publishing platform popular among independent writers and journalists, appears to have suffered a significant data breach, exposing the personal information of hundreds of thousands of users. While the company has not yet issued a public statement, leaked notifica...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/substack-suffers-apparent-data-breach-affecting-nearly-700000-users/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265778",
+    "date": "2026-02-05",
+    "title": "CISA confirms exploitation of VMware ESXi flaw by ransomware attackers",
+    "summary": "CVE-2025-22225, a VMware ESXi arbitrary write vulnerability, is being used in ransomware campaigns, CISA confirmed on Wednesday by updating the vulnerability’s entry in its Known Exploited Vulnerabilities (KEV) catalog. Researchers linked VMware ESXi zero-day trio to single exploit toolkit Broadc...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/cisa-cve-2025-22225-ransomware-exploitation/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265779",
+    "date": "2026-02-05",
+    "title": "OpenAI Frontier organizes AI agents under one system",
+    "summary": "OpenAI introduced Frontier, a platform designed to organize AI agents that perform business tasks within internal systems and workflows. The platform connects data from multiple internal systems including customer relationship management tools, ticketing platforms, and data warehouses. This integ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/openai-frontier-ai-agents/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265780",
+    "date": "2026-02-05",
+    "title": "OpenClaw and the Growing Security Risks of Agentic AI",
+    "summary": "OpenClaw, a fast-growing open-source AI agent, is drawing attention from security teams as its rapid adoption collides with emerging risks around autonomous AI behavior. Designed to act as a personal assistant that can connect to large language models (LLMs), call external APIs, and execute tasks...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/openclaw-and-the-growing-security-risks-of-agentic-ai/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265781",
+    "date": "2026-02-05",
+    "title": "n8n Flaw Puts Hundreds of Thousands of Enterprise AI Systems at Risk",
+    "summary": "A flaw in the n8n platform allowed any authenticated user to fully compromise the underlying server, exposing credentials, secrets, and AI-driven workflows across enterprise environments. The vulnerability carries a CVSS score of 10.0 and allows attackers to break out of n8n’s JavaScript sandbox ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/n8n-flaw-puts-hundreds-of-thousands-of-enterprise-ai-systems-at-risk/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265782",
+    "date": "2026-02-05",
+    "title": "Code Signing Certificate Validity Is Changing: Key Updates and Timelines",
+    "summary": "Starting in 2026, publicly trusted code signing certificates will no longer be valid for three years. The CA/Browser Forum approved an industry standard that cuts the maximum lifetime from roughly 39 months to about 460 days (around 15 months). Browsers and operating systems will only trust certi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cheap SSL Shop",
+    "sourceUrl": "https://www.cheapsslshop.com/blog/code-signing-certificate-validity-is-changing-to-460-days",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265783",
+    "date": "2026-02-05",
+    "title": "Banana Pro Crypto Trading Bot Expands to Ethereum, Bringing Fast ETH Execution to the Browser",
+    "summary": "In the latest development, I will show you why Ethereum trading is finally moving to the web – and what Banana Pro changes for ETH traders. Banana Gun has brought native Ethereum execution to Banana Pro, its web-based trading terminal, extending its execution-first infrastructure to the most liqu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/banana-pro-crypto-trading-bot-expands-to-ethereum/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265784",
+    "date": "2026-02-05",
+    "title": "How Threat Intelligence Helps Protect Financial Organizations from Business Risk",
+    "summary": "The financial sector resembles a treasure vault under constant siege. Banks, insurers, and fintech firms are not just custodians of money. They are guardians of irreplaceable personal and corporate data, payment flows, transactional integrity, and trust itself. When cybercriminals strike, the rip...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/cyber-threat-intelligence-for-finance/",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265785",
+    "date": "2026-02-05",
+    "title": "Facing the Quantum Threat: Cisco’s Strategic Approach to PQC",
+    "summary": "Quantum threats are closer than you think. Explore Cisco’s strategic approach to Post-Quantum Cryptography (PQC) and how to protect against HNDL risks now.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/facing-the-quantum-threat-ciscos-strategic-approach-to-pqc/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "encryption",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265787",
+    "date": "2026-02-05",
+    "title": "Cyber Success Trifecta: Education, Certifications &amp; Experience",
+    "summary": "Colonel Georgeo Xavier Pulikkathara, CISO at iMerit discusses the importance of fundamentals, continuous learning, and human ingenuity in the face of AI-driven cybersecurity evolution.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/the-trifecta-of-cyber-success-education-certifications-and-experience",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265788",
+    "date": "2026-02-05",
+    "title": "Malicious Commands in GitHub Codespaces Enable RCE",
+    "summary": "Flaws in GitHub Codespaces allow RCE via crafted repositories or pull requests",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malicious-commands-in-github/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265789",
+    "date": "2026-02-05",
+    "title": "Smartphones Now Involved in Nearly Every Police Investigation",
+    "summary": "Cellebrite data confirms digital evidence is now central to almost all cases",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/smartphones-involved-every-police/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265790",
+    "date": "2026-02-05",
+    "title": "Building Robust Incident Response Plans for Blockchain-Powered Systems",
+    "summary": "In 2024, the FBI received 149,686 crypto-fraud complaints, totaling $9.3 billion in losses. This is only the reported figure, and the true figure might be fairly higher. This means that the digital assets industry remains one of the most targeted sectors in cybercrime. From wallet compromises to ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/building-robust-incident-response-plans-for-blockchain-powered-systems",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265791",
+    "date": "2026-02-05",
+    "title": "Secure Ecommerce Software Development Services for Scalable Growth",
+    "summary": "Ecommerce rarely breaks in a single moment. It slows down in pieces. Pages load a little longer. Promotions start feeling risky to launch. Small updates touch far more systems than expected. From a cybersecurity perspective, these symptoms often signal more than performance strain. They indicate ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/secure-ecommerce-software-development-services-for-scalable-growth",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265792",
+    "date": "2026-02-05",
+    "title": "Microsoft to shut down Exchange Online EWS in April 2027",
+    "summary": "Microsoft announced today that the Exchange Web Services (EWS) API for Exchange Online will be shut down in April 2027, after nearly 20 years. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-exchange-web-services-in-cloud-in-2027/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265793",
+    "date": "2026-02-05",
+    "title": "Italian university La Sapienza goes offline after cyberattack",
+    "summary": "Rome's \"La Sapienza\" university has been targeted by a cyberattack that impacted its IT systems and caused widespread operational disruptions at the educational institute. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265794",
+    "date": "2026-02-05",
+    "title": "Romanian oil pipeline operator Conpet discloses cyberattack",
+    "summary": "Conpet, Romania's national oil pipeline operator, has disclosed that a cyberattack disrupted its business systems and took down the company's website on Tuesday. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/romanian-oil-pipeline-operator-conpet-discloses-cyberattack-qilin-ransomware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265795",
+    "date": "2026-02-05",
+    "title": "When cloud logs fall short, the network tells the truth ",
+    "summary": "Cloud logs can be inconsistent or incomplete, creating blind spots as environments scale and change. Corelight shows how network-level telemetry provides reliable visibility when cloud logs fall short. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/when-cloud-logs-fall-short-the-network-tells-the-truth/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265796",
+    "date": "2026-02-05",
+    "title": "Newsletter platform Substack notifies users of data breach",
+    "summary": "Newsletter platform Substack is notifying users of a data breach after attackers stole their email addresses and phone numbers in October 2025. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/newsletter-platform-substack-notifies-users-of-data-breach/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265744",
     "date": "2026-02-05",
     "title": "SystemBC Infects 10,000 Devices After Defying Law Enforcement Takedown",
@@ -1129,6 +1574,21 @@
     "sourceUrl": "https://www.csoonline.com/article/4127733/1-5-million-ai-agents-are-at-risk-of-going-rogue.html",
     "tags": [
       "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265786",
+    "date": "2026-02-04",
+    "title": "Threat actors hijack web traffic after exploiting React2Shell vulnerability",
+    "summary": "Threat actors exploiting the React2Shell vulnerability in components of React servers are using their access to compromise web domains and divert web traffic for malicious purposes. That’s the conclusion of researchers at Datadog Security Labs, who said in a blog Wednesday that the primary target...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127554/threat-actors-hijack-web-traffic-after-exploiting-react2shell-vulnerability.html",
+    "tags": [
+      "vulnerability",
       "ai-ml"
     ],
     "impact": 3
