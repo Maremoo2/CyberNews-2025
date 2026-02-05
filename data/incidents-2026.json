@@ -1,5 +1,122 @@
 [
   {
+    "id": "20265687",
+    "date": "2026-02-05",
+    "title": "Smashing Security podcast #453: The Epstein Files didn’t hide this hacker very well",
+    "summary": "Supposedly redacted Jeffrey Epstein files can still reveal exactly who they’re talking about - especially when AI, LinkedIn, and a few biographical breadcrumbs do the heavy lifting. Sloppy redaction leads to explosive claims, and difficult reputational consequences for cybersecurity vendors, and ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/smashing-security-podcast-453/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265688",
+    "date": "2026-02-05",
+    "title": "CyberGhost célèbre la Saint Valentin avec cette nouvelle offre (4 mois offerts)",
+    "summary": "Un café, une gare, un hôtel… se connecter à un Wi-Fi public est devenu un geste banal. Pourtant, ce réflexe anodin expose souvent plus de données qu’on ne l’imagine. Avec CyberGhost VPN à 2,03 €/mois, cette protection devient plus facile à adopter au quotidien.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598957-se-connecter-partout-sans-y-penser-cette-offre-cyberghost-rend-le-vpn-plus-simple.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265689",
+    "date": "2026-02-05",
+    "title": "AI is driving a new kind of phishing at scale",
+    "summary": "Email remains a primary entry point for attackers, and security teams continue to manage high volumes of malicious messages that change form across campaigns. Attackers generate large numbers of messages with small variations in wording, structure, and delivery paths. AI systems now sit at the ce...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/ai-driven-phishing-threats-increase/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265690",
+    "date": "2026-02-05",
+    "title": "Cybersecurity planning keeps moving toward whole-of-society models",
+    "summary": "National governments already run cybersecurity through a mix of ministries, regulators, law enforcement, and private operators that own most critical systems. In that environment, guidance circulating among policymakers outlines how national cybersecurity strategies increasingly tie together risk...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/cybersecurity-planning-national-cybersecurity-strategy/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265691",
+    "date": "2026-02-05",
+    "title": "Measuring AI use becomes a business requirement",
+    "summary": "Enterprise teams already run dozens of AI tools across daily work. Usage stretches from code generation and analytics to customer support drafting and internal research. Oversight remains uneven across roles, functions, and industries. A new Larridin survey of enterprise leaders places measuremen...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/measuring-ai-use-becomes-a-business-requirement/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265692",
+    "date": "2026-02-05",
+    "title": "Data Sovereignty: Why Organizations Need Control of Their Data Now More Than Ever",
+    "summary": "Recent reports have highlighted a concerning trend: Federal agencies are increasingly using administrative subpoenas to seek identifiable information about individuals who run anonymous social media accounts or who have criticized government policies. While the specific political context varies a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/privacy/data-sovereignty-subpoena",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265693",
+    "date": "2026-02-05",
+    "title": "Are You a Data Fiduciary or a Significant Data Fiduciary? Here’s How to Classify Yourself ",
+    "summary": "The Digital Personal Data Protection (DPDP) Act, 2023 in India has been a pivot in the privacy debate moving it... The post Are You a Data Fiduciary or a Significant Data Fiduciary? Here’s How to Classify Yourself appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/are-you-a-data-fiduciary-or-a-significant-data-fiduciary/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20265694",
+    "date": "2026-02-05",
+    "title": "1.5 million AI agents are at risk of going rogue",
+    "summary": "A study released Wednesday by API management platform vendor Gravitee indicates that upwards of half of the three million agents currently in use by organizations in the US and UK “are ungoverned and at the risk of going rogue.” Based on a December 2025 survey of 750 IT executives and practitione...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127733/1-5-million-ai-agents-are-at-risk-of-going-rogue.html",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265646",
     "date": "2026-02-04",
     "title": "Taiwanese national sentenced to 30 years for running darknet Incognito Market",
