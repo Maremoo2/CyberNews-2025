@@ -1,7 +1,7 @@
 .strategic-themes-section {
   margin: 2rem 0;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
   border-radius: 12px;
   color: white;
 }
@@ -57,7 +57,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #00d4ff, #0066cc);
 }
 
 .theme-card:hover {
@@ -75,7 +75,7 @@
 .theme-rank {
   font-size: 2rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
   min-width: 50px;
 }
 
@@ -112,7 +112,7 @@
 .stat-value {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00d4ff;
 }
 
 .stat-label {

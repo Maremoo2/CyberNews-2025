@@ -27,7 +27,7 @@
 .methodology-toggle {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
-  background: #667eea;
+  background: #00d4ff;
   color: white;
   border: none;
   border-radius: 8px;
@@ -39,7 +39,7 @@
 }
 
 .methodology-toggle:hover {
-  background: #5568d3;
+  background: #00b8e6;
   transform: translateY(-2px);
 }
 

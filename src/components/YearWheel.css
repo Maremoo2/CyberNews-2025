@@ -41,7 +41,7 @@
 
 .month-segment:hover {
   filter: brightness(0.95);
-  stroke: #667eea;
+  stroke: #00d4ff;
   stroke-width: 2;
 }
 
@@ -66,7 +66,7 @@
 .center-text-year {
   font-size: 24px;
   font-weight: 700;
-  fill: #667eea;
+  fill: #00d4ff;
   pointer-events: none;
 }
 
@@ -81,8 +81,8 @@
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   background: white;
-  border: 2px solid #667eea;
-  color: #667eea;
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -91,7 +91,7 @@
 }
 
 .reset-wheel-btn:hover {
-  background: #667eea;
+  background: #00d4ff;
   color: white;
 }
 

@@ -24,7 +24,7 @@
 }
 
 .regulation-intro {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
@@ -43,7 +43,7 @@
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   background: white;
-  color: #667eea;
+  color: #00d4ff;
   border: none;
   border-radius: 8px;
   font-size: 0.875rem;
@@ -157,7 +157,7 @@
   background: #f8f9fa;
   padding: 1rem;
   border-radius: 6px;
-  border-left: 3px solid #667eea;
+  border-left: 3px solid #00d4ff;
 }
 
 /* Compliance Trends */
@@ -259,7 +259,7 @@
 }
 
 .recommendation-item {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
   color: white;
   padding: 1.5rem;
   border-radius: 8px;

@@ -37,15 +37,15 @@
 }
 
 .cloud-tag:hover {
-  border-color: #667eea;
+  border-color: #00d4ff;
   background: #f8f9ff;
   transform: scale(1.05);
 }
 
 .cloud-tag.selected {
-  background: #667eea;
+  background: #00d4ff;
   color: white;
-  border-color: #667eea;
+  border-color: #00d4ff;
 }
 
 @media (min-width: 768px) {
