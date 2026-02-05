@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T08:25:36.152Z",
+  "generated_at": "2026-02-05T08:35:28.718Z",
   "week_start": "2026-01-26",
   "week_end": "2026-02-01",
   "week_year": 2026,
@@ -7,8 +7,8 @@
   "model": "gpt-4o-mini-2024-07-18",
   "token_usage": {
     "prompt_tokens": 1867,
-    "completion_tokens": 684,
-    "total_tokens": 2551,
+    "completion_tokens": 713,
+    "total_tokens": 2580,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -20,8 +20,8 @@
       "rejected_prediction_tokens": 0
     }
   },
-  "cost": 0.00069045,
-  "duration_seconds": 17.37,
+  "cost": 0.00070785,
+  "duration_seconds": 15.37,
   "aggregate_sha256": "849d1ee554fe613c8117865688a37cd356b6d80ce7d0cc9c196f4475a59d2937",
   "brief": {
     "week_start": "2026-01-26",
@@ -29,112 +29,112 @@
     "top_5_things": [
       {
         "headline": "Malware Incidents Dominate Cybersecurity Landscape",
-        "summary": "Malware-related incidents account for 59% of reported items this week, indicating a persistent threat to various sectors.",
+        "summary": "Malware-related incidents accounted for 59% of reported items this week, indicating a persistent threat.",
         "cluster_reference": "malware",
         "impact_level": "high"
       },
       {
-        "headline": "Data and IT Security Concerns Rise",
-        "summary": "With 342 items focused on data and IT security, organizations must prioritize safeguarding sensitive information.",
-        "cluster_reference": "data/it",
-        "impact_level": "high"
-      },
-      {
-        "headline": "AI and ML Exploits Increasingly Targeted",
-        "summary": "The growing focus on AI and ML in cybersecurity highlights the need for enhanced defenses against sophisticated attacks.",
+        "headline": "Emerging AI and ML Threats on the Rise",
+        "summary": "AI and machine learning themes show a significant presence, with 295 items indicating evolving attack vectors.",
         "cluster_reference": "ai-ml",
         "impact_level": "medium"
       },
       {
-        "headline": "Ransomware Threats Decline but Remain Significant",
-        "summary": "Despite a 1.8% decrease, ransomware incidents still pose a risk, necessitating ongoing vigilance and preparedness.",
+        "headline": "Data Breaches Continue to Be a Concern",
+        "summary": "Data breach incidents remain prevalent, with 99 reported cases, underscoring the need for enhanced data protection measures.",
+        "cluster_reference": "data breach",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Ransomware Threats Decline Slightly",
+        "summary": "Ransomware incidents decreased by 1.8% this week, but vigilance is still necessary as they remain a critical risk.",
         "cluster_reference": "ransomware",
         "impact_level": "medium"
       },
       {
-        "headline": "Government Sector Faces Highest Cyber Threats",
-        "summary": "The government sector reported 52 incidents, making it the most affected by cyber threats this week.",
-        "cluster_reference": "government",
+        "headline": "Government Sector Most Affected by Cyber Threats",
+        "summary": "The government sector reported 52 incidents, representing 4.8% of total threats, highlighting its vulnerability.",
+        "cluster_reference": "sector_distribution",
         "impact_level": "high"
       }
     ],
     "new_patterns": [
       {
-        "pattern": "Overall decrease in phishing attacks by 3.3%",
-        "change_indicator": "Phishing incidents down from 7.7% to 4.4%",
-        "significance": "This trend may indicate improved awareness and defenses against phishing."
+        "pattern": "Overall decrease in phishing incidents by 3.3%",
+        "change_indicator": "Phishing incidents decreased from 7.7% to 4.4%",
+        "significance": "This decline may indicate improved defenses or a shift in attacker focus."
       },
       {
-        "pattern": "Ransomware incidents decreased by 1.8%",
-        "change_indicator": "Ransomware attacks down from 4.5% to 2.7%",
-        "significance": "While a positive trend, organizations should not become complacent."
+        "pattern": "Ransomware incidents down by 1.8%",
+        "change_indicator": "Ransomware decreased from 4.5% to 2.7%",
+        "significance": "Continued monitoring is essential to ensure this trend persists."
       },
       {
-        "pattern": "Token abuse incidents down by 0.6%",
-        "change_indicator": "Token abuse attacks reduced from 2.6% to 2.0%",
-        "significance": "Continued monitoring is essential as this remains a potential vulnerability."
+        "pattern": "Slight decrease in exploit-led attacks by 0.5%",
+        "change_indicator": "Exploit-led attacks decreased from 11.3% to 10.8%",
+        "significance": "This could reflect improved patch management or a shift in attack strategies."
       }
     ],
     "top_risks": [
       {
-        "risk": "Malware attacks targeting sensitive data",
+        "risk": "Malware attacks remain a dominant threat",
         "affected_sectors": [
           "government",
           "technology",
-          "healthcare"
+          "education"
         ],
         "likelihood": "high"
       },
       {
-        "risk": "Phishing schemes exploiting AI advancements",
+        "risk": "Data breaches could expose sensitive information",
         "affected_sectors": [
+          "government",
           "finance",
-          "education",
-          "retail"
+          "healthcare"
         ],
         "likelihood": "medium"
       },
       {
-        "risk": "Ransomware resurgence despite recent decline",
+        "risk": "Phishing attacks may increase due to evolving tactics",
         "affected_sectors": [
-          "manufacturing",
-          "energy",
-          "government"
+          "technology",
+          "retail",
+          "education"
         ],
         "likelihood": "medium"
       }
     ],
     "watch_signals": [
       {
-        "metric": "Phishing attack percentage",
-        "threshold": "Above 5%",
-        "action": "Review and enhance employee training on phishing awareness."
+        "metric": "Phishing incidents",
+        "threshold": "Below 4%",
+        "action": "Investigate potential new attack vectors if threshold is crossed."
       },
       {
-        "metric": "Ransomware incident count",
-        "threshold": "Above 3 incidents in a week",
-        "action": "Initiate a review of ransomware response protocols."
+        "metric": "Ransomware incidents",
+        "threshold": "Below 3%",
+        "action": "Review security measures if ransomware incidents increase."
       },
       {
-        "metric": "Malware-related incidents",
-        "threshold": "Above 600 incidents",
-        "action": "Conduct a comprehensive security audit across affected sectors."
+        "metric": "Malware-related reports",
+        "threshold": "Above 600 reports",
+        "action": "Assess response strategies if malware reports surge."
       }
     ],
     "manual_review": [
       {
-        "item": "Access denied incidents",
-        "reason": "High confidence indicates potential unauthorized access attempts.",
+        "item": "Access Denied incidents",
+        "reason": "High confidence level indicates potential access control issues that need investigation.",
         "cluster_ref": "Access denied"
       },
       {
-        "item": "Cyber Security News Today articles",
-        "reason": "Frequent updates may reveal emerging threats or trends.",
-        "cluster_ref": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates"
+        "item": "Sensitive file uploads to public platforms",
+        "reason": "Potential data exposure risk that requires immediate attention and mitigation strategies.",
+        "cluster_ref": "Trump's acting cyber chief uploads sensitive files to public ChatGPT — report"
       },
       {
-        "item": "Google's disruption of malware proxy networks",
-        "reason": "Potential implications for malware distribution strategies.",
+        "item": "Google disrupts malware proxy networks",
+        "reason": "Understanding the impact of this disruption on our threat landscape is crucial.",
         "cluster_ref": "Google disrupts IPIDEA residential proxy networks fueled by malware"
       }
     ]

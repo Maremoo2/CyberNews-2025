@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-05T08:25:18.522Z",
-  "pipeline_run_id": "run_2026-02-05T0825",
+  "generated_at": "2026-02-05T08:35:13.088Z",
+  "pipeline_run_id": "run_2026-02-05T0835",
   "model": "gpt-4o-2024-08-06",
   "prompt_version": "v1.0",
   "schema_version": "v1.0",
   "aggregate_path": "public/data/aggregates/week_2026-05.json",
   "aggregate_sha256": "849d1ee554fe613c8117865688a37cd356b6d80ce7d0cc9c196f4475a59d2937",
-  "code_commit": "1bf2120e0576125725dd483b84e57cef73988c0a",
+  "code_commit": "8c08468c0b14a33cffa144677190e0453d45c569",
   "token_usage": {
     "prompt_tokens": 1872,
-    "completion_tokens": 786,
-    "total_tokens": 2658,
+    "completion_tokens": 724,
+    "total_tokens": 2596,
     "prompt_tokens_details": {
-      "cached_tokens": 0,
+      "cached_tokens": 1024,
       "audio_tokens": 0
     },
     "completion_tokens_details": {
@@ -22,114 +22,108 @@
       "rejected_prediction_tokens": 0
     }
   },
-  "duration_seconds": 17.6,
+  "duration_seconds": 25.06,
   "analysis": {
     "week_start": "2026-01-26",
     "week_end": "2026-02-01",
     "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
     "hypotheses": [
       {
-        "claim": "The decline in phishing activities suggests a temporary reduction in phishing campaigns.",
-        "why_now": "Phishing percentage decreased by 3.3% compared to last week.",
+        "claim": "The prevalence of malware is significantly impacting the cybersecurity landscape this week.",
+        "why_now": "Malware is the top theme with the highest item count and confidence level.",
         "supporting_signals": [
-          "deltas_vs_last_week.phishing_pct: -3.3",
-          "attack_type_percentages.phishing_pct: 4.4"
+          "Theme 'malware' has 644 items and 0.736 confidence.",
+          "Malware is the top theme by item count."
         ],
         "counter_signals": [
-          "phishing remains a top theme with 64 items"
+          "No incident-related items reported, which may suggest low impact."
         ],
         "confidence": "medium",
         "validation_steps": [
-          "Monitor phishing activity trends over the next few weeks to see if the decline continues.",
-          "Compare phishing activity with other attack types to identify shifts in focus."
+          "Monitor for any new malware-related incidents in the next week.",
+          "Analyze the nature of malware items to determine their potential impact."
         ]
       },
       {
-        "claim": "The high concentration of malware-related items indicates a potential surge in malware threats.",
-        "why_now": "Malware is the top theme with 644 items, significantly higher than other themes.",
+        "claim": "Phishing activities have decreased compared to the previous week.",
+        "why_now": "There is a 3.3% decrease in phishing percentage compared to last week.",
         "supporting_signals": [
-          "top_themes.theme: malware",
-          "top_themes.item_count: 644"
+          "Phishing percentage decreased by 3.3% compared to last week.",
+          "Current phishing percentage is 4.4%."
         ],
         "counter_signals": [
-          "No incident-related items reported, which may indicate low impact."
+          "Phishing still appears as a top theme with 64 items."
         ],
         "confidence": "medium",
         "validation_steps": [
-          "Cross-reference with external malware reports to validate the surge.",
-          "Analyze the types of malware reported to identify commonalities."
+          "Track phishing reports in the next week to confirm the trend.",
+          "Compare phishing data with other weeks to identify patterns."
         ]
       },
       {
-        "claim": "The technology sector is experiencing a notable level of cybersecurity activity.",
-        "why_now": "The technology sector has the second-highest count of items among sectors.",
+        "claim": "The technology sector may be increasingly targeted by cybersecurity threats.",
+        "why_now": "Technology sector has a notable count of 37 items, making it the second most affected sector.",
         "supporting_signals": [
-          "sector_distribution.sector: technology",
-          "sector_distribution.count: 37"
+          "Technology sector has 37 items, 3.4% of total.",
+          "Technology is the second most affected sector after government."
         ],
         "counter_signals": [
-          "Government sector has a higher count of 52 items."
+          "Overall sector distribution is low, with no incidents reported."
         ],
         "confidence": "low",
         "validation_steps": [
-          "Track changes in sector distribution over the coming weeks to confirm trends.",
-          "Investigate specific incidents or reports affecting the technology sector."
+          "Monitor technology sector reports for any increase in threat activity.",
+          "Analyze the nature of threats reported in the technology sector."
         ]
       }
     ],
     "uncertainties": [
       {
-        "unknown": "The specific reasons for the decrease in phishing and ransomware percentages.",
-        "why_it_matters": "Understanding the cause could help predict future trends and prepare defenses.",
-        "what_data_would_reduce_uncertainty": "Detailed incident reports or threat actor activity logs."
+        "unknown": "The specific nature and impact of the malware theme.",
+        "why_it_matters": "Understanding the specifics can help in mitigating potential threats.",
+        "what_data_would_reduce_uncertainty": "Detailed reports on the types of malware and their targets."
       },
       {
-        "unknown": "The nature of the items classified under the 'data/it' theme.",
-        "why_it_matters": "Clarifying this could reveal specific vulnerabilities or threats in IT systems.",
-        "what_data_would_reduce_uncertainty": "Breakdown of 'data/it' theme items into subcategories or specific incidents."
+        "unknown": "Reasons behind the decrease in phishing activities.",
+        "why_it_matters": "Identifying causes can help sustain the decrease or address any misreporting.",
+        "what_data_would_reduce_uncertainty": "Insights into anti-phishing measures or changes in phishing tactics."
       },
       {
-        "unknown": "The impact of the source concentration warning on the overall data quality.",
-        "why_it_matters": "High concentration from few sources may skew the analysis.",
-        "what_data_would_reduce_uncertainty": "Diversity analysis of source data and comparison with other feeds."
+        "unknown": "The absence of incident-related items despite high counts in certain themes.",
+        "why_it_matters": "This could indicate underreporting or misclassification of incidents.",
+        "what_data_would_reduce_uncertainty": "Cross-verification with incident reports from other sources."
       }
     ],
     "signals_to_watch": [
       {
-        "signal": "Phishing activity percentage",
-        "threshold": "Increase by 2% or more",
-        "why_it_matters": "A rise could indicate a resurgence of phishing campaigns.",
-        "recommended_action": "Prepare anti-phishing defenses and awareness campaigns."
+        "signal": "Increase in malware-related items.",
+        "threshold": "Above 700 items in a week.",
+        "why_it_matters": "A significant increase could indicate a growing threat.",
+        "recommended_action": "Initiate a detailed investigation into the new malware items."
       },
       {
-        "signal": "Malware theme item count",
-        "threshold": "Exceeds 700 items",
-        "why_it_matters": "A further increase could signal a significant malware outbreak.",
-        "recommended_action": "Increase monitoring and analysis of malware-related activities."
+        "signal": "Phishing percentage increase.",
+        "threshold": "Above 5% in a week.",
+        "why_it_matters": "An increase could signal a resurgence of phishing attacks.",
+        "recommended_action": "Enhance phishing awareness and monitoring efforts."
       },
       {
-        "signal": "Technology sector item count",
-        "threshold": "Exceeds 50 items",
-        "why_it_matters": "An increase may indicate targeted attacks on the technology sector.",
-        "recommended_action": "Investigate potential vulnerabilities and strengthen sector defenses."
+        "signal": "Technology sector item count increase.",
+        "threshold": "Above 50 items in a week.",
+        "why_it_matters": "A rise could indicate targeted attacks on the technology sector.",
+        "recommended_action": "Conduct a sector-specific threat analysis and prepare defenses.}],"
       }
     ],
     "inputs_used": [
       "week_start",
       "week_end",
-      "counts.total_items",
-      "counts.incident_related",
-      "deltas_vs_last_week.exploit_led_pct",
-      "deltas_vs_last_week.phishing_pct",
-      "deltas_vs_last_week.token_abuse_pct",
-      "deltas_vs_last_week.ransomware_pct",
-      "attack_type_percentages.exploit_led_pct",
-      "attack_type_percentages.phishing_pct",
-      "attack_type_percentages.token_abuse_pct",
-      "attack_type_percentages.ransomware_pct",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
       "top_themes",
       "sector_distribution",
-      "quality_metadata.source_concentration_warning"
+      "top_clusters",
+      "quality_metadata"
     ]
   }
 }
