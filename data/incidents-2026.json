@@ -1,5 +1,165 @@
 [
   {
+    "id": "20265695",
+    "date": "2026-02-05",
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands. The flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypas...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265696",
+    "date": "2026-02-05",
+    "title": "Hackers Exploit React2Shell to Hijack Web Traffic via Compromised NGINX Servers",
+    "summary": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure. Datadog Security Labs said it observed threat actors associated...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265697",
+    "date": "2026-02-05",
+    "title": "[Ekstra] Telia kuttet 2G: Flere hundre trygghets­alarmer sluttet å virke",
+    "summary": "Telia måtte skru på 2G-nettet igjen etter ni timer for å sikre liv og helse.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telia-kuttet-2g-nettet-i-finnmark-flere-hundre-trygghetsalarmer-sluttet-a-virke/567538",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265698",
+    "date": "2026-02-05",
+    "title": "ISC Stormcast For Thursday, February 5th, 2026 https://isc.sans.edu/podcastdetail/9796, (Thu, Feb 5th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32684",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265699",
+    "date": "2026-02-05",
+    "title": "Tech Data Partners with Group-IB to Elevate Cyber Resilience for Australia and New Zealand",
+    "summary": "By integrating Group-IB technologies with broader security stacks and leveraging its extensive ANZ channel network—including MSSPs, system integrators ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/media-center/press-releases/tech-data-group-ib-partnership-anz/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265700",
+    "date": "2026-02-05",
+    "title": "From first-gen smartphones to cybersecurity: BlackBerry CEO on the company's reinvention",
+    "summary": "Combining push email, web browsing, calls and photography in one device, it became a symbol of secure communication, particularly after the 9/11 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.euronews.com/next/2026/02/04/from-first-gen-smartphones-to-cybersecurity-blackberry-ceo-on-the-companys-reinvention",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265701",
+    "date": "2026-02-05",
+    "title": "Microsoft Introduces System Monitor (Sysmon) Support In Windows 11 - LinkedIn",
+    "summary": "Threat hunters and security operations centers (SOCs); Incident responders investigating advanced intrusions; IT administrators diagnosing elusive or ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/microsoft-introduces-system-monitor-sysmon-support-cenie",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265702",
+    "date": "2026-02-05",
+    "title": "Enhanced storage resiliency with Azure NetApp Files Elastic zone-redundant service ",
+    "summary": "In today’s globally connected environment, even minutes of downtime can disrupt supply chains, hinder customer experiences, and affect regulatory commitments costing organizations thousands of dollars per minute and risking lasting reputational harm. Data resiliency is no longer optional—it is th...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265703",
+    "date": "2026-02-05",
+    "title": "Stop cyber threats! Learn to use AI as your small business security ally",
+    "summary": "The University of Hawaiʻi Maui College is hosting the second of three free online cybersecurity clinics for Hawaiʻi's sole proprietors and small ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hawaii.edu/news/2026/02/04/ai-as-small-business-security-ally/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265704",
+    "date": "2026-02-05",
+    "title": "Automating Cybersecurity Governance with AI - BitSight Technologies",
+    "summary": "Additionally, security teams can run Framework Intelligence directly on existing vendor documentation in the Bitsight Vendor Network, regardless of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/automating-cybersecurity-governance-ai-spm-vrm",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265705",
+    "date": "2026-02-05",
+    "title": "Paza: Introducing automatic speech recognition benchmarks and models for low resource languages",
+    "summary": "At a glance Microsoft Research releases PazaBench and Paza automatic speech recognition models, advancing speech technology for low resource languages. Human-centered pipeline for low-resource languages: Built for and tested by communities, Paza is an end-to-end, continuous pipeline that elevates...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/blog/paza-introducing-automatic-speech-recognition-benchmarks-and-models-for-low-resource-languages/",
+    "tags": [
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265687",
     "date": "2026-02-05",
     "title": "Smashing Security podcast #453: The Epstein Files didn’t hide this hacker very well",
