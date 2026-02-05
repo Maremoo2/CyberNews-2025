@@ -10,23 +10,50 @@ function AIInsights() {
 
   useEffect(() => {
     async function loadInsights() {
+      // Define date variables at function scope to avoid reference errors
+      const today = new Date();
+      const year = today.getUTCFullYear();
+      const month = String(today.getUTCMonth() + 1).padStart(2, '0');
+      const day = String(today.getUTCDate()).padStart(2, '0');
+      const dateStr = `${year}-${month}-${day}`; // YYYY-MM-DD
+      
+      // Use Vite's BASE_URL to ensure correct path in both dev and production
+      const basePath = import.meta.env.BASE_URL || '/';
+      
       try {
-        // Load today's daily digest (using UTC date to match server-generated files)
-        const today = new Date();
-        // Use UTC date components to ensure consistent date across timezones
-        const year = today.getUTCFullYear();
-        const month = String(today.getUTCMonth() + 1).padStart(2, '0');
-        const day = String(today.getUTCDate()).padStart(2, '0');
-        const dateStr = `${year}-${month}-${day}`; // YYYY-MM-DD
-        
+        // Load daily digest - try today first, then fall back to recent days
         let digestData = null;
-        try {
-          const digestResponse = await fetch(`/data/daily/${dateStr}.json`);
-          if (digestResponse.ok) {
-            digestData = await digestResponse.json();
+        const digestAttempts = [];
+        
+        // Try today and the last 3 days
+        for (let i = 0; i < 4; i++) {
+          const date = new Date(today);
+          date.setUTCDate(date.getUTCDate() - i);
+          const y = date.getUTCFullYear();
+          const m = String(date.getUTCMonth() + 1).padStart(2, '0');
+          const d = String(date.getUTCDate()).padStart(2, '0');
+          const attemptDateStr = `${y}-${m}-${d}`;
+          digestAttempts.push(attemptDateStr);
+        }
+        
+        console.log('[AIInsights] Will attempt to fetch daily digests:', digestAttempts);
+        
+        for (const attemptDateStr of digestAttempts) {
+          try {
+            const digestUrl = `${basePath}data/daily/${attemptDateStr}.json`;
+            const digestResponse = await fetch(digestUrl);
+            if (digestResponse.ok) {
+              digestData = await digestResponse.json();
+              console.log('[AIInsights] Daily digest loaded successfully for:', attemptDateStr);
+              break; // Stop at first successful fetch
+            }
+          } catch (err) {
+            console.log('[AIInsights] Daily digest fetch failed for:', attemptDateStr, err.message);
           }
-        } catch (err) {
-          console.log('Daily digest not available for today:', dateStr);
+        }
+        
+        if (!digestData) {
+          console.log('[AIInsights] No daily digest available from the last 4 days');
         }
 
         // Load latest weekly brief
@@ -37,12 +64,14 @@ function AIInsights() {
         for (let i = 0; i < 4; i++) {
           const date = new Date(today);
           date.setDate(date.getDate() - (i * 7));
-          const year = getISOWeekYear(date);
+          const weekYear = getISOWeekYear(date);
           const weekNumber = getISOWeek(date);
           
-          const weekStr = `${year}-${String(weekNumber).padStart(2, '0')}`;
-          attempts.push(`/data/briefs/week_${weekStr}.json`);
+          const weekStr = `${weekYear}-${String(weekNumber).padStart(2, '0')}`;
+          attempts.push(`${basePath}data/briefs/week_${weekStr}.json`);
         }
+
+        console.log('[AIInsights] Attempting to fetch weekly brief from:', attempts);
 
         // Try each file in order
         for (const url of attempts) {
@@ -50,10 +79,11 @@ function AIInsights() {
             const response = await fetch(url);
             if (response.ok) {
               briefData = await response.json();
+              console.log('[AIInsights] Weekly brief loaded successfully from:', url);
               break;
             }
-          } catch {
-            // Silently continue to next attempt
+          } catch (err) {
+            console.log('[AIInsights] Weekly brief fetch failed for:', url, err.message);
           }
         }
 
@@ -62,14 +92,19 @@ function AIInsights() {
           setDailyDigest(digestData);
           setWeeklyBrief(briefData);
           setError(null);
+          console.log('[AIInsights] Successfully loaded:', { 
+            hasDigest: !!digestData, 
+            hasBrief: !!briefData 
+          });
         } else {
+          console.log('[AIInsights] No data available for display');
           setError('No AI-generated insights available yet. Check back after the analysis runs.');
         }
         
         setLoading(false);
       } catch (err) {
-        console.error('Error loading AI insights:', err);
-        console.error('Error details:', {
+        console.error('[AIInsights] Error loading AI insights:', err);
+        console.error('[AIInsights] Error details:', {
           message: err.message,
           stack: err.stack,
           attemptedDate: dateStr
