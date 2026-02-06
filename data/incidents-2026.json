@@ -14,6 +14,619 @@
     "impact": 3
   },
   {
+    "id": "20265849",
+    "date": "2026-02-05",
+    "title": "Advanced Web Shell Detection and Prevention: A Deep Dive into CrowdStrike's Linux Sensor Capabilities",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/advanced-web-shell-detection-and-prevention/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265850",
+    "date": "2026-02-05",
+    "title": "CISA gives federal agencies one year to rip out end-of-life devices",
+    "summary": "The U.S. cyber defense agency issued an operational directive on Thursday mandating federal agencies to “remove any hardware and software devices that is no longer supported by its original equipment manufacturer.”",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cisa-gives-federal-agencies-one-year-end-of-life-devices",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265851",
+    "date": "2026-02-05",
+    "title": "CISA tells agencies to stop using unsupported edge devices",
+    "summary": "A Cybersecurity and Infrastructure Security Agency order published Thursday directs federal agencies to stop using “edge devices” like firewalls and routers that their manufacturers no longer support. It’s a stab at tackling one of the most persistent and difficult-to-manage avenues of attack for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-bod-directive-unsupported-edge-devices-firewalls-routers/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265852",
+    "date": "2026-02-05",
+    "title": "White House, CISA Preview Cyber Strategy, CIRCIA & AI Plans - ExecutiveGov",
+    "summary": "The Cybersecurity and Infrastructure Security Agency is expected to release an update on the Cyber Incident Reporting for Critical Infrastructure Act, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/white-house-cisa-cyber-strategy-circia-ai",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265853",
+    "date": "2026-02-05",
+    "title": "Asia-based spies hacked 37 countries' critical networks - The Register",
+    "summary": "The Cybersecurity and Infrastructure Security Agency is aware of the ... it is also tracking this cyber-espionage crew. \"The Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/05/asia_government_spies_hacked_37_critical_networks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265854",
+    "date": "2026-02-05",
+    "title": "VIDEO: Ricketts Discusses Resilient Water Infrastructure, Threat of Communist China's Cyber-Attacks",
+    "summary": "We've talked about how it impacts the states that you're from, the security is increasingly at risk from foreign adversaries seeking to undermine ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ricketts.senate.gov/news/press-releases/video-ricketts-discusses-resilient-water-infrastructure-threat-of-communist-chinas-cyber-attacks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265855",
+    "date": "2026-02-05",
+    "title": "Introducing Trusted Access for Cyber - OpenAI",
+    "summary": "It is very important the world adopts frontier cyber capabilities ... Developers and security professionals doing cybersecurity-related work ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://openai.com/index/trusted-access-for-cyber/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265856",
+    "date": "2026-02-05",
+    "title": "Main UK Data (Use and Access) Act Provisions Enter into Force",
+    "summary": "Privacy & Information Security Law Blog ... On February 5, 2026, the next phase of the UK Data (Use and Access) Act (“DUAA”) officially came into force, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/main-uk-data-use-and-access-act-provisions-enter-into-force",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265857",
+    "date": "2026-02-05",
+    "title": "CISA tells agencies to identify, upgrade unsupported edge devices | Federal News Network",
+    "summary": "Agencies are on the hook to identify outdated “edge” hardware and software on their networks, as the Cybersecurity and Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/cybersecurity/2026/02/cisa-tells-agencies-to-identify-upgrade-unsupported-edge-devices/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265858",
+    "date": "2026-02-05",
+    "title": "What Ottawa can do to protect Canadians from cybercrime",
+    "summary": "The Canadian Centre for Cyber Security (CCCS), the federal government's technical authority on cybersecurity, works closely with its Five Eyes ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://policyoptions.irpp.org/2026/02/canada-cybercrimes/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265859",
+    "date": "2026-02-05",
+    "title": "Reducing the Attack Surface for End-of-Support Edge Devices - CISA",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.K.'s National Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/reducing-attack-surface-end-support-edge-devices",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265860",
+    "date": "2026-02-05",
+    "title": "Edge Device Security - CISA",
+    "summary": "Refine Cybersecurity Policy: Refine cybersecurity policy to address edge devices; establish procedures that align to the policy and ensure proper ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/topics/cybersecurity-best-practices/edge-device-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265861",
+    "date": "2026-02-05",
+    "title": "Grow Faster, Together. Join the Huntress Partner Program.",
+    "summary": "In Australia, the Cyber Security Strategy 2023 to 2030 sets clear expectations for strengthened resilience across organisations of every size. Our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huntress.com/partners",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265862",
+    "date": "2026-02-05",
+    "title": "Cyber Service Academy scholarship applications open to Davenport University students",
+    "summary": "Davenport University is recognized as a National Center for Academic Excellence in Cyber Defense by the National Security Agency and the Department of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://post.davenport.edu/academics/cyber-service-academy-scholarship-applications-open-to-davenport-university-students/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265863",
+    "date": "2026-02-05",
+    "title": "ICF Achieves Cybersecurity Maturity Model Certification (CMMC) Level 2 - PR Newswire",
+    "summary": "... it has achieved Cybersecurity ... Explore. High Tech Security · Computer & Electronics.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/icf-achieves-cybersecurity-maturity-model-certification-cmmc-level-2-302680371.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265864",
+    "date": "2026-02-05",
+    "title": "Academic theory meets military reality: Cyber students and Space Force leaders connect on",
+    "summary": "... as aspiring cyber security professionals engaged in a spirited Q & A with U.S. Space Force Guardians from Space Systems,",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ssc.spaceforce.mil/Newsroom/Article-Display/Article/4398796/academic-theory-meets-military-reality-cyber-students-and-space-force-leaders-c",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265865",
+    "date": "2026-02-05",
+    "title": "Security Advisory Services Market Size to Hit USD 76.78 Billion by 2035",
+    "summary": "The leading players, like KPMG, are considering cybersecurity business concerns and introducing robust cybersecurity measures. The organizations are ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.precedenceresearch.com/security-advisory-services-market",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265866",
+    "date": "2026-02-05",
+    "title": "CISA Warns of VMware ESXi 0-day Vulnerability Exploited in Ransomware Attacks",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) recently confirmed that ransomware groups are actively exploiting CVE-2025-22225, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecuritynews.com/vmware-esxi-0-day-ransomware-attack/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265867",
+    "date": "2026-02-05",
+    "title": "Check Point: Which Cyber Risks Rule the Financial Sector?",
+    "summary": "Cyber Security. Check Point: Which Cyber Risks Rule the Financial Sector ... CyberSecurityfinance sectorFinancial cybersecurityRansomwareDDoS attackData ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/check-point-financial-sector-cyber-risks",
+    "tags": [
+      "ransomware",
+      "ddos",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265868",
+    "date": "2026-02-05",
+    "title": "FBI Urges Organziations to Take 10 Actions to Improve Cyber Resilience",
+    "summary": "... security gaps identified in recent investigations of cyberattacks. The ... cyber risk by improving resilience and reducing the attack surface.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hipaajournal.com/fbi-operation-winter-shield-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265869",
+    "date": "2026-02-05",
+    "title": "OIG audit of hospital's cybersecurity finds vulnerabilities in common web applications",
+    "summary": "... security vulnerabilities that could be vectors for a cyberattack. The unnamed hospital, according to the OIG, would have difficulty detecting a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://healthexec.com/topics/health-it/cybersecurity/oig-audit-hospitals-cybersecurity-finds-vulnerabilities-common-web-applications",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265870",
+    "date": "2026-02-05",
+    "title": "Hackers Hit Sensitive Targets in 37 Nations in Spying Plot - Claims Journal",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency said it ... The Czech cybersecurity agency, the National Cyber and Information Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.claimsjournal.com/news/national/2026/02/05/335524.htm",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265871",
+    "date": "2026-02-05",
+    "title": "Salt Security warns autonomous AI agents are the next major security blind spot",
+    "summary": "“What looked like emergent behaviour was really automation operating at scale,” said Eric Schwake, Director of Cybersecurity Strategy at Salt Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.itsecurityguru.org/2026/02/05/salt-security-warns-autonomous-ai-agents-are-the-next-major-security-blind-spot/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265872",
+    "date": "2026-02-05",
+    "title": "AWS Builder ID now supports Sign in with Apple",
+    "summary": "AWS Builder ID, your profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, AWS re:Post, AWS Startups, and Kiro, now supports Sign in with Apple as a social login provider. This expansion of sign-in options builds on the existing Sign in with Google c...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/02/aws-builder-id-sign-in-apple",
+    "tags": [
+      "google",
+      "aws",
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265873",
+    "date": "2026-02-05",
+    "title": "Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud (US-West)",
+    "summary": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in AWS GovCloud (US-West). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265874",
+    "date": "2026-02-05",
+    "title": "Claude Opus 4.6 now available in Amazon Bedrock",
+    "summary": "Starting today, Amazon Bedrock supports Claude Opus 4.6. According to Anthropic, Opus 4.6 is their most intelligent model and the world's best model for coding, enterprise agents, and professional work. Claude Opus 4.6 brings advanced capabilities to Amazon Bedrock customers, including industry-l...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265875",
+    "date": "2026-02-05",
+    "title": "Cybersecurity Is the Hidden Event at the Winter Olympics - The National CIO Review",
+    "summary": "Extra Bytes, Information Security. Cybersecurity Is the Hidden Event at the Winter Olympics. Going for the gold. Picture of Emily Hill. Emily Hill.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nationalcioreview.com/articles-insights/extra-bytes/cybersecurity-is-the-hidden-event-at-the-winter-olympics/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265876",
+    "date": "2026-02-05",
+    "title": "Shielding the 2026 Winter Olympics: A Cybersecurity Race behind the Games",
+    "summary": "The National Cybersecurity Agency of Italy is working closely with the Milano Cortina Foundation and private partners to secure key infrastructure, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/shielding-the-2026-winter-olympics-a-cybersecurity-race-behind-the-games/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265877",
+    "date": "2026-02-05",
+    "title": "Cole County lands federal grant to offset cyber security expenses | Jefferson City News Tribune",
+    "summary": "Among the rising costs for equipment service contracts is the county's main cybersecurity partner, Huber and Associates, Ridenhour said. A $140,000 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newstribune.com/news/2026/feb/05/cole-county-lands-federal-grant-to-offset-cyber/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265878",
+    "date": "2026-02-05",
+    "title": "Healey-Driscoll Administration Invests Nearly $330,000 in State Cybersecurity | Mass.gov",
+    "summary": "... Information Officer, Technology Services and Security Secretary Jason Snyder. “Cybersecurity for our public infrastructure is central to the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mass.gov/news/healey-driscoll-administration-invests-nearly-330000-in-state-cybersecurity",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265879",
+    "date": "2026-02-05",
+    "title": "Spotlight on EU cybersecurity: Projects protecting Europe's digital future",
+    "summary": "The EU Cybersecurity Strategy, presented in 2020, laid the foundations for a more resilient digital Europe by promoting secure technologies that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.openaccessgovernment.org/spotlight-on-eu-cybersecurity-projects-protecting-europes-digital-future/204683/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265880",
+    "date": "2026-02-05",
+    "title": "CISA Orders Federal Agencies to Strengthen Edge Device Security Amid Rising Cyber Threats",
+    "summary": "“Practicing good cyber hygiene starts with eliminating unsupported edge devices,” said CISA Executive Assistant Director for Cybersecurity Nick ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-orders-federal-agencies-strengthen-edge-device-security-amid-rising-cyber-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265881",
+    "date": "2026-02-05",
+    "title": "Ukraine tightens controls on Starlink, ESXi flaw exploited, SolarWinds Web Help Desk under attack",
+    "summary": "Ukraine tightens controls on Starlink terminals, VMware ESXi flaw now exploited, SolarWinds Web Help Desk bug under attack. Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-ukraine-tightens-controls-on-starlink-terminals-vmware-esxi-flaw-now-exploited-solarwinds-web-help-desk-bug-under-attack/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265882",
+    "date": "2026-02-05",
+    "title": "Cybersecurity Trends for 2026: Managing What's Already in Motion",
+    "summary": "Enterprise IT and security leaders are entering 2026 under conditions that feel fundamentally different from just a few years ago.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nationalcioreview.com/articles-insights/extra-bytes/cybersecurity-trends-for-2026-managing-whats-already-in-motion/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265883",
+    "date": "2026-02-05",
+    "title": "Ron Moore Named GDMS CIO, VP of IT - GovCon Wire",
+    "summary": "General Dynamics Mission Systems has promoted Ron Moore, chief information security officer and director of cybersecurity since 2015, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govconwire.com/articles/ron-moore-gdms-cio-it-vp",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265884",
+    "date": "2026-02-05",
+    "title": "Booz Allen, Palo Alto urge secure-by-design defenses, stronger 5G resilience amid Salt ...",
+    "summary": "Modern cybersecurity platforms integrate advanced detection, segmentation, and analytics to safeguard the 5G core and edge components from ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/reports/booz-allen-palo-alto-urge-secure-by-design-defenses-stronger-5g-resilience-amid-salt-typhoon-attacks/",
+    "tags": [
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265885",
+    "date": "2026-02-05",
+    "title": "Cyber Security Expo 2026: Machine trust in modern software delivery",
+    "summary": "Navigating ethical and technical risks. The intersection of AI and cybersecurity presents ethical challenges that impact technical implementation. A ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.developer-tech.com/news/cyber-security-expo-2026-machine-trust-modern-software-delivery/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265886",
+    "date": "2026-02-05",
+    "title": "FCC Issues Cybersecurity Best Practices for Defending Against Ransomware Attacks",
+    "summary": "Conducting regular scans to identify and fix software and other security vulnerabilities. Overseeing vendors' cybersecurity practices. Recommended ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dwt.com/blogs/privacy--security-law-blog/2026/02/fcc-issues-cybersecurity-ransomware-guidance",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265887",
+    "date": "2026-02-05",
+    "title": "Three clues that your LLM may be poisoned with a sleeper-agent back door - The Register",
+    "summary": "All SecurityCyber-crimePatchesResearchCSO. (X). Off-Prem. Off-Prem. All Off ... \"It could be iambic pentameter, it could be like uncoupled rhymes, it ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/05/llm_poisoned_how_to_tell/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265888",
+    "date": "2026-02-05",
+    "title": "New year, new cybersecurity package? Changes to strengthen the EU's cyber resilience - The Lens",
+    "summary": "It sends a clear message that the current cyber threat landscape has outgrown the EU's existing toolkit, that ICT supply chain security is a priority ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thelens.slaughterandmay.com/post/102mgw7/new-year-new-cybersecurity-package-changes-to-strengthen-the-eus-cyber-resilie",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265889",
+    "date": "2026-02-05",
+    "title": "Senator demands public oversight hearing with AT&T, Verizon CEOs over Salt Typhoon ...",
+    "summary": "... cyber intrusions by 'Volt Typhoon' and 'Salt Typhoon.' The members sought information on when DHS and the Cybersecurity and Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/regulation-standards-and-compliance/senator-demands-public-oversight-hearing-with-att-verizon-ceos-over-salt-typhoon-cyber-intrusion/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265890",
+    "date": "2026-02-05",
+    "title": "New Clickfix variant ‘CrashFix’ deploying Python Remote Access Trojan",
+    "summary": "In January 2026, Microsoft Defender Experts identified a new evolution in the ongoing ClickFix campaign. This updated tactic deliberately crashes victims’ browsers and then attempts to lure users into executing malicious commands under the pretext of restoring normal functionality. This variant r...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265827",
     "date": "2026-02-05",
     "title": "Incognito Market admin sentenced to 30 years for running $105 million dark web drug empire",
