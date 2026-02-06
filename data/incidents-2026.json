@@ -1,5 +1,340 @@
 [
   {
+    "id": "20266026",
+    "date": "2026-02-06",
+    "title": "EU threatens TikTok with massive fine over addictive design features",
+    "summary": "The preliminary findings follow an investigation that began in February 2024 probing features such as “infinite scroll, autoplay, push notifications, and its highly personalised recommender system,” the European Commission said in a press release.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/eu-threatens-tiktok-with-fine-over-addictive-features",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266027",
+    "date": "2026-02-06",
+    "title": "Illinois man pleads guilty to hacking hundreds of Snapchat accounts to steal nude photos",
+    "summary": "Kyle Svara of Oswego, Illinois is facing decades in prison after pleading guilty to aggravated identity theft, wire fraud, computer fraud, conspiracy to commit computer fraud and false statements related to child pornography.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/illinois-man-pleads-guilty-snapchat-nude-photo-hacks",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266028",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Utgir seg for å være europeere: Nordkoreansk IT-personell blir ansatt i norske bedrifter",
+    "summary": "Utgir seg for å være europeere med falske eller stjålne identitetspapirer, viser en ny rapport fra PST.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/pst-nordkoreansk-it-personell-blir-ansatt-i-norske-bedrifter/567982",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266029",
+    "date": "2026-02-06",
+    "title": "Why a decade-old EnCase driver still works as an EDR killer",
+    "summary": "Attackers are leaning on a new EDR killer malware that can shut down 59 widely used endpoint security products by misusing a kernel driver that once shipped with Guidance Software’s EnCase digital forensics tool, Huntress researchers warn. This particular driver is legitimate but its certificate ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/05/edr-killer-vulnerable-encase-driver/?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266030",
+    "date": "2026-02-06",
+    "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
+    "summary": "Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife that's operated by China-nexus threat actors since at least 2019. The framework comprises seven Linux-based implants that are designed to perform deep packet inspecti...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266031",
+    "date": "2026-02-06",
+    "title": "Norwegian intelligence discloses country hit by Salt Typhoon campaign",
+    "summary": "The assessment said Chinese security and intelligence services have strengthened their ability to operate in Norway, including through cyber operations and human intelligence collection.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/norawy-intelligence-discloses-salt-typhoon-attacks",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266032",
+    "date": "2026-02-06",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c9b1d9c4ffdd0d6 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/romanian-oil-pipeline-operator-conpet-discloses-cyberattack-qilin-ransomware/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266033",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Nå finnes det eget sosialt nettverk for KI-agenter – det både hylles og kritiseres",
+    "summary": "«Moltbook» er en slags Reddit for KI-agenter.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/na-finnes-det-eget-sosialt-nettverk-for-ki-agenter-det-bade-hylles-og-kritiseres/567814",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266034",
+    "date": "2026-02-06",
+    "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) ov...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266035",
+    "date": "2026-02-06",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1770382393.6bfa1e6c",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-04?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266036",
+    "date": "2026-02-06",
+    "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+    "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, according to new findings from Palo Alto Networks Unit 42. In addition, the hacking crew has been...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "palo alto",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266037",
+    "date": "2026-02-06",
+    "title": "Cyber resilience becomes governance priority for healthcare systems amid rising attack costs",
+    "summary": "As a result, cybersecurity investments frequently lag, even as digital transformation deepens healthcare's dependence on interconnected systems. The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/medical/cyber-resilience-becomes-governance-priority-for-healthcare-systems-amid-rising-attack-costs/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266038",
+    "date": "2026-02-06",
+    "title": "FCC Issues Urgent Cyber-Security Alert to Broadcasters",
+    "summary": "On Friday (1/30), the FCC issued a Public Notice strongly urging broadcasters to implement immediate cybersecurity protections after a rise in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.michiganmedia.com/2026/02/06/fcc-issues-urgent-cyber-security-alert-to-broadcasters/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266039",
+    "date": "2026-02-06",
+    "title": "Higinio Ochoa, Hacktivist Turned White Hat, On The Cybercrime Magazine Podcast",
+    "summary": "Breaking coverage on cyberattacks and data breaches, and the most recent privacy and security stories. HACK. Another organization gets hacked every ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/higinio-ochoa-hacktivist-turned-white-hat-on-the-cybercrime-magazine-podcast/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266040",
+    "date": "2026-02-06",
+    "title": "EU Agencies Network leadership at a time of change in the EU | ENISA - European Union",
+    "summary": "ENISA is the EU agency dedicated to enhancing cybersecurity in Europe ... A Trusted and Cyber Secure Europe. Agencies network logo. EU Agencies ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.enisa.europa.eu/news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266041",
+    "date": "2026-02-06",
+    "title": "Mastercard, UAE Cyber Security Council formalise cybersecurity co-operation",
+    "summary": "Mastercard, UAE Cyber Security Council formalise cybersecurity co-operation. The agreement sets out plans for both sides to collaborate on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.electronicpaymentsinternational.com/news/mastercard-uae-cybersecurity-co-operation/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266042",
+    "date": "2026-02-06",
+    "title": "CISA Orders Federal Agencies to Strengthen Edge Device Security Amid Rising Cyber Threats",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA)has issued Binding Operational Directive 26-02, Mitigating Risk From End-of-Support ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/subject-matter-areas/cybersecurity/cisa-orders-federal-agencies-to-strengthen-edge-device-security-amid-rising-cyber-threats/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266043",
+    "date": "2026-02-06",
+    "title": "Maritime Port Digitization and Systemic Cyber Risk | Strategic Technologies Blog - CSIS",
+    "summary": "These patterns show failures to secure digital infrastructure drive escalating cyberattacks against ports. Target Appeal. Extensive cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csis.org/blogs/strategic-technologies-blog/maritime-port-digitization-and-systemic-cyber-risk",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266044",
+    "date": "2026-02-06",
+    "title": "China Cybersecurity and Data Protection Monthly Update January 2026 Issue - Bird & Bird",
+    "summary": "On the enforcement front, the Ministry of Industry and Information Technology (“MIIT”), Ministry of Public Security (“MPS”), National Computer Virus ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.twobirds.com/en/insights/2026/china/china-cybersecurity-and-data-protection-monthly-update--january-2026-issue",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266045",
+    "date": "2026-02-06",
+    "title": "Boeing, BGU launch Aviation Cybersecurity Research Center in Israel",
+    "summary": "Yuval Elovici, head of BGU's Cyber Security Research Center. “Years of collaborating with global leaders on their most critical cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://jhvonline.com/boeing-bgu-launch-aviation-cybersecurity-research-center-in-israel-p35926-97.htm",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266046",
+    "date": "2026-02-06",
+    "title": "Business-First Application Security: What Modern Organizations Must Get Right",
+    "summary": "This conversation is not just a personal success story. It is a direct reflection of where the cybersecurity industry is today. As AppSec, DevSecOps, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/the-cybersecurity-podcast/business-first-application-security-what-modern-organizations-must-get-right/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266047",
+    "date": "2026-02-06",
+    "title": "New bill would remove college degree requirements for federal cybersecurity jobs",
+    "summary": "Lawmakers in support of the bill say it would help agencies recruit much-needed cyber expertise into government ... security efforts across government.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/federal-newscast/2026/02/golden-dome-defense-initiative-could-cost-3-6-trillion-over-the-next-20-years/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266048",
+    "date": "2026-02-06",
+    "title": "Baylor-led cybersecurity program prepares rural students for high-demand tech careers",
+    "summary": "Baylor, through its leadership of the Central Texas Cyber Hub, launched the K-12 Cyber Security Pathways Program, a new initiative to prepare high ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://baylorlariat.com/2026/02/05/baylor-led-cybersecurity-program-prepares-rural-students-for-high-demand-tech-careers/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265960",
     "date": "2026-02-06",
     "title": "Epstein File Data Security Update: Raw Code Found in Emails",
