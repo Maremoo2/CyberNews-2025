@@ -1,5 +1,337 @@
 [
   {
+    "id": "20265847",
+    "date": "2026-02-06",
+    "title": "U.S. Public Sector Under Siege",
+    "summary": "Discover why Government and Education must prioritize Cyber Risk Management.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Trend Micro Research",
+    "sourceUrl": "https://www.trendmicro.com/en_us/research/26/b/us-public-sector-under-siege.html",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265827",
+    "date": "2026-02-05",
+    "title": "Incognito Market admin sentenced to 30 years for running $105 million dark web drug empire",
+    "summary": "He promised \"the best security there is\" to hundreds of thousands of drug buyers, while quietly making the kind of mistake that guaranteed a 30-year sentence. And maybe training police on cryptocurrency while running a running a vast Tor-hidden drug bazaar wasn't such a good idea. Read more in my...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/incognito-market-admin-sentenced-30-years-105-million-dark-web-drug-empire",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265828",
+    "date": "2026-02-05",
+    "title": "Hong Kong’s innovation goals must go hand in hand with cybersecurity",
+    "summary": "Hong Kong is striving to become a “fortress” capable of defending the city from increasingly complex hacking attacks and sophisticated scams. Secretary for Innovation, Technology and Industry Sun Dong pointed out at a cybersecurity symposium last month that the development of tech and protection ...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/opinion/comment/article/3342327/hong-kongs-innovation-goals-must-go-hand-hand-cybersecurity?utm_source=rss_feed",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265829",
+    "date": "2026-02-05",
+    "title": "Greece arrests soldier suspected of leaking ‘secret’ information to China",
+    "summary": "‌Greek defence authorities have arrested a member ‍of the Greek defence forces accused of leaking “secret information” to “third parties”, the Greek National Defence General Staff (GEETHA) said ⁠on Thursday. Two months ago, Greece’s intelligence service received a tip-off from a Western national ...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/world/europe/article/3342573/greece-arrests-soldier-suspected-leaking-secret-information-china?utm_source=rss_feed",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265830",
+    "date": "2026-02-05",
+    "title": "One of Europe’s largest universities knocked offline for days after cyberattack",
+    "summary": "An alleged ransomware attack has taken down the systems of the Sapienza University of Rome.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/05/one-of-europes-largest-universities-knocked-offline-for-days-after-cyberattack/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265831",
+    "date": "2026-02-05",
+    "title": "Substack data breach exposed users’ emails and phone numbers",
+    "summary": "Substack is notifying some users that the email addresses and phone numbers linked to their accounts were exposed in a \"security incident\" last year. In an email to account holders, Substack CEO Chris Best said that a hacker had accessed internal data without authorization in October 2025, but th...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/874255/substack-data-breach-user-emails-phone-numbers",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265832",
+    "date": "2026-02-05",
+    "title": "AI-Coded Moltbook Platform Exposes 1.5 Mn API Keys Through Database Misconfiguration",
+    "summary": "Viral social network \"Moltbook\" built entirely by artificial intelligence leaked authentication tokens, private messages and user emails through missing security controls in production environment. Wiz Security discovered a critical vulnerability in Moltbook, a viral social network for AI agents,...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/moltbook-platform-exposes-1-5-mn-api-keys/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265833",
+    "date": "2026-02-05",
+    "title": "CISA orders feds to disconnect unsupported network edge devices",
+    "summary": "The government is worried about hackers accessing systems through insecure and poorly monitored routers, firewalls and similar equipment at the network perimeter.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-edge-devices-binding-operational-directive/811539/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265834",
+    "date": "2026-02-05",
+    "title": "10,000+ Active Infections Traced to SystemBC Botnet",
+    "summary": "Security researchers at Silent Push identified more than 10,000 unique IPs infected with SystemBC, a proxy malware commonly used as an early foothold in ransomware attacks. Using a custom SystemBC tracking fingerprint, analysts mapped a globally distributed botnet that includes compromised system...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/10000-active-infections-traced-to-systembc-botnet/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265835",
+    "date": "2026-02-05",
+    "title": "How to make your Linux laptop more secure in 7 steps",
+    "summary": "Chances are that part of the reason you broke away from Microsoft and switched to Linux is the open-source OS's reputation for greater security. That doesn’t mean your Linux distro is impenetrable, though, and certainly not out of the box. Here are seven steps you can take to make your Linux lapt...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/make-your-linux-laptop-more-secure-in-7-steps/",
+    "tags": [
+      "apt",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265836",
+    "date": "2026-02-05",
+    "title": "Why Modern MFA Keeps Failing and Why Assured Identity is the Next Security Frontier",
+    "summary": "Introduction For most of cybersecurity’s history, attackers were forced to break into systems. They exploited software vulnerabilities, bypassed perimeter defenses, and escalated privileges once inside. That model is increasingly obsolete. Today’s attackers log in. Credential theft, authenticatio...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Identity Defined Security Alliance Blog",
+    "sourceUrl": "https://www.idsalliance.org/blog/why-modern-mfa-keeps-failing-and-why-assured-identity-is-the-next-security-frontier/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265837",
+    "date": "2026-02-05",
+    "title": "Virtru and CMMC Level 3: Understanding the Requirement & Where We Fit",
+    "summary": "If you're exploring CMMC Level 3 certification, you're handling some of the DoW's most sensitive CUI and preparing for contracts that require the highest level of cybersecurity maturity. You've probably also been evaluating which security solutions can help you get there.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/virtru-and-cmmc-level-3-understanding-the-requirement-and-where-we-fit",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265838",
+    "date": "2026-02-05",
+    "title": "Hybrid Network Security in 2026: Key Challenges, Risks, and Best Practices",
+    "summary": "Key Takeaways Hybrid network security is challenging because visibility, policies, and controls often differ across on‑prem, public cloud, and private cloud environments. Most impactful risks in hybrids are misconfigurations, credential abuse, ransomware, and supply chain paths that attackers can...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/network-security/hybrid-network-security/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265839",
+    "date": "2026-02-05",
+    "title": "New APT group breached gov and critical infrastructure orgs in 37 countries",
+    "summary": "A new cyberespionage group that operates out of Asia has compromised 70 government and critical infrastructure organizations across 37 countries over the past year using a sophisticated toolset that combines phishing, exploitation kits, custom malware, Linux rootkits, web shells, and a variety of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128378/new-apt-group-breached-gov-and-critical-infrastructure-orgs-in-37-countries.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "phishing",
+      "malware",
+      "apt",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265840",
+    "date": "2026-02-05",
+    "title": "Substack data breach leaks users’ email addresses and phone numbers",
+    "summary": "Substack, a high-profile publishing platform widely used by academics, journalists, subject matter experts, and controversialists, has suffered a data breach affecting an unknown number of its creators and subscribers. According to emails sent out this week to some users, on February 3 the compan...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128287/substack-data-breach-leaks-users-email-addresses-and-phone-numbers.html",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265841",
+    "date": "2026-02-05",
+    "title": "EnCase Driver Weaponized as EDR Killers Persist",
+    "summary": "The forensic tool's driver was signed with a digital certificate that expired years ago, but major security gaps allowed Windows to load it.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/encase-driver-weaponized-edr-killers-persist",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20265842",
+    "date": "2026-02-05",
+    "title": "Agentic AI Site 'Moltbook' Is Riddled With Security Risks",
+    "summary": "Someone used AI to build an entire Web platform, which then did something predictable and preventable: It exposed all its data through a publicly accessible API.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/agentic-ai-moltbook-security-risks",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265843",
+    "date": "2026-02-05",
+    "title": "Chrome Vulnerabilities Allow Code Execution, Browser Crashes",
+    "summary": "Google released a Chrome security update fixing two high-severity flaws that could enable code execution or crashes via malicious websites. The post Chrome Vulnerabilities Allow Code Execution, Browser Crashes appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-google-chrome-security-update-february-2026/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "google",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265844",
+    "date": "2026-02-05",
+    "title": "Microsoft Overhauls Security Leadership as AI Expands Enterprise Attack Surface",
+    "summary": "Microsoft brings back Hayete Gallot to lead Security while Charlie Bell moves to an engineering quality mandate, both reporting to CEO Satya Nadella. The post Microsoft Overhauls Security Leadership as AI Expands Enterprise Attack Surface appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-gallot-security-bell-engineering-quality/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265845",
+    "date": "2026-02-05",
+    "title": "Spain's Ministry of Science shuts down systems after breach claims",
+    "summary": "Spain's Ministry of Science (Ministerio de Ciencia) announced a partial shutdown of its IT systems, affecting several citizen- and company-facing services. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265846",
+    "date": "2026-02-05",
+    "title": "Ransomware gang uses ISPsystem VMs for stealthy payload delivery",
+    "summary": "Ransomware operators are hosting and delivering malicious payloads at scale by abusing virtual machines (VMs) provisioned by ISPsystem, a legitimate virtual infrastructure management provider. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265848",
+    "date": "2026-02-05",
+    "title": "The quietest weapon in America’s loudest strike.",
+    "summary": "Cyber weapons knock out Iranian air defenses during strikes on nuclear sites. ShinyHunters dump more than a million stolen records from Harvard and Penn. Betterment confirms a breach exposing data from roughly 1.4 million accounts. Researchers uncover a sprawling scam network impersonating law fi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2483/notes",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265797",
     "date": "2026-02-05",
     "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
