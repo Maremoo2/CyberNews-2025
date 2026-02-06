@@ -1,5 +1,186 @@
 [
   {
+    "id": "20265896",
+    "date": "2026-02-06",
+    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+    "summary": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF. Claude Opus 4.6, which was launched on Th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265897",
+    "date": "2026-02-06",
+    "title": "Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog",
+    "summary": "CISA updated 59 KEV entries in 2025 to specify that the vulnerabilities have been exploited in ransomware attacks. The post Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/questions-raised-over-cisas-silent-ransomware-updates-in-kev-catalog/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265898",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Datasenter og ny industri: Her går mesteparten av overskuddsvarmen tapt",
+    "summary": "Tung trekker fram prosjektet som en «perfekt symbiose» mellom datasenter og ny industri – men kun en brøkdel av overskuddsvarmen gjenbrukes.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/datasenter-og-industri-her-gar-mesteparten-av-overskuddsvarmen-tapt/567829",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265899",
+    "date": "2026-02-06",
+    "title": "Zscaler Acquires Browser Security Firm SquareX ",
+    "summary": "Zscaler says the acquisition will allow customers to embed lightweight extensions into any browser, providing increased security and eliminating the need for third-party browsers. The post Zscaler Acquires Browser Security Firm SquareX appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/zscaler-acquires-browser-security-firm-squarex/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265900",
+    "date": "2026-02-06",
+    "title": "ISC Stormcast For Friday, February 6th, 2026 https://isc.sans.edu/podcastdetail/9798, (Fri, Feb 6th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32688",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265901",
+    "date": "2026-02-06",
+    "title": "Marlin ISD Launches K-12 Cyber Security Pathways Program with Baylor University Partnership",
+    "summary": "Beginning in Fall 2026, high school students will engage in coursework specifically designed to equip them with essential cybersecurity skills ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kwtx.com/2026/02/05/marlin-isd-launches-k-12-cyber-security-pathways-program-with-baylor-university-partnership/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265902",
+    "date": "2026-02-06",
+    "title": "Amazon EC2 G6e instances now available in Dubai region",
+    "summary": "Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S Tensor Core GPUs is now available in Middle East (UAE) Region. G6e instances can be used for a wide range of machine learning and spatial computing use cases. Customers can use G6e instances to deploy large language models (LLMs)...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-dubai-region/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265903",
+    "date": "2026-02-06",
+    "title": "Amazon WorkSpaces launches Graphics G6, Gr6, and G6f bundles",
+    "summary": "Today, Amazon WorkSpaces announces the availability of 12 new Graphics G6, Gr6, and G6f WorkSpaces bundles built on the Amazon EC2 G6 family. These bundles expand customers’ options for running graphics-intensive and GPU-accelerated workloads, and are available on both Amazon WorkSpaces Personal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-personal-core-graphics-g6-gr6-g6f-bundles/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265904",
+    "date": "2026-02-06",
+    "title": "Amazon EC2 I7ie instances now available in AWS Canada (Central)",
+    "summary": "AWS is announcing Amazon EC2 I7ie instances are now available in AWS Canada (Central) regions. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, offering up to 40% better compute performance...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-i7ie-instances-available-aws-canada/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265905",
+    "date": "2026-02-06",
+    "title": "Amazon EC2 capacity blocks for ML can be shared across multiple accounts",
+    "summary": "Amazon Web Services (AWS) is announcing the general availability of cross-account sharing for Amazon EC2 Capacity Blocks for ML. This capability allows organizations to share reserved GPU capacity across AWS accounts using AWS Resource Access Manager (RAM), helping optimize utilization and reduce...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265906",
+    "date": "2026-02-06",
+    "title": "Pentagon Officials Emphasize Securing OT Systems - MeriTalk",
+    "summary": "Echoing these themes, Jeffrey Sanders, a project manager in the Cyber Security Program Office at the Naval Information Warfare Systems Command ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://meritalk.com/articles/pentagon-officials-emphasize-securing-ot-systems/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265907",
+    "date": "2026-02-06",
+    "title": "Hitachi Energy XMC20 - CISA",
+    "summary": "General Mitigation Factors. Recommended security practices and firewall configurations can help protect a process control network from attacks that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-05",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265891",
     "date": "2026-02-06",
     "title": "The hidden cost of putting off security decisions",
