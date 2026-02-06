@@ -1,5 +1,427 @@
 [
   {
+    "id": "20265908",
+    "date": "2026-02-06",
+    "title": "Security Risks Around Super Bowl LX: What Security Leaders Should Be Watching",
+    "summary": "The Super Bowl is not just a game, but a blueprint for how modern risk must be managed.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102114-security-risks-around-super-bowl-lx-what-security-leaders-should-be-watching",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265909",
+    "date": "2026-02-06",
+    "title": "La CFA lance un site anti-désinformation pour lutter contre les fake news sur les allocations",
+    "summary": "La CAF lance un nouvel espace anti-désinformation, en s'associant notamment au Gorafi pour combattre les fausses informations qui inondent les réseaux sociaux. Une démarche étonnante contre les infox.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599323-la-cfa-lance-un-site-anti-desinformation-pour-lutter-contre-les-fake-news-sur-les-allocations.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265910",
+    "date": "2026-02-06",
+    "title": "Riot, la start-up française qui débusquent les SMS piégés, va changer de dimension en 2026",
+    "summary": "La start-up française de cybersécurité Riot annonce un plan de recrutement ambitieux pour 2026, avec 150 nouvelles recrues. Un tiers des postes visera des talents européens qui rejoindront son hub parisien.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599302-riot-la-start-up-francaise-qui-debusquent-les-sms-pieges-va-changer-de-dimension-en-2026.html",
+    "tags": [
+      "iot",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265911",
+    "date": "2026-02-06",
+    "title": "ExpressVPN lance des apps dédiées pour protéger vos mots de passe et vos mails",
+    "summary": "ExpressVPN a choisi de décloisonner deux fonctionnalités de ses applications VPN et les transforme en outils indépendants. ExpressKeys et ExpressMailGuard deviennent des services à part entière, accessibles via des applications dédiées.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599218-expressvpn-lance-des-apps-dediees-pour-proteger-vos-mots-de-passe-et-vos-mails.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265912",
+    "date": "2026-02-06",
+    "title": "Google Chrome : une extension IA sur deux siphonne vos données, à qui profite le crime ?",
+    "summary": "Les extensions Chrome dopées à l’IA promettent de simplifier le quotidien, mais une nouvelle étude montre qu’elles peuvent aussi devenir une porte d’entrée discrète pour la collecte de données personnelles. Incogni a passé au crible 442 modules populaires et dresse un panorama des risques.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599194-google-chrome-une-extention-ia-sur-deux-siphonne-vos-donnees-a-qui-profite-le-crime.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265913",
+    "date": "2026-02-06",
+    "title": "Sécuriser son Mac sans se ruiner : le Mac Premium Bundle X9 à prix réduit",
+    "summary": "À l’heure où les usages sur Mac se multiplient, travail, données personnelles, navigation nomade, la question de la sécurité revient sur le devant de la scène. Cette offre sur le Mac Premium Bundle X9 propose une approche globale, à analyser avec recul avant de se décider.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-598990-securiser-son-mac-sans-se-ruiner-le-mac-premium-bundle-x9-a-prix-reduit.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265914",
+    "date": "2026-02-06",
+    "title": "VPN : pourquoi cette offre du très réputé NordVPN vaut le détour en 2026 ?",
+    "summary": "En ce début d’année 2026, les usages numériques continuent de s’intensifier : télétravail, streaming, paiements en ligne ou connexions sur des réseaux Wi-Fi publics font désormais partie du quotidien. Dans ce contexte, sécuriser ses données personnelles devient une priorité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-599206-bon-plan-ce-logiciel-vpn-a-3-39-mois-est-votre-meilleure-arme-pour-securiser-votre-navigation-internet.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265915",
+    "date": "2026-02-06",
+    "title": "The Cyber Express Weekly Roundup: Global Cybersecurity Incidents and Policy Shifts",
+    "summary": "As the first week of February 2026 concludes, The Cyber Express weekly roundup examines the developments shaping today’s global cybersecurity landscape. Over the past several days, governments, technology companies, and digital platforms have confronted a wave of cyber incidents ranging from disr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/tce-weekly-roundup-february-2026/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265916",
+    "date": "2026-02-06",
+    "title": "Spain Ministry of Science Cyberattack Triggers Partial IT Shutdown",
+    "summary": "The Spain Ministry of Science cyberattack has caused a partial shutdown of government IT systems, disrupting services used daily by researchers, universities, students, and businesses across the country. While officials initially described the issue as a “technical incident,” boarding evidence an...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/spain-ministry-of-science-cyberattack/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265917",
+    "date": "2026-02-06",
+    "title": "La Sapienza Cyberattack Forces Italy’s Largest University Offline",
+    "summary": "Rome’s Sapienza University, Europe’s largest university by number of on-campus students, is grappling with a major IT outage following a cyberattack on La Sapienza that disrupted digital services across the institution. The La Sapienza cyberattack has forced the university to take critical system...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/la-sapienza-cyberattack-bablock-ransomware/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265918",
+    "date": "2026-02-06",
+    "title": "OpenAI Launches Trusted Access for Cyber to Expand AI-Driven Defense While Managing Risk",
+    "summary": "OpenAI has announced a new initiative aimed at strengthening digital defenses while managing the risks that come with capable artificial intelligence systems. The effort, called Trusted Access for Cyber, is part of a broader strategy to enhance baseline protection for all users while selectively ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/trusted-access-for-cyber-openai/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265919",
+    "date": "2026-02-06",
+    "title": "Why End-of-Support Edge Devices Have Become a National Security Risk",
+    "summary": "The growing cyber threat from End-of-Support edge devices is no longer a technical inconvenience, it is a national cybersecurity liability. With threat actors actively exploiting outdated infrastructure, federal agencies can no longer afford to treat unsupported edge technology as a future proble...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/end-of-support-edge-devices/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265920",
+    "date": "2026-02-06",
+    "title": "Global espionage operation “Shadow Campaigns” breaches 70 orgs in 37 countries",
+    "summary": "A newly identified cyber-espionage group tracked as TGR-STA-1030, dubbed the “Shadow Campaigns,” has breached at least 70 high-value government and critical infrastructure entities across 37 countries. The group has been active since at least early 2024, ramping up operations through 2025 with an...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/global-espionage-operation-shadow-campaigns-breaches-70-orgs-in-37-countries/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265921",
+    "date": "2026-02-06",
+    "title": "Flickr suffers data breach exposing user emails and location data",
+    "summary": "Flickr has begun sending data breach notifications to users after a third-party email service provider suffered a security incident that may have exposed personal user information. While affected users are now receiving alert emails, Flickr has yet to make any public statements or acknowledge the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/flickr-suffers-data-breach-exposing-user-emails-and-location-data/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265922",
+    "date": "2026-02-06",
+    "title": "Ransomware attackers are exploiting critical SmarterMail vulnerability (CVE-2026-24423)",
+    "summary": "For the third time in two weeks, CISA added a vulnerability (CVE-2026-24423) affecting SmarterTools’ SmarterMail email and collaboration server to its Known Exploited Vulnerabilities catalog, and this one is being exploited in ransomware attacks. A glut of SmarterMail vulnerabilities On January 2...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/ransomware-smartermail-cve-2026-24423/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265923",
+    "date": "2026-02-06",
+    "title": "Claude Opus 4.6 improves agentic performance and model safety",
+    "summary": "Claude Opus 4.6 builds on earlier releases with improved coding performance and more consistent behavior in complex tasks. Opus 4.6 finds real vulnerabilities in codebases better than any other model (Source: Anthropic) According to Anthropic, the model applies more deliberate planning during tas...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/anthropic-claude-opus-4-6-coding/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265924",
+    "date": "2026-02-06",
+    "title": "MintMCP’s governance platform helps organizations deploy, monitor, and secure AI agents",
+    "summary": "MintMCP launched its enterprise governance platform for AI agents and MCP servers, enabling teams to deploy, monitor, and secure agent infrastructure at scale. The platform enables organizations to deploy, monitor, and secure AI agents at scale while maintaining complete audit trails and policy e...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/mintmcp-ai-agents-platform/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265925",
+    "date": "2026-02-06",
+    "title": "February 2026 Patch Tuesday forecast: Lots of OOB love this month",
+    "summary": "Valentine’s Day is just around the corner and Microsoft has been giving us a lot of love with a non-stop supply of patches starting with January 2026 Patch Tuesday. The January releases addressed 92 vulnerabilities in Windows 11 and Server2025, as well as 79 vulnerabilities for Windows 10 and its...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/february-2026-patch-tuesday-forecast/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265926",
+    "date": "2026-02-06",
+    "title": "Kasada Account Intelligence combats manual fraud and abuse",
+    "summary": "Kasada released Account Intelligence, a new product designed to detect account-level fraud and abuse. The goal is to prevent repeat abuse before it creates financial loss and unnecessary friction for customers. Enterprises are facing account and business-logic abuse that existing bot and fraud to...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/kasada-account-intelligence-product/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265927",
+    "date": "2026-02-06",
+    "title": "Mobile privacy audits are getting harder",
+    "summary": "Mobile apps routinely collect and transmit personal data in ways that are difficult for users, developers, and regulators to verify. Permissions can reveal what an app can access, and privacy policies can claim what an app should do, yet neither reliably shows what data is actually collected and ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/mopri-mobile-app-privacy-analysis/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265928",
+    "date": "2026-02-06",
+    "title": "Top Features to Look for in Access Control Systems for Indianapolis Properties",
+    "summary": "In this post, I will show you the top features to look for in Access Control Systems for Indianapolis properties. The janitor used the emergency exit again. It wasn’t an emergency. He just forgot his badge. Again. And now the entire building’s security system is blinking like it’s under siege. We...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/top-features-in-access-control-systems/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265929",
+    "date": "2026-02-06",
+    "title": "7 Logo Design Tips for Startups",
+    "summary": "In this post, I will discuss 7 logo design tips for startups. In a world where a new startup surfaces every other day, it takes a lot to thrive in the market. You need to cut through the noise and make a mark on the prospects, and an impressive logo is one way to do […] The post 7 Logo Design Tip...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/logo-design-tips-for-startups/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265930",
+    "date": "2026-02-06",
+    "title": "CISA gives federal agencies 18 months to purge unsupported edge devices",
+    "summary": "The Cybersecurity and Infrastructure Security Agency has given federal agencies 18 months to remove all end-of-support edge devices from their networks, escalating its response to what security researchers describe as a fundamental shift in nation-state attack tactics, where attackers exploit net...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128748/cisa-gives-federal-agencies-18-months-to-purge-unsupported-edge-devices.html",
+    "tags": [
+      "vulnerability",
+      "state-sponsored",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265931",
+    "date": "2026-02-06",
+    "title": "Zscaler extends zero-trust security to browsers with SquareX acquisition",
+    "summary": "Cloud security company Zscaler has announced the acquisition of SquareX, a Singapore-based browser detection and response (BDR) technology startup. The deal will enable Zscaler to extend its Zero Trust Exchange capabilities directly into standard web browsers, across both managed and unmanaged de...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128745/zscaler-extends-zero-trust-security-to-browsers-with-squarex-acquisition.html",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265932",
+    "date": "2026-02-06",
+    "title": "KI als AWS-Angriffsturbo",
+    "summary": "Kriminelle Hacker haben ihre Angriffe auf AWS-Umgebungen mit KI beschleunigt. khunkornStudio – shutterstock.com Forscher des Sicherheitsanbieters Sysdig haben einen Angriff aufgedeckt, bei dem kriminelle Angreifer eine AWS-Umgebung in weniger als acht Minuten vollständig kompromittieren konnten. ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127244/ki-als-aws-angriffsturbo.html",
+    "tags": [
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265933",
+    "date": "2026-02-06",
+    "title": "The blind spot every CISO must see: Loyalty",
+    "summary": "The longstanding assumption that tenure, performance metrics, or expressed commitment serve as reliable indicators of the trustworthiness of an employee persists across many sectors. Indeed, the great majority of personnel are loyal. But, while small, the percentage of those who aren’t is still w...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127687/the-blind-spot-every-ciso-must-see-loyalty.html",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20265934",
+    "date": "2026-02-06",
+    "title": "Hidden Call Center Workload Risks That Create Cybersecurity Gaps",
+    "summary": "Call centers are often discussed in terms of efficiency, customer experience and agent performance. Far less attention is paid to how operational workload patterns quietly shape cybersecurity risk. Yet many data breaches, compliance failures, and privacy incidents don’t originate from malicious i...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/hidden-call-center-workload-risks-that-create-cybersecurity-gaps",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265935",
+    "date": "2026-02-06",
+    "title": "Flickr discloses potential data breach exposing users' names, emails",
+    "summary": "Photo-sharing platform Flickr is notifying users of a potential data breach after a vulnerability at a third-party email service provider exposed their real names, email addresses, IP addresses, and account activity. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/flickr-discloses-potential-data-breach-exposing-users-names-emails/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265936",
+    "date": "2026-02-06",
+    "title": "CISA orders federal agencies to replace end-of-life edge devices",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a new binding operational directive requiring federal agencies to identify and remove network edge devices that no longer receive security updates from manufacturers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-replace-end-of-life-edge-devices/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265896",
     "date": "2026-02-06",
     "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
