@@ -1,5 +1,343 @@
 [
   {
+    "id": "20265937",
+    "date": "2026-02-06",
+    "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+    "summary": "Marco Stealer is a sophisticated information stealer targeting browser data, cryptocurrency wallets, and sensitive files. It employs advanced anti-analysis techniques and uses AES-256 encryption for secure C2 communication. Zscaler ThreatLabz identified three malicious npm packages in November 20...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://social.cyware.com/alerts/filter/?source_name=Zscaler",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265938",
+    "date": "2026-02-06",
+    "title": "Technical Analysis of Marco Stealer | ThreatLabz",
+    "summary": "This section provides a breakdown of Marco Stealer’s functionality, including its downloader, anti-analysis mechanisms, data collection techniques, and methods for exfiltrating stolen information.Downloader The downloader component decrypts multiple strings using AES-128 in ECB mode to generate a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.zscaler.com/blogs/security-research/technical-analysis-marco-stealer?&web_view=true",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265939",
+    "date": "2026-02-06",
+    "title": "Flickr Security Incident Tied to Third-Party Email System",
+    "summary": "Potential breach at Flickr exposes usernames, email addresses, IP addresses, and activity data. The post Flickr Security Incident Tied to Third-Party Email System appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265940",
+    "date": "2026-02-06",
+    "title": "Living off the AI: The Next Evolution of Attacker Tradecraft",
+    "summary": "Living off the AI isn’t a hypothetical but a natural continuation of the tradecraft we’ve all been defending against, now mapped onto assistants, agents, and MCP. The post Living off the AI: The Next Evolution of Attacker Tradecraft appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265941",
+    "date": "2026-02-06",
+    "title": "Romania’s oil pipeline operator confirms cyberattack as hackers claim data theft",
+    "summary": "Romania’s national oil pipeline operator Conpet said a cyberattack disrupted parts of its technology infrastructure and knocked its website offline earlier this week, adding that oil transport operations were not affected.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/romania-conpet-oil-pipeline-ransomware-attack",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265942",
+    "date": "2026-02-06",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c9a17c29b28e1b8 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265943",
+    "date": "2026-02-06",
+    "title": "Ny epoke i internetthistorien: Vår kjærlighet til internett er i ferd med å ta slutt",
+    "summary": "Vår kjærlighet til internett er i ferd med å ta slutt. Forholdet er i ferd med å få en mer praktisk art.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kommentar-ny-epoke-i-internetthistorien-fra-romantikk-til-realisme/567910",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265944",
+    "date": "2026-02-06",
+    "title": "In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities",
+    "summary": "Other noteworthy stories that might have slipped under the radar: AT&T and Verizon response to Salt Typhoon, AI agents solve security challenges, man arrested in Poland for DDos Attacks. The post In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities appeared first on Security...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265945",
+    "date": "2026-02-06",
+    "title": "How Samsung Knox Helps Stop Your Network Security Breach",
+    "summary": "As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls are now more detailed. However (and it’s a big “however”), the increasing use of mobile devices in...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265946",
+    "date": "2026-02-06",
+    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds. Cloudflare, which automatically detected and mitigated the activity, said it's part of a growing number...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html?&web_view=true",
+    "tags": [
+      "ddos",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265947",
+    "date": "2026-02-06",
+    "title": "Airrived Emerges From Stealth With $6.1 Million in Funding",
+    "summary": "The startup aims to unify SOC, GRC, IAM, vulnerability management, IT, and business operations through its Agentic OS platform. The post Airrived Emerges From Stealth With $6.1 Million in Funding appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265948",
+    "date": "2026-02-06",
+    "title": "Access Denied",
+    "summary": "Reference #18.85861402.1770368315.776088c0",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/02/05/cisa-adds-two-known-exploited-vulnerabilities-catalog?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265949",
+    "date": "2026-02-06",
+    "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+    "summary": "Cybersecurity researchers have discovered a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions to facilitate wallet credential theft and remote code execution. The compromised versions of the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265950",
+    "date": "2026-02-06",
+    "title": "‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks",
+    "summary": "Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users. The post ‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265951",
+    "date": "2026-02-06",
+    "title": "Risiko 2026: Dagens valg – morgendagens risiko",
+    "summary": "Norge trenger at virksomheter flest bidrar til at samfunnet fungerer mest mulig normalt uavhengig av sikkerhetssituasjonen. Det krever et godt forebyggende sikkerhetsarbeid.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://nsm.no/aktuelt/risiko-2026",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265952",
+    "date": "2026-02-06",
+    "title": "5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel",
+    "summary": "The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise. The post 5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265953",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Statens hackere tok full kontroll over norske etater",
+    "summary": "Nasjonal sikkerhetsmyndighet (NSM) kan kunsten å hacke. Nå roper de varsku.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/statens-hackere-tok-full-kontroll-over-norske-etater/567802",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265954",
+    "date": "2026-02-06",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9c990fbdfc6ad0ce • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265955",
+    "date": "2026-02-06",
+    "title": "Critical SmarterMail Vulnerability Exploited in Ransomware Attacks",
+    "summary": "The security defect allows unauthenticated attackers to execute arbitrary code remotely via malicious HTTP requests. The post Critical SmarterMail Vulnerability Exploited in Ransomware Attacks appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265956",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Telenor mistet 56.000 mobilkunder",
+    "summary": "Bredbånd gikk ned 13.000. Den gode nyheten er at Telenor tjener mer på hver mobilkunde.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-mistet-56-000-mobilkunder/567943",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265957",
+    "date": "2026-02-06",
+    "title": "[Ekstra] Utbyttefest i Telenor: : Betaler for Norden-kjøp med Asia-salgene",
+    "summary": "Bruker salgsinntektene fra Pakistan og Thailand til å betale for Globalconnect-fiber, og ser etter mer å kjøpe i Norden. Aksjonærene får også milliarder.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-betaler-for-norden-kjop-med-asia-salgene/567940",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265958",
+    "date": "2026-02-06",
+    "title": "AWS Glue launches native REST API connector for universal data integration",
+    "summary": "AWS Glue now offers a native REST-based connector that enables customers to easily read data from any source with a REST-based API. Customers can now create custom connectors to any REST-enabled data source and seamlessly integrate that data into their AWS Glue ETL (Extract, Transform, and Load) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265959",
+    "date": "2026-02-06",
+    "title": "The ultimate Microsoft 365 community event returns—your front‑row seat to the future of intelligent work",
+    "summary": "This event is your front-row seat to everything new and next across Microsoft 365—with hundreds of opportunities to learn directly from product makers and connect with the best community in tech. The post The ultimate Microsoft 365 community event returns—your front‑row seat to the future of inte...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/05/the-ultimate-microsoft-365-community-event-returns-your-front%E2%80%91row-seat-to-the-future-of-intelligent-work/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20265908",
     "date": "2026-02-06",
     "title": "Security Risks Around Super Bowl LX: What Security Leaders Should Be Watching",
