@@ -1,5 +1,588 @@
 [
   {
+    "id": "20265960",
+    "date": "2026-02-06",
+    "title": "Epstein File Data Security Update: Raw Code Found in Emails",
+    "summary": "Reports suggest raw email data was found in select Epstein files.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102120-epstein-file-data-security-update-raw-code-found-in-emails",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265961",
+    "date": "2026-02-06",
+    "title": "Five Top Tips for Building a Strong Security Culture",
+    "summary": "Courtney Hans, Vice President of Cyber Services at ANV, shares her top five tips for building a security-first organization.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102106-five-top-tips-for-building-a-strong-security-culture",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265962",
+    "date": "2026-02-06",
+    "title": "Senator, who has repeatedly warned about secret U.S. government surveillance, sounds new alarm over ‘CIA activities’",
+    "summary": "The two-line letter to the CIA's director is the latest warning in recent years from a long-serving Democratic senator with knowledge of secret government programs and intelligence operations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/06/senator-who-has-repeatedly-warned-about-secret-u-s-government-surveillance-sounds-new-alarm-over-cia-activities/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265963",
+    "date": "2026-02-06",
+    "title": "China’s Salt Typhoon hackers broke into Norwegian companies",
+    "summary": "Norway's government accused China’s Salt Typhoon hacking group of conducting a cyberespionage campaign in the country.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/06/chinas-salt-typhoon-hackers-broke-into-norwegian-companies/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265964",
+    "date": "2026-02-06",
+    "title": "Le ministère des Armées va ouvrir ses données à certaines start-up cyber, et il recherche des candidats",
+    "summary": "Le ministre des Armées a décidé d'ouvrir les portes de sa Cyber Defense Factory, une plateforme qui propose un accès privilégié à des données militaires aux meilleurs candidats, et une expertise opérationnelle pour tester des solutions de cybersécurité.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599473-le-ministere-des-armees-va-ouvrir-ses-donnees-a-certaines-start-up-cyber-et-il-recherche-des-candidats.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265965",
+    "date": "2026-02-06",
+    "title": "Faille WinRAR : un acteur lié à des opérations chinoises identifié derrière des campagnes de cyberespionnage",
+    "summary": "Malgré un correctif publié à l’été 2025, la faille de WinRAR se retrouve au cœur de nouvelles campagnes d’espionnage ciblées. Cette fois, les chercheurs de Check Point attribuent ces opérations à un acteur précis, baptisé Amaranth Dragon.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599314-faille-winrar-un-acteur-lie-a-des-operations-chinoises-identifie-derriere-des-campagnes-de-cyberespionnage.html",
+    "tags": [
+      "malware",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265966",
+    "date": "2026-02-06",
+    "title": "pCloud lance une enquête après des signalements étranges",
+    "summary": "Des messages publiés sur un forum communautaire font état de fichiers inconnus apparaissant dans les comptes pCloud et de documents personnels effacés par un tiers. L'entreprise suisse a réagi en ouvrant une enquête, mais aucune violation de données n'est pour l'instant établie.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599287-pcloud-lance-une-enquete-apres-des-signalements-etranges.html",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265967",
+    "date": "2026-02-06",
+    "title": "Ransomware attacks against education sector slow worldwide",
+    "summary": "The U.S. saw the highest number of education-related ransomware attacks in 2025, at 130, despite a 9% decline year over year.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ransomware-attacks-against-education-sector-slow-worldwide/811588/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265968",
+    "date": "2026-02-06",
+    "title": "Germany warns of Signal account attacks targeting high-profile figures",
+    "summary": "Germany’s Federal Office for the Protection of the Constitution (BfV) and the Federal Office for Information Security (BSI) have issued a joint warning about an ongoing phishing campaign leveraging the secure messaging app Signal. The campaign, which is likely orchestrated by a state-sponsored th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/germany-warns-of-signal-account-attacks-targeting-high-profile-figures/",
+    "tags": [
+      "phishing",
+      "malware",
+      "state-sponsored",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265969",
+    "date": "2026-02-06",
+    "title": "ExpressVPN launches standalone password manager and email privacy tool",
+    "summary": "ExpressVPN officially introduced ExpressKeys, a dedicated password manager app, and ExpressMailGuard, an email aliasing and forwarding service designed to preserve inbox privacy. The launches represent a strategic decoupling of privacy features from the company’s core VPN product, reflecting a br...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/expressvpn-launches-standalone-password-manager-and-email-privacy-tool/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265970",
+    "date": "2026-02-06",
+    "title": "Windscribe alleges warrantless seizure of VPN server by Dutch authorities",
+    "summary": "Windscribe VPN has alleged that local authorities in the Netherlands seized one of its servers without a warrant, sparking concerns about procedural overreach and potential implications for user privacy. The incident was publicly disclosed by the company on X (formerly Twitter) and has yet to be ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/windscribe-alleges-warrantless-seizure-of-vpn-server-by-dutch-authorities/",
+    "tags": [
+      "twitter"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265971",
+    "date": "2026-02-06",
+    "title": "State-backed phishing attacks targeting military officials and journalists on Signal",
+    "summary": "German security authorities are warning that a likely state-backed hacking group is engaged in attempts at phishing senior political figures, military officials, diplomats, and investigative journalists across Germany and Europe via Signal. The authorities also noted that while these attacks are ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/state-linked-phishing-europe-journalists-signal/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265972",
+    "date": "2026-02-06",
+    "title": "Poland’s energy control systems were breached through exposed VPN access",
+    "summary": "On 29 December 2025, coordinated cyberattacks unfolded across Poland’s critical infrastructure, targeting energy and industrial organizations. The attackers struck numerous wind and solar farms, a private manufacturing company, and a heat and power (CHP) plant, but failed to negatively affect ene...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/poland-cyberattacks-energy-sector-industrial-organizations/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265973",
+    "date": "2026-02-06",
+    "title": "CISA orders US federal agencies to replace unsupported edge devices",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) issued a new binding operational directive aimed at reducing a long-standing cyber risk across federal networks: outdated “edge devices” that are not longer supported by vendors and aren’t receiving timely security updates. By “edge d...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/cisa-orders-us-federal-agencies-to-replace-unsupported-edge-devices/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265974",
+    "date": "2026-02-06",
+    "title": "AI Threats, Botnets, and Cloud Exploits Define This Week’s Cyber Risks",
+    "summary": "Major Threats & Vulnerabilities Critical Vulnerabilities in AI and Automation Platforms A severe flaw in the n8n automation platform allows authenticated users to execute arbitrary commands, potentially exposing cloud credentials and AI workflows. With a CVSS score of 10.0, this vulnerability has...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/ai-threats-botnets-and-cloud-exploits-define-this-weeks-cyber-risks/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265975",
+    "date": "2026-02-06",
+    "title": "Digital Fingerprinting in 2026: What Platforms Know About You Before You Click",
+    "summary": "Platforms don’t need cookies to track you. Learn how digital fingerprinting works across four layers and practical steps to reduce your exposure. You cleared your cookies. You’re using incognito mode. Maybe you even have a VPN running. None of that matters as much as you think. Modern platforms d...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/digital-fingerprinting/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265976",
+    "date": "2026-02-06",
+    "title": "Email Security Guide: Safeguarding Your Digital Communication",
+    "summary": "In this email security guide, we delve into the realm of email security—unveiling the threats that lurk, the best practices that fortify, and the emerging technologies that promise a safer tomorrow. Join us on this journey to become the guardians of your inbox, empowering yourself with the knowle...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/email-security-guide/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265977",
+    "date": "2026-02-06",
+    "title": "AI-Generated Content vs. Plagiarized Content: What’s the Difference and Why Does It Matter?",
+    "summary": "In this AI-generated content vs plagiarized content comparison, I will show you what’s the difference and why does it matter? The line between original and unoriginal content used to be simple. Either you wrote it yourself, or you copied it from someone else. That was plagiarism, and everyone und...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/ai-generated-content-vs-plagiarized-content/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265979",
+    "date": "2026-02-06",
+    "title": "The State of Ransomware: January 2026",
+    "summary": "BlackFog's state of ransomware January 2026 measures publicly disclosed and non-disclosed attacks globally.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/the-state-of-ransomware-january-2026/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265980",
+    "date": "2026-02-06",
+    "title": "Turkey’s Draft “Gaming Law” Could Isolate Millions of Gamers, Risking Digital Isolation",
+    "summary": "A new gaming legislation will negatively impact millions of Turkish gamers and result in their exclusion from all major game platform retailers (i.e., Steam, Epic Games Store, PlayStation Store, Xbox Store). This law was developed by Turkey’s Ministry of Family and Social Services. The new regula...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/privacy/turkish-gamers-at-risk-draft-gaming-law/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265981",
+    "date": "2026-02-06",
+    "title": "Your Power: Why Billie Eilish is Right About ICE",
+    "summary": "Billie Eilish used 30 seconds of her own earned platform to state a historical fact and object to state violence. That’s it. She said the truth. She was right. That’s all that happened. And then an entire apparatus run by old white men started spinning up to attack her and make that simple act su...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76966",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265982",
+    "date": "2026-02-06",
+    "title": "Florida Weaponized Candy for DeSantis’ Wife to Become Governor",
+    "summary": "Florida dropped a disinformation bomb from their “Healthy Florida First” platform, which says eating six Jolly Ranchers in a year could poison your child. It’s total bullshit. Look, I’m not going to defend candy. Anyone who knows me knows I can’t stand the stuff. I haven’t touched a piece in deca...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76959",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265983",
+    "date": "2026-02-06",
+    "title": "Florida Nazi Politician Jake Lang Arrested in Minnesota",
+    "summary": "Jake Lang is known most for his Nazi salutes, anti-semitic campaigning, and being pardoned by Trump after violently assaulting the U.S. Capitol to overthrow democracy. His rap sheet now extends to an incident where he traveled to Minnesota to attack and censor the speech of people there he disagr...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76949",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265984",
+    "date": "2026-02-06",
+    "title": "Lessons Learned from Securing the World’s Largest Cyber Events",
+    "summary": "Announcing the launch of the Cisco Event SOCs website and the release of our comprehensive Reference Architecture & Operations Guide.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/event-soc-guide/",
+    "tags": [
+      "malware",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265985",
+    "date": "2026-02-06",
+    "title": "Claude AI finds 500 high-severity software vulnerabilities",
+    "summary": "Anthropic only released its latest large language model, Claude Opus 4.6, on Thursday, but it has already been using it behind the scenes to identify zero-day vulnerabilities in open-source software. In the trial, it put Claude inside a virtual machine with access to the latest versions of open s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128889/claude-ai-finds-500-high-severity-software-vulnerabilities.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265986",
+    "date": "2026-02-06",
+    "title": "Pretend Disk Format: PDFs harbor new dangers",
+    "summary": "A particularly insidious phishing campaign is disguising malware pretending to be ordinary PDF documents behind links to virtual hard disks. Because workers are used to receiving purchase orders or invoices in the PDF format, they are likely to open the malicious files unthinkingly, enabling the ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128872/pretend-disk-format-pdfs-harbor-new-dangers-2.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265987",
+    "date": "2026-02-06",
+    "title": "Ten career-ending mistakes CISOs make and how to avoid them",
+    "summary": "The Chief Information Security Officer role has become one of the most precarious positions in the C-suite. According to a Hitch Partners study, the average CISO tenure is 39 months — a timeframe that reflects the intense pressure and high stakes of the position. With 77% of CISOs fearing dismiss...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128090/ten-career-ending-mistakes-cisos-make-and-how-to-avoid-them.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265988",
+    "date": "2026-02-06",
+    "title": "&quot;Encrypt It Already&quot; Campaign Pushes Big Tech to Prioritize E2E Encryption",
+    "summary": "The Electronic Frontier Foundation is urging major technology companies to follow through on their promises to implement end-to-end encryption by default across their services, as privacy concerns mount amid increased AI use.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/encrypt-it-already-pushes-big-tech-e2e-encryption",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20265989",
+    "date": "2026-02-06",
+    "title": "Shai-hulud: The Hidden Cost of Supply Chain Attacks",
+    "summary": "Recent supply chain attacks involving self-propagating worms have spread far, but the damage and long-term impact is hard to quantify.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/shai-hulud-hidden-cost-supply-chain-attacks",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265990",
+    "date": "2026-02-06",
+    "title": "OpenClaw's Gregarious Insecurities Make Safe Usage Difficult",
+    "summary": "Malicious \"skills\" and persnickety configuration settings are just some of the issues that security researchers have found when installing — and removing — the OpenClaw AI assistant.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265992",
+    "date": "2026-02-06",
+    "title": "Chinese-Made Malware Kit Targets Chinese-Based Routers and Edge Devices",
+    "summary": "DKnife is a Chinese made malware framework that targets Chinese-based users",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/china-malware-kit-targets-routers/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265993",
+    "date": "2026-02-06",
+    "title": "Substack Confirms Data Breach, \"Limited User Data\" Compromised",
+    "summary": "Substack did not specify the number of users affected by the data breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/substack-confirms-data-breach/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20265994",
+    "date": "2026-02-06",
+    "title": "New Cyber Startup Programme to Debut at Infosecurity Europe 2026 ",
+    "summary": "Infosecurity Europe 2026 will debut a new Cyber Startup Programme, featuring a dedicated show-floor zone for early-stage cybersecurity companies to showcase innovations, connect with investors and highlight emerging technologies",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-startup-programme/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266019",
+    "date": "2026-02-06",
+    "title": "A Victorian school teacher was applying for ‘heaps of rentals’ online – then someone accessed his bank account",
+    "summary": "Michael suspects personal information he submitted to rent application platforms was leaked online. And analysis shows millions of documents may also be at riskGet our breaking news email, free app or daily news podcastMichael* has spent the past two months trying to get his digital identity back...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Guardian - Data & Computer Security",
+    "sourceUrl": "https://www.theguardian.com/australia-news/2026/feb/06/property-housing-rental-online-applications-data-privacy",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266020",
+    "date": "2026-02-06",
+    "title": "When Poor UI Becomes a Security Risk: Real-World Examples",
+    "summary": "Security failures don’t always start with hackers. Sometimes they start with buttons. Bad UI doesn’t just frustrate users. It teaches them unsafe behavior. When interfaces are confusing, people rush. They guess. They ignore warnings. They click what looks familiar. That’s how design quietly turns...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/when-poor-ui-becomes-a-security-risk-real-world-examples",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266021",
+    "date": "2026-02-06",
+    "title": "Why Rising Cybersecurity Spend Still Isn’t Convincing Boards on ROI in APAC",
+    "summary": "Cybersecurity budgets are rising across APAC, but CIOs and CISOs still face board scrutiny. Here’s why cybersecurity ROI remains hard to prove. The post Why Rising Cybersecurity Spend Still Isn’t Convincing Boards on ROI in APAC appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/cybersecurity-roi-in-apac/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266022",
+    "date": "2026-02-06",
+    "title": "CISA warns of SmarterMail RCE flaw used in ransomware attacks",
+    "summary": "The Cybersecurity & Infrastructure Security Agency (CISA) in the U.S. has issued a warning about CVE-2026-24423, an unauthenticated remote code execution (RCE) flaw in SmarterMail that is used in ransomware attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266023",
+    "date": "2026-02-06",
+    "title": "EDR, Email, and SASE Miss This Entire Class of Browser Attacks",
+    "summary": "Many modern attacks happen entirely inside the browser, leaving little evidence for traditional security tools. Keep Aware shows why EDR, email, and SASE miss browser-only attacks and how visibility changes prevention. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/edr-email-and-sase-miss-this-entire-class-of-browser-attacks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266024",
+    "date": "2026-02-06",
+    "title": "EU says TikTok faces large fine over \"addictive design\"",
+    "summary": "The European Commission said today that TikTok is facing a fine because its addictive features, including infinite scroll, autoplay, push notifications, and personalized recommendation systems, are breaching the EU's Digital Services Act (DSA). [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-commission-says-tiktok-facing-fine-over-addictive-design/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266025",
+    "date": "2026-02-06",
+    "title": "Man pleads guilty to hacking nearly 600 women’s Snapchat accounts",
+    "summary": "An Illinois man pleaded guilty to hacking nearly 600 women's Snapchat accounts to steal nude photos that he kept, sold, or traded online, including accounts he compromised at the request of a former university track coach who was later convicted of sextortion. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/man-pleads-guilty-to-hacking-nearly-600-womens-snapchat-accounts/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20265937",
     "date": "2026-02-06",
     "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
@@ -1019,6 +1602,35 @@
     "sourceUrl": "https://www.trendmicro.com/en_us/research/26/b/us-public-sector-under-siege.html",
     "tags": [
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265978",
+    "date": "2026-02-05",
+    "title": "Where to Get Highly Rated PowerPoint Templates? Visit AiPPT.com!",
+    "summary": "In this post, I will show you where to get highly rated PowerPoint templates. Whether you plan to pitch a visionary idea to investors, unveil a quarterly strategy, or deliver a complex data analysis, your presentation can expose your professionalism. A cluttered, uninspired layout can distract fr...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/where-to-get-highly-rated-powerpoint-templates/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265991",
+    "date": "2026-02-05",
+    "title": "Data Tool to Triage Exploited Vulnerabilities Can Make KEV More Useful",
+    "summary": "A disconnect exists between an organization's cybersecurity needs and lists like CISA's KEV Catalog. KEV Collider combines data from multiple open source vulnerability frameworks to help security teams quickly assess which are important, based on their priorities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/data-tool-triage-exploited-vulnerabilities-make-kev-catalog-more-useful",
+    "tags": [
+      "vulnerability"
     ],
     "impact": 3
   },
@@ -61716,6 +62328,65 @@
     "impact": 3
   },
   {
+    "id": "20265995",
+    "date": "2026-01-09",
+    "title": "Europol Leads Global Crackdown on Black Axe Cybercrime Gang, 34 Arrested",
+    "summary": "Europol-backed operation targets group behind numerous BEC attacks and romance scams",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/europol-crackdown-on-black-axe/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265996",
+    "date": "2026-01-09",
+    "title": "World Economic Forum: Deepfake Face-Swapping Tools Are Creating Critical Security Risks ",
+    "summary": "Researchers at the World Economic Forum have shown that threat actors can use commercial deepfake tools to bypass corporate security protections",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/wef-deepfake-faceswapping-security/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20265997",
+    "date": "2026-01-09",
+    "title": "AI-Powered Truman Show Operation Industrializes Investment Fraud",
+    "summary": "Check Point has uncovered a vast, AI-powered scam operation dubbed the “Truman Show”",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-truman-show-industrializes/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265998",
+    "date": "2026-01-09",
+    "title": "FBI Warns of North Korean QR Phishing Campaigns",
+    "summary": "The FBI says North Korea’s Kimsuky APT group is using QR codes in spear phishing campaigns",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fbi-warns-north-korean-qr-phishing/",
+    "tags": [
+      "phishing",
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264616",
     "date": "2026-01-09",
     "title": "Comparing the Top 10 EDR Solutions: Which One is Right for You?",
@@ -63168,6 +63839,107 @@
       "Data/IT"
     ],
     "impact": 5
+  },
+  {
+    "id": "20265999",
+    "date": "2026-01-08",
+    "title": "GoBruteforcer Botnet Targets Linux Servers",
+    "summary": "The GoBruteforcer botnet has been observed targeting exposed Linux servers on services like FTP and MySQL",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/gobruteforcer-botnet-linux-servers/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266000",
+    "date": "2026-01-08",
+    "title": "New Zero-Click Attack Lets ChatGPT User Steal Data",
+    "summary": "Researchers at Radware discovered new prompt injection attacks in ChatGPT agentic features",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/new-zeroclick-attack-chatgpt/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266001",
+    "date": "2026-01-08",
+    "title": "China-Linked UAT-7290 Targets Telecom Networks in South Asia",
+    "summary": "A long-term cyber-espionage campaign targeting South Asia's telecom firms has been linked to UAT-7290",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/china-uat-7290-targets-telecoms/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266002",
+    "date": "2026-01-08",
+    "title": "Phishing Attacks Exploit Misconfigured Email Routing Settings to Target Microsoft 365 Users",
+    "summary": "Misconfigurations abused to make phishing emails look like they come from within the organization",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phishing-exploits-misconfigured/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266003",
+    "date": "2026-01-08",
+    "title": "Fifth of Breaches Take Two Weeks to Recover From",
+    "summary": "Absolute Security claims that full recovery from endpoint-related downtime can take up to a fortnight for most organizations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fifth-breaches-two-weeks-recover/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266004",
+    "date": "2026-01-08",
+    "title": "US To Leave Global Forum on Cyber Expertise",
+    "summary": "The Trump administration decided to leave 66 international organizations, including the GFCE and the European Centre of Excellence for Countering Hybrid Threats",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/us-leave-global-forum-on-cyber/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266005",
+    "date": "2026-01-08",
+    "title": "Maximum Severity “Ni8mare” Bug Lets Hackers Hijack n8n Servers",
+    "summary": "A newly discovered vulnerability in authentication platform n8n could allow threat actors to take control of n8n servers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/maximum-severity-ni8mare-bug/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
   },
   {
     "id": "20263868",
@@ -65235,6 +66007,82 @@
     "sourceUrl": "https://www.hunton.com/privacy-and-information-security-law/2026/01",
     "tags": [
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266006",
+    "date": "2026-01-07",
+    "title": "Versatile Malware Loader pkr_mtsi Delivers Diverse Payloads",
+    "summary": "Malicious Windows packer named pkr_mtsi used as a flexible malware loader in malvertising campaigns",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malware-loader-pkrmtsi-payloads/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266007",
+    "date": "2026-01-07",
+    "title": "Ghost Tap Malware Fuels Surge in Remote NFC Payment Fraud",
+    "summary": "New Android malware enables unauthorized tap-to-pay transactions without physical access to bank cards",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ghost-tap-malware-remote-nfc-fraud/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266008",
+    "date": "2026-01-07",
+    "title": "China intensifies Cyber-Attacks on Taiwan as Energy Sector Sees Tenfold Spike",
+    "summary": "Taiwan recorded an average of 2.63 million cyber intrusion attempts to it critical infrastructure per day coming from China in 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/china-intensifies-cyberattacks/",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266009",
+    "date": "2026-01-07",
+    "title": "Personal LLM Accounts Drive Shadow AI Data Leak Risks ",
+    "summary": "Lack of visibility and governance around employees using generative AI is resulting in rise in data security risks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/personal-llm-accounts-drive-shadow/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266010",
+    "date": "2026-01-07",
+    "title": "MFA Failure Enables Infostealer Breach At 50 Enterprises",
+    "summary": "Threat actor “Zestix” was able to breach around 50 firms using infostealers because they lacked multi-factor authentication",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/mfa-failure-infostealer-breach-50/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -67412,6 +68260,51 @@
     "impact": 2
   },
   {
+    "id": "20266011",
+    "date": "2026-01-06",
+    "title": "Hospitality Sector Hit By PHALT#BLYX ClickFix Malware Campaign",
+    "summary": "Multi-stage malware campaign targets hospitality organizations using social engineering and abuse of MSBuild.exe",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phaltblyx-clickfix-malware/",
+    "tags": [
+      "malware",
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266012",
+    "date": "2026-01-06",
+    "title": "High-Severity Flaw in Open WebUI Affects AI Connections",
+    "summary": "A high-severity security flaw in Open WebUI Direct Connections risks account takeover and server compromises",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/flaw-open-webui-affects-ai/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266013",
+    "date": "2026-01-06",
+    "title": "Jaguar Land Rover's Q3 Sales Crash Amid Cyber-Attack Fallout",
+    "summary": "JLR’s wholesale sales plunged 43% and retail drops 25% in the third quarter of 2025 following the 2025 cyber-attack",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/jlr-q3-sales-crash-cyberattack/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20264617",
     "date": "2026-01-06",
     "title": "Best MDR Providers: How They Help Businesses Comply with Industry Regulations",
@@ -69071,6 +69964,77 @@
       "critical-infrastructure",
       "certification",
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266014",
+    "date": "2026-01-05",
+    "title": "Ilya Lichtenstein Released Early After Bitfinex Hack Conviction",
+    "summary": "Ilya Lichtenstein, convicted for the 2016 Bitfinex hack, has been released early from prison to home confinement",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/lichtenstein-released-bitfinex/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266015",
+    "date": "2026-01-05",
+    "title": "VVS Stealer Uses Advanced Obfuscation to Target Discord Users",
+    "summary": "A new Python-based malware called VVS stealer has been identified, targeting Discord users with stealthy techniques to steal data",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/vvs-stealer-advanced-obfuscation/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266016",
+    "date": "2026-01-05",
+    "title": "New Zealand Orders Review of Manage My Health Breach Affecting 100,000+ Patients",
+    "summary": "A breach affecting Manage My Health could have exposed sensitive data for up to 120,000 New Zealand patients",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/new-zealand-orders-review-manage/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266017",
+    "date": "2026-01-05",
+    "title": "European Space Agency Confirms Server Breach",
+    "summary": "The European Space Agency has said that external servers were recently involved in a security “issue”",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/european-space-agency-confirms/",
+    "tags": [
+      "data-breach",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266018",
+    "date": "2026-01-05",
+    "title": "Experts Trace $35m in Stolen Crypto to LastPass Breach",
+    "summary": "TRM Labs says it has recorded $35m drained from users’ wallets following 2022 LastPass breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/experts-trace-35m-stolen-crypto/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
     ],
     "impact": 3
   },

@@ -2600,6 +2600,74 @@
     "impact": 3
   },
   {
+    "id": "20251928",
+    "date": "2025-12-24",
+    "title": "SEC Charges Crypto Firms in $14m Investment Scam",
+    "summary": "The SEC has charged several crypto platforms and investment clubs for defrauding US investors of more than $14m",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/sec-charges-crypto-firms/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251929",
+    "date": "2025-12-24",
+    "title": "Coordinated Scams Target MENA Region With Fake Online Job Ads",
+    "summary": "A coordinated wave of fake online job ads targeting the Middle East and North Africa has been uncovered, exploiting remote work trends",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/scams-mena-fake-online-job/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251930",
+    "date": "2025-12-24",
+    "title": "NIST, MITRE Partner on $20m AI Centers For Manufacturing and Cybersecurity",
+    "summary": "NIST and MITRE are collaboratively launching two centers to advance AI security for US manufacturing and critical infrastructure",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nist-mitre-ai-centers/",
+    "tags": [
+      "malware",
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251931",
+    "date": "2025-12-24",
+    "title": "ServiceNow to Pay $7.8bn For OT Security Specialist Armis",
+    "summary": "ServiceNow is set to acquire Armis for $7.75bn in a cash-only deal expected to close in the second half of 2026",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/servicenow-78bn-ot-security/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251932",
+    "date": "2025-12-24",
+    "title": "La Poste Still Offline After Major DDoS Attack ",
+    "summary": "French postal service warns of “major network incident” just before Christmas",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/la-poste-still-offline-after-major/",
+    "tags": [
+      "ddos"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20251920",
     "date": "2025-12-24",
     "title": "Canary Trap’s Bi-Weekly Cyber Roundup",
@@ -2769,6 +2837,81 @@
     "sourceName": "Security Magazine",
     "sourceUrl": "https://www.securitymagazine.com/articles/102061-cisa-releases-guide-for-stadium-and-arena-security",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251933",
+    "date": "2025-12-23",
+    "title": "Reworked MacSync Stealer Adopts Quieter Installation Process",
+    "summary": "A newly discovered macOS malware mimics legitimate apps code-signed and notarized by Apple",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/signed-variant-macsync-stealer/",
+    "tags": [
+      "malware",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251934",
+    "date": "2025-12-23",
+    "title": "Clop Ransomware Group Linked to 3.5m University of Phoenix Breach",
+    "summary": "A University of Phoenix data breach affecting nearly 3.5 million individuals has been claimed by the Clop ransomware collective",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/university-phoenix-breach-clop/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251935",
+    "date": "2025-12-23",
+    "title": "Top Ransomware Trends of 2025",
+    "summary": "Infosecurity has selected some of the key ransomware statistics for 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/top-ransomware-trends-of-2025/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251936",
+    "date": "2025-12-23",
+    "title": "Nissan: Thousands Impacted By Red Hat Breach",
+    "summary": "Nissan has revealed that over 20,000 customers have had personal information compromised in a third-party data breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nissan-thousands-impacted-by-red/",
+    "tags": [
+      "data-breach",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251937",
+    "date": "2025-12-23",
+    "title": "Hundreds of Arrests as Operation Sentinel Recovers $3m",
+    "summary": "Operational Sentinel helps to crack down on cybercrime across 19 African countries in a month-long campaign",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hundreds-arrests-operation/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -3211,6 +3354,77 @@
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/dal-prodotto-cultura-sicurezza-reazione-fiducia-asimmetrica-come-cambia-ruolo-ciso-azienda-AIkLstU",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251938",
+    "date": "2025-12-22",
+    "title": "86% Surge in Fake Delivery Websites Hits Shoppers During Holiday Rush",
+    "summary": "NordVPN has warned that malicious postal service websites have surged by 86% over the past month, targeting holiday delivery tracking",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/surge-fake-delivery-holidays/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251939",
+    "date": "2025-12-22",
+    "title": "Monitoring Tool Nezha Abused For Stealthy Post-Exploitation Access",
+    "summary": "Open-source server monitoring tool, Nezha, is being exploited by attackers for remote system control",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nezha-abused-post-exploitation/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251940",
+    "date": "2025-12-22",
+    "title": "UK: NHS Supplier Confirms Cyber-Attack, Operations Unaffected",
+    "summary": "DXS International, an official partner of NHS England, said the breach has not affected its operations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/uk-nhs-supplier-confirms/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251941",
+    "date": "2025-12-22",
+    "title": "Nefilim Ransomware Affiliate Pleads Guilty",
+    "summary": "A Ukrainian man has pleaded guilty to charges connecting him to Nefilim ransomware attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nefilim-ransomware-affiliate/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251942",
+    "date": "2025-12-22",
+    "title": "Scripted Sparrow Sends Millions of BEC Emails Each Month",
+    "summary": "Fortra has uncovered a prolific BEC group dubbed “Scripted Sparrow” spanning three continents and at least five countries",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/scripted-sparrow-millions-bec-each/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -3676,6 +3890,44 @@
     "impact": 5
   },
   {
+    "id": "20251943",
+    "date": "2025-12-19",
+    "title": "Denmark Blames Russia for \"Destructive\" Cyber-Attacks",
+    "summary": "The Danish intelligence service believes some pro-Russian hacktivist groups have links with the Kremlin",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/denmark-blames-russia-for/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251944",
+    "date": "2025-12-19",
+    "title": "US Charges 54 in Massive ATM Jackpotting Conspiracy",
+    "summary": "The US has charged 54 individuals in a massive ATM jackpotting conspiracy linked to Venezuelan crime syndicate Tren de Aragua, accused of stealing millions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/us-charges-54-atm-jackpotting/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20251945",
+    "date": "2025-12-19",
+    "title": "FBI Disrupts Russian Crypto Laundering Hub Enabling Cybercrime",
+    "summary": "A 39-year-old Russian national is accused of working with cybercriminals to convert criminal proceeds from cryptocurrency into various cash currencies",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fbi-disrupts-russian-crypto/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20251918",
     "date": "2025-12-19",
     "title": "State-linked and criminal hackers use device code phishing against M365 users",
@@ -3996,6 +4248,64 @@
       "aws",
       "amazon"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20251946",
+    "date": "2025-12-18",
+    "title": "OAuth Device Code Phishing Campaigns Surge Targets Microsoft 365",
+    "summary": "A surge in phishing attacks exploiting Microsoft’s OAuth device code flow has been identified by Proofpoint",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/oauth-phishing-campaigns/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251947",
+    "date": "2025-12-18",
+    "title": "North Korea Steals Over $2bn in Crypto in 2025",
+    "summary": "Chainalysis warns North Korea continues to steal billions in crypto for its weapons program",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/north-korea-steals-over-2bn-crypto/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251948",
+    "date": "2025-12-18",
+    "title": "New BeaverTail Malware Variant Linked to Lazarus Group",
+    "summary": "A new variant of the BeaverTail malware linked to North Korean hackers has been identified targeting cryptocurrency traders and developers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/beavertail-variant-linked-lazarus/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251949",
+    "date": "2025-12-18",
+    "title": "HMRC Warns of Over 135,000 Scam Reports ",
+    "summary": "The UK’s tax office has received 135,500 reports of suspected scams in the past 10 months including 4800 related to self assessment filings",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hmrc-warns-of-over-135000-scam/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -4348,6 +4658,91 @@
     "impact": 3
   },
   {
+    "id": "20251950",
+    "date": "2025-12-17",
+    "title": "Motors WordPress Vulnerability Exposes Sites to Takeover",
+    "summary": "A critical flaw in the Motors WordPress theme affecting more than 20,000 installations allows low-privileged users to gain full control of websites",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/motors-wordpress-flaw-takeover/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251951",
+    "date": "2025-12-17",
+    "title": "New “Lies-in-the-Loop” Attack Undermines AI Safety Dialogs",
+    "summary": "A novel attack technique dubbed ”Lies-in-the-Loop” (LITL) has been observed manipulating human approval prompts in agentic AI systems",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/lies-loop-attack-ai-safety-dialogs/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251952",
+    "date": "2025-12-17",
+    "title": "ISACA Named Global Credentialing Authority for DoD’s CMMC Program",
+    "summary": "ISACA has been appointed by the US DoD as the global credentialing authority for its CMMC program",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/isaca-credentialing-authority-dods/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251953",
+    "date": "2025-12-17",
+    "title": "US Autoparts Maker LKQ Confirms Oracle EBS Breach",
+    "summary": "LKQ confirmed that over 9000 individuals saw their personal data compromised because of the breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/lkq-confirms-oracle-ebs-breach/",
+    "tags": [
+      "data-breach",
+      "oracle"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251954",
+    "date": "2025-12-17",
+    "title": "European Investigators Disrupt $12m Call Center Fraud Ring",
+    "summary": "Eurojust reveals new policing operation which helped to smash a Ukraine-based call center fraud gang",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/european-investigators-12m-call/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251955",
+    "date": "2025-12-17",
+    "title": "Chinese Ink Dragon Group Hides in European Government Networks ",
+    "summary": "China’s Ink Dragon is using European government networks to hide its espionage activity",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/chinese-ink-dragon-hides-european/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251532",
     "date": "2025-12-17",
     "title": "The cloud that spies back.",
@@ -4617,6 +5012,82 @@
     "sourceName": "Clubic",
     "sourceUrl": "https://www.clubic.com/bons-plans-591997-black-ops-7-battlefield-6-le-vpn-peut-il-vraiment-reduire-le-lag-en-ligne.html",
     "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251956",
+    "date": "2025-12-16",
+    "title": "Urban VPN Proxy Accused of Harvesting AI Chat Conversations",
+    "summary": "The browser extension Urban VPN Proxy has been reportedly collecting users’ AI chat conversations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/urban-vpn-proxy-harvesting-ai-chats/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251957",
+    "date": "2025-12-16",
+    "title": "JumpCloud Windows Agent Flaw Enables Local Privilege Escalation",
+    "summary": "A flaw in JumpCloud Remote Assist for Windows has exposed managed endpoints to local privilege escalation and denial-of-service attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/jumpcloud-windows-agent-flaw/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251958",
+    "date": "2025-12-16",
+    "title": "Amazon Warns Russian GRU Hackers Target Western Firms via Edge Devices",
+    "summary": "Amazon researchers believe this campaign is part of a bigger operation spearheaded by Russia’s military intelligence service, the GRU",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/amazon-russian-gru-hackers-target/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251959",
+    "date": "2025-12-16",
+    "title": "Millions of Car Owners Hit By Credit700 Data Breach",
+    "summary": "US financial services firm Credit700 has revealed a major data breach impacting 5.8 million people",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/millions-car-owners-credit700-data/",
+    "tags": [
+      "data-breach",
+      "finance"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20251960",
+    "date": "2025-12-16",
+    "title": "Phishing Messages and Social Scams Flood Users Ahead of Christmas",
+    "summary": "Check Point has detected thousands of phishing emails in the past fortnight, offering fake promotions and special deals",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phishing-messages-social-scams/",
+    "tags": [
+      "phishing",
       "ai-ml"
     ],
     "impact": 3
@@ -4940,6 +5411,80 @@
     "sourceName": "TechCrunch Cybersecurity",
     "sourceUrl": "https://techcrunch.com/2025/12/16/hacking-group-says-its-extorting-pornhub-after-stealing-users-viewing-data/",
     "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251961",
+    "date": "2025-12-15",
+    "title": "Third Defendant Pleads Guilty in Fantasy Sports Betting Hack Case",
+    "summary": "A Minnesota man has pleaded guilty to a credential stuffing scheme that compromised over 60,000 accounts",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/defendant-pleads-guilty-fantasy/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251962",
+    "date": "2025-12-15",
+    "title": "Russian Phishing Campaign Delivers Phantom Stealer Via ISO Files",
+    "summary": "A new phishing campaign has been identified, delivering the Phantom information-stealing malware via an ISO attachment",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/russian-phishing-phantom-stealer/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251963",
+    "date": "2025-12-15",
+    "title": "Asahi to Launch Cybersecurity Overhaul After Crippling Cyber-Attack",
+    "summary": "Asahi Group’s CEO said he is considering creating a dedicated cyber unit following the ransomware attack that crippled the company",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/asahi-launch-cybersecurity/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251964",
+    "date": "2025-12-15",
+    "title": "Top 25 Most Dangerous Software Weaknesses of 2025 Revealed",
+    "summary": "MITRE has released its Top 25 CWE list for 2025, compiled from software and hardware flaws behind almost 40,000 CVEs",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/top-25-dangerous-software/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251965",
+    "date": "2025-12-15",
+    "title": "NCSC Playbook Embeds Cyber Essentials in Supply Chains",
+    "summary": "The UK’s National Cyber Security Centre has called on businesses to apply Cyber Essentials to suppliers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ncsc-playbook-cyber-essentials/",
+    "tags": [
+      "supply-chain",
       "ai-ml"
     ],
     "impact": 3
@@ -5396,6 +5941,47 @@
     "impact": 3
   },
   {
+    "id": "20251966",
+    "date": "2025-12-12",
+    "title": "NCSC Plugs Gap in Cyber-Deception Guidance",
+    "summary": "The National Cyber Security Centre has released new learnings from a cyber deception pilot",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ncsc-plugs-gap-cyber-deception/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251967",
+    "date": "2025-12-12",
+    "title": "ICO Fines LastPass £1.2m After 2022 Breach",
+    "summary": "The UK’s data protection regulator has fined password manager provider LastPass £1.2m after 2022 data breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ico-fines-lastpass-12m-2022-breach/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251968",
+    "date": "2025-12-12",
+    "title": "South Korean Police Raid Coupang Over Data Breach as CEO Resigns",
+    "summary": "The Coupang South Korean unit's response will be spearheaded by an executive based in the US",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/seoul-police-raid-coupang-ceo/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251538",
     "date": "2025-12-12",
     "title": "One rule to rule them all.",
@@ -5653,6 +6239,77 @@
       "ai-ml"
     ],
     "impact": 5
+  },
+  {
+    "id": "20251969",
+    "date": "2025-12-11",
+    "title": "OpenAI Enhances Defensive Models to Mitigate Cyber-Threats",
+    "summary": "OpenAI has reported a surge in performance as GPT-5.1-Codex-Max reaching 76% in capability assessments, and warned of upcoming cyber-risks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/openai-enhances-defensive-models/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251970",
+    "date": "2025-12-11",
+    "title": "Malware Discovered in 19 Visual Studio Code Extensions",
+    "summary": "A new campaign involving 19 malicious Visual Studio Code extensions used a legitimate npm package to embed malware in dependency folders",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malware-discovered-in-19-vs-code/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251971",
+    "date": "2025-12-11",
+    "title": "Scam-Busting FCA Firm Checker Tool Given Cautious Welcome",
+    "summary": "Experts say a new Firm Checker tool from the FCA won’t move the dial on fraud but is a step in the right direction",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fca-firm-checker-tool-cautious/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20251972",
+    "date": "2025-12-11",
+    "title": "Google Releases Critical Chrome Security Update to Address Three Zero-Days",
+    "summary": "Google has released a Chrome security update to fix three zero-day vulnerabilities, including a high-severity flaw with an active exploit",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/google-chrome-security-update/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251973",
+    "date": "2025-12-11",
+    "title": "“Cyber Tax” Warning as Two-Fifths of SMBs Raise Prices After Breach",
+    "summary": "New ITRC research finds 81% of US small businesses suffered a data or security breach in the past year",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/twofifths-smbs-raise-prices-after/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20251539",
@@ -6019,6 +6676,84 @@
     "tags": [
       "malware",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251974",
+    "date": "2025-12-10",
+    "title": "ClickFix Social Engineering Sparks Rise of CastleLoader Attacks",
+    "summary": "A new malware campaign has been identified using a Python-based delivery system to deploy CastleLoader malware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/clickfix-rise-castleloader-attacks/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251975",
+    "date": "2025-12-10",
+    "title": "Pro-Russia Hackers Target US Critical Infrastructure in New Wave",
+    "summary": "Pro-Russia hacktivist groups have been observed exploiting exposed virtual network computing connections to breach OT systems",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/russia-hackers-target-us-critical/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251976",
+    "date": "2025-12-10",
+    "title": "Google Fixes Zero Click Gemini Enterprise Flaw That Exposed Corporate Data",
+    "summary": "The flaw, dubbed ‘GeminiJack,’ exploits the trust boundary between user-controlled content in data sources and the AI model’s instruction processing",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/google-fixes-gemini-enterprise-flaw/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251977",
+    "date": "2025-12-10",
+    "title": "Log4Shell Downloaded 40 Million Times in 2025",
+    "summary": "Sonatype has claimed that 13% of Log4j versions downloaded this year were vulnerable to the legacy critical Log4Shell bug",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/log4shell-downloaded-40-million/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251978",
+    "date": "2025-12-10",
+    "title": "Microsoft Fixes Three Zero-Days in Final Patch Tuesday of 2025",
+    "summary": "December’s Patch Tuesday sees the release of patches for over 50 CVEs including three zero-days",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/microsoft-three-zerodays-patch/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
     ],
     "impact": 3
   },
@@ -6410,6 +7145,80 @@
     "impact": 5
   },
   {
+    "id": "20251979",
+    "date": "2025-12-09",
+    "title": "React2Shell Exploit Campaigns Tied to North Korean Cyber Intrusion Tactics",
+    "summary": "Sysdig has found sophisticated malicious campaigns exploiting React2Shell that delivered EtherRAT and suggested North Korean hackers’ involvement",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/react2shell-exploit-campaigns/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251980",
+    "date": "2025-12-09",
+    "title": "Malicious VS Code Extensions Deploy Advanced Infostealer",
+    "summary": "Two malicious Visual Studio Code extensions, Bitcoin Black and Codo AI, have been observed harvesting sensitive user data",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malicious-vs-code-extensions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251981",
+    "date": "2025-12-09",
+    "title": "DeadLock Ransomware Uses BYOVD to Evade Security Measures",
+    "summary": "Cisco Talos has detected new tactics from a financially motivated actor using DeadLock ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/deadlock-ransomware-uses-byovd/",
+    "tags": [
+      "ransomware",
+      "finance",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251982",
+    "date": "2025-12-09",
+    "title": "UK NCSC Raises Alarms Over Prompt Injection Attacks",
+    "summary": "The UK’s National Cyber Security Centre has warned of the dangers of comparing prompt injection to SQL injection",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ncsc-raises-alarms-prompt/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251983",
+    "date": "2025-12-09",
+    "title": "Gartner Calls For Pause on AI Browser Use",
+    "summary": "Gartner has called for organizations to block today’s AI browsers on security concerns",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/gartner-calls-for-pause-ai-browsers/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251541",
     "date": "2025-12-09",
     "title": "The bug that got everyone’s attention.",
@@ -6662,6 +7471,94 @@
     "tags": [
       "cloud",
       "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251984",
+    "date": "2025-12-08",
+    "title": "ClayRat Android Spyware Expands Capabilities",
+    "summary": "A new version of ClayRat Android spyware features enhanced surveillance and device-control features",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/clayrat-android-spyware-upgraded/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251985",
+    "date": "2025-12-08",
+    "title": "Marquis Software Breach Affects Over 780,000 Nationwide",
+    "summary": "A data breach at Marquis Software Solutions due to a firewall flaw has affected over 780,000 people across the US",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/marquis-software-breach/",
+    "tags": [
+      "data-breach",
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251986",
+    "date": "2025-12-08",
+    "title": "Portugal Revises Cybercrime Law to Protect Security Researchers",
+    "summary": "Security researchers will now be protected from prosecution in Portugal as long as they meet certain conditions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/portugal-cybercrime-law-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251987",
+    "date": "2025-12-08",
+    "title": "React2Shell Under Active Exploitation by China-Nexus Hackers ",
+    "summary": "React2Shell (CVE-2025-55182) is under active exploitation by Earth Lamia and Jackpot Panda, risking over two million instances worldwide",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/react2shell-under-active/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251988",
+    "date": "2025-12-08",
+    "title": "UK ICO Demands “Urgent Clarity” on Facial Recognition Bias Claims",
+    "summary": "A Home Office report has revealed racial bias in facial recognition technology used by police",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ico-demands-clarity-facial/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251989",
+    "date": "2025-12-08",
+    "title": "Barts Health Seeks High Court Ban After Oracle EBS Breach",
+    "summary": "Barts Health NHS Trust has revealed itself to be the latest victim of Cl0p’s Oracle EBS campaign",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/barts-health-high-court-ban-oracle/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "oracle"
     ],
     "impact": 3
   },
@@ -7034,6 +7931,62 @@
     "impact": 3
   },
   {
+    "id": "20251990",
+    "date": "2025-12-05",
+    "title": "React.js Hit by Maximum-Severity 'React2Shell' Vulnerability\r\n ",
+    "summary": "A critical RCE flaw in React.js, dubbed React2Shell (CVE-2025-55182), has been disclosed with a maximum CVSS score of 10.0, posing severe risks for server-side implementations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/reactjs-hit-by-react2shell/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20251991",
+    "date": "2025-12-05",
+    "title": "China-Linked Warp Panda Targets North American Firms in Espionage Campaign",
+    "summary": "CrowdStrike warned that Warp Panda, a China-linked cyber-espionage group, is targeting US organizations to steal sensitive data and support Beijing’s strategic interests",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/chinalinked-warp-panda/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "crowdstrike"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251992",
+    "date": "2025-12-05",
+    "title": "Louvre to Bolster Its Security, Issues €57m Public Tender",
+    "summary": "The French museum is planning to revamp its safety and security systems following a high-profile burglary in October",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/louvre-bolster-security-57m-public/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20251993",
+    "date": "2025-12-05",
+    "title": "Predator Spyware Maker Intellexa Evades Sanctions, New Victims Identified",
+    "summary": "Data leaks have shed a new light on Intellexa’s flagship spyware infrastructure and attack vectors",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/predator-spyware-intellexa-evades/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251546",
     "date": "2025-12-05",
     "title": "China’s quiet crawl into critical networks.",
@@ -7233,6 +8186,75 @@
       "ddos",
       "government",
       "infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251994",
+    "date": "2025-12-04",
+    "title": "CISA and International Partners Issue Guidance for Secure AI in Infrastructure",
+    "summary": "Cybersecurity agencies have issued guidance for securely integrating AI into OT systems",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/us-guidance-secure-ai-ot/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251995",
+    "date": "2025-12-04",
+    "title": "Cyber Agencies Push for Digital Trust Amid AI Era with New Provenance Report",
+    "summary": "UK’s NCSC and Canada’s CCCS release a joint report on content provenance, urging organizations to strengthen digital trust and combat AI-driven misinformation",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-agencies-new-provenance/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251996",
+    "date": "2025-12-04",
+    "title": "New GhostFrame Phishing Framework Hits Over One Million Attacks",
+    "summary": "The GhostFrame phishing framework, using stealthy iframes, was linked to over 1 million attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ghostframe-phishing-hits-one/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20251997",
+    "date": "2025-12-04",
+    "title": "Skills Shortages Trump Headcount as Critical Cyber Challenge",
+    "summary": "ISC2 report reveals 59% of global organizations have critical or significant skills shortages",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/skills-shortages-headcount-2025/",
+    "tags": [],
+    "impact": 5
+  },
+  {
+    "id": "20251998",
+    "date": "2025-12-04",
+    "title": "Post Office Escapes £1m Fine After Postmaster Data Breach",
+    "summary": "The Information Commissioner’s Office has chosen only to reprimand the Post Office after a 2024 breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/post-office-1m-fine-postmaster/",
+    "tags": [
+      "data-breach"
     ],
     "impact": 3
   },
@@ -7444,6 +8466,91 @@
     "impact": 3
   },
   {
+    "id": "20251999",
+    "date": "2025-12-03",
+    "title": "French NGO Reporters Without Borders Targeted by Star Blizzard",
+    "summary": "A fresh wave of spear-phishing linked to the Russia-based Star Blizzard group has been detected by Sekoia",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/star-blizzard-targets-reporters/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252000",
+    "date": "2025-12-03",
+    "title": "UK's Cyber Service for Telcos Blocks One Billion Malicious Site Attempts",
+    "summary": "A new cyber defense service has prevented almost one billion early-stage cyber-attacks in the past year, British Security Minister claims",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/uk-cyber-service-blocks-billion/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252001",
+    "date": "2025-12-03",
+    "title": "Yearn Finance yETH Pool Hit by $9M Exploit",
+    "summary": "A critical vulnerability in Yearn Finance's yETH pool allowed an attacker to steal around $9m",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/yearn-finance-yeth-pool-exploit/",
+    "tags": [
+      "vulnerability",
+      "finance"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20252002",
+    "date": "2025-12-03",
+    "title": "UK Ransomware Payment Ban to Come with Exemptions, Security Minster Say",
+    "summary": "The UK government’s proposed ransomware payment ban for public sector and critical infrastructure will come with national security exemptions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/uk-ransomware-payment-ban/",
+    "tags": [
+      "ransomware",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20252003",
+    "date": "2025-12-03",
+    "title": "Disinformation and Cyber-Threats Among Top Global Exec Concerns",
+    "summary": "A new WEF report reveals that AI-powered threats like disinformation are among executives’ biggest concerns",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/disinformation-cyberthreats-global/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252004",
+    "date": "2025-12-03",
+    "title": "Pall Mall Process to Define Responsible Commercial Cyber Intrusion ",
+    "summary": "The Pall Mall Process begins outreach to define guidelines for private commercial intrusion industry",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/pall-mall-process-responsible/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20251927",
     "date": "2025-12-03",
     "title": "Digital ID: the Pitfalls & How to Build a Better Path Forward",
@@ -7632,6 +8739,88 @@
       "ai-ml"
     ],
     "impact": 4
+  },
+  {
+    "id": "20252005",
+    "date": "2025-12-02",
+    "title": "Critical PickleScan Vulnerabilities Expose AI Model Supply Chains",
+    "summary": "3 critical zero-day flaws in PickleScan, affecting Python and PyTorch, allowed undetected attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/picklescan-flaws-expose-ai-supply/",
+    "tags": [
+      "vulnerability",
+      "supply-chain",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20252006",
+    "date": "2025-12-02",
+    "title": "ShadyPanda's Seven-Year Campaign Infects 4.3M Chrome and Edge Users",
+    "summary": "Infected 4.3 million Chrome and Edge users via extensions; ShadyPanda exploited browser marketplaces",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/shadypanda-infects-43m-chrome-edge/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252007",
+    "date": "2025-12-02",
+    "title": "Google Releases Patches for Android Zero-Day Flaws Exploited in the Wild",
+    "summary": "Google said it found indications that two newly identified vulnerabilities affecting Android “may be under limited, targeted exploitation”",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/google-patches-android-0day/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "google",
+      "aws"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20252008",
+    "date": "2025-12-02",
+    "title": "ICO Set to Check If Mobile Games Comply with Children’s Code",
+    "summary": "The UK Information Commissioner’s Office has launched an investigation into the mobile gaming sector",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ico-check-mobile-games-comply/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252009",
+    "date": "2025-12-02",
+    "title": "Most Companies Fear State-Sponsored Cyber-Attacks and Want More Government Help",
+    "summary": "New IO study claims 88% of US and UK firms are concerned about state-sponsored cyber-attacks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/companies-fear-state-attacks-more/",
+    "tags": [
+      "state-sponsored",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "20251910",
@@ -7908,6 +9097,107 @@
       "mobile",
       "government",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252010",
+    "date": "2025-12-01",
+    "title": "New Android Albiriox Malware Gains Traction in Dark Web Markets",
+    "summary": "Android malware Albiriox emerged as MaaS, offering device takeover and real-time fraud capabilities",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/android-maas-malware-albiriox-dark/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252011",
+    "date": "2025-12-01",
+    "title": "South Korea's Coupang Confirms 34 Million Customer Data Leak",
+    "summary": "The South Korean police are tracking the suspect behind a cyber-attack targeting e-commerce giant Coupang",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/south-korea-coupang-34m-customer/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252012",
+    "date": "2025-12-01",
+    "title": "Malware Manipulates AI Detection in Latest npm Package Breach",
+    "summary": "Malicious npm package targets AI security with misleading prompts, exploiting automated analysis",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/malware-ai-detection-npm-package/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252013",
+    "date": "2025-12-01",
+    "title": "Cybersecurity M&A Roundup: Cyber Giants Strengthen AI Security Offerings",
+    "summary": "November 2025 saw cybersecurity giants like Palo Alto Networks, Bugcrowd and Zscaler invest in AI-powered security solutions",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyber-deals-november-2025/",
+    "tags": [
+      "ai-ml",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252014",
+    "date": "2025-12-01",
+    "title": "Europol Takes Down Illegal Cryptocurrency Mixing Service",
+    "summary": "Europol, alongside Swiss and German authorities, dismantled the illegal cryptocurrency mixing service ‘Cryptomixer’",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/europol-takes-down-illegal/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252015",
+    "date": "2025-12-01",
+    "title": "Australian Man Gets Seven Years for Running “Evil Twin” Wi-Fi",
+    "summary": "A Western Australia man will spend seven years behind bars after stealing intimate data via Wi-Fi",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/australian-man-seven-years-evil/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252016",
+    "date": "2025-12-01",
+    "title": "Royal Borough of Kensington and Chelsea Reveals Data Breach",
+    "summary": "At least one London council has had data compromised after a suspected ransomware attack last week",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/royal-borough-kensington-chelsea/",
+    "tags": [
+      "ransomware",
+      "data-breach"
     ],
     "impact": 3
   },
@@ -8222,6 +9512,52 @@
     "impact": 3
   },
   {
+    "id": "20252017",
+    "date": "2025-11-28",
+    "title": "Threat Actors Exploit Calendar Subscriptions for Phishing and Malware Delivery",
+    "summary": "BitSight research has revealed how threat actors exploit calendar subscriptions to deliver phishing links, malware and social engineering attacks through hijacked domains",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/threat-actors-exploit-calendar-subs/",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252018",
+    "date": "2025-11-28",
+    "title": "Three Black Friday Scams to Watch Out For This Year",
+    "summary": "Darktrace observed a 620% spike in Black Friday-themed phishing in the weeks leading up to the 2025 edition of the sale day",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/three-black-friday-scams-2025/",
+    "tags": [
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252019",
+    "date": "2025-11-28",
+    "title": "French Football Federation Suffers Data Breach",
+    "summary": "The personal data of over two million amateur football players registered in France could be exposed",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/french-football-federation-data/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251556",
     "date": "2025-11-28",
     "title": "Pass the intel, please. [Only Malware in the Building]",
@@ -8295,6 +9631,108 @@
       "privacy"
     ],
     "impact": 4
+  },
+  {
+    "id": "20252020",
+    "date": "2025-11-27",
+    "title": "FCC Warns of Hackers Hijacking Radio Equipment For False Alerts",
+    "summary": "Hackers have been hijacking US radio equipment to broadcast false emergency alerts, prompting FCC warnings",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fcc-hackers-hijacking-radio/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252021",
+    "date": "2025-11-27",
+    "title": "Bloody Wolf Threat Actor Expands Activity Across Central Asia",
+    "summary": "A new Bloody Wolf campaign exploits legitimate remote-administration software for cyber-attacks on government targets in Central Asia",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/bloody-wolf-expands-central-asia/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252022",
+    "date": "2025-11-27",
+    "title": "Asahi Confirms 1.5 Million Customers Affected in Major Cyber-Attack",
+    "summary": "Almost two million people may have seen their personal data exposed following a large-scale cyberattack that hit Asahi in September 2025",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/asahi-15-million-customers/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20252023",
+    "date": "2025-11-27",
+    "title": "OpenAI Warns of Mixpanel Data Breach Impacting API Users",
+    "summary": "The breach may have exposed OpenAI API customers’ data",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/openai-warns-mixpanel-data-breach/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252024",
+    "date": "2025-11-27",
+    "title": "Fraud Fears But No Breach Spike Expected This Festive Season",
+    "summary": "Analysis of ICO records shows no surge in breaches during Q4 2024 with no seasonal spike in reported incidents",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fraud-fears-no-breach-spike/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252025",
+    "date": "2025-11-27",
+    "title": "Scattered Lapsus$ Hunters Take Aim At Zendesk Users",
+    "summary": "New phishing domains point to a campaign from the notorious Scattered Lapsus$ Hunters collective",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/scattered-lapsus-hunters-zendesk/",
+    "tags": [
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252026",
+    "date": "2025-11-27",
+    "title": "Key Provisions of the UK Cyber Resilience Bill Revealed ",
+    "summary": "Shona Lester, head of the Cyber Security and Resilience Bill team within the UK government, outlined some of the provisions that should be included in the future law",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/key-provisions-uk-cyber-resilience/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
   },
   {
     "id": "20251557",
@@ -8468,6 +9906,94 @@
     "impact": 3
   },
   {
+    "id": "20252027",
+    "date": "2025-11-26",
+    "title": "Cyber-Attack Disrupts OnSolve CodeRED Emergency Notification System",
+    "summary": "A cyber-attack claimed to be the resposibility of INC Ransom group and targeting the OnSolve CodeRED platform has disrupted emergency notification and exposed user data across the US",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cyberattack-disrupts-onsolve/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252028",
+    "date": "2025-11-26",
+    "title": "UK Report Proposes Liability For Software Provider Insecurity",
+    "summary": "A new report from the UK Business and Trade Committee has called for accountability of software providers for cyber flaws amid rising attack costs",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/uk-liability-software-providers/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252029",
+    "date": "2025-11-26",
+    "title": "FBI Warns of $262M Losses from Account Takeover Fraud in 2025",
+    "summary": "The FBI reports over $262m in losses from account takeover schemes since January 2025, as cybercriminals impersonate financial institutions to steal data and funds",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fbi-warns-account-takeover-fraud/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252030",
+    "date": "2025-11-26",
+    "title": "Gainsight Cyber-Attack Affects More Salesforce Customers",
+    "summary": "The CEO of the customer support platform said “a handful of customers” saw their data exposed after the breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/gainsight-cyberattack-more/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252031",
+    "date": "2025-11-26",
+    "title": "HashJack Indirect Prompt Injection Weaponizes Websites ",
+    "summary": "A new vulnerability dubbed “HashJack” could enable attackers to booby trap websites when they interact with AI browsers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/hashjack-indirect-prompt-injection/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252032",
+    "date": "2025-11-26",
+    "title": "London Councils Hit By Serious Cyber “Incidents”",
+    "summary": "At least three London local authorities are dealing with a major cybersecurity incident",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/london-councils-hit-by-serious/",
+    "tags": [],
+    "impact": 4
+  },
+  {
     "id": "20251559",
     "date": "2025-11-26",
     "title": "Hacktivists go galactic.",
@@ -8582,6 +10108,76 @@
     "sourceUrl": "https://snwire.com/introduction-the-day-your-ips-turn-toxic/",
     "tags": [
       "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252033",
+    "date": "2025-11-25",
+    "title": "Smishing Triad Impersonation Campaigns Expand Globally",
+    "summary": "A cluster of fraudulent domains impersonating Egyptian providers have been identified linked to Smishing Triad operations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/smishing-triad-campaigns-expand/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252034",
+    "date": "2025-11-25",
+    "title": "New FlexibleFerret Malware Chain Targets macOS With Go Backdoor",
+    "summary": "A new macOS malware chain using staged scripts and a Go-based backdoor has been attributed to FlexibleFerret, designed to steal credentials and maintain system access",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/flexibleferret-malware-macos-go/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252035",
+    "date": "2025-11-25",
+    "title": "AI and Deepfake-Powered Fraud Skyrockets Amid Identity Fraud Stagnation",
+    "summary": "In its latest annual identity fraud report, Sumsub observed a “sophistication shift” in global fraud trends",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-deepfake-fraud-skyrockets/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252036",
+    "date": "2025-11-25",
+    "title": "Mounting Cyber-Threats Prompt Calls For Economic Security Bill",
+    "summary": "MPs in the UK want a new economic security regime to tackle cyber and related threats",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/mounting-cyber-threats-economic/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252037",
+    "date": "2025-11-25",
+    "title": "New Shai-Hulud Worm Spells Trouble For npm Users",
+    "summary": "A new version of the Shai-Hulud worm has infected hundreds of npm packages and caused disruption to global CI/CD workflows",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/new-shaihulud-worm-trouble-npm/",
+    "tags": [
       "ai-ml"
     ],
     "impact": 3
@@ -8777,6 +10373,81 @@
       "banking",
       "malware"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20252038",
+    "date": "2025-11-24",
+    "title": "Flaws Expose Risks in Fluent Bit Logging Agent",
+    "summary": "Critical flaws in Fluent Bit threaten telemetry across platforms according to an advisory published by Oligo Security researchers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/flaws-expose-risks-fluent-bit/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20252039",
+    "date": "2025-11-24",
+    "title": "Russian-linked Malware Campaign Hides in Blender 3D Files",
+    "summary": "Morphisec has observed a new operation embedding StealC V2 malware in Blender project files, targeting users via 3D assets and launching a multi-stage infection chain",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/russian-malware-blender-3d-files/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252040",
+    "date": "2025-11-24",
+    "title": "CISA Urges Patch of Actively Exploited Flaw in Oracle Identity Manager",
+    "summary": "The US cybersecurity agency has added the critical flaw to its Known Exploited Vulnerabilities list",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/cisa-kev-oracle-identity-manager/",
+    "tags": [
+      "vulnerability",
+      "government",
+      "oracle"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20252041",
+    "date": "2025-11-24",
+    "title": "Iberia Airlines Notifies Customers of Supply Chain Data Breach",
+    "summary": "Spanish airline Iberia has begun emailing its customers about a supplier data breach",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/iberia-airlines-supply-chain-data/",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252042",
+    "date": "2025-11-24",
+    "title": "MoD Launches World’s First Military Gaming Tournament",
+    "summary": "The International Defence Esports Games (IDEG) will help sharpen cyber and battlefield skills for allied soldiers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/mod-worlds-first-military-gaming/",
+    "tags": [],
     "impact": 3
   },
   {
