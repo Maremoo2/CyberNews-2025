@@ -1,5 +1,73 @@
 [
   {
+    "id": "20265891",
+    "date": "2026-02-06",
+    "title": "The hidden cost of putting off security decisions",
+    "summary": "In this Help Net Security video, Hanah Darley, Chief AI Officer, Geordie AI, talks about how putting off security risk decisions creates long-term costs that often stay hidden. Drawing on her work with CISOs and security leaders, she shows how delayed choices around visibility, vulnerability mana...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/deferred-security-risk-decisions-video/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265892",
+    "date": "2026-02-06",
+    "title": "New infosec products of the week: February 6, 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Avast, Fingerprint, Gremlin, and Socure. Gremlin launches Disaster Recovery Testing for zone, region, and datacenter failovers Gremlin, the proactive reliability platform, launched Disaster Recovery Testing...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/new-infosec-products-of-the-week-february-6-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265893",
+    "date": "2026-02-06",
+    "title": "Industry-Aligned Cryptography by CryptoBind",
+    "summary": "Cryptography has become the invisible infrastructure of the digital economy. Every payment, every identity, every medical record, and every... The post Industry-Aligned Cryptography by CryptoBind appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/industry-aligned-cryptography-by-cryptobind/",
+    "tags": [
+      "healthcare",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20265894",
+    "date": "2026-02-06",
+    "title": "Cybersicherheitsvorschriften: So erfüllen Sie Ihre Compliance-Anforderungen",
+    "summary": "Mit der Zunahme von Cyberbedrohungen steigt auch die Zahl der Compliance-Rahmenwerke. So können CISOs diese Herausforderung bewältigen. Foto: Dapitart – shutterstock.comDie Anforderungen von Cybersicherheitsvorschriften können je nach Unternehmensgröße, Region, Branche, Datensensibilität und Prog...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3494023/cybersicherheitsvorschriften-so-erfullen-sie-ihre-compliance-anforderungen.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20265895",
+    "date": "2026-02-06",
+    "title": "Four new vulnerabilities found in Ingress NGINX",
+    "summary": "Four security vulnerabilities have been found in the open source Ingress NGINX traffic controller that is extensively used by organizations in Kubernetes deployments. They can only be fixed by upgrading to the latest version. Of the four holes, two are more serious, because they carry CVSS scores...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128439/four-new-vulnerabilities-found-in-ingress-nginx.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20265847",
     "date": "2026-02-06",
     "title": "U.S. Public Sector Under Siege",
