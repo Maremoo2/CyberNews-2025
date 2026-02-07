@@ -1,5 +1,50 @@
 [
   {
+    "id": "20266088",
+    "date": "2026-02-07",
+    "title": "[Ekstra] Farlig nær norske satellitter – frykter avlytting og sabotasje",
+    "summary": "Den russiske Luch-satellitten la seg tett på norske satellitter i 2024. Nå frykter militære myndigheter at den vil bli brukt til hybridkrig i rommet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/var-farlig-naer-norske-satellitter-frykter-avlytting-og-sabotasje/567898",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266089",
+    "date": "2026-02-07",
+    "title": "Winston-Salem has strengthened cybersecurity measures following attack, officials say",
+    "summary": "Winston-Salem city officials said on Dec. 26, 2024, they were alerted to a potential cyber attack. WXII12 is your home for North Carolina breaking ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=_PxNr3GJOKM",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266090",
+    "date": "2026-02-07",
+    "title": "Analysis of active exploitation of SolarWinds Web Help Desk",
+    "summary": "The Microsoft Defender Research Team observed a multi‑stage intrusion where threat actors exploited internet‑exposed SolarWinds Web Help Desk (WHD) instances to get an initial foothold and then laterally moved towards other high-value assets within the organization. However, we have not yet confi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "microsoft",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266087",
     "date": "2026-02-07",
     "title": "South Korea’s Bithumb gives away over US$40 billion in a bit of a blunder",
