@@ -1,5 +1,132 @@
 [
   {
+    "id": "20266109",
+    "date": "2026-02-07",
+    "title": "Fake Dubai Crown Prince tracked to Nigerian mansion after $2.5M romance scam",
+    "summary": "When a Romanian businesswoman fell for a fake Dubai Crown Prince in a $2.5 million romance scam, investigators tracked the fraudster to his Nigerian mansion - only to discover he was masquerading as a campaigning philanthropist. Read more in my article on the Hot for Security blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fake-dubai-crown-prince-tracked-to-nigerian-mansion-after-2-5m-romance-scam",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266110",
+    "date": "2026-02-07",
+    "title": "CyberGhost ou Proton VPN : lequel choisir selon votre usage réel ?",
+    "summary": "Streaming, confidentialité, prix ou simplicité : CyberGhost et Proton VPN ne répondent pas aux mêmes besoins. Voici comment trancher en fonction de votre profil et de vos priorités numériques.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-599290-cyberghost-ou-proton-vpn-lequel-choisir-selon-votre-usage-reel.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266111",
+    "date": "2026-02-07",
+    "title": "This Google Home alert has me asking: Could Home Assistant be dangerous?",
+    "summary": "You probably scoffed when you read the title above, and I don’t blame you. But the more I thought about it, the more I considered that the freedom offered by a platform like Home Assistant is something that many of us wield without a second thought.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/this-google-home-alert-has-me-asking-could-home-assistant-be-dangerous/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266112",
+    "date": "2026-02-07",
+    "title": "I've abandoned third-party antivirus and I'm never looking back",
+    "summary": "Times have changed, and third-party antivirus software is no longer a necessity. Here's why I only use Windows Security, plus some things I've learned about the free, built-in antivirus platform.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/abandoned-third-party-antivirus-and-im-never-looking-back/",
+    "tags": [
+      "malware",
+      "supply-chain"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266113",
+    "date": "2026-02-07",
+    "title": "What Verizon’s Outage Teaches Us about Resilience and Continuity Planning",
+    "summary": "Last Updated on February 7, 2026 The post What Verizon’s Outage Teaches Us about Resilience and Continuity Planning appeared first on Pivot Point Security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Pivot Point Security Blog",
+    "sourceUrl": "https://www.pivotpointsecurity.com/what-verizons-outage-teaches-us-about-resilience-and-continuity-planning/?utm_source=rss&utm_medium=rss&utm_campaign=what-verizons-outage-teaches-us-about-resilience-and-continuity-planning",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266114",
+    "date": "2026-02-07",
+    "title": "Hegseth vs. Harvard: How Nazi Gleichschaltung Turned Top Berlin University into Humboldt",
+    "summary": "Hegseth Attacks Harvard Like a 1933 Nazi Would: How Friedrich-Wilhelms-Universität Berlin Was Forced to Rename Humboldt Defense Secretary Pete Hegseth announced Friday, in a move historians will easily recognize, that the Pentagon is severing all military training, fellowships, and certificate pr...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/hegseth-vs-harvard-how-nazi-gleichschaltung-turned-top-berlin-university-into-humboldt/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266115",
+    "date": "2026-02-07",
+    "title": "Navy Secretary John Phelan and His Six-Hour Epstein Underaged Girl Tube",
+    "summary": "Secretary of the Navy John Phelan was listed on a March 3, 2006 flight manifest for Jeffrey Epstein’s Boeing 727, traveling from Luton, London to JFK. The flight-manifest-march-3-2006, released by the House Oversight Committee, is document HOUSE_OVERSIGHT_007300. The private jet flight lasted six...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/navy-secretary-john-phelan-and-his-seven-hour-underaged-girl-tube/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266122",
+    "date": "2026-02-07",
+    "title": "Millions of Flickr Users' Exact Locations, Habits Leaked in Massive Vendor Hack",
+    "summary": "Flickr, the photo-sharing platform operated by SmugMug, experienced a significant data security incident originating not within its own infrastructure, but from a vulnerability in a third-party email service provider. This breach underscores the escalating threat of supply-chain attacks in modern...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/millions-of-flickr-users-exact-locations-habits-leaked-in-massive-vendor-hack",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266123",
+    "date": "2026-02-07",
+    "title": "State actor targets 155 countries in 'Shadow Campaigns' espionage op",
+    "summary": "A new state-aligned cyberespionage threat group tracked as TGR-STA-1030/UNC6619, has conducted a global-scale operation dubbed the \"Shadow Campaigns,\" where it targeted government infrastructure in 155 countries. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266097",
     "date": "2026-02-07",
     "title": "Payment gateway BridgePay confirms ransomware attack behind outage",
@@ -327,6 +454,47 @@
     "tags": [
       "google",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266116",
+    "date": "2026-02-06",
+    "title": "Your Power: Why Billie Eilish is Right About ICE",
+    "summary": "Billie Eilish used 30 seconds of her own earned platform to state a historical fact and object to state violence. That’s it. She said the truth. She was right. That’s all that happened. And then an entire apparatus run by old white men started spinning up to attack her and make that simple act su...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/your-power-why-billie-eilish-is-right-about-ice/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266117",
+    "date": "2026-02-06",
+    "title": "Florida Weaponized Candy for DeSantis’ Wife to Become Governor",
+    "summary": "Florida dropped a disinformation bomb from their “Healthy Florida First” platform, which says eating six Jolly Ranchers in a year could poison your child. It’s total bullshit. Look, I’m not going to defend candy. Anyone who knows me knows I can’t stand the stuff. I haven’t touched a piece in deca...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/florida-weaponized-candy-for-desantis-wife-to-become-governor/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266118",
+    "date": "2026-02-06",
+    "title": "Florida Nazi Politician Jake Lang Arrested in Minnesota",
+    "summary": "Jake Lang is known most for his Nazi salutes, anti-semitic campaigning, and being pardoned by Trump after violently assaulting the U.S. Capitol to overthrow democracy. His rap sheet now extends to an incident where he traveled to Minnesota to attack and censor the speech of people there he disagr...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/florida-nazi-politician-jake-lang-arrested-in-minnesota/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -2825,6 +2993,18 @@
     "tags": [
       "government"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20266119",
+    "date": "2026-02-05",
+    "title": "Trump Injected Nixon’s Attack Dog to Destroy the National Archives",
+    "summary": "James Byron, president and CEO of the Richard Nixon Foundation, is now performing the functions of Archivist of the United States. Let that sink in. Byron was injected when Secretary of State Marco Rubio’s 300-day tenure as acting archivist silently expired on February 4, 2026 under the Federal V...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/trump-injected-nixons-attack-dog-to-destroy-the-national-archives/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -5808,6 +5988,34 @@
     "tags": [
       "supply-chain",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266120",
+    "date": "2026-02-04",
+    "title": "Movie Review: Melania, the “Latter-Day Eva Braun”",
+    "summary": "The Guardian offers this helpful review so you don’t have to suffer through the Trump disinformation flood yourself. No doubt there is a great documentary to be made about Melania Knauss, the ambitious model from out of Slovenia who married a New York real-estate mogul and then found herself cast...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/movie-review-melania-the-latter-day-eva-braun/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266121",
+    "date": "2026-02-04",
+    "title": "Melania: $75 Million Denial-of-Service Attack on Documentary Film Industry",
+    "summary": "The Melania release is a coordinated takedown of the entire film industry Amazon MGM Studios paid $40 million to acquire a documentary and spent another $35 million marketing it — making it the most expensive documentary in history. Some argue it was a bribe. Some argue it was marketing. Neither ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/melania-75-million-denial-of-service-attack-on-documentary-film-industry/",
+    "tags": [
+      "mobile",
+      "ai-ml",
+      "amazon"
     ],
     "impact": 3
   },
