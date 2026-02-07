@@ -1,5 +1,419 @@
 [
   {
+    "id": "20266061",
+    "date": "2026-02-07",
+    "title": "This Week in Open Source #14",
+    "summary": "by Daryl Ducharme & amanda casari, Google Open Source This Week in Open Source for February 06, 2026 A look around the world of open source Here we are at the beginning of February, and the world of open source is navigating a fascinating landscape of innovation and challenge. The main focus of m...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/02/this-week-in-open-source-14.html",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266059",
+    "date": "2026-02-06",
+    "title": "DHS privacy probe will focus on biometric tracking by ICE, OBIM",
+    "summary": "The Department of Homeland Security’s watchdog office has launched an audit of the agency’s privacy practices amid allegations that DHS and its components have used facial recognition tools and other technologies to collect data broadly and violate civil liberties. The audit, according to a Feb. ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/dhs-ig-audit-ice-obim-biometric-data-privacy-facial-recognition/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266060",
+    "date": "2026-02-06",
+    "title": "NYC explores using AI cameras to spot subway fare evaders",
+    "summary": "Officials at Cubic, the manufacturer of the gates, reportedly say their product has cameras that record for five seconds when someone neglects to pay a fare. Artificial intelligence is used to produce a physical description of suspected fare evaders, they say, and the description is sent to the MTA.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nyc-explores-ai-cameras-fare-evaders-subway",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266062",
+    "date": "2026-02-06",
+    "title": "Anthropic's newest model excels at finding security vulnerabilities, but raises cybersecurity risks",
+    "summary": "... security vulnerabilities—but raises fresh cybersecurity ... Notably, the model was not explicitly told to search for the security flaws, but rather it ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fortune.com/2026/02/06/anthropic-claude-ai-model-cybersecurity-security-vulnerabilities-risks/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266063",
+    "date": "2026-02-06",
+    "title": "North Dakota's New Cyber Ops Leader Is From Private Sector - Government Technology",
+    "summary": "... work closely with state Chief Information Security Officer Chris Gergen to build and manage statewide cybersecurity strategy and operations.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/workforce/north-dakotas-new-cyber-ops-leader-is-from-private-sector",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266064",
+    "date": "2026-02-06",
+    "title": "Tips for staying safe on social media - Ohio University",
+    "summary": "The Ohio University Office of Information Security provides a wide range of information about cybersecurity issues for the OHIO community. One ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ohio.edu/news/2026/02/tips-staying-safe-social-media",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266065",
+    "date": "2026-02-06",
+    "title": "CISA Directive Targets Risks From Unsupported Edge Devices - ExecutiveGov",
+    "summary": "Cybersecurity and Infrastructure Security Agency logo. CISA issued a directive to help strengthen edge device ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/cisa-directive-edge-device-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266066",
+    "date": "2026-02-06",
+    "title": "Upcoming Information Security Training with NINJIO Launches Feb. 17",
+    "summary": "NINJIO training features short, engaging animated episodes—about four minutes each—that focus on real-world cybersecurity threats and provide ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://wmich.edu/it/upcoming-information-security-training-ninjio-launches-feb-17",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266067",
+    "date": "2026-02-06",
+    "title": "Flickr falls prey to Data Breach - Cybersecurity Insiders",
+    "summary": "According to available information, the incident appears to have resulted from a security lapse involving a third-party service provider. At present, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/flickr-falls-prey-to-data-breach/",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266068",
+    "date": "2026-02-06",
+    "title": "Two UAH CCRE doctoral researchers secure patents to defend against sophisticated cyber attacks",
+    "summary": "Aaron Werth displays his patent at the UAH Center for Cybersecurity Research and Education. Courtesy Aaron Werth. “Other graduate students were ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.uah.edu/news/items/two-uah-ccre-doctoral-researchers-secure-patents-defend-against-sophisticated-cyber-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266069",
+    "date": "2026-02-06",
+    "title": "Amazon ECS Managed Instances now available in AWS European Sovereign Cloud",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) Managed Instances is now available in the AWS European Sovereign Cloud. ECS Managed Instances is a fully managed compute option designed to eliminate infrastructure management overhead while giving you access to the full capabilities of Amazon EC2. By...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-european-sovereign-cloud",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266070",
+    "date": "2026-02-06",
+    "title": "Amazon Bedrock AgentCore Browser now supports browser profiles",
+    "summary": "Amazon Bedrock AgentCore Browser now supports browser profiles, enabling you to reuse authentication state across multiple browser sessions without repeated login flows. This feature reduces session setup time from minutes to tens of seconds for enterprise customers processing hundreds or thousan...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-agentcore-browser-profiles",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266071",
+    "date": "2026-02-06",
+    "title": "AWS Config now supports 30 new resource types",
+    "summary": "AWS Config now supports 30 additional AWS resource types across key services including Amazon EKS, Amazon Q, and AWS IoT. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources....",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-new-resource-types",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266072",
+    "date": "2026-02-06",
+    "title": "Cybersecurity Information Sharing Act of 2015 Reauthorized Through September 2026",
+    "summary": "Ashden Fein is a vice chair of the firm's global Cybersecurity practice. He advises clients on cybersecurity and national security matters, including ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.insideprivacy.com/cybersecurity-2/cybersecurity-information-sharing-act-of-2015-reauthorized-through-september-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266073",
+    "date": "2026-02-06",
+    "title": "Amazon WorkSpaces Secure Browser now supports custom domain",
+    "summary": "Amazon WorkSpaces Secure Browser now supports custom domains for your WorkSpaces Secure Browser portals, enabling you to configure portal access through your own domain name instead of the default portal URL. This feature provides users with a more integrated experience using a domain that aligns...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-secure-browser-custom-domains/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266074",
+    "date": "2026-02-06",
+    "title": "AWS Network Firewall announces new price reductions",
+    "summary": "AWS Network Firewall has introduced two pricing improvements for customers. The service has added the hourly and data processing discounts on NAT Gateways that are service-chained with Network Firewall secondary endpoints. Additionally, AWS Network Firewall has removed additional data processing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266075",
+    "date": "2026-02-06",
+    "title": "Amazon Connect Cases now supports CSV uploads to map related field options",
+    "summary": "Amazon Connect Cases now supports using a CSV file to define which field options appear based on other field values, making it easier to configure complex field relationships on case templates. Instead of manually defining valid options — such as applicable defect types based on product category ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-csv-related-field-options",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266076",
+    "date": "2026-02-06",
+    "title": "Step inside the dark world of cybercrime - Huntress",
+    "summary": "John Hammond. Senior Principal Security Researcher. John Hammond is a cybersecurity researcher, educator and content creator. As part of the Adversary ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huntress.com/declassified",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266077",
+    "date": "2026-02-06",
+    "title": "Space Cybersecurity Leaders Convene in Singapore to Address Escalating Threats in ...",
+    "summary": "In his address, David Koh, Singapore's Commissioner of Cybersecurity and Chief Executive of the Cyber Security Agency of Singapore mentioned that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/space-cybersecurity-leaders-convene-singapore-083700857.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266078",
+    "date": "2026-02-06",
+    "title": "ShinyHunters Bypassing Multifactor Authentication | JD Supra",
+    "summary": "Incorporate these recent threats into your next cybersecurity training or company-wide cyber tip. ... Information Security. + Follow x Following x ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/shinyhunters-bypassing-multifactor-2004247/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266079",
+    "date": "2026-02-06",
+    "title": "Lessons Learned from Securing the World's Largest Cyber Events - Cisco Blogs",
+    "summary": "Cisco Cybersecurity Viewpoints ... Where security insights and innovation meet. Read the e-book, see the video, dive into the infographic and more...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.cisco.com/security/event-soc-guide",
+    "tags": [
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266080",
+    "date": "2026-02-06",
+    "title": "OpenAI Unveils Trusted Access for Cybersecurity With Enhanced Security Capabilities",
+    "summary": "It scans entire codebases, simulates attack vectors, and generates remediation scripts with human-like reasoning. Security teams can now accelerate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/openai-unveils-trusted-access-for-cybersecurity-with-enhanced-security-capabilities/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266081",
+    "date": "2026-02-06",
+    "title": "'Irresistible stage': Olympic authorities on high alert for cyberattacks as winter games kick off",
+    "summary": "During the 2024 Summer Olympics in Paris, officials from the Cybersecurity and Infrastructure Security ... Cyber Security · Russia · Olympics · Italy ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/02/06/olympics-high-alert-cyberattacks-00767434",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266082",
+    "date": "2026-02-06",
+    "title": "Managed SIEM You know. The Real Cost? Maybe Not - LinkedIn",
+    "summary": "World's Premier Cyber Security Portal. Published Feb 6, 2026. + Follow. We talk to security leaders every week who think ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/managed-siem-you-know-real-cost-maybe-the-cyber-security-hub-psvae",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266083",
+    "date": "2026-02-06",
+    "title": "A rise in hacktivist attacks puts all web applications at risk, warns UK's NCSC",
+    "summary": "The UK's National Cyber Security Centre (NCSC) has renewed the warning first issued with the Cybersecurity and Infrastructure Security Agency ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blog.barracuda.com/2026/02/06/hacktivist-attacks-web-applications-risk-ncsc",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266084",
+    "date": "2026-02-06",
+    "title": "Mastercard and UAE Team to Counter Cyberthreats | PYMNTS.com",
+    "summary": "The collaboration will see Mastercard and the UAE Cyber Security Council (CSC) collaborate on best practices and develop “forward‑looking ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pymnts.com/cybersecurity/2026/mastercard-and-uae-team-to-counter-cyberthreats/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266085",
+    "date": "2026-02-06",
+    "title": "The Five Nine: How quantum computing and AI agents could break network security",
+    "summary": "Network security is more fragile than you think. Even though it feels like there's some kind of data breach every other data it can – and might ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fiercewireless.com/broadband/five-nine-how-quantum-computing-and-ai-agents-could-break-network-security",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266086",
+    "date": "2026-02-06",
+    "title": "Dynowiper: Destructive Malware Targeting Poland's Energy Sector - Cyber Security Review",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.K.'s National Cyber Security Centre ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/dynowiper-destructive-malware-targeting-polands-energy-sector/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266049",
     "date": "2026-02-06",
     "title": "How Deepfakes Are Used in Cyber Attacks",
