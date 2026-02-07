@@ -1,5 +1,162 @@
 [
   {
+    "id": "20266049",
+    "date": "2026-02-06",
+    "title": "How Deepfakes Are Used in Cyber Attacks",
+    "summary": "Introduction: The Rise of AI-Driven Cyber Attacks Cyber attacks have changed dramatically over the past few years. What once involved simple tricks like fake emails or suspicious links has now evolved into something far more sophisticated. Attackers are no longer relying only on technical weaknes...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SN Wire",
+    "sourceUrl": "https://snwire.com/how-deepfakes-are-used-in-cyber-attacks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266050",
+    "date": "2026-02-06",
+    "title": "What CISA KEV Is and Isn’t – and a Tool to Help Guide Security Teams",
+    "summary": "A new paper gives an insider’s perspective into CISA’s Known Exploited Vulnerability catalog – and also offers a free tool to help security teams use the CISA KEV catalog more effectively. The paper, by former CISA KEV Section Chief and current runZero VP of Security Research Tod Beardsley, appli...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/what-is-cisa-kev-tool-to-guide-security-teams/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266051",
+    "date": "2026-02-06",
+    "title": "TeamPCP and the Rise of Cloud-Native Cybercrime",
+    "summary": "Flare researchers have identified a threat actor known as TeamPCP behind a large-scale campaign targeting cloud-native infrastructure by abusing exposed orchestration and management interfaces. First observed in late 2025, the activity reflects a broader shift away from endpoint-focused attacks t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/teampcp-and-the-rise-of-cloud-native-cybercrime/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266052",
+    "date": "2026-02-06",
+    "title": "Flickr Notifies Users of Potential Third-Party Data Exposure",
+    "summary": "Flickr has begun notifying users about a potential data exposure tied to a vulnerability in a third-party email service provider. The incident highlights the security considerations associated with third-party services, even when a platform’s core systems are not directly affected. “On February 5...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/flickr-notifies-users-of-potential-third-party-data-exposure/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266053",
+    "date": "2026-02-06",
+    "title": "Six more vulnerabilities found in n8n automation platform",
+    "summary": "Six more vulnerabilities have been discovered in the n8n workflow platform used for building LLM-powered agents to connect business processes. Four of the six are rated as critical, carrying CVSS severity scores of 9.4. “These vulnerabilities span multiple attack classes, from remote code executi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128998/six-more-vulnerabilities-found-in-n8n-automation-platform.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266054",
+    "date": "2026-02-06",
+    "title": "CISA Warns of SmarterMail RCE Flaw in Ransomware Attacks",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning about the active exploitation of a remote code execution (RCE) vulnerability in SmarterMail email servers. Designated CVE-2026-24423, this flaw allows unauthenticated attackers to execute arbitrary comm...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/cisa-warns-of-smarter-mail-rce-flaw-in-ransomware-attacks",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266055",
+    "date": "2026-02-06",
+    "title": "Asian Cyber Espionage Campaign Breached 37 Countries",
+    "summary": "Palo Alto Networks says an Asian cyber espionage campaign breached 70 organizations in 37 countries, targeting government agencies and critical infrastructure. The post Asian Cyber Espionage Campaign Breached 37 Countries appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-asian-cyber-espionage-campaign-breached-37-countries/",
+    "tags": [
+      "data-breach",
+      "government",
+      "critical-infrastructure",
+      "ai-ml",
+      "palo alto"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266056",
+    "date": "2026-02-06",
+    "title": "Germany warns of Signal account hijacking targeting senior figures",
+    "summary": "Germany's domestic intelligence agency is warning of suspected state-sponsored threat actors targeting high-ranking individuals in phishing attacks via messaging apps like Signal. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266057",
+    "date": "2026-02-06",
+    "title": "DKnife Linux toolkit hijacks router traffic to spy, deliver malware",
+    "summary": "A newly discovered toolkit called DKnife has been used since 2019 to hijack traffic at the edge-device level and deliver malware in espionage campaigns. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266058",
+    "date": "2026-02-06",
+    "title": "Patch or pull the plug.",
+    "summary": "CISA cracks down on aging edge devices. Congress looks to sure up energy sector security. DHS facial recognition software may fall short. Romania’s national oil pipeline operator suffers a cyberattack. The European Commission may fine TikTok for being addictive. DKnife is a China-linked threat ac...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2484/notes",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266026",
     "date": "2026-02-06",
     "title": "EU threatens TikTok with massive fine over addictive design features",
