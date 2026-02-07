@@ -1,5 +1,285 @@
 [
   {
+    "id": "20266124",
+    "date": "2026-02-07",
+    "title": "Bedre robusthet med et felles nasjonalt mobilnett",
+    "summary": "Gjennom samarbeidet vil vi på rekordtid bygge en stor andel nye basestasjoner som gir bedre dekning i hele landet",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-bedre-robusthet-med-et-felles-nasjonalt-mobilnett/567931",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266125",
+    "date": "2026-02-07",
+    "title": "Organizations Urged to Replace Discontinued Edge Devices",
+    "summary": "Edge devices that are no longer supported have been targeted in attacks by state-sponsored hackers, the US says. The post Organizations Urged to Replace Discontinued Edge Devices appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/",
+    "tags": [
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266126",
+    "date": "2026-02-07",
+    "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
+    "summary": "Germany's Federal Office for the Protection of the Constitution (aka Bundesamt für Verfassungsschutz or BfV) and Federal Office for Information Security (BSI) have issued a joint advisory warning of a malicious cyber campaign undertaken by a likely state-sponsored threat actor that involves carry...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
+    "tags": [
+      "phishing",
+      "state-sponsored",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266127",
+    "date": "2026-02-07",
+    "title": "Human-Centered Cybersecurity: Secure & Usable Medical Devices - Design News",
+    "summary": "“If the device is too complicated, too difficult to use, too many security demands, they're not going to use it. They're going to get dissatisfied ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.designnews.com/cybersecurity/human-centered-cybersecurity-secure-and-usable-medical-devices",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266128",
+    "date": "2026-02-07",
+    "title": "New York County Bolsters Cybersecurity With Phishing Policy - GovTech",
+    "summary": "... security of the County of Warren's data and technology infrastructure ... New Britain, Conn., Works to Recover from Cyber Attack. February 02 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/new-york-county-bolsters-cybersecurity-with-phishing-policy",
+    "tags": [
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266129",
+    "date": "2026-02-07",
+    "title": "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data | WIRED",
+    "summary": "“US Cyber Command was proud to support ... Topicssecurity roundupsecuritycybersecurityhackingRussiaElon MuskUkraineappleartificial intelligence.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/",
+    "tags": [
+      "data-breach",
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266130",
+    "date": "2026-02-07",
+    "title": "NETSCOUT: Why Healthcare Needs AI-Powered Cyber Resilience",
+    "summary": "Darren Anstee, CTO for Security at NETSCOUT, dives into the unique vulnerability of healthcare to cyber attacks, as AI-powered visibility proves ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/netscout-on-cyber-resilience-in-healthcare",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266131",
+    "date": "2026-02-07",
+    "title": "Novel Technique to Detect Cloud Threat Actor Operations - Unit 42",
+    "summary": "Updated Advisory on Scattered Spider Group – U.S. Cybersecurity and Infrastructure Security Agency ... AI-Powered Network Security Platform ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://unit42.paloaltonetworks.com/tracking-threat-groups-through-cloud-logging/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266132",
+    "date": "2026-02-07",
+    "title": "Two UAH CCRE Doctoral Researchers Secure Patents to Defend Against Sophisticated ...",
+    "summary": "“I lead the Center for Cybersecurity Research and Education and I work with Ph.D. students from the Electrical and Computer Engineering department.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newswise.com/articles/two-uah-ccre-doctoral-researchers-secure-patents-to-defend-against-sophisticated-cyber-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266133",
+    "date": "2026-02-07",
+    "title": "OpenAI's new model leaps ahead in coding capabilities—but raises unprecedented ...",
+    "summary": "Full report : OpenAI's new model leaps ahead in coding capabilities—but raises unprecedented cybersecurity risks. Tagged: AI and Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://oodaloop.com/briefs/technology/openais-new-model-leaps-ahead-in-coding-capabilities-but-raises-unprecedented-cybersecurity-risks/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266134",
+    "date": "2026-02-07",
+    "title": "Cybersecurity expert analyzes Nancy Guthrie's pacemaker app data - YouTube",
+    "summary": "... cybersecurity #technology #pacemaker #health #abduction #investigation #surveillance #data #timeline #analysis #expert #security #digital #devices ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=ClUp2VsKAs4",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266135",
+    "date": "2026-02-07",
+    "title": "Viral AI caricature trend raises privacy concerns, cyber security expert explains - KWTX",
+    "summary": "But cyber security experts warn that this trend may not be as harmless as it seems. They say handing over personal information and photos to AI tools ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kwtx.com/2026/02/07/viral-ai-caricature-trend-raises-privacy-concerns-cyber-security-expert-explains/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266136",
+    "date": "2026-02-07",
+    "title": "AI caricature trend poses privacy risks, cybersecurity expert warns - WBRC",
+    "summary": "That can be also learned by this model,” said Shuya Feng, UAB cybersecurity researcher and assistant professor. The information is often used to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wbrc.com/2026/02/07/ai-caricature-trend-poses-privacy-risks-cybersecurity-expert-warns/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266137",
+    "date": "2026-02-07",
+    "title": "Claude Opus 4.6 Released With Enhanced Cybersecurity Capabilities Validating 500+ High ...",
+    "summary": "Cyber Security News · Cybersecurity · Vulnerabilities. Claude Opus 4.6 ... Set Cyberpress as a Preferred Source in Google . TAGS; Cyber Security · Cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/claude-opus-4-6-released/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266138",
+    "date": "2026-02-07",
+    "title": "Google Calls on Governments And Industry to Prepare Now For Quantum-Era Cybersecurity",
+    "summary": "“To put that plainly: The encryption currently used to keep your information confidential and secure could easily be broken by a large-scale quantum ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thequantuminsider.com/2026/02/06/google-calls-on-governments-and-industry-to-prepare-now-for-quantum-era-cybersecurity/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266139",
+    "date": "2026-02-07",
+    "title": "Google's Cyber Disruption Unit Kicks Its First Goal - Lawfare",
+    "summary": "eScan antivirus distributes backdoor in latest supply chain attack: Cybersecurity firm MicroWorld Technologies, the maker of the eScan antivirus, has ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/google's-cyber-disruption-unit-kicks-its-first-goal",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266140",
+    "date": "2026-02-07",
+    "title": "Technical debt puts federal cybersecurity at risk. The question now is how to break out of the cycle.",
+    "summary": "... secure architectures, especially as agencies try to integrate AI. It's a spiral that deepens cyber risk and delays progress. The Federal Drive ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/it-modernization/2026/02/technical-debt-puts-federal-cybersecurity-at-risk-the-question-now-is-how-to-break-out-of-the-cycle/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266141",
+    "date": "2026-02-07",
+    "title": "Binding Operational Directive 26-02 - Mitigating Risks From End-of-Support (EOS) Edge Devices",
+    "summary": "World's Premier Cyber Security Portal. Published Feb 6, 2026. + Follow. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/cisa-releases-binding-operational-directive-26-02-albne",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266142",
+    "date": "2026-02-07",
+    "title": "Inside Russian Cyber Attacks at the 2026 Winter Olympics",
+    "summary": "Who is behind the 2026 Olympic Cyber attack? As Antonio noted, this week's attacks originated from within Russia. Though Italy has not disclosed the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/inside-russian-cyber-attacks-at-the-2026-winter-olympics",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266109",
     "date": "2026-02-07",
     "title": "Fake Dubai Crown Prince tracked to Nigerian mansion after $2.5M romance scam",
