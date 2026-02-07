@@ -1,5 +1,88 @@
 [
   {
+    "id": "20266091",
+    "date": "2026-02-07",
+    "title": "Hong Kong plans to revive privacy law requiring firms to report data breaches",
+    "summary": "Hong Kong’s privacy watchdog plans to consult lawmakers this year about introducing mandatory data breach reporting and related penalties, the body’s chief has said. Privacy Commissioner for Personal Data Ada Chung Lai-ling on Saturday revealed details about the proposed legislative amendments to...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/hong-kong/society/article/3342754/hong-kong-plans-revive-privacy-law-mandating-firms-report-data-breaches?utm_source=rss_feed",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266092",
+    "date": "2026-02-07",
+    "title": "\"Il y a une mégatendance mondiale vers plus d'autoritarisme, de censure et de surveillance\" - Interview Mullvad",
+    "summary": "Chez Mullvad VPN, on n'est pas surpris par les récentes offensives politiques contre les VPN menées au nom de la protection des mineurs. Dans cet entretien, le co-fondateur dénonce une dérive autoritaire mondiale et met en garde les législateurs européens contre les risques d'un contrôle de l'inf...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599335-il-y-a-une-megatendance-mondiale-vers-plus-d-autoritarisme-de-censure-et-de-surveillance---interview-mullvad.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266093",
+    "date": "2026-02-07",
+    "title": "VPN et chiffrement de bout en bout : qui protège quoi, exactement ?",
+    "summary": "Ce n’est pas parce que vous utilisez un VPN que vos échanges sont privés, ni parce que vos messages sont chiffrés de bout en bout que vos données personnelles sont à l’abri. Une réalité technique parfois contre-intuitive qu’on vous explique.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599392-vpn-et-chiffrement-de-bout-en-bout-qui-protege-quoi-exactement.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266094",
+    "date": "2026-02-07",
+    "title": "Navy Secretary John Phelan and His Six-Hour Epstein Underaged Girl Tube",
+    "summary": "Secretary of the Navy John Phelan was listed on a March 3, 2006 flight manifest for Jeffrey Epstein’s Boeing 727, traveling from Luton, London to JFK. The flight-manifest-march-3-2006, released by the House Oversight Committee, is document HOUSE_OVERSIGHT_007300. The private jet flight lasted six...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/?p=76984",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266095",
+    "date": "2026-02-07",
+    "title": "Payments platform BridgePay confirms ransomware attack behind outage",
+    "summary": "A major U.S. payment gateway and solutions provider says a ransomware attack has knocked key systems offline, triggering a widespread outage affecting multiple services. The incident began on Friday and quickly escalated into a nationwide disruption across BridgePay's platform. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266096",
+    "date": "2026-02-07",
+    "title": "The phishing kit that thinks like a human. [Research Saturday]",
+    "summary": "Piotr Wojtyla, Head of Threat Intel and Platform at Abnormal AI, is discussing their work on \"InboxPrime AI: New Phishing Kit Fueling Scalable, AI-Powered Cybercrime.\" A new AI-powered phishing kit called InboxPrime AI is rapidly gaining traction in underground forums, automating the creation and...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/411/notes",
+    "tags": [
+      "phishing",
+      "iot",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266088",
     "date": "2026-02-07",
     "title": "[Ekstra] Farlig nær norske satellitter – frykter avlytting og sabotasje",
