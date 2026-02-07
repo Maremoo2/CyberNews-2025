@@ -1,5 +1,179 @@
 [
   {
+    "id": "20266097",
+    "date": "2026-02-07",
+    "title": "Payment gateway BridgePay confirms ransomware attack behind outage",
+    "summary": "A major U.S. payment gateway and solutions provider says a ransomware attack has knocked key systems offline, triggering a widespread outage affecting multiple services. The incident began on Friday and quickly escalated into a nationwide disruption across BridgePay's platform. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/payment-gateway-bridgepay-confirms-ransomware-attack-behind-outage/",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266098",
+    "date": "2026-02-07",
+    "title": "Why Identity Attack Paths are a major issue for government agencies",
+    "summary": "Microsoft Active Directory (AD) is just really hard to secure. That's the general finding of a 2024 Five Eyes report written by cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/commentary/2026/02/why-identity-attack-paths-are-a-major-issue-for-government-agencies/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266099",
+    "date": "2026-02-07",
+    "title": "A generative AI-driven cybersecurity framework for small and medium enterprises software ... - Nature",
+    "summary": "Integrating AI-driven threat intelligence and forecasting in the cyber security exercise content generation lifecycle. Int. J. Inform. Security, 23, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-37614-8",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266100",
+    "date": "2026-02-07",
+    "title": "Winston-Salem strengthened cybersecurity measures, officials say - WXII",
+    "summary": "Winston-Salem city officials said on Dec. 26, 2024, they were alerted to a potential cyber attack. Get the latest news stories of interest by ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wxii12.com/article/winston-salem-cyber-security-update/70271870",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266101",
+    "date": "2026-02-07",
+    "title": "DHS IG auditing ICE hiring, use of biometric data | Federal News Network",
+    "summary": "Justin Doubleday covers cybersecurity, homeland security and the intelligence community for Federal News Network. Follow @jdoubledayWFED. Sign up ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/agency-oversight/2026/02/dhs-ig-auditing-ice-hiring-use-of-biometric-data/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266102",
+    "date": "2026-02-07",
+    "title": "The CUInsight Network podcast: Effective Cybersecurity - Synergent - YouTube",
+    "summary": "... Information Security Officer at Synergent. Steve's path to cybersecurity was not a straight line, and he didn't grow up dreaming about credit ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=XFWAFyy_6J0",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266103",
+    "date": "2026-02-07",
+    "title": "AI Security, From Data to Runtime: A Holistic Defense Approach - SentinelOne",
+    "summary": "As AI capabilities accelerate, a critical question is emerging in the market: Does AI reduce the need for cybersecurity, or fundamentally increase it?",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sentinelone.com/blog/ai-security-from-data-to-runtime-a-holistic-defense-approach/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266104",
+    "date": "2026-02-07",
+    "title": "Law360 Profiles Sidley as a 2025 “Cybersecurity & Privacy Practice Group of the Year”",
+    "summary": "... security, cybersecurity, privacy, and quantum computing matters at the intersection of rapidly evolving technology and law. Sidley's team ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sidley.com/en/newslanding/newsannouncements/2026/02/law360-profiles-sidley-as-a-2025-cybersecurity-privacy-practice-group-of-the-year",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266105",
+    "date": "2026-02-07",
+    "title": "ShadowSyndicate Deploys Sophisticated Server Transition Technique In Latest ... - Cyber Press",
+    "summary": "First spotted by cybersecurity firm SentinelOne on January 28, 2026, this attack targets mid-sized enterprises in the manufacturing and logistics ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/shadowsyndicate-unleashes-server-transition/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266106",
+    "date": "2026-02-07",
+    "title": "This Week's Top Five Stories in Cyber | Cyber Magazine",
+    "summary": "For the modern business, that data has to be both visible and secure. To this end, global leader in cybersecurity, Palo Alto Networks, has acquired ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/top-five-stories-in-cyber-feb-6-2026",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266107",
+    "date": "2026-02-07",
+    "title": "Mastercard, UAE Cyber Security Council formalise cybersecurity co-operation - Yahoo",
+    "summary": "Mastercard, UAE Cyber Security Council formalise cybersecurity co-operation. Kuldeep Jha. Fri, February 6, 2026 at 9:20 AM UTC. 2 min read.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.yahoo.com/news/articles/mastercard-uae-cyber-security-council-092024366.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266108",
+    "date": "2026-02-07",
+    "title": "Why OpenClaw (Formerly Known as Clawdbot) Is a Wake-Up Call for AI Agent Security",
+    "summary": "It's also a preview of the next great enterprise security challenge. That's because AI agents aren't just chatting anymore — they're acting. They ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.illumio.com/blog/why-openclaw-is-a-wake-up-call-for-ai-agent-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266091",
     "date": "2026-02-07",
     "title": "Hong Kong plans to revive privacy law requiring firms to report data breaches",
