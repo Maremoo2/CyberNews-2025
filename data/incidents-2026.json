@@ -1,5 +1,35 @@
 [
   {
+    "id": "20266173",
+    "date": "2026-02-08",
+    "title": "Tre av fem er bekymret for personvern ved offentlig bruk av KI",
+    "summary": "Flere er bekymret for personvernet når kunstig intelligens tas i bruk i offentlige virksomheter. Bekymringen er ikke helt grunnløs, mener Kari Laumann i Datatilsynet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/tre-av-fem-bekymrer-seg-for-personvern-ved-offentlig-bruk-av-ki/567988",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266174",
+    "date": "2026-02-08",
+    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "summary": "OpenClaw (formerly Moltbot and Clawdbot) has announced that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem. \"All skills published to ClawHub are now ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266166",
     "date": "2026-02-08",
     "title": "Pourquoi de plus en plus d’utilisateurs Mac ajoutent une vraie suite de sécurité en 2026 ?",
