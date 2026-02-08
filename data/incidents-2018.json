@@ -1590,6 +1590,36 @@
     "impact": 3
   },
   {
+    "id": "2018003",
+    "date": "2018-11-15",
+    "title": "DHS Announces ICT Supply Chain Risk Management Task Force Members",
+    "summary": "The Department of Homeland Security (DHS) hosted the inaugural meeting of the nation’s first Information and Communications Technology (ICT) Supply Chain Risk Management Task Force. The task force is a public-private partnership formed to examine and develop consensus recommendations to identify ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/dhs-announces-ict-supply-chain-risk-management-task-force-members",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2018002",
+    "date": "2018-10-30",
+    "title": "DHS and Private Sector Partners Establish Information and Communications Technology Supply Chain Risk Management Task Force",
+    "summary": "The U.S. Department of Homeland Security (DHS) announced today the formation and chartering of the nation’s first Information and Communications Technology (ICT) Supply Chain Risk Management Task Force, a public-private partnership to examine and develop consensus recommendations to identify and ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/dhs-and-private-sector-partners-establish-information-and-communications",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2018002",
     "date": "2018-10-30",
     "title": "DHS and Private Sector Partners Establish Information and Communications Technology Supply Chain Risk Management Task Force",
@@ -3177,6 +3207,18 @@
       "supply-chain",
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2018001",
+    "date": "2018-10-02",
+    "title": "DHS Holds Classified Briefing for Private Sector Election Companies",
+    "summary": "Senior officials from the U.S. Department of Homeland Security (DHS) met today with members of the Sector Coordinating Council (SCC) for the Election Infrastructure Subsector and conducted a classified briefing on the current cyber threat landscape for the election community.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/dhs-holds-classified-briefing-private-sector-election-companies",
+    "tags": [],
     "impact": 3
   },
   {
