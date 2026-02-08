@@ -1,5 +1,17 @@
 [
   {
+    "id": "20266175",
+    "date": "2026-02-08",
+    "title": "New tool blocks imposter attacks disguised as safe commands",
+    "summary": "A new open-source and cross-platform tool called Tirith can detect homoglyph attacks over command-line environments by analyzing URLs in typed commands and stopping their execution. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20266173",
     "date": "2026-02-08",
     "title": "Tre av fem er bekymret for personvern ved offentlig bruk av KI",
