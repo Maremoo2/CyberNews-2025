@@ -1,5 +1,257 @@
 [
   {
+    "id": "20266219",
+    "date": "2026-02-09",
+    "title": "[Ekstra] Slik fikk et fiskebåtrederi plass i datasenterkø",
+    "summary": "Krabbebåtreder John Olav Økland ser store muligheter i datasenterplanene han har fått kloa i.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/slik-fikk-et-fiskebatrederi-plass-i-datasenterko/567880",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266220",
+    "date": "2026-02-09",
+    "title": "Customer Identity & Access Management: Die besten CIAM-Tools",
+    "summary": "Wir haben die besten Lösungen in Sachen Customer Identity & Access Management für Sie zusammengestellt.Jackie Niam | shutterstock.com Customer Identity & Access Management (CIAM) bildet eine Unterkategorie von Identity & Access Management (IAM). CIAM wird dazu eingesetzt, die Authentifizierungs- ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/3492789/customer-identity-access-management-die-6-besten-ciam-tools.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266221",
+    "date": "2026-02-09",
+    "title": "Voice: The Biggest Security Gap You're Ignoring - Dark Reading",
+    "summary": "Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/voice-the-biggest-security-gap-youre-ignoring",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266222",
+    "date": "2026-02-09",
+    "title": "S'pore mounts largest cyber-security op against UNC3886, more than 100 cyber defenders activated",
+    "summary": "Cybersecurity teams from six government agencies - CSA, the Infocomm Media Development Authority (IMDA), the Centre for Strategic Infocomm ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.straitstimes.com/tech/spore-mounts-largest-cyber-security-op-against-unc3886-more-than-100-cyber-defenders-activated",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266223",
+    "date": "2026-02-09",
+    "title": "Notepad++ hack, Office 0-Day, ESXi 0-day Ransomware Attacks and More - Cyber Security News",
+    "summary": "Cybersecurity Weekly Newsletter – Notepad++ hack, Office 0-Day, ESXi 0-day Ransomware Attacks and More ... Welcome to this week's pulse on the cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecuritynews.com/cybersecurity-newsletter-weekly-february/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266224",
+    "date": "2026-02-09",
+    "title": "Rockwell Automation Strengthens Industrial Cybersecurity with New Security Operations ...",
+    "summary": "The new facility is part of Rockwell Automation's global network of Managed Security Services and delivers 24/7 real-time monitoring, advanced threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/rockwell-automation-strengthens-industrial-cybersecurity-020000603.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266225",
+    "date": "2026-02-09",
+    "title": "Key Revisions and Compliance Recommendations of the PRC Cybersecurity Law",
+    "summary": "Moreover, it failed to sufficiently address emerging security challenges posed by new technologies like artificial intelligence (“AI”), and the CII ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.twobirds.com/en/insights/2026/china/key-revisions-and-compliance-recommendations-of-the-prc-cybersecurity-law",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266226",
+    "date": "2026-02-09",
+    "title": "CompTIA and SGInnovate partner to bridge AI and cybersecurity talent gap in Singapore",
+    "summary": "Intermediate: Analyst workflows including threat intelligence, vulnerability triage, and Security Information and Event Management (SIEM) fundamentals ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/comptia-and-sginnovate-partner-to-bridge-ai-and-cybersecurity-talent-gap-in-singapore-302682111.html",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266227",
+    "date": "2026-02-09",
+    "title": "India & Canada agree to strengthen cooperation on national security, law enforcement ...",
+    "summary": "The two sides also committed to formalising cooperation on cybersecurity policy and information sharing on cybersecurity issues, as well as continuing ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.newsonair.gov.in/india-canada-agree-to-strengthen-cooperation-on-national-security-law-enforcement-cybersecurity/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266228",
+    "date": "2026-02-09",
+    "title": "What ASEAN Governments Can Learn from the Russian State-Backed Attacks on Amazon ...",
+    "summary": "Malaysia's Cyber Security Act 2024 introduces a National Critical Information Infrastructure (NCII) framework, while Thailand's Cybersecurity Act ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fulcrum.sg/what-asean-governments-can-learn-from-the-russian-state-backed-attacks-on-amazon-web-services/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266229",
+    "date": "2026-02-09",
+    "title": "Rockwell Automation Strengthens Industrial Cybersecurity with New Security Operations ...",
+    "summary": "New facility delivers 24/7 threat monitoring, rapid response and AI-driven cybersecurity for industrial operations across Asia Pacific.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/apac/news-releases/rockwell-automation-strengthens-industrial-cybersecurity-with-new-security-operations-center-in-singapore-302680976.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266230",
+    "date": "2026-02-09",
+    "title": "Government-led innovation ecosystem is derisking space cybersecurity for private investors",
+    "summary": "It was organised by SGInnovate and European cybersecurity company CYSEC. Delivering the keynote at the event, the Cyber Security Agency of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://govinsider.asia/intl-en/article/government-led-innovation-ecosystem-is-derisking-space-cybersecurity-for-private-investors",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266231",
+    "date": "2026-02-09",
+    "title": "Fortinet fostering cyber security workers for tomorrow - ARNnet",
+    "summary": "It also includes AI integration to enhance cyber security defenses and address the industry's skills gap. Fortinet director of channels for Australia ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.arnnet.com.au/article/4129118/fortinet-fostering-cyber-security-workers-for-tomorrow.html",
+    "tags": [
+      "malware",
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266232",
+    "date": "2026-02-09",
+    "title": "Technology assurance appointment at Logicalis - Australian Cyber Security Magazine",
+    "summary": "Logicalis says the focus will be on strengthening both cybersecurity and operational resilience, while ensuring compliance requirements do not hinder ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/technology-assurance-appointment-at-logicalis/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266233",
+    "date": "2026-02-09",
+    "title": "European tech strategy advances with Germany's new AI factory | Digital Watch Observatory",
+    "summary": "Network security. Human rights. Privacy and data protection · Right to be ... New Cyber Startup Programme unveiled as Infosecurity Europe boosts early ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://dig.watch/updates/germany-ai-factory-sovereign-ai",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266234",
+    "date": "2026-02-09",
+    "title": "Genetec report finds healthcare ramping up hybrid-cloud and AI security",
+    "summary": "At the same time, security operations centres are increasingly ingesting data from cybersecurity ... cyber security in healthcare. Beyond traditional ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/genetec-report-finds-healthcare-ramping-up-hybrid-cloud-and-ai-security",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266235",
+    "date": "2026-02-09",
+    "title": "Arctic Wolf expands Malaysia operations with Ingram Micro and Anon Security - CRN Asia",
+    "summary": "\"The findings from our 2026 Threat Report make it clear that organizations in Malaysia are under growing pressure to advance their cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.crnasia.com/news/2026/cybersecurity/arctic-wolf-expands-malaysia-operations-with-ingram-micro-an",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266214",
     "date": "2026-02-09",
     "title": "Illinois Man Charged in Massive Snapchat Hacking Scheme Targeting Hundreds of Women",
