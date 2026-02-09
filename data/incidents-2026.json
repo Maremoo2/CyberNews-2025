@@ -1,5 +1,635 @@
 [
   {
+    "id": "20266268",
+    "date": "2026-02-09",
+    "title": "[Ekstra] Kampen mellom roboter og ufaglærte i fabrikkene raser",
+    "summary": "Hos Amazon taper den ene parten.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kampen-mellom-roboter-og-ufaglaerte-i-fabrikkene-raser/567709",
+    "tags": [
+      "amazon",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266269",
+    "date": "2026-02-09",
+    "title": "Når allierte spionerer på hverandre",
+    "summary": "E-tjenester demonstrerer en vilje til å gå veldig langt for å hente ut informasjon, inkludert å trenge gjennom tekniske beskyttelsesmekanismer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-nar-allierte-spionerer-pa-hverandre/567928",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266270",
+    "date": "2026-02-09",
+    "title": "SmarterTools Hit by Ransomware via Vulnerability in Its Own Product",
+    "summary": "SmarterTools says customers were impacted after hackers compromised a data center used for quality control testing. The post SmarterTools Hit by Ransomware via Vulnerability in Its Own Product appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/smartertools-hit-by-ransomware-via-vulnerability-in-its-own-product/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266271",
+    "date": "2026-02-09",
+    "title": "Flickr emails users about data breach, pins it on 3rd party",
+    "summary": "Legacy image-sharing website Flickr suffered a data breach, according to customer emails seen by The Register. The hack transpired on February 5, an email to customers stated, and the company said it \"shut down access to the affected system within hours of learning about it.\" The security issue s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.theregister.com/2026/02/06/flickr_emails_users_about_data_breach/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266272",
+    "date": "2026-02-09",
+    "title": "ISC Stormcast For Monday, February 9th, 2026 https://isc.sans.edu/podcastdetail/9800, (Mon, Feb 9th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32694",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266273",
+    "date": "2026-02-09",
+    "title": "AI security’s ‘Great Wall’ problem",
+    "summary": "The Great Wall of China was built to slow northern raiders and prevent steppe armies from riding straight into the empire’s heart. Yet in 1644, its most impregnable fortress fell without a siege. At Shanhai Pass, where the wall meets the Bohai Sea, General Wu Sangui commanded the eastern gate. Be...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ai-threat-modeling-beyond-cloud-infrastructure-op-ed/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266274",
+    "date": "2026-02-09",
+    "title": "Quick Howto: Extract URLs from RTF files, (Mon, Feb 9th)",
+    "summary": "Malicious RTF (Rich Text Format) documents are back in the news with the exploitation of CVE-2026-21509 by APT28. The malicious RTF documents BULLETEN_H.doc and Consultation_Topics_Ukraine(Final).doc mentioned in the news are RTF files (despite their .doc extension, a common trick used by threat ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32692",
+    "tags": [
+      "vulnerability",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266275",
+    "date": "2026-02-09",
+    "title": "YARA-X 1.13.0 Release, (Mon, Feb 9th)",
+    "summary": "YARA-X's 1.13.0 release brings 4 improvements and 4 bugfixes. Didier Stevens Senior handler blog.DidierStevens.com (c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32690",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266276",
+    "date": "2026-02-09",
+    "title": "State-backed phishing attacks targeting military officials and journalists on Signal",
+    "summary": "German security authorities are warning that a likely state-backed hacking group is engaged in attempts at phishing senior political figures, military officials, diplomats, and investigative journalists across Germany and Europe via Signal. The authorities also noted that while these attacks are ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/06/state-linked-phishing-europe-journalists-signal/?&web_view=true",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266277",
+    "date": "2026-02-09",
+    "title": "Bloody Wolf Targets Uzbekistan, Russia Using NetSupport RAT in Spear-Phishing Campaign",
+    "summary": "The threat actor known as Bloody Wolf has been linked to a campaign targeting Uzbekistan and Russia to infect systems with a remote access trojan known as NetSupport RAT. Cybersecurity vendor Kaspersky is tracking the activity under the moniker Stan Ghouls. The threat actor is known to be active ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html",
+    "tags": [
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266278",
+    "date": "2026-02-09",
+    "title": "Suspected sabotage disrupts trains in northern Italy as Winter Games begin",
+    "summary": "Italian authorities are investigating a series of suspected sabotage attacks on railway infrastructure in northern Italy that disrupted travel services during the opening days of the Winter Olympics.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/italy-suspected-sabotage-winter-olympics-trains",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266279",
+    "date": "2026-02-09",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cb28ee9aba2d0f7 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266280",
+    "date": "2026-02-09",
+    "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+    "summary": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation. The activity, observed around December 25, 2025, and described as \"worm-driven,\" leveraged exposed Dock...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266281",
+    "date": "2026-02-09",
+    "title": "[Ekstra] – Telenor-kundene har betalt for Ice- og Telia-nettene",
+    "summary": "Telenor mener Ice-Telia-samarbeidet betyr at det er på tide å oppheve reguleringen av Telenor.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-kundene-har-betalt-for-ice-og-telia-nettene/567979",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266282",
+    "date": "2026-02-09",
+    "title": "New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog",
+    "summary": "The KEV list is useful but largely misunderstood. KEVology explains what it is, and how best to use it. The post New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/new-paper-and-tool-help-security-teams-move-beyond-blind-reliance-on-cisas-kev-catalog/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266283",
+    "date": "2026-02-09",
+    "title": "UK Construction Firm Hit by Prometei Botnet Hiding in Windows Server",
+    "summary": "In January 2026, a UK construction firm discovered a digital “tenant from hell” hiding on its Windows Server. Security experts from the eSentire Threat Response Unit (TRU) identified the intruder as Prometei, a Russian-linked botnet active since 2016. While its main job is mining Monero cryptocur...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/uk-construction-firm-prometei-botnet-windows-server/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266284",
+    "date": "2026-02-09",
+    "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
+    "summary": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remote code execution. \"BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote A...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266285",
+    "date": "2026-02-09",
+    "title": "European Commission Investigating Cyberattack",
+    "summary": "The signs of a cyberattack were identified on systems EU's main executive body uses for mobile device management. The post European Commission Investigating Cyberattack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/european-commission-investigating-cyberattack/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266286",
+    "date": "2026-02-09",
+    "title": "Live Webinar | When AI Moves Faster Than Security: Enabling a Cyber-Resilient AI-Native Enterprise",
+    "summary": "AI adoption is accelerating, but traditional security and modernization models can't keep up. Learn why AI-native transformation demands new ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/webinars/live-webinar-when-ai-moves-faster-than-security-enabling-cyber-w-6787",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266287",
+    "date": "2026-02-09",
+    "title": "How NTT DATA Builds Cybersecurity into Data Centres",
+    "summary": "... cyber resilience are reshaping data centre security. NTT DATA is making a clear play to hard‑wire cybersecurity resilience into the fabric of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://datacentremagazine.com/news/how-ntt-data-builds-cybersecurity-into-data-centres",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266288",
+    "date": "2026-02-09",
+    "title": "AV-Comparatives Publishes Security Survey 2026: Global Trends in Cybersecurity Adoption ...",
+    "summary": "Perceived Sources of Cyberattacks. Beyond technology adoption, the Security Survey 2026 provides insight into how users perceive global cyber threats.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/av-comparatives-publishes-security-survey-2026-global-trends-in-cybersecurity-adoption-and-threat-perception-302682498.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266289",
+    "date": "2026-02-09",
+    "title": "International Cooperation | ENISA - European Union",
+    "summary": "ENISA signed a Working Arrangement with the Cybersecurity and Infrastructure Security Agency (CISA) in 2023. Working Arrangements allow a more ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.enisa.europa.eu/about-enisa/international-cooperation",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266290",
+    "date": "2026-02-09",
+    "title": "All for One acquires stake in cybersecurity specialist BrightFlare | Corporate - EQS News",
+    "summary": "... cyber attacks. The company focuses on the areas of Awareness & Testing, Information Technology Security and Operational Technology Security – for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eqs-news.com/news/corporate-news/all-for-one-acquires-stake-in-cybersecurity-specialist-brightflare/b2520acb-717d-4442-87a3-4fd1b0a83c10_en",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266291",
+    "date": "2026-02-09",
+    "title": "EU strengthens cyber defence after attack on Commission mobile systems",
+    "summary": "Rising cyber threats across Europe highlight the urgency of new EU cybersecurity frameworks after the Commission halted an intrusion targeting ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://dig.watch/updates/eu-strengthens-cyber-defence-after-attack",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266292",
+    "date": "2026-02-09",
+    "title": "ASIC hits FIIG with cyber security failure fine - The DESK",
+    "summary": "Investment manager FIIG Securities has been hit with a AUD 2.5 million regulatory penalty following failures to protect clients from cyber security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.fi-desk.com/asic-hits-fiig-with-cyber-security-failure-fine/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266293",
+    "date": "2026-02-09",
+    "title": "Australia's FIIG Securities fined $2.5 million over cybersecurity leak - Finextra Research",
+    "summary": "FIIG's failures worsened a 2023 cyber-attack which saw around 385 gigabytes of confidential information stolen and highly sensitive client data ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.finextra.com/pressarticle/108773/australias-fiig-securities-fined-25-million-over-cybersecurity-leak",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266294",
+    "date": "2026-02-09",
+    "title": "Why Cybersecurity Is Becoming the Backbone of Modern Global Commerce",
+    "summary": "Cyber Risk Is No Longer an IT Issue; It's a Trade Risk · The Expanding Attack Surface Across Global Commerce · Consumer-Facing Threats That Ripple Into ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.globaltrademag.com/why-cybersecurity-is-becoming-the-backbone-of-modern-global-commerce/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266295",
+    "date": "2026-02-09",
+    "title": "Closing the cyber equity gap: How collective investment can secure the internet for everyone",
+    "summary": "Open-source projects maintain critical cybersecurity tools. Infrastructure nonprofits safeguard the naming, numbering and routing systems that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/02/closing-the-cyber-equity-gap-how-collective-investment-can-secure-the-internet-for-everyone/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266296",
+    "date": "2026-02-09",
+    "title": "Institute for Security and Technology Announces Winners of Third Annual Cyber Policy Awards",
+    "summary": "These prestigious awards honor those in the cyber policy community whose work has defined the cybersecurity landscape in 2025 through public policy, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/industry/institute-for-security-and-technology-announces-winners-of-third-annual-cyber-policy-awards/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266297",
+    "date": "2026-02-09",
+    "title": "Over 60% of financial attacks starts with stolen login details: Cyber Security Council",
+    "summary": "Image Courtesy: The UAE Cyber Security Council Image used for illustrative purpose. Cybersecurity has become a major challenge in the digital space.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.zawya.com/en/business/technology-and-telecom/over-60-of-financial-attacks-starts-with-stolen-login-details-cyber-security-council-mgq5c8tp",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266298",
+    "date": "2026-02-09",
+    "title": "Federal agencies face 90-day deadline under CISA order to remediate vulnerable edge devices",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued a directive requiring federal agencies to identify and remediate ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/federal-agencies-face-90-day-deadline-under-cisa-order-to-remediate-vulnerable-edge-devices/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266299",
+    "date": "2026-02-09",
+    "title": "3 Questions to Ask Before Your Next SSE POC - The Hacker News",
+    "summary": "Cyber Attacks · Vulnerabilities · Webinars · Expert Insights · Contact ... security, and IT just to reach baseline enforcement. That's a lot of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/expert-insights/2026/02/3-questions-to-ask-before-your-next-sse.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266300",
+    "date": "2026-02-09",
+    "title": "Microsoft & Dragos: Securing Physical Assets from Threats | Cyber Magazine",
+    "summary": "Microsoft has entered into a collaboration with Dragos to integrate OT security into the physical assets of enterprises, as operational cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/how-microsoft-dragos-secure-physical-assets-from-threats",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266301",
+    "date": "2026-02-09",
+    "title": "CITIC Telecom CPC Wins Two Awards, Celebrating 'Innovation Never Stops' for 25 Years ...",
+    "summary": "Two Cybersecurity Experts Win Two Accolades in Cyber Security Professional Awards 2025 ... Internet and Cloud Services' sector of 'Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.tradingview.com/news/reuters.com,2026-02-09:newsml_ACN105079:0-citic-telecom-cpc-wins-two-awards-celebrating-innovation-never-stops-for-25-years-recognizing-cybersecurity-innovation-excellence/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266302",
+    "date": "2026-02-09",
+    "title": "CITIC Telecom CPC Wins Two Awards, Celebrating 'Innovation Never Stops' for 25 ... - ACROFAN",
+    "summary": "Two Cybersecurity Experts Win Two Accolades in Cyber Security ... Internet and Cloud Services” sector of “Cyber Security Professional Awards 2025”.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://us.acrofan.com/detail.php?number=1005759",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266303",
+    "date": "2026-02-09",
+    "title": "Largest Cyber Operation Mounted to Counter UNC3886's Threat | IMDA",
+    "summary": "The Cyber Security Agency of Singapore (CSA) and the Infocomm Media Development Authority (IMDA) shared details of a multi-agency cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/largest-cyber-operation-mounted-to-counter-unc3886-threat",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266304",
+    "date": "2026-02-09",
+    "title": "AI 'autonomy' fears say more about human design choices than machines, security expert ...",
+    "summary": "Cybersecurity specialists, however, say such interpretations overstate what current AI systems are capable of and distract from more immediate risks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://techobserver.in/news/cybersecurity/ai-autonomy-fears-say-more-about-human-design-choices-than-machines-security-expert-says-320864/?amp",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266305",
+    "date": "2026-02-09",
+    "title": "Crypto Scanner Launches to Detect Quantum-Vulnerable Cryptography Hidden in Codebases",
+    "summary": "Exclusive Cyber Security News platform that provide in-depth analysis about Cyber Attacks, Malware infection, Data breaches, Vulnerabilities, New ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/detect-quantum-vulnerable-cryptography/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266306",
+    "date": "2026-02-09",
+    "title": "UNC3886 Cyberattack in Singapore Triggers Largest Ever National Cybersecurity Response",
+    "summary": "The response began after the telcos reported suspicious activities from their networks to the Cyber Security Agency of Singapore (CSA) and the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://fintechnews.sg/126113/security/singapore-telco-cyberattack-unc3886/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266307",
+    "date": "2026-02-09",
+    "title": "Product Spotlight on Analytics - Security Magazine",
+    "summary": "Cybersecurity dashboard showing event actions (donut chart), source/destination IPs, and. Anomali. Quickly Searches Through Large Quantities of Data.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102107-product-spotlight-on-analytics",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266308",
+    "date": "2026-02-09",
+    "title": "CITIC Telecom CPC Wins Two Awards, Celebrating 'Innovation Never Stops' for 25 Years ...",
+    "summary": "... cybersecurity and continuous innovation capabilities ... Internet and Cloud Services” sector of “Cyber Security Professional Awards 2025”.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.acnnewswire.com/press-release/english/105079/citic-telecom-cpc-wins-two-awards,-celebrating-'innovation-never-stops'-for-25-years,-recognizing-cybersecurity-&-innovation-excellence",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266309",
+    "date": "2026-02-09",
+    "title": "FIIG Securities Fined $2.5M for Cybersecurity Lapses | Mirage News",
+    "summary": "FIIG admitted that it failed to comply with its Australian Financial Services (AFS) licence obligations and that adequate cyber security measures- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.miragenews.com/fiig-securities-fined-2-5m-for-cybersecurity-1616088/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266310",
+    "date": "2026-02-09",
+    "title": "Exposure Management Is at a Breaking Point That's Forcing a Reset - Dark Reading",
+    "summary": "Threat Actors move faster than cyber security professionals. They now ... Keep up with the latest cybersecurity threats, newly discovered ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/exposure-management-is-at-a-breaking-point-thats-forcing-a-reset",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266236",
     "date": "2026-02-09",
     "title": "Ce petit outil open source pourrait bien vous sauver des attaques ClickFix",
