@@ -1,5 +1,461 @@
 [
   {
+    "id": "20266236",
+    "date": "2026-02-09",
+    "title": "Ce petit outil open source pourrait bien vous sauver des attaques ClickFix",
+    "summary": "Dans un terminal, on copie-colle des commandes pour aller vite, parfois même pour exécuter un script en une ligne. Une habitude parfois à risque, que Tirith cherche à encadrer avant tout téléchargement malheureux.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599614-ce-petit-outil-open-source-pourrait-bien-vous-sauver-des-attaques-clickfix.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266237",
+    "date": "2026-02-09",
+    "title": "Cette alternative privée à Google Photos déploie sa plus grosse mise à jour",
+    "summary": "Le service de stockage photo chiffré Ente déploie sa mise à jour la plus ambitieuse depuis son lancement. Le service introduit des fonctionnalités communautaires, une refonte de l'interface mobile et introduit plusieurs options attendues.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599593-cette-alternative-privee-a-google-photos-deploie-sa-plus-grosse-mise-a-jour.html",
+    "tags": [
+      "mobile",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266238",
+    "date": "2026-02-09",
+    "title": "Fuite de donnée chez Flickr : 35 millions de comptes concernés",
+    "summary": "Le 5 février 2026, la plateforme de partage de photos Flickr a notifié ses utilisateurs d'une faille de sécurité ayant exposé certaines données personnelles. L'incident provient d'une vulnérabilité chez un fournisseur tiers de services email, désormais corrigée.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599557-fuite-de-donnee-chez-flickr-35-millions-de-comptes-concernes.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266239",
+    "date": "2026-02-09",
+    "title": "Alerte sécurité : Signal victime de tentative d'hameçonnage par un acteur \"étatique\"",
+    "summary": "Les agences allemandes de cybersécurité et de contre-espionnage alertent sur une campagne d'hameçonnage ciblant des responsables politiques, des militaires et des journalistes via Signal. Les attaquants détournent les fonctionnalités de la messagerie pour prendre le contrôle des comptes, sans exp...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599548-alerte-securite-signal-victime-de-tentative-d-hameconage-par-un-acteur-etatique.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266240",
+    "date": "2026-02-09",
+    "title": "Promo exclusive : le VPN de Proton est disponible à -70% en ce moment",
+    "summary": "Quand il s'agit de votre cybersécurité, et, plus spécifiquement, de votre confidentialité en ligne, mieux vaut être accompagné par un réseau virtuel privé de haut niveau. Et cela tombe bien, car Proton VPN a une belle offre pour vous en ce début d'année.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-599209-promo-exclusive-le-vpn-de-proton-est-disponible-a--70-en-ce-moment.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266241",
+    "date": "2026-02-09",
+    "title": "UAE Cyber Security Council Warns Stolen Logins Fuel Majority of Financial Cyberattacks",
+    "summary": "The UAE Cyber Security Council has issued a renewed warning about the growing threat of financial cybercrime, cautioning that stolen login credentials remain the most common entry point for attacks targeting individuals, companies, and institutions. According to the council, around 60% of financi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/uae-cyber-security-council-cyberattack/",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266242",
+    "date": "2026-02-09",
+    "title": "Why TikTok’s Addictive Design Is Now a Regulatory Problem",
+    "summary": "The European Commission’s preliminary finding that TikTok addictive design breaches the Digital Services Act (DSA) is a huge change in how regulators view social media responsibility, especially when it comes to children and vulnerable users. This is not a symbolic warning. It is a direct challen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/tiktok-addictive-design-breaches/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266243",
+    "date": "2026-02-09",
+    "title": "Singapore Launches Largest-Ever Cyber Defense Operation After UNC3886 Targets All Major Telcos",
+    "summary": "Singapore has launched its largest-ever coordinated cyber defense operation following a highly targeted cyberattack on telecommunications that affected all four of the country’s major telecommunications operators. The cyberattack in Singapore was attributed to the advanced threat actor UNC3886, a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/singapore-unc3886-telecom-cyberattack/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266244",
+    "date": "2026-02-09",
+    "title": "New research: 3 big challenges facing security teams (and how to overcome them)",
+    "summary": "New research from Tines shows AI adoption is high, but manual workloads and burnout persist.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/spons/new-research-3-big-challenges-facing-security-teams-and-how-to-overcome-t/811185/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266245",
+    "date": "2026-02-09",
+    "title": "BeyondTrust fixes easy-to-exploit pre-auth RCE vulnerability in remote access tools (CVE-2026-1731)",
+    "summary": "BeyondTrust fixed a critical remote code execution vulnerability (CVE-2026-1731) in its Remote Support (RS) and Privileged Remote Access (PRA) solutions and is urging self-hosted customers to apply the patch as soon a possible. Unlike the Remote Support zero-day (CVE-2024-12356) that was flagged ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/beyondtrust-remote-access-vulnerability-cve-2026-1731/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266246",
+    "date": "2026-02-09",
+    "title": "Linux kernel 6.19 reaches stable release, kernel 7.0 work is already underway",
+    "summary": "Development activity on the Linux kernel continues into early 2026 with the stable release of version 6.19. Kernel maintainers have completed the pre-release cycle and merged the final set of changes into the mainline tree. The release follows the ongoing weekly rhythm of code submission and test...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/linux-kernel-6-19-released/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266247",
+    "date": "2026-02-09",
+    "title": "OpenAI updates Europe privacy policy, adding new data categories",
+    "summary": "OpenAI has updated its Europe-facing privacy policy following the November 2024 EU revision, clarifying scope, expanding coverage, and detailing user controls. The updated document is longer, with dedicated sections for data controls and practical resources. It explains key controls and settings ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/openai-europe-privacy-policy-update/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266248",
+    "date": "2026-02-09",
+    "title": "TikTok under EU pressure to change its addictive algorithm",
+    "summary": "The European Commission has issued preliminary findings that say TikTok breaches the Digital Services Act due to its addictive design. The Commission opened a formal investigation into TikTok in February 2024. The probe examined whether the platform meets its obligations as a very large online pl...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/eu-tiktok-addictive-design-digital-services-act/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266249",
+    "date": "2026-02-09",
+    "title": "United Airlines CISO on building resilience when disruption is inevitable",
+    "summary": "Aviation runs on complex digital systems built for stability, safety, and long lifecycles. That reality creates a unique cybersecurity challenge for airlines, where disruption can quickly become an operational and public trust crisis. In this Help Net Security interview, Deneen DeFiore, VP and CI...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/deneen-defiore-united-airlines-aviation-cybersecurity-strategy/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266250",
+    "date": "2026-02-09",
+    "title": "Heimdal Claims Industry First with IASME-Aligned Cyber Essentials PEDM Mapping",
+    "summary": "London, UK, February 9, 2026 – Heimdal today announced it is the first vendor to publish an IASME Cyber Essentials aligned control mapping for Privilege Elevation and Delegation Management (PEDM), helping organisations evidence least privilege and stronger control over administrative access. Priv...",
+    "region": "EU",
+    "country": "Denmark",
+    "sourceName": "Heimdal Security Blog",
+    "sourceUrl": "https://heimdalsecurity.com/blog/heimdal-claims-industry-first-with-iasme-aligned-cyber-essentials-pedm-mapping/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266251",
+    "date": "2026-02-09",
+    "title": "Epstein’s Largest Asset Peter Thiel Runs Britain’s Nuclear Weapons",
+    "summary": "In 2008, Jeffrey Epstein was convicted of soliciting prostitution from a minor. That conviction is the fixed point in this story. Everything that follows happened after it. Why? The system that should have removed Epstein from power instead credentialed him as someone the system couldn’t touch. T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/epsteins-largest-asset-runs-britains-nuclear-weapons/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266252",
+    "date": "2026-02-09",
+    "title": "DKnife targets network gateways in long running AitM campaign",
+    "summary": "A previously undocumented China-linked adversary-in-the-middle (AitM) framework known as “DKnife” has been identified operating at network gateways, where it intercepts and manipulates in-transit traffic. According to Cisco Talos’ findings, the framework has been active since at least 2019 and re...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129383/dknife-targets-network-gateways-in-long-running-aitm-campaign.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266253",
+    "date": "2026-02-09",
+    "title": "Never settle: How CISOs can go beyond compliance standards to better protect their organizations",
+    "summary": "The start of a new year means a fresh start for everyone, including cybersecurity teams. With budgets and plans now finalized, it’s time for CISOs and their teams to execute their strategies. But that doesn’t mean that innovation stops when the plan is finalized. In 2026, CISOs should focus on go...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128920/never-settle-how-cisos-can-go-beyond-compliance-standards-to-better-protect-their-organizations.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266254",
+    "date": "2026-02-09",
+    "title": "Schrödinger’s cat and the enterprise security paradox",
+    "summary": "Most security leaders quietly live with a paradox they rarely name out loud. Until you truly look inside the box of your environment, your organization is both secure and compromised. The dashboards might be green and the audit reports reassuring, but the uncomfortable reality is that you do not ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128910/schrodingers-cat-and-the-enterprise-security-paradox.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266255",
+    "date": "2026-02-09",
+    "title": "Gartner-Prognose: Die sechs wichtigsten Cybersicherheits-Trends für 2026",
+    "summary": "Lesen Sie, mit welchen Cybersecurity-Trends sich Unternehmen in diesem Jahr beschäftigen sollten.Who is Danny – shutterstock.com Auch im Jahr 2026 bleibt die Cybersicherheitslage angespannt. Doch was sind die wichtigsten Themen, Risiken und Chancen, mit denen sich Security-Entscheider aktuell bef...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129302/gartner-prognose-die-sechs-wichtigsten-cybersicherheits-trends-fur-2026.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266256",
+    "date": "2026-02-09",
+    "title": "NIS2: Supply chains as a risk factor",
+    "summary": "Many companies today invest significant resources to secure their internal IT. Firewalls, monitoring, incident response plans, and awareness programs are well-established. At the same time, a dangerous illusion is growing: the assumption that risks can be controlled within the boundaries of one’s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128381/nis2-supply-chains-as-a-risk-factor.html",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266257",
+    "date": "2026-02-09",
+    "title": "Behörden warnen vor Hackerangriffen auf Politik und Militär",
+    "summary": "Cyberkriminelle haben es auf Signal-Konten von deutschen Politikern, Soldaten, Diplomaten und Journalisten abgesehen.nikkimeel – shutterstock.com Mit gefälschten Chatnachrichten vor allem im Messengerdienst Signal nehmen Hacker zurzeit hochrangige deutsche Politiker, Soldaten, Diplomaten und auch...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129232/behorden-warnen-vor-hackerangriffen-auf-politik-und-militar.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266258",
+    "date": "2026-02-09",
+    "title": "Software developers: Prime cyber targets and a rising risk vector for CISOs",
+    "summary": "Threats against corporate software developers are increasing and diversifying, challenging security leaders to develop more agile defenses against this growing attack vector. Attackers are increasingly targeting the tools, access, and trusted channels used by software developers rather than simpl...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127693/software-developers-prime-cyber-targets-and-a-rising-risk-vector-for-cisos.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266259",
+    "date": "2026-02-09",
+    "title": "BridgePay Confirms Ransomware Attack, No Card Data Compromised",
+    "summary": "The services of Florida-based payments platform BridgePay are offline due to a ransomware attack",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/bridgepay-confirms-ransomware/",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266260",
+    "date": "2026-02-09",
+    "title": "Social Media Platforms Earn Billions from Scam Ads",
+    "summary": "Revolut claims social media sites make £3.8bn annually from scam ads targeting European users",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/social-media-platforms-billions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266261",
+    "date": "2026-02-09",
+    "title": "Researchers Find 40,000+ Exposed OpenClaw Instances",
+    "summary": "SecurityScorecard has identified over 40,000 OpenClaw deployments exposed to potential attack",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/researchers-40000-exposed-openclaw/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266262",
+    "date": "2026-02-09",
+    "title": "US Agencies Told to Scrap End of Support Edge Devices",
+    "summary": "CISA has issued a new directive requiring federal agencies to decommission all end of support edge devices within 12 months to reduce ongoing exploitation risks",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/us-agencies-scrap-end-of-support/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266263",
+    "date": "2026-02-09",
+    "title": "Top 3rd Party Risk Management Solutions: 2026 Guide for SaaS Companies",
+    "summary": "We build software in the cloud, but our fate still rests in vendors’ hands. Every CI/CD pipeline, billing gateway, or AI plugin is another doorway into our stack. When that door is unlocked, data and reputation can pour out. The numbers back it up. Verizon’s 2025 Data Breach Investigations Report...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/top-3rd-party-risk-management-solutions-2026-guide-for-saas-companies",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266264",
+    "date": "2026-02-09",
+    "title": "Important Security Considerations While Selling CS2 Skins",
+    "summary": "Selling CS2 skins can be a great way to turn virtual items into real money, but it also comes with risks. Scams, fake trading bots, phishing sites, and shady buyers are still very common in the Counter-Strike ecosystem. If you don’t know how the process works or which platforms to trust, you can ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/important-security-considerations-while-selling-cs2-skins",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266265",
+    "date": "2026-02-09",
+    "title": "Men charged in FanDuel scheme fueled by thousands of stolen identities",
+    "summary": "Two Connecticut men face federal charges for allegedly defrauding FanDuel and other online gambling sites of $3 million over several years using the stolen identities of approximately 3,000 victims. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/men-charged-in-massive-fanduel-fraud-scheme-fueled-by-thousands-of-stolen-identities/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266266",
+    "date": "2026-02-09",
+    "title": "Microsoft: Exchange Online flags legitimate emails as phishing",
+    "summary": "Microsoft is investigating an ongoing Exchange Online issue that mistakenly flags legitimate emails as phishing and quarantines them. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-flags-legitimate-emails-as-phishing/",
+    "tags": [
+      "phishing",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266267",
+    "date": "2026-02-09",
+    "title": "European Commission discloses breach that exposed staff data",
+    "summary": "The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/",
+    "tags": [
+      "data-breach",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266219",
     "date": "2026-02-09",
     "title": "[Ekstra] Slik fikk et fiskebåtrederi plass i datasenterkø",
