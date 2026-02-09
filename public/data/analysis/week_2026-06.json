@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-02-09T00:31:20.927Z",
+  "pipeline_run_id": "run_2026-02-09T0031",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-06.json",
+  "aggregate_sha256": "f19eca60dce13b82cbca5500404a1d8d73f1279e60f28cb944aa481a30c7dd6e",
+  "code_commit": "8baefe0c9c50dee0a5b24552f49fa7a77c26cb67",
+  "token_usage": {
+    "prompt_tokens": 1860,
+    "completion_tokens": 679,
+    "total_tokens": 2539,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 8.6,
+  "analysis": {
+    "week_start": "2026-02-02",
+    "week_end": "2026-02-08",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in ransomware activity is likely due to a rise in targeted attacks on specific sectors.",
+        "why_now": "Ransomware percentage increased by 1.9% this week.",
+        "supporting_signals": [
+          "Ransomware percentage increased by 1.9%",
+          "Ransomware theme item count is 100"
+        ],
+        "counter_signals": [
+          "Ransomware is not the top theme by item count"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor ransomware reports for sector-specific targeting patterns.",
+          "Analyze incident reports for any correlation with sector distribution."
+        ]
+      },
+      {
+        "claim": "Phishing attacks are becoming more prevalent, potentially targeting government sectors.",
+        "why_now": "Phishing percentage increased by 1.4% this week.",
+        "supporting_signals": [
+          "Phishing percentage increased by 1.4%",
+          "Government sector has the highest count at 57"
+        ],
+        "counter_signals": [
+          "Phishing theme item count is relatively low at 66"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Review phishing incident reports for government sector involvement.",
+          "Check for any new phishing campaigns targeting government entities."
+        ]
+      },
+      {
+        "claim": "The high concentration of data from top sources may lead to biased threat intelligence.",
+        "why_now": "59% of data comes from the top 3 feeds, indicating potential bias.",
+        "supporting_signals": [
+          "Source concentration warning at 59%",
+          "Top sources include Data/IT and Cyber"
+        ],
+        "counter_signals": [
+          "Total sources count is 58, indicating diversity"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Assess the diversity of sources in future reports.",
+          "Cross-reference with other intelligence feeds to verify findings."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons behind the increase in ransomware and phishing percentages.",
+        "why_it_matters": "Understanding the drivers can help in anticipating future trends.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports and attack vectors for ransomware and phishing."
+      },
+      {
+        "unknown": "The impact of the CISA directive on edge device security on overall threat landscape.",
+        "why_it_matters": "Policy changes can significantly alter threat dynamics.",
+        "what_data_would_reduce_uncertainty": "Reports on compliance and effectiveness of the CISA directive."
+      },
+      {
+        "unknown": "The potential overlap between 'data breach' and 'data-breach' themes.",
+        "why_it_matters": "Clarifying this could improve thematic analysis accuracy.",
+        "what_data_would_reduce_uncertainty": "A detailed breakdown of incidents categorized under each theme."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Ransomware percentage",
+        "threshold": "Above 5%",
+        "why_it_matters": "A significant increase could indicate a surge in ransomware attacks.",
+        "recommended_action": "Increase monitoring and readiness for ransomware incidents."
+      },
+      {
+        "signal": "Phishing percentage",
+        "threshold": "Above 6%",
+        "why_it_matters": "A rise could suggest new phishing campaigns or techniques.",
+        "recommended_action": "Enhance phishing detection and prevention measures."
+      },
+      {
+        "signal": "Source concentration warning",
+        "threshold": "Above 60%",
+        "why_it_matters": "High concentration could skew the threat intelligence.",
+        "recommended_action": "Diversify data sources to ensure balanced intelligence."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-02-02",
+  "week_end": "2026-02-08",
+  "week_number": 6,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1081,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-0.7",
+    "phishing_pct": "1.4",
+    "token_abuse_pct": "0.7",
+    "ransomware_pct": "1.9"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "10.1",
+    "phishing_pct": "5.8",
+    "token_abuse_pct": "2.7",
+    "ransomware_pct": "4.6"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7464384828862165,
+      "item_count": 666
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6369102682701202,
+      "item_count": 370
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6091581868640148,
+      "item_count": 295
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5773358001850138,
+      "item_count": 209
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5458834412580944,
+      "item_count": 124
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5370027752081407,
+      "item_count": 100
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5333024976873265,
+      "item_count": 90
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5333024976873265,
+      "item_count": 90
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5244218316373728,
+      "item_count": 66
+    },
+    {
+      "theme": "aws",
+      "confidence": 0.519981498612396,
+      "item_count": 54
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 57,
+      "percentage": "5.3"
+    },
+    {
+      "sector": "technology",
+      "count": 28,
+      "percentage": "2.6"
+    },
+    {
+      "sector": "energy",
+      "count": 10,
+      "percentage": "0.9"
+    },
+    {
+      "sector": "education",
+      "count": 9,
+      "percentage": "0.8"
+    },
+    {
+      "sector": "finance",
+      "count": 7,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "retail",
+      "count": 4,
+      "percentage": "0.4"
+    },
+    {
+      "sector": "healthcare",
+      "count": 4,
+      "percentage": "0.4"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access denied",
+      "size": 9,
+      "confidence": 0.602913968547641
+    },
+    {
+      "title": "CISA Orders Federal Agencies to Strengthen Edge Device Security Amid Rising Cyber Threats",
+      "size": 5,
+      "confidence": 0.6016188714153561
+    },
+    {
+      "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+      "size": 3,
+      "confidence": 0.6009713228492136
+    },
+    {
+      "title": "Amazon EC2 G6e instances now available in Dubai region",
+      "size": 3,
+      "confidence": 0.6009713228492136
+    },
+    {
+      "title": "A Quiet Policy Shift Just Redefined Entire Federal Cybersecurity Landscape",
+      "size": 2,
+      "confidence": 0.6006475485661424
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "59% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 370
+      },
+      {
+        "source": "Cyber",
+        "count": 209
+      },
+      {
+        "source": "Help Net Security",
+        "count": 62
+      }
+    ],
+    "total_sources": 58
+  }
+}

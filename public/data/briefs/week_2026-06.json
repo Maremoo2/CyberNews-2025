@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-02-09T00:31:28.404Z",
+  "week_start": "2026-02-02",
+  "week_end": "2026-02-08",
+  "week_year": 2026,
+  "week_number": 6,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1855,
+    "completion_tokens": 725,
+    "total_tokens": 2580,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00071325,
+  "duration_seconds": 7.22,
+  "aggregate_sha256": "f19eca60dce13b82cbca5500404a1d8d73f1279e60f28cb944aa481a30c7dd6e",
+  "brief": {
+    "week_start": "2026-02-02",
+    "week_end": "2026-02-08",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cyber Threat Landscape",
+        "summary": "Malware remains the top theme with 666 incidents reported, indicating a persistent threat to organizational security.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "CISA Urges Enhanced Edge Device Security",
+        "summary": "Federal agencies are directed to bolster security measures for edge devices in response to increasing cyber threats, impacting government sector protocols.",
+        "cluster_reference": "CISA Orders Federal Agencies to Strengthen Edge Device Security Amid Rising Cyber Threats",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Ransomware Attacks Increase by 1.9% This Week",
+        "summary": "Ransomware incidents are on the rise, now accounting for 4.6% of total attacks, necessitating heightened vigilance and response strategies.",
+        "cluster_reference": "ransomware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Attacks Rise by 1.4% This Week",
+        "summary": "Phishing incidents have increased to 5.8% of total attacks, highlighting the need for improved employee training and awareness.",
+        "cluster_reference": "phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "New Policy Shift in Federal Cybersecurity Landscape",
+        "summary": "A recent policy shift is redefining cybersecurity measures across federal agencies, which may influence compliance and operational strategies.",
+        "cluster_reference": "A Quiet Policy Shift Just Redefined Entire Federal Cybersecurity Landscape",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in Phishing and Ransomware Attacks",
+        "change_indicator": "Phishing up by 1.4%, Ransomware up by 1.9%",
+        "significance": "These increases indicate a growing trend in social engineering attacks, requiring immediate attention to security training and incident response."
+      },
+      {
+        "pattern": "Decrease in Exploit-led Attacks",
+        "change_indicator": "Exploit-led attacks down by 0.7%",
+        "significance": "While this is a positive trend, it is crucial to remain vigilant as attackers may shift tactics."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Ransomware Threats",
+        "affected_sectors": [
+          "government",
+          "education",
+          "finance"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Phishing Attacks Targeting Employees",
+        "affected_sectors": [
+          "technology",
+          "healthcare",
+          "retail"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Malware Infections in Critical Infrastructure",
+        "affected_sectors": [
+          "energy",
+          "manufacturing"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Ransomware Incident Rate",
+        "threshold": "Above 5% of total attacks",
+        "action": "Initiate immediate review of ransomware response protocols."
+      },
+      {
+        "metric": "Phishing Incident Rate",
+        "threshold": "Above 6% of total attacks",
+        "action": "Enhance employee training and phishing simulations."
+      },
+      {
+        "metric": "Malware Incident Rate",
+        "threshold": "Above 10% of total attacks",
+        "action": "Conduct a comprehensive security audit and threat assessment."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "CISA Orders Federal Agencies to Strengthen Edge Device Security",
+        "reason": "To assess implications for compliance and operational adjustments across sectors.",
+        "cluster_ref": "CISA Orders Federal Agencies to Strengthen Edge Device Security Amid Rising Cyber Threats"
+      },
+      {
+        "item": "A Quiet Policy Shift Just Redefined Entire Federal Cybersecurity Landscape",
+        "reason": "To understand the potential impacts on existing cybersecurity frameworks and strategies.",
+        "cluster_ref": "A Quiet Policy Shift Just Redefined Entire Federal Cybersecurity Landscape"
+      },
+      {
+        "item": "Access Denied Incidents",
+        "reason": "To investigate the underlying causes and potential vulnerabilities in access control systems.",
+        "cluster_ref": "Access denied"
+      }
+    ]
+  }
+}
