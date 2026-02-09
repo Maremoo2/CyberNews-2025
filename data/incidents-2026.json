@@ -1,5 +1,654 @@
 [
   {
+    "id": "20266311",
+    "date": "2026-02-09",
+    "title": "Which countries are best-placed to see off state-supported cyber-attacks? A government advisor explains",
+    "summary": "In April 2007, the Baltic nation of Estonia woke up to one of the world’s first major cyber-attacks on civil society carried out by a state. A series of massive “distributed denial of service” assaults – floods of fake traffic from networked computers – targeted government websites, banks, media ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Conversation Cybersecurity",
+    "sourceUrl": "https://theconversation.com/which-countries-are-best-placed-to-see-off-state-supported-cyber-attacks-a-government-advisor-explains-275447",
+    "tags": [
+      "ddos",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266312",
+    "date": "2026-02-09",
+    "title": "Hacked, leaked, exposed: Why you should never use stalkerware apps",
+    "summary": "According to TechCrunch’s ongoing tally, including the most recent data spill involving uMobix, there have been at least 27 stalkerware companies since 2017 that are known to have been hacked, or leaked customer and victims’ data online.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/09/hacked-leaked-exposed-why-you-should-stop-using-stalkerware-apps/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266313",
+    "date": "2026-02-09",
+    "title": "Hacktivist scrapes over 500,000 stalkerware customers’ payment records",
+    "summary": "More than half-a-million people who bought access to phone surveillance and social media snooping apps had their email address and partial payment card numbers published online.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/09/hacktivist-scrapes-over-500000-stalkerware-customers-payment-records/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266314",
+    "date": "2026-02-09",
+    "title": "Sécuriser les pièces jointes vers les avocats via liens expirables",
+    "summary": "Contrats, dossiers RH, documents financiers : quand vous envoyez ces fichiers sensibles à votre cabinet d'avocats par e-mail, vous exposez directement les données qu'ils contiennent. Pour limiter ce risque, privilégiez des liens expirables vers un espace sécurisé plutôt que des pièces jointes cla...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-591073-securiser-les-pieces-jointes-vers-les-avocats-via-liens-expirables.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266315",
+    "date": "2026-02-09",
+    "title": "Pendant deux ans, elle pensait avoir un petit ami : c'était une arnaque à 70 000 euros",
+    "summary": "Un homme de 45 ans et sa complice ont extorqué plus de 70 000 euros à une femme, via une arnaque sentimentale. C'est la Police nationale espagnole qui a démantelé ce réseau qui visait des gens vulnérables.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599713-pendant-deux-ans-elle-pensait-avoir-un-petit-ami-c-etait-une-arnaque-a-70-000-euros.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266316",
+    "date": "2026-02-09",
+    "title": "81% de réduction sur ExpressVPN : cette offre tombe pile pour la Saint Valentin",
+    "summary": "À l’occasion de la Saint-Valentin, ExpressVPN propose une réduction de 81% sur son offre Basique. L’abonnement 2 ans + 4 mois offerts revient ainsi à 2,09 euros par mois, une opportunité pour sécuriser sa navigation sans alourdir son budget.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-599674-de-reduction-sur-expressvpn-cette-offre-tombe-pile-pour-la-saint-valentin.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266317",
+    "date": "2026-02-09",
+    "title": "Vos appels comme preuve ? France Travail veut traquer la fraude à partir de vos données téléphoniques",
+    "summary": "La lutte contre la fraude sociale s’apprête à franchir un nouveau cap. En toile de fond, un projet de loi récemment adopté au Sénat, qui entend doter l’administration de moyens de contrôle renforcés pour mieux détecter les abus aux prestations sociales. Parmi les pistes évoquées, certaines interr...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599665-vos-appels-comme-preuve-france-travail-veut-traquer-la-fraude-a-partir-de-vos-donnees-telephoniques.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266318",
+    "date": "2026-02-09",
+    "title": "FTC data highlights online threats to consumers and businesses",
+    "summary": "The commission listed several steps companies can take to fend off attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ftc-ransomware-scams-fraud-report/811705/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266319",
+    "date": "2026-02-09",
+    "title": "Threat actors target SolarWinds Web Help Desk flaw",
+    "summary": "Researchers say hackers are using remote monitoring and other tools in compromised environments.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/threat-actors-target-solarwinds-web-help-desk-flaw/811702/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266320",
+    "date": "2026-02-09",
+    "title": "SmarterTools suffers security breach by the Warlock ransomware group",
+    "summary": "SmarterTools has confirmed that a breach in its internal network was traced back to an unpatched Windows-based SmarterMail server, exposing several systems to hackers. The company attributes the intrusion to the Warlock ransomware group, a known threat actor with a history of targeting Microsoft-...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/smartertools-suffers-security-breach-by-the-warlock-ransomware-group/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266321",
+    "date": "2026-02-09",
+    "title": "European Commission says hackers targeted its mobile infrastructure",
+    "summary": "On January 30, the European Commission detected and swiftly contained a cyber-attack targeting its central infrastructure responsible for managing staff mobile devices. While preliminary investigations suggest that attackers may have accessed staff names and phone numbers, no mobile devices were ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/european-commission-says-hackers-targeted-its-mobile-infrastructure/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266322",
+    "date": "2026-02-09",
+    "title": "Ransomware group breached SmarterTools via flaw in its SmarterMail deployment",
+    "summary": "SmarterTools, the company behind the popular Microsoft Exchange alternative SmarterMail, has been breached by a ransomware-wielding group that leveraged a recently fixed vulnerability in that solution. How did the SmarterTools breach happen? Derek Curtis, the firm’s Chief Operating Officer, said ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/smartertools-breach-smartermail-vulnerability/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266323",
+    "date": "2026-02-09",
+    "title": "European Commission hit by cyberattackers targeting mobile management platform",
+    "summary": "The European Commission’s mobile device management platform was hacked but the incident was swiftly contained and no compromise of mobile devices was detected, EU’s executive branch announced on Friday. The intrusion was detected on January 30, 2026, by CERT-EU, the cybersecurity team protecting ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/european-commission-ivanti-epmm-vulnerabilities/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266324",
+    "date": "2026-02-09",
+    "title": "EU targets Meta over WhatsApp AI access restrictions",
+    "summary": "The European Commission believes Meta breached EU competition rules by blocking other AI assistants from accessing and interacting with users on WhatsApp. The case centers on a change Meta announced on 15 October 2025 to the WhatsApp Business Solution Terms. The update effectively blocked third-p...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/eu-meta-whatsapp-ai-services-competition-rules/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266325",
+    "date": "2026-02-09",
+    "title": "BridgePay Ransomware Causes Widespread Payment Outages",
+    "summary": "A ransomware attack on BridgePay Network Solutions on Feb. 6, 2026, caused payment processing disruptions across the U.S., affecting merchants, local governments, and service providers. The outage temporarily forced some businesses to rely on cash-only transactions while payment services were una...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/bridgepay-ransomware-causes-widespread-payment-outages/",
+    "tags": [
+      "ransomware",
+      "government"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266326",
+    "date": "2026-02-09",
+    "title": "Claude Opus 4.6 Exposes Hundreds of Open-Source Vulnerabilities",
+    "summary": "Artificial intelligence firm Anthropic says its newest large language model, Claude Opus 4.6, has identified more than 500 previously unknown high-severity vulnerabilities across widely used open-source libraries. It “… reads and reasons about code the way a human researcher would — looking at pa...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/claude-opus-4-6-exposes-hundreds-of-open-source-vulnerabilities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266327",
+    "date": "2026-02-09",
+    "title": "OpenClaw Adds VirusTotal Scanning to AI Agent Marketplace",
+    "summary": "OpenClaw has moved to strengthen security across its fast-growing agent ecosystem by integrating VirusTotal into its ClawHub skill marketplace. The change follows reports that hundreds of malicious skills were circulating undetected. We “… upload full skill bundles for Code Insight analysis, givi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/openclaw-adds-virustotal-scanning-to-ai-agent-marketplace/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266328",
+    "date": "2026-02-09",
+    "title": "BeyondTrust Vulnerability Allows Pre-Auth Remote Code Execution",
+    "summary": "A vulnerability in BeyondTrust remote access products allows unauthenticated attackers to execute arbitrary operating system commands, potentially granting full control over affected systems. The flaw impacts BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) and carries a CVSS sc...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/beyondtrust-vulnerability-allows-pre-auth-remote-code-execution/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266329",
+    "date": "2026-02-09",
+    "title": "The Myth of “Known APIs”: Why Inventory-First Security Models Are Already Obsolete",
+    "summary": "You probably think the security mantra “you can’t protect what you don’t know about” is an inarguable truth. But you would be wrong. It doesn’t hold water in today’s threat landscape. Of course, it sounds reasonable. Before you secure APIs, you must first discover, inventory, and document them ex...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Wallarm Blog",
+    "sourceUrl": "https://lab.wallarm.com/known-apis-myth-why-inventory-first-security-obsolete/",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266330",
+    "date": "2026-02-09",
+    "title": "Banana Gun Tames the 100,000 TPS Beast: MegaETH Mainnet Live with “Best Crypto Trading Bot” Infrastructure from Day One",
+    "summary": "In the latest development, Banana Gun tames the 100,000 TPS beast with the MegaETH Mainnet Live as the “Best Crypto Trading Bot” infrastructure from day one. The speed limit of decentralized finance (DeFi) has been shattered. With the Mainnet launch of MegaETH today, on-chain trading has entered ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/banana-gun-100000-tps-beast-megaeth-mainnet-live/",
+    "tags": [
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266331",
+    "date": "2026-02-09",
+    "title": "The Expanding Role Of AI In Cybersecurity For Enterprises",
+    "summary": "With cyberattackers increasingly using AI-driven methods, find out why it's more important than ever for businesses to reevaluate the role of AI in cybersecurity.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/expanding-role-of-ai-in-cybersecurity-enterprises/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266332",
+    "date": "2026-02-09",
+    "title": "Putting AI Protection Into Practice Across The Enterprise",
+    "summary": "The rise of tools like ChatGPT means that AI protection must now be a top priority for every firm. Learn what's involved in ensuring these platforms are used responsibly.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/putting-ai-protection-into-practice-enterprise/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266333",
+    "date": "2026-02-09",
+    "title": "Addressing The AI Cybersecurity Risks Lurking Beneath Everyday Activities",
+    "summary": "A lack of visibility into how data is being used is one of the biggest AI cybersecurity risks every enterprise has to deal with. Find out why this matters.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/ai-cybersecurity-risks-in-everyday-activities/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266334",
+    "date": "2026-02-09",
+    "title": "AI Cybersecurity Threats Vs Traditional Attacks: What’s Changed?",
+    "summary": "Understanding what AI cybersecurity threats firms face and how they differ from traditional dangers is now essential for all companies. Here's what you need to know.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/ai-cybersecurity-threats-vs-traditional-attacks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266335",
+    "date": "2026-02-09",
+    "title": "Why Generative AI Security Is Now A Business-Critical Issue",
+    "summary": "Find out why generative AI security will be a mission-critical aspect of every business' data protection strategy in 2026 and beyond.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/why-generative-ai-security-is-business-critical/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266336",
+    "date": "2026-02-09",
+    "title": "The Rise Of Shadow AI: Preventing Data Exfiltration In The Age Of ChatGPT",
+    "summary": "Shadow AI is set to be one of the biggest data security threats of 2026. Find out why this is a challenge and what enterprises need to do about it.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/the-rise-of-shadow-ai-adx-in-the-age-of-chatgpt/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266337",
+    "date": "2026-02-09",
+    "title": "Landeck Ruling Said Get a Judge for Data Acquisition. Tool Vendors Say Fuhgetaboutit",
+    "summary": "On October 4, 2024, the European Court of Justice handed down its Grand Chamber ruling in Bezirkshauptmannschaft Landeck (C-548/21). The case seems straightforward: Austrian police seized a man’s phone during a cannabis investigation, tried to unlock it without authorization from a prosecutor or ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/landeck-ruling-said-get-a-judge-for-data-acquisition-tool-vendors-say-fuhgetaboutit/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266338",
+    "date": "2026-02-09",
+    "title": "Why Modern Web Application Testing Must Reflect Real-World Use",
+    "summary": "Web applications remain one of the most targeted attack surfaces for modern organizations. Despite widespread adoption of secure development practices and testing tools, incidents continue to occur at scale. An important distinction should be highlighted here: while web application testing remain...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Canary Trap",
+    "sourceUrl": "https://canarytrap.com/web-application-testing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266339",
+    "date": "2026-02-09",
+    "title": "Virtru Is PCI Compliant, a Game-Changer for Financial Services Security",
+    "summary": "Virtru has now achieved Payment Card Industry Data Security Standard (PCI DSS) compliance — a critical milestone that reinforces our commitment to helping financial services organizations protect their most sensitive data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/pci",
+    "tags": [
+      "finance"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266340",
+    "date": "2026-02-09",
+    "title": "Integrating With Cisco XDR at Black Hat Europe",
+    "summary": "Investigating indicators of compromise (IOCs) requires a unified view of security data. See how we integrated Cisco XDR with third-party tools and open-source models at Black Hat Europe.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/integrating-cisco-xdr-black-hat-europe/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266341",
+    "date": "2026-02-09",
+    "title": "Black Hat Europe: Enhancing Security Operations With Cisco XDR and Foundation-sec-8b-Instruct LLM",
+    "summary": "Manual triage often slows down incident response. Learn how we integrated an 8-billion parameter security LLM into Cisco XDR to summarize alerts and trace attack paths in real time.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/enhancing-security-with-cisco-xdr-foundation-ai/",
+    "tags": [
+      "malware",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266342",
+    "date": "2026-02-09",
+    "title": "Black Hat Europe 2025: A Decade of Cisco Security Cloud Innovation",
+    "summary": "Building a secure network for thousands of cybersecurity experts in just three days requires intense collaboration. Discover the hardware, software, and engineering behind the Black Hat Europe NOC.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/black-hat-europe-2025/",
+    "tags": [
+      "malware",
+      "cloud",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266343",
+    "date": "2026-02-09",
+    "title": "Securing DNS With Secure Access at Black Hat Europe",
+    "summary": "For a decade, Cisco has secured Black Hat events with DNS security. Learn how the evolution to Cisco Secure Access provided visibility into 66 million queries and 6,000 unique apps in London.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/securing-dns-black-hat-europe/",
+    "tags": [
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266344",
+    "date": "2026-02-09",
+    "title": "Black Hat Europe 2025: Firepower IDS Flags Unwanted P2P on Rented Gear",
+    "summary": "Rented hardware often carries digital baggage from previous users. Discover how our NOC team used JA3 fingerprints and Cisco XDR to track down unauthorized P2P syncing in London.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/black-hat-europe-2025-firepower-ids-flags-unwanted-p2p-on-rented-gear/",
+    "tags": [
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266345",
+    "date": "2026-02-09",
+    "title": "Continuous Improvement at Black Hat Europe: Listen to Your Analysts! (They Know What They Need)",
+    "summary": "When security analysts lack endpoint context, identifying the root cause of a network connection is difficult. Discover how a simple automation workflow enriched XDR incidents with DNS data in minutes.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/continuous-improvement-black-hat-europe/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266346",
+    "date": "2026-02-09",
+    "title": "OpenClaw integrates VirusTotal malware scanning as security firms flag enterprise risks",
+    "summary": "OpenClaw, the viral open-source AI agent that security firms warn is “insecure by default,” has integrated VirusTotal’s malware scanning into its ClawHub skills marketplace following weeks in which security researchers documented malicious extensions and widespread unauthorized deployments in ent...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129393/openclaw-integrates-virustotal-malware-scanning-as-security-firms-flag-enterprise-risks.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266347",
+    "date": "2026-02-09",
+    "title": "New Zero-Click Flaw in Claude Desktop Extensions, Anthropic Declines Fix",
+    "summary": "Security researchers from LayerX identified a new flaw in 50 Claude Desktop Extensions that could lead to unauthorized remote code execution",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/zeroclick-flaw-claude-dxt/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266348",
+    "date": "2026-02-09",
+    "title": "Two Connecticut Men Charged In Alleged $3m Gambling Fraud Scheme",
+    "summary": "Two Connecticut men face federal charges for a $3m scheme targeting online gambling platforms",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/men-charged-gambling-fraud-scheme/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266349",
+    "date": "2026-02-09",
+    "title": "VoidLink Malware Exhibits Multi-Cloud Capabilities and AI Code",
+    "summary": "VoidLink, a Linux-based C2 framework, facilitates credential theft, data exfiltration across clouds",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/voidlink-malware-multi-cloud-ai/",
+    "tags": [
+      "phishing",
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266350",
+    "date": "2026-02-09",
+    "title": "The Ultimate Guide to Protecting Sensitive Data with Watermarking",
+    "summary": "Files travel fast. A report you send to a teammate can be shared beyond your control. Designs, contracts, or sensitive data can leak, even if it wasn’t your intention. Watermarking helps you mark files in a hidden way. It doesn’t stop people from opening them, but it shows ownership and makes una...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/the-ultimate-guide-to-protecting-sensitive-data-with-watermarking",
+    "tags": [
+      "data-breach",
+      "critical-infrastructure"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266351",
+    "date": "2026-02-09",
+    "title": "Top Third Party Risk Management Tools: 2026 Guide for SaaS Companies",
+    "summary": "We build software in the cloud, but our fate still rests in vendors’ hands. Every CI/CD pipeline, billing gateway, or AI plugin is another doorway into our stack. When that door is unlocked, data and reputation can pour out. The numbers back it up. Verizon’s 2025 Data Breach Investigations Report...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/top-third-party-risk-management-tools-2026-guide-for-saas-companies",
+    "tags": [
+      "data-breach",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266352",
+    "date": "2026-02-09",
+    "title": "Flickr’s 35M Users Affected by Third-Party Data Exposure",
+    "summary": "Flickr disclosed a data exposure tied to a third-party email provider, highlighting how external service vulnerabilities can put millions of users at risk. The post Flickr’s 35M Users Affected by Third-Party Data Exposure appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-flickr-third-party-email-data-exposure/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266353",
+    "date": "2026-02-09",
+    "title": "Password guessing without AI: How attackers build targeted wordlists",
+    "summary": "Attackers don't need AI to crack passwords, they build targeted wordlists from an organization's own public language. This article explains how tools like CeWL turn websites into high-success password guesses and why complexity rules alone fall short. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/password-guessing-without-ai-how-attackers-build-targeted-wordlists/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266354",
+    "date": "2026-02-09",
+    "title": "BeyondTrust warns of critical RCE flaw in remote support software",
+    "summary": "BeyondTrust warned customers to patch a critical security flaw in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow unauthenticated attackers to execute arbitrary code remotely. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-rce-flaw-in-remote-support-software/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20266268",
     "date": "2026-02-09",
     "title": "[Ekstra] Kampen mellom roboter og ufaglærte i fabrikkene raser",
