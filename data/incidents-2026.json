@@ -1,5 +1,73 @@
 [
   {
+    "id": "20266214",
+    "date": "2026-02-09",
+    "title": "Illinois Man Charged in Massive Snapchat Hacking Scheme Targeting Hundreds of Women",
+    "summary": "The Snapchat hacking investigation involving an Illinois man accused of stealing and selling private images of hundreds of women is not just another cybercrime case, it is a reminder of how easily social engineering can be weaponized against trust, privacy, and young digital users. Federal prosec...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/snapchat-hacking-investigation/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266215",
+    "date": "2026-02-09",
+    "title": "Allama: Open-source AI security automation",
+    "summary": "Allama is an open-source security automation platform that lets teams build visual workflows for threat detection and response. It includes integrations with 80+ types of tools and services typical in security operations, including SIEM systems, endpoint detection and response products, identity ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/allama-open-source-ai-security-automation-platform/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266216",
+    "date": "2026-02-09",
+    "title": "AI agents behave like users, but don’t follow the same rules",
+    "summary": "Security and governance approaches to autonomous AI agents rely on static credentials, inconsistent controls, and limited visibility. Securing these agents requires the same rigor and traceability applied to human users, according to Cloud Security Alliance’s Securing Autonomous AI Agents report....",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/09/securing-autonomous-ai-agents-rules/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266217",
+    "date": "2026-02-09",
+    "title": "Features, Pros, and Pricing for The 7 Best Mapping Platforms",
+    "summary": "In this post, I will talk about the features, pros, and pricing for the 7 best mapping platforms. Pinning a few addresses on a map takes about five minutes. Building a system that helps a sales team cover territory efficiently, or one that shows customer density alongside income data, takes plann...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/best-mapping-platforms/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266218",
+    "date": "2026-02-09",
+    "title": "Weekly Update 490",
+    "summary": "A big \"thank you\" to everyone who helped me troubleshoot the problem with my \"Print Screen\" button on the new PC. Try as we all might, none of us could figure out why it refused to bind to SnagIt and instead insisted on dumping the entire collection of screens to a file on the desktop. But an esp...",
+    "region": "US",
+    "country": "Australia",
+    "sourceName": "Troy Hunt",
+    "sourceUrl": "https://www.troyhunt.com/weekly-update-490/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20266206",
     "date": "2026-02-09",
     "title": "Israel's World-Leading Cybersecurity Sector is Scaling at an Unprecedented Pace",
@@ -4281,6 +4349,20 @@
     "sourceUrl": "https://www.trendmicro.com/en_us/research/26/b/us-public-sector-under-siege.html",
     "tags": [
       "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266213",
+    "date": "2026-02-05",
+    "title": "ExpressVPN Launches New Free Privacy Tools For Subscribers: 'VPN For Email,' Secure AI, And More",
+    "summary": "Two of the new features are available globally starting today. ExpressVPN is rolling out a suite of new and reworked digital security tools for its subscribers. Most of them will join its existing Basic, Advanced, and Pro plans at no extra cost, and current subscribers can start using two of them...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/vpn/105606/expressvpn-launches-new-free-privacy-tools-for-subscribers-vpn-for-email-secure-ai-and-more",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
