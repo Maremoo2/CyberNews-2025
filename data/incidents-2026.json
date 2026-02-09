@@ -1,5 +1,565 @@
 [
   {
+    "id": "20266355",
+    "date": "2026-02-09",
+    "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
+    "summary": "The Cyber Security Agency (CSA) of Singapore on Monday revealed that the China-nexus cyber espionage group known as UNC3886 targeted its telecommunications sector. \"UNC3886 had launched a deliberate, targeted, and well-planned campaign against Singapore's telecommunications sector,\" CSA said. \"Al...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266356",
+    "date": "2026-02-09",
+    "title": "Lema AI Emerges From Stealth With $24 Million to Tackle Third-Party Risk ",
+    "summary": "The funding was raised over Series A and seed funding rounds for its supply chain security solution. The post Lema AI Emerges From Stealth With $24 Million to Tackle Third-Party Risk appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/lema-ai-emerges-from-stealth-with-24-million-to-tackle-third-party-risk/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266357",
+    "date": "2026-02-09",
+    "title": "Leaked technical documents show China rehearsing cyberattacks on neighbors’ critical infrastructure",
+    "summary": "Internal files describe a training platform as part of a large integrated system designed to allow attackers to practice hacking replicas of “the real network environments” of China’s “main operational opponents in the South China Sea and Indochina directions.”",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/leaked-china-documents-show-testing-cyber-neighbors",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266358",
+    "date": "2026-02-09",
+    "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
+    "summary": "Microsoft has revealed that it observed a multi‑stage intrusion that involved the threat actors exploiting internet‑exposed SolarWinds Web Help Desk (WHD) instances to obtain initial access and move laterally across the organization's network to other high-value assets. That said, the Microsoft D...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266359",
+    "date": "2026-02-09",
+    "title": "Russia grants asylum to Spanish professor wanted for alleged pro-Moscow cyber operations",
+    "summary": "Russia has granted political asylum to a Spanish national accused in his home country of “cyberterrorism and espionage” in support of Moscow, according to Russian state media.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russia-asylum-spanish-professor-espionage",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266360",
+    "date": "2026-02-09",
+    "title": "Ransomware Groups May Pivot Back to Encryption as Data Theft Tactics Falter",
+    "summary": "As only data exfiltration for extortion no longer delivers ROI, ransomware gangs may increasingly encrypting data for additional leverage. The post Ransomware Groups May Pivot Back to Encryption as Data Theft Tactics Falter appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ransomware-groups-may-pivot-back-to-encryption-as-data-theft-tactics-falter/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266361",
+    "date": "2026-02-09",
+    "title": "Payment tech provider for Texas, Florida governments working with FBI to resolve ransomware attack",
+    "summary": "BridgePay Network Solutions initially warned customers on Friday that it was dealing with system-wide outages and later said that it was working with the FBI and U.S. Secret Service forensic team to resolve a ransomware attack.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/payment-tech-provider-texas-florida-govs-ransomware-attack",
+    "tags": [
+      "ransomware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266362",
+    "date": "2026-02-09",
+    "title": "[Ekstra] Anthropic håner Chat GPT i Super Bowl-reklame – Sam Altman slår tilbake",
+    "summary": "Open AI-sjefen var ikke begeistret for Anthropics reklamekampanje.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/anthropic-haner-chat-gpt-i-super-bowl-reklame-sam-altman-slar-tilbake/567991",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266363",
+    "date": "2026-02-09",
+    "title": "Outtake Raises $40 Million to Bolster Digital Trust Against AI-Driven Threats",
+    "summary": "The Series B funding round brings the cybersecurity startup’s total raised to $60 million. The post Outtake Raises $40 Million to Bolster Digital Trust Against AI-Driven Threats appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/outtake-raises-40-million-to-bolster-digital-trust-against-ai-driven-threats/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266364",
+    "date": "2026-02-09",
+    "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
+    "summary": "Cyber threats are no longer coming from just malware or exploits. They’re showing up inside the tools, platforms, and ecosystems organizations use every day. As companies connect AI, cloud apps, developer tools, and communication systems, attackers are following those same paths. A clear pattern ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
+    "tags": [
+      "vulnerability",
+      "ddos",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266365",
+    "date": "2026-02-09",
+    "title": "EU, Dutch government announce hacks following Ivanti zero-days",
+    "summary": "Ivanti said it was aware “a very limited number of customers” had been attacked while two vulnerabilities were still unpatched.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/eu-dutch-government-announce-hacks-ivanti-zero-days",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266366",
+    "date": "2026-02-09",
+    "title": "Cybersecurity M&A Roundup: 34 Deals Announced in January 2026",
+    "summary": "Significant cybersecurity M&A deals announced by CrowdStrike, Infoblox, JumpCloud, LevelBlue, OneSpan, and Radware. The post Cybersecurity M&A Roundup: 34 Deals Announced in January 2026 appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cybersecurity-ma-roundup-34-deals-announced-in-january-2026/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266367",
+    "date": "2026-02-09",
+    "title": "CrowdStrike Is the Only Vendor to Be Named a Customers’ Choice in 2025 Gartner® Voice of the Customer for External Attack Surface Management",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-only-customers-choice-2025-gartner-voice-of-the-customer-easm/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266368",
+    "date": "2026-02-09",
+    "title": "Birmingham mental health authority warns 30,000+ people of data breach that leaked SSNs and medical info",
+    "summary": "The Jefferson Blount St. Claire Mental Health Authority in Birmingham, Alabama has notified 30,434 people of a November 2025 data breach, according to a new breach disclosure by the US Department of Health and Human Services. The breach compromised the following personal info: Names Social Securi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.comparitech.com/news/birmingham-mental-health-authority-warns-30000-people-of-data-breach-that-leaked-ssns-and-medical-info/?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266369",
+    "date": "2026-02-09",
+    "title": "Recent SolarWinds Flaws Potentially Exploited as Zero-Days",
+    "summary": "Vulnerable SolarWinds Web Help Desk instances were exploited in December 2025 for initial access. The post Recent SolarWinds Flaws Potentially Exploited as Zero-Days appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/recent-solarwinds-flaws-potentially-exploited-as-zero-days/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266370",
+    "date": "2026-02-09",
+    "title": "Singapore says China-linked hackers targeted telecom providers in major spying campaign",
+    "summary": "Singapore authorities said Monday that a sophisticated China-linked cyber espionage group carried out a targeted campaign against all four of the country’s major telecommunications operators.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/singapore-attributes-telecoms-hacks-unc3886",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266371",
+    "date": "2026-02-09",
+    "title": "How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring",
+    "summary": "Why do SOC teams keep burning out and missing SLAs even after spending big on security tools? Routine triage piles up, senior specialists get dragged into basic validation, and MTTR climbs, while stealthy threats still find room to slip through. Top CISOs have realized the solution isn’t hiring m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266372",
+    "date": "2026-02-09",
+    "title": "Hiring in Cyber: How You Can Launch Cybersecurity Career",
+    "summary": "In-demand cybersecurity roles · Security Analyst/SOC Analyst: Monitoring networks for suspicious activity and responding to incidents. · Penetration ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.staysafeonline.org/articles/hiring-in-cyber-how-you-can-launch-cybersecurity-career",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266373",
+    "date": "2026-02-09",
+    "title": "University leaders name new executive director of the Center for Infrastructure Assurance ...",
+    "summary": "... Security (CIAS), a nationally recognized center for cybersecurity research, training, and community outreach. With more than two decades of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.utsa.edu/2026/02/university-leaders-name-new-executive-director-of-the-center-for-infrastructure-assurance-and-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266374",
+    "date": "2026-02-09",
+    "title": "Risks to NATO Food Security in the Age of Hybrid Threats | Lawfare",
+    "summary": "... cyber threats. Coordination remains limited between food producers, cybersecurity experts, and national security institutions—mirroring the very ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/risks-to-nato-food-security-in-the-age-of-hybrid-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266375",
+    "date": "2026-02-09",
+    "title": "CISOs to pour 2026 budgets into AI as cybersecurity priorities shift - OODAloop",
+    "summary": "A survey conducted by cybersecurity fund Glilot Capital among dozens of senior security executives at international companies indicates that, in 2026, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://oodaloop.com/briefs/technology/cisos-to-pour-2026-budgets-into-ai-as-cybersecurity-priorities-shift/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266376",
+    "date": "2026-02-09",
+    "title": "OPSWAT's MetaDefender BSG earns IEC 62443 certification for securing critical infrastructure",
+    "summary": "“It enables organizations to integrate cybersecurity into the full operations lifecycle, supports secure and compliant operations across diverse ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/opswats-metadefender-bsg-earns-iec-62443-certification-for-securing-critical-infrastructure/",
+    "tags": [
+      "malware",
+      "meta",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266377",
+    "date": "2026-02-09",
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "summary": "Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266378",
+    "date": "2026-02-09",
+    "title": "Russian hackers target Tajani as Italy's Foreign Ministry strengthens its cybersecurity core",
+    "summary": "Why it matters: The political and communicative attack launched on Telegram by the pro-Russian hacker group Noname057(16) against Foreign Minister ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://decode39.com/13438/russian-hackers-target-tajani-as-italys-foreign-ministry-strengthens-its-cybersecurity-core/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266379",
+    "date": "2026-02-09",
+    "title": "Cyber Arms Race: Weaponized Artificial Intelligence Expected to Redefine Conflict",
+    "summary": "It also describes how defenders will deploy intelligent agents to automate detection, triage, and response across security operations. The article ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://smallwarsjournal.com/2026/02/09/weaponized-artificial-intelligence-cyber-conflict-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266380",
+    "date": "2026-02-09",
+    "title": "Why cyber resilience must be built into the value chain | World Economic Forum",
+    "summary": "These domains, ideally led by a chief information security officer, connect cybersecurity with industrial reliability, environment, social and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/02/why-cyber-resilience-must-be-built-into-the-value-chain/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266381",
+    "date": "2026-02-09",
+    "title": "How can we build intelligent resilience against cyber threats in the age of AI",
+    "summary": "AI is reshaping cybersecurity on attack and defence. Organizations should build resilience, secure AI foundations and stay ahead of AI-driven ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/02/how-can-we-build-intelligent-resilience-against-cyber-threats-in-the-age-of-ai/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266382",
+    "date": "2026-02-09",
+    "title": "Interested in a national security career? DOD VICEROY opportunities now open",
+    "summary": "If you are interested in national security, cybersecurity, or defense-related careers, you can now apply through VICEROY.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://students.wvu.edu/articles/interested-in-a-national-security-career-dod-viceroy-opportunities-now-open/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266383",
+    "date": "2026-02-09",
+    "title": "Australian fixed income firm fined AU$2.5m for cybersecurity failures - International Adviser",
+    "summary": "... cyber security and cyber resilience systems are reasonably managed. In 2023 a cyber attack saw around 385 gigabytes of confidential information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.international-adviser.com/australian-fixed-income-firm-fined-au2-5m-for-cybersecurity-failures/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266384",
+    "date": "2026-02-09",
+    "title": "Non-local attention enhanced deep learning for robust cyberattack detection in industrial IoT ...",
+    "summary": "Ali, S. Security in SCADA System: A Technical Report on Cyber Attacks and Risk Assessment Methodologies. in: Proceedings of the Computational Methods ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-37146-1",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266385",
+    "date": "2026-02-09",
+    "title": "U.S. Withdrawal from Int'l Cyber Organizations Weakens Global Cooperation - Just Security",
+    "summary": "Determining why these three cybersecurity-related organizations made the list is somewhat speculative. The United States was a founding member of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.justsecurity.org/129944/us-withdrawal-cyber-organizations/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266386",
+    "date": "2026-02-09",
+    "title": "Global Digital Policy Roundup: January 2026 | TechPolicy.Press",
+    "summary": "The Australian Cyber Security Centre published guidance on managing cybersecurity risks of AI for small businesses, providing recommendations on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.techpolicy.press/global-digital-policy-roundup-january-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266387",
+    "date": "2026-02-09",
+    "title": "Opening Speech by Minister Josephine Teo at the Operation CYBER GUARDIAN ...",
+    "summary": "Successful cyber-attacks can also affect the trust and confidence in Singapore as a whole, and our economic security. a. We are a trusted ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csa.gov.sg/news-events/speeches/opening-speech-by-minister-josephine-teo-at-the-operation-cyber-guardian-engagement-event-for-cyber-defenders-on-9-feb-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266388",
+    "date": "2026-02-09",
+    "title": "European Commission probes intrusion into staff mobile management backend",
+    "summary": "Cyber Security Review online – April 2024. WHY IMMINENT SEC CYBER RULE CHANGES MEANS CYBER SECURITY LEADERSHIP MUST COME FROM THE VERY TOP By ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/european-commission-probes-intrusion-into-staff-mobile-management-backend/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266389",
+    "date": "2026-02-09",
+    "title": "How the GNU C Compiler became the Clippy of cryptography - The Register",
+    "summary": "It can warn you, for instance, if your program is dependent on an undefined value. Lastly, implementing security is hard, and not just because of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/09/compilers_undermine_encryption/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266390",
+    "date": "2026-02-09",
+    "title": "Slamming the door on AI-based cybersecurity threats - Information Week",
+    "summary": "AI is exposing blind spots in traditional security defenses. CIOs may be creating new risks as fast as they can eliminate them. Is automation the only ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.informationweek.com/cybersecurity/slamming-the-door-on-ai-based-cybersecurity-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266391",
+    "date": "2026-02-09",
+    "title": "AV-Comparatives Publishes Security Survey 2026: Global Trends in Cybersecurity Adoption ...",
+    "summary": "INNSBRUCK, Austria, Feb. 9, 2026 /PRNewswire/ -- AV-Comparatives, the leading independent authority on cybersecurity testing and research, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/av-comparatives-publishes-security-survey-110600213.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266392",
+    "date": "2026-02-09",
+    "title": "A one-prompt attack that breaks LLM safety alignment",
+    "summary": "Large language models (LLMs) and diffusion models now power a wide range of applications, from document assistance to text-to-image generation, and users increasingly expect these systems to be safety-aligned by default. Yet safety alignment is only as robust as its weakest failure mode. Despite ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266311",
     "date": "2026-02-09",
     "title": "Which countries are best-placed to see off state-supported cyber-attacks? A government advisor explains",
