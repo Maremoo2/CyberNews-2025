@@ -1,5 +1,439 @@
 [
   {
+    "id": "20266447",
+    "date": "2026-02-10",
+    "title": "Understanding Breaches Before and After They Happen: What Every Organization Should Know",
+    "summary": "Attackers rarely need cutting-edge tools when organizations neglect basic security hygiene.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102121-understanding-breaches-before-and-after-they-happen-what-every-organization-should-know",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266448",
+    "date": "2026-02-10",
+    "title": "Safer Internet Day : 56% des Français ont été exposés à un risque en ligne 2025, selon Microsoft",
+    "summary": "À l'occasion de la 23e édition du Safer Internet Day, Microsoft publie les résultats de son enquête mondiale sur la sécurité en ligne. Sur 14 797 personnes interrogées dans 15 pays, 64% déclarent avoir été confrontées à au moins un risque numérique en 2025. De leur côté, les deepfakes et l'IA gén...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599374-microsoft-global-online-safety-survey.html",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266449",
+    "date": "2026-02-10",
+    "title": "Proton VPN débloque enfin l’usage combiné de ces trois fonctions de sécurité",
+    "summary": "Jusqu’ici, il fallait choisir. La dernière version du client Windows de Proton VPN met fin à une limitation qui empêchait d’activer en même temps le split tunneling, le kill switch et NetShield.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599725-proton-vpn-debloque-enfin-l-usage-combine-de-ces-trois-fonctions-de-securite.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266450",
+    "date": "2026-02-10",
+    "title": "Victime d'une cyber-attaque, la Commission européenne ouvre une enquête",
+    "summary": "La Commission européenne annonce avoir été victime d'une intrusion en fin de mois dernier. Les hackers on pu s'infiltrer au sein du système de gestion des appareils mobiles. L'incident a permis aux attaquants d'accéder potentiellement à des noms et numéros de téléphone du personnel.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599731-victime-d-une-cyber-attaque-la-commission-europeenne-ouvre-une-enquete.html",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266451",
+    "date": "2026-02-10",
+    "title": "Fraude bancaire : le Crédit Agricole condamné à rembourser une cliente piégée qui avait transmis ses codes",
+    "summary": "La cour d'appel d'Angers a condamné le Crédit Agricole à rembourser une cliente victime de fraude bancaire, qui avait communiqué ses codes confidentiels à un escroc déguisé en agent.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599761-fraude-bancaire-le-credit-agricole-condamne-a-rembourser-une-cliente-piegee-qui-avait-transmis-ses-codes.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266452",
+    "date": "2026-02-10",
+    "title": "FIIG Securities Fined AU$2.5 Million Following Prolonged Cybersecurity Failures",
+    "summary": "Australian fixed-income firm FIIG Securities has been fined AU$2.5 million after the Federal Court found it failed to adequately protect client data from cybersecurity threats over a period exceeding four years. The penalty follows a major FIIG cyberattack in 2023 that resulted in the theft and e...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/fiig-cyberattack-au2-5m-fine-fiig-securities/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266453",
+    "date": "2026-02-10",
+    "title": "ENISA Updates Its International Strategy to Strengthen EU’s Cybersecurity Cooperation",
+    "summary": "The European Union Agency for Cybersecurity has released an updated international strategy to reinforce the EU’s cybersecurity ecosystem and strengthen cooperation beyond Europe’s borders. The revised ENISA International Strategy refreshes the agency’s approach to working with global partners whi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/enisa-international-strategy-europe/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266454",
+    "date": "2026-02-10",
+    "title": "Discord Introduces Stronger Teen Safety Controls Worldwide",
+    "summary": "Discord teen-by-default settings are now rolling out globally, marking a major shift in how the popular communication platform handles safety for users aged 13 to 17. The move signals a clear message from Discord: protecting teens online is no longer optional, it is expected. The Discord update a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/discord-teen-by-default-settings/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20266455",
+    "date": "2026-02-10",
+    "title": "Senegal Confirms Cyberattack on Agency Managing National ID and Biometric Data",
+    "summary": "The recent Senegal cyberattack on the Directorate of File Automation (DAF) has done more than disrupt government services. It has exposed how vulnerable the country’s most sensitive data systems really are, and why cybersecurity can no longer be treated as a technical issue handled quietly in the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/senegal-cyberattack/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266456",
+    "date": "2026-02-10",
+    "title": "Discord expands age verification system for teen users worldwide",
+    "summary": "Discord has announced the global rollout of “teen-by-default” safety settings, mandating age-appropriate protections across its platform for all users, starting in March 2026. The update introduces stricter content filters, restrictions on age-gated areas, and changes to direct messaging rules, m...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/discord-expands-age-verification-system-for-teen-users-worldwide/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266457",
+    "date": "2026-02-10",
+    "title": "Unpatched SolarWinds WHD instances under active attack",
+    "summary": "Internet‑exposed and vulnerable SolarWinds Web Help Desk (WHD) instances are under attack by threat actors looking to gain an initial foothold into target organizations’ networks, Microsoft and Huntress researchers have warned. Once inside, the attackers are deploying legitimate remote access and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/solarwinds-whd-under-active-attack/",
+    "tags": [
+      "data-breach",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266458",
+    "date": "2026-02-10",
+    "title": "DuckDuckGo enables AI voice chat without saving voice data",
+    "summary": "DuckDuckGo has added voice chat to Duck.ai, allowing users to speak to an AI assistant while keeping audio private, unrecorded, and excluded from AI training. Voice chat is available in the DuckDuckGo browser and most third-party browsers, with support for Mozilla listed as coming soon. According...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/duckduckgo-duck-ai-voice-chat-feature/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266459",
+    "date": "2026-02-10",
+    "title": "How AI is reshaping attack path analysis",
+    "summary": "Cybersecurity teams are overwhelmed with data and short on clarity, while adversaries use AI to move faster and operate at unprecedented scale. Most organizations collect enormous volumes of findings: vulnerabilities, misconfigurations, penetration test results, detection gaps, threat intelligenc...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/plextrac-attack-path-visualization/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266460",
+    "date": "2026-02-10",
+    "title": "Face scans and ID checks are coming to Discord",
+    "summary": "Discord users will soon see a change to how their accounts work. From early March 2026, access to some features will require age verification using an ID or a face scan. The changes follow earlier deployments in a small number of countries and will apply to both new and existing accounts. Under t...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/discord-age-verification-settings/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266461",
+    "date": "2026-02-10",
+    "title": "What happens when cybersecurity knowledge walks out the door",
+    "summary": "In this Help Net Security interview, Andrew Northern, Principal Security Researcher at Censys, explains why mentorship matters and what organizations risk losing when senior staff disengage. He argues that institutional memory and judgment under pressure are difficult to rebuild once they disappe...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/andrew-northern-censys-cybersecurity-mentorship/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266462",
+    "date": "2026-02-10",
+    "title": "Deep Dive: Inside the Warlock Ransomware Breach of SmarterTools",
+    "summary": "Executive Summary In a significant security incident, SmarterTools, the developer of the popular SmarterMail collaboration platform, fell victim to a ransomware attack orchestrated by the Warlock ransomware group. The breach was made possible by a critical vulnerability in SmarterTools’ own softw...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/deep-dive-inside-the-warlock-ransomware-breach-of-smartertools/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266463",
+    "date": "2026-02-10",
+    "title": "Trump Bridge Too Far: Seven of Nine on the DSM-5 Reveals Unfit for Office",
+    "summary": "The DSM-5 criteria for Narcissistic Personality Disorder are behavioral. They describe observable patterns of action, speech, and relational behavior. And the clinical personality disorder can be diagnosed remotely. They don’t require an fMRI or a therapeutic relationship to identify. All you nee...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/trump-bridge-too-far-seven-of-nine-on-the-dsm-5-reveals-unfit-for-office/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266464",
+    "date": "2026-02-10",
+    "title": "Redefining Security for the Agentic Era",
+    "summary": "The agentic era is here. As AI agents act autonomously at machine speed, learn why security must evolve with intent-aware controls to make autonomous systems safe, accountable, and reliable.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/redefining-security-for-the-agentic-era/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266465",
+    "date": "2026-02-10",
+    "title": "SASE for the AI Era: Driving Secure, Distributed, and Optimized AI",
+    "summary": "Learn how Cisco SASE enables secure, predictable, and scalable AI operations by unifying performance and protection for distributed, agentic AI workflows.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/sase-for-the-ai-era/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266466",
+    "date": "2026-02-10",
+    "title": "The Week in Vulnerabilities: SolarWinds, AI Fixes Urged by Cyble",
+    "summary": "Cyble Vulnerability Intelligence researchers tracked 1,093 vulnerabilities in the last week, and well over 200 of the disclosed vulnerabilities already have a publicly available Proof-of-Concept (PoC), significantly increasing the likelihood of real-world attacks on those vulnerabilities. A total...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/cyble-report-ics-vulnerabilities-ransomware-risk/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266467",
+    "date": "2026-02-10",
+    "title": "Windows shortcut weaponized in Phorpiex-linked ransomware campaign",
+    "summary": "Forcepoint X-Labs researchers have identified a large Phorpiex botnet-aided phishing campaign that uses weaponized Windows shortcut files to deploy Global Group ransomware across victim systems. The campaign, observed in late 2024 and continuing into 2026, leverages a common email lure, with the ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130019/windows-shortcut-weaponized-in-phorpiex-linked-ransomware-campaign.html",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266468",
+    "date": "2026-02-10",
+    "title": "Single prompt breaks AI safety in 15 major language models",
+    "summary": "A single benign-sounding prompt can systematically strip safety guardrails from major language and image models, raising fresh questions about the durability of AI alignment when models are customized for enterprise use, according to Microsoft research. The technique, dubbed GRP-Obliteration, wea...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130001/single-prompt-breaks-ai-safety-in-15-major-language-models.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266469",
+    "date": "2026-02-10",
+    "title": "How to govern agentic AI so as not to lose control",
+    "summary": "This year will mark the turning point where artificial intelligence will stop assisting and start acting. We will witness a qualitative leap towards agent-based or agentive AI, capable of making autonomous decisions, managing complex workflows, and executing end-to-end tasks without constant inte...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4128421/learning-to-govern-agentic-ai-so-as-not-to-lose-control.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266470",
+    "date": "2026-02-10",
+    "title": "69% of CISOs open to career move — including leaving role entirely",
+    "summary": "Enterprise CISOs are increasingly willing — and eager — to jump ship, with some frustrated enough to want to leave cybersecurity entirely. A recent survey of security leaders from IANS Research and Artico Search found that 69% of security executives “are open to making a career move within the ne...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4127704/69-of-cisos-open-to-career-move-including-leaving-role-entirely.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266471",
+    "date": "2026-02-10",
+    "title": "Sophos Workspace Protection Enables Safe GenAI Adoption",
+    "summary": "Easily enable adoption of sanctioned generative AI solutionsCategories: Workspace",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/sophos-workspace-protection-enables-safe-genai-adoption",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266474",
+    "date": "2026-02-10",
+    "title": "NCSC Issues Warning Over “Severe” Cyber-Attacks Targeting Critical National Infrastructure ",
+    "summary": "NCSC call firms to ‘act now’ following disruptive malware attacks targeting Polish energy providers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ncsc-warning-severe-cyberattacks/",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266475",
+    "date": "2026-02-10",
+    "title": "European Governments Breached in Zero-Day Attacks Targeting Ivanti",
+    "summary": "The European Commission and government agencies in Finland and the Netherlands have suffered potentially related breaches",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/european-governments-zeroday/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266476",
+    "date": "2026-02-10",
+    "title": "Inside Dubai’s Most Exclusive Conversation on Enterprise AI Security",
+    "summary": "On 29 January 2026, Cyber Management Alliance hosted an exclusive edition of the Wisdom of Crowds in Dubai. The event brought together 25 senior CISOs and security leaders from across the Middle East for a deeply engaging discussion on one of the most urgent challenges facing enterprises today: H...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/inside-dubais-most-exclusive-conversation-on-enterprise-ai-security",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266477",
+    "date": "2026-02-10",
+    "title": "Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison",
+    "summary": "A dual Chinese and St. Kitts and Nevis national was sentenced to 20 years in prison in absentia for his role in an international cryptocurrency investment scheme (also known as pig butchering or romance baiting) that defrauded victims of more than $73 million. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266478",
+    "date": "2026-02-10",
+    "title": "Bringing it all together. [CISO Persepctives]",
+    "summary": "Please enjoy this encore of CISO Perspectives. In the season finale of CISOP, Kim Jones is joined by N2K’s own Ethan Cook to reflect on the conversations that shaped this season. Together, they revisit standout moments from Kim’s interviews, unpacking their significance and getting Ethan’s fresh ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/cso-perspectives-public/111/notes",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20266436",
     "date": "2026-02-10",
     "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
@@ -272,6 +706,34 @@
     "sourceName": "Dark Reading",
     "sourceUrl": "https://www.darkreading.com/events/shields-up-key-technologies-reshaping-cybersecurity-defenses",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266472",
+    "date": "2026-02-09",
+    "title": "Threat Intelligence Executive Report – Volume 2025, Number 6",
+    "summary": "This issue of the Counter Threat Unit’s high-level bimonthly report discusses noteworthy updates in the threat landscape during September and OctoberCategories: Threat ResearchTags: EDR killer, infostealer, Ransomware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/threat-intelligence-executive-report-volume-2025-number-6",
+    "tags": [
+      "ransomware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266473",
+    "date": "2026-02-09",
+    "title": "From Security Operations to Security Leadership: Sophos CISO Advantage",
+    "summary": "Categories: Products & Services, Security Operations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/from-security-operations-to-security-leadership-sophos-ciso-advantage",
+    "tags": [
+      "malware"
+    ],
     "impact": 3
   },
   {
