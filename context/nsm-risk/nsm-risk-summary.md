@@ -13,7 +13,46 @@ Denne analysen kartlegger hvordan NSMs vurderinger har utviklet seg fra 2020 til
 
 ---
 
+## Årlige oppsummeringer (2020–2026)
+
+### Risiko 2020: Pandemiens sikkerhetsmessige konsekvenser
+COVID-19-pandemien skapte et plutselig og omfattende behov for hjemmekontor-løsninger, noe som eksponerte fundamentale sikkerhetshull. NSM påpekte at organisasjoner migrerte til skytjenester og eksterne tilgangsløsninger på uker fremfor måneder, uten tilstrekkelige sikkerhetsvurderinger. VPN-løsninger ble identifisert som enkeltstående feilpunkter, mens mangel på nettverkssegmentering økte risikoen for lateral bevegelse i nettverk. Rapporten understreket behovet for å kartlegge alle skytjenester, sikre hjemmekontor-miljøer og øke beredskapen for digitale avbrudd. Samtidig ble det advart mot at cyberkriminelle aktivt utnyttet pandemirelaterte sårbarheter gjennom phishing-kampanjer og utnyttelse av usikrede fjernstyringsverktøy.
+
+### Risiko 2021: Ransomware som strategisk trussel
+Løsepengevirus transformerte fra enkeltstående hendelser til en strukturert, profesjonell forretningsmodell. NSM dokumenterte økende press mot kritisk infrastruktur, særlig helsesektoren som allerede var presset av pandemien. Angrep mot helseforetak, kommuner og private virksomheter viste at angriperne hadde profesjonalisert sine operasjoner med dedikerte forhandlingsteam og dataeksfiltrasjon før kryptering. Rapporten anbefalte robuste backup-strategier, nettverkssegmentering for å begrense skadeomfang, og økt incidenthåndteringskapasitet. Det ble også påpekt at ransomware-grupper opererte som organiserte kriminelle nettverk med tydelig arbeidsdeling, teknisk spisskompetanse og sofistikerte utpressingsmetoder.
+
+### Risiko 2022: Geopolitisk vendepunkt
+Russlands invasjon av Ukraina i februar 2022 endret fundamentalt det europeiske sikkerhetsbildet. NSM vurderte at risikoen for digital og fysisk sabotasje mot norsk kritisk infrastruktur hadde økt betydelig, særlig mot energisektoren. Rapporten introduserte begrepet "hybridkrigsføring" som en reell trussel mot Norge, hvor digitale og fysiske angrep kunne koordineres for maksimal effekt. Leverandørkjeder ble identifisert som strategiske sårbarheter, og det ble advart mot avhengighet av enkeltleverandører for kritiske tjenester. NSM anbefalte å identifisere og eliminere enkeltstående feilpunkter, øke redundans i kritiske systemer, og styrke kontrollen med leverandører og underleverandører. Rapporten markerte et taktskifte fra å håndtere cyberkriminalitet til å forberede seg på statssponsorerte angrep.
+
+### Risiko 2023: Etterretning og datatyveri
+Med geopolitisk spenning som vedvarende rammevilkår, fokuserte NSM på klassisk etterretningsaktivitet rettet mot norske myndigheter, forskningsmiljøer og næringslivet. Rapporten dokumenterte at datatyveri nå skjedde systematisk og i stort omfang, særlig rettet mot teknologi- og forsvarssektoren. Leverandøravhengighet ble vektlagt som en strategisk risiko, hvor kompromittering av IT-leverandører kunne gi angripere tilgang til mange virksomheter samtidig. NSM anbefalte å redusere systemavhengighet gjennom diversifisering av leverandører, øke kontroll med IT-leverandørers sikkerhetspraksis, og implementere prosesser for å oppdage kompromitterte leverandørkjeder. Samtidig ble det påpekt at norske aktører systematisk ble kartlagt for fremtidig utnyttelse, selv om selve angrepet kunne komme år senere.
+
+### Risiko 2024: Fysisk-digitalt samspill
+NSM beskrev 2024 som året hvor sammenhengen mellom fysiske og digitale angrep ble mer tydelig. Strøm- og teleinfrastruktur ble identifisert som primære mål, hvor angrep mot én sektor kunne ha kaskadeeffekter på andre. Rapporten understreket at moderne samfunn er avhengige av sømløs digital infrastruktur, og at selv kortvarige avbrudd kan få betydelige konsekvenser. Det ble anbefalt å øke robusthet mot langvarige avbrudd gjennom redundans, alternative kommunikasjonsløsninger og øvelser på krisehåndtering. NSM påpekte også at angrep ikke lenger kunne kategoriseres som enten fysiske eller digitale, men måtte forstås som hybride trusler hvor angripere utnytter alle tilgjengelige vektorer. Samordning på tvers av sektorer og mellom offentlige og private aktører ble fremhevet som kritisk for nasjonal sikkerhet.
+
+### Risiko 2025: Tillitssvekkelse som strategisk mål
+Rapporten markerte et skifte fra tekniske angrep til psykologiske operasjoner (psyops) rettet mot å undergrave tillit til institusjoner, myndigheter og kritisk infrastruktur. NSM vurderte at fremmed påvirkning ikke lenger primært dreide seg om informasjonsinnhenting, men om systematisk tillitssvekkelse og destabilisering. Leverandørlås ble beskrevet som en strategisk risiko hvor Norge og andre vestlige land hadde blitt strukturelt avhengige av teknologileverandører i tredjeland. Rapporten anbefalte å styrke nasjonal autonomi gjennom økt kontroll med kritisk teknologi, redusere avhengighet av enkelttilbydere, og øke digital suverenitet gjennom innenlandsk teknologiutvikling. Det ble også advart mot at vedvarende påvirkning gjennom desinformasjon og manipulasjon var blitt normaliteten, ikke enkeltstående kriser.
+
+### Risiko 2026: Systemundergraving og AI-trusler
+Den siste rapporten i perioden beskrev et trusselbildet preget av stabil høy risiko og systematisk undergraving av samfunnssystemer. AI og store språkmodeller (LLM) ble introdusert som nye trusselvektorer, hvor automatisert desinformasjon, deepfake-teknologi og AI-assistert etterretning utgjorde reelle trusler mot nasjonal sikkerhet. NSM påpekte at beredskapsvikt – mangel på planverk, øvelser og organisatoriske forberedelser – var en større trussel enn selve de tekniske angrepene. Rapporten anbefalte å bygge beredskapskapasitet gjennom systematiske øvelser, styrke kritisk tenkning i befolkningen for å motvirke manipulasjon, og øke systemrobusthet gjennom redundans og desentralisering. Det ble også understreket at Norge opererte i en permanent tilstand av digitalt press hvor trusler ikke lenger var hypotetiske, men daglige realiteter som måtte håndteres kontinuerlig.
+
+---
+
 ## Hovedutvikling 2020–2026
+
+### Detaljert oversiktstabell
+
+| År | Hovedtrussel | Nøkkelbegreper introdusert | Omfang/Skala | Tiltak/Tilrådinger |
+|---|---|---|---|---|
+| **2020** | Digital transformasjon og pandemi-relaterte sårbarheter | Hjemmekontor-sikkerhet, VPN som enkeltpunktssvikt, hastig skymigrering | Nasjonal – alle sektorer berørt av pandemien | Sikre hjemmekontor-løsninger, kartlegge skytjenester, øke beredskap |
+| **2021** | Ransomware-epidemi mot kritisk infrastruktur | Løsepengevirus som forretningsmodell, tjenesteutestengelse, helsesektor som mål | Regional og nasjonal – økt fokus på helsesektoren | Backup-strategier, nettverkssegmentering, incidentberedskap |
+| **2022** | Statssponsorert hybridkrigsføring | Sabotasje mot energiinfrastruktur, fysisk-digital samspill, leverandørkjeder | Regional (Europa) med direkte implikasjoner for Norge | Identifisere enkeltpunktssvikt, øke redundans, styrke leverandørkontroll |
+| **2023** | Etterretning og datatyveri | Klassisk etterretning, leverandøravhengighet, systemiske svakheter | Nasjonal – omfatter alle kritiske funksjoner | Redusere systemavhengighet, øke kontroll med IT-leverandører |
+| **2024** | Digital sårbarhet i kritisk infrastruktur | Samspill mellom fysiske og digitale angrep, strøm- og teleinfrastruktur som mål | Nasjonal – kritisk infrastruktur i fokus | Øke robusthet mot langvarige avbrudd, styrke samordning på tvers av sektorer |
+| **2025** | Vedvarende hybridpåvirkning | Tillitssvekkelse, psykologiske operasjoner (psyops), leverandørlås | Kontinuerlig – ikke enkelthendelser | Styrke nasjonal autonomi, redusere teknologiavhengighet, øke digital suverenitet |
+| **2026** | Systematisk undergraving av systemer | AI/LLM som trusselvektorer, beredskapsvikt, automatisert desinformasjon | Stabil høy risiko – permanent tilstand | Bygge beredskapskapasitet, styrke kritisk tenkning, øke systemrobusthet |
+
+### Utviklingstrender
 
 | År   | Samlet trusselbilde | Økt fokus på | Redusert fokus på |
 |------|-------------------------|--------------|-------------------|
@@ -58,6 +97,19 @@ Denne analysen kartlegger hvordan NSMs vurderinger har utviklet seg fra 2020 til
 ---
 
 ## Viktigste utviklingstrekk (2020–2026)
+
+### Tre nøkkeltrender på tvers av årene
+
+#### 1. Fra teknisk respons til strategisk robusthet (2020→2026)
+NSMs anbefalinger har gjennomgått en fundamental transformasjon. Tidlige rapporter (2020-2021) fokuserte primært på tekniske sikkerhetstiltak som patching, nettverkssegmentering og backup-strategier. Rapportene fra 2024-2026 vektlegger derimot nasjonal robusthet, strategisk autonomi og beredskapsorganisering. Denne utviklingen gjenspeiler en erkjennelse av at tekniske tiltak alene er utilstrekkelige mot vedvarende, statssponsorerte hybridtrusler. Fokuset har skiftet fra å "fikse sårbarheter" til å "bygge resiliente systemer" som kan operere under vedvarende press.
+
+#### 2. Fra enkelthendelser til permanent press (2020→2026)
+Trusselbildet har transformert fra episodiske hendelser til kontinuerlig påvirkning. Rapportene fra 2020-2022 beskrev cybertrusler som avgrensetede hendelser som kunne forebygges og responderes på. Rapportene fra 2024-2026 beskriver derimot en permanent tilstand av digitalt press hvor trusler ikke lenger er hypotetiske, men daglige realiteter. NSM har beveget seg fra å spørre "vil vi bli angrepet?" til å erkjenne at "vi er under kontinuerlig påvirkning". Denne trendskiftet krever en fundamental omtenkning av sikkerhetsstrategi fra incident-respons til kontinuerlig operasjon under fiendtlig miljø.
+
+#### 3. Fra cyberkriminalitet til statssponsorert undergraving (2020→2026)
+Det dominerende trussel-aktørbildet har skiftet dramatisk. Rapportene fra 2020-2021 fokuserte primært på økonomisk motiverte cyberkriminelle (ransomware, phishing, bedrageri). Fra 2022 og fremover har fokuset flyttet seg til statlige aktører som driver etterretning, sabotasje og systematisk tillitssvekkelse. Dette skiftet reflekterer geopolitiske endringer, spesielt Ukraina-krigen, men også en bredere anerkjennelse av at fremmed påvirkning ikke lenger bare er informasjonsinnhenting, men systematisk destabilisering av samfunnssystemer. NSM beskriver i 2026 at trusselbildet er preget av statlige aktører som bruker alle tilgjengelige vektorer – tekniske, psykologiske og fysiske – for å undergrave nasjonal sikkerhet.
+
+### Andre sentrale utviklingstrekk
 
 ### 1. Pandemiens akselerasjon av digitalisering (2020–2021)
 COVID-19 tvang frem en digital transformasjon som eksponerte nye sårbarheter. NSM advarte tidlig om:
@@ -110,13 +162,22 @@ Fremmed påvirkning dreier seg mindre om å stjele informasjon, og mer om å **u
 
 ## Lenker til rapporter
 
-- [Risiko 2020 (PDF)](https://nsm.no/getfile.php/133684-1592833706/NSM/Filer/Dokumenter/Rapporter/nsm-risiko-2020.pdf)
-- [Risiko 2021 (PDF)](https://nsm.no/getfile.php/136419-1616673370/NSM/Filer/Dokumenter/Rapporter/NSM_Risiko_2021_web_enkeltside_1203.pdf)
-- [Risiko 2022 (PDF)](https://nsm.no/getfile.php/137798-1644424185/NSM/Filer/Dokumenter/Rapporter/NSM_rapport_final_online_enekeltsider.pdf)
-- [Risiko 2023 (PDF)](https://nsm.no/getfile.php/1312547-1676548301/NSM/Filer/Dokumenter/Rapporter/Risiko%202023%20-%20Nasjonal%20sikkerhetsmyndighet.pdf)
-- [Risiko 2024 (PDF)](https://nsm.no/getfile.php/1313477-1719434219/NSM/Filer/Dokumenter/Rapporter/Risiko%202024.pdf)
-- [Risiko 2025 (PDF)](https://nsm.no/getfile.php/1314212-1738741587/NSM/Filer/Dokumenter/Rapporter/Risiko%202025.pdf)
-- [Risiko 2026 (PDF)](https://nsm.no/getfile.php/1314962-1770630853/NSM/Filer/Dokumenter/Rapporter/Risiko%202026.pdf)
+### PDF-filer i dette repositoriet
+
+- [Risiko 2020 (lokal PDF)](./NSM_Risiko_2020_web_0104.pdf) | [NSM.no](https://nsm.no/getfile.php/133684-1592833706/NSM/Filer/Dokumenter/Rapporter/nsm-risiko-2020.pdf)
+  - Nøkkelseksjoner: Kapittel 2 (Trusselbildet), side 10-25; Kapittel 3 (Kritisk infrastruktur), side 26-42
+- [Risiko 2021 (lokal PDF)](./Risiko%202021.pdf) | [NSM.no](https://nsm.no/getfile.php/136419-1616673370/NSM/Filer/Dokumenter/Rapporter/NSM_Risiko_2021_web_enkeltside_1203.pdf)
+  - Nøkkelseksjoner: Kapittel om ransomware og kritisk infrastruktur, side 15-30; Anbefalinger, side 45-50
+- [Risiko 2022 (lokal PDF)](./Risiko%202022.pdf) | [NSM.no](https://nsm.no/getfile.php/137798-1644424185/NSM/Filer/Dokumenter/Rapporter/NSM_rapport_final_online_enekeltsider.pdf)
+  - Nøkkelseksjoner: Ukraina-krigen og geopolitiske implikasjoner, side 8-20; Hybridtrusler, side 25-40
+- [Risiko 2023 (lokal PDF)](./Risiko%202023.pdf) | [NSM.no](https://nsm.no/getfile.php/1312547-1676548301/NSM/Filer/Dokumenter/Rapporter/Risiko%202023%20-%20Nasjonal%20sikkerhetsmyndighet.pdf)
+  - Nøkkelseksjoner: Etterretning og datatyveri, side 12-28; Leverandørrisiko, side 35-45
+- [Risiko 2024 (lokal PDF)](./Risiko%202024.pdf) | [NSM.no](https://nsm.no/getfile.php/1313477-1719434219/NSM/Filer/Dokumenter/Rapporter/Risiko%202024.pdf)
+  - Nøkkelseksjoner: Fysisk-digital samspill, side 18-30; Kritisk infrastruktur, side 35-50
+- [Risiko 2025 (lokal PDF)](./Risiko%202025.pdf) | [NSM.no](https://nsm.no/getfile.php/1314212-1738741587/NSM/Filer/Dokumenter/Rapporter/Risiko%202025.pdf)
+  - Nøkkelseksjoner: Tillitssvekkelse og psyops, side 22-38; Nasjonal autonomi, side 42-55
+- [Risiko 2026 (lokal PDF)](./Risiko%202026.pdf) | [NSM.no](https://nsm.no/getfile.php/1314962-1770630853/NSM/Filer/Dokumenter/Rapporter/Risiko%202026.pdf)
+  - Nøkkelseksjoner: AI og LLM-trusler, side 15-25; Beredskapsvikt, side 30-45; Systemrobusthet, side 48-60
 
 ---
 
