@@ -85,7 +85,7 @@ function NSMRiskAnalysis({ selectedYear }) {
             {Object.entries(yearChanges)
               .filter(([year]) => parseInt(year) <= selectedYear)
               .map(([year, change]) => (
-                <div key={year} className={`timeline-item ${year == selectedYear ? 'current' : ''}`}>
+                <div key={year} className={`timeline-item ${year === String(selectedYear) ? 'current' : ''}`}>
                   <div className="year-badge">{year}</div>
                   <p className="change-description">{change}</p>
                 </div>
@@ -169,7 +169,7 @@ function NSMRiskAnalysis({ selectedYear }) {
               </div>
             </a>
             <a href="#defense" className="crosslink-card">
-              <span className="crosslink-icon">🛡️</span>
+              <span className="crosslink-icon">🔰</span>
               <div className="crosslink-content">
                 <h4>Defense Analysis</h4>
                 <p>Tekniske tiltak og forsvarsteknikker</p>
