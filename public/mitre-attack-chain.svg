@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    MITRE ATT&amp;CK Attack Chain
+  </text>
+  <text x="450" y="65" font-family="Arial, sans-serif" font-size="14" fill="#888888" text-anchor="middle">
+    Typical progression of cyber attacks
+  </text>
+  
+  <!-- Attack path -->
+  <g transform="translate(0, 150)">
+
+    <line x1="100" y1="150" x2="220" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="212,144 220,150 212,156" fill="#00d4ff" opacity="0.8"/>
+
+    <line x1="220" y1="150" x2="340" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="332,144 340,150 332,156" fill="#00d4ff" opacity="0.8"/>
+
+    <line x1="340" y1="150" x2="460" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="452,144 460,150 452,156" fill="#00d4ff" opacity="0.8"/>
+
+    <line x1="460" y1="150" x2="580" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="572,144 580,150 572,156" fill="#00d4ff" opacity="0.8"/>
+
+    <line x1="580" y1="150" x2="700" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="692,144 700,150 692,156" fill="#00d4ff" opacity="0.8"/>
+
+    <line x1="700" y1="150" x2="820" y2="150" 
+          stroke="#00d4ff" stroke-width="3" opacity="0.5" 
+          stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="812,144 820,150 812,156" fill="#00d4ff" opacity="0.8"/>
+
+    <g transform="translate(50, 100)">
+      <circle cx="50" cy="50" r="45" fill="#ff4444" opacity="0.3" stroke="#ff4444" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#ff4444" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Initial
+      </text>
+      
+      <text x="50" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Access
+      </text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        1
+      </text>
+    </g>
+
+    <g transform="translate(170, 100)">
+      <circle cx="50" cy="50" r="45" fill="#ff8844" opacity="0.3" stroke="#ff8844" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#ff8844" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Execution
+      </text>
+      
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        2
+      </text>
+    </g>
+
+    <g transform="translate(290, 100)">
+      <circle cx="50" cy="50" r="45" fill="#ffaa44" opacity="0.3" stroke="#ffaa44" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#ffaa44" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Persistence
+      </text>
+      
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        3
+      </text>
+    </g>
+
+    <g transform="translate(410, 100)">
+      <circle cx="50" cy="50" r="45" fill="#ffcc44" opacity="0.3" stroke="#ffcc44" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#ffcc44" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Privilege
+      </text>
+      
+      <text x="50" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Escalation
+      </text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        4
+      </text>
+    </g>
+
+    <g transform="translate(530, 100)">
+      <circle cx="50" cy="50" r="45" fill="#44ff88" opacity="0.3" stroke="#44ff88" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#44ff88" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Defense
+      </text>
+      
+      <text x="50" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Evasion
+      </text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        5
+      </text>
+    </g>
+
+    <g transform="translate(650, 100)">
+      <circle cx="50" cy="50" r="45" fill="#4488ff" opacity="0.3" stroke="#4488ff" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#4488ff" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Credential
+      </text>
+      
+      <text x="50" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Access
+      </text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        6
+      </text>
+    </g>
+
+    <g transform="translate(770, 100)">
+      <circle cx="50" cy="50" r="45" fill="#ff44ff" opacity="0.3" stroke="#ff44ff" stroke-width="2"/>
+      <circle cx="50" cy="50" r="35" fill="#ff44ff" opacity="0.6"/>
+      <text x="50" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+            fill="#ffffff" text-anchor="middle">
+        Impact
+      </text>
+      
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+            fill="#00d4ff" text-anchor="middle">
+        7
+      </text>
+    </g>
+
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 420)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0">
+      Attack progression flows left to right • Each phase enables the next
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">
+    MITRE ATT&amp;CK Framework • CyberNews 2026
+  </text>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Top 10 MITRE ATT&CK Techniques
+  </text>
+  
+  <!-- Chart area -->
+  <g transform="translate(150, 60)">
+
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">
+    Based on 7783 incidents from CyberNews 2025-2026
+  </text>
+</svg>

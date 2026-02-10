@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Top 10 Attack Types
+  </text>
+  
+  <!-- Chart area -->
+  <g transform="translate(150, 60)">
+
+    <!-- Bar 1: malware -->
+    <rect x="0" y="3" width="620" height="20" fill="#ff4444" opacity="0.8"/>
+    <text x="630" y="18" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      2433
+    </text>
+    <text x="-10" y="18" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      malware
+    </text>
+
+    <!-- Bar 2: ai-ml -->
+    <rect x="0" y="29" width="565.2116728318947" height="20" fill="#ff8844" opacity="0.8"/>
+    <text x="575.2116728318947" y="44" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      2218
+    </text>
+    <text x="-10" y="44" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      ai-ml
+    </text>
+
+    <!-- Bar 3: Data/IT -->
+    <rect x="0" y="55" width="486.7242087957254" height="20" fill="#ffaa44" opacity="0.8"/>
+    <text x="496.7242087957254" y="70" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      1910
+    </text>
+    <text x="-10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      Data/IT
+    </text>
+
+    <!-- Bar 4: vulnerability -->
+    <rect x="0" y="81" width="256.35840526099463" height="20" fill="#ffcc44" opacity="0.8"/>
+    <text x="266.35840526099463" y="96" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      1006
+    </text>
+    <text x="-10" y="96" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      vulnerability
+    </text>
+
+    <!-- Bar 5: data-breach -->
+    <rect x="0" y="107" width="202.58939580764488" height="20" fill="#44ff88" opacity="0.8"/>
+    <text x="212.58939580764488" y="122" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      795
+    </text>
+    <text x="-10" y="122" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      data-breach
+    </text>
+
+    <!-- Bar 6: microsoft -->
+    <rect x="0" y="133" width="132.2564734895191" height="20" fill="#4488ff" opacity="0.8"/>
+    <text x="142.2564734895191" y="148" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      519
+    </text>
+    <text x="-10" y="148" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      microsoft
+    </text>
+
+    <!-- Bar 7: ransomware -->
+    <rect x="0" y="159" width="101.42211261816688" height="20" fill="#8844ff" opacity="0.8"/>
+    <text x="111.42211261816688" y="174" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      398
+    </text>
+    <text x="-10" y="174" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      ransomware
+    </text>
+
+    <!-- Bar 8: cloud -->
+    <rect x="0" y="185" width="94.54171804356761" height="20" fill="#ff44ff" opacity="0.8"/>
+    <text x="104.54171804356761" y="200" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      371
+    </text>
+    <text x="-10" y="200" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      cloud
+    </text>
+
+    <!-- Bar 9: aws -->
+    <rect x="0" y="211" width="83.58405260994657" height="20" fill="#44ffff" opacity="0.8"/>
+    <text x="93.58405260994657" y="226" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      328
+    </text>
+    <text x="-10" y="226" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      aws
+    </text>
+
+    <!-- Bar 10: phishing -->
+    <rect x="0" y="237" width="71.09741060419235" height="20" fill="#88ff44" opacity="0.8"/>
+    <text x="81.09741060419235" y="252" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+      279
+    </text>
+    <text x="-10" y="252" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0" text-anchor="end">
+      phishing
+    </text>
+
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">
+    Based on 7783 incidents from CyberNews 2025-2026
+  </text>
+</svg>
