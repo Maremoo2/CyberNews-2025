@@ -12,6 +12,243 @@
     "impact": 3
   },
   {
+    "id": "20266412",
+    "date": "2026-02-09",
+    "title": "Fallout from latest Ivanti zero-days spreads to nearly 100 victims",
+    "summary": "Ivanti customers, including major government agencies, face mounting pressure as attackers expand their scope of targets to exploit a pair of vulnerabilities the vendor disclosed last week after in-the-wild attacks already occurred. The Netherlands’ Dutch Data Protection Authority and the Council...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ivanti-zero-day-vulnerabilities-netherlands-european-commission-shadowserver/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266413",
+    "date": "2026-02-09",
+    "title": "Discord to require video selfies or government IDs to verify all users’ ages",
+    "summary": "Discord will soon require all its users worldwide to verify their ages by sharing video selfies or providing government IDs, a move that coincides with a push for age verification across social media platforms.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/discord-age-verification-selfies",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266414",
+    "date": "2026-02-09",
+    "title": "Senegal confirms breach of national ID card department after ransomware claims",
+    "summary": "A cybersecurity incident affecting the government of Senegal has forced the closure of an office tasked with managing sensitive information, including national ID cards, passports and other biometric data.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/senegal-breach-national-id-agency",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266415",
+    "date": "2026-02-09",
+    "title": "Sophos MDR AI Agents for Triage and Case Investigation - YouTube",
+    "summary": "... cybersecurity outcomes. Want to see how we're doing it? Learn more at ... Ed Weir, PhD, Former Social Security Manager · SURPRISE: Fed. Gov ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=fIYUrSgUXUg",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266416",
+    "date": "2026-02-09",
+    "title": "Amazon Neptune Analytics is now available in 7 additional regions",
+    "summary": "Amazon Neptune Analytics is now available in Middle East (Bahrain), Middle East (UAE), Israel (Tel Aviv), Africa (Cape Town), Canada (Calgary), Asia Pacific (Malaysia), and Europe (Zurich) regions. You can now create and manage Neptune Analytics graphs in these new regions and run advanced graph ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-neptune-analytics-in-seven-additional-regions",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266417",
+    "date": "2026-02-09",
+    "title": "Amazon Redshift now supports allocating extra compute for automatic optimizations",
+    "summary": "Amazon Redshift now supports allocating extra compute for automatic optimization features, known as autonomics. Database administrators managing Amazon Redshift workloads can now allocate additional resources for their clusters to enable autonomics even during periods of high user activity, elimi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-allocate-extra-compute-for-automatic-optimizations",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266418",
+    "date": "2026-02-09",
+    "title": "State officials say the Trump administration has been absent on election security",
+    "summary": "And New Hampshire Secretary of State David Scanlon, a Republican, touted his state's cybersecurity work. “It's the 'Live Free or Die' state. We have ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nbcnews.com/politics/elections/state-officials-say-trump-administration-election-security-rcna257031",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266419",
+    "date": "2026-02-09",
+    "title": "OpenClaw Security: Risks of Exposed AI Agents Explained | Bitsight",
+    "summary": "... security and privacy risks. Learn how this AI agent expands cyber risk online ... Cybersecurity Risk” and characterizing OpenClaw as “a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/openclaw-ai-security-risks-exposed-instances",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266420",
+    "date": "2026-02-09",
+    "title": "India, Canada Commit To Cooperation on Cybersecurity Policy | WION News - YouTube",
+    "summary": "a shared work plan for national security and law enforcement ... information that is not biased. We are journalists who are neutral to the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=qAPKDejvR84",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266421",
+    "date": "2026-02-09",
+    "title": "Top DOJ False Claims Act Official Confirms 'Significant Upward Trajectory' In Cybersecurity ...",
+    "summary": "Knowing misrepresentations are the focus of DOJ's cyber-fraud enforcement. This includes false statements about cyber-security posture and false ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.akingump.com/en/insights/alerts/top-doj-false-claims-act-official-confirms-significant-upward-trajectory-in-cybersecurity-enforcement",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266422",
+    "date": "2026-02-09",
+    "title": "GSA Signals Enhanced Focus on Contractor Cybersecurity Practices: What You Need ... - JD Supra",
+    "summary": "... cyber fraud. While CMMC is a DoD-only program ... Security Officer, Information System Security Manager, and Contracting Officer Representative).",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/gsa-signals-enhanced-focus-on-4422913/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266423",
+    "date": "2026-02-09",
+    "title": "UK: Welsh firms ill-prepared to meet the challenges of cyber security threats",
+    "summary": "Many businesses in Wales lack the readiness to meet cyber security threats while also underestimating their potential costs, shows new research.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/uk-welsh-firms-ill-prepared-to-the-meet-the-challenges-of-cyber-security-threats/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266424",
+    "date": "2026-02-09",
+    "title": "House Panel Advances Five Cybersecurity Bills Targeting Energy Infrastructure - MeriTalk",
+    "summary": "That work would include infrastructure security and resilience, cybersecurity, supply issues, and emergency planning, response, and restoration. The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://meritalk.com/articles/house-panel-advances-five-cybersecurity-bills-targeting-energy-infrastructure/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266425",
+    "date": "2026-02-09",
+    "title": "Super Bowl LX: Strengthening Preparation, Building Resilience, Fostering Partnerships",
+    "summary": "As fans geared up for Super Bowl LX, the Cybersecurity and Infrastructure Security Agency (CISA) remained committed to ensuring the safety, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://us-cert.cisa.gov/news-events/news/super-bowl-lx-strengthening-preparation-building-resilience-fostering-partnerships",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266426",
+    "date": "2026-02-09",
+    "title": "Over one billion Android Smartphones at Risk without Google Mobile Security update",
+    "summary": "The European Commission has come under the spotlight in recent days after reports emerged that it had fallen victim to a cybersecurity breach ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/over-one-billion-android-smartphones-at-risk-without-google-mobile-security-update/",
+    "tags": [
+      "data-breach",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266427",
+    "date": "2026-02-09",
+    "title": "Without Fanfare or Opportunity for Public Comment, GSA Changes Cybersecurity ...",
+    "summary": "... security burdens on contractors. GSA issued Revision 1 of its IT Security Procedural Guide: Protecting Controlled Unclassified Information (CUI) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://govcon.mofo.com/topics/without-fanfare-or-opportunity-for-public-comment-gsa-changes-cybersecurity-requirements-for-contractors",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266393",
     "date": "2026-02-09",
     "title": "Which countries are best-placed to resist state-supported cyber-attacks? A government advisor explains",
