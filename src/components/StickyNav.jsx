@@ -11,8 +11,9 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uni
 
       // Detect active section
       const sections = [
-        'summary', 'snapshot', 'themes', 'attack-chains', 'benchmarking',
-        'mitre', 'actors', 'defense', 'regulation', 'predictions', 'methodology', 'incidents'
+        'home', 'daily-digest', 'weekly-brief', 'summary', 'snapshot', 'themes', 
+        'attack-chains', 'benchmarking', 'mitre', 'actors', 'defense', 
+        'regulation', 'predictions', 'nsm-risk', 'methodology', 'glossary', 'incidents'
       ];
 
       for (const id of sections) {
@@ -41,18 +42,23 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uni
   };
 
   const sections = [
-    { id: 'summary', label: 'Summary' },
-    { id: 'snapshot', label: 'Snapshot' },
-    { id: 'themes', label: 'Themes' },
-    { id: 'attack-chains', label: 'Attack Chains' },
-    { id: 'benchmarking', label: 'Benchmarking' },
-    { id: 'mitre', label: 'MITRE' },
-    { id: 'actors', label: 'Actors' },
-    { id: 'defense', label: 'Defense' },
-    { id: 'regulation', label: 'Regulation' },
-    { id: 'predictions', label: 'Predictions' },
-    { id: 'methodology', label: 'Methodology' },
-    { id: 'incidents', label: 'Incidents' }
+    { id: 'home', label: '🏠 Home' },
+    { id: 'daily-digest', label: '📅 Daily Digest' },
+    { id: 'weekly-brief', label: '📊 Weekly Brief' },
+    { id: 'summary', label: '📋 Executive Summary' },
+    { id: 'snapshot', label: '🔍 Threat Landscape' },
+    { id: 'themes', label: '🛡️ Risk Themes' },
+    { id: 'attack-chains', label: '⚔️ Attack Chains' },
+    { id: 'benchmarking', label: '📊 Sector Benchmarking' },
+    { id: 'mitre', label: '🎯 MITRE ATT&CK' },
+    { id: 'actors', label: '🎭 Threat Actors' },
+    { id: 'defense', label: '🛡️ Defense Analysis' },
+    { id: 'regulation', label: '⚖️ Regulation Impact' },
+    { id: 'predictions', label: '🔮 Forecasts' },
+    { id: 'nsm-risk', label: '🇳🇴 NSM Risk Analysis' },
+    { id: 'methodology', label: '🔬 Methodology' },
+    { id: 'glossary', label: '📖 Glossary' },
+    { id: 'incidents', label: '📚 All Incidents' }
   ];
 
   return (
