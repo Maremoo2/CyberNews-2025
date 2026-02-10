@@ -15,7 +15,7 @@ Denne analysen kartlegger hvordan NSMs vurderinger har utviklet seg fra 2023 til
 
 ## Hovedutvikling 2023–2026
 
-| År   | Samlet trusselbildebilde | Økt fokus på | Redusert fokus på |
+| År   | Samlet trusselbilde | Økt fokus på | Redusert fokus på |
 |------|-------------------------|--------------|-------------------|
 | **2023** | Etterretning og påvirkning | Kritisk infrastruktur, leverandøravhengighet, enkeltpunktssvikt | Militære trusler på norsk territorium |
 | **2024** | Statlig etterretning, IKT-sårbarheter | Samspill fysisk–digital sabotasje, strøm/tele-infrastruktur | Enkel phishing, tradisjonelle sårbarheter |
