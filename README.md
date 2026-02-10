@@ -15,7 +15,7 @@
 ### 📊 En datadrevet oversikt over trussellandskapet
 *Strukturert, filtrerbart og visualisert for enterprise security teams*
 
-**800+ hendelser** • **MITRE ATT&CK mapppet** • **AI-drevet analyse** • **Daglig oppdatert**
+**800+ hendelser** • **MITRE ATT&CK mappet** • **AI-drevet analyse** • **Daglig oppdatert**
 
 </div>
 

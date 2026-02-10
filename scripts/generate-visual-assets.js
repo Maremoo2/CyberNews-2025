@@ -111,7 +111,7 @@ function generateBarChart(data, title, filename) {
   
   <!-- Footer -->
   <text x="${width/2}" y="${height - 20}" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">
-    Based on ${allIncidents.length} incidents from CyberNews 2025-2026
+    Based on ${allIncidents.length} incidents from CyberNews (all years)
   </text>
 </svg>`;
 
@@ -214,11 +214,23 @@ function generateMITREPath() {
 
 // Generate snapshot summary
 function generateSnapshot() {
-  const criticalIncidents = allIncidents.filter(i => (i.severity || 0) >= 80).length;
+  const criticalIncidents = allIncidents.filter(i => {
+    const sev = i.severity || i.aiAnalysis?.impactScore || 0;
+    return sev >= 80;
+  }).length;
+  
   const totalIncidents = allIncidents.length;
+  
   const avgSeverity = Math.round(
-    allIncidents.reduce((sum, i) => sum + (i.severity || 0), 0) / totalIncidents
+    allIncidents.reduce((sum, i) => {
+      const sev = i.severity || i.aiAnalysis?.impactScore || 0;
+      return sum + sev;
+    }, 0) / totalIncidents
   );
+  
+  // Get year range dynamically
+  const years = [...new Set(allIncidents.map(i => new Date(i.date).getFullYear()))].sort();
+  const yearRange = years.length > 1 ? `${years[0]}-${years[years.length - 1]}` : years[0];
   
   const width = 1000;
   const height = 600;
@@ -264,7 +276,7 @@ function generateSnapshot() {
       ${totalIncidents}
     </text>
     <text x="100" y="100" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">
-      2025-2026
+      ${yearRange}
     </text>
   </g>
   

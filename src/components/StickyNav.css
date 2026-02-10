@@ -220,12 +220,6 @@
   border-left: 3px solid #00d4ff;
 }
 
-.section-dropdown button.active {
-  background: #f0f4ff;
-  color: #00d4ff;
-  font-weight: 600;
-}
-
 .section-dropdown button:first-child {
   border-radius: 10px 10px 0 0;
 }
