@@ -1,5 +1,299 @@
 [
   {
+    "id": "20266405",
+    "date": "2026-02-10",
+    "title": "[Virtual Event] Shields Up: Key Technologies Reshaping Cybersecurity Defenses",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/events/shields-up-key-technologies-reshaping-cybersecurity-defenses",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266393",
+    "date": "2026-02-09",
+    "title": "Which countries are best-placed to resist state-supported cyber-attacks? A government advisor explains",
+    "summary": "In April 2007, the Baltic nation of Estonia woke up to one of the world’s first major cyber-attacks on civil society carried out by a state. A series of massive “distributed denial of service” assaults – floods of fake traffic from networked computers – targeted government websites, banks, media ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Conversation Cybersecurity",
+    "sourceUrl": "https://theconversation.com/which-countries-are-best-placed-to-resist-state-supported-cyber-attacks-a-government-advisor-explains-275447",
+    "tags": [
+      "ddos",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266394",
+    "date": "2026-02-09",
+    "title": "SmarterTools Breached by Own SmarterMail Vulnerabilities",
+    "summary": "SmarterTools was breached by hackers exploiting a vulnerability in its own SmarterMail software through an unknown virtual machine set up by an employee that wasn’t being updated. “Prior to the breach, we had approximately 30 servers/VMs with SmarterMail installed throughout our network,” Smarter...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/smartertools-hit-by-smartermail-vulnerability/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266395",
+    "date": "2026-02-09",
+    "title": "European Commission Hit by Mobile Infrastructure Data Breach",
+    "summary": "The European Commission's central infrastructure for managing mobile devices was hit by a cyberattack on January 30, the Commission has revealed. The announcement said the European Commission mobile cyberattack was limited by swift action, but cybersecurity observers are speculating that the inci...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/european-commission-mobile-cyberattack/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266396",
+    "date": "2026-02-09",
+    "title": "DuckDuckGo launches privacy-focused real-time AI voice chat",
+    "summary": "DuckDuckGo has introduced a new voice chat feature on its AI platform, Duck.ai, offering real-time, privacy-protected interactions without requiring user accounts. The opt-in feature allows users to speak directly to an AI assistant through an encrypted relay, with the system responding in natura...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/duckduckgo-launches-privacy-focused-real-time-ai-voice-chat/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266397",
+    "date": "2026-02-09",
+    "title": "European Commission Hit by Mobile Management Data Breach",
+    "summary": "European Union officials are investigating a cybersecurity incident after attackers breached systems used to manage staff mobile devices, potentially exposing limited personal data. The European Commission said it detected a cyberattack on its central mobile device management infrastructure and m...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/european-commission-hit-by-mobile-management-data-breach/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266398",
+    "date": "2026-02-09",
+    "title": "10K Claude Desktop Users Exposed by Zero-Click Vulnerability",
+    "summary": "A newly disclosed flaw in Anthropic’s Claude Desktop Extensions shows how a routine productivity feature can enable zero-click system compromise. LayerX researchers found that a single malicious Google Calendar event can trigger remote code execution on Claude Desktop systems, enabling silent tak...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/10k-claude-desktop-users-exposed-by-zero-click-vulnerability/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266399",
+    "date": "2026-02-09",
+    "title": "European Commission Mobile System Targeted in Coordinated Cyberattack on EU Agencies",
+    "summary": "On Wednesday, the European Commission revealed a cyberattack that likely compromised employee information, shortly after the EU announced new cyber laws to guard against such attacks. The intrusion into the Commission’s data system occurred on January 30, when an unknown perpetrator accessed an a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/european-commission-mobile-cyberattack/",
+    "tags": [
+      "malware",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266400",
+    "date": "2026-02-09",
+    "title": "CoinbaseCartel Hack Group Claims to Have Leaked Dobly Labs Data Amid Super Bowl Festivities",
+    "summary": "A prominent hacker group has named the American audio technology giant Dolby Laboratories its new target via its dark web blog. According to the post, made during the Super Bowl weekend, the group breached Dobly’s data. Whether or not the claims from hackers are true is still to be determined. Co...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/coinbasecartel-claims-dolby-labs-data-leak/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266401",
+    "date": "2026-02-09",
+    "title": "How Maya HTT Achieved CMMC Level 2: Featuring their Consultant & C3PAO",
+    "summary": "Maya HTT, a Montreal-based provider of specialized industrial software solutions and 3D simulation tools, recently achieved CMMC Level 2 certification (and a perfect SPRS score), joining fewer than 600 organizations worldwide to reach this milestone.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/inside-cmmc-level-2-certification-lessons-from-an-osc-their-consultant-and-their-assessor",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266402",
+    "date": "2026-02-09",
+    "title": "Warlock Gang Breaches SmarterTools Via SmarterMail Bugs",
+    "summary": "The ransomware group breached SmarterTools through a vulnerability in the company's own SmarterMail product.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/warlock-gang-breaches-smartertools-smartermail-bugs",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266403",
+    "date": "2026-02-09",
+    "title": "TeamPCP Turns Cloud Infrastructure into Crime Bots",
+    "summary": "The threat actor has been compromising cloud environments at scale with automated worm-like attacks on exposed services and interfaces.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/teampcp-cloud-infrastructure-crime-bots",
+    "tags": [
+      "data-breach",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266404",
+    "date": "2026-02-09",
+    "title": "Black Basta Bundles BYOVD With Ransomware Payload",
+    "summary": "Researchers discovered a newly disclosed vulnerable driver embedded in Black Basta's ransomware, illustrating the increasing popularity of the defense-evasion technique.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/black-basta-bundles-byovd-ransomware-payload",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266406",
+    "date": "2026-02-09",
+    "title": "Spotlight On: Futurex, a New Principal Participating Organization",
+    "summary": "Welcome Futurex, a new Principal Participating Organization (PPO) at the PCI Security Standards Council! In this special spotlight edition of our PCI Perspectives Blog, Futurex Chief Solutions Architect, David Close, introduces us to his company and how they are helping to shape the future of pay...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/spotlight-on-futurex-a-new-principal-participating-organization",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266407",
+    "date": "2026-02-09",
+    "title": "23andMe Data Breach Settlement Deadline Is Near: Here’s How Much You Could Get",
+    "summary": "23andMe customers affected by a data breach may be eligible for cash or monitoring services. Here’s how to file a claim before the deadline. The post 23andMe Data Breach Settlement Deadline Is Near: Here’s How Much You Could Get appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-23andme-data-breach-settlement-deadline/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266408",
+    "date": "2026-02-09",
+    "title": "Chinese cyberspies breach Singapore's four largest telcos",
+    "summary": "The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266409",
+    "date": "2026-02-09",
+    "title": "Hackers exploit SolarWinds WHD flaws to deploy DFIR tool in attacks",
+    "summary": "Hackers are now exploiting SolarWinds Web Help Desk (WHD) vulnerabilities to gain code execution rights on exposed systems and deploy legitimate tools, including the Velociraptor forensics tools, for persistence and remote control. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/threat-actors-exploit-solarwinds-wdh-flaws-to-deploy-velociraptor/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "apt",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266410",
+    "date": "2026-02-09",
+    "title": "Hackers breach SmarterTools network using flaw in its own software",
+    "summary": "SmarterTools confirmed last week that the Warlock ransomware gang breached its network after compromising an email system, but did not impact business applications or account data. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-smartertools-network-using-flaw-in-its-own-software/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266411",
+    "date": "2026-02-09",
+    "title": "Your phone works for them now.",
+    "summary": "Ivanti zero-days trigger emergency warnings around the globe. Singapore blames a China-linked spy crew for hitting all four major telcos. DHS opens a privacy probe into ICE surveillance. Researchers flag a zero-click RCE lurking in LLM workflows. Ransomware knocks local government payment systems...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2485/notes",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "government"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20266355",
     "date": "2026-02-09",
     "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
