@@ -893,3 +893,152 @@ select:focus-visible {
     align-items: center;
   }
 }
+
+/* NSM Risk Analysis Section */
+.nsm-risk-section {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  padding: 3rem 1.5rem;
+  border-radius: 12px;
+  margin: 3rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nsm-risk-section .section-title {
+  font-size: 2rem;
+  color: #1a2845;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.nsm-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.nsm-intro .section-intro {
+  font-size: 1.1rem;
+  color: #4a5568;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nsm-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #0066cc;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.timeline-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-item.highlight {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe5e5 100%);
+  border-left-color: #e53e3e;
+  border-left-width: 6px;
+}
+
+.year-badge {
+  display: inline-block;
+  background: #0066cc;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-item.highlight .year-badge {
+  background: #e53e3e;
+}
+
+.timeline-item h3 {
+  font-size: 1.3rem;
+  color: #1a2845;
+  margin: 0.5rem 0;
+}
+
+.timeline-item p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
+}
+
+.key-threats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.threat-badge {
+  background: #e53e3e;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.nsm-cta {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.nsm-cta a {
+  color: #0066cc;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.nsm-cta a:hover {
+  border-bottom-color: #0066cc;
+}
+
+/* Mobile responsiveness for NSM section */
+@media (max-width: 768px) {
+  .nsm-risk-section {
+    padding: 2rem 1rem;
+  }
+
+  .nsm-risk-section .section-title {
+    font-size: 1.5rem;
+  }
+
+  .timeline-item {
+    padding: 1rem;
+  }
+
+  .timeline-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .key-threats {
+    gap: 0.4rem;
+  }
+
+  .threat-badge {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}

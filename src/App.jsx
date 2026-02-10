@@ -649,11 +649,12 @@ function App() {
       />
 
       {/* Enhanced Hero Section */}
+      <div id="home">
       {selectedYear === currentYear && (
         <HeroSection onNavigate={(section) => {
           const sectionMap = {
-            'Daily Digest': 'ai-insights',
-            'Weekly Brief': 'ai-analysis',
+            'Daily Digest': 'daily-digest',
+            'Weekly Brief': 'weekly-brief',
             'Full Analysis': 'summary'
           };
           const targetId = sectionMap[section];
@@ -665,6 +666,7 @@ function App() {
           }
         }} />
       )}
+      </div>
 
       {/* Reading Progress Tracker - Zeigarnik Effect */}
       {selectedYear === currentYear && filteredIncidents.length > 0 && (
@@ -695,14 +697,14 @@ function App() {
 
       {/* AI-Generated Insights - Daily Digest & Weekly Brief */}
       {selectedYear === currentYear && (
-        <div id="ai-insights">
+        <div id="daily-digest">
           <AIInsights />
         </div>
       )}
 
       {/* AI Weekly Intelligence Analysis */}
       {selectedYear === currentYear && (
-        <div id="ai-analysis">
+        <div id="weekly-brief">
           <WeeklyAnalysis />
         </div>
       )}
@@ -733,6 +735,73 @@ function App() {
       <div id="themes">
         <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
       </div>
+
+      {/* NSM Risk Analysis - Norwegian National Security Authority Perspective */}
+      <section id="nsm-risk" className="nsm-risk-section">
+        <div className="section-container">
+          <h2 className="section-title">🇳🇴 NSM Risikoanalyse 2020–{selectedYear}</h2>
+          <div className="nsm-intro">
+            <p className="section-intro">
+              Nasjonal sikkerhetsmyndighet (NSM) publiserer årlige risikovurderinger som kartlegger trusler mot norsk nasjonal sikkerhet.
+              Her er hovedutvikling fra 2020 til {selectedYear}.
+            </p>
+          </div>
+          
+          <div className="nsm-timeline">
+            <div className="timeline-item">
+              <div className="year-badge">2020</div>
+              <h3>🦠 Pandemi og Digital Transformasjon</h3>
+              <p>COVID-19 akselererte digitalisering, eksponerte sårbarheter i hjemmekontor-løsninger og VPN-sikkerhet.</p>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2021</div>
+              <h3>🔐 Ransomware som Strategisk Trussel</h3>
+              <p>Løsepengevirus transformerte til profesjonell forretningsmodell. Kritisk infrastruktur og helsesektoren ble hovedmål.</p>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2022</div>
+              <h3>⚔️ Geopolitisk Vendepunkt</h3>
+              <p>Ukraina-krigen endret trusselbildet. Hybridkrigsføring og sabotasje mot energiinfrastruktur ble reelle trusler.</p>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2023</div>
+              <h3>🕵️ Etterretning og Datatyveri</h3>
+              <p>Systematisk datatyveri rettet mot teknologi- og forsvarssektoren. Leverandøravhengighet som strategisk risiko.</p>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2024</div>
+              <h3>🔗 Fysisk-Digitalt Samspill</h3>
+              <p>Sammenhengen mellom fysiske og digitale angrep ble tydeligere. Kritisk infrastruktur som primært mål.</p>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2025</div>
+              <h3>🎭 Tillitssvekkelse som Strategisk Mål</h3>
+              <p>Psykologiske operasjoner rettet mot å undergrave tillit til institusjoner. Leverandørlås som nasjonal sikkerhetsrisiko.</p>
+            </div>
+            
+            <div className="timeline-item highlight">
+              <div className="year-badge">2026</div>
+              <h3>🤖 Systemundergraving og AI-Trusler</h3>
+              <p>AI og LLM som nye trusselvektorer. Automatisert desinformasjon, deepfake-teknologi og AI-assistert etterretning. Beredskapsvikt som større trussel enn tekniske angrep.</p>
+              <div className="key-threats">
+                <span className="threat-badge">🤖 AI-trusler</span>
+                <span className="threat-badge">🎭 Deepfake</span>
+                <span className="threat-badge">📱 Desinformasjon</span>
+                <span className="threat-badge">⚠️ Beredskapsvikt</span>
+              </div>
+            </div>
+          </div>
+          
+          <div className="nsm-cta">
+            <p><strong>📚 Les mer:</strong> <a href="https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet-2-0/" target="_blank" rel="noopener noreferrer">NSMs Grunnprinsipper for IKT-sikkerhet</a></p>
+          </div>
+        </div>
+      </section>
 
       {/* Attack Chain Reconstruction - Enterprise Feature */}
       <div id="attack-chains">
@@ -765,10 +834,14 @@ function App() {
       <YearStats incidents={incidentsData} selectedYear={selectedYear} />
 
       {/* MITRE ATT&CK Framework Analysis */}
-      <ThreatIntelligence incidents={incidentsData} />
+      <div id="mitre">
+        <ThreatIntelligence incidents={incidentsData} />
+      </div>
 
       {/* Threat Actor Profiling */}
-      <ThreatActorProfile incidents={incidentsData} />
+      <div id="actors">
+        <ThreatActorProfile incidents={incidentsData} />
+      </div>
 
       {/* Sector Analysis - Deep dive into targeted sectors */}
       <SectorAnalysis incidents={incidentsData} selectedYear={selectedYear} />
@@ -790,7 +863,9 @@ function App() {
       <DetectionGapAnalysis incidents={incidentsData} filters={{}} />
 
       {/* Regulation Impact - NIS2, GDPR, DSA, etc. */}
-      <RegulationImpact selectedYear={selectedYear} />
+      <div id="regulation">
+        <RegulationImpact selectedYear={selectedYear} />
+      </div>
 
       {/* Forecasts and Predictions */}
       <div id="predictions">
@@ -798,7 +873,11 @@ function App() {
       </div>
 
       {/* Methodology and Limitations (Hidden in CISO Mode) */}
-      {!cisoMode.enabled && <MethodologyAndLimitations />}
+      {!cisoMode.enabled && (
+        <div id="methodology">
+          <MethodologyAndLimitations />
+        </div>
+      )}
 
       {/* Year Wheel */}
       <YearWheel 
@@ -809,19 +888,25 @@ function App() {
       />
 
       {/* Incidents Section with Pagination and Tabs */}
-      <IncidentsSection 
-        incidents={filteredIncidents}
-        onTagClick={handleTagClick}
-        selectedTags={selectedTags}
-        formatDate={formatDate}
-        getImpactBadge={getImpactBadge}
-      />
+      <div id="incidents">
+        <IncidentsSection 
+          incidents={filteredIncidents}
+          onTagClick={handleTagClick}
+          selectedTags={selectedTags}
+          formatDate={formatDate}
+          getImpactBadge={getImpactBadge}
+        />
+      </div>
 
       {/* Back to Top Button */}
       <BackToTop />
 
       {/* Glossary Panel (Hidden in CISO Mode) */}
-      {!cisoMode.enabled && <GlossaryPanel />}
+      {!cisoMode.enabled && (
+        <div id="glossary">
+          <GlossaryPanel />
+        </div>
+      )}
 
       <footer className="footer">
         <div className="footer-reflection">
