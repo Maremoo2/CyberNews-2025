@@ -1,5 +1,592 @@
 [
   {
+    "id": "20266495",
+    "date": "2026-02-10",
+    "title": "Vega raises $120M Series B to rethink how enterprises detect cyber threats",
+    "summary": "Vega Security raised $120 million, bringing its valuation to $700 million, in a round led by Accel. The company aims to rethink how enterprises detect cybersecurity threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/10/vega-raises-120m-series-b-to-rethink-how-enterprises-detect-cyber-threats/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266496",
+    "date": "2026-02-10",
+    "title": "Attention à ce faux antivirus Android qui siphonne vos données les plus sensibles",
+    "summary": "Elle promettait de détecter les arnaques et les messages frauduleux, elle dérobe en réalité vos identifiants et coordonnées bancaires. Le moins que l’on puisse dire, c’est que TrustBastion n’est pas une appli de sécurité comme les autres.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599857-attention-a-ce-faux-antivirus-android-qui-siphonne-vos-donnees-les-plus-sensibles.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266497",
+    "date": "2026-02-10",
+    "title": "Mauvaise nouvelle pour ces abonnés Free mobile, ils n’ont pas accès à cette fonction bien appréciée",
+    "summary": "Présenté comme un atout phare des forfaits Free Mobile, le VPN maison mVPN n’est pas accessible à tous les abonnés. Certains clients pourtant facturés au même prix découvrent qu’ils en sont exclus, sans explication officielle.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599851-mauvaise-nouvelle-pour-ces-abonnes-free-mobile-ils-n-ont-pas-acces-a-cette-fonction-bien-appreciee.html",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266498",
+    "date": "2026-02-10",
+    "title": "Windscribe confirme la saisie d’un de ses serveurs VPN, sur fond de pression croissante contre l’anonymat en ligne",
+    "summary": "L’affaire relance les débats sur les politiques no-log, mais Windscribe maintient qu’il n’y a rien à extraire. Un nouvel épisode dans un climat de surveillance plus soutenue des outils de protection de la vie privée sur le web.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599809-windscribe-confirme-la-saisie-d-un-de-ses-serveurs-vpn-sur-fond-de-pression-croissante-contre-l-anonymat-en-ligne.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266499",
+    "date": "2026-02-10",
+    "title": "Microsoft prepares to refresh Secure Boot’s digital certificate",
+    "summary": "Some customers, including in critical infrastructure sectors, will need to manually review their devices’ readiness for the update.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/microsoft-secure-boot-certificate-update/811846/",
+    "tags": [
+      "critical-infrastructure",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266500",
+    "date": "2026-02-10",
+    "title": "Ivanti EPMM exploitation widespread as governments, others targeted",
+    "summary": "Researchers warn the activity shows evidence of initial access brokers preparing for future attacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ivanti-epmm-exploitation-widespread-as-governments-others-targeted/811827/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266501",
+    "date": "2026-02-10",
+    "title": "Polish power grid hack offers lessons for critical infrastructure operators, CISA says",
+    "summary": "The agency listed several steps businesses could take to prevent similar cyberattacks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-critical-infrastructure-warning-poland-energy-hack/811819/",
+    "tags": [
+      "malware",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266502",
+    "date": "2026-02-10",
+    "title": "Laced 7-Zip installers turn home PCs into residential proxy nodes",
+    "summary": "A lookalike 7-Zip website is distributing trojanized installers that covertly enroll victims’ machines into a residential proxy network. The campaign was recently exposed after a Reddit user unknowingly installed malware while following a YouTube tutorial that misidentified the legitimate 7-Zip d...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/laced-7-zip-installers-turn-home-pcs-into-residential-proxy-nodes/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266503",
+    "date": "2026-02-10",
+    "title": "New powerful ZeroDayRAT spyware targets Android and iOS users",
+    "summary": "A new cross-platform spyware suite, dubbed ZeroDayRAT, is openly sold on Telegram, offering buyers full remote access to both Android and iOS devices and enabling everything from real-time surveillance to financial theft within minutes of infection. Discovered less than 48 hours before the public...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/new-powerful-zerodayrat-spyware-targets-android-and-ios-users/",
+    "tags": [
+      "malware",
+      "mobile",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266504",
+    "date": "2026-02-10",
+    "title": "Singapore telcos breached in China-linked cyber espionage campaign",
+    "summary": "Singapore’s four major telecommunications companies were hit by a coordinated cyber espionage campaign last year, the country’s Cyber Security Agency (CSA) has revealed. An advanced persistent threat group known as UNC3886 has probed deep into the networks of M1, SIMBA Telecom, Singtel, and StarH...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/singapore-telecommunications-unc3886-cyber-espionage/",
+    "tags": [
+      "data-breach",
+      "apt",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266505",
+    "date": "2026-02-10",
+    "title": "Microsoft tightens Windows security with app transparency and user consent",
+    "summary": "Microsoft is strengthening default protections in Windows through two security initiatives, Windows Baseline Security Mode and User Transparency and Consent. User Transparency and Consent User Transparency and Consent introduces a structured approach to how Windows presents security decisions to ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/windows-security-app-transparency-user-consent/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266506",
+    "date": "2026-02-10",
+    "title": "Imprivata delivers passwordless access to improve security, compliance, and productivity",
+    "summary": "Imprivata has introduced comprehensive new capabilities to enable the next generation of fast, frictionless, and passwordless access for frontline staff, knowledge workers, and all other enterprise users. Imprivata Enterprise Access Management (EAM) now offers context-aware passwordless authentic...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/imprivata-enterprise-access-management-capabilities/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266507",
+    "date": "2026-02-10",
+    "title": "Portnox expands ZTNA with passwordless access for RDP, SSH, and enterprise consoles",
+    "summary": "Portnox has unveiled a major expansion of its zero trust network access (ZTNA) solution, extending credential-free access beyond web and on-premises applications to include enterprise console-based applications. Organizations can eliminate passwords and credentials from administrative access via ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/portnox-passwordless-ztna/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266508",
+    "date": "2026-02-10",
+    "title": "BloodHound Scentry helps organizations reduce identity risk and close attack paths",
+    "summary": "SpecterOps has announced BloodHound Scentry, a new service designed to help customers accelerate their APM practice and reduce identity risk. BloodHound Scentry combines the power of BloodHound Enterprise with SpecterOps tradecraft experts and practitioners to provide customers with tailored guid...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/specterops-bloodhound-scentry/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266509",
+    "date": "2026-02-10",
+    "title": "Trojanized 7-Zip downloads turn home computers into proxy nodes",
+    "summary": "A trojanized version of the popular 7-Zip software is quietly turning home computers into residential proxy nodes, Malwarebytes warns. Spurred by a Reddit post in which a user complained about getting infected with malware after downloading 7-Zip from 7zip[.]com instead of the legitimate 7-zip.or...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/trojanized-7-zip-software-malware-distribution/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266510",
+    "date": "2026-02-10",
+    "title": "Armis Centrix brings unified, AI-driven application security to the SDLC",
+    "summary": "Armis has announced Armis Centrix for Application Security, which unifies application security across an organization’s software development lifecycle. The technology helps security teams secure code as a next-generation attack vector to fortify organizations’ defenses and protect against cyber t...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/armis-centrix-application-security/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266511",
+    "date": "2026-02-10",
+    "title": "Backslash Security raises $19 million to address AI coding security risks",
+    "summary": "Backslash Security announced a $19 million Series A funding round led by KOMPAS VC, with participation from Maniv, Artofin Venture Capital, and existing investors StageOne Ventures and First Rays Capital. The round, which follows Backslash’s $8 million seed funding, tracks the rapid grassroots sh...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/backslash-security-19-million-series-a-funding/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266512",
+    "date": "2026-02-10",
+    "title": "Picus Red Report 2026 Shows Attackers Favor Stealth Over Disruption",
+    "summary": "Cyber attackers are quietly changing how they operate — and the latest Picus Red Report shows that disruption is no longer the goal. Rather than encrypting systems or triggering immediate disruption, Picus Security found that adversaries are prioritizing stealth, persistence, and long-term access...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/picus-red-report-2026-shows-attackers-favor-stealth-over-disruption/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266513",
+    "date": "2026-02-10",
+    "title": "Bing Ads Abused to Deliver Azure-Hosted Tech Support Scams",
+    "summary": "A recently identified scam campaign is using Bing search advertisements and Microsoft Azure infrastructure to redirect users to fraudulent tech support pages, demonstrating how legitimate platforms can be misused for social engineering activity. “The tech support scam campaign had a significant i...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/bing-ads-abused-to-deliver-azure-hosted-tech-support-scams/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266514",
+    "date": "2026-02-10",
+    "title": "Think your password manager has you covered? Think again.",
+    "summary": "The digital world is messy, noisy, and occasionally hostile, and I've tried to stay at least a little security-conscious as more of my life has moved online. For a long time, that meant using a password manager and calling it a day. Strong, unique passwords everywhere felt like the finish line. T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/you-think-i-use-a-password-manager-im-safe-you-arent/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266516",
+    "date": "2026-02-10",
+    "title": "Top Business Card Makers of 2026 for Quick, Professional Results Without Design Experience",
+    "summary": "In this post, I will talk about the top business card makers of 2026 for quick, professional results without design experience. Business cards remain a practical touchpoint in professional settings, even as networking shifts increasingly online. For many individuals and small organizations, the c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/top-business-card-makers/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266517",
+    "date": "2026-02-10",
+    "title": "CVE-2026-21643: Critical FortiClient EMS Vulnerability Enables Unauthenticated Remote Code Execution",
+    "summary": "Shortly after our recent coverage of high-impact FortiOS SSO zero-day exploitation (CVE-2026-24858), defenders are facing another urgent patching priority in the Fortinet ecosystem. On February 6, Fortinet released a fix for a critical SQL injection flaw that can be triggered remotely and doesn’t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-21643-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "fortinet"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266518",
+    "date": "2026-02-10",
+    "title": "Discord Announces Mandatory Age Verification, Sparking Immediate User Revolt",
+    "summary": "Discord just announced a major shift in how it handles user safety. The platform will launch mandatory age verification globally next month. Every user will need to prove they’re an adult or accept teenage-level restrictions. The company announced on Monday that, starting in March this year, Disc...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/discord-rolling-face-scan-age-verification-from-march/",
+    "tags": [],
+    "impact": 4
+  },
+  {
+    "id": "20266519",
+    "date": "2026-02-10",
+    "title": "How to Build Threat Hunting that Defends Your Organization Against Real Attacks",
+    "summary": "Threat hunting is widely recognized as one of the most important capabilities of a mature SOC. It uncovers stealthy attackers early, reduces dwell time, and prevents security incidents from impacting the business. Yet, in practice, many organizations find that their threat hunting efforts don’t c...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/threat-hunting-for-soc-and-mssp/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266520",
+    "date": "2026-02-10",
+    "title": "Beneath the AI iceberg: The forces reshaping work and security",
+    "summary": "This blog was originally published here. In conversations about AI, there’s a tendency to treat the future like a horizon we’re walking toward, always somewhere ahead, always a question of when. But if we look closely, the forces reshaping work, identity, and security beneath the surface are far ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Identity Defined Security Alliance Blog",
+    "sourceUrl": "https://www.idsalliance.org/blog/beneath-the-ai-iceberg-the-forces-reshaping-work-and-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266521",
+    "date": "2026-02-10",
+    "title": "Security Observability Improvements in Cisco Secure Firewall 10.0",
+    "summary": "Improvements in Secure Firewall 10.0 provide better observability and detection for threats and security monitoring overall.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/security-observability-improvements-in-cisco-secure-firewall-10-0/",
+    "tags": [
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266522",
+    "date": "2026-02-10",
+    "title": "Stop comparing safety and cybersecurity, they have very little in common",
+    "summary": "Nearly a year ago, we hosted Dug Song, the legendary founder of Duo Security, on Inside the Network. During that conversation, Dug shared a powerful analogy that has stuck with me. He explained that in aviation, a plane crashes the same way only once, or maybe twice. Whenever it happens, we get t...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Venture in Security",
+    "sourceUrl": "https://ventureinsecurity.net/p/stop-comparing-safety-and-cybersecurity",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266523",
+    "date": "2026-02-10",
+    "title": "SolarWinds WHD zero-days from January are under attack",
+    "summary": "SolarWinds Web Help Desk (WHD) is under attack, with recent incidents exploiting a chain of zero-day and patched vulnerabilities dating back to late 2025, an analysis of customer reports by security company Huntress has found. Until now, it has been unclear which combination of recent WHD vulnera...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130151/solarwinds-whd-zero-days-from-january-are-under-attack.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266524",
+    "date": "2026-02-10",
+    "title": "Cyberangriff auf EU-Kommission",
+    "summary": "Cyberkriminellen ist es gelungen, in ein System der EU-Kommission einzudringen.Elza Low – shutterstockcom Die Europäische Kommission wurde Ziel einer Cyberattacke. Wie aus einer kürzlich veröffentlichten Mitteilung hervorgeht, erfolgte der Angriff Ende Januar und zielte auf ein System zur Verwalt...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130077/cyberangriff-auf-eu-kommission.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266525",
+    "date": "2026-02-10",
+    "title": "OT Attacks Get Scary With 'Living-off-the-Plant' Techniques",
+    "summary": "Ironically, security by obscurity has helped prevent dangerous OT attacks in recent years. It won't be that way forever.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/ics-ot-security/ot-attacks-living-off-the-plant",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266528",
+    "date": "2026-02-10",
+    "title": "Phorpiex Phishing Delivers Low-Noise Global Group Ransomware",
+    "summary": "High-volume phishing campaign delivers Phorpiex malware via malicious Windows Shortcut files",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phorpiex-phishing-global-group/",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266529",
+    "date": "2026-02-10",
+    "title": "“Digital Parasite” Warning as Attackers Favor Stealth for Extortion",
+    "summary": "Picus Security warns of the increasingly sophisticated ways malicious activity is staying hidden",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/digital-parasite-attackers-stealth/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266530",
+    "date": "2026-02-10",
+    "title": "New Mobile Spyware ZeroDayRAT Targets Android and iOS",
+    "summary": "ZeroDayRAT is a new mobile spyware targeting Android and iOS, offering attackers persistent access",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/zerodayrat-mobile-spyware-android/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266531",
+    "date": "2026-02-10",
+    "title": "Singapore Takes Down Chinese Hackers Targeting Telco Networks",
+    "summary": "Operation Cyber Guardian was Singapore’s largest and longest running anti-cyber threat law enforcement operation",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/singapore-takes-down-china-hackers/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266532",
+    "date": "2026-02-10",
+    "title": "Volvo Group North America customer data exposed in Conduent hack",
+    "summary": "Volvo Group North America disclosed that it suffered an indirect data breach stemming from the compromise of IT systems at American business services giant Conduent, of which Volvo is a customer. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/volvo-group-north-america-customer-data-exposed-in-conduent-hack/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266533",
+    "date": "2026-02-10",
+    "title": "Microsoft rolls out new Secure Boot certificates before June expiration",
+    "summary": "Microsoft has begun rolling out updated Secure Boot certificates through monthly Windows updates to replace the original 2011 certificates that will expire in late June 2026. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-new-secure-boot-certificates-before-june-expiration/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266534",
+    "date": "2026-02-10",
+    "title": "Microsoft 365 outage takes down admin center in North America",
+    "summary": "Microsoft is investigating an outage that blocks some administrators with business or enterprise subscriptions from accessing the Microsoft 365 admin center. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-admin-center-in-north-america/",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266535",
+    "date": "2026-02-10",
+    "title": "How to Automate AWS Incident Investigation with Tines and AI",
+    "summary": "Cloud incidents drag on when analysts have to leave cases to hunt through AWS consoles and CLIs. Tines shows how automated agents pull AWS CLI data directly into cases, reducing MTTR and manual investigation work. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/how-to-automate-aws-incident-investigation-with-tines-and-ai/",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266536",
+    "date": "2026-02-10",
+    "title": "Microsoft announces new mobile-style Windows security controls",
+    "summary": "Microsoft wants to introduce smartphone-style app permission prompts in Windows 11 to request user consent before apps can access sensitive resources such as files, cameras, and microphones. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-mobile-style-windows-security-controls/",
+    "tags": [
+      "mobile",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266537",
+    "date": "2026-02-10",
+    "title": "ZeroDayRAT malware grants full access to Android, iOS devices",
+    "summary": "A new commercial mobile spyware platform dubbed ZeroDayRAT is being advertised to cybercriminals on Telegram as a tool that provides full remote control over compromised Android and iOS devices. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/",
+    "tags": [
+      "malware",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266479",
     "date": "2026-02-10",
     "title": "ZAST.AI Raises $6M Pre-A to Scale \"Zero False Positive\" AI-Powered Code Security",
@@ -941,6 +1528,46 @@
     "country": "United States",
     "sourceName": "Dark Reading",
     "sourceUrl": "https://www.darkreading.com/events/shields-up-key-technologies-reshaping-cybersecurity-defenses",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266515",
+    "date": "2026-02-09",
+    "title": "Heimdal Claims Industry First With a Cyber Essentials Control Mapping for PEDM to Help Organisations Prove Least Privilege",
+    "summary": "London, UK, February 9, 2026 – Heimdal today announced an industry-first approach to Cyber Essentials readiness by publishing a Cyber Essentials control mapping for Privilege Elevation and Delegation Management (PEDM), helping organisations and MSPs enforce least privilege and evidence stronger c...",
+    "region": "EU",
+    "country": "Denmark",
+    "sourceName": "Heimdal Security Blog",
+    "sourceUrl": "https://heimdalsecurity.com/blog/heimdal-industry-first-cyber-essentials-pedm-mapping/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266526",
+    "date": "2026-02-09",
+    "title": "TransUnion's Real Networks Deal Focuses on Robocall Blocking",
+    "summary": "The acquisition allows the credit reporting agency to add SMS spam and scam prevention to its robocall blocking capabilities.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/transunion-s-real-networks-deal-focuses-on-robocall-blocking",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266527",
+    "date": "2026-02-09",
+    "title": "What Organizations Need to Change When Managing Printers",
+    "summary": "Ask the Expert: Organizations need to close the ownership vacuum, establish durable security controls, and ensure printers are protected as rigorously as other endpoints.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/what-organizations-need-to-change-when-managing-printers",
     "tags": [],
     "impact": 3
   },

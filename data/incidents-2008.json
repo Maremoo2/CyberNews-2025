@@ -1638,6 +1638,32 @@
     "impact": 3
   },
   {
+    "id": "2008002",
+    "date": "2008-03-19",
+    "title": "Recovering from Viruses, Worms, and Trojan Horses",
+    "summary": "If your computer gets infected with malicious code, there are steps you can take to recover.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/recovering-viruses-worms-and-trojan-horses",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2008001",
+    "date": "2008-01-09",
+    "title": "Evaluating Your Web Browser's Security Settings",
+    "summary": "The security settings within your browser are an important safeguard.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/evaluating-your-web-browsers-security-settings",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2008001",
     "date": "2008-01-09",
     "title": "Evaluating Your Web Browser's Security Settings",
