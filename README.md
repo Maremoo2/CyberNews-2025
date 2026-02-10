@@ -1,218 +1,217 @@
-# Cybersecurity Threat Intelligence Platform
+# 🛡️ CyberNews 2026 – Trusseloversikt & Intelligence Portal
 
-An enterprise-grade threat intelligence platform that enriches 800+ cybersecurity incidents using MITRE ATT&CK mapping, explainable risk scoring, threat actor attribution, and strategic theme analysis. Built for security analysts, CISOs, and SOC teams who need actionable intelligence, not just news aggregation.
+<div align="center">
 
-**🔗 [View Live Platform](https://maremoo2.github.io/CyberNews-2025/)**
+![GitHub Pages](https://img.shields.io/badge/status-live-brightgreen?style=for-the-badge)
+![Incidents](https://img.shields.io/badge/incidents-800%2B-blue?style=for-the-badge)
+![Updated](https://img.shields.io/badge/updated-daily-orange?style=for-the-badge)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=for-the-badge)
 
----
-
-## 🎯 What Makes This Different
-
-This isn't another security news feed. It's a comprehensive analytical platform that:
-
-- **Separates signal from noise** with curated, high-confidence enrichment
-- **Maps incidents to MITRE ATT&CK** with transparent confidence scoring
-- **Explains risk** instead of just listing severity numbers
-- **Provides executive-level insights** for strategic decision-making
-- **Exposes data limitations** transparently (no hype, just methodology)
-
-### Real Methodology. No Hype.
-
-Every metric is explained. Every count is documented. Every limitation is disclosed.
+**[🚀 Åpne Live Platform](https://maremoo2.github.io/CyberNews-2025/)** | **[📚 Dokumentasjon](#-dokumentasjon)** | **[🤝 Bidra](#-contributing)**
 
 ---
 
-## 🚀 Enterprise Features
+*En enterprise-grade threat intelligence plattform som analyserer 800+ cybersikkerhetshendelser med MITRE ATT&CK-mapping, ekspliserbar risikoscoring og strategisk trendanalyse.*
 
-### 💼 CISO Mode
-Executive dashboard with professional filtering:
-- **Critical Only**: Severity ≥80/100 for board-level reporting
-- **Curated Only**: High-quality enrichment with multi-signal validation
-- **High Confidence**: Filter low-confidence mappings for operational use
-
-### 🔗 Attack Chain Reconstruction
-Automatic multi-stage attack pattern detection:
-- Visualizes: Initial Access → Privilege Escalation → Persistence → Exfiltration
-- Shows most common attack paths with real incident examples
-- Identifies defense-in-depth gaps
-
-### 📊 Sector Benchmarking
-CISO-level risk comparison across industries:
-- Critical incident rate by sector
-- Exploit-led attack percentages
-- Attribution rates and average severity scores
-- Enables statements like: *"Energy sector has 2x higher critical rate than Finance"*
-
-### 📈 Trend Acceleration Analysis
-Detect emerging vs. declining threats using linear regression:
-- **Accelerating threats** (>20% growth) - requires immediate attention
-- **Declining threats** (<-20% decline) - validate defensive effectiveness
-- **Stable threats** - persistent risk requiring ongoing monitoring
-
-### 🎯 Confidence-Weighted Analytics
-Quality over quantity in threat intelligence:
-- Formula: `score = count × avg_confidence`
-- Ensures one high-confidence incident > five low-confidence buzzword reports
-- Confidence weights: high=1.0, medium=0.5, low=0.2
-
-### 🛡️ Detection Gap Analysis
-Map MITRE techniques against mentioned security tools:
-- Identify where attack techniques dominate but defenses are rarely discussed
-- Example: *"T1190 (Exploit Public-Facing Application) appears in 15% of incidents, but WAF mentioned in only 3%"*
-- Real control gap analysis for security teams
-
-### 📚 Interactive Cybersecurity Glossary
-CISO-friendly terminology support:
-- **50+ curated terms** with definitions, categories, and MITRE mappings
-- **Hover tooltips** providing instant context for technical terms
-- **Searchable glossary panel** with category filtering
-- **Term normalization** consolidating variants (spearphishing → phishing)
-- **Usage analytics** showing most common terminology patterns
-
-### 🎛️ Global Filter Bar (NEW)
-Comprehensive filtering system for precise analysis:
-- **Content Type Toggle**: Switch between incidents and articles
-- **Severity Filtering**: Critical, high, moderate, or low severity
-- **Actor Type**: Filter by nation-state, cybercriminal, hacktivist, or insider threats
-- **Sector Filtering**: Target specific industries (finance, healthcare, government, etc.)
-- **Region Selection**: Focus on US, Europe, Asia, or Norway
-- **Date Range Picker**: Analyze specific time periods
-- **Active Filter Summary**: Visual badges showing applied filters
-
-### 📊 Trend Continuity Analysis (NEW)
-Month-over-month trend tracking:
-- **MoM Percentage Changes**: Track growth or decline in incident volume
-- **Trending Attacks**: Identify attacks with >20% increase
-- **New Attack Types**: Spot emerging threat vectors
-- **Severity Trends**: Track how incident severity changes over time
-- **Moving Averages**: Smooth out noise to see real trends
-
-### 📈 Year-over-Year Comparison (NEW)
-Strategic 2025 vs 2026 analysis:
-- **Side-by-Side Metrics**: Compare total incidents, avg impact, critical events
-- **Attack Type Evolution**: See which attacks are growing/declining
-- **Sector Trends**: Identify which industries face increased risk
-- **Severity Distribution**: Compare overall threat landscape changes
-- **Executive Insights**: Automated summary of key changes
-
-### 📆 Quarterly Review Mode (NEW)
-Perfect for board presentations and strategic planning:
-- **Q1-Q4 Summaries**: Comprehensive quarterly breakdowns
-- **QoQ Changes**: Quarter-over-quarter growth indicators
-- **Top Attacks & Sectors**: Most impacted areas per quarter
-- **Unique Actor Counts**: Track threat actor activity
-- **Strategic Focus Areas**: Automated recommendations based on patterns
-
-### ⚖️ Bias Indicator (NEW)
-Transparent data quality and limitations:
-- **Source Distribution**: Shows which sources dominate the data
-- **Regional Bias Detection**: Identifies geographic coverage gaps
-- **Language Bias**: Tracks English vs. other language content
-- **Bias Alerts**: Automatically flags concentration risks
-- **Transparency Notes**: Explains why biases matter for decision-making
-
-### 🧪 Validation Dashboard (NEW)
-Self-audit metrics showing system quality:
-- **Overall Quality Score**: Composite 0-100 score
-- **Deduplication Accuracy**: Measures duplicate detection effectiveness
-- **False Merge Rate**: Tracks incorrectly merged incidents
-- **Attribution Coverage**: Shows % of incidents with threat actor attribution
-- **MITRE Coverage**: Tracks technique mapping completeness
-- **Enrichment Completeness**: Measures data enrichment quality
-- **Learning System Status**: Shows corrections and improvements over time
-
-### 🧠 Learning Memory System (NEW)
-System learns from corrections:
-- **False Merge Tracking**: Records and learns from incorrect merges
-- **New Term Discovery**: Automatically captures emerging terminology
-- **Manual Corrections**: Stores analyst corrections for future reference
-- **Attribution Improvements**: Tracks attribution confidence changes
-- **Continuous Improvement**: System gets smarter over time
-
-### 🤖 AI-Powered Weekly Intelligence Analysis (NEW)
-Automated strategic analysis using OpenAI with strict safety constraints:
-- **Weekly Aggregation**: Automatically computes statistics from incident data
-- **Hypothesis Generation**: AI proposes 3 testable hypotheses about patterns
-- **Uncertainty Identification**: Highlights 3 key data gaps affecting analysis
-- **Watch Signals**: Recommends 3 metrics to monitor with specific thresholds
-- **Safety-First Design**: No raw data to AI, schema-locked outputs, audit trail
-- **Prominent Disclaimers**: All AI content clearly labeled as "hypotheses, not facts"
-- **Zero Hallucination Risk**: Model sees only aggregates, not individual articles
-- **Full Transparency**: Complete audit trail with model version, tokens used, timestamp
-
-📖 **[Read Full AI Analysis Documentation](docs/AI_ANALYSIS.md)**
+</div>
 
 ---
 
-## 📋 Core Features
+## 📡 Trusselbildet akkurat nå
 
-### Analytical Framework
-- **MITRE ATT&CK Mapping**: Two-signal validation rule with confidence scores (high/medium/low)
-- **Severity Scoring**: Transparent 0-100 point system based on Impact, Exploitability, and Adversary factors
-- **Threat Actor Attribution**: Categorized (nation-state, cybercriminal, hacktivist) with confidence levels
-- **Strategic Themes**: 10 predefined risk themes (cloud exfiltration, exploit-led, identity abuse, ransomware, etc.)
-- **Content Classification**: Separates incidents from vulnerability advisories, policy updates, and opinion pieces
+> **Siste oppdatering:** 10. februar 2026, 09:00 CET | **Status:** 🟢 Aktiv overvåkning
 
-### Data Quality
-- **800+ incidents** enriched across 2025-2026
-- **Curated subset** with multi-signal validation for operational use
-- **Transparent methodology** with documented counting rules and limitations
-- **Automated enrichment pipeline** with configurable confidence thresholds
-- **Single Source of Truth**: `/config/taxonomy.json` ensures consistency across all definitions
-  - Centralized severity levels, actor types, sectors, themes
-  - MITRE ATT&CK framework mapping
-  - Eliminates inconsistencies across the system
+### 🔥 Dagens topprisiko
 
-### Interactive Dashboard
-- 📊 Regional filtering (US, Europe, Asia, Norway)
-- 📅 Monthly timeline with contextual summaries
-- 🔍 Full-text search across titles, summaries, and tags
-- 🏷️ Tag-based filtering and exploration
-- 📱 Responsive design for mobile and desktop
-- 🔗 Shareable URLs for filtered views
+<table>
+<tr>
+<td width="50%">
+
+#### 🚨 KRITISK VARSEL
+**Healthcare Ransomware Surge**
+- 🔴 **Alvorlighetsgrad:** 92/100
+- 🏥 **Sektor:** Healthcare (50+ institusjoner)
+- 🌍 **Region:** EU (5 land påvirket)
+- 🎭 **Aktør:** RansomHub (Cybercriminal)
+
+**Impact:** 72 timer nedetid, 2M+ pasientdata eksfiltrert, €50M+ estimert kostnad.
+
+**MITRE:** T1486, T1567, T1190
+
+➡️ **[📖 Les full analyse](./daily-digests/2026-02-10.md)**
+
+</td>
+<td width="50%">
+
+#### ⚠️ WATCH SIGNALS
+
+| Signal | Status | Trend |
+|--------|--------|-------|
+| 🏥 Healthcare attacks | 🔴 ALERT | ↗️ +35% |
+| �� Zero-day exploits | 🔴 ALERT | ↗️ +200% |
+| 🪪 MFA-bypass | 🟡 WATCH | ↗️ +40% |
+| 🌐 Nation-state | 🟡 WATCH | ↗️ +29% |
+| 🔗 Supply chain | 🟢 NORMAL | ↗️ +28% |
+
+➡️ **[📊 Se ukens brief](./weekly-briefs/week-06.md)**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏗️ Architecture
+## 📁 Innholdsportal – Velg ditt fokusområde
 
-### Tech Stack
-- **Frontend**: React 19 with hooks and functional components
-- **Build Tool**: Vite for fast development and optimized production builds
-- **Hosting**: GitHub Pages with automated deployment
-- **Data Pipeline**: Node.js enrichment scripts with MITRE ATT&CK integration
-- **Deployment**: GitHub Actions CI/CD
+<table>
+<tr>
+<td width="33%" align="center">
 
-### Data Flow
+### 📅 Daily Digest
+**Daglig trusseloversikt**
+
+🔥 Top 3 hendelser  
+📊 Daglige metrikker  
+📈 Trendanalyse (7 dager)  
+🛡️ Forsvarsanbefalinger  
+
+**For:** Analysts, SOC Teams
+
+➡️ **[Gå til Daily Digests](./daily-digests/README.md)**
+
+</td>
+<td width="33%" align="center">
+
+### 📊 Weekly Brief
+**Ukentlig strategisk analyse**
+
+📈 Ukens tall i kontekst  
+🔥 Top 5 hendelser  
+🎯 MITRE ATT&CK mapping  
+🌍 Geo & sektor-analyse  
+
+**For:** Security Managers, CISOs
+
+➡️ **[Gå til Weekly Briefs](./weekly-briefs/README.md)**
+
+</td>
+<td width="33%" align="center">
+
+### 📈 Analysis
+**Strategisk trendrapporter**
+
+📊 Årlig trendanalyse  
+🔍 Deep dive temaer  
+🎭 Aktør-intelligence  
+📅 Quarterly outlook  
+
+**For:** CISOs, Board
+
+➡️ **[Gå til Analysis](./analysis/README.md)**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 📚 Incidents Archive
+**800+ hendelser med full enrichment**
+
+🔍 Søkbart arkiv  
+🎯 MITRE-mapppet  
+📊 2009-2026 data  
+💾 JSON export
+
+**For:** Threat Hunters, Researchers
+
+➡️ **[Gå til Incidents](./incidents/README.md)**
+
+</td>
+<td width="50%" align="center">
+
+### 🛡️ NSM Risikoanalyse
+**2020-2026 rapporter**
+
+📜 Nasjonale risikovurderinger  
+📊 Historisk perspektiv  
+🇳🇴 Norge-fokus  
+🔍 Komparativ analyse
+
+**For:** Policy makers, Strategy
+
+➡️ **[Gå til NSM Risk](./context/nsm-risk/README.md)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Hva gjør denne plattformen unik?
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔬 Analytisk dybde
+
+✅ **MITRE ATT&CK mapping** med confidence scoring  
+✅ **Severity scoring** (0-100) med transparente kriterier  
+✅ **Threat actor attribution** med kategori og confidence  
+✅ **Strategic themes** – 10 predefinerte risikotemaer  
+✅ **Content classification** – skiller signal fra støy  
+
+### 📊 Enterprise features
+
+✅ **CISO Mode** – executive dashboard  
+✅ **Attack Chain Reconstruction** – multi-stage patterns  
+✅ **Sector Benchmarking** – sammenlign med bransjen  
+✅ **Trend Acceleration** – matematisk deteksjon  
+✅ **Confidence-Weighted Analytics** – kvalitet over kvantitet  
+
+</td>
+<td width="50%">
+
+### 🤖 AI & Automation
+
+✅ **AI Weekly Analysis** – hypotesegenerering (OpenAI)  
+✅ **Automated Enrichment** – 800+ hendelser prosessert  
+✅ **RSS Feed Pipeline** – 33+ kilder, oppdateres hver 6. time  
+✅ **Year Routing** – automatisk årstall-håndtering  
+✅ **GitHub Actions CI/CD** – fully automated  
+
+### 🎨 Transparens & Kvalitet
+
+✅ **Open Methodology** – ingen hemmelige algoritmer  
+✅ **Known Limitations** – ærlig om databias  
+✅ **Curated Subset** – 67% high-quality incidents  
+✅ **Validation Dashboard** – self-audit metrics  
+✅ **Learning System** – lærer av korrigeringer  
+
+</td>
+</tr>
+</table>
+
+
+---
+
+## 🚀 Quick Start
+
+### 🌐 Bruk web-plattformen (enklest)
+
 ```
-RSS Feeds → Inoreader API → fetch-inoreader.js
-    ↓
-Raw Incidents → enhanced-enrichment.js → Enriched JSON
-    ↓
-React Components → analyticsUtils.js → Dashboard Visualizations
+👉 https://maremoo2.github.io/CyberNews-2025/
 ```
 
-### Enrichment Pipeline
-1. **Content Extraction**: Fetch from Inoreader JSON feeds
-2. **Severity Scoring**: 0-100 point system with transparent drivers
-3. **MITRE Mapping**: Two-signal rule for technique identification
-4. **Actor Attribution**: Name recognition + category classification
-5. **Theme Classification**: Top 3 themes per incident with confidence
-6. **Quality Flagging**: Mark as curated based on enrichment signals
+**Ingen installasjon nødvendig.** Fungerer i enhver moderne nettleser.
 
----
-
----
-
-## 🚦 Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm
-- Git
-
-### Local Development
+### 💻 Lokal utvikling
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/Maremoo2/CyberNews-2025.git
 cd CyberNews-2025
 
@@ -221,537 +220,332 @@ npm install
 
 # Start development server
 npm run dev
-# Open http://localhost:5173
+# 👉 http://localhost:5173
 ```
 
-### Useful Commands
+### 🔧 Nyttige kommandoer
 
 ```bash
 # Build for production
 npm run build
 
-# Preview production build
-npm run preview
-
-# Run linter
-npm run lint
-
-# Enrich incidents with MITRE ATT&CK and analytics
+# Enrich incidents (MITRE, severity, actors)
 npm run enrich-enhanced
 
 # Generate weekly aggregates
 npm run aggregate-weekly
 
-# Run AI weekly analysis (requires OPENAI_API_KEY in .env)
+# Fetch latest news from RSS feeds
+npm run fetch-rss
+
+# Run AI weekly analysis (requires OPENAI_API_KEY)
 npm run analyze-weekly
 
 # Validate year routing
 npm run validate-years
-
-# Fetch latest news from RSS feeds (automated via GitHub Actions)
-npm run fetch-rss
-
-# Fetch latest news from Inoreader (legacy method)
-npm run fetch-news
-
-# Bulk fetch historical 2025 articles (for collecting 40-50k articles)
-npm run fetch-2025-bulk -- --max-iterations=100
 ```
 
 ---
 
-## 📊 Analytics & Methodology
+## 📊 Ukens statistikk (Uke 6, 2026)
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 🔴 Kritiske
+**21**  
+↗️ +40% vs uke 5
+
+</td>
+<td width="25%" align="center">
+
+### 📊 Total hendelser
+**155**  
+→ Stabilt
+
+</td>
+<td width="25%" align="center">
+
+### 🏥 Healthcare
+**27**  
+↗️ +35% (top sektor)
+
+</td>
+<td width="25%" align="center">
+
+### 💣 Zero-days
+**3**  
+🔴 +200% YTD
+
+</td>
+</tr>
+</table>
+
+### 🔥 Top 5 MITRE teknikker denne uken
+
+1. **T1190** - Exploit Public-Facing Application (45 incidents, ↗️ +35%)
+2. **T1486** - Data Encrypted for Impact (34 incidents, ↗️ +21%)
+3. **T1566** - Phishing (31 incidents, ↗️ +16%)
+4. **T1567** - Exfiltration Over Web Service (28 incidents, ↗️ +12%)
+5. **T1078** - Valid Accounts (23 incidents, ↗️ +21%)
+
+➡️ **[Se full ukesrapport](./weekly-briefs/week-06.md)**
+
+---
+
+## 🛡️ NSM Risikoanalyse 2020-2026
+
+> 🇳🇴 **NSMs risikorapporter er nå inkludert!**  
+> Se hvordan trusselbildet har utviklet seg fra 2020 til 2026, og hvordan 2026 skiller seg fra tidligere år.
+
+**Tilgjengelige rapporter:**
+- 📜 Risiko 2026 (Latest)
+- 📜 Risiko 2025
+- 📜 Risiko 2024
+- 📜 Risiko 2023
+- 📜 Risiko 2022
+- 📜 Risiko 2021
+- 📜 Risiko 2020
+
+➡️ **[Les NSM-analysen](./context/nsm-risk/nsm-risk-summary.md)**
+
+---
+
+## 🎨 Designsystem & Visuell stil
+
+Denne plattformen følger en **moderne, dark cybersecurity-profil** inspirert av profesjonelle threat intelligence dashboards:
+
+### Fargekoder
+
+- 🔴 **Kritisk (Critical):** Severity ≥80/100 - krever umiddelbar handling
+- 🟠 **Høy (High):** Severity 60-79 - prioritet denne uken
+- 🟡 **Moderat (Moderate):** Severity 25-59 - overvåk og planlegg
+- 🟢 **Lav (Low):** Severity <25 - informasjon
+
+### Emoji-system
+
+| Kategori | Emoji | Bruk |
+|----------|-------|------|
+| **Kritisk hendelse** | 🚨🔴 | Top threats, alerts |
+| **Trusler** | 🔥💣💀 | Dangerous attacks |
+| **Forsvar** | 🛡️🔒🔐 | Defense, protection |
+| **Analyse** | 📊📈📉 | Data, trends, stats |
+| **Aktører** | 🎭👤🏴 | Threat actors |
+| **Sektorer** | 🏥💰🏛️🏭 | Healthcare, Finance, Gov, Energy |
+| **Geografi** | 🌍🇺🇸🇪🇺🇳🇴 | Regions, countries |
+| **Taktikker** | 🎯⚔️🗡️ | Attack methods |
+| **Lenker** | ➡️🔗🔍 | Navigation, search |
+
+### UI-prinsipper (Laws of UX)
+
+✅ **Aesthetic-Usability Effect** - Moderne, profesjonell design  
+✅ **Chunking** - Innhold delt i klare seksjoner  
+✅ **Cognitive Load** - Kun viktigste info først  
+✅ **Jakob's Law** - Standardisert navigasjon  
+✅ **Fitts's Law** - Store, lett tilgjengelige knapper  
+✅ **Hick's Law** - Færre valg per skjerm  
+
+---
+
+## 🏗️ Teknisk arkitektur
+
+### Tech Stack
+
+- **Frontend:** React 19 + Vite
+- **Styling:** CSS med dark cybersecurity theme
+- **Data:** JSON-basert (800+ incidents)
+- **Enrichment:** Node.js scripts
+- **Hosting:** GitHub Pages
+- **CI/CD:** GitHub Actions (automated)
+- **AI:** OpenAI GPT-4 (weekly analysis)
+
+### Data Flow
+
+```
+RSS Feeds (33+) → Inoreader API → fetch-inoreader.js
+    ↓
+Raw Incidents → enhanced-enrichment.js → Enriched JSON
+    ↓
+MITRE Mapping → Severity Scoring → Actor Attribution
+    ↓
+React Components → analyticsUtils.js → Dashboard
+    ↓
+GitHub Pages → Live Platform
+```
+
+
+### Enrichment Pipeline
+
+1. **Content Extraction** - RSS feeds
+2. **Severity Scoring** - 0-100 transparent system
+3. **MITRE Mapping** - Two-signal rule
+4. **Actor Attribution** - Name + category + confidence
+5. **Theme Classification** - Top 3 per incident
+6. **Quality Flagging** - Curated subset (67%)
+
+---
+
+## 📚 Dokumentasjon
+
+### Core Documentation
+
+- **[METHODOLOGY.md](./METHODOLOGY.md)** - Fullstendig metodikk og counting rules
+- **[AI_ANALYSIS_GUIDE.md](./docs/AI_ANALYSIS.md)** - AI weekly analysis forklaring
+- **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** - Deployment til GitHub Pages
+- **[RSS_FEEDS.md](./RSS_FEEDS.md)** - RSS feed konfiguration
+
+### Feature Documentation
+
+- **[ANALYTICS_PROPOSAL.md](./ANALYTICS_PROPOSAL.md)** - Original design proposal
+- **[YEAR_ROUTING_VERIFIED.md](./YEAR_ROUTING_VERIFIED.md)** - Year routing verification
+- **[BULK_FETCH_2025_GUIDE.md](./BULK_FETCH_2025_GUIDE.md)** - Historical data collection
+
+---
+
+## 💼 Use Cases
+
+<table>
+<tr>
+<td width="50%">
+
+### For Security Analysts 👨‍💻
+
+- **Threat Hunting** - Bruk MITRE mappings
+- **Trend Analysis** - Spot emerging patterns
+- **Intelligence Reporting** - Export curated incidents
+- **Control Validation** - Compare gaps
+
+### For CISOs 👔
+
+- **Board Reporting** - Executive summaries
+- **Budget Justification** - Sector benchmarking
+- **Strategic Planning** - Trend forecasting
+- **Risk Communication** - Transparent methodology
+
+</td>
+<td width="50%">
+
+### For SOC Teams 🛡️
+
+- **Playbook Development** - Attack chain analysis
+- **Detection Engineering** - High-confidence MITRE
+- **Threat Intel Integration** - Structured JSON
+- **Analyst Training** - Real-world mapped incidents
+
+### For Researchers 📚
+
+- **Dataset Access** - 800+ enriched incidents
+- **Methodology Learning** - Practical enrichment
+- **Academic Research** - Confidence-weighted data
+- **Portfolio Building** - Demonstrate skills
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Analytics Framework
 
 ### Severity Scoring (0-100 points)
 
-**Impact Factors (0-40 points)**
+**Impact (0-40):**
 - Service disruption: +15
-- Sensitive data exposure: +15
-- Critical infrastructure impact: +20
-- Large scale (millions affected): +10
+- Data exposure: +15
+- Critical infrastructure: +20
+- Large scale: +10
 
-**Exploitability (0-30 points)**
-- Exploited in the wild: +20
+**Exploitability (0-30):**
+- Exploited in wild: +20
 - Zero-day: +15
-- Internet-facing vector: +10
+- Internet-facing: +10
 
-**Adversary (0-15 points)**
-- Nation-state actor: +15
-- Known ransomware group: +10
+**Adversary (0-15):**
+- Nation-state: +15
+- Known ransomware: +10
 
-**Severity Labels**
-- Critical: ≥80 points
-- High: 60-79 points
-- Moderate: 25-59 points
-- Low: <25 points
+**Severity Labels:**
+- Critical: ≥80
+- High: 60-79
+- Moderate: 25-59
+- Low: <25
 
 ### MITRE ATT&CK Mapping
 
-**Two-Signal Rule**: Each technique requires multiple keyword matches for confident mapping.
+**Two-Signal Rule:** Each technique requires multiple keyword matches.
 
-Example for T1567 (Exfiltration Over Web Service):
-- Signal 1 (weight 1.0): "exfiltrate", "upload", "leak"
-- Signal 2 (weight 0.8): "OneDrive", "S3", "Drive", "Dropbox"
-- Total needed: ≥1.0 to map
+Example for T1567 (Exfiltration):
+- Signal 1: "exfiltrate", "upload", "leak"
+- Signal 2: "OneDrive", "S3", "Drive"
 
-**Confidence Levels**:
-- High: Multiple strong signals, clear attack chain
-- Medium: Technique implied from context
-- Low: Single keyword match only
+**Confidence Levels:**
+- HIGH: Multiple strong signals
+- MEDIUM: Contextual inference
+- LOW: Single keyword match
 
 ### Strategic Themes
 
-10 predefined risk themes, each incident gets up to 3:
-
-1. Cloud Exfiltration & SaaS Abuse
-2. Exploit-Led Intrusions
-3. Identity & Token Abuse
-4. Ransomware & Extortion Economy
-5. Supply Chain & Third-Party Compromise
-6. Disinformation & Deepfakes
-7. Botnets, DDoS & Commodity Malware
-8. Mobile/Android & Spyware Ecosystem
-9. OT/ICS & Critical Infrastructure
-10. Regulatory & Disclosure Pressure
-
-### Known Limitations
-
-Transparently documented in the UI:
-- **Media Bias**: English/Western-centric sources
-- **Underreporting**: Many incidents never disclosed publicly
-- **Survivorship Bias**: Only detected incidents visible
-- **Disclosure Lag**: Months/years delay common
-- **Attribution Uncertainty**: Often incomplete or misleading
-- **Impact Assessment**: Frequently unknown or minimized
-
----
-
-## 💼 Professional Use Cases
-
-### For Security Analysts
-- **Threat Hunting**: Use MITRE ATT&CK mappings to identify techniques in your environment
-- **Trend Analysis**: Spot emerging attack patterns before they become widespread
-- **Intelligence Reporting**: Export curated incidents for executive briefings
-- **Control Validation**: Compare detection gaps against your security stack
-
-### For CISOs & Security Leaders
-- **Board Reporting**: CISO Mode provides executive-level summaries with confidence scoring
-- **Budget Justification**: Sector benchmarking shows relative risk position
-- **Strategic Planning**: Trend acceleration identifies where to invest defensively
-- **Risk Communication**: Transparent methodology supports informed decision-making
-
-### For SOC Teams
-- **Playbook Development**: Attack chain analysis reveals common multi-stage patterns
-- **Detection Engineering**: High-confidence MITRE mappings guide rule creation
-- **Threat Intel Integration**: Structured JSON export for SIEM/SOAR platforms
-- **Analyst Training**: Real-world incidents mapped to ATT&CK for learning
-
-### For Researchers & Students
-- **Dataset Access**: 800+ enriched incidents with transparent methodology
-- **Methodology Learning**: Study practical threat intelligence enrichment
-- **Academic Research**: Analyze threat trends with confidence-weighted data
-- **Portfolio Building**: Demonstrate analytical thinking and technical depth
-
----
-
-## 📝 For Your Resume/CV
-
-### Project Description Template
-
-**Cybersecurity Threat Intelligence Platform**
-
-Built a threat intelligence platform that enriches 800+ cybersecurity incidents using MITRE ATT&CK mapping, explainable risk scoring, threat actor attribution, and strategic theme analysis. 
-
-Designed enterprise analytics framework with:
-- Confidence-weighted MITRE technique scoring (quality over quantity)
-- Attack chain reconstruction for multi-stage threat patterns
-- Sector benchmarking with cross-industry KPI comparison
-- Trend acceleration detection using linear regression
-- Transparent methodology with documented data limitations
-
-Technologies: React, Node.js, MITRE ATT&CK, Vite, GitHub Actions
-
-### Interview Talking Points
-
-**"I wanted to move beyond news aggregation, so I built an analytical layer that:"**
-
-1. **Separates signal from noise** - Not every headline is equally important. I use confidence scoring and multi-signal validation to identify high-quality intelligence.
-
-2. **Maps incidents to MITRE ATT&CK** - Each incident is analyzed for techniques and tactics, with confidence levels (high/medium/low) so operational teams know what's actionable.
-
-3. **Explains risk instead of just listing it** - My severity scoring system uses a transparent 0-100 point formula based on Impact, Exploitability, and Adversary factors. Anyone can understand why something is rated "critical."
-
-4. **Provides executive-level insights** - CISO Mode filters to critical incidents with high confidence, sector benchmarking enables strategic comparisons, and attack chain analysis shows defensive priorities.
-
-5. **Exposes limitations transparently** - I document media bias, underreporting, disclosure lag, and other data quality issues. No hype, just honest methodology.
-
-**Technical Depth**: Two-signal rule for MITRE mapping, confidence-weighted analytics (score = count × avg_confidence), linear regression for trend acceleration, React component architecture with custom analytics utilities.
-
-**Business Value**: Enables CISOs to make informed decisions in 10 minutes instead of days, helps SOC teams prioritize threats, and provides strategic insights for budget justification.
-
----
-
-## 🔄 Automated Data Pipeline
-
-The platform automatically fetches and enriches cybersecurity news every 6 hours via GitHub Actions.
-
-This project automatically fetches cybersecurity news from **33 direct RSS feeds** across global cybersecurity news sources.
-
-### How It Works
-
-The GitHub Actions workflow runs automatically **every 6 hours** to:
-1. Fetch articles from 33 RSS feeds directly:
-   - **US sources**: CISA, Schneier on Security, TechCrunch, The Verge, New York Times, and more
-   - **European sources**: Graham Cluley, Il Sole 24 Ore, Clubic, Infinigate, and more
-   - **Asian sources**: South China Morning Post, Mashable India
-   - **Global sources**: The Cyber Express, Help Net Security, Cybersecurity Dive, and more
-2. Transform articles into the incidents format
-3. Auto-generate tags based on article content (ransomware, data-breach, vulnerability, etc.)
-4. Calculate impact scores automatically
-5. Skip duplicate articles (by URL)
-6. Assign sequential IDs (2026001, 2026002, etc.)
-7. Auto-commit new articles to appropriate year files (`data/incidents-2026.json`, etc.)
-
-### Manual Trigger
-
-You can manually trigger the news fetch workflow:
-
-1. Go to **Actions** tab in GitHub
-2. Select **"Fetch RSS Feeds"** workflow
-3. Click **"Run workflow"** button
-4. Select the branch and click **"Run workflow"**
-
-The workflow will fetch the latest articles and commit them automatically if new articles are found.
-
-### Test Locally
-
-You can test the fetch script locally:
-
-```bash
-# Dry-run (shows what would be added without saving)
-npm run fetch-rss -- --dry-run
-
-# Actually fetch and save
-npm run fetch-rss
-```
-
-**Note**: The RSS feeds are public and don't require authentication. The script includes automatic retry logic and rate limiting.
-
-### Legacy Inoreader Support
-
-The original Inoreader fetcher is still available for backward compatibility:
-
-```bash
-# Use Inoreader (old method)
-npm run fetch-news
-```
-
-### Configuration
-
-The RSS feed configuration is in `config/rss-feeds-config.json`:
-- 128 RSS feed URLs with source names (increased from 33)
-- Default region/country mappings for each source
-- Tag keyword patterns (18+ categories including ransomware, data-breach, vulnerability, phishing, etc.)
-- Impact level keywords (1-5 scale)
-- Company/product keywords for automatic tagging
-- `maxItemsPerFeed`: 500 (increased from 50 to fetch more historical data)
-
-### Bulk Historical Fetch
-
-For collecting large volumes of historical articles (e.g., 40-50k articles from 2025), use the bulk fetch feature:
-
-```bash
-# Test with dry run
-npm run fetch-2025-bulk -- --dry-run --max-iterations=10
-
-# Run actual bulk fetch (takes 2-3 hours)
-npm run fetch-2025-bulk -- --max-iterations=100
-```
-
-The bulk fetch uses Inoreader's pagination API to fetch historical articles throughout 2025. See [BULK_FETCH_2025_GUIDE.md](./BULK_FETCH_2025_GUIDE.md) for detailed instructions.
-
-**GitHub Actions:** You can also trigger the bulk fetch via GitHub Actions:
-1. Go to Actions → "Fetch 2025 Articles (Bulk)"
-2. Click "Run workflow"
-3. Configure max_iterations and dry_run options
-4. The workflow will automatically commit fetched articles
-
-### Year Routing
-
-The system automatically routes incidents to the correct year file based on their publication date:
-
-- **2025 articles** → `data/incidents-2025.json`
-- **2026 articles** → `data/incidents-2026.json`
-- Each year has its own ID sequence (e.g., 2025001, 2026001)
-- No manual intervention required when transitioning to new years
-
-**Validate year routing:**
-```bash
-# Verify all incidents are in correct year files
-npm run validate-years
-```
-
-This ensures no cross-year contamination in the data files. See [YEAR_ROUTING_VERIFIED.md](./YEAR_ROUTING_VERIFIED.md) for details.
-
-## Legge til nye hendelser manuelt
-
-You can still manually add incidents to `data/incidents-2026.json`. Follow this format:
-
-```json
-{
-  "id": "unik-id",
-  "date": "YYYY-MM-DD",
-  "title": "Tittel på hendelsen",
-  "summary": "En kort beskrivelse av hendelsen",
-  "region": "US",
-  "country": "Land navn (valgfritt)",
-  "sourceName": "Navn på kilden",
-  "sourceUrl": "https://link-til-kilde.com",
-  "tags": ["tag1", "tag2", "tag3"]
-}
-```
-
-### Eksempel:
-
-```json
-{
-  "id": "13",
-  "date": "2025-12-19",
-  "title": "Ny sikkerhetsoppdatering utgitt",
-  "summary": "Kritisk sikkerhetsoppdatering for populær programvare utgitt etter oppdagelse av alvorlig sårbarhet.",
-  "region": "EU",
-  "country": "Sweden",
-  "sourceName": "Security Weekly",
-  "sourceUrl": "https://example.com/update",
-  "tags": ["security update", "vulnerability", "patch"]
-}
-```
-
-### Viktige regler:
-
-1. **id**: Må være unik (bruk tall eller UUID)
-2. **date**: Må være i formatet YYYY-MM-DD
-3. **region**: Må være en av: `"US"`, `"EU"`, `"ASIA"`, eller `"NO"`
-4. **impact**: Tall fra 1-5 som indikerer alvorlighetsgrad (1=lav, 5=kritisk). Hendelser med impact ≥ 4 vises når "største saker"-filteret er aktivt
-5. **title** og **summary**: Kan inneholde norsk tekst
-6. **tags**: Array av strings (valgfritt, men anbefalt)
-7. **country**: Valgfritt felt for å spesifisere land
-
-## Deployment
-
-Nettsiden deployes automatisk til GitHub Pages når endringer pushes til `main`-branchen.
-
-### Manuell deployment
-
-1. Commit og push endringer til `main`:
-```bash
-git add .
-git commit -m "Oppdater hendelser"
-git push origin main
-```
-
-2. GitHub Actions vil automatisk:
-   - Bygge prosjektet
-   - Deploye til GitHub Pages
-   - Nettsiden vil være tilgjengelig på: https://maremoo2.github.io/CyberNews-2025/
-
-### Aktivere GitHub Pages (første gang)
-
-⚠️ **Viktig: Nettsiden vil ikke være tilgjengelig før GitHub Pages er konfigurert!**
-
-Følg disse trinnene nøye for å aktivere GitHub Pages:
-
-1. **Gå til repository Settings**
-   - Klikk på "Settings" fanen øverst i repositoryet
-   
-2. **Velg "Pages" i sidemenyen**
-   - I venstre sidemeny under Settings ser du flere seksjoner:
-     - Access
-     - **Code and automation** ← Se etter denne seksjonen
-     - Security
-     - Integrations
-   - Under "Code and automation" seksjonen, scroll ned til du finner **"Pages"**
-   - Klikk på "Pages"
-   
-3. **Konfigurer Source**
-   - Når du er på Pages settings siden, ser du en seksjon kalt **"Build and deployment"**
-   - I denne seksjonen finner du **"Source"**
-   
-   **Hva du kan se:**
-   
-   **Alternativ A - Dropdown meny:**
-   - En dropdown som viser "None" eller "Deploy from a branch"
-   - Klikk på den og velg **"GitHub Actions"**
-   
-   **Alternativ B - Workflow forslag:**
-   - Tekst som sier "Use a suggested workflow, browse all workflows, or create your own"
-   - Workflow kort som "GitHub Pages Jekyll" eller "Static HTML"
-   - **IKKE velg disse workflow templates!**
-   - Se etter en mulighet til å velge **"GitHub Actions"** som deployment metode
-   - Eller se etter en lenke til "Configure" eller sette opp GitHub Actions deployment
-   
-   - Målet er å sette Source til **"GitHub Actions"** (ikke en spesifikk workflow template)
-   - Ikke velg "Deploy from a branch"
-   - Ikke velg workflow templates (Jekyll, Static HTML, etc.)
-   - Du MÅ aktivere "GitHub Actions" som deployment source
-   - Repositoryet ditt har allerede riktig workflow fil på `.github/workflows/deploy.yml`
-   
-4. **Lagre og vent**
-   - Innstillingene lagres automatisk
-   - Workflow vil kjøre automatisk ved neste push til main-branchen
-   - Du kan også kjøre workflowen manuelt fra "Actions" fanen
-   
-5. **Verifiser deployment**
-   - Gå til "Actions" fanen i repositoryet
-   - Sjekk at "Deploy to GitHub Pages" workflow kjører uten feil
-   - Når workflowen er ferdig (grønn hake), vil nettsiden være live på:
-     https://maremoo2.github.io/CyberNews-2025/
-
-**Merk:** Når GitHub Pages er aktivert, vil nettsiden automatisk være online 24/7. Du trenger ikke å kjøre noen servere eller betale for hosting. GitHub Pages er gratis for offentlige repositories og håndterer all hosting automatisk.
-
-## Feilsøking (Troubleshooting)
-
-### Nettsiden åpner ikke / 404 Error
-
-**Problem:** Når du går til https://maremoo2.github.io/CyberNews-2025/ får du en 404-feil eller siden lastes ikke.
-
-**Løsning:**
-1. **Sjekk at GitHub Pages er aktivert:**
-   - Gå til Settings → Pages
-   - Verifiser at "Source" er satt til "GitHub Actions"
-   
-2. **Sjekk workflow status:**
-   - Gå til "Actions" fanen
-   - Se etter "Deploy to GitHub Pages" workflow
-   - Hvis den viser rød X (feilet):
-     - Klikk på den feilede kjøringen
-     - Les feilmeldingen i "Setup Pages" steget
-     - Vanligvis betyr dette at GitHub Pages ikke er aktivert i Settings
-   
-3. **Kjør workflow på nytt:**
-   - Gå til "Actions" fanen
-   - Klikk på "Deploy to GitHub Pages" i venstre meny
-   - Klikk på "Run workflow" knappen
-   - Velg "main" branch og klikk "Run workflow"
-
-4. **Vent på deployment:**
-   - Det kan ta 1-2 minutter før endringer blir synlige
-   - Prøv å refresh siden eller clear browser cache
-
-### Workflow feiler på "Setup Pages" steget
-
-**Problem:** GitHub Actions workflow feiler med feilmelding om at Pages ikke er konfigurert.
-
-**Løsning:**
-Dette betyr at GitHub Pages ikke er aktivert i repository settings. Følg instruksjonene under "Aktivere GitHub Pages (første gang)" ovenfor.
-
-### Endringer vises ikke på nettsiden
-
-**Problem:** Du har pushet endringer til main, men de vises ikke på den live nettsiden.
-
-**Løsning:**
-1. Sjekk at workflow har kjørt etter din siste push
-2. Vent 1-2 minutter (caching)
-3. Hard refresh i nettleseren (Ctrl+Shift+R eller Cmd+Shift+R)
-4. Sjekk at build-steget i workflow fullførte uten feil
-
-## Prosjektstruktur
-
-```
-CyberNews-2025/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions workflow
-├── data/
-│   └── incidents.json          # Hendelsesdata
-├── public/
-│   └── vite.svg               # Statiske filer
-├── src/
-│   ├── App.jsx                # Hovedkomponent
-│   ├── App.css                # Styling
-│   ├── main.jsx               # Entry point
-│   └── index.css              # Global styling
-├── index.html                 # HTML template
-├── package.json               # Avhengigheter og scripts
-├── vite.config.js             # Vite konfigurasjon
-└── README.md                  # Denne filen
-```
-
-## Delbare lenker
-
-Nettsiden støtter URL-parametre for enkel deling av filtrerte visninger:
-
-### URL-parametre
-
-- `m` eller `month`: Måned (jan, feb, mar, apr, mai, jun, jul, aug, sep, okt, nov, des)
-- `r` eller `region`: Region (us, eu, asia, no)
-- `t` eller `tag`: Tag-filter (f.eks. ransomware)
-- `major`: Vis kun største saker (true eller 1)
-
-### Shareable URLs
-
-```
-# January incidents in Norway
-https://maremoo2.github.io/CyberNews-2025/?m=jan&r=no
-
-# November incidents with ransomware tag
-https://maremoo2.github.io/CyberNews-2025/?m=nov&t=ransomware
-
-# Critical incidents only from December
-https://maremoo2.github.io/CyberNews-2025/?m=des&major=true
-```
+10 predefined risk themes (max 3 per incident):
+
+1. 🌥️ Cloud Exfiltration & SaaS Abuse
+2. 💣 Exploit-Led Intrusions
+3. 🪪 Identity & Token Abuse
+4. 🏥 Ransomware & Extortion Economy
+5. 🔗 Supply Chain & Third-Party Compromise
+6. 📰 Disinformation & Deepfakes
+7. 🤖 Botnets, DDoS & Commodity Malware
+8. 📱 Mobile/Android & Spyware Ecosystem
+9. 🏭 OT/ICS & Critical Infrastructure
+10. ⚖️ Regulatory & Disclosure Pressure
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
+Bidrag er velkomne! For å bidra:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow existing code style and component patterns
-- Add comments for complex analytical logic
-- Update methodology documentation for new features
-- Test enrichment pipeline changes thoroughly
-
----
-
-## 📚 Documentation
-
-- **[METHODOLOGY.md](./METHODOLOGY.md)** - Detailed analytical methodology
-- **[ANALYTICS_PROPOSAL.md](./ANALYTICS_PROPOSAL.md)** - Original design proposal
-- **[YEAR_ROUTING_VERIFIED.md](./YEAR_ROUTING_VERIFIED.md)** - Data integrity verification
+1. Fork repositoryet
+2. Lag en feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit endringene (`git commit -m 'Add amazing feature'`)
+4. Push til branch (`git push origin feature/amazing-feature`)
+5. Åpne en Pull Request
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the **MIT License**.
+Dette prosjektet er open source og tilgjengelig under **MIT License**.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **MITRE ATT&CK** framework for structured threat taxonomy
-- **Inoreader** for RSS feed aggregation
-- **GitHub Pages** for free hosting and CI/CD
-- The cybersecurity community for threat intelligence sharing
+- **MITRE ATT&CK** - Strukturert threat taxonomy
+- **Inoreader** - RSS feed aggregation
+- **GitHub Pages** - Gratis hosting og CI/CD
+- **Cybersecurity community** - Threat intelligence deling
 
 ---
 
-## 📬 Contact
+## 📬 Kontakt
 
-Have questions, feedback, or suggestions? Please [open an issue](https://github.com/Maremoo2/CyberNews-2025/issues) on GitHub.
+Har du spørsmål, tilbakemeldinger eller forslag?
 
-For collaboration or professional inquiries, connect via GitHub profile.
+- 🐛 [Åpne en issue](https://github.com/Maremoo2/CyberNews-2025/issues)
+- 💬 GitHub Discussions
+- 📧 Via GitHub profile
 
 ---
 
-**Built with 🔐 for the cybersecurity community**
+<div align="center">
+
+**🔐 Bygget for cybersecurity community**
 
 *Making threat intelligence accessible, explainable, and actionable.*
+
+---
+
+[⬆️ Tilbake til toppen](#️-cybernews-2026--trusseloversikt--intelligence-portal)
+
+</div>
