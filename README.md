@@ -1,6 +1,7 @@
-# 🛡️ CyberNews 2026 – Trusseloversikt & Intelligence Portal
-
 <div align="center">
+
+# 🛡️ CyberNews 2026
+### Trusseloversikt & Intelligence Portal
 
 ![GitHub Pages](https://img.shields.io/badge/status-live-brightgreen?style=for-the-badge)
 ![Incidents](https://img.shields.io/badge/incidents-800%2B-blue?style=for-the-badge)
@@ -11,7 +12,32 @@
 
 ---
 
-*En enterprise-grade threat intelligence plattform som analyserer 800+ cybersikkerhetshendelser med MITRE ATT&CK-mapping, ekspliserbar risikoscoring og strategisk trendanalyse.*
+### 📊 En datadrevet oversikt over trussellandskapet
+*Strukturert, filtrerbart og visualisert for enterprise security teams*
+
+**800+ hendelser** • **MITRE ATT&CK mappet** • **AI-drevet analyse** • **Daglig oppdatert**
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 Visual Overview
+
+![CyberNews 2026 Snapshot](./public/snapshot-2026.svg)
+
+**[🔍 Explore Full Dashboard](https://maremoo2.github.io/CyberNews-2025/)**
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 Quick Navigation
+
+**[📅 Daily Digest](#-daily-digest)** • **[📊 Weekly Brief](#-weekly-brief)** • **[📈 Analysis](#-analysis)** • **[📚 Incidents](#-incidents-archive)** • **[🛡️ NSM Risk](#%EF%B8%8F-nsm-risikoanalyse)** • **[🔍 Metode](#-metodikk--datagrunnlag)**
 
 </div>
 
@@ -148,6 +174,11 @@
 </tr>
 </table>
 
+> 💡 **Tips for navigasjon**  
+> Bruk Quick Navigation-menyen øverst for rask tilgang til alle seksjoner. Hver seksjon har "Tilbake til toppen"-lenker for enkel navigering.
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
+
 ---
 
 ## 🎯 Hva gjør denne plattformen unik?
@@ -195,12 +226,16 @@
 </tr>
 </table>
 
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
 
 ---
 
 ## 🚀 Quick Start
 
 ### 🌐 Bruk web-plattformen (enklest)
+
+> ℹ️ **Anbefalte for nye brukere**  
+> Web-plattformen gir deg umiddelbar tilgang til alle funksjoner uten installasjon. Perfekt for utforsking og daglig bruk.
 
 ```
 👉 https://maremoo2.github.io/CyberNews-2025/
@@ -292,6 +327,26 @@ npm run validate-years
 
 ➡️ **[Se full ukesrapport](./weekly-briefs/week-06.md)**
 
+### 📈 Visualisering: Toppangrep
+
+<div align="center">
+
+![Top Attack Types](./public/top-attack-types.svg)
+
+</div>
+
+### 🎯 MITRE ATT&CK Attack Chain
+
+<div align="center">
+
+![MITRE Attack Chain](./public/mitre-attack-chain.svg)
+
+*Typisk progresjon av cyberangrep - fra initial access til impact*
+
+</div>
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
+
 ---
 
 ## 🛡️ NSM Risikoanalyse 2020-2026
@@ -309,6 +364,8 @@ npm run validate-years
 - 📜 Risiko 2020
 
 ➡️ **[Les NSM-analysen](./context/nsm-risk/nsm-risk-summary.md)**
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
 
 ---
 
@@ -345,6 +402,8 @@ Denne plattformen følger en **moderne, dark cybersecurity-profil** inspirert av
 ✅ **Jakob's Law** - Standardisert navigasjon  
 ✅ **Fitts's Law** - Store, lett tilgjengelige knapper  
 ✅ **Hick's Law** - Færre valg per skjerm  
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
 
 ---
 
@@ -383,6 +442,8 @@ GitHub Pages → Live Platform
 4. **Actor Attribution** - Name + category + confidence
 5. **Theme Classification** - Top 3 per incident
 6. **Quality Flagging** - Curated subset (67%)
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
 
 ---
 
@@ -444,6 +505,8 @@ GitHub Pages → Live Platform
 </tr>
 </table>
 
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
+
 ---
 
 ## 📊 Analytics Framework
@@ -498,6 +561,8 @@ Example for T1567 (Exfiltration):
 8. 📱 Mobile/Android & Spyware Ecosystem
 9. 🏭 OT/ICS & Critical Infrastructure
 10. ⚖️ Regulatory & Disclosure Pressure
+
+**[⬆️ Tilbake til toppen](#-quick-navigation)**
 
 ---
 
