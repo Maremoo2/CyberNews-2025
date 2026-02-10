@@ -1,5 +1,105 @@
 [
   {
+    "id": "20266428",
+    "date": "2026-02-10",
+    "title": "AI-driven scams are eroding trust in calls, messages, and meetings",
+    "summary": "In this Help Net Security video, Miguel Fornés, Governance and Compliance Manager at Surfshark, discusses how AI is changing social engineering attacks. He describes how tasks that once took weeks, such as research and targeting, are now automated and cheap. This shift has lowered the skills and ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/ai-driven-social-engineering-video/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266429",
+    "date": "2026-02-10",
+    "title": "Cybersecurity jobs available right now: February 10, 2026",
+    "summary": "Cloud Security Engineer KPMG | Israel | On-site – View job details As a Cloud Security Engineer, you will establish, secure, and support critical Azure cloud infrastructure, with a strong focus on sensitive and regulated environments. You will design and implement secure cloud architectures using...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/10/cybersecurity-jobs-available-right-now-february-10-2026/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266431",
+    "date": "2026-02-10",
+    "title": "How to Prioritize Vulnerability Remediation (Without Losing Your Mind)",
+    "summary": "Let’s say you run a vulnerability scan and it finds 100 issues across your environment.Ten are labeled criticalFifteen are highTwenty are mediumThe rest are low or informationalThe report helpfully tells you to fix everything immediately.This is where reality kicks in.Most organizations cannot pa...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Between The Hacks",
+    "sourceUrl": "https://www.betweenthehacks.com/blog/vulnerability-prioritization",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266432",
+    "date": "2026-02-10",
+    "title": "Designing DPDP Compliant Consent and Notice Flows",
+    "summary": "The Digital Personal Data Protection (DPDP) Act in India transforms the privacy compliance documentation of companies to user experience... The post Designing DPDP Compliant Consent and Notice Flows appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/designing-dpdp-compliant-consent-and-notice-flows/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266433",
+    "date": "2026-02-10",
+    "title": "Anthropic’s DXT poses “critical RCE vulnerability” by running with full system privileges",
+    "summary": "When LayerX Security published a report on Monday describing what it called “a critical zero-click RCE vulnerability in [Anthropic’s] Claude Desktop Extensions (DXT) that allows a malicious Google Calendar invite to silently compromise an entire system,” analysts, consultants, security leaders, a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129820/anthropics-dxt-poses-critical-rce-vulnerability-by-running-with-full-system-privileges.html",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266434",
+    "date": "2026-02-10",
+    "title": "Apple Sends Alert – iPhones are at Risk",
+    "summary": "Around 1.6 billion people around the world have iPhones, and while Apple is usually diligent regarding security, there are two major problems that have surfaced. These problems leave iPhone users completely vulnerable to cyber criminal attacks and if users don’t address, they can steal all of you...",
+    "region": "ASIA",
+    "country": "South Africa",
+    "sourceName": "DaVinci Forensics",
+    "sourceUrl": "https://davinciforensics.co.za/cybersecurity/apple-sends-alert-iphones-are-at-risk/",
+    "tags": [
+      "apple"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266435",
+    "date": "2026-02-10",
+    "title": "Sneaky Browser Extensions Are Hijacking ChatGPT Sessions",
+    "summary": "Cyberattacks usually start with phishing emails or weak passwords. This one did not. Security researchers recently uncovered malicious browser extensions stealing ChatGPT session tokens. These extensions looked harmless. Some were even available in official extension stores. Once installed, they ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberHoot Blog",
+    "sourceUrl": "https://cyberhoot.com/blog/sneaky-browser-extensions-are-hijacking-chatgpt-sessions/",
+    "tags": [
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266405",
     "date": "2026-02-10",
     "title": "[Virtual Event] Shields Up: Key Technologies Reshaping Cybersecurity Defenses",
@@ -3963,6 +4063,21 @@
       "data-breach",
       "mobile",
       "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266430",
+    "date": "2026-02-07",
+    "title": "How to Test Your ISO 27001 Business Continuity Plan",
+    "summary": "What happens when there’s an unexpected interruption to your business? Certainly, it depends on the kind of interruption. The way your business handles something like a power outage can be quite different from how you handle a wildfire, which will be different from how you handle a cyberattack. T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Ignyte Assurance Platform Blog",
+    "sourceUrl": "https://www.ignyteplatform.com/blog/iso-27001/test-business-continuity-plan/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
