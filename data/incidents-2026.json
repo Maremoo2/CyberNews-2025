@@ -1,5 +1,241 @@
 [
   {
+    "id": "20266479",
+    "date": "2026-02-10",
+    "title": "ZAST.AI Raises $6M Pre-A to Scale \"Zero False Positive\" AI-Powered Code Security",
+    "summary": "January 5, 2026, Seattle, USA — ZAST.AI announced the completion of a $6 million Pre-A funding round. This investment came from the well-known investment firm Hillhouse Capital, bringing ZAST.AI's total funding close to $10 million. This marks a recognition from leading capital markets of a new s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266480",
+    "date": "2026-02-10",
+    "title": "BeyondTrust Patches Critical RCE Vulnerability",
+    "summary": "Affecting both RS and PRA, the bug can be exploited remotely via crafted requests without authentication. The post BeyondTrust Patches Critical RCE Vulnerability appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/beyondtrust-patches-critical-rce-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266481",
+    "date": "2026-02-10",
+    "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
+    "summary": "SmarterTools confirmed last week that the Warlock (aka Storm-2603) ransomware gang breached its network by exploiting an unpatched SmarterMail instance. The incident took place on January 29, 2026, when a mail server that was not updated to the latest version was compromised, the company's Chief ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266482",
+    "date": "2026-02-10",
+    "title": "[Ekstra] Microsoft: Denne skadevaretypen øker kraftig på Mac-plattformen",
+    "summary": "Advarer mot stadig flere «stealer»-programmer på plattformen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/microsoft-denne-skadevaretypen-oker-kraftig-pa-mac-plattformen/567997",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266483",
+    "date": "2026-02-10",
+    "title": "Singapore: Rootkits, Zero-Day Used in Chinese Attack on Major Telecom Firms",
+    "summary": "China-linked UNC3886 targeted all four major telecom providers, but did not disrupt services or access customer information. The post Singapore: Rootkits, Zero-Day Used in Chinese Attack on Major Telecom Firms appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/singapore-rootkits-zero-day-used-in-chinese-attack-on-major-telecom-firms/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266484",
+    "date": "2026-02-10",
+    "title": "2G redder liv – men fases ut før ny teknologi er klar",
+    "summary": "Utfasingen av 2G-nettet medfører at inntil 700.000 biler på norske veier ikke lenger vil ha automatisk varsling til nærmeste nødsentral.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-det-norske-2g-nettet-redder-fortsatt-liv/567907",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266485",
+    "date": "2026-02-10",
+    "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+    "summary": "The Netherlands' Dutch Data Protection Authority (AP) and the Council for the Judiciary confirmed both agencies (Rvdr) have disclosed that their systems were impacted by cyber attacks that exploited the recently disclosed security flaws in Ivanti Endpoint Manager Mobile (EPMM), according to a not...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266486",
+    "date": "2026-02-10",
+    "title": "RSAC Releases Quantickle Open Source Threat Intelligence Visualization Tool ",
+    "summary": "Quantickle is a browser-based tool designed for creating visual representations of threat research. The post RSAC Releases Quantickle Open Source Threat Intelligence Visualization Tool appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/rsac-releases-quantickle-open-source-threat-intelligence-visualization-tool/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266487",
+    "date": "2026-02-10",
+    "title": "Nettgigantene i retten i USA",
+    "summary": "I to rettssaker i USA må nettgiganter svare på anklager om at de skaper avhengighet av sosiale medier og villeder om sikkerhet og risiko for overgrep mot barn.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/nettgigantene-i-retten-i-usa/568063",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266488",
+    "date": "2026-02-10",
+    "title": "Singapore confirms UNC3886 espionage campaign against telecom sector, prompts major ...",
+    "summary": "The Cyber Security Agency of Singapore (CSA) and the Infocomm Media Development Authority (IMDA) disclosed details of Operation Cyber Guardian, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/ransomware/singapore-confirms-unc3886-espionage-campaign-against-telecom-sector-prompts-major-cyber-response/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266489",
+    "date": "2026-02-10",
+    "title": "7th Annual Cyber Security Seminar, 21-22 April 2026",
+    "summary": "The seminar will focus on three critical themes: Artificial Intelligence (AI) and Cybersecurity, Post-Quantum Cryptography (PQC), and Cyber Risk ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bis.org/events/260421_bisih_cybersecurity.htm",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266490",
+    "date": "2026-02-10",
+    "title": "How GenAI is breaking traditional cyber security awareness tactics | Computer Weekly",
+    "summary": "Richard Addiscott is vice-president analyst at Gartner focused on cybersecurity risk management. He will be speaking at the upcoming Gartner Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.computerweekly.com/opinion/How-GenAI-is-breaking-traditional-cyber-security-awareness-tactics",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266491",
+    "date": "2026-02-10",
+    "title": "2026 Cloud Security Report Data reveals complexity gap - Cybersecurity Insiders",
+    "summary": "Our survey of these experts indicates that while cybersecurity spend is increasing, the maturity and effectiveness of cyber defences are not keeping ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/2026-cloud-security-report-data-reveals-complexity-gap/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266492",
+    "date": "2026-02-10",
+    "title": "Penn Engineering Launches Master of Science in Engineering in Software Systems and ...",
+    "summary": "... cybersecurity continues to expand. According to the U.S. Bureau of Labor Statistics, employment of information security analysts is projected to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://almanac.upenn.edu/articles/penn-engineering-launches-master-of-science-in-engineering-in-software-systems-and-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266493",
+    "date": "2026-02-10",
+    "title": "House Panel Advances 5 Cybersecurity Bills Targeting Energy Infrastructure - MeriTalk",
+    "summary": "... security and cybersecurity of U.S. pipelines and liquefied natural gas facilities. The program aims to improve coordination among federal, state ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.meritalk.com/articles/house-panel-advances-five-cybersecurity-bills-targeting-energy-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266494",
+    "date": "2026-02-10",
+    "title": "Microsoft Security at Scale: How ContraForce Delivers AI Powered Microsoft Defender XDR for MSPs",
+    "summary": "Founded in 2021, ContraForce is a cybersecurity startup on a mission to democratize enterprise-grade security delivery for managed service providers ( ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en/customers/story/25855-contraforce-microsoft-defender",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266447",
     "date": "2026-02-10",
     "title": "Understanding Breaches Before and After They Happen: What Every Organization Should Know",
