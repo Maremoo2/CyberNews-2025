@@ -1,0 +1,212 @@
+/* Reading Progress Component Styles */
+.reading-progress-container {
+  position: sticky;
+  top: 80px; /* Below sticky nav */
+  z-index: 90;
+  background: linear-gradient(135deg, #0f1b35 0%, #1a2845 100%);
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0 2rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reading-progress-bar {
+  height: 8px;
+  background: rgba(0, 212, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00d4ff 0%, #0066ff 100%);
+  border-radius: 4px;
+  transition: width 0.5s ease-out;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.reading-progress-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.progress-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.progress-emoji {
+  font-size: 1.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.progress-text {
+  color: #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.progress-text strong {
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+.progress-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Fitts's Law: Larger buttons for easier clicking */
+.continue-btn,
+.reset-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  min-width: 160px;
+  min-height: 44px; /* Touch-friendly height */
+}
+
+.continue-btn {
+  background: linear-gradient(135deg, #00d4ff 0%, #0066ff 100%);
+  color: #0a0e1a;
+  border-color: #00d4ff;
+}
+
+.continue-btn:hover {
+  background: linear-gradient(135deg, #00e4ff 0%, #0076ff 100%);
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.continue-btn:active {
+  transform: translateY(0);
+}
+
+.reset-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.reset-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.reset-btn:active {
+  transform: translateY(0);
+}
+
+.progress-hint,
+.progress-celebration {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.progress-hint {
+  background: rgba(0, 212, 255, 0.1);
+  color: #00d4ff;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.progress-celebration {
+  background: rgba(68, 255, 136, 0.1);
+  color: #44ff88;
+  border: 1px solid rgba(68, 255, 136, 0.2);
+  animation: celebrationPulse 1s ease-out;
+}
+
+@keyframes celebrationPulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .reading-progress-container {
+    padding: 1rem;
+    top: 70px;
+  }
+
+  .reading-progress-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .progress-stats {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .progress-actions {
+    justify-content: stretch;
+  }
+
+  .continue-btn,
+  .reset-btn {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+/* Accessibility: Focus indicators */
+.continue-btn:focus-visible,
+.reset-btn:focus-visible {
+  outline: 3px solid #00d4ff;
+  outline-offset: 2px;
+}
+
+/* Print: Hide progress tracker */
+@media print {
+  .reading-progress-container {
+    display: none;
+  }
+}

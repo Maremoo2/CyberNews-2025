@@ -38,6 +38,8 @@ import WeeklyHighlights from './components/WeeklyHighlights'
 import WeeklyAnalysis from './components/WeeklyAnalysis'
 import AIInsights from './components/AIInsights'
 import DataModelTooltip from './components/DataModelTooltip'
+import HeroSection from './components/HeroSection'
+import ReadingProgress from './components/ReadingProgress'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -646,15 +648,31 @@ function App() {
         initialFilters={globalFilters}
       />
 
-      {/* Hero / Value Proposition */}
-      <section className="hero-section" aria-label="About this site">
-        <div className="hero-content">
-          <p className="hero-text">
-            Cyber incidents happen daily. This site collects, structures, and contextualizes them – 
-            making patterns visible before the next incident occurs.
-          </p>
-        </div>
-      </section>
+      {/* Enhanced Hero Section */}
+      {selectedYear === currentYear && (
+        <HeroSection onNavigate={(section) => {
+          const sectionMap = {
+            'Daily Digest': 'ai-insights',
+            'Weekly Brief': 'ai-analysis',
+            'Full Analysis': 'summary'
+          };
+          const targetId = sectionMap[section];
+          if (targetId) {
+            const element = document.getElementById(targetId);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        }} />
+      )}
+
+      {/* Reading Progress Tracker - Zeigarnik Effect */}
+      {selectedYear === currentYear && filteredIncidents.length > 0 && (
+        <ReadingProgress 
+          incidents={filteredIncidents} 
+          currentFilters={globalFilters}
+        />
+      )}
 
       {/* Data Methodology Note */}
       <section className="methodology-note-section" aria-label="Data methodology">
