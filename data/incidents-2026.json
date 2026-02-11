@@ -1,5 +1,365 @@
 [
   {
+    "id": "20266575",
+    "date": "2026-02-10",
+    "title": "A new wave of romance scams is washing across the internet – here’s how to stay safe",
+    "summary": "Maria Korneeva/Getty ImagesRomance scams are among the most emotionally damaging forms of cyber crime because they combine carefully manufactured intimacy with financial theft – the scammers go after your heart, and then your wallet. Just last week, Australian police warned more than 5,000 people...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "The Conversation Cybersecurity",
+    "sourceUrl": "https://theconversation.com/a-new-wave-of-romance-scams-is-washing-across-the-internet-heres-how-to-stay-safe-274121",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266576",
+    "date": "2026-02-10",
+    "title": "Microsoft is keeping Secure Boot alive with Windows updates",
+    "summary": "Microsoft is automatically replacing boot-level security certificates on Windows devices before they start expiring later this year. The new Secure Boot certificates will be rolled out as part of the regular Windows platform updates, according to Microsoft's announcement blog, marking a \"generati...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/876336/microsoft-windows-secure-boot-certificate-renewal",
+    "tags": [
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266577",
+    "date": "2026-02-10",
+    "title": "Russia throttles Telegram to boost government-backed MAX app",
+    "summary": "Russia's state media regulator, Roskomnadzor, has intensified restrictions on Telegram, throttling the app’s performance nationwide in what appears to be part of a broader campaign to funnel users to the Kremlin-backed messaging app MAX. The move follows months of sporadic disruptions reported by...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/russia-throttles-telegram-to-boost-government-backed-max-app/",
+    "tags": [
+      "state-sponsored",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266578",
+    "date": "2026-02-10",
+    "title": "Microsoft fixes six actively exploited flaws in latest Windows 11 update",
+    "summary": "Microsoft’s February 2026 Patch Tuesday rollout includes security updates for 59 Windows 11 vulnerabilities, six of which are confirmed to be actively exploited in the wild. The updates address vulnerabilities discovered by Microsoft’s internal teams, including the Microsoft Threat Intelligence C...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/microsoft-fixes-six-actively-exploited-flaws-in-latest-windows-11-update/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266579",
+    "date": "2026-02-10",
+    "title": "Shady VPN tool uses global proxy network to serve sanctioned countries",
+    "summary": "A shady Chinese VPN platform serving devices in Russia, China, Myanmar, Iran, and Venezuela is using a global proxying network to bypass heavy internet censorship or international sanctions. The probe, powered by Silent Push’s investigation and residential proxy datasets, revealed a sprawling inf...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/shady-vpn-tool-uses-global-proxy-network-to-serve-sanctioned-countries/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266580",
+    "date": "2026-02-10",
+    "title": "FortiOS Authentication Bypass Exposes VPN and SSO Deployments",
+    "summary": "Fortinet has disclosed an authentication bypass vulnerability in FortiOS. Under certain configurations, the flaw could allow attackers to bypass LDAP-based authentication controls and gain unauthorized access to protected enterprise networks. The vulnerability “… may allow an unauthenticated atta...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortios-authentication-bypass-exposes-vpn-and-sso-deployments/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "mobile",
+      "ai-ml",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266581",
+    "date": "2026-02-10",
+    "title": "FortiSandbox XSS Vulnerability Allows Remote Command Execution",
+    "summary": "Fortinet has disclosed a vulnerability in its FortiSandbox platform that could allow unauthenticated attackers to execute arbitrary commands. The issue involves a cross-site scripting (XSS) flaw in the FortiSandbox web interface that may lead to elevated access if exploited. The vulnerability “… ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/fortisandbox-xss-vulnerability-allows-remote-command-execution/",
+    "tags": [
+      "vulnerability",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266582",
+    "date": "2026-02-10",
+    "title": "No-Contract Internet Plans Georgia Comparison: Speed, Price & Fees Side-by-Side",
+    "summary": "In this post, I will discuss the no-contract Internet plans Georgia comparison. Also, I will talk about their speed, price & fees side-by-side. Georgia internet shoppers can finally skip the fine print. About 52 percent of the state already sits on fiber lines, and 5G fixed-wireless is filling mo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/no-contract-internet-plans-georgia-comparison/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266583",
+    "date": "2026-02-10",
+    "title": "HIPAA Compliant Email for Therapists | Virtru Secure Email & File Sharing",
+    "summary": "Mental health professionals handle some of the most sensitive information imaginable. Every email to a client about appointment scheduling, every intake form, every treatment update contains protected health information (PHI) that must be secured under HIPAA regulations.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/hipaa-email-for-therapists",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266586",
+    "date": "2026-02-10",
+    "title": "How to Prevent Active Directory Attacks by Securing Privileged Accounts",
+    "summary": "Key Takeaways Most Active Directory attacks succeed by abusing privileged accounts. Domain Admins are high-value targets and must be protected differently Privileged identity management reduces standing access and attack paths Active Directory security depends on visibility, control, and discipli...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/active-directory-security/securing-privileged-accounts-and-domain-admins/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266587",
+    "date": "2026-02-10",
+    "title": "Patch Tuesday, February 2026 Edition",
+    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six “zero-day” vulnerabilities that attackers are already exploiting in the wild. Zero-day #1 this month is CVE-2026-21510, a security feature ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Krebs on Security",
+    "sourceUrl": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266588",
+    "date": "2026-02-10",
+    "title": "BeyondTrust fixes critical RCE flaw in remote access tools",
+    "summary": "Companies using self-hosted versions of BeyondTrust Remote Support (RS) or Privileged Remote Access (PRA) should deploy patches for a critical vulnerability that allows attacks to execute OS commands without authentication. “Successful exploitation requires no authentication or user interaction a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130415/beyondtrust-fixes-critical-rce-flaw-in-remote-access-tools.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266589",
+    "date": "2026-02-10",
+    "title": "SolarWinds WHD Attacks Highlight Risks of Exposed Apps",
+    "summary": "Organizations that have exposed their instances of Web Help Desk to the public Internet have inadvertently made them prime targets for attackers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/solarwinds-whd-attacks-exposed-apps",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266590",
+    "date": "2026-02-10",
+    "title": "In Bypassing MFA, ZeroDayRAT Is 'Textbook Stalkerware'",
+    "summary": "With access to SIM, location data, and a preview of recent SMSes, attackers have everything they need for account takeover or targeted social engineering.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/zerodayrat-brings-commercial-spyware-to-mass-market",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266591",
+    "date": "2026-02-10",
+    "title": "Microsoft Patches 6 Actively Exploited Zero-Days",
+    "summary": "Three of those zero-days are security feature bypass flaws, which give attackers a way to slip past built-in protections in multiple Microsoft products.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/microsoft-fixes-6-actively-exploited-zero-days",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266592",
+    "date": "2026-02-10",
+    "title": "Sophos AI Agents: Accelerating MDR and Powering the Agentic SOC",
+    "summary": "Agentic intelligence in Sophos MDR: A practical, outcome-focused approachCategories: Products & ServicesTags: MDR, Sophos MDR, AI",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/sophos-ai-agents-accelerating-mdr-and-powering-the-agentic-soc",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266593",
+    "date": "2026-02-10",
+    "title": "10K Claude Desktop Users Exposed by Zero-Click Vulnerability",
+    "summary": "A zero-click flaw in Anthropic’s Claude Desktop Extensions allows attackers to trigger remote code execution via Google Calendar events. The post 10K Claude Desktop Users Exposed by Zero-Click Vulnerability appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-claude-desktop-zero-click-vulnerability/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266594",
+    "date": "2026-02-10",
+    "title": "New Linux botnet SSHStalker uses old-school IRC for C2 comms",
+    "summary": "A newly documented Linux botnet named SSHStalker is using the IRC (Internet Relay Chat) communication protocol for command-and-control (C2) operations. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-linux-botnet-sshstalker-uses-old-school-irc-for-c2-comms/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266595",
+    "date": "2026-02-10",
+    "title": "North Korean hackers use new macOS malware in crypto-theft attacks",
+    "summary": "North Korean hackers are running tailored campaigns using AI-generated video and the ClickFix technique to deliver malware for macOS and Windows to targets in the cryptocurrency sector. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-use-new-macos-malware-in-crypto-theft-attacks/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266596",
+    "date": "2026-02-10",
+    "title": "Malicious 7-Zip site distributes installer laced with proxy tool",
+    "summary": "A fake 7-Zip website is distributing a trojanized installer of the popular archiving tool that turns the user's computer into a residential proxy node. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-7-zip-site-distributes-installer-laced-with-proxy-tool/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266597",
+    "date": "2026-02-10",
+    "title": "Microsoft releases Windows 10 KB5075912 extended security update",
+    "summary": "Microsoft has released the Windows 10 KB5075912 extended security update to fix February 2026 Patch Tuesday vulnerabilities, including six zero-days, and continue rolling out replacements for expiring Secure Boot certificates. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5075912-extended-security-update/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266598",
+    "date": "2026-02-10",
+    "title": "Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws",
+    "summary": "Today is Microsoft's February 2026 Patch Tuesday with security updates for 58 flaws, including 6 actively exploited and three publicly disclosed zero-day vulnerabilities. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2026-patch-tuesday-fixes-6-zero-days-58-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266599",
+    "date": "2026-02-10",
+    "title": "Windows 11 KB5077181 & KB5075941 cumulative updates released",
+    "summary": "Microsoft has released Windows 11 KB5077181 and KB5075941 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-and-kb5075941-cumulative-updates-released/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266600",
+    "date": "2026-02-10",
+    "title": "A spyware swiss army knife.",
+    "summary": "ZeroDayRAT delivers full mobile compromise on Android and iOS. The UK warns infrastructure operators to act now as severe cyber threats mount. Russia moves to block Telegram. The FTC draws a line on data sales to foreign adversaries. Researchers unpack DeadVax, a stealthy new malware campaign, wh...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2486/notes",
+    "tags": [
+      "malware",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20266538",
     "date": "2026-02-10",
     "title": "EU Unconditionally Approves Google’s $32B Acquisition of Wiz",
@@ -18518,6 +18878,18 @@
     "impact": 3
   },
   {
+    "id": "20266584",
+    "date": "2026-02-02",
+    "title": "Hackers Recruit Unhappy Insiders to Bypass Data Security",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threat Insight Blog - Cybersecurity Intelligence",
+    "sourceUrl": "https://www.proofpoint.com/us/newsroom/news/hackers-recruit-unhappy-insiders-bypass-data-security",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20265459",
     "date": "2026-02-02",
     "title": "Wind and solar take a cyber hit.",
@@ -25756,6 +26128,18 @@
       "microsoft",
       "Cyber"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20266585",
+    "date": "2026-01-29",
+    "title": "TA584 threat actor leverages Tsundere Bot and XWorm for network access",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threat Insight Blog - Cybersecurity Intelligence",
+    "sourceUrl": "https://www.proofpoint.com/us/newsroom/news/ta584-threat-actor-leverages-tsundere-bot-and-xworm-network-access",
+    "tags": [],
     "impact": 3
   },
   {
