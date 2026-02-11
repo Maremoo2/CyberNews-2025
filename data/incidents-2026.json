@@ -1,5 +1,108 @@
 [
   {
+    "id": "20266616",
+    "date": "2026-02-11",
+    "title": "Zen-AI-Pentest: Open-source AI-powered penetration testing framework",
+    "summary": "Zen-AI-Pentest provides an open-source framework for scanning and exercising systems using a combination of autonomous agents and standard security utilities. The project aims to let users run an orchestrated sequence of reconnaissance, vulnerability scanning, exploitation, and reporting using AI...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/zen-ai-pentest-open-source-penetration-testing-framework/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266617",
+    "date": "2026-02-11",
+    "title": "Product showcase: PCAPdroid analyzes Android app network activity",
+    "summary": "PCAPdroid is a free, open-source Android app that allows inspection of network traffic. Installation is straightforward and does not require creating an account. To begin capturing traffic, a VPN request must be accepted, which allows the app to monitor network activity. Once permission is grante...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/product-showcase-pcapdroid-analyzes-android-app-network-activity/",
+    "tags": [
+      "apt",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266618",
+    "date": "2026-02-11",
+    "title": "Security teams are paying for sprawl in more ways than one",
+    "summary": "Most enterprises run security programs across sprawling environments that include mobile devices, SaaS applications, cloud infrastructure, and telecom networks. Spend control in these areas often sits outside the security organization, even when the operational consequences land directly on secur...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/security-teams-ai-driven-it-spend/",
+    "tags": [
+      "malware",
+      "cloud",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266619",
+    "date": "2026-02-11",
+    "title": "Asia Fumbles With Throttling Back Telnet Traffic in Region",
+    "summary": "Only Taiwan made the top 10 list of governments, effectively blocking the threat-ridden protocol, but overall the region lagged in curbing Telnet traffic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/asia-fumbles-telnet-threat-traffic",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266621",
+    "date": "2026-02-11",
+    "title": "SSHStalker Proves Hackers Don’t Need New Tricks to Own Linux Servers",
+    "summary": "A newly identified Linux botnet known as SSHStalker is drawing attention across the cybersecurity community for its unexpected yet deliberate design choice: the use of Internet Relay Chat (IRC) as its primary command-and-control (C2) channel. At a time when most modern malware relies on HTTPS, en...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/ssh-stalker-proves-hackers-don-t-need-new-tricks-to-own-linux-servers",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266622",
+    "date": "2026-02-11",
+    "title": "Microsoft releases Windows 11 26H1 for select and upcoming CPUs",
+    "summary": "Microsoft has announced Windows 11 26H1, but it's not for existing PCs. Instead, it will ship on devices with Snapdragon X2 processors and possibly other rumored ARM chips.w [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-26h1-for-select-and-upcoming-cpus/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266620",
+    "date": "2026-02-10",
+    "title": "Taxing times: Top IRS scams to look out for in 2026",
+    "summary": "It’s time to file your tax return. And cybercriminals are lurking to make an already stressful period even more edgy.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/scams/taxing-times-top-irs-scams-look-out-2026/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20266601",
     "date": "2026-02-10",
     "title": "Cyber Command, NSA nominee Rudd advances to Senate floor",
