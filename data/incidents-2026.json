@@ -1,5 +1,533 @@
 [
   {
+    "id": "20266632",
+    "date": "2026-02-11",
+    "title": "Airtel Rolls Out AI-Based OTP Fraud Detection System Across India",
+    "summary": "Airtel strengthens AI fraud shield Airtel has launched an AI-driven Fraud Alerts system to warn users about OTP-based bank scams amid rising digital fraud cases.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/tech/105730/airtel-rolls-out-ai-based-otp-fraud-detection-system-across-india",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266633",
+    "date": "2026-02-11",
+    "title": "Google veut toutes vos infos personnelles... pour mieux les protéger bien sûr",
+    "summary": "Google déploie une mise à jour de son hub \"Résultats vous concernant\" et demande désormais aux utilisateurs de renseigner tout un tas de données personnelles comme leurs numéros de passeport, permis de conduire et de sécurité sociale. Google promet de surveiller leur présence dans les résultats d...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599920-google-veut-toutes-vos-infos-personnelles-pour-mieux-les-proteger.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266634",
+    "date": "2026-02-11",
+    "title": "DuckDuckGo introduit des requêtes vocales sécurisées pour son IA",
+    "summary": "Le moteur de recherche privé DuckDuckGo ajoute une fonctionnalité de conversation vocale à son assistant IA, accessible en opt-in et conçue pour préserver l'anonymat des utilisateurs.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599899-duckduckgo-introduit-des-requetes-vocales-securisees-pour-son-ia.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266635",
+    "date": "2026-02-11",
+    "title": "Pourquoi payez-vous plus cher ? L'astuce pour économiser sur votre budget des vacances d'hiver",
+    "summary": "Ah, les vacances d'hiver sont une belle occasion de prendre l'air, que ce soit à la montagne, ou même à l'autre bout du monde. Mais pour autant, mieux vaut également vous préparer à passer à la caisse sans l'usage d'un VPN performant.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598954-pourquoi-payez-vous-plus-cher-l-astuce-pour-economiser-sur-votre-budget-des-vacances-d-hiver.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266636",
+    "date": "2026-02-11",
+    "title": "India Rolls Out AI-on-Wheels to Bridge the Digital Divide",
+    "summary": "India has taken another step toward expanding AI literacy in India with the launch of Kaushal Rath under the national programme Yuva AI for All. Flagged off from India Gate in New Delhi, the mobile initiative aims to bring foundational Artificial Intelligence (AI) education directly to students, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/yuva-ai-for-all-india-expands-ai-literacy/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266637",
+    "date": "2026-02-11",
+    "title": "12 Lakh SIM Cards Cancelled, over 3 Lakh IMEI Numbers Blocked as Centre Intensifies Crackdown on Cybercrime",
+    "summary": "Union Home Minister Amit Shah on Tuesday announced that the Central government has cancelled 12 lakh SIM cards and ensured that IMEI numbers blocked exceeded 3 lakh mobile devices as part of a sweeping nationwide crackdown on cybercrime. He added that 20,853 accused individuals have been arrested...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/sim-cards-cancelled-india-cybercrime/",
+    "tags": [
+      "mobile",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266638",
+    "date": "2026-02-11",
+    "title": "Microsoft Patch Tuesday February Update Flags Exchange and Azure Vulnerabilities as High-Priority Risks",
+    "summary": "Microsoft Patch Tuesday February 2026 addressed 54 vulnerabilities including six zero-days across Windows, Office, Azure services, Exchange Server, and developer tools. The latest patch update, rollout is notable not only for its smaller size but for the presence of six zero-day vulnerabilities t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/microsoft-patch-tuesday-february-2026/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266639",
+    "date": "2026-02-11",
+    "title": "Romance, Fake Platforms, $73M Lost: Crypto Scam Leader Gets 20 Years",
+    "summary": "The U.S. justice system has sent away an individual behind one of the largest global cryptocurrency investment scam cases, for two decades. While the sentence signals accountability, the individual remains a fugitive after cutting off his electronic ankle monitor and fleeing in December 2025. Dar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/global-cryptocurrency-investment-scam/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266640",
+    "date": "2026-02-11",
+    "title": "Microsoft Patch Tuesday: 6 exploited zero-days fixed in February 2026",
+    "summary": "Microsoft has plugged 50+ security holes on February 2026 Patch Tuesday, including six zero-day vulnerabilities exploited by attackers in the wild. The “security feature bypass” zero-days Among the zero-days fixed are three vulnerabilities that allow attackers to bypass a security feature. CVE-20...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/february-2026-patch-tuesday/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266641",
+    "date": "2026-02-11",
+    "title": "That “summarize with AI” button might be manipulating you",
+    "summary": "Microsoft security researchers discovered a growing trend of AI memory poisoning attacks used for promotional purposes, referred to as AI Recommendation Poisoning. The MITRE ATLAS knowledge base classifies this behavior as AML.T0080: Memory Poisoning. The activity focuses on shaping future recomm...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/ai-recommendation-memory-poisoning-attacks/",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266642",
+    "date": "2026-02-11",
+    "title": "Google Search introduces new ways to remove sensitive personal information and explicit images",
+    "summary": "Google expanded its “Results about you” tool to give users more control over sensitive personal information and added a way to request removal of non-consensual explicit images from Search. Manage and limit sensitive personal information in Search Users can request the removal of Search results t...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/google-sensitive-personal-information-data-removal/",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266643",
+    "date": "2026-02-11",
+    "title": "Yubico previews passkey-enabled digital signatures in upcoming YubiKey 5.8 firmware",
+    "summary": "Yubico’s upcoming YubiKey 5.8 firmware introduces standardized APIs that integrate hardware-backed signatures with passkey authentication. To enable privacy-capable digital signatures using passkeys, expanded enterprise IdP support, and next-generation digital wallet use cases, the firmware adds ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/yubico-yubikey-yubikey-passkey-digital-signatures/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266644",
+    "date": "2026-02-11",
+    "title": "Cisco enhances security for enterprise AI adoption",
+    "summary": "Cisco announced a suite of capabilities to help enterprises adopt agentic AI with confidence, combining agent protection, interaction governance, and resilient connectivity for AI-driven workflows. As organizations move from AI assistants to autonomous agents that use tools and data across hybrid...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/cisco-agentic-ai-protection/",
+    "tags": [
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266645",
+    "date": "2026-02-11",
+    "title": "Groupe Rocher CISO on strengthening a modern retail cybersecurity strategy",
+    "summary": "Global retail and beauty brands manage a unique cybersecurity balancing act. They depend on consumer trust, massive volumes of personal data, and a sprawling network of vendors, while also managing thousands of physical locations and dynamic digital growth. In this Help Net Security interview, Jé...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/jerome-etienne-groupe-rocher-retail-cybersecurity-strategy/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266646",
+    "date": "2026-02-11",
+    "title": "Trellix SecondSight identifies subtle indicators of an active breach",
+    "summary": "Trellix announced Trellix SecondSight, a threat hunting service designed to proactively identify low-noise advanced threats often undetected, reducing organizational risk for Trellix customers. “Threat actors’ use of AI has significantly increased alert fatigue for security analysts,” said John F...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/trellix-secondsight-threat-hunting-service/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266648",
+    "date": "2026-02-11",
+    "title": "CISO Spotlight: Craig Riddell on Curiosity, Translation, and Why API Security is the New Business Imperative",
+    "summary": "It’s an unusually cold winter morning in Houston, and Craig Riddell is settling into his new role as Wallarm’s Global Field CISO. It’s a position that suits him down to the ground, blending technical depth, empathy, business acumen, and, what Craig believes, the most underrated skill in cybersecu...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Wallarm Blog",
+    "sourceUrl": "https://lab.wallarm.com/ciso-spotlight-craig-riddell-curiosity-translation-api-security-business-imperative/",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266649",
+    "date": "2026-02-11",
+    "title": "Microsoft’s February 2026 Patch Tuesday: Six Zero-Days, 58 flaws Patched Amid Growing Exploit Activity",
+    "summary": "The second Tuesday of the month has arrived, bringing another significant wave of Microsoft security updates. In February 2026, Microsoft issued patches for 58 vulnerabilities, including six actively exploited zero-day flaws and five rated Critical. As part of this month’s release, Microsoft has ...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/microsofts-february-2026-patch-tuesday-six-zero-days-patched-amid-growing-exploit-activity/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266650",
+    "date": "2026-02-11",
+    "title": "How Digital Training Programs Support Skills in Healthcare Settings",
+    "summary": "In this post, I will show you how digital training programs support skills in healthcare settings. Healthcare workers should keep updating their information to provide safe and effective care. In such environments, digital training programs have emerged as a critical component of the skill develo...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-digital-training-programs-support-skills-in-healthcare-settings/",
+    "tags": [
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266651",
+    "date": "2026-02-11",
+    "title": "Protecting Your Predictive Edge From Digital Threats",
+    "summary": "In this post, I will talk about protecting your predictive edge from digital threats. Every data-driven decision you make—whether in sports betting, finance, or business—relies on keeping your predictive edge safe from prying eyes and cyberattacks. In 2025, the stakes are higher than ever. Digita...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/protecting-your-predictive-edge-from-digital-threats/",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266652",
+    "date": "2026-02-11",
+    "title": "The Transformative Impact of Artificial Intelligence on Surveillance and Safety",
+    "summary": "Here, I will talk about the transformative impact of Artificial Intelligence on surveillance and safety. Artificial Intelligence (AI): it’s not just a buzzword or the latest fad. It’s become the buddy cop, the trusty sidekick to security professionals in their daily operations. Remember the days ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/transformative-impact-of-artificial-intelligence-on-surveillance/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266653",
+    "date": "2026-02-11",
+    "title": "A Player’s Manual to UK Online Casino Banking Options",
+    "summary": "Here is a player’s manual to UK online casino banking options. The UK online casino landscape has transformed dramatically over the past decade, with payment methods evolving to meet the demands of an increasingly sophisticated player base. Understanding your banking options is crucial for a seam...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/players-manual-to-uk-online-banking-options/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266654",
+    "date": "2026-02-11",
+    "title": "Does VPN Give Free Data Or Internet Access? [Expert Answer]",
+    "summary": "Does VPN give free data? Read on for the answer. Virtual Private Networks are primarily used to mask your identity online but do they give free data? You will discover this as you read through. ‘Free Data’ in this context can mean free internet access and or be in terms of bandwidth. So, we will ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/does-vpn-give-free-data-or-internet-access/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266655",
+    "date": "2026-02-11",
+    "title": "How To Report Online Scams In The UK: Protecting Yourself and Stopping Fraudsters",
+    "summary": "This post will show you how to report online scams in the UK. The internet has revolutionized our lives, offering endless opportunities for connection, information, and commerce. Unfortunately, it has also become a breeding ground for online scams. These scams can target anyone, regardless of age...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-report-online-scams-in-uk/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266656",
+    "date": "2026-02-11",
+    "title": "Are UK Online Casinos Safe? A Guide to Choosing a Trustworthy Site",
+    "summary": "In this post, I will answer the question – Are UK online casinos safe? Read on as I give you this guide to choosing a trustworthy site. Online casinos are everywhere these days, and many look impressive at first sight. But when your money, time, and personal details are on the line, design and bi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/are-uk-online-casinos-safe/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266657",
+    "date": "2026-02-11",
+    "title": "Model Context Protocol: Security Risks & Mitigations",
+    "summary": "AI adoption is moving fast, shifting from pilot projects to the infrastructure-level, day-to-day practice. The budget curve reflects that shift. Gartner expects worldwide AI spending to reach $2.52T in 2026, a 44% year-over-year increase. At the same time, AI cybersecurity spending is expected to...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/mcp-security-risks-and-mitigations/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266658",
+    "date": "2026-02-11",
+    "title": "Emerging Ransomware BQTLock & GREENBLOOD Disrupt Businesses in Minutes ",
+    "summary": "How long would it take your team to realize ransomware is already running? The newly identified ransomware families are already causing real business disruption. These threats can disrupt operations fast while also reducing visibility through stealth or cleanup activity, shrinking the time teams ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/emerging-ransomware-bqtlock-greenblood/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266659",
+    "date": "2026-02-11",
+    "title": "Bsecure advances continuous audit with DORA and NIS2 compliance on IBM z series with AI and RAG",
+    "summary": "For many European financial institutions and insurers, the mainframe remains the backbone of mission-critical operations. This mainframe technology delivers unmatched resilience and throughput—but it also concentrates risk: privileged access, highly sensitive datasets, and core transaction integr...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Bsecure Blog",
+    "sourceUrl": "https://www.go2bsecure.com/blog/bsecure-advances-continuous-audit-with-dora-and-nis2-compliance-on-ibm-z-series-with-ai-and-rag/",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml",
+      "ibm"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266660",
+    "date": "2026-02-11",
+    "title": "North Korean actors blend ClickFix with new macOS backdoors in Crypto campaign",
+    "summary": "A financially motivated threat actor tracked as UNC1609 is using a ClickFix-style social engineering campaign to deploy multiple macOS malware families against crypto-focused organizations. According to new research from Google Cloud’s Mandiant, the activity recently targeted an employee at a com...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130724/north-korean-actors-blend-clickfix-with-new-macos-backdoors-in-crypto-campaign.html",
+    "tags": [
+      "malware",
+      "cloud",
+      "finance",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266661",
+    "date": "2026-02-11",
+    "title": "EU clears Google’s $32B Wiz acquisition, intensifying cloud security competition",
+    "summary": "Google has secured unconditional EU antitrust approval for its $32 billion acquisition of cloud security firm Wiz, clearing a major regulatory hurdle and paving the way for one of the largest cybersecurity acquisitions to date. The decision removes a key uncertainty for enterprise customers and p...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130667/eu-clears-googles-32b-wiz-acquisition-intensifying-cloud-security-competition.html",
+    "tags": [
+      "cloud",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266662",
+    "date": "2026-02-11",
+    "title": "The hard part of purple teaming starts after detection",
+    "summary": "In my recent articles for CSO, I’ve talked about the limits of current SOC models and the importance of rehearsal. This time, I want to focus on something that’s becoming increasingly clear: purple teaming has lost its depth. We’ve turned one of the most powerful tools for resilience into a trans...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129713/the-hard-part-of-purple-teaming-starts-after-detection.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266663",
+    "date": "2026-02-11",
+    "title": "CISOs must separate signal from noise as CVE volume soars",
+    "summary": "In 2026, the cybersecurity industry is expected to cross a threshold it has never reached before: More than 50,000 publicly disclosed software vulnerabilities in a single year. According to a new forecast from the Forum of Incident Response and Security Teams (FIRST), the median projection for 20...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130453/cisos-must-separate-signal-from-noise-as-cve-volume-soars.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266664",
+    "date": "2026-02-11",
+    "title": "Vorgetäuschte PDFs bergen neue Gefahren",
+    "summary": "loading=\"lazy\" width=\"400px\">Cyberkriminelle verschicken ihre Malware als PDF-Dateien getarnt.IDG Der Security-Anbieter Malwarebytes hat kürzlich vor einer besonders perfiden Phishing-Kampagne gewarnt. Die Angreifer tarnen dabei ihre Malware als gewöhnliches PDF-Dokument. Mitarbeiter sind es gewo...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129917/vorgetauschte-pdfs-bergen-neue-gefahren.html",
+    "tags": [
+      "phishing",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266665",
+    "date": "2026-02-11",
+    "title": "US Court Hands Crypto Scammer 20 Years in $73m Case",
+    "summary": "A federal court has sentenced crypto-scammer Daren Li to 20 years in absentia",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/court-hands-crypto-scammer-20-years/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266666",
+    "date": "2026-02-11",
+    "title": "FIRST Forecasts Record-Breaking 50,000+ CVEs in 2026",
+    "summary": "This year should break all the records in terms of vulnerability disclosed, reaching or even surpassing 50,000 new CVEs disclosed",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/first-forecasts-record-50000-cve/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266667",
+    "date": "2026-02-11",
+    "title": "Microsoft Fixes Six Zero Day Vulnerability in February Patch Tuesday",
+    "summary": "Six actively exploited zero-day bug have been patched by Microsoft",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/microsoft-six-zero-day-feb-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266668",
+    "date": "2026-02-11",
+    "title": "Best IoT App Development Services for Smart Business Solutions in 2026",
+    "summary": "Smart business solutions require IoT applications transforming operational data into actionable intelligence. Finding experienced IoT providers like https://stormotion.io/iot-software-development-services/ enables businesses automating workflows, monitoring assets, optimizing resources through co...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/best-iot-app-development-services-for-smart-business-solutions-in-2026",
+    "tags": [
+      "malware",
+      "iot"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266623",
     "date": "2026-02-11",
     "title": "Der Kaufratgeber für Breach & Attack Simulation Tools",
@@ -16198,6 +16726,21 @@
     "sourceUrl": "https://www.troyhunt.com/weekly-update-489/",
     "tags": [
       "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266647",
+    "date": "2026-02-03",
+    "title": "Infinigate UKI and KnowBe4 Deepen Partnership through Cybersecurity Portfolio Expansion",
+    "summary": "London, UK — 3 February 2026. Infinigate UKI part of the Infinigate Group, the leading technology platform and trusted advisor in Cybersecurity, Cloud & Network Infrastructure and KnowBe4, the world-renowned platform that comprehensively addresses human and agentic AI risk management, have announ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infinigate",
+    "sourceUrl": "https://www.infinigate.com/uk/news/infinigate-uki-and-knowbe4-deepen-partnership-through-cybersecurity-portfolio-expansion/",
+    "tags": [
+      "cloud",
+      "ai-ml"
     ],
     "impact": 3
   },
