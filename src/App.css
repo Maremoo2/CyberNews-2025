@@ -994,6 +994,190 @@ select:focus-visible {
   font-weight: 500;
 }
 
+/* NSM Executive Summary */
+.nsm-executive-summary {
+  background: linear-gradient(135deg, #1a2845 0%, #2d3e5f 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nsm-subsection-title {
+  font-size: 1.4rem;
+  color: #1a2845;
+  margin: 2rem 0 1rem 0;
+  text-align: left;
+  font-weight: 600;
+}
+
+.nsm-executive-summary .nsm-subsection-title {
+  color: #00d4ff;
+  margin-top: 0;
+}
+
+.nsm-summary-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+}
+
+/* Timeline with year insights */
+.year-insight {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(0, 102, 204, 0.1);
+  border-left: 3px solid #0066cc;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #2d3748;
+}
+
+.timeline-item.highlight .year-insight {
+  background: rgba(229, 62, 62, 0.1);
+  border-left-color: #e53e3e;
+}
+
+.timeline-item h4 {
+  font-size: 1.3rem;
+  color: #1a2845;
+  margin: 0.5rem 0;
+}
+
+/* Key Recurring Findings */
+.nsm-recurring-findings {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.finding-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #0066cc;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.finding-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.finding-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.finding-card h4 {
+  font-size: 1.1rem;
+  color: #1a2845;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.finding-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+}
+
+/* Actionable Recommendations */
+.nsm-recommendations {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+  border-radius: 8px;
+  border-left: 6px solid #ff9933;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.recommendations-intro {
+  font-size: 1.05rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.recommendations-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations-list li {
+  background: white;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #ff9933;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  line-height: 1.6;
+}
+
+.recommendations-list li strong {
+  color: #1a2845;
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.recommendations-list li br + text {
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+/* Cross-references */
+.nsm-cross-references {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.nsm-cross-references h4 {
+  font-size: 1.2rem;
+  color: #1a2845;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.cross-ref-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cross-ref-link {
+  color: #0066cc;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 3px solid #0066cc;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.cross-ref-link:hover {
+  background: #e9ecef;
+  border-left-width: 6px;
+  transform: translateX(4px);
+}
+
 .nsm-cta {
   text-align: center;
   margin-top: 2rem;
@@ -1025,12 +1209,49 @@ select:focus-visible {
     font-size: 1.5rem;
   }
 
+  .nsm-executive-summary {
+    padding: 1.5rem 1rem;
+  }
+
+  .nsm-subsection-title {
+    font-size: 1.2rem;
+  }
+
+  .nsm-summary-text {
+    font-size: 1rem;
+  }
+
   .timeline-item {
     padding: 1rem;
   }
 
-  .timeline-item h3 {
+  .timeline-item h3,
+  .timeline-item h4 {
     font-size: 1.1rem;
+  }
+
+  .findings-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .finding-card {
+    padding: 1rem;
+  }
+
+  .nsm-recommendations,
+  .nsm-recurring-findings,
+  .nsm-cross-references {
+    padding: 1.5rem 1rem;
+  }
+
+  .recommendations-list li {
+    padding: 1rem;
+  }
+
+  .cross-ref-link {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .key-threats {

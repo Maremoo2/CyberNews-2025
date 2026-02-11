@@ -740,60 +740,138 @@ function App() {
       <section id="nsm-risk" className="nsm-risk-section">
         <div className="section-container">
           <h2 className="section-title">🇳🇴 NSM Risikoanalyse 2020–{selectedYear}</h2>
-          <div className="nsm-intro">
-            <p className="section-intro">
-              Nasjonal sikkerhetsmyndighet (NSM) publiserer årlige risikovurderinger som kartlegger trusler mot norsk nasjonal sikkerhet.
-              Her er hovedutvikling fra 2020 til {selectedYear}.
+          
+          {/* Executive Summary */}
+          <div className="nsm-executive-summary">
+            <h3 className="nsm-subsection-title">Slik har NSM sett trusselbildet utvikle seg – og slik ser vi det igjen i dataene</h3>
+            <p className="nsm-summary-text">
+              Trusselbildet har beveget seg fra tekniske sårbarheter og opportunistiske angrep, til systematisk undergraving av tillit, leverandøravhengighet og beredskap. Der tidlige år handlet om ransomware og digital hygiene, peker de siste rapportene tydelig på styring, samhandling og beslutningsevne som den største svakheten. Norge opererer nå i en permanent tilstand av digitalt press hvor trusler ikke lenger er hypotetiske, men daglige realiteter som må håndteres kontinuerlig.
             </p>
           </div>
-          
+
+          {/* Development over time - Reversed order (2026 first) */}
           <div className="nsm-timeline">
-            <div className="timeline-item">
-              <div className="year-badge">2020</div>
-              <h3>🦠 Pandemi og Digital Transformasjon</h3>
-              <p>COVID-19 akselererte digitalisering, eksponerte sårbarheter i hjemmekontor-løsninger og VPN-sikkerhet.</p>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="year-badge">2021</div>
-              <h3>🔐 Ransomware som Strategisk Trussel</h3>
-              <p>Løsepengevirus transformerte til profesjonell forretningsmodell. Kritisk infrastruktur og helsesektoren ble hovedmål.</p>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="year-badge">2022</div>
-              <h3>⚔️ Geopolitisk Vendepunkt</h3>
-              <p>Ukraina-krigen endret trusselbildet. Hybridkrigsføring og sabotasje mot energiinfrastruktur ble reelle trusler.</p>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="year-badge">2023</div>
-              <h3>🕵️ Etterretning og Datatyveri</h3>
-              <p>Systematisk datatyveri rettet mot teknologi- og forsvarssektoren. Leverandøravhengighet som strategisk risiko.</p>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="year-badge">2024</div>
-              <h3>🔗 Fysisk-Digitalt Samspill</h3>
-              <p>Sammenhengen mellom fysiske og digitale angrep ble tydeligere. Kritisk infrastruktur som primært mål.</p>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="year-badge">2025</div>
-              <h3>🎭 Tillitssvekkelse som Strategisk Mål</h3>
-              <p>Psykologiske operasjoner rettet mot å undergrave tillit til institusjoner. Leverandørlås som nasjonal sikkerhetsrisiko.</p>
-            </div>
+            <h3 className="nsm-subsection-title">Utvikling over tid</h3>
             
             <div className="timeline-item highlight">
               <div className="year-badge">2026</div>
-              <h3>🤖 Systemundergraving og AI-Trusler</h3>
+              <h4>🤖 Systemundergraving og AI-Trusler</h4>
               <p>AI og LLM som nye trusselvektorer. Automatisert desinformasjon, deepfake-teknologi og AI-assistert etterretning. Beredskapsvikt som større trussel enn tekniske angrep.</p>
+              <div className="year-insight">→ Beredskap og styring vurderes som svakere enn tekniske kontroller</div>
               <div className="key-threats">
                 <span className="threat-badge">🤖 AI-trusler</span>
                 <span className="threat-badge">🎭 Deepfake</span>
                 <span className="threat-badge">📱 Desinformasjon</span>
                 <span className="threat-badge">⚠️ Beredskapsvikt</span>
               </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="year-badge">2025</div>
+              <h4>🎭 Tillitssvekkelse som Strategisk Mål</h4>
+              <p>Psykologiske operasjoner rettet mot å undergrave tillit til institusjoner. Leverandørlås som nasjonal sikkerhetsrisiko.</p>
+              <div className="year-insight">→ Fra informasjonsinnhenting til systematisk destabilisering av samfunnssystemer</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2024</div>
+              <h4>🔗 Fysisk-Digitalt Samspill</h4>
+              <p>Sammenhengen mellom fysiske og digitale angrep ble tydeligere. Kritisk infrastruktur som primært mål.</p>
+              <div className="year-insight">→ Hybridtrusler som permanent tilstand, ikke enkelthendelser</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2023</div>
+              <h4>🕵️ Etterretning og Datatyveri</h4>
+              <p>Systematisk datatyveri rettet mot teknologi- og forsvarssektoren. Leverandøravhengighet som strategisk risiko.</p>
+              <div className="year-insight">→ Leverandører blir angrepsflate, ikke bare risiko</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2022</div>
+              <h4>⚔️ Geopolitisk Vendepunkt</h4>
+              <p>Ukraina-krigen endret trusselbildet. Hybridkrigsføring og sabotasje mot energiinfrastruktur ble reelle trusler.</p>
+              <div className="year-insight">→ Fra cyberkriminalitet til statssponsorert hybridkrigsføring</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2021</div>
+              <h4>🔐 Ransomware som Strategisk Trussel</h4>
+              <p>Løsepengevirus transformerte til profesjonell forretningsmodell. Kritisk infrastruktur og helsesektoren ble hovedmål.</p>
+              <div className="year-insight">→ Ransomware blir industri – fokus skifter fra teknikk til organisasjon</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2020</div>
+              <h4>🦠 Pandemi og Digital Transformasjon</h4>
+              <p>COVID-19 akselererte digitalisering, eksponerte sårbarheter i hjemmekontor-løsninger og VPN-sikkerhet.</p>
+              <div className="year-insight">→ Forcert digitalisering eksponerer fundamentale sikkerhetsgap</div>
+            </div>
+          </div>
+
+          {/* Key recurring findings */}
+          <div className="nsm-recurring-findings">
+            <h3 className="nsm-subsection-title">Viktigste gjennomgående funn</h3>
+            <div className="findings-grid">
+              <div className="finding-card">
+                <div className="finding-icon">🔑</div>
+                <h4>Identitet og tilgang</h4>
+                <p>Mennesker og tilgangsstyring er viktigere enn tekniske systemer. Svak identitetshåndtering utnyttes systematisk.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🔗</div>
+                <h4>Leverandør- og avhengighetsrisiko</h4>
+                <p>Teknologiavhengighet og leverandørlås utgjør strategisk sårbarhet. Kompromittering av leverandører gir tilgang til mange samtidig.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🎭</div>
+                <h4>Informasjonspåvirkning og tillit</h4>
+                <p>Systematisk tillitssvekkelse gjennom psyops og desinformasjon. Målet er destabilisering, ikke bare informasjonsinnhenting.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">⚠️</div>
+                <h4>Beredskap og beslutningsevne</h4>
+                <p>Manglende planverk, øvelser og organisatoriske forberedelser er større trussel enn selve angrepene.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🤖</div>
+                <h4>Teknologi utvikler seg raskere enn styring</h4>
+                <p>AI, LLM og automatisering skaper nye trusselvektorer. Styringsmodeller henger etter den teknologiske utviklingen.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Actionable recommendations */}
+          <div className="nsm-recommendations">
+            <h3 className="nsm-subsection-title">Hva bør man faktisk fokusere på nå?</h3>
+            <p className="recommendations-intro">Basert på NSMs vurderinger og observerte hendelser i {selectedYear} bør organisasjoner prioritere:</p>
+            <ul className="recommendations-list">
+              <li>
+                <strong>Mindre fokus på "flere verktøy", mer på roller, ansvar og øvelser</strong><br/>
+                Tekniske kontroller er utilstrekkelige uten tydelig ansvarsfordeling og regelmessig testing av beredskapsplaner.
+              </li>
+              <li>
+                <strong>Styring av leverandører før nye digitale initiativ</strong><br/>
+                Kartlegg teknologiavhengighet og reduser enkeltstående feilpunkter gjennom diversifisering og kontraktsmessige krav.
+              </li>
+              <li>
+                <strong>Forberede seg på hendelser som er uklare, ikke bare "klassiske angrep"</strong><br/>
+                Hybridtrusler, desinformasjon og tillitssvekkelse krever beredskap utover tradisjonell incident-respons.
+              </li>
+              <li>
+                <strong>Bygge evne til å operere under vedvarende digitalt press</strong><br/>
+                Norge er i en permanent tilstand av påvirkning. Resiliens handler om kontinuerlig drift, ikke kun gjenoppretting.
+              </li>
+            </ul>
+          </div>
+
+          {/* Cross-references to other sections */}
+          <div className="nsm-cross-references">
+            <h4>Se også</h4>
+            <div className="cross-ref-links">
+              <a href="#themes" className="cross-ref-link">→ Strategic Risk Themes: Dypere analyse av risikomønstre</a>
+              <a href="#defense" className="cross-ref-link">→ Defense Analysis: Hva fungerte og hva sviktet</a>
+              <a href="#regulation" className="cross-ref-link">→ Regulation Impact: Regelverkets rolle i norsk cybersikkerhet</a>
             </div>
           </div>
           
