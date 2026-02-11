@@ -1,5 +1,626 @@
 [
   {
+    "id": "20266726",
+    "date": "2026-02-11",
+    "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities",
+    "summary": "Indian defense sector and government-aligned organizations have been targeted by multiple campaigns that are designed to compromise Windows and Linux environments with remote access trojans capable of stealing sensitive data and ensuring continued access to infected machines. The campaigns are ch...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
+    "tags": [
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266727",
+    "date": "2026-02-11",
+    "title": "Moscow moves to throttle Telegram as Kremlin pushes its own messaging app",
+    "summary": "Russia’s communications regulator, Roskomnadzor, confirmed Tuesday that it has deliberately “slowed down” the app, which has nearly 90 million local users, citing the company’s failure to comply with Russian law.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/russia-throttles-telegram-pushes-its-own-messaging-app",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266728",
+    "date": "2026-02-11",
+    "title": "[Ekstra] Lyser ut jobben som nasjonal KI-sjef",
+    "summary": "Direktøren for KI Norge loves en nøkkelrolle i utviklingen av kunstig intelligens i Norge – og millionlønn.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/lyser-ut-jobben-som-nasjonal-ki-sjef/568177",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266729",
+    "date": "2026-02-11",
+    "title": "Webinar Today: Identity Under Attack – Strengthen Your Identity Defenses",
+    "summary": "Gain practical insights on balancing security, user experience, and operational efficiency while staying ahead of increasingly sophisticated threats. The post Webinar Today: Identity Under Attack – Strengthen Your Identity Defenses appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/webinar-today-identity-under-attack-strengthen-your-identity-defenses/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266730",
+    "date": "2026-02-11",
+    "title": "Vil ha omkamp om statlig eid nasjonal sky",
+    "summary": "Regjeringen takket nei til forslaget om en statlig eid og driftet sky. Nå vil Fagforbundet, NTL og SV ha omkamp.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/sv-forslag-om-fortgang-i-statlig-eid-nasjonal-sky/568174",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266731",
+    "date": "2026-02-11",
+    "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms",
+    "summary": "It's Patch Tuesday, which means a number of software vendors have released patches for various security vulnerabilities impacting their products and services. Microsoft issued fixes for 59 flaws, including six actively exploited zero-days in various Windows components that could be abused to bypa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266732",
+    "date": "2026-02-11",
+    "title": "GitGuardian Raises $50 Million for Secrets and Non-Human Identity Security",
+    "summary": "The secrets security company has raised more than $100 million since its creation in 2017. The post GitGuardian Raises $50 Million for Secrets and Non-Human Identity Security appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/gitguardian-raises-50-million-for-secrets-and-non-human-identity-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266733",
+    "date": "2026-02-11",
+    "title": "GOP Congress moves to shape election law in Trump’s image",
+    "summary": "Republicans in Congress are moving ahead with two pieces of legislation this week that would dramatically reshape the nation’s election laws. Together, the SAVE America Act and MEGA Act would shift key voter certification powers to the executive branch, require stricter proof of citizenship for v...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/republicans-propose-save-america-act-mega-act-election-laws/",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266734",
+    "date": "2026-02-11",
+    "title": "Conduent Breach Hits Volvo Group: Nearly 17,000 Employees’ Data Exposed",
+    "summary": "The Conduent data breach affects at least 25 million individuals, up from 10 million estimated a few months ago. The post Conduent Breach Hits Volvo Group: Nearly 17,000 Employees’ Data Exposed appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/conduent-breach-hits-volvo-group-nearly-17000-employees-data-exposed/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266735",
+    "date": "2026-02-11",
+    "title": "WSL in the Malware Ecosystem, (Wed, Feb 11th)",
+    "summary": "WSL or “Windows Subsystem Linux”[1] is a feature in the Microsoft Windows ecosystem that allows users to run a real Linux environment directly inside Windows without needing a traditional virtual machine or dual boot setup. The latest version, WSL2, runs a lightweight virtualized Linux kernel for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32704",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266736",
+    "date": "2026-02-11",
+    "title": "Zast.AI Raises $6 Million for AI-Powered Code Security",
+    "summary": "The startup relies on AI agents to identify software vulnerabilities and validate them before reporting. The post Zast.AI Raises $6 Million for AI-Powered Code Security appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/zast-ai-raises-6-million-for-ai-powered-code-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266737",
+    "date": "2026-02-11",
+    "title": "Security in the Dark: Recognizing the Signs of Hidden Information",
+    "summary": "Security failures don’t always start with attackers, sometimes they start with missing truth. The post Security in the Dark: Recognizing the Signs of Hidden Information appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/security-in-the-dark-recognizing-the-signs-of-hidden-information/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266738",
+    "date": "2026-02-11",
+    "title": "KI spiser ikke konsulenter",
+    "summary": "Men KI kommer til å fjerne tålmodigheten med å betale for timer uten at noen kan vise til effekt.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-ki-spiser-ikke-konsulenter/568051",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266739",
+    "date": "2026-02-11",
+    "title": "Microsoft to Refresh Windows Secure Boot Certificates in June 2026",
+    "summary": "After a decade and a half of service, the current certificates will expire, and new ones will be rolled out. The post Microsoft to Refresh Windows Secure Boot Certificates in June 2026 appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-to-refresh-windows-secure-boot-certificates-in-june-2026/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266740",
+    "date": "2026-02-11",
+    "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
+    "summary": "Intentionally vulnerable training applications are widely used for security education, internal testing, and product demonstrations. Tools such as OWASP Juice Shop, DVWA, Hackazon, and bWAPP are designed to be insecure by default, making them useful for learning how common attack techniques work ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266741",
+    "date": "2026-02-11",
+    "title": "Hacker Conversations: Professional Hacker Douglas Day",
+    "summary": "Day became a professional hacker by choice. But that doesn’t mean he isn’t a natural hacker. The post Hacker Conversations: Professional Hacker Douglas Day appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/hacker-conversations-professional-hacker-douglas-day/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266742",
+    "date": "2026-02-11",
+    "title": "DeLauro Introduces Government Funding Bill | House Committee on Appropriations",
+    "summary": "Cybersecurity and Infrastructure Security ... This bill simply protects aviation security, disaster preparedness and response, cyber security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://democrats-appropriations.house.gov/news/press-releases/delauro-introduces-government-funding-bill",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266743",
+    "date": "2026-02-11",
+    "title": "Cybersecurity in 2026: Cutting Through the Noise and Rethinking Control - CPO Magazine",
+    "summary": "It's overabundance. Signals, platforms and rapid technological advancements dominate security leaders going into the new year. Interpretation is now ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cpomagazine.com/cyber-security/cybersecurity-in-2026-cutting-through-the-noise-and-rethinking-control/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266744",
+    "date": "2026-02-11",
+    "title": "First Horizon Appoints Leilani Farol as Chief Information Security Officer - PR Newswire",
+    "summary": "In the CISO role, Farol will lead enterprise cybersecurity strategy and execution. She is responsible for continuing to strengthen the company's ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/first-horizon-appoints-leilani-farol-as-chief-information-security-officer-302685334.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266745",
+    "date": "2026-02-11",
+    "title": "Valentine's Day Phishing Attacks: How Seasonal Scams Exploit Trust | Bitsight",
+    "summary": "Gartner® Predicts 2026: Cybersecurity Program Rebrands to Cyber Resilience ... Free Cyber Security Reports. Security Ratings Snapshot · Attack Surface ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bitsight.com/blog/valentines-day-seasonal-phishing-attacks",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266746",
+    "date": "2026-02-11",
+    "title": "Identity Security | Secure Every Identity - Palo Alto Networks",
+    "summary": "Today, the rise of AI and the explosion of machine identities have made it clear that the future of security must be built on the vision that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/identity-security",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266747",
+    "date": "2026-02-11",
+    "title": "Palo Alto Networks completes CyberArk acquisition, plans Tel Aviv listing | Ctech",
+    "summary": "Palo Alto Networks has completed its $25 billion acquisition of CyberArk, a landmark deal that recasts identity security as the core of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/by4vnl5vwl",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266748",
+    "date": "2026-02-11",
+    "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+    "summary": "... cyber threat research at Immersive, told The Hacker News via email. ... The development has prompted the U.S. Cybersecurity and Infrastructure Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266749",
+    "date": "2026-02-11",
+    "title": "UA Little Rock Dedicates CORE Center to Expand Cybersecurity Education and Workforce ...",
+    "summary": "... cybersecurity program. Just weeks before graduation, she began working as an information security analyst associate with Arkansas Blue Cross and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ualr.edu/news/2026/02/10/ua-little-rock-dedicates-core-center-to-expand-cybersecurity-education-and-workforce-development-across-arkansas/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266750",
+    "date": "2026-02-11",
+    "title": "From Ransomware to Residency: The Rise of the Digital Parasite - LinkedIn",
+    "summary": "World's Premier Cyber Security Portal. Published Feb 11, 2026. + Follow. For years, ransomware encryption was the clearest signal ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/from-ransomware-residency-rise-digital-parasite-bf7xe",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266751",
+    "date": "2026-02-11",
+    "title": "Healthcare Cybersecurity Forum at HIMSS26: Workforce, leadership, technology",
+    "summary": "With cyber threats against hospitals and health systems growing more ... The role of the healthcare chief information security officer is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.healthcareitnews.com/news/healthcare-cybersecurity-forum-himss26-workforce-leadership-technology",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266752",
+    "date": "2026-02-11",
+    "title": "U.S. Senator Says AT&T, Verizon Blocking Release of Salt Typhoon Security Assessment Reports",
+    "summary": "Cantwell asked both companies to turn over security assessments conducted by Alphabet cybersecurity unit Mandiant. She said Mandiant refused to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hstoday.us/subject-matter-areas/cybersecurity/u-s-senator-says-att-verizon-blocking-release-of-salt-typhoon-security-assessment-reports/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266753",
+    "date": "2026-02-11",
+    "title": "Citi Puts a Multi-Trillion-Dollar Price Tag on The Quantum Cybersecurity Threat",
+    "summary": "A Citi Institute report estimates that a quantum-enabled cyberattack disrupting a major U.S. bank's access to Fedwire could put $2.0–$3.3 trillion of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thequantuminsider.com/2026/02/10/citi-puts-a-multi-trillion-dollar-price-tag-on-the-quantum-cybersecurity-threat/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266754",
+    "date": "2026-02-11",
+    "title": "EU okays Google's $32 billion Wiz deal, in largest-ever buyout of Israeli-founded tech co",
+    "summary": "Acquisition will make founders of cybersecurity company multibillionaires ... The deal will boost Google's cloud security offerings to help it ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.timesofisrael.com/eu-okays-googles-32-billion-wiz-deal-in-largest-ever-buyout-of-israeli-founded-tech-co/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266755",
+    "date": "2026-02-11",
+    "title": "Semperis Names Women in Cyber Security (WiCyS) as an Action Partner for Midnight in the ...",
+    "summary": "PRNewswire/ -- Semperis, the identity-driven cyber resilience and crisis management company, today named Women in CyberSecurity (WiCyS)— the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/semperis-names-women-in-cyber-security-wicys-as-an-action-partner-for-midnight-in-the-war-room-the-groundbreaking-documentary-on-cyberwar-302684582.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266756",
+    "date": "2026-02-11",
+    "title": "Rockwell Automation Enhances Cybersecurity Services with SOC Launch in Singapore",
+    "summary": "... network of Managed Security Services—the Security Operations Center (SOC) in Singapore—delivers 24/7 real-time monitoring, advanced threat ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.arcweb.com/blog/rockwell-automation-enhances-cybersecurity-services-soc-launch-singapore",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266757",
+    "date": "2026-02-11",
+    "title": "Explore New Micro-Challenges on the Cyber Career Pathways Tool - NICCS - CISA",
+    "summary": "Secure Software Development (new!) Threat Analysis (new!) Vulnerability Analysis. Advanced. Communications Security Management (new!) Cybersecurity ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://niccs.cisa.gov/news-events/featured-stories/explore-new-micro-challenges-cyber-career-pathways-tool",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266758",
+    "date": "2026-02-11",
+    "title": "Palo Alto Networks Completes Acquisition of CyberArk to Secure the AI Era",
+    "summary": "SANTA CLARA, Calif., Feb. 11, 2026 /PRNewswire/ -- Palo Alto Networks® (NASDAQ: PANW), the global cybersecurity leader, today announced the completion ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266759",
+    "date": "2026-02-11",
+    "title": "Understanding California Cyber Audit Requirements - Lexology",
+    "summary": "This likely means that the cybersecurity audit function cannot fall under the information security organization itself or be the responsibility of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=61377c1c-ca1a-4294-af2d-e526782f7f12",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266760",
+    "date": "2026-02-11",
+    "title": "Can high-temperature superconductors transform the power infrastructure of datacenters?",
+    "summary": "As the demand for AI and data-intensive computing is on the rise, the need for efficient and reliable power delivery is critical. Enter high-temperature superconductors (HTS), a game-changing technology that can improve energy efficiency by reducing transmission losses. Microsoft is investigating...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://azure.microsoft.com/en-us/blog/can-high-temperature-superconductors-transform-the-power-infrastructure-of-datacenters/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266761",
+    "date": "2026-02-11",
+    "title": "Google flags sustained cyber pressure on defense industrial base from Russia, China-linked actors",
+    "summary": "The GTIG disclosure comes as the Cyber Security Agency of Singapore ... Get timely industrial cybersecurity news, in depth features, expert ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/reports/google-flags-sustained-cyber-pressure-on-defense-industrial-base-from-russia-china-linked-actors/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266762",
+    "date": "2026-02-11",
+    "title": "CISA alerts on OT vulnerabilities after Poland energy attack damaged RTUs and wiped HMI data",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an alert amplifying a recent incident in Poland's energy sector that ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/cisa-alerts-on-ot-vulnerabilities-after-poland-energy-attack-damaged-rtus-and-wiped-hmi-data/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266763",
+    "date": "2026-02-11",
+    "title": "Palo Alto Networks Completes Acquisition of CyberArk to Secure the AI Era",
+    "summary": ", Feb. 11, 2026 /PRNewswire/ -- Palo Alto Networks® (NASDAQ: PANW), the global cybersecurity leader, today announced the completion of its acquisition ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-completes-acquisition-cyberark-secure-ai-era",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266764",
+    "date": "2026-02-11",
+    "title": "How to become a project manager with Boise State's online bachelor degree",
+    "summary": "Cyber Security emphasis: Acquire the skills and knowledge necessary to identify and assess cybersecurity risks, implement security measures and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.boisestate.edu/online/2026/02/10/boise-states-online-bachelor-in-project-management/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266765",
+    "date": "2026-02-11",
+    "title": "Stronger Together: Cyber Leaders Address Converging Threats | GW Today",
+    "summary": "At GW's second annual cybersecurity conference, experts examined ... They included Vitaly Panych, chief information security officer for the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://gwtoday.gwu.edu/stronger-together-cyber-leaders-address-converging-threats",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266766",
+    "date": "2026-02-11",
+    "title": "OWASP Releases: Vendor Evaluation Criteria For AI Red Teaming - LinkedIn",
+    "summary": "World's Premier Cyber Security Portal ... The OWASP GenAI Security Project has publicly released a new resource aimed at helping organizations assess AI ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/owasp-releases-vendor-evaluation-criteria-ai-red-ckp1e",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266767",
+    "date": "2026-02-11",
+    "title": "The strategic SIEM buyer’s guide: Choosing an AI-ready platform for the agentic era",
+    "summary": "As the agentic era reshapes security operations, leaders face a strategic inflection point: legacy security information and event management (SIEM) solutions and fragmented toolchains can no longer keep pace with the scale, speed, and complexity of modern cyberthreats. Organizations can choose to...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/",
+    "tags": [
+      "malware",
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266693",
     "date": "2026-02-11",
     "title": "Sur Windows 11, les applis devront bientôt demander la permission, comme sur smartphone",
