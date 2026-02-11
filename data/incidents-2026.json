@@ -1,5 +1,228 @@
 [
   {
+    "id": "20266601",
+    "date": "2026-02-10",
+    "title": "Cyber Command, NSA nominee Rudd advances to Senate floor",
+    "summary": "The Senate Armed Services Committee, which shares jurisdiction over the nomination due to the “dual-hat” leadership structure that governs both entities, approved Rudd by voice vote last month.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cyber-command-nsa-nominee-rudd-advances-to-senate",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266602",
+    "date": "2026-02-10",
+    "title": "Microsofts patchetirsdag februar",
+    "summary": "Microsoft har offentliggjort sine månedlige sikkerhetsoppdateringer. NSM har ingen spesifikke sårbarheter å fremheve.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://nsm.no/fagomrader/digital-sikkerhet/nasjonalt-cybersikkerhetssenter/varsler-fra-nsm/microsofts-patchetirsdag-februar",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266603",
+    "date": "2026-02-10",
+    "title": "Microsoft Patch Tuesday matches last year’s zero-day high with six actively exploited vulnerabilities",
+    "summary": "Microsoft’s latest security update is littered with zero-day vulnerabilities, actively exploited defects that account for more than 10% of the total CVEs the vendor addressed in this month’s Patch Tuesday update. The vendor addressed 59 vulnerabilities affecting its various products for business ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/microsoft-patch-tuesday-february-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266604",
+    "date": "2026-02-10",
+    "title": "Inside the Human-AI Feedback Loop Powering CrowdStrike’s Agentic Security",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/inside-the-human-ai-feedback-loop-powering-crowdstrike-agentic-security/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266605",
+    "date": "2026-02-10",
+    "title": "[Ekstra] KI-agent med full kontroll over PC-en: – Mindblowing",
+    "summary": "Viral KI-løsning utfører oppgaver mens du sover, men eksperter advarer mot sikkerhetshull.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ki-agent-med-full-kontroll-over-pc-en-mindblowing/568024",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266606",
+    "date": "2026-02-10",
+    "title": "6 Actively Exploited Zero-Days Patched by Microsoft With February 2026 Updates",
+    "summary": "Microsoft’s Patch Tuesday updates fix roughly 60 vulnerabilities found in the company’s products. The post 6 Actively Exploited Zero-Days Patched by Microsoft With February 2026 Updates appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/6-actively-exploited-zero-days-patched-by-microsoft-with-february-2026-updates/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266607",
+    "date": "2026-02-10",
+    "title": "Microsoft Patch Tuesday - January 2026, (Tue, Feb 10th)",
+    "summary": "Today's patch Tuesday addresses 59 different vulnerabilities (plus two Chromium vulnerabilities affecting Microsoft Edge). While this is a lower-than-normal number, this includes six vulnerabilities that are already exploited. Three vulnerabilities have already been exploited and made public. In ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32700",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266608",
+    "date": "2026-02-10",
+    "title": "72 CxOs On the Move - The National CIO Review",
+    "summary": "IonQ has appointed Katie Arrington as Chief Information Officer, bringing a prominent national security and cybersecurity leader into its executive ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nationalcioreview.com/cxos-on-the-move/72-cxos-on-the-move/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266609",
+    "date": "2026-02-10",
+    "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness ...",
+    "summary": "EC-Council offers over 200 certifications and degrees in various cybersecurity domains, including forensics, security analysis, threat intelligence, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/ec-council-in-news/ec-council-expands-ai-certification-portfolio-to-strengthen-u-s-ai-workforce-readiness-and-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266610",
+    "date": "2026-02-10",
+    "title": "Franklin, TN Series 2026 GO Bonds Assigned 'AAA' Rating; Outlook Stable - S&P Global",
+    "summary": "We believe Franklin has well-established cyber security practices to identify, protect, detect, and recover from future cybersecurity threats.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3515298",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266611",
+    "date": "2026-02-10",
+    "title": "CISA Releases Guide to Help Critical Infrastructure Users Adopt More Secure Communication",
+    "summary": "WASHINGTON – The Cybersecurity and Infrastructure Security Agency (CISA) today released a new guide to help operational technology (OT) owners and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-releases-guide-help-critical-infrastructure-users-adopt-more-secure-communication",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266612",
+    "date": "2026-02-10",
+    "title": "​​Barriers to Secure OT Communication: Why Johnny Can't Authenticate​ | CISA",
+    "summary": "We welcome your feedback. CISA Product Survey. Tags. Language: English. Topics: Cybersecurity Best ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/resources-tools/resources/barriers-secure-ot-communication-why-johnny-cant-authenticate",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266613",
+    "date": "2026-02-10",
+    "title": "As AI agents take over, security is becoming a bigger concern - Yahoo Finance",
+    "summary": "A new report from Microsoft says AI agents could pose a cybersecurity threat to some businesses ... According to Microsoft's Cyber Pulse security report ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/as-ai-agents-take-over-security-is-becoming-a-bigger-concern-160109297.html",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266614",
+    "date": "2026-02-10",
+    "title": "Microsoft dials up the nagging in Windows, calls it security - The Register",
+    "summary": "Microsoft is introducing a raft of Windows security features that users and administrators alike might assume are already part of the operating ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/10/microsoft_windows_security/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266615",
+    "date": "2026-02-10",
+    "title": "Redefining Security for the Agentic Era - Cisco Blogs",
+    "summary": "Through the Cisco Data Fabric, we unify network, security, and ... Tags: Agentic AI AI Cybersecurity Cisco SASE Identity Security secure access ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blogs.cisco.com/security/redefining-security-for-the-agentic-era",
+    "tags": [
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266575",
     "date": "2026-02-10",
     "title": "A new wave of romance scams is washing across the internet – here’s how to stay safe",
