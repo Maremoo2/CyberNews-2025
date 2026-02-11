@@ -4684,6 +4684,32 @@
     "impact": 3
   },
   {
+    "id": "20252054",
+    "date": "2025-12-17",
+    "title": "Opening Doors to the Future: CISA Announces Participation in the CyberCorps® Scholarship for Service (SFS)",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/opening-doors-future-cisa-announces-participation-cybercorpsr-scholarship-service-sfs",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252055",
+    "date": "2025-12-17",
+    "title": "CISA Releases Dynamic New Guide for Stadium and Arena Owners to Fortify Operations, Mitigate Vulnerabilities and Elevate Emergency Preparedness",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-releases-dynamic-new-guide-stadium-and-arena-owners-fortify-operations-mitigate-vulnerabilities",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251950",
     "date": "2025-12-17",
     "title": "Motors WordPress Vulnerability Exposes Sites to Takeover",
@@ -6267,6 +6293,18 @@
     "impact": 5
   },
   {
+    "id": "20252056",
+    "date": "2025-12-11",
+    "title": "CISA Unveils Enhanced Cross-Sector Cybersecurity Performance Goals",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-unveils-enhanced-cross-sector-cybersecurity-performance-goals",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20251969",
     "date": "2025-12-11",
     "title": "OpenAI Enhances Defensive Models to Mitigate Cyber-Threats",
@@ -7171,6 +7209,20 @@
     "impact": 5
   },
   {
+    "id": "20252057",
+    "date": "2025-12-09",
+    "title": "CISA, FBI, and U.S. and Global Partners Urge Immediate Action to Defend Critical Infrastructure from Pro-Russia Hacktivist Threats",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-fbi-and-us-and-global-partners-urge-immediate-action-defend-critical-infrastructure-pro-russia",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20251979",
     "date": "2025-12-09",
     "title": "React2Shell Exploit Campaigns Tied to North Korean Cyber Intrusion Tactics",
@@ -7954,6 +8006,18 @@
     "tags": [
       "vulnerability"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20252058",
+    "date": "2025-12-05",
+    "title": "NCSWIC releases the “‘What is a PACE Plan” video",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/ncswic-releases-what-pace-plan-video",
+    "tags": [],
     "impact": 3
   },
   {
@@ -10944,6 +11008,21 @@
       "national security"
     ],
     "impact": 4
+  },
+  {
+    "id": "20252059",
+    "date": "2025-11-19",
+    "title": "CISA Urges Critical Infrastructure to Be Air Aware",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-urges-critical-infrastructure-be-air-aware",
+    "tags": [
+      "critical-infrastructure",
+      "ai-ml"
+    ],
+    "impact": 5
   },
   {
     "id": "20251912",
@@ -16267,6 +16346,20 @@
     "impact": 3
   },
   {
+    "id": "20252060",
+    "date": "2025-09-24",
+    "title": "Helping OT Organizations to Establish Defensible Architecture and More Resilient Operations",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/helping-ot-organizations-establish-defensible-architecture-and-more-resilient-operations",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251634",
     "date": "2025-09-24",
     "title": "AI to the rescue.",
@@ -17232,6 +17325,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20252061",
+    "date": "2025-09-10",
+    "title": "The Mandate, Mission, and Momentum to lead the CVE Program into the Future belongs to CISA",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/mandate-mission-and-momentum-lead-cve-program-future-belongs-cisa",
+    "tags": [],
     "impact": 3
   },
   {
@@ -18219,6 +18324,18 @@
     "impact": 5
   },
   {
+    "id": "20252062",
+    "date": "2025-08-22",
+    "title": "The Joint SAFECOM-NCSWIC Project 25 (P25) User Needs Working Group (UNWG) releases the UNWG Video Series",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/joint-safecom-ncswic-project-25-p25-user-needs-working-group-unwg-releases-unwg-video-series",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20251669",
     "date": "2025-08-22",
     "title": "A free speech showdown.",
@@ -18460,6 +18577,18 @@
       "ai-ml",
       "microsoft"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20252063",
+    "date": "2025-08-20",
+    "title": "Tackling the National Gap in Software Understanding",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/tackling-national-gap-software-understanding",
+    "tags": [],
     "impact": 3
   },
   {
@@ -20735,6 +20864,21 @@
     "impact": 5
   },
   {
+    "id": "20252064",
+    "date": "2025-07-15",
+    "title": "Securing Core Cloud Identity Infrastructure: Addressing Advanced Threats through Public-Private Collaboration",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/securing-core-cloud-identity-infrastructure-addressing-advanced-threats-through-public-private",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251708",
     "date": "2025-07-15",
     "title": "The Grok that broke the camel’s back.",
@@ -21499,6 +21643,18 @@
     "country": "Italy",
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/cybersicurezza-nell-area-euro-investimenti-i-75-miliardi-AH47W3RB",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252065",
+    "date": "2025-07-02",
+    "title": "SAFECOM Releases the Emergency Communications System Lifecycle Planning Guide Suite Refresh ",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/safecom-releases-emergency-communications-system-lifecycle-planning-guide-suite-refresh",
     "tags": [],
     "impact": 3
   },
@@ -24709,6 +24865,20 @@
     "sourceUrl": "https://www.theguardian.com/money/2025/may/21/what-to-do-get-into-facebook-instagram-hacked-security",
     "tags": [
       "facebook"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252066",
+    "date": "2025-05-20",
+    "title": "SAFECOM and National Council of Statewide Interoperability Coordinators (NCSWIC) develop Artificial Intelligence in Emergency Communications Centers Infographic",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/safecom-and-national-council-statewide-interoperability-coordinators-ncswic-develop-artificial",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },

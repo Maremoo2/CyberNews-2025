@@ -1,5 +1,477 @@
 [
   {
+    "id": "20266693",
+    "date": "2026-02-11",
+    "title": "Sur Windows 11, les applis devront bientôt demander la permission, comme sur smartphone",
+    "summary": "Microsoft veut faire évoluer le modèle de sécurité de Windows. Après les services cloud et les outils de productivité, le système d’exploitation amorce à son tour une transition vers un fonctionnement sécurisé par défaut.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600100-sur-windows-11-les-applis-devront-bientot-demander-la-permission-comme-sur-smartphone.html",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266694",
+    "date": "2026-02-11",
+    "title": "Vous avez téléchargé 7-Zip sur le mauvais site ? Votre PC peut servir de proxy sans que vous le sachiez",
+    "summary": "Derrière une copie parfaitement fonctionnelle de 7-Zip, les chercheurs de Malwarebytes ont identifié un malware chargé d’enrôler la machine infectée dans un réseau proxy résidentiel, à l’insu de la victime.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600076-vous-avez-telecharge-7-zip-sur-le-mauvais-site-votre-pc-peut-servir-de-proxy-sans-que-vous-le-sachiez.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266695",
+    "date": "2026-02-11",
+    "title": "Voici Meshtastic, la messagerie post-apocalyptique",
+    "summary": "Le projet Meshtastic transforme des radios bon marché en un réseau de messagerie décentralisé capable de fonctionner sans infrastructure. Cette solution open source relativement abordable a été pensée pour les zones blanches et les situations d'urgence.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599995-voici-meshtastic-la-messagerie-post-apocalyptique.html",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266696",
+    "date": "2026-02-11",
+    "title": "Windows 11 : Microsoft corrige six failles zero-day déjà exploitées dans son Patch Tuesday de février",
+    "summary": "Le Patch Tuesday de février revient sur plusieurs failles déjà exploitées, dont certaines permettent de désactiver les protections face aux contenus piégés. En parallèle, Microsoft poursuit le déploiement de ses nouveaux certificats Secure Boot et corrige un ensemble plus large de vulnérabilités,...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600052-windows-11-microsoft-corrige-six-failles-zero-day-deja-exploitees-dans-son-patch-tuesday-de-fevrier.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266697",
+    "date": "2026-02-11",
+    "title": "Majority of Ivanti EPMM threat activity linked to hidden IP",
+    "summary": "A report by GreyNoise warns the IP address is operating behind bulletproof hosting infrastructure and might not show up in current IoCs.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/majority-ivanti-epmm-hidden-ip/811960/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266698",
+    "date": "2026-02-11",
+    "title": "Extortion attacks on the rise as hackers prioritize supply-chain weaknesses",
+    "summary": "Consulting firms and manufacturing companies accounted for many of the ransomware victims posted to the dark web in 2025, Intel 471 said.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ransomware-extortion-intel-471/811954/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266699",
+    "date": "2026-02-11",
+    "title": "LummaStealer returns using CastleLoader to bypass detection",
+    "summary": "Less than a year after a global law enforcement takedown severely disrupted its operations, LummaStealer has not only survived, but it’s thriving again. Bitdefender researchers report a sharp resurgence in the infostealer’s activity, now fueled by a stealthy delivery chain centered on CastleLoade...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/lummastealer-returns-using-castleloader-to-bypass-detection/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266700",
+    "date": "2026-02-11",
+    "title": "VPN anonymity undermined by new AdBleed fingerprinting technique",
+    "summary": "A new browser fingerprinting technique dubbed AdBleed reveals a previously overlooked privacy leak vector, country-specific adblock filter lists, that can partially de-anonymize users even when traffic is routed through a VPN or Tor. The proof-of-concept, developed by independent researcher Melvi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/vpn-anonymity-undermined-by-new-adbleed-fingerprinting-technique/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266701",
+    "date": "2026-02-11",
+    "title": "Ivanti EPMM exploitation: Researchers warn of “sleeper” webshells",
+    "summary": "A massive wave of exploitation attempts has followed the disclosure of CVE-2026-1281, a critical pre-authentication Ivanti EPMM vulnerability, the Shadowserver Foundation has warned. Some of it is automated scanning for vulnerable systems, but according to Greynoise and Defused, a suspected initi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/ivanti-epmm-sleeper-webshell/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266702",
+    "date": "2026-02-11",
+    "title": "Microsoft begins Secure Boot certificate update for Windows devices",
+    "summary": "Microsoft has begun updating Secure Boot certificates originally issued in 2011 to ensure that Windows devices continue to verify boot software as older certificates reach the end of their lifecycle and begin expiring in June 2026. How Secure Boot certificate updates work For most individuals and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/microsoft-windows-secure-boot-certificate-update/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266703",
+    "date": "2026-02-11",
+    "title": "CodeHunter expands behavioral intent analysis to secure the software supply chain",
+    "summary": "CodeHunter is expanding its behavioral intent technology beyond traditional malware analysis to address supply chain risk and security decision-making across the software development lifecycle (SDLC). According to a recent Gartner report, “software supply chains transcend organizational boundarie...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/codehunter-behavioral-malware-analysis/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266704",
+    "date": "2026-02-11",
+    "title": "Kong launches Context Mesh to turn enterprise APIs into agent-ready tools",
+    "summary": "Kong has announced Kong Context Mesh, a product that automatically discovers enterprise APIs, transforms them into agent-consumable tools, and deploys them with runtime governance. “Organisations have spent years building APIs as the nervous system of the enterprise. Context Mesh allows them to r...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/11/kong-context-mesh-api-discovery/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266705",
+    "date": "2026-02-11",
+    "title": "CVE-2026-21514: Actively Exploited Word Flaw Evades OLE Security",
+    "summary": "Microsoft has disclosed and patched an actively exploited vulnerability in Microsoft Word that allows attackers to bypass built-in security controls. The flaw enables malicious documents to circumvent Object Linking and Embedding (OLE) protections and execute without displaying standard user warn...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cve-2026-21514-actively-exploited-word-flaw-evades-ole-security/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266706",
+    "date": "2026-02-11",
+    "title": "White House Draft Executive Order Signals Broader Federal Push on Quantum Strategy",
+    "summary": "The White House is reportedly drafting an executive order that would reshape how the federal government coordinates investment, infrastructure, security, and commercialization efforts across U.S. quantum technologies. According to a draft obtained by NextGov/FCW, the directive would create a whol...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/cybersecurity/white-house-draft-executive-order-signals-broader-federal-push-on-quantum-strategy/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266707",
+    "date": "2026-02-11",
+    "title": "Windows Notepad RCE Flaw Exploits Markdown Files",
+    "summary": "Microsoft has patched a vulnerability in the modern Windows Notepad app that could allow remote code execution if a user opens a specially crafted Markdown file. The issue carries a CVSS score of 8.8 and requires user interaction to exploit. The vulnerability “… allows an unauthorized attacker to...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/windows-notepad-rce-flaw-exploits-markdown-files/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266708",
+    "date": "2026-02-11",
+    "title": "Windows Patch Fixes Exploited RasMan DoS Flaw ",
+    "summary": "Microsoft has patched a vulnerability in the Windows Remote Access Connection Manager (RasMan) service that was being exploited to trigger denial-of-service (DoS) conditions on unpatched systems. If exploited, the flaw can cause the remote access service to crash, potentially interrupting VPN con...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/windows-patch-fixes-exploited-rasman-dos-flaw/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266709",
+    "date": "2026-02-11",
+    "title": "TheOneSpy Review: Ultimate Monitoring Software",
+    "summary": "Read on for TheOneSpy review, the ultimate monitoring software. TheOneSpy aims to be your go-to monitoring software for Android, Mac, and Windows. This review is for parents who want their kids to be safe online, bosses who manage remote workers, and people who want to keep track of their own stu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/theonespy-review-ultimate-monitoring-software/",
+    "tags": [
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266710",
+    "date": "2026-02-11",
+    "title": "Macropay Scam Alert: Fake E-Commerce Sites",
+    "summary": "Online shopping is an easy and convenient way to buy items. Many people enjoy the experience of going to a physical store to make a purchase. However, After the COVID-19 pandemic, most people are more likely to place orders from the comfort of their homes than walk into a physical store to make p...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/macropay-scam-alert-fake-e-commerce-sites/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266712",
+    "date": "2026-02-11",
+    "title": "CVE-2026-20841: Windows Notepad RCE Fixed in Microsoft’s February Patch Tuesday Release",
+    "summary": "Microsoft’s 2026 Patch Tuesday cadence continues to shape patching priorities. January set the pace with fixes for an actively exploited Windows Desktop Window Manager zero-day (CVE-2026-20805). Now, the February release adds another practical concern. Applications that gain richer features can a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-20841-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266713",
+    "date": "2026-02-11",
+    "title": "News alert: GitGuardian raises $50M to tackle non-human identities crisis, AI agent security gap",
+    "summary": "NEW YORK, Feb. 11, 2026, CyberNewswire — GitGuardian, a leading secrets and Non-Human Identity (NHI) security platform and #1 app on GitHub Marketplace, today announced a $50 million Series C funding round led by global software investor Insight Partners, alongside Quadrille Capital and existing ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Last Watchdog",
+    "sourceUrl": "https://www.lastwatchdog.com/news-alert-gitguardian-raises-50m-to-tackle-non-human-identities-crisis-ai-agent-security-gap/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266714",
+    "date": "2026-02-11",
+    "title": "OpenAI so Desperate to Pump Erotica It Fired Staff Who Objected",
+    "summary": "The career trajectory of Beiermeister tells the story of why she’s suddenly in the news. Palantir’s surveillance infrastructure Meta’s engagement-at-all-costs model OpenAI’s safety-theater-to-scale pipeline Her career has been inside organizations where a product policy role exists to provide cov...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/openai-so-desperate-to-pump-erotica-it-fired-staff-who-objected/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266715",
+    "date": "2026-02-11",
+    "title": "The State of Identity Governance in 2026: Why Boards Think Access Is Under Control When It Isn’t",
+    "summary": "In many organizations, identity governance appears healthy at the executive level. Provisioning SLAs are met. Access reviews complete on time. Audit findings are addressed. Yet identity-related failures continue to surface in breach investigations, audit reports, and post-incident reviews. The is...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Identity Defined Security Alliance Blog",
+    "sourceUrl": "https://www.idsalliance.org/blog/the-state-of-identity-governance-in-2026-why-boards-think-access-is-under-control-when-it-isnt/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266716",
+    "date": "2026-02-11",
+    "title": "Double Defense: Cisco Secure Firewall 10.0 Confronts Encrypted Traffic and Emerging Attack Challenges",
+    "summary": "Discover how Cisco Secure Firewall 10.0 boosts visibility and protection against modern threats, from encrypted attacks to AI-driven exploits.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/double-defense-secure-firewall-10-0-confronts-encrypted-traffic-emerging-attack-challenges/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266717",
+    "date": "2026-02-11",
+    "title": "The US False Claims Act Becomes a Cybersecurity Enforcement Engine",
+    "summary": "For years, many government contractors treated cybersecurity compliance as a technical checklist, important, certainly, but often siloed within IT departments. That mindset is no longer tenable. The U.S. Department of Justice (DOJ) has announced that cybersecurity representations to the federal g...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/false-claims-act-cybersecurity-enforcement/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266718",
+    "date": "2026-02-11",
+    "title": "SMS & OTP Bombing Campaigns: Evolving API Abuse Targeting Multiple Regions",
+    "summary": "RESEARCH DISCLAIMER: This analysis examines the most recent and actively maintained repositories of OTP & SMS bombing tools to understand current attack capabilities and targeting patterns. All statistics represent observed patterns within our research sample and should be interpreted as indicati...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/sms-otp-bombing-campaign-targeting-multiple-regions/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266719",
+    "date": "2026-02-11",
+    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+    "summary": "For the past week, the massive “Internet of Things” (IoT) botnet known as Kimwolf has been disrupting The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the netw...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Krebs on Security",
+    "sourceUrl": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+    "tags": [
+      "iot"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266720",
+    "date": "2026-02-11",
+    "title": "AI Rising: Do We Know Enough About the Data Populating It?",
+    "summary": "Organizations remain reluctant to address the fact that AI can dangerously expose business operations as well as personal data.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/data-privacy/do-we-know-enough-about-data-populating-ai",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266721",
+    "date": "2026-02-11",
+    "title": "Top Cyber Industry Defenses Spike CO2 Emissions",
+    "summary": "Organizations can improve their climate footprints by optimizing two specific cybersecurity protections, without incurring added risks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/cyber-industry-defenses-co2-emissions",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266722",
+    "date": "2026-02-11",
+    "title": "North Korean Hackers Use Deepfake Video Calls to Target Crypto Firms",
+    "summary": "Campaign combines stolen Telegram accounts, fake Zoom calls and ClickFix attacks to deploy infostealer malware",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/north-korea-hackers-deepfake-crypto/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266723",
+    "date": "2026-02-11",
+    "title": "From 10M to 25M: Conduent Breach Balloons Into One of 2025’s Largest",
+    "summary": "The Conduent ransomware attack has grown to impact 25 million Americans, exposing Social Security numbers and medical data in one of 2025’s largest breaches. The post From 10M to 25M: Conduent Breach Balloons Into One of 2025’s Largest appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-conduent-ransomware-breach-25m/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266724",
+    "date": "2026-02-11",
+    "title": "Proactive strategies for cyber resilience with Wazuh",
+    "summary": "Cyber resilience means anticipating threats, detecting them early, and recovering fast when incidents occur. Wazuh shows how its open source SIEM and XDR unify visibility, detection, and automated response to strengthen proactive defense. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266725",
+    "date": "2026-02-11",
+    "title": "LummaStealer infections surge after CastleLoader malware campaigns",
+    "summary": "A surge in LummaStealer infections has been observed, driven by social engineering campaigns leveraging the ClickFix technique to deliver the CastleLoader malware. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266669",
     "date": "2026-02-11",
     "title": "Ivanti Patches Endpoint Manager Vulnerabilities Disclosed in October 2025",
@@ -1078,6 +1550,20 @@
     "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-26h1-for-select-and-upcoming-cpus/",
     "tags": [
       "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266711",
+    "date": "2026-02-10",
+    "title": "How to Spot a Scripted Site from the Real Deal",
+    "summary": "In this post, I will show you how to spot a scripted site from the real deal. The online world in 2026 is a minefield of fakes, where scripted sites mimic the real thing to nab personal details and cash. Royal Reels, as outlined on the reliable info site https://royalreels-casino-australia.com/, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-spot-a-scripted-site-from-the-real-deal/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -3752,6 +4238,20 @@
     "sourceName": "Dark Reading",
     "sourceUrl": "https://www.darkreading.com/events/shields-up-key-technologies-reshaping-cybersecurity-defenses",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266692",
+    "date": "2026-02-09",
+    "title": "Super Bowl LX: Strengthening Preparation, Building Resilience, Fostering Partnerships",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/super-bowl-lx-strengthening-preparation-building-resilience-fostering-partnerships",
+    "tags": [
+      "malware"
+    ],
     "impact": 3
   },
   {
@@ -73583,6 +74083,18 @@
       "Data/IT"
     ],
     "impact": 5
+  },
+  {
+    "id": "20266691",
+    "date": "2026-01-08",
+    "title": "CISA Retires Ten Emergency Directives, Marking an Era in Federal Cybersecurity",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-retires-ten-emergency-directives-marking-era-federal-cybersecurity",
+    "tags": [],
+    "impact": 3
   },
   {
     "id": "20265999",
