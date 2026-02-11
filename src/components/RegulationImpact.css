@@ -652,3 +652,561 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* NIST CSF Detailed Section */
+.nist-detailed-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #16a085;
+}
+
+.nist-detailed-section h3 {
+  font-size: 1.8rem;
+  margin: 0 0 2rem 0;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.nist-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.nist-content h4 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #16a085;
+  padding-bottom: 0.5rem;
+}
+
+.nist-content h5 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.75rem 0;
+  color: #34495e;
+}
+
+.nist-content p {
+  line-height: 1.8;
+  color: #555;
+  margin: 0 0 1rem 0;
+}
+
+.nist-content ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.nist-content li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.nist-intro {
+  background: linear-gradient(135deg, #16a085 0%, #0f7864 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.nist-intro h4 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.nist-intro p {
+  color: white;
+}
+
+.function-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.function-item {
+  background: linear-gradient(135deg, #e8f8f5 0%, #d5f4e6 100%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #16a085;
+}
+
+.function-item h5 {
+  color: #0f7864;
+  margin-top: 0;
+}
+
+.function-item p {
+  color: #0f7864;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.function-item li {
+  color: #16a085;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tier-item {
+  background: #f0f9ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #16a085;
+}
+
+.tier-item h5 {
+  color: #0f7864;
+  margin-top: 0;
+}
+
+.tier-item p {
+  color: #555;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.nist-profiles {
+  background: #fff3cd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+}
+
+.nist-profiles h4 {
+  color: #856404;
+  border-bottom-color: #ffc107;
+}
+
+.nist-profiles p,
+.nist-profiles li {
+  color: #856404;
+}
+
+.nist-whats-new {
+  background: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #2196f3;
+}
+
+.nist-whats-new h4 {
+  color: #0d47a1;
+  border-bottom-color: #2196f3;
+}
+
+.nist-whats-new li {
+  color: #0d47a1;
+}
+
+.nist-adoption {
+  background: #f3e5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #9c27b0;
+}
+
+.nist-adoption h4 {
+  color: #7b1fa2;
+  border-bottom-color: #9c27b0;
+}
+
+.nist-adoption p,
+.nist-adoption li {
+  color: #7b1fa2;
+}
+
+.integration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.integration-item {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 2px solid #16a085;
+}
+
+.integration-item h5 {
+  color: #0f7864;
+  margin-top: 0;
+}
+
+.integration-item p {
+  color: #555;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.nist-implementation {
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.nist-implementation h4 {
+  color: #2e7d32;
+  border-bottom-color: #4caf50;
+}
+
+.nist-implementation ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.nist-implementation li {
+  color: #2e7d32;
+  margin: 0.75rem 0;
+  line-height: 1.7;
+}
+
+/* DORA Detailed Section */
+.dora-detailed-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #e67e22;
+}
+
+.dora-detailed-section h3 {
+  font-size: 1.8rem;
+  margin: 0 0 2rem 0;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.dora-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dora-content h4 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 0.5rem;
+}
+
+.dora-content h5 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.75rem 0;
+  color: #34495e;
+}
+
+.dora-content p {
+  line-height: 1.8;
+  color: #555;
+  margin: 0 0 1rem 0;
+}
+
+.dora-content ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.dora-content li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.dora-intro {
+  background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.dora-intro h4 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.dora-intro p {
+  color: white;
+}
+
+.dora-dates {
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.dora-dates h4 {
+  color: #2e7d32;
+  border-bottom-color: #4caf50;
+}
+
+.dora-dates ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.dora-dates li {
+  padding: 0.5rem 0;
+  color: #2e7d32;
+}
+
+.dora-highlight {
+  background: rgba(76, 175, 80, 0.2);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #1b5e20;
+  text-align: center;
+}
+
+.dora-scope {
+  background: #fff3e0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+}
+
+.dora-scope h4 {
+  color: #e65100;
+  border-bottom-color: #ff9800;
+}
+
+.dora-scope p,
+.dora-scope li {
+  color: #e65100;
+}
+
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.pillar-item {
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #e67e22;
+}
+
+.pillar-item h5 {
+  color: #d35400;
+  margin-top: 0;
+}
+
+.pillar-item p {
+  color: #d35400;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.pillar-item li {
+  color: #e67e22;
+}
+
+.dora-governance {
+  background: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #2196f3;
+}
+
+.dora-governance h4 {
+  color: #0d47a1;
+  border-bottom-color: #2196f3;
+}
+
+.dora-governance p,
+.dora-governance li {
+  color: #0d47a1;
+}
+
+.third-party-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.third-party-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e67e22;
+}
+
+.third-party-item h5 {
+  color: #d35400;
+  margin-top: 0;
+}
+
+.third-party-item p {
+  color: #555;
+  margin: 0;
+}
+
+.dora-oversight {
+  background: #f3e5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #9c27b0;
+}
+
+.dora-oversight h4 {
+  color: #7b1fa2;
+  border-bottom-color: #9c27b0;
+}
+
+.dora-oversight p,
+.dora-oversight li {
+  color: #7b1fa2;
+}
+
+.penalties-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.penalty-item {
+  background: #ffebee;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #d32f2f;
+}
+
+.penalty-item h5 {
+  color: #c62828;
+  margin-top: 0;
+}
+
+.penalty-item li {
+  color: #c62828;
+}
+
+.preparation-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.prep-step {
+  background: linear-gradient(135deg, #e8f8f5 0%, #d5f4e6 100%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #16a085;
+}
+
+.prep-step h5 {
+  color: #0f7864;
+  margin-top: 0;
+}
+
+.prep-step ul {
+  margin: 0.5rem 0 0 0;
+}
+
+.prep-step li {
+  color: #16a085;
+}
+
+.methodology-phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.method-phase {
+  background: #fff9c4;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 2px solid #fbc02d;
+}
+
+.method-phase h5 {
+  color: #f57f17;
+  margin-top: 0;
+}
+
+.method-phase p {
+  color: #f57f17;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.dora-benefits {
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.dora-benefits h4 {
+  color: #2e7d32;
+  border-bottom-color: #4caf50;
+}
+
+.dora-benefits li {
+  color: #2e7d32;
+}
+
+.dora-resources-norway {
+  background: #fce4ec;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #c2185b;
+}
+
+.dora-resources-norway h4 {
+  color: #880e4f;
+  border-bottom-color: #c2185b;
+}
+
+.dora-resources-norway li {
+  color: #880e4f;
+}
+
+@media (max-width: 768px) {
+  .nist-detailed-section,
+  .dora-detailed-section {
+    padding: 1rem;
+  }
+
+  .nist-detailed-section h3,
+  .dora-detailed-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .function-grid,
+  .tiers-grid,
+  .integration-grid,
+  .pillar-grid,
+  .third-party-info,
+  .penalties-info,
+  .preparation-steps,
+  .methodology-phases {
+    grid-template-columns: 1fr;
+  }
+}
