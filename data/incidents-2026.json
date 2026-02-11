@@ -1,5 +1,140 @@
 [
   {
+    "id": "20266623",
+    "date": "2026-02-11",
+    "title": "Der Kaufratgeber für Breach & Attack Simulation Tools",
+    "summary": "Breach & Attack Simulation Tools geben Aufschluss darüber, wie gut (oder schlecht) Ihre Sicherheitskontrollen funktionieren.Roman Samborskyi | shutterstock.com Lösungen im Bereich Breach & Attack Simulation (BAS) unterstützen Unternehmen dabei, ihr Sicherheitsniveau zu verstehen. Dazu automatisie...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/3494368/der-kaufratgeber-fur-breach-attack-simulation-tools.html",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266624",
+    "date": "2026-02-11",
+    "title": "ISC Stormcast For Wednesday, February 11th, 2026 https://isc.sans.edu/podcastdetail/9804, (Wed, Feb 11th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32702",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266625",
+    "date": "2026-02-11",
+    "title": "February 2026 Patch Tuesday: Six new and actively exploited Microsoft vulnerabilities addressed",
+    "summary": "Microsoft highlighted six new and actively exploited vulnerabilities among the 60 fixes issued in today’s February Patch Tuesday releases. However, Tyler Reguly, associate director of security R&D at Fortra, says there’s good news: The issues are easy to resolve with regular Microsoft patches for...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4130446/february-2026-patch-tuesday-six-new-and-actively-exploited-microsoft-vulnerabilities-addressed.html",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266626",
+    "date": "2026-02-11",
+    "title": "FIIG penalty signposts greater ASIC cybersecurity scrutiny - Money Management",
+    "summary": "FIIG's cyber security failures between 13 March 2019 to 8 June 2023 included examples where it failed to: Allocate the necessary financial resources ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.moneymanagement.com.au/fiig-penalty-signposts-greater-asic-cybersecurity-scrutiny/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266627",
+    "date": "2026-02-11",
+    "title": "Agentic AI Security Guide - IBM",
+    "summary": "Thus it's no surprise that the same executives surveyed about their AI adoption cite “cybersecurity concerns” and “lack of trust in AI agents” as ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ibm.com/think/insights/agentic-ai-security",
+    "tags": [
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266628",
+    "date": "2026-02-11",
+    "title": "Microsoft February 2026 Patch Tuesday Fixes 50+ Vulnerabilities, Including 6 Zero-Day Flaws",
+    "summary": "The Cyber Security Hub™. World's Premier Cyber Security Portal. Published ... Mark P. Cybersecurity & IT Technical Mentor | Senior IT Consultant | 35+ ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/microsoft-february-2026-patch-tuesday-fixes-50-4ltde",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266629",
+    "date": "2026-02-11",
+    "title": "Guam Homeland Security Conducted Cybersecurity Tabletop Exercise Black Hydra",
+    "summary": "... cyber threats,” said Esther Aguigui, Homeland Security Advisor. “Cyber incidents have the potential to disrupt essential services. Exercises like ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://ghs.guam.gov/guam-homeland-security-conducted-cybersecurity-tabletop-exercise-black-hydra",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266630",
+    "date": "2026-02-11",
+    "title": "Identity Is the New Perimeter for State Government Cybersecurity | StateTech Magazine",
+    "summary": "Why identity-first security, not networks, now defines cyber resilience for agencies.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statetechmagazine.com/article/2026/02/identity-new-perimeter-state-government-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266631",
+    "date": "2026-02-11",
+    "title": "Cyber Pulse: An AI Security Report | Security Insider - Microsoft",
+    "summary": "With the rise in AI agent adoption, now is the time to implement observability, governance, and security. Read the Cyber Pulse report for expert ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/security-insider/emerging-trends/cyber-pulse-ai-security-report",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266616",
     "date": "2026-02-11",
     "title": "Zen-AI-Pentest: Open-source AI-powered penetration testing framework",
