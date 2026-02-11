@@ -12,18 +12,54 @@ function RegulationImpact({ selectedYear }) {
       name: 'NIS2 Directive',
       icon: '🇪🇺',
       status: selectedYear >= 2024 ? 'In Effect' : 'Pending',
-      region: 'European Union',
+      region: 'European Union & EEA',
       impact: 'Expanded scope covering more critical sectors and supply chains. Increased penalties for non-compliance.',
+      description: 'Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union, adopted December 14, 2022.',
+      officialName: 'NIS 2-direktivet - Europaparlaments- og rådsdirektiv (EU) 2022/2555',
       keyRequirements: [
         'Mandatory incident reporting within 24 hours',
         'Supply chain security requirements',
         'Board-level accountability for cybersecurity',
-        'Regular security audits and risk assessments'
+        'Regular security audits and risk assessments',
+        'Risk management with minimum security elements',
+        'Handling of cybersecurity risks in supply chains',
+        'Plans for maintenance, monitoring and testing'
       ],
+      sectors: {
+        essential: ['Energy', 'Transport', 'Banking', 'Health', 'Drinking water', 'Digital infrastructure', 'ICT services', 'Public administration', 'Space'],
+        important: ['Postal and courier services', 'Waste management', 'Chemical production', 'Food production', 'Medical equipment', 'Research']
+      },
+      penalties: 'Up to €10,000,000 or 2% of global revenue for essential entities; €7,000,000 for important entities',
+      implementationDeadline: 'October 24, 2024',
       realWorldImpact: selectedYear >= 2024 
         ? 'Organizations scrambled to comply, leading to increased security investments and faster incident disclosure.'
         : 'Organizations are preparing for stricter requirements and expanded coverage.',
-      color: '#3498db'
+      resources: [
+        { 
+          title: 'Official EU Legal Text (English)', 
+          url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52020PC0823',
+          type: 'external'
+        },
+        { 
+          title: 'Norwegian Government EEA Note', 
+          url: 'https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2021/feb/nis2-direktivet/id2846097/',
+          type: 'external'
+        },
+        { 
+          title: 'NIS2 Directive - Norwegian PDF', 
+          url: '/documents/nis2/NIS2-direktiv-norsk.pdf',
+          type: 'pdf',
+          note: 'To be uploaded'
+        },
+        { 
+          title: 'NIS2 Directive - English PDF', 
+          url: '/documents/nis2/NIS2-directive-english.pdf',
+          type: 'pdf',
+          note: 'To be uploaded'
+        }
+      ],
+      color: '#3498db',
+      hasDetailedInfo: true
     },
     {
       name: 'GDPR',
@@ -147,6 +183,14 @@ function RegulationImpact({ selectedYear }) {
             </div>
 
             <div className="regulation-content">
+              {reg.description && (
+                <div className="reg-section">
+                  <h4>ℹ️ Description</h4>
+                  <p>{reg.description}</p>
+                  {reg.officialName && <p className="official-name"><em>{reg.officialName}</em></p>}
+                </div>
+              )}
+
               <div className="reg-section">
                 <h4>📋 Impact</h4>
                 <p>{reg.impact}</p>
@@ -161,13 +205,248 @@ function RegulationImpact({ selectedYear }) {
                 </ul>
               </div>
 
+              {reg.sectors && (
+                <div className="reg-section">
+                  <h4>🏢 Covered Sectors</h4>
+                  <div className="sectors-info">
+                    <div>
+                      <strong>Essential Entities:</strong>
+                      <p className="sector-list">{reg.sectors.essential.join(', ')}</p>
+                    </div>
+                    <div>
+                      <strong>Important Entities:</strong>
+                      <p className="sector-list">{reg.sectors.important.join(', ')}</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {reg.penalties && (
+                <div className="reg-section">
+                  <h4>⚖️ Penalties</h4>
+                  <p>{reg.penalties}</p>
+                </div>
+              )}
+
+              {reg.implementationDeadline && (
+                <div className="reg-section">
+                  <h4>📅 Implementation Deadline</h4>
+                  <p>{reg.implementationDeadline}</p>
+                </div>
+              )}
+
               <div className="reg-section real-world">
                 <h4>🌍 Real-World Impact in {selectedYear}</h4>
                 <p>{reg.realWorldImpact}</p>
               </div>
+
+              {reg.resources && reg.resources.length > 0 && (
+                <div className="reg-section resources">
+                  <h4>📚 Resources & Documentation</h4>
+                  <ul className="resources-list">
+                    {reg.resources.map((resource, index) => (
+                      <li key={index}>
+                        <a 
+                          href={resource.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className={`resource-link ${resource.type}`}
+                        >
+                          {resource.type === 'pdf' && '📄 '}
+                          {resource.type === 'external' && '🔗 '}
+                          {resource.title}
+                        </a>
+                        {resource.note && <span className="resource-note"> ({resource.note})</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         ))}
+      </div>
+
+      {/* NIS2 Detailed Overview */}
+      <div className="nis2-detailed-section">
+        <h3>🇪🇺 NIS2-direktivet - Detaljert Oversikt</h3>
+        <div className="nis2-content">
+          <div className="nis2-intro">
+            <h4>Om NIS2-direktivet</h4>
+            <p>
+              <strong>Europaparlaments- og rådsdirektiv (EU) 2022/2555</strong> om tiltak for å sikre et høyt felles nivå for sikkerhet i nettverks- og informasjonssystemer i hele Unionen, om endring av forordning (EU) 910/2014 og direktiv (EU) 2018/1972 og om oppheving av direktiv (EU) 2016/1148 (NIS 2-direktivet).
+            </p>
+            <p>
+              <strong>Directive (EU) 2022/2555 of the European Parliament and of the Council</strong> of 14 December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No 910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 2 Directive) (Text with EEA relevance).
+            </p>
+          </div>
+
+          <div className="nis2-status">
+            <h4>📅 Status og Viktige Datoer</h4>
+            <ul>
+              <li><strong>Vedtatt:</strong> 14. desember 2022</li>
+              <li><strong>Gjennomføringsfrist:</strong> Innen 24. oktober 2024 skal medlemsstatene ha gjennomført direktivet i nasjonal rett</li>
+              <li><strong>Ikrafttredelse:</strong> Fra 24. oktober 2024 oppheves gjeldende NIS1-direktiv</li>
+              <li><strong>EØS-notat:</strong> Opprettet 16.02.2021, sist oppdatert 23.08.2023</li>
+            </ul>
+          </div>
+
+          <div className="nis2-background">
+            <h4>🎯 Bakgrunn og Formål</h4>
+            <p>
+              Bakgrunnen for direktivet er erkjennelsen av at selv om NIS1-direktivet har vært en viktig start i reguleringen av digital sikkerhet i EU, har implementeringen avdekket flere mangler som forhindrer direktivet fra å effektivt adressere aktuelle og fremtidige utfordringer innen digital sikkerhet.
+            </p>
+            <p>
+              Formålet med NIS2-direktivet er å:
+            </p>
+            <ul>
+              <li>Øke motstandsdyktigheten i nettverks- og informasjonssystemer til både private og offentlige aktører</li>
+              <li>Redusere fragmenteringen av det indre markedet i sektorer som allerede er omfattet av NIS-direktivet</li>
+              <li>Forbedre den felles bevisstheten og kapasiteten knyttet til motstandsdyktighet</li>
+              <li>Redusere fragmentering og øke harmoniseringen gjennom mer effektivt samarbeid mellom kompetente myndigheter</li>
+            </ul>
+          </div>
+
+          <div className="nis2-scope">
+            <h4>🏢 Virkeområde og Omfattede Sektorer</h4>
+            <p>
+              NIS2-direktivet utvider virkeområdet sammenlignet med det nåværende NIS-direktivet, ved å innlemme flere sektorer som anses som kritisk for både økonomien og samfunnet.
+            </p>
+            
+            <div className="scope-categories">
+              <div className="scope-category essential">
+                <h5>Vesentlige Tjenester (Essential)</h5>
+                <p>Disse sektorene er oppført i direktivets vedlegg 1:</p>
+                <ul>
+                  <li>Energi</li>
+                  <li>Transport</li>
+                  <li>Bank</li>
+                  <li>Finansmarkedsinfrastrukturer</li>
+                  <li>Helse</li>
+                  <li>Drikkevann</li>
+                  <li>Avløpsvann</li>
+                  <li>Digital infrastruktur</li>
+                  <li>IKT-tjenester</li>
+                  <li>Offentlig forvaltning (sentral og regional)</li>
+                  <li>Romvirksomhet</li>
+                </ul>
+              </div>
+
+              <div className="scope-category important">
+                <h5>Viktige Tjenester (Important)</h5>
+                <p>Disse sektorene er oppført i direktivets vedlegg 2:</p>
+                <ul>
+                  <li>Post- og kurertjenester</li>
+                  <li>Avfallshåndtering</li>
+                  <li>Produksjon og distribusjon av kjemikalier</li>
+                  <li>Matproduksjon</li>
+                  <li>Produksjon av visse varer (medisinsk utstyr, IKT-utstyr, kjøretøy, elektronikk, maskiner, transportutstyr)</li>
+                  <li>Tilbydere av digitale tjenester</li>
+                  <li>Forskning</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="size-requirements">
+              <h5>Størrelseskriterier</h5>
+              <p>
+                Direktivet skal gjelde alle virksomheter innenfor de angitte sektorene som er like store eller større enn såkalte "medium sized enterprises" - virksomheter med <strong>50 eller flere ansatte</strong>.
+              </p>
+              <p>
+                Også mindre virksomheter er omfattet dersom de:
+              </p>
+              <ul>
+                <li>Er eneleverandør til et EU-land av en tjeneste som er vesentlig for å opprettholde kritisk samfunnsmessig eller økonomisk aktivitet</li>
+                <li>Er særlig utsatt ved at en hendelse som rammer tjenesten kan få betydelig innvirkning på offentlig trygghet, sikkerhet eller helse</li>
+                <li>Anses for å være kritiske enheter etter CER-direktivet</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nis2-requirements">
+            <h4>🛡️ Styrking av Sikkerhetskravene</h4>
+            <p>
+              NIS2 styrker sikkerhetskravene som stilles til tilbydere sammenlignet med NIS1. Medlemsstatene må sikre at tilbydere iverksetter hensiktsmessige og proporsjonale tekniske og organisatoriske tiltak.
+            </p>
+            <p>
+              Minimumsliste over grunnleggende sikkerhetselementer inkluderer:
+            </p>
+            <ul>
+              <li>Håndtering av cybersikkerhetsrisiko i forsyningskjeder og hos leverandører</li>
+              <li>Planer for vedlikehold, overvåkning og testing</li>
+              <li>Bruk av kryptografi</li>
+              <li>Regelmessige sikkerhetsauditer og risikovurderinger</li>
+              <li>Board-level ansvar for cybersikkerhet</li>
+            </ul>
+          </div>
+
+          <div className="nis2-reporting">
+            <h4>⚡ Varsling av Hendelser</h4>
+            <p>
+              Direktivet innfører mer presise bestemmelser om prosessen for varsling av hendelser:
+            </p>
+            <ul>
+              <li><strong>Hva:</strong> Hendelser som har en betydelig innvirkning på tjenesteleveransen</li>
+              <li><strong>Når:</strong> Mandatory incident reporting within 24 hours</li>
+              <li><strong>Hvordan:</strong> Detaljerte bestemmelser om tidspunktene for varsling</li>
+            </ul>
+          </div>
+
+          <div className="nis2-supervision">
+            <h4>👁️ Tilsyn og Sanksjoner</h4>
+            <p>
+              Bestemmelsene om tilsyn skiller mellom tilbydere av vesentlige og viktige samfunnsviktige tjenester:
+            </p>
+            <div className="supervision-grid">
+              <div className="supervision-item">
+                <h5>Vesentlige tjenester</h5>
+                <ul>
+                  <li>Kan bli gjenstand for uanmeldt tilsyn</li>
+                  <li>Strengere tilsynsregime</li>
+                  <li>Administrativ sanksjon opptil <strong>€10,000,000</strong> eller <strong>2% av global omsetning</strong></li>
+                </ul>
+              </div>
+              <div className="supervision-item">
+                <h5>Viktige tjenester</h5>
+                <ul>
+                  <li>Tilsyn kun ved informasjon om manglende overholdelse</li>
+                  <li>Mindre strengt tilsynsregime</li>
+                  <li>Administrativ sanksjon opptil <strong>€7,000,000</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="nis2-cooperation">
+            <h4>🤝 Samarbeidsmekanismer på EU-nivå</h4>
+            <p>
+              NIS2 styrker sikkerheten i forsyningskjeden for viktige informasjons- og kommunikasjonsteknologier:
+            </p>
+            <ul>
+              <li>Tettere samarbeid med Kommisjonen og ENISA for koordinerte risikovurderinger</li>
+              <li>Forbedret NIS-samarbeidsgruppens rolle i strategiske politiske beslutninger</li>
+              <li>CSIRT-nettverket videreføres</li>
+              <li>Nytt nettverk: European cyber crisis liaison organisation network (EU-CyCLONe)</li>
+              <li>Register for sårbarheter forvaltet av ENISA</li>
+            </ul>
+          </div>
+
+          <div className="nis2-norway">
+            <h4>🇳🇴 Norge og NIS2</h4>
+            <p>
+              <strong>Hovedansvarlig departement:</strong> Justis- og beredskapsdepartementet
+            </p>
+            <p>
+              <strong>EØS-avtalen:</strong> Vedlegg XI - Elektronisk kommunikasjon, audiovisuelle tjenester og informasjonssamfunnstjenester
+            </p>
+            <p>
+              Direktivet blir fulgt opp i EFTAs arbeidsgruppe for elektronisk kommunikasjon, audiovisuelle tjenester og informasjonssamfunnet (ECASIS).
+            </p>
+            <p>
+              Lov om digital sikkerhet som gjennomfører gjeldende NIS-direktiv er fremmet for Stortinget. Dersom NIS2-direktivet blir en del av EØS-avtalen vil dette medføre behov for lovendringer, samt endringer i tilhørende forskrifter til loven.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Compliance Trends */}
