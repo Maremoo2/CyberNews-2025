@@ -1,5 +1,333 @@
 [
   {
+    "id": "20266669",
+    "date": "2026-02-11",
+    "title": "Ivanti Patches Endpoint Manager Vulnerabilities Disclosed in October 2025",
+    "summary": "It also fixed a high-severity authentication bypass that could be exploited remotely without authentication to obtain credentials. The post Ivanti Patches Endpoint Manager Vulnerabilities Disclosed in October 2025 appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ivanti-patches-endpoint-manager-vulnerabilities-disclosed-in-october-2025/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266670",
+    "date": "2026-02-11",
+    "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
+    "summary": "Cybersecurity researchers have disclosed details of a new botnet operation called SSHStalker that relies on the Internet Relay Chat (IRC) communication protocol for command-and-control (C2) purposes. \"The toolset blends stealth helpers with legacy-era Linux exploitation: Alongside log cleaners (u...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266671",
+    "date": "2026-02-11",
+    "title": "Pride Month Phishing Targets Employees via Trusted Email Services",
+    "summary": "Pride Month does not begin until June 1, 2026, but scammers have already begun targeting employees with Pride themed phishing emails, getting ahead of the calendar. Organisations are being targeted in a phishing campaign that uses Pride Month and diversity messaging to trick employees into handin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://hackread.com/pride-month-phishing-employees-trusted-email-services/?&web_view=true",
+    "tags": [
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266672",
+    "date": "2026-02-11",
+    "title": "[Ekstra] Slik tøyler eksperten KI-agenten",
+    "summary": "Marius Sandbu mener OpenClaw fungerer som en blekksprut med tentakler inn i alt du eier. Selv tester han teknologien i isolerte miljøer.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/intervju-blekksprut-i-maskinen-slik-toyler-eksperten-ki-agenten/568126",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266673",
+    "date": "2026-02-11",
+    "title": "Chipmaker Patch Tuesday: Over 80 Vulnerabilities Addressed by Intel and AMD",
+    "summary": "More than two dozen advisories have been published by the chip giants for vulnerabilities found recently in their products. The post Chipmaker Patch Tuesday: Over 80 Vulnerabilities Addressed by Intel and AMD appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/chipmaker-patch-tuesday-over-80-vulnerabilities-addressed-by-intel-and-amd/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266674",
+    "date": "2026-02-11",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cc2ee9109eed0df • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266675",
+    "date": "2026-02-11",
+    "title": "Fortinet Patches High-Severity Vulnerabilities",
+    "summary": "The bugs could be exploited without authentication for command execution and authentication bypass. The post Fortinet Patches High-Severity Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/fortinet-patches-high-severity-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "fortinet",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266676",
+    "date": "2026-02-11",
+    "title": "Google-Intel Security Audit Reveals Severe TDX Vulnerability Allowing Full Compromise",
+    "summary": "Dozens of vulnerabilities, bugs, and potential improvements have been identified by the tech giants’ security teams. The post Google-Intel Security Audit Reveals Severe TDX Vulnerability Allowing Full Compromise appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/google-intel-security-audit-reveals-severe-tdx-vulnerability-allowing-full-compromise/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266677",
+    "date": "2026-02-11",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1770799318.af221f06",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/02/10/poland-energy-sector-cyber-incident-highlights-ot-and-ics-security-gaps?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266678",
+    "date": "2026-02-11",
+    "title": "North Korean hackers targeted crypto exec with fake Zoom meeting, ClickFix scam",
+    "summary": "North Korean hackers targeted an official at a cryptocurrency company with several unique pieces of malware deployed alongside multiple scams, including a fake Zoom meeting, according to a new report from incident responders. Google-owned Mandiant published a detailed examination of a recent atta...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/north-korean-hackers-targeted-crypto-exec-clickfix?&web_view=true",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266679",
+    "date": "2026-02-11",
+    "title": "ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Schneider, Aveva, Phoenix Contact",
+    "summary": "Several vulnerabilities have been patched and mitigated across the industrial giants’ products. The post ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Schneider, Aveva, Phoenix Contact appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-addressed-by-siemens-schneider-aveva-phoenix-contact/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266680",
+    "date": "2026-02-11",
+    "title": "North Korea-Linked UNC1069 Uses AI Lures to Attack Cryptocurrency Organizations",
+    "summary": "The North Korea-linked threat actor known as UNC1069 has been observed targeting the cryptocurrency sector to steal sensitive data from Windows and macOS systems with the ultimate goal of facilitating financial theft. \"The intrusion relied on a social engineering scheme involving a compromised Te...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266681",
+    "date": "2026-02-11",
+    "title": "[Ekstra] Telenor vil ha ny Nødnett-vurdering",
+    "summary": "OPPDATERT: Nkom: Ingen utsettelse av nytt Nødnett på grunn av Telia-Lyse-samarbeidet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telenor-vil-ha-ny-vurdering-av-nodnett-konseptet/568087",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266682",
+    "date": "2026-02-11",
+    "title": "February 2026 Patch Tuesday: Six Zero-Days Among 59 CVEs Patched",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-february-2026/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266683",
+    "date": "2026-02-11",
+    "title": "Phorpiex Phishing Delivers Low-Noise Global Group Ransomware",
+    "summary": "A high-volume phishing campaign delivering the long-running Phorpiex malware has been observed using emails with the subject line \"Your Document,\" a lure widely seen throughout 2024 and 2025. The messages include an attachment that appears to be a harmless document but is actually a weaponised Wi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/phorpiex-phishing-global-group/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266684",
+    "date": "2026-02-11",
+    "title": "Patch Tuesday - February 2026 - Cyber Security Review",
+    "summary": "Microsoft is publishing 55 vulnerabilities this February 2026 Patch Tuesday. Microsoft is aware of exploitation in the wild for six of today's.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-review.com/patch-tuesday-february-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266685",
+    "date": "2026-02-11",
+    "title": "NDIT names new cyber operations director - Minot Daily News",
+    "summary": "Rodenbiker brings more than two decades of experience in information security and IT leadership. Rodenbiker's fascination with technology began in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.minotdailynews.com/news/local-news/2026/02/ndit-names-new-cyber-operations-director/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266686",
+    "date": "2026-02-11",
+    "title": "How ransomware hackers choose their victims - Cybersecurity Insiders",
+    "summary": "... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE FROM AUTHOR. Global-cyber-risk-outlook · AI Security · Quorum Cyber 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/how-ransomware-hackers-choose-their-victims/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266687",
+    "date": "2026-02-11",
+    "title": "EU allocates €347 million to boost Europe's submarine cables under CEF Digital update ...",
+    "summary": "It also identifies CPEIs, highlighting priority areas for public funding to reinforce the security and resilience of Europe's submarine cable networks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/transport/eu-allocates-e347-million-to-boost-europes-submarine-cables-under-cef-digital-update-releases-cable-security-toolbox/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266688",
+    "date": "2026-02-11",
+    "title": "Armis launches Centrix for Application Security to unify code protection across the software ...",
+    "summary": "Get timely industrial cybersecurity news, in depth features, expert videos, virtual events, and access to the largest curated library of Industrial ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/armis-launches-centrix-for-application-security-to-unify-code-protection-across-the-software-development-lifecycle/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266689",
+    "date": "2026-02-11",
+    "title": "Making Gemini CLI extensions easier to use",
+    "summary": "To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation an...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266690",
+    "date": "2026-02-11",
+    "title": "The DOJ's civil cyber-fraud initiative lives on: Insights from cybersecurity enforcement ...",
+    "summary": "NIS Regulations Keeling Schedule for the Cyber Security and Resilience Bill – changes to the UK's cyber security law. December 3, 2025. Service ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dataprotectionreport.com/2026/02/the-dojs-civil-cyber-fraud-initiative-lives-on-insights-from-cybersecurity-enforcement-through-the-false-claims-act/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266632",
     "date": "2026-02-11",
     "title": "Airtel Rolls Out AI-Based OTP Fraud Detection System Across India",
