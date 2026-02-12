@@ -1,5 +1,196 @@
 [
   {
+    "id": "20266841",
+    "date": "2026-02-12",
+    "title": "Palantir gjør Norge utrygt",
+    "summary": "KPMG var Palantirs hjelper i England. Forsøker de å være det samme i Norge?",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/debatt-palantir-gjor-norge-utrygt/567919",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266842",
+    "date": "2026-02-12",
+    "title": "ISC Stormcast For Thursday, February 12th, 2026 https://isc.sans.edu/podcastdetail/9806, (Thu, Feb 12th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32710",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266843",
+    "date": "2026-02-12",
+    "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2 [Guest Diary], (Wed, Feb 11th)",
+    "summary": "[This is a Guest Diary by Johnathan Husch, an ISC intern as part of the SANS.edu BACS program] Weak SSH passwords remain one of the most consistently exploited attack surfaces on the Internet. Even today, botnet operators continue to deploy credential stuffing malware that is capable of performin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32708",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266844",
+    "date": "2026-02-12",
+    "title": "Anticipate, adapt, outpace: Inside the minds leading Standard Chartered's cyber defence",
+    "summary": "enable secure growth and innovation, protect customer data and provide resiliency against evolving threats. · In 2026, our AI-led cybersecurity and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thedigitalbanker.com/anticipate-adapt-outpace-inside-the-minds-leading-standard-chartereds-cyber-defence/",
+    "tags": [
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266845",
+    "date": "2026-02-12",
+    "title": "Bitsight unveils dark web tool to secure supply chains - SecurityBrief UK",
+    "summary": "Bitsight launches an AI-driven dark web monitoring tool to give organisations earlier warning of cyber threats targeting key suppliers.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.co.uk/story/bitsight-unveils-dark-web-tool-to-secure-supply-chains",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266846",
+    "date": "2026-02-12",
+    "title": "DHS officials warn about shutdown impacts | Federal News Network",
+    "summary": "The Cybersecurity and Infrastructure Security Agency's work to finalize an incident reporting rule would likely be further delayed if Department ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/government-shutdown/2026/02/dhs-officials-warn-about-shutdown-impacts/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266847",
+    "date": "2026-02-12",
+    "title": "Why Web Security Has Become Core Infrastructure for K–12 -- THE Journal",
+    "summary": "As classrooms continue to stretch across cloud platforms and home networks, web security has become foundational infrastructure that underpins ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thejournal.com/articles/2026/02/11/why-web-security-has-become-core-infrastructure-for-k12.aspx",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266848",
+    "date": "2026-02-12",
+    "title": "GitGuardian Series C $50M to Close AI Agent Security Gap - Cybersecurity Insiders",
+    "summary": "New York, NY, February 11th, 2026, CyberNewswire. Insight Partners leads round, alongside Quadrille Capital, to accelerate expansion across ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/gitguardian-raises-50m-series-c-to-address-non-human-identities-crisis-and-ai-agent-security-gap/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266849",
+    "date": "2026-02-12",
+    "title": "Why Security Fundamentals Are the Most Overlooked Part of Adopting a Zero Trust Strategy",
+    "summary": "Ross is the co-founder and CEO of a stealth-mode cybersecurity startup, the host of the Inside the Network podcast, the author of Cyber for Builders, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.illumio.com/blog/why-security-fundamentals-are-the-most-overlooked-part-of-adopting-a-zero-trust-strategy",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266850",
+    "date": "2026-02-12",
+    "title": "Agentic cloud operations: A new way to run the cloud",
+    "summary": "Cloud operations have reached an inflection point. For more than a decade, the industry has focused on scale—more infrastructure, more data, more services, more dashboards to build and manage both infrastructure and applications. While today’s cloud delivers extraordinary flexibility, the rapid g...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://azure.microsoft.com/en-us/blog/agentic-cloud-operations-a-new-way-to-run-the-cloud/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266851",
+    "date": "2026-02-12",
+    "title": "Cybersecurity expert explains impact of ransomware attack halting online payments for BTU ...",
+    "summary": "It's six days into the incident, and thousands of customers remain unable to pay their bills online using credit or debit cards. The outage began on ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.kbtx.com/2026/02/11/cybersecurity-expert-explains-impact-ransomware-attack-halting-online-payments-btu-customers/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266852",
+    "date": "2026-02-12",
+    "title": "RIT Kosovo Welcomes Cybersecurity Leader and Alumnus Robert Shala to Faculty",
+    "summary": "... Cyber Defense Curriculum for the Kosovo Security Force. His work also extends internationally, supporting critical infrastructure security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.rit.edu/kosovo/news/rit-kosovo-welcomes-cybersecurity-leader-and-alumnus-robert-shala-faculty",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266853",
+    "date": "2026-02-12",
+    "title": "OpenClaw and Claude Opus 4.6: Where is AI agent security headed? - IBM",
+    "summary": "Explore the 2026 Guide to Cybersecurity, your comprehensive, curated source for educational explainers, hands-on tutorials, podcast episodes and other ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ibm.com/think/podcasts/security-intelligence/openclaw-claude-opus-4-6-ai-agent-security",
+    "tags": [
+      "malware",
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266831",
     "date": "2026-02-12",
     "title": "Smashing Security podcast #454: AI was not plotting humanity’s demise. Humans were",
