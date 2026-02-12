@@ -1,5 +1,5 @@
-/* Floating button */
-.documents-guide-button {
+/* Floating scroll-to button */
+.documents-guide-scroll-button {
   position: fixed;
   bottom: 80px;
   right: 30px;
@@ -19,127 +19,141 @@
   transition: all 0.3s ease;
 }
 
-.documents-guide-button:hover {
+.documents-guide-scroll-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
 }
 
-.documents-guide-button.active {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-}
-
-.documents-guide-button .button-icon {
+.documents-guide-scroll-button .button-icon {
   font-size: 20px;
 }
 
-.documents-guide-button .button-text {
+.documents-guide-scroll-button .button-text {
   font-size: 15px;
 }
 
-/* Slide-in panel */
-.documents-guide-panel {
-  position: fixed;
-  top: 0;
-  right: -500px;
-  width: 500px;
-  height: 100vh;
-  background: white;
-  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.2);
-  z-index: 1001;
-  transition: right 0.3s ease;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
+/* Documents section at bottom of page */
+.documents-guide-section {
+  width: 100%;
+  background: #f8f9fa;
+  border-top: 3px solid #667eea;
+  margin-top: 40px;
+  scroll-margin-top: 20px;
 }
 
-.documents-guide-panel.open {
-  right: 0;
-}
-
-/* Dark mode support */
 @media (prefers-color-scheme: dark) {
-  .documents-guide-panel {
-    background: #1a1a2e;
-    color: #e0e0e0;
+  .documents-guide-section {
+    background: #16213e;
   }
 }
 
-/* Panel header */
-.panel-header {
-  position: sticky;
-  top: 0;
+.documents-guide-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Section header */
+.section-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 25px 30px;
+  padding: 30px 40px;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  transition: all 0.3s ease;
+  user-select: none;
 }
 
-.panel-header h2 {
-  margin: 0;
-  font-size: 24px;
+.section-header:hover {
+  background: linear-gradient(135deg, #5a6dd8 0%, #6a4292 100%);
+}
+
+.header-content h2 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
   font-weight: 700;
 }
 
-.close-button {
+.section-intro {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.95;
+  line-height: 1.5;
+}
+
+.expand-button {
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: white;
   font-size: 24px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s ease;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
-.close-button:hover {
+.expand-button:hover {
   background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
 }
 
-/* Panel content */
-.panel-content {
-  padding: 30px;
-  flex: 1;
+.expand-button.expanded {
+  transform: rotate(180deg);
 }
 
-.panel-intro {
-  font-size: 15px;
-  color: #666;
-  margin-bottom: 30px;
-  line-height: 1.6;
+.expand-button.expanded:hover {
+  transform: rotate(180deg) scale(1.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .panel-intro {
-    color: #aaa;
+/* Section content */
+.section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.section-content.expanded {
+  max-height: 5000px;
+  overflow: visible;
+}
+
+.documents-grid {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 25px;
+}
+
+@media (max-width: 1200px) {
+  .documents-grid {
+    grid-template-columns: 1fr;
   }
 }
 
 /* Document sections */
 .doc-section {
-  background: #f8f9fa;
+  background: white;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 20px;
   border-left: 4px solid #667eea;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .doc-section:hover {
-  transform: translateX(5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
   .doc-section {
-    background: #16213e;
+    background: #0f3460;
   }
 }
 
@@ -300,95 +314,72 @@
   opacity: 0.6;
 }
 
-/* Panel footer */
-.panel-footer {
-  margin-top: 20px;
-  padding-top: 20px;
+/* Section footer */
+.section-footer {
+  margin-top: 0;
+  padding: 20px 40px 40px 40px;
   border-top: 2px solid #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
-  .panel-footer {
+  .section-footer {
     border-top-color: #2c3e50;
   }
 }
 
-.panel-footer p {
-  font-size: 13px;
+.section-footer p {
+  font-size: 14px;
   color: #7f8c8d;
   line-height: 1.6;
   margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {
-  .panel-footer p {
+  .section-footer p {
     color: #95a5a6;
   }
 }
 
-/* Overlay */
-.documents-guide-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-  backdrop-filter: blur(2px);
-}
 
-/* Responsive design */
 @media (max-width: 768px) {
-  .documents-guide-button {
+  .documents-guide-scroll-button {
     bottom: 70px;
     right: 20px;
     padding: 12px 20px;
     font-size: 14px;
   }
 
-  .documents-guide-button .button-icon {
+  .documents-guide-scroll-button .button-icon {
     font-size: 18px;
   }
 
-  .documents-guide-button .button-text {
+  .documents-guide-scroll-button .button-text {
     display: none;
   }
 
-  .documents-guide-panel {
-    width: 100%;
-    right: -100%;
+  .section-header {
+    padding: 20px 25px;
   }
 
-  .panel-content {
-    padding: 20px;
+  .header-content h2 {
+    font-size: 22px;
+  }
+
+  .section-intro {
+    font-size: 14px;
+  }
+
+  .documents-grid {
+    padding: 25px;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .doc-section {
     padding: 15px;
   }
-}
 
-/* Scrollbar styling */
-.documents-guide-panel::-webkit-scrollbar {
-  width: 8px;
-}
-
-.documents-guide-panel::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.documents-guide-panel::-webkit-scrollbar-thumb {
-  background: #667eea;
-  border-radius: 4px;
-}
-
-.documents-guide-panel::-webkit-scrollbar-thumb:hover {
-  background: #764ba2;
-}
-
-@media (prefers-color-scheme: dark) {
-  .documents-guide-panel::-webkit-scrollbar-track {
-    background: #0f3460;
+  .section-footer {
+    padding: 20px 25px 30px 25px;
   }
 }
