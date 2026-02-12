@@ -100,6 +100,8 @@ function DocumentsGuide() {
       icon: '🇳🇴',
       description: 'Norwegian National Security Authority risk assessments',
       color: '#9b59b6',
+      // NSM PDFs removed - they were in /context/nsm-risk/ which is outside the public folder
+      // and caused 404 errors. Keeping section for external resources.
       documents: [],
       resources: [
         {
