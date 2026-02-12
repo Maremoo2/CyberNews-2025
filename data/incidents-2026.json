@@ -1,5 +1,740 @@
 [
   {
+    "id": "20266783",
+    "date": "2026-02-12",
+    "title": "Companies are using ‘Summarize with AI’ to manipulate enterprise chatbots",
+    "summary": "That handy ‘Summarize with AI’ button embedded in a growing number of websites, browsers, and apps to give users a quick overview of their content could in some cases be hiding a dark secret: a new form of AI prompt manipulation called “AI recommendation poisoning.” So says Microsoft, which this ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.csoonline.com/article/4131078/companies-are-using-summarize-with-ai-to-manipulate-enterprise-chatbots-3.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266794",
+    "date": "2026-02-12",
+    "title": "Top 10: Women CISOs | Cyber Magazine",
+    "summary": "The cybersecurity landscape of 2026 demands leadership that transcends traditional technical boundaries, requiring executives to secure critical ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/top10/top-10-women-ciso",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266795",
+    "date": "2026-02-12",
+    "title": "The Digital Download | Alston & Bird's Privacy & Data Security Newsletter | February 2026",
+    "summary": "The Digital Download provides a quarterly snapshot of emerging issues at the intersection of privacy, cybersecurity, and data strategy. It brings.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/the-digital-download-alston-bird-s-3708757/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266784",
+    "date": "2026-02-11",
+    "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
+    "summary": "Cybersecurity researchers have discovered what they said is the first known malicious Microsoft Outlook add-in detected in the wild. In this unusual supply chain attack detailed by Koi Security, an unknown attacker claimed the domain associated with a now-abandoned legitimate add-in to serve a fa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266785",
+    "date": "2026-02-11",
+    "title": "0APT ransomware group rises swiftly with bluster, along with genuine threat of attack",
+    "summary": "Ransomware groups crop up like weeds, angling for striking positions in a crowded field rife with turnover, infighting and unbridled competition. Yet, they rarely emerge, as 0APT did late last month, claiming roughly 200 victims out of the gate. Researchers have thus far seen no evidence confirmi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/0apt-ransomware-group-hoax-technical-capabilities/",
+    "tags": [
+      "ransomware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266786",
+    "date": "2026-02-11",
+    "title": "Acting CISA chief says DHS funding lapse would limit, halt some agency work",
+    "summary": "Another Department of Homeland Security shutdown would hamper the Cybersecurity and Infrastructure Security Agency’s ability to respond to threats, offer services, develop new capabilities and finish writing a key regulation, its acting director told Congress Wednesday. Some of those activities w...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-shutdown-impact-dhs-funding-testimony/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266787",
+    "date": "2026-02-11",
+    "title": "How to Scale SOC Automation with Falcon Fusion SOAR",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/how-to-scale-soc-automation-with-falcon-fusion-soar/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266788",
+    "date": "2026-02-11",
+    "title": "Interim CISA chief: ‘When the government shuts down, cyber threats do not’",
+    "summary": "A shutdown would “degrade our capacity to provide timely and actionable guidance to help partners defend their networks,” acting CISA Director Madhu Gottumukkala told the House Appropriations Homeland Security subcommittee.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/interim-cisa-chief-tells-congress-threats-continue-during-shutdown",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266789",
+    "date": "2026-02-11",
+    "title": "40 state AGs warn House KOSA bill falls short of protecting children online",
+    "summary": "The House bill lacks several components that are included in the Senate bill and allows a federal law to preempt existing tough state laws, state AGs said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/40-state-ags-warn-house-kosa-bill-falls-short",
+    "tags": [
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266790",
+    "date": "2026-02-11",
+    "title": "Your AI doctor doesn’t have to follow the same privacy rules as your real one",
+    "summary": "AI apps are making their way into healthcare. It’s not clear that rigorous data security or privacy practices will be part of the package. OpenAI, Anthropic and Google have all rolled out AI-powered health offerings from over the past year. These products are designed to provide health and wellne...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/ai-healthcare-apps-hipaa-privacy-risks-openai-anthropic/",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266791",
+    "date": "2026-02-11",
+    "title": "Nevada Unveils New Statewide Data Classification Policy Months After Cyberattack",
+    "summary": "Officials said data will now be classified as one of four categories: “public,” “sensitive,” “confidential” or “restricted.” The post Nevada Unveils New Statewide Data Classification Policy Months After Cyberattack appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/nevada-unveils-new-statewide-data-classification-policy-months-after-cyberattack/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266792",
+    "date": "2026-02-11",
+    "title": "Apple Patches Everything: February 2026, (Wed, Feb 11th)",
+    "summary": "Today, Apple released updates for all of its operating systems (iOS, iPadOS, macOS, tvOS, watchOS, and visionOS). The update fixes 71 distinct vulnerabilities, many of which affect multiple operating systems. Older versions of iOS, iPadOS, and macOS are also updated. OF special note is CVE-2026-2...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32706",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266793",
+    "date": "2026-02-11",
+    "title": "Georgia healthcare company data breach impacts more than 620,000",
+    "summary": "The company told victims in September about the breach, and said an investigation revealed hackers were in ApolloMD’s IT environment between May 22 and May 23.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/georgia-healthcare-company-data-breach-impacts-620000",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266796",
+    "date": "2026-02-11",
+    "title": "CISA Issues Guide to Advance Secure OT Communication - ExecutiveGov",
+    "summary": "The Cybersecurity and Infrastructure Security Agency has released a new guide aimed at helping critical infrastructure operators adopt more secure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.executivegov.com/articles/cisa-guide-secure-ot-communication",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266797",
+    "date": "2026-02-11",
+    "title": "Healthcare Cybersecurity Forum at HIMSS26: Adapting to meet the moment",
+    "summary": "The role of the healthcare chief information security officer is expanding from operational defender to executive leader responsible for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.healthcareitnews.com/news/healthcare-cybersecurity-forum-himss26-adapting-meet-moment",
+    "tags": [
+      "malware",
+      "apt",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266798",
+    "date": "2026-02-11",
+    "title": "State, local government cyber's 'new normal' - StateScoop",
+    "summary": "Organizers at the nonprofit Center for Internet Security said states are proving resilient in the face of a more challenging budgetary ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://statescoop.com/radio/state-local-government-cybers-new-normal/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266799",
+    "date": "2026-02-11",
+    "title": "AI-Generated Malware Exploits React2Shell for Tiny Profit - BankInfoSecurity",
+    "summary": "\"An autonomous agent attack needs to understand what endpoint detection and response is going to do, what network detection and response is going to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/ai-generated-malware-exploits-react2shell-for-tiny-profit-a-30734",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266800",
+    "date": "2026-02-11",
+    "title": "From Trafficking Victim to Cybercrime Whistleblower - Huntress",
+    "summary": "He'll be joined by leaders in cybersecurity and national security who'll break down the big picture in simple terms. Join the Event. First Name*.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.huntress.com/trafficking-victim-to-cybercrime-whistleblower",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266801",
+    "date": "2026-02-11",
+    "title": "Bellini student balances National Guard deployments and CyberHerd competitions",
+    "summary": "Jackson Liveringhouse left his first meeting of USF's WhiteHatters Computer Security Club with a chip on his shoulder. He didn't know who the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.usf.edu/ai-cybersecurity-computing/news/2026/bellini-student-balances-national-guard-deployments-and-cyberherd-competitions.aspx",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266802",
+    "date": "2026-02-11",
+    "title": "AWS Payment Cryptography Achieves Cartes Bancaires Approval",
+    "summary": "Today, AWS Payment Cryptography has become one of the first cloud-based payment cryptography services to obtain approval from Groupement des Cartes Bancaires (CB), France's national card payment network. This CB approval, combined with existing compliance credentials, enables customers to run pay...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/payment-cryptography-cartes-bancaires",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266803",
+    "date": "2026-02-11",
+    "title": "Amazon Connect launches after contact work timeout configuration for tasks, chats, and emails",
+    "summary": "Amazon Connect now supports the ability to configure agents with after contact work timeout settings for chat, tasks, emails, and callbacks. After contact work timeouts improve agent efficiency by time-boxing the amount of time each agent can spend doing after contact work for a contact, before b...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-acw-timeouts",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266804",
+    "date": "2026-02-11",
+    "title": "Amazon Connect launches auto-accept for tasks, chats, and emails",
+    "summary": "Amazon Connect now supports the ability to configure agents with auto-accept settings for chat, tasks, emails, and callbacks. When auto-accept is enabled, incoming contacts are automatically connected to available agents instead of waiting on the agent to manually accept or reject each contact, e...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-auto-accept",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266805",
+    "date": "2026-02-11",
+    "title": "Amazon Aurora DSQL is now available in additional AWS Regions",
+    "summary": "Amazon Aurora DSQL is now available with single-Region clusters in Asia Pacific (Melbourne), Asia Pacific (Sydney), Canada (Central), and Canada West (Calgary). Aurora DSQL is the fastest serverless, distributed SQL database that enables you to build always available applications with virtually u...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-additional-aws-regions",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266806",
+    "date": "2026-02-11",
+    "title": "Amazon MSK now supports broker logs on Express Brokers",
+    "summary": "Amazon Managed Streaming for Apache Kafka (MSK) now supports broker logs for Express brokers at no additional cost. With access to broker logs, you can troubleshoot client connectivity and availability issues and get insights into broker behavior during rebalances or fail-overs. You can also easi...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-express-brokers-support-broker-logs",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266807",
+    "date": "2026-02-11",
+    "title": "AWS Elastic Beanstalk now supports GitHub Actions for automated application deployment",
+    "summary": "AWS Elastic Beanstalk now enables you to use GitHub Actions to automatically deploy web applications when you push code or configuration changes to your GitHub repository, streamlining your continuous integration and continuous deployment (CI/CD) pipeline for scalable web applications. GitHub Act...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elastic-beanstalk-github-action",
+    "tags": [
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266808",
+    "date": "2026-02-11",
+    "title": "AWS Lake Formation enhances cross-account sharing",
+    "summary": "AWS Lake Formation now enhances cross-account sharing, allowing you to share hundreds of thousands of tables across accounts. You can centralize permissions in Lake Formation for resources such as catalogs, databases, and tables for multi-account analytics environments that require fine-grained a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-lake-formation-cross-account-sharing",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266809",
+    "date": "2026-02-11",
+    "title": "Amazon EC2 C8i and C8i-flex instances are now available in Europe (Paris), Canada (Central), and US West (N. California) regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the Europe (Paris), Canada (Central), and US West (N. California) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-europe-paris-canada-central-uswest-ncalifornia-regions",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266810",
+    "date": "2026-02-11",
+    "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.25, 10.11.16, 11.4.10, and 11.8.6",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for MariaDB now supports community MariaDB minor versions 10.6.25, 10.11.16, 11.4.10, and 11.8.6. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of MariaDB, and to benefit from the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mariadb-community-versions/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266811",
+    "date": "2026-02-11",
+    "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Europe (Zurich) Region",
+    "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Europe (Zurich) region adding to the list of available regions where you can use Amazon DocumentDB. Amazon DocumentDB is a fully managed, native JSON database that makes it simple and cost-effective to operate critical documen...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-europe-zurich-region",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266812",
+    "date": "2026-02-11",
+    "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Asia Pacific (Melbourne) Region",
+    "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Melbourne) region adding to the list of available regions where you can use Amazon DocumentDB. Amazon DocumentDB is a fully managed, native JSON database that makes it simple and cost-effective to operate critica...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266813",
+    "date": "2026-02-11",
+    "title": "Amazon Connect introduces audio enhancements for noisy environments",
+    "summary": "Today, AWS announces the release of Audio Enhancement for Amazon Connect, helping improve audio quality and reliability for voice calls in noisy contact center environments. With this launch, you can enable Audio Enhancement for your agents so that end customers can hear them more clearly, even i...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-audio-enhancements",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266814",
+    "date": "2026-02-11",
+    "title": "Amazon Aurora Global Database now supports managed minor version upgrades",
+    "summary": "Amazon Aurora Global Database now supports managed minor version upgrades across your global topology with minimal downtime, eliminating the need to manually upgrade each cluster individually and reducing operational overhead for global cluster management. Aurora Global Database allows a single A...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266815",
+    "date": "2026-02-11",
+    "title": "Amazon SageMaker HyperPod now supports node actions from the console",
+    "summary": "Amazon SageMaker HyperPod now enables you to manage individual cluster nodes directly from the AWS Console. HyperPod cluster operators managing large-scale AI/ML workloads often need to connect to nodes for troubleshooting, reboot unresponsive instances, or replace degraded nodes. Connecting to a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sagemaker-hyperpod-node-actions/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266816",
+    "date": "2026-02-11",
+    "title": "Amazon EC2 C8id, M8id, and R8id instances are available in additional regions",
+    "summary": "Amazon Elastic Compute Cloud (EC2) C8id, M8id, and R8id instances powered by custom Intel Xeon 6 processors feature up to 384 vCPUs, 3TiB of memory, and 22.8TB of NVMe SSD storage and deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation C6id, M6id, a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/c8id-m8id-and-r8id-in-additional-regions/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266817",
+    "date": "2026-02-11",
+    "title": "Amazon Athena now supports 1-minute reservations and 4 DPU minimum capacity",
+    "summary": "Amazon Athena now supports 1-minute Capacity Reservations and a lower minimum capacity of 4 Data Processing Units (DPUs) for all reservations. Now, you can get started with less capacity and make more frequent, fine-grained adjustments to match your workload patterns—with no long-term commitments...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-athena-one-minute-capacity-reservations/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266818",
+    "date": "2026-02-11",
+    "title": "Amazon Bedrock adds support for six fully-managed open weights models",
+    "summary": "Amazon Bedrock now supports six new models spanning frontier reasoning and agentic coding: DeepSeek V3.2, MiniMax M2.1, GLM 4.7, GLM 4.7 Flash, Kimi K2.5, and Qwen3 Coder Next. These six models bring customers access to the most capable open weights models available today, delivering frontier-cla...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-adds-support-six-open-weights-models",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266819",
+    "date": "2026-02-11",
+    "title": "Amazon EKS Auto Mode Announces Enhanced Logging for its Managed Kubernetes Capabilities",
+    "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode’s managed capabilities can now be configured as log delivery sources using Amazon CloudWatch Vended Logs. This integration enables customers to monitor and troubleshoot their EKS Auto Mode clusters more effectively by automatically collecti...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-auto-mode-enhanced-logging",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266820",
+    "date": "2026-02-11",
+    "title": "Amazon OpenSearch Serverless now supports Collection Groups",
+    "summary": "Amazon OpenSearch Serverless now supports Collection Groups, a new capability that enables you to share OpenSearch Compute Units (OCUs) across collections with different AWS KMS keys. This new capability delivers enhanced cost optimization through a shared compute model that reduces overall OCU e...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-serverless-supports-collection-groups/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266821",
+    "date": "2026-02-11",
+    "title": "Amazon EC2 C8gn instances are now available in additional regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Region Asia Pacific (Seoul, Melbourne), Canada (Central), Europe (Spain), and AWS GovCloud (US-East, US-West). The new instances provide up...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8gn-instances-additional-regions",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266822",
+    "date": "2026-02-11",
+    "title": "Amazon ECR now supports additional metrics for monitoring repositories",
+    "summary": "Amazon Elastic Container Registry (ECR) now enables customers to monitor additional repository metrics through Amazon CloudWatch. These new metrics, RepositoryCount and ImagesPerRepositoryCount, help customers identify growth trends of images by repository as well as understand their trends for c...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266823",
+    "date": "2026-02-11",
+    "title": "Cyber Security in Healthcare Market Analysis by Key Drivers, Top Players, Forecast, Growth ...",
+    "summary": "Healthcare cybersecurity strategies emphasize data protection through encryption, identity management, and access control mechanisms. Network security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pharmiweb.com/press-release/2026-02-11/cyber-security-in-healthcare-market-analysis-by-key-drivers-top-players-forecast-growth-rate-constraints-future-trends-events-and-challenges-un",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266824",
+    "date": "2026-02-11",
+    "title": "Ransomware Attacks: Why Your Endpoint Protection Can't Keep Up - Palo Alto Networks",
+    "summary": "An attack that starts with phishing, exploits an endpoint, moves laterally via network, exfiltrates through cloud, and uses stolen credentials; your ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/blog/security-operations/ransomware-attacks-why-your-endpoint-protection-cant-keep-up/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "phishing",
+      "malware",
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266825",
+    "date": "2026-02-11",
+    "title": "Google gets EU Wiz approval, Microsoft secures Secure Boot certificates, North Korean ...",
+    "summary": "Cybersecurity News: Google gets EU Wiz approval, Microsoft secures Secure Boot certificates, North Korean hackers target crypto exec · Google gets EU ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-google-gets-eu-wiz-approval-microsoft-secures-secure-boot-certificates-north-korean-hackers-target-crypto-exec/",
+    "tags": [
+      "microsoft",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266826",
+    "date": "2026-02-11",
+    "title": "/C O R R E C T I O N -- Palo Alto Networks, Inc./ - PR Newswire",
+    "summary": "Palo Alto Networks® (NASDAQ: PANW), the global cybersecurity leader, completed its acquisition of CyberArk, establishing Identity Security as a core ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era-302685041.html",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266827",
+    "date": "2026-02-11",
+    "title": "Nevada Adopts New Statewide Data Privacy Framework - GovTech",
+    "summary": "... network, illuminated some security needs. But cybersecurity was a ... Information Security and Cyber Defense. The new policy, approved Feb. 2 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/nevada-adopts-new-statewide-data-privacy-framework",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266828",
+    "date": "2026-02-11",
+    "title": "Ridge Security Awarded a 2025 Cybersecurity Excellence Award by TMCnet and ...",
+    "summary": "Ridge Security today announced that TMC has named RidgeBot® as a recipient of the 2025 Cybersecurity Excellence Award presented by TMCnet and INTERNET ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.morningstar.com/news/business-wire/20260211789640/ridge-security-awarded-a-2025-cybersecurity-excellence-award-by-tmcnet-and-internet-telephony-magazine",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266829",
+    "date": "2026-02-11",
+    "title": "Ridge Security Awarded a 2025 Cybersecurity Excellence Award by TMCnet and ... - Yahoo Finance",
+    "summary": "Ridge Security Awarded a 2025 Cybersecurity Excellence Award by TMCnet and INTERNET TELEPHONY Magazine · MILPITAS, Calif., February 11, 2026 · Backed by ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://sg.finance.yahoo.com/news/ridge-security-awarded-2025-cybersecurity-173700083.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266830",
+    "date": "2026-02-11",
+    "title": "Executive Travel Demands a New Approach to Mobile Security - Cybersecurity Insiders",
+    "summary": "Executives also transit airports, hotels, conference centers, and foreign telecom networks; many of which operate under weak cybersecurity enforcement ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/why-executive-travel-demands-a-new-approach-to-mobile-security/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266768",
     "date": "2026-02-11",
     "title": "CISA’s 2025 Year in Review: Driving Security and Resilience Across Critical Infrastructure",
