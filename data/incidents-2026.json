@@ -1,5 +1,562 @@
 [
   {
+    "id": "20266939",
+    "date": "2026-02-12",
+    "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+    "summary": "Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970 using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as various hacking groups continue to weaponize the tool for accelerating various phases of the cyber a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266940",
+    "date": "2026-02-12",
+    "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+    "summary": "Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the North Korea-linked Lazarus Group. The coordinated campaign has been codenamed graphalgo in referen...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266941",
+    "date": "2026-02-12",
+    "title": "CISA to host industry feedback sessions on cyber incident reporting regulation",
+    "summary": "The Cybersecurity and Infrastructure Security Agency will hold sector-by-sector town halls in the coming weeks to get feedback on a stalled regulation requiring critical infrastructure owners and operators to report when they suffer major cyberattacks. The meeting dates, set to be published in th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/cisa-circia-town-halls-cyber-incident-reporting-rule/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266942",
+    "date": "2026-02-12",
+    "title": "A hard truth in Munich: Cyber defense runs through Silicon Valley",
+    "summary": "The next arena of political conflict won’t be defined by borders or territory. It will be written in code. And much of that code isn’t controlled by governments at all — it belongs to American companies.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/munich-silicon-valley-cyber-defense",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266943",
+    "date": "2026-02-12",
+    "title": "FTC push for age verification a ‘major landmark’ for spread of the tool",
+    "summary": "The FTC's COPPA rule should not be an “impediment to the most child protective technology to emerge in decades,” a senior agency official said recently.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ftc-push-for-age-verification-a-major-landmark-for-implementation",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266944",
+    "date": "2026-02-12",
+    "title": "[Ekstra] Google: – Dagens kryptering kan enkelt knekkes om få år",
+    "summary": "Kommer med sterk oppfordring om å ta kvanteteknologien på alvor før det er for sent.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/google-dagens-kryptering-kan-enkelt-knekkes-om-fa-ar/567994",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266945",
+    "date": "2026-02-12",
+    "title": "How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development",
+    "summary": "Developers must view AI as a collaborator to be closely monitored, rather than an autonomous entity to be unleashed. Without such a mindset, crippling tech debt is inevitable. The post How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/how-to-eliminate-the-technical-debt-of-insecure-ai-assisted-software-development/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266946",
+    "date": "2026-02-12",
+    "title": "California fines Disney $2.75 million for data privacy violations",
+    "summary": "Disney has agreed to pay a $2.75 million to the state of California over allegations that it broke the state’s landmark privacy law by making it exceedingly difficult for consumers to opt out of having their data shared and sold.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/california-fines-disney-data-privacy",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266947",
+    "date": "2026-02-12",
+    "title": "US wants cyber partnerships to send ‘coordinated, strategic message’ to adversaries",
+    "summary": "National Cyber Director Sean Cairncross told attendees of the Munich Cyber Security Conference that Washington is looking to deepen cooperation with partners rather than act alone.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/us-wants-cyber-partnerships-to-send-message-to-adversaries",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266948",
+    "date": "2026-02-12",
+    "title": "CrowdStrike Named a Customers’ Choice in 2026 Gartner® Peer Insights™ Voice of the Customer for User Authentication",
+    "summary": "",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voc-user-authentication/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266949",
+    "date": "2026-02-12",
+    "title": "Dutch police arrest 21-year-old for alleged involvement in JokerOTP password stealer",
+    "summary": "The Dordrecht native was detained on Tuesday by police in East Brabant on accusations he distributed a bot called JokerOTP, which is used widely by cybercriminals to intercept the codes delivered by many platforms as part of multi-factor authentication sign-ins.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/dutch-police-arrest-man-over-jokerotp-password-stealer",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266950",
+    "date": "2026-02-12",
+    "title": "Nation-state hackers ramping up use of Gemini for target reconnaissance, malware coding, Google says",
+    "summary": "Researchers found that APT groups were using the AI tool for coding and scripting tasks, gathering information about potential targets, researching publicly known vulnerabilities and enabling post-compromise activities.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nation-state-hackers-using-gemini-for-malicious-campaigns",
+    "tags": [
+      "malware",
+      "apt",
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266951",
+    "date": "2026-02-12",
+    "title": "Access Denied",
+    "summary": "Reference #18.44e1202.1770900824.bee129c7",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2025/12/30/cisa-releases-two-industrial-control-systems-advisories?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266952",
+    "date": "2026-02-12",
+    "title": "WhatsApp says Russia tried to fully block platform, push users to state app",
+    "summary": "WhatsApp said Thursday that Russia is attempting to fully block the messaging app in an effort to push users toward a state-backed alternative.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/whatsapp-russia-blocked-state",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266953",
+    "date": "2026-02-12",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9ccbe38b9a86d0e3 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266954",
+    "date": "2026-02-12",
+    "title": "ApolloMD Data Breach Impacts 626,000 Individuals",
+    "summary": "The company says hackers stole the personal information of patients of affiliated physicians and practices. The post ApolloMD Data Breach Impacts 626,000 Individuals appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/apollomd-data-breach-impacts-626000-individuals/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266955",
+    "date": "2026-02-12",
+    "title": "Siemens Polarion | CISA",
+    "summary": "CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-02",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266956",
+    "date": "2026-02-12",
+    "title": "What is User Provisioning? - IBM",
+    "summary": "Join security leaders who rely on the Think Newsletter for curated news on AI, cybersecurity, data and automation. Learn fast from expert tutorials ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ibm.com/think/topics/user-provisioning",
+    "tags": [
+      "malware",
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266957",
+    "date": "2026-02-12",
+    "title": "Moving from Efficiency to Growth: How Junior Talent Outpaces Tenure with AI",
+    "summary": "What if the real value of AI isn’t in replacing workers, but in accelerating the development of junior talent? This counterintuitive insight emerged from our recent conversation with Stephen Whitworth, co-founder and CEO of incident.io. The company provides an incident management platform to help...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/blogs/enterprise-strategy/moving-from-efficiency-to-growth-how-junior-talent-outpaces-tenure-with-ai/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266958",
+    "date": "2026-02-12",
+    "title": "Your complete guide to Microsoft experiences at RSAC™ 2026 Conference",
+    "summary": "The era of AI is reshaping both opportunity and risk faster than any shift security leaders have seen. Every organization is feeling the momentum; and for security teams, the question is no longer if AI will transform their work, but how to stay ahead of what comes next. At Microsoft, we see this...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266959",
+    "date": "2026-02-12",
+    "title": "When Security Becomes an Afterthought",
+    "summary": "David Moulton interviews Nikesh Arora on the Threat Vector podcast. \"Most technologists think about technology, not about cybersecurity,\" Nikesh Arora ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/blog/2026/02/when-security-becomes-an-afterthought/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266960",
+    "date": "2026-02-12",
+    "title": "Cydome Rolls Out Remote Cybersecurity Tool for Offshore Wind Farms - Marine Link",
+    "summary": "Cydome Embedded provides AI-driven real-time threat detection, network security, automated vulnerability scanning and centralized risk and compliance ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marinelink.com/news/cydome-rolls-remote-cybersecurity-tool-535643",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266961",
+    "date": "2026-02-12",
+    "title": "BCG: Could Gen AI Reshape Cybersecurity and Online Safety? | Cyber Magazine",
+    "summary": "... it simultaneously introduces new cyber threats that challenge traditional security frameworks. According to BCG's AI Radar 2026, 65% of CEOs say ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybermagazine.com/news/bcg-could-gen-ai-reshapes-cybersecurity-and-online-safety",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266962",
+    "date": "2026-02-12",
+    "title": "Palo Alto Networks finalizes CyberArk deal, expanding unified human and machine identity ...",
+    "summary": "The addition of the CyberArk Identity Security Platform enables Palo Alto Networks to secure every identity across the enterprise – human, machine, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/palo-alto-networks-finalizes-cyberark-deal-expanding-unified-human-and-machine-identity-security-in-the-ai-era/",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266963",
+    "date": "2026-02-12",
+    "title": "CISA issues new OT security guidance to overcome cost and complexity barriers in critical ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released new guidance aimed at closing long-standing gaps in OT (operational ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/cisa-issues-new-ot-security-guidance-to-overcome-cost-and-complexity-barriers-in-critical-infrastructure/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266964",
+    "date": "2026-02-12",
+    "title": "WSU scientists build on expertise in energy grid, computer security",
+    "summary": "AI is a two-sided coin for power grids and cybersecurity: A potential problem, in terms of energy use and cyberthreats, as well as a tool for ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.wsu.edu/news/2026/02/12/wsu-scientists-build-on-expertise-in-energy-grid-computer-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266965",
+    "date": "2026-02-12",
+    "title": "Town of Carolina Beach hit in cyberattack amounting to nearly $500K loss | Port City Daily",
+    "summary": "... security measures regarding sensitive information, like personnel or vendor account data being shared. The cybersecurity attacks were unrelated to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://portcitydaily.com/latest-news/2026/02/11/developing-town-of-cb-hit-in-cyberattack-amounting-to-500k-loss/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266966",
+    "date": "2026-02-12",
+    "title": "Cybersecurity experts explain how surveillance footage of Nancy Guthrie's home was recovered",
+    "summary": "Privacy and security are incredibly important to us. Before complying with a request, we make sure it follows the law and Nest's policies. We notify ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cbsnews.com/news/cybersecurity-experts-nancy-guthrie-surveillance-footage-recovery/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266967",
+    "date": "2026-02-12",
+    "title": "Safeguarding national and public infrastructure: AI-driven threat detection, zero trust security ... - IBM",
+    "summary": "The research demonstrates that it took government responders 180 days to detect cybersecurity incidents as recently as 2024. Post-quantum security and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.ibm.com/think/insights/safeguarding-national-public-infrastructure-ai-driven-threat-detection",
+    "tags": [
+      "malware",
+      "ibm",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266968",
+    "date": "2026-02-12",
+    "title": "Driving sustainability with ISO 27001: Why digital trust now sits at the heart of ESG - ERM",
+    "summary": "The convergence of information security and ESG is accelerating and most organizations are still at the very beginning of this journey. During our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.erm.com/ermcvs/about/news/driving-sustainability-with-iso-27001/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266969",
+    "date": "2026-02-12",
+    "title": "A case of when, not if – the reality of Cyber-attacks - Greater London Authority",
+    "summary": "The GLA Oversight Committee has published its report on Cybersecurity ... cyber security exercise considering the response to an attack targeting the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-press-releases/case-when-not-if-reality-cyber-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266970",
+    "date": "2026-02-12",
+    "title": "Cybersecurity's Broken Hiring Process - CISO Series",
+    "summary": "Ronald Sweatland, of Orcannus Cyber Security, said, “One of the key challenges in today's cybersecurity job market is the prevalence of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecuritys-broken-hiring-process/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266971",
+    "date": "2026-02-12",
+    "title": "Cyber security firm Check Point Software Q4 profit tops estimates - Reuters",
+    "summary": "Check Point Software Technologies beat expectations for fourth-quarter profit on Thursday, boosted by sales gains in its products that protect and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.reuters.com/technology/cyber-security-firm-check-point-software-q4-profit-tops-estimates-2026-02-12/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266972",
+    "date": "2026-02-12",
+    "title": "Cyber Attack Disrupts Local Government Payment Systems - GovTech",
+    "summary": "Cybersecurity. Cyber Attack Disrupts Local Government Payment Systems. The third-party payment processing vendor, BridgePay Network Solutions, is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/cyber-attack-disrupts-local-government-payment-systems",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266973",
+    "date": "2026-02-12",
+    "title": "AHA podcast: The FBI's Campaign Against Cyberthreats Part 2 | AHA News",
+    "summary": "... cyber emergency, like a ransomware attack, which is causing ambulance diversions. ... Larry Pierce, director of cybersecurity and information security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.aha.org/news/headline/2026-02-11-aha-podcast-fbis-campaign-against-cyberthreats-part-2",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266974",
+    "date": "2026-02-12",
+    "title": "Survey surfaces growing awareness of AI security risks | Barracuda Networks Blog",
+    "summary": "AI vulnerabilities are increasingly shaping cybersecurity challenges, with 87% of surveyed leaders noting heightened security risks in 2025.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://blog.barracuda.com/2026/02/11/growing-awareness-ai-security-risks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266975",
+    "date": "2026-02-12",
+    "title": "How AI can boost defenders, from defense in depth to the cyber kill chain (Q&A)",
+    "summary": "Cybersecurity expert Bruce Schneier shares his thoughts on how ... If we internalize the true cost of security breaches, it's no longer cheaper.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cloud.google.com/transform/how-ai-can-boost-defenders-from-defense-in-depth-to-cyber-kill-chain-qa",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266976",
+    "date": "2026-02-12",
+    "title": "Personvernrådet med uttalelse om EUs digitale omnibus-lovforslag",
+    "summary": "Personvernrådet er positiv til forslagene om å gjøre lovene enklere og styrke konkurransekraften, men har også noen bekymringer.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/personvernradet-med-uttalelse-om-eus-digitale-omnibus-lovforslag/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266907",
     "date": "2026-02-12",
     "title": "Internal vs External Penetration Testing: Key Differences Explained",
