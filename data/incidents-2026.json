@@ -1,5 +1,149 @@
 [
   {
+    "id": "20266831",
+    "date": "2026-02-12",
+    "title": "Smashing Security podcast #454: AI was not plotting humanity’s demise. Humans were",
+    "summary": "AI bots are having existential crises, inventing religions, and allegedly plotting against humanity... or so the internet would have you believe. We dig into Moltbook, the “AI-only” social network that sent Twitter into a meltdown, attracted breathless talk of the singularity, and turned out to b...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://grahamcluley.com/smashing-security-podcast-454/",
+    "tags": [
+      "ai-ml",
+      "twitter"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266832",
+    "date": "2026-02-12",
+    "title": "CyberGhost VPN à 2,03 € par mois : le meilleur rapport qualité/prix du moment ?",
+    "summary": "CyberGhost ne lésine pas sur les promos avec une offre à 2,03 €/mois incluant 4 mois gratuits. Sécurité, streaming 4K et simplicité : c’est le moment idéal pour verrouiller votre vie privée pour les deux prochaines années sans vous ruiner. Analyse d'un deal immanquable.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-600136-cyberghost-vpn-a-2-03-par-mois-le-meilleur-rapport-qualite-prix-du-moment.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266833",
+    "date": "2026-02-12",
+    "title": "Picking an AI red teaming vendor is getting harder",
+    "summary": "Vendor noise is already a problem in traditional security testing. AI red teaming has added another layer of confusion, with providers offering everything from consulting engagements to automated testing platforms. Many buyers still struggle to tell whether a vendor can test real-world AI system ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/owasp-ai-red-teaming-vendors/",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266834",
+    "date": "2026-02-12",
+    "title": "Cloud teams are hitting maturity walls in governance, security, and AI use",
+    "summary": "Enterprise cloud programs have reached a point where most foundational services are already in place, and the daily work now centers on governance, security enforcement, and managing sprawl across environments. Hybrid and multi-cloud architectures have become routine in large organizations, bring...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/enterprise-cloud-governance-gaps-governance-security/",
+    "tags": [
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266835",
+    "date": "2026-02-12",
+    "title": "Java security work is becoming a daily operational burden",
+    "summary": "Security teams in large enterprises already spend significant time tracking vulnerabilities across software supply chains, third-party libraries, and internal codebases. Java environments add another layer of exposure because so many mission-critical systems still run on the JVM. A 2026 Azul surv...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/report-oracle-java-security-risk/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266836",
+    "date": "2026-02-12",
+    "title": "Google Expands ‘Results About You’ Tool to Remove Sensitive ID Data From Search Results",
+    "summary": "Google just gave its privacy tool a serious boost. The kind that goes after the documents you really don’t want floating around. If you’ve ever Googled yourself and frowned at seeing your home address and cell number in the search result, this might just be the good news you’ve been waiting for. ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/google-results-about-you-sensitive-data/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266837",
+    "date": "2026-02-12",
+    "title": "Data Principal Rights Under DPDP: How to Operationalize Requests in 15 Days",
+    "summary": "Digital Personal Data Protection (DPDP) Act has changed India’s focus of compliance to data collection to rights-based accountability. Companies are no... The post Data Principal Rights Under DPDP: How to Operationalize Requests in 15 Days appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/data-principal-rights-under-dpdp-how-to-operationalize-requests-in-15-days/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266838",
+    "date": "2026-02-12",
+    "title": "Entwickler werden zum Angriffsvektor",
+    "summary": "Softwareentwickler sind gefragt – auch unter kriminellen Hackern.Gorodenkoff | shutterstock.com Statt einfach “nur” Fehler in Applikationen auszunutzen, entdecken kriminelle Hacker zunehmend die Tools und Zugriffskanäle für sich, auf die sich Softwareentwickler regelmäßig verlassen. Dabei kombini...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130654/entwickler-werden-zum-angriffsvektor.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266839",
+    "date": "2026-02-12",
+    "title": "SSHStalker botnet brute-forces its way onto 7,000 Linux machines",
+    "summary": "A newly discovered botnet is compromising poorly-protected Linux servers by brute-forcing weak SSH password login authentication. Researchers at Canada-based Flare Systems, who discovered the botnet, got into its staging server and believe at least 7,000 servers had been compromised by the end of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130967/sshstalker-botnet-brute-forces-its-way-onto-7000-linux-machines.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266840",
+    "date": "2026-02-12",
+    "title": "Apple fixes zero-day flaw used in 'extremely sophisticated' attacks",
+    "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/",
+    "tags": [
+      "vulnerability",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266783",
     "date": "2026-02-12",
     "title": "Companies are using ‘Summarize with AI’ to manipulate enterprise chatbots",
