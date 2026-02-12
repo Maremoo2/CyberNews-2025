@@ -1,5 +1,503 @@
 [
   {
+    "id": "20266907",
+    "date": "2026-02-12",
+    "title": "Internal vs External Penetration Testing: Key Differences Explained",
+    "summary": "Routine scans find surface flaws. Pentests expose what actually breaks when a real attacker pushes your defense. To understand your security posture without illusions, you run the right penetration test — internal, external, or both.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Mitnick Security",
+    "sourceUrl": "https://www.mitnicksecurity.com/blog/internal-vs-external-penetration-testing",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266908",
+    "date": "2026-02-12",
+    "title": "Votre Mac commence à ramer ? L'outil radical (et pas cher) pour le nettoyer en profondeur",
+    "summary": "On a tous connu ça. Votre Mac, qui était une fusée au déballage, commence à afficher la petite roue colorée au lancement des applications.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-600220-votre-mac-commence-a-ramer-l-outil-radical-et-pas-cher-pour-le-nettoyer-en-profondeur.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266909",
+    "date": "2026-02-12",
+    "title": "Démantelé l'année dernière, le malware Lumma Stealer signe son retour avec du renfort",
+    "summary": "On l’avait vu tomber au printemps 2025, puis ressusciter dès l’été. Début 2026, Lumma Stealer confirme qu’il n’a jamais vraiment quitté la scène. Bitdefender décrit une reprise d’activité portée par CastleLoader et des campagnes qui misent avant tout sur la manipulation des internautes.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600322-demantele-l-annee-derniere-le-malware-lumma-stealer-signe-son-retour-avec-du-renfort.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266910",
+    "date": "2026-02-12",
+    "title": "Puissant, mais à double-tranchant : Gemini est la nouvelle coqueluche des hackers",
+    "summary": "Google vient de dévoiler l'autre face de son IA vedette : Gemini est massivement détourné par des groupes de pirates sponsorisés par la Chine, l'Iran, la Corée du Nord et la Russie. De la reconnaissance à l'exfiltration de données, l'outil sert désormais à toutes les étapes d'une cyberattaque.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600238-puissant-mais-a-double-tranchant-gemini-est-la-nouvelle-coqueluche-des-hackers.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266911",
+    "date": "2026-02-12",
+    "title": "Windows Server dans le viseur de Prometei, un botnet qui sécurise ses prises pour écarter la concurrence",
+    "summary": "Des serveurs Windows exposés via RDP sont ciblés par Prometei, un botnet actif depuis plusieurs années. Une fois installé, le malware s’enregistre comme service système, vole des identifiants, mine de la cryptomonnaie et empêche d’autres groupes d’y accéder.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600235-windows-server-dans-le-viseur-de-prometei-un-botnet-qui-securise-ses-prises-pour-ecarter-la-concurrence.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266912",
+    "date": "2026-02-12",
+    "title": "Darty : une cyberattaque siphonne les données de 80 000 clients",
+    "summary": "L'enseigne française spécialisée dans l'électroménager est à son tour victime d'un piratage. Cette fois, ce sont 80 000 clients qui voient leurs données tomber entre les mains de hackers !",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600262-darty-une-cyberattaque-siphonne-les-donnees-de-80-000-clients.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266913",
+    "date": "2026-02-12",
+    "title": "CISA seeks infrastructure sector consultation on incident reporting rule",
+    "summary": "The agency is particularly interested in feedback on several aspects of the long-awaited regulation.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-circia-incident-reporting-regulation-town-halls/812092/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266914",
+    "date": "2026-02-12",
+    "title": "SmarterMail facing widespread attacks targeting critical flaws",
+    "summary": "The business email and collaboration software is being exploited for potential ransomware.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/smartermail-attacks-critical-flaws-ransomware/812091/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266915",
+    "date": "2026-02-12",
+    "title": "Bitwarden launches ‘Cupid Vault’ to let users securely share passwords",
+    "summary": "Bitwarden has announced the release of Cupid Vault, a free, privacy-first feature that enables users to securely share passwords with partners, family members, or close friends. The initiative leverages Bitwarden’s existing two-person organization setup, allowing users to grant and revoke access ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/bitwarden-launches-cupid-vault-to-let-users-securely-share-passwords/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266916",
+    "date": "2026-02-12",
+    "title": "Dutch telco Odido suffers data breach exposing data of 6.2 million customers",
+    "summary": "Telecom provider Odido has disclosed a data breach affecting 6.2 million customers, after cybercriminals gained unauthorized access to its customer contact system and extracted sensitive personal data. Although core services remain unaffected, sensitive information like full names, addresses, pho...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/dutch-telco-odido-suffers-data-breach-exposing-data-of-6-2-million-customers/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266917",
+    "date": "2026-02-12",
+    "title": "Fake AI extensions on the Chrome Web Store harvest Gmail and browsing data",
+    "summary": "Malicious Chrome extensions exploit the surge in popularity of generative AI tools to deploy spyware that steals browsing and Gmail data. LayerX uncovered at least 30 separate extensions that funnel user data to attacker-controlled infrastructure through remotely loaded iframes. The researchers d...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/fake-ai-extensions-on-the-chrome-web-store-harvest-gmail-and-browsing-data/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266918",
+    "date": "2026-02-12",
+    "title": "Windows Notepad Markdown feature opens door to RCE (CVE-2026-20841)",
+    "summary": "Among the many security fixes released by Microsoft on February 2026 Patch Tuesday is one for CVE-2026-20841, a command injection vulnerability in Notepad that could be exploited by attackers to achieve remote code execution on targets’ Windows system. About CVE-2026-20841 For many, many years, W...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/windows-notepad-markdown-feature-opens-door-to-rce-cve-2026-20841/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266919",
+    "date": "2026-02-12",
+    "title": "Black Duck expands Polaris platform with unified, automated security across all major SCMs",
+    "summary": "Black Duck has announced the availability of a set of enhanced Black Duck Polaris Platform integrations across all major source code management (SCM) platforms, including GitHub, GitLab, Azure DevOps, and Bitbucket. The Polaris Platform is an integrated, software-as-a-service application security...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/black-duck-polaris-platform-enhancement/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266920",
+    "date": "2026-02-12",
+    "title": "1Password open sources a benchmark to stop AI agents from leaking credentials",
+    "summary": "Research has shown that some AI models can identify phishing websites with near-perfect accuracy when asked. When those same models are used as autonomous agents with access to tools like email, web browsers, and password vaults, they can still carry out the scam. That gap is the focus of a new o...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/1password-security-comprehension-awareness-measure-scam-ai-benchmark/",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266921",
+    "date": "2026-02-12",
+    "title": "NowSecure AI-Navigator cuts mobile app testing time by automating authentication",
+    "summary": "NowSecure announced the launch of AI-Navigator, new functionality that streamlines and improves mobile application security testing. By automating authentication workflows, NowSecure enables security teams to dynamically test mobile apps for vulnerabilities and privacy leaks up to 90% faster. “Mo...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/nowsecure-ai-navigator-mobile-application-security-testing/",
+    "tags": [
+      "data-breach",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266922",
+    "date": "2026-02-12",
+    "title": "macOS Infostealers Fuel Growing Cybercrime Market",
+    "summary": "For years, some Mac users believed their devices were largely insulated from the malware plaguing Windows environments. That perception is rapidly eroding. Flare researchers found a growing underground economy is now centered on macOS Infostealers — malware designed to extract browser credentials...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/macos-infostealers-fuel-growing-cybercrime-market/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266923",
+    "date": "2026-02-12",
+    "title": "Apple Patches Actively Exploited Zero-Day Flaw",
+    "summary": "Apple is urging users to update immediately after patching a zero-day vulnerability that was exploited in what it described as “extremely sophisticated” attacks against specific individuals. The flaw, which impacts multiple Apple operating systems, allowed attackers to execute arbitrary code on v...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/apple-patches-actively-exploited-zero-day-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266924",
+    "date": "2026-02-12",
+    "title": "Viral AI Caricatures Highlight Shadow AI Dangers",
+    "summary": "A viral Instagram and LinkedIn trend is turning harmless fun into a potential security headache. Millions of users are prompting ChatGPT to “create a caricature of me and my job based on everything you know about me,” then posting the results publicly — inadvertently signaling how they use AI at ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/viral-ai-caricatures-highlight-shadow-ai-dangers/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266925",
+    "date": "2026-02-12",
+    "title": "CVE-2026-20700: Apple Patches Zero-Day Exploited in Sophisticated Cyber Attacks",
+    "summary": "SOC Prime previously highlighted Apple’s actively exploited WebKit zero-day CVE-2025-14174, a case that showed how quickly weaponized iOS flaws can move from targeted activity to real operational risk for organizations and high-value users. That same case later led to additional fixes, with CVE-2...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SOC Prime Blog",
+    "sourceUrl": "https://socprime.com/blog/cve-2026-20700-vulnerability/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "cloud",
+      "mobile",
+      "aws",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266926",
+    "date": "2026-02-12",
+    "title": "BlackFog’s 2025 State of Ransomware Report Reveals 49% Increase in Attacks Year on Year",
+    "summary": "BlackFog’s 2025 State of Ransomware Report reveals a 49% surge in attacks, AI-driven threats, and why 86% of ransomware incidents go undisclosed.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/2025-state-of-ransomware-report-released/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266927",
+    "date": "2026-02-12",
+    "title": "2025 State of Ransomware Annual Report",
+    "summary": "BlackFog’s 2025 State of Ransomware Annual Report reveals a 49% surge in attacks, AI-driven threats, and why 86% of ransomware incidents go undisclosed.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BlackFog Blog",
+    "sourceUrl": "https://www.blackfog.com/register-for-2025-state-of-ransomware-annual-report/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266928",
+    "date": "2026-02-12",
+    "title": "Epstein’s Files Burn Elite School Faculty",
+    "summary": "The Epstein files keep landing at elite universities, and the pattern is so consistent it’s raising the story to national security levels. How many kids going to college are exploited into a human trafficking system of powerful men running these institutions? At Yale, computer science professor D...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/epsteins-files-burn-elite-school-faculty/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266929",
+    "date": "2026-02-12",
+    "title": "Anthropic AI Safety Lead Can’t Hack It: Resigns to Get a Poetry Badge Instead",
+    "summary": "An Anthropic safety researcher loudly and publicly resigned this week with an alarmist yet vague letter warning that the world is “in peril” from “interconnected crises.” Let me break down why this happened. It’s not a mystery. Mrinank Sharma said he had “repeatedly seen how hard it is to truly l...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/anthropic-ai-safety-lead-cant-hack-it-censors-self-in-bid-to-get-a-poetry-badge-instead/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266930",
+    "date": "2026-02-12",
+    "title": "Proofpoint Acquires Acuvity to Deliver AI Security and Governance Across the Agentic Workspace",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threat Insight Blog - Cybersecurity Intelligence",
+    "sourceUrl": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquires-acuvity-deliver-ai-security-and-governance-across",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266931",
+    "date": "2026-02-12",
+    "title": "Accelerate Security Operations with Cisco’s New Security-Tuned Model",
+    "summary": "Explore a new frontier in LLM quality and speed. Cisco’s Foundation-Sec model delivers high-performance AI summaries for Splunk Security Operations workflows.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cisco Blog - Security",
+    "sourceUrl": "https://blogs.cisco.com/security/accelerate-security-operations-with-ciscos-new-security-tuned-model/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "cisco"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266932",
+    "date": "2026-02-12",
+    "title": "Phishing campaign chains old Office flaw with fileless XWorm RAT to evade detection",
+    "summary": "Fortinet researchers have disclosed a new phishing campaign delivering the commercially available XWorm malware, chaining a years-old Microsoft Office vulnerability with fileless execution to escape detection. The campaign, which uses multi-themed phishing emails and a malicious Excel add-in, ult...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131340/phishing-campaign-chains-old-office-flaw-with-fileless-xworm-rat-to-evade-detection.html",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "malware",
+      "ai-ml",
+      "microsoft",
+      "fortinet"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266933",
+    "date": "2026-02-12",
+    "title": "World Leaks Ransomware Group Adds Stealthy, Custom Malware ‘RustyRocket’ to Attacks",
+    "summary": "Accenture Cybersecurity warns over difficult to detect, “sophisticated toolset” being deployed as part of extortion campaigns",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/world-leaks-ransomware-rustyrocket/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266934",
+    "date": "2026-02-12",
+    "title": "Nation-State Hackers Embrace Gemini AI for Malicious Campaigns, Google Finds",
+    "summary": "Google researchers found that government-backed hackers now use AI throughout the whole attack lifecycle",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/nation-state-hackers-gemini-ai/",
+    "tags": [
+      "state-sponsored",
+      "government",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266935",
+    "date": "2026-02-12",
+    "title": "Odido data breach exposes personal info of 6.2 million customers",
+    "summary": "Dutch telecommunications provider Odido is warning that it suffered a cyberattack that reportedly exposed the personal data of 6.2 million customers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/",
+    "tags": [
+      "data-breach",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266936",
+    "date": "2026-02-12",
+    "title": "WordPress plugin with 900k installs vulnerable to critical RCE flaw",
+    "summary": "A critical vulnerability in the WPvivid Backup & Migration plugin for WordPress, installed on more than 900,000 websites, can be exploited to achieve remote code execution by uploading arbitrary files without authentication. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-installs-vulnerable-to-critical-rce-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266937",
+    "date": "2026-02-12",
+    "title": "AMOS infostealer targets macOS through a popular AI app  ",
+    "summary": "AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds the broader stealer-log cybercrime economy. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266938",
+    "date": "2026-02-12",
+    "title": "Fake AI Chrome extensions with 300K users steal credentials, emails",
+    "summary": "A set of 30 malicious Chrome extensions that have been installed by more than 300,000 users are masquerading as AI assistants to steal credentials, email content, and browsing information. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266888",
     "date": "2026-02-12",
     "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
