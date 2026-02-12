@@ -1,8 +1,12 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './DocumentsGuide.css';
 
+// Animation timing constant - should match CSS transition duration
+const SCROLL_ANIMATION_DURATION = 600;
+
 function DocumentsGuide() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const sectionRef = useRef(null);
 
   const documentSections = [
     {
@@ -99,26 +103,9 @@ function DocumentsGuide() {
       icon: '🇳🇴',
       description: 'Norwegian National Security Authority risk assessments',
       color: '#9b59b6',
-      documents: [
-        {
-          title: 'NSM Risiko 2026',
-          url: '/context/nsm-risk/Risiko 2026.pdf',
-          size: 'Various',
-          description: 'Latest risk assessment'
-        },
-        {
-          title: 'NSM Risiko 2025',
-          url: '/context/nsm-risk/Risiko 2025.pdf',
-          size: 'Various',
-          description: '2025 risk assessment'
-        },
-        {
-          title: 'NSM Risiko 2024',
-          url: '/context/nsm-risk/Risiko 2024.pdf',
-          size: 'Various',
-          description: '2024 risk assessment'
-        }
-      ],
+      // NSM PDFs removed - they were in /context/nsm-risk/ which is outside the public folder
+      // and caused 404 errors. Keeping section for external resources.
+      documents: [],
       resources: [
         {
           title: 'NSM - National Security Authority',
@@ -132,104 +119,112 @@ function DocumentsGuide() {
     }
   ];
 
-  const togglePanel = () => {
-    setIsOpen(!isOpen);
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const scrollToSection = () => {
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Expand after scrolling
+      setTimeout(() => setIsExpanded(true), SCROLL_ANIMATION_DURATION);
+    }
   };
 
   return (
     <>
-      {/* Floating button */}
+      {/* Floating scroll-to button */}
       <button 
-        className={`documents-guide-button ${isOpen ? 'active' : ''}`}
-        onClick={togglePanel}
-        aria-label="Open documents and guides"
-        title="Dokumenter & Veiledere"
+        className="documents-guide-scroll-button"
+        onClick={scrollToSection}
+        aria-label="Scroll to documents and guides"
+        title="Gå til Dokumenter & Veiledere"
       >
         <span className="button-icon">📚</span>
         <span className="button-text">Dokumenter</span>
       </button>
 
-      {/* Slide-in panel */}
-      <div className={`documents-guide-panel ${isOpen ? 'open' : ''}`}>
-        <div className="panel-header">
-          <h2>📚 Dokumenter & Veiledere</h2>
-          <button 
-            className="close-button" 
-            onClick={togglePanel}
-            aria-label="Close panel"
-          >
-            ✕
-          </button>
-        </div>
-
-        <div className="panel-content">
-          <p className="panel-intro">
-            Tilgang til viktige reguleringer og veiledere innen cybersikkerhet. 
-            Her finner du offisielle dokumenter og nyttige ressurser.
-          </p>
-
-          {documentSections.map(section => (
-            <div key={section.id} className="doc-section" style={{ borderLeftColor: section.color }}>
-              <div className="doc-section-header">
-                <span className="doc-icon">{section.icon}</span>
-                <div>
-                  <h3>{section.title}</h3>
-                  <p className="doc-description">{section.description}</p>
-                </div>
-              </div>
-
-              {section.documents.length > 0 && (
-                <div className="doc-list">
-                  <h4>📄 Dokumenter</h4>
-                  {section.documents.map((doc, idx) => (
-                    <a 
-                      key={idx}
-                      href={doc.url} 
-                      className="doc-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="doc-info">
-                        <span className="doc-title">{doc.title}</span>
-                        <span className="doc-meta">{doc.description} • {doc.size}</span>
-                      </div>
-                      <span className="doc-arrow">→</span>
-                    </a>
-                  ))}
-                </div>
-              )}
-
-              {section.resources.length > 0 && (
-                <div className="resource-list">
-                  <h4>🔗 Nyttige lenker</h4>
-                  {section.resources.map((resource, idx) => (
-                    <a 
-                      key={idx}
-                      href={resource.url} 
-                      className="resource-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span>{resource.title}</span>
-                      <span className="external-icon">↗</span>
-                    </a>
-                  ))}
-                </div>
-              )}
+      {/* Section at bottom of page */}
+      <section ref={sectionRef} className="documents-guide-section" id="documents-section">
+        <div className="documents-guide-container">
+          <div className="section-header" onClick={toggleExpand}>
+            <div className="header-content">
+              <h2>📚 Dokumenter & Veiledere</h2>
+              <p className="section-intro">
+                Tilgang til viktige reguleringer og veiledere innen cybersikkerhet
+              </p>
             </div>
-          ))}
+            <button 
+              className={`expand-button ${isExpanded ? 'expanded' : ''}`}
+              aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            >
+              {isExpanded ? '▲' : '▼'}
+            </button>
+          </div>
 
-          <div className="panel-footer">
-            <p>
-              💡 <strong>Tips:</strong> Klikk på dokumentlenker for å åpne PDF-filer direkte i nettleseren. 
-              Eksterne lenker åpnes i ny fane.
-            </p>
+          <div className={`section-content ${isExpanded ? 'expanded' : ''}`}>
+            <div className="documents-grid">
+              {documentSections.map(section => (
+                <div key={section.id} className="doc-section" style={{ borderLeftColor: section.color }}>
+                  <div className="doc-section-header">
+                    <span className="doc-icon">{section.icon}</span>
+                    <div>
+                      <h3>{section.title}</h3>
+                      <p className="doc-description">{section.description}</p>
+                    </div>
+                  </div>
+
+                  {section.documents.length > 0 && (
+                    <div className="doc-list">
+                      <h4>📄 Dokumenter</h4>
+                      {section.documents.map((doc, idx) => (
+                        <a 
+                          key={idx}
+                          href={doc.url} 
+                          className="doc-link"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="doc-info">
+                            <span className="doc-title">{doc.title}</span>
+                            <span className="doc-meta">{doc.description} • {doc.size}</span>
+                          </div>
+                          <span className="doc-arrow">→</span>
+                        </a>
+                      ))}
+                    </div>
+                  )}
+
+                  {section.resources.length > 0 && (
+                    <div className="resource-list">
+                      <h4>🔗 Nyttige lenker</h4>
+                      {section.resources.map((resource, idx) => (
+                        <a 
+                          key={idx}
+                          href={resource.url} 
+                          className="resource-link"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <span>{resource.title}</span>
+                          <span className="external-icon">↗</span>
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            <div className="section-footer">
+              <p>
+                💡 <strong>Tips:</strong> Klikk på dokumentlenker for å åpne PDF-filer direkte i nettleseren. 
+                Eksterne lenker åpnes i ny fane.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      {/* Overlay */}
-      {isOpen && <div className="documents-guide-overlay" onClick={togglePanel} />}
+      </section>
     </>
   );
 }

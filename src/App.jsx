@@ -987,6 +987,9 @@ function App() {
         </div>
       )}
 
+      {/* Documents & Guides - Section before footer */}
+      <DocumentsGuide />
+
       <footer className="footer">
         <div className="footer-reflection">
           <p className="footer-quote">
@@ -998,9 +1001,6 @@ function App() {
           Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date().toLocaleDateString('en-US')}
         </p>
       </footer>
-
-      {/* Documents & Guides - Floating button and panel */}
-      <DocumentsGuide />
     </div>
   )
 }
