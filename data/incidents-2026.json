@@ -1,5 +1,515 @@
 [
   {
+    "id": "20266854",
+    "date": "2026-02-12",
+    "title": "Polish hacker charged seven years after massive Morele.net data breach",
+    "summary": "A 29-year-old Polish man has been charged in connection with a data breach that exposed the personal details of around 2.5 million customers of the popular Polish e-commerce website Morele.net. Read more in my article on the Hot for Security blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.bitdefender.com/en-us/blog/hotforsecurity/polish-hacker-charged-seven-years-after-massive-morele-net-data-breach",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266855",
+    "date": "2026-02-12",
+    "title": "Shadow AI: The Invisible Insider Threat",
+    "summary": "AI adoption in healthcare is inevitable, but it gives every clinician and staff member the potential to become an unintentional insider threat.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102122-shadow-ai-the-invisible-insider-threat",
+    "tags": [
+      "healthcare",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266856",
+    "date": "2026-02-12",
+    "title": "Xi’s new year message to military reveals PLA Cyberspace Force post in South China Sea",
+    "summary": "China has deployed a section of its mysterious cyberspace force to the South China Sea to remain “ready for action”, with the unit making a rare appearance in Chinese President Xi Jinping’s Lunar New Year greeting to the military. Xi conveyed his Lunar New Year message to multiple branches of the...",
+    "region": "ASIA",
+    "country": "Hong Kong",
+    "sourceName": "South China Morning Post",
+    "sourceUrl": "https://www.scmp.com/news/china/military/article/3343312/xis-new-year-message-military-reveals-pla-cyberspace-force-post-south-china-sea?utm_source=rss_feed",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266857",
+    "date": "2026-02-12",
+    "title": "Apple corrige sa première faille zero-day de l’année sur macOS et iOS, déjà exploitée dans des attaques ciblées",
+    "summary": "Apple vient d’alerter sur une vulnérabilité touchant un composant central du système, susceptible d’avoir été exploitée dans des attaques ciblées. L’éditeur relie le signalement à deux failles WebKit corrigées en décembre, ce qui laisse entrevoir un enchaînement d’exploitation très élaboré.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600205-apple-corrige-sa-premiere-faille-zero-day-de-l-annee-sur-macos-et-ios-deja-exploitee-dans-des-attaques-ciblees.html",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266858",
+    "date": "2026-02-12",
+    "title": "ZeroDayRAT : voilà sans doute le plus dangereux spyware jamais créé pour iOS et Android",
+    "summary": "Un nouveau logiciel malveillant vendu sur Telegram permet de prendre le contrôle total d'un smartphone Android ou iOS. ZeroDayRAT transforme n'importe quel appareil en dispositif de surveillance et de vol de données bancaires. Surtout, n'importe qui peut le déployer et le prendre en main.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600178-zerodayrat-voila-sans-doute-le-plus-dangereux-spyware-jamais-cree-pour-ios-et-android.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266859",
+    "date": "2026-02-12",
+    "title": "India Brings AI-Generated Content Under Formal Regulation with IT Rules Amendment",
+    "summary": "The Central Government has formally brought AI-generated content within India’s regulatory framework for the first time. Through notification G.S.R. 120(E), issued by the Ministry of Electronics and Information Technology (MeitY) and signed by Joint Secretary Ajit Kumar, amendments were introduce...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/india-ai-generated-content-it-rules/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266860",
+    "date": "2026-02-12",
+    "title": "SMS and OTP Bombing Campaigns Found Abusing API, SSL and Cross-Platform Automation",
+    "summary": "The modern authentication ecosystem runs on a fragile assumption: that requests for one-time passwords are genuine. That assumption is now under sustained pressure. What began in the early 2020s as loosely shared scripts for irritating phone numbers has evolved into a coordinated ecosystem of SMS...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/sms-and-otp-bombing-bypass-analysis/",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266861",
+    "date": "2026-02-12",
+    "title": "India Seeks Larger Role in Global AI and Deep Tech Development",
+    "summary": "India’s technology ambitions are no longer limited to policy announcements, they are now translating into capital flows, institutional reforms, and global positioning. At the center of this transformation is the IndiaAI Mission, a flagship initiative that is reshaping AI in India while influencin...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/indiaai-mission-reflects-broader-shift/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20266862",
+    "date": "2026-02-12",
+    "title": "Taiwan Government Agencies Faced 637 Cybersecurity Incidents in H2 2025",
+    "summary": "In the past six months, Taiwan’s government agencies have reported 637 cybersecurity incidents, according to the latest data released by the Cybersecurity Academy (CSAA). The findings, published in its Cybersecurity Weekly Report, reveal not just the scale of digital threats facing Taiwan’s publi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cybersecurity-incidents-hit-taiwan-government/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266863",
+    "date": "2026-02-12",
+    "title": "The Future of DAST in an AI-First World: Why Runtime Security Testing Remains Critical",
+    "summary": "Runtime validation is where the gap is widening—and where this shift creates the biggest leap forward.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/spons/the-future-of-dast-in-an-ai-first-world-why-runtime-security-testing-remai/811891/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266864",
+    "date": "2026-02-12",
+    "title": "Russia moves to block WhatsApp as crackdown on messengers continues",
+    "summary": "The Russian government has moved to fully block access to WhatsApp, cutting off over 100 million users from the Meta-owned encrypted messaging platform. The move follows a similar throttling campaign against Telegram earlier this week and reflects an intensifying push to drive citizens toward the...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/russia-moves-to-block-whatsapp-as-crackdown-on-messengers-continues/",
+    "tags": [
+      "government",
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266865",
+    "date": "2026-02-12",
+    "title": "Apple patches actively exploited zero-day in iOS and macOS",
+    "summary": "Apple has released iOS 26.3, iPadOS 26.3, and macOS Tahoe 26.3 to patch dozens of security flaws, including a newly disclosed zero-day vulnerability that the company says was exploited in “an extremely sophisticated attack” against targeted individuals. The actively exploited bug affects the dyna...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/apple-patches-actively-exploited-zero-day-in-ios-and-macos/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "mobile",
+      "ai-ml",
+      "aws",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266866",
+    "date": "2026-02-12",
+    "title": "Apple fixes zero-day flaw exploited in targeted attacks (CVE-2026-20700)",
+    "summary": "Apple has released fixes for a zero-day vulnerability (CVE-2026-20700) exploited in targeted attacks last year. CVE-2026-20700 is a memory corruption issue in dyld, the Dynamic Link Editor component of Apple’s operating systems, and may allow attackers with memory write capability to execute arbi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/apple-zero-day-fixed-cve-2026-20700/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266867",
+    "date": "2026-02-12",
+    "title": "Microsoft Store updated with a new CLI, analytics, and Web Installer improvements",
+    "summary": "Microsoft has introduced new developer tools, updates to developer analytics, and a Web Installer in the Microsoft Store on Windows to help developers build and scale apps on the platform. “The Microsoft Store on Windows continues to evolve, shaped by ongoing feedback from developers building and...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/microsoft-store-cli-command-line-interface/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266868",
+    "date": "2026-02-12",
+    "title": "OpenVPN releases version 2.7.0 with expanded protocol and platform updates",
+    "summary": "OpenVPN version 2.7.0 is now available. The update advances support for multi-address server configurations and updates client functionality across operating systems. The release includes enhancements in data channel handling and support for evolving kernel and cryptographic components. Server en...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/openvpn-releases-version-2-7-0/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266869",
+    "date": "2026-02-12",
+    "title": "BlueCat Horizon unifies DNS, DHCP, IPAM, and security into a cloud-first intelligent NetOps platform",
+    "summary": "BlueCat Networks has unveiled BlueCat Horizon, a SaaS-based platform designed to modernize how enterprises and mid-market organizations operate, secure, and evolve their networks through AI-assisted insights and coordinated action across the network. BlueCat Horizon introduces a common set of pla...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/bluecat-horizon-saas-based-platform/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266870",
+    "date": "2026-02-12",
+    "title": "When security decisions come too late, and attackers know it",
+    "summary": "In this Help Net Security, Chris O’Ferrell, CEO at CodeHunter, talks about why malware keeps succeeding, where attackers insert malicious code in the SDLC, and how CI/CD pipelines can become a quiet entry point. He also breaks down the difference between behavioral detection and behavioral intent...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/chris-oferrell-codehunter-behavioral-intent-analysis-malware-detection/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266871",
+    "date": "2026-02-12",
+    "title": "OpenClaw Scanner: Open-source tool detects autonomous AI agents",
+    "summary": "A new free, open source tool is available to help organizations detect where autonomous AI agents are operating across corporate environments. The OpenClaw Scanner identifies instances of OpenClaw, an autonomous AI assistant also known as MoltBot, that can execute tasks, access local files, and a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/12/openclaw-scanner-open-source-tool-detects-autonomous-ai-agents/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266872",
+    "date": "2026-02-12",
+    "title": "7,000 Servers and Counting: The Rise of the SSHStalker Linux Botnet",
+    "summary": "Cybercriminal groups and opportunistic botnet operators continue to shift toward scale-first, persistence-driven operations that rely heavily on misconfigurations, weak authentication, and long-tail vulnerabilities rather than sophisticated zero-days. Recent analyses by Flare and other cybersecur...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "SecPod Blog",
+    "sourceUrl": "https://www.secpod.com/blog/7000-servers-and-counting-the-rise-of-the-sshstalker-linux-botnet/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266873",
+    "date": "2026-02-12",
+    "title": "Smart Digital Moves for a Borderless Financial Life",
+    "summary": "In this post, I will talk about the smart digital moves for a borderless financial life. As the world becomes more globalized in terms of work, business, and investing, more people are dealing with money on an international level. Remote workers, entrepreneurs, and digital nomads are using online...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/smart-digital-moves-for-a-borderless-financial-life/",
+    "tags": [
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266874",
+    "date": "2026-02-12",
+    "title": "How to Physically Secure Your Business",
+    "summary": "In this post, I will show you how to physically secure your business. With a sharp rise in cybersecurity threats, it has never been more important for any business to have a solid cybersecurity strategy. However, this doesn’t mean that you should overlook the importance of physical security! Whet...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-physically-secure-your-business/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266875",
+    "date": "2026-02-12",
+    "title": "Conversation with Prassanna Rao Rajgopal: Shaping AI-Driven Cybersecurity and the Future of Digital Defense",
+    "summary": "Here is an interview with Prassanna Rao Rajgopal, Head of Cybersecurity Alliances at Black Box. As cybersecurity ecosystems continue to evolve, collaboration, partnerships, and AI-driven services are becoming critical to building resilient security strategies at scale. One leader driving this shi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/conversation-with-prassanna-rao-rajgopal-shaping-ai-driven-cybersecurity/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266876",
+    "date": "2026-02-12",
+    "title": "Fortune 500 Tech Enterprise Speeds up Triage and Response with ANY.RUN’s Solutions",
+    "summary": "In enterprise SaaS, unclear security decisions carry real cost. False positives disrupt customers, while missed threats expose the business. A Fortune 500 cloud provider addressed this risk by embedding ANY.RUN into SOC investigations, giving analysts the behavioral evidence needed to reduce esca...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "ANY.RUN Blog",
+    "sourceUrl": "/cybersecurity-blog/fortune-500-enterprise-success-story/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266877",
+    "date": "2026-02-12",
+    "title": "British Museum: “Samurai Doesn’t Mean Warrior” Says Half of Japanese Samurai Were Female Warriors",
+    "summary": "First of all, let’s just admit that the British love the spectacle of suffering and gore. London is littered with “museums” glorifying the worst chapters in human history, almost as joyful interpretations of others’ suffering. Perhaps you could call it the “keep calm and carry on” being a deeper ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/british-museum-samurai-doesnt-mean-warrior-says-half-of-japanese-samurai-were-female-warriors/",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266878",
+    "date": "2026-02-12",
+    "title": "Trump Criminal Controls the Courthouse: Obvious Case for Blanche Disbarment",
+    "summary": "The President is in violation of the Constitution he swore to defend. Executive Summary The President of the United States failed to nominate Senate-confirmable U.S. Attorneys. He used procedural gimmicks to keep unconfirmed personal loyalists in those roles. Courts ruled his installations unlawf...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/trump-criminal-controls-the-courthouse-obvious-case-for-blanche-disbarment/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266879",
+    "date": "2026-02-12",
+    "title": "When AI Secrets Go Public: The Rising Risk of Exposed ChatGPT API Keys",
+    "summary": "Executive Summary Cyble Research and Intelligence Labs (CRIL) observed large-scale, systematic exposure of ChatGPT API keys across the public internet. Over 5,000 publicly accessible GitHub repositories and approximately 3,000 live production websites were found leaking API keys through hardcoded...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/when-ai-secrets-go-public-chatgpt/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266880",
+    "date": "2026-02-12",
+    "title": "Palo Alto closes privileged access gap with $25B CyberArk acquisition",
+    "summary": "Cybersecurity company Palo Alto Networks has completed its $25 billion acquisition of Israel-based identity security firm CyberArk, bringing privileged access and identity security into the core of its platform strategy. With this acquisition, Palo Alto aims to extend privileged access controls a...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131325/palo-alto-closes-privileged-access-gap-with-25b-cyberark-acquisition.html",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "palo alto"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266881",
+    "date": "2026-02-12",
+    "title": "The ephemeral infrastructure paradox: Why short-lived systems need stronger identity governance",
+    "summary": "In my experience leading engineering projects, I have encountered the same pattern repeatedly. We obsess over deployment speed. We measure success in commit velocity and uptime. But we rarely pause to ask the most uncomfortable question in the room: Who actually owns the identities we just spun u...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130939/the-ephemeral-infrastructure-paradox-why-short-lived-systems-need-stronger-identity-governance.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266882",
+    "date": "2026-02-12",
+    "title": "What CISOs need to know about the OpenClaw security nightmare",
+    "summary": "The new personal AI agent orchestration tool known as OpenClaw — formerly Clawdbot, then Moltbot — is a personal assistant that can do tasks for you without your personal supervision. It can operate across devices, interact with online services, trigger workflows — no wonder the Github repo has s...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4129867/what-cisos-need-to-know-about-clawdbot-i-mean-moltbot-i-mean-openclaw.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266883",
+    "date": "2026-02-12",
+    "title": "Senegalese Data Breaches Expose Lack of 'Security Maturity'",
+    "summary": "Green Blood Group steals personal records and biometric data of the West African nation's nearly 20 million residents.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-breach-senegal-national-biometric-database",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266884",
+    "date": "2026-02-12",
+    "title": "AI Skills Represent Dangerous New Attack Surface, Says TrendAI",
+    "summary": "New TrendAI report warns that most security tools can’t protect against attacks on AI skills artifacts",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/ai-skills-dangerous-new-attack/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266885",
+    "date": "2026-02-12",
+    "title": "Time to Exploit Plummets as N-Day Flaws Dominate",
+    "summary": "Flashpoint warns of a dramatic drop in the average time between vulnerability disclosure and exploitation",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/time-exploit-plummets-nday-flaws/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266886",
+    "date": "2026-02-12",
+    "title": "Cyber Training for Executives: Empowering Leaders to Navigate Risks",
+    "summary": "In the current digital era, cyber risk is no longer a purely technical issue. It’s a strategic business risk that directly impacts reputation, revenue and shareholder value. Organisations that fail to equip their leadership with the right cybersecurity knowledge are definitely more vulnerable to ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/cyber-training-for-executives-empowering-leaders-to-navigate-risks",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266887",
+    "date": "2026-02-12",
+    "title": "Google says hackers are abusing Gemini AI for all attacks stages",
+    "summary": "Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266841",
     "date": "2026-02-12",
     "title": "Palantir gjør Norge utrygt",
