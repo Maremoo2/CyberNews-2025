@@ -40,6 +40,7 @@ import AIInsights from './components/AIInsights'
 import DataModelTooltip from './components/DataModelTooltip'
 import HeroSection from './components/HeroSection'
 import ReadingProgress from './components/ReadingProgress'
+import DocumentsGuide from './components/DocumentsGuide'
 import { enhanceIncidents } from './utils/deduplicationUtils'
 import learningLog from '../data/learning-log.json'
 
@@ -997,6 +998,9 @@ function App() {
           Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date().toLocaleDateString('en-US')}
         </p>
       </footer>
+
+      {/* Documents & Guides - Floating button and panel */}
+      <DocumentsGuide />
     </div>
   )
 }
