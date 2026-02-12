@@ -46,16 +46,14 @@ function RegulationImpact({ selectedYear }) {
           type: 'external'
         },
         { 
-          title: 'NIS2 Directive - Norwegian PDF', 
-          url: '/documents/nis2/NIS2-direktiv-norsk.pdf',
-          type: 'pdf',
-          note: 'To be uploaded'
+          title: 'NIS2 Directive PDF', 
+          url: '/documents/nis2/Nis2.pdf',
+          type: 'pdf'
         },
         { 
-          title: 'NIS2 Directive - English PDF', 
-          url: '/documents/nis2/NIS2-directive-english.pdf',
-          type: 'pdf',
-          note: 'To be uploaded'
+          title: 'NIS2 Directive - EU Briefing PDF', 
+          url: '/documents/nis2/Nis2 directive eu breifing.pdf',
+          type: 'pdf'
         }
       ],
       color: '#3498db',
@@ -151,16 +149,14 @@ function RegulationImpact({ selectedYear }) {
           type: 'external'
         },
         { 
-          title: 'DORA Regulation - Norwegian PDF', 
-          url: '/documents/dora/DORA-regulation-norwegian.pdf',
-          type: 'pdf',
-          note: 'To be uploaded'
+          title: 'DORA Regulation PDF', 
+          url: '/documents/dora/DORA.pdf',
+          type: 'pdf'
         },
         { 
-          title: 'DORA Regulation - English PDF', 
-          url: '/documents/dora/DORA-regulation-english.pdf',
-          type: 'pdf',
-          note: 'To be uploaded'
+          title: 'DORA - Norsk Lovtidend PDF', 
+          url: '/documents/dora/DORA Norsk lovtidend.pdf',
+          type: 'pdf'
         }
       ],
       color: '#e67e22',
