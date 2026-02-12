@@ -1,6 +1,9 @@
 import { useState, useRef } from 'react';
 import './DocumentsGuide.css';
 
+// Animation timing constant - should match CSS transition duration
+const SCROLL_ANIMATION_DURATION = 600;
+
 function DocumentsGuide() {
   const [isExpanded, setIsExpanded] = useState(false);
   const sectionRef = useRef(null);
@@ -124,7 +127,7 @@ function DocumentsGuide() {
     if (sectionRef.current) {
       sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
       // Expand after scrolling
-      setTimeout(() => setIsExpanded(true), 600);
+      setTimeout(() => setIsExpanded(true), SCROLL_ANIMATION_DURATION);
     }
   };
 

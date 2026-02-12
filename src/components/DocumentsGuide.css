@@ -120,7 +120,7 @@
 }
 
 .section-content.expanded {
-  max-height: 5000px;
+  max-height: 10000px; /* Large value to accommodate any content size */
   overflow: visible;
 }
 
