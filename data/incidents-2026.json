@@ -1,5 +1,286 @@
 [
   {
+    "id": "20266888",
+    "date": "2026-02-12",
+    "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+    "summary": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted tools, familiar workflows, and overlooked exposures that sit in plain sight. Another shift is how ac...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266889",
+    "date": "2026-02-12",
+    "title": "[Ekstra] Jotta-sjef Roland Rabben går av",
+    "summary": "Etter 18 år som leder for IT-suksessen velger gründeren å forlate sjefsstolen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/jotta-sjef-roland-rabben-gar-av/568204",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266890",
+    "date": "2026-02-12",
+    "title": "Georgia healthcare company data breach impacts more than 620,000",
+    "summary": "A cyberattack last year on a prominent Georgia-based healthcare company leaked the sensitive information of 626,540 people, according to a new filing with the U.S. Department of Health and Human Services. ApolloMD notified customers of a data breach in September but provided federal regulators wi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/georgia-healthcare-company-data-breach-impacts-620000?&web_view=true",
+    "tags": [
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266891",
+    "date": "2026-02-12",
+    "title": "Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards",
+    "summary": "Windows will have runtime safeguards enabled by default, ensuring that only properly signed software runs. The post Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-to-enable-windows-baseline-security-with-new-runtime-integrity-safeguards/",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266892",
+    "date": "2026-02-12",
+    "title": "Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns",
+    "summary": "Threat actors from Russia, China, North Korea and Iran have been observed launching attacks. The post Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/hacktivists-state-actors-cybercriminals-target-global-defense-industry-google-warns/",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266893",
+    "date": "2026-02-12",
+    "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
+    "summary": "A new 2026 market intelligence study of 128 enterprise security decision-makers (available here) reveals a stark divide forming between organizations – one that has nothing to do with budget size or industry and everything to do with a single framework decision. Organizations implementing Continu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266894",
+    "date": "2026-02-12",
+    "title": "Volvo Group hit in massive Conduent data breach",
+    "summary": "Pierluigi Paganini February 11, 2026 A data breach at business services provider Conduent has impacted at least 25 million people, far more than initially reported. Volvo Group North America confirmed that the security breach exposed data of nearly 17,000 of its employees, making it one of severa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187875/security/volvo-group-hit-in-massive-conduent-data-breach.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266895",
+    "date": "2026-02-12",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9ccadf1d5f64d0e0 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266896",
+    "date": "2026-02-12",
+    "title": "Nucleus Raises $20 Million for Exposure Management",
+    "summary": "The company will use the investment to scale operations and deepen intelligence and automation. The post Nucleus Raises $20 Million for Exposure Management appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/nucleus-raises-20-million-for-exposure-management/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266897",
+    "date": "2026-02-12",
+    "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
+    "summary": "Cybersecurity researchers have discovered what they said is the first known malicious Microsoft Outlook add-in detected in the wild. In this unusual supply chain attack detailed by Koi Security, an unknown attacker claimed the domain associated with a now-abandoned legitimate add-in to serve a fa...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html?&web_view=true",
+    "tags": [
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266898",
+    "date": "2026-02-12",
+    "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
+    "summary": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting infrastructure offered by PROSPERO. Threat intelligence firm GreyNoise said it recorded 417 exploita...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20266899",
+    "date": "2026-02-12",
+    "title": "[Ekstra] Første kontrakt signert på statens gigant-skyavtale",
+    "summary": "Google trakk det lengste strået i første avrop på statens milliardavtale for sky.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/forste-kontrakt-signert-pa-statens-gigant-skyavtale/568186",
+    "tags": [
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266900",
+    "date": "2026-02-12",
+    "title": "Apple Patches iOS Zero-Day Exploited in ‘Extremely Sophisticated Attack’",
+    "summary": "Impacting the ‘dyld’ system component, the memory corruption issue can be exploited for arbitrary code execution. The post Apple Patches iOS Zero-Day Exploited in ‘Extremely Sophisticated Attack’ appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/apple-patches-ios-zero-day-exploited-in-extremely-sophisticated-attack/",
+    "tags": [
+      "vulnerability",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266901",
+    "date": "2026-02-12",
+    "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Apple Devices",
+    "summary": "Apple on Wednesday released iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks. The vulnerability, tracked as CVE-2026-20700 (CVSS score: N/A), has been described as a memory corruption issue in d...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+    "tags": [
+      "vulnerability",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266902",
+    "date": "2026-02-12",
+    "title": "[Ekstra] Advarer mot skreddersydd KI-svindel: – Jo mer informasjon som ligger ute om deg på nettet, desto større muligheter",
+    "summary": "KI-drevet svindel, skreddersydde angrep og manipulasjon gjennom sosiale medier blir vanlig i året som kommer, sier Telenors sikkerhetsekspert.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/advarer-mot-skreddersydd-personlig-og-troverdig-svindel/568183",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266903",
+    "date": "2026-02-12",
+    "title": "Cyber Security, Privacy and AI for Older Adults - Isthmus | Madison, Wisconsin",
+    "summary": "The presentation will be given by Tim Bohn, the Deputy Chief Information Security Officer and Assistant Director of CyberSecurity Programs and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://isthmus.com/events/cyber-security-privacy-and-ai-for-older-adults/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266904",
+    "date": "2026-02-12",
+    "title": "CISOs driving growth through cyber resilience, but AI and supply chain visibility cause lingering gaps",
+    "summary": "It finds that the CISO role has expanded beyond traditional defence, with many security leaders now positioning cybersecurity as an enabler of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/cisos-driving-growth-through-cyber-resilience-but-ai-and-supply-chain-visibility-cause-lingering-gaps/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266905",
+    "date": "2026-02-12",
+    "title": "Cybersecurity experts weigh in on Ring's new AI-powered dog tracking feature - YouTube",
+    "summary": "Ring's new Super Bowl commercial is drawing the attention of cybersecurity experts after the company unveiled its new AI-powered dog tracking tool ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=4i1GNUUUvdY",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266906",
+    "date": "2026-02-12",
+    "title": "Varsler flere tilsyn med kommuner",
+    "summary": "Datatilsynet fortsetter arbeidet med å sikre barn og unges personvern i grunnskolen. Etter den omfattende gjennomgangen av skolesektoren i 2025, vil det nå gjennomføres fem nye stedlige tilsyn der kommunenes etterlevelse av personvernregelverket skal kontrolleres.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Offentlig/Microsoft",
+    "sourceUrl": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/varsler-flere-tilsyn-med-kommuner/",
+    "tags": [
+      "Offentlig/Microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266854",
     "date": "2026-02-12",
     "title": "Polish hacker charged seven years after massive Morele.net data breach",
