@@ -1,5 +1,199 @@
 [
   {
+    "id": "20266768",
+    "date": "2026-02-11",
+    "title": "CISA’s 2025 Year in Review: Driving Security and Resilience Across Critical Infrastructure",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisas-2025-year-review-driving-security-and-resilience-across-critical-infrastructure",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266769",
+    "date": "2026-02-11",
+    "title": "Microsoft says hackers are exploiting critical zero-day bugs to target Windows and Office users",
+    "summary": "Critical security flaws targeting Windows and Office users allow hackers to take complete control of a victim's computer by clicking a malicious link or opening a file. Patch now.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/11/microsoft-says-hackers-are-exploiting-critical-zero-day-bugs-to-target-windows-and-office-users/",
+    "tags": [
+      "vulnerability",
+      "cloud",
+      "microsoft",
+      "aws"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266770",
+    "date": "2026-02-11",
+    "title": "DOJ says Trenchant boss sold exploits to Russian broker capable of accessing ‘millions of computers and devices’",
+    "summary": "The former boss of the L3Harris-owned hacking and surveillance tools maker Trenchant faces nine years in prison for selling several exploits to a Russian broker, which counts the Russian government among its customers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/11/doj-says-trenchant-boss-sold-exploits-to-russian-broker-capable-of-accessing-millions-of-computers-and-devices/",
+    "tags": [
+      "vulnerability",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266771",
+    "date": "2026-02-11",
+    "title": "Microsoft fixes Notepad flaw that could trick users into clicking malicious Markdown links",
+    "summary": "Microsoft has fixed a serious security vulnerability affecting Markdown files in Notepad. In the company's Tuesday patch notes, Microsoft says a bad actor could carry out a remote code execution attack by tricking users \"into clicking a malicious link inside a Markdown file opened in Notepad,\" as...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "The Verge Cybersecurity",
+    "sourceUrl": "https://www.theverge.com/tech/877295/microsoft-notepad-markdown-security-vulnerability-remote-code-execution",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266772",
+    "date": "2026-02-11",
+    "title": "CVE-2026-25646: Legacy Libpng Flaw Poses RCE Risk",
+    "summary": "A vulnerability present in libpng for nearly 30 years has been identified as a potential risk to millions of systems. The flaw, a heap buffer overflow, can cause application crashes and, under certain conditions, may allow arbitrary code execution when processing specially crafted PNG images. “In...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/cve-2026-25646-legacy-libpng-flaw-poses-rce-risk/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266773",
+    "date": "2026-02-11",
+    "title": "Hybrid Network Security Complexities and Visibility Gaps You Need to beware of",
+    "summary": "Key Takeaways Hybrid networks amplify security risks through visibility gaps in multi-cloud traffic flows and encrypted paths. Tool sprawl and inconsistent policies across on-premises and public clouds delay threat detection by weeks. East-west traffic blind spots enable lateral movement; priorit...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/network-security/hybrid-network-visibility-gaps-and-security-complexities/",
+    "tags": [
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266774",
+    "date": "2026-02-11",
+    "title": "North Korea's UNC1069 Hammers Crypto Firms With AI",
+    "summary": "In moving away from traditional banks to focus on Web3 companies, the threat actor is leveraging LLMs, deepfakes, legitimate platforms, and ClickFix.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/threat-intelligence/north-koreas-unc1069-hammers-crypto-firms",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266777",
+    "date": "2026-02-11",
+    "title": "Microsoft Patches Windows Flaw Causing VPN Disruptions",
+    "summary": "Microsoft patches CVE-2026-21525, an actively exploited RasMan flaw that can crash Windows VPN services and disrupt remote access. The post Microsoft Patches Windows Flaw Causing VPN Disruptions appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-rasman-cve-vpn/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266778",
+    "date": "2026-02-11",
+    "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
+    "summary": "Microsoft has fixed a \"remote code execution\" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266779",
+    "date": "2026-02-11",
+    "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
+    "summary": "The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
+    "tags": [
+      "phishing",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266780",
+    "date": "2026-02-11",
+    "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
+    "summary": "A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
+    "tags": [
+      "ransomware",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266781",
+    "date": "2026-02-11",
+    "title": "Police arrest seller of JokerOTP MFA passcode capturing tool",
+    "summary": "The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
+    "tags": [
+      "phishing",
+      "apt"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266782",
+    "date": "2026-02-11",
+    "title": "When Windows breaks and chips crack.",
+    "summary": "Patch Tuesday. Preliminary findings from the European Commission come down on TikTok. Switzerland’s military cancels its contract with Palantir. Social engineering leads to payroll fraud. Google hands over extensive personal data on a British student activist. Researchers unearth a global espiona...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2487/notes",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266726",
     "date": "2026-02-11",
     "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities",
@@ -2171,6 +2365,35 @@
     "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-26h1-for-select-and-upcoming-cpus/",
     "tags": [
       "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266775",
+    "date": "2026-02-10",
+    "title": "How to Stay on Top of Future Threats With a Cutting-Edge SOC",
+    "summary": "CISOs should focus on harnessing and securing AI and building new skills among their people. Vision and change management can transform security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/stay-top-future-threats-cutting-edge-soc",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266776",
+    "date": "2026-02-10",
+    "title": "Automaker Secures the Supply Chain With Developer-Friendly Platform",
+    "summary": "How a platform engineering team embeds supply chain security into infrastructure without slowing developers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/automaker-secures-supply-chain-developer-friendly-platform",
+    "tags": [
+      "supply-chain",
+      "ai-ml"
     ],
     "impact": 3
   },
