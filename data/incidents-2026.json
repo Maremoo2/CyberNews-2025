@@ -1,5 +1,342 @@
 [
   {
+    "id": "20266977",
+    "date": "2026-02-12",
+    "title": "Hacker linked to Epstein removed from Black Hat cyber conference website",
+    "summary": "Emails published by the Justice Department revealed cybersecurity veteran Vincenzo Iozzo emailed, and arranged to meet, Jeffrey Epstein multiple times between 2014 and 2018.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/12/hacker-linked-to-epstein-removed-from-black-hat-cyber-conference-website/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266978",
+    "date": "2026-02-12",
+    "title": "CISA will shutter some missions to prioritize others",
+    "summary": "The agency has lost roughly one-third of its workforce since January 2025.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/cisa-cybersecurity-division-reorganization/812155/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266980",
+    "date": "2026-02-12",
+    "title": "Russia Bans WhatsApp for Over 100 Million Users, Promotes National Alternative",
+    "summary": "Russia blocked Meta’s WhatsApp messaging service this week. Over 100 million Russian users lost access to one of the world’s most popular private messaging platforms. The Kremlin made the announcement on Thursday and immediately pushed citizens toward Max, a state-backed alternative. Russia has a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "PrivacySavvy",
+    "sourceUrl": "https://privacysavvy.com/news/cybersecurity/russia-bans-whatsapp-national-alternative/",
+    "tags": [
+      "ai-ml",
+      "meta"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266981",
+    "date": "2026-02-12",
+    "title": "The poem that freed a child from ICE",
+    "summary": "Legal orders free people all the time. Poems move people all the time. Judge Fred Biery’s habeas corpus ruling freeing 5-year-old Liam Conejo Ramos and his father fused the two. His poem is the operative legal instrument. The literary choices aren’t ornamental; they’re structural to the argument....",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/the-poem-that-freed-a-child-from-ice/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266982",
+    "date": "2026-02-12",
+    "title": "Boredom is the Cure for AI",
+    "summary": "A new AI “harms” article from Harvard basically proves a simple equation. Boredom is a signal to stop, and stopping is what lets you recover. Even more to the point, boredom is what makes us happy, like saying a vacation on a beach with nothing to do is a great way to become more productive … Con...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/boredom-is-the-cure-for-ai/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266983",
+    "date": "2026-02-12",
+    "title": "Microsoft 365 Business Premium for GCC High: Pros and Cons for CMMC",
+    "summary": "For small to mid-sized federal contractors, the path to CMMC compliance often feels like being stuck between a rock and a hard place. On one side, you have the Department of War (DoW) requiring stringent security controls to secure future contracts. On the other, you have the eye-watering costs o...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Virtru Blog",
+    "sourceUrl": "https://www.virtru.com/blog/compliance/cmmc/microsoft-365-business-premium-gcc-high",
+    "tags": [
+      "critical-infrastructure",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266984",
+    "date": "2026-02-12",
+    "title": "Why identity recovery is now central to cyber resilience",
+    "summary": "Ransomware has permanently changed how security leaders think about risk. Verizon’s 2025 Data Breach Investigations Report found that ransomware was involved in 44% of all breaches. For small and midsize businesses, the problem is big; ransomware was involved in nearly nine out of 10 breaches, co...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131708/why-identity-recovery-is-now-central-to-cyber-resilience.html",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266985",
+    "date": "2026-02-12",
+    "title": "‘Dead’ Outlook add-in hijacked to phish 4,000 Microsoft Office Store users",
+    "summary": "A blind spot in Microsoft’s app and add-in marketplace security allowed an eagle-eyed hacker to hijack an abandoned Outlook add-in to carry out phishing attacks that compromised 4,000 users, researchers have discovered. The app in question, AgreeTo, is, or was, a meeting scheduling tool that firs...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131632/dead-outlook-add-in-hijacked-to-phish-4000-microsoft-office-store-users-2.html",
+    "tags": [
+      "phishing",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266986",
+    "date": "2026-02-12",
+    "title": "Neue Warn-App für Cybervorfälle gestartet",
+    "summary": "Die neue CYROS-App verknüpft Sicherheitswarnungen von Behörden und Fachquellen, um über Cybersicherheitsvorfälle zu informieren.Rawat Yapathanasap – shutterstock.com Ransomware-Attacken, Phishing und digitale Sabotage: Vor dem Hintergrund der zunehmenden Cyberbedrohungslage hat das Frankfurter Cy...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4130104/neue-warn-app-fur-cybervorfalle-gestartet.html",
+    "tags": [
+      "ransomware",
+      "phishing"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266987",
+    "date": "2026-02-12",
+    "title": "Ivanti EPMM Zero-Day Bugs Spark Exploit Frenzy — Again",
+    "summary": "It's time to phase out the \"patch and pray\" approach, eliminate needless public interfaces, and enforce authentication controls, one expert says.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/ivanti-epmm-zero-day-bugs-exploit",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266988",
+    "date": "2026-02-12",
+    "title": "Booz Allen Announces General Availability of Vellox Reverser to Automate Malware Defense",
+    "summary": "The AI-powered product delivers expert-grade malware analysis and reverse engineering in minutes.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/endpoint-security/booz-allen-announces-general-availability-vellox-reverser",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266989",
+    "date": "2026-02-12",
+    "title": "SpecterOps Launches BloodHound Scentry to Accelerate the Practice of Identity Attack Path Management",
+    "summary": "Drawing on years of adversary tradecraft, SpecterOps experts work alongside customers to analyze and eliminate attack paths, protect critical assets, and stay ahead of emerging threats.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/identity-access-management-security/specterops-launches-bloodhound-scentry",
+    "tags": [
+      "malware"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266990",
+    "date": "2026-02-12",
+    "title": "Gone With the Shame: One in Two Americans Are Reluctant to Talk About Romance Scam Incidents",
+    "summary": "Men should take extra care on Valentine’s Day because they are nearly twice as likely as women to fall victim to romance scams.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/one-in-two-americans-romance-scam-incidents",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20266991",
+    "date": "2026-02-12",
+    "title": "Those 'Summarize With AI' Buttons May Be Lying to You",
+    "summary": "Microsoft uncovered AI recommendation poisoning in 31 companies across 14 industries, and turnkey tools make it trivially easy to pull off.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/summarize-ai-buttons-may-be-lying",
+    "tags": [
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266992",
+    "date": "2026-02-12",
+    "title": "Sophos Firewall Configuration Viewer",
+    "summary": "Categories: Products & ServicesTags: Firewall",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/sophos-firewall-configuration-viewer",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266993",
+    "date": "2026-02-12",
+    "title": "Critical Apple Flaw Exploited in ‘Sophisticated’ Attacks, Company Urges Rapid Patching",
+    "summary": "Apple urges users to update after patching CVE-2026-20700, a zero-day flaw exploited in sophisticated targeted attacks across multiple devices. The post Critical Apple Flaw Exploited in ‘Sophisticated’ Attacks, Company Urges Rapid Patching appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-apple-zero-day-cve-update-february-2026/",
+    "tags": [
+      "vulnerability",
+      "apple"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266994",
+    "date": "2026-02-12",
+    "title": "Microsoft’s February Patch Tuesday Fixes 6 Zero-Days Under Attack",
+    "summary": "Microsoft patches 58 vulnerabilities, including six actively exploited zero-days across Windows, Office, and RDP, as CISA sets a March 3 deadline. The post Microsoft’s February Patch Tuesday Fixes 6 Zero-Days Under Attack appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-patch-tuesday-six-zero-days-february-2026/",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266995",
+    "date": "2026-02-12",
+    "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
+    "summary": "The Russian government is attempting to block WhatsApp in the country as its crackdown on communication platforms not under its control intensifies. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/",
+    "tags": [
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266996",
+    "date": "2026-02-12",
+    "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+    "summary": "Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266997",
+    "date": "2026-02-12",
+    "title": "Critical BeyondTrust RCE flaw now exploited in attacks, patch now",
+    "summary": "A critical pre-authentication remote code execution vulnerability in BeyondTrust Remote Support and Privileged Remote Access appliances is now being exploited in attacks after a PoC was published online. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-beyondtrust-rce-flaw-now-exploited-in-attacks-patch-now/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20266998",
+    "date": "2026-02-12",
+    "title": "Microsoft: New Windows LNK spoofing issues aren't vulnerabilities",
+    "summary": "Today, at Wild West Hackin' Fest, security researcher Wietze Beukema disclosed multiple vulnerabilities in Windows LK shortcut files that allow attackers to deploy malicious payloads. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-lnk-spoofing-issues-arent-vulnerabilities/",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20266999",
+    "date": "2026-02-12",
+    "title": "Romania's oil pipeline operator Conpet confirms data stolen in attack",
+    "summary": "Romania's national oil pipeline operator, Conpet S.A., confirmed that the Qilin ransomware gang stole company data in an attack last week. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/",
+    "tags": [
+      "ransomware",
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267000",
+    "date": "2026-02-12",
+    "title": "AI or I-Spy?",
+    "summary": "Malicious Chrome extensions pose as AI tools. Google says nation-states are increasingly abusing its Gemini artificial intelligence tool. Data extortion group World Leaks deploys a new malware tool called RustyRocket. An Atlanta healthcare provider data breach affects over 625,000. Apple patches ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2488/notes",
+    "tags": [
+      "data-breach",
+      "malware",
+      "state-sponsored",
+      "healthcare",
+      "ai-ml",
+      "google",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266939",
     "date": "2026-02-12",
     "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
@@ -5282,6 +5619,18 @@
     "tags": [
       "microsoft"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20266979",
+    "date": "2026-02-10",
+    "title": "CMMC Level 2 Certification—How and When to Choose a C3PAO",
+    "summary": "Last Updated on February 12, 2026 The post CMMC Level 2 Certification—How and When to Choose a C3PAO appeared first on Pivot Point Security.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Pivot Point Security Blog",
+    "sourceUrl": "https://www.pivotpointsecurity.com/cmmc-level-2-certification-how-and-when-to-choose-a-c3pao/?utm_source=rss&utm_medium=rss&utm_campaign=cmmc-level-2-certification-how-and-when-to-choose-a-c3pao",
+    "tags": [],
     "impact": 3
   },
   {
