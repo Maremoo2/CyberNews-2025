@@ -1,5 +1,169 @@
 [
   {
+    "id": "20267035",
+    "date": "2026-02-13",
+    "title": "[Ekstra] Jammer egne kanaler etter å ha havnet på Starlinks svarteliste",
+    "summary": "Starlink er vanskelig å erstatte og vanskelig å jamme.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/russland-har-fa-alternativer-etter-at-de-ble-kastet-ut-av-starlink/567267",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267036",
+    "date": "2026-02-13",
+    "title": "AI-Powered Knowledge Graph Generator & APTs, (Thu, Feb 12th)",
+    "summary": "Unstructured text to interactive knowledge graph via LLM & SPO triplet extraction Courtesy of TLDR InfoSec Launches & Tools again, another fine discovery in Robert McDermott’s AI Powered Knowledge Graph Generator. Robert’s system takes unstructured text, uses your preferred LLM and extracts knowl...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32712",
+    "tags": [
+      "malware",
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267037",
+    "date": "2026-02-13",
+    "title": "ISC Stormcast For Friday, February 13th, 2026 https://isc.sans.edu/podcastdetail/9808, (Fri, Feb 13th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32714",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267038",
+    "date": "2026-02-13",
+    "title": "Proofpoint acquires Acuvity to tackle the security risks of agentic AI",
+    "summary": "Proofpoint announced Thursday it has acquired Acuvity, an AI security startup, as the cybersecurity company moves to address security risks stemming from widespread corporate adoption of agentic AI. The acquisition strengthens Proofpoint‘s capabilities in monitoring and securing AI-powered system...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/proofpoint-acuvity-deal-agentic-ai-security/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267039",
+    "date": "2026-02-13",
+    "title": "Apple discloses first actively exploited zero-day of 2026",
+    "summary": "Apple disclosed a zero-day vulnerability Wednesday that the vendor warned was previously “exploited in an extremely sophisticated attack against specific targeted individuals,” the company said in a security update. The memory-corruption vulnerability — CVE-2026-20700 — affects iPhones and iPads ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/apple-zero-day-vulnerability-cve-2026-20700/",
+    "tags": [
+      "vulnerability",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267040",
+    "date": "2026-02-13",
+    "title": "Major 'vibe-coding' platform Orchids is easily hacked, researcher finds - BBC",
+    "summary": "Its security flaws were demonstrated to the BBC by cyber-security researcher Etizaz Mohsin. I downloaded the Orchids desktop app to my spare ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bbc.com/news/articles/cy4wnw04e8wo",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267041",
+    "date": "2026-02-13",
+    "title": "NY Enacts RAISE Act Amid Federal AI Security Push — AI: The Washington Report | Mintz",
+    "summary": "These comments come as Congress renewed the Cybersecurity Information Sharing Act of 2015 (CISA 2015) through September 30, 2026, as part of the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.mintz.com/insights-center/viewpoints/54731/2026-02-06-ny-enacts-raise-act-amid-federal-ai-security-push-ai",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267042",
+    "date": "2026-02-13",
+    "title": "The data behind the design: How Pantone built agentic AI with an AI-ready database",
+    "summary": "When we talk about agentic AI, it’s easy to default to abstract conversations about models, prompts, and orchestration. But the most compelling stories I see are the ones where AI unlocks something deeply human—creativity, intuition, and expertise—at entirely new speed and scale. That’s why I was...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://azure.microsoft.com/en-us/blog/the-data-behind-the-design-how-pantone-built-agentic-ai-with-an-ai-ready-database/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267043",
+    "date": "2026-02-13",
+    "title": "Promptware Attack Lets Hackers Weaponize Google Calendar Invites to Spy via Zoom Camera",
+    "summary": "As LLMs control more (e.g., Siri, Cortana evolutions), we need layered security, not just “say no to bad prompts.” This shifts cybersecurity: Treat AI ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/promptware-attack-lets-hackers-weaponize-google-calendar-invites-to-spy-via-zoom-camera/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267044",
+    "date": "2026-02-13",
+    "title": "AI-Led Security Boom Makes These 3 Cybersecurity Stocks Worth Buying - Yahoo Finance",
+    "summary": "This is where artificial intelligence (AI) comes in. AI can analyze vast volumes of data and detect potential threats before they escalate. It shifts ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/ai-led-security-boom-makes-151400578.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267045",
+    "date": "2026-02-13",
+    "title": "How the upcoming DHS shutdown may affect you - Axios",
+    "summary": "... cyber monitoring starting Friday. The big picture: The Department of Homeland Security is the only department facing a funding lapse, putting ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.axios.com/2026/02/12/dhs-government-shutdown-tsa-travel",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267029",
     "date": "2026-02-13",
     "title": "Cyber risk is becoming a hold-period problem for private equity firms",
