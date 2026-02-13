@@ -1,5 +1,510 @@
 [
   {
+    "id": "20267047",
+    "date": "2026-02-13",
+    "title": "IPTV : la répression franchit un cap… et pousse les utilisateurs vers les VPN",
+    "summary": "Nouveau coup de filet… Ces derniers jours, des services bien connus pour diffuser illégalement des matchs de football ont soudainement cessé de fonctionner. Listes de chaînes inaccessibles, applications inutilisables, coupure nette : pour de nombreux abonnés, le signal est clair.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600457-iptv-la-repression-franchit-un-cap-et-pousse-les-utilisateurs-vers-les-vpn.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267048",
+    "date": "2026-02-13",
+    "title": "Quand les bloqueurs de pubs trahissent votre géolocalisation malgré un VPN",
+    "summary": "Une nouvelle technique de fingerprinting révèle la localisation des utilisateurs même derrière un VPN. Le coupable ? Les listes de filtres AdBlock configurées selon votre pays.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600397-quand-les-bloqueurs-de-pubs-trahissent-votre-geolocalisation-malgre-un-vpn.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267049",
+    "date": "2026-02-13",
+    "title": "Cupid Vault : à l'occasion de la Saint-Valentin, Bitwarden déploie « un coffre-fort pour deux »",
+    "summary": "Bitwarden veut faire rimer dîner aux chandelles et sécurité numérique avec « Cupid Vault », un coffre-fort de mots de passe pensé pour deux. Reste à savoir si ce cadeau de Saint‑Valentin protège vraiment les couples… ou surtout la plateforme.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600400-cupid-vault-a-l-occasion-de-la-saint-valentin-bitwarden-deploie-un-coffre-fort-pour-deux.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267050",
+    "date": "2026-02-13",
+    "title": "Pour Chrome, Google valide et recommande toujours des extensions IA vérolées",
+    "summary": "Trente extensions Chrome se faisant passer pour des assistants IA ont infiltré plus de 300 000 navigateurs. Les experts de LayerX révèlent une campagne baptisée AiFrame qui utilise des iframes distants pour voler identifiants, emails et données de navigation.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600361-pour-chrome-google-valide-et-recommande-toujours-des-extensions-ia-verolees.html",
+    "tags": [
+      "apt",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267051",
+    "date": "2026-02-13",
+    "title": "Vous utilisez l'IA au boulot ? Pourquoi c'est très problématique",
+    "summary": "Plus de 80 % des entreprises du Fortune 500 déploient des agents d'IA actifs créés avec des outils low-code. 29 % des employés utilisent déjà des agents non autorisés pour leurs tâches professionnelles.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600259-vous-utilisez-l-ia-au-boulot-pourquoi-c-est-tres-problematique.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267052",
+    "date": "2026-02-13",
+    "title": "The Cyber Express Weekly Roundup: Escalating Breaches, Regulatory Crackdowns, and Global Cybercrime Developments",
+    "summary": "As February 2026 progresses, this week’s The Cyber Express Weekly Roundup examines a series of cybersecurity incidents and enforcement actions spanning Europe, Africa, Australia, and the United States. The developments include a breach affecting the European Commission’s mobile management infrast...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/weekly-roundup-cyber-express-feb-2026/",
+    "tags": [
+      "data-breach",
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267053",
+    "date": "2026-02-13",
+    "title": "60,000 Records Exposed in Cyberattack on Uzbekistan Government",
+    "summary": "An alleged Uzbekistan cyberattack that triggered widespread concern online has exposed around 60,000 unique data records, not the personal data of 15 million citizens, as previously claimed on social media. The clarification came from Uzbekistan’s Digital Technologies Minister Sherzod Shermatov d...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/uzbekistan-cyberattack-limited-to-60k-records/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267054",
+    "date": "2026-02-13",
+    "title": "Adversaries Exploiting Proprietary AI Capabilities, API Traffic to Scale Cyberattacks",
+    "summary": "In the fourth quarter of 2025, the Google Threat Intelligence Group (GTIG) reported a significant uptick in the misuse of artificial intelligence by threat actors. According to GTIG’s AI threat tracker, what initially appeared as experimental probing has evolved into systematic, repeatable exploi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/gtig-ai-threat-tracker/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267055",
+    "date": "2026-02-13",
+    "title": "Disney Agrees Record $2.75Mn Settlement for Opt-Out Failures",
+    "summary": "Animation giant Walt Disney has agreed to pay a $2.75 million fine and overhaul its privacy practices to settle violation allegations of the California Consumer Privacy Act (CCPA). The Disney CCPA settlement marks the largest settlement in the Act's enforcement history. For a global audience watc...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/disney-ccpa-settlement/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267056",
+    "date": "2026-02-13",
+    "title": "8,000+ ChatGPT API Keys Left Publicly Accessible",
+    "summary": "The rapid integration of artificial intelligence into mainstream software development has introduced a new category of security risk, one that many organizations are still unprepared to manage. According to research conducted by Cyble Research and Intelligence Labs (CRIL), thousands of exposed Ch...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/exposed-chatgpt-api-keys-github-websites/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267057",
+    "date": "2026-02-13",
+    "title": "Hackers probe, exploit newly patched BeyondTrust RCE flaw (CVE-2026-1731)",
+    "summary": "Attackers are exploiting a recently patched critical vulnerability (CVE-2026-1731) in internet-facing BeyondTrust Remote Support and Privileged Remote Access instances. “Attackers are abusing get_portal_info to extract the x-ns-company value before establishing a WebSocket channel,” Ryan Dewhurst...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/beyondtrust-cve-2026-1731-poc-exploit-activity/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267058",
+    "date": "2026-02-13",
+    "title": "Proofpoint acquires Acuvity to secure AI and agent-driven workflows",
+    "summary": "Proofpoint has acquired Acuvity, strengthening its platform with AI-native visibility, governance, and runtime protection for AI and agent-driven workflows. As generative AI reshapes how work gets done, organisations are deploying AI copilots, autonomous agents, and model-connected applications a...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/proofpoint-acquired-acuvity/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267059",
+    "date": "2026-02-13",
+    "title": "Brutus: Open-source credential testing tool for offensive security",
+    "summary": "Brutus is an open-source, multi-protocol credential testing tool written in pure Go. Designed to replace legacy tools that have long frustrated penetration testers with dependency headaches and integration gaps, Brutus ships as a single binary with zero external dependencies and native support fo...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/brutus-open-source-credential-testing-tool-offensive-security/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267060",
+    "date": "2026-02-13",
+    "title": "Police arrests distributor of JokerOTP password-stealing bot",
+    "summary": "The Dutch National Police arrested a 21-year-old man from Dordrecht as part of a cybercrime investigation by Team Cybercrime Oost-Brabant. The suspect is believed to have distributed a tool known as JokerOTP, a bot used to intercept one-time passwords (OTPs) used to secure online accounts and fin...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/jokerotp-bot-netherlands-cybercrime-arrest/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267061",
+    "date": "2026-02-13",
+    "title": "OpenAI released GPT-5.3-Codex-Spark, a real-time coding model",
+    "summary": "OpenAI has released a research preview of GPT-5.3-Codex-Spark, an ultra-fast model for real-time coding in Codex. It is available to ChatGPT Pro users in the latest versions of the Codex app, the command-line interface, and the VS Code extension. The model delivers over 1,000 tokens per second wh...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/openai-gpt-5-3-codex-spark/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267062",
+    "date": "2026-02-13",
+    "title": "Why secure OT protocols still struggle to catch on",
+    "summary": "Industrial control system networks continue to run on legacy communication protocols that were built for reliability and uptime, not authentication or data integrity. In many environments, malicious actors with access to the OT network can impersonate devices, issue unauthenticated commands, or m...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/cisa-secure-ot-communication-protocols/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267063",
+    "date": "2026-02-13",
+    "title": "Arctic Wolf expands MSP Security with Aurora Managed Endpoint Defense",
+    "summary": "Arctic Wolf has announced new endpoint security capabilities for its Managed Service Provider (MSP) partners. The addition of Aurora Managed Endpoint Defense, powered by the Arctic Wolf Aurora Platform, enables partners to deliver stronger customer protection, streamline service delivery, and exp...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/arctic-wolf-expands-msp-security-with-aurora-managed-endpoint-defense/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267064",
+    "date": "2026-02-13",
+    "title": "Ubuntu 24.04.4 LTS arrives with cumulative security and bug fixes",
+    "summary": "Security teams running Ubuntu in production often delay major OS upgrades until the next point release arrives with accumulated patches and newer hardware support. Ubuntu 24.04.4 LTS is now available as refreshed installation media for Noble Numbat, bundling the latest updates and offering a curr...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/ubuntu-24-04-4-lts-released-security-bug-fixes/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267065",
+    "date": "2026-02-13",
+    "title": "Edge computing’s biggest lie: “We’ll patch it later”",
+    "summary": "Edge computing is spreading fast, from factory floors to remote infrastructure. But many of these systems are hard to maintain once they are deployed. Devices may run old kernels, custom board support packages, or stacks that no one can rebuild years later. Updates can fail due to weak connectivi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/piotr-bulinski-qbee-edge-device-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267066",
+    "date": "2026-02-13",
+    "title": "10 Cost-Saving Tips to Buy SSL Certificates at the Best Price",
+    "summary": "Every website need SSL certificate that handles forms, logins, payments, or user data. If encryption is not enabled, browsers block forms, APIs fail behind mixed content, and search engines flag unencrypted pages. Certificates that use the same encryption and are trusted by the same browsers can ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cheap SSL Shop",
+    "sourceUrl": "https://www.cheapsslshop.com/blog/cost-saving-tips-to-buy-ssl-certificate-at-best-price",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267067",
+    "date": "2026-02-13",
+    "title": "Free Spf Checker: Troubleshoot Spf Configuration Issues Easily",
+    "summary": "In this post, I will talk about Free Spf Checker. Also, I will show you how to troubleshoot Spf configuration issues easily. Sender Policy Framework is a foundational email authentication and security protocol that tells receivers which IPs and hosts are authorized mail servers for your domain. W...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/free-spf-checker-troubleshoot-spf-configuration-issues/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267068",
+    "date": "2026-02-13",
+    "title": "Free DMARC Lookup: Record Checker With Results Explained And Quick Fixes",
+    "summary": "In this post, I will discuss the free DMARC lookup as a record checker with results explained and quick fixes. DMARC builds on SPF and DKIM to create policy-driven email authentication and reporting for your domain name. A correct DMARC record tells receiving ISPs like Google and Yahoo how to han...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/free-dmarc-lookup/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267069",
+    "date": "2026-02-13",
+    "title": "Top 5 Online Video Editors For Adding Subtitles To Videos",
+    "summary": "This post will show you the top 5 online video editors for adding subtitles to videos. Give your followers the ability to watch a video with subtitles counts towards a profile for the production of the video. It also demonstrates seriousness and respect for the audience and content. Discover the ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/online-video-editors-for-adding-subtitles-to-videos/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267070",
+    "date": "2026-02-13",
+    "title": "How to Save YouTube Videos on Chromebook",
+    "summary": "Learn how to save YouTube videos on a Chromebook using browser-based methods. Simple steps, formats, and tips for offline viewing. Chromebooks are designed to work mainly through the browser. Most apps, files, and everyday tasks depend on a stable internet connection rather than installed softwar...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/save-youtube-videos-on-chromebook/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267071",
+    "date": "2026-02-13",
+    "title": "How To View Your Saved Passwords on Any Device [Mac, Windows, Android & iOS]",
+    "summary": "This post will show you how to view your saved passwords on any device. Managing passwords has become a crucial aspect of our online lives in our increasingly digital world. With the multitude of accounts we create for various services, it’s no wonder many of us opt to save our passwords for conv...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/how-to-view-your-saved-passwords-on-any-device/",
+    "tags": [
+      "mobile"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267073",
+    "date": "2026-02-13",
+    "title": "Apple Under FTC Attack From “The Warm-Hearted Protector of the American Press”",
+    "summary": "FTC Chairman Ferguson’s “warning letter” to Apple CEO Tim Cook on February 12, 2026, threatening enforcement action over Apple News allegedly boosting “left-wing sources,” is state coercion of editorial decisions. It follows a documented historical pattern with precision. Ferguson sent an almost ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/apple-under-ftc-attack-from-the-warm-hearted-protector-of-the-american-press/",
+    "tags": [
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267074",
+    "date": "2026-02-13",
+    "title": "IOC Flies Russian Flag and Bans Ukrainian Athlete Memorial",
+    "summary": "The pattern is hard to miss. An Italian can compete wearing the Russian flag on his helmet — a flag that’s explicitly prohibited at these Games — with zero consequences. An Israeli skeleton racer can put the names of terrorism victims on his head. An American can hold up photos of dead parents in...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/ioc-flies-russian-flag-and-bans-ukrainian-athlete-memorial/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267075",
+    "date": "2026-02-13",
+    "title": "How to Rewrite Your Privacy Notice for DPDP Compliance",
+    "summary": "As the Digital Personal Data Protection Act moves into active enforcement, many organisations across India are reviewing one of... The post How to Rewrite Your Privacy Notice for DPDP Compliance appeared first on JISA Softech Pvt Ltd.",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "JISA Softech",
+    "sourceUrl": "https://jisasoftech.com/how-to-rewrite-your-privacy-notice-for-dpdp-compliance/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267076",
+    "date": "2026-02-13",
+    "title": "The foundation problem: How a lack of accountability is destroying cybersecurity",
+    "summary": "A tale of two industries The United States Navy takes 18-year-olds fresh out of high school and trains them to operate nuclear reactors in 18 months. These aren’t college graduates. They’re not experienced professionals. They’re young people with the right potential who go through the most rigoro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131530/the-foundation-problem-how-a-lack-of-accountability-is-destroying-cybersecurity.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267077",
+    "date": "2026-02-13",
+    "title": "Google fears massive attempt to clone Gemini AI through model extraction",
+    "summary": "Google detected and blocked a campaign involving more than 100,000 prompts that it claimed were designed to copy the proprietary reasoning capabilities of its Gemini AI model, according to a quarterly threat report released by Google Threat Intelligence Group. The prompts looked like a coordinate...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132098/google-fears-massive-attempt-to-clone-gemini-ai-through-model-extraction.html",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267078",
+    "date": "2026-02-13",
+    "title": "The democratization of AI data poisoning and how to protect your organization",
+    "summary": "Smart organizations have spent the last three years protecting their AI tools from skilled prompt injection-style attacks. The assumption has been that poisoning the foundational model, the real brains behind AI systems, requires technical expertise, privileged access, or a coordinated threat gro...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131517/the-democratization-of-ai-data-poisoning-and-how-to-protect-your-organization.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267079",
+    "date": "2026-02-13",
+    "title": "Why key management becomes the weakest link in a post-quantum and AI-driven security world",
+    "summary": "When people talk about cryptography, they usually talk about algorithms. RSA versus ECC. Classical versus post quantum. Encryption strength measured in bits and curves. In practice, none of that matters unless keys are created, stored, rotated and retired correctly. Key management is the discipli...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131506/why-key-management-becomes-the-weakest-link-in-a-post-quantum-and-ai-driven-security-world.html",
+    "tags": [
+      "ai-ml",
+      "encryption"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267080",
+    "date": "2026-02-13",
+    "title": "5 key trends reshaping the SIEM market",
+    "summary": "Security information and event management (SIEM) platforms have evolved far beyond their basic log collection and correlation roots. With cyber threats moving too fast for manual intervention, leading vendors have been integrating artificial intelligence and machine learning technologies into the...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3829750/4-key-trends-reshaping-the-siem-market.html",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267081",
+    "date": "2026-02-13",
+    "title": "Fake AI Assistants in Google Chrome Web Store Steal Passwords and Spy on Emails",
+    "summary": "Hundreds of thousands of users have downloaded malicious AI extensions masquerading as ChatGPT, Gemini, Grok and others, warn cybersecurity researchers at LayerX",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/fake-ai-assistants-google-chrome/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267082",
+    "date": "2026-02-13",
+    "title": "Microsoft fixes bug that blocked Google Chrome from launching",
+    "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
+    "tags": [
+      "microsoft",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267035",
     "date": "2026-02-13",
     "title": "[Ekstra] Jammer egne kanaler etter å ha havnet på Starlinks svarteliste",
@@ -277,6 +782,35 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267046",
+    "date": "2026-02-12",
+    "title": "Urgent warnings from UK and US cyber agencies after Polish energy grid attack",
+    "summary": "A coordinated cyberattack that targeted Poland's energy infrastructure in late December 2025 has prompted cybersecurity agencies to issue urgent warnings to critical national infrastructure operators on both sides of the Atlantic. Read more in my article on the Fortra blog.",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Graham Cluley",
+    "sourceUrl": "https://www.fortra.com/blog/urgent-warnings-uk-and-us-cyber-agencies-after-polish-energy-grid-attack",
+    "tags": [
+      "malware",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267072",
+    "date": "2026-02-12",
+    "title": "5 Benefits of Custom Fit Toyota Floor Mats Over Universal Mats",
+    "summary": "In this post, I will show you 5 benefits of custom fit Toyota floor mats over universal mats. When it comes to protecting your Toyota’s interior, floor mats are essential for keeping your vehicle looking clean and well-maintained. However, not all floor mats are created equal. While universal mat...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/benefits-of-custom-fit-toyota-floor-mats-over-universal-mats/",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
