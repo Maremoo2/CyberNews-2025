@@ -1,5 +1,78 @@
 [
   {
+    "id": "20267029",
+    "date": "2026-02-13",
+    "title": "Cyber risk is becoming a hold-period problem for private equity firms",
+    "summary": "Private equity firms have spent years treating cybersecurity as an IT hygiene issue inside portfolio companies. That approach is getting harder to sustain as ransomware, data theft, and regulatory pressure interfere with value creation during the hold period. Has cybersecurity risk had any financ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/private-equity-cyber-risk-problem/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267030",
+    "date": "2026-02-13",
+    "title": "Attackers are moving at machine speed, defenders are still in meetings",
+    "summary": "Threat actors are using AI across the attack lifecycle, increasing speed, scale, and adaptability, according to the 2026 State of Cybersecurity report by Ivanti. The study compares perceived threat levels across common attack types with organizational readiness to respond and identifies persisten...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/cyber-threat-preparedness-gap-report/",
+    "tags": [
+      "apt",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267031",
+    "date": "2026-02-13",
+    "title": "New infosec products of the week: February 13, 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Armis, Black Duck, Portnox, and SpecterOps. Armis Centrix brings unified, AI-driven application security to the SDLC Armis has announced Armis Centrix for Application Security, which unifies application sec...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/new-infosec-products-of-the-week-february-13-2026/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267032",
+    "date": "2026-02-13",
+    "title": "Security-Infotainment: Die besten Hacker-Dokus",
+    "summary": "Sie fühlen sich leer ohne Security-Dashboard? Diese Dokumentationen überbrücken den Schmerz bis zum nächsten Arbeitstag. Foto: Gorodenkoff – shutterstock.comWenn Sie in Ihrer Profession als Sicherheitsentscheider voll aufgehen, brauchen Sie möglicherweise auch zwischen den Arbeitstagen ihre tägli...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3492776/security-infotainment-die-besten-hacker-dokus.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267033",
+    "date": "2026-02-13",
+    "title": "Hackers turn bossware against the bosses",
+    "summary": "A threat actor is abusing an employee monitoring application and a remote monitoring and management platform in an attempt to deploy ransomware and steal cryptocurrency. According to researchers at Huntress, the unknown threat actor is leveraging NetworkLookout’s Net Monitor for Employees Profess...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131789/hackers-turn-bossware-against-the-bosses.html",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267003",
     "date": "2026-02-13",
     "title": "Palo Alto Networks Closes $25B Acquisition of Identity Security Company CyberArk",
@@ -40,6 +113,22 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267034",
+    "date": "2026-02-12",
+    "title": "Naming and shaming: How ransomware groups tighten the screws on victims",
+    "summary": "When corporate data is exposed on a dedicated leak site, the consequences linger long after the attack fades from the news cycle",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "We Live Security",
+    "sourceUrl": "https://www.welivesecurity.com/en/ransomware/naming-shaming-ransomware-groups-tighten-screws-victims/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware"
     ],
     "impact": 3
   },
