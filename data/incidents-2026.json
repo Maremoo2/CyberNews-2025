@@ -1,5 +1,503 @@
 [
   {
+    "id": "20267128",
+    "date": "2026-02-13",
+    "title": "Ring ends partnership plans with Flock days after privacy blowback from Super Bowl ad",
+    "summary": "Ring and Flock had announced their partnership in October, saying that Ring customers would soon be empowered to share their doorbell camera videos with police through Ring’s Community Requests program.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/ring-ends-partnership-with-flock-superbowl-ad",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267129",
+    "date": "2026-02-13",
+    "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+    "summary": "A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL. Google Threat Intelligence Group (GTIG) described the hack group as possibly affiliated with Russian intelligence services. The threat actor is assessed to have t...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "tags": [
+      "malware",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267130",
+    "date": "2026-02-13",
+    "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+    "summary": "Several state-sponsored actors, hacktivist entities, and criminal groups from China, Iran, North Korea, and Russia have trained their sights on the defense industrial base (DIB) sector, according to findings from Google Threat Intelligence Group (GTIG). The tech giant's threat intelligence divisi...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+    "tags": [
+      "malware",
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267131",
+    "date": "2026-02-13",
+    "title": "EU can’t be ‘naive’ about enemies shutting down critical infrastructure, warns tech official",
+    "summary": "The European Union can no longer afford to be “naive” about adversaries’ ability to switch off critical infrastructure, the EU’s top tech official warned Friday, as she called for tougher rules and more investment to protect Europe from cyber and hybrid threats.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/eu-cyber-critical-infrastructure-tech",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267132",
+    "date": "2026-02-13",
+    "title": "NATO must impose costs on Russia, China over cyber and hybrid attacks, says deputy chief",
+    "summary": "Speaking at the Munich Cyber Security Conference, Radmila Shekerinska said the security environment has become “more complex” and “more contested,” with rivals operating at the same time in the physical and digital worlds.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/nato-must-impost-costs-russia-china-cyber-hybrid-deputy-secretary",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267133",
+    "date": "2026-02-13",
+    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+    "summary": "A previously unknown threat actor tracked as UAT-9921 has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, according to findings from Cisco Talos. \"This threat actor seems to have been active since 2019, alt...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+    "tags": [
+      "malware",
+      "cisco",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267134",
+    "date": "2026-02-13",
+    "title": "China may be rehearsing a digital siege, Taiwan warns",
+    "summary": "Yuh-Jye Lee, a senior adviser at Taiwan’s National Security Council, delivered a stark warning about China’s intentions to use cyberspace in new and more aggressive ways.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/china-taiwan-digital-siege-munich",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267135",
+    "date": "2026-02-13",
+    "title": "Estonia spy chief calls on Europe to invest in its own offensive cyber capabilities",
+    "summary": "These capabilities are needed not just to mirror what the continent’s most capable adversaries can do, but also to match Europe’s defensive posture with credible tools to gain access to target networks, he said.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/estonia-spy-chief-calls-on-europe-to-invest-in-own-offense",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267136",
+    "date": "2026-02-13",
+    "title": "CISA orders federal agencies to patch exploited SolarWinds, Apple, Microsoft bugs within weeks",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) added ten new vulnerabilities to its catalog of exploited bugs this week, forcing all federal civilian agencies to resolve the issues by the first week of March.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/cisa-orders-federal-agencies-to-patch-solarwinds-microsoft-apple-bugs",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "apple",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267137",
+    "date": "2026-02-13",
+    "title": "In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine",
+    "summary": "Other noteworthy stories that might have slipped under the radar: vulnerabilities at 277 water systems, DoD employee acting as money mule, 200 airports exposed by flaw. The post In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/in-other-news-google-looks-at-ai-abuse-trump-pauses-china-bans-disneys-2-7m-fine/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267138",
+    "date": "2026-02-13",
+    "title": "NRKs datastemme: – Respektløst og uverdig",
+    "summary": "Torsdag behandlet Kringkastingsrådet flere klager på den ufattelig dårlige KI-stemmen i NRK Radio. Da viste det seg at det ikke er KI. Så langt har nemlig ikke NRK kommet.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kommentar-nrks-datastemme-respektlost-og-uverdig/568243",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267139",
+    "date": "2026-02-13",
+    "title": "US needs to impose ‘real costs’ on bad actors, State Department cyber official says",
+    "summary": "At the Munich Cyber Security Conference, senior U.S. officials signaled that a defensive cyber crouch is giving way to something closer to Cold War–style deterrence — an effort to convince adversaries that the costs of hacking the United States will outweigh the benefits.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/usa-cyber-actors-consequences",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267140",
+    "date": "2026-02-13",
+    "title": "Europe must adapt to ‘permanent’ cyber and hybrid threats, Sweden warns",
+    "summary": "Cyber and hybrid threats are now a permanent feature of Europe’s security environment, a senior Swedish defense official said, citing Russia’s full-scale invasion of Ukraine as a turning point.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/sweden-cyber-threats-europe-permanent",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267141",
+    "date": "2026-02-13",
+    "title": "Telia utsatt for hacking: : Gamle Get-data lagt ut på det mørke nettet",
+    "summary": "Rundt en halv million filer stjålet fra Telia er lagt ut på nett av en hackergruppe, ifølge gruppa selv.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/stjalne-filer-fra-telia-lagt-ut-pa-nett-selskapet-gransker-hendelsen/568249",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267142",
+    "date": "2026-02-13",
+    "title": "Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat",
+    "summary": "Check Point has acquired Israeli cybersecurity companies Cyata, Cyclops, and Rotate. The post Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267143",
+    "date": "2026-02-13",
+    "title": "European electricity group urges companies to prioritise physical and cybersecurity",
+    "summary": "... cyber resilience into systems from the outset. German ... Berlin arson attack power outage triggers calls to put security over transparency.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cleanenergywire.org/news/european-electricity-group-urges-companies-prioritise-physical-and-cyber-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267144",
+    "date": "2026-02-13",
+    "title": "Cyber Resilience Act: The Fine Line Between SaaS and Digital Products | DLA Piper",
+    "summary": "The CRA forms part of the EU's wider Digital Decade architecture, which includes other cyber security laws such as NIS2 and DORA. One of the key ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/cyber-resilience-act-the-fine-line-7793206/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267145",
+    "date": "2026-02-13",
+    "title": "How to Thwart Valentine's Day Cyber Threats - Cybersecurity Insiders",
+    "summary": "1. Beware of Romance Scams · 2. Watch for Phishing Emails and Fake Promotions · 3. Shop Only on Secure Websites · 4. Be Careful with Digital Cards and ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/how-to-thwart-valentines-day-cyber-threats/",
+    "tags": [
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267146",
+    "date": "2026-02-13",
+    "title": "Surprise! GSA Releases New Cybersecurity Requirements - Akin Gump",
+    "summary": "Civilian-agency contractors will now be required to evaluate the security of information technology systems that process, store or transmit ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.akingump.com/en/insights/alerts/surprise-gsa-releases-new-cybersecurity-requirements",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267147",
+    "date": "2026-02-13",
+    "title": "CISA updates Brickstorm malware report with new .NET-compiled variant and expanded ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has once again updated its Brickstorm Backdoor Malware Analysis Report, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/ransomware/cisa-updates-brickstorm-malware-report-with-new-net-compiled-variant-and-expanded-detection-guidance/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267148",
+    "date": "2026-02-13",
+    "title": "CISA 2025 Year in Review focuses on driving security and resilience across critical infrastructure",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released its 2025 Year in Review, outlining key actions taken to strengthen the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/cisa-2025-year-in-review-focuses-on-driving-security-and-resilience-across-critical-infrastructure/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267149",
+    "date": "2026-02-13",
+    "title": "CISA Warns of Actively Exploited SQL Injection Flaw in Microsoft Configuration Manager",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical SQL injection vulnerability in Microsoft Configuration ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/sql-injection-flaw/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267150",
+    "date": "2026-02-13",
+    "title": "Cork Cyber Gives MSSPs, MSPs a Scorecard for Assessing Clients' Security Postures",
+    "summary": "Cork Cyber Score isn't meant to tell an organization whether their cybersecurity passes or fails a test. Instead, it creates a score that MSPs can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.msspalert.com/news/cork-cyber-gives-mssps-msps-a-scorecard-for-assessing-clients-security-postures",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267151",
+    "date": "2026-02-13",
+    "title": "From Risk to Resilience: Women Shaping Modern Cybersecurity Operations - EC-Council",
+    "summary": "... Computer Science · MBA in Cyber Security · Bachelors of Science in Cyber Security · Graduate Certificate Program · Programs for Veterans · Whitepapers ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.eccouncil.org/cybersecurity-exchange/cyber-talks/from-risk-to-resilience-women-shaping-modern-cybersecurity-operations/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267152",
+    "date": "2026-02-13",
+    "title": "Information Security Systems Officer, Information Services - RAND - Hybrid in Santa Monica, CA, US",
+    "summary": "This ISSO, Information Services role is responsible for CMMC practices (Cybersecurity Maturity Model Certification) as a member of the Information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.dice.com/job-detail/415b0d73-883e-4d71-8503-19be03f1aa06",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267153",
+    "date": "2026-02-13",
+    "title": "Navigating the Digital Frontier: Inside the World of Cybercrime Magazine",
+    "summary": "... security. They even highlight women-owned cybersecurity companies and provide a calendar of industry conferences, fostering a sense of community ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cybersecurityventures.com/navigating-the-digital-frontier-inside-the-world-of-cybercrime-magazine/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267154",
+    "date": "2026-02-13",
+    "title": "RH-ISAC Announces Keynote Speakers for 2026 Cybersecurity Summit - PR Newswire",
+    "summary": "This annual event brings together cybersecurity professionals from the retail and hospitality sectors to discuss the current security landscape. 2026 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/rh-isac-announces-keynote-speakers-for-2026-cybersecurity-summit-302687235.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267155",
+    "date": "2026-02-13",
+    "title": "Two Aviation Cybersecurity Leaders Honored at Embry-Riddle Symposium - ERAU News",
+    "summary": "Nyikos, a technical fellow for Boeing Commercial Airplane (BCA) Product Security Engineering (PSE) and a Certified Information Systems Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.erau.edu/headlines/two-aerospace-cybersecurity-leaders-honored-embry-riddle-symposium",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267156",
+    "date": "2026-02-13",
+    "title": "The EU has introduced a new tool to strengthen the security of ICT supply chains",
+    "summary": "Today saw the launch of the EU ICT Supply Chain Security Toolbox, a joint non-binding EU approach to assessing and mitigating cybersecurity risks ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nukib.gov.cz/en/infoservis-en/news/2374-the-eu-has-introduced-a-new-tool-to-strengthen-the-security-of-ict-supply-chains-the-ict-supply-chain-security-toolbox-the-foundations-were-laid-by-the-czech-presidency-of-the-council-of-the-eu",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267157",
+    "date": "2026-02-13",
+    "title": "Countdown to the Midterms: Mapping the Rapid Evolution of Election Security",
+    "summary": "In the past year, budget cuts and policy reversals across the federal government have weakened the nation's ability to defend the cybersecurity of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cdt.org/insights/countdown-to-the-midterms-mapping-the-rapid-evolution-of-election-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267158",
+    "date": "2026-02-13",
+    "title": "Congress barrels toward Homeland Security shutdown without off-ramp in sight - The Hill",
+    "summary": "“Shutting DHS down has zero impact and zero changes for ICE. But it will hit FEMA, Coast Guard, TSA and our Cybersecurity Agency,” he warned. Funding ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://thehill.com/homenews/senate/5736524-congress-homeland-security-shutdown/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267159",
+    "date": "2026-02-13",
+    "title": "Top five cybersecurity trends to watch in 2026: perspectives from the CyberLab Board",
+    "summary": "Final Thoughts: Secure Your Organisation and Use Cyber Security as Competitive Advantage. Organisations that embrace AI-driven cyber defence, human ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://futurescot.com/top-five-cybersecurity-trends-to-watch-in-2026-perspectives-from-the-cyberlab-board/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267160",
+    "date": "2026-02-13",
+    "title": "Closing Note to the Consultation on the Licensing Framework for Cybersecurity Service Providers",
+    "summary": "Implementation timeline provides adequate transition period for service providers to comply with new standards. Introduction. The Cyber Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.csa.gov.sg/news-events/public-consultations/closing-note-to-the-consultation-on-the-licensing-framework-for-cybersecurity-service-providers",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267161",
+    "date": "2026-02-13",
+    "title": "Cybersecurity: United States seeks partnership - Table.Briefings",
+    "summary": "... cyber activities. ... In her view, if there is concern about investing more and more money in cyber security infrastructure, trust should be ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://table.media/?p=d8ec346a-505c-48d9-977f-ba5cd11de259",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267106",
     "date": "2026-02-13",
     "title": "CISA Announces New Town Halls to Engage with Stakeholders on Cyber Incident Reporting for Critical Infrastructure",
