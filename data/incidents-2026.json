@@ -1,5 +1,431 @@
 [
   {
+    "id": "20267003",
+    "date": "2026-02-13",
+    "title": "Palo Alto Networks Closes $25B Acquisition of Identity Security Company CyberArk",
+    "summary": "How Does the CyberArk Acquisition Strengthen Cybersecurity for Palo Alto Networks Customers? The company said identity has become the primary attack ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govconwire.com/articles/palo-alto-networks-cyberark-25b-acquisition",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267004",
+    "date": "2026-02-13",
+    "title": "Check Point Software lifts profit outlook as AI-driven cyber threats surge - Yahoo Finance",
+    "summary": "Companies ‌are expected to spend more on cybersecurity due to concerns that AI will equip hackers with ​new and more sophisticated ways to attack ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://finance.yahoo.com/news/cyber-security-firm-check-point-103837194.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267005",
+    "date": "2026-02-13",
+    "title": "Why Federal Government Shutdowns Deserve a Resilient, Predictable Access Strategy",
+    "summary": "During fall 2025 shutdown planning, the Department of Homeland Security indicated that the Cybersecurity and Infrastructure Security Agency (CISA) ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.appgate.com/blog/why-federal-government-shutdowns-deserve-a-resilient-predictable-access-strategy",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267001",
+    "date": "2026-02-12",
+    "title": "Google finds state-sponsored hackers use AI at ‘all stages’ of attack cycle ",
+    "summary": "A new report from Google found evidence that state-sponsored hacking groups have leveraged AI tool Gemini at nearly every stage of the cyber attack cycle. The research underscores how AI tools have matured in their cyber offensive capabilities, even as it doesn’t reveal novel or paradigm shifting...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://cyberscoop.com/state-hackers-using-gemini-google-ai/",
+    "tags": [
+      "state-sponsored",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267002",
+    "date": "2026-02-12",
+    "title": "Dutch mobile phone giant Odido announces data breach",
+    "summary": "In a statement about the incident, Odido CEO Søren Abildgaard said names, bank account numbers, addresses, mobile numbers, email addresses, account numbers and IDs were stolen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/dutch-telecom-giant-announces-data-breach",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267006",
+    "date": "2026-02-12",
+    "title": "What Is NTLM? Windows NTLM Security Risks & Migration Guide - SentinelOne",
+    "summary": "Why SentinelOne? Why SentinelOne? Cybersecurity Built for What's Next · Our Customers. Trusted by the World's Leading Enterprises.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sentinelone.com/cybersecurity-101/identity-security/windows-ntlm/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267007",
+    "date": "2026-02-12",
+    "title": "Cybersecurity forces in Texas showcase global dominance to ACC command team",
+    "summary": "... cyber operations, and network security across the Department of the Air Force Information Network enterprise. The 67th CW, is also headquartered ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.16af.af.mil/Newsroom/Article-Display/Article/4405373/cybersecurity-forces-in-texas-showcase-global-dominance-to-acc-command-team/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267008",
+    "date": "2026-02-12",
+    "title": "Copilot Studio agent security: Top 10 risks you can detect and prevent",
+    "summary": "Organizations are rapidly adopting Copilot Studio agents, but threat actors are equally fast at exploiting misconfigured AI workflows. Mis-sharing, unsafe orchestration, and weak authentication create new identity and data‑access paths that traditional controls don’t monitor. As AI agents become ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267009",
+    "date": "2026-02-12",
+    "title": "Congress Extends Cybersecurity Information Sharing Act of 2015 through September 2026",
+    "summary": "Absent further congressional action, CISA 2015 is now scheduled to expire on September 30, 2026. Tags: Cyber Attack, Cybersecurity and Infrastructure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/congress-extends-cybersecurity-information-sharing-act-of-2015-through-september-2026",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267010",
+    "date": "2026-02-12",
+    "title": "AI-Led Security Boom Makes These 3 Cybersecurity Stocks Worth Buying - February 12, 2026",
+    "summary": "Cybersecurity has become one of the top priorities for organizations. Businesses today face nonstop attacks, whether through ransomware, phishing or ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.zacks.com/stock/news/2862455/ai-led-security-boom-makes-these-3-cybersecurity-stocks-worth-buying",
+    "tags": [
+      "ransomware",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267011",
+    "date": "2026-02-12",
+    "title": "Cyber security consultant Joseph Steinberg: why boards must oversee, not manage, cyber risk",
+    "summary": "Many players within the cybersecurity consulting industry have conditioned boards to think about cyber risk through the wrong lens.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://nypost.com/contributor-content/cyber-security-consultant-joseph-steinberg-why-boards-must-oversee-not-manage-cyber-risk/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267012",
+    "date": "2026-02-12",
+    "title": "Minnesota Sends $1.2M to Aid St. Paul Cyber Attack Recovery - GovTech",
+    "summary": "Gov. Tim Walz has authorized $1.2 million in state emergency disaster assistance to address a cybersecurity incident that disrupted digital ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.govtech.com/security/minnesota-sends-1-2m-to-aid-st-paul-cyber-attack-recovery",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267013",
+    "date": "2026-02-12",
+    "title": "Check Point to acquire Cyclops and Cyata for $150 million in strategic Israeli cyber push",
+    "summary": "The Israeli cybersecurity giant is expanding its domestic ... cyber units and commercial security labs. “They act autonomously and at ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/rjnbhfipwl",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267014",
+    "date": "2026-02-12",
+    "title": "Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5 model in AWS GovCloud (US)",
+    "summary": "Amazon Bedrock has increased the default quotas for Anthropic’s Claude Sonnet 4.5 in AWS GovCloud (US-West) and AWS GovCloud (US-East) to 5,000,000 tokens per minute and 1,000 requests per minute, aligning with commercial AWS regions. This 25x increase enables customers to scale their AI workload...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-bedrock-increases-default-sonnet-4.5-quotas-aws-govcloud-us",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267015",
+    "date": "2026-02-12",
+    "title": "AI Troubleshooting in the AWS Support Center Console now supports 7 additional languages",
+    "summary": "AI troubleshooting in the AWS Support Center Console is now available in seven languages in addition to English: Japanese, Korean, Mandarin (Simplified), Mandarin (Traditional), Spanish, Portuguese, French. AWS Support Center Console is the primary interface where customers manage their AWS suppo...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/ai-troubleshooting-in-aws-support-center/",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267016",
+    "date": "2026-02-12",
+    "title": "Amazon RDS for PostgreSQL supports minor versions  18.2, 17.8, 16.12, 15.16 and 14.21",
+    "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.2, 17.8, 16.12, 15.16, and 14.21. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of PostgreSQL, and to benefit from the bug fixes a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-2-17-8-16-12-15-16-14-21",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20267017",
+    "date": "2026-02-12",
+    "title": "Announcing new Amazon EC2 general purpose M8azn instances",
+    "summary": "AWS is announcing the general availability of new Amazon EC2 M8azn instances, general purpose high-frequency high-network instances powered by fifth generation AMD EPYC (formerly code named Turin) processors, offering the highest maximum CPU frequency, 5GHz in the cloud. M8azn instances offer up ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267018",
+    "date": "2026-02-12",
+    "title": "AWS Backup adds cross-Region database snapshot copy to logically air-gapped vaults",
+    "summary": "AWS Backup now supports single-action database snapshot copies to logically air-gapped vaults across AWS Regions. This capability is available for Amazon Aurora, Amazon Neptune, and Amazon DocumentDB snapshots, eliminating the need for an intermediate copying step in target Regions. You can perfo...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-adds-cross-region-database-snapshot-logically-air-gapped-vaults/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267019",
+    "date": "2026-02-12",
+    "title": "Amazon S3 Tables add partition and sort order definition in the CreateTable API",
+    "summary": "Amazon S3 Tables announce partition and sort order definition support for the CreateTable API. This enhancement simplifies setting these properties programmatically, making it easier to manage and optimize data in tables when they are created. To use this feature, you can specify fields for parti...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/s3-tables-partition-and-sort-order-createtable-api/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267020",
+    "date": "2026-02-12",
+    "title": "AWS announces 6 new locations for AWS Data Transfer Terminal",
+    "summary": "AWS Data Transfer Terminal is now available in six additional locations in Seattle and Phoenix (US), London (UK), Paris (France), Sydney (Australia), and Tokyo (Japan), expanding availability alongside existing locations in San Francisco, Los Angeles, and New York City (US), and Munich (Germany)....",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-data-transfer-terminal-6-new-locations/",
+    "tags": [
+      "aws",
+      "cisco",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267021",
+    "date": "2026-02-12",
+    "title": "MSK simplifies Kafka topic management with new APIs and console integration",
+    "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now offers three new APIs (CreateTopic, UpdateTopic, and DeleteTopic), making it easier to manage your Kafka topics for your MSK provisioned clusters without the need to set up and maintain Kafka admin clients. You can programmatically create...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-msk-kafka-topics-public-apis/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267022",
+    "date": "2026-02-12",
+    "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional AWS regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Asia Pacific (New Zealand) and Middle East (UAE) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-AKL-DXB-region/",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267023",
+    "date": "2026-02-12",
+    "title": "Amazon Bedrock AgentCore Browser now supports proxy configuration",
+    "summary": "Amazon Bedrock AgentCore Browser now supports customer-provided proxy configuration, enabling customers to route browser sessions through their own proxy infrastructure for geo-targeting, regional content access, and compliance requirements. Organizations can access geo-restricted content, verify...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/bedrock-agentcore-browser-proxy",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267024",
+    "date": "2026-02-12",
+    "title": "The End of an Era: Transitioning Away from Ingress NGINX",
+    "summary": "by Kaslin Fields, Cloud DevRel & Rob Scott, GCP Networking For many of us, the first time we successfully routed traffic into a Kubernetes cluster, we did it using Ingress NGINX. It was the project that turned a complex networking API into something we could actually use. However, the Kubernetes ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "http://opensource.googleblog.com/2026/02/the-end-of-an-era-transitioning-away-from-ingress-nginx.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267025",
+    "date": "2026-02-12",
+    "title": "AI Cyber Model Arena: Testing AI Agents in Cybersecurity | Wiz Blog",
+    "summary": "AI Cyber Model Arena benchmarks AI agents across 257 real-world security challenges spanning zero-days, CVEs, API, web, and cloud security.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wiz.io/blog/introducing-ai-cyber-model-arena-a-real-world-benchmark-for-ai-agents-in-cybersec",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267026",
+    "date": "2026-02-12",
+    "title": "Fleet cybersecurity funding to see 'increased investment' in FY27 budget request: Navy official",
+    "summary": "“It is absolutely critical to bake in cyber and have that security by design in any new ship that we build, whether it's manned or an unmanned ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://breakingdefense.com/2026/02/fleet-cybersecurity-funding-to-see-increased-investment-in-fy27-budget-request-navy-official/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267027",
+    "date": "2026-02-12",
+    "title": "How the generative AI boom changes healthcare cybersecurity",
+    "summary": "Taylor Lehmann, a security executive at Google Cloud, discusses the potential cyber risks in AI systems and how healthcare organizations should ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.healthcaredive.com/news/generative-ai-cybersecurity-healthcare-taylor-lehmann-google-cloud/811890/",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267028",
+    "date": "2026-02-12",
+    "title": "Sophos Announces Leadership Updates to Shape AI-Driven Future of Cybersecurity",
+    "summary": "Sophos, a global leader of innovative security solutions for defeating cyberattacks, today announced a set of leadership and organizational design ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sophos.com/press/press-releases/2026/02/sophos-announces-leadership-updates-to-shape-ai-driven-future-of-cybersecurity",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20266977",
     "date": "2026-02-12",
     "title": "Hacker linked to Epstein removed from Black Hat cyber conference website",
