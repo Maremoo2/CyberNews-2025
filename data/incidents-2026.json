@@ -1,5 +1,322 @@
 [
   {
+    "id": "20267106",
+    "date": "2026-02-13",
+    "title": "CISA Announces New Town Halls to Engage with Stakeholders on Cyber Incident Reporting for Critical Infrastructure",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA News",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/cisa-announces-new-town-halls-engage-stakeholders-cyber-incident-reporting-critical-infrastructure",
+    "tags": [
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267107",
+    "date": "2026-02-13",
+    "title": "Dutch phone giant Odido says millions of customers affected by data breach",
+    "summary": "The Dutch phone giant Odido is the latest phone and internet company to be hacked in recent months, as governments and financially motivated hackers continue to steal highly confidential information about phone customers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/13/dutch-phone-giant-odido-says-millions-of-customers-affected-by-data-breach/",
+    "tags": [
+      "data-breach",
+      "finance",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267108",
+    "date": "2026-02-13",
+    "title": "L'historique de 37 millions d'internautes a été siphonné par 287 extensions",
+    "summary": "Un chercheur en sécurité a identifié 287 extensions Chrome qui exfiltrent discrètement l'historique de navigation de 37,4 millions d'utilisateurs. Cela représente environ 1% de la base mondiale du navigateur de Google et implique plusieurs acteurs, dont des entreprises d'analytics reconnues.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600415-l-historique-de-37-millions-d-internautes-a-ete-siphonne-par-287-extensions.html",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267109",
+    "date": "2026-02-13",
+    "title": "Critical flaw in BeyondTrust Remote Support sees early signs of exploitation",
+    "summary": "The vulnerability is a variant of a CVE linked to the 2024 hack of the U.S. Treasury Department, according to researchers.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/critical-flaw-beyondtrust-remote-support-early-exploitation/812215/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267110",
+    "date": "2026-02-13",
+    "title": "Ransomware attacks increase against IT and food sectors",
+    "summary": "Social engineering and zero-day vulnerability weaponization are getting faster and easier, two information sharing and analysis centers said in new reports.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Cybersecurity Dive",
+    "sourceUrl": "https://www.cybersecuritydive.com/news/ransomware-attacks-it-food-sectors/812210/",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267111",
+    "date": "2026-02-13",
+    "title": "South Korea fines LVMH brands $25 million over customer data breach",
+    "summary": "South Korea’s Personal Information Protection Commission (PIPC) has imposed over ₩36 billion (approx. $25 million) in fines on three luxury brands, Louis Vuitton, Dior, and Tiffany, after concluding investigations into significant customer data breaches that stemmed from poor security practices a...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/south-korea-fines-lvmh-brands-25-million-over-customer-data-breach/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267112",
+    "date": "2026-02-13",
+    "title": "Matrix sees sudden surge in new users amid Discord mass exodus",
+    "summary": "The decentralized messaging platform Matrix is seeing a surge in new users following Discord's announcement of mandatory age verification, set to roll out globally in March 2026. While Matrix offers a privacy-respecting, open alternative to centralized platforms, its leadership cautions that it, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/matrix-sees-sudden-surge-in-new-users-amid-discord-mass-exodus/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267113",
+    "date": "2026-02-13",
+    "title": "Bitcoin trading firm CEO gets 20 years for operating $200 million Ponzi scheme",
+    "summary": "The U.S. Department of Justice sentenced the CEO of a multi-level marketing and bitcoin trading firm to 20 years in prison after a conviction for wire fraud and money laundering tied to a large scale Ponzi scheme. Court records show that Ramil Ventura Palafox, 61, owned and controlled Praetorian ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/13/bitcoin-prison-200-million-ponzi-scheme/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267114",
+    "date": "2026-02-13",
+    "title": "Odido CRM Data Breach Exposes 6.2M Customer Records",
+    "summary": "A major Dutch telecom provider is warning customers after a cyberattack exposed personal data tied to millions of accounts. Odido Telecom confirmed that attackers gained unauthorized access to its customer database, impacting roughly 6.2 million customers. “This involved personal data from a cust...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/odido-crm-data-breach-exposes-6-2m-customer-records/",
+    "tags": [
+      "data-breach",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267115",
+    "date": "2026-02-13",
+    "title": "Researchers unearth 30-year-old vulnerability in libpng library",
+    "summary": "Developers have resolved a legacy flaw in the widely used libpng open-source library that existed since the software was released nearly 30 years ago. The heap buffer overflow in libpng would cause applications on unpatched systems to crash when presented with maliciously crafted PNG graphic imag...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132296/researchers-unearth-30-year-old-vulnerability-in-libpng-library.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267116",
+    "date": "2026-02-13",
+    "title": "Battling bots face off in cybersecurity arena",
+    "summary": "AI agents are increasingly seen as a way to reinforce the capabilities of cybersecurity teams — but which can do the best job? Wiz has developed a benchmark suite of 257 real-world challenges spanning five offensive domains: zero-day discovery, CVE (code vulnerability) detection, API security, we...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132272/battling-bots-face-off-in-cybersecurity-arena.html",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267117",
+    "date": "2026-02-13",
+    "title": "Four new reasons why Windows LNK files cannot be trusted",
+    "summary": "The number of ways that Windows shortcut (.LNK) files can be abused just keeps growing: A cybersecurity researcher has documented four new techniques to trick Windows users into running malicious actions through innocent-looking shortcuts. Wietze Beukema demonstrated how to spoof the visible LNK ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132232/four-new-reasons-why-windows-lnk-files-cannot-be-trusted.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267118",
+    "date": "2026-02-13",
+    "title": "BSI läutet Ende der klassischen Verschlüsselung ein",
+    "summary": "width=\"1743\" height=\"980\" sizes=\"auto, (max-width: 1743px) 100vw, 1743px\">Das BSI empfiehlt traditionelle Verschlüsselungsverfahren mit Post-Quanten-Kryptographie zu kombinieren.ArtemisDiana – shutterstock.com Das Bundesamt für Sicherheit in der Informationstechnik (BSI) hat in seiner aktualisier...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132159/bsi-lautet-ende-der-klassischen-verschlusselung-ein.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267119",
+    "date": "2026-02-13",
+    "title": "Microsoft Under Pressure to Bolster Defenses for BYOVD Attacks",
+    "summary": "Threat actors are exploiting security gaps to weaponize Windows drivers and terminate security processes in targeted networks, and there may be no easy fixes in sight.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/application-security/microsoft-under-pressure-defenses-byovd-attacks",
+    "tags": [
+      "vulnerability",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267120",
+    "date": "2026-02-13",
+    "title": "Nation-State Hackers Put Defense Industrial Base Under Siege",
+    "summary": "Espionage groups from China, Russia and other nations burned at least two dozen zero-days in edge devices in attempts to infiltrate defense contractors’ networks.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cyber-risk/nation-state-hackers-defense-industrial-base-under-siege",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "state-sponsored"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267121",
+    "date": "2026-02-13",
+    "title": "AI Agents 'Swarm,' Security Complexity Follows Suit",
+    "summary": "As AI deployments scale and start to include packs of agents autonomously working in concert, organizations face a naturally amplified attack surface.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/cloud-security/ai-agents-swarm-security-complexity",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267122",
+    "date": "2026-02-13",
+    "title": "The OpenClaw experiment is a warning shot for enterprise AI security",
+    "summary": "Agentic AI promises a lot – but it also introduces more risk. Sophos’ CISO explores the challenges and how to address themCategories: Threat ResearchTags: AI, LLM, OpenClaw, CISO, risk, Sophos X-Ops",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/the-openclaw-experiment-is-a-warning-shot-for-enterprise-ai-security",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267123",
+    "date": "2026-02-13",
+    "title": "Munich Security Conference: Cyber Threats Lead G7 Risk Index, Disinformation Ranks Third",
+    "summary": "G7 countries ranked cyber-attacks as the top risk, while BICS members placed cyber threats only as the eighth most pressing risk",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/munich-security-index-cyberattacks/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267124",
+    "date": "2026-02-13",
+    "title": "Request for Comments: PCI Card Production and Provisioning Physical and Logical Security Standards v3.0.1",
+    "summary": "From 13 February to 16 March, eligible PCI SSC stakeholders are invited to review and provide feedback on the draft PCI Card Production and Provisioning Physical and Logical Security Standards v3.0.1 during a 30-day request for comments (RFC) period.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "PCI Security Standards Blog",
+    "sourceUrl": "https://blog.pcisecuritystandards.org/request-for-comments-pci-card-production-and-provisioning-physical-and-logical-security-standards-v3.0.1",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267125",
+    "date": "2026-02-13",
+    "title": "Ransomware Groups Claimed 2,000 Attacks in Just Three Months",
+    "summary": "Ransomware attacks surged 52% in 2025, with supply chain breaches nearly doubling as groups like Qilin drive record monthly incidents worldwide. The post Ransomware Groups Claimed 2,000 Attacks in Just Three Months appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-ransomware-attacks-surge-2025/",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "supply-chain",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267126",
+    "date": "2026-02-13",
+    "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+    "summary": "Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+    "tags": [
+      "malware",
+      "ibm"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267127",
+    "date": "2026-02-13",
+    "title": "CISA flags critical Microsoft SCCM flaw as exploited in attacks",
+    "summary": "CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20267083",
     "date": "2026-02-13",
     "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
