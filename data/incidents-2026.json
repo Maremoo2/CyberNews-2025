@@ -1,5 +1,350 @@
 [
   {
+    "id": "20267083",
+    "date": "2026-02-13",
+    "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+    "summary": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager. The extension, named CL Suite by @CLMasters (ID: jkphinfhmfkckkcnifhjiplhfoiefffl), is marketed as a way to scrape Meta Bu...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+    "tags": [
+      "google",
+      "meta",
+      "facebook",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267084",
+    "date": "2026-02-13",
+    "title": "Dutch Carrier Odido Discloses Data Breach Impacting 6 Million",
+    "summary": "Hackers stole personal information such as names, addresses, and phone numbers from a customer contact system. The post Dutch Carrier Odido Discloses Data Breach Impacting 6 Million appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/",
+    "tags": [
+      "data-breach",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267085",
+    "date": "2026-02-13",
+    "title": "SMS and OTP Bombing Campaigns Found Abusing API, SSL and Cross-Platform Automation",
+    "summary": "The modern authentication ecosystem runs on a fragile assumption: that requests for one-time passwords are genuine. That assumption is now under sustained pressure. What began in the early 2020s as loosely shared scripts for irritating phone numbers has evolved into a coordinated ecosystem of SMS...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thecyberexpress.com/sms-and-otp-bombing-bypass-analysis/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267086",
+    "date": "2026-02-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cd3ec74c8c5d101 • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267087",
+    "date": "2026-02-13",
+    "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
+    "summary": "In December 2025, in response to the Sha1-Hulud incident, npm completed a major authentication overhaul intended to reduce supply-chain attacks. While the overhaul is a solid step forward, the changes don’t make npm projects immune from supply-chain attacks. npm is still susceptible to malware at...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267088",
+    "date": "2026-02-13",
+    "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+    "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support. The post BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267089",
+    "date": "2026-02-13",
+    "title": "CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities",
+    "summary": "Disclosed at the end of January, the SolarWinds vulnerability was likely exploited as a zero-day since December 2025. The post CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267090",
+    "date": "2026-02-13",
+    "title": "World Leaks Ransomware Adds Custom Malware ‘RustyRocket' to Attacks",
+    "summary": "World Leaks, the cyber-criminal data extortion group which has targeted some of the world’s biggest companies, has added a novel, never-before-seen malware to their arsenal, research by Accenture Cybersecurity has revealed. Accenture has named the malware ‘RustyRocket’. It allows World Leaks to s...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/world-leaks-ransomware-rustyrocket/?&web_view=true",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267091",
+    "date": "2026-02-13",
+    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+    "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr. \"Overnight we observed first in-the-wild exploitation of BeyondTrust across our global sensors,\" Ryan De...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267092",
+    "date": "2026-02-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cd33e2df82ebc1a • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267093",
+    "date": "2026-02-13",
+    "title": "Chrome 145 Patches 11 Vulnerabilities",
+    "summary": "Three of the security defects are high-severity flaws, two of which were found and reported by Google. The post Chrome 145 Patches 11 Vulnerabilities appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "aws",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267094",
+    "date": "2026-02-13",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cd2e860dd0ed0ff • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267095",
+    "date": "2026-02-13",
+    "title": "[Ekstra] Telia åpner rent 5G-nett for kommersiell bruk",
+    "summary": "Telia Norge åpner nå sitt rene 5G-nett for kommersiell bruk. Teknologien er interessant for industri, helse, nødnett og andre med strenge krav til kommunikasjonen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/telia-slar-pa-ren-5g-fra-i-dag-kan-mobilnettet-styre-robothunder/568225",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267096",
+    "date": "2026-02-13",
+    "title": "Access Denied",
+    "summary": "Reference #18.3c496768.1770967275.245280e",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267097",
+    "date": "2026-02-13",
+    "title": "China Revives Tianfu Cup Hacking Contest Under Increased Secrecy",
+    "summary": "Rewards for exploits are reportedly much smaller than in the contest’s glory days. The post China Revives Tianfu Cup Hacking Contest Under Increased Secrecy appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/china-revives-tianfu-cup-hacking-contest-under-increased-secrecy/",
+    "tags": [
+      "vulnerability",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267098",
+    "date": "2026-02-13",
+    "title": "Global cyber benchmarking study | Strategy& - PwC Strategy",
+    "summary": "This Strategy& study analyzes how countries achieve cyber resilience through cyber security policies, public-private collaboration, and regulatory ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.strategyand.pwc.com/de/en/industries/public-sector/global-cyber-benchmarking.html",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267099",
+    "date": "2026-02-13",
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "summary": "Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guid...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267100",
+    "date": "2026-02-13",
+    "title": "Why organizations must move from cybersecurity to cyber resilience",
+    "summary": "Cyber resilience is more than cyber security. Cybersecurity focuses on protection and response: stopping attacks, reducing dwell time and restoring ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.weforum.org/stories/2026/02/from-cyber-security-to-cyber-resilience/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267101",
+    "date": "2026-02-13",
+    "title": "Cybersecurity expert discusses Nancy Guthrie ransom demands - CBS News",
+    "summary": "... security officer at Facebook, joins CBS News to discuss ... Cybersecurity expert discusses Nancy Guthrie ransom demands. FBI agents fanned out ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cbsnews.com/video/cybersecurity-expert-discusses-nancy-guthrie-ransom-demands-bitcoin/",
+    "tags": [
+      "ransomware",
+      "facebook",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267102",
+    "date": "2026-02-13",
+    "title": "Cydome Embedded brings advanced maritime and energy cybersecurity to resource ...",
+    "summary": "... network security, vulnerability scanning, and centralized risk management across IT and OT environments. “Existing cybersecurity solutions assume ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/cydome-embedded-brings-advanced-maritime-and-energy-cybersecurity-to-resource-constrained-edge-devices/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267103",
+    "date": "2026-02-13",
+    "title": "Clackamas Community College reports a cybersecurity incident affecting student data",
+    "summary": "The college then worked with a forensic security firm to assist with their investigation to ensure the security of their computer network. Upon the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theclackamasprint.net/news/ccc-reports-cybersecurity-incident-affecting-student-data/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267104",
+    "date": "2026-02-13",
+    "title": "Microsoft Issues 2026 Secure Boot Warning — What This Means For Windows Security",
+    "summary": "It could eventually fail to install or boot newer operating systems. Future firmware, hardware, or Secure Boot–dependent tools may refuse to load.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.linkedin.com/pulse/microsoft-introduces-new-secure-boot-certificates-wnlte",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267105",
+    "date": "2026-02-13",
+    "title": "Williamsburg Public Water System Receives Federal Funding For Physical and Cyber ...",
+    "summary": "WILLIAMSBURG— The Public Water System in Williamsburg received $295,000 in federal funding for security improvements after a request from ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://wydaily.com/latest/2026/02/12/williamsburg-public-water-system-receives-federal-funding-for-physical-and-cyber-security-improvements/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267047",
     "date": "2026-02-13",
     "title": "IPTV : la répression franchit un cap… et pousse les utilisateurs vers les VPN",
