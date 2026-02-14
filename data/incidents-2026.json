@@ -1,5 +1,35 @@
 [
   {
+    "id": "20267219",
+    "date": "2026-02-14",
+    "title": "Indian pharmacy chain giant exposed customer data and internal systems",
+    "summary": "A backend flaw in web admin dashboards used by one of India's largest pharmacy chains, exposed thousands of online pharmacy orders.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/13/indias-major-pharmacy-chain-exposed-customer-data-and-internal-systems/",
+    "tags": [
+      "data-breach",
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267220",
+    "date": "2026-02-14",
+    "title": "Blonde Greek Gods for Kids: Playmobil’s Nazi Aesthetic Explained",
+    "summary": "A Bavarian toy company called Playmobil is selling blonde haired Greek gods to children through a charity, and nobody seems to find the Nazism origin story strange? Headquartered in Zirndorf the company launched its “History” line of Greek mythology figures in 2016. The series now includes all tw...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/blonde-greek-gods-for-kids-playmobils-nazi-aesthetic-explained/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267183",
     "date": "2026-02-13",
     "title": "Space emerges as new front in great power competition, officials warn",
@@ -2785,6 +2815,34 @@
     "tags": [
       "malware",
       "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267221",
+    "date": "2026-02-12",
+    "title": "Proofpoint Expands AI Security Offerings With Acuvity Acquisition",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threat Insight Blog - Cybersecurity Intelligence",
+    "sourceUrl": "https://www.proofpoint.com/us/newsroom/news/proofpoint-expands-ai-security-offerings-acuvity-acquisition",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267222",
+    "date": "2026-02-12",
+    "title": "Proofpoint acquires Acuvity to tackle the security risks of agentic AI",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Threat Insight Blog - Cybersecurity Intelligence",
+    "sourceUrl": "https://www.proofpoint.com/us/newsroom/news/proofpoint-acquires-acuvity-tackle-security-risks-agentic-ai",
+    "tags": [
+      "ai-ml"
     ],
     "impact": 3
   },
