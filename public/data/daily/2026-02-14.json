@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-02-14T22:08:08.911Z",
+  "date": "2026-02-14",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 4686,
+    "completion_tokens": 554,
+    "total_tokens": 5240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0010353,
+  "duration_seconds": 12.07,
+  "item_count": 35,
+  "digest": {
+    "date": "2026-02-14",
+    "summary": "Today's cybersecurity landscape saw significant developments, particularly with the identification of critical vulnerabilities in widely used software. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2024-43468 and a critical flaw in Notepad++ to its Known Exploited Vulnerabilities catalog, highlighting the urgency for organizations to patch these vulnerabilities. Additionally, a major data breach at DavaIndia exposed sensitive customer information due to an unauthenticated API. Cybercriminals are also leveraging social engineering tactics, with reports of physical letters targeting Trezor and Ledger users to steal cryptocurrency recovery phrases. Furthermore, malicious Chrome extensions have been discovered, posing a risk to millions of users by leaking personal data. Overall, the day underscored the ongoing challenges in cybersecurity, particularly with the rise of sophisticated attack vectors and vulnerabilities in essential software.",
+    "novel_clusters": [
+      {
+        "theme": "Critical Microsoft Vulnerability Exploited",
+        "summary": "CVE-2024-43468, a critical Microsoft vulnerability, has been added to CISA's Known Exploited Vulnerabilities catalog, indicating active exploitation.",
+        "why_matters": "This vulnerability poses a significant risk to organizations using affected Microsoft products, necessitating immediate patching to prevent potential breaches.",
+        "item_count": 1
+      },
+      {
+        "theme": "DavaIndia Data Breach",
+        "summary": "DavaIndia, a major pharmacy chain in India, experienced a security lapse that exposed sensitive customer data due to an unauthenticated API.",
+        "why_matters": "The breach highlights the risks associated with rapid digitization in healthcare, emphasizing the need for robust security measures to protect sensitive information.",
+        "item_count": 1
+      },
+      {
+        "theme": "Malicious Chrome Extensions",
+        "summary": "Over 300 malicious Chrome extensions have been identified, with more than 37 million downloads, leading to data leaks and user tracking.",
+        "why_matters": "These extensions pose a widespread threat to user privacy and security, underscoring the need for vigilance when installing browser add-ons.",
+        "item_count": 1
+      },
+      {
+        "theme": "Social Engineering Attacks on Crypto Users",
+        "summary": "Threat actors are sending fraudulent letters to Trezor and Ledger users, attempting to trick them into revealing their cryptocurrency recovery phrases.",
+        "why_matters": "This tactic illustrates the evolving nature of social engineering attacks, particularly in the cryptocurrency space, where user education is crucial.",
+        "item_count": 1
+      },
+      {
+        "theme": "Notepad++ Vulnerability Exploited",
+        "summary": "A critical vulnerability in Notepad++ has been exploited in the wild, prompting CISA to issue an alert for users to update their software.",
+        "why_matters": "As a widely used text editor, this vulnerability could lead to significant security risks if not addressed promptly by users and organizations.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": []
+  }
+}
