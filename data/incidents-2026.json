@@ -1,5 +1,306 @@
 [
   {
+    "id": "20267162",
+    "date": "2026-02-13",
+    "title": "The End is Just the Beginning of Better Security: Enhanced Vulnerability Management with OpenEoX",
+    "summary": "",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CISA Blog",
+    "sourceUrl": "https://www.cisa.gov/news-events/news/end-just-beginning-better-security-enhanced-vulnerability-management-openeox",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267163",
+    "date": "2026-02-13",
+    "title": "Valentine’s Day 2026: Inside the Industrial-Scale Romance Scam Economy",
+    "summary": "The six-phase playbook of how romance scams actually work.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Security Magazine",
+    "sourceUrl": "https://www.securitymagazine.com/blogs/14-security-blog/post/102124-valentines-day-2026-inside-the-industrial-scale-romance-scam-economy",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267164",
+    "date": "2026-02-13",
+    "title": "Fintech lending giant Figure confirms data breach",
+    "summary": "The company said hackers downloaded “a limited number of files” after breaking into an employee’s account. The hacking group ShinyHunters took responsibility for the breach.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20267165",
+    "date": "2026-02-13",
+    "title": "Sex toys maker Tenga says hacker stole customer information",
+    "summary": "The Japanese sex toy maker said a hacker broke into an employee's inbox and stole customer names, email addresses, and correspondence, including order details and customer service inquiries.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechCrunch Cybersecurity",
+    "sourceUrl": "https://techcrunch.com/2026/02/13/sex-toys-maker-tenga-says-hacker-stole-customer-information/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267166",
+    "date": "2026-02-13",
+    "title": "260K Users Exposed in AI Extension Scam",
+    "summary": "More than 260,000 Chrome users installed what appeared to be helpful AI productivity tools — only to unknowingly grant remote servers deep access to their browser activity. LayerX researchers identified a coordinated campaign of 30 fake AI assistant extensions that used embedded iframes and backe...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/260k-users-exposed-in-ai-extension-scam/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267167",
+    "date": "2026-02-13",
+    "title": "Malicious Chrome Extensions Hijack 500,000 VK Accounts in Stealth Campaign",
+    "summary": "More than 500,000 VKontakte users had their accounts silently manipulated by Chrome extensions that appeared to offer simple interface customization. Koi researchers found the extensions delivered multi-stage malware that forced group subscriptions, reset account settings, and interfered with VK’...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/malicious-chrome-extensions-hijack-500000-vk-accounts-in-stealth-campaign/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267168",
+    "date": "2026-02-13",
+    "title": "1,800+ Windows Servers Hit by BADIIS SEO Malware",
+    "summary": "More than 1,800 Windows servers have been quietly compromised in a sprawling malware campaign that turns legitimate websites into tools for search engine manipulation. The operation leverages a sophisticated strain known as BADIIS to infect Microsoft Internet Information Services (IIS) environmen...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/threats/1800-windows-servers-hit-by-badiis-seo-malware/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267169",
+    "date": "2026-02-13",
+    "title": "Zero-Days, Shadow AI, and Stealth Tactics Define This Week in Cybersecurity",
+    "summary": "Major Threats & Vulnerabilities Zero-Day Vulnerabilities and Active Exploits Apple patched CVE-2026-20700, a zero-day vulnerability in the dynamic linker (dyld) exploited in targeted attacks across iOS, iPadOS, and macOS. The flaw was part of a multi-CVE exploit chain targeting recent Apple devic...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "eSecurity Planet",
+    "sourceUrl": "https://www.esecurityplanet.com/weekly-roundup/zero-days-shadow-ai-and-stealth-tactics-define-this-week-in-cybersecurity/",
+    "tags": [
+      "vulnerability",
+      "mobile",
+      "ai-ml",
+      "apple"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267170",
+    "date": "2026-02-13",
+    "title": "Cybersecurity Tips For Gambling",
+    "summary": "This post will show you cybersecurity tips for gambling. Are you afraid of cybersecurity breaches when gambling online? Well, you’re not alone. Many people are unsure how to keep their information safe when using online casinos. That’s because hackers are constantly figuring out new ways to targe...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/cybersecurity-tips-for-gambling/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267172",
+    "date": "2026-02-13",
+    "title": "Is Your Mainframe the SOC’s Blind Spot? NIS2 Directive Compliance and the Reality of z/OS Hardening",
+    "summary": "Let’s be honest. When you walk into the SOC (Security Operations Center) of a major financial institution or insurance company, the screens are impressive. Heat maps, real-time alerts, analysts monitoring every endpoint… But have you ever wondered if something is missing from that picture? Often,...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Bsecure Blog",
+    "sourceUrl": "https://www.go2bsecure.com/blog/is-your-mainframe-the-socs-blind-spot-nis2-directive-compliance-and-the-reality-of-z-os-hardening/",
+    "tags": [
+      "malware",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267173",
+    "date": "2026-02-13",
+    "title": "How Cloud-Native Applications Defend Against DDoS Attacks",
+    "summary": "Key Takeaways Cloud DDoS attacks are increasingly sophisticated, targeting APIs, microservices, and cloud workloads rather than just network bandwidth. Traditional, perimeter-based defenses often fail in cloud environments due to dynamic scaling and distributed architectures. Distribution, elasti...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Fidelis Security",
+    "sourceUrl": "https://fidelissecurity.com/threatgeek/cloud-security/cloud-ddos-defense/",
+    "tags": [
+      "ddos",
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267174",
+    "date": "2026-02-13",
+    "title": "Critical BeyondTrust RS vulnerability exploited in active attacks",
+    "summary": "Researchers warn that a critical vulnerability patched this week in BeyondTrust Remote Support is being exploited in the wild to compromise self-hosted deployments, including Bomgar remote support appliances, which included affected versions of the impacted software. Bomgar, a provider of privile...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132368/critical-beyondtrust-rs-vulnerability-exploited-in-active-attacks.html",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267175",
+    "date": "2026-02-13",
+    "title": "South Korea fines Louis Vuitton, Christian Dior, Tiffany $25M for SaaS security failures",
+    "summary": "South Korea’s data protection authority has handed down a combined KRW 36 billion (approximately US$25 million) in administrative fines to the local subsidiaries of three global luxury houses, after finding they failed to implement basic security controls while managing customer data through a Sa...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132308/security-remains-providers-responsibility-even-with-saas-personal-information-protection-commission-imposes-36-billion-won-in-fines-on-three-luxury-brands-korean-subsidiaries.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267176",
+    "date": "2026-02-13",
+    "title": "February’s Patch Tuesday assumes battle stations",
+    "summary": "Just 58 CVEs to spar with in February, but plenty are already under attackCategories: Threat Research, X-opsTags: Patch Tuesday, Microsoft, Windows",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Sophos",
+    "sourceUrl": "https://www.sophos.com/en-us/blog/februarys-patch-tuesday-assumes-battle-stations",
+    "tags": [
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267177",
+    "date": "2026-02-13",
+    "title": "The most important word you need to know about AI, traffic not visible in network logs, securing…",
+    "summary": "The most important word you need to know about AI, traffic not visible in network logs, securing your pentest network, and phone scamsStories published this week ending February 13, 2026As most of you know I’m primarily publishing on substack now. You can follow me over there for the most recent ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "2nd Sight Lab",
+    "sourceUrl": "https://medium.com/cloud-security/the-most-important-word-you-need-to-know-about-ai-traffic-not-visible-in-network-logs-securing-85aaf2166a1f?source=rss-863161906cc5------2",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267178",
+    "date": "2026-02-13",
+    "title": "Viral AI Caricatures Highlight Shadow AI Dangers",
+    "summary": "A viral AI caricature trend may be exposing sensitive enterprise data, fueling shadow AI risks, social engineering attacks, and LLM account compromise. The post Viral AI Caricatures Highlight Shadow AI Dangers appeared first on TechRepublic.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "TechRepublic Cybersecurity",
+    "sourceUrl": "https://www.techrepublic.com/article/news-ai-caricature-trend-shadow-ai-security-risks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267179",
+    "date": "2026-02-13",
+    "title": "Fake job recruiters hide malware in developer coding challenges",
+    "summary": "A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267180",
+    "date": "2026-02-13",
+    "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
+    "summary": "Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267181",
+    "date": "2026-02-13",
+    "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+    "summary": "South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267182",
+    "date": "2026-02-13",
+    "title": "Total defense meets total threat.",
+    "summary": "Global leaders call for collaboration at the Munich Cyber Security Conference. Phishing campaigns exploit fake video conference invitations. Italian authorities say cyber attacks on the Winter Olympics have met overall mitigation. AI reshapes the economics of ransomware attacks. CISA tags a criti...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://www.thecyberwire.com/podcasts/daily-podcast/2489/notes",
+    "tags": [
+      "ransomware",
+      "vulnerability",
+      "phishing",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267128",
     "date": "2026-02-13",
     "title": "Ring ends partnership plans with Flock days after privacy blowback from Super Bowl ad",
@@ -1943,6 +2244,18 @@
       "malware",
       "Data/IT"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20267171",
+    "date": "2026-02-12",
+    "title": "The New Era of Online Pokies in Australia: A 2026 Guide to Smarter Play",
+    "summary": "In this post, I will talk about the new era of online pokies in Australia. Read on as I give you a 2026 guide to smarter play. For many Australians, pokies have always been part of everyday culture — a quick spin at the local pub, an evening at the RSL, or a relaxed weekend […] The post The New E...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "SecureBlitz",
+    "sourceUrl": "https://secureblitz.com/new-era-of-online-pokies-in-australia-guide/",
+    "tags": [],
     "impact": 3
   },
   {
