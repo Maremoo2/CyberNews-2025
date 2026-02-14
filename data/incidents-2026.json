@@ -1,5 +1,547 @@
 [
   {
+    "id": "20267183",
+    "date": "2026-02-13",
+    "title": "Space emerges as new front in great power competition, officials warn",
+    "summary": "Space looks increasingly like the next arena of great power competition — crowded with satellites, vulnerable to disruption, and governed by rules written for a far simpler age.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://therecord.media/space-cybersecurity-new-front-war",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267184",
+    "date": "2026-02-13",
+    "title": "Homeland Security, Appropriations Republicans Slam Democrats' DHS Shutdown for ...",
+    "summary": "Cyber defenses and counterterrorism efforts will weaken. Law ... cybersecurity, transportation security, and infrastructure protection.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://homeland.house.gov/2026/02/13/homeland-security-appropriations-republicans-slam-democrats-dhs-shutdown-for-risking-safety-and-security-of-americans/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267185",
+    "date": "2026-02-13",
+    "title": "Washington pushes back against EU's bid for tech autonomy - POLITICO",
+    "summary": "It presented a cybersecurity proposal in January that, if approved, could be used to root out suppliers that pose security risks — including from ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.eu/article/eu-bid-for-tech-autonomy-washington-us-pushes-back/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267186",
+    "date": "2026-02-13",
+    "title": "Did CrowdStrike build its $100B Texas-based empire on stolen trade secrets?",
+    "summary": "... information to CrowdStrike remain. GoSecure says Alperovitch, who worked for computer security giant McAfee at the time, joined the board of ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.statesman.com/business/article/crowdstrike-stolen-trade-secrets-lawsuit-gosecure-21349537.php",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267187",
+    "date": "2026-02-13",
+    "title": "Cyolo marks record year as industrial cybersecurity spending shifts to secure remote access",
+    "summary": "Cyolo, provider of secure remote privileged access for operational technology (OT) and cyber-physical systems (CPS), is entering 2026 on the back ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/news/cyolo-marks-record-year-as-industrial-cybersecurity-spending-shifts-to-secure-remote-access/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267188",
+    "date": "2026-02-13",
+    "title": "Cybersecurity for Small Businesses: Protect Your Company and Yourself - ClearanceJobs",
+    "summary": "If systems were locked tomorrow through a cybersecurity attack, who would you call first – legal counsel, your insurer, an IT response firm? Having a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.clearancejobs.com/2026/02/13/cybersecurity-for-small-businesses-protect-your-company-and-yourself/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267189",
+    "date": "2026-02-13",
+    "title": "South Korea Amends Privacy Law to Authorize Fines of Up to 10% of Total Revenue",
+    "summary": "Categories: International, Cybersecurity, Information Security, Security Breach ... Cyber Attack, Cybersecurity, Cybersecurity and Infrastructure ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/south-korea-amends-privacy-law-to-authorize-fines-of-up-to-10-of-total-revenue",
+    "tags": [
+      "data-breach",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267190",
+    "date": "2026-02-13",
+    "title": "The DHS Shutdown Could Affect ICE, Travelers, FEMA and More - The New York Times",
+    "summary": "Most employees at the Cybersecurity and Infrastructure Security Agency, which helps protect the country's election system, power grids and water ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nytimes.com/2026/02/12/us/politics/dhs-shutdown-impact-ice-tsa-coast-guard.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267191",
+    "date": "2026-02-13",
+    "title": "How AI is redefining cybersecurity and the role of today's CIO - Darktrace",
+    "summary": "Why AI is essential to modern security. As attackers use automation and AI to outpace traditional tools and people, our approach to cybersecurity must ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darktrace.com/blog/how-ai-is-redefining-cybersecurity-and-the-role-of-todays-cio",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267192",
+    "date": "2026-02-13",
+    "title": "UK's Digital ID U-Turn: Privacy at Risk? - Panda Security",
+    "summary": "UK's Digital ID U-Turn: What It Means for Security · The UK's plan to make digital ID mandatory for all workers raised deep civil liberties concerns.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pandasecurity.com/en/mediacenter/uks-digital-id-u-turn-what-it-means-for-security/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267193",
+    "date": "2026-02-13",
+    "title": "CDT Launches New Work on Election Technology and Cybersecurity to Support Election ...",
+    "summary": "The initiative will draw upon partnerships across cybersecurity, national security, civic leadership, election administration, and election technology ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cdt.org/insights/cdt-launches-new-work-on-election-technology-and-cybersecurity-to-support-election-administrators/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267194",
+    "date": "2026-02-13",
+    "title": "AWS Batch now provides Job Queue and Share Utilization Visibility",
+    "summary": "AWS Batch now provides Queue and Share Utilization Visibility, giving you insights into how your workloads are distributed across compute resources. This feature introduces queue utilization data in job queue snapshots, revealing compute capacity used by your first-in-first-out (FIFO) and fair sh...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-provides-job-queue-share-utilization",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267195",
+    "date": "2026-02-13",
+    "title": "Amazon Connect launches in-app notifications to surface critical operational alerts to business users",
+    "summary": "Amazon Connect now supports in-app notifications in the workspace header, visible from any page, so your team can stay informed without interrupting their workflow— whether configuring, analyzing data, or servicing customers. A notification icon appears in the header of every workspace page, with...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-in-app-notifications",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267196",
+    "date": "2026-02-13",
+    "title": "Amazon Connect now provides real time AI-powered overviews and recommended next actions for Tasks",
+    "summary": "Amazon Connect now provides AI-powered Task overviews with suggested next actions so agents can understand work items faster and resolve them more quickly. For example, when an agent receives a Task to process a refund request submitted through an online form, Amazon Connect summarizes earlier ac...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.comamazon-connect-tasks-ai-assistance/",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267197",
+    "date": "2026-02-13",
+    "title": "Amazon RDS now supports backup configuration when restoring snapshots",
+    "summary": "Amazon Relational Database Service (RDS) and Amazon Aurora now offer greater flexibility for restore operations to view and modify backup retention period and preferred backup window prior to and upon restoring database snapshots. The backup retention period lets you specify how many days backups...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267198",
+    "date": "2026-02-13",
+    "title": "Amazon Aurora DSQL adds support for identity columns and sequence objects",
+    "summary": "Amazon Aurora DSQL now supports identity columns and sequence objects enabling developers to generate auto-incrementing, integer-based IDs directly in the database using familiar SQL patterns. This launch simplifies migrations of existing PostgreSQL applications and supports development of new wo...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267199",
+    "date": "2026-02-13",
+    "title": "Announcing Amazon EC2 C8i, M8i, and R8i instances on second-generation AWS Outposts racks",
+    "summary": "AWS is announcing local support for the latest generation of x86-powered Amazon EC2 instances on second-generation AWS Outposts racks, including C8i compute-optimized instances, M8i general-purpose instances, and R8i memory-optimized instances. These new instances deliver 20% better performance a...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-m8i-and-r8i-instances-on-aws-outposts/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267200",
+    "date": "2026-02-13",
+    "title": "Amazon Bedrock adds support for the latest open-weight models in Asia Pacific (Sydney)",
+    "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Today, Amazon Bedrock announced support for the latest open-weight models in Asia Pac...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-support-latest-open-weight-models-asia-pacific-sydney/",
+    "tags": [
+      "malware",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267201",
+    "date": "2026-02-13",
+    "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (Taipei) Region",
+    "summary": "You can now create Amazon S3 Access Grants in the AWS Asia Pacific (Taipei) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps you manage data permissions at scale by autom...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-access-grants-are-available-in-taipei",
+    "tags": [
+      "microsoft",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267202",
+    "date": "2026-02-13",
+    "title": "Amazon Bedrock expands support for AWS PrivateLink",
+    "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies. It enables you to build and scale generative AI applications. Amazon Bedrock already supported AWS PrivateLink for the bedrock-runtime endpoint. ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-expands-aws-privatelink-support-openai-api-endpoints/",
+    "tags": [
+      "malware",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267203",
+    "date": "2026-02-13",
+    "title": "AWS expands Resource Control Policies support to Amazon DynamoDB",
+    "summary": "AWS Resource Control Policies (RCPs) now support Amazon DynamoDB. RCPs are a type of organization policy that you can use to manage permissions in your organization. RCPs offer central control over the maximum available permissions for resources in your organization. With this expansion, you can ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-expands-resource-control-policies-amazon",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267204",
+    "date": "2026-02-13",
+    "title": "Amazon RDS now supports latest Cumulative Update (CU23) for Microsoft SQL Server",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Update (CU23) KB5078297 for SQL Server 2022. We recommend that you upgrade your Amazon RDS for SQL Server instances to apply this update using Amazon RDS Management Console, or by using the AWS SDK o...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-supports-latest-cumulative-update-cu23-for-microsoft-sql-server",
+    "tags": [
+      "microsoft",
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267205",
+    "date": "2026-02-13",
+    "title": "Amazon Connect  launches granular access controls for analytics dashboards",
+    "summary": "Amazon Connect dashboards now provides granular access controls for analytics dashboards. This enables you to apply resource tags that control who is able to see metrics for specific resources such as agents, queues, and routing profiles. You can now filter metrics using tags to view aggregate me...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-launches-granular-access",
+    "tags": [
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267206",
+    "date": "2026-02-13",
+    "title": "AWS CloudWatch Alarm Mute Rules eliminate alert fatigue",
+    "summary": "Amazon CloudWatch now supports Alarm Mute Rules, enabling customers to temporarily mute alarm notifications during planned deployments, maintenance windows, and off-hours without compromising monitoring visibility. This new capability helps eliminate alert fatigue while maintaining complete situa...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-alarm-muting-rules",
+    "tags": [
+      "aws",
+      "amazon",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267207",
+    "date": "2026-02-13",
+    "title": "UNM re-designated as a National Center of Academic Excellence in Cybersecurity Research",
+    "summary": "The MSCBA program emphasizes information security and the cyber risks facing businesses and government organizations. “Each semester, MSCBA ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://news.unm.edu/news/unm-re-designated-as-a-national-center-of-academic-excellence-in-cybersecurity-research",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267208",
+    "date": "2026-02-13",
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 7 - SentinelOne",
+    "summary": "The Ugly | China-Based Actors Hit Major Singaporean Telcos in Ongoing Espionage Campaign. Singapore's Cyber Security Agency (CSA) revealed this week ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-7-7/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267209",
+    "date": "2026-02-13",
+    "title": "NAVWAR cyber directorate's mission to secure, survive, comply - Federal News Network",
+    "summary": "SAN DIEGO — The Naval Information Warfare Systems Command set up its new cyber directorate last August with a goal of addressing cybersecurity in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://federalnewsnetwork.com/navy/2026/02/navwar-cyber-directorates-mission-to-secure-survive-comply/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267210",
+    "date": "2026-02-13",
+    "title": "China Data Privacy and Cybersecurity: 2025 Year in Review | Advisories | Arnold & Porter",
+    "summary": "The impact of foreign laws and policies on personal information security and individuals' rights. PIP certification applications are submitted to CAC- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.arnoldporter.com/en/perspectives/advisories/2026/02/china-data-privacy-and-cybersecurity-2025-year-in-review",
+    "tags": [
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267211",
+    "date": "2026-02-13",
+    "title": "Western Alliance Appoints Stephen McMaster as CISO - CDO Magazine",
+    "summary": "Most recently, he was managing director and head of cloud security, data loss prevention, third-party cybersecurity, and the business information ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cdomagazine.tech/leadership-moves/western-alliance-appoints-stephen-mcmaster-as-ciso",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267212",
+    "date": "2026-02-13",
+    "title": "CISA to furlough most of its workforce under impending DHS shutdown - Nextgov/FCW",
+    "summary": "Madhu Gottumukkala, acting director of the Cybersecurity and Infrastructure Security ... cyber response, security assessments, stakeholder ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.nextgov.com/cybersecurity/2026/02/cisa-furlough-most-its-workforce-under-impending-dhs-shutdown/411424/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267213",
+    "date": "2026-02-13",
+    "title": "Microsoft Forgoes Its Secure Future - Lawfare",
+    "summary": "The latest edition of the Seriously Risky Business cybersecurity newsletter, now on Lawfare. Building at Microsoft Corp. Headquarters, Redmond, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/microsoft-forgoes-its-secure-future",
+    "tags": [
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267214",
+    "date": "2026-02-13",
+    "title": "Europe needs cyber weapons, says EU tech chief - POLITICO",
+    "summary": "Buildings Cyber diplomacy Cyber ... Cybersecurity and Data Protection Data Defense Democracy Industry Munich Security Conference Quantum Security Supply ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.eu/article/europe-needs-offensive-cyber-power-says-eu-tech-chief/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267215",
+    "date": "2026-02-13",
+    "title": "CISA Reopens Comment Opportunity on Cyber Incident Reporting Requirements",
+    "summary": "The U.S. Department of Homeland Security's (DHS) Cybersecurity and Infrastructure Security Agency (CISA) is working to finalize a rule that would ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wiley.law/alert-CISA-Reopens-Comment-Opportunity-on-Cyber-Incident-Reporting-Requirements",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267216",
+    "date": "2026-02-13",
+    "title": "Who's the bossware? Ransomware slingers like employee monitoring tools, too - The Register",
+    "summary": "All SecurityCyber-crimePatchesResearchCSO. (X). Off-Prem. Off-Prem. All Off ... it makes it easier for them to hide inside enterprise IT environments.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/12/ransomware_slingers_bossware/",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267217",
+    "date": "2026-02-13",
+    "title": "Simplified security vs. concentrated risk: What CIOs should learn from Google's Wiz deal",
+    "summary": "The SOC of the future: How teams can see, know and protect more · Slamming the door on AI-based cybersecurity threats · What CISOs need from AI in a new ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.informationweek.com/cybersecurity/simplified-security-vs-concentrated-risk-what-cios-should-learn-from-google-s-wiz-deal",
+    "tags": [
+      "malware",
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267218",
+    "date": "2026-02-13",
+    "title": "'On our own': Vermont is getting less help from the feds to keep elections secure - VTDigger",
+    "summary": "Cuts and overhauls to federal election security programs by the Trump administration have left the state short on funding and cybersecurity data — in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://vtdigger.org/2026/02/12/on-our-own-vermont-is-getting-less-help-from-the-feds-to-keep-elections-secure/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267162",
     "date": "2026-02-13",
     "title": "The End is Just the Beginning of Better Security: Enhanced Vulnerability Management with OpenEoX",
