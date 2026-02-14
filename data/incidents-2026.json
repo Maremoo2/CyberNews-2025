@@ -1,5 +1,193 @@
 [
   {
+    "id": "20267244",
+    "date": "2026-02-14",
+    "title": "Studie: Slik kan KI føre til utbrenthet på arbeidsplassen",
+    "summary": "Forskere har funnet at KI faktisk kan føre til mer arbeid i stedet for mindre.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/studie-slik-kan-ki-fore-til-utbrenthet-pa-arbeidsplassen/568135",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267245",
+    "date": "2026-02-14",
+    "title": "Critical Microsoft bug from 2024 under exploitation - The Register",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency added CVE-2024-43468 to its Known Exploited Vulnerabilities catalog on Thursday, setting a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.theregister.com/2026/02/13/critical_microsoft_bug_from_2024/",
+    "tags": [
+      "vulnerability",
+      "microsoft",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267246",
+    "date": "2026-02-14",
+    "title": "Best Penetration Testing Companies in USA - Security Boulevard",
+    "summary": "UnderDefense is a global cybersecurity company delivering continuous threat monitoring, incident response, and compliance-driven security services.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securityboulevard.com/2026/02/best-penetration-testing-companies-in-usa/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267247",
+    "date": "2026-02-14",
+    "title": "DHS shutdown starts at midnight; here's how it could affect you",
+    "summary": "... Cybersecurity and Infrastructure Security Agency, said, \"I want to be clear. When the government shuts down, cyber threats do not. And our ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.wpbf.com/article/dhs-shutdown-impact/70350819",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267248",
+    "date": "2026-02-14",
+    "title": "Cybersecurity Becomes a Business Continuity Need",
+    "summary": "This week, cyber risk moves to the C-suite, identity and ... Fortinet framed 2026 as the inflection point where Chief Information Security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://mexicobusiness.news/cybersecurity/news/cybersecurity-becomes-business-continuity-need",
+    "tags": [
+      "fortinet",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267249",
+    "date": "2026-02-14",
+    "title": "Milan-Cortina 2026: How Winter Olympics embraced AI to fend off cyber attacks - SportsPro",
+    "summary": "HPE says the evolving threat landscape, the scale of the operation and the increasing demands of users mean it would be impossible to secure the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sportspro.com/analysis/technology/milan-cortina-2026-winter-olympics-cybersecurity-ai-tech-february-2026/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267250",
+    "date": "2026-02-14",
+    "title": "New NCSC-Led OT Security Guidance for Nuclear Reactors - BankInfoSecurity",
+    "summary": "Last month, the U.K. National Cyber Security Centre in partnership with the Cybersecurity and Infrastructure Security Agency, the Federal Bureau ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/blogs/new-ncsc-led-ot-security-guidance-for-nuclear-reactors-p-4044",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267251",
+    "date": "2026-02-14",
+    "title": "Centre for Development of Telematics signs MoU with Rashtriya Raksha University ...",
+    "summary": "... cybersecurity solution, TRINETRA – a Unified AI-powered Cyber Security Solution. ... security, cyber defence, and technology-driven security solutions.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227816&reg=3&lang=1",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267252",
+    "date": "2026-02-14",
+    "title": "Financial Organizations Navigate Heightened Regulatory Security Requirements",
+    "summary": "New and evolving cybersecurity requirements are less about whether security controls exist and more about how effectively, measurably and consistently ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://biztechmagazine.com/article/2026/02/financial-organizations-navigate-heightened-regulatory-security-requirements",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267253",
+    "date": "2026-02-14",
+    "title": "Jeffrey Epstein spent years building ties to well-known hackers - POLITICO",
+    "summary": "... information about himself from online search engines to network security. | ... internet with the help of cyber professionals. Epstein was again ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.politico.com/news/2026/02/14/epsteins-hackers-defcon-black-hat-00779365",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267254",
+    "date": "2026-02-14",
+    "title": "The Agentic AI Shift That Exposes Every Cyber Security Gap - Cybersecurity Insiders",
+    "summary": "That's the foundation of anti-fragility and is becoming essential to modern cybersecurity. Every IT and security leader understands the impact of a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/the-agentic-ai-shift-that-exposes-every-cyber-security-gap/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267255",
+    "date": "2026-02-14",
+    "title": "Building Skills and Confidence Through a New, On-campus Cybersecurity Internship",
+    "summary": "Launched in Fall 2025, the cybersecurity internship places Monarch students inside the University's security operations center, where they train, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.odu.edu/article/building-skills-and-confidence-through-a-new-campus-cybersecurity-internship",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267256",
+    "date": "2026-02-14",
+    "title": "Privacy concerns raised over how Nancy Guthrie security video was acquired - YouTube",
+    "summary": "... Cybersecurity expert Alex Stamos joins \"The Daily Report\" to discuss ... internet and is the destination for breaking news, live events ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.youtube.com/watch?v=8q2tbbu8d_M",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267235",
     "date": "2026-02-14",
     "title": "Après le rachat de iRobot par la Chine, que deviennent vos données personnelles ?",
