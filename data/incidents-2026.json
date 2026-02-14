@@ -1,5 +1,122 @@
 [
   {
+    "id": "20267235",
+    "date": "2026-02-14",
+    "title": "Après le rachat de iRobot par la Chine, que deviennent vos données personnelles ?",
+    "summary": "iRobot est sorti de la faillite le 23 janvier sous contrôle chinois. Picea, son fabricant historique, détient 100 % de l'entreprise, mais les données américaines échappent à Pékin via une filiale autonome.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600553-apres-le-rachat-de-irobot-par-la-chine-que-deviennent-vos-donnees-personnelles.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267236",
+    "date": "2026-02-14",
+    "title": "Pourquoi effacer votre historique ne suffit pas : voici la solution radicale pour ne laisser aucune trace",
+    "summary": "Vous pensez qu'ouvrir un nouvel onglet en choisissant la navigation privée ou qu'une simple suppression de l'historique suffit à ne laisser aucune trace en ligne ? Détrompez-vous, de nombreux éléments sont laissés en route, et sont notamment conservés sur des serveurs, même en cas de processus de...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-599944-pourquoi-effacer-votre-historique-ne-suffit-pas-voici-la-solution-radicale-pour-ne-laisser-aucune-trace.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267237",
+    "date": "2026-02-14",
+    "title": "Attention un Claude peut en cacher un autre : de faux chatbots Anthropic ont diffusé des spyware sur macOS",
+    "summary": "Plus de 15 600 utilisateurs Mac ont consulté un guide malveillant hébergé sur Claude.ai. Des pirates ont détourné les artefacts publics d'Anthropic pour propager le voleur d'informations MacSync via de fausses commandes Terminal.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600550-attention-un-claude-peut-en-cacher-un-autre-de-faux-chatbots-anthropic-ont-diffuse-des-spyware-sur-macos.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267238",
+    "date": "2026-02-14",
+    "title": "This secure form builder is my Google Forms replacement",
+    "summary": "Recently I needed to set up a publicly available form. I didn't want to use Google Docs, and I don't have enough web development skills to build my own and deploy it securely. That's why I ended up using an alternative: CryptPad.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/this-secure-form-builder-is-my-google-forms-replacement/",
+    "tags": [
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267240",
+    "date": "2026-02-14",
+    "title": "DavaIndia Security Lapse Exposed Sensitive Data via Unauthenticated API",
+    "summary": "The vulnerabilities inherent in rapidly digitizing sectors, a significant security lapse at DavaIndia Pharmacy, one of India's largest and fastest-growing pharmacy chains, recently exposed sensitive customer data and granted external actors potential \"super admin\" control over its core systems. T...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "SecureBlink Threat Feed",
+    "sourceUrl": "https://www.secureblink.com/cyber-security-news/dava-india-security-lapse-exposed-sensitive-data-via-unauthenticated-api",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267241",
+    "date": "2026-02-14",
+    "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
+    "summary": "Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-21962 and CVE-2026-24061. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
+    "tags": [
+      "vulnerability",
+      "mobile"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267242",
+    "date": "2026-02-14",
+    "title": "Snail mail letters target Trezor and Ledger users in crypto-theft attacks",
+    "summary": "Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267243",
+    "date": "2026-02-14",
+    "title": "Stealer in the status bar. [Research Saturday]",
+    "summary": "Today we have Ziv Mador, VP of Security Research from LevelBlue SpiderLabs discussing their work on \"SpiderLabs IDs New Banking Trojan Distributed Through WhatsApp.\" Researchers at LevelBlue SpiderLabs have identified a new Brazilian banking Trojan dubbed Eternidade Stealer, spread through WhatsA...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/research-saturday/412/notes",
+    "tags": [
+      "malware",
+      "finance"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267233",
     "date": "2026-02-14",
     "title": "Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data",
@@ -203,6 +320,21 @@
     "sourceUrl": "https://www.flyingpenguin.com/blonde-greek-gods-for-kids-playmobils-nazi-aesthetic-explained/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267239",
+    "date": "2026-02-13",
+    "title": "Zscaler-SquareX Deal Boosts Zero Trust, Secure Browsing Capabilities",
+    "summary": "Zscaler's acquisition of SquareX comes as competitors like CrowdStrike and Palo Alto Networks are also investing in secure browser technologies.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Dark Reading",
+    "sourceUrl": "https://www.darkreading.com/remote-workforce/zscaler-squarex-deal-boosts-zero-trust-secure-browsing-capabilities",
+    "tags": [
+      "palo alto",
+      "crowdstrike"
     ],
     "impact": 3
   },
