@@ -1,5 +1,108 @@
 [
   {
+    "id": "20267223",
+    "date": "2026-02-14",
+    "title": "Du skal ikke tåle så inderlig vel den datafangst som ikke rammer deg selv",
+    "summary": "Fremtiden er datadrevet, sies det. Men data kan drepe.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/kommentar-du-skal-ikke-tale-sa-inderlig-vel-den-datafangst-som-ikke-rammer-deg-selv/568207",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267224",
+    "date": "2026-02-14",
+    "title": "SolarWinds Web Help Desk Vulnerability Targeted by Threat Actors | JD Supra",
+    "summary": "The vulnerability was listed on the Cybersecurity and Infrastructure Security Agency's known exploited vulnerabilities last week, and SolarWinds ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.jdsupra.com/legalnews/solarwinds-web-help-desk-vulnerability-1880542/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267225",
+    "date": "2026-02-14",
+    "title": "Top 10 IoT Security Issues: Challenges & Solutions - Palo Alto Networks",
+    "summary": "Process, Policy, and Cybersecurity Benefits · What Is Network Segmentation? 3. Insecure communication protocols. IoT devices often transmit data over ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.paloaltonetworks.com/cyberpedia/iot-security-issues",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267226",
+    "date": "2026-02-14",
+    "title": "The Promptware Kill Chain | Lawfare",
+    "summary": "Understanding this gives defenders a set of countermeasures. (https://www.acsfinancial.com.au/blog/cyber-security-for-churches/; CC BY-NC 4.0 ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.lawfaremedia.org/article/the-promptware-kill-chain",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267227",
+    "date": "2026-02-14",
+    "title": "Hackers use Gemini, Apple patches old bug, CISA eyes shutdown - CISO Series",
+    "summary": "Cybersecurity Headlines · In today's cybersecurity news… · Hackers abuse Gemini AI for all attack stages, says Google · Apple patches decade-old possibly ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cisoseries.com/cybersecurity-news-hackers-abuse-gemini-apple-patches-ancient-bug-cisa-criticizes-shutdown/",
+    "tags": [
+      "google",
+      "apple",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267228",
+    "date": "2026-02-14",
+    "title": "Alert: 'Severe Cyberthreat' to Critical Infrastructure - BankInfoSecurity",
+    "summary": "German cybersecurity expert Haya Schulmann told Information Security ... The Cyber Security and Resilience Bill, currently in Parliament, is ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.bankinfosecurity.com/alert-severe-cyberthreat-to-critical-infrastructure-a-30750",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267229",
+    "date": "2026-02-14",
+    "title": "Notepad++ Code Execution Flaw Exploited in the Wild, CISA Issues Alert - Cyber Press",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in the widely used Notepad++ text editor to ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/notepad-code-execution-flaw-exploited-in-the-wild-cisa-issues-alert/",
+    "tags": [
+      "vulnerability",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20267219",
     "date": "2026-02-14",
     "title": "Indian pharmacy chain giant exposed customer data and internal systems",
