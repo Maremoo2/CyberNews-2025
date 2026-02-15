@@ -1,5 +1,75 @@
 [
   {
+    "id": "20267288",
+    "date": "2026-02-15",
+    "title": "Face à Google Photos, \"nous construisons Ente pour nous-mêmes et les générations futures\" - Interview",
+    "summary": "Après avoir quitté Google en 2020, Vishnu Mohandas a fondé Ente Photos, une alternative chiffrée à Google Photos. Cinq ans plus tard, avec 20 employés seulement, il explique comment construire une entreprise axée sur la confidentialité qui soit véritablement éthique dans un écosystème dominé par ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-598945-interview-ente.html",
+    "tags": [
+      "malware",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267289",
+    "date": "2026-02-15",
+    "title": "CyberGhost, Proton, ExpressVPN : TOP 3 des VPN qui valent vraiment le coup en ce moment",
+    "summary": "À l’heure où les usages numériques explosent entre streaming, télétravail et mobilité, choisir un VPN ne se résume plus à comparer des prix. Voici trois offres actuellement attractives, à envisager selon votre profil et vos priorités.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/bons-plans-600520-cyberghost-proton-vpn-expressvpn-quel-vpn-choisir-selon-votre-usage-en-2026.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267290",
+    "date": "2026-02-15",
+    "title": "Week in review: Exploited newly patched BeyondTrust RCE, United Airlines CISO on building resilience",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: United Airlines CISO on building resilience when disruption is inevitable In this Help Net Security interview, Deneen DeFiore, VP and CISO at United Airlines, explains how the company approaches mode...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/15/week-in-review-exploited-newly-patched-beyondtrust-rce-united-airlines-ciso-on-building-resilience/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267291",
+    "date": "2026-02-15",
+    "title": "Your Smart Home Is Watching You: Privacy in the Age of AI Robots",
+    "summary": "From compromised TVs to AI-powered house chores, exploring the evolving global threats and why human-centric security matters more than ever.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Lohrmann on Infrastructure",
+    "sourceUrl": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/your-smart-home-is-watching-you-privacy-in-the-age-of-ai-robots",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267292",
+    "date": "2026-02-15",
+    "title": "Mike Arrowsmith: Facing adversity in the workplace. [CTrO] [Career Notes]",
+    "summary": "Please enjoy this encore of Career Notes. Mike Arrowsmith, Chief Trust Officer at NinjaOne, leads the organization’s IT, security, and support infrastructure to ensure they meet customers’ security and data privacy demands as it scales. Mike discusses how his career path has led him to the positi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/career-notes/108/notes",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20267277",
     "date": "2026-02-15",
     "title": "Cybersecurity Council's Donald Lim: We're pushing for cyber education across all sectors",
@@ -3745,6 +3815,22 @@
       "Data/IT"
     ],
     "impact": 3
+  },
+  {
+    "id": "20267287",
+    "date": "2026-02-12",
+    "title": "Check For Windows 11 Updates. Microsoft Just Patched A Major Notepad Vulnerability",
+    "summary": "Careful out there. Now would be a good time to ensure your Windows OS is up to date. Microsoft recently patched a serious vulnerability in Windows 11 related to Notepad, its text-editing tool.The company said it fixed a \"remote code execution\" vulnerability. As technology website Techradar noted,...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Mashable Cybersecurity",
+    "sourceUrl": "https://in.mashable.com/tech/105891/check-for-windows-11-updates-microsoft-just-patched-a-major-notepad-vulnerability",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 4
   },
   {
     "id": "20267221",
