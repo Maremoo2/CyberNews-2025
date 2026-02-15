@@ -1,5 +1,63 @@
 [
   {
+    "id": "20267301",
+    "date": "2026-02-15",
+    "title": "Securing the Digital Perimeter",
+    "summary": "External Attack Surface ManagementCLIENT PROFILESpanish Law Enforcement Agency50,000+ personnel | National security operations | Multi-domain infrastructureTHE CHALLENGEThe Unknown Threat VectorThe agency faced a critical blind spot: no comprehensive inventory of externally-facing assets. Legacy ...",
+    "region": "EU",
+    "country": "Spain",
+    "sourceName": "Alias Robotics",
+    "sourceUrl": "https://news.aliasrobotics.com/securing-the-digital-perimeter/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267302",
+    "date": "2026-02-15",
+    "title": "How I use my Raspberry Pi to keep an eye on my network traffic (and why)",
+    "summary": "Your home router can provide basic network monitoring features, but if you need something more advanced, or if you want to integrate output from a network monitor into other services you're self-hosting, you'll need something more. These are a few network monitoring solutions worth trying.",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "How-To Geek Cybersecurity",
+    "sourceUrl": "https://www.howtogeek.com/how-i-use-my-raspberry-pi-to-keep-an-eye-on-my-network-traffic/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267303",
+    "date": "2026-02-15",
+    "title": "CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups",
+    "summary": "CTM360 reports 4,000+ malicious Google Groups and 3,500+ Google-hosted URLs used to spread the Lumma Stealer infostealing malware and a trojanized \"Ninja Browser.\" The report details how attackers abuse trusted Google services to steal credentials and maintain persistence across Windows and Linux...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/",
+    "tags": [
+      "malware",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267304",
+    "date": "2026-02-15",
+    "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
+    "summary": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hijack Bitcoin swap transactions and redirect funds to attacker-controlled wallets. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "20267293",
     "date": "2026-02-15",
     "title": "[Ekstra] Oscar-nominert filmregissør laget serie med KI – slaktes av seere og kritikere",
