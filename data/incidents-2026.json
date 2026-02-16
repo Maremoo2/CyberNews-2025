@@ -1,5 +1,372 @@
 [
   {
+    "id": "20267380",
+    "date": "2026-02-16",
+    "title": "[Ekstra] Norsk programvarehus får drahjelp av svensk stjerne",
+    "summary": "Event-plattformen Qondor henter inn Monterro som ny hovedeier for å trappe opp den internasjonale satsingen.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/norsk-programvarehus-far-svensk-stjernedrahjelp/568300",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267381",
+    "date": "2026-02-16",
+    "title": "Microsoft Warns of ClickFix Attack Abusing DNS Lookups",
+    "summary": "Attackers are using DNS requests to deliver a RAT named ModeloRAT to targeted users. The post Microsoft Warns of ClickFix Attack Abusing DNS Lookups appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/microsoft-warns-of-clickfix-attack-abusing-dns-lookups/",
+    "tags": [
+      "malware",
+      "microsoft",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267382",
+    "date": "2026-02-16",
+    "title": "Fintech firm Figure disclosed data breach after employee phishing attack",
+    "summary": "Pierluigi Paganini February 14, 2026 Blockchain-based lending firm Figure confirmed a data breach after an employee fell victim to a social engineering attack. According to a company spokesperson, the incident allowed hackers to access and steal a limited number of files. The company disclosed th...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/187988/data-breach/fintech-firm-figure-disclosed-data-breach-after-employee-phishing-attack.html?&web_view=true",
+    "tags": [
+      "data-breach",
+      "phishing",
+      "Cyber"
+    ],
+    "impact": 2
+  },
+  {
+    "id": "20267383",
+    "date": "2026-02-16",
+    "title": "Amazon Scraps Partnership With Surveillance Company After Super Bowl Ad Backlash",
+    "summary": "Amazon’s smart doorbell maker Ring has terminated a partnership with police surveillance tech company Flock Safety. The post Amazon Scraps Partnership With Surveillance Company After Super Bowl Ad Backlash appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/amazon-scraps-partnership-with-surveillance-company-after-super-bowl-ad-backlash/",
+    "tags": [
+      "amazon",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267384",
+    "date": "2026-02-16",
+    "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
+    "summary": "Cybersecurity researchers have disclosed details of a new mobile spyware platform dubbed ZeroDayRAT that's being advertised on Telegram as a way to grab sensitive data and facilitate real-time surveillance on Android and iOS devices. \"The developer runs dedicated channels for sales, customer supp...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267385",
+    "date": "2026-02-16",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cec788b1fc40bcf • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267386",
+    "date": "2026-02-16",
+    "title": "[Ekstra] Deler ut 152 millioner kroner til helseteknologi",
+    "summary": "346 kommuner er med i prosjekter som får støtte.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/deler-ut-152-millioner-kroner-til-helseteknologi/568294",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267387",
+    "date": "2026-02-16",
+    "title": "[Ekstra] Stor sikkerhetstrussel: Slik skal brukerne beskyttes",
+    "summary": "Lanserer «nedstengningsmodus» og mer til KI-tjenesten.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/slik-skal-chat-gpt-brukerne-beskyttes-mot-en-stor-sikkerhetstrussel/568270",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267388",
+    "date": "2026-02-16",
+    "title": "Malicious npm and PyPI packages Llinked to Lazarus APT fake recruiter campaign",
+    "summary": "Malicious npm and PyPI packages linked to Lazarus APT fake recruiter campaign Pierluigi Paganini February 15, 2026 ReversingLabs researcher uncovered new malicious packages on npm and PyPI connected to a fake job recruitment campaign attributed to the North Korea-linked Lazarus Group. The campaig...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://securityaffairs.com/188009/apt/malicious-npm-and-pypi-packages-llinked-to-lazarus-apt-fake-recruiter-campaign.html?&web_view=true",
+    "tags": [
+      "apt",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267389",
+    "date": "2026-02-16",
+    "title": "Access denied",
+    "summary": "Cloudflare Ray ID: 9cebb25bdb5ad0df • Your IP: 88.203.186.24 • Performance & security by Cloudflare",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/?&web_view=true",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267390",
+    "date": "2026-02-16",
+    "title": "Google Patches First Actively Exploited Chrome Zero-Day of 2026",
+    "summary": "A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution. The post Google Patches First Actively Exploited Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267391",
+    "date": "2026-02-16",
+    "title": "2026 64-Bits Malware Trend, (Mon, Feb 16th)",
+    "summary": "In 2022 (time flies!), I wrote a diary about the 32-bits VS. 64-bits malware landscape[1]. It demonstrated that, despite the growing number of 64-bits computers, the \"old-architecture\" remained the standard. In the SANS malware reversing training (FOR610[2]), we quickly cover the main differences...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32718",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267392",
+    "date": "2026-02-16",
+    "title": "[Ekstra] Ways-gründer kjemper mot konkurskarantene",
+    "summary": "Denne uken må IT-gründer Knut Michael Haugland møte i Oslo tingrett. Retten skal vurdere om han skal ilegges karantene.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.digi.no/artikler/ways-grunder-kjemper-mot-konkurskarantene/568171",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267393",
+    "date": "2026-02-16",
+    "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+    "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild. The high-severity vulnerability, tracked as CVE-2026-2441 (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Faz...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+    "tags": [
+      "vulnerability",
+      "google",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267394",
+    "date": "2026-02-16",
+    "title": "CISA Alerts on Critical ZLAN ICS Flaws Enabling Full Device Takeover - Cyber Press",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has released a critical advisory, ICSA-26-041-02, spotlighting severe ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://cyberpress.org/zlan-ics-flaws/",
+    "tags": [
+      "vulnerability",
+      "aws",
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267395",
+    "date": "2026-02-16",
+    "title": "Making sense of AI's role in cyber security | Computer Weekly",
+    "summary": "Cyber security companies have jumped on the AI bandwagon. We look at where artificial intelligence is a useful add-on and where it poses potential ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.computerweekly.com/feature/Making-sense-of-AIs-role-in-cyber-security",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267396",
+    "date": "2026-02-16",
+    "title": "As CIRCIA implementation advances, CISA turns to industry to refine reporting thresholds ...",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency announced a series of virtual town halls to gather stakeholder input on implementation ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/cisa/as-circia-implementation-advances-cisa-turns-to-industry-to-refine-reporting-thresholds-and-sector-criteria/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267397",
+    "date": "2026-02-16",
+    "title": "Living-off-the-land attacks reshape ICS and OT incident response as engineering-led ...",
+    "summary": "Citing the '2025 SANS State of ICS/OT Security Survey,' Parsons notes that more than one in five organizations reported an ICS/OT cyber incident in ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://industrialcyber.co/industrial-cyber-attacks/living-off-the-land-attacks-reshape-ics-and-ot-incident-response-as-engineering-led-defense-becomes-critical/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267398",
+    "date": "2026-02-16",
+    "title": "A week in security (February 9 - February 15) - Malwarebytes",
+    "summary": "Stay safe! We don't just report on threats—we help safeguard your entire digital identity. Cybersecurity risks should never spread beyond a headline.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.malwarebytes.com/blog/news/2026/02/a-week-in-security-february-9-february-15",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267399",
+    "date": "2026-02-16",
+    "title": "National Polytechnic University of Armenia and Group-IB sign strategic partnership to ...",
+    "summary": "Group-IB, a leading creator of cybersecurity technologies to investigate, prevent, and fight digital crime announced today that it has entered a ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.group-ib.com/media-center/press-releases/armenia-university-partnership/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267400",
+    "date": "2026-02-16",
+    "title": "First ASIC penalty for cybersecurity failures: Federal Court imposes $2.5m penalty on FIIG",
+    "summary": "Responsibility for cybersecurity had been dispersed across roles without dedicated cyber ... information security policies and audit processes. Penalty ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.herbertsmithfreehills.com/insights/2026-02/first-asic-penalty-for-cybersecurity-failures-federal-court-imposes-two-point-five-million-penalty",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267401",
+    "date": "2026-02-16",
+    "title": "GPA awarded $1.7 million more for cybesecurity | Local News | postguam.com",
+    "summary": "... cybersecurity personnel have obtained specialized certifications, such as the Global Industrial Cyber Security Professional certification. \"The ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.postguam.com/news/local/gpa-awarded-1-7-million-more-for-cybesecurity/article_93d88033-38bf-4237-a74a-2f510d4fba91.html",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267402",
+    "date": "2026-02-16",
+    "title": "Cyber threats emerge as leading risks confronting G7 nations says Munich Security Conference 2026",
+    "summary": "For the G7, cybersecurity is no longer a technical issue confined to IT departments—it is a central pillar of national security, economic resilience, ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/cyber-threats-emerge-as-leading-risks-confronting-g7-nations-says-munich-security-conference-2026/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267403",
+    "date": "2026-02-16",
+    "title": "What Are Distillation Attacks and how can they be Curbed - Cybersecurity Insiders",
+    "summary": "... Cyber Attacks, Cloud Security and Mobile Security. RELATED ARTICLESMORE FROM AUTHOR. Cybersecurity Insiders · Cyber Attack · China using Google Gemini ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurity-insiders.com/what-are-distillation-attacks-and-how-can-they-be-curbed/",
+    "tags": [
+      "google",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267404",
+    "date": "2026-02-16",
+    "title": "When Cybersecurity Breaks at Scale: What 2026 Will Expose - The Fast Mode",
+    "summary": "It will reflect a new normal where “attack one, infect many” defines modern cybercrime. Compliance and security scorecards will create a false sense ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thefastmode.com/expert-opinion/47097-when-cybersecurity-breaks-at-scale-what-2026-will-expose",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267348",
     "date": "2026-02-16",
     "title": "Il voulait contrôler son aspirateur DJI à la manette, il finit pas espionner 7 000 maisons",
