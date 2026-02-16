@@ -1,5 +1,148 @@
 [
   {
+    "id": "20267338",
+    "date": "2026-02-16",
+    "title": "ISC Stormcast For Monday, February 16th, 2026 https://isc.sans.edu/podcastdetail/9810, (Mon, Feb 16th)",
+    "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://isc.sans.edu/diary/rss/32716",
+    "tags": [
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267339",
+    "date": "2026-02-16",
+    "title": "Critical Thinking Erosion: A Hidden Threat to Security Career Resilience",
+    "summary": "While cybersecurity is critically important, it represents only one subset of a much broader security landscape. Cybersecurity focuses on the ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.securitymagazine.com/articles/102117-critical-thinking-erosion-a-hidden-threat-to-security-career-resilience",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267340",
+    "date": "2026-02-16",
+    "title": "Lathrup Village Awarded $21,678 Cybersecurity Grant - Oakland County Times",
+    "summary": "... security protections, and ensure personnel are appropriately trained to respond to cyber incidents. The SLCGP is designed to help state and local ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://oaklandcounty115.com/2026/02/15/lathrup-village-awarded-21678-cybersecurity-grant/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267341",
+    "date": "2026-02-16",
+    "title": "Cybersecurity shifts from product paradigm to program focus | Viewpoint",
+    "summary": "Every dollar invested in cybersecurity is a dollar not spent at the bedside. The question security leaders are asking is no longer what to add ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.chiefhealthcareexecutive.com/view/cybersecurity-shifts-from-product-paradigm-to-program-focus-viewpoint",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267342",
+    "date": "2026-02-16",
+    "title": "Why Tomorrow SOCs Will Run on Autonomous Threat Hunting - Dark Reading",
+    "summary": "Enable cyber defenses across security tools ... The autonomous security future isn't theoretical; it's the next evolution of security operations.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.darkreading.com/cybersecurity-operations/why-tomorrow-socs-will-run-on-autonomous-threat-hunting",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267343",
+    "date": "2026-02-16",
+    "title": "The State of Ransomware in Retail 2025 - Sophos",
+    "summary": "We Deliver Superior Cybersecurity Outcomes for Real-World Organizations ... Network security · Networking infrastructure · Email security · Cloud ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.sophos.com/en-gb/resources/white-papers/the-state-of-ransomware-in-retail",
+    "tags": [
+      "ransomware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267344",
+    "date": "2026-02-16",
+    "title": "Why Connected Cameras Deserve a Place in Every Cyber Risk Strategy",
+    "summary": "Low lateral security that enables attackers to use cameras to access further internal networks. A third of all corporate IoT devices are outside IT ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.cybersecurityconnect.com.au/security/13212-why-connected-cameras-deserve-a-place-in-every-cyber-risk-strategy",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267345",
+    "date": "2026-02-16",
+    "title": "Federal Court delivers a warning to businesses that underinvest in cybersecurity - Insight",
+    "summary": "The licensee was ordered to pay a civil penalty of $2.5 million for not taking adequate steps to protect thousands of clients from cyber security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.minterellison.com/articles/federal-court-delivers-a-warning-to-businesses-that-underinvest-in-cybersecurity",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267346",
+    "date": "2026-02-16",
+    "title": "OpenAI unveils Lockdown Mode to counter prompt attacks - SecurityBrief Asia",
+    "summary": "It is also adding \"Elevated Risk\" labels to flag features that may expose users to higher security risks when AI systems connect to the web or third- ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.asia/story/openai-unveils-lockdown-mode-to-counter-prompt-attacks",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267347",
+    "date": "2026-02-16",
+    "title": "Telefónica Tech Strengthens Cybersecurity and Digital Identity in Spain's Insurance Sector",
+    "summary": "... Network Management with GenAIThe Role of DPI-driven Traffic Intelligence. enterprise services · telefonica · cyber security · spain · europe. Author.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.thefastmode.com/technology-solutions/47077-telefonica-tech-strengthens-cybersecurity-and-digital-identity-in-spain-s-insurance-sector",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267332",
     "date": "2026-02-16",
     "title": "In GitHub’s advisory pipeline, some advisories move faster than others",
