@@ -1,5 +1,449 @@
 [
   {
+    "id": "20267348",
+    "date": "2026-02-16",
+    "title": "Il voulait contrôler son aspirateur DJI à la manette, il finit pas espionner 7 000 maisons",
+    "summary": "En voulant piloter son robot aspirateur DJI avec une manette de PS5, un développeur a découvert une faille majeure. Résultat : des milliers d’appareils accessibles à distance, avec caméra et plan des logements à la clé.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600625-il-voulait-controler-son-aspirateur-dji-a-la-manette-il-finit-pas-espionner-7-000-maisons.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267349",
+    "date": "2026-02-16",
+    "title": "Après Auth et Photos, Ente donne le coup d'envoi pour son stockage sécurisé",
+    "summary": "Ente, l'entreprise derrière l'alternative chiffrée à Google Photos, vient de lancer Ente Locker, un service de stockage sécurisé pour documents critiques. Cette nouvelle brique s'ajoute à l'écosystème Ente Photos et Ente Auth.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600595-apres-auth-et-photos-ente-donne-le-coup-d-envoi-pour-son-stockage-securise.html",
+    "tags": [
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267350",
+    "date": "2026-02-16",
+    "title": "Votre prochaine réunion Microsoft Teams, Zoom ou Meet pourrait être un piège informatique",
+    "summary": "Une vague de phishing cible depuis un moment les utilisateurs de Microsoft Teams, Zoom et Google Meet. Les cybercriminels exploitent de fausses mises à jour pour installer des outils de contrôle à distance.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600643-votre-prochaine-reunion-microsoft-teams-zoom-ou-meet-pourrait-etre-un-piege-informatique.html",
+    "tags": [
+      "vulnerability",
+      "phishing",
+      "ai-ml",
+      "microsoft",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267351",
+    "date": "2026-02-16",
+    "title": "Windows 11 : l’explication rassurante derrière les mystérieuses erreurs TPM de février",
+    "summary": "Depuis la mise à jour de février, certains PC Windows 11 consignent des événements TPM inhabituels liés à Secure Boot, qui peuvent laisser penser à un énième dysfonctionnement alors qu’ils accompagnent en réalité une évolution plus profonde du système.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600637-windows-11-l-explication-rassurante-derriere-les-mysterieuses-erreurs-tpm-de-fevrier.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267352",
+    "date": "2026-02-16",
+    "title": "Cette attaque ClickFix exploite une requête DNS pour déployer un malware sur votre PC",
+    "summary": "Microsoft alerte sur une déclinaison de l'attaque ClickFix qui passe par une requête DNS pour installer un malware sur votre ordinateur. La commande nslookup devient le nouveau vecteur d'infection.",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/actualite-600592-cette-attaque-clickfix-exploite-une-requete-dns-pour-deployer-un-malware-sur-votre-pc.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267353",
+    "date": "2026-02-16",
+    "title": "“Your Best-Performing Ad Campaign Might Be a Bot” — Mike Schrobo Interview",
+    "summary": "What if the “high-performing” ad campaign you’re celebrating is actually powered by malware? Mike Schrobo, CEO and Co-Founder of Fraud Blocker, has spent years looking behind the numbers—and what he sees isn’t just wasted marketing spend. It’s compromised devices, automated agents, and hidden net...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/ad-fraud-mike-schrobo-interview/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267354",
+    "date": "2026-02-16",
+    "title": "Chinese Bots Targeting Websites of Government Portals, Paranormal Activity Blogs",
+    "summary": "Since last year, website administrators across Western countries have been dealing with a strange and sustained spike in traffic traced to China and Singapore. What initially appeared to be a promising expansion of international audiences quickly turned into a technical puzzle involving automated...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/chinese-bots-lanzhou-website-traffic/",
+    "tags": [
+      "malware",
+      "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267355",
+    "date": "2026-02-16",
+    "title": "Google Chrome Fixes Actively Exploited CVE-2026-2441 Bug",
+    "summary": "A critical security vulnerability, CVE-2026-2441, has prompted an urgent out-of-band update for Google Chrome after confirmation that the flaw is being actively exploited. The Hong Kong Computer Emergency Response Team (HKCERT) alerted users to the flaw on 16 February 2026. The issue has been cla...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "The Cyber Express",
+    "sourceUrl": "https://thecyberexpress.com/cve-2026-2441-google-chrome/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 5
+  },
+  {
+    "id": "20267356",
+    "date": "2026-02-16",
+    "title": "Popular password managers fall short of “zero-knowledge” claims",
+    "summary": "Researchers from ETH Zurich have identified serious architectural weaknesses in three leading cloud-based password managers, Bitwarden, LastPass, and Dashlane, demonstrating that a fully compromised server could expose and even modify users’ stored credentials. Collectively, Bitwarden, LastPass, ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/popular-password-managers-fall-short-of-zero-knowledge-claims/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267357",
+    "date": "2026-02-16",
+    "title": "Eurail confirms hackers have stolen passenger data and are leaking it online",
+    "summary": "Eurail B.V. has confirmed that customer data compromised in a recent security breach has been offered for sale on the dark web, with a sample dataset also published on Telegram. The Utrecht-based rail pass provider published an update on February 13, 2026, stating that it had identified unauthori...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/eurail-confirms-hackers-have-stolen-passenger-data-and-are-leaking-it-online/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267358",
+    "date": "2026-02-16",
+    "title": "Google releases emergency Chrome update to fix zero-day flaw in CSS engine",
+    "summary": "Google has released emergency security updates for Chrome to address a high-severity zero-day vulnerability that is actively exploited in the wild. The flaw, tracked as CVE-2026-2441, is the first Chrome zero-day disclosed in 2026 and impacts the browser’s CSS engine. The update brings Chrome to ...",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber Insider",
+    "sourceUrl": "https://cyberinsider.com/google-releases-emergency-chrome-update-to-fix-zero-day-flaw-in-css-engine/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267359",
+    "date": "2026-02-16",
+    "title": "UK sets course for stricter AI chatbot regulation",
+    "summary": "The UK government has announced immediate action to force AI chatbot providers to comply with laws requiring online platforms to protect children from illegal and harmful content. Providers that fail to meet these duties will face legal consequences. This follows recent intervention after non-con...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/uk-ai-chatbot-rules-child-online-safety/",
+    "tags": [
+      "cloud",
+      "government",
+      "ai-ml",
+      "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267360",
+    "date": "2026-02-16",
+    "title": "ChatGPT gets new security feature to fight prompt injection attacks",
+    "summary": "OpenAI has introduced Lockdown Mode and Elevated Risk labels in ChatGPT to help users and organizations reduce the risk of prompt injection attacks and other advanced security threats, particularly when using features that interact with external systems. Limiting tool access to prevent data exfil...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/chatgpt-lockdown-mode-elevated-risk/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267361",
+    "date": "2026-02-16",
+    "title": "Google patches Chrome vulnerability with in-the-wild exploit (CVE-2026-2441)",
+    "summary": "Google released a security update for Chrome to address a high-severity zero‑day vulnerability (CVE-2026-2441) on Friday. “Google is aware that an exploit for CVE-2026-2441 exists in the wild,” the company said. About CVE-2026-2441 CVE-2026-2441 is a use-after-free bug in the CSS processing compo...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/google-patches-chrome-vulnerability-with-in-the-wild-exploit-cve-2026-2441/",
+    "tags": [
+      "vulnerability",
+      "ai-ml",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267362",
+    "date": "2026-02-16",
+    "title": "Android 17 beta brings privacy, security, and performance changes",
+    "summary": "Google has released the first beta of Android 17, giving developers an early view of changes to core app behavior, platform tooling, performance, media handling, and connectivity. The company plans to move quickly from this beta toward the Platform Stability milestone, targeted for March, where f...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/android-17-beta-changes-privacy-security/",
+    "tags": [
+      "mobile",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267363",
+    "date": "2026-02-16",
+    "title": "Vim 9.2 adds scripting updates, diff improvements, and experimental Wayland support",
+    "summary": "Vim 9.2 adds a range of incremental changes focused on scripting, usability, and cross-platform support. The update includes improvements to completion behavior, expanded Vim9 language features, and new options for diff mode. Completion updates in insert mode Vim 9.2 includes expanded completion ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/vim-9-2-released/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267364",
+    "date": "2026-02-16",
+    "title": "Security at AI speed: The new CISO reality",
+    "summary": "The CISO role has changed significantly over the past decade, but according to John White, EMEA Field CISO, Torq, the most disruptive shift is accountability driven by agentic AI. In this Help Net Security interview, White explains how security leaders must design and govern hybrid workforces whe...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/john-white-torq-agentic-ai-security/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267365",
+    "date": "2026-02-16",
+    "title": "Apple privacy labels often don’t match what Chinese smart home apps do",
+    "summary": "Smart home devices in many homes collect audio, video, and location data. The apps that control those devices often focus on the account owner, even when the technology also captures guests, neighbors, and other people who never agreed to be monitored. New research examined whether Chinese smart ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/apple-ios-apps-china-smart-home-bystander-privacy/",
+    "tags": [
+      "apt",
+      "apple"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267368",
+    "date": "2026-02-16",
+    "title": "How the Protective Security Policy Framework Shapes Australia’s Commonwealth Cyber Security Strategy ",
+    "summary": "The Australian government has intensified efforts to protect digital infrastructure across all Commonwealth entities. Two recent publications, the 2024–25 Protective Security Policy Framework (PSPF) Assessment Report and the 2025 Commonwealth Cyber Security Posture Report, offer a comprehensive s...",
+    "region": "ASIA",
+    "country": "India",
+    "sourceName": "Cyble Blog",
+    "sourceUrl": "https://cyble.com/blog/2025-commonwealth-cyber-security-pspf-update/",
+    "tags": [
+      "malware",
+      "government"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267369",
+    "date": "2026-02-16",
+    "title": "Leaky Chrome extensions with 37M installs caught divulging your browsing history",
+    "summary": "An estimated 37 million worldwide installations of a clutch of leaky Chrome extensions are transmitting users’ browsing histories to external servers. According to findings by an independent security researcher using the pseudonym “Q Continuum,” a total of 287 extensions sent data that closely ma...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132712/leaky-chrome-extensions-with-37m-installs-caught-shipping-your-browsing-history.html",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267370",
+    "date": "2026-02-16",
+    "title": "Finding a common language around risk",
+    "summary": "Here’s what nobody tells you about risk management: your cyber team speaks Klingon, your operations folks speak Elvish and your strategy people speak ancient Greek. And somehow, you expect them all to protect the same castle. We’ve watched this play out more times than we care to count. The CISO ...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132307/finding-a-common-language-around-risk.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267371",
+    "date": "2026-02-16",
+    "title": "Neue Kooperation soll souveräne Cloud-Lösungen bringen",
+    "summary": "v.li.n.re.: Rolf Schumann (Co-CEO Schwarz Digits), BSI-Präsidentin Claudia Plattner und Christian Müller (Co-CEO Schwarz Digits) vereinbaren im Rahmen der Münchner Sicherheitskonferenz eine strategische Partnerschaft zwischen BSI und Schwarz Digits.BSI Das Bundesamt für Sicherheit in der Informat...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4132592/neue-kooperation-soll-souverane-cloud-losungen-bringen.html",
+    "tags": [
+      "malware",
+      "cloud"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267372",
+    "date": "2026-02-16",
+    "title": "CISO Julie Chatman wants to help you take control of your security leadership role",
+    "summary": "Julie Chatman never planned to get into cybersecurity. In fact, she believes most don’t but are mentored into it, as she was. Chatman started her professional career as a Navy Hospital Corpsman, specializing in medical laboratory science and technology — a core part of medical diagnostics. “I ana...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131130/ciso-julie-chatman-wants-to-help-you-take-control-of-your-security-leadership-role.html",
+    "tags": [
+      "malware",
+      "healthcare"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267373",
+    "date": "2026-02-16",
+    "title": "10 years later, Bangladesh Bank cyberheist still offers cyber-resiliency lessons",
+    "summary": "Ten years on, the Bangladesh Bank cyberheist — a landmark cybersecurity incident that rewrote the rules of nation state–sponsored hacking — continues to offer lessons for the cybersecurity community. Cyberspies hacked into Bangladesh Bank internal network and SWIFT (Society for Worldwide Interban...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/4131864/10-years-later-bangladesh-bank-cyberheist-still-offers-cyber-resiliency-lessons.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267374",
+    "date": "2026-02-16",
+    "title": "Google Warns of In the Wild Exploit as It Patches New Chrome Zero Day",
+    "summary": "A high severity vulnerability in Google Chrome and allows remote attackers to execute code",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/google-patches-new-in-wild-chrome/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267375",
+    "date": "2026-02-16",
+    "title": "Crypto Payments to Human Traffickers Surges 85% ",
+    "summary": "Chainalysis warns that online fraud is fuelling sophisticated human trafficking operations",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/crypto-payments-human-traffickers/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267376",
+    "date": "2026-02-16",
+    "title": "Odido Breach Impacts Millions of Dutch Telco Users",
+    "summary": "Dutch telco Odido has revealed a major data breach impacting over six million customers",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Infosecurity Magazine",
+    "sourceUrl": "https://www.infosecurity-magazine.com/news/odido-breach-millions-dutch-telco/",
+    "tags": [
+      "data-breach"
+    ],
+    "impact": 4
+  },
+  {
+    "id": "20267377",
+    "date": "2026-02-16",
+    "title": "Threat Modelling in the Crypto Ecosystem",
+    "summary": "Anyone who has ever tried to buy crypto using a credit card learns very quickly that crypto is not just about markets and prices. The moment money touches the ecosystem, security becomes the real story. Behind every transaction sits a web of systems, people, incentives, and vulnerabilities. Threa...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "CM-Alliance Cybersecurity Blog",
+    "sourceUrl": "https://www.cm-alliance.com/cybersecurity-blog/threat-modelling-in-the-crypto-ecosystem",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20267378",
+    "date": "2026-02-16",
+    "title": "Google patches first Chrome zero-day exploited in attacks this year",
+    "summary": "Google has released emergency updates to fix a high-severity Chrome vulnerability exploited in zero-day attacks, marking the first such security flaw patched since the start of the year. [...]",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/",
+    "tags": [
+      "vulnerability",
+      "google"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267379",
+    "date": "2026-02-16",
+    "title": "Cyber without borders: How Estonia turned crisis into cyber power. [Special Edition]",
+    "summary": "In this three-part series, Maria Varmazis, host of T-Minus Space Daily and CyberWire Producer Liz Stokes, take you inside NATO’s flagship cyber defense exercise, Cyber Coalition 2025. Hosted by the NATO Cooperative Cyber Defence Centre of Excellence in Tallinn, Estonia, the exercise brings togeth...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CyberWire Daily Podcast",
+    "sourceUrl": "https://thecyberwire.com/podcasts/special-edition/90/notes",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267338",
     "date": "2026-02-16",
     "title": "ISC Stormcast For Monday, February 16th, 2026 https://isc.sans.edu/podcastdetail/9810, (Mon, Feb 16th)",
@@ -259,6 +703,18 @@
       "malware",
       "Data/IT"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20267366",
+    "date": "2026-02-15",
+    "title": "It’s 2026. Why are the basics still being missed?",
+    "summary": "Written by Katie Barnett, Director of Cyber Security, and Gavin Wilson, Director of Physical Security and Risk, at Toro SolutionsAfter spending years working with organisations on security, one thing becomes hard to ignore. When something serious happens, the root causes are sadly rarely surprisi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "IT Security Expert",
+    "sourceUrl": "https://blog.itsecurityexpert.co.uk/2026/02/its-2026-why-are-basics-still-being.html",
+    "tags": [],
     "impact": 3
   },
   {
@@ -1814,6 +2270,23 @@
     "sourceUrl": "https://www.flyingpenguin.com/blonde-greek-gods-for-kids-playmobils-nazi-aesthetic-explained/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267367",
+    "date": "2026-02-13",
+    "title": "Why Your MSP Could Disqualify Your CMMC Assessment",
+    "summary": "Now that CMMC is a mandatory part of participating in the defense supply chain, a lot of businesses are starting to grapple with the requirements and what they mean for operations. One of the biggest roadblocks is the use of an MSP, or Managed Services Provider. MSPs are the backbone of many busi...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Ignyte Assurance Platform Blog",
+    "sourceUrl": "https://www.ignyteplatform.com/blog/cmmc/msp-disqualify-cmmc-assessment/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "ai-ml",
+      "apple"
     ],
     "impact": 3
   },
