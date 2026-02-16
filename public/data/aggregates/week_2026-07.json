@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-02-09",
+  "week_end": "2026-02-15",
+  "week_number": 7,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1106,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "1.8",
+    "phishing_pct": "-1.9",
+    "token_abuse_pct": "-0.7",
+    "ransomware_pct": "-0.1"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.8",
+    "phishing_pct": "4.0",
+    "token_abuse_pct": "2.0",
+    "ransomware_pct": "4.5"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7531645569620253,
+      "item_count": 700
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6396021699819168,
+      "item_count": 386
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6041591320072333,
+      "item_count": 288
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5730560578661844,
+      "item_count": 202
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5528028933092224,
+      "item_count": 146
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5361663652802894,
+      "item_count": 100
+    },
+    {
+      "theme": "microsoft",
+      "confidence": 0.5321880650994575,
+      "item_count": 89
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5318264014466546,
+      "item_count": 88
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5318264014466546,
+      "item_count": 88
+    },
+    {
+      "theme": "google",
+      "confidence": 0.5188065099457505,
+      "item_count": 52
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 43,
+      "percentage": "3.9"
+    },
+    {
+      "sector": "technology",
+      "count": 23,
+      "percentage": "2.1"
+    },
+    {
+      "sector": "healthcare",
+      "count": 12,
+      "percentage": "1.1"
+    },
+    {
+      "sector": "energy",
+      "count": 10,
+      "percentage": "0.9"
+    },
+    {
+      "sector": "finance",
+      "count": 7,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "education",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "retail",
+      "count": 2,
+      "percentage": "0.2"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 1,
+      "percentage": "0.1"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access denied",
+      "size": 10,
+      "confidence": 0.6031645569620253
+    },
+    {
+      "title": "Amazon Connect launches in-app notifications to surface critical operational alerts to business users",
+      "size": 4,
+      "confidence": 0.6012658227848101
+    },
+    {
+      "title": "Proofpoint acquires Acuvity to secure AI and agent-driven workflows",
+      "size": 4,
+      "confidence": 0.6012658227848101
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional AWS regions",
+      "size": 4,
+      "confidence": 0.6012658227848101
+    },
+    {
+      "title": "Microsoft’s February Patch Tuesday Fixes 6 Zero-Days Under Attack",
+      "size": 4,
+      "confidence": 0.6012658227848101
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "59% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 386
+      },
+      {
+        "source": "Cyber",
+        "count": 202
+      },
+      {
+        "source": "Help Net Security",
+        "count": 66
+      }
+    ],
+    "total_sources": 61
+  }
+}

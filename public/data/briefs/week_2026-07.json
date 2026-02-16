@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-16T00:31:06.494Z",
+  "week_start": "2026-02-09",
+  "week_end": "2026-02-15",
+  "week_year": 2026,
+  "week_number": 7,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1865,
+    "completion_tokens": 767,
+    "total_tokens": 2632,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00073995,
+  "duration_seconds": 14.78,
+  "aggregate_sha256": "71170aca99f939b4878e5c74ef89d8c7c2dffde1e196079ce84a7697dc804051",
+  "brief": {
+    "week_start": "2026-02-09",
+    "week_end": "2026-02-15",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cyber Threat Landscape",
+        "summary": "Malware-related incidents accounted for 63% of total intelligence items this week, indicating a persistent threat that requires immediate attention.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Microsoft Patch Tuesday Addresses Critical Vulnerabilities",
+        "summary": "February's Patch Tuesday fixed 6 zero-day vulnerabilities, highlighting the need for timely updates to mitigate risks associated with Microsoft products.",
+        "cluster_reference": "Microsoft’s February Patch Tuesday Fixes 6 Zero-Days Under Attack",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Amazon Connect Enhancements Improve Operational Security",
+        "summary": "New in-app notifications from Amazon Connect aim to enhance user awareness of critical operational alerts, potentially reducing response times to incidents.",
+        "cluster_reference": "Amazon Connect launches in-app notifications to surface critical operational alerts to business users",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Proofpoint's Acquisition Enhances AI Security Capabilities",
+        "summary": "The acquisition of Acuvity by Proofpoint is set to bolster security for AI-driven workflows, a growing area of concern for organizations.",
+        "cluster_reference": "Proofpoint acquires Acuvity to secure AI and agent-driven workflows",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Emerging Threats in Data Breaches and Vulnerabilities",
+        "summary": "Data breaches and vulnerabilities remain critical concerns, with significant confidence levels indicating ongoing risks to sensitive information.",
+        "cluster_reference": "data breach",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in Exploit-led Attacks by 1.8%",
+        "change_indicator": "Exploit-led attacks increased from 10% to 11.8% of total incidents.",
+        "significance": "This rise indicates a shift towards more sophisticated attack methods that could target system vulnerabilities."
+      },
+      {
+        "pattern": "Decrease in Phishing Attacks by 1.9%",
+        "change_indicator": "Phishing incidents decreased, now representing 4% of total attacks.",
+        "significance": "While a decrease is positive, continued vigilance is necessary as phishing remains a prevalent threat."
+      },
+      {
+        "pattern": "Stable Ransomware Threats",
+        "change_indicator": "Ransomware incidents saw a minimal decrease of 0.1%.",
+        "significance": "Despite the slight decrease, ransomware remains a significant threat that organizations must prepare for."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased Exploit-led Attacks Targeting Vulnerabilities",
+        "affected_sectors": [
+          "government",
+          "technology",
+          "healthcare"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Potential Data Breaches from Vulnerability Exploitation",
+        "affected_sectors": [
+          "finance",
+          "education",
+          "healthcare"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Ransomware Threats Persist Despite Minor Decrease",
+        "affected_sectors": [
+          "energy",
+          "technology",
+          "government"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Exploit-led attack percentage",
+        "threshold": "Above 12%",
+        "action": "Review security protocols and enhance vulnerability management."
+      },
+      {
+        "metric": "Phishing attack percentage",
+        "threshold": "Below 3%",
+        "action": "Monitor for resurgence and reinforce employee training."
+      },
+      {
+        "metric": "Ransomware incident reports",
+        "threshold": "More than 5 incidents reported in a week",
+        "action": "Initiate incident response protocols and assess current defenses."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Access Denied Cluster",
+        "reason": "High confidence level indicates potential unauthorized access attempts that need investigation.",
+        "cluster_ref": "Access denied"
+      },
+      {
+        "item": "Microsoft Patch Tuesday Vulnerabilities",
+        "reason": "Critical vulnerabilities require immediate review to ensure all systems are updated and secure.",
+        "cluster_ref": "Microsoft’s February Patch Tuesday Fixes 6 Zero-Days Under Attack"
+      },
+      {
+        "item": "Data Breach Incidents",
+        "reason": "High confidence in data breach themes necessitates a thorough review of recent incidents and response measures.",
+        "cluster_ref": "data breach"
+      }
+    ]
+  }
+}

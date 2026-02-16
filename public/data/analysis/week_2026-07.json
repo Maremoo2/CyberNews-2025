@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-02-16T00:30:51.445Z",
+  "pipeline_run_id": "run_2026-02-16T0030",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-07.json",
+  "aggregate_sha256": "71170aca99f939b4878e5c74ef89d8c7c2dffde1e196079ce84a7697dc804051",
+  "code_commit": "c89abd201ad0a6b3c5ff883c56dc8890e77c939d",
+  "token_usage": {
+    "prompt_tokens": 1870,
+    "completion_tokens": 747,
+    "total_tokens": 2617,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 12.34,
+  "analysis": {
+    "week_start": "2026-02-09",
+    "week_end": "2026-02-15",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks suggests a growing focus on exploiting vulnerabilities.",
+        "why_now": "Exploit-led attacks increased by 1.8% this week, indicating a trend that may continue.",
+        "supporting_signals": [
+          "exploit_led_pct increased by 1.8%",
+          "exploit_led_pct is at 11.8%"
+        ],
+        "counter_signals": [
+          "ransomware_pct decreased by 0.1%",
+          "phishing_pct decreased by 1.9%"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports in the following weeks to see if the trend continues.",
+          "Analyze specific vulnerabilities being targeted in exploit-led attacks."
+        ]
+      },
+      {
+        "claim": "The high concentration of malware-related items indicates a potential surge in malware activity.",
+        "why_now": "Malware is the top theme with 700 items, significantly higher than other themes.",
+        "supporting_signals": [
+          "malware theme has 700 items",
+          "malware theme confidence is 0.753"
+        ],
+        "counter_signals": [
+          "No incident-related items reported",
+          "Ransomware theme has only 100 items"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track malware-related incidents to see if they result in actual attacks.",
+          "Examine the types of malware being reported to identify any new strains."
+        ]
+      },
+      {
+        "claim": "The government sector is currently the most targeted sector, potentially due to its high item count.",
+        "why_now": "The government sector has the highest count of 43 items, indicating potential targeting.",
+        "supporting_signals": [
+          "government sector count is 43",
+          "government sector percentage is 3.9%"
+        ],
+        "counter_signals": [
+          "technology sector has only 23 items",
+          "healthcare sector has only 12 items"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Compare government sector targeting with previous weeks to identify any spikes.",
+          "Investigate the nature of the items related to the government sector."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific types of malware contributing to the high item count.",
+        "why_it_matters": "Understanding the types of malware can help in preparing targeted defenses.",
+        "what_data_would_reduce_uncertainty": "Detailed reports on malware types and their characteristics."
+      },
+      {
+        "unknown": "The reasons behind the decrease in phishing and token abuse percentages.",
+        "why_it_matters": "Identifying causes can help in reinforcing successful defense strategies.",
+        "what_data_would_reduce_uncertainty": "Analysis of anti-phishing and token abuse measures implemented recently."
+      },
+      {
+        "unknown": "The impact of the high source concentration on the reliability of the data.",
+        "why_it_matters": "High source concentration could skew the perception of threat landscapes.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of sources and cross-referencing with other feeds."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "Increase by more than 2%",
+        "why_it_matters": "A significant increase could indicate a shift in attack strategies.",
+        "recommended_action": "Increase monitoring of exploit-led attack vectors."
+      },
+      {
+        "signal": "Malware theme item count",
+        "threshold": "Exceeds 750 items",
+        "why_it_matters": "A rise could indicate an emerging malware threat.",
+        "recommended_action": "Conduct a detailed analysis of new malware strains."
+      },
+      {
+        "signal": "Government sector item count",
+        "threshold": "Exceeds 50 items",
+        "why_it_matters": "A rise could indicate increased targeting of government entities.",
+        "recommended_action": "Enhance security measures for government-related networks."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
