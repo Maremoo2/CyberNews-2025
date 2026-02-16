@@ -1,5 +1,78 @@
 [
   {
+    "id": "20267332",
+    "date": "2026-02-16",
+    "title": "In GitHub’s advisory pipeline, some advisories move faster than others",
+    "summary": "GitHub Security Advisories are used to distribute vulnerability information in open-source projects and security tools. A new study finds that only a portion of those advisories ever pass through GitHub’s formal review process. A large scale view of advisory data A review of GitHub Security Advis...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/github-security-advisorie-review-timelines-study/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267333",
+    "date": "2026-02-16",
+    "title": "Don’t panic over CISA’s KEV list, use it smarter",
+    "summary": "In this Help Net Security video, Tod Beardsley, VP of Security Research at runZero, explains what CISA’s Known Exploited Vulnerabilities (KEV) Catalog is and how security teams should use it. He shares his perspective as a former section chief for KEV at CISA and breaks down common misunderstandi...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/cisa-kev-catalog-video/",
+    "tags": [
+      "vulnerability",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267334",
+    "date": "2026-02-16",
+    "title": "MOS: Open-source modular OS for servers and homelabs",
+    "summary": "A growing number of homelab builders and small server operators are testing an open source operating system that combines basic server management, storage control, and container services under a web interface. MOS is a free modular OS built on a Devuan base that provides a web UI and API for syst...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Help Net Security",
+    "sourceUrl": "https://www.helpnetsecurity.com/2026/02/16/mos-open-source-modular-os-servers-homelabs/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267336",
+    "date": "2026-02-16",
+    "title": "SIEM-Kaufratgeber",
+    "summary": "Die kontextuellen Daten, die SIEM-Lösungen liefern, sind eine grundlegende Komponente moderner Security-Stacks.PeopleImages.com – Yuri A | shutterstock.com Protokoll-Daten zu auditieren, zu überprüfen und zu managen, ist alles andere als eine glamouröse Aufgabe – aber ein entscheidender Aspekt, u...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "CSO Online",
+    "sourceUrl": "https://www.csoonline.com/article/3835828/siem-kaufratgeber.html",
+    "tags": [
+      "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267337",
+    "date": "2026-02-16",
+    "title": "Canada Goose investigating as hackers leak 600K customer records",
+    "summary": "ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer the dataset appears to relate to past customer transactions and that it has not found evidence of...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "BleepingComputer",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
+    "tags": [
+      "data-breach",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267325",
     "date": "2026-02-16",
     "title": "New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS",
@@ -43,6 +116,18 @@
       "malware",
       "Data/IT"
     ],
+    "impact": 3
+  },
+  {
+    "id": "20267335",
+    "date": "2026-02-15",
+    "title": "The Degraded United States is Now “Trumpistan”",
+    "summary": "Not mentioned in this video is that Stanley in 2020 was careful to say Trumpism was fascist while specifying the U.S. didn’t have a genocidal regime. That changed in 2025, as he described America as an authoritarian state worth fleeing, drawing explicit parallels to the Nazis. He fled, which is w...",
+    "region": "US",
+    "country": "United States",
+    "sourceName": "Flying Penguin",
+    "sourceUrl": "https://www.flyingpenguin.com/trumpistan-america-degrades-itself-with-european-fascism/",
+    "tags": [],
     "impact": 3
   },
   {
