@@ -1,5 +1,111 @@
 [
   {
+    "id": "20267325",
+    "date": "2026-02-16",
+    "title": "New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS",
+    "summary": "Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]",
+    "region": "US",
+    "country": "Global",
+    "sourceName": "Cyber",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/",
+    "tags": [
+      "malware",
+      "Cyber"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267326",
+    "date": "2026-02-16",
+    "title": "New phishing campaign weaponises fake video conference invites",
+    "summary": "While RMM software is commonly used by IT and security teams for legitimate remote administration, it can also be abused by attackers to gain ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://australiancybersecuritymagazine.com.au/new-phishing-campaign-weaponises-fake-video-conference-invites/",
+    "tags": [
+      "phishing",
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267327",
+    "date": "2026-02-16",
+    "title": "Entech Expands Florida Cybersecurity, IT & AI Footprint with Acquisition of C2 Computer Services",
+    "summary": "The acquisition further accelerates Entech's growth strategy to become the premier technology and security partner for businesses statewide, while ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.capecodtimes.com/press-release/story/77311/entech-expands-florida-cybersecurity-it-ai-footprint-with-acquisition-of-c2-computer-services/",
+    "tags": [
+      "malware",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267328",
+    "date": "2026-02-15",
+    "title": "Global Compliance Certification Launches Essential Eight Certification Service in Australia ...",
+    "summary": "... Cyber Security Centre's (ACSC) Essential Eight cybersecurity framework. The Essential Eight is a widely recognised cybersecurity baseline ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.beaconjournal.com/press-release/story/146699/global-compliance-certification-launches-essential-eight-certification-service-in-australia-to-bolster-cyber-resilience/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267329",
+    "date": "2026-02-15",
+    "title": "Cybersecurity Stocks To Keep An Eye On - February 15th - MarketBeat",
+    "summary": "Palo Alto Networks, Inc. provides cybersecurity solutions worldwide. The company offers firewall appliances and software; and Panorama, a security ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.marketbeat.com/instant-alerts/cybersecurity-stocks-to-keep-an-eye-on-february-15th-2026-02-15/",
+    "tags": [
+      "palo alto",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267330",
+    "date": "2026-02-15",
+    "title": "Hana Omori selected as Top CEO of the Year in Cyber Security Research by IAOTP - Florida Today",
+    "summary": "... Network were not involved in the creation of this content. Hana Omori selected as Top CEO of the Year in Cyber Security Research by IAOTP.",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://www.floridatoday.com/press-release/story/67028/hana-omori-selected-as-top-ceo-of-the-year-in-cyber-security-research-by-iaotp/",
+    "tags": [
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20267331",
+    "date": "2026-02-15",
+    "title": "AI-fuelled supply chain cyber attacks surge in Asia-Pacific - SecurityBrief Australia",
+    "summary": "\"They're links in a supply chain attack ecosystem, where one compromise can reach thousands of downstream victims. Phishing, ransomware, data breaches ...",
+    "region": "EU",
+    "country": "Europe",
+    "sourceName": "Data/IT",
+    "sourceUrl": "https://securitybrief.com.au/story/ai-fuelled-supply-chain-cyber-attacks-surge-in-asia-pacific",
+    "tags": [
+      "ransomware",
+      "data-breach",
+      "phishing",
+      "Data/IT"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20267324",
     "date": "2026-02-15",
     "title": "Windows 11 KB5077181 fixes boot failures linked to failed updates",
