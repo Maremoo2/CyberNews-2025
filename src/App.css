@@ -1264,3 +1264,66 @@ select:focus-visible {
     padding: 0.3rem 0.6rem;
   }
 }
+
+/* View Container Styles */
+.view-container {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.view-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.view-description {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive view styles */
+@media (max-width: 768px) {
+  .view-container {
+    margin: 1rem auto;
+  }
+
+  .view-header {
+    margin-bottom: 2rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .view-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .view-description {
+    font-size: 1rem;
+  }
+}
