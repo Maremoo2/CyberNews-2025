@@ -307,7 +307,7 @@ function App() {
       )
     }
 
-    // Search filter
+    // Search filter - searches across title, summary, organization, and tags
     if (debouncedSearch.trim()) {
       const query = debouncedSearch.toLowerCase()
       filtered = filtered.filter(incident => {
