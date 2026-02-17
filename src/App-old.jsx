@@ -1,0 +1,1008 @@
+import { useState, useEffect, useMemo, useCallback } from 'react'
+import './App.css'
+import incidents2025 from '../data/incidents-2025-enriched.json'
+import incidents2026 from '../data/incidents-2026-enriched.json'
+import metadata from '../data/metadata.json'
+import InteractiveTagCloud from './components/InteractiveTagCloud'
+import YearWheel from './components/YearWheel'
+import YearStats from './components/YearStats'
+import TrendDashboard from './components/TrendDashboard'
+import ExecutiveSummary from './components/ExecutiveSummary'
+import SectorAnalysis from './components/SectorAnalysis'
+import ThreatIntelligence from './components/ThreatIntelligence'
+import ThreatActorProfile from './components/ThreatActorProfile'
+import DefenseAnalysis from './components/DefenseAnalysis'
+import RegulationImpact from './components/RegulationImpact'
+import ForecastsAndPredictions from './components/ForecastsAndPredictions'
+import StrategicRiskThemes from './components/StrategicRiskThemes'
+import MethodologyAndLimitations from './components/MethodologyAndLimitations'
+import AttackChainAnalysis from './components/AttackChainAnalysis'
+import SectorBenchmarking from './components/SectorBenchmarking'
+import TrendAcceleration from './components/TrendAcceleration'
+import CISOMode from './components/CISOMode'
+import DetectionGapAnalysis from './components/DetectionGapAnalysis'
+import StickyNav from './components/StickyNav'
+import ThreatLandscapeSnapshot from './components/ThreatLandscapeSnapshot'
+import IncidentsSection from './components/IncidentsSection'
+import BackToTop from './components/BackToTop'
+import DataHealthDashboard from './components/DataHealthDashboard'
+import DeduplicationStats from './components/DeduplicationStats'
+import GlossaryPanel from './components/GlossaryPanel'
+import GlossaryAnalytics from './components/GlossaryAnalytics'
+import GlobalFilterBar from './components/GlobalFilterBar'
+import BiasIndicator from './components/BiasIndicator'
+import TrendContinuity from './components/TrendContinuity'
+import ValidationDashboard from './components/ValidationDashboard'
+import QuarterlyReview from './components/QuarterlyReview'
+import WeeklyHighlights from './components/WeeklyHighlights'
+import WeeklyAnalysis from './components/WeeklyAnalysis'
+import AIInsights from './components/AIInsights'
+import DataModelTooltip from './components/DataModelTooltip'
+import HeroSection from './components/HeroSection'
+import ReadingProgress from './components/ReadingProgress'
+import DocumentsGuide from './components/DocumentsGuide'
+import { enhanceIncidents } from './utils/deduplicationUtils'
+import learningLog from '../data/learning-log.json'
+
+// Month helpers
+const MONTHS_EN = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+// Impact badge configuration
+const IMPACT_STYLES = {
+  5: { label: 'Critical', className: 'impact-critical', emoji: '🔴' },
+  4: { label: 'High', className: 'impact-high', emoji: '🟠' },
+  3: { label: 'Moderate', className: 'impact-moderate', emoji: '⚪' }
+};
+
+function getMonthIndex(dateStr) {
+  // dateStr: "YYYY-MM-DD"
+  // Validate format and extract month directly from string
+  if (!dateStr || !/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+    return null;
+  }
+  const month = parseInt(dateStr.substring(5, 7), 10) - 1; // Convert to 0-11
+  return (month >= 0 && month <= 11) ? month : null;
+}
+
+// Monthly summaries - concise overview per month
+const MONTH_SUMMARIES = {
+  0: "The year started with major cryptocurrency attacks and increasing ransomware activity.",
+  1: "Record-breaking crypto breaches and escalating state-sponsored cyberattacks.",
+  2: "Cloud services and supply chains hit by extensive data breaches.",
+  3: "Phishing and extortion dominated, with major targeted attacks against the sports industry.",
+  4: "Ransomware hit major retail chains with billion-dollar losses.",
+  5: "Historic leak of 16 billion login credentials.",
+  6: "Zero-day attacks and state-sponsored campaigns against critical infrastructure.",
+  7: "Supply chains and cloud platforms compromised by sophisticated actors.",
+  8: "Ransomware crippled European airports and global transport.",
+  9: "Security vendors themselves fell victim to extensive data breaches.",
+  10: "Oracle vulnerabilities exploited against universities and large companies worldwide.",
+  11: "Massive data breaches hit millions of consumers in Asia and globally.",
+};
+
+// Helper to parse initial state from URL
+function getInitialStateFromURL() {
+  const params = new URLSearchParams(window.location.search)
+  const state = {
+    month: 'ALL',
+    region: 'ALL',
+    tags: [],
+    major: false
+  }
+  
+  // Month parameter (m=jan, m=0-11, or month=january)
+  const monthParam = params.get('m') || params.get('month')
+  if (monthParam) {
+    const monthMap = {
+      'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3, 'mai': 4, 'jun': 5,
+      'jul': 6, 'aug': 7, 'sep': 8, 'okt': 9, 'nov': 10, 'des': 11
+    }
+    const monthIndex = monthMap[monthParam.toLowerCase()] ?? parseInt(monthParam, 10)
+    if (monthIndex >= 0 && monthIndex <= 11) {
+      state.month = monthIndex
+    }
+  }
+  
+  // Region parameter (r=no, region=NO)
+  const regionParam = params.get('r') || params.get('region')
+  if (regionParam) {
+    const region = regionParam.toUpperCase()
+    if (['US', 'EU', 'ASIA', 'NO'].includes(region)) {
+      state.region = region
+    }
+  }
+  
+  // Tag parameter (t=ransomware or tag=ransomware)
+  const tagParam = params.get('t') || params.get('tag')
+  if (tagParam) {
+    state.tags = [tagParam]
+  }
+  
+  // Major filter parameter (major=true)
+  const majorParam = params.get('major')
+  if (majorParam === 'true' || majorParam === '1') {
+    state.major = true
+  }
+  
+  return state
+}
+
+function App() {
+  const initialState = getInitialStateFromURL()
+  
+  // Get year from URL or default to 2026
+  const urlParams = new URLSearchParams(window.location.search);
+  const yearFromUrl = parseInt(urlParams.get('year') || '2026', 10);
+  const [selectedYear, setSelectedYear] = useState([2025, 2026].includes(yearFromUrl) ? yearFromUrl : 2026);
+  
+  const [selectedRegion, setSelectedRegion] = useState(initialState.region)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [debouncedSearch, setDebouncedSearch] = useState('')
+  const [selectedTags, setSelectedTags] = useState(initialState.tags)
+  const [selectedMonth, setSelectedMonth] = useState(initialState.month)
+  const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
+  const [showCuratedOnly, setShowCuratedOnly] = useState(false)
+  const [cisoMode, setCisoMode] = useState({
+    enabled: false,
+    incidentOnly: true,  // NEW: Default to incidents-only
+    criticalOnly: false,
+    curatedOnly: false,
+    highConfidenceOnly: false
+  })
+  
+  // Global filter state
+  const [globalFilters, setGlobalFilters] = useState({
+    contentType: 'all',
+    severity: 'all',
+    actorType: 'all',
+    sector: 'all',
+    region: 'all',
+    dateRange: { start: '', end: '' }
+  })
+  
+  // Memoize current year to avoid recalculating on every render
+  const currentYear = useMemo(() => new Date().getFullYear(), []);
+
+  // Get incidents data based on selected year using object lookup for maintainability
+  const yearDataMap = {
+    2025: incidents2025,
+    2026: incidents2026
+  }
+  const incidentsData = yearDataMap[selectedYear] || incidents2025
+
+  // Get last updated date from metadata
+  const lastUpdated = useMemo(() => {
+    if (metadata && metadata.lastUpdated) {
+      const date = new Date(metadata.lastUpdated);
+      return { 
+        formatted: date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+        iso: date.toISOString().split('T')[0],
+        utc: date.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
+      };
+    }
+    // Fallback to current date if metadata is not available
+    const now = new Date();
+    return { 
+      formatted: now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }), 
+      iso: now.toISOString().split('T')[0],
+      utc: now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC'
+    };
+  }, []);
+
+  // Calculate the latest data point (newest article date)
+  const latestDataPoint = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) return null;
+    const latestDate = incidentsData.reduce((latest, incident) => {
+      if (!incident.date) return latest;
+      return incident.date > latest ? incident.date : latest;
+    }, '1970-01-01');
+    return latestDate !== '1970-01-01' ? latestDate : null;
+  }, [incidentsData]);
+
+  // Calculate estimated unique incidents vs total articles using deduplication
+  const deduplicationStats = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return { estimatedUniqueIncidents: 0, totalArticles: 0 };
+    }
+    const result = enhanceIncidents(incidentsData);
+    return result.stats;
+  }, [incidentsData]);
+  
+  const uniqueIncidentCount = deduplicationStats.estimatedUniqueIncidents;
+  const totalSourceCount = deduplicationStats.totalArticles;
+
+  // Check if data is enriched and get enrichment timestamp
+  const enrichmentInfo = useMemo(() => {
+    if (!incidentsData || incidentsData.length === 0) {
+      return { isEnriched: false, timestamp: null };
+    }
+    
+    // Check if any incident has enrichment fields
+    const hasEnrichment = incidentsData.some(i => 
+      (i.severity && i.severity !== 'unknown') ||
+      (i.themes && Array.isArray(i.themes) && i.themes.length > 0) ||
+      (i.mitre_techniques && Array.isArray(i.mitre_techniques) && i.mitre_techniques.length > 0)
+    );
+    
+    // Use build time or current date as enrichment timestamp
+    const buildTimestamp = import.meta.env.VITE_BUILD_TIME || new Date().toISOString().split('T')[0];
+    
+    return {
+      isEnriched: hasEnrichment,
+      timestamp: hasEnrichment ? buildTimestamp : null
+    };
+  }, [incidentsData]);
+
+  // Update page title when year changes
+  useEffect(() => {
+    document.title = `Security News Year in Review ${selectedYear}`;
+  }, [selectedYear]);
+
+  // Update URL when year changes
+  useEffect(() => {
+    const url = new URL(window.location);
+    if (selectedYear !== 2026) {
+      url.searchParams.set('year', selectedYear);
+    } else {
+      url.searchParams.delete('year');
+    }
+    window.history.replaceState({}, '', url);
+  }, [selectedYear]);
+
+  // Debounce search input
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearch(searchQuery)
+    }, 300)
+    
+    return () => {
+      clearTimeout(handler)
+    }
+  }, [searchQuery])
+
+  // Update URL when filters change
+  useEffect(() => {
+    const params = new URLSearchParams()
+    
+    if (selectedMonth !== 'ALL') {
+      const monthNames = ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des']
+      params.set('m', monthNames[selectedMonth])
+    }
+    
+    if (selectedRegion !== 'ALL') {
+      params.set('r', selectedRegion.toLowerCase())
+    }
+    
+    // Only support single tag in URL for simplicity of shareable links
+    if (selectedTags.length === 1) {
+      params.set('t', selectedTags[0])
+    }
+    
+    if (showMajorOnly) {
+      params.set('major', 'true')
+    }
+    
+    const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname
+    window.history.replaceState({}, '', newUrl)
+  }, [selectedMonth, selectedRegion, selectedTags, showMajorOnly])
+
+  // Get region counts (filtered by month if selected)
+  // eslint-disable-next-line no-unused-vars
+  const regionCounts = useMemo(() => {
+    let dataToCount = incidentsData
+    
+    // Filter by month first if selected
+    if (selectedMonth !== 'ALL') {
+      dataToCount = incidentsData.filter(incident => {
+        const m = getMonthIndex(incident.date)
+        return m === selectedMonth
+      })
+    }
+    
+    const counts = {
+      US: 0,
+      EU: 0,
+      ASIA: 0,
+      NO: 0,
+      ALL: dataToCount.length
+    }
+    dataToCount.forEach(incident => {
+      if (incident.region in counts) {
+        counts[incident.region]++
+      }
+    })
+    return counts
+  }, [incidentsData, selectedMonth])
+
+  // Filter and sort incidents
+  const filteredIncidents = useMemo(() => {
+    let filtered = incidentsData
+
+    // Global Filters (applied first)
+    // Content Type Filter
+    if (globalFilters.contentType !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.content_type === globalFilters.contentType
+      );
+    }
+
+    // Severity Filter
+    if (globalFilters.severity !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.severity === globalFilters.severity
+      );
+    }
+
+    // Actor Type Filter
+    if (globalFilters.actorType !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.actor_category === globalFilters.actorType
+      );
+    }
+
+    // Sector Filter
+    if (globalFilters.sector !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.sector === globalFilters.sector
+      );
+    }
+
+    // Region Filter from global filters
+    if (globalFilters.region !== 'all') {
+      filtered = filtered.filter(incident => 
+        incident.region === globalFilters.region
+      );
+    }
+
+    // Date Range Filter
+    if (globalFilters.dateRange.start || globalFilters.dateRange.end) {
+      filtered = filtered.filter(incident => {
+        const incidentDate = new Date(incident.date);
+        const startDate = globalFilters.dateRange.start ? new Date(globalFilters.dateRange.start) : null;
+        const endDate = globalFilters.dateRange.end ? new Date(globalFilters.dateRange.end) : null;
+        
+        if (startDate && incidentDate < startDate) return false;
+        if (endDate && incidentDate > endDate) return false;
+        return true;
+      });
+    }
+
+    // CISO Mode Filters (applied after global filters for executive view)
+    if (cisoMode.enabled) {
+      // NEW: Incident-only filter (exclude explainers, opinions, products)
+      if (cisoMode.incidentOnly) {
+        filtered = filtered.filter(incident => 
+          incident.content_type === 'incident' || incident.content_type === 'campaign'
+        );
+      }
+      if (cisoMode.criticalOnly) {
+        filtered = filtered.filter(incident => incident.severity === 'critical')
+      }
+      if (cisoMode.curatedOnly) {
+        filtered = filtered.filter(incident => incident.is_curated)
+      }
+      if (cisoMode.highConfidenceOnly) {
+        filtered = filtered.filter(incident => incident.confidence >= 70)
+      }
+      // NEW: Confirmed only filter (exclude opinion, promos, single-source speculation)
+      if (cisoMode.confirmedOnly) {
+        filtered = filtered.filter(incident => {
+          const text = `${incident.title} ${incident.summary}`.toLowerCase();
+          
+          // 1. Explicitly exclude promos (VPN deals, coupon language, product ads)
+          const promoKeywords = ['vpn deal', 'best vpn', 'discount', 'coupon', 'promo code', '% off', 'buy now', 'special offer'];
+          if (promoKeywords.some(kw => text.includes(kw))) {
+            return false;
+          }
+          
+          // 2. Exclude obvious opinion/editorial, but only if confidence is low
+          if (incident.content_type === 'opinion' || incident.content_type === 'editorial' || incident.content_type === 'commentary') {
+            if (!incident.confidence || incident.confidence < 60) {
+              return false;
+            }
+          }
+          
+          // 3. Exclude product announcements unless they're incident-related
+          if (incident.content_type === 'product' && incident.content_type !== 'incident') {
+            return false;
+          }
+          
+          // 4. Check for speculation keywords - only disqualify if multiple conditions met
+          const speculationKeywords = ['rumor', 'alleged', 'reportedly', 'claims', 'speculation', 'unconfirmed'];
+          const hasSpeculation = speculationKeywords.some(kw => text.includes(kw));
+          
+          if (hasSpeculation) {
+            // Only exclude if: low source credibility AND single-source AND no corroboration
+            const lowCredibility = !incident.is_curated && (!incident.confidence || incident.confidence < 60);
+            const singleSource = !incident._cluster || incident._cluster.articleCount <= 1;
+            
+            if (lowCredibility && singleSource) {
+              return false;
+            }
+          }
+          
+          // 5. Require 2-source rule OR curated OR high-confidence (source-weighted)
+          // High confidence: curated content or confidence >= 70 from reputable source
+          const isHighConfidence = incident.is_curated || incident.confidence >= 70;
+          const hasMultipleSources = incident._cluster && incident._cluster.articleCount >= 2;
+          const hasConfirmation = ['confirmed', 'official', 'announced', 'disclosed', 'admitted'].some(kw => text.includes(kw));
+          
+          return isHighConfidence || hasMultipleSources || hasConfirmation;
+        });
+        // TODO: Add retention percentage tracking in future (GitHub issue needed)
+      }
+    }
+
+    // Filter by month
+    if (selectedMonth !== 'ALL') {
+      filtered = filtered.filter(incident => {
+        const m = getMonthIndex(incident.date)
+        return m === selectedMonth
+      })
+    }
+
+    // Filter by region
+    if (selectedRegion !== 'ALL') {
+      filtered = filtered.filter(incident => incident.region === selectedRegion)
+    }
+
+    // Filter by major incidents only
+    if (showMajorOnly) {
+      filtered = filtered.filter(incident => incident.impact >= 4)
+    }
+
+    // Filter by curated only
+    if (showCuratedOnly) {
+      filtered = filtered.filter(incident => incident.is_curated)
+    }
+
+    // Filter by search query (using debounced value)
+    if (debouncedSearch.trim()) {
+      const query = debouncedSearch.toLowerCase()
+      filtered = filtered.filter(incident => {
+        const matchesTitle = incident.title.toLowerCase().includes(query)
+        const matchesSummary = incident.summary.toLowerCase().includes(query)
+        const matchesTags = incident.tags?.some(tag => tag.toLowerCase().includes(query))
+        return matchesTitle || matchesSummary || matchesTags
+      })
+    }
+
+    // Filter by selected tags
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter(incident => {
+        return incident.tags?.some(tag => selectedTags.includes(tag))
+      })
+    }
+
+    // Sort by date descending (newest first)
+    return filtered.sort((a, b) => new Date(b.date) - new Date(a.date))
+  }, [incidentsData, globalFilters, selectedMonth, selectedRegion, debouncedSearch, selectedTags, showMajorOnly, showCuratedOnly, cisoMode])
+
+  const handleTagClick = (tag) => {
+    if (selectedTags.includes(tag)) {
+      setSelectedTags(selectedTags.filter(t => t !== tag))
+    } else {
+      setSelectedTags([...selectedTags, tag])
+    }
+  }
+
+  // eslint-disable-next-line no-unused-vars
+  const resetAllFilters = useCallback(() => {
+    setSelectedMonth('ALL')
+    setSelectedRegion('ALL')
+    setSearchQuery('')
+    setDebouncedSearch('')
+    setSelectedTags([])
+    setShowMajorOnly(false)
+    setShowCuratedOnly(false)
+  }, [])
+
+  const formatDate = (dateString) => {
+    const date = new Date(dateString)
+    return date.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    })
+  }
+
+  // Get impact badge styling
+  const getImpactBadge = (impact) => {
+    if (!impact || impact < 3) return null
+    return IMPACT_STYLES[impact] || null
+  }
+
+  // Generate empty state message based on active filters
+  // eslint-disable-next-line no-unused-vars
+  const getEmptyStateMessage = () => {
+    if (debouncedSearch.trim()) {
+      return {
+        title: `No results for "${debouncedSearch}"`,
+        suggestions: ['Try another search term', 'Remove search to see all incidents', 'Search for "ransomware", "breach" or "apt"']
+      }
+    }
+    
+    const filters = []
+    if (selectedMonth !== 'ALL') filters.push(MONTHS_EN[selectedMonth])
+    if (selectedRegion !== 'ALL') {
+      const regionNames = { US: 'USA', EU: 'Europe', ASIA: 'Asia', NO: 'Norway' }
+      filters.push(regionNames[selectedRegion])
+    }
+    if (selectedTags.length > 0) filters.push(`tag: ${selectedTags.join(', ')}`)
+    if (showMajorOnly) filters.push('major incidents only')
+    if (showCuratedOnly) filters.push('curated only')
+    
+    if (filters.length > 0) {
+      return {
+        title: `No results for ${filters.join(' + ')}`,
+        suggestions: ['Try selecting another month', 'Select another region', 'Remove some filters']
+      }
+    }
+    
+    return {
+      title: 'No incidents found',
+      suggestions: []
+    }
+  }
+
+  return (
+    <div className="app">
+      {/* Skip to main content link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+      
+      <header className="header">
+        <div className="header-content">
+          <div className="header-text">
+            <h1>
+              {(() => {
+                const today = latestDataPoint || new Date().toISOString().split('T')[0];
+                return selectedYear === currentYear 
+                  ? `Security News — ${selectedYear} YTD (as of ${today})`
+                  : `Security News Year in Review ${selectedYear}`;
+              })()}
+            </h1>
+            <p className="subtitle">
+              {selectedYear === currentYear
+                ? "Year-to-date coverage of cybersecurity news and incidents"
+                : "Overview of cybersecurity incidents"}
+            </p>
+            <div style={{ marginTop: '0.75rem', marginBottom: '0.75rem' }}>
+              <DataModelTooltip />
+            </div>
+            <div className="data-timestamp-section">
+              <p className="data-through" title="Latest article published date in dataset">
+                📅 <strong>Data through:</strong> {latestDataPoint || 'N/A'} <em>(latest article published)</em>
+              </p>
+              <p className="last-updated" title={`System last refreshed: ${lastUpdated.utc}`}>
+                🔄 Last updated: {lastUpdated.utc} <em>(last pipeline run)</em>
+              </p>
+              {enrichmentInfo.isEnriched && enrichmentInfo.timestamp && (
+                <p className="enrichment-timestamp" title="Analytics generation date">
+                  📊 Analytics generated: {enrichmentInfo.timestamp}
+                </p>
+              )}
+            </div>
+            <p className="data-counts">
+              {uniqueIncidentCount === totalSourceCount ? (
+                <span className="count-item">
+                  <strong>{totalSourceCount}</strong> items
+                </span>
+              ) : (
+                <>
+                  <span className="count-item primary-metric" title={`Computed by: fingerprint(org + attack type + date ±3 days)\nLast pipeline run: ${lastUpdated.utc}\nCluster count may change as new sources arrive`}>
+                    <span className="metric-icon">🎯</span>
+                    <strong>{uniqueIncidentCount}</strong> estimated unique incidents (global clusters)
+                  </span>
+                  <span className="count-separator"> • </span>
+                  <span className="count-item secondary-metric" title="Total incident-related articles/items">
+                    <span className="metric-icon">📰</span>
+                    <strong>{totalSourceCount}</strong> items/articles
+                  </span>
+                </>
+              )}
+            </p>
+            <p className="data-clarification">
+              <small>
+                <em>Note: "Unique incidents" = estimated clusters of related articles. "Items" = individual news articles. See Data Model tooltip for details.</em>
+              </small>
+            </p>
+          </div>
+          <div className="year-selector">
+            <button 
+              className={selectedYear === 2025 ? 'year-btn active' : 'year-btn'}
+              onClick={() => setSelectedYear(2025)}
+              aria-label="Show 2025 incidents"
+              aria-pressed={selectedYear === 2025}
+            >
+              2025
+            </button>
+            <button 
+              className={selectedYear === 2026 ? 'year-btn active' : 'year-btn'}
+              onClick={() => setSelectedYear(2026)}
+              aria-label="Show 2026 incidents"
+              aria-pressed={selectedYear === 2026}
+            >
+              2026
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Sticky Navigation */}
+      <StickyNav 
+        selectedYear={selectedYear}
+        onYearChange={setSelectedYear}
+        cisoMode={cisoMode}
+        onCisoModeChange={setCisoMode}
+        uniqueIncidents={uniqueIncidentCount}
+        totalArticles={totalSourceCount}
+      />
+
+      {/* Global Filter Bar */}
+      <GlobalFilterBar 
+        onFilterChange={setGlobalFilters}
+        initialFilters={globalFilters}
+      />
+
+      {/* Enhanced Hero Section */}
+      <div id="home">
+      {selectedYear === currentYear && (
+        <HeroSection onNavigate={(section) => {
+          const sectionMap = {
+            'Daily Digest': 'daily-digest',
+            'Weekly Brief': 'weekly-brief',
+            'Full Analysis': 'summary'
+          };
+          const targetId = sectionMap[section];
+          if (targetId) {
+            const element = document.getElementById(targetId);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        }} />
+      )}
+      </div>
+
+      {/* Reading Progress Tracker - Zeigarnik Effect */}
+      {selectedYear === currentYear && filteredIncidents.length > 0 && (
+        <ReadingProgress 
+          incidents={filteredIncidents} 
+          currentFilters={globalFilters}
+        />
+      )}
+
+      {/* Data Methodology Note */}
+      <section className="methodology-note-section" aria-label="Data methodology">
+        <div className="methodology-note">
+          <div className="note-icon">ℹ️</div>
+          <div className="note-content">
+            <strong>About the data:</strong> This report summarizes <strong>news articles and items published in {selectedYear}</strong>.
+            Item counts represent news articles and updates from RSS feeds. Multiple articles may report on the same underlying incident.
+            {selectedYear === currentYear && (
+              <span className="ytd-note"> As we are early in {selectedYear}, trend analysis requiring quarterly data is limited.</span>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Weekly Highlights - Top 3 This Week */}
+      {selectedYear === currentYear && (
+        <WeeklyHighlights incidents={incidentsData} />
+      )}
+
+      {/* AI-Generated Insights - Daily Digest & Weekly Brief */}
+      {selectedYear === currentYear && (
+        <div id="daily-digest">
+          <AIInsights />
+        </div>
+      )}
+
+      {/* AI Weekly Intelligence Analysis */}
+      {selectedYear === currentYear && (
+        <div id="weekly-brief">
+          <WeeklyAnalysis />
+        </div>
+      )}
+
+      {/* Data Health Dashboard (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DataHealthDashboard incidents={incidentsData} />}
+
+      {/* Glossary Analytics - Term Usage Statistics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <GlossaryAnalytics incidents={incidentsData} />}
+
+      {/* Deduplication Statistics - Show estimated unique incidents (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <DeduplicationStats incidents={incidentsData} />}
+
+      {/* CISO Mode - Enterprise Dashboard Toggle (keep for desktop layout) */}
+      <CISOMode onModeChange={setCisoMode} incidents={incidentsData} />
+
+      {/* Executive Summary - Strategic Overview */}
+      <div id="summary">
+        <ExecutiveSummary incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
+
+      {/* Threat Landscape Snapshot - 1-page overview */}
+      <div id="snapshot">
+        <ThreatLandscapeSnapshot incidents={incidentsData} />
+      </div>
+
+      {/* Strategic Risk Themes - Top 5 Themes */}
+      <div id="themes">
+        <StrategicRiskThemes incidents={incidentsData} selectedYear={selectedYear} filters={{}} />
+      </div>
+
+      {/* NSM Risk Analysis - Norwegian National Security Authority Perspective */}
+      <section id="nsm-risk" className="nsm-risk-section">
+        <div className="section-container">
+          <h2 className="section-title">🇳🇴 NSM Risikoanalyse 2020–{selectedYear}</h2>
+          
+          {/* Executive Summary */}
+          <div className="nsm-executive-summary">
+            <h3 className="nsm-subsection-title">Slik har NSM sett trusselbildet utvikle seg – og slik ser vi det igjen i dataene</h3>
+            <p className="nsm-summary-text">
+              Trusselbildet har beveget seg fra tekniske sårbarheter og opportunistiske angrep, til systematisk undergraving av tillit, leverandøravhengighet og beredskap. Der tidlige år handlet om ransomware og digital hygiene, peker de siste rapportene tydelig på styring, samhandling og beslutningsevne som den største svakheten. Norge opererer nå i en permanent tilstand av digitalt press hvor trusler ikke lenger er hypotetiske, men daglige realiteter som må håndteres kontinuerlig.
+            </p>
+          </div>
+
+          {/* Development over time - Reversed order (2026 first) */}
+          <div className="nsm-timeline">
+            <h3 className="nsm-subsection-title">Utvikling over tid</h3>
+            
+            <div className="timeline-item highlight">
+              <div className="year-badge">2026</div>
+              <h4>🤖 Systemundergraving og AI-Trusler</h4>
+              <p>AI og LLM som nye trusselvektorer. Automatisert desinformasjon, deepfake-teknologi og AI-assistert etterretning. Beredskapsvikt som større trussel enn tekniske angrep.</p>
+              <div className="year-insight">→ Beredskap og styring vurderes som svakere enn tekniske kontroller</div>
+              <div className="key-threats">
+                <span className="threat-badge">🤖 AI-trusler</span>
+                <span className="threat-badge">🎭 Deepfake</span>
+                <span className="threat-badge">📱 Desinformasjon</span>
+                <span className="threat-badge">⚠️ Beredskapsvikt</span>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="year-badge">2025</div>
+              <h4>🎭 Tillitssvekkelse som Strategisk Mål</h4>
+              <p>Psykologiske operasjoner rettet mot å undergrave tillit til institusjoner. Leverandørlås som nasjonal sikkerhetsrisiko.</p>
+              <div className="year-insight">→ Fra informasjonsinnhenting til systematisk destabilisering av samfunnssystemer</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2024</div>
+              <h4>🔗 Fysisk-Digitalt Samspill</h4>
+              <p>Sammenhengen mellom fysiske og digitale angrep ble tydeligere. Kritisk infrastruktur som primært mål.</p>
+              <div className="year-insight">→ Hybridtrusler som permanent tilstand, ikke enkelthendelser</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2023</div>
+              <h4>🕵️ Etterretning og Datatyveri</h4>
+              <p>Systematisk datatyveri rettet mot teknologi- og forsvarssektoren. Leverandøravhengighet som strategisk risiko.</p>
+              <div className="year-insight">→ Leverandører blir angrepsflate, ikke bare risiko</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2022</div>
+              <h4>⚔️ Geopolitisk Vendepunkt</h4>
+              <p>Ukraina-krigen endret trusselbildet. Hybridkrigsføring og sabotasje mot energiinfrastruktur ble reelle trusler.</p>
+              <div className="year-insight">→ Fra cyberkriminalitet til statssponsorert hybridkrigsføring</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2021</div>
+              <h4>🔐 Ransomware som Strategisk Trussel</h4>
+              <p>Løsepengevirus transformerte til profesjonell forretningsmodell. Kritisk infrastruktur og helsesektoren ble hovedmål.</p>
+              <div className="year-insight">→ Ransomware blir industri – fokus skifter fra teknikk til organisasjon</div>
+            </div>
+            
+            <div className="timeline-item">
+              <div className="year-badge">2020</div>
+              <h4>🦠 Pandemi og Digital Transformasjon</h4>
+              <p>COVID-19 akselererte digitalisering, eksponerte sårbarheter i hjemmekontor-løsninger og VPN-sikkerhet.</p>
+              <div className="year-insight">→ Forcert digitalisering eksponerer fundamentale sikkerhetsgap</div>
+            </div>
+          </div>
+
+          {/* Key recurring findings */}
+          <div className="nsm-recurring-findings">
+            <h3 className="nsm-subsection-title">Viktigste gjennomgående funn</h3>
+            <div className="findings-grid">
+              <div className="finding-card">
+                <div className="finding-icon">🔑</div>
+                <h4>Identitet og tilgang</h4>
+                <p>Mennesker og tilgangsstyring er viktigere enn tekniske systemer. Svak identitetshåndtering utnyttes systematisk.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🔗</div>
+                <h4>Leverandør- og avhengighetsrisiko</h4>
+                <p>Teknologiavhengighet og leverandørlås utgjør strategisk sårbarhet. Kompromittering av leverandører gir tilgang til mange samtidig.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🎭</div>
+                <h4>Informasjonspåvirkning og tillit</h4>
+                <p>Systematisk tillitssvekkelse gjennom psyops og desinformasjon. Målet er destabilisering, ikke bare informasjonsinnhenting.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">⚠️</div>
+                <h4>Beredskap og beslutningsevne</h4>
+                <p>Manglende planverk, øvelser og organisatoriske forberedelser er større trussel enn selve angrepene.</p>
+              </div>
+              <div className="finding-card">
+                <div className="finding-icon">🤖</div>
+                <h4>Teknologi utvikler seg raskere enn styring</h4>
+                <p>AI, LLM og automatisering skaper nye trusselvektorer. Styringsmodeller henger etter den teknologiske utviklingen.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Actionable recommendations */}
+          <div className="nsm-recommendations">
+            <h3 className="nsm-subsection-title">Hva bør man faktisk fokusere på nå?</h3>
+            <p className="recommendations-intro">Basert på NSMs vurderinger og observerte hendelser i {selectedYear} bør organisasjoner prioritere:</p>
+            <ul className="recommendations-list">
+              <li>
+                <strong>Mindre fokus på "flere verktøy", mer på roller, ansvar og øvelser</strong><br/>
+                Tekniske kontroller er utilstrekkelige uten tydelig ansvarsfordeling og regelmessig testing av beredskapsplaner.
+              </li>
+              <li>
+                <strong>Styring av leverandører før nye digitale initiativ</strong><br/>
+                Kartlegg teknologiavhengighet og reduser enkeltstående feilpunkter gjennom diversifisering og kontraktsmessige krav.
+              </li>
+              <li>
+                <strong>Forberede seg på hendelser som er uklare, ikke bare "klassiske angrep"</strong><br/>
+                Hybridtrusler, desinformasjon og tillitssvekkelse krever beredskap utover tradisjonell incident-respons.
+              </li>
+              <li>
+                <strong>Bygge evne til å operere under vedvarende digitalt press</strong><br/>
+                Norge er i en permanent tilstand av påvirkning. Resiliens handler om kontinuerlig drift, ikke kun gjenoppretting.
+              </li>
+            </ul>
+          </div>
+
+          {/* Cross-references to other sections */}
+          <div className="nsm-cross-references">
+            <h4>Se også</h4>
+            <div className="cross-ref-links">
+              <a href="#themes" className="cross-ref-link">→ Strategic Risk Themes: Dypere analyse av risikomønstre</a>
+              <a href="#defense" className="cross-ref-link">→ Defense Analysis: Hva fungerte og hva sviktet</a>
+              <a href="#regulation" className="cross-ref-link">→ Regulation Impact: Regelverkets rolle i norsk cybersikkerhet</a>
+            </div>
+          </div>
+          
+          <div className="nsm-cta">
+            <p><strong>📚 Les mer:</strong> <a href="https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet-2-0/" target="_blank" rel="noopener noreferrer">NSMs Grunnprinsipper for IKT-sikkerhet</a></p>
+          </div>
+        </div>
+      </section>
+
+      {/* Attack Chain Reconstruction - Enterprise Feature */}
+      <div id="attack-chains">
+        <AttackChainAnalysis incidents={incidentsData} filters={{}} />
+      </div>
+
+      {/* Sector Benchmarking - CISO-Level Comparison */}
+      <div id="benchmarking">
+        <SectorBenchmarking incidents={incidentsData} filters={{}} />
+      </div>
+
+      {/* Trend Acceleration - Emerging vs. Declining Threats */}
+      <TrendAcceleration incidents={incidentsData} filters={{}} />
+
+      {/* Trend Continuity - Month-over-Month Analysis */}
+      <TrendContinuity incidents={incidentsData} />
+
+      {/* Note: Year-over-Year Comparison removed due to incomplete 2025 data (only ~1k articles) */}
+
+      {/* Quarterly Review - Q1-Q4 Summaries */}
+      <QuarterlyReview incidents={incidentsData} />
+
+      {/* Bias Indicator - Source & Regional Bias (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <BiasIndicator incidents={incidentsData} />}
+
+      {/* Validation Dashboard - Data Quality Metrics (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && <ValidationDashboard incidents={incidentsData} learningLog={learningLog} />}
+
+      {/* Year Stats */}
+      <YearStats incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* MITRE ATT&CK Framework Analysis */}
+      <div id="mitre">
+        <ThreatIntelligence incidents={incidentsData} />
+      </div>
+
+      {/* Threat Actor Profiling */}
+      <div id="actors">
+        <ThreatActorProfile incidents={incidentsData} />
+      </div>
+
+      {/* Sector Analysis - Deep dive into targeted sectors */}
+      <SectorAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+
+      {/* Trend Dashboard - Shows news summaries and trends for 2026 */}
+      <TrendDashboard 
+        selectedYear={selectedYear}
+        selectedMonth={selectedMonth}
+        selectedRegion={selectedRegion}
+        incidents={incidentsData}
+      />
+
+      {/* Defense Analysis - What worked and what failed */}
+      <div id="defense">
+        <DefenseAnalysis incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
+
+      {/* Detection Gap Analysis - Control Coverage Assessment */}
+      <DetectionGapAnalysis incidents={incidentsData} filters={{}} />
+
+      {/* Regulation Impact - NIS2, GDPR, DSA, etc. */}
+      <div id="regulation">
+        <RegulationImpact selectedYear={selectedYear} />
+      </div>
+
+      {/* Forecasts and Predictions */}
+      <div id="predictions">
+        <ForecastsAndPredictions incidents={incidentsData} selectedYear={selectedYear} />
+      </div>
+
+      {/* Methodology and Limitations (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && (
+        <div id="methodology">
+          <MethodologyAndLimitations />
+        </div>
+      )}
+
+      {/* Year Wheel */}
+      <YearWheel 
+        incidents={incidentsData}
+        selectedMonth={selectedMonth}
+        onMonthClick={setSelectedMonth}
+        selectedYear={selectedYear}
+      />
+
+      {/* Incidents Section with Pagination and Tabs */}
+      <div id="incidents">
+        <IncidentsSection 
+          incidents={filteredIncidents}
+          onTagClick={handleTagClick}
+          selectedTags={selectedTags}
+          formatDate={formatDate}
+          getImpactBadge={getImpactBadge}
+        />
+      </div>
+
+      {/* Back to Top Button */}
+      <BackToTop />
+
+      {/* Glossary Panel (Hidden in CISO Mode) */}
+      {!cisoMode.enabled && (
+        <div id="glossary">
+          <GlossaryPanel />
+        </div>
+      )}
+
+      {/* Documents & Guides - Section before footer */}
+      <DocumentsGuide />
+
+      <footer className="footer">
+        <div className="footer-reflection">
+          <p className="footer-quote">
+            The year wheel shows how dense the news cycle was.<br />
+            But cybersecurity is rarely about isolated incidents – and almost always about patterns.
+          </p>
+        </div>
+        <p className="footer-meta">
+          Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date().toLocaleDateString('en-US')}
+        </p>
+      </footer>
+    </div>
+  )
+}
+
+export default App
