@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './ViewNav.css';
 
 function ViewNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqueIncidents, totalArticles }) {
   const [isSticky, setIsSticky] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {

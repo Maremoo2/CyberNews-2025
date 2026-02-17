@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import incidents2025 from '../data/incidents-2025-enriched.json'
@@ -98,13 +98,13 @@ function App() {
   const yearFromUrl = parseInt(urlParams.get('year') || '2026', 10);
   const [selectedYear, setSelectedYear] = useState([2025, 2026].includes(yearFromUrl) ? yearFromUrl : 2026);
   
-  const [selectedRegion, setSelectedRegion] = useState(initialState.region)
-  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedRegion] = useState(initialState.region)
+  const [searchQuery] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
   const [selectedTags, setSelectedTags] = useState(initialState.tags)
   const [selectedMonth, setSelectedMonth] = useState(initialState.month)
-  const [showMajorOnly, setShowMajorOnly] = useState(initialState.major)
-  const [showCuratedOnly, setShowCuratedOnly] = useState(false)
+  const [showMajorOnly] = useState(initialState.major)
+  const [showCuratedOnly] = useState(false)
   const [cisoMode, setCisoMode] = useState({
     enabled: false,
     incidentOnly: true,

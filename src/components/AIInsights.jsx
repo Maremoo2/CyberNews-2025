@@ -331,7 +331,7 @@ function formatDate(dateStr) {
       day: 'numeric',
       timeZone: 'UTC'
     });
-  } catch (e) {
+  } catch {
     return dateStr;
   }
 }
