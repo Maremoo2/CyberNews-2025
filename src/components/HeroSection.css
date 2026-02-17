@@ -131,6 +131,9 @@
 }
 
 .stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: rgba(26, 40, 69, 0.6);
   border: 2px solid var(--accent-color, #00d4ff);
   border-radius: 12px;
@@ -175,9 +178,10 @@
 
 .stat-label {
   font-size: 0.85rem;
-  color: #888;
+  color: #b0d4e8;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 /* Action cards - Fitts's Law: Large, easy to click */
