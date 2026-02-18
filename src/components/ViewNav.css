@@ -2,28 +2,8 @@
   position: relative;
   transition: all 0.3s ease;
   z-index: 100;
-  background: white;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.view-nav.is-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: white;
-  border-bottom: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0);
-  }
+  background: #0f1623;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.2);
 }
 
 .view-nav-content {
@@ -49,13 +29,13 @@
   gap: 0.5rem;
   align-items: center;
   padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #f0f4ff 0%, #e6f0ff 100%);
-  border: 1px solid #c7d7ff;
+  background: rgba(0, 102, 204, 0.15);
+  border: 1px solid rgba(0, 212, 255, 0.3);
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 600;
-  color: #4a5568;
-  box-shadow: 0 1px 3px rgba(102, 126, 234, 0.1);
+  color: #b0b8c8;
+  box-shadow: 0 1px 3px rgba(0, 212, 255, 0.1);
   min-width: fit-content;
 }
 
@@ -82,7 +62,7 @@
 .year-toggle {
   display: flex;
   gap: 0.5rem;
-  background: #f7fafc;
+  background: rgba(0, 102, 204, 0.1);
   padding: 0.25rem;
   border-radius: 8px;
 }
@@ -96,43 +76,43 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: #4a5568;
+  color: #b0b8c8;
   min-height: 48px;
   min-width: 80px;
 }
 
 .year-toggle button:hover {
-  background: #e2e8f0;
-  color: #2d3748;
+  background: rgba(0, 212, 255, 0.2);
+  color: #00d4ff;
 }
 
 .year-toggle button.active {
-  background: #3182ce;
-  color: white;
+  background: #00d4ff;
+  color: #0a0e1a;
 }
 
 .ciso-toggle {
   padding: 0.75rem 1.5rem;
-  border: 2px solid #e2e8f0;
-  background: white;
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  background: rgba(0, 102, 204, 0.1);
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: #4a5568;
+  color: #b0b8c8;
   min-height: 48px;
 }
 
 .ciso-toggle:hover {
-  background: #f7fafc;
-  border-color: #cbd5e0;
+  background: rgba(0, 212, 255, 0.2);
+  border-color: #00d4ff;
 }
 
 .ciso-toggle.active {
-  background: #4299e1;
-  color: white;
-  border-color: #3182ce;
+  background: #00d4ff;
+  color: #0a0e1a;
+  border-color: #00d4ff;
 }
 
 .nav-center {
@@ -144,7 +124,7 @@
 .view-tabs {
   display: flex;
   gap: 0.5rem;
-  background: #f7fafc;
+  background: rgba(0, 102, 204, 0.1);
   padding: 0.25rem;
   border-radius: 8px;
   flex-wrap: wrap;
@@ -159,20 +139,20 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: #4a5568;
+  color: #b0b8c8;
   text-decoration: none;
   display: inline-block;
   white-space: nowrap;
 }
 
 .view-tab:hover {
-  background: #e2e8f0;
-  color: #2d3748;
+  background: rgba(0, 212, 255, 0.2);
+  color: #00d4ff;
 }
 
 .view-tab.active {
-  background: #3182ce;
-  color: white;
+  background: #00d4ff;
+  color: #0a0e1a;
 }
 
 /* Responsive */

@@ -1,8 +1,7 @@
 /* Reading Progress Component Styles */
 .reading-progress-container {
-  position: sticky;
-  top: 80px; /* Below sticky nav */
-  z-index: 90;
+  position: relative;
+  z-index: 10;
   background: linear-gradient(135deg, #0f1b35 0%, #1a2845 100%);
   border: 2px solid rgba(0, 212, 255, 0.3);
   border-radius: 12px;
@@ -173,7 +172,6 @@
 @media (max-width: 768px) {
   .reading-progress-container {
     padding: 1rem;
-    top: 70px;
   }
 
   .reading-progress-content {
