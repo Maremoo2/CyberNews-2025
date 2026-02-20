@@ -2156,6 +2156,32 @@
     "impact": 3
   },
   {
+    "id": "2017001",
+    "date": "2017-09-05",
+    "title": "Learning AssertJ: Null ain't Blank",
+    "summary": "As programmers, we probably use strings more than any other type of data structure. The cross-language String environment is characterized by shared vocabulary and well-established concepts. And it is especially important to follow these established naming conventions when it comes to null string...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/assertj-null-not-blank/",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2017002",
+    "date": "2017-04-28",
+    "title": "The Purpose of JWT: Stateless Authentication",
+    "summary": "The demand for reliable and effective authentication methods has increased in the modern, distributed, and fast-paced digital world. Stateless authentication solutions are being used by developers and identity providers to deliver secure and scalable single sign-on solutions. JSON Web Token (JWT)...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/purpose-jwt-stateless-authentication/",
+    "tags": [],
+    "impact": 3
+  },
+  {
     "id": "2017002",
     "date": "2017-04-28",
     "title": "The Purpose of JWT: Stateless Authentication",
@@ -5849,6 +5875,33 @@
     "sourceName": "Brennenstuhl on Security Engineering Blog",
     "sourceUrl": "https://www.janbrennenstuhl.eu/spring-security-oauth-rfc/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2017003",
+    "date": "2017-02-01",
+    "title": "On Making Spring Security OAuth RFC-compliant",
+    "summary": "Often supporting open source software is just fixing one tiny thing you stumbled upon. However, getting ready and diving into even the smallest piece of source-code can lead to surprising results. I fixed a small HTTP header extractor for the Spring Security OAuth project recently. Here’s what ha...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/spring-security-oauth-rfc/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2017004",
+    "date": "2017-01-15",
+    "title": "Weak Crypto, Github SAML Attack & Twitter Security UX",
+    "summary": "Finally, I managed to come up with a name for my regular reading tips series which will feature both, latest info around recent events & incidents (especially when it comes to identity and security topics) as well as long running articles I strongly advice to read… it’s simply called Readme. The ...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/weak-google-crypto-github-saml/",
+    "tags": [
+      "ai-ml",
+      "twitter"
+    ],
     "impact": 3
   },
   {
