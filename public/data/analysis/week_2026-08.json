@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-02-23T00:30:39.703Z",
+  "pipeline_run_id": "run_2026-02-23T0030",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-08.json",
+  "aggregate_sha256": "ace98eb7fb3f85423ece87bdfcb95cffe25056ccf4054219fab257dcb6fd3c91",
+  "code_commit": "675395eaef5a42cc08b4b80def0b960933b06345",
+  "token_usage": {
+    "prompt_tokens": 1875,
+    "completion_tokens": 719,
+    "total_tokens": 2594,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 8.24,
+  "analysis": {
+    "week_start": "2026-02-16",
+    "week_end": "2026-02-22",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in phishing percentage suggests a rising trend in phishing attacks this week.",
+        "why_now": "Phishing percentage increased by 0.7% compared to the previous week.",
+        "supporting_signals": [
+          "deltas_vs_last_week.phishing_pct: 0.7",
+          "attack_type_percentages.phishing_pct: 4.7"
+        ],
+        "counter_signals": [
+          "counts.incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing-related incidents in the following weeks to confirm a sustained trend.",
+          "Analyze if the increase correlates with specific sectors or themes."
+        ]
+      },
+      {
+        "claim": "The high item count for malware indicates it is the predominant theme this week.",
+        "why_now": "Malware has the highest item count among themes, with 700 items.",
+        "supporting_signals": [
+          "top_themes.theme: malware",
+          "top_themes.item_count: 700"
+        ],
+        "counter_signals": [
+          "counts.incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Review the types of malware reported to determine if specific variants are driving the volume.",
+          "Check if malware reports are concentrated in specific sectors."
+        ]
+      },
+      {
+        "claim": "The introduction of new AI security tools is impacting cybersecurity stocks significantly.",
+        "why_now": "The theme 'Anthropic's New Claude AI Security Tool' is linked to a notable financial impact on cybersecurity stocks.",
+        "supporting_signals": [
+          "top_clusters.title: Anthropic's New Claude AI Security Tool Wipes Out Over $15 Billion From Cybersecurity Stocks",
+          "top_clusters.size: 3"
+        ],
+        "counter_signals": [
+          "quality_metadata.avg_confidence: 0"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Track stock market reactions to AI security tool announcements.",
+          "Investigate further financial reports for confirmation of the impact."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons for the lack of incident-related items despite high theme counts.",
+        "why_it_matters": "Understanding this could clarify if the themes are speculative or indicative of real threats.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or case studies linked to the themes."
+      },
+      {
+        "unknown": "The impact of source concentration on the reliability of the data.",
+        "why_it_matters": "High concentration from few sources might skew the data representation.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of source contributions over time."
+      },
+      {
+        "unknown": "The specific sectors affected by the increase in phishing activity.",
+        "why_it_matters": "Targeted sectors could prepare better if identified.",
+        "what_data_would_reduce_uncertainty": "Sector-specific phishing incident reports."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing percentage",
+        "threshold": "Increase by more than 1% next week",
+        "why_it_matters": "A significant increase could indicate a growing threat.",
+        "recommended_action": "Increase monitoring and defenses against phishing attacks."
+      },
+      {
+        "signal": "Malware theme item count",
+        "threshold": "Exceeds 800 items",
+        "why_it_matters": "A further increase could signal an outbreak or new malware variant.",
+        "recommended_action": "Initiate a detailed malware analysis and response plan."
+      },
+      {
+        "signal": "Ransomware percentage",
+        "threshold": "Exceeds 5%",
+        "why_it_matters": "A rise above this threshold could indicate an emerging ransomware threat.",
+        "recommended_action": "Strengthen ransomware defenses and review backup strategies."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
