@@ -1,18 +1,7 @@
-import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './ViewNav.css';
 
 function ViewNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqueIncidents, totalArticles }) {
-  const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsSticky(window.scrollY > 200);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const views = [
     { path: '/', label: '📊 Overview' },
@@ -25,7 +14,7 @@ function ViewNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqu
   ];
 
   return (
-    <nav className={`view-nav ${isSticky ? 'is-sticky' : ''}`}>
+    <nav className="view-nav">
       <div className="view-nav-content">
         <div className="nav-left">
           <div className="year-toggle">
