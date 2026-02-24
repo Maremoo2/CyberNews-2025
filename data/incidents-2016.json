@@ -2028,6 +2028,36 @@
     "impact": 3
   },
   {
+    "id": "2016001",
+    "date": "2016-12-30",
+    "title": "Single-Use JWT: Unlocking the Power of Stateless One Time Token",
+    "summary": "Understanding JSON Web Tokens Welcome to the future of authentication! In a world where digital security is paramount, the need for robust and reliable authentication methods has never been more crucial. JSON Web Tokens are the new and fancy de-facto standard in the web. JWTs are the tool of choi...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/howto-single-use-jwt/",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2016002",
+    "date": "2016-01-18",
+    "title": "AWS DynamoDB: Backup & Recovery Strategy",
+    "summary": "“Amazon DynamoDB is a fully managed NoSQL database service […]”. That’s what Amazon states in the DynamoDB FAQs. However, their definition is not quite what I would understand as fully managed. It’s missing counter-measures against the human error. For that reason, we need a DynamoDB backup and r...",
+    "region": "EU",
+    "country": "Germany",
+    "sourceName": "Brennenstuhl on Security Engineering Blog",
+    "sourceUrl": "https://www.janbrennenstuhl.eu/aws-dynamodb-backup-recovery/",
+    "tags": [
+      "malware",
+      "cloud",
+      "ai-ml",
+      "aws",
+      "amazon"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2016002",
     "date": "2016-01-18",
     "title": "AWS DynamoDB: Backup & Recovery Strategy",
