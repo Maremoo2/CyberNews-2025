@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-02-26T22:12:55.153Z",
+  "date": "2026-02-26",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 17814,
+    "completion_tokens": 622,
+    "total_tokens": 18436,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0030453,
+  "duration_seconds": 16.21,
+  "item_count": 142,
+  "digest": {
+    "date": "2026-02-26",
+    "summary": "Today's cybersecurity landscape saw significant developments, including the sentencing of Intellexa executives for their involvement in a major spyware scandal in Greece. Google disrupted a long-running cyberespionage campaign linked to China, affecting numerous government and telecom organizations globally. The alarming rise in phishing attacks was highlighted by Darktrace, which reported over 32 million phishing emails in 2025. Additionally, critical vulnerabilities in Cisco's SD-WAN products were revealed, with warnings from global cybersecurity agencies urging immediate patching. The ongoing threat of ransomware was underscored by a record low in payment rates despite a surge in attacks, indicating a shift in victim responses. Lastly, the UK government announced new automated scanning measures to enhance cybersecurity across public sectors.",
+    "novel_clusters": [
+      {
+        "theme": "Google Disrupts China-Linked Cyberespionage Campaign",
+        "summary": "Google announced the disruption of a cyberespionage campaign linked to China, which targeted 53 organizations across 42 countries, utilizing sophisticated malware.",
+        "why_matters": "This incident underscores the ongoing threat of state-sponsored cyber activities and the need for global cooperation in cybersecurity efforts.",
+        "item_count": 2
+      },
+      {
+        "theme": "Critical Cisco SD-WAN Vulnerabilities",
+        "summary": "Cisco disclosed critical vulnerabilities in its SD-WAN products that have been exploited for years, prompting urgent calls from cybersecurity agencies for organizations to patch their systems.",
+        "why_matters": "These vulnerabilities pose significant risks to network security, potentially allowing unauthorized access to sensitive systems.",
+        "item_count": 3
+      },
+      {
+        "theme": "Surge in Phishing Attacks",
+        "summary": "Darktrace reported a staggering 32 million phishing emails detected in 2025, marking a significant increase in identity-driven cyber threats.",
+        "why_matters": "The rise in phishing attacks highlights the evolving tactics of cybercriminals and the importance of robust identity protection measures.",
+        "item_count": 2
+      },
+      {
+        "theme": "Intellexa Executives Sentenced for Spyware Scandal",
+        "summary": "Executives from Intellexa were sentenced to prison for their roles in a major spyware scandal in Greece, known as the \"Greek Watergate.\"",
+        "why_matters": "This case emphasizes the legal repercussions of cybercrimes and the growing scrutiny on spyware manufacturers.",
+        "item_count": 2
+      },
+      {
+        "theme": "Ransomware Payment Rates Decline",
+        "summary": "Despite a rise in ransomware attacks, the percentage of victims paying ransoms has dropped to an all-time low of 28%, indicating a shift in victim strategy.",
+        "why_matters": "This trend may signal a growing resilience among organizations against ransomware threats, potentially altering the economics of cybercrime.",
+        "item_count": 2
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Cisco SD-WAN Zero-Day Exploitation",
+        "summary": "Authorities continue to warn organizations about the ongoing exploitation of zero-day vulnerabilities in Cisco's SD-WAN products, urging immediate action to mitigate risks.",
+        "item_count": 3
+      },
+      {
+        "theme": "Ongoing Phishing Threat Landscape",
+        "summary": "The threat landscape for phishing attacks remains critical, with ongoing reports highlighting the need for enhanced security measures to combat identity theft.",
+        "item_count": 2
+      }
+    ]
+  }
+}
