@@ -1,0 +1,159 @@
+{
+  "week_start": "2026-02-23",
+  "week_end": "2026-03-01",
+  "week_number": 9,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1048,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-0.7",
+    "phishing_pct": "-0.3",
+    "token_abuse_pct": "0.3",
+    "ransomware_pct": "0.3"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "10.7",
+    "phishing_pct": "4.3",
+    "token_abuse_pct": "2.5",
+    "ransomware_pct": "5.2"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.783969465648855,
+      "item_count": 744
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6377862595419848,
+      "item_count": 361
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6148854961832061,
+      "item_count": 301
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5717557251908397,
+      "item_count": 188
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.549618320610687,
+      "item_count": 130
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5419847328244275,
+      "item_count": 110
+    },
+    {
+      "theme": "aws",
+      "confidence": 0.5347328244274809,
+      "item_count": 91
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.533587786259542,
+      "item_count": 88
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.533587786259542,
+      "item_count": 88
+    },
+    {
+      "theme": "ransomware as a service",
+      "confidence": 0.5209923664122137,
+      "item_count": 55
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 33,
+      "percentage": "3.1"
+    },
+    {
+      "sector": "technology",
+      "count": 25,
+      "percentage": "2.4"
+    },
+    {
+      "sector": "healthcare",
+      "count": 9,
+      "percentage": "0.9"
+    },
+    {
+      "sector": "energy",
+      "count": 7,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "education",
+      "count": 4,
+      "percentage": "0.4"
+    },
+    {
+      "sector": "finance",
+      "count": 4,
+      "percentage": "0.4"
+    },
+    {
+      "sector": "retail",
+      "count": 1,
+      "percentage": "0.1"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are available in additional regions",
+      "size": 9,
+      "confidence": 0.6030057251908397
+    },
+    {
+      "title": "Will Anthropic's Claude Code Security Replace Cyber Tools?",
+      "size": 7,
+      "confidence": 0.6023377862595419
+    },
+    {
+      "title": "Israel Plunges Iran Into Darkness With Large Scale Cyberattack During Attack Against Iran",
+      "size": 2,
+      "confidence": 0.6006679389312977
+    },
+    {
+      "title": "Trump Orders Federal Ban On Anthropic, After Pentagon Declares It A National Security Threat",
+      "size": 2,
+      "confidence": 0.6006679389312977
+    },
+    {
+      "title": "IT Decision-Makers Put Physical Security Purchases Under the Microscope",
+      "size": 2,
+      "confidence": 0.6006679389312977
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "60% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 361
+      },
+      {
+        "source": "Cyber",
+        "count": 188
+      },
+      {
+        "source": "Help Net Security",
+        "count": 76
+      }
+    ],
+    "total_sources": 61
+  }
+}
