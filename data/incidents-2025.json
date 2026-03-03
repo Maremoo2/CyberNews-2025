@@ -26511,6 +26511,20 @@
     "impact": 3
   },
   {
+    "id": "20252067",
+    "date": "2025-04-24",
+    "title": "WireGuard : à quoi sert ce protocole VPN, et comment fonctionne-t-il ?",
+    "summary": "Pourquoi tous les grands fournisseurs VPN ont-ils basculé vers WireGuard en l'espace de quelques années ? La réponse tient en trois repères : moins de 4 000 lignes de code, des débits très souvent supérieurs à OpenVPN, et une poignée de main cryptographique établie en un seul aller-retour réseau....",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/proton/dossier-398964-vpn-mais-pourquoi-tout-le-monde-ne-parle-que-de-wireguard.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251794",
     "date": "2025-04-24",
     "title": "Lessons from the latest breach reports.",
