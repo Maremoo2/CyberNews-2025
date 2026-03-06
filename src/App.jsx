@@ -32,7 +32,9 @@ const MONTHS_EN = [
 const IMPACT_STYLES = {
   5: { label: 'Critical', className: 'impact-critical', emoji: '🔴' },
   4: { label: 'High', className: 'impact-high', emoji: '🟠' },
-  3: { label: 'Moderate', className: 'impact-moderate', emoji: '⚪' }
+  3: { label: 'Moderate', className: 'impact-moderate', emoji: '⚪' },
+  2: { label: 'Low', className: 'impact-low', emoji: '🟡' },
+  1: { label: 'Info', className: 'impact-info', emoji: '🔵' }
 };
 
 function getMonthIndex(dateStr) {
@@ -465,7 +467,7 @@ function App() {
         />
 
         {/* Reading Progress Tracker */}
-        {selectedYear === currentYear && filteredIncidents.length > 0 && (
+        {filteredIncidents.length > 0 && (
           <ReadingProgress 
             incidents={filteredIncidents} 
             currentFilters={globalFilters}
@@ -487,9 +489,7 @@ function App() {
         </section>
 
         {/* Weekly Highlights */}
-        {selectedYear === currentYear && (
-          <WeeklyHighlights incidents={incidentsData} />
-        )}
+        <WeeklyHighlights incidents={incidentsData} />
 
         {/* Main Content - Routed Views */}
         <main id="main-content">
@@ -567,7 +567,7 @@ function App() {
             </p>
           </div>
           <p className="footer-meta">
-            Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date().toLocaleDateString('en-US')}
+            Covers {selectedYear} • {incidentsData.length} items • Last updated {new Date(metadata.lastUpdated).toLocaleDateString('en-US')}
           </p>
         </footer>
       </div>

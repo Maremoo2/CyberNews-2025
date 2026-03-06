@@ -686,6 +686,14 @@ select:focus-visible {
   filter: drop-shadow(0 0 2px rgba(107, 114, 128, 0.3));
 }
 
+.impact-low {
+  filter: drop-shadow(0 0 2px rgba(234, 197, 13, 0.3));
+}
+
+.impact-info {
+  filter: drop-shadow(0 0 2px rgba(59, 130, 246, 0.3));
+}
+
 .incident-title a {
   color: #e0e0e0;
   text-decoration: none;
@@ -1326,4 +1334,29 @@ select:focus-visible {
   .view-description {
     font-size: 1rem;
   }
+}
+
+/* Enrichment staleness warning banner */
+.enrichment-staleness-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(234, 179, 8, 0.12);
+  border: 1px solid rgba(234, 179, 8, 0.4);
+  border-radius: 8px;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #fde68a;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.enrichment-staleness-warning .warning-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.enrichment-staleness-warning strong {
+  color: #fbbf24;
 }
