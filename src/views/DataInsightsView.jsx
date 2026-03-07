@@ -10,8 +10,7 @@ import AIInsights from '../components/AIInsights'
 import WeeklyAnalysis from '../components/WeeklyAnalysis'
 import GlossaryPanel from '../components/GlossaryPanel'
 import DocumentsGuide from '../components/DocumentsGuide'
-
-const currentYear = new Date().getFullYear()
+import metadata from '../../data/metadata.json'
 
 export default function DataInsightsView({ 
   incidents, 
@@ -26,6 +25,16 @@ export default function DataInsightsView({
   learningLog,
   cisoMode
 }) {
+  const hasIncidents = incidents && incidents.length > 0;
+
+  // Compute enrichment staleness warning
+  const lastUpdated = metadata.lastUpdated ? new Date(metadata.lastUpdated) : null;
+  const lastEnrichment = metadata.lastEnrichment ? new Date(metadata.lastEnrichment) : null;
+  const enrichmentStaleDays = (lastUpdated && lastEnrichment)
+    ? Math.floor((lastUpdated - lastEnrichment) / (1000 * 60 * 60 * 24))
+    : 0;
+  const showEnrichmentWarning = enrichmentStaleDays > 7;
+
   return (
     <div className="view-container data-insights-view">
       <div className="view-header">
@@ -35,13 +44,24 @@ export default function DataInsightsView({
         </p>
       </div>
 
-      {selectedYear === currentYear && (
+      {showEnrichmentWarning && (
+        <div className="enrichment-staleness-warning" role="alert" aria-live="polite">
+          <span className="warning-icon">⚠️</span>
+          <span>
+            <strong>Enrichment data is {enrichmentStaleDays} days behind.</strong>{' '}
+            Articles added after {lastEnrichment.toLocaleDateString('en-US')} may lack MITRE mappings,
+            severity scores, and actor attribution. Last enrichment: {lastEnrichment.toLocaleDateString('en-US')}.
+          </span>
+        </div>
+      )}
+
+      {hasIncidents && (
         <div id="daily-digest">
           <AIInsights />
         </div>
       )}
 
-      {selectedYear === currentYear && (
+      {hasIncidents && (
         <div id="weekly-brief">
           <WeeklyAnalysis />
         </div>
