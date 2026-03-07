@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-03-02T00:29:36.824Z",
+  "pipeline_run_id": "run_2026-03-02T0029",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-09.json",
+  "aggregate_sha256": "abcf669c6d316e1fc6c89799aa6d1b72cd327ecfc44f3d6a65259ac1d528b825",
+  "code_commit": "9ed30bba2ed0f063fe2bd81dd10a6f9ff2d9eda6",
+  "token_usage": {
+    "prompt_tokens": 1852,
+    "completion_tokens": 809,
+    "total_tokens": 2661,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 9.76,
+  "analysis": {
+    "week_start": "2026-02-23",
+    "week_end": "2026-03-01",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in token abuse and ransomware percentages indicates a potential shift towards these attack types.",
+        "why_now": "Token abuse and ransomware percentages both increased by 0.3% this week.",
+        "supporting_signals": [
+          "token_abuse_pct: 0.3",
+          "ransomware_pct: 0.3"
+        ],
+        "counter_signals": [
+          "exploit_led_pct: -0.7",
+          "phishing_pct: -0.3"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor trends in token abuse and ransomware over the next few weeks to confirm if the increase continues.",
+          "Analyze incident reports for any emerging patterns related to token abuse and ransomware."
+        ]
+      },
+      {
+        "claim": "The high concentration of malware-related items suggests a significant focus on malware threats this week.",
+        "why_now": "Malware is the top theme with 744 items, significantly higher than other themes.",
+        "supporting_signals": [
+          "theme: malware, item_count: 744",
+          "confidence: 0.783969465648855"
+        ],
+        "counter_signals": [
+          "incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Review the content of the malware-related items to identify specific malware families or campaigns.",
+          "Compare the malware item count with historical data to determine if this is an anomaly."
+        ]
+      },
+      {
+        "claim": "The theme of AI-ML is becoming increasingly relevant in cybersecurity discussions.",
+        "why_now": "AI-ML is the third top theme with 301 items and a confidence of 0.6148854961832061.",
+        "supporting_signals": [
+          "theme: ai-ml, item_count: 301",
+          "confidence: 0.6148854961832061"
+        ],
+        "counter_signals": [
+          "total_items: 1048"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Track the number of AI-ML related items over the next few weeks to confirm if the trend is increasing.",
+          "Identify specific AI-ML applications mentioned in the items to understand their role in cybersecurity."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons behind the increase in token abuse and ransomware percentages.",
+        "why_it_matters": "Understanding the drivers of these increases could help in anticipating future threats.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or threat intelligence on token abuse and ransomware activities."
+      },
+      {
+        "unknown": "The impact of the high concentration of malware-related items on actual cybersecurity incidents.",
+        "why_it_matters": "Knowing the impact could guide resource allocation for threat mitigation.",
+        "what_data_would_reduce_uncertainty": "Incident reports linking malware themes to actual breaches or attacks."
+      },
+      {
+        "unknown": "The role of AI-ML in the current cybersecurity landscape.",
+        "why_it_matters": "AI-ML could represent both a threat and a tool in cybersecurity.",
+        "what_data_would_reduce_uncertainty": "Case studies or reports on AI-ML applications in recent cybersecurity events."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Token abuse percentage",
+        "threshold": "Increase by more than 0.5% in a week",
+        "why_it_matters": "A significant increase could indicate a growing trend or new threat vector.",
+        "recommended_action": "Investigate the sources of token abuse to identify potential vulnerabilities."
+      },
+      {
+        "signal": "Malware item count",
+        "threshold": "Exceeds 800 items in a week",
+        "why_it_matters": "A high count could indicate an emerging malware campaign or threat.",
+        "recommended_action": "Conduct a detailed analysis of the malware items to identify commonalities."
+      },
+      {
+        "signal": "AI-ML theme item count",
+        "threshold": "Increases by more than 50 items in a week",
+        "why_it_matters": "An increase could signify a rising focus on AI-ML in cybersecurity.",
+        "recommended_action": "Assess the content for new AI-ML applications or threats in cybersecurity.}],"
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

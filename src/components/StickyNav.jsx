@@ -2,13 +2,10 @@ import { useState, useEffect } from 'react';
 import './StickyNav.css';
 
 function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqueIncidents, totalArticles }) {
-  const [isSticky, setIsSticky] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 200);
-
       // Detect active section
       const sections = [
         'home', 'daily-digest', 'weekly-brief', 'summary', 'snapshot', 'themes', 
@@ -35,8 +32,7 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uni
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -80; // Account for sticky nav height
-      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      const y = element.getBoundingClientRect().top + window.pageYOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
@@ -62,7 +58,7 @@ function StickyNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uni
   ];
 
   return (
-    <nav className={`sticky-nav ${isSticky ? 'is-sticky' : ''}`}>
+    <nav className="sticky-nav">
       <div className="sticky-nav-content">
         <div className="nav-left">
           <div className="year-toggle">

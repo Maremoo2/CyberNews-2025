@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-02-16",
+  "week_end": "2026-02-22",
+  "week_number": 8,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1031,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-0.4",
+    "phishing_pct": "0.7",
+    "token_abuse_pct": "0.2",
+    "ransomware_pct": "0.2"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.3",
+    "phishing_pct": "4.7",
+    "token_abuse_pct": "2.2",
+    "ransomware_pct": "4.8"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7715809893307468,
+      "item_count": 700
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6299709020368575,
+      "item_count": 335
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6105722599418041,
+      "item_count": 285
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5772065955383123,
+      "item_count": 199
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5516003879728419,
+      "item_count": 133
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5387972841901068,
+      "item_count": 100
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.528709990300679,
+      "item_count": 74
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.528709990300679,
+      "item_count": 74
+    },
+    {
+      "theme": "google",
+      "confidence": 0.5225024248302619,
+      "item_count": 58
+    },
+    {
+      "theme": "ransomware as a service",
+      "confidence": 0.5193986420950534,
+      "item_count": 50
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 45,
+      "percentage": "4.4"
+    },
+    {
+      "sector": "technology",
+      "count": 34,
+      "percentage": "3.3"
+    },
+    {
+      "sector": "energy",
+      "count": 9,
+      "percentage": "0.9"
+    },
+    {
+      "sector": "finance",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "healthcare",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "education",
+      "count": 3,
+      "percentage": "0.3"
+    },
+    {
+      "sector": "retail",
+      "count": 3,
+      "percentage": "0.3"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 2,
+      "percentage": "0.2"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access Denied",
+      "size": 9,
+      "confidence": 0.6030552861299708
+    },
+    {
+      "title": "Amazon EC2 G7e instances now available in Asia Pacific (Tokyo) region",
+      "size": 6,
+      "confidence": 0.6020368574199806
+    },
+    {
+      "title": "Anthropic Launches Claude Code Security, Shaking up Cybersecurity Stocks",
+      "size": 4,
+      "confidence": 0.6013579049466538
+    },
+    {
+      "title": "Anthropic's New Claude AI Security Tool Wipes Out Over $15 Billion From Cybersecurity Stocks",
+      "size": 3,
+      "confidence": 0.6010184287099902
+    },
+    {
+      "title": "Kyndryl launches Cyber Defense Operations Center to unify network and security operations",
+      "size": 3,
+      "confidence": 0.6010184287099902
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "59% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 335
+      },
+      {
+        "source": "Cyber",
+        "count": 199
+      },
+      {
+        "source": "Help Net Security",
+        "count": 78
+      }
+    ],
+    "total_sources": 63
+  }
+}

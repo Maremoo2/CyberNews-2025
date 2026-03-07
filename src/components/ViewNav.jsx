@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './ViewNav.css';
 
 function ViewNav({ selectedYear, onYearChange, cisoMode, onCisoModeChange, uniqueIncidents, totalArticles }) {
+
   const views = [
     { path: '/', label: '📊 Overview' },
     { path: '/threats', label: '🌍 Threat Landscape' },

@@ -2,8 +2,8 @@
   position: relative;
   transition: all 0.3s ease;
   z-index: 100;
-  background: #0f1623;
-  border-bottom: 2px solid rgba(0, 212, 255, 0.2);
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .view-nav-content {
