@@ -26,6 +26,8 @@ export default function DataInsightsView({
   cisoMode
 }) {
   const hasIncidents = incidents && incidents.length > 0;
+  const currentYear = new Date().getFullYear();
+  const isCurrentYear = selectedYear === currentYear;
 
   // Compute enrichment staleness warning
   const lastUpdated = metadata.lastUpdated ? new Date(metadata.lastUpdated) : null;
@@ -55,13 +57,13 @@ export default function DataInsightsView({
         </div>
       )}
 
-      {hasIncidents && (
+      {hasIncidents && isCurrentYear && (
         <div id="daily-digest">
           <AIInsights />
         </div>
       )}
 
-      {hasIncidents && (
+      {hasIncidents && isCurrentYear && (
         <div id="weekly-brief">
           <WeeklyAnalysis />
         </div>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import './ReadingProgress.css';
 
 /**
@@ -8,24 +8,18 @@ import './ReadingProgress.css';
  */
 function ReadingProgress({ incidents, currentFilters }) {
   const [readIncidents, setReadIncidents] = useState(new Set());
-  const [progress, setProgress] = useState(0);
-  const [visibleIncidents, setVisibleIncidents] = useState([]);
 
-  useEffect(() => {
-    // Filter incidents based on current filters
+  const visibleIncidents = useMemo(() => {
     let filtered = incidents;
     if (currentFilters?.severity) {
       filtered = filtered.filter(i => (i.severity || 0) >= currentFilters.severity);
     }
-    setVisibleIncidents(filtered);
+    return filtered;
   }, [incidents, currentFilters]);
 
-  useEffect(() => {
-    // Calculate progress
-    if (visibleIncidents.length > 0) {
-      const progressPercent = Math.round((readIncidents.size / visibleIncidents.length) * 100);
-      setProgress(progressPercent);
-    }
+  const progress = useMemo(() => {
+    if (visibleIncidents.length === 0) return 0;
+    return Math.round((readIncidents.size / visibleIncidents.length) * 100);
   }, [readIncidents, visibleIncidents]);
 
   useEffect(() => {

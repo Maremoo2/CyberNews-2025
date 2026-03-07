@@ -5,6 +5,18 @@ import incidents2025 from '../data/incidents-2025-enriched.json'
 import incidents2026 from '../data/incidents-2026-enriched.json'
 import metadata from '../data/metadata.json'
 import learningLog from '../data/learning-log.json'
+
+// Map of all available year datasets (add new years here as data files become available)
+const YEAR_DATA_MAP = {
+  2025: incidents2025,
+  2026: incidents2026,
+};
+const AVAILABLE_YEARS = Object.keys(YEAR_DATA_MAP).map(Number).sort();
+const CURRENT_YEAR = new Date().getFullYear();
+// Default to the current year if we have data for it, otherwise the latest available year
+const DEFAULT_YEAR = AVAILABLE_YEARS.includes(CURRENT_YEAR)
+  ? CURRENT_YEAR
+  : Math.max(...AVAILABLE_YEARS);
 import ViewNav from './components/ViewNav'
 import GlobalFilterBar from './components/GlobalFilterBar'
 import BackToTop from './components/BackToTop'
@@ -95,10 +107,12 @@ function getInitialStateFromURL() {
 function App() {
   const initialState = getInitialStateFromURL()
   
-  // Get year from URL or default to 2026
+  // Get year from URL or default to the current/latest available year
   const urlParams = new URLSearchParams(window.location.search);
-  const yearFromUrl = parseInt(urlParams.get('year') || '2026', 10);
-  const [selectedYear, setSelectedYear] = useState([2025, 2026].includes(yearFromUrl) ? yearFromUrl : 2026);
+  const yearFromUrl = parseInt(urlParams.get('year') || String(DEFAULT_YEAR), 10);
+  const [selectedYear, setSelectedYear] = useState(
+    AVAILABLE_YEARS.includes(yearFromUrl) ? yearFromUrl : DEFAULT_YEAR
+  );
   
   const [selectedRegion] = useState(initialState.region)
   const [searchQuery] = useState('')
@@ -127,12 +141,11 @@ function App() {
   
   const currentYear = useMemo(() => new Date().getFullYear(), []);
 
-  // Get incidents data based on selected year
-  const yearDataMap = {
-    2025: incidents2025,
-    2026: incidents2026
-  }
-  const incidentsData = yearDataMap[selectedYear] || incidents2025
+  // Get incidents data based on selected year; fall back to latest available year if missing
+  const incidentsData = useMemo(
+    () => YEAR_DATA_MAP[selectedYear] || YEAR_DATA_MAP[Math.max(...AVAILABLE_YEARS)] || [],
+    [selectedYear]
+  );
 
   // Get last updated date from metadata
   const lastUpdated = useMemo(() => {
@@ -202,7 +215,7 @@ function App() {
   // Update URL when year changes
   useEffect(() => {
     const url = new URL(window.location);
-    if (selectedYear !== 2026) {
+    if (selectedYear !== DEFAULT_YEAR) {
       url.searchParams.set('year', selectedYear);
     } else {
       url.searchParams.delete('year');
@@ -430,22 +443,17 @@ function App() {
               </p>
             </div>
             <div className="year-selector">
-              <button 
-                className={selectedYear === 2025 ? 'year-btn active' : 'year-btn'}
-                onClick={() => setSelectedYear(2025)}
-                aria-label="Show 2025 incidents"
-                aria-pressed={selectedYear === 2025}
-              >
-                2025
-              </button>
-              <button 
-                className={selectedYear === 2026 ? 'year-btn active' : 'year-btn'}
-                onClick={() => setSelectedYear(2026)}
-                aria-label="Show 2026 incidents"
-                aria-pressed={selectedYear === 2026}
-              >
-                2026
-              </button>
+              {AVAILABLE_YEARS.map(year => (
+                <button
+                  key={year}
+                  className={selectedYear === year ? 'year-btn active' : 'year-btn'}
+                  onClick={() => setSelectedYear(year)}
+                  aria-label={`Show ${year} incidents`}
+                  aria-pressed={selectedYear === year}
+                >
+                  {year}
+                </button>
+              ))}
             </div>
           </div>
         </header>
