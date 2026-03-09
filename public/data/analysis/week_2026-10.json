@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-03-09T00:30:29.521Z",
+  "pipeline_run_id": "run_2026-03-09T0030",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-10.json",
+  "aggregate_sha256": "0b2a55370a99ebcdcddbed02f7923bf4797a0391fefc091cbc068d381af8adb3",
+  "code_commit": "c503209241a62571b2857d2f4e84e7702cf00023",
+  "token_usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 710,
+    "total_tokens": 2548,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 12.88,
+  "analysis": {
+    "week_start": "2026-03-02",
+    "week_end": "2026-03-08",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in phishing activity is likely due to a targeted campaign against specific sectors.",
+        "why_now": "Phishing activity increased by 2.3% this week, indicating a potential targeted effort.",
+        "supporting_signals": [
+          "phishing_pct increased by 2.3%",
+          "phishing theme has 100 items"
+        ],
+        "counter_signals": [
+          "Phishing is not the top theme, with only 100 items compared to 682 for malware"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing reports in the coming weeks for continued increases.",
+          "Analyze sector-specific phishing incidents for patterns."
+        ]
+      },
+      {
+        "claim": "The decrease in ransomware activity suggests a temporary shift in attacker focus.",
+        "why_now": "Ransomware activity decreased by 2.5%, which is a notable change.",
+        "supporting_signals": [
+          "ransomware_pct decreased by 2.5%",
+          "Ransomware theme is not in the top themes"
+        ],
+        "counter_signals": [
+          "Ransomware still constitutes 2.8% of attack types, indicating it remains a threat"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track ransomware activity in subsequent weeks to confirm if the decrease is sustained.",
+          "Investigate other attack types for potential increases."
+        ]
+      },
+      {
+        "claim": "The high concentration of data from top sources may skew the perceived threat landscape.",
+        "why_now": "60% of data comes from the top 3 feeds, potentially biasing the analysis.",
+        "supporting_signals": [
+          "source_concentration_warning: 60% from top 3 feeds",
+          "Data/IT source alone accounts for 345 items"
+        ],
+        "counter_signals": [
+          "Total sources count is 58, suggesting some diversity"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Diversify data sources to include more varied feeds.",
+          "Assess the impact of source concentration on threat analysis."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons for the increase in phishing activity.",
+        "why_it_matters": "Understanding the cause can help mitigate future attacks.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports and target sector information."
+      },
+      {
+        "unknown": "The reason behind the decrease in ransomware activity.",
+        "why_it_matters": "Identifying the cause can inform defensive strategies.",
+        "what_data_would_reduce_uncertainty": "Insights into attacker motivations and alternative attack vectors."
+      },
+      {
+        "unknown": "The impact of source concentration on threat perception.",
+        "why_it_matters": "It affects the accuracy of threat landscape assessments.",
+        "what_data_would_reduce_uncertainty": "Data from a broader range of sources and independent verification."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing activity percentage",
+        "threshold": "Increase by more than 3%",
+        "why_it_matters": "A significant increase could indicate a major campaign.",
+        "recommended_action": "Initiate a detailed investigation into phishing incidents."
+      },
+      {
+        "signal": "Ransomware activity percentage",
+        "threshold": "Increase by more than 1%",
+        "why_it_matters": "Ransomware remains a significant threat despite recent decreases.",
+        "recommended_action": "Enhance monitoring and update ransomware defenses."
+      },
+      {
+        "signal": "Source concentration percentage",
+        "threshold": "Exceeds 65% from top 3 feeds",
+        "why_it_matters": "High concentration could bias threat analysis.",
+        "recommended_action": "Seek additional data sources to balance the input."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

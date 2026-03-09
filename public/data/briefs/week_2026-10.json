@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-03-09T00:30:42.303Z",
+  "week_start": "2026-03-02",
+  "week_end": "2026-03-08",
+  "week_year": 2026,
+  "week_number": 10,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1833,
+    "completion_tokens": 704,
+    "total_tokens": 2537,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00069735,
+  "duration_seconds": 12.51,
+  "aggregate_sha256": "0b2a55370a99ebcdcddbed02f7923bf4797a0391fefc091cbc068d381af8adb3",
+  "brief": {
+    "week_start": "2026-03-02",
+    "week_end": "2026-03-08",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cyber Threat Landscape",
+        "summary": "Malware-related incidents accounted for 66% of total items this week, indicating a persistent threat that requires immediate attention.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Attacks Increase by 2.3% This Week",
+        "summary": "Phishing incidents have risen to 6.5% of total attacks, signaling a growing risk to sensitive data across sectors.",
+        "cluster_reference": "phishing",
+        "impact_level": "high"
+      },
+      {
+        "headline": "FBI Investigating Cyber Activity on Sensitive Systems",
+        "summary": "Ongoing investigations into suspicious cyber activities may expose vulnerabilities in critical infrastructure, particularly in government sectors.",
+        "cluster_reference": "FBI Investigating ‘Suspicious’ Cyber Activity",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Access Denied Issues Highlight IAM Vulnerabilities",
+        "summary": "The 'Access Denied' cluster indicates potential weaknesses in identity and access management systems, necessitating a review of current protocols.",
+        "cluster_reference": "Access denied",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Emerging Threats from AI-ML Technologies",
+        "summary": "With AI-ML incidents comprising 26% of the total, organizations must assess their defenses against AI-driven cyber threats.",
+        "cluster_reference": "ai-ml",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Phishing attacks increased by 2.3%",
+        "change_indicator": "Phishing attacks now at 6.5% of total incidents",
+        "significance": "This rise indicates a need for enhanced employee training and awareness programs."
+      },
+      {
+        "pattern": "Ransomware incidents decreased by 2.5%",
+        "change_indicator": "Ransomware now at 2.8% of total incidents",
+        "significance": "While a decrease is positive, vigilance is still required as ransomware remains a significant threat."
+      },
+      {
+        "pattern": "Token abuse incidents rose by 0.5%",
+        "change_indicator": "Token abuse now at 2.9% of total incidents",
+        "significance": "This trend may indicate a shift in attack strategies, warranting a review of token management practices."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased phishing attacks targeting sensitive data",
+        "affected_sectors": [
+          "government",
+          "technology",
+          "healthcare"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Vulnerabilities in identity and access management systems",
+        "affected_sectors": [
+          "government",
+          "technology"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Emerging AI-driven cyber threats",
+        "affected_sectors": [
+          "technology",
+          "finance"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Percentage of phishing attacks",
+        "threshold": "> 7%",
+        "action": "Reassess security training and implement additional phishing simulations."
+      },
+      {
+        "metric": "Frequency of malware incidents",
+        "threshold": "> 700 incidents",
+        "action": "Initiate a review of malware defenses and incident response protocols."
+      },
+      {
+        "metric": "Token abuse incidents",
+        "threshold": "> 3%",
+        "action": "Conduct a security audit of token management practices."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Investigate 'Access Denied' incidents",
+        "reason": "Potential IAM vulnerabilities could expose sensitive data.",
+        "cluster_ref": "Access denied"
+      },
+      {
+        "item": "Review FBI investigation findings",
+        "reason": "Insights may reveal critical vulnerabilities in government systems.",
+        "cluster_ref": "FBI Investigating ‘Suspicious’ Cyber Activity"
+      },
+      {
+        "item": "Analyze AI-ML incident trends",
+        "reason": "Understanding these trends is crucial for adapting defenses against evolving threats.",
+        "cluster_ref": "ai-ml"
+      }
+    ]
+  }
+}

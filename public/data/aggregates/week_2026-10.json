@@ -1,0 +1,159 @@
+{
+  "week_start": "2026-03-02",
+  "week_end": "2026-03-08",
+  "week_number": 10,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1035,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "0.3",
+    "phishing_pct": "2.3",
+    "token_abuse_pct": "0.5",
+    "ransomware_pct": "-2.5"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.0",
+    "phishing_pct": "6.5",
+    "token_abuse_pct": "2.9",
+    "ransomware_pct": "2.8"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7635748792270531,
+      "item_count": 682
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6333333333333333,
+      "item_count": 345
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.60512077294686,
+      "item_count": 272
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5769082125603865,
+      "item_count": 199
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5467632850241546,
+      "item_count": 121
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.538647342995169,
+      "item_count": 100
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5320772946859903,
+      "item_count": 83
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5320772946859903,
+      "item_count": 83
+    },
+    {
+      "theme": "google",
+      "confidence": 0.5239613526570048,
+      "item_count": 62
+    },
+    {
+      "theme": "apt",
+      "confidence": 0.5224154589371981,
+      "item_count": 58
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 42,
+      "percentage": "4.1"
+    },
+    {
+      "sector": "technology",
+      "count": 29,
+      "percentage": "2.8"
+    },
+    {
+      "sector": "healthcare",
+      "count": 17,
+      "percentage": "1.6"
+    },
+    {
+      "sector": "education",
+      "count": 8,
+      "percentage": "0.8"
+    },
+    {
+      "sector": "energy",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 2,
+      "percentage": "0.2"
+    },
+    {
+      "sector": "finance",
+      "count": 1,
+      "percentage": "0.1"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access denied",
+      "size": 9,
+      "confidence": 0.6030434782608696
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds light mode support for IAM-based domains",
+      "size": 4,
+      "confidence": 0.6013526570048309
+    },
+    {
+      "title": "Trump's Cyber Strategy: Offensive Ambitions, Defensive Gaps",
+      "size": 3,
+      "confidence": 0.6010144927536232
+    },
+    {
+      "title": "FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information",
+      "size": 3,
+      "confidence": 0.6010144927536232
+    },
+    {
+      "title": "CISOs in a Pinch: A Security Analysis of OpenClaw | Trend Micro (DE)",
+      "size": 3,
+      "confidence": 0.6010144927536232
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "60% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 345
+      },
+      {
+        "source": "Cyber",
+        "count": 199
+      },
+      {
+        "source": "Help Net Security",
+        "count": 76
+      }
+    ],
+    "total_sources": 58
+  }
+}
