@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-14T22:09:15.045Z",
+  "date": "2026-03-14",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 5151,
+    "completion_tokens": 493,
+    "total_tokens": 5644,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0010684499999999999,
+  "duration_seconds": 7.67,
+  "item_count": 38,
+  "digest": {
+    "date": "2026-03-14",
+    "summary": "Today's cybersecurity landscape saw significant developments, particularly with the emergence of new attack campaigns and vulnerabilities. The GlassWorm supply-chain attack has escalated, targeting developers through the Open VSX registry, while a critical vulnerability in HPE AOS-CX allows remote admin password resets, posing severe risks. Additionally, the OpenClaw AI agent has been flagged for potential prompt injection and data exfiltration vulnerabilities. The healthcare sector remains under threat as Intuitive Surgical reported unauthorized access to internal systems. Meanwhile, Iranian cyberattacks are reportedly increasing, with implications for global security. The industry continues to grapple with the challenges of cyber resilience and the need for better governance in cybersecurity practices.",
+    "novel_clusters": [
+      {
+        "theme": "GlassWorm Supply-Chain Attack",
+        "summary": "The GlassWorm campaign has evolved, now exploiting 72 Open VSX extensions to infiltrate developer environments more effectively.",
+        "why_matters": "This escalation highlights the growing sophistication of supply-chain attacks, which can have widespread implications for software development and security.",
+        "item_count": 1
+      },
+      {
+        "theme": "Critical HPE AOS-CX Vulnerability",
+        "summary": "A critical vulnerability in HPE AOS-CX allows attackers to reset admin passwords remotely without authentication, creating a significant security risk.",
+        "why_matters": "This vulnerability could lead to unauthorized access to sensitive systems, emphasizing the need for immediate patching and security measures.",
+        "item_count": 1
+      },
+      {
+        "theme": "OpenClaw AI Agent Vulnerabilities",
+        "summary": "CNCERT has warned about vulnerabilities in the OpenClaw AI agent, which could lead to prompt injection and data exfiltration.",
+        "why_matters": "As AI technologies become more integrated into systems, vulnerabilities like these pose serious risks to data integrity and privacy.",
+        "item_count": 1
+      },
+      {
+        "theme": "Intuitive Surgical Cybersecurity Breach",
+        "summary": "Intuitive Surgical reported unauthorized access to internal systems, raising alarms about the security of healthcare technology.",
+        "why_matters": "This incident underscores the critical need for robust cybersecurity measures in the healthcare sector, where breaches can have dire consequences.",
+        "item_count": 1
+      },
+      {
+        "theme": "Increased Iranian Cyberattacks",
+        "summary": "Iran has reportedly ramped up its cyberattack activities, targeting various sectors including financial institutions.",
+        "why_matters": "This increase in state-sponsored cyber activities poses a heightened risk to global cybersecurity, particularly for businesses operating in sensitive sectors.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": []
+  }
+}
