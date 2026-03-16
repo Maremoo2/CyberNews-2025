@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-03-16T00:35:03.095Z",
+  "pipeline_run_id": "run_2026-03-16T0035",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-11.json",
+  "aggregate_sha256": "e7333fdfd1aebc4f8e1e089040108d6eb0477f55a2c4aea26d8c64c3269ab017",
+  "code_commit": "8c640c4e5e8832c276275bd9e7fd171f8c04f083",
+  "token_usage": {
+    "prompt_tokens": 1884,
+    "completion_tokens": 755,
+    "total_tokens": 2639,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 9.34,
+  "analysis": {
+    "week_start": "2026-03-09",
+    "week_end": "2026-03-15",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The decrease in phishing and exploit-led attacks suggests a temporary decline in these attack vectors.",
+        "why_now": "Both phishing and exploit-led attack percentages decreased compared to last week.",
+        "supporting_signals": [
+          "exploit_led_pct: -1.3",
+          "phishing_pct: -1.8"
+        ],
+        "counter_signals": [
+          "ransomware_pct: 0.5"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing and exploit-led attack trends over the next two weeks to confirm continued decline.",
+          "Compare with historical data to identify if similar patterns occurred in the past."
+        ]
+      },
+      {
+        "claim": "The high concentration of malware-related items indicates a potential focus shift towards malware threats.",
+        "why_now": "Malware is the top theme with the highest item count and confidence.",
+        "supporting_signals": [
+          "theme: malware, item_count: 844, confidence: 0.7977072310405644",
+          "total_items: 1134"
+        ],
+        "counter_signals": [
+          "incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Analyze the content of malware-related items to determine specific malware types or campaigns.",
+          "Track malware-related incidents in the coming weeks to see if they translate into actual incidents."
+        ]
+      },
+      {
+        "claim": "The presence of Iran-linked cyber activities in top clusters may indicate an increased geopolitical cyber threat.",
+        "why_now": "Two clusters mention Iran-linked cyber activities.",
+        "supporting_signals": [
+          "title: Stryker hit by cyber attack from Iran",
+          "title: Iran-Linked Hackers Take Aim at US and Other Targets"
+        ],
+        "counter_signals": [
+          "sector_distribution: low counts in sectors typically targeted by state actors"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Monitor geopolitical developments involving Iran for potential cyber implications.",
+          "Assess if similar clusters appear in subsequent weeks to establish a trend."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific types of malware contributing to the high item count.",
+        "why_it_matters": "Understanding the types of malware can help in assessing potential impacts and mitigation strategies.",
+        "what_data_would_reduce_uncertainty": "Detailed breakdown of malware types and associated campaigns."
+      },
+      {
+        "unknown": "The reason for the absence of incident-related items despite high item counts in themes.",
+        "why_it_matters": "This could indicate a gap between threat detection and incident reporting.",
+        "what_data_would_reduce_uncertainty": "Access to incident reporting data or correlation with threat intelligence feeds."
+      },
+      {
+        "unknown": "The impact of source concentration on the overall data quality and bias.",
+        "why_it_matters": "High source concentration could skew the analysis and lead to biased conclusions.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of sources and cross-referencing with independent feeds."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "Increase by more than 2% over the next week",
+        "why_it_matters": "A significant increase could indicate a resurgence of phishing activities.",
+        "recommended_action": "Initiate phishing awareness campaigns and enhance email filtering."
+      },
+      {
+        "signal": "Malware-related item count",
+        "threshold": "Exceeds 900 items in a week",
+        "why_it_matters": "A further increase could signify an escalating malware threat.",
+        "recommended_action": "Conduct a detailed analysis of malware types and update defenses accordingly."
+      },
+      {
+        "signal": "Iran-linked cyber activity clusters",
+        "threshold": "More than 3 clusters in a week",
+        "why_it_matters": "An increase could suggest heightened geopolitical cyber threats.",
+        "recommended_action": "Increase monitoring of geopolitical developments and potential cyber threats."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
