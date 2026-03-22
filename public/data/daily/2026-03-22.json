@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-22T22:09:48.795Z",
+  "date": "2026-03-22",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 5645,
+    "completion_tokens": 445,
+    "total_tokens": 6090,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00111375,
+  "duration_seconds": 10.02,
+  "item_count": 42,
+  "digest": {
+    "date": "2026-03-22",
+    "summary": "Today's cybersecurity landscape was marked by a significant cyberattack attributed to Iranian hackers, which reportedly wiped 200,000 devices globally, raising alarms across the EU. The FBI issued a warning about a phishing campaign orchestrated by Russian hackers, compromising thousands of accounts on platforms like Signal and WhatsApp. In vulnerability news, CISA added several critical flaws in Apple and Laravel Livewire to its Known Exploited Vulnerabilities list. Additionally, Oracle released an emergency patch for a critical identity management vulnerability, emphasizing the urgent need for organizations to address security gaps. The Prime Minister of Vietnam highlighted the critical need for robust cybersecurity measures, reflecting a growing global awareness of cyber threats.",
+    "novel_clusters": [
+      {
+        "theme": "Iranian Cyberattack on Stryker",
+        "summary": "Iran-linked hackers executed a massive cyberattack that wiped 200,000 devices globally, signaling a severe threat to cybersecurity infrastructure.",
+        "why_matters": "This incident underscores the vulnerability of critical systems to state-sponsored cyberattacks, prompting urgent calls for enhanced cybersecurity measures.",
+        "item_count": 1
+      },
+      {
+        "theme": "Russian Phishing Campaign",
+        "summary": "The FBI reported a global phishing campaign by Russian hackers that compromised thousands of Signal and WhatsApp accounts.",
+        "why_matters": "This highlights the ongoing threat of phishing attacks and the need for users to remain vigilant about account security.",
+        "item_count": 1
+      },
+      {
+        "theme": "CISA Vulnerability Updates",
+        "summary": "CISA has added critical vulnerabilities in Apple and Laravel Livewire to its Known Exploited Vulnerabilities list, urging immediate action from affected organizations.",
+        "why_matters": "Prompt patching of these vulnerabilities is essential to prevent exploitation and safeguard sensitive data.",
+        "item_count": 1
+      },
+      {
+        "theme": "Oracle Emergency Patch Release",
+        "summary": "Oracle issued an emergency patch for a critical identity management vulnerability, addressing a severe threat to enterprise systems.",
+        "why_matters": "This highlights the importance of timely updates and patches to protect against potential breaches.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Vietnam's Cybersecurity Initiatives",
+        "summary": "The Prime Minister reiterated the urgency of cybersecurity measures, reflecting ongoing discussions about national security in the face of rising cyber threats.",
+        "item_count": 1
+      }
+    ]
+  }
+}
