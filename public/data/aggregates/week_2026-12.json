@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-03-16",
+  "week_end": "2026-03-22",
+  "week_number": 12,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1101,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "1.8",
+    "phishing_pct": "0.5",
+    "token_abuse_pct": "-0.2",
+    "ransomware_pct": "0.5"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.4",
+    "phishing_pct": "5.4",
+    "token_abuse_pct": "2.4",
+    "ransomware_pct": "3.7"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7732061762034514,
+      "item_count": 752
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6336966394187102,
+      "item_count": 368
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6115349682107175,
+      "item_count": 307
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5701180744777475,
+      "item_count": 193
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.551952770208901,
+      "item_count": 143
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.531244323342416,
+      "item_count": 86
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5297910990009083,
+      "item_count": 82
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5287011807447775,
+      "item_count": 79
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5287011807447775,
+      "item_count": 79
+    },
+    {
+      "theme": "microsoft",
+      "confidence": 0.5228882833787466,
+      "item_count": 63
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 45,
+      "percentage": "4.1"
+    },
+    {
+      "sector": "technology",
+      "count": 38,
+      "percentage": "3.5"
+    },
+    {
+      "sector": "energy",
+      "count": 10,
+      "percentage": "0.9"
+    },
+    {
+      "sector": "education",
+      "count": 9,
+      "percentage": "0.8"
+    },
+    {
+      "sector": "healthcare",
+      "count": 6,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "retail",
+      "count": 4,
+      "percentage": "0.4"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 2,
+      "percentage": "0.2"
+    },
+    {
+      "sector": "finance",
+      "count": 1,
+      "percentage": "0.1"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Access denied",
+      "size": 5,
+      "confidence": 0.6015894641235241
+    },
+    {
+      "title": "EU Sanctions Chinese, Iranian Firms Supporting Hacking Operations",
+      "size": 4,
+      "confidence": 0.6012715712988193
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
+      "size": 3,
+      "confidence": 0.6009536784741144
+    },
+    {
+      "title": "Amazon EC2 C8gn instances are now available in additional regions",
+      "size": 3,
+      "confidence": 0.6009536784741144
+    },
+    {
+      "title": "Andersen Consulting Bolsters Cybersecurity Offering Through Collaboration with Trillium ...",
+      "size": 3,
+      "confidence": 0.6009536784741144
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "60% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 368
+      },
+      {
+        "source": "Cyber",
+        "count": 193
+      },
+      {
+        "source": "Help Net Security",
+        "count": 97
+      }
+    ],
+    "total_sources": 59
+  }
+}

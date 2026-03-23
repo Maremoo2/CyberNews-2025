@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-03-23T00:33:53.134Z",
+  "pipeline_run_id": "run_2026-03-23T0033",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-12.json",
+  "aggregate_sha256": "3940d417e213995cd222e53ca53b4a9a0829eb7deb922f3bb55b8b0812e9ee85",
+  "code_commit": "fc0c6cb965dd5770a4b1ca453ce5f826e1ffd332",
+  "token_usage": {
+    "prompt_tokens": 1863,
+    "completion_tokens": 729,
+    "total_tokens": 2592,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 10.8,
+  "analysis": {
+    "week_start": "2026-03-16",
+    "week_end": "2026-03-22",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks suggests a rising trend in exploitation activities.",
+        "why_now": "Exploit-led attacks increased by 1.8% compared to last week, indicating a potential trend.",
+        "supporting_signals": [
+          "exploit_led_pct: 1.8% increase",
+          "exploit_led_pct: 11.4% of attack types"
+        ],
+        "counter_signals": [
+          "No incident-related items reported"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports for the next two weeks to confirm trend",
+          "Compare with historical data on exploit-led attacks"
+        ]
+      },
+      {
+        "claim": "Phishing activities are maintaining a steady presence in the threat landscape.",
+        "why_now": "Phishing percentage increased slightly by 0.5%, showing consistent activity.",
+        "supporting_signals": [
+          "phishing_pct: 0.5% increase",
+          "phishing_pct: 5.4% of attack types"
+        ],
+        "counter_signals": [
+          "Phishing theme has a lower item count compared to malware"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track phishing reports over the next month to identify any significant changes",
+          "Analyze phishing trends in relation to other attack types"
+        ]
+      },
+      {
+        "claim": "The concentration of sources may lead to biased reporting in the aggregate data.",
+        "why_now": "60% of data comes from the top three feeds, indicating potential bias.",
+        "supporting_signals": [
+          "source_concentration_warning: 60% from top 3 feeds",
+          "top_sources: Data/IT, Cyber, Help Net Security"
+        ],
+        "counter_signals": [
+          "Total sources: 59"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Diversify source inputs and compare results",
+          "Evaluate the impact of source concentration on reported themes"
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons for the lack of incident-related items this week.",
+        "why_it_matters": "Understanding this could clarify whether it's due to actual reduction in incidents or reporting issues.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or explanations from data sources."
+      },
+      {
+        "unknown": "The impact of EU sanctions on Chinese and Iranian firms on global cybersecurity trends.",
+        "why_it_matters": "Sanctions could influence hacking operations and threat actor behavior.",
+        "what_data_would_reduce_uncertainty": "Analysis of threat actor activities post-sanctions."
+      },
+      {
+        "unknown": "The reasons behind the low representation of the finance sector in reported items.",
+        "why_it_matters": "Finance is typically a high-target sector, and low reports could indicate underreporting or effective defenses.",
+        "what_data_would_reduce_uncertainty": "Sector-specific threat intelligence reports."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "Increase by more than 2% over two consecutive weeks",
+        "why_it_matters": "Significant increases could indicate a broader trend or emerging threat.",
+        "recommended_action": "Increase monitoring and analysis of exploit-led attack vectors."
+      },
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "Increase by more than 1% in a week",
+        "why_it_matters": "Sudden increases could signal new phishing campaigns or tactics.",
+        "recommended_action": "Enhance phishing awareness and detection measures."
+      },
+      {
+        "signal": "Source concentration",
+        "threshold": "More than 65% from top 3 feeds",
+        "why_it_matters": "Higher concentration could lead to biased or incomplete threat pictures.",
+        "recommended_action": "Seek additional sources to balance the data."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

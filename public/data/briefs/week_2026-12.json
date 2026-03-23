@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-03-23T00:34:10.147Z",
+  "week_start": "2026-03-16",
+  "week_end": "2026-03-22",
+  "week_year": 2026,
+  "week_number": 12,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 753,
+    "total_tokens": 2611,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007305,
+  "duration_seconds": 16.79,
+  "aggregate_sha256": "3940d417e213995cd222e53ca53b4a9a0829eb7deb922f3bb55b8b0812e9ee85",
+  "brief": {
+    "week_start": "2026-03-16",
+    "week_end": "2026-03-22",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cybersecurity Landscape",
+        "summary": "Malware-related incidents accounted for 68.3% of all reported items this week, highlighting a significant threat to organizational security.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Increased Phishing Activity Detected",
+        "summary": "Phishing incidents rose by 0.5% this week, indicating a growing risk for organizations, particularly in sectors like government and technology.",
+        "cluster_reference": "phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "EU Sanctions Target Hacking Support Firms",
+        "summary": "The EU has imposed sanctions on Chinese and Iranian firms linked to hacking operations, which may impact international business relations and cybersecurity strategies.",
+        "cluster_reference": "EU Sanctions Chinese, Iranian Firms Supporting Hacking Operations",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Amazon Enhances Cybersecurity Features",
+        "summary": "Amazon's new WebRTC support for real-time streaming and expanded EC2 instance availability may provide enhanced security options for businesses leveraging their cloud services.",
+        "cluster_reference": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Andersen Consulting Strengthens Cybersecurity Offerings",
+        "summary": "Andersen Consulting's collaboration with Trillium aims to bolster cybersecurity services, potentially impacting clients' security postures across various sectors.",
+        "cluster_reference": "Andersen Consulting Bolsters Cybersecurity Offering Through Collaboration with Trillium",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in exploit-led attacks by 1.8%",
+        "change_indicator": "Exploit-led attacks now make up 11.4% of incidents, up from last week.",
+        "significance": "This upward trend indicates a need for enhanced vulnerability management and patching strategies."
+      },
+      {
+        "pattern": "Phishing incidents up by 0.5%",
+        "change_indicator": "Phishing now accounts for 5.4% of reported attacks, reflecting a persistent threat.",
+        "significance": "Organizations should reinforce employee training and phishing detection measures."
+      },
+      {
+        "pattern": "Ransomware incidents increased by 0.5%",
+        "change_indicator": "Ransomware now represents 3.7% of attacks, suggesting a resurgence in this threat vector.",
+        "significance": "Review and bolster ransomware response plans and data backup strategies."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Malware attacks targeting sensitive data",
+        "affected_sectors": [
+          "government",
+          "technology",
+          "healthcare"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Phishing scams leading to data breaches",
+        "affected_sectors": [
+          "government",
+          "technology",
+          "education"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Ransomware attacks disrupting operations",
+        "affected_sectors": [
+          "healthcare",
+          "finance",
+          "retail"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Percentage of exploit-led attacks",
+        "threshold": "Above 12%",
+        "action": "Review vulnerability management practices and patching schedules."
+      },
+      {
+        "metric": "Phishing attack frequency",
+        "threshold": "Above 6%",
+        "action": "Enhance employee awareness training and phishing detection tools."
+      },
+      {
+        "metric": "Ransomware attack reports",
+        "threshold": "Above 4%",
+        "action": "Evaluate and strengthen ransomware response and recovery plans."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Investigate malware incidents in the government sector",
+        "reason": "High concentration of malware incidents may indicate targeted attacks.",
+        "cluster_ref": "malware"
+      },
+      {
+        "item": "Review phishing attempts reported in technology sector",
+        "reason": "Rising phishing incidents could lead to significant data breaches.",
+        "cluster_ref": "phishing"
+      },
+      {
+        "item": "Assess impact of EU sanctions on affected firms",
+        "reason": "Sanctions may alter threat landscape and business operations.",
+        "cluster_ref": "EU Sanctions Chinese, Iranian Firms Supporting Hacking Operations"
+      }
+    ]
+  }
+}
