@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-03-25T22:16:45.235Z",
+  "date": "2026-03-25",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 18085,
+    "completion_tokens": 563,
+    "total_tokens": 18648,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00305055,
+  "duration_seconds": 11.9,
+  "item_count": 143,
+  "digest": {
+    "date": "2026-03-25",
+    "summary": "Today's cybersecurity landscape witnessed significant developments, including the arrest of a major cybercriminal in Russia linked to a vast credential theft operation. A supply chain attack targeting a widely-used AI package raises alarms about the security of open-source software, potentially affecting thousands of organizations. In Spain, a ransomware attack disrupted operations at a major fishing port, highlighting the ongoing threat of ransomware to critical infrastructure. Additionally, the FCC announced a ban on new foreign-made routers due to national security concerns, reflecting growing vigilance against cyber threats. Meanwhile, a series of phishing campaigns targeting Microsoft 365 identities were reported, emphasizing the evolving tactics of cybercriminals.",
+    "novel_clusters": [
+      {
+        "theme": "LeakBase Admin Arrested",
+        "summary": "The administrator of the LeakBase cybercrime forum was arrested in Russia, marking a significant blow to a major credential theft operation.",
+        "why_matters": "This arrest could disrupt the operations of a key player in the cybercrime ecosystem, potentially reducing the availability of stolen credentials.",
+        "item_count": 1
+      },
+      {
+        "theme": "Supply Chain Attack on AI Package",
+        "summary": "A supply chain attack has compromised a widely-used AI package, raising concerns about the security of open-source software and its impact on numerous organizations.",
+        "why_matters": "This incident underscores the vulnerabilities in the open-source ecosystem, where widely-used tools can serve as entry points for cyberattacks.",
+        "item_count": 1
+      },
+      {
+        "theme": "Ransomware Attack at Spanish Port",
+        "summary": "A ransomware attack has disrupted operations at Spain’s Port of Vigo, forcing authorities to manage cargo operations manually.",
+        "why_matters": "This incident highlights the ongoing threat of ransomware to critical infrastructure, emphasizing the need for robust cybersecurity measures.",
+        "item_count": 1
+      },
+      {
+        "theme": "FCC Bans Foreign-Made Routers",
+        "summary": "The FCC has banned the import of new foreign-made consumer routers, citing unacceptable risks to national security.",
+        "why_matters": "This decision reflects heightened concerns over cybersecurity vulnerabilities associated with foreign-manufactured technology.",
+        "item_count": 1
+      },
+      {
+        "theme": "Phishing Campaign Targeting Microsoft 365 Users",
+        "summary": "A phishing campaign has targeted over 340 Microsoft 365 organizations, exploiting device code authentication methods.",
+        "why_matters": "This campaign illustrates the evolving tactics of cybercriminals and the need for organizations to enhance their security protocols.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Russian Botnet Operator Sentenced",
+        "summary": "Ilya Angelov, a Russian national, was sentenced to two years in prison for managing a botnet used in ransomware attacks against U.S. companies.",
+        "item_count": 1
+      },
+      {
+        "theme": "Ongoing Supply Chain Compromise Investigations",
+        "summary": "Investigations continue into the supply chain compromises affecting various software packages, including those linked to TeamPCP.",
+        "item_count": 1
+      }
+    ]
+  }
+}
