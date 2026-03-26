@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-03-26T22:11:15.134Z",
+  "date": "2026-03-26",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 16438,
+    "completion_tokens": 647,
+    "total_tokens": 17085,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0028539,
+  "duration_seconds": 35.26,
+  "item_count": 131,
+  "digest": {
+    "date": "2026-03-26",
+    "summary": "Today's cybersecurity landscape saw significant developments, particularly concerning state-sponsored threats and vulnerabilities. A China-linked group, Red Menshen, has been identified using stealthy BPFDoor implants for espionage in telecom networks, highlighting ongoing geopolitical cyber tensions. The U.S. government accused China of supporting cyber scams in Southeast Asia, further straining international relations. In the realm of vulnerabilities, a critical flaw in Citrix NetScaler has raised alarms, prompting urgent mitigation measures. Additionally, the RedLine infostealer malware continues to make headlines with the extradition of its alleged operator to the U.S. Meanwhile, the Port of Vigo experienced a ransomware attack, disrupting cargo management systems. These incidents underscore the evolving threat landscape and the need for robust cybersecurity measures across sectors.",
+    "novel_clusters": [
+      {
+        "theme": "Red Menshen Espionage Campaign",
+        "summary": "A China-linked threat actor, Red Menshen, has been detected using BPFDoor implants to conduct espionage through telecom networks, targeting government entities.",
+        "why_matters": "This incident illustrates the ongoing threat of state-sponsored cyber espionage, particularly from China, and raises concerns about the security of critical infrastructure.",
+        "item_count": 1
+      },
+      {
+        "theme": "Citrix NetScaler Vulnerability",
+        "summary": "A critical vulnerability in Citrix NetScaler has been reported, with researchers warning of potential exploitation following the release of proof-of-concept code.",
+        "why_matters": "Organizations using Citrix products must act quickly to mitigate risks, as the vulnerability could lead to severe security breaches.",
+        "item_count": 1
+      },
+      {
+        "theme": "Ransomware Attack on Port of Vigo",
+        "summary": "The Port of Vigo was hit by a ransomware attack that disrupted its cargo management systems, forcing authorities to shut down access to key digital services.",
+        "why_matters": "This attack highlights the vulnerability of critical infrastructure to cyber threats, emphasizing the need for enhanced security measures.",
+        "item_count": 1
+      },
+      {
+        "theme": "RedLine Infostealer Extradition",
+        "summary": "Hambardzum Minasyan, an alleged operator of the RedLine infostealer malware, has been extradited to the U.S. to face charges related to his cybercriminal activities.",
+        "why_matters": "This extradition marks a significant step in international law enforcement's efforts to combat cybercrime and hold perpetrators accountable.",
+        "item_count": 1
+      },
+      {
+        "theme": "U.S. Accusation Against China for Cyber Scams",
+        "summary": "A senior U.S. official accused China of supporting cyber scam operations in Southeast Asia, indicating a broader issue of state-sponsored cybercrime.",
+        "why_matters": "This accusation could lead to increased tensions between the U.S. and China and may prompt further investigations into cybercrime syndicates.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Ongoing RedLine Infostealer Investigation",
+        "summary": "The extradition of a second alleged operator of the RedLine infostealer malware continues the investigation into one of the most damaging cybercrime networks.",
+        "item_count": 1
+      },
+      {
+        "theme": "TeamPCP Supply Chain Campaign Update",
+        "summary": "An update on the TeamPCP supply chain campaign was released, revealing a broader scope than previously reported and new detection tools available.",
+        "item_count": 1
+      }
+    ]
+  }
+}
