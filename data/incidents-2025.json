@@ -21574,6 +21574,20 @@
     "impact": 3
   },
   {
+    "id": "20252072",
+    "date": "2025-07-03",
+    "title": "How Do Threat Actors Use AppInit_DLLs?",
+    "summary": "“AppInit_DLLs” is a powerful, yet often overlooked, mechanism in Windows that attackers frequently exploit for persistence, privilege escalation, and code injection. This technique allows adversaries to load their malicious Dynamic Link Libraries (DLLs) into nearly every process that loads user32...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/07/03/how-do-threat-actors-use-appinit_dlls/",
+    "tags": [
+      "vulnerability"
+    ],
+    "impact": 3
+  },
+  {
     "id": "20251721",
     "date": "2025-07-03",
     "title": "The bug that let anyone in.",
@@ -21670,6 +21684,21 @@
     "sourceName": "Il Sole 24 Ore",
     "sourceUrl": "https://www.ilsole24ore.com/art/cybersicurezza-nell-area-euro-investimenti-i-75-miliardi-AH47W3RB",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "20252073",
+    "date": "2025-07-02",
+    "title": "Threats to the Gaming Industry",
+    "summary": "The digital battleground extends far beyond virtual realms, directly impacting the thriving global gaming industry. In 2025, game developers, publishers, and even individual players find themselves increasingly under siege by sophisticated cyber threats, ranging from data breaches and ransomware ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/07/02/threats-to-the-gaming-industry/",
+    "tags": [
+      "ransomware",
+      "data-breach"
+    ],
     "impact": 3
   },
   {
@@ -21771,6 +21800,24 @@
       "ai-ml"
     ],
     "impact": 3
+  },
+  {
+    "id": "20252074",
+    "date": "2025-07-01",
+    "title": "Monthly Cloud Security Report",
+    "summary": "Executive Summary May 2025 proved to be a challenging month for cloud security, marked by a significant increase in sophisticated cyberattacks impacting various sectors, including finance, retail, healthcare, and technology. These incidents consistently highlighted persistent vulnerabilities such...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/07/01/monthly-cloud-security-report/",
+    "tags": [
+      "malware",
+      "cloud",
+      "healthcare",
+      "finance",
+      "ai-ml"
+    ],
+    "impact": 4
   },
   {
     "id": "20251723",
@@ -23601,6 +23648,35 @@
     "impact": 3
   },
   {
+    "id": "20252075",
+    "date": "2025-06-06",
+    "title": "Cyberespionage Campaign Targets Iraqi and Kurdish Officials with Sophisticated Malware",
+    "summary": "A sophisticated cyberespionage campaign, dubbed “BladedFeline” by security researchers at ESET, has been uncovered targeting high-ranking Iraqi and Kurdish officials. The operation leverages a trio of malicious tools – Whisper, PrimeCache, and a previously identified backdoor known as Shahmaran –...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/06/06/cyberespionage-campaign-targets-iraqi-and-kurdish-officials-with-sophisticated-malware/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252076",
+    "date": "2025-06-06",
+    "title": "Quantum Leap in Computing Threatens Current Encryption Standards",
+    "summary": "The burgeoning field of quantum computing, while promising revolutionary advancements in various sectors, presents a significant and looming threat to current cybersecurity practices, particularly in the realm of encryption. Experts warn that the very principles that give quantum computers their ...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/06/06/quantum-leap-in-computing-threatens-current-encryption-standards/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 4
+  },
+  {
     "id": "20251747",
     "date": "2025-06-06",
     "title": "Beware of BADBOX. ",
@@ -23715,6 +23791,39 @@
     "sourceUrl": "https://www.sdmmag.com/articles/104357-why-physical-security-integrators-must-embrace-cybersecurity",
     "tags": [
       "malware"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252077",
+    "date": "2025-06-05",
+    "title": "AI’s Hidden Hand: “Slopsquatting” Emerges as a New Cyber Threat from Code-Generating AI",
+    "summary": "In the ever-evolving landscape of cybersecurity threats, a novel and insidious technique has emerged, exploiting the growing reliance on artificial intelligence in software development. Dubbed “slopsquatting,” this method takes aim not at human error, but at the creative (and sometimes incorrect)...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/06/05/ais-hidden-hand-slopsquatting-emerges-as-a-new-cyber-threat-from-code-generating-ai/",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "20252078",
+    "date": "2025-06-05",
+    "title": "RAT in the Machine: Popular Code Library Hides Remote Access Trojan",
+    "summary": "Cybersecurity experts are sounding the alarm after a sophisticated supply chain attack was identified involving the widely used rand-user-agent package. The malicious activity, discovered on May 5, 2025, highlights the persistent and evolving threat landscape facing cloud environments and digital...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/06/05/rat-in-the-machine-popular-code-library-hides-remote-access-trojan/",
+    "tags": [
+      "malware",
+      "supply-chain",
+      "cloud",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -23971,6 +24080,20 @@
       "microsoft"
     ],
     "impact": 3
+  },
+  {
+    "id": "20252079",
+    "date": "2025-06-03",
+    "title": "Victoria’s Secret Website Offline Amidst “Security Incident”",
+    "summary": "Lingerie giant Victoria’s Secret has confirmed that its U.S. website was taken offline as a “precautionary measure” following a “security incident” that began impacting operations earlier this week. While the company has been tight-lipped on the exact nature of the disruption, the widespread outa...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/06/03/victorias-secret-website-offline-amidst-security-incident/",
+    "tags": [
+      "malware"
+    ],
+    "impact": 4
   },
   {
     "id": "20251750",
@@ -28545,6 +28668,22 @@
     "impact": 3
   },
   {
+    "id": "20252080",
+    "date": "2025-03-16",
+    "title": "Medusa Ransomware is Targeting Critical Infrastructure",
+    "summary": "Medusa Ransomware is Targeting Critical Infrastructure The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) have issued a warning in March 2025 regarding the escalating threat posed by the Medusa ransomware . This ransomware-as-a-service (RaaS)...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/03/16/medusa-ransomware-is-targeting-critical-infrastructure/",
+    "tags": [
+      "ransomware",
+      "government",
+      "critical-infrastructure"
+    ],
+    "impact": 5
+  },
+  {
     "id": "20251832",
     "date": "2025-03-16",
     "title": "Ingrid Toppelberg: Knowing how to take risks will pay off. [Cybersecurity education] [Career Notes]",
@@ -28604,6 +28743,21 @@
       "apple"
     ],
     "impact": 3
+  },
+  {
+    "id": "20252081",
+    "date": "2025-03-15",
+    "title": "Key Ransomware Group Activities – January 2025",
+    "summary": "Key Ransomware Group Activities – January 2025 This report summarizes the key activities of prominent ransomware groups in January 2025, based on available cybersecurity intelligence. Medusa Medusa ransomware attacks showed a significant increase in January 2025, with almost twice as many attacks...",
+    "region": "EU",
+    "country": "Global",
+    "sourceName": "Be4Sec",
+    "sourceUrl": "https://be4sec.wordpress.com/2025/03/15/key-ransomware-group-activities-january-2025/",
+    "tags": [
+      "ransomware",
+      "ai-ml"
+    ],
+    "impact": 4
   },
   {
     "id": "20252068",
