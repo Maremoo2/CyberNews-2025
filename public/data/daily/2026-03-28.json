@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-28T22:10:45.605Z",
+  "date": "2026-03-28",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 7991,
+    "completion_tokens": 532,
+    "total_tokens": 8523,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0015178499999999998,
+  "duration_seconds": 22.17,
+  "item_count": 62,
+  "digest": {
+    "date": "2026-03-28",
+    "summary": "Today's cybersecurity landscape was marked by significant incidents involving Iranian-linked hackers breaching the personal email of FBI Director Kash Patel and launching a wiper attack on Stryker. The TeamPCP supply chain campaign has shifted into a monetization phase, raising concerns about its potential impact on various sectors. In addition, critical vulnerabilities in Citrix NetScaler and F5 BIG-IP APM systems are under active exploitation, prompting urgent attention from cybersecurity agencies. The leak of Anthropic's AI model has raised alarms about unprecedented cybersecurity risks, affecting the stock market for cybersecurity firms. Meanwhile, a new malware, Infinity Stealer, has emerged, targeting macOS systems through deceptive tactics. Overall, the day highlighted the evolving threat landscape and the urgent need for robust cybersecurity measures.",
+    "novel_clusters": [
+      {
+        "theme": "Iran-Linked Cyber Incidents",
+        "summary": "Iranian hackers breached FBI Director Kash Patel's personal email and executed a wiper attack on Stryker, showcasing the escalating cyber threats from state-sponsored actors.",
+        "why_matters": "This incident underscores the vulnerabilities of high-profile individuals and organizations to targeted attacks, potentially compromising sensitive information and national security.",
+        "item_count": 2
+      },
+      {
+        "theme": "Emerging Malware Threat: Infinity Stealer",
+        "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems, utilizing deceptive methods to extract sensitive data.",
+        "why_matters": "As macOS systems become increasingly targeted, this malware highlights the need for users to remain vigilant against sophisticated phishing and malware tactics.",
+        "item_count": 2
+      },
+      {
+        "theme": "Critical Vulnerabilities in Citrix and F5 Systems",
+        "summary": "CISA has reported active exploitation of critical vulnerabilities in Citrix NetScaler and F5 BIG-IP APM systems, urging immediate patching and mitigation efforts.",
+        "why_matters": "These vulnerabilities pose significant risks to organizations using these systems, potentially allowing attackers to execute remote code and compromise sensitive data.",
+        "item_count": 2
+      },
+      {
+        "theme": "Anthropic AI Model Leak Raises Security Concerns",
+        "summary": "The leak of Anthropic's AI model has sparked fears regarding its potential misuse in cyber attacks, leading to a decline in cybersecurity stocks.",
+        "why_matters": "The implications of AI in cybersecurity are profound, as advanced models could be weaponized, necessitating a reevaluation of security strategies in the AI era.",
+        "item_count": 3
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "TeamPCP Supply Chain Campaign Update",
+        "summary": "The TeamPCP supply chain campaign has entered a monetization phase with no new compromises reported in the last 48 hours, indicating a shift in operational strategy.",
+        "item_count": 1
+      }
+    ]
+  }
+}
