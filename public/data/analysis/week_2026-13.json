@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-03-30T00:35:45.320Z",
+  "pipeline_run_id": "run_2026-03-30T0035",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-13.json",
+  "aggregate_sha256": "5291f6089b3cbff1b83f6246f634b4fb3260695e490cc0a28cf5610fa4b76ce9",
+  "code_commit": "5cae0f507587f5e938a433d1c44c06076542ff92",
+  "token_usage": {
+    "prompt_tokens": 1898,
+    "completion_tokens": 845,
+    "total_tokens": 2743,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 8.51,
+  "analysis": {
+    "week_start": "2026-03-23",
+    "week_end": "2026-03-29",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The prevalence of malware themes suggests an increased focus on malware-related incidents this week.",
+        "why_now": "Malware is the top theme with the highest item count and confidence.",
+        "supporting_signals": [
+          "Theme: malware, Item Count: 742, Confidence: 0.7610378188214599",
+          "Theme: data/it, Item Count: 408, Confidence: 0.6435356200527704"
+        ],
+        "counter_signals": [
+          "Incident related count is 0, indicating no confirmed incidents.",
+          "Exploit-led attacks decreased by 2.4%."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor for any increase in malware-related incidents in the coming weeks.",
+          "Cross-reference with external incident reports to confirm any malware activity."
+        ]
+      },
+      {
+        "claim": "The technology sector may be underreported in terms of incidents given its low representation in sector distribution.",
+        "why_now": "The technology sector has a low count despite being a common target for cyber attacks.",
+        "supporting_signals": [
+          "Sector: technology, Count: 28, Percentage: 2.5%",
+          "Theme: ai-ml, Item Count: 311, Confidence: 0.6094107299912049"
+        ],
+        "counter_signals": [
+          "Theme: cyber, Item Count: 198, Confidence: 0.5696569920844328"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Compare with historical data to see if technology sector incidents are typically underreported.",
+          "Check for any technology sector-specific reports or alerts from other sources."
+        ]
+      },
+      {
+        "claim": "Token abuse incidents are on a slight rise, indicating potential emerging threats in this area.",
+        "why_now": "Token abuse percentage increased by 1.0% from last week.",
+        "supporting_signals": [
+          "Token abuse percentage: 3.3%, Delta: +1.0%",
+          "Theme: aws, Item Count: 62, Confidence: 0.5218117854001759"
+        ],
+        "counter_signals": [
+          "Overall incident-related count remains at 0.",
+          "Ransomware and phishing percentages are higher."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor token abuse incidents in the next few weeks for any significant increase.",
+          "Investigate specific cases of token abuse to understand the context and impact."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific causes behind the decrease in exploit-led attacks.",
+        "why_it_matters": "Understanding the cause can help in reinforcing defenses against exploit-led attacks.",
+        "what_data_would_reduce_uncertainty": "Detailed reports on exploit-led attack methods and mitigation strategies."
+      },
+      {
+        "unknown": "The reasons for the low incident-related count despite high theme item counts.",
+        "why_it_matters": "This could indicate a gap in incident detection or reporting.",
+        "what_data_would_reduce_uncertainty": "Access to incident detection and reporting mechanisms used by the sources."
+      },
+      {
+        "unknown": "The impact of the source concentration warning on the overall data quality.",
+        "why_it_matters": "High concentration from few sources could skew the data representation.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of sources and comparison with independent feeds."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Increase in malware-related incidents.",
+        "threshold": "10% increase in malware theme item count.",
+        "why_it_matters": "A rise could indicate a growing threat landscape for malware.",
+        "recommended_action": "Initiate a review of malware defense mechanisms if threshold is crossed."
+      },
+      {
+        "signal": "Change in the technology sector incident count.",
+        "threshold": "5% increase in technology sector distribution.",
+        "why_it_matters": "Could indicate a shift in attack focus towards the technology sector.",
+        "recommended_action": "Conduct a sector-specific threat assessment if threshold is crossed."
+      },
+      {
+        "signal": "Rise in token abuse percentage.",
+        "threshold": "2% increase in token abuse percentage.",
+        "why_it_matters": "A continued rise could signal emerging threats in token security.",
+        "recommended_action": "Enhance monitoring and protection for token-based systems if threshold is crossed."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

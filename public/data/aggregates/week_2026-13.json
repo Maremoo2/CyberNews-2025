@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-03-23",
+  "week_end": "2026-03-29",
+  "week_number": 13,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1137,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-2.4",
+    "phishing_pct": "0.5",
+    "token_abuse_pct": "1.0",
+    "ransomware_pct": "0.2"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "9.1",
+    "phishing_pct": "5.9",
+    "token_abuse_pct": "3.3",
+    "ransomware_pct": "3.9"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7610378188214599,
+      "item_count": 742
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6435356200527704,
+      "item_count": 408
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6094107299912049,
+      "item_count": 311
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5696569920844328,
+      "item_count": 198
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5394019349164468,
+      "item_count": 112
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5355321020228672,
+      "item_count": 101
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5355321020228672,
+      "item_count": 101
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5309586631486367,
+      "item_count": 88
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5274406332453826,
+      "item_count": 78
+    },
+    {
+      "theme": "aws",
+      "confidence": 0.5218117854001759,
+      "item_count": 62
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 40,
+      "percentage": "3.5"
+    },
+    {
+      "sector": "technology",
+      "count": 28,
+      "percentage": "2.5"
+    },
+    {
+      "sector": "energy",
+      "count": 11,
+      "percentage": "1.0"
+    },
+    {
+      "sector": "finance",
+      "count": 9,
+      "percentage": "0.8"
+    },
+    {
+      "sector": "healthcare",
+      "count": 8,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "education",
+      "count": 7,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 1,
+      "percentage": "0.1"
+    },
+    {
+      "sector": "retail",
+      "count": 1,
+      "percentage": "0.1"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Trivy supply chain breach compromises over 1,000 SaaS environments, Lapsus$ joins the extortion wave",
+      "size": 5,
+      "confidence": 0.6015391380826737
+    },
+    {
+      "title": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+      "size": 5,
+      "confidence": 0.6015391380826737
+    },
+    {
+      "title": "RSAC 2026 Conference Announcements Summary (Days 3-4)",
+      "size": 4,
+      "confidence": 0.601231310466139
+    },
+    {
+      "title": "Amazon EC2 M8a instances now available in AWS Europe (Ireland) region",
+      "size": 4,
+      "confidence": 0.601231310466139
+    },
+    {
+      "title": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Co...",
+      "size": 3,
+      "confidence": 0.6009234828496042
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "60% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 408
+      },
+      {
+        "source": "Cyber",
+        "count": 198
+      },
+      {
+        "source": "Help Net Security",
+        "count": 79
+      }
+    ],
+    "total_sources": 60
+  }
+}

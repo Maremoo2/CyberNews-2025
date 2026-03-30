@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-03-30T00:36:21.317Z",
+  "week_start": "2026-03-23",
+  "week_end": "2026-03-29",
+  "week_year": 2026,
+  "week_number": 13,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1893,
+    "completion_tokens": 1827,
+    "total_tokens": 3720,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0013801500000000001,
+  "duration_seconds": 35.74,
+  "aggregate_sha256": "5291f6089b3cbff1b83f6246f634b4fb3260695e490cc0a28cf5610fa4b76ce9",
+  "brief": {
+    "week_start": "2026-03-23",
+    "week_end": "2026-03-29",
+    "top_5_things": [
+      {
+        "headline": "Trivy Supply Chain Breach Affects 1,000+ SaaS Environments",
+        "summary": "A significant breach involving Trivy has compromised over 1,000 SaaS environments, indicating a critical vulnerability in supply chain security.",
+        "cluster_reference": "Trivy supply chain breach compromises over 1,000 SaaS environments, Lapsus$ joins the extortion wave",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Increase in Phishing Attacks Signals Ongoing Threats",
+        "summary": "Phishing incidents have risen by 0.5%, highlighting the need for enhanced user training and awareness programs.",
+        "cluster_reference": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Ransomware Threats Persist Despite Minor Decrease",
+        "summary": "Ransomware attacks have slightly decreased by 0.2%, but the threat remains significant, necessitating continued vigilance.",
+        "cluster_reference": "Cyber Security News Today | Articles on Cyber Security, Malware Attack updates",
+        "impact_level": "high"
+      },
+      {
+        "headline": "RSAC 2026 Highlights Key Cybersecurity Trends",
+        "summary": "Recent announcements from the RSAC 2026 conference underscore emerging trends and threats in the cybersecurity landscape.",
+        "cluster_reference": "RSAC 2026 Conference Announcements Summary (Days 3-4)",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "TeamPCP Supply Chain Campaign Enters Monetization Phase",
+        "summary": "The TeamPCP campaign is shifting focus towards monetization, indicating a potential increase in targeted attacks.",
+        "cluster_reference": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Co...",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Decrease in exploit-led attacks by 2.4%",
+        "change_indicator": "Exploit-led attacks have decreased, indicating potential improvements in defense mechanisms.",
+        "significance": "This reduction may reflect enhanced security measures but requires ongoing monitoring."
+      },
+      {
+        "pattern": "Increase in token abuse by 1.0%",
+        "change_indicator": "Token abuse incidents are on the rise, suggesting attackers are adapting their strategies.",
+        "significance": "Organizations should review token management practices to mitigate this risk."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Supply chain vulnerabilities due to recent breaches",
+        "affected_sectors": [
+          "technology",
+          "government"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Increased phishing attacks targeting employees",
+        "affected_sectors": [
+          "finance",
+          "healthcare",
+          "education"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Ongoing ransomware threats despite slight decrease",
+        "affected_sectors": [
+          "technology",
+          "energy"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Phishing attack rate",
+        "threshold": ">6%",
+        "action": "Implement immediate user awareness training if threshold is crossed."
+      },
+      {
+        "metric": "Token abuse incidents",
+        "threshold": ">4%",
+        "action": "Review and enhance token security protocols if threshold is crossed."
+      },
+      {
+        "metric": "Ransomware attack frequency",
+        "threshold": ">4%",
+        "action": "Initiate a full security audit and response plan if threshold is crossed."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Trivy supply chain breach",
+        "reason": "High impact on SaaS environments necessitates a detailed investigation into affected services and potential vulnerabilities.",
+        "cluster_ref": "Trivy supply chain breach compromises over 1,000 SaaS environments, Lapsus$ joins the extortion wave"
+      },
+      {
+        "item": "TeamPCP Supply Chain Campaign",
+        "reason": "Shift to monetization phase may indicate increased targeting; review operational security measures.",
+        "cluster_ref": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Co..."
+      },
+      {
+        "item": "TeamPCP Supply Chain Campaign",
+        "reason": "Shift to monetization phase may indicate increased targeting; review operational security measures.",
+        "cluster_ref": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Co..."
+      }
+    ]
+  }
+}
