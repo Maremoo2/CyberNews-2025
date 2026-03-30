@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-30T22:16:33.122Z",
+  "date": "2026-03-30",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 18334,
+    "completion_tokens": 525,
+    "total_tokens": 18859,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0030651000000000003,
+  "duration_seconds": 28.04,
+  "item_count": 145,
+  "digest": {
+    "date": "2026-03-30",
+    "summary": "Today's cybersecurity landscape was marked by significant incidents and vulnerabilities. The Italian Data Protection Authority imposed a $36 million fine on Intesa Sanpaolo SpA for data protection failures, highlighting the ongoing scrutiny of financial institutions. A new malware campaign, DeepLoad, has emerged, utilizing AI techniques and social engineering to steal browser credentials. Meanwhile, the TeamPCP supply chain attack continues to evolve, with new reports of dual ransomware operations and data leaks affecting major companies like AstraZeneca. The European Commission confirmed a data breach involving ShinyHunters, raising concerns about the security of its cloud infrastructure. Additionally, critical vulnerabilities in Citrix NetScaler and Fortinet's FortiClient EMS are actively being exploited, emphasizing the urgent need for organizations to patch their systems.",
+    "novel_clusters": [
+      {
+        "theme": "DeepLoad Malware Campaign",
+        "summary": "A new malware campaign named DeepLoad has been identified, utilizing ClickFix social engineering tactics and AI-assisted obfuscation to steal browser credentials.",
+        "why_matters": "This campaign represents a sophisticated evolution in malware distribution, leveraging AI to evade detection and target sensitive user data.",
+        "item_count": 2
+      },
+      {
+        "theme": "TeamPCP Supply Chain Attack",
+        "summary": "The TeamPCP supply chain attack has escalated, with reports of dual ransomware operations and data leaks from companies like AstraZeneca and Databricks.",
+        "why_matters": "This incident underscores the vulnerabilities in supply chain security and the potential for widespread impact on multiple organizations.",
+        "item_count": 3
+      },
+      {
+        "theme": "European Commission Data Breach",
+        "summary": "The European Commission has confirmed a data breach involving the ShinyHunters group, which allegedly stole over 350GB of data from its cloud infrastructure.",
+        "why_matters": "This breach raises serious questions about the security of governmental data and the implications for public trust in digital services.",
+        "item_count": 2
+      },
+      {
+        "theme": "Critical Vulnerabilities in Citrix and Fortinet",
+        "summary": "Active exploitation of critical vulnerabilities in Citrix NetScaler (CVE-2026-3055) and Fortinet's FortiClient EMS is reported, with attackers targeting unpatched systems.",
+        "why_matters": "These vulnerabilities pose significant risks to organizations, highlighting the importance of timely patch management to prevent breaches.",
+        "item_count": 3
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Ongoing Investigations into Iranian Cyberattacks",
+        "summary": "The FBI has confirmed that Iranian hackers breached FBI Director Kash Patel's email, leading to a $10 million reward for information on the attackers. This incident reflects the increasing risks posed by state-sponsored cyber threats.",
+        "item_count": 2
+      }
+    ]
+  }
+}
