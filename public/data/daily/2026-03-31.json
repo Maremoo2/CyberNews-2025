@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-03-31T22:16:17.226Z",
+  "date": "2026-03-31",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 20861,
+    "completion_tokens": 606,
+    "total_tokens": 21467,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00349275,
+  "duration_seconds": 24.06,
+  "item_count": 167,
+  "digest": {
+    "date": "2026-03-31",
+    "summary": "Today's cybersecurity landscape was marked by significant incidents and vulnerabilities. A major supply chain attack on the Axios npm package exposed developers to malware, raising alarms across the JavaScript ecosystem. The U.S. has indicted a Maryland man for stealing over $54 million from the Uranium Finance crypto exchange, highlighting ongoing issues with cryptocurrency security. Additionally, a critical vulnerability in Fortinet's FortiClient EMS is actively being exploited, prompting urgent patching efforts. In healthcare, CareCloud reported a breach affecting patient data, emphasizing the risks in digital health systems. Meanwhile, a zero-day vulnerability in TrueConf video conferencing software has been exploited in Southeast Asia, targeting government networks. These incidents underscore the evolving threat landscape and the need for robust cybersecurity measures across sectors.",
+    "novel_clusters": [
+      {
+        "theme": "Axios Supply Chain Attack",
+        "summary": "A supply chain attack on the Axios npm package compromised two versions of the widely used library, delivering malware to users across multiple platforms.",
+        "why_matters": "This incident highlights the vulnerabilities in the software supply chain and the potential for widespread impact on developers and organizations relying on open-source libraries.",
+        "item_count": 5
+      },
+      {
+        "theme": "Uranium Finance Theft Indictment",
+        "summary": "U.S. authorities have indicted a Maryland man for hacking the Uranium Finance crypto exchange and stealing over $54 million, marking a significant case in cryptocurrency crime.",
+        "why_matters": "This case illustrates the ongoing challenges in securing cryptocurrency platforms and the legal actions being taken against cybercriminals.",
+        "item_count": 2
+      },
+      {
+        "theme": "Critical Fortinet Vulnerability Exploitation",
+        "summary": "A critical SQL injection vulnerability in Fortinet's FortiClient EMS is under active exploitation, prompting urgent patching by affected organizations.",
+        "why_matters": "The severity of this vulnerability, rated 9.3, poses a significant risk to organizations using Fortinet products, necessitating immediate action to mitigate potential breaches.",
+        "item_count": 3
+      },
+      {
+        "theme": "CareCloud Data Breach",
+        "summary": "Healthcare provider CareCloud reported a breach that exposed sensitive patient data, disrupting access to electronic health records.",
+        "why_matters": "This incident underscores the vulnerabilities in healthcare IT systems and the importance of securing patient data against cyber threats.",
+        "item_count": 2
+      },
+      {
+        "theme": "TrueConf Zero-Day Exploitation",
+        "summary": "A zero-day vulnerability in TrueConf video conferencing software has been exploited in attacks targeting Southeast Asian government networks.",
+        "why_matters": "The exploitation of this vulnerability demonstrates the risks associated with video conferencing tools, especially in sensitive governmental contexts.",
+        "item_count": 2
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Ongoing Cyber Threats from Iran",
+        "summary": "Iranian hackers are reportedly targeting U.S. critical infrastructure through ransomware proxies, with new advisories issued by U.S. agencies.",
+        "item_count": 2
+      },
+      {
+        "theme": "Ransomware and Credential Theft Trends",
+        "summary": "Reports continue to highlight the industrialized credential theft fueling ransomware and nation-state attacks, shifting focus from prevention to detection.",
+        "item_count": 2
+      }
+    ]
+  }
+}
