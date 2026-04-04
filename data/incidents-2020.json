@@ -3039,6 +3039,37 @@
     "impact": 3
   },
   {
+    "id": "2020003",
+    "date": "2020-12-02",
+    "title": "Avis AVG AntiVirus (2026) : le cousin un peu moins intrusif d'Avast",
+    "summary": "Avec Norton, Avast, et Avira, AVG est tombé sous le giron du géant de la cybersécurité américain Gen. Fort de plus de 200 millions d'utilisateurs à travers le monde, l'éditeur antivirus tchèque devrait profiter de cette fusion pour améliorer son antivirus. Doté du même moteur de détection qu'Avas...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/logiciel-antivirus/antivirus-gratuit/article-894982-1-avg-antivirus-19-5-mac-cousin-intrusif-avast.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020002",
+    "date": "2020-12-02",
+    "title": "Avis Microsoft Defender (2026) : Que vaut l'antivirus natif de Microsoft ?",
+    "summary": "Anciennement appelé Windows Defender, Microsoft Defender est l'antivirus installé nativement sur les systèmes d'exploitation de Windows 7, 8, 10 et 11. Bien que gratuit, le service figure régulièrement en tête des antivirus les plus performants des classements des laboratoires de tests de référen...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/logiciel-antivirus/antivirus-gratuit/article-888448-1-vaut-antivirus-windows-defender.html",
+    "tags": [
+      "vulnerability",
+      "malware",
+      "microsoft"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2020004",
     "date": "2020-12-02",
     "title": "Avis AVG AntiVirus (2026) : le cousin un peu moins intrusif d'Avast",
@@ -4834,7 +4865,21 @@
     "impact": 3
   },
   {
-    "id": "2020003",
+    "id": "2020001",
+    "date": "2020-11-30",
+    "title": "Avis PureVPN (2026) : un VPN désormais plus cohérent et bien équilibré",
+    "summary": "PureVPN n’a plus grand-chose à voir avec le service bancal qu’il a pu être. Sans prétendre au titre de meilleur VPN, le fournisseur affiche aujourd’hui un profil plus cohérent, avec une infrastructure renforcée, une offre élargie et une copie plus propre sur la confidentialité. De vrais progrès, ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-878294-1-avis-pure-vpn.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020004",
     "date": "2020-11-24",
     "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
     "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
@@ -4867,6 +4912,44 @@
     "sourceName": "Clubic",
     "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020003",
+    "date": "2020-11-24",
+    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
+    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020002",
+    "date": "2020-11-24",
+    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
+    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020007",
+    "date": "2020-11-24",
+    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
+    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -4897,110 +4980,6 @@
   },
   {
     "id": "2020002",
-    "date": "2020-11-24",
-    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
-    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2020007",
-    "date": "2020-11-24",
-    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
-    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2020002",
-    "date": "2020-11-24",
-    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
-    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2020007",
-    "date": "2020-11-24",
-    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
-    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2020002",
-    "date": "2020-11-24",
-    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
-    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2020007",
-    "date": "2020-11-24",
-    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
-    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2020003",
-    "date": "2020-11-24",
-    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
-    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
-    "tags": [],
-    "impact": 3
-  },
-  {
-    "id": "2020007",
-    "date": "2020-11-24",
-    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
-    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
-    "region": "EU",
-    "country": "France",
-    "sourceName": "Clubic",
-    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
-    "tags": [
-      "ai-ml"
-    ],
-    "impact": 3
-  },
-  {
-    "id": "2020003",
     "date": "2020-11-24",
     "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
     "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
@@ -5078,6 +5057,84 @@
     "impact": 3
   },
   {
+    "id": "2020003",
+    "date": "2020-11-24",
+    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
+    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020007",
+    "date": "2020-11-24",
+    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
+    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020002",
+    "date": "2020-11-24",
+    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
+    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020007",
+    "date": "2020-11-24",
+    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
+    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020003",
+    "date": "2020-11-24",
+    "title": "Avis Private Internet Access (2026) : un VPN fiable, malgré son implantation aux États-Unis",
+    "summary": "Installé aux États-Unis et intégré au périmètre des Five Eyes, Private Internet Access n’aborde pas la question de la confidentialité avec le profil le plus rassurant sur le papier. Il constitue malgré tout un VPN solide, bien équipé et étonnamment constant dans ses performances, qui compense en ...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/actualite-4500-private-internet-acess-avis-que-vaut-le-vpn-americain-rachete-par-kape-.html",
+    "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020007",
+    "date": "2020-11-24",
+    "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
+    "summary": "Longtemps rangé parmi les services les plus chers du marché, ExpressVPN a revu sa copie sans toucher à ce qui fait sa réputation. Prix plus compétitifs, protocole Lightway toujours au centre du jeu, infrastructure en RAM, extension de navigateur plus autonome, ExpressKeys désormais séparé du clie...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/vpn/article-851276-1-prise-en-main-expressvpn-services-vpn-complets.html",
+    "tags": [
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2020004",
     "date": "2020-11-24",
     "title": "Avis ExpressVPN (2026) : notre test du VPN le plus rapide du marché ?",
@@ -5719,6 +5776,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2020007",
+    "date": "2020-10-12",
+    "title": "BYOD security tips to minimize risks",
+    "summary": "The practice of BYOD is extremely beneficial for the large as well as small businesses. This practice helps the organization to create a hazel-free working environment. Though BYOD possesses several advantages, it is recommended that an organization should take appropriate steps before implementi...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/byod-security-tips-to-minimize-risks/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -9403,6 +9472,20 @@
     "sourceName": "ZENOSEC",
     "sourceUrl": "https://zeno-sec.com/blog/byod-security-tips-to-minimize-risks/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020008",
+    "date": "2020-10-09",
+    "title": "Disgruntled employee and the risk they pose",
+    "summary": "Are you a kind yet strict boss who believes in teamwork and due dates? If the answer is a yes to that then good for you or maybe not! If you think that your company is best in terms of relationships with the employee then think again! Ponder! Give a […] The post Disgruntled employee and the risk ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/disgruntled-employee-and-the-risk-they-pose/",
+    "tags": [
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -13700,6 +13783,21 @@
     "sourceUrl": "https://zeno-sec.com/blog/disgruntled-employee-and-the-risk-they-pose/",
     "tags": [
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020009",
+    "date": "2020-09-09",
+    "title": "Class-action Lawsuits Under GDPR",
+    "summary": "(Will Force Businesses To Focus On Security) Even after years of GDPR policies in Europe, the effect of the class action lawsuits on personal data has yet to show evidence. While class action figures may be low at the present, the number of cases is expected to rise. In 2018, […] The post Class-a...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/class-action-lawsuits-under-gdpr/",
+    "tags": [
+      "cloud",
+      "aws"
     ],
     "impact": 3
   },
@@ -18305,6 +18403,21 @@
     "tags": [
       "cloud",
       "aws"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020014",
+    "date": "2020-08-31",
+    "title": "Security Folkways and Deliberate Security Culture",
+    "summary": "Security culture remains an elusive amorphous ‘thing’ that we all aspire to improve but don’t really understand why or how. This is not unusual in organisations and institutions who try to understand why the interactions and communication between the people who make the goals of the group happen ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/08/security-folkways-and-deliberate-security-culture/",
+    "tags": [
+      "malware",
+      "ai-ml"
     ],
     "impact": 3
   },
@@ -23195,6 +23308,51 @@
     "tags": [
       "malware",
       "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020005",
+    "date": "2020-08-20",
+    "title": "Meilleur antivirus gratuit pour Android, le comparatif en 2026",
+    "summary": "Entre malwares, vols de données et applis douteuses, votre smartphone Android est en première ligne. Heureusement, certains antivirus gratuits (ou avec des périodes d'essai) offrent une protection solide sans vider votre batterie ni votre portefeuille. Nous avons testé les meilleures solutions du...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/logiciel-antivirus/article-880088-1-antivirus-meilleur-antivirus-gratuit-android.html",
+    "tags": [
+      "malware",
+      "mobile",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020006",
+    "date": "2020-08-20",
+    "title": "Comparatif des meilleurs antivirus gratuits en 2026",
+    "summary": "En avril 2026, nous avons réévalué 5 antivirus gratuits sur Windows en nous concentrant sur trois critères simples, l’efficacité de détection, l’impact sur les performances et la facilité d’usage. Bitdefender Antivirus Free reste le choix le plus convaincant du lot, avec un moteur de protection f...",
+    "region": "EU",
+    "country": "France",
+    "sourceName": "Clubic",
+    "sourceUrl": "https://www.clubic.com/antivirus-securite-informatique/logiciel-antivirus/antivirus-gratuit/article-880101-1-meilleur-antivirus-gratuit.html",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020015",
+    "date": "2020-08-20",
+    "title": "Homebrew Monte Carlo Simulations for Security Risk Analysis Part 2",
+    "summary": "Previously I wrote about how I had implemented the simple quantitative analysis from Doug Hubbard’s book ‘How to measure anything in cybersecurity’ into javascript. When I wrote that code for Monte Carlo simulation I was working with percentage probabilities derived from expected rates of occurre...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/08/homebrew-monte-carlo-simulations-for-security-risk-analysis-part-2/",
+    "tags": [
+      "malware"
     ],
     "impact": 3
   },
@@ -29322,6 +29480,21 @@
     "impact": 3
   },
   {
+    "id": "2020010",
+    "date": "2020-07-20",
+    "title": "The Seriousness Of Insider Threats",
+    "summary": "Introduction: Twitter has suffered scams promoting cryptocurrency due to insiders threats since 2018. But eventually, on July 15th 2020 it escalated to one of the most disastrous security breaches in history that targeted prominent verified profiles like Barack Obama, Joe Biden, Elon Musk, Jeff B...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/the-seriousness-of-insider-threats/",
+    "tags": [
+      "data-breach",
+      "twitter"
+    ],
+    "impact": 3
+  },
+  {
     "id": "2020011",
     "date": "2020-07-20",
     "title": "The Seriousness Of Insider Threats",
@@ -33880,6 +34053,20 @@
       "twitter"
     ],
     "impact": 3
+  },
+  {
+    "id": "2020011",
+    "date": "2020-07-16",
+    "title": "Why Encryption is a critical aspect of data protection?",
+    "summary": "Introduction There is probably nothing more essential security instrument than data encryption. Encryption is utilized in a significant number of valuable security arrangements. It has now become a staple for guaranteeing the stage where unapproved access to data is unimaginable. With the system ...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/why-encryption-is-a-critical-aspect-of-data-protection/",
+    "tags": [
+      "encryption"
+    ],
+    "impact": 5
   },
   {
     "id": "2020011",
@@ -38178,6 +38365,21 @@
       "encryption"
     ],
     "impact": 5
+  },
+  {
+    "id": "2020012",
+    "date": "2020-07-14",
+    "title": "Why user security awareness must follow the continuous delivery model?",
+    "summary": "User security awareness is a very important aspect in a company’s security policy that involves testing and awarding the employees for protection against cyberattacks. User security awareness training aids in recognising, avoiding and proper reporting of potential threats. This can prevent compro...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "ZENOSEC",
+    "sourceUrl": "https://zeno-sec.com/blog/why-user-security-awareness-must-follow-the-continuous-delivery-model/",
+    "tags": [
+      "malware",
+      "ai-ml"
+    ],
+    "impact": 3
   },
   {
     "id": "2020012",
@@ -42780,6 +42982,20 @@
     "sourceUrl": "https://zeno-sec.com/blog/why-user-security-awareness-must-follow-the-continuous-delivery-model/",
     "tags": [
       "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020016",
+    "date": "2020-06-21",
+    "title": "Open Security Summit 2020",
+    "summary": "This was a busy week but once again the Open Security Summit proved why it is one of my favourite events on the security calendar. There is now a huge list of content recorded at the the summit and during the training sessions available for free, I will be returning to this over the next few mont...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/06/open-security-summit-2020/",
+    "tags": [
       "ai-ml"
     ],
     "impact": 3
@@ -47346,6 +47562,18 @@
     "tags": [
       "ai-ml"
     ],
+    "impact": 3
+  },
+  {
+    "id": "2020017",
+    "date": "2020-06-16",
+    "title": "What are we missing in risk?",
+    "summary": "I’ve recently been talking with some executives who bemoan the risk management in their organisations. They don’t trust the risks as they are presented and worry about putting their finite resources of money and time in the wrong places because of it. They worry that as soon as the analysts are u...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/06/what-are-we-missing-in-risk/",
+    "tags": [],
     "impact": 3
   },
   {
@@ -51258,6 +51486,21 @@
     "sourceName": "Black Swan Security",
     "sourceUrl": "https://blog.blackswansecurity.com/2020/06/what-are-we-missing-in-risk/",
     "tags": [],
+    "impact": 3
+  },
+  {
+    "id": "2020018",
+    "date": "2020-05-27",
+    "title": "Commercial & Government Cyber Conversation",
+    "summary": "In these remote-first times I recently took part in a zoom conversation led by Henry Harrison at Garrison on the growing similarities between commercial and government cyber security. I was joined by Russell Kempley, James Chappell and Bernard Parsons MBE. We ranged from the constraints of high-t...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/05/commercial-government-cyber-conversation/",
+    "tags": [
+      "government",
+      "ai-ml"
+    ],
     "impact": 3
   },
   {
@@ -56146,6 +56389,21 @@
     "sourceUrl": "https://blog.blackswansecurity.com/2020/05/commercial-government-cyber-conversation/",
     "tags": [
       "government",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020019",
+    "date": "2020-05-04",
+    "title": "Through the barricades..",
+    "summary": "I was speaking with a peer recently about the value of bow-tie diagrams and how they allow you to separate controls from mitigations and it became obvious I was using these terms in a way that needed to be explained. Barrier model risk methods developed in the safety and reliability world where a...",
+    "region": "EU",
+    "country": "United Kingdom",
+    "sourceName": "Black Swan Security",
+    "sourceUrl": "https://blog.blackswansecurity.com/2020/05/through-the-barricades/",
+    "tags": [
+      "malware",
       "ai-ml"
     ],
     "impact": 3
@@ -61036,6 +61294,22 @@
     "sourceUrl": "https://blog.blackswansecurity.com/2020/05/through-the-barricades/",
     "tags": [
       "malware",
+      "ai-ml"
+    ],
+    "impact": 3
+  },
+  {
+    "id": "2020013",
+    "date": "2020-02-28",
+    "title": "How AI Can Help To Define Governments National Cybersecurity Strategies",
+    "summary": "AI and National Cybersecurity Strategies When we speak about cybersecurity threats, there is nothing riskier and troublesome than the complexity of a modern country, where the digital has taken over all day-to-day operations. Moreover, governments and the state’s administration held millions of c...",
+    "region": "ASIA",
+    "country": "Global",
+    "sourceName": "Aghiath Chbib",
+    "sourceUrl": "https://aghiathchbib.com/2020/02/28/how-ai-can-help-to-define-governments-national-cybersecurity-strategies/",
+    "tags": [
+      "malware",
+      "government",
       "ai-ml"
     ],
     "impact": 3
