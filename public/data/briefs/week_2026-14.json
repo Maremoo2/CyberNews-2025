@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-06T00:36:13.608Z",
+  "week_start": "2026-03-30",
+  "week_end": "2026-04-05",
+  "week_year": 2026,
+  "week_number": 14,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1884,
+    "completion_tokens": 768,
+    "total_tokens": 2652,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007434,
+  "duration_seconds": 15.97,
+  "aggregate_sha256": "ec5e42560de0667793e612fabb2ad074a07e7e880c48c75f3b8c7491cc10ee5f",
+  "brief": {
+    "week_start": "2026-03-30",
+    "week_end": "2026-04-05",
+    "top_5_things": [
+      {
+        "headline": "Data Breach Confirmed in European Commission Supply Chain Attack",
+        "summary": "The European Commission has confirmed a significant data breach linked to a supply chain attack involving Trivy, highlighting vulnerabilities in governmental cybersecurity.",
+        "cluster_reference": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+        "impact_level": "high"
+      },
+      {
+        "headline": "AI-Driven Security Frameworks Gaining Traction",
+        "summary": "Cybersecurity leader Senthil Muthu is advancing AI-driven security frameworks, indicating a shift towards more proactive security measures in the industry.",
+        "cluster_reference": "Cybersecurity Leader Senthil Muthu Advances AI-Driven Security Frameworks",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Malware Threats Dominate Cybersecurity Landscape",
+        "summary": "Malware remains the top theme with 736 reported incidents, underscoring the need for enhanced detection and response strategies.",
+        "cluster_reference": "malware",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Supply Chain Attacks Continue to Evolve",
+        "summary": "Recent incidents, including the Axios supply chain attack, reveal ongoing vulnerabilities in software supply chains that organizations must address.",
+        "cluster_reference": "Axios supply chain attack chops away at npm trust - Malwarebytes",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Emerging Data Breach Concerns in Cloud Services",
+        "summary": "The TeamPCP campaign and related breaches emphasize the risks associated with cloud services and the need for robust security protocols.",
+        "cluster_reference": "TeamPCP Supply Chain Campaign: Update 006",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in exploit-led attacks by 2.2%",
+        "change_indicator": "Exploit-led attacks increased from 9% to 11.2%",
+        "significance": "This rise indicates a growing trend towards exploiting vulnerabilities, necessitating immediate attention to patch management."
+      },
+      {
+        "pattern": "Decrease in phishing attacks by 1.2%",
+        "change_indicator": "Phishing attacks decreased from 5.9% to 4.7%",
+        "significance": "While a decrease is positive, vigilance is still required as phishing remains a prevalent threat."
+      },
+      {
+        "pattern": "Token abuse incidents increased by 0.8%",
+        "change_indicator": "Token abuse incidents rose from 3.3% to 4.1%",
+        "significance": "This uptick suggests a need for enhanced authentication measures to mitigate risks."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Data breaches in government sectors",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Supply chain vulnerabilities affecting technology and finance sectors",
+        "affected_sectors": [
+          "technology",
+          "finance"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Malware infections impacting healthcare and manufacturing sectors",
+        "affected_sectors": [
+          "healthcare",
+          "manufacturing"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Exploit-led attack percentage",
+        "threshold": "Above 12%",
+        "action": "Review security protocols and patch management processes."
+      },
+      {
+        "metric": "Token abuse incidents",
+        "threshold": "Above 5%",
+        "action": "Enhance authentication measures and user training."
+      },
+      {
+        "metric": "Malware incident count",
+        "threshold": "Above 800 incidents",
+        "action": "Initiate a comprehensive malware defense strategy."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Investigate the European Commission data breach",
+        "reason": "To assess the impact and improve response strategies to similar incidents.",
+        "cluster_ref": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack"
+      },
+      {
+        "item": "Review AI-driven security framework advancements",
+        "reason": "To evaluate potential integration into existing security protocols.",
+        "cluster_ref": "Cybersecurity Leader Senthil Muthu Advances AI-Driven Security Frameworks"
+      },
+      {
+        "item": "Examine TeamPCP supply chain campaign details",
+        "reason": "To understand the implications for cloud security and potential vulnerabilities.",
+        "cluster_ref": "TeamPCP Supply Chain Campaign: Update 006"
+      }
+    ]
+  }
+}

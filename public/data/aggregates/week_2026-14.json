@@ -1,0 +1,164 @@
+{
+  "week_start": "2026-03-30",
+  "week_end": "2026-04-05",
+  "week_number": 14,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1096,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "2.2",
+    "phishing_pct": "-1.2",
+    "token_abuse_pct": "0.8",
+    "ransomware_pct": "-1.1"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "11.2",
+    "phishing_pct": "4.7",
+    "token_abuse_pct": "4.1",
+    "ransomware_pct": "2.7"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7686131386861315,
+      "item_count": 736
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6448905109489051,
+      "item_count": 397
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6153284671532847,
+      "item_count": 316
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5631386861313868,
+      "item_count": 173
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5503649635036496,
+      "item_count": 138
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5489051094890511,
+      "item_count": 134
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5489051094890511,
+      "item_count": 134
+    },
+    {
+      "theme": "aws",
+      "confidence": 0.5262773722627737,
+      "item_count": 72
+    },
+    {
+      "theme": "google",
+      "confidence": 0.5226277372262774,
+      "item_count": 62
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5218978102189781,
+      "item_count": 60
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 44,
+      "percentage": "4.0"
+    },
+    {
+      "sector": "technology",
+      "count": 20,
+      "percentage": "1.8"
+    },
+    {
+      "sector": "finance",
+      "count": 14,
+      "percentage": "1.3"
+    },
+    {
+      "sector": "healthcare",
+      "count": 9,
+      "percentage": "0.8"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 7,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "energy",
+      "count": 7,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "education",
+      "count": 4,
+      "percentage": "0.4"
+    },
+    {
+      "sector": "retail",
+      "count": 2,
+      "percentage": "0.2"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+      "size": 5,
+      "confidence": 0.6015967153284671
+    },
+    {
+      "title": "Cybersecurity Leader Senthil Muthu Advances AI-Driven Security Frameworks",
+      "size": 4,
+      "confidence": 0.6012773722627737
+    },
+    {
+      "title": "Axios supply chain attack chops away at npm trust - Malwarebytes",
+      "size": 4,
+      "confidence": 0.6012773722627737
+    },
+    {
+      "title": "Amazon SageMaker Data Agent introduces charting capabilities and support for materialized views",
+      "size": 3,
+      "confidence": 0.6009580291970803
+    },
+    {
+      "title": "TeamPCP Supply Chain Campaign: Update 006 - CERT-EU Confirms European Commission Cloud Breach, Sportradar Details Emerge...",
+      "size": 3,
+      "confidence": 0.6009580291970803
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "58% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 397
+      },
+      {
+        "source": "Cyber",
+        "count": 173
+      },
+      {
+        "source": "Help Net Security",
+        "count": 62
+      }
+    ],
+    "total_sources": 62
+  }
+}

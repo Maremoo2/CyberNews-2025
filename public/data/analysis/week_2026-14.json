@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-04-06T00:35:57.384Z",
+  "pipeline_run_id": "run_2026-04-06T0035",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-14.json",
+  "aggregate_sha256": "ec5e42560de0667793e612fabb2ad074a07e7e880c48c75f3b8c7491cc10ee5f",
+  "code_commit": "e15ca3c5ba6714b9ebf7a5879c694a9fb086e472",
+  "token_usage": {
+    "prompt_tokens": 1889,
+    "completion_tokens": 735,
+    "total_tokens": 2624,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 7.81,
+  "analysis": {
+    "week_start": "2026-03-30",
+    "week_end": "2026-04-05",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks suggests a growing trend in this attack vector.",
+        "why_now": "Exploit-led attacks have increased by 2.2% compared to last week.",
+        "supporting_signals": [
+          "exploit_led_pct: 11.2",
+          "deltas_vs_last_week: exploit_led_pct: 2.2"
+        ],
+        "counter_signals": [
+          "No incident-related items were reported this week."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports in the next two weeks for further increases.",
+          "Cross-reference with external threat intelligence feeds for corroboration."
+        ]
+      },
+      {
+        "claim": "The high concentration of malware-related themes indicates a potential focus on malware threats this week.",
+        "why_now": "Malware is the top theme with 736 items and a high confidence level.",
+        "supporting_signals": [
+          "top_themes: malware, item_count: 736",
+          "top_themes: malware, confidence: 0.7686131386861315"
+        ],
+        "counter_signals": [
+          "No specific incident-related items were reported."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track the number of malware-related reports in the following weeks.",
+          "Compare with historical data to identify any anomalies."
+        ]
+      },
+      {
+        "claim": "The European Commission data breach may be part of a larger trend in supply chain attacks.",
+        "why_now": "The top cluster is related to a data breach linked to a supply chain attack.",
+        "supporting_signals": [
+          "top_clusters: European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+          "top_clusters: Axios supply chain attack chops away at npm trust"
+        ],
+        "counter_signals": [
+          "No increase in ransomware or phishing percentages, which are often related to supply chain attacks."
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Investigate other recent supply chain attacks for patterns or connections.",
+          "Analyze the impact and response to the European Commission breach."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons for the increase in exploit-led attacks.",
+        "why_it_matters": "Understanding the drivers can help in anticipating future threats.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or threat actor motivations."
+      },
+      {
+        "unknown": "The impact of the European Commission data breach on other sectors.",
+        "why_it_matters": "Potential ripple effects could affect multiple sectors.",
+        "what_data_would_reduce_uncertainty": "Cross-sector impact analysis and breach details."
+      },
+      {
+        "unknown": "The role of AI-ML in current cybersecurity strategies.",
+        "why_it_matters": "AI-ML is a top theme but its practical applications are unclear.",
+        "what_data_would_reduce_uncertainty": "Case studies or reports on AI-ML implementations in cybersecurity."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "Increase of 3% or more",
+        "why_it_matters": "Significant increases could indicate a shift in attack strategies.",
+        "recommended_action": "Initiate a focused review of exploit-led attack defenses."
+      },
+      {
+        "signal": "Malware theme item count",
+        "threshold": "Exceeds 800 items",
+        "why_it_matters": "A sharp increase could suggest a surge in malware activity.",
+        "recommended_action": "Enhance monitoring and analysis of malware-related threats."
+      },
+      {
+        "signal": "Supply chain attack clusters",
+        "threshold": "More than 3 clusters in a week",
+        "why_it_matters": "Multiple clusters could indicate a coordinated campaign.",
+        "recommended_action": "Conduct a detailed investigation into supply chain vulnerabilities."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
