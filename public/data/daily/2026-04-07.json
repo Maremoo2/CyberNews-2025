@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-04-07T22:18:34.530Z",
+  "date": "2026-04-07",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 18169,
+    "completion_tokens": 548,
+    "total_tokens": 18717,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0030541500000000003,
+  "duration_seconds": 41.67,
+  "item_count": 145,
+  "digest": {
+    "date": "2026-04-07",
+    "summary": "Today's cybersecurity landscape saw significant developments, particularly concerning vulnerabilities and state-sponsored attacks. Major tech companies launched 'Project Glasswing', an AI initiative aimed at identifying critical software vulnerabilities. Meanwhile, Iranian hackers targeted U.S. energy and water infrastructure, prompting urgent warnings from federal agencies. The Russian APT28 group was linked to a global DNS hijacking campaign exploiting SOHO routers, while a critical vulnerability in Docker (CVE-2026-34040) was disclosed, allowing attackers to bypass security controls. Additionally, the FBI reported a staggering $20.9 billion loss due to cybercrime in 2025, highlighting the growing financial impact of these threats. The day also saw updates on the exploitation of the Flowise vulnerability, which is now actively being targeted by threat actors.",
+    "novel_clusters": [
+      {
+        "theme": "Project Glasswing AI Initiative",
+        "summary": "Major tech companies have initiated 'Project Glasswing' to leverage AI in identifying critical software vulnerabilities.",
+        "why_matters": "This initiative represents a significant step towards improving software security and could lead to more robust defenses against cyber threats.",
+        "item_count": 1
+      },
+      {
+        "theme": "Iranian Cyber Attacks on U.S. Infrastructure",
+        "summary": "U.S. agencies warned of ongoing disruptive cyberattacks by Iranian hackers targeting energy and water sectors.",
+        "why_matters": "These attacks pose a direct threat to critical infrastructure, emphasizing the need for enhanced cybersecurity measures in these sectors.",
+        "item_count": 1
+      },
+      {
+        "theme": "APT28 DNS Hijacking Campaign",
+        "summary": "APT28 has been linked to a campaign exploiting insecure routers to hijack DNS settings globally.",
+        "why_matters": "This highlights the vulnerability of consumer-grade devices and the potential for large-scale espionage and data theft.",
+        "item_count": 2
+      },
+      {
+        "theme": "Critical Docker Vulnerability (CVE-2026-34040)",
+        "summary": "A high-severity vulnerability in Docker Engine allows attackers to bypass authorization controls, risking host system security.",
+        "why_matters": "This vulnerability could lead to severe breaches, affecting numerous organizations that rely on Docker for containerization.",
+        "item_count": 1
+      },
+      {
+        "theme": "Flowise Vulnerability Exploitation",
+        "summary": "The Flowise platform is under active exploitation due to a critical RCE vulnerability, tracked as CVE-2025-59528.",
+        "why_matters": "With over 12,000 instances exposed, this vulnerability poses a significant risk to organizations using the platform.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Ransomware and Cybercrime Financial Impact",
+        "summary": "The FBI reported a 26% increase in cybercrime losses, totaling $20.9 billion in 2025, driven by various scams including cryptocurrency fraud.",
+        "item_count": 1
+      }
+    ]
+  }
+}
