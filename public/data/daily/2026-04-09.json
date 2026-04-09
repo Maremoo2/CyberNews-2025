@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-04-09T22:19:41.098Z",
+  "date": "2026-04-09",
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 18165,
+    "completion_tokens": 584,
+    "total_tokens": 18749,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00307515,
+  "duration_seconds": 33.22,
+  "item_count": 144,
+  "digest": {
+    "date": "2026-04-09",
+    "summary": "Today's cybersecurity landscape was marked by significant incidents and vulnerabilities. The FBI's recent operation to disrupt Russian APT28's access to routers highlights ongoing geopolitical cyber threats. A new spear-phishing campaign targeting Taiwanese NGOs using LucidRook malware was reported, emphasizing the persistent risk of targeted attacks. In the cryptocurrency sector, Bitcoin Depot disclosed a cyberattack resulting in a loss of $3.6 million, showcasing vulnerabilities in digital asset management. Additionally, a zero-day vulnerability in Adobe Reader has been actively exploited since late 2025, raising alarms about document security. The Treasury Department announced a cybersecurity information-sharing initiative for the digital asset industry, aiming to bolster defenses against rising threats. Overall, these developments underscore the evolving nature of cyber threats and the need for robust security measures across sectors.",
+    "novel_clusters": [
+      {
+        "theme": "Bitcoin Depot Cyberattack",
+        "summary": "Bitcoin Depot reported a cyberattack that led to the theft of approximately $3.6 million in Bitcoin after hackers compromised its internal systems.",
+        "why_matters": "This incident highlights vulnerabilities in cryptocurrency management and the ongoing threat of cyberattacks targeting financial services.",
+        "item_count": 3
+      },
+      {
+        "theme": "LucidRook Malware Campaign",
+        "summary": "A new threat cluster, UAT-10362, has been identified targeting Taiwanese NGOs with spear-phishing campaigns deploying LucidRook malware.",
+        "why_matters": "This incident illustrates the targeted nature of cyber threats against specific sectors, particularly in politically sensitive regions.",
+        "item_count": 1
+      },
+      {
+        "theme": "Adobe Reader Zero-Day Vulnerability",
+        "summary": "A zero-day vulnerability in Adobe Reader has been actively exploited since December 2025, allowing attackers to use malicious PDFs for data theft.",
+        "why_matters": "The exploitation of this vulnerability poses significant risks to users and organizations relying on PDF documents for communication.",
+        "item_count": 3
+      },
+      {
+        "theme": "FBI Disruption of APT28",
+        "summary": "The FBI conducted an operation to disrupt Russian APT28's access to routers, significantly impacting their cyberespionage capabilities.",
+        "why_matters": "This action underscores the ongoing geopolitical cyber conflict and the importance of international cooperation in cybersecurity.",
+        "item_count": 1
+      },
+      {
+        "theme": "Treasury Cyber Threat Sharing Initiative",
+        "summary": "The U.S. Treasury Department launched a cybersecurity information-sharing initiative for the digital asset industry to enhance threat awareness.",
+        "why_matters": "This initiative aims to improve the collective defense against cyber threats in the rapidly evolving digital asset landscape.",
+        "item_count": 1
+      }
+    ],
+    "continuation_clusters": [
+      {
+        "theme": "Iran-Linked Cyber Threats",
+        "summary": "Ongoing concerns about Iranian-linked cyber threats persist, with warnings from U.S. agencies about potential attacks on critical infrastructure.",
+        "item_count": 1
+      },
+      {
+        "theme": "ClickFix Malware Evolution",
+        "summary": "New variants of ClickFix malware are evolving to bypass existing Apple security measures, indicating a shift in attack strategies.",
+        "item_count": 1
+      }
+    ]
+  }
+}
