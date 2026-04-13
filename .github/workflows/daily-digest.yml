@@ -2,8 +2,8 @@ name: Daily Digest
 
 on:
   schedule:
-    # Run every day at 22:00 UTC (after news collection)
-    - cron: '0 22 * * *'
+    # Run once a week on Monday at 22:00 UTC (after news collection)
+    - cron: '0 22 * * 1'
   workflow_dispatch:
     # Allow manual triggering
 
