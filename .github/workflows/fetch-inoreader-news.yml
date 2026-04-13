@@ -2,8 +2,8 @@ name: Fetch Inoreader News
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run every 12 hours (midnight and noon UTC) to reduce compute cost
+    - cron: '0 */12 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
