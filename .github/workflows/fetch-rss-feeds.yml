@@ -2,8 +2,8 @@ name: Fetch RSS Feeds
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run once a week on Monday at 06:00 UTC, staggered from Inoreader fetch
+    - cron: '0 6 * * 1'
   workflow_dispatch:
     # Allow manual triggering
 
