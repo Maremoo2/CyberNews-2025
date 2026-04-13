@@ -1,0 +1,159 @@
+{
+  "week_start": "2026-04-06",
+  "week_end": "2026-04-12",
+  "week_number": 15,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 1044,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "2.7",
+    "phishing_pct": "-1.5",
+    "token_abuse_pct": "-0.7",
+    "ransomware_pct": "0.6"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "13.8",
+    "phishing_pct": "3.6",
+    "token_abuse_pct": "3.4",
+    "ransomware_pct": "3.3"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7406130268199234,
+      "item_count": 628
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6524904214559387,
+      "item_count": 398
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.6068965517241379,
+      "item_count": 279
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5655172413793104,
+      "item_count": 171
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5624521072796935,
+      "item_count": 163
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5375478927203066,
+      "item_count": 98
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5375478927203066,
+      "item_count": 98
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5260536398467432,
+      "item_count": 68
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.521455938697318,
+      "item_count": 56
+    },
+    {
+      "theme": "apt",
+      "confidence": 0.5199233716475096,
+      "item_count": 52
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 42,
+      "percentage": "4.0"
+    },
+    {
+      "sector": "technology",
+      "count": 25,
+      "percentage": "2.4"
+    },
+    {
+      "sector": "energy",
+      "count": 21,
+      "percentage": "2.0"
+    },
+    {
+      "sector": "healthcare",
+      "count": 18,
+      "percentage": "1.7"
+    },
+    {
+      "sector": "finance",
+      "count": 6,
+      "percentage": "0.6"
+    },
+    {
+      "sector": "education",
+      "count": 5,
+      "percentage": "0.5"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 5,
+      "percentage": "0.5"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "BUG: Anthropic's Claude Mythos Could Have A Big Impact On Cybersecurity Stocks",
+      "size": 5,
+      "confidence": 0.6016762452107279
+    },
+    {
+      "title": "Cybersecurity Leaders to Watch in California's Media & Entertainment Industry",
+      "size": 4,
+      "confidence": 0.6013409961685824
+    },
+    {
+      "title": "Anthropic’s Project Glasswing Signals Potential AI-Driven Shift in Cybersecurity",
+      "size": 4,
+      "confidence": 0.6013409961685824
+    },
+    {
+      "title": "Is Anthropic's Mythos a cybersecurity breakthrough, or just 'criti-hype'? - Fierce Network",
+      "size": 3,
+      "confidence": 0.6010057471264367
+    },
+    {
+      "title": "Anthropic launches Project Glasswing for AI cybersecurity | ETIH EdTech News",
+      "size": 3,
+      "confidence": 0.6010057471264367
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "60% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 398
+      },
+      {
+        "source": "Cyber",
+        "count": 171
+      },
+      {
+        "source": "Help Net Security",
+        "count": 54
+      }
+    ],
+    "total_sources": 56
+  }
+}

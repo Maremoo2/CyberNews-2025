@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-13T00:39:00.539Z",
+  "week_start": "2026-04-06",
+  "week_end": "2026-04-12",
+  "week_year": 2026,
+  "week_number": 15,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1854,
+    "completion_tokens": 728,
+    "total_tokens": 2582,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007149,
+  "duration_seconds": 13.04,
+  "aggregate_sha256": "9d9b7a63e973f15f085a1fa9745d4c950e35e4f87d736af789f8a29c8bc7e16f",
+  "brief": {
+    "week_start": "2026-04-06",
+    "week_end": "2026-04-12",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cybersecurity Landscape",
+        "summary": "Malware-related incidents accounted for 60% of reported cybersecurity themes this week, indicating a persistent threat to organizations.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "AI-Driven Cybersecurity Innovations on the Rise",
+        "summary": "Anthropic's Project Glasswing and Claude Mythos are emerging as significant themes, suggesting a shift towards AI-driven solutions in cybersecurity.",
+        "cluster_reference": "AI-ML, Anthropic's Claude Mythos",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Phishing Attacks Decline, Ransomware Slightly Up",
+        "summary": "Phishing incidents decreased by 1.5%, while ransomware attacks increased by 0.6%, indicating a potential shift in attacker focus.",
+        "cluster_reference": "phishing, ransomware",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Government Sector Faces Highest Cyber Threats",
+        "summary": "The government sector reported the highest number of incidents (42), highlighting its vulnerability and the need for enhanced security measures.",
+        "cluster_reference": "government",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Emerging Cybersecurity Leaders in Media & Entertainment",
+        "summary": "New cybersecurity leaders are gaining attention in California's media and entertainment sector, indicating a growing focus on industry-specific security solutions.",
+        "cluster_reference": "Cybersecurity Leaders to Watch",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in exploit-led attacks by 2.7%",
+        "change_indicator": "exploit_led_pct",
+        "significance": "This uptick suggests attackers are increasingly leveraging vulnerabilities, necessitating immediate attention to patch management and vulnerability assessments."
+      },
+      {
+        "pattern": "Decrease in phishing attacks by 1.5%",
+        "change_indicator": "phishing_pct",
+        "significance": "While a decline is positive, it could indicate attackers are shifting tactics rather than reducing overall activity."
+      },
+      {
+        "pattern": "Slight increase in ransomware attacks by 0.6%",
+        "change_indicator": "ransomware_pct",
+        "significance": "The increase in ransomware indicates a need for heightened preparedness and response strategies."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased malware threats in the government sector",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Potential vulnerabilities in AI-driven cybersecurity solutions",
+        "affected_sectors": [
+          "technology",
+          "media & entertainment"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Ransomware targeting healthcare and finance sectors",
+        "affected_sectors": [
+          "healthcare",
+          "finance"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Number of malware incidents reported",
+        "threshold": ">600 incidents",
+        "action": "Investigate root causes and enhance defenses."
+      },
+      {
+        "metric": "Ransomware attack frequency",
+        "threshold": ">5 incidents",
+        "action": "Review incident response protocols and readiness."
+      },
+      {
+        "metric": "New vulnerabilities identified in AI systems",
+        "threshold": ">3 critical vulnerabilities",
+        "action": "Conduct thorough risk assessments and mitigation strategies."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Investigate Anthropic's Claude Mythos impact on cybersecurity",
+        "reason": "Potential market shifts and implications for investments in cybersecurity technologies.",
+        "cluster_ref": "BUG: Anthropic's Claude Mythos Could Have A Big Impact On Cybersecurity Stocks"
+      },
+      {
+        "item": "Assess implications of Project Glasswing in AI cybersecurity",
+        "reason": "Understanding the effectiveness and adoption of AI-driven cybersecurity solutions is crucial.",
+        "cluster_ref": "Anthropic launches Project Glasswing for AI cybersecurity"
+      },
+      {
+        "item": "Review cybersecurity leaders emerging in media & entertainment",
+        "reason": "To identify potential partnerships or threats within the sector.",
+        "cluster_ref": "Cybersecurity Leaders to Watch in California's Media & Entertainment Industry"
+      }
+    ]
+  }
+}

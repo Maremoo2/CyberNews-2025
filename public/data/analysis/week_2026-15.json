@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-04-13T00:38:47.224Z",
+  "pipeline_run_id": "run_2026-04-13T0038",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-15.json",
+  "aggregate_sha256": "9d9b7a63e973f15f085a1fa9745d4c950e35e4f87d736af789f8a29c8bc7e16f",
+  "code_commit": "8104e79f3d826a89d4bf586ea0b12fdd920e0817",
+  "token_usage": {
+    "prompt_tokens": 1859,
+    "completion_tokens": 782,
+    "total_tokens": 2641,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 6.7,
+  "analysis": {
+    "week_start": "2026-04-06",
+    "week_end": "2026-04-12",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks suggests a growing focus on exploiting vulnerabilities.",
+        "why_now": "Exploit-led attacks increased by 2.7% this week, indicating a potential trend.",
+        "supporting_signals": [
+          "exploit_led_pct: 13.8%",
+          "deltas_vs_last_week: exploit_led_pct: 2.7"
+        ],
+        "counter_signals": [
+          "No incident-related items were reported, which might indicate low impact."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports in the following weeks to confirm a sustained increase.",
+          "Analyze the types of vulnerabilities being targeted to understand attacker focus."
+        ]
+      },
+      {
+        "claim": "The high concentration of sources from top feeds could skew the perception of threat landscape.",
+        "why_now": "60% of data comes from the top 3 feeds, which may not represent the full landscape.",
+        "supporting_signals": [
+          "source_concentration_warning: 60% from top 3 feeds",
+          "top_sources: Data/IT, Cyber, Help Net Security"
+        ],
+        "counter_signals": [
+          "Total of 56 sources were used, which might provide some diversity."
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Compare the themes and attack types reported by less dominant sources.",
+          "Assess the variance in data from the top 3 feeds versus others."
+        ]
+      },
+      {
+        "claim": "The prominence of AI-related themes suggests an increasing interest in AI's role in cybersecurity.",
+        "why_now": "AI-ML is a top theme with 279 items, indicating significant focus.",
+        "supporting_signals": [
+          "top_themes: ai-ml, item_count: 279",
+          "top_clusters: multiple references to Anthropic's AI projects"
+        ],
+        "counter_signals": [
+          "AI-ML theme confidence is moderate at 0.6069, which may not indicate strong consensus."
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Track the number of AI-related cybersecurity reports over the next month.",
+          "Evaluate the impact of AI-related projects mentioned in clusters on actual security practices."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific vulnerabilities being exploited in the increased exploit-led attacks.",
+        "why_it_matters": "Identifying specific vulnerabilities can help in patching and prevention efforts.",
+        "what_data_would_reduce_uncertainty": "Detailed reports on the types of vulnerabilities targeted in exploit-led attacks."
+      },
+      {
+        "unknown": "The impact of AI-ML on actual cybersecurity practices and outcomes.",
+        "why_it_matters": "Understanding AI's effectiveness can guide future investments and strategies.",
+        "what_data_would_reduce_uncertainty": "Case studies or reports on the implementation and results of AI-ML in cybersecurity."
+      },
+      {
+        "unknown": "The reasons for the lack of incident-related items despite various attack types being reported.",
+        "why_it_matters": "Understanding this could clarify whether threats are being mitigated effectively or underreported.",
+        "what_data_would_reduce_uncertainty": "Incident reports or analysis explaining the absence of incidents despite attack activities."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "15%",
+        "why_it_matters": "A further increase could indicate a significant shift in attack strategies.",
+        "recommended_action": "Increase monitoring and patching efforts for known vulnerabilities."
+      },
+      {
+        "signal": "Source concentration from top feeds",
+        "threshold": ">65%",
+        "why_it_matters": "Higher concentration could further skew threat landscape perception.",
+        "recommended_action": "Diversify sources to ensure a balanced understanding of threats."
+      },
+      {
+        "signal": "AI-ML theme item count",
+        "threshold": ">300",
+        "why_it_matters": "A significant increase could indicate a major shift towards AI in cybersecurity.",
+        "recommended_action": "Evaluate the effectiveness and security implications of AI-driven solutions."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
