@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-04-20T00:39:48.894Z",
+  "week_start": "2026-04-13",
+  "week_end": "2026-04-19",
+  "week_year": 2026,
+  "week_number": 16,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1823,
+    "completion_tokens": 746,
+    "total_tokens": 2569,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00072105,
+  "duration_seconds": 14.02,
+  "aggregate_sha256": "bad1e02edc037f4a2f706c737a4d399e7a3f9f3406f4042326a9fab5017fa2ef",
+  "brief": {
+    "week_start": "2026-04-13",
+    "week_end": "2026-04-19",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cyber Threat Landscape",
+        "summary": "Malware remains the top theme with 102 reported incidents, highlighting ongoing vulnerabilities. Organizations must prioritize malware defenses and employee training.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Attacks Increase by 3.2% This Week",
+        "summary": "Phishing incidents rose to 6.8% of total attacks, indicating a growing threat that requires immediate attention to email security protocols.",
+        "cluster_reference": "phishing",
+        "impact_level": "high"
+      },
+      {
+        "headline": "FBI Dismantles Major Phishing Network in Indonesia",
+        "summary": "The takedown of the W3LL phishing tool and network, responsible for $20M in fraud attempts, emphasizes the need for vigilance against sophisticated phishing schemes.",
+        "cluster_reference": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Cybersecurity Stock Performance Under Review",
+        "summary": "Comparative analysis of Palo Alto Networks and Zscaler reveals critical insights for investment strategies in cybersecurity amidst evolving threats.",
+        "cluster_reference": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Has an Edge?",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "KPMG Highlights Cybersecurity Considerations for 2026",
+        "summary": "KPMG's report outlines essential strategies for organizations to enhance their cybersecurity posture in the face of emerging threats.",
+        "cluster_reference": "Cybersecurity Considerations 2026 - KPMG International",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Decrease in exploit-led attacks by 4.9%",
+        "change_indicator": "exploit_led_pct",
+        "significance": "This decline suggests a potential shift in attacker focus or improved defenses, warranting continued monitoring."
+      },
+      {
+        "pattern": "Ransomware incidents down by 1.2%",
+        "change_indicator": "ransomware_pct",
+        "significance": "While a decrease is noted, ransomware remains a significant threat; organizations should maintain robust backup and recovery plans."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased Phishing Attacks",
+        "affected_sectors": [
+          "government",
+          "finance",
+          "retail",
+          "manufacturing",
+          "technology",
+          "healthcare"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Malware Exploits Targeting Data Breaches",
+        "affected_sectors": [
+          "government",
+          "finance",
+          "technology"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Token Abuse in Financial Transactions",
+        "affected_sectors": [
+          "finance",
+          "technology"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Phishing attack percentage",
+        "threshold": ">7%",
+        "action": "Review email security protocols and user training programs."
+      },
+      {
+        "metric": "Malware incident reports",
+        "threshold": ">100 incidents",
+        "action": "Conduct a comprehensive malware defense assessment."
+      },
+      {
+        "metric": "Ransomware attack percentage",
+        "threshold": ">3%",
+        "action": "Reassess backup and incident response strategies."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "W3LL Phishing Network Takedown",
+        "reason": "To understand the implications for our phishing defenses and response strategies.",
+        "cluster_ref": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts"
+      },
+      {
+        "item": "KPMG Cybersecurity Considerations",
+        "reason": "To evaluate recommended strategies and align with our cybersecurity framework.",
+        "cluster_ref": "Cybersecurity Considerations 2026 - KPMG International"
+      },
+      {
+        "item": "Palo Alto Networks vs. Zscaler Analysis",
+        "reason": "To assess potential impacts on our cybersecurity investments and partnerships.",
+        "cluster_ref": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Has an Edge?"
+      }
+    ]
+  }
+}

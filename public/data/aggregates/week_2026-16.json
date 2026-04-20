@@ -1,0 +1,154 @@
+{
+  "week_start": "2026-04-13",
+  "week_end": "2026-04-19",
+  "week_number": 16,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 147,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-4.9",
+    "phishing_pct": "3.2",
+    "token_abuse_pct": "0.1",
+    "ransomware_pct": "-1.2"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "8.8",
+    "phishing_pct": "6.8",
+    "token_abuse_pct": "3.4",
+    "ransomware_pct": "2.0"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7775510204081633,
+      "item_count": 102
+    },
+    {
+      "theme": "data/it",
+      "confidence": 0.6578231292517007,
+      "item_count": 58
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.5979591836734695,
+      "item_count": 36
+    },
+    {
+      "theme": "cyber",
+      "confidence": 0.5625850340136055,
+      "item_count": 23
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5462585034013605,
+      "item_count": 17
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5462585034013605,
+      "item_count": 17
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5435374149659864,
+      "item_count": 16
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5380952380952381,
+      "item_count": 14
+    },
+    {
+      "theme": "apt",
+      "confidence": 0.5272108843537415,
+      "item_count": 10
+    },
+    {
+      "theme": "spear phishing",
+      "confidence": 0.5217687074829932,
+      "item_count": 8
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "government",
+      "count": 2,
+      "percentage": "1.4"
+    },
+    {
+      "sector": "finance",
+      "count": 1,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "retail",
+      "count": 1,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 1,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "technology",
+      "count": 1,
+      "percentage": "0.7"
+    },
+    {
+      "sector": "healthcare",
+      "count": 1,
+      "percentage": "0.7"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Has an Edge? - TradingView",
+      "size": 2,
+      "confidence": 0.6047619047619047
+    },
+    {
+      "title": "Cybersecurity Considerations 2026 - KPMG International",
+      "size": 2,
+      "confidence": 0.6047619047619047
+    },
+    {
+      "title": "Check Point launches Perth data residency instance for Workplace Security SASE",
+      "size": 2,
+      "confidence": 0.6047619047619047
+    },
+    {
+      "title": "FBI, Indonesia take down W3LL phishing tool",
+      "size": 1,
+      "confidence": 0.6023809523809524
+    },
+    {
+      "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
+      "size": 1,
+      "confidence": 0.6023809523809524
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "63% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Data/IT",
+        "count": 58
+      },
+      {
+        "source": "Cyber",
+        "count": 23
+      },
+      {
+        "source": "Help Net Security",
+        "count": 12
+      }
+    ],
+    "total_sources": 27
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-04-20T00:39:34.617Z",
+  "pipeline_run_id": "run_2026-04-20T0039",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-16.json",
+  "aggregate_sha256": "bad1e02edc037f4a2f706c737a4d399e7a3f9f3406f4042326a9fab5017fa2ef",
+  "code_commit": "679f787c77bc278cc9fe6d93f219a16857dc57c8",
+  "token_usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 735,
+    "total_tokens": 2563,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 8.3,
+  "analysis": {
+    "week_start": "2026-04-13",
+    "week_end": "2026-04-19",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The decrease in exploit-led attacks suggests a possible shift in attacker tactics.",
+        "why_now": "Exploit-led attacks decreased by 4.9%, indicating a notable change in attack patterns this week.",
+        "supporting_signals": [
+          "exploit_led_pct: -4.9%",
+          "exploit_led_pct: 8.8%"
+        ],
+        "counter_signals": [
+          "phishing_pct: +3.2%"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports for the next two weeks to confirm if the trend continues.",
+          "Analyze if other attack types are increasing as exploit-led attacks decrease."
+        ]
+      },
+      {
+        "claim": "Phishing attacks are becoming a more prominent threat this week.",
+        "why_now": "Phishing attacks increased by 3.2%, indicating a rising threat level.",
+        "supporting_signals": [
+          "phishing_pct: +3.2%",
+          "phishing: 16 items"
+        ],
+        "counter_signals": [
+          "ransomware_pct: -1.2%"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track phishing attack reports over the next month to see if the increase is sustained.",
+          "Compare phishing attack data with previous months to identify long-term trends."
+        ]
+      },
+      {
+        "claim": "The high concentration of sources from the top three feeds could skew the data representation.",
+        "why_now": "63% of the data comes from the top three feeds, which may affect the diversity of the data.",
+        "supporting_signals": [
+          "source_concentration_warning: 63% from top 3 feeds",
+          "top_sources: Data/IT, Cyber, Help Net Security"
+        ],
+        "counter_signals": [
+          "total_sources: 27"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Assess the impact of source concentration by comparing with previous weeks' source distributions.",
+          "Evaluate the diversity of topics covered by less represented sources."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons for the decrease in exploit-led attacks.",
+        "why_it_matters": "Understanding the cause of this decrease could help in anticipating future attack trends.",
+        "what_data_would_reduce_uncertainty": "Detailed reports on exploit-led attack methodologies and attacker motivations."
+      },
+      {
+        "unknown": "The potential impact of the FBI and Indonesian Police's dismantling of the W3LL phishing network.",
+        "why_it_matters": "This operation might influence phishing trends and attacker behavior.",
+        "what_data_would_reduce_uncertainty": "Follow-up reports on phishing activity post-operation."
+      },
+      {
+        "unknown": "The effect of the source concentration warning on the overall data quality.",
+        "why_it_matters": "High source concentration might lead to biased insights.",
+        "what_data_would_reduce_uncertainty": "A breakdown of insights from less represented sources to assess their impact."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "Below 8%",
+        "why_it_matters": "A continued decrease might indicate a significant shift in attack strategies.",
+        "recommended_action": "Investigate alternative attack vectors gaining popularity."
+      },
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "Above 7%",
+        "why_it_matters": "An increase above this threshold could signal a growing threat.",
+        "recommended_action": "Enhance phishing prevention and awareness efforts."
+      },
+      {
+        "signal": "Source concentration from top feeds",
+        "threshold": "Above 65%",
+        "why_it_matters": "Exceeding this threshold could compromise data diversity and reliability.",
+        "recommended_action": "Diversify data sources to ensure a balanced view."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
