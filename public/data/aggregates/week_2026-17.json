@@ -1,0 +1,123 @@
+{
+  "week_start": "2026-04-20",
+  "week_end": "2026-04-26",
+  "week_number": 17,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 13,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "1.2",
+    "phishing_pct": "1.0",
+    "token_abuse_pct": "-2.8",
+    "ransomware_pct": "-3.0"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "15.4",
+    "phishing_pct": "7.7",
+    "token_abuse_pct": "0.0",
+    "ransomware_pct": "0.0"
+  },
+  "top_themes": [
+    {
+      "theme": "ai-ml",
+      "confidence": 0.7769230769230769,
+      "item_count": 9
+    },
+    {
+      "theme": "malware",
+      "confidence": 0.7461538461538462,
+      "item_count": 8
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "supply-chain compromise",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "supply-chain",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "spear phishing",
+      "confidence": 0.5307692307692308,
+      "item_count": 1
+    },
+    {
+      "theme": "google",
+      "confidence": 0.5307692307692308,
+      "item_count": 1
+    }
+  ],
+  "sector_distribution": [],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Top 3 Cyber Insurance Incident Claims",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "CAI v1.0.5: clearer guidance, smoother operation, and early support for long-running workflows",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "Chrome : pourquoi Google ne parvient toujours pas à éradiquer les extensions malveillantes",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "Piégée par un faux conseiller bancaire, elle perd 5 700 euros, mais la justice se range du côté des banques",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "KFC, Basic-Fit, pharmacie… vos données fuitent partout. Et si le problème, c’était votre empreinte numérique",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "69% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Help Net Security",
+        "count": 4
+      },
+      {
+        "source": "Clubic",
+        "count": 3
+      },
+      {
+        "source": "The Cyber Express",
+        "count": 2
+      }
+    ],
+    "total_sources": 7
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-04-27T00:42:36.320Z",
+  "week_start": "2026-04-20",
+  "week_end": "2026-04-26",
+  "week_year": 2026,
+  "week_number": 17,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1683,
+    "completion_tokens": 720,
+    "total_tokens": 2403,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00068445,
+  "duration_seconds": 17.13,
+  "aggregate_sha256": "c98c706e4bfcadd1a23c1ce40b36e3464f3c0a1d01716e73006b4d9fdd7f4cdb",
+  "brief": {
+    "week_start": "2026-04-20",
+    "week_end": "2026-04-26",
+    "top_5_things": [
+      {
+        "headline": "Increased Focus on AI and ML in Cybersecurity",
+        "summary": "AI and machine learning themes dominate this week's intelligence, with 9 related items indicating a growing trend in leveraging these technologies for both defense and attack strategies.",
+        "cluster_reference": "ai-ml",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Notable Malware Activity Reported",
+        "summary": "Malware remains a significant concern with 8 items reported, highlighting ongoing vulnerabilities that could be exploited by attackers.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Attacks Persist Despite Decrease",
+        "summary": "Phishing incidents remain a key theme, with 2 items reported, suggesting that while overall incidents may be down, this vector continues to pose risks.",
+        "cluster_reference": "phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Data Breaches and Supply Chain Risks Identified",
+        "summary": "Two items each on data breaches and supply chain compromises indicate vulnerabilities that could affect multiple sectors, necessitating vigilance.",
+        "cluster_reference": "data breach, supply-chain compromise",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Cyber Insurance Claims on the Rise",
+        "summary": "A new cluster highlights the top 3 cyber insurance incident claims, emphasizing the financial impact of cyber incidents on organizations.",
+        "cluster_reference": "Top 3 Cyber Insurance Incident Claims",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in exploit-led attacks by 1.2%",
+        "change_indicator": "Exploit-led attacks",
+        "significance": "This uptick suggests a shift in attacker strategies, requiring enhanced defenses against exploitation."
+      },
+      {
+        "pattern": "Phishing attacks up by 1.0%",
+        "change_indicator": "Phishing incidents",
+        "significance": "The rise indicates that organizations should reinforce their phishing awareness training and detection capabilities."
+      },
+      {
+        "pattern": "Decrease in ransomware and token abuse incidents",
+        "change_indicator": "Ransomware down by 3.0%, token abuse down by 2.8%",
+        "significance": "While this is positive, continued monitoring is essential to ensure these trends do not reverse."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Phishing and social engineering attacks",
+        "affected_sectors": [],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Malware exploitation in supply chains",
+        "affected_sectors": [],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Data breaches due to inadequate security measures",
+        "affected_sectors": [],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Increase in exploit-led attack percentage",
+        "threshold": "Above 20%",
+        "action": "Review security protocols and incident response plans."
+      },
+      {
+        "metric": "Phishing incident reports",
+        "threshold": "More than 5 incidents reported in a week",
+        "action": "Initiate a company-wide phishing awareness campaign."
+      },
+      {
+        "metric": "Malware detection alerts",
+        "threshold": "More than 10 alerts in a week",
+        "action": "Conduct a thorough review of affected systems and update defenses."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Top 3 Cyber Insurance Incident Claims",
+        "reason": "Understanding the claims can inform risk management strategies and insurance coverage needs.",
+        "cluster_ref": "Top 3 Cyber Insurance Incident Claims"
+      },
+      {
+        "item": "KFC Data Leak Incident",
+        "reason": "Reviewing this case can provide insights into data protection failures and inform future preventative measures.",
+        "cluster_ref": "KFC, Basic-Fit, pharmacie… vos données fuitent partout."
+      },
+      {
+        "item": "Phishing Case of False Banking Advisor",
+        "reason": "Analyzing this incident can help improve training and awareness programs for employees.",
+        "cluster_ref": "Piégée par un faux conseiller bancaire, elle perd 5 700 euros."
+      }
+    ]
+  }
+}

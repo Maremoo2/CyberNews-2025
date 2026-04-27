@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-04-27T00:42:18.952Z",
+  "pipeline_run_id": "run_2026-04-27T0042",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-17.json",
+  "aggregate_sha256": "c98c706e4bfcadd1a23c1ce40b36e3464f3c0a1d01716e73006b4d9fdd7f4cdb",
+  "code_commit": "db95bda30c81155848a4684f30394ac399e1da1c",
+  "token_usage": {
+    "prompt_tokens": 1688,
+    "completion_tokens": 778,
+    "total_tokens": 2466,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 9.03,
+  "analysis": {
+    "week_start": "2026-04-20",
+    "week_end": "2026-04-26",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "AI and ML themes are increasingly prevalent in cybersecurity discussions this week.",
+        "why_now": "AI-ML theme has the highest item count and confidence among top themes.",
+        "supporting_signals": [
+          "theme: ai-ml, confidence: 0.7769230769230769, item_count: 9",
+          "theme: malware, confidence: 0.7461538461538462, item_count: 8"
+        ],
+        "counter_signals": [
+          "theme: phishing, confidence: 0.5615384615384615, item_count: 2"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor AI-ML related news and reports for the next month to see if the trend continues.",
+          "Check for AI-ML mentions in other cybersecurity reports from different sources."
+        ]
+      },
+      {
+        "claim": "There is a decreasing trend in ransomware and token abuse incidents this week.",
+        "why_now": "Both ransomware and token abuse percentages have decreased compared to last week.",
+        "supporting_signals": [
+          "deltas_vs_last_week: ransomware_pct: -3.0",
+          "deltas_vs_last_week: token_abuse_pct: -2.8"
+        ],
+        "counter_signals": [
+          "attack_type_percentages: exploit_led_pct: 15.4"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track ransomware and token abuse reports over the next few weeks to confirm a sustained decrease.",
+          "Compare with other cybersecurity data sources to validate the trend."
+        ]
+      },
+      {
+        "claim": "Phishing remains a persistent threat despite a slight increase in its percentage.",
+        "why_now": "Phishing percentage increased slightly and is among the top themes.",
+        "supporting_signals": [
+          "deltas_vs_last_week: phishing_pct: 1.0",
+          "theme: phishing, confidence: 0.5615384615384615, item_count: 2"
+        ],
+        "counter_signals": [
+          "attack_type_percentages: token_abuse_pct: 0.0"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Monitor phishing incident reports for the next few weeks to see if the trend continues.",
+          "Review phishing-related alerts from other cybersecurity platforms."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific sectors affected by the reported cybersecurity themes.",
+        "why_it_matters": "Understanding sector impact can help prioritize defense strategies.",
+        "what_data_would_reduce_uncertainty": "Detailed sector distribution data."
+      },
+      {
+        "unknown": "The exact nature of the 'exploit-led' attacks reported.",
+        "why_it_matters": "Knowing specifics can improve targeted defenses against these exploits.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or case studies on exploit-led attacks."
+      },
+      {
+        "unknown": "The reasons behind the source concentration warning and its impact on data reliability.",
+        "why_it_matters": "High source concentration could skew the analysis and affect decision-making.",
+        "what_data_would_reduce_uncertainty": "A breakdown of how source concentration affects data quality and reliability."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "20% increase",
+        "why_it_matters": "A significant increase could indicate a rising threat that needs immediate attention.",
+        "recommended_action": "Initiate a detailed investigation into exploit-led incidents if threshold is crossed."
+      },
+      {
+        "signal": "Phishing incident count",
+        "threshold": "5 incidents per week",
+        "why_it_matters": "Crossing this threshold could signal an emerging phishing campaign.",
+        "recommended_action": "Increase monitoring and awareness efforts if threshold is crossed."
+      },
+      {
+        "signal": "Ransomware percentage change",
+        "threshold": "5% increase",
+        "why_it_matters": "A rise could indicate a resurgence of ransomware activities.",
+        "recommended_action": "Prepare incident response teams for potential ransomware attacks if threshold is crossed."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
