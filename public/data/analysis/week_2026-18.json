@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-05-04T00:45:21.820Z",
+  "pipeline_run_id": "run_2026-05-04T0045",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-18.json",
+  "aggregate_sha256": "5163538855809d3af1d89632bddf30a7ebde7097aab84fdf12bca0ae41240441",
+  "code_commit": "2f99c04c2c2249f92ed7feb607025fae61a62bb8",
+  "token_usage": {
+    "prompt_tokens": 1470,
+    "completion_tokens": 684,
+    "total_tokens": 2154,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 7.83,
+  "analysis": {
+    "week_start": "2026-04-27",
+    "week_end": "2026-05-03",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in phishing activity may be linked to the prominence of AI-ML themes.",
+        "why_now": "Phishing percentage increased by 23.3% this week, and AI-ML is the top theme.",
+        "supporting_signals": [
+          "phishing_pct: 28.6",
+          "theme: ai-ml, item_count: 5"
+        ],
+        "counter_signals": [
+          "exploit_led_pct: 0.0",
+          "token_abuse_pct: 0.0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing incidents for AI-ML related content.",
+          "Analyze phishing emails for AI-generated content."
+        ]
+      },
+      {
+        "claim": "The focus on AI-ML and malware themes suggests a potential rise in AI-driven malware.",
+        "why_now": "AI-ML and malware are the top two themes this week.",
+        "supporting_signals": [
+          "theme: ai-ml, item_count: 5",
+          "theme: malware, item_count: 4"
+        ],
+        "counter_signals": [
+          "ransomware_pct: 0.0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Investigate malware samples for AI components.",
+          "Track AI-ML discussions in cybersecurity forums."
+        ]
+      },
+      {
+        "claim": "Cloud misconfiguration remains a low priority despite its potential risks.",
+        "why_now": "Cloud misconfiguration is mentioned but with low item count and confidence.",
+        "supporting_signals": [
+          "theme: cloud misconfiguration, item_count: 1",
+          "theme: cloud, item_count: 1"
+        ],
+        "counter_signals": [
+          "phishing_pct: 28.6"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Review cloud security incidents for misconfiguration.",
+          "Conduct a survey on cloud security priorities."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific reasons behind the 23.3% increase in phishing activity.",
+        "why_it_matters": "Understanding the drivers of phishing increases can help mitigate future risks.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports on phishing attacks."
+      },
+      {
+        "unknown": "The impact of AI-ML on the development of new malware types.",
+        "why_it_matters": "AI-driven malware could represent a significant shift in threat landscapes.",
+        "what_data_would_reduce_uncertainty": "Technical analysis of new malware samples."
+      },
+      {
+        "unknown": "The role of cloud misconfiguration in recent security incidents.",
+        "why_it_matters": "Cloud misconfiguration can lead to significant data breaches.",
+        "what_data_would_reduce_uncertainty": "Incident reports highlighting cloud misconfiguration issues."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing activity percentage",
+        "threshold": "Above 30%",
+        "why_it_matters": "A sustained increase could indicate a broader campaign.",
+        "recommended_action": "Initiate a phishing awareness campaign."
+      },
+      {
+        "signal": "AI-ML theme item count",
+        "threshold": "Above 5",
+        "why_it_matters": "A rise could indicate growing interest or threat in AI-ML.",
+        "recommended_action": "Increase monitoring of AI-ML related threats."
+      },
+      {
+        "signal": "Cloud misconfiguration theme item count",
+        "threshold": "Above 2",
+        "why_it_matters": "An increase could signal a trend in cloud security issues.",
+        "recommended_action": "Conduct a cloud security audit."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}

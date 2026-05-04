@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-04T00:45:35.773Z",
+  "week_start": "2026-04-27",
+  "week_end": "2026-05-03",
+  "week_year": 2026,
+  "week_number": 18,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1465,
+    "completion_tokens": 735,
+    "total_tokens": 2200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00066075,
+  "duration_seconds": 13.7,
+  "aggregate_sha256": "5163538855809d3af1d89632bddf30a7ebde7097aab84fdf12bca0ae41240441",
+  "brief": {
+    "week_start": "2026-04-27",
+    "week_end": "2026-05-03",
+    "top_5_things": [
+      {
+        "headline": "AI Criminal Mastermind Hiring on Gig Platforms",
+        "summary": "Criminal organizations are leveraging AI to recruit talent via gig platforms, indicating a shift in cybercrime tactics.",
+        "cluster_reference": "The AI criminal mastermind is already hiring on gig platforms",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Concerns Over Electronic Voting Security in France",
+        "summary": "The CNIL expresses ongoing skepticism about electronic voting, prompting new security frameworks in collaboration with ANSSI.",
+        "cluster_reference": "La CNIL se méfie toujours du vote électronique, pour lequel elle établit, avec l'ANSSI, un nouveau cadre de sécurité",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Open-Source Cybersecurity Tools Gaining Popularity",
+        "summary": "A list of 25 open-source cybersecurity tools highlights cost-effective solutions for organizations to enhance their security posture.",
+        "cluster_reference": "25 open-source cybersecurity tools that don’t care about your budget",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Cloud Misconfigurations Remain a Risk",
+        "summary": "A recent incident highlights the vulnerabilities associated with cloud misconfigurations, emphasizing the need for better security practices.",
+        "cluster_reference": "cloud misconfiguration",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Rising Malware Threats in Cybersecurity Landscape",
+        "summary": "Malware remains a significant concern, with multiple incidents reported, necessitating increased vigilance.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Phishing attacks increased by 23.3% this week",
+        "change_indicator": "Phishing attacks",
+        "significance": "This significant rise in phishing attempts indicates a shift in attacker focus, requiring immediate attention to employee training and awareness."
+      },
+      {
+        "pattern": "Exploit-led attacks decreased by 11.5%",
+        "change_indicator": "Exploit-led attacks",
+        "significance": "The decline suggests a potential shift in tactics, but vigilance is still necessary as attackers adapt."
+      },
+      {
+        "pattern": "Ransomware incidents decreased by 5.3%",
+        "change_indicator": "Ransomware incidents",
+        "significance": "While this is a positive trend, organizations should remain prepared for potential resurgence."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased phishing attacks targeting employees",
+        "affected_sectors": [],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Exploitation of cloud misconfigurations",
+        "affected_sectors": [],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Malware proliferation in organizational networks",
+        "affected_sectors": [],
+        "likelihood": "high"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Phishing attack volume",
+        "threshold": ">20% increase week-over-week",
+        "action": "Initiate employee training and awareness programs immediately."
+      },
+      {
+        "metric": "Reports of cloud misconfigurations",
+        "threshold": ">5 incidents reported in a week",
+        "action": "Conduct a thorough audit of cloud security configurations."
+      },
+      {
+        "metric": "Malware detection rates",
+        "threshold": ">15% increase in alerts",
+        "action": "Enhance endpoint protection measures and review incident response plans."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Investigate AI-related cybercrime recruitment",
+        "reason": "Understanding the methods and platforms used for recruitment can help in developing countermeasures.",
+        "cluster_ref": "The AI criminal mastermind is already hiring on gig platforms"
+      },
+      {
+        "item": "Review electronic voting security frameworks",
+        "reason": "Assessing the implications of new security measures can inform our own voting and data handling practices.",
+        "cluster_ref": "La CNIL se méfie toujours du vote électronique, pour lequel elle établit, avec l'ANSSI, un nouveau cadre de sécurité"
+      },
+      {
+        "item": "Analyze cloud misconfiguration incidents",
+        "reason": "Identifying common vulnerabilities can help in strengthening our cloud security posture.",
+        "cluster_ref": "cloud misconfiguration"
+      }
+    ]
+  }
+}

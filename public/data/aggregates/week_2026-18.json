@@ -1,0 +1,98 @@
+{
+  "week_start": "2026-04-27",
+  "week_end": "2026-05-03",
+  "week_number": 18,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 7,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "-11.5",
+    "phishing_pct": "23.3",
+    "token_abuse_pct": "-2.8",
+    "ransomware_pct": "-5.3"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "0.0",
+    "phishing_pct": "28.6",
+    "token_abuse_pct": "0.0",
+    "ransomware_pct": "0.0"
+  },
+  "top_themes": [
+    {
+      "theme": "ai-ml",
+      "confidence": 0.7857142857142858,
+      "item_count": 5
+    },
+    {
+      "theme": "malware",
+      "confidence": 0.7285714285714285,
+      "item_count": 4
+    },
+    {
+      "theme": "cloud misconfiguration",
+      "confidence": 0.5571428571428572,
+      "item_count": 1
+    },
+    {
+      "theme": "cloud-native attacks",
+      "confidence": 0.5571428571428572,
+      "item_count": 1
+    },
+    {
+      "theme": "cloud",
+      "confidence": 0.5571428571428572,
+      "item_count": 1
+    }
+  ],
+  "sector_distribution": [],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "From scepticism to concern: Mythos panic is slowly starting to reach China",
+      "size": 1,
+      "confidence": 0.65
+    },
+    {
+      "title": "La CNIL se méfie toujours du vote électronique, pour lequel elle établit, avec l'ANSSI, un nouveau cadre de sécurité",
+      "size": 1,
+      "confidence": 0.65
+    },
+    {
+      "title": "The AI criminal mastermind is already hiring on gig platforms",
+      "size": 1,
+      "confidence": 0.65
+    },
+    {
+      "title": "25 open-source cybersecurity tools that don’t care about your budget",
+      "size": 1,
+      "confidence": 0.65
+    },
+    {
+      "title": "Product showcase: LuLu reveals unauthorized outbound connections from Mac apps",
+      "size": 1,
+      "confidence": 0.65
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "86% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Help Net Security",
+        "count": 3
+      },
+      {
+        "source": "SecureBlitz",
+        "count": 2
+      },
+      {
+        "source": "South China Morning Post",
+        "count": 1
+      }
+    ],
+    "total_sources": 4
+  }
+}
