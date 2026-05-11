@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-05-11T00:48:50.267Z",
+  "week_start": "2026-05-04",
+  "week_end": "2026-05-10",
+  "week_year": 2026,
+  "week_number": 19,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1693,
+    "completion_tokens": 818,
+    "total_tokens": 2511,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.00074475,
+  "duration_seconds": 12.39,
+  "aggregate_sha256": "5d2f9a98cfb987a006aa7f8bacd52a0ad1712d881808b0ea66cdc58036bedf4f",
+  "brief": {
+    "week_start": "2026-05-04",
+    "week_end": "2026-05-10",
+    "top_5_things": [
+      {
+        "headline": "Surge in Malware Incidents Detected This Week",
+        "summary": "Malware-related incidents accounted for 66.7% of total items, indicating a significant threat level. Immediate review of malware defenses is recommended.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "FBI Warns of Increased Cyber-Enabled Cargo Theft",
+        "summary": "Logistics firms are facing heightened risks of cyber-enabled cargo theft, necessitating enhanced security measures in supply chain operations.",
+        "cluster_reference": "FBI Warns of Surge in Cyber-Enabled Cargo Theft Targeting Logistics Firms",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Critical Vulnerability in cPanel Exposes 1.5M Servers",
+        "summary": "A vulnerability affecting cPanel has been identified, potentially compromising 1.5 million servers, requiring urgent patching and monitoring.",
+        "cluster_reference": "OVHcloud, o2switch, LWS : la faille cPanel qui expose 1,5 million de serveurs depuis février",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Government Sector Faces Cyber Threats Amid Global Events",
+        "summary": "The government sector is experiencing increased cyber threats, particularly in light of recent global rights events, warranting heightened vigilance.",
+        "cluster_reference": "Global Rights Event Scrapped in Zambia Amid Sudden Government Decision",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Concerns Over Cloud Misconfigurations Persist",
+        "summary": "With multiple incidents related to cloud misconfigurations, organizations must reassess their cloud security configurations to mitigate risks.",
+        "cluster_reference": "cloud misconfiguration",
+        "impact_level": "medium"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Increase in Exploit-Led Attacks by 3.7%",
+        "change_indicator": "Exploit-led attacks increased from 13% to 16.7% this week, indicating a shift towards more sophisticated attack methods.",
+        "significance": "This trend suggests attackers are leveraging known vulnerabilities more effectively, necessitating immediate attention to patch management."
+      },
+      {
+        "pattern": "Decrease in Phishing Attacks by 9.1%",
+        "change_indicator": "Phishing incidents dropped to 0%, indicating a potential shift in attacker focus or improved defenses.",
+        "significance": "While this is a positive trend, it may also suggest attackers are pivoting to other methods like exploit-led attacks."
+      },
+      {
+        "pattern": "Token Abuse Attacks Increased by 3.8%",
+        "change_indicator": "Token abuse incidents rose to 8.3%, highlighting a growing risk in authentication mechanisms.",
+        "significance": "Organizations should enhance monitoring and security around token usage to prevent unauthorized access."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased Malware Threats",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Cyber-Enabled Cargo Theft Targeting Logistics",
+        "affected_sectors": [
+          "logistics",
+          "supply chain"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Vulnerabilities in Cloud Services",
+        "affected_sectors": [
+          "cloud services",
+          "IT"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Exploit-led attack percentage",
+        "threshold": ">20%",
+        "action": "Review and enhance vulnerability management processes."
+      },
+      {
+        "metric": "Malware incident count",
+        "threshold": ">10 incidents per week",
+        "action": "Initiate a comprehensive malware defense assessment."
+      },
+      {
+        "metric": "Token abuse percentage",
+        "threshold": ">10%",
+        "action": "Conduct a security audit on token management practices."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Review incidents related to malware",
+        "reason": "High volume of malware incidents suggests potential gaps in defenses.",
+        "cluster_ref": "malware"
+      },
+      {
+        "item": "Investigate cPanel vulnerability impacts",
+        "reason": "Critical vulnerability affecting numerous servers requires urgent attention to mitigate risks.",
+        "cluster_ref": "OVHcloud, o2switch, LWS : la faille cPanel qui expose 1,5 million de serveurs depuis février"
+      },
+      {
+        "item": "Assess security measures in logistics sector",
+        "reason": "Increased risk of cargo theft necessitates a review of current security protocols.",
+        "cluster_ref": "FBI Warns of Surge in Cyber-Enabled Cargo Theft Targeting Logistics Firms"
+      }
+    ]
+  }
+}

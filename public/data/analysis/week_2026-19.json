@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-05-11T00:48:37.617Z",
+  "pipeline_run_id": "run_2026-05-11T0048",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-19.json",
+  "aggregate_sha256": "5d2f9a98cfb987a006aa7f8bacd52a0ad1712d881808b0ea66cdc58036bedf4f",
+  "code_commit": "a7d939aa3339edc1ee6eac2765b60e3830c3ffc7",
+  "token_usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 729,
+    "total_tokens": 2427,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 7.43,
+  "analysis": {
+    "week_start": "2026-05-04",
+    "week_end": "2026-05-10",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks may indicate a growing trend of vulnerability exploitation.",
+        "why_now": "Exploit-led attacks increased by 3.7% this week, reaching 16.7% of attack types.",
+        "supporting_signals": [
+          "exploit_led_pct: 16.7",
+          "deltas_vs_last_week: exploit_led_pct: 3.7"
+        ],
+        "counter_signals": [
+          "incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor exploit-led attack reports for the next two weeks to see if the trend continues.",
+          "Analyze the types of vulnerabilities being exploited to identify common factors."
+        ]
+      },
+      {
+        "claim": "Phishing attacks are currently not a significant threat this week.",
+        "why_now": "Phishing attacks decreased by 9.1% and account for 0% of attack types this week.",
+        "supporting_signals": [
+          "phishing_pct: 0.0",
+          "deltas_vs_last_week: phishing_pct: -9.1"
+        ],
+        "counter_signals": [
+          "None"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Review phishing incident reports from the past month to confirm the decline.",
+          "Check for any changes in phishing tactics that might not be captured in current data."
+        ]
+      },
+      {
+        "claim": "The theme of malware is the most prevalent in this week's cybersecurity landscape.",
+        "why_now": "Malware is the top theme with the highest confidence and item count.",
+        "supporting_signals": [
+          "top_themes: malware, confidence: 0.7666666666666666, item_count: 8",
+          "counts: total_items: 12"
+        ],
+        "counter_signals": [
+          "None"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track the number of malware-related incidents in the upcoming weeks.",
+          "Compare with historical data to determine if this is an anomaly or a consistent pattern."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific types of malware that are contributing to the high theme confidence.",
+        "why_it_matters": "Understanding the types of malware can help in tailoring defenses and responses.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports specifying malware types."
+      },
+      {
+        "unknown": "Reasons for the absence of incident-related data this week.",
+        "why_it_matters": "Incident data is crucial for understanding the real-world impact of threats.",
+        "what_data_would_reduce_uncertainty": "Access to incident reports or alerts that were filtered out or not captured."
+      },
+      {
+        "unknown": "The impact of the source concentration warning on data reliability.",
+        "why_it_matters": "High source concentration might skew the perception of threat landscapes.",
+        "what_data_would_reduce_uncertainty": "Diversity analysis of sources over multiple weeks to assess bias."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "20%",
+        "why_it_matters": "A further increase could indicate a significant shift in attack strategies.",
+        "recommended_action": "Initiate a review of current patch management processes if threshold is crossed."
+      },
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "5%",
+        "why_it_matters": "A rise could signal a resurgence of phishing threats.",
+        "recommended_action": "Increase user awareness training if threshold is crossed."
+      },
+      {
+        "signal": "Malware theme confidence",
+        "threshold": "0.8",
+        "why_it_matters": "A high confidence level suggests a dominant threat theme.",
+        "recommended_action": "Conduct a focused malware threat assessment if threshold is crossed."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
