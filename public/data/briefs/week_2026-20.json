@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-05-18T00:51:01.757Z",
+  "week_start": "2026-05-11",
+  "week_end": "2026-05-17",
+  "week_year": 2026,
+  "week_number": 20,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 753,
+    "total_tokens": 2429,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007032,
+  "duration_seconds": 10.29,
+  "aggregate_sha256": "8d318b29f0f34ff76dfa521ac00f4207f6516808d8fe90f1135a59698dacd9a0",
+  "brief": {
+    "week_start": "2026-05-11",
+    "week_end": "2026-05-17",
+    "top_5_things": [
+      {
+        "headline": "AI Adoption in Security Grows Amid Alert Overload",
+        "summary": "Security teams are increasingly leveraging AI to manage alert fatigue, indicating a shift towards automation in threat detection.",
+        "cluster_reference": "Security teams are turning to AI to survive alert overload",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Malware Found in JDownloader Installers for 24 Hours",
+        "summary": "Malicious code was embedded in JDownloader installers, posing a significant risk to users downloading the software.",
+        "cluster_reference": "JDownloader piraté : les installeurs Windows et Linux contenaient un malware pendant 24 heures",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "California's $12.75M Settlement Highlights Privacy Risks",
+        "summary": "The record settlement against General Motors underscores the growing regulatory scrutiny on data privacy and its implications for corporate compliance.",
+        "cluster_reference": "California Hits General Motors With Record $12.75 Million CCPA Privacy Settlement",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Emerging Threats in Cloud Misconfiguration",
+        "summary": "Increased incidents of cloud misconfiguration highlight vulnerabilities in cloud environments, necessitating enhanced security measures.",
+        "cluster_reference": "cloud misconfiguration",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Phishing Attacks on the Rise, Particularly Spear Phishing",
+        "summary": "Phishing incidents have surged by 13%, with spear phishing becoming a notable concern for organizations.",
+        "cluster_reference": "phishing",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Phishing incidents increased by 13%",
+        "change_indicator": "Phishing attacks are becoming more prevalent, indicating a need for heightened awareness and training among employees.",
+        "significance": "This rise in phishing could lead to increased data breaches if not addressed."
+      },
+      {
+        "pattern": "Ransomware incidents decreased by 5.8%",
+        "change_indicator": "A slight decline in ransomware attacks suggests potential improvements in defensive measures.",
+        "significance": "Continued vigilance is necessary to maintain this downward trend."
+      },
+      {
+        "pattern": "Token abuse incidents increased by 5.8%",
+        "change_indicator": "An uptick in token abuse incidents signals a growing threat to authentication mechanisms.",
+        "significance": "Organizations must review and strengthen their token management practices."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased phishing and spear phishing attacks",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Malware incidents from trusted software sources",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Cloud misconfiguration vulnerabilities",
+        "affected_sectors": [
+          "government"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Phishing attack rate",
+        "threshold": ">15%",
+        "action": "Review security training and awareness programs if threshold is crossed."
+      },
+      {
+        "metric": "Malware incidents from trusted software sources",
+        "threshold": ">2 incidents per week",
+        "action": "Conduct a security audit of software distribution channels if threshold is crossed."
+      },
+      {
+        "metric": "Cloud misconfiguration alerts",
+        "threshold": ">10 alerts per week",
+        "action": "Initiate a review of cloud security configurations if threshold is crossed."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Review AI implementation in security operations",
+        "reason": "To assess effectiveness and identify potential gaps in AI-driven threat detection.",
+        "cluster_ref": "Security teams are turning to AI to survive alert overload"
+      },
+      {
+        "item": "Investigate malware incidents in JDownloader",
+        "reason": "To understand the impact and prevent future occurrences of similar threats.",
+        "cluster_ref": "JDownloader piraté : les installeurs Windows et Linux contenaient un malware pendant 24 heures"
+      },
+      {
+        "item": "Evaluate the implications of the CCPA settlement",
+        "reason": "To ensure compliance and mitigate risks associated with data privacy regulations.",
+        "cluster_ref": "California Hits General Motors With Record $12.75 Million CCPA Privacy Settlement"
+      }
+    ]
+  }
+}

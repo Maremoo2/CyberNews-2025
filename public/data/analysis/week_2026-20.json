@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-05-18T00:50:51.196Z",
+  "pipeline_run_id": "run_2026-05-18T0050",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-20.json",
+  "aggregate_sha256": "8d318b29f0f34ff76dfa521ac00f4207f6516808d8fe90f1135a59698dacd9a0",
+  "code_commit": "af0e332c12bad98e388b2ed6554bdf6591596c1e",
+  "token_usage": {
+    "prompt_tokens": 1681,
+    "completion_tokens": 712,
+    "total_tokens": 2393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 10.11,
+  "analysis": {
+    "week_start": "2026-05-11",
+    "week_end": "2026-05-17",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "Phishing attacks are becoming more prevalent this week.",
+        "why_now": "Phishing attacks increased by 13.0% compared to last week.",
+        "supporting_signals": [
+          "phishing_pct: 18.2",
+          "phishing theme item_count: 4"
+        ],
+        "counter_signals": [
+          "total_items: 11",
+          "incident_related: 0"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor phishing attack reports in the upcoming weeks to see if the trend continues.",
+          "Compare phishing attack data with other weeks to identify any anomalies."
+        ]
+      },
+      {
+        "claim": "AI and machine learning are increasingly relevant in cybersecurity discussions this week.",
+        "why_now": "AI-ML theme has the highest confidence and item count among top themes.",
+        "supporting_signals": [
+          "ai-ml theme confidence: 0.8272727272727274",
+          "ai-ml theme item_count: 9"
+        ],
+        "counter_signals": [
+          "source_concentration_warning: 64% from top 3 feeds"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track the number of AI-ML related articles in subsequent weeks.",
+          "Assess the impact of AI-ML discussions on cybersecurity practices."
+        ]
+      },
+      {
+        "claim": "Cloud security issues are a growing concern this week.",
+        "why_now": "Cloud-related themes appear multiple times in the top themes list.",
+        "supporting_signals": [
+          "cloud misconfiguration item_count: 2",
+          "cloud-native attacks item_count: 2",
+          "cloud item_count: 2"
+        ],
+        "counter_signals": [
+          "cloud misconfiguration confidence: 0.5727272727272728"
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Evaluate the frequency of cloud security incidents in future reports.",
+          "Analyze the impact of cloud misconfigurations on overall security posture."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific nature of the 'incident_related' category being zero.",
+        "why_it_matters": "Understanding incident details could provide insights into current threat landscapes.",
+        "what_data_would_reduce_uncertainty": "Detailed incident reports or descriptions."
+      },
+      {
+        "unknown": "The reasons behind the decrease in exploit-led and ransomware percentages.",
+        "why_it_matters": "Understanding these decreases could help in assessing the effectiveness of current security measures.",
+        "what_data_would_reduce_uncertainty": "Data on security measures implemented and their impact on these attack types."
+      },
+      {
+        "unknown": "The impact of source concentration on the reliability of the data.",
+        "why_it_matters": "High source concentration might skew the perception of threat trends.",
+        "what_data_would_reduce_uncertainty": "Data from a more diverse set of sources."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "Above 20%",
+        "why_it_matters": "A significant increase could indicate a rising threat level.",
+        "recommended_action": "Increase monitoring and awareness efforts if threshold is crossed."
+      },
+      {
+        "signal": "AI-ML theme item count",
+        "threshold": "Above 10",
+        "why_it_matters": "A rise could indicate growing importance or reliance on AI in cybersecurity.",
+        "recommended_action": "Evaluate AI-related strategies and tools if threshold is crossed."
+      },
+      {
+        "signal": "Cloud-related themes item count",
+        "threshold": "Above 3",
+        "why_it_matters": "An increase could signify escalating concerns about cloud security.",
+        "recommended_action": "Review cloud security protocols and configurations if threshold is crossed."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "sector_distribution",
+      "top_clusters",
+      "quality_metadata"
+    ]
+  }
+}
