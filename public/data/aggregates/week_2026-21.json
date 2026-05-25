@@ -1,0 +1,123 @@
+{
+  "week_start": "2026-05-18",
+  "week_end": "2026-05-24",
+  "week_number": 21,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 13,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "15.5",
+    "phishing_pct": "-6.0",
+    "token_abuse_pct": "2.3",
+    "ransomware_pct": "-0.8"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "30.8",
+    "phishing_pct": "0.0",
+    "token_abuse_pct": "7.7",
+    "ransomware_pct": "7.7"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.9,
+      "item_count": 14
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.8384615384615385,
+      "item_count": 11
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.6230769230769231,
+      "item_count": 4
+    },
+    {
+      "theme": "ransomware",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "apt",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "cloud misconfiguration",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "cloud-native attacks",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    },
+    {
+      "theme": "cloud",
+      "confidence": 0.5615384615384615,
+      "item_count": 2
+    }
+  ],
+  "sector_distribution": [],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "NCSC Calls for Tight Security and Human Oversight as Agentic AI Use Expands",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "Shadow AI Is Growing in Silence While Enterprise Security Falls Behind",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "The AI backdoor your security stack is not built to see",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "Lyrie: Open-source autonomous pentesting agent",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    },
+    {
+      "title": "AI shrinks vulnerability exploitation window to hours",
+      "size": 1,
+      "confidence": 0.6269230769230769
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "69% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Help Net Security",
+        "count": 5
+      },
+      {
+        "source": "The Cyber Express",
+        "count": 2
+      },
+      {
+        "source": "Dark Reading",
+        "count": 2
+      }
+    ],
+    "total_sources": 6
+  }
+}

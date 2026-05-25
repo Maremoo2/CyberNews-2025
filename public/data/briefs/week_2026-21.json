@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-25T03:48:03.580Z",
+  "week_start": "2026-05-18",
+  "week_end": "2026-05-24",
+  "week_year": 2026,
+  "week_number": 21,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1634,
+    "completion_tokens": 797,
+    "total_tokens": 2431,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007233,
+  "duration_seconds": 11.16,
+  "aggregate_sha256": "a50765ce5634efca75f6010a9337ec5d233be49775b22b23844a5eae060a1701",
+  "brief": {
+    "week_start": "2026-05-18",
+    "week_end": "2026-05-24",
+    "top_5_things": [
+      {
+        "headline": "NCSC Urges Enhanced Security for AI Applications",
+        "summary": "The National Cyber Security Centre emphasizes the need for tighter security and human oversight as the use of agentic AI expands, highlighting vulnerabilities in current security frameworks.",
+        "cluster_reference": "NCSC Calls for Tight Security and Human Oversight as Agentic AI Use Expands",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Emerging Threat: Shadow AI in Enterprises",
+        "summary": "Shadow AI is proliferating unnoticed, posing significant risks as enterprise security measures lag behind these advancements.",
+        "cluster_reference": "Shadow AI Is Growing in Silence While Enterprise Security Falls Behind",
+        "impact_level": "high"
+      },
+      {
+        "headline": "AI Backdoors: A New Security Blind Spot",
+        "summary": "Recent findings reveal that existing security stacks are ill-equipped to detect AI backdoors, increasing the risk of exploitation.",
+        "cluster_reference": "The AI backdoor your security stack is not built to see",
+        "impact_level": "critical"
+      },
+      {
+        "headline": "Open-Source Pentesting Tools on the Rise",
+        "summary": "The introduction of open-source autonomous pentesting agents like Lyrie is changing the landscape of vulnerability testing, necessitating updates in security protocols.",
+        "cluster_reference": "Lyrie: Open-source autonomous pentesting agent",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "AI Reduces Vulnerability Exploitation Window",
+        "summary": "AI technologies are significantly shortening the window for vulnerability exploitation, which could lead to faster attacks if not addressed.",
+        "cluster_reference": "AI shrinks vulnerability exploitation window to hours",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Exploit-led attacks increased by 15.5%",
+        "change_indicator": "Exploit-led attacks now represent 30.8% of total incidents, indicating a shift in attack strategies that require immediate attention.",
+        "significance": "This trend suggests attackers are focusing more on exploiting vulnerabilities rather than traditional phishing methods."
+      },
+      {
+        "pattern": "Phishing attacks decreased by 6%",
+        "change_indicator": "Phishing incidents have dropped to 0%, indicating a potential shift in attacker focus or improved defenses.",
+        "significance": "While this is a positive trend, it may also suggest attackers are pivoting to more sophisticated methods."
+      },
+      {
+        "pattern": "Token abuse incidents increased by 2.3%",
+        "change_indicator": "Token abuse now accounts for 7.7% of attacks, highlighting a growing concern that needs to be monitored closely.",
+        "significance": "This increase indicates a potential rise in credential theft and misuse."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased vulnerability to AI-driven attacks",
+        "affected_sectors": [],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Exploitation of AI backdoors in security systems",
+        "affected_sectors": [],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Growth of shadow AI leading to unmonitored risks",
+        "affected_sectors": [],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Exploit-led attack percentage",
+        "threshold": "Above 30%",
+        "action": "Investigate underlying causes and enhance defenses."
+      },
+      {
+        "metric": "Token abuse incidents",
+        "threshold": "Above 10%",
+        "action": "Review authentication protocols and user access controls."
+      },
+      {
+        "metric": "New AI-related vulnerabilities reported",
+        "threshold": "More than 5 incidents in a week",
+        "action": "Conduct a security audit and update response strategies."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "NCSC's call for security measures on AI",
+        "reason": "To assess the implications for current AI implementations and necessary adjustments to security protocols.",
+        "cluster_ref": "NCSC Calls for Tight Security and Human Oversight as Agentic AI Use Expands"
+      },
+      {
+        "item": "Shadow AI growth and its impact",
+        "reason": "To evaluate the risks associated with unmonitored AI applications in the enterprise environment.",
+        "cluster_ref": "Shadow AI Is Growing in Silence While Enterprise Security Falls Behind"
+      },
+      {
+        "item": "AI backdoor vulnerabilities",
+        "reason": "To determine the potential impact on existing security frameworks and necessary updates.",
+        "cluster_ref": "The AI backdoor your security stack is not built to see"
+      }
+    ]
+  }
+}
