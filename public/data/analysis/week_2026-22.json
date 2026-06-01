@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-06-01T04:02:28.645Z",
+  "pipeline_run_id": "run_2026-06-01T0402",
+  "model": "gpt-4o-2024-08-06",
+  "prompt_version": "v1.0",
+  "schema_version": "v1.0",
+  "aggregate_path": "public/data/aggregates/week_2026-22.json",
+  "aggregate_sha256": "75b1ce72a4bd3449ec04c02fb748115a5f0d260fe77c0b2eac837aac3c06f91b",
+  "code_commit": "97cf5137d6816dd511b8339f799c1f67024f4a3d",
+  "token_usage": {
+    "prompt_tokens": 1743,
+    "completion_tokens": 737,
+    "total_tokens": 2480,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "duration_seconds": 7.76,
+  "analysis": {
+    "week_start": "2026-05-25",
+    "week_end": "2026-05-31",
+    "disclaimer": "AI-assisted analysis. Hypotheses, not facts.",
+    "hypotheses": [
+      {
+        "claim": "The increase in exploit-led attacks may be linked to the active exploitation of a Drupal vulnerability.",
+        "why_now": "Exploit-led attacks increased by 11.1%, and a Drupal vulnerability is mentioned as actively exploited.",
+        "supporting_signals": [
+          "exploit_led_pct: 28.6",
+          "'Universités, mairies, sites .gouv.fr : une faille Drupal activement exploitée' cluster"
+        ],
+        "counter_signals": [
+          "No incident-related items reported"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Monitor for additional reports of Drupal vulnerability exploitation.",
+          "Check for any new patches or advisories related to Drupal vulnerabilities."
+        ]
+      },
+      {
+        "claim": "AI-ML themes are increasingly relevant in cybersecurity discussions this week.",
+        "why_now": "AI-ML is the top theme with the highest item count and confidence.",
+        "supporting_signals": [
+          "theme: ai-ml, item_count: 13, confidence: 0.7476190476190476",
+          "total_items: 21"
+        ],
+        "counter_signals": [
+          "No direct incident-related items linked to AI-ML"
+        ],
+        "confidence": "medium",
+        "validation_steps": [
+          "Track future reports to see if AI-ML continues to be a dominant theme.",
+          "Analyze the context of AI-ML mentions in security reports."
+        ]
+      },
+      {
+        "claim": "Phishing attacks are becoming more prevalent compared to other types of attacks.",
+        "why_now": "Phishing attack percentage increased by 5.1% this week.",
+        "supporting_signals": [
+          "phishing_pct: 9.5",
+          "deltas_vs_last_week: phishing_pct: 5.1"
+        ],
+        "counter_signals": [
+          "Phishing is still less prevalent than exploit-led attacks."
+        ],
+        "confidence": "low",
+        "validation_steps": [
+          "Monitor phishing attack reports in the coming weeks.",
+          "Compare phishing trends against other attack types."
+        ]
+      }
+    ],
+    "uncertainties": [
+      {
+        "unknown": "The specific nature of the AI-ML theme's relevance to cybersecurity this week.",
+        "why_it_matters": "Understanding this could help in identifying emerging threats or trends.",
+        "what_data_would_reduce_uncertainty": "Detailed reports or case studies linking AI-ML to specific security incidents."
+      },
+      {
+        "unknown": "Why there are no incident-related items reported despite the increase in exploit-led attacks.",
+        "why_it_matters": "Incident reports could provide insights into the impact and response to these attacks.",
+        "what_data_would_reduce_uncertainty": "Access to incident reports or more detailed attack narratives."
+      },
+      {
+        "unknown": "The exact impact of the phishing attacks mentioned in the data.",
+        "why_it_matters": "Understanding the impact can help in prioritizing defense strategies.",
+        "what_data_would_reduce_uncertainty": "Detailed phishing incident reports or victim impact assessments."
+      }
+    ],
+    "signals_to_watch": [
+      {
+        "signal": "Exploit-led attack percentage",
+        "threshold": "Above 30%",
+        "why_it_matters": "A sustained increase could indicate a trend or new vulnerability being exploited.",
+        "recommended_action": "Investigate potential new vulnerabilities being targeted."
+      },
+      {
+        "signal": "AI-ML theme item count",
+        "threshold": "Above 15 items",
+        "why_it_matters": "A significant increase could indicate a shift in focus or emerging threats.",
+        "recommended_action": "Analyze the context and implications of AI-ML mentions."
+      },
+      {
+        "signal": "Phishing attack percentage",
+        "threshold": "Above 10%",
+        "why_it_matters": "An increase could signal a growing threat that needs immediate attention.",
+        "recommended_action": "Enhance phishing detection and response measures."
+      }
+    ],
+    "inputs_used": [
+      "week_start",
+      "week_end",
+      "counts",
+      "deltas_vs_last_week",
+      "attack_type_percentages",
+      "top_themes",
+      "top_clusters"
+    ]
+  }
+}

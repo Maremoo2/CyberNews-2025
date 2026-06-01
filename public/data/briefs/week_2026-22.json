@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-06-01T04:02:38.974Z",
+  "week_start": "2026-05-25",
+  "week_end": "2026-05-31",
+  "week_year": 2026,
+  "week_number": 22,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 755,
+    "total_tokens": 2493,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007137000000000001,
+  "duration_seconds": 10.07,
+  "aggregate_sha256": "75b1ce72a4bd3449ec04c02fb748115a5f0d260fe77c0b2eac837aac3c06f91b",
+  "brief": {
+    "week_start": "2026-05-25",
+    "week_end": "2026-05-31",
+    "top_5_things": [
+      {
+        "headline": "Increased Exploit-Led Attacks at 28.6%",
+        "summary": "Exploit-led attacks have surged to 28.6% of total incidents, indicating a critical area for defense focus.",
+        "cluster_reference": "Top Themes: ai-ml, malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Phishing Incidents Rise by 5.1%",
+        "summary": "Phishing attacks have increased by 5.1%, now comprising 9.5% of total incidents, necessitating enhanced employee training.",
+        "cluster_reference": "Top Themes: phishing, spear phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Government and Technology Sectors Affected",
+        "summary": "Recent incidents have impacted the government and technology sectors, each representing 4.8% of total incidents, highlighting vulnerabilities in these areas.",
+        "cluster_reference": "Sector Distribution",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Ransomware and Token Abuse Decrease",
+        "summary": "Ransomware and token abuse incidents have decreased by 1.1% and 2.3%, respectively, suggesting potential improvements in security measures.",
+        "cluster_reference": "Top Themes: ransomware",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Critical Drupal Vulnerability Exploited",
+        "summary": "A significant Drupal vulnerability is being actively exploited, affecting public services, which requires immediate attention.",
+        "cluster_reference": "Top Clusters: Drupal vulnerability",
+        "impact_level": "critical"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Exploit-led attacks increased by 11.1%",
+        "change_indicator": "Exploit-led attacks up 11.1% from last week",
+        "significance": "This trend indicates a shift in attacker focus, requiring immediate strategic adjustments."
+      },
+      {
+        "pattern": "Phishing attacks up by 5.1%",
+        "change_indicator": "Phishing incidents increased by 5.1% from last week",
+        "significance": "Rising phishing rates necessitate reinforced employee awareness and security protocols."
+      },
+      {
+        "pattern": "Decrease in ransomware and token abuse",
+        "change_indicator": "Ransomware down 1.1%, token abuse down 2.3%",
+        "significance": "This decline suggests effectiveness in current mitigation strategies, but vigilance is still required."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Exploitation of Drupal Vulnerability",
+        "affected_sectors": [
+          "government",
+          "technology"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Increased Phishing Attacks Targeting Employees",
+        "affected_sectors": [
+          "all sectors"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Potential for Exploit-led Attacks to Compromise Systems",
+        "affected_sectors": [
+          "technology",
+          "government"
+        ],
+        "likelihood": "high"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Exploit-led attack percentage",
+        "threshold": "Above 30%",
+        "action": "Review security protocols and incident response plans."
+      },
+      {
+        "metric": "Phishing incident reports",
+        "threshold": "More than 10% of total incidents",
+        "action": "Initiate employee retraining on phishing awareness."
+      },
+      {
+        "metric": "Ransomware incidents",
+        "threshold": "More than 5% of total incidents",
+        "action": "Conduct a full security audit and enhance ransomware defenses."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "Review Drupal vulnerability exploitation",
+        "reason": "Active exploitation poses a significant risk to public services.",
+        "cluster_ref": "Universités, mairies, sites .gouv.fr : une faille Drupal activement exploitée."
+      },
+      {
+        "item": "Assess AI/ML related incidents",
+        "reason": "High confidence in AI/ML theme indicates potential emerging threats.",
+        "cluster_ref": "Weaponizing SBOMs: A Practical Guide for Security Practitioners"
+      },
+      {
+        "item": "Investigate phishing incidents",
+        "reason": "Rising phishing attacks require a deeper understanding of tactics used.",
+        "cluster_ref": "Piégées par de faux SMS et de faux conseillers."
+      }
+    ]
+  }
+}
