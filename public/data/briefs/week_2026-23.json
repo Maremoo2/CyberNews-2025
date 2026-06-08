@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-06-08T00:58:20.624Z",
+  "week_start": "2026-06-01",
+  "week_end": "2026-06-07",
+  "week_year": 2026,
+  "week_number": 23,
+  "model": "gpt-4o-mini-2024-07-18",
+  "token_usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 742,
+    "total_tokens": 2521,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "cost": 0.0007120499999999999,
+  "duration_seconds": 9.9,
+  "aggregate_sha256": "ab5d00bf93b8c09fe778a7c7851894f1f4f242c690014dd5e4f945c35d5d5c52",
+  "brief": {
+    "week_start": "2026-06-01",
+    "week_end": "2026-06-07",
+    "top_5_things": [
+      {
+        "headline": "Malware Incidents Dominate Cybersecurity Landscape",
+        "summary": "Malware-related incidents accounted for 68.6% of reported issues this week, indicating a significant threat level. Organizations must enhance their malware defenses and response strategies.",
+        "cluster_reference": "malware",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Emerging Threat: ChatGPhish Manipulation Techniques",
+        "summary": "A new phishing technique using prompt injection to manipulate AI responses has been identified, highlighting the need for increased vigilance in AI-related security measures.",
+        "cluster_reference": "New ChatGPhish Technique Uses Prompt Injection",
+        "impact_level": "high"
+      },
+      {
+        "headline": "Vulnerabilities in Microsoft Products Under Scrutiny",
+        "summary": "Recent vulnerabilities in Microsoft products have been reported, necessitating immediate patching and review of security protocols to mitigate risks.",
+        "cluster_reference": "Windows 11 : Microsoft corrige le bug",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Phishing Attacks Continue to Evolve",
+        "summary": "Phishing incidents have risen slightly by 0.4%, emphasizing the importance of ongoing employee training and awareness programs to combat these threats.",
+        "cluster_reference": "phishing",
+        "impact_level": "medium"
+      },
+      {
+        "headline": "Data Breaches Remain a Significant Concern",
+        "summary": "Multiple reports of data breaches highlight the ongoing risk to sensitive information, urging organizations to strengthen their data protection measures.",
+        "cluster_reference": "data breach",
+        "impact_level": "high"
+      }
+    ],
+    "new_patterns": [
+      {
+        "pattern": "Exploit-led attacks increased by 9.8%",
+        "change_indicator": "Exploit-led attacks are now 22.9% of total incidents, up from last week.",
+        "significance": "This uptick indicates a potential shift in attacker tactics, requiring enhanced monitoring and defensive strategies."
+      },
+      {
+        "pattern": "Ransomware incidents decreased by 2.0%",
+        "change_indicator": "Ransomware now accounts for only 2.9% of total incidents, down from last week.",
+        "significance": "While a decrease is positive, organizations should remain prepared for potential resurgence."
+      },
+      {
+        "pattern": "Token abuse incidents decreased by 5.6%",
+        "change_indicator": "Token abuse is now at 0.0%, a significant drop from previous weeks.",
+        "significance": "This decline may suggest improved security measures or a shift in attacker focus."
+      }
+    ],
+    "top_risks": [
+      {
+        "risk": "Increased malware threats targeting technology sector",
+        "affected_sectors": [
+          "technology"
+        ],
+        "likelihood": "high"
+      },
+      {
+        "risk": "Phishing attacks exploiting AI technologies",
+        "affected_sectors": [
+          "education",
+          "healthcare"
+        ],
+        "likelihood": "medium"
+      },
+      {
+        "risk": "Vulnerabilities in widely used software products",
+        "affected_sectors": [
+          "government",
+          "manufacturing"
+        ],
+        "likelihood": "medium"
+      }
+    ],
+    "watch_signals": [
+      {
+        "metric": "Malware incident reports",
+        "threshold": ">30 incidents",
+        "action": "Review and enhance malware defenses if threshold is crossed."
+      },
+      {
+        "metric": "Phishing attack attempts",
+        "threshold": ">10% increase week-over-week",
+        "action": "Initiate employee training and awareness programs if threshold is crossed."
+      },
+      {
+        "metric": "Reported vulnerabilities in software",
+        "threshold": ">5 critical vulnerabilities",
+        "action": "Conduct a thorough review of security protocols if threshold is crossed."
+      }
+    ],
+    "manual_review": [
+      {
+        "item": "New ChatGPhish Technique",
+        "reason": "Investigate the implications of prompt injection on AI security.",
+        "cluster_ref": "New ChatGPhish Technique Uses Prompt Injection"
+      },
+      {
+        "item": "Microsoft security vulnerabilities",
+        "reason": "Assess the impact of recent vulnerabilities on organizational security.",
+        "cluster_ref": "Windows 11 : Microsoft corrige le bug"
+      },
+      {
+        "item": "Data breach reports",
+        "reason": "Review the nature and extent of reported data breaches to enhance response strategies.",
+        "cluster_ref": "data breach"
+      }
+    ]
+  }
+}

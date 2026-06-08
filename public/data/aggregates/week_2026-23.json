@@ -1,0 +1,149 @@
+{
+  "week_start": "2026-06-01",
+  "week_end": "2026-06-07",
+  "week_number": 23,
+  "week_year": 2026,
+  "counts": {
+    "total_items": 35,
+    "incident_related": 0,
+    "cluster_count": 5
+  },
+  "deltas_vs_last_week": {
+    "exploit_led_pct": "9.8",
+    "phishing_pct": "0.4",
+    "token_abuse_pct": "-5.6",
+    "ransomware_pct": "-2.0"
+  },
+  "attack_type_percentages": {
+    "exploit_led_pct": "22.9",
+    "phishing_pct": "8.6",
+    "token_abuse_pct": "0.0",
+    "ransomware_pct": "2.9"
+  },
+  "top_themes": [
+    {
+      "theme": "malware",
+      "confidence": 0.7742857142857142,
+      "item_count": 24
+    },
+    {
+      "theme": "ai-ml",
+      "confidence": 0.74,
+      "item_count": 21
+    },
+    {
+      "theme": "vulnerability",
+      "confidence": 0.5914285714285714,
+      "item_count": 8
+    },
+    {
+      "theme": "phishing",
+      "confidence": 0.5457142857142857,
+      "item_count": 4
+    },
+    {
+      "theme": "data breach",
+      "confidence": 0.5457142857142857,
+      "item_count": 4
+    },
+    {
+      "theme": "data-breach",
+      "confidence": 0.5457142857142857,
+      "item_count": 4
+    },
+    {
+      "theme": "microsoft",
+      "confidence": 0.5342857142857143,
+      "item_count": 3
+    },
+    {
+      "theme": "palo alto",
+      "confidence": 0.5342857142857143,
+      "item_count": 3
+    },
+    {
+      "theme": "spear phishing",
+      "confidence": 0.5228571428571429,
+      "item_count": 2
+    },
+    {
+      "theme": "cloud misconfiguration",
+      "confidence": 0.5228571428571429,
+      "item_count": 2
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "technology",
+      "count": 3,
+      "percentage": "8.6"
+    },
+    {
+      "sector": "manufacturing",
+      "count": 2,
+      "percentage": "5.7"
+    },
+    {
+      "sector": "government",
+      "count": 1,
+      "percentage": "2.9"
+    },
+    {
+      "sector": "education",
+      "count": 1,
+      "percentage": "2.9"
+    },
+    {
+      "sector": "healthcare",
+      "count": 1,
+      "percentage": "2.9"
+    }
+  ],
+  "attack_chain_distribution": [],
+  "top_clusters": [
+    {
+      "title": "Windows 11 : Microsoft corrige le bug qui bloquait l’installation du Patch Tuesday de mai",
+      "size": 1,
+      "confidence": 0.61
+    },
+    {
+      "title": "Voici pourquoi vider votre cache ne suffit plus : Utiq piste votre foyer via votre opérateur",
+      "size": 1,
+      "confidence": 0.61
+    },
+    {
+      "title": "New ChatGPhish Technique Uses Prompt Injection to Manipulate ChatGPT Responses",
+      "size": 1,
+      "confidence": 0.61
+    },
+    {
+      "title": "CBSE Engages IIT Experts After Admitting OSM Security Vulnerabilities",
+      "size": 1,
+      "confidence": 0.61
+    },
+    {
+      "title": "How Canva scaled to 260+M users while elevating security and productivity",
+      "size": 1,
+      "confidence": 0.61
+    }
+  ],
+  "quality_metadata": {
+    "source_concentration_warning": "54% from top 3 feeds",
+    "avg_confidence": 0,
+    "top_sources": [
+      {
+        "source": "Help Net Security",
+        "count": 10
+      },
+      {
+        "source": "Infosecurity Magazine",
+        "count": 5
+      },
+      {
+        "source": "CM-Alliance Cybersecurity Blog",
+        "count": 4
+      }
+    ],
+    "total_sources": 13
+  }
+}
